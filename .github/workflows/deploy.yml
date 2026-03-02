@@ -1,0 +1,80 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build
+        run: npm run build
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './dist'
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+```
+
+5. Click **"Commit changes"** → **"Commit changes"**
+
+---
+
+## STEP 5: Enable GitHub Pages
+
+1. On your repo page, click **"Settings"** (in the top menu bar — next to Insights)
+2. In the left sidebar, click **"Pages"**
+3. Under **"Source"**, open the dropdown and select **"GitHub Actions"**
+
+---
+
+## STEP 6: Check if It's Working
+
+1. Click the **"Actions"** tab (top menu bar of your repo)
+2. You should see a workflow running (orange dot 🟡)
+3. Wait 2-3 minutes
+4. If it turns green ✅ — your site is live!
+5. If it turns red ❌ — click on it, tell me what the error says
+
+---
+
+## STEP 7: Visit Your Site
+
+Your dashboard is live at:
+```
+https://YOUR_USERNAME.github.io/india-risk-dashboard/
