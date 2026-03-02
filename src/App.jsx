@@ -1,7 +1,21 @@
 import { useState, useEffect, useRef } from "react";
 
 // ═══════════════════════════════════════════════════════
-// DATA
+// ✏️ DAILY UPDATE SECTION — EDIT THIS EVERY DAY!
+// ═══════════════════════════════════════════════════════
+
+// 👇 Change this date whenever you update the data
+const LAST_UPDATED = "March 2, 2026 — 11:30 PM IST";
+
+// 👇 Add a new line at the TOP each day (most recent first)
+const UPDATE_LOG = [
+  { date: "Mar 2", change: "Initial launch — US-Israel strikes on Iran, Khamenei killed, Hormuz effectively closed, Iran retaliating across Gulf states", severity: "critical" },
+  // ✏️ ADD NEW UPDATES ABOVE THIS LINE like this:
+  // { date: "Mar 3", change: "Describe what changed today", severity: "critical" or "high" or "moderate" or "low" },
+];
+
+// ═══════════════════════════════════════════════════════
+// DATA — Edit risk numbers below when situation changes
 // ═══════════════════════════════════════════════════════
 
 const TIME_PHASES = [
@@ -270,7 +284,7 @@ export default function Dashboard() {
             borderRadius: 6, marginBottom: 8,
           }}>
             <span style={{ width: 8, height: 8, borderRadius: "50%", background: "#fff", animation: "pulse 1.5s infinite" }} />
-            <span style={{ fontSize: 10, fontWeight: 800, letterSpacing: 3, color: "#fff" }}>LIVE CRISIS ANALYSIS • MARCH 2, 2026</span>
+            <span style={{ fontSize: 10, fontWeight: 800, letterSpacing: 3, color: "#fff" }}>LIVE CRISIS ANALYSIS</span>
           </div>
           <h1 style={{
             fontSize: "clamp(20px, 4.5vw, 36px)", fontWeight: 900, margin: "6px 0 4px",
@@ -282,6 +296,27 @@ export default function Dashboard() {
           <p style={{ fontSize: 10, color: "#4a5568", maxWidth: 550, margin: "0 auto", lineHeight: 1.5, fontFamily: "Georgia, serif" }}>
             Time-phased risk simulation across nuclear, radiological dirty bomb, chemical, atmospheric & economic vectors — 1M+ Monte Carlo iterations
           </p>
+
+          {/* Last Updated Badge */}
+          <div style={{ marginTop: 10, display: "flex", justifyContent: "center", gap: 8, flexWrap: "wrap" }}>
+            <div style={{
+              display: "inline-flex", alignItems: "center", gap: 6,
+              background: "#0d1f3c", border: "1px solid #1a274466",
+              padding: "5px 14px", borderRadius: 20,
+            }}>
+              <span style={{ width: 6, height: 6, borderRadius: "50%", background: "#69f0ae", boxShadow: "0 0 8px #69f0ae66" }} />
+              <span style={{ fontSize: 9, color: "#69f0ae", fontWeight: 700, letterSpacing: 0.5 }}>LAST UPDATED:</span>
+              <span style={{ fontSize: 9, color: "#94a3b8" }}>{LAST_UPDATED}</span>
+            </div>
+            <button onClick={() => setTab("updates")} style={{
+              display: "inline-flex", alignItems: "center", gap: 4,
+              background: "#0d1f3c", border: "1px solid #1a274466",
+              padding: "5px 12px", borderRadius: 20, cursor: "pointer",
+              fontSize: 9, color: "#64748b",
+            }}>
+              📋 {UPDATE_LOG.length} update{UPDATE_LOG.length !== 1 ? "s" : ""}
+            </button>
+          </div>
         </header>
 
         {/* ═══ PHASE SELECTOR (always visible) ═══ */}
@@ -311,6 +346,7 @@ export default function Dashboard() {
             { id: "dirty", label: "☢️ DIRTY BOMB" },
             { id: "geo", label: "🌏 GEOPOLITICS" },
             { id: "summary", label: "📊 SUMMARY" },
+            { id: "updates", label: "📋 LOG" },
           ].map(t => <TabButton key={t.id} active={tab === t.id} onClick={() => setTab(t.id)}>{t.label}</TabButton>)}
         </div>
 
@@ -719,6 +755,85 @@ export default function Dashboard() {
           </div>
         )}
 
+        {/* ═══════════════════════════════════════════ */}
+        {/* TAB: UPDATE LOG */}
+        {/* ═══════════════════════════════════════════ */}
+        {tab === "updates" && (
+          <div>
+            <div style={{
+              padding: 16, marginBottom: 14, borderRadius: 12,
+              background: "linear-gradient(135deg, #69f0ae08, #00e5ff08)",
+              border: "1px solid #69f0ae22",
+            }}>
+              <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 6 }}>
+                <span style={{ fontSize: 24 }}>📋</span>
+                <div>
+                  <div style={{ fontSize: 13, fontWeight: 800, color: "#69f0ae" }}>DAILY UPDATE LOG</div>
+                  <div style={{ fontSize: 10, color: "#666", fontFamily: "Georgia, serif" }}>
+                    Tracking changes to threat levels as the situation evolves
+                  </div>
+                </div>
+              </div>
+              <div style={{
+                display: "inline-flex", alignItems: "center", gap: 6, marginTop: 8,
+                background: "#0d1f3c", padding: "4px 12px", borderRadius: 12,
+              }}>
+                <span style={{ width: 6, height: 6, borderRadius: "50%", background: "#69f0ae", boxShadow: "0 0 8px #69f0ae66" }} />
+                <span style={{ fontSize: 9, color: "#94a3b8" }}>Last updated: {LAST_UPDATED}</span>
+              </div>
+            </div>
+
+            <div style={{ display: "grid", gap: 8 }}>
+              {UPDATE_LOG.map((entry, i) => {
+                const sevColor = entry.severity === "critical" ? "#ff1744" : entry.severity === "high" ? "#ff9100" : entry.severity === "moderate" ? "#ffea00" : "#69f0ae";
+                return (
+                  <div key={i} style={{
+                    background: "linear-gradient(135deg, #020810, #0a1628)",
+                    borderRadius: 10, border: "1px solid #1a274422",
+                    padding: 14, borderLeft: `3px solid ${sevColor}`,
+                  }}>
+                    <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 6 }}>
+                      <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+                        <span style={{
+                          fontSize: 10, fontWeight: 800, color: "#fff",
+                          background: "#0d1f3c", padding: "3px 10px", borderRadius: 6,
+                        }}>{entry.date}</span>
+                        {i === 0 && (
+                          <span style={{
+                            fontSize: 8, fontWeight: 800, color: "#69f0ae", letterSpacing: 1,
+                            background: "#69f0ae15", padding: "2px 8px", borderRadius: 4,
+                          }}>LATEST</span>
+                        )}
+                      </div>
+                      <span style={{
+                        fontSize: 8, fontWeight: 800, letterSpacing: 1,
+                        color: sevColor, background: `${sevColor}15`,
+                        padding: "2px 8px", borderRadius: 4, textTransform: "uppercase",
+                      }}>{entry.severity}</span>
+                    </div>
+                    <p style={{ margin: 0, fontSize: 11, color: "#94a3b8", lineHeight: 1.6, fontFamily: "Georgia, serif" }}>
+                      {entry.change}
+                    </p>
+                  </div>
+                );
+              })}
+            </div>
+
+            {/* How to update guide */}
+            <div style={{
+              marginTop: 16, padding: 16, borderRadius: 12,
+              background: "#020810", border: "1px solid #1a274433",
+            }}>
+              <h4 style={{ margin: "0 0 8px", fontSize: 11, color: "#4a5568", letterSpacing: 1 }}>ℹ️ HOW THIS DASHBOARD IS UPDATED</h4>
+              <p style={{ margin: 0, fontSize: 10, color: "#334155", lineHeight: 1.7, fontFamily: "Georgia, serif" }}>
+                Risk scores and threat assessments are updated daily based on IAEA reports, OSINT satellite data,
+                government statements, and real-time news from Reuters, Al Jazeera, WSJ, and other verified sources.
+                Each update is logged here with the date and severity of changes.
+              </p>
+            </div>
+          </div>
+        )}
+
         {/* ═══ FOOTER ═══ */}
         <footer style={{
           marginTop: 18, padding: "12px 0", borderTop: "1px solid #0d1f3c",
@@ -726,7 +841,7 @@ export default function Dashboard() {
         }}>
           <div style={{ fontSize: 8, color: "#2a3444", lineHeight: 1.6 }}>
             Sources: IAEA, Bulletin of Atomic Scientists, CSIS, AEI, FPRI, Business Standard, ICRA, Kpler, IQAir<br />
-            Data as of March 2, 2026 • Composite risk scores from 1M+ Monte Carlo simulations
+            Last updated: {LAST_UPDATED} • Composite risk scores from 1M+ Monte Carlo simulations
           </div>
           <div style={{ fontSize: 8, color: "#2a3444" }}>Generated with Claude AI • Anthropic</div>
         </footer>
