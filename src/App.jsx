@@ -5,15 +5,16 @@ import { useState, useEffect, useRef } from "react";
 // ═══════════════════════════════════════════════════════
 
 // 👇 Change this date whenever you update the data
-const LAST_UPDATED = "March 2, 2026 — 9:45 PM IST (Day 3 of War)";
+const LAST_UPDATED = "March 3, 2026 — 10:30 AM IST (Day 4 • Holi Holiday)";
 
 // 👇 Add a new line at the TOP each day (most recent first)
 const UPDATE_LOG = [
-  { date: "Mar 2 (Eve)", change: "CONFIRMED MARKET DATA: Sensex closed ~1,838 pts down (-2.23%). Nifty at 24,620 (-558 pts). Investors lost ₹6.87 LAKH CRORE. India VIX surged 25% to 17.09. Rupee breaches 91.26/USD. Brent hit $82.40 intraday (14-month high), settled ~$79. Kpler expects $85-90 at NY open. OIL TANKER STRUCK off Oman — first attack on energy assets, major escalation. Moody's Analytics warns of 'heightened risks' for Asian importers. InterGlobe Aviation -7.5%, SpiceJet -7.3%. Gold surged ₹5,500/10g. India's Feb crude: 51% from West Asia (Russia collapsed to 20%). NO strategic LPG reserves exist.", severity: "critical" },
-  { date: "Mar 2 (PM)", change: "PM MODI ACTS: Chaired Cabinet Committee on Security. Called Netanyahu — urged ceasefire. Called UAE's Al Nahyan — condemned attacks on UAE. Jaishankar spoke to Saudi FM, Kuwait FM. MEA confirms 9 MILLION Indians across West Asia at risk. 3,000 students in Iran (2,000 Kashmiri). 1,200 medical students from J&K appealing evacuation. Indian embassies issue emergency helplines in UAE, Qatar. Air India cancels ALL Gulf flights. Airspace closed across 11 countries. China evacuated 300+ nationals, India still in planning phase. Opposition INDIA bloc slams Modi's 'silence', demands Parliament debate Mar 9.", severity: "critical" },
-  { date: "Mar 2 (AM)", change: "Iran forms 3-person interim council (Pezeshkian + Ejei + Arafi). Hezbollah joins war — Israel orders evacuations across 52 Lebanese settlements. IRGC broadcasting 'no ship allowed' on VHF across Hormuz. 150+ tankers anchored, 70% traffic drop. 3 US troops killed, 5 wounded. Iran death toll: 555+. 180 children killed in Minab school strike. Iran struck all 6 GCC nations + Israel + Jordan + Iraq (9 countries). OPEC+ announces 206K bpd increase for April. Jebel Ali port fire. Burj Al Arab facade hit. Dubai/Abu Dhabi airports damaged.", severity: "critical" },
-  { date: "Mar 1", change: "Iran retaliates — missiles/drones hit 9 countries. 3 killed in UAE. Khamenei death confirmed by state media. Iranians celebrate in streets across multiple cities. Internet shutdown to 4% nationally. Iran's Foreign Minister admits military 'partially lost control over its units'. Trump vows to 'avenge' US deaths, says operations 'ahead of schedule'. Over 1,000 targets struck in Iran per CENTCOM.", severity: "critical" },
-  { date: "Feb 28", change: "DAY 1: US-Israel Operation Epic Fury begins. Khamenei killed. 550+ Iranians killed. Nuclear sites Natanz, Fordow, Isfahan struck. Modi returned from Israel visit days before. Trump calls for regime change, projects 1-month operation.", severity: "critical" },
+  { date: "Mar 3 (AM)", change: "🔴 DAY 4 — HORMUZ OFFICIALLY CLOSED: IRGC Commander Jabari: 'Strait is closed. We will set fire to any ship. Not a drop of oil will leave the Gulf. Oil will reach $200.' Iran attacked 3 OIL TANKERS (Skylight — 15 Indian crew evacuated; Athe Nova set ablaze). 4 vessels hit total. Marine insurers CANCELLED all war-risk coverage — 150+ ships stranded. Maersk, Hapag-Lloyd, CMA CGM, MSC all suspended Gulf ops. US death toll: 6 troops killed. Trump: war could last '4-5 weeks', doesn't rule out ground troops. US destroyed ALL 11 Iranian ships in Gulf of Oman — Iran Navy at ZERO. Israel struck Iranian state TV HQ. Iran+Lebanon death toll: 600+. GPS jamming of ships near Hormuz. Morgan Stanley: every $10/bbl rise hits India CAD by 50bps. India markets CLOSED for Holi. Bloomberg: Indian refiners secretly planning pivot back to Russian crude.", severity: "critical" },
+  { date: "Mar 2 (Night)", change: "🔴 MASSIVE ESCALATION: Saudi Ras Tanura refinery (550K bpd, Middle East's LARGEST) SHUT DOWN after Iranian drone strike. Gasoil futures JUMPED 20%. First direct attack on Gulf energy infrastructure. Kuwait's Ahmadi refinery also hit — 2 workers injured. 4th US soldier dead (succumbed to wounds). 3 US F-15E Strike Eagles shot down by KUWAIT in friendly fire — all 6 crew survived. US Embassy Kuwait compound hit, smoke rising. Iran used cruise missiles for first time. PM Modi: 'Situation in West Asia matter of deep worry.' Indian OMCs preparing ₹4-5 petrol/diesel hike BEFORE Holi. Barclays warns Brent $100, UBS warns potential $120 if sustained disruption.", severity: "critical" },
+  { date: "Mar 2 (Eve)", change: "MARKET CLOSE: Sensex closed ~1,000 pts down. Nifty at 24,620 (-558 pts). ₹6.87 LAKH CRORE wiped. India VIX +25% to 17.09. Rupee 91.26/USD. Brent $82.40 peak. Oil tanker struck off Oman. UAE intercepted 165 ballistic missiles + 541 drones total. Beit Shemesh synagogue destroyed — 9 killed in Israel. Hezbollah opened Lebanon front. Iran death toll: 555+. Congress war powers vote this week (symbolic — Trump will veto).", severity: "critical" },
+  { date: "Mar 2 (AM)", change: "Iran forms 3-person interim council. IRGC broadcasting 'no ship allowed' across Hormuz. 150+ tankers anchored, 70% traffic drop. 3 US troops killed, 5 wounded. 180 children killed in Minab school strike. Iran struck all 9 countries. OPEC+ announces 206K bpd increase for April. Modi chaired CCS, called Netanyahu urging ceasefire. 9M Indians at risk. Indian embassies issue emergency helplines.", severity: "critical" },
+  { date: "Mar 1", change: "Iran retaliates — missiles/drones hit 9 countries. Khamenei death confirmed. Iranians celebrate. Internet at 4%. Iran FM admits military 'partially lost control'. Trump: operations 'ahead of schedule'. 1,000+ targets struck per CENTCOM.", severity: "critical" },
+  { date: "Feb 28", change: "DAY 1: US-Israel Operation Epic Fury begins. Khamenei killed. 550+ Iranians killed. Nuclear sites struck. Modi returned from Israel visit days before. Trump projects 4-week operation.", severity: "critical" },
   // ✏️ ADD NEW UPDATES ABOVE THIS LINE
 ];
 
@@ -31,9 +32,9 @@ const TIME_PHASES = [
 const INDIA_REGIONS = [
   {
     name: "Gujarat", lat: 22.3, lng: 72.6,
-    immediate: 98, shortterm: 94, medterm: 87, longterm: 80,
+    immediate: 99, shortterm: 96, medterm: 90, longterm: 82,
     tag: "CRITICAL",
-    detail: "HIGHEST RISK: Closest coastline to Gulf. Jamnagar refinery (world's largest) — Kpler monitors as key alternative supply source for EU jet fuel. Kandla/Mundra ports: 70% Hormuz traffic drop. Oil tanker struck off Oman coast. Brent $82.40 peak. 1,800 km from active warzone.",
+    detail: "🔴 EXTREME RISK: IRGC officially closed Hormuz — 'not a drop of oil leaves Gulf'. Jamnagar refinery (world's largest) faces complete supply cutoff. 3 tankers attacked — Skylight had 15 Indian crew. ALL shipping lines halted Gulf ops. 150+ ships stranded. Maersk, MSC, CMA CGM suspended. 1,800 km from active warzone.",
   },
   {
     name: "Rajasthan", lat: 26.9, lng: 75.8,
@@ -45,13 +46,13 @@ const INDIA_REGIONS = [
     name: "Maharashtra", lat: 19.0, lng: 72.9,
     immediate: 95, shortterm: 85, medterm: 76, longterm: 72,
     tag: "CRITICAL",
-    detail: "BLACK MONDAY CONFIRMED: Sensex crashed 2,743pts at open, closed ~1,838 pts down (-2.23%). Nifty at 24,620. ₹6.87L cr wiped. India VIX +25% to 17.09 (YTD +73%). Rupee at 91.26/USD. InterGlobe -7.5%, SpiceJet -7.3%. Gold +₹5,500. All 15/16 sectors red. OMCs face 51-73% EBITDA hit per Antique.",
+    detail: "MARKETS CLOSED FOR HOLI (Mar 3-4). Monday: Sensex -2,743 at open, closed -1,838 (-2.23%). Nifty 24,620. ₹6.87L cr wiped. VIX +25% to 17.09 (YTD +73.5%). Reopens Wed Mar 5 into more chaos — Hormuz now OFFICIALLY closed, oil heading to $90+. OMCs face 51-73% EBITDA hit.",
   },
   {
     name: "Kerala", lat: 10.8, lng: 76.3,
-    immediate: 78, shortterm: 82, medterm: 80, longterm: 74,
+    immediate: 82, shortterm: 85, medterm: 82, longterm: 76,
     tag: "CRITICAL",
-    detail: "EVACUATION CRISIS: 9 MILLION Indians across West Asia at risk. Diaspora: 3.9M UAE, 2.75M Saudi, 1M+ Kuwait, 830K Qatar, 662K Oman, 347K Bahrain. CCS activated. Air India cancels ALL Gulf flights. 3,000 students in Iran. 1,200 medical students from J&K stuck. China evacuated 300+, India still planning. MEA helplines active in UAE/Qatar.",
+    detail: "INDIANS UNDER FIRE: 15 Indian crew evacuated from attacked Skylight tanker off Oman. 9M Indians across Gulf at risk. Air India cancelled ALL Gulf flights. Airspace closed 11 countries. 3,000 students in Iran. 1,200 medical students from J&K stuck. Kerala CM Vijayan condemns US strikes. Gulf remittances ($35B/yr) backbone of Kerala economy.",
   },
   {
     name: "Goa", lat: 15.4, lng: 74.0,
@@ -69,7 +70,7 @@ const INDIA_REGIONS = [
     name: "Delhi NCR", lat: 28.6, lng: 77.2,
     immediate: 78, shortterm: 72, medterm: 60, longterm: 64,
     tag: "HIGH",
-    detail: "COMMAND CENTER: Modi chaired CCS. Called Netanyahu — urged ceasefire. Called UAE's Al Nahyan. Jaishankar spoke to Saudi FM & Kuwait FM. Opposition demands Parliament debate Mar 9. Congress slams 'betrayal' of Iran ties. DGCA issued safety advisory. Indian Embassy Tehran: 'Leave Iran immediately'.",
+    detail: "PM MODI: 'Situation in West Asia matter of deep worry.' CCS met AGAIN night of Mar 2 — focused on crude sourcing, shipping routes, 9M Indian safety. State refiners secretly met to plan Russian crude pivot (Bloomberg). Parliament resumes Mar 9 — Opposition demanding answers. Embassy Tehran: 'Leave immediately.'",
   },
   {
     name: "Punjab", lat: 31.1, lng: 75.3,
@@ -131,9 +132,9 @@ const DIRTY_BOMB_SCENARIOS = [
   {
     name: "Retaliatory RDD on US Base",
     target: "Al Udeid (Qatar) / Bahrain NSA",
-    probability: "3-7%",
+    probability: "4-8%",
     probColor: "#f44336",
-    description: "ESCALATED: Iran already struck Al Udeid (Qatar), Ali Al Salem (Kuwait), Al Dhafra (UAE), Bahrain NSA. 3 US troops killed. Desperate regime with 'partially lost control' of military units could deploy RDD against US installation.",
+    description: "ESCALATED: Iran struck Al Udeid, Ali Al Salem, Al Dhafra, Bahrain NSA, US Embassy Riyadh. 6 US troops dead. IRGC threatening '$200 oil'. 460kg enriched uranium available. Iran Navy destroyed = nothing left to lose. Rogue units possible.",
     indiaImpact: 88,
     timeToIndia: "Immediate (nuclear escalation risk)",
     mechanism: "Full-scale war escalation, potential nuclear exchange, continental fallout",
@@ -156,10 +157,10 @@ const GEOPOLITICAL_CHALLENGES = [
     severity: "CRITICAL",
     color: "#ff1744",
     items: [
-      { text: "51% of India's crude from West Asia in Feb (Russia collapsed to 20%) — Hormuz now de facto closed", metric: "51%", unit: "crude via Gulf" },
-      { text: "NO strategic LPG reserves — 85% of cooking gas from Gulf, threatens 320M Ujjwala households", metric: "85%", unit: "LPG from Gulf" },
-      { text: "Brent hit $82.40 intraday (14-mo high). Kpler expects $85-90 at NY open. Every $1/bbl = $1.4B added to import bill", metric: "$82", unit: "Brent peak" },
-      { text: "74-day crude reserve BUT only 15 days LPG. Oil tanker struck off Oman — first attack on energy assets", metric: "74", unit: "days reserve" },
+      { text: "🔴 HORMUZ OFFICIALLY CLOSED by IRGC: 'Will set fire to any ship. Not a drop of oil leaves Gulf.' 3 tankers attacked. Marine insurers CANCELLED coverage", metric: "CLOSED", unit: "Hormuz" },
+      { text: "Ras Tanura (550K bpd) SHUT. Maersk, Hapag-Lloyd, CMA CGM, MSC ALL suspended Gulf ops. 150+ ships stranded. Shipping insurance +500%", metric: "ALL", unit: "lines halted" },
+      { text: "Brent $80+. IRGC threatens $200/bbl. Barclays $100, UBS $120. Morgan Stanley: every $10/bbl → India CAD widens 50bps, Asia GDP -20-30bps", metric: "$200?", unit: "IRGC threat" },
+      { text: "India has NO LPG reserves. 60% of urea LNG from Qatar (fertilizer crisis). Atlantic crude = 25-45 day voyage vs 5-7 from Gulf. OMCs hiking ₹4-5", metric: "0", unit: "LPG reserve" },
     ],
   },
   {
@@ -167,10 +168,10 @@ const GEOPOLITICAL_CHALLENGES = [
     severity: "HIGH",
     color: "#ff9100",
     items: [
-      { text: "Modi visited Israel, addressed Knesset days before strikes — then called Netanyahu urging ceasefire", metric: "★", unit: "tightrope" },
-      { text: "India still needs Iran's Chabahar port — but Congress party calls Modi's silence 'betrayal of Iran ties'", metric: "★", unit: "Chabahar risk" },
-      { text: "9 MILLION Indians across Gulf at risk (3.9M UAE, 2.75M Saudi, 1M Kuwait, 830K Qatar, 662K Oman)", metric: "9M", unit: "citizens at risk" },
-      { text: "War on 4+ fronts: Iran, Lebanon (Hezbollah joined), 9 Gulf states, Israel. Iran FM admits military 'partially lost control'", metric: "4+", unit: "war fronts" },
+      { text: "Bloomberg: Indian refiners secretly planning PIVOT BACK to Russian crude — Russian cargoes 'loitering near Indian waters'", metric: "🇷🇺", unit: "Russia pivot" },
+      { text: "India still needs Chabahar port — but Opposition slams 'betrayal of Iran'. Parliament debate Mar 9. Congress demands answers", metric: "★", unit: "Chabahar risk" },
+      { text: "9M Indians at risk. Skylight tanker struck — 15 INDIAN crew evacuated off Oman. 3,000 students in Iran. Embassy: 'Leave immediately'", metric: "9M+", unit: "citizens at risk" },
+      { text: "Trump: war '4-5 weeks'. Doesn't rule out ground troops. US destroyed ALL 11 Iranian ships — Navy at ZERO. 6 US troops dead", metric: "4-5w", unit: "Trump timeline" },
     ],
   },
   {
@@ -178,10 +179,10 @@ const GEOPOLITICAL_CHALLENGES = [
     severity: "HIGH",
     color: "#ff9100",
     items: [
-      { text: "Brent $82.40 peak, WTI $72. Kpler: $85-90 expected. Analysts warn $100 if war >1 month (25-300% spikes in past wars)", metric: "$82+", unit: "Brent crude" },
-      { text: "Rupee breached 91.26/USD. RBI may intervene but limited capacity against sustained oil shock", metric: "₹91.26", unit: "per USD" },
-      { text: "CONFIRMED: Sensex -1,838 (close), Nifty 24,620. ₹6.87L cr wiped. VIX +25% to 17.09. Gold +₹5,500/10g", metric: "📉", unit: "market crashed" },
-      { text: "Gulf = 17% of India's exports, 55% crude, 38% of remittances ($35B/yr) — Jefferies data", metric: "$35B", unit: "annual remittances" },
+      { text: "Gasoil futures +20%. EU natural gas +20%. Brent $80+. Every $10/bbl rise = $13-14B to India's import bill (analysts)", metric: "$80+", unit: "Brent crude" },
+      { text: "Rupee at 91.26/USD. India CAD widens 50bps per $10 oil rise (Morgan Stanley). FPIs fleeing Indian equities", metric: "₹91.26", unit: "per USD" },
+      { text: "Markets CLOSED for Holi (Mar 3-4). Monday crash: ₹6.87L cr wiped. VIX +25%. Will resume Wed Mar 5 into more chaos", metric: "CLOSED", unit: "Holi holiday" },
+      { text: "60% of India's urea LNG from Qatar — fertilizer subsidy bill at risk. Basmati/tea exports disrupted. L&T: 50% orders from ME", metric: "60%", unit: "urea from Qatar" },
     ],
   },
   {
@@ -189,10 +190,10 @@ const GEOPOLITICAL_CHALLENGES = [
     severity: "ELEVATED",
     color: "#ffea00",
     items: [
-      { text: "Bushehr reactor — if struck, Fukushima-scale meltdown with monsoon winds toward India", metric: "☢️", unit: "Bushehr risk" },
-      { text: "Iran has enough enriched uranium for a dirty bomb TODAY", metric: "400kg", unit: "60% enriched U" },
-      { text: "Monsoon winds (Jun-Sep) blow directly from Arabian Sea to India's west coast", metric: "SW", unit: "monsoon vector" },
-      { text: "IAEA confirms localized contamination inside Natanz — no off-site leak YET", metric: "⚠️", unit: "contained" },
+      { text: "Bushehr reactor — NOT struck yet. But if struck = Fukushima-scale meltdown with monsoon winds toward India", metric: "☢️", unit: "Bushehr risk" },
+      { text: "Iran has 460kg of 60% enriched uranium — enough for 11 nuclear bombs (admitted in nuclear talks)", metric: "460kg", unit: "60% enriched U" },
+      { text: "Iran FM confirms military 'partially lost control' — rogue units + 460kg enriched uranium = nightmare scenario", metric: "⚠️", unit: "rogue risk" },
+      { text: "IAEA confirms localized contamination inside Natanz — no off-site leak YET. Monsoon (Jun-Sep) is critical window", metric: "⚠️", unit: "contained" },
     ],
   },
 ];
@@ -662,36 +663,36 @@ export default function Dashboard() {
 
               {[
                 { phase: "⚡ IMMEDIATE (0-48h)", color: "#ff1744", threats: [
-                  { name: "Oil price spike (Brent $82.40 peak)", risk: 99 },
-                  { name: "Stock market crash (₹6.87L cr wiped)", risk: 99 },
-                  { name: "Rupee depreciation (91.26/USD)", risk: 92 },
-                  { name: "Hormuz closure (tanker struck off Oman)", risk: 99 },
-                  { name: "Diaspora crisis (9M at risk, CCS active)", risk: 96 },
-                  { name: "Airborne NOx/SOx from strikes", risk: 20 },
+                  { name: "Oil price spike (IRGC: '$200 target')", risk: 99 },
+                  { name: "HORMUZ OFFICIALLY CLOSED by IRGC", risk: 100 },
+                  { name: "ALL shipping lines halted Gulf ops", risk: 100 },
+                  { name: "Diaspora crisis (15 Indians on tanker)", risk: 97 },
+                  { name: "Rupee depreciation (91.26/USD)", risk: 94 },
+                  { name: "Market crash when reopens Wed", risk: 95 },
                 ]},
                 { phase: "🔥 SHORT-TERM (1-4 weeks)", color: "#ff9100", threats: [
-                  { name: "LPG crisis (NO strategic reserves)", risk: 88 },
-                  { name: "Fuel price hike ($1/bbl = $1.4B cost)", risk: 85 },
-                  { name: "Gulf remittance disruption (38% of total)", risk: 78 },
-                  { name: "Dirty bomb risk (military 'lost control')", risk: 40 },
-                  { name: "Arabian Sea contamination", risk: 32 },
-                  { name: "War-risk insurance surge", risk: 82 },
+                  { name: "LPG crisis (ZERO reserves, Hormuz CLOSED)", risk: 96 },
+                  { name: "Fuel hike (₹4-5+, $10/bbl=$14B cost)", risk: 92 },
+                  { name: "Fertilizer crisis (60% urea LNG=Qatar)", risk: 80 },
+                  { name: "Insurance collapse (500% surge, cancelled)", risk: 92 },
+                  { name: "Dirty bomb (460kg U, rogue units)", risk: 44 },
+                  { name: "Russia pivot vs US tariff backlash", risk: 78 },
                 ]},
                 { phase: "⏳ MEDIUM-TERM (1-6 months)", color: "#ffea00", threats: [
-                  { name: "Inflation spiral (food + fuel)", risk: 82 },
-                  { name: "Current account deficit blowout", risk: 78 },
+                  { name: "Inflation spiral (food+fuel+fertilizer)", risk: 88 },
+                  { name: "CAD blowout (50bps per $10/bbl rise)", risk: 85 },
+                  { name: "Mass evacuation (9M diaspora)", risk: 62 },
+                  { name: "Nuclear escalation (Bushehr)", risk: 32 },
                   { name: "Monsoon-carried contamination", risk: 55 },
-                  { name: "Nuclear escalation (Bushehr)", risk: 30 },
-                  { name: "Mass evacuation crisis (9M diaspora)", risk: 55 },
-                  { name: "Fish/seafood chain contamination", risk: 42 },
+                  { name: "Trade route permanent disruption", risk: 68 },
                 ]},
                 { phase: "🌐 LONG-TERM (6mo-5yr)", color: "#00e5ff", threats: [
-                  { name: "Energy infrastructure restructuring", risk: 75 },
-                  { name: "Regional nuclear proliferation", risk: 58 },
-                  { name: "Water contamination (Arabian Sea)", risk: 35 },
-                  { name: "Cancer cluster risk (west coast)", risk: 25 },
-                  { name: "Permanent trade route shifts", risk: 70 },
-                  { name: "Russia/China axis deepens vs India", risk: 55 },
+                  { name: "Energy restructuring (forced pivot)", risk: 80 },
+                  { name: "Nuclear proliferation (Saudi, Turkey)", risk: 60 },
+                  { name: "Permanent shipping route shifts", risk: 75 },
+                  { name: "Russia/China dependency deepens", risk: 62 },
+                  { name: "Cancer cluster risk (west coast)", risk: 28 },
+                  { name: "Gulf diaspora permanent disruption", risk: 55 },
                 ]},
               ].map((section, si) => (
                 <div key={si} style={{ marginBottom: si < 3 ? 16 : 0 }}>
@@ -742,16 +743,16 @@ export default function Dashboard() {
               <h4 style={{ margin: "0 0 8px", fontSize: 13, color: "#ff6d00" }}>⚡ BOTTOM LINE FOR INDIA</h4>
               <div style={{ fontSize: 11, color: "#94a3b8", lineHeight: 1.8, fontFamily: "Georgia, serif" }}>
                 <p style={{ margin: "0 0 6px" }}>
-                  <strong style={{ color: "#ff1744" }}>RIGHT NOW (Day 3 — CONFIRMED):</strong> Sensex crashed 2,743 pts (3.37%), Rs 6.82 lakh crore wiped. India VIX +19%. Oil +9% Monday. Iran fires fresh missile barrage at Israel. IRGC splits into 31 guerrilla regiments (Mosaic Defense). 1,000+ US targets hit. 158 students killed at Iranian school. Cabinet Committee on Security activated for Indian evacuations. Air India cancels ALL Gulf flights.
+                  <strong style={{ color: "#ff1744" }}>DAY 4 — CRITICAL ESCALATION:</strong> IRGC officially closed Hormuz: "Not a drop of oil will leave the Gulf." 3 tankers attacked (15 Indian crew evacuated from Skylight). ALL major shipping lines — Maersk, Hapag-Lloyd, CMA CGM, MSC — halted Gulf ops. Marine war-risk insurance CANCELLED. 150+ ships stranded. US death toll doubled to 6. Iran Navy destroyed (all 11 ships sunk). Trump says 4-5 weeks, doesn't rule out ground troops. Ras Tanura refinery (550K bpd) shut. Markets closed for Holi — crash resumes Wed.
                 </p>
                 <p style={{ margin: "0 0 6px" }}>
-                  <strong style={{ color: "#ff9100" }}>NEXT 4 WEEKS:</strong> Trump says operation "4 weeks or less." Emkay warns Nifty could test 24,500. Brent heading to $90-100 if war extends. LPG cooking gas crisis for 320M Ujjwala households imminent. Every $1/bbl = $2B added import bill. FPI outflows accelerating. Rupee collapse risk. Aviation, paints, chemicals, logistics sectors bleeding.
+                  <strong style={{ color: "#ff9100" }}>INDIA'S TRIPLE CRISIS:</strong> (1) ENERGY: No LPG reserves, 60% of urea LNG from Qatar, Hormuz fully blocked. Every $10/bbl = $13-14B to import bill. (2) MONEY: ₹6.87L cr wiped Monday, VIX +25%, Rupee 91.26. Morgan Stanley: India CAD widens 50bps per $10 rise. (3) PEOPLE: 9M Indians in Gulf, 15 Indian crew on attacked tanker, 3,000 students in Iran. Bloomberg: refiners secretly pivoting back to Russian crude.
                 </p>
                 <p style={{ margin: "0 0 6px" }}>
-                  <strong style={{ color: "#ffea00" }}>BY MONSOON (JUN-SEP):</strong> Bushehr reactor status STILL UNCLEAR. If compromised, monsoon SW winds = contamination highway to Gujarat, Maharashtra coast. Arabian Sea fishing chain at risk. IAEA needs access but war prevents inspections. Zero Arab states condemned US — Iran is now totally isolated.
+                  <strong style={{ color: "#ffea00" }}>BY MONSOON (JUN-SEP):</strong> If Bushehr reactor struck = Fukushima-scale event with monsoon winds to India's west coast. Iran has 460kg of 60% enriched uranium — enough for 11 bombs. Military 'partially lost control'. IAEA cannot inspect. Fertilizer subsidy bill spiraling. Food inflation inevitable as LPG + urea + diesel all spike.
                 </p>
                 <p style={{ margin: 0 }}>
-                  <strong style={{ color: "#00e5ff" }}>LONG-TERM:</strong> Regime change campaign confirmed — not a limited strike. JP Morgan warns regime changes cause 76% avg oil price spikes. India MUST pivot to Russian crude (bypasses Hormuz) and fast-track renewables. This is the biggest energy security crisis since 1979 Iranian Revolution.
+                  <strong style={{ color: "#00e5ff" }}>THE BIG PICTURE:</strong> This is no longer a limited strike — Trump confirmed 4-5 week campaign. IRGC threatening $200 oil. India's 74-day crude reserve gives ~2 months. But NO LPG reserves and no fertilizer buffer. India MUST: (a) pivot to Russian crude immediately, (b) fast-track renewables, (c) prepare mass evacuation of 9M citizens, (d) brace for the worst market week since COVID when exchanges reopen March 5.
                 </p>
               </div>
             </div>
@@ -843,7 +844,7 @@ export default function Dashboard() {
           display: "flex", justifyContent: "space-between", flexWrap: "wrap", gap: 6,
         }}>
           <div style={{ fontSize: 8, color: "#2a3444", lineHeight: 1.6 }}>
-            Sources: IAEA, Bloomberg, CNBC, CNN, NBC, NPR, Al Jazeera, Business Standard, The Week, Emkay Global, JM Financial, JP Morgan, Kpler, IQAir<br />
+            Sources: IAEA, Bloomberg, CNBC, CNN, NPR, Al Jazeera, Washington Post, Reuters, Business Standard, Policy Circle, Kpler, Morgan Stanley, Rystad Energy, Euronews<br />
             Last updated: {LAST_UPDATED} • Composite risk scores from verified multi-source analysis
           </div>
           <div style={{ fontSize: 8, color: "#2a3444" }}>Generated with Claude AI • Anthropic</div>
