@@ -5,10 +5,11 @@ import { useState, useEffect, useRef } from "react";
 // ═══════════════════════════════════════════════════════
 
 // 👇 Change this date whenever you update the data
-const LAST_UPDATED = "March 3, 2026 — 8:03 PM IST (Day 4 • Holi Holiday)";
+const LAST_UPDATED = "March 4, 2026 — 11:48 AM IST (Day 5 • Markets OPEN)";
 
 // 👇 Add a new line at the TOP each day (most recent first)
 const UPDATE_LOG = [
+  { date: "Mar 4 (AM)", change: "DAY 5 — MARKETS CRASH ON REOPENING: Sensex -1,300 pts. Nifty near 24,400. Rs 9.5 TRILLION wiped. India VIX +22% (9-mo high). Metal -4%. Auto -3%. SpiceJet -8%. IndiGo -4%. US Tue: Dow -404 (was -1,277 at lows). S&P -0.94%. Nasdaq -1%. Brent $82-84 (+8% Tue). WTI $77. Gold FELL 3.5% to $5,124. US diesel +12%. US gas $3.11/gal. EU Stoxx -3.08%. S Korea Kospi -7.24% (WORST in 19 months). France -3.5%. Nikkei -3.1%. DEATH TOLL 800+ (Iran+Lebanon combined). US Consulate Dubai parking lot HIT by drone. Assembly of Experts bldg QOM DESTROYED by Israel. Hotel near Beirut struck. Fujairah port struck. Iran struck 10 COUNTRIES (added Cyprus). B-2 stealth bombers hitting IRGC command nodes. Iran used CLUSTER MUNITIONS on Israel. US destroyed 17 Iranian ships (up from 11). Iran fired 500+ ballistic missiles + 2,000+ drones total. Rubio: attacks will INCREASE in scope/intensity. Trump ordered DFC insurance + Navy tanker escort through Hormuz. 165 killed girls school southern Iran. Lebanon: 50 killed, 335 wounded (2 days). Saudi intercepted 9 more drones Wed AM. INDIA: 58 flights planned Mar 4 (30 IndiGo + 23 Air India/Express). 24 Indian flights operated Tue. 1,609 flights cancelled (1,221 Indian + 388 foreign). 3 flights U-turned mid-air. Air India NY/Newark rerouting via Rome (+4-7hrs). Oil Ministry: 8 wks crude stock. Goldman: India most impacted in Asia. SocGen: underperformance deepens. Natixis: India assets MOST AT RISK.", severity: "critical" },
   { date: "Mar 3 (8PM)", change: "SHIPPING CRISIS: VLCC supertanker rates ALL-TIME HIGH $423,736/day (+94%). Sinokor $20/bbl ME-China (was $2.50). LNG rates +40%. Qatar HALTED LNG. 1,900 MORE flights cut Tue (1M+ travelers stuck per Cirium). EU Stoxx 600 -2.7%. Gold $5,300+. US gas +12c/gal (4yr high). TRACKER: 787 Iran + 11 Israel + 6 US + 8 Gulf = ~812 dead. Lebanon: 40 killed, 246 wounded. 8,000 stranded Qatar alone. INDIA: SpiceJet 4 UAE flights. Etihad 15 special flights. 250 flights cut at 4 Indian airports Tue. 1,117 total cut 3 days. Embassies 24x7 helplines. Modi spoke Oman Sultan + Kuwait Crown Prince.", severity: "critical" },
   { date: "Mar 3 (Eve)", change: "🔴 DAY 4 EVENING — DEATH TOLL SURGES: Iran Red Crescent: 787 killed (up from 555). Strikes hit 153 cities, 500+ locations, 1,000+ attacks since Saturday. Israel DM Katz authorized IDF to 'advance and seize additional controlling areas' in Lebanon. Katz: 'We severed the head of the octopus, now crushing its tentacles.' Hezbollah attacked TEL AVIV with missiles + drones. Explosions in Karaj + Isfahan (Tue morning). S Korea defense stocks surged 20-30%. European stocks sharply lower. INDIA: Air India FIRST flight Dubai→Delhi (149 pax). Emirates operating Dubai→5 Indian cities. Akasa Air resumed Jeddah. EaseMyTrip charter flights Fujairah→Delhi/Mumbai. CBSE POSTPONED exams in 7 Gulf countries (Mar 5-6). 11,000+ flights cancelled since Saturday. 80% Dubai flights still cancelled. Etihad suspended until Wed 2pm. Punjab CM Mann helpline, AP CM Naidu + Karnataka CM Siddaramaiah mobilizing. PV Sindhu stranded at Dubai airport.", severity: "critical" },
   { date: "Mar 3 (PM)", change: "🔴 DAY 4 — WAR WIDENS: Israel launches NEW GROUND INCURSION into southern Lebanon — IDF 'operating in southern Lebanon' in 'forward defence' (Reuters/Al Jazeera). IDF conducting 'simultaneous strikes' on Tehran AND Beirut. Rubio: 'Hardest hits yet to come.' Trump: 'Big wave hasn't happened.' US Embassy Riyadh hit by 2 drones — CLOSED Tue. US evacuating non-emergency staff from 6 countries. Assembly of Experts: new Supreme Leader 'won't take long.' Natanz nuclear site FRESH DAMAGE on satellite (Vantor). IRGC Quds Force cmdr Reza Khazaei killed in Beirut. Hezbollah drone swarm hit Ramat David airbase. Lebanon: 52 killed, 154 wounded overnight. Lebanese govt declares Hezbollah military ops ILLEGAL. US considers Lebanon ceasefire OVER. AWS: 3 data centers hit (2 UAE + 1 Bahrain) — fires, sprinklers damaged equipment, Snowflake SaaS disrupted. Brent ~$80 (+10%). India: IndiGo 10 flights Jeddah Mar 3. Air India Express resumed Muscat. Etihad 4 flights. Gold ₹1,67,155/10g (+3.12%). Govt shielding fuel prices pre-election.", severity: "critical" },
@@ -49,7 +50,7 @@ const INDIA_REGIONS = [
     name: "Maharashtra", lat: 19.0, lng: 72.9,
     immediate: 95, shortterm: 85, medterm: 76, longterm: 72,
     tag: "CRITICAL",
-    detail: "MARKETS CLOSED FOR HOLI (Mar 3-4). Monday close: Sensex -1,838 (-2.23%). Nifty 24,620 (-558). ₹6.87L cr wiped. VIX +25% to 17.09. Brent Tue $77-78 (day high $82.37). S Korea defense stocks +20-30%, EU stocks sharply lower. Reopens Wed Mar 5 — expect worst session since COVID. OMCs face 51-73% EBITDA hit. Gold ₹1,67,155/10g (+3.12%).",
+    detail: "MARKETS CRASHED ON REOPENING: Sensex -1,300 pts. Nifty ~24,400. ₹9.5 TRILLION wiped Wed. VIX +22% (9-mo high). Metal -4%. Auto -3%. SpiceJet -8%. IndiGo -4%. Mon: ₹6.87L cr wiped. Brent $82-84 Tue. US Dow -404 (was -1,277 at lows). Kospi -7.24%. Nikkei -3.1%. Goldman/SocGen/Natixis: India MOST AT RISK. OMCs face 51-73% EBITDA hit.",
   },
   {
     name: "Kerala", lat: 10.8, lng: 76.3,
@@ -73,7 +74,7 @@ const INDIA_REGIONS = [
     name: "Delhi NCR", lat: 28.6, lng: 77.2,
     immediate: 78, shortterm: 72, medterm: 60, longterm: 64,
     tag: "HIGH",
-    detail: "CCS met night of Mar 2. CBSE postponed Mar 5-6 exams across 7 Gulf nations (Circular-2, Mar 3). Govt SHIELDING fuel prices — elections in WB/TN/Assam. Air India FIRST Dubai→Delhi flight (149 pax Tue). Civil aviation ministry coordinating. Punjab CM Mann helpline, AP CM Naidu + Karnataka CM Siddaramaiah mobilizing. US Congress war powers vote this week. Parliament Mar 9 — Opposition demands debate.",
+    detail: "CBSE Mar 5-6 exams POSTPONED (Circular-2) across 7 Gulf countries. 58 flights Mar 4 (30 IndiGo + 23 AI/AIE). 36 departures + 44 arrivals cancelled at IGI Tue. Air India NY/Newark rerouting via Rome (+4-7hrs). Oil Ministry: 8 wks crude stock, 2-3 wks LNG. State CMs mobilizing: Punjab Mann helpline, AP Naidu, Karnataka Siddaramaiah. Congress war powers vote. Rubio: attacks will INCREASE.",
   },
   {
     name: "Punjab", lat: 31.1, lng: 75.3,
@@ -160,10 +161,10 @@ const GEOPOLITICAL_CHALLENGES = [
     severity: "CRITICAL",
     color: "#ff1744",
     items: [
-      { text: "🔴 HORMUZ CLOSED. 5 vessels attacked (verified: Skylight, MKD VYOM, Athe Nova, Stena Imperative, +1). 2 seafarers killed. 150+ ships stranded. 27 tankers with 12M barrels DRIFTING", metric: "CLOSED", unit: "Hormuz" },
+      { text: "🔴 HORMUZ CLOSED. Iran struck 10 COUNTRIES. 150+ ships stranded. VLCC rates ALL-TIME HIGH $423,736/day. Trump ordered Navy escort + DFC insurance for tankers", metric: "CLOSED", unit: "Hormuz" },
       { text: "Insurers Gard, Skuld, NorthStandard, American Club, London P&I ALL cancelled cover. LNG rates +40%. Qatar HALTED LNG. Ras Tanura (550K bpd) SHUT", metric: "MAR 5", unit: "insurance ends" },
-      { text: "Brent $77-78 Tue (day high $82.37, 52-wk high). Barclays: $100. UBS: $120. IRGC threatens $200. Gold $5,300+. US gas +12c/gal (4yr high). EU Stoxx -2.7%", metric: "$78", unit: "Brent Tue" },
-      { text: "India: NO LPG reserves. 60% urea LNG from Qatar (fertilizer+food crisis). 5.22M bpd Feb imports (2nd highest EVER). Govt shielding fuel prices pre-election", metric: "5.22M", unit: "bpd imports" },
+      { text: "Brent $82-84 Tue (+8% day, +10% week). WTI $77. US diesel +12%. US gas $3.11/gal. Gold FELL 3.5% to $5,124. Goldman: $65 fair = 4-wk disruption priced", metric: "$78", unit: "Brent Tue" },
+      { text: "India Oil Ministry: 8 wks crude stock. BUT 2-3 wks LNG only. NO LPG reserves. 60% urea LNG from Qatar. Goldman/SocGen/Natixis: India MOST AT RISK in Asia", metric: "5.22M", unit: "bpd imports" },
     ],
   },
   {
@@ -172,9 +173,9 @@ const GEOPOLITICAL_CHALLENGES = [
     color: "#ff9100",
     items: [
       { text: "🔴 ISRAEL SEIZING TERRITORY in Lebanon. Katz: 'Severed head of octopus, now crushing tentacles.' 100K reservists called up. 50+ villages evacuated. Hezbollah hit Tel Aviv", metric: "🇱🇧", unit: "ground war" },
-      { text: "Trump: war could last 'far longer' than 4-5 weeks. Rubio: 'Hardest hits yet to come.' US Embassies Riyadh + Kuwait BOTH CLOSED. Congress war powers vote this week", metric: "⚡", unit: "escalation" },
-      { text: "India evacuation: Air India Dubai→Delhi (149 pax). Emirates 5 cities. IndiGo 10 Jeddah. Akasa Air. EaseMyTrip charter. CBSE Mar 5-6 exams POSTPONED. 9M at risk", metric: "9M+", unit: "citizens" },
-      { text: "Iran death toll: 787 (Red Crescent). 153 cities hit. Al-Arabiya: Mossad on ground in Iran (unsourced). Qatar shot down 2 Iranian Su-24s. No ceasefire in sight", metric: "787", unit: "killed" },
+      { text: "Rubio: attacks will INCREASE scope/intensity. B-2 stealth bombers hitting IRGC nodes. US Embassies Riyadh + Kuwait + Dubai consulate ALL HIT. Iran struck 10 countries incl Cyprus", metric: "⚡", unit: "escalation" },
+      { text: "58 flights planned Mar 4 (30 IndiGo + 23 AI/AIE). 24 Indian flights Tue. 1,609 flights cancelled total. 3 flights U-turned mid-air. 12,000+ cancelled globally. 9M at risk", metric: "9M+", unit: "citizens" },
+      { text: "Death toll 800+ (Iran+Lebanon). 165 killed girls school. Iran: 500+ ballistic missiles + 2,000+ drones launched. US destroyed 17 ships. Assembly of Experts bldg QOM DESTROYED", metric: "787", unit: "killed" },
     ],
   },
   {
@@ -182,9 +183,9 @@ const GEOPOLITICAL_CHALLENGES = [
     severity: "HIGH",
     color: "#ff9100",
     items: [
-      { text: "Brent $77-78 (day range 75.75-82.37, +10% since war). WTI $72.74 (+8.4%). Diesel +17%. EU gas +20%. S Korea defense stocks +20-30%. EU stocks sharply lower", metric: "$78", unit: "Brent Tue" },
+      { text: "Brent $82-84 (+8% Tue). WTI $77 (+8%). US diesel +12% Tue (+24% total). EU gas +20% Tue (+58% total). Dow -404 (-1,277 at lows). Kospi -7.24% (worst 19mo)", metric: "$78", unit: "Brent Tue" },
       { text: "3 Amazon AWS data centers hit (2 UAE + 1 Bahrain) — fires, sprinklers damaged equipment. Snowflake SaaS disrupted. Gold ₹1,67,155 (+3.12%)", metric: "AWS", unit: "3 hit" },
-      { text: "Markets CLOSED for Holi (Mar 3-4). Monday: ₹6.87L cr wiped. VIX +25%. Reopens Wed Mar 5. Morgan Stanley: CAD +50bps per $10/bbl rise", metric: "WED", unit: "market reopens" },
+      { text: "Sensex -1,300 pts Wed open. Nifty ~24,400. ₹9.5 TRILLION wiped Wed. VIX +22% (9-mo high). Metal -4%. Auto -3%. Mon: ₹6.87L cr wiped. TOTAL: ₹16L+ cr gone", metric: "WED", unit: "market reopens" },
       { text: "11,000+ flights cancelled since Saturday. 80% Dubai flights STILL cancelled. Etihad suspended until Wed 2pm. 20,000+ travelers stranded. Travel insurance may not cover", metric: "11K+", unit: "flights cut" },
     ],
   },
@@ -746,16 +747,16 @@ export default function Dashboard() {
               <h4 style={{ margin: "0 0 8px", fontSize: 13, color: "#ff6d00" }}>⚡ BOTTOM LINE FOR INDIA</h4>
               <div style={{ fontSize: 11, color: "#94a3b8", lineHeight: 1.8, fontFamily: "Georgia, serif" }}>
                 <p style={{ margin: "0 0 6px" }}>
-                  <strong style={{ color: "#ff1744" }}>DAY 4 EVENING — DEATH TOLL SURGES:</strong> Iran Red Crescent confirms 787 killed (up from 555). Strikes hit 153 cities, 500+ locations, 1,000+ attacks since Saturday. Israel DM Katz authorized IDF to "advance and seize additional controlling areas" in Lebanon. Katz: "We severed the head of the octopus, now crushing its tentacles." 100,000 Israeli reservists called up. IDF evacuation warnings to 50+ southern Lebanon villages. Hezbollah attacked TEL AVIV with missiles + drones. US Embassy Kuwait ALSO CLOSED. Iran state broadcaster HQ struck (2nd time). Al-Arabiya: Israeli special forces/Mossad on ground in Iran overnight (unsourced). Qatar shot down 2 Iranian Su-24 bombers. Explosions in Karaj + Isfahan (Tue morning). Brent trading $77-78 (day range 75.75-82.37). S Korea defense stocks surged 20-30%. European stocks sharply lower. Congress aims to vote on war powers resolution this week. Trump: 4-5 weeks, could go "far longer."
+                  <strong style={{ color: "#ff1744" }}>DAY 5 — INDIA MARKETS CRASH ON REOPENING:</strong> Sensex -1,300 pts. Nifty ~24,400. Rs 9.5 TRILLION wiped. VIX +22% (9-mo high). Metal -4%. Auto -3%. SpiceJet -8%. IndiGo -4%. US Tue: Dow -404 (was -1,277 at lows). Kospi -7.24% (worst 19mo). Nikkei -3.1%. EU Stoxx -3.08%. Death toll surpasses 800 (Iran+Lebanon). US Consulate Dubai HIT by drone. Assembly of Experts bldg QOM DESTROYED by Israel. Hotel near Beirut struck. Fujairah port struck. Iran struck 10 COUNTRIES (added Cyprus). B-2 stealth bombers hitting IRGC command nodes. Iran used CLUSTER MUNITIONS on Israel. US destroyed 17 Iranian ships. Iran fired 500+ ballistic missiles + 2,000+ drones. 165 killed in girls school southern Iran. Rubio: attacks will INCREASE in scope/intensity.
                 </p>
                 <p style={{ margin: "0 0 6px" }}>
-                  <strong style={{ color: "#ff9100" }}>INDIA'S VERIFIED EXPOSURE:</strong> Brent $77-78 Tue (day high $82.37, +10% since war start). Feb crude imports: 5.22M bpd (2nd highest EVER), 51% from West Asia. No LPG reserves. 60% of urea LNG from Qatar. Morgan Stanley: CAD widens 50bps per $10/bbl. ₹6.87L cr wiped Monday. Markets reopen Wed Mar 5 into Asian sell-off (S Korea defense +20-30%, EU sharply lower). Govt shielding fuel prices (elections in WB/TN/Assam) but OMCs bleeding. CBSE exams postponed Mar 5-6 across 7 Gulf countries. Gold surging: ₹1,67,155/10g (+3.12%).
+                  <strong style={{ color: "#ff9100" }}>INDIA'S VERIFIED EXPOSURE:</strong> Brent $82-84 (+8% Tue, +10% since war). WTI $77. US diesel +24% in 2 days. Goldman Sachs: 20% Brent rise = -2% Asian earnings. India among most impacted. SocGen: India underperformance to deepen. Natixis: India assets "most at risk." Oil Ministry: 8 wks crude, 2-3 wks LNG. NO LPG reserves. 60% urea LNG from Qatar. ₹9.5T wiped Wed + ₹6.87L cr Mon. TOTAL destruction ₹16L+ cr in 2 trading days. Wells Fargo worst case: S&P 6,000 if oil $100+. Goldman: $78 Brent = market pricing 4-wk disruption.
                 </p>
                 <p style={{ margin: "0 0 6px" }}>
-                  <strong style={{ color: "#ffea00" }}>EVACUATIONS SCALING UP:</strong> Air India FIRST flight Dubai→Delhi (149 pax, Tue). Emirates operating Dubai→5 Indian cities (Del/Che/Blr/Mum/Hyd). IndiGo 10 flights Jeddah. Air India Express Muscat. Etihad 4 flights. Akasa Air Jeddah. EaseMyTrip charter Fujairah→Delhi/Mumbai. But 80% Dubai flights STILL cancelled. 11,000+ flights cancelled since Sat. Etihad suspended until Wed 2pm. CBSE POSTPONED Mar 5-6 exams in 7 Gulf countries (Circular-2, Mar 3). PV Sindhu stranded at Dubai airport. Punjab CM Mann helpline, AP CM Naidu + Karnataka CM Siddaramaiah mobilizing. 9M Indians in Gulf. 3,000 in Iran.
+                  <strong style={{ color: "#ffea00" }}>EVACUATIONS SCALING UP:</strong> 58 flights planned Mar 4 (30 IndiGo + 23 Air India/AIE). 24 Indian flights operated Tue + 9 by Emirates/Etihad. Mumbai key hub: Emirates/Star Air/IndiGo/AIE arrivals. 1,609 flights cancelled (1,221 Indian + 388 foreign). 12,000+ cancelled globally. 3 Dubai-bound flights U-turned mid-air due to drone threats. PV Sindhu returned Tue AM. 84 Pune students sleeping on Dubai airport benches. Air India NY/Newark rerouting via Rome (+4-7hrs). Etihad suspended until Mar 5 2pm. CBSE Mar 5-6 exams POSTPONED 7 Gulf countries. Indian embassies 24x7 helplines. 9M Indians in Gulf. 3,000 in Iran.
                 </p>
                 <p style={{ margin: 0 }}>
-                  <strong style={{ color: "#00e5ff" }}>WHAT COMES NEXT:</strong> War on THREE FRONTS expanding — Iran (787 dead, 153 cities hit), Lebanon (ground incursion + 100K reservists called up), Gulf maritime (Hormuz sealed). Katz: "crushing the octopus's tentacles." Trump: could go "far longer" than 4-5 weeks. Congress war powers vote this week (Trump will veto). Al-Arabiya claims Mossad operatives on ground in Iran. Iran has no navy left but retains missiles + 460kg enriched uranium. India's 74-day crude reserve is the clock. CBSE exams in Gulf indefinitely postponed. Markets reopen Wed Mar 5 into worst environment since COVID. India MUST: (a) complete Russian crude pivot, (b) emergency LPG procurement from non-Gulf, (c) scale evacuation (only ~200 pax evacuated so far vs 9M at risk), (d) brace for oil at $100+ if Hormuz stays sealed.
+                  <strong style={{ color: "#00e5ff" }}>WHAT COMES NEXT:</strong> War on THREE FRONTS expanding — Iran (800+ dead, 10 countries hit), Lebanon (ground incursion + 100K reservists, 50+ killed 2 days), Gulf maritime (Hormuz sealed, Trump ordering Navy escort). Rubio: attacks will INCREASE. B-2 stealth bombers active. Iran: 17 ships destroyed but 500+ missiles + 2,000+ drones fired. Assembly of Experts building destroyed — succession crisis deepens. India: 8-week crude buffer is the clock (but only 2-3 wks LNG). Markets in freefall — worst environment since COVID. Goldman/SocGen/Natixis all flag India as most vulnerable. India MUST: (a) complete Russian crude pivot, (b) emergency LPG + LNG procurement from non-Gulf, (c) scale evacuation (58 flights Mar 4 vs 9M at risk), (d) brace for $100+ oil if Hormuz stays sealed, (e) prepare fiscal response to ₹16L+ cr market destruction.
                 </p>
               </div>
             </div>
