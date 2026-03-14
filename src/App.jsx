@@ -7,7 +7,7 @@ import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer, AreaChart,
 // Last Updated: March 14, 2026 — 8:25 AM IST (Day 15)
 // ═══════════════════════════════════════════════════════
 
-const LAST_UPDATED = "March 14, 2026 — 4:17 PM IST (Day 15 • Fujairah Hit • Fuel Surcharge • Week 3)";
+const LAST_UPDATED = "March 14, 2026 — 8:25 AM IST (Day 15 • Week 3 • Nifty 23,151)";
 
 // ═══════════════════════════════════════════════════════
 // 15-DAY TREND DATA (verified multi-source)
@@ -27,7 +27,7 @@ const TREND_DATA = [
   { day: "Mar 11", d: 12, brent: 93, deaths: 1444, sensex: 76864, nifty: 23867, rupee: 92.10, label: "Ships hit Hormuz" },
   { day: "Mar 12", d: 13, brent: 101, deaths: 1444, sensex: 76034, nifty: 23639, rupee: 92.37, label: "IEA SPR failed" },
   { day: "Mar 13", d: 14, brent: 99, deaths: 1444, sensex: 74564, nifty: 23151, rupee: 92.45, label: "Black Friday" },
-  { day: "Mar 14", d: 15, brent: 103, deaths: 1444, sensex: null, nifty: null, rupee: null, label: "Kharg bombed, Fujairah hit" },
+  { day: "Mar 14", d: 15, brent: 99, deaths: 1444, sensex: null, nifty: null, rupee: null, label: "Week 3 begins" },
 ];
 
 // ═══════════════════════════════════════════════════════
@@ -37,8 +37,7 @@ const NUCLEAR_SITES = [
   { name: "Natanz (FEP)", lat: 33.72, lng: 51.73, status: "STRUCK", enrichment: "60% HEU", detail: "3 entrance buildings destroyed. Underground halls with 18,400+ centrifuges. IAEA: no radiological release YET. 440kg 60% HEU stockpile was onsite.", risk: "HIGH", distKm: 2800 },
   { name: "Fordow (FFEP)", lat: 34.88, lng: 51.57, status: "STRUCK (Jun 2025)", enrichment: "20-60% HEU", detail: "Deeply buried. GBU-57 penetration holes from June 2025. Little activity since. Was producing 60% HEU.", risk: "MEDIUM", distKm: 2750 },
   { name: "Isfahan Complex", lat: 32.63, lng: 51.68, status: "STRUCK", enrichment: "UF6 conversion", detail: "Uranium conversion, metal production buildings. Tunnel complex with enriched uranium canisters. Iran reinforcing entrances.", risk: "HIGH", distKm: 2700 },
-  { name: "Bushehr NPP", lat: 28.83, lng: 50.88, status: "12km from struck airport", enrichment: "Reactor fuel", detail: "1000MW power reactor. Rosatom suspended construction. 12km from struck Bushehr Airport. ~150km from Kharg Island (now bombed). Contains spent fuel.", risk: "CRITICAL", distKm: 2200 },
-  { name: "Kharg Island", lat: 29.23, lng: 50.32, status: "BOMBED Mar 13", enrichment: "OIL (not nuclear)", detail: "90% of Iran oil exports. Trump bombed EVERY military target. Warned oil infra NEXT. If refineries hit, massive petrochemical contamination of Persian Gulf. 150km from Bushehr NPP.", risk: "CRITICAL", distKm: 2100 },
+  { name: "Bushehr NPP", lat: 28.83, lng: 50.88, status: "12km from struck airport", enrichment: "Reactor fuel", detail: "1000MW power reactor. Rosatom suspended construction. 12km from struck Bushehr Airport. Russian-built. Contains spent fuel.", risk: "CRITICAL", distKm: 2200 },
   { name: "Arak (IR-40)", lat: 34.38, lng: 49.24, status: "STRUCK (Jun 2025)", enrichment: "Heavy water", detail: "Heavy water reactor + D2O production. Struck in June 2025 war. Status unclear.", risk: "MEDIUM", distKm: 2900 },
   { name: "Parchin/Taleghan 2", lat: 35.52, lng: 51.77, status: "NEW ACTIVITY", enrichment: "Weapons R&D", detail: "Circular chambers for nuclear weapons testing. Under reconstruction since May 2025. IAEA concerned about new development.", risk: "HIGH", distKm: 2850 },
 ];
@@ -74,8 +73,7 @@ const WIND_DATA = [
 // ═══════════════════════════════════════════════════════
 const WEEKLY_SUMMARY = [
   { week: "Week 1 (Feb 28 - Mar 6)", sensexChange: "-2,368", niftyChange: "-729", brentRange: "$72-$88", fpiFlow: "-₹10,344 cr", keyEvent: "War begins → Hormuz closed → IRIS Dena sunk → Oil depots struck" },
-  { week: "Week 2 (Mar 7 - Mar 13)", sensexChange: "-3,800 (-5%)", niftyChange: "-1,100 (-5%)", brentRange: "$88-$120", fpiFlow: "-₹35,756 cr", keyEvent: "Mojtaba elected → Brent $120 → IEA SPR failed → Black Friday → Kharg bombed" },
-  { week: "Week 3 (Mar 14+)", sensexChange: "TBD (markets closed Sat)", niftyChange: "TBD", brentRange: "$99+ (Kharg threat)", fpiFlow: "TBD", keyEvent: "Kharg Island every military target bombed. Oil infra warned. Lebanon 773 dead. Iran mulls yuan Hormuz." },
+  { week: "Week 2 (Mar 7 - Mar 13)", sensexChange: "-3,800 (-5%)", niftyChange: "-1,100 (-5%)", brentRange: "$88-$120", fpiFlow: "-₹35,756 cr", keyEvent: "Mojtaba elected → Brent $120 → IEA SPR failed → Black Friday" },
 ];
 
 // ═══════════════════════════════════════════════════════
@@ -150,7 +148,7 @@ export default function Dashboard() {
           background: "#ff174415", border: "1px solid #ff174430", borderRadius: 6, padding: "6px 10px", marginBottom: 10,
           fontSize: 10, color: "#ff8a80", lineHeight: 1.5, overflow: "hidden",
         }}>
-          <span style={{ fontWeight: 700, color: "#ff1744" }}>⚠ LIVE:</span> LIVE: Fujairah oil terminal (2M bbl/day) HIT by Iran • Kharg military targets obliterated • Trump: Iran totally defeated • 5 US refueling planes struck at Saudi base • Akasa/IndiGo/Air India add fuel surcharge from Mar 15 • Brent $103 (+41%) • PM Modi: govt minimising impact • Iran 1,444 dead • Lebanon 773 • IMO emergency session Mar 18-19
+          <span style={{ fontWeight: 700, color: "#ff1744" }}>⚠ LIVE:</span> Sensex 74,564 (worst wk in 4 yrs, -5%) • Nifty 23,151 • Rupee 92.45 ATL • Brent $99 • Deaths 2,100+ • FPI -₹46,100 cr • LPG force majeure • Oil cos -₹20K cr/day • 28 Indian ships stuck Hormuz
         </div>
 
         {/* TABS */}
@@ -201,7 +199,7 @@ export default function Dashboard() {
             {/* Death Toll Chart */}
             <div style={{ background: "#ffffff06", borderRadius: 12, padding: 14, marginBottom: 12, border: "1px solid #ffffff10" }}>
               <h3 style={{ margin: "0 0 4px", fontSize: 12, color: "#ff1744", fontWeight: 700 }}>DEATH TOLL — ALL THEATERS</h3>
-              <div style={{ fontSize: 9, color: "#64748b", marginBottom: 8 }}>Iran 1,444 + Lebanon 773 + Israel 15 + US 13 + Gulf 12+ = 2,257+</div>
+              <div style={{ fontSize: 9, color: "#64748b", marginBottom: 8 }}>Iran 1,444 + Lebanon 634 + Israel 15 + US 13 + Gulf 12+ = 2,100+</div>
               <ResponsiveContainer width="100%" height={140}>
                 <AreaChart data={TREND_DATA}>
                   <defs>
@@ -458,44 +456,16 @@ export default function Dashboard() {
               <h4 style={{ margin: "0 0 8px", fontSize: 12, color: "#ff1744" }}>⚡ DAY 15 — STRATEGIC ASSESSMENT</h4>
               <div style={{ fontSize: 10, color: "#c9d1d9", lineHeight: 1.8 }}>
                 <p style={{ margin: "0 0 8px" }}>
-                  <strong style={{ color: "#ff1744" }}>FUJAIRAH HIT + KHARG BOMBED + TRUMP: IRAN DEFEATED:</strong> Fujairah oil terminal (2M bbl/day UAE exports) HIT by Iran in retaliation. 5 US refueling planes struck at Saudi Prince Sultan Air Base. Kharg Island military targets "obliterated." Trump: "Iran totally defeated, seeking a deal." But Hegseth: "no quarter, no mercy." Iran lawmaker: helicopter assaults on US bases if Kharg seized. Mojtaba Khamenei wounded/disfigured per Hegseth. — no ceasefire offer. Iran's missile capability -90%, drone -95%, but IRGC says deploying heavier 1-tonne warheads. Hegseth promises heavier munitions (500-2000lb bombs). 2,200 Marines + 10,000 AI drones deploying. Fujairah oil terminal (2M bbl/day) HIT by Iran. 5 US refueling planes struck at Saudi base (WSJ). Kharg military targets obliterated. Trump: Iran "totally defeated." But Hegseth: "no quarter, no mercy" (Dem Rep Vindman: possibly illegal order). Iran using Chinese BeiDou GPS + Russian intel for targeting (not US-jammable GPS). Brent $103 (+41.5%). Lebanon 773 killed. Hezbollah: "long confrontation." IMO emergency session Mar 18-19 on Hormuz. $10M reward for Khamenei. KC-135 crash: 6 dead.
+                  <strong style={{ color: "#ff1744" }}>WAR ENTERING ATTRITION PHASE:</strong> Mojtaba Khamenei's first statement demands US base closures — no ceasefire offer. Iran's missile capability -90%, drone -95%, but IRGC says deploying heavier 1-tonne warheads. Hegseth promises heavier munitions (500-2000lb bombs). 2,200 Marines + 10,000 AI drones deploying. Trump bombed every target on Kharg Island. Iran mulling Hormuz transit in yuan only. KC-135 crash killed 6 more US crew. War cost $11.3B in 6 days ($1.5B+/day). No exit ramp visible.
                 </p>
                 <p style={{ margin: "0 0 8px" }}>
-                  <strong style={{ color: "#ff9100" }}>INDIA — WORST WEEK SINCE 2022:</strong> Black Friday: Sensex -1,460, Nifty -488. Weekly: -3,800 Sensex (-5%), -1,100 Nifty (-5%). ₹20L cr wiped in week. Rupee 92.45 ATL. Oil cos losing ₹20,000 cr/DAY. LPG force majeure — restaurants closing. FPIs sold ₹46,100 cr in March. Jaishankar's 4th call to Araghchi for 28 Indian vessels. India reviewing diesel for Bangladesh/Sri Lanka/Maldives. FUEL SURCHARGE: Akasa Air (₹199-1,300/flight), IndiGo, Air India ALL adding surcharges from Mar 15. Brent $103 (+41% in 15 days, from $73 pre-war). PM Modi: "govt making every effort to minimise impact." India extending visa-free for stranded foreigners. If Kharg oil infra hit: Brent $130+ and India faces 1970s-style shock.
+                  <strong style={{ color: "#ff9100" }}>INDIA — WORST WEEK SINCE 2022:</strong> Black Friday: Sensex -1,460, Nifty -488. Weekly: -3,800 Sensex (-5%), -1,100 Nifty (-5%). ₹20L cr wiped in week. Rupee 92.45 ATL. Oil cos losing ₹20,000 cr/DAY. LPG force majeure — restaurants closing. FPIs sold ₹46,100 cr in March. Jaishankar's 4th call to Araghchi seeking passage for 28 Indian vessels. India reviewing diesel supply for Bangladesh, Sri Lanka, Maldives.
                 </p>
                 <p style={{ margin: "0 0 8px" }}>
-                  <strong style={{ color: "#ffea00" }}>NUCLEAR DIMENSION:</strong> 4 nuclear sites struck. IAEA says no radiological release YET. But 440kg 60% HEU was onsite at Natanz. Bushehr NPP 12km from struck airport. WHO confirmed toxic black rain. Iran's enrichment program "effectively destroyed" per ISIS. Surviving HEU + Parchin R&D remain concerning. Fujairah terminal NOW struck — chemical/petrochemical contamination of Gulf waters CONFIRMED escalating. Kharg oil infra threatened next. WHO black rain expanding. Wind corridor reaches Gujarat/Maharashtra in 3-5 days. IMO convening emergency session on shipping Mar 18-19.
+                  <strong style={{ color: "#ffea00" }}>NUCLEAR DIMENSION:</strong> 4 nuclear sites struck. IAEA says no radiological release YET. But 440kg 60% HEU was onsite at Natanz. Bushehr NPP 12km from struck airport. WHO confirmed toxic black rain. Iran's enrichment program "effectively destroyed" per ISIS. However, surviving HEU stockpile + weapons R&D at Parchin remain concerning. Wind corridor from Iran reaches Gujarat/Maharashtra coast in 3-5 days.
                 </p>
                 <p style={{ margin: 0 }}>
-                  <strong style={{ color: "#00e5ff" }}>WHAT INDIA MUST DO NOW:</strong> (1) Activate emergency Russian crude procurement under 30-day US waiver. (2) Demand inclusion in G7 SPR coordination (IEA 400M barrel release failed to hold prices). (3) Emergency fiscal package for OMCs (losing ₹20K cr/day). (4) LPG diversification from non-Gulf sources. (5) Scale evacuation — 52K returned but 9M in Gulf. (6) Secure 28 merchant vessels at Hormuz. (7) Monitor nuclear contamination corridor — deploy radiation sensors along Gujarat/Maharashtra coast. (8) Prepare for $90-130 Brent for months. (9) Airlines already adding fuel surcharges — aviation sector needs emergency support. (10) Monitor Fujairah terminal contamination — India imports via this hub. This is India's new structural reality.
-                </p>
-              </div>
-            </div>
-
-            {/* 15-Day Trend Patterns */}
-            <div style={{ background: "linear-gradient(135deg, #00e5ff08, #448aff08)", borderRadius: 12, padding: 14, marginBottom: 12, border: "1px solid #00e5ff20" }}>
-              <h4 style={{ margin: "0 0 10px", fontSize: 12, color: "#00e5ff" }}>📈 15-DAY TREND PATTERNS — WHAT THE DATA TELLS US</h4>
-              <div style={{ fontSize: 10, color: "#c9d1d9", lineHeight: 1.8 }}>
-                <p style={{ margin: "0 0 8px" }}>
-                  <strong style={{ color: "#ff6d00" }}>OIL TRAJECTORY:</strong> $72→$78→$84→$88→$120→$84→$93→$101→$103. Pattern: sustained upward with extreme spikes on escalation events. IEA 400M SPR failed to hold below $100. Kharg + Fujairah strikes = infrastructure now in crosshairs. Trend: $90-110 baseline with $120+ spike risk on any Hormuz escalation. Key trigger: if Kharg OIL infra (not just military) struck, $130+ overnight.
-                </p>
-                <p style={{ margin: "0 0 8px" }}>
-                  <strong style={{ color: "#ff1744" }}>DEATH TOLL CURVE:</strong> 150→555→787→1,045→1,332→1,444 Iran (flattening as missile/drone capacity degrades: -90%/-95%). BUT Lebanon accelerating: 0→50→394→634→773 (Israeli ground ops expanding). Total trajectory: ~150/day across all theaters. NO sign of deceleration in Lebanon theater.
-                </p>
-                <p style={{ margin: "0 0 8px" }}>
-                  <strong style={{ color: "#448aff" }}>INDIA MARKETS:</strong> Sensex 81,287→80,239→79,116→77,566→78,293→76,864→74,564. Pattern: relentless decline with brief dead-cat bounces (Mar 5: +900, Mar 10: +727) immediately erased. Weekly: -2,368 (Wk1), -3,800 (Wk2). Nifty breached 10% correction. FPI selling: ₹46,100 cr in March (accelerating). Support: 23,000 Nifty. If breached → 22,000.
-                </p>
-                <p style={{ margin: "0 0 8px" }}>
-                  <strong style={{ color: "#ff4081" }}>RUPEE:</strong> 91.49→92.30→91.54→92.33→92.45. Pattern: progressive weakening despite RBI intervention. Each spike higher, each recovery shallower. HSBC: oil impact hits INR before trade data. Heading toward 93-94 if Brent stays >$100.
-                </p>
-                <p style={{ margin: "0 0 8px" }}>
-                  <strong style={{ color: "#69f0ae" }}>ESCALATION LADDER (observed):</strong> Day 1-3: Iran strikes (military/govt). Day 4-6: Hormuz closed, ships stranded. Day 7-9: Oil depots struck (blackened rain). Day 10-12: IEA SPR fails, ships attacked in Hormuz. Day 13-15: Kharg Island bombed, Fujairah terminal hit, fuel surcharges begin. PATTERN: every 3-4 days, a new escalation threshold is crossed. Next likely threshold: Kharg OIL infra or ground operation.
-                </p>
-                <p style={{ margin: "0 0 8px" }}>
-                  <strong style={{ color: "#ff1744" }}>NUCLEAR RISK TRAJECTORY:</strong> Day 1-4: Natanz entrances struck (IAEA: no release). Day 5-7: Bushehr airport struck 12km away. Day 8-12: Oil depot fires → WHO black rain confirmed. Day 13-15: Kharg military bombed, Fujairah terminal hit. PATTERN: progressively striking closer to critical energy infrastructure. Nuclear contamination risk is INDIRECT (petrochemical not radiological) but INCREASING. Bushehr NPP remains 12km from active strike zone.
-                </p>
-                <p style={{ margin: 0 }}>
-                  <strong style={{ color: "#ffea00" }}>INDIA IMPACT ESCALATION:</strong> Day 1-3: Market shock. Day 4-6: LPG/evacuation crisis. Day 7-9: Oil $100+, rupee ATL. Day 10-12: IEA fails, LPG force majeure, restaurants closing. Day 13-15: Fuel surcharges, Fujairah (India import hub) struck, PM Modi acknowledges crisis. PATTERN: impact is deepening from financial markets → energy supply → daily life (LPG/food) → transport costs. Next phase: potential petrol/diesel price hikes + rationing.
+                  <strong style={{ color: "#00e5ff" }}>WHAT INDIA MUST DO NOW:</strong> (1) Activate emergency Russian crude procurement under 30-day US waiver. (2) Demand inclusion in G7 SPR coordination (IEA 400M barrel release failed to hold prices). (3) Emergency fiscal package for OMCs (losing ₹20K cr/day). (4) LPG diversification from non-Gulf sources. (5) Scale evacuation — 52K returned but 9M in Gulf. (6) Secure 28 merchant vessels at Hormuz. (7) Monitor nuclear contamination corridor — deploy radiation sensors along Gujarat/Maharashtra coast. (8) Prepare for $90-110 Brent for months, not weeks. This is India's new reality.
                 </p>
               </div>
             </div>
