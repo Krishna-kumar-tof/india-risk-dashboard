@@ -6,8 +6,8 @@ import { useState } from "react";
 // Last updated: March 14, 2026 — 8:25 AM IST (Day 15)
 // ═══════════════════════════════════════════════════════════════════
 
-const UPDATED = "March 14, 2026 — 8:25 AM IST";
-const WAR_DAY = 15;
+const UPDATED = "March 17, 2026 — 11:56 AM IST";
+const WAR_DAY = 18;
 
 const C = {
   bg: "#090b10", card: "#0e1219", border: "#1a2030", borderHi: "#2a3040",
@@ -28,13 +28,16 @@ const TL = [
   { d:12,l:"Mar 11",deaths:1966,brent:93,nifty:23867,rupee:92.20,tag:"Ships hit Hormuz. IEA 400M SPR" },
   { d:14,l:"Mar 13",deaths:2100,brent:99,nifty:23151,rupee:92.45,tag:"BLACK FRIDAY. ₹20L cr wiped wk" },
   { d:15,l:"Mar 14",deaths:2100,brent:99,nifty:23151,rupee:92.45,tag:"Day 15. Marines + 10K AI drones" },
+  { d:16,l:"Mar 15",deaths:2200,brent:100,nifty:23151,rupee:92.45,tag:"Weekend. Gulf exports -60%. 5K more Marines." },
+  { d:17,l:"Mar 16",deaths:2200,brent:103,nifty:23408,rupee:92.41,tag:"Relief rally +938. 2 Indian LPG tankers crossed Hormuz" },
+  { d:18,l:"Mar 17",deaths:2200,brent:103,nifty:23518,rupee:92.44,tag:"Day 18. Trump: unclear if Khamenei alive. Hormuz escort push" },
 ];
 
 // ───── PROJECTIONS ─────
 const PROJ = [
   { w:"Pre-war",brent:65,nifty:25179,rupee:91.0,lpg:803,petrol:94.72,deaths:0 },
   { w:"Week 1",brent:85,nifty:24481,rupee:92.30,lpg:803,petrol:94.72,deaths:1045 },
-  { w:"Now",brent:99,nifty:23151,rupee:92.45,lpg:863,petrol:103.54,deaths:2100 },
+  { w:"Now",brent:103,nifty:23518,rupee:92.44,lpg:912,petrol:103.54,deaths:2200 },
   { w:"Week 3*",brent:105,nifty:22000,rupee:93.5,lpg:920,petrol:108,deaths:3200 },
   { w:"Week 4*",brent:110,nifty:21000,rupee:94.5,lpg:950,petrol:112,deaths:4500 },
   { w:"Week 6*",brent:115,nifty:19000,rupee:96.0,lpg:1000,petrol:118,deaths:7000 },
@@ -43,7 +46,7 @@ const PROJ = [
 
 // ───── HOUSEHOLD ─────
 const HH = [
-  { item:"LPG Cylinder (14.2kg)", pre:"₹803", now:"₹863", chg:"+₹60 (+7.5%)", proj:"₹950", note:"OMCs declared force majeure. Commercial supply stopped Mumbai, Bengaluru. ₹30,000 cr subsidy approved.", s:3 },
+  { item:"LPG Cylinder (14.2kg)", pre:"₹803", now:"₹912.50", chg:"+₹109.50 (+13.6%)", proj:"₹950", note:"OMCs declared force majeure. Only 10 DAYS LPG stock left (News24). Milk shortage looming — dairy industry at risk. ₹30,000 cr subsidy approved.", s:3 },
   { item:"LPG Commercial (19kg)", pre:"₹1,646", now:"₹1,790", chg:"+₹144 (+8.7%)", proj:"₹2,100", note:"Restaurants dropping chapati, dosa, pooris. Some facing closure. Zomato profits may drop 7%.", s:3 },
   { item:"Petrol (Mumbai)", pre:"₹94.72/L", now:"₹103.54/L", chg:"+₹8.82 (+9.3%)", proj:"₹112/L", note:"Oil cos losing ₹20,000 cr/day. Diesel at ₹45/L loss. Govt shielding prices — unsustainable.", s:3 },
   { item:"Diesel (Mumbai)", pre:"₹82.69/L", now:"₹90.03/L", chg:"+₹7.34 (+8.9%)", proj:"₹98/L", note:"Every ₹1 diesel rise = ₹2,500 cr annual cost to trucking. Freight + food transport costlier.", s:2 },
@@ -55,13 +58,14 @@ const HH = [
 
 // ───── MILITARY ─────
 const MIL = [
-  { t:"28 Indian Vessels Stranded at Hormuz", lv:"CRITICAL", c:C.red, d:"Jaishankar called Araghchi 4 times. IRGC firing on ships. Iran mulling yuan-only transit. India's ₹35B/yr Gulf trade route severed." },
+  { t:"Hormuz: 2 Indian LPG Tankers Crossed (Mar 15)", lv:"CRITICAL", c:C.red, d:"Jaishankar talks yielded results — 2 India-flagged LPG carriers crossed Hormuz over weekend. But Gulf oil exports still -60% (Kpler). Trump pushing NATO/China to help reopen. First non-Iranian tanker (Aframax Karachi) also transited. Fragile progress." },
   { t:"IRIS Dena — War in Indian Ocean", lv:"CRITICAL", c:C.red, d:"Iranian frigate torpedoed 40nm off Sri Lanka — was returning from Indian Navy MILAN exercise in Visakhapatnam. 104 dead. War reached India's neighborhood." },
   { t:"Crude Supply Line Cut (52% via Hormuz)", lv:"CRITICAL", c:C.red, d:"Near-total shipping halt. India scrambling — Russian oil +50%. But US trade deal prohibits Russian oil. Impossible bind." },
   { t:"Kashmir Stability", lv:"HIGH", c:C.orange, d:"3 days of restrictions after Shia protests in 12+ states. 2G internet. Schools closed. Political pressure mounting on BJP." },
   { t:"9 Million Indians in Gulf", lv:"HIGH", c:C.orange, d:"52,000 returned Mar 1-7. But drones hitting Dubai airport, Bahrain civilians (incl 2-month infant). Saudi: first deaths. Remittances $35B/yr at risk." },
+  { t:"Israel Ground Incursion into Lebanon", lv:"HIGH", c:C.orange, d:"Israel announced beginning of ground operations in southern Lebanon. Hundreds of thousands of residents warned not to return. 886 killed, 111 children. Mass displacement could exceed 1 million. Hezbollah + IRGC conducting joint attacks." },
   { t:"Nuclear Fallout Path to India", lv:"ELEVATED", c:C.purple, d:"Natanz DAMAGED (IAEA confirmed). Fordow enriching to 60%. Plume reaches North India in 4-7 days if breached. NO iodine tablet program." },
-  { t:"2,200 Marines + 10,000 AI Drones Deploying", lv:"WATCH", c:C.amber, d:"31st MEU from Japan ordered to ME. Merops AI drones hunting Shahed drones. Trump bombed every military target on Kharg Island. Escalation, not winding down." },
+  { t:"7,200 Marines + 10,000 AI Drones in Theater", lv:"CRITICAL", c:C.red, d:"5,000 MORE Marines ordered (total 7,200+). Israel began GROUND INCURSION into southern Lebanon. Hundreds of thousands told not to return home. IRGC warned US industrial facilities face imminent attack. 200 US troops injured in 7 countries." },
 ];
 
 // ───── NUCLEAR ─────
@@ -86,14 +90,14 @@ const CITIES = [
 
 // ───── RISK RADAR ─────
 const RADAR = [
-  { axis:"Oil Shock", w1:60, now:88, w4:90 },
+  { axis:"Oil Shock", w1:60, now:92, w4:95 },
   { axis:"Market Crash", w1:45, now:90, w4:85 },
   { axis:"Nuclear Risk", w1:20, now:55, w4:70 },
   { axis:"Hormuz Closure", w1:80, now:95, w4:92 },
-  { axis:"Household Impact", w1:15, now:75, w4:90 },
+  { axis:"Household Impact", w1:15, now:82, w4:92 },
   { axis:"Currency Crisis", w1:40, now:78, w4:85 },
   { axis:"Social Unrest", w1:25, now:55, w4:65 },
-  { axis:"Military Exposure", w1:35, now:70, w4:80 },
+  { axis:"Military Exposure", w1:35, now:78, w4:85 },
 ];
 
 // ═══════════════════════════════════════
@@ -259,8 +263,8 @@ export default function App() {
       {/* ═══════ 1. ECONOMIC IMPACT ═══════ */}
       <Sec title="Economic Impact" sub="15 days of war have cost India trillions" accent={C.orange}>
         <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 6, marginBottom: 12 }}>
-          <Metric label="Wealth Destroyed" value="₹20L Cr" sub="in 1 week" accent={C.red} big />
-          <Metric label="FPI Outflow (Mar)" value="₹46,100 Cr" sub="10 days straight" accent={C.red} big />
+          <Metric label="Wealth Destroyed" value="₹20L+ Cr" sub="worst week in 4 yrs" accent={C.red} big />
+          <Metric label="FPI Outflow (Mar)" value="₹46,100+ Cr" sub="relentless selling" accent={C.red} big />
           <Metric label="Oil Co. Daily Loss" value="₹20,000 Cr" sub="diesel ₹45/L loss" accent={C.orange} />
           <Metric label="Petrol Mumbai" value="₹103.54" sub="was ₹94.72" accent={C.orange} />
         </div>
@@ -381,12 +385,12 @@ export default function App() {
             </thead>
             <tbody>
               {[
-                { m: "Brent ($)", v: [65, 99, 105, 110, 120] },
-                { m: "Nifty", v: ["25,179", "23,151", "22,000", "21,000", "17,500"] },
-                { m: "₹/USD", v: [91.0, 92.45, 93.5, 94.5, 98.0] },
+                { m: "Brent ($)", v: [65, 103, 108, 115, 125] },
+                { m: "Nifty", v: ["25,179", "23,518", "22,500", "21,000", "18,000"] },
+                { m: "₹/USD", v: [91.0, 92.44, 93.5, 95.0, 98.0] },
                 { m: "Petrol/L", v: ["₹94.72", "₹103.54", "₹108", "₹112", "₹125"] },
-                { m: "LPG Cyl", v: ["₹803", "₹863", "₹920", "₹950", "₹1,050"] },
-                { m: "Deaths", v: [0, "2,100+", "3,200", "4,500", "10,000"] },
+                { m: "LPG Cyl", v: ["₹803", "₹912", "₹950", "₹1,000", "₹1,100"] },
+                { m: "Deaths", v: [0, "2,200+", "3,500", "5,000", "12,000"] },
               ].map((r, i) => (
                 <tr key={i} style={{ borderBottom: `1px solid ${C.border}` }}>
                   <td style={{ padding: "5px 3px", fontWeight: 700, color: C.text, whiteSpace: "nowrap" }}>{r.m}</td>
@@ -428,13 +432,13 @@ export default function App() {
           <div style={{ fontSize: 10, lineHeight: 1.8, color: C.dim }}>
             <strong style={{ color: C.red, fontSize: 12 }}>This is no longer a crisis. It is India's new reality.</strong>
             <br /><br />
-            The war has entered an attrition phase. Iran's new Supreme Leader vows to continue. Trump says "very complete" but deploys Marines and 10,000 AI drones. The IEA used its last major tool (400M barrel SPR) — oil is still ~$100.
+            The war is in Week 3 with no exit ramp. Gulf oil exports DOWN 60%. Trump says "unclear if Khamenei is alive." Israel launched ground operations in Lebanon. 7,200+ Marines in theater. IRGC warned US industrial facilities face imminent attack. IEA SPR depleting. Oil stuck above $100.
             <br /><br />
-            <strong style={{ color: C.orange }}>For Indian families:</strong> LPG up ₹60-144, petrol ₹103.54, restaurants shutting down. Every week adds ₹5-10 to your petrol and ₹50-100 to monthly cooking gas. Vegetables rising via diesel freight costs.
+            <strong style={{ color: C.orange }}>For Indian families:</strong> LPG now ₹912.50 (+₹109.50 since war). Only 10 days stock left. Milk shortage looming. Petrol ₹103.54. Restaurants shutting. US diesel near $5/gal. Every week adds ₹5-10 to your petrol and ₹50-100 to monthly cooking gas. Vegetables rising via diesel freight costs.
             <br /><br />
             <strong style={{ color: C.purple }}>The nuclear risk is the silent escalation.</strong> Natanz is damaged. Fordow enriches at 60%. Each bombing wave near these sites increases accidental dispersal probability. Delhi is 4-7 days downwind. India has no iodine program.
             <br /><br />
-            <strong style={{ color: C.cyan }}>India must plan for $90-110 oil for months, not weeks.</strong> Emergency fiscal response, Russian crude diversification, LPG subsidy expansion, Hormuz vessel negotiations, and nuclear contamination preparedness that doesn't currently exist.
+            <strong style={{ color: C.cyan }}>2 Indian LPG tankers crossed Hormuz (fragile progress), but Gulf exports still -60%. India must plan for $100+ oil for months.</strong> Emergency fiscal response, Russian crude diversification, LPG subsidy expansion, Hormuz vessel negotiations, and nuclear contamination preparedness that doesn't currently exist.
           </div>
         </div>
       </Sec>
@@ -442,7 +446,7 @@ export default function App() {
       {/* ═══════ FOOTER ═══════ */}
       <footer style={{ padding: "12px 10px", borderTop: `1px solid ${C.border}`, marginTop: 8 }}>
         <div style={{ fontSize: 7, color: C.faint, lineHeight: 1.6 }}>
-          <strong style={{ color: C.dim }}>Sources:</strong> Al Jazeera, CNN, NPR, NBC, CBS, AP, ABC News, Reuters, Bloomberg, Business Standard, BusinessToday, Outlook Business, IAEA, WHO, UNESCO, HRW, CSIS, IEA, Goodreturns, Trading Economics, Wikipedia, Alma Research, MEA India, Nomura, Elara Capital, UBS, Goldman Sachs, HSBC, Kotak
+          <strong style={{ color: C.dim }}>Sources:</strong> Al Jazeera, CNN, NPR, NBC, CBS, AP, ABC News, Reuters, Bloomberg, Euronews, Iran International, Business Standard, BusinessToday, Goodreturns, Outlook Business, News24, Trading Economics, Wikipedia, IAEA, WHO, UNESCO, HRW, CSIS, IEA, Kpler, MarineTraffic, MEA India, Nomura, Elara Capital, UBS, HSBC, Kotak, JM Financial
           <br /><br />
           <strong style={{ color: C.dim }}>Methodology:</strong> Nuclear/contamination scores are analytical estimates based on IAEA reports, March wind patterns, and maritime current models — NOT confirmed measurements. Projections use 15-day trend extrapolation (scenarios, not forecasts). Household prices from official OMC data and Goodreturns.
           <br /><br />
