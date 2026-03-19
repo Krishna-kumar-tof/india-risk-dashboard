@@ -1,297 +1,294 @@
 import { useState } from "react";
 
 // ═══════════════════════════════════════════════════════════════════
-// INDIA RISK DASHBOARD — V5.4 — LIGHT EDITION
-// Pure React — NO external chart libraries needed
-// Last updated: March 18, 2026 — 5:00 PM IST (Day 19)
+// INDIA RISK DASHBOARD — V6.0 — PROFESSIONAL INTELLIGENCE EDITION
+// Pure React + inline CSS animations — NO external libraries
+// Updated: March 19, 2026 — 9:00 AM IST (Day 20)
 // ═══════════════════════════════════════════════════════════════════
 
-const UPDATED = "March 18, 2026 — 5:00 PM IST (Indian Standard Time)";
-const WAR_DAY = 19;
+const UPDATED = "March 19, 2026 — 9:00 AM IST";
+const WAR_DAY = 20;
 
 const C = {
-  bg: "#f5f0eb", card: "#ffffff", border: "#e0d8cf", borderHi: "#c8bfb3",
-  text: "#2c2418", dim: "#6b5e4f", faint: "#a09584",
-  red: "#c62828", orange: "#e65100", amber: "#f57f17", green: "#2e7d32",
-  cyan: "#00838f", purple: "#6a1b9a", pink: "#ad1457",
-  navBg: "#fffcf7", accent: "#c62828",
-  cardShadow: "0 1px 4px rgba(60,40,20,0.08)",
+  bg:"#101218",surface:"#181c24",card:"#1e222c",raised:"#252a36",
+  border:"#2a303e",text:"#d4d8e0",sub:"#8990a0",muted:"#555d70",
+  red:"#ef4444",orange:"#f97316",amber:"#eab308",green:"#22c55e",
+  cyan:"#06b6d4",purple:"#a855f7",pink:"#ec4899",white:"#f8fafc",
 };
+
+const TICKER_ITEMS = [
+  "⚡ SOUTH PARS GAS FIELD (world's largest) ATTACKED by Israel — Iran retaliates by striking Qatar's RAS LAFFAN LNG terminal",
+  "🔴 BRENT CRUDE surges to $112 — highest since war began",
+  "📉 GIFT Nifty signals -453 point GAP DOWN opening today (Mar 19)",
+  "☢️ BUSHEHR NUCLEAR PLANT hit by 'hostile projectile' — Iran Atomic Energy Org confirms",
+  "🔴 Intel Minister KHATIB killed — 4th top official in 3 days — Iran confirms",
+  "⚠️ IRGC issues EVACUATION ORDERS for energy assets in Qatar, Saudi Arabia, UAE",
+  "🇺🇸 Fed holds rates steady — uncertain inflation outlook due to Iran war",
+  "🇮🇳 India gas crisis deepens — Qatar supplies 60% of India's natural gas — Ras Laffan hit",
+  "🇺🇦 200+ Ukrainian anti-drone experts deployed to Middle East",
+  "📉 Asia tumbles — Nikkei -2.74%, Kospi -2.50% — global risk-off",
+];
+
 const NAV = [
-  { id: "economic", label: "Economy", icon: "📉" },
-  { id: "kitchen", label: "Kitchen", icon: "🍳" },
-  { id: "military", label: "Military", icon: "⚔️" },
-  { id: "nuclear", label: "Nuclear", icon: "☢️" },
-  { id: "projections", label: "Forecast", icon: "📈" },
-  { id: "radar", label: "Radar", icon: "🎯" },
-  { id: "warlog", label: "War Log", icon: "📋" },
-  { id: "assessment", label: "Verdict", icon: "🔴" },
+  {id:"economic",l:"Economy"},{id:"kitchen",l:"Kitchen"},{id:"military",l:"Military"},{id:"nuclear",l:"Nuclear"},
+  {id:"projections",l:"Forecast"},{id:"radar",l:"Radar"},{id:"warlog",l:"War Log"},{id:"assessment",l:"Verdict"},
 ];
+
 const TL = [
-  { d:1,l:"Feb 28",deaths:555,brent:78,nifty:25179,rupee:91.49,tag:"War starts. Khamenei killed. Op. Epic Fury" },
-  { d:3,l:"Mar 2",deaths:787,brent:82,nifty:24866,rupee:91.49,tag:"Black Monday. Ras Tanura shut" },
-  { d:5,l:"Mar 4",deaths:1045,brent:85,nifty:24481,rupee:92.30,tag:"IRIS Dena sunk off Sri Lanka. Rupee ATL" },
-  { d:7,l:"Mar 6",deaths:1332,brent:88,nifty:24450,rupee:91.82,tag:"Oil depots hit. Worst week" },
-  { d:9,l:"Mar 8",deaths:1332,brent:93,nifty:24450,rupee:91.82,tag:"Mojtaba Khamenei elected Supreme Leader" },
-  { d:10,l:"Mar 9",deaths:1754,brent:104,nifty:24028,rupee:92.33,tag:"Brent $120 intraday. ₹8.5L cr wiped" },
-  { d:11,l:"Mar 10",deaths:1754,brent:84,nifty:24200,rupee:92.10,tag:"Trump: very complete. Oil crashes" },
-  { d:12,l:"Mar 11",deaths:1966,brent:93,nifty:23867,rupee:92.20,tag:"Ships hit Hormuz. IEA 400M SPR" },
-  { d:14,l:"Mar 13",deaths:2100,brent:99,nifty:23151,rupee:92.45,tag:"BLACK FRIDAY. ₹20L cr wiped in 1 wk" },
-  { d:15,l:"Mar 14",deaths:2100,brent:99,nifty:23151,rupee:92.45,tag:"5K Marines + 10K AI Merops drones ordered" },
-  { d:16,l:"Mar 15",deaths:2200,brent:100,nifty:23151,rupee:92.45,tag:"Gulf exports -61%. Trump: wrapped up soon" },
-  { d:17,l:"Mar 16",deaths:2200,brent:103,nifty:23409,rupee:92.41,tag:"Relief rally +939. 2 India LPG tankers cross Hormuz" },
-  { d:18,l:"Mar 17",deaths:2300,brent:103,nifty:23581,rupee:92.41,tag:"Sensex +568. Larijani + Basij chief Soleimani KILLED" },
-  { d:19,l:"Mar 18",deaths:2500,brent:105,nifty:23778,rupee:92.44,tag:"Intel Min. Khatib killed. 6 dead Beirut. Sensex +633. Nifty 23,778" },
+  {d:1,l:"Feb 28",deaths:555,brent:78,nifty:25179,rupee:91.49,tag:"Op. Epic Fury. Khamenei killed"},
+  {d:3,l:"Mar 2",deaths:787,brent:82,nifty:24866,rupee:91.49,tag:"Black Monday. Ras Tanura shut"},
+  {d:5,l:"Mar 4",deaths:1045,brent:85,nifty:24481,rupee:92.30,tag:"IRIS Dena sunk off Sri Lanka"},
+  {d:7,l:"Mar 6",deaths:1332,brent:88,nifty:24450,rupee:91.82,tag:"Oil depots hit. Worst week"},
+  {d:9,l:"Mar 8",deaths:1332,brent:93,nifty:24450,rupee:91.82,tag:"Mojtaba Khamenei elected"},
+  {d:10,l:"Mar 9",deaths:1754,brent:104,nifty:24028,rupee:92.33,tag:"Brent $120 intraday"},
+  {d:11,l:"Mar 10",deaths:1754,brent:84,nifty:24200,rupee:92.10,tag:"Trump: very complete. Oil crash"},
+  {d:12,l:"Mar 11",deaths:1966,brent:93,nifty:23867,rupee:92.20,tag:"IEA 400M barrel SPR release"},
+  {d:14,l:"Mar 13",deaths:2100,brent:99,nifty:23151,rupee:92.45,tag:"BLACK FRIDAY -1,460 on Sensex"},
+  {d:15,l:"Mar 14",deaths:2100,brent:99,nifty:23151,rupee:92.45,tag:"5K Marines + AI drones deployed"},
+  {d:16,l:"Mar 15",deaths:2200,brent:100,nifty:23151,rupee:92.45,tag:"Gulf exports -61%"},
+  {d:17,l:"Mar 16",deaths:2200,brent:103,nifty:23409,rupee:92.41,tag:"2 Indian LPG tankers cross Hormuz"},
+  {d:18,l:"Mar 17",deaths:2300,brent:103,nifty:23581,rupee:92.41,tag:"Larijani + Soleimani KILLED"},
+  {d:19,l:"Mar 18",deaths:2500,brent:108,nifty:23778,rupee:92.74,tag:"Khatib killed. South Pars hit. Brent $108"},
+  {d:20,l:"Mar 19",deaths:2600,brent:112,nifty:23325,rupee:92.80,tag:"Ras Laffan hit. Bushehr struck. Asia crash"},
 ];
+
 const PROJ = [
-  { w:"Pre-war",brent:65,rupee:91.0,lpg:803,petrol:94.72,deaths:0 },
-  { w:"Week 1",brent:85,rupee:92.30,lpg:803,petrol:94.72,deaths:1045 },
-  { w:"Now",brent:105,rupee:92.44,lpg:913,petrol:103.54,deaths:2500 },
-  { w:"Week 3*",brent:108,rupee:93.5,lpg:950,petrol:108,deaths:3500 },
-  { w:"Week 4*",brent:115,rupee:95.0,lpg:1000,petrol:112,deaths:5000 },
-  { w:"Week 6*",brent:118,rupee:96.0,lpg:1050,petrol:118,deaths:8000 },
-  { w:"Week 8*",brent:125,rupee:98.0,lpg:1100,petrol:125,deaths:12000 },
+  {w:"Pre-war",brent:65,rupee:91.0,lpg:803,petrol:94.72,deaths:0},
+  {w:"Week 1",brent:85,rupee:92.30,lpg:803,petrol:94.72,deaths:1045},
+  {w:"Now",brent:112,rupee:92.80,lpg:913,petrol:103.54,deaths:2600},
+  {w:"Week 3*",brent:115,rupee:94.0,lpg:980,petrol:112,deaths:3800},
+  {w:"Week 4*",brent:120,rupee:95.5,lpg:1050,petrol:118,deaths:5500},
+  {w:"Week 6*",brent:125,rupee:97.0,lpg:1100,petrol:125,deaths:9000},
+  {w:"Week 8*",brent:130,rupee:99.0,lpg:1200,petrol:135,deaths:14000},
 ];
+
 const HH = [
-  { item:"LPG Cylinder (14.2kg)", pre:"₹803", now:"₹913", chg:"+₹110 (+13.7%)", proj:"₹950+", note:"Force majeure. Only 10 DAYS stock left. Dairy crisis: 10 days milk packaging left. Shivalik (45K MT) reached Mundra Port. 25-day inter-booking rule imposed. LPG production up 28% after govt order — but covers only 10% of national need.", s:3 },
-  { item:"LPG Commercial (19kg)", pre:"₹1,646", now:"₹1,790", chg:"+₹144 (+8.7%)", proj:"₹2,100", note:"Restaurants dropping chapati, dosa, pooris. Bengaluru cafe charging 'Gas Crisis Charge' on lemonade. Indian Railways advised caterers to explore alternative fuels. Small bakeries warn bread shortage.", s:3 },
-  { item:"Petrol (Mumbai)", pre:"₹94.72/L", now:"₹103.54/L", chg:"+₹8.82 (+9.3%)", proj:"₹112/L", note:"Oil cos losing ₹20,000 cr/day. Govt shielding prices — unsustainable. US diesel now $5/gallon. JM Financial: every $1 oil rise = $2B added to India's import bill.", s:3 },
-  { item:"Diesel (Mumbai)", pre:"₹82.69/L", now:"₹90.03/L", chg:"+₹7.34 (+8.9%)", proj:"₹98/L", note:"Every ₹1 diesel rise = ₹2,500 cr annual cost to trucking. Freight + food transport costlier.", s:2 },
-  { item:"Cooking Oil", pre:"~₹140/L", now:"~₹155/L", chg:"+~₹15 (+10.7%)", proj:"₹175/L", note:"Palm oil +5% (Nomura). Sunflower +16%. India import-dependent. Rupee fall compounds.", s:2 },
-  { item:"Onion / Vegetables", pre:"Stable", now:"Rising", chg:"Transport cost↑", proj:"₹60-80/kg", note:"400K tons Basmati stuck at ports. Diesel-driven freight costs rising. Supply chain disrupting.", s:1 },
-  { item:"Medicine", pre:"Stable", now:"Stable (for now)", chg:"Coming Q1 FY27", proj:"+10-15%", note:"Pharma raw materials costlier. Liquid paraffin +26% YoY. Impact expected from Apr (Nomura).", s:1 },
-  { item:"Electricity", pre:"Normal", now:"Rising risk", chg:"Gas shortage", proj:"+5-10%", note:"60% of India's natural gas from Middle East (Qatar). Gas allocation cuts to power plants. Fertiliser + food production at risk.", s:1 },
+  {item:"LPG Cylinder (14.2kg)",pre:"₹803",now:"₹913",chg:"+₹110 (+13.7%)",proj:"₹980+",note:"Only 10 DAYS stock. Dairy crisis looming. Shivalik reached Mundra (5% of monthly need). Qatar's Ras Laffan LNG terminal HIT by Iran overnight — 60% of India's natural gas comes via Qatar. Catastrophic if sustained.",s:3},
+  {item:"LPG Commercial (19kg)",pre:"₹1,646",now:"₹1,790",chg:"+₹144 (+8.7%)",proj:"₹2,200",note:"Restaurants dropping menu items. Bengaluru cafe charging 'Gas Crisis Charge.' Railways advised caterers to find alt fuels. Bakeries warn bread shortage.",s:3},
+  {item:"Petrol (Mumbai)",pre:"₹94.72/L",now:"₹103.54/L",chg:"+₹8.82 (+9.3%)",proj:"₹118/L",note:"Brent now $112. Oil cos losing ₹20,000 cr/day. JM Financial: every $1 oil = $2B added to India's import bill. US diesel $5/gallon.",s:3},
+  {item:"Diesel (Mumbai)",pre:"₹82.69/L",now:"₹90.03/L",chg:"+₹7.34 (+8.9%)",proj:"₹102/L",note:"Every ₹1 diesel rise = ₹2,500 cr annual trucking cost. Freight + food transport rising fast.",s:2},
+  {item:"Cooking Oil",pre:"~₹140/L",now:"~₹155/L",chg:"+~₹15 (+10.7%)",proj:"₹180/L",note:"Palm oil +5%. Sunflower +16%. India import-dependent. Rupee slide compounds.",s:2},
+  {item:"Natural Gas (PNG)",pre:"Normal",now:"CRITICAL",chg:"Supply threat",proj:"Rationing likely",note:"BREAKING: Iran struck Qatar's Ras Laffan (world's largest LNG terminal). India imports 60% of natural gas from Middle East. CNG + piped gas to homes at severe risk. Fertiliser production threatened.",s:3},
+  {item:"Onion / Vegetables",pre:"Stable",now:"Rising",chg:"Transport↑",proj:"₹60-80/kg",note:"400K tons Basmati stuck at ports. Diesel-driven freight costs rising.",s:1},
+  {item:"Medicine",pre:"Stable",now:"Stable (for now)",chg:"Coming Apr",proj:"+10-15%",note:"Pharma raw materials costlier. Liquid paraffin +26% YoY. Nomura: impact from Q1 FY27.",s:1},
 ];
+
 const MIL = [
-  { t:"Intel Min. Esmail Khatib KILLED (Mar 18)", lv:"BREAKING", c:C.red, d:"Israel's Defence Minister claims Iran's Intelligence Minister Esmail Khatib and senior ministry figures killed overnight. 3rd top official in 2 days (after Larijani + Soleimani). Katz: 'significant surprises expected in all arenas.' IDF authorized to kill ANY senior Iranian official without additional approval. Iran executed Israeli spy today." },
-  { t:"Ali Larijani + Basij Chief KILLED (Mar 17)", lv:"BREAKING", c:C.red, d:"Iran confirmed top security chief Ali Larijani killed with his son in Israeli strike. Basij commander Gholamreza Soleimani also killed. IRGC launched 'intense' retaliatory attacks — cluster munitions over Tel Aviv — 2 killed in Ramat Gan. Mojtaba Khamenei: 'not the right time for peace.' Trump: 'not afraid' of boots on ground in Iran." },
-  { t:"US 5,000-lb Bunker Busters on Hormuz", lv:"CRITICAL", c:C.red, d:"US dropped multiple 5,000-lb deep-penetrator munitions on hardened Iranian missile sites along Strait of Hormuz coastline (CENTCOM confirmed). Part of ongoing effort to prevent Iran from striking commercial shipping. Israel planning to strike 'thousands' of targets over next 3 weeks." },
-  { t:"Hormuz: 2 Indian LPG Tankers Crossed", lv:"CRITICAL", c:C.red, d:"Jaishankar diplomacy yielded results — Shivalik (45K MT) + Nanda Devi crossed Hormuz under Indian Navy escort (Mar 15-16). Shivalik reached Mundra Port. But covers only 5% of monthly need. Gulf oil exports still -61% (Kpler/Reuters). First non-Iranian tanker (Aframax Karachi) also transited with AIS on." },
-  { t:"IRIS Dena — War in Indian Ocean", lv:"CRITICAL", c:C.red, d:"Iranian frigate torpedoed 40nm off Sri Lanka (87 killed, 32 rescued). Was returning from Indian Navy MILAN exercise. Iran's Navy commander vowed retribution: 'deadly strikes from where the enemy least expects.' War literally reached India's doorstep." },
-  { t:"9 Million Indians in Gulf", lv:"HIGH", c:C.orange, d:"52,000+ returned. UAE closed airspace AGAIN today (Mar 18) — intercepting Iranian missiles/drones. Saudi, Qatar, Kuwait ALL intercepting fire today. 6 killed + 24 injured in Israeli strikes on Beirut this morning. Tyre mass evacuation ordered. US State Dept ordered ALL diplomatic posts worldwide to review security. NATO deploying more Patriot systems to Turkey." },
-  { t:"Israel Ground Ops + Tyre Exodus", lv:"HIGH", c:C.orange, d:"Israel 'limited ground operations' in southern Lebanon. Tyre (4th largest city) mass evacuation today — massive traffic jams. 1 Lebanese soldier killed by Israeli strike. 1M+ displaced (20% of population). 886+ killed incl 111 children. Beirut highrise leveled today near govt HQ. US Marines warship nearing Malacca Strait, heading to region." },
-  { t:"Kashmir & Domestic Stability", lv:"HIGH", c:C.orange, d:"3 days of restrictions after Shia protests in 12+ states. 2G internet. Schools closed. India's trade deficit widened to $27.1B in Feb — full Gulf disruption impact yet to show." },
-  { t:"7,200+ Marines + 10,000 AI Drones", lv:"CRITICAL", c:C.red, d:"US warship with Marines nearing Malacca Strait (maritime tracking). Total 7,200+ in theater. IRGC warned US industrial facilities face 'imminent attack.' 200 US troops injured in 7 countries. 13 US killed. US Embassy Baghdad hit by drones/rockets. Counterterrorism Director Joe Kent RESIGNED: 'Iran posed no imminent threat...we started this war due to pressure from Israel.' Trump called him 'weak.'" },
-  { t:"Diplomacy STALLED", lv:"HIGH", c:C.orange, d:"Iran reached out to Trump's ME envoy to reopen channel — Trump refused. Admin 'not confident Mojtaba Khamenei is actually in charge.' Khamenei rejected peace proposals from 2 intermediary countries. Europe refused to join. Turkey FM heading to Riyadh for regional talks. Iran's FM: 'We never asked for negotiation.'" },
-  { t:"Nuclear Fallout Path to India", lv:"ELEVATED", c:C.purple, d:"Natanz DAMAGED (IAEA confirmed). Fordow enriching to 60%. US using 5,000-lb bunker busters near nuclear-adjacent sites. Plume reaches North India in 4-7 days if breached. India has NO iodine tablet program." },
-  { t:"Amnesty: US Killed 170+ at School", lv:"HIGH", c:C.red, d:"Amnesty International confirmed US attack killed 170+ at primary school in Minab, Iran — including 160+ schoolgirls. UN human rights experts called earlier strikes potential war crimes under Rome Statute. Iran's internet blackout has lasted 240+ hours (2nd longest ever)." },
+  {t:"🔴 SOUTH PARS + RAS LAFFAN ATTACKED",lv:"BREAKING",c:C.red,d:"Israel struck Iran's South Pars (world's LARGEST natural gas field, shared with Qatar). Iran retaliated by hitting Qatar's Ras Laffan — world's largest LNG export terminal. IRGC issued evacuation orders for energy assets in Qatar, Saudi Arabia, UAE. This is ENERGY INFRASTRUCTURE WAR. India gets 60% of natural gas from Middle East — catastrophic if sustained."},
+  {t:"☢️ Bushehr Nuclear Plant HIT",lv:"BREAKING",c:C.red,d:"Iran's Atomic Energy Organization confirmed 'hostile projectile' struck Bushehr nuclear power plant site. No casualties or damage to reactor reported — but this is the first confirmed strike ON a working nuclear facility. Spent fuel rods on site. Escalation threshold crossed."},
+  {t:"Intel Min. Khatib KILLED (Mar 18)",lv:"BREAKING",c:C.red,d:"Iran confirmed Intelligence Minister Esmail Khatib killed. 4th top official in 3 days (Larijani, Soleimani, Khatib + son). IDF authorized to kill ANY senior Iranian official on sight. Katz: 'significant surprises expected in all arenas.'"},
+  {t:"Brent $112 — Oil Shock Deepens",lv:"CRITICAL",c:C.orange,d:"Brent surged +4.7% to $108-112 overnight after South Pars/Ras Laffan attacks. GIFT Nifty signals -453 point gap-down open. Asia crashing: Nikkei -2.74%, Kospi -2.50%. Fed held rates but flagged uncertain inflation outlook. Gold fell below $5,000."},
+  {t:"Hormuz: 2 Indian LPG Tankers Crossed",lv:"CRITICAL",c:C.orange,d:"Shivalik (45K MT) + Nanda Devi crossed Hormuz under Navy escort. Shivalik reached Mundra. But covers only 5% of monthly need. Gulf exports -61%. Iran: Hormuz 'closed to our enemies.'"},
+  {t:"IRIS Dena — War in Indian Ocean",lv:"CRITICAL",c:C.orange,d:"Iranian frigate torpedoed off Sri Lanka (87 killed). Was returning from Indian Navy MILAN exercise. Iran's Navy vowed 'deadly strikes from where the enemy least expects.'"},
+  {t:"9M Indians in Gulf — UAE Airspace Closed Again",lv:"HIGH",c:C.amber,d:"52K+ returned. UAE closed airspace AGAIN (Mar 18). Saudi, Qatar, Kuwait all intercepting fire. 6 killed + 24 injured in Beirut strikes. Tyre mass evacuation. NATO Patriot systems deploying to Turkey. Australian military HQ in UAE nearly hit."},
+  {t:"Israel Ground Ops — Tyre Exodus",lv:"HIGH",c:C.amber,d:"Israel 'limited ground ops' in southern Lebanon. Tyre mass evacuation (4th largest city). 1M+ displaced (20% of population). 886+ killed incl 111 children. Beirut highrise leveled near govt HQ."},
+  {t:"7,200+ Marines — Diplomacy Dead",lv:"CRITICAL",c:C.orange,d:"US warship with Marines nearing Malacca Strait. IRGC warned US industrial facilities face 'imminent attack.' 200 US troops injured in 7 countries. Counterterrorism Director Kent RESIGNED. Iran reached out — Trump refused. Khamenei: 'not the right time for peace.'"},
+  {t:"Nuclear Fallout Path to India",lv:"ELEVATED",c:C.purple,d:"Natanz DAMAGED (IAEA confirmed). Fordow at 60%. Bushehr NOW STRUCK. DNI Gabbard: enrichment program 'obliterated' in June strikes. But 460kg enriched uranium still exists. Delhi 4-7 days downwind. No iodine program."},
 ];
+
 const NUKES = [
-  { name:"Natanz", type:"Enrichment", st:"DAMAGED", risk:95, info:"IAEA confirmed impacts. Contains bulk of ~460kg enriched uranium. Underground centrifuge halls. Tunnel entrance damage on satellite." },
-  { name:"Isfahan", type:"Conversion + Missile", st:"HEAVILY HIT", risk:88, info:"Missile complex destroyed (satellite). UCF processes yellowcake into UF6 gas. Significant debris field." },
-  { name:"Parchin", type:"Military Nuclear", st:"STRUCK", risk:82, info:"Taleghan 2: chambers that can test nuclear weapon components (IAEA). Reconstruction damage confirmed." },
-  { name:"Fordow", type:"Underground", st:"UNCERTAIN", risk:75, info:"80m under mountain. Enriching to 60% (near weapons-grade). Extremely hardened. Likely intact. 5,000-lb bunker busters now being used nearby." },
-  { name:"Bushehr", type:"Reactor", st:"NEAR MISS", risk:70, info:"Working nuclear power plant. Rosatom evacuated. Airport 12km away struck. Spent fuel rods on site." },
+  {name:"Natanz",type:"Enrichment",st:"DAMAGED",risk:95,info:"IAEA confirmed. ~460kg enriched uranium. Underground halls. Tunnel damage visible on satellite."},
+  {name:"Isfahan",type:"Conversion+Missile",st:"HEAVILY HIT",risk:88,info:"Missile complex destroyed. UCF processes UF6 gas. Significant debris field."},
+  {name:"Parchin",type:"Military Nuclear",st:"STRUCK",risk:82,info:"Taleghan 2: nuclear weapon component testing. Confirmed damage."},
+  {name:"Fordow",type:"Underground",st:"UNCERTAIN",risk:75,info:"80m under mountain. 60% enrichment. 5,000-lb bunker busters used nearby."},
+  {name:"Bushehr",type:"Reactor",st:"HIT ☢️",risk:85,info:"CONFIRMED: 'hostile projectile' struck site (Iran Atomic Energy Org). No reactor damage reported. Spent fuel rods on site. First strike ON a working nuclear plant."},
 ];
+
 const CITIES = [
-  { city:"Delhi NCR", pop:"32M", wind:72, sea:15, nuke:45, tot:58, info:"1,800km downwind from Isfahan. March westerlies carry particulates in 3-5 days. India has NO iodine tablet program." },
-  { city:"Mumbai", pop:"21M", wind:40, sea:78, nuke:38, tot:55, info:"900km from Hormuz. Arabian Sea currents carry contaminants. 16+ ships attacked = massive spill risk. JNPT + fishing at risk." },
-  { city:"Ahmedabad", pop:"8.5M", wind:65, sea:55, nuke:42, tot:54, info:"Closest major city to Iran. Both wind + maritime vectors converge. Jamnagar refinery takes Arabian Sea water." },
-  { city:"Jaipur", pop:"4M", wind:68, sea:10, nuke:40, tot:45, info:"Rajasthan desert = natural wind funnel from Iran. March dust storms regularly carry Iranian plateau particles." },
-  { city:"Kochi", pop:"2.1M", wind:25, sea:70, nuke:20, tot:42, info:"Major port + Southern Naval Command. Oil spill from Hormuz reaches coast in 15-25 days." },
-  { city:"Goa", pop:"1.5M", wind:30, sea:72, nuke:18, tot:40, info:"Konkan coast in path of Arabian Sea currents from Gulf. Fishing economy ₹4,000 cr. Tourism devastated." },
-  { city:"Lucknow", pop:"3.5M", wind:58, sea:5, nuke:35, tot:38, info:"Indo-Gangetic plain TRAPS airborne pollutants. Inversion layers could concentrate particles for weeks." },
-  { city:"Chennai", pop:"11M", wind:20, sea:55, nuke:15, tot:35, info:"IRIS Dena wreck 400km south. East coast currents could carry contamination north. Major fishing port." },
+  {city:"Delhi NCR",pop:"32M",wind:72,sea:15,nuke:48,tot:60,info:"1,800km downwind. March westerlies 3-5 days. Bushehr strike increases risk. NO iodine program."},
+  {city:"Mumbai",pop:"21M",wind:40,sea:78,nuke:40,tot:56,info:"900km from Hormuz. Sea currents carry contaminants. JNPT + fishing at risk."},
+  {city:"Ahmedabad",pop:"8.5M",wind:65,sea:55,nuke:44,tot:55,info:"Closest to Iran. Dual wind + maritime vectors. Jamnagar refinery takes Arabian Sea water."},
+  {city:"Jaipur",pop:"4M",wind:68,sea:10,nuke:42,tot:46,info:"Rajasthan desert wind funnel. March dust storms carry Iranian plateau particles."},
+  {city:"Kochi",pop:"2.1M",wind:25,sea:70,nuke:22,tot:43,info:"Southern Naval Command. Oil spill reaches coast 15-25 days."},
+  {city:"Goa",pop:"1.5M",wind:30,sea:72,nuke:20,tot:41,info:"Konkan coast. Fishing economy ₹4,000 cr. Tourism devastated."},
+  {city:"Lucknow",pop:"3.5M",wind:58,sea:5,nuke:37,tot:39,info:"Indo-Gangetic plain traps pollutants. Inversion layers concentrate particles."},
+  {city:"Chennai",pop:"11M",wind:20,sea:55,nuke:17,tot:35,info:"IRIS Dena wreck 400km south. East coast currents."},
 ];
+
 const RADAR = [
-  { axis:"Oil Shock", w1:60, now:94, w4:96 },{ axis:"Market Crash", w1:45, now:88, w4:85 },{ axis:"Nuclear Risk", w1:20, now:58, w4:72 },{ axis:"Hormuz Closure", w1:80, now:95, w4:92 },
-  { axis:"Household Impact", w1:15, now:85, w4:94 },{ axis:"Currency Crisis", w1:40, now:80, w4:88 },{ axis:"Social Unrest", w1:25, now:58, w4:68 },{ axis:"Military Exposure", w1:35, now:82, w4:88 },
+  {axis:"Oil Shock",w1:60,now:96,w4:98},{axis:"Market Crash",w1:45,now:90,w4:88},{axis:"Nuclear Risk",w1:20,now:65,w4:78},
+  {axis:"Hormuz Closure",w1:80,now:96,w4:94},{axis:"Household Impact",w1:15,now:90,w4:96},{axis:"Currency Crisis",w1:40,now:84,w4:92},
+  {axis:"Social Unrest",w1:25,now:60,w4:72},{axis:"Military Exposure",w1:35,now:88,w4:92},
 ];
 
 // ═══════ SVG CHARTS ═══════
-const MiniLine = ({ data, dataKey, color, w = 320, h = 100, showDots = true, labels }) => {
-  const vals = data.map(d => d[dataKey]);
-  const mn = Math.min(...vals), mx = Math.max(...vals), range = mx - mn || 1;
-  const pts = vals.map((v, i) => ({ x: 30 + (i / (vals.length - 1)) * (w - 50), y: 10 + (1 - (v - mn) / range) * (h - 30), v }));
-  const line = pts.map((p, i) => `${i === 0 ? "M" : "L"}${p.x},${p.y}`).join(" ");
-  const area = line + ` L${pts[pts.length-1].x},${h-8} L${pts[0].x},${h-8} Z`;
-  return (
-    <svg viewBox={`0 0 ${w} ${h}`} style={{ width: "100%", height: "auto" }}>
-      <defs><linearGradient id={`g_${dataKey}`} x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stopColor={color} stopOpacity="0.18" /><stop offset="100%" stopColor={color} stopOpacity="0.02" /></linearGradient></defs>
-      <path d={area} fill={`url(#g_${dataKey})`} /><path d={line} fill="none" stroke={color} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-      {showDots && pts.map((p, i) => (<g key={i}><circle cx={p.x} cy={p.y} r="3" fill="#fff" stroke={color} strokeWidth="1.5" /><text x={p.x} y={p.y - 8} fill={C.dim} fontSize="7" textAnchor="middle" fontWeight="600">{typeof p.v === "number" && p.v > 999 ? (p.v/1000).toFixed(1)+"k" : p.v}</text></g>))}
-      {labels && data.map((d, i) => (<text key={i} x={30 + (i / (data.length - 1)) * (w - 50)} y={h - 1} fill={C.faint} fontSize="7" textAnchor="middle">{d.l || d.w || d.d}</text>))}
-    </svg>
-  );
-};
-const Bar = ({ value, max = 100, color, h = 6 }) => (<div style={{ height: h, background: C.border, borderRadius: h / 2, overflow: "hidden", marginTop: 4 }}><div style={{ height: "100%", width: `${Math.min((value / max) * 100, 100)}%`, background: color || (value > 70 ? C.red : value > 50 ? C.orange : value > 30 ? C.amber : C.green), borderRadius: h / 2, transition: "width 0.5s" }} /></div>);
-const RadarSVG = ({ data, w = 300, h = 300 }) => {
-  const cx = w/2, cy = h/2, r = Math.min(cx,cy) - 40, n = data.length;
-  const angle = (i) => (Math.PI*2*i)/n - Math.PI/2;
-  const toXY = (i, val) => ({ x: cx+Math.cos(angle(i))*(val/100)*r, y: cy+Math.sin(angle(i))*(val/100)*r });
-  const poly = (key, color, dash) => { const pts = data.map((d,i) => toXY(i,d[key])); return <polygon points={pts.map(p=>`${p.x},${p.y}`).join(" ")} fill={color+"18"} stroke={color} strokeWidth={dash?"1.5":"2"} strokeDasharray={dash||"none"} />; };
-  return (
-    <svg viewBox={`0 0 ${w} ${h}`} style={{ width: "100%", height: "auto" }}>
-      {[20,40,60,80,100].map(v => (<polygon key={v} points={data.map((_,i)=>toXY(i,v)).map(p=>`${p.x},${p.y}`).join(" ")} fill="none" stroke={C.border} strokeWidth="0.5" />))}
-      {data.map((_,i) => { const p=toXY(i,100); return <line key={i} x1={cx} y1={cy} x2={p.x} y2={p.y} stroke={C.border} strokeWidth="0.5" />; })}
-      {poly("w1",C.green)}{poly("now",C.orange)}{poly("w4",C.red,"4 3")}
-      {data.map((d,i) => { const p=toXY(i,112); return <text key={i} x={p.x} y={p.y} fill={C.dim} fontSize="7" textAnchor="middle" dominantBaseline="middle" fontWeight="600">{d.axis}</text>; })}
-      {[{label:"Week 1",color:C.green,y:h-20},{label:"Now (Day 19)",color:C.orange,y:h-12},{label:"Week 4 Proj.",color:C.red,y:h-4}].map((lg,i) => (<g key={i}><rect x={10} y={lg.y-5} width={10} height={3} fill={lg.color} rx="1" /><text x={24} y={lg.y-2} fill={C.dim} fontSize="7">{lg.label}</text></g>))}
-    </svg>
-  );
-};
+const MiniLine=({data,dataKey,color,w=320,h=90,showDots=true,labels})=>{const vals=data.map(d=>d[dataKey]);const mn=Math.min(...vals),mx=Math.max(...vals),rng=mx-mn||1;const pts=vals.map((v,i)=>({x:28+(i/(vals.length-1))*(w-46),y:8+(1-(v-mn)/rng)*(h-26),v}));const line=pts.map((p,i)=>`${i===0?"M":"L"}${p.x},${p.y}`).join(" ");const area=line+` L${pts[pts.length-1].x},${h-6} L${pts[0].x},${h-6} Z`;return(<svg viewBox={`0 0 ${w} ${h}`} style={{width:"100%",height:"auto"}}><defs><linearGradient id={`g${dataKey}`} x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stopColor={color} stopOpacity="0.2"/><stop offset="100%" stopColor={color} stopOpacity="0"/></linearGradient></defs><path d={area} fill={`url(#g${dataKey})`}/><path d={line} fill="none" stroke={color} strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/>{showDots&&pts.map((p,i)=>(<g key={i}><circle cx={p.x} cy={p.y} r="2.5" fill={C.surface} stroke={color} strokeWidth="1.2"/><text x={p.x} y={p.y-7} fill={C.sub} fontSize="6.5" textAnchor="middle" fontWeight="600">{typeof p.v==="number"&&p.v>999?(p.v/1000).toFixed(1)+"k":p.v}</text></g>))}{labels&&data.map((d,i)=>(<text key={i} x={28+(i/(data.length-1))*(w-46)} y={h-0.5} fill={C.muted} fontSize="6" textAnchor="middle">{d.l||d.w}</text>))}</svg>);};
+const Bar=({value,max=100,color,h=5})=>(<div style={{height:h,background:C.border,borderRadius:h/2,overflow:"hidden",marginTop:3}}><div style={{height:"100%",width:`${Math.min((value/max)*100,100)}%`,background:color||(value>70?C.red:value>50?C.orange:value>30?C.amber:C.green),borderRadius:h/2}}/></div>);
+const RadarSVG=({data,w=280,h=280})=>{const cx=w/2,cy=h/2,r=Math.min(cx,cy)-36,n=data.length;const ang=i=>(Math.PI*2*i)/n-Math.PI/2;const xy=(i,v)=>({x:cx+Math.cos(ang(i))*(v/100)*r,y:cy+Math.sin(ang(i))*(v/100)*r});const pg=(k,cl,ds)=>{const p=data.map((d,i)=>xy(i,d[k]));return<polygon points={p.map(pp=>`${pp.x},${pp.y}`).join(" ")} fill={cl+"18"} stroke={cl} strokeWidth={ds?"1.2":"1.8"} strokeDasharray={ds||"none"}/>;};return(<svg viewBox={`0 0 ${w} ${h}`} style={{width:"100%",height:"auto"}}>{[20,40,60,80,100].map(v=>(<polygon key={v} points={data.map((_,i)=>xy(i,v)).map(p=>`${p.x},${p.y}`).join(" ")} fill="none" stroke={C.border} strokeWidth="0.4"/>))}{data.map((_,i)=>{const p=xy(i,100);return<line key={i} x1={cx} y1={cy} x2={p.x} y2={p.y} stroke={C.border} strokeWidth="0.4"/>;})}{pg("w1",C.green)}{pg("now",C.orange)}{pg("w4",C.red,"3 2")}{data.map((d,i)=>{const p=xy(i,115);return<text key={i} x={p.x} y={p.y} fill={C.sub} fontSize="6.5" textAnchor="middle" dominantBaseline="middle" fontWeight="600">{d.axis}</text>;})}{[{l:"Week 1",c:C.green,y:h-18},{l:`Now (Day ${WAR_DAY})`,c:C.orange,y:h-10},{l:"Week 4 Proj.",c:C.red,y:h-2}].map((lg,i)=>(<g key={i}><rect x={8} y={lg.y-4} width={8} height={3} fill={lg.c} rx="1"/><text x={20} y={lg.y-1} fill={C.sub} fontSize="6.5">{lg.l}</text></g>))}</svg>);};
 
 // ═══════ LAYOUT ═══════
-const Sec = ({ id, title, sub, accent = C.red, children }) => (<section id={id} style={{ marginBottom: 28, scrollMarginTop: 56 }}><div style={{ marginBottom: 12, borderBottom: `2px solid ${accent}35`, paddingBottom: 8 }}><h2 style={{ margin: 0, fontSize: 15, fontWeight: 800, color: accent, letterSpacing: 1.2, textTransform: "uppercase" }}>{title}</h2>{sub && <p style={{ margin: "4px 0 0", fontSize: 10, color: C.dim, lineHeight: 1.4 }}>{sub}</p>}</div>{children}</section>);
-const Metric = ({ label, value, sub, accent = C.red, big }) => (<div style={{ background: C.card, border: `1px solid ${C.border}`, borderRadius: 10, padding: big ? "12px 8px" : "8px 6px", textAlign: "center", boxShadow: C.cardShadow, borderTop: `3px solid ${accent}` }}><div style={{ fontSize: 8, color: C.faint, letterSpacing: 1.2, textTransform: "uppercase", fontWeight: 600 }}>{label}</div><div style={{ fontSize: big ? 18 : 14, fontWeight: 800, color: accent, marginTop: 3 }}>{value}</div>{sub && <div style={{ fontSize: 7, color: C.dim, marginTop: 2 }}>{sub}</div>}</div>);
+const S=({id,title,sub,accent=C.red,children})=>(<section id={id} style={{marginBottom:32,scrollMarginTop:52}}><div style={{marginBottom:14,paddingBottom:8,borderBottom:`1px solid ${C.border}`}}><h2 style={{margin:0,fontSize:13,fontWeight:700,color:accent,letterSpacing:2,textTransform:"uppercase",fontFamily:"'SF Mono',Consolas,monospace"}}>{title}</h2>{sub&&<p style={{margin:"5px 0 0",fontSize:10,color:C.sub,lineHeight:1.5}}>{sub}</p>}</div>{children}</section>);
+const M=({label,value,sub,accent=C.red,big})=>(<div style={{background:C.card,borderRadius:8,padding:big?"14px 8px":"10px 6px",textAlign:"center",borderLeft:`3px solid ${accent}`}}><div style={{fontSize:7.5,color:C.muted,letterSpacing:1.5,textTransform:"uppercase",fontWeight:600}}>{label}</div><div style={{fontSize:big?20:15,fontWeight:800,color:accent,marginTop:3,fontFamily:"'SF Mono',Consolas,monospace"}}>{value}</div>{sub&&<div style={{fontSize:7,color:C.sub,marginTop:2}}>{sub}</div>}</div>);
 
-// ═══════ MAIN APP ═══════
-export default function App() {
-  const [projKey, setProjKey] = useState("brent");
-  const [expNuke, setExpNuke] = useState(null);
-  const [activeNav, setActiveNav] = useState(null);
-  const sev = (s) => s === 3 ? "🔴" : s === 2 ? "🟠" : "🟡";
-  const scrollTo = (id) => { setActiveNav(id); const el = document.getElementById(id); if (el) el.scrollIntoView({ behavior: "smooth", block: "start" }); };
+// ═══════ MAIN ═══════
+export default function App(){
+  const[projKey,setProjKey]=useState("brent");
+  const[expNuke,setExpNuke]=useState(null);
+  const[activeNav,setActiveNav]=useState(null);
+  const sv=s=>s===3?"🔴":s===2?"🟠":"🟡";
+  const go=id=>{setActiveNav(id);document.getElementById(id)?.scrollIntoView({behavior:"smooth",block:"start"});};
 
-  return (
-    <div style={{ minHeight: "100vh", background: C.bg, color: C.text, fontFamily: "'Merriweather', Georgia, serif", fontSize: 12, maxWidth: 540, margin: "0 auto", padding: "0 12px 40px" }}>
-      {/* HEADER */}
-      <header style={{ textAlign: "center", padding: "28px 12px 16px", borderBottom: `1px solid ${C.border}`, marginBottom: 4 }}>
-        <div style={{ display: "inline-block", padding: "3px 14px", background: C.red, color: "#fff", fontSize: 8, letterSpacing: 4, textTransform: "uppercase", borderRadius: 3, fontWeight: 700, marginBottom: 10 }}>India Risk Assessment</div>
-        <h1 style={{ margin: 0, fontSize: 24, fontWeight: 900, color: C.text, lineHeight: 1.25, letterSpacing: -0.5 }}>How the Iran War<br />Is Hitting India</h1>
-        <p style={{ margin: "10px 0 0", fontSize: 11, color: C.dim, lineHeight: 1.6 }}>Day {WAR_DAY} of the US-Israel war on Iran. Economic damage, household costs,<br />military risks, nuclear exposure — tracked and projected.</p>
-        <div style={{ marginTop: 10, fontSize: 9, color: C.faint, fontStyle: "italic" }}>Last updated: {UPDATED} • 50+ verified sources</div>
+  // Ticker CSS
+  const tickerCSS=`@keyframes ticker{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}`;
+  const tickerText=TICKER_ITEMS.join("     •     ");
+
+  return(
+    <div style={{minHeight:"100vh",background:C.bg,color:C.text,fontFamily:"system-ui,-apple-system,'Segoe UI',sans-serif",fontSize:12,maxWidth:600,margin:"0 auto",padding:0}}>
+      <style>{tickerCSS}</style>
+
+      {/* ═══ SCROLLING TICKER ═══ */}
+      <div style={{background:C.red,padding:"6px 0",overflow:"hidden",whiteSpace:"nowrap",position:"relative"}}>
+        <div style={{display:"inline-block",animation:"ticker 60s linear infinite",paddingLeft:"100%"}}>
+          <span style={{fontSize:10,fontWeight:600,color:"#fff",letterSpacing:0.3}}>{tickerText}     •     {tickerText}</span>
+        </div>
+      </div>
+
+      {/* ═══ HEADER ═══ */}
+      <header style={{padding:"20px 16px 14px",borderBottom:`1px solid ${C.border}`}}>
+        <div style={{display:"flex",justifyContent:"space-between",alignItems:"flex-start"}}>
+          <div>
+            <div style={{fontSize:7,letterSpacing:4,color:C.muted,textTransform:"uppercase",fontWeight:600,marginBottom:4}}>India Risk Assessment</div>
+            <h1 style={{margin:0,fontSize:20,fontWeight:800,color:C.white,lineHeight:1.2}}>How the Iran War<br/>Is Hitting India</h1>
+          </div>
+          <div style={{textAlign:"right"}}>
+            <div style={{background:C.red,color:"#fff",fontSize:11,fontWeight:800,padding:"4px 10px",borderRadius:4,fontFamily:"'SF Mono',Consolas,monospace"}}>DAY {WAR_DAY}</div>
+            <div style={{fontSize:7,color:C.muted,marginTop:4}}>{UPDATED}</div>
+          </div>
+        </div>
       </header>
 
-      {/* STICKY NAV */}
-      <nav style={{ position: "sticky", top: 0, zIndex: 100, background: C.navBg + "ee", backdropFilter: "blur(12px)", WebkitBackdropFilter: "blur(12px)", borderBottom: `1px solid ${C.border}`, padding: "7px 0", marginBottom: 18 }}>
-        <div style={{ display: "flex", gap: 3, overflowX: "auto", padding: "0 2px", scrollbarWidth: "none" }}>
-          {NAV.map(n => (<button key={n.id} onClick={() => scrollTo(n.id)} style={{ flex: "0 0 auto", padding: "5px 9px", border: activeNav === n.id ? `1.5px solid ${C.red}` : `1px solid ${C.border}`, borderRadius: 20, background: activeNav === n.id ? C.red+"10" : C.card, color: activeNav === n.id ? C.red : C.dim, cursor: "pointer", fontSize: 9, fontWeight: 700, fontFamily: "inherit", whiteSpace: "nowrap", display: "flex", alignItems: "center", gap: 3, transition: "all 0.2s", boxShadow: C.cardShadow }}><span style={{ fontSize: 10 }}>{n.icon}</span>{n.label}</button>))}
+      {/* ═══ NAV ═══ */}
+      <nav style={{position:"sticky",top:0,zIndex:100,background:C.bg+"f0",backdropFilter:"blur(12px)",WebkitBackdropFilter:"blur(12px)",borderBottom:`1px solid ${C.border}`,padding:"6px 12px"}}>
+        <div style={{display:"flex",gap:2,overflowX:"auto",scrollbarWidth:"none"}}>
+          {NAV.map(n=>(<button key={n.id} onClick={()=>go(n.id)} style={{flex:"0 0 auto",padding:"4px 10px",border:"none",borderRadius:4,background:activeNav===n.id?C.cyan+"18":"transparent",color:activeNav===n.id?C.cyan:C.sub,cursor:"pointer",fontSize:9,fontWeight:700,fontFamily:"inherit",whiteSpace:"nowrap",borderBottom:activeNav===n.id?`2px solid ${C.cyan}`:"2px solid transparent"}}>{n.l}</button>))}
         </div>
       </nav>
 
-      {/* KEY METRICS */}
-      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr 1fr", gap: 6, marginBottom: 20 }}>
-        <Metric label="War Dead" value="2,500+" sub="15+ countries" accent={C.red} />
-        <Metric label="Brent Oil" value="$105" sub="was $65" accent={C.orange} />
-        <Metric label="Nifty 50" value="23,778" sub="3-day rally +2,140" accent={C.green} />
-        <Metric label="Rupee" value="₹92.44" sub="all-time low zone" accent={C.orange} />
+      <div style={{padding:"16px 14px 40px"}}>
+
+      {/* ═══ METRICS ═══ */}
+      <div style={{display:"grid",gridTemplateColumns:"1fr 1fr 1fr 1fr",gap:6,marginBottom:20}}>
+        <M label="War Dead" value="2,600+" sub="15+ countries" accent={C.red}/>
+        <M label="Brent" value="$112" sub="was $65 pre-war" accent={C.red}/>
+        <M label="GIFT Nifty" value="23,325" sub="▼ -453 gap down" accent={C.red}/>
+        <M label="₹/USD" value="92.80" sub="ATL zone" accent={C.orange}/>
       </div>
 
-      {/* BREAKING */}
-      <div style={{ background: "#fff5f5", border: `1px solid ${C.red}30`, borderRadius: 10, padding: "10px 14px", marginBottom: 22, boxShadow: "0 2px 8px rgba(198,40,40,0.06)" }}>
-        <div style={{ fontSize: 8, fontWeight: 800, color: C.red, letterSpacing: 2, marginBottom: 5 }}>⚡ LATEST — MAR 18, 5:00 PM IST</div>
-        <div style={{ fontSize: 9, color: C.text, lineHeight: 1.7 }}>
-          <strong style={{ color: C.red }}>Intel Min. Khatib killed</strong> — Israel claims Iran's Intelligence Minister killed overnight (3rd top official in 2 days). IDF authorized to kill ANY senior Iranian official without prior approval. <strong style={{ color: C.orange }}>6 dead in Beirut</strong> strikes today. Tyre exodus ordered. 2 killed in Ramat Gan by Iranian cluster missiles. <strong style={{ color: C.amber }}>Mojtaba Khamenei: "Not the right time for peace."</strong> Trump: "not afraid" of boots on ground. Sensex closed +633 at 76,704 (3-day rally +2,140). FOMC decision awaited tonight.
+      {/* ═══ 1. ECONOMIC ═══ */}
+      <S id="economic" title="Economic Impact" sub="Day 20 — energy infrastructure war has begun. India directly in the blast radius." accent={C.orange}>
+        <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:6,marginBottom:14}}>
+          <M label="Wealth Destroyed" value="₹24.5L Cr" sub="since war began" accent={C.red} big/>
+          <M label="FPI Outflow (Mar)" value="$6.9B+" sub="FIIs relentless" accent={C.red} big/>
+          <M label="Oil Daily Loss" value="₹20,000 Cr" sub="OMCs bleeding" accent={C.orange}/>
+          <M label="Sensex (Mar 18)" value="76,704" sub="3-day rally wiped today" accent={C.amber}/>
         </div>
-      </div>
+        <div style={{background:C.card,borderRadius:8,padding:14,marginBottom:10}}>
+          <div style={{fontSize:9,fontWeight:700,color:C.cyan,marginBottom:6,letterSpacing:1,textTransform:"uppercase"}}>Nifty 50 — 20-Day Track</div>
+          <MiniLine data={TL} dataKey="nifty" color={C.cyan} labels showDots/>
+        </div>
+        <div style={{background:C.card,borderRadius:8,padding:14,marginBottom:10}}>
+          <div style={{fontSize:9,fontWeight:700,color:C.orange,marginBottom:6,letterSpacing:1,textTransform:"uppercase"}}>Brent Crude ($) — 20-Day Surge</div>
+          <MiniLine data={TL} dataKey="brent" color={C.orange} labels showDots/>
+        </div>
+        <div style={{background:C.red+"0c",border:`1px solid ${C.red}20`,borderRadius:8,padding:12,fontSize:9,color:C.sub,lineHeight:1.7}}>
+          <strong style={{color:C.red}}>OVERNIGHT ESCALATION:</strong> Israel struck South Pars gas field. Iran retaliated by hitting Qatar's Ras Laffan LNG terminal. Brent surged to $112. GIFT Nifty signals -453 gap-down. 3-day rally wiped in pre-market. MUFG: rupee could breach ₹95-97.50. ICRA: current account deficit may double. India gas supply now in CRITICAL danger — Qatar is 60% of India's natural gas imports.
+        </div>
+      </S>
 
-      {/* 1. ECONOMIC */}
-      <Sec id="economic" title="Economic Impact" sub="19 days of war — markets rally but structural damage deepens" accent={C.orange}>
-        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 6, marginBottom: 12 }}>
-          <Metric label="Wealth Destroyed" value="₹20L+ Cr" sub="worst week in 4 yrs" accent={C.red} big />
-          <Metric label="FPI Outflow (Mar)" value="$6.9B+" sub="FIIs relentless" accent={C.red} big />
-          <Metric label="Oil Co. Daily Loss" value="₹20,000 Cr" sub="diesel ₹45/L loss" accent={C.orange} />
-          <Metric label="Sensex (Mar 18)" value="76,704" sub="3-day rally +2,140" accent={C.green} />
-        </div>
-        <div style={{ background: C.card, border: `1px solid ${C.border}`, borderRadius: 10, padding: 14, marginBottom: 10, boxShadow: C.cardShadow }}>
-          <div style={{ fontSize: 10, fontWeight: 700, color: C.cyan, marginBottom: 6 }}>NIFTY 50 — 19-DAY TRACK</div>
-          <MiniLine data={TL} dataKey="nifty" color={C.cyan} labels showDots />
-        </div>
-        <div style={{ background: C.card, border: `1px solid ${C.border}`, borderRadius: 10, padding: 14, marginBottom: 10, boxShadow: C.cardShadow }}>
-          <div style={{ fontSize: 10, fontWeight: 700, color: C.orange, marginBottom: 6 }}>BRENT CRUDE ($) — 19-DAY SURGE</div>
-          <MiniLine data={TL} dataKey="brent" color={C.orange} labels showDots />
-        </div>
-        <div style={{ background: "#fef9f0", border: `1px solid ${C.amber}30`, borderRadius: 10, padding: 12, fontSize: 9, color: C.dim, lineHeight: 1.6 }}>
-          <strong style={{ color: C.amber }}>MUFG Research:</strong> If oil stays at $100+, rupee likely to breach <strong style={{ color: C.red }}>₹95</strong> by Dec 2026. If $120 with energy shortages: <strong style={{ color: C.red }}>₹97.50+</strong>. ICRA: current account deficit may double to 2% of GDP. Markets rallied 3 straight days — but analysts warn "sell-on-rise bias" persists. FOMC decision tonight could add volatility. Trade deficit $27.1B in Feb — full Gulf impact yet to show.
-        </div>
-      </Sec>
-
-      {/* 2. KITCHEN */}
-      <Sec id="kitchen" title="Your Kitchen Table" sub="How the war 5,000km away is raising your family's bills" accent={C.amber}>
-        {HH.map((h, i) => (<div key={i} style={{ background: C.card, border: `1px solid ${C.border}`, borderRadius: 10, padding: 12, marginBottom: 8, borderLeft: `4px solid ${h.s===3?C.red:h.s===2?C.orange:C.amber}`, boxShadow: C.cardShadow }}>
-          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", flexWrap: "wrap", gap: 4 }}><span style={{ fontSize: 11, fontWeight: 700, color: C.text }}>{sev(h.s)} {h.item}</span><span style={{ fontSize: 10, fontWeight: 800, color: C.red }}>{h.chg}</span></div>
-          <div style={{ display: "flex", justifyContent: "space-between", marginTop: 5, fontSize: 9, color: C.dim, flexWrap: "wrap", gap: 2 }}><span>Pre-war: {h.pre}</span><span style={{ color: C.orange, fontWeight: 700 }}>Now: {h.now}</span><span style={{ color: C.red }}>4-wk: {h.proj}</span></div>
-          <div style={{ fontSize: 8, color: C.dim, marginTop: 6, lineHeight: 1.6, fontStyle: "italic" }}>{h.note}</div>
+      {/* ═══ 2. KITCHEN ═══ */}
+      <S id="kitchen" title="Your Kitchen Table" sub="How the war is raising your family's bills — gas crisis deepens" accent={C.amber}>
+        {HH.map((h,i)=>(<div key={i} style={{background:C.card,borderRadius:8,padding:12,marginBottom:8,borderLeft:`3px solid ${h.s===3?C.red:h.s===2?C.orange:C.amber}`}}>
+          <div style={{display:"flex",justifyContent:"space-between",alignItems:"baseline",flexWrap:"wrap",gap:4}}><span style={{fontSize:10.5,fontWeight:700,color:C.white}}>{sv(h.s)} {h.item}</span><span style={{fontSize:10,fontWeight:800,color:C.red,fontFamily:"'SF Mono',Consolas,monospace"}}>{h.chg}</span></div>
+          <div style={{display:"flex",justifyContent:"space-between",marginTop:5,fontSize:8.5,color:C.sub,flexWrap:"wrap",gap:2}}><span>Pre: {h.pre}</span><span style={{color:C.orange,fontWeight:700}}>Now: {h.now}</span><span style={{color:C.red}}>4-wk: {h.proj}</span></div>
+          <div style={{fontSize:8,color:C.muted,marginTop:6,lineHeight:1.6}}>{h.note}</div>
         </div>))}
-      </Sec>
+      </S>
 
-      {/* 3. MILITARY */}
-      <Sec id="military" title="India's Military & Strategic Exposure" sub="Direct threats to India's security, trade and citizens" accent={C.red}>
-        {MIL.map((m, i) => (<div key={i} style={{ background: m.lv==="BREAKING"?"#fff5f5":C.card, border: `1px solid ${m.lv==="BREAKING"?C.red+"40":C.border}`, borderRadius: 10, padding: 12, marginBottom: 8, borderLeft: `4px solid ${m.c}`, boxShadow: C.cardShadow }}>
-          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: 4 }}><span style={{ fontSize: 10, fontWeight: 700, color: C.text }}>{m.t}</span><span style={{ fontSize: 7, padding: "2px 8px", borderRadius: 10, background: m.lv==="BREAKING"?C.red:`${m.c}15`, color: m.lv==="BREAKING"?"#fff":m.c, fontWeight: 800 }}>{m.lv}</span></div>
-          <div style={{ fontSize: 8, color: C.dim, marginTop: 6, lineHeight: 1.6 }}>{m.d}</div>
+      {/* ═══ 3. MILITARY ═══ */}
+      <S id="military" title="Military & Strategic Exposure" sub="Energy infrastructure war + assassination campaign = no exit ramp" accent={C.red}>
+        {MIL.map((m,i)=>(<div key={i} style={{background:m.lv==="BREAKING"?C.red+"0a":C.card,border:m.lv==="BREAKING"?`1px solid ${C.red}25`:"none",borderRadius:8,padding:12,marginBottom:8,borderLeft:`3px solid ${m.c}`}}>
+          <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",flexWrap:"wrap",gap:4}}><span style={{fontSize:10,fontWeight:700,color:C.white,flex:1}}>{m.t}</span><span style={{fontSize:7,padding:"2px 8px",borderRadius:3,background:m.lv==="BREAKING"?C.red:`${m.c}20`,color:m.lv==="BREAKING"?"#fff":m.c,fontWeight:800,whiteSpace:"nowrap"}}>{m.lv}</span></div>
+          <div style={{fontSize:8,color:C.muted,marginTop:6,lineHeight:1.6}}>{m.d}</div>
         </div>))}
-      </Sec>
+      </S>
 
-      {/* 4. NUCLEAR */}
-      <Sec id="nuclear" title="☢️ Nuclear Exposure Risk" sub="Iranian nuclear sites are being bombed. What does this mean for Indian cities?" accent={C.purple}>
-        <div style={{ background: "#f8f0ff", border: `1px solid ${C.purple}25`, borderRadius: 10, padding: 12, marginBottom: 14, fontSize: 9, color: C.dim, lineHeight: 1.6 }}>
-          Iran has <strong style={{ color: C.purple }}>~460kg enriched uranium</strong> (some at 60% — near weapons-grade). IAEA confirmed damage at Natanz. US dropping 5,000-lb bunker busters on hardened sites. Iran's FM says nuclear weapons stance "unlikely to change significantly" — but new Supreme Leader hasn't spoken on it. <strong style={{ color: C.red }}>Risk is NON-ZERO and INCREASING.</strong> India has no iodine tablet program.
+      {/* ═══ 4. NUCLEAR ═══ */}
+      <S id="nuclear" title="☢️ Nuclear Exposure Risk" sub="Bushehr nuclear plant now confirmed struck. What does this mean for India?" accent={C.purple}>
+        <div style={{background:C.purple+"0c",border:`1px solid ${C.purple}20`,borderRadius:8,padding:12,marginBottom:14,fontSize:9,color:C.sub,lineHeight:1.6}}>
+          <strong style={{color:C.purple}}>Bushehr — a working nuclear reactor — has been struck.</strong> Iran's Atomic Energy Org confirmed a 'hostile projectile' hit the site. No reactor damage claimed. But this crosses a threshold never crossed before in this war. Natanz damaged. Fordow at 60%. DNI Gabbard says enrichment program was 'obliterated' in June 2025 strikes — but <strong style={{color:C.red}}>460kg enriched uranium still exists.</strong> India has no iodine program.
         </div>
-        <div style={{ fontSize: 10, fontWeight: 700, color: C.purple, marginBottom: 8 }}>IRANIAN NUCLEAR FACILITIES</div>
-        {NUKES.map((n, i) => (<div key={i} onClick={() => setExpNuke(expNuke===i?null:i)} style={{ background: C.card, border: `1px solid ${n.risk>85?C.red+"30":C.border}`, borderRadius: 10, padding: 12, marginBottom: 6, cursor: "pointer", boxShadow: C.cardShadow }}>
-          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}><div><span style={{ fontSize: 11, fontWeight: 700, color: n.risk>85?C.red:n.risk>70?C.orange:C.amber }}>{n.name}</span><span style={{ fontSize: 8, color: C.dim, marginLeft: 6 }}>{n.type}</span></div><span style={{ fontSize: 8, padding: "2px 8px", borderRadius: 10, fontWeight: 800, background: n.st.includes("DAMAGED")||n.st.includes("HIT")||n.st.includes("STRUCK")?C.red+"12":C.orange+"10", color: n.st.includes("DAMAGED")||n.st.includes("HIT")||n.st.includes("STRUCK")?C.red:C.orange }}>{n.st}</span></div>
-          <Bar value={n.risk} color={n.risk>85?C.red:n.risk>70?C.orange:C.amber} /><div style={{ fontSize: 7, color: C.faint, marginTop: 3, textAlign: "right" }}>Risk: {n.risk}/100 {expNuke===i?"▲":"▼ tap for detail"}</div>
-          {expNuke===i && <div style={{ fontSize: 8, color: C.dim, marginTop: 6, lineHeight: 1.6, borderTop: `1px solid ${C.border}`, paddingTop: 6 }}>{n.info}</div>}
+        <div style={{fontSize:9,fontWeight:700,color:C.purple,marginBottom:8,letterSpacing:1,textTransform:"uppercase"}}>Iranian Nuclear Facilities</div>
+        {NUKES.map((n,i)=>(<div key={i} onClick={()=>setExpNuke(expNuke===i?null:i)} style={{background:C.card,border:n.st.includes("HIT")&&n.name==="Bushehr"?`1px solid ${C.red}30`:"none",borderRadius:8,padding:12,marginBottom:6,cursor:"pointer"}}>
+          <div style={{display:"flex",justifyContent:"space-between",alignItems:"center"}}><div><span style={{fontSize:11,fontWeight:700,color:n.risk>85?C.red:n.risk>70?C.orange:C.amber}}>{n.name}</span><span style={{fontSize:8,color:C.muted,marginLeft:6}}>{n.type}</span></div><span style={{fontSize:7.5,padding:"2px 7px",borderRadius:3,fontWeight:800,background:n.st.includes("DAMAGED")||n.st.includes("HIT")||n.st.includes("STRUCK")?C.red+"15":C.orange+"12",color:n.st.includes("DAMAGED")||n.st.includes("HIT")||n.st.includes("STRUCK")?C.red:C.orange}}>{n.st}</span></div>
+          <Bar value={n.risk} color={n.risk>85?C.red:n.risk>70?C.orange:C.amber}/><div style={{fontSize:7,color:C.muted,marginTop:3,textAlign:"right"}}>{n.risk}/100 {expNuke===i?"▲":"▼ detail"}</div>
+          {expNuke===i&&<div style={{fontSize:8,color:C.sub,marginTop:6,lineHeight:1.6,borderTop:`1px solid ${C.border}`,paddingTop:6}}>{n.info}</div>}
         </div>))}
-        <div style={{ fontSize: 10, fontWeight: 700, color: C.pink, marginTop: 18, marginBottom: 8 }}>INDIAN CITIES — CONTAMINATION EXPOSURE</div>
-        <div style={{ fontSize: 8, color: C.dim, marginBottom: 10, lineHeight: 1.5 }}>Scores combine: <strong style={{ color: C.orange }}>Wind</strong> (March westerlies, 3-7 days), <strong style={{ color: C.cyan }}>Maritime</strong> (Hormuz spills + IRIS Dena, 15-40 days), <strong style={{ color: C.purple }}>Nuclear</strong> (if containment breached).</div>
-        {CITIES.map((c, i) => (<div key={i} style={{ background: C.card, border: `1px solid ${C.border}`, borderRadius: 10, padding: 12, marginBottom: 6, boxShadow: C.cardShadow }}>
-          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}><div><span style={{ fontSize: 12, fontWeight: 800, color: C.text }}>{c.city}</span><span style={{ fontSize: 8, color: C.faint, marginLeft: 6 }}>Pop: {c.pop}</span></div><span style={{ fontSize: 14, fontWeight: 900, color: c.tot>50?C.red:c.tot>40?C.orange:C.amber }}>{c.tot}<span style={{ fontSize: 8 }}>/100</span></span></div>
-          <div style={{ display: "flex", gap: 8, marginTop: 6 }}>{[{l:"Wind",v:c.wind,cl:C.orange},{l:"Maritime",v:c.sea,cl:C.cyan},{l:"Nuclear",v:c.nuke,cl:C.purple}].map((vv,j) => (<div key={j} style={{ flex: 1 }}><div style={{ fontSize: 7, color: vv.cl, marginBottom: 2, fontWeight: 600 }}>{vv.l}: {vv.v}</div><Bar value={vv.v} color={vv.cl} h={5} /></div>))}</div>
-          <div style={{ fontSize: 8, color: C.dim, marginTop: 6, lineHeight: 1.5 }}>{c.info}</div>
+        <div style={{fontSize:9,fontWeight:700,color:C.pink,marginTop:18,marginBottom:8,letterSpacing:1,textTransform:"uppercase"}}>Indian Cities — Contamination Exposure</div>
+        <div style={{fontSize:8,color:C.sub,marginBottom:10,lineHeight:1.5}}>Scores: <strong style={{color:C.orange}}>Wind</strong> (3-7 days) + <strong style={{color:C.cyan}}>Maritime</strong> (15-40 days) + <strong style={{color:C.purple}}>Nuclear</strong> (if breached). Bushehr strike raises all nuclear scores.</div>
+        {CITIES.map((c,i)=>(<div key={i} style={{background:C.card,borderRadius:8,padding:12,marginBottom:6}}>
+          <div style={{display:"flex",justifyContent:"space-between",alignItems:"center"}}><div><span style={{fontSize:12,fontWeight:800,color:C.white}}>{c.city}</span><span style={{fontSize:7.5,color:C.muted,marginLeft:6}}>{c.pop}</span></div><span style={{fontSize:14,fontWeight:900,color:c.tot>55?C.red:c.tot>42?C.orange:C.amber,fontFamily:"'SF Mono',Consolas,monospace"}}>{c.tot}<span style={{fontSize:7}}>/100</span></span></div>
+          <div style={{display:"flex",gap:8,marginTop:6}}>{[{l:"Wind",v:c.wind,cl:C.orange},{l:"Sea",v:c.sea,cl:C.cyan},{l:"Nuke",v:c.nuke,cl:C.purple}].map((vv,j)=>(<div key={j} style={{flex:1}}><div style={{fontSize:6.5,color:vv.cl,fontWeight:600}}>{vv.l}: {vv.v}</div><Bar value={vv.v} color={vv.cl} h={4}/></div>))}</div>
+          <div style={{fontSize:7.5,color:C.muted,marginTop:5,lineHeight:1.5}}>{c.info}</div>
         </div>))}
-      </Sec>
+      </S>
 
-      {/* 5. PROJECTIONS */}
-      <Sec id="projections" title="If This Continues..." sub="What happens to India at week 3, 4, 6, and 8 (Nifty excluded — too volatile to project)" accent={C.cyan}>
-        <div style={{ display: "flex", gap: 4, marginBottom: 10, flexWrap: "wrap" }}>
-          {[{k:"brent",l:"Oil"},{k:"rupee",l:"Rupee"},{k:"petrol",l:"Petrol"},{k:"lpg",l:"LPG"},{k:"deaths",l:"Deaths"}].map(m => (<button key={m.k} onClick={() => setProjKey(m.k)} style={{ padding: "5px 12px", border: projKey===m.k?`1.5px solid ${C.cyan}`:`1px solid ${C.border}`, borderRadius: 20, background: projKey===m.k?C.cyan+"10":C.card, color: projKey===m.k?C.cyan:C.dim, cursor: "pointer", fontSize: 9, fontWeight: 700, fontFamily: "inherit", boxShadow: C.cardShadow }}>{m.l}</button>))}
+      {/* ═══ 5. PROJECTIONS ═══ */}
+      <S id="projections" title="If This Continues..." sub="Projections at week 3, 4, 6, 8 — Nifty excluded (too volatile)" accent={C.cyan}>
+        <div style={{display:"flex",gap:4,marginBottom:10,flexWrap:"wrap"}}>
+          {[{k:"brent",l:"Oil"},{k:"rupee",l:"Rupee"},{k:"petrol",l:"Petrol"},{k:"lpg",l:"LPG"},{k:"deaths",l:"Deaths"}].map(m=>(<button key={m.k} onClick={()=>setProjKey(m.k)} style={{padding:"4px 11px",border:projKey===m.k?`1px solid ${C.cyan}`:`1px solid ${C.border}`,borderRadius:4,background:projKey===m.k?C.cyan+"12":"transparent",color:projKey===m.k?C.cyan:C.sub,cursor:"pointer",fontSize:8.5,fontWeight:700,fontFamily:"inherit"}}>{m.l}</button>))}
         </div>
-        <div style={{ background: C.card, border: `1px solid ${C.border}`, borderRadius: 10, padding: 14, marginBottom: 10, boxShadow: C.cardShadow }}>
-          <div style={{ fontSize: 10, fontWeight: 700, color: C.cyan, marginBottom: 6 }}>{projKey.toUpperCase()} — ACTUAL + PROJECTED</div>
-          <MiniLine data={PROJ} dataKey={projKey} color={C.cyan} labels showDots />
-          <div style={{ fontSize: 7, color: C.faint, marginTop: 4, textAlign: "center" }}>* Projections based on 19-day trend. "Now" separates actual from projected.</div>
+        <div style={{background:C.card,borderRadius:8,padding:14,marginBottom:10}}>
+          <div style={{fontSize:9,fontWeight:700,color:C.cyan,marginBottom:6,letterSpacing:1,textTransform:"uppercase"}}>{projKey} — Actual + Projected</div>
+          <MiniLine data={PROJ} dataKey={projKey} color={C.cyan} labels showDots/>
         </div>
-        <div style={{ background: C.card, border: `1px solid ${C.border}`, borderRadius: 10, padding: 14, overflowX: "auto", boxShadow: C.cardShadow }}>
-          <div style={{ fontSize: 10, fontWeight: 700, color: C.amber, marginBottom: 8 }}>SCENARIO TABLE — INDIA IMPACT BY DURATION</div>
-          <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 8, minWidth: 320 }}>
-            <thead><tr style={{ borderBottom: `2px solid ${C.border}` }}>{["","Pre-war","Now","Wk 3","Wk 4","Wk 8"].map((h,i) => (<th key={i} style={{ padding: "6px 3px", textAlign: i===0?"left":"right", color: i>2?C.amber:C.dim, fontWeight: 700, whiteSpace: "nowrap" }}>{h}</th>))}</tr></thead>
-            <tbody>{[
-              { m:"Brent ($)", v:[65,105,108,115,125] },{ m:"₹/USD", v:[91.0,92.44,93.5,95.0,98.0] },
-              { m:"Petrol/L", v:["₹94.72","₹103.54","₹108","₹112","₹125"] },{ m:"LPG Cyl", v:["₹803","₹913","₹950","₹1,000","₹1,100"] },
-              { m:"Deaths", v:[0,"2,500+","3,500","5,000","12,000"] },
-            ].map((r,i) => (<tr key={i} style={{ borderBottom: `1px solid ${C.border}` }}><td style={{ padding: "6px 3px", fontWeight: 700, color: C.text, whiteSpace: "nowrap" }}>{r.m}</td>{r.v.map((v,j) => (<td key={j} style={{ padding: "6px 3px", textAlign: "right", color: j===0?C.green:j===1?C.red:C.amber, fontWeight: 600, whiteSpace: "nowrap" }}>{v}</td>))}</tr>))}</tbody>
+        <div style={{background:C.card,borderRadius:8,padding:14,overflowX:"auto"}}>
+          <div style={{fontSize:9,fontWeight:700,color:C.amber,marginBottom:8,letterSpacing:1,textTransform:"uppercase"}}>Scenario Table</div>
+          <table style={{width:"100%",borderCollapse:"collapse",fontSize:8,minWidth:300}}>
+            <thead><tr style={{borderBottom:`1px solid ${C.border}`}}>{["","Pre","Now","Wk3","Wk4","Wk8"].map((h,i)=>(<th key={i} style={{padding:"5px 3px",textAlign:i===0?"left":"right",color:i>2?C.amber:C.muted,fontWeight:700}}>{h}</th>))}</tr></thead>
+            <tbody>{[{m:"Brent ($)",v:[65,112,115,120,130]},{m:"₹/USD",v:[91.0,92.80,94.0,95.5,99.0]},{m:"Petrol/L",v:["₹94.72","₹103.54","₹112","₹118","₹135"]},{m:"LPG",v:["₹803","₹913","₹980","₹1,050","₹1,200"]},{m:"Deaths",v:[0,"2,600+","3,800","5,500","14,000"]}].map((r,i)=>(<tr key={i} style={{borderBottom:`1px solid ${C.border}30`}}><td style={{padding:"5px 3px",fontWeight:700,color:C.text}}>{r.m}</td>{r.v.map((v,j)=>(<td key={j} style={{padding:"5px 3px",textAlign:"right",color:j===0?C.green:j===1?C.red:C.amber,fontWeight:600}}>{v}</td>))}</tr>))}</tbody>
           </table>
         </div>
-      </Sec>
+      </S>
 
-      {/* 6. RADAR */}
-      <Sec id="radar" title="Risk Radar" sub="How India's exposure expanded — Week 1 vs Now vs Projected" accent={C.cyan}>
-        <div style={{ background: C.card, border: `1px solid ${C.border}`, borderRadius: 10, padding: 14, boxShadow: C.cardShadow }}><RadarSVG data={RADAR} /></div>
-      </Sec>
+      {/* ═══ 6. RADAR ═══ */}
+      <S id="radar" title="Risk Radar" sub="Week 1 vs Now vs Week 4 Projected" accent={C.cyan}>
+        <div style={{background:C.card,borderRadius:8,padding:14}}><RadarSVG data={RADAR}/></div>
+      </S>
 
-      {/* 7. WAR LOG */}
-      <Sec id="warlog" title="19-Day War Log" sub="How we got here — day by day" accent={C.dim}>
-        <div style={{ background: C.card, border: `1px solid ${C.border}`, borderRadius: 10, padding: 14, boxShadow: C.cardShadow }}>
-          {[...TL].reverse().map((d, i) => (<div key={i} style={{ padding: "7px 0", borderBottom: `1px solid ${C.border}50`, display: "flex", gap: 10 }}><div style={{ minWidth: 50 }}><div style={{ fontSize: 9, fontWeight: 800, color: C.orange }}>Day {d.d}</div><div style={{ fontSize: 7, color: C.faint }}>{d.l}</div></div><div style={{ fontSize: 8, color: C.dim, lineHeight: 1.5 }}>{d.tag}</div></div>))}
+      {/* ═══ 7. WAR LOG ═══ */}
+      <S id="warlog" title="20-Day War Log" sub="How we got here" accent={C.muted}>
+        <div style={{background:C.card,borderRadius:8,padding:14}}>
+          {[...TL].reverse().map((d,i)=>(<div key={i} style={{padding:"6px 0",borderBottom:`1px solid ${C.border}30`,display:"flex",gap:10}}>
+            <div style={{minWidth:44}}><div style={{fontSize:9,fontWeight:800,color:C.orange,fontFamily:"'SF Mono',Consolas,monospace"}}>D{d.d}</div><div style={{fontSize:6.5,color:C.muted}}>{d.l}</div></div>
+            <div style={{fontSize:8,color:C.sub,lineHeight:1.5}}>{d.tag}</div>
+          </div>))}
         </div>
-      </Sec>
+      </S>
 
-      {/* 8. ASSESSMENT */}
-      <Sec id="assessment" title="Strategic Assessment" accent={C.red}>
-        <div style={{ background: "#fff5f5", border: `1px solid ${C.red}20`, borderRadius: 12, padding: 16, boxShadow: "0 2px 12px rgba(198,40,40,0.05)" }}>
-          <div style={{ fontSize: 10, lineHeight: 1.8, color: C.dim }}>
-            <strong style={{ color: C.red, fontSize: 13 }}>Week 3. No exit ramp. Decapitation campaign accelerating.</strong><br /><br />
-            Three top Iranian officials killed in 48 hours: Larijani, Soleimani, and now reportedly Intelligence Minister Khatib. Israel authorized assassinating ANY senior Iranian official on sight. Iran's response: cluster munitions over Tel Aviv, "not the right time for peace." Trump "not afraid" of ground invasion. His own Counterterrorism Director quit in protest. Europe refused to join. Diplomacy is dead — Iran reached out, Trump refused.<br /><br />
-            <strong style={{ color: C.orange }}>For Indian families:</strong> LPG ₹913 (+₹110 since war). Only 10 days stock nationally. Milk packaging running out — dairy crisis imminent. Shivalik LPG tanker reached Mundra but covers just 5% of monthly need. Trade deficit $27.1B in Feb — full Gulf impact yet to hit. MUFG warns rupee could breach ₹95-97.50. Markets rallied 3 straight days (+2,140 on Sensex) on value buying — but analysts warn "sell-on-rise" until war ends.<br /><br />
-            <strong style={{ color: C.purple }}>The nuclear risk continues escalating.</strong> Natanz damaged. Fordow enriches at 60%. US using 5,000-lb bunker busters on hardened sites near Hormuz. Iran's FM says nuclear weapons stance "unlikely to change" — but new Supreme Leader hasn't spoken on it. Delhi is 4-7 days downwind. India has no iodine program.<br /><br />
-            <strong style={{ color: C.cyan }}>Two Indian tankers crossed Hormuz — fragile, but Gulf exports still -61%. Oil stuck above $100. FOMC decision tonight could add volatility.</strong> India must plan for prolonged disruption: LPG diversification, fiscal reserves, rupee defense, food supply chain resilience, and nuclear preparedness are survival necessities, not policy options.
+      {/* ═══ 8. ASSESSMENT ═══ */}
+      <S id="assessment" title="Strategic Assessment" accent={C.red}>
+        <div style={{background:C.red+"08",border:`1px solid ${C.red}18`,borderRadius:8,padding:16}}>
+          <div style={{fontSize:10,lineHeight:1.85,color:C.sub}}>
+            <strong style={{color:C.red,fontSize:13}}>Week 3. Energy infrastructure war has begun. India is in the blast radius.</strong><br/><br/>
+            The war crossed a new threshold overnight. Israel struck South Pars — the world's largest natural gas field (shared with Qatar). Iran retaliated by hitting Qatar's Ras Laffan — the world's largest LNG export terminal. IRGC issued evacuation orders for energy assets across the Gulf. Bushehr nuclear plant confirmed struck. Brent surged to $112. Four top Iranian officials killed in 3 days. Diplomacy is dead.<br/><br/>
+            <strong style={{color:C.orange}}>For India, this is now an energy emergency.</strong> Qatar supplies 60% of India's natural gas. If Ras Laffan damage is sustained, CNG for vehicles, piped gas for homes, and fertiliser production face immediate disruption. LPG already at ₹913 with only 10 days stock. Petrol will breach ₹110+ as Brent crosses $112. GIFT Nifty signals -453 point crash today, wiping the 3-day rally. Rupee at 92.80.<br/><br/>
+            <strong style={{color:C.purple}}>Bushehr — a working nuclear reactor — has been struck.</strong> This is unprecedented. While no reactor damage is reported, the strike crosses a line. 460kg of enriched uranium exists across Iran's facilities. Delhi is 4-7 days downwind. India has no public preparedness plan.<br/><br/>
+            <strong style={{color:C.cyan}}>India must act now:</strong> Emergency gas rationing plans. Accelerated non-Gulf LPG procurement. Rupee defense. Nuclear contamination monitoring. Food supply chain protection. This is no longer a distant conflict — it is India's crisis.
           </div>
         </div>
-      </Sec>
+      </S>
 
-      {/* FOOTER */}
-      <footer style={{ padding: "14px 10px", borderTop: `1px solid ${C.border}`, marginTop: 8 }}>
-        <div style={{ fontSize: 7, color: C.faint, lineHeight: 1.7 }}>
-          <strong style={{ color: C.dim }}>Sources:</strong> Al Jazeera, CNN, NPR, NBC, CBS, ABC News, AP, Reuters, Bloomberg, Euronews, Iran International, Times of Israel, Atlantic Council, Amnesty International, Business Standard, BusinessToday, Goodreturns, News24, Trading Economics, Wikipedia, IAEA, WHO, HRW, CSIS, IEA, EIA, Kpler, MarineTraffic, MUFG Research, ORF, MEA India, Nomura, Elara, UBS, HSBC, Kotak, JM Financial, ICRA, Bajaj Broking, Motilal Oswal
-          <br /><br />
-          <strong style={{ color: C.dim }}>Methodology:</strong> Nuclear/contamination scores are analytical estimates based on IAEA reports, March wind patterns, and maritime current models — NOT confirmed measurements. Projections use 19-day trend extrapolation (scenarios, not forecasts). Nifty projections excluded due to unreliable forecasting in extreme volatility. Household prices from official OMC data and Goodreturns. All timestamps in IST (Indian Standard Time, UTC+5:30).
-          <br /><br />
-          <strong style={{ color: C.dim }}>Disclaimer:</strong> This dashboard was built with significant help from AI tools. The project is ongoing and evolving. For informational purposes only — not financial, safety, or evacuation advice.
+      {/* ═══ FOOTER ═══ */}
+      <footer style={{padding:"14px 0",borderTop:`1px solid ${C.border}`,marginTop:8}}>
+        <div style={{fontSize:7,color:C.muted,lineHeight:1.7}}>
+          <strong style={{color:C.sub}}>Sources:</strong> Al Jazeera, CNN, CBS, NBC, ABC, AP, Reuters, Bloomberg, Euronews, Iran International, Times of Israel, Atlantic Council, Amnesty International, ACLED, Business Standard, BusinessToday, Goodreturns, News24, Trading Economics, Wikipedia, Fortune, IAEA, HRW, CSIS, IEA, EIA, Kpler, MarineTraffic, MUFG, ORF, MEA India, Nomura, Elara, UBS, HSBC, Kotak, JM Financial, ICRA, Motilal Oswal, SBI Securities
+          <br/><br/>
+          <strong style={{color:C.sub}}>Methodology:</strong> Nuclear/contamination scores are analytical estimates based on IAEA reports, March wind patterns, and maritime models — NOT confirmed measurements. Projections use 20-day trend extrapolation. Nifty projections excluded (unreliable in extreme volatility). All timestamps IST (UTC+5:30).
+          <br/><br/>
+          <strong style={{color:C.sub}}>Disclaimer:</strong> Built with AI tools. Ongoing project. Not financial, safety, or evacuation advice.
         </div>
       </footer>
+      </div>
     </div>
   );
 }
