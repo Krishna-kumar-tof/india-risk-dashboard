@@ -1,12 +1,13 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 // ═══════════════════════════════════════════════════════════════════
-// INDIA RISK DASHBOARD — V6.1 — INTELLIGENCE EDITION
-// Pure React — NO external libraries
-// Updated: March 20, 2026 — 9:30 AM IST (Day 20)
+// INDIA RISK DASHBOARD — V7.0 — AUTO-UPDATE EDITION
+// Market data auto-fetched via GitHub Action every 4 hours
+// War intelligence: manually updated
+// Updated: March 20, 2026 — 8:00 PM IST (Day 21)
 // ═══════════════════════════════════════════════════════════════════
 
-const UPDATED = "March 20, 2026 — 9:30 AM IST";
+const WAR_UPDATED = "March 20, 2026 — 8:00 PM IST";
 const WAR_DAY = 21;
 
 const C = {
@@ -17,16 +18,16 @@ const C = {
 };
 
 const TICKER = [
-  "⚡ BRENT EASES TO $106 from $117 peak — Japan + EU pledge Hormuz escort. Sensex rebounds ~900 pts",
+  "⚡ IRGC SPOKESPERSON NAEINI KILLED in airstrike moments after saying 'war continues' on state TV",
   "🔴 QatarEnergy declares FORCE MAJEURE on gas exports — India gets 60% of gas from Qatar",
   "⚡ Israel strikes CASPIAN SEA naval targets + northern Iran for FIRST TIME",
   "🇺🇸 Trump tells Netanyahu: STOP attacking oil/gas facilities. Netanyahu agrees",
   "💰 Pentagon asks Congress for additional $200 BILLION for Iran war",
-  "📉 Sensex crashed 2,497 pts (-3.26%) — steepest single-day fall in 2 years. Nifty at 23,002",
+  "📉 Sensex +326 at close but ERASED 760 pts from day high on late Iran-Israel strikes. Nifty 23,115",
   "🇶🇦 Qatar EXPELS Iranian military & security diplomats within 24 hours",
-  "🇸🇦 Saudi Arabia: 'Trust in Iran COMPLETELY SHATTERED'",
-  "🔴 UN: 3 MILLION Iranians displaced. Lebanon deaths cross 1,000",
-  "🇮🇳 PETROL/DIESEL UNCHANGED in India — Govt holding prices — OMCs absorbing ₹20,000 cr/day losses",
+  "🇺🇸 Trump calls NATO 'COWARDS'. Invokes Pearl Harbor to Japan PM defending surprise attack",
+  "🔴 Iran: ZERO RESTRAINT if energy hit again. 204 children killed (Red Crescent). Lebanon 1,000+ dead",
+  "🇮🇳 Rupee hits FRESH ATL 92.94. Petrol/Diesel UNCHANGED — Govt absorbing ₹20K cr/day losses",
 ];
 
 const NAV = [
@@ -50,13 +51,13 @@ const TL = [
   {d:18,l:"Mar 17",deaths:2300,brent:103,nifty:23581,rupee:92.41,tag:"Larijani + Soleimani KILLED",sev:3},
   {d:19,l:"Mar 18",deaths:2500,brent:108,nifty:23778,rupee:92.74,tag:"Khatib killed. South Pars attacked. Brent $108",sev:3},
   {d:20,l:"Mar 19",deaths:2700,brent:117,nifty:23002,rupee:93.23,tag:"CRASH -2,497. Ras Laffan + Aramco hit. Brent $117. Bushehr struck",sev:3},
-  {d:21,l:"Mar 20",deaths:2900,brent:106,nifty:23250,rupee:93.20,tag:"Brent eases to $106. Japan+EU pledge Hormuz escort. Sensex rebounds +900. QatarEnergy force majeure",sev:2},
+  {d:21,l:"Mar 20",deaths:3000,brent:108,nifty:23115,rupee:92.94,tag:"IRGC spokesman KILLED. Tehran struck on Nowruz. Sensex +326 (gave back 760 intraday). Rupee 92.94 ATL. Brent $108",sev:3},
 ];
 
 const PROJ = [
   {w:"Pre-war",brent:65,rupee:91.0,lpg:853,petrol:94.72,deaths:0},
   {w:"Week 1",brent:85,rupee:92.30,lpg:853,petrol:94.72,deaths:1045},
-  {w:"Now",brent:106,rupee:93.20,lpg:913,petrol:94.77,deaths:2900},
+  {w:"Now",brent:108,rupee:92.94,lpg:913,petrol:94.77,deaths:3000},
   {w:"Week 3*",brent:120,rupee:94.5,lpg:1000,petrol:110,deaths:4500},
   {w:"Week 4*",brent:125,rupee:96.0,lpg:1100,petrol:118,deaths:7000},
   {w:"Week 6*",brent:130,rupee:98.0,lpg:1200,petrol:128,deaths:10000},
@@ -75,11 +76,12 @@ const HH = [
 ];
 
 const MIL = [
+  {t:"🔴 IRGC SPOKESMAN NAEINI KILLED (Mar 20)",lv:"BREAKING",c:C.red,d:"IRGC spokesman Ali Mohammad Naeini killed in airstrike MOMENTS after telling AP 'Iran still building missiles' and 'war will continue.' Iranian state TV confirmed his death. Israel struck Tehran during Nowruz (Persian New Year). Iran warns 'ZERO RESTRAINT' if energy facilities targeted again."},
   {t:"🔴 RAS LAFFAN: $20B LOSS, 3-5 YR REPAIR",lv:"BREAKING",c:C.red,d:"Qatar's energy minister confirmed: Ras Laffan damage reduced LNG capacity by 17%. $20B annual revenue loss. 3-5 YEARS to repair. QatarEnergy declared FORCE MAJEURE on gas exports. Qatar expelled Iranian military/security diplomats. Saudi Arabia: 'trust in Iran completely shattered.' India gets 60% of gas from Qatar — catastrophic for CNG, piped gas, fertiliser."},
   {t:"☢️ Bushehr Nuclear Plant STRUCK",lv:"BREAKING",c:C.red,d:"Iran Atomic Energy Org confirmed 'hostile projectile' struck Bushehr nuclear plant site. No reactor damage claimed. But this crosses an unprecedented threshold — first strike ON a working nuclear facility. Spent fuel rods on site."},
   {t:"4 Top Officials Killed in 72 Hours",lv:"BREAKING",c:C.red,d:"Larijani (security chief) + Soleimani (Basij) + Khatib (intelligence minister) + Larijani's son. IDF authorized killing ANY senior Iranian official on sight. Iran executed Israeli spy. Mojtaba Khamenei: 'not the right time for peace.'"},
   {t:"Israel Strikes Caspian Sea + Northern Iran",lv:"BREAKING",c:C.red,d:"Israel struck Iranian naval targets in CASPIAN SEA — first time. Also struck northern Iran for first time since war began. 200 targets hit across western/central Iran on Mar 19. Trump told Netanyahu to STOP attacking energy facilities — Netanyahu agreed. But Pentagon asking Congress for $200 BILLION more."},
-  {t:"Brent $106 — Eased After Intervention",lv:"CRITICAL",c:C.red,d:"Brent peaked at $117 (Mar 19). Eased to $106 as Japan + EU pledged Hormuz escort + Trump stopped energy attacks. Sensex crashed 2,497 pts (-3.26%) — worst day in 2 years. VIX +22%. 3-day rally wiped. 2 more ships hit in Gulf on Thu (UK maritime agency)."},
+  {t:"Brent $108 — Volatile, Eased From $119 Peak",lv:"CRITICAL",c:C.red,d:"Brent peaked at $117 (Mar 19). Eased to $106 as Japan + EU pledged Hormuz escort + Trump stopped energy attacks. Sensex crashed 2,497 pts (-3.26%) — worst day in 2 years. VIX +22%. 3-day rally wiped. 2 more ships hit in Gulf on Thu (UK maritime agency)."},
   {t:"Hormuz: Indian Tankers Crossed (Fragile)",lv:"CRITICAL",c:C.orange,d:"Shivalik + Nanda Devi crossed under Navy escort. Shivalik reached Mundra. Covers only 5% monthly need. Gulf exports -61%. Iran: 'Hormuz closed to our enemies.' IRGC firing on ships."},
   {t:"IRIS Dena — Indian Ocean War Zone",lv:"CRITICAL",c:C.orange,d:"Iranian frigate torpedoed 40nm off Sri Lanka (87 killed). Returning from Indian Navy MILAN exercise. Iran vowed 'deadly strikes from where enemy least expects.'"},
   {t:"9M Indians in Gulf — Airspace Closures",lv:"HIGH",c:C.amber,d:"52K+ returned. UAE + Qatar airspace closed repeatedly. Saudi, Kuwait all intercepting fire. British Airways suspended Doha flights till Apr 30. NATO deploying more Patriot systems. Australian military HQ in UAE nearly hit."},
@@ -131,7 +133,7 @@ const HORMUZ = {
     {d:"Mar 16",e:"Aframax Karachi transits with AIS on"},
     {d:"Mar 18",e:"US drops 5,000-lb bunker busters on Hormuz missile sites"},
     {d:"Mar 19",e:"Aramco Yanbu hit. Ras Laffan: $20B loss, 3-5yr repair. QatarEnergy force majeure"},
-    {d:"Mar 20",e:"Israel strikes Caspian Sea. Trump: stop energy attacks. 2 more ships hit in Gulf"},
+    {d:"Mar 20",e:"120+ Iranian vessels destroyed (CENTCOM). Macron: UN on Hormuz. Japan+EU pledge escort. 20+ ships hit total since war"},
   ]
 };
 
@@ -150,9 +152,30 @@ export default function App(){
   const[projKey,setProjKey]=useState("brent");
   const[expNuke,setExpNuke]=useState(null);
   const[activeNav,setActiveNav]=useState(null);
+  const[live,setLive]=useState(null);
+  const[liveErr,setLiveErr]=useState(false);
+
+  // Auto-load market data from GitHub Action JSON
+  useEffect(()=>{
+    fetch('./market-data.json?t='+Date.now())
+      .then(r=>{if(!r.ok) throw new Error(r.status);return r.json()})
+      .then(d=>setLive(d))
+      .catch(()=>setLiveErr(true));
+  },[]);
+
   const sv=s=>s===3?"🔴":s===2?"🟠":"🟡";
   const go=id=>{setActiveNav(id);document.getElementById(id)?.scrollIntoView({behavior:"smooth",block:"start"});};
   const tickerText=TICKER.join("     •     ");
+
+  // Live data with fallbacks
+  const brentPrice = live?.brent?.price ?? 108;
+  const brentDelta = live?.brent?.changePct ? (live.brent.changePct > 0 ? "▲" : "▼") + ` ${Math.abs(live.brent.changePct)}%` : "";
+  const niftyPrice = live?.nifty?.price ?? 23115;
+  const niftyDelta = live?.nifty?.change ? (live.nifty.change > 0 ? "▲ +" : "▼ ") + live.nifty.change.toLocaleString() : "";
+  const sensexPrice = live?.sensex?.price ? Math.round(live.sensex.price).toLocaleString() : "74,533";
+  const rupeePrice = live?.rupee?.price?.toFixed(2) ?? "92.94";
+  const dataTime = live?._updated ?? WAR_UPDATED;
+  const isLive = !!live && !liveErr;
 
   return(
     <div style={{minHeight:"100vh",background:C.bg,color:C.text,fontFamily:"system-ui,-apple-system,sans-serif",fontSize:12,maxWidth:600,margin:"0 auto",padding:0}}>
@@ -170,11 +193,11 @@ export default function App(){
         <div>
           <div style={{fontSize:6.5,letterSpacing:4,color:C.muted,textTransform:"uppercase",fontWeight:600}}>India Risk Assessment</div>
           <h1 style={{margin:"4px 0 0",fontSize:18,fontWeight:800,color:C.white,lineHeight:1.2}}>How the Iran War<br/>Is Hitting India</h1>
-          <div style={{fontSize:7.5,color:C.muted,marginTop:4,fontStyle:"italic"}}>{UPDATED} • 50+ sources</div>
+          <div style={{fontSize:7.5,color:C.muted,marginTop:4,fontStyle:"italic"}}>War intel: {WAR_UPDATED} • Market: {isLive ? <span style={{color:C.green}}>LIVE ({dataTime})</span> : "manual"} • 50+ sources</div>
         </div>
         <div style={{textAlign:"right"}}>
           <div style={{background:C.red,color:"#fff",fontSize:12,fontWeight:900,padding:"5px 10px",borderRadius:4,fontFamily:mono}}>DAY {WAR_DAY}</div>
-          <div style={{fontSize:7,color:C.muted,marginTop:3,padding:"2px 6px",border:`1px solid ${C.muted}40`,borderRadius:3}}>MARKET OPEN ▲</div>
+          <div style={{fontSize:7,color:isLive?C.green:C.muted,marginTop:3,padding:"2px 6px",border:`1px solid ${isLive?C.green:C.muted}40`,borderRadius:3}}>{isLive ? "● LIVE DATA" : "MANUAL"}</div>
         </div>
       </header>
 
@@ -189,23 +212,23 @@ export default function App(){
 
       {/* ═══ WHAT CHANGED TODAY ═══ */}
       <div style={{background:C.red+"0c",border:`1px solid ${C.red}20`,borderRadius:6,padding:"10px 12px",marginBottom:16}}>
-        <div style={{fontSize:7.5,fontWeight:800,color:C.red,letterSpacing:2,marginBottom:5,fontFamily:mono}}>WHAT CHANGED — MAR 20, 9:30 AM IST</div>
+        <div style={{fontSize:7.5,fontWeight:800,color:C.red,letterSpacing:2,marginBottom:5,fontFamily:mono}}>WHAT CHANGED — MAR 20, 8 PM IST</div>
         <div style={{fontSize:9,color:C.text,lineHeight:1.8}}>
-          • <strong style={{color:C.green}}>Brent eases to $106</strong> (from $117 peak) — Japan + EU pledge Hormuz escort. Sensex rebounds ~900 pts in early trade<br/>
-          • <strong style={{color:C.red}}>Ras Laffan damage catastrophic:</strong> $20B annual loss, 17% LNG capacity gone, 3-5 YEARS repair. QatarEnergy FORCE MAJEURE<br/>
-          • <strong style={{color:C.orange}}>Israel strikes Caspian Sea</strong> + northern Iran for first time. Trump told Netanyahu: STOP energy attacks<br/>
-          • <strong style={{color:C.cyan}}>Petrol/Diesel: UNCHANGED in India.</strong> Govt holding prices. OMCs absorbing ₹20,000 cr/day losses<br/>
-          • <strong style={{color:C.amber}}>Pentagon asks for $200B</strong> more. Qatar expelled Iranian diplomats. Saudi: "trust shattered"<br/>
-          • <strong style={{color:C.purple}}>UN: 3M Iranians displaced.</strong> Lebanon toll 1,000+. 20+ ships hit. Netanyahu outlines 3 war goals
+          • <strong style={{color:C.red}}>IRGC spokesman Naeini KILLED</strong> in airstrike moments after saying "war continues" on state TV<br/>
+          • <strong style={{color:C.red}}>Israel struck Tehran during NOWRUZ</strong> (Persian New Year). Iran: "ZERO RESTRAINT" if energy hit again<br/>
+          • <strong style={{color:C.orange}}>Trump called NATO "COWARDS"</strong>. Invoked Pearl Harbor to Japan PM. Said "no ground troops" in Iran<br/>
+          • <strong style={{color:C.green}}>Sensex +326 at close</strong> but erased 760 pts from intraday high on late strikes. Rupee hit FRESH ATL 92.94<br/>
+          • <strong style={{color:C.cyan}}>Brent at ~$108.</strong> Macron to consult UN Security Council on Hormuz. US may "unsanction" Iranian crude<br/>
+          • <strong style={{color:C.purple}}>CENTCOM: 7,800+ strikes, 120+ Iranian vessels destroyed.</strong> 204 children killed in Iran. ₹12L cr wiped this week
         </div>
       </div>
 
       {/* ═══ METRICS ═══ */}
       <div style={{display:"grid",gridTemplateColumns:"1fr 1fr 1fr 1fr",gap:5,marginBottom:18}}>
-        <Mc label="War Dead" value="2,900+" delta="" sub="16+ countries" accent={C.red}/>
-        <Mc label="Brent" value="$106" delta="▼ eased from $117" sub="was $65 pre-war" accent={C.red}/>
-        <Mc label="Nifty" value="~23,250" delta="▲ rebounding +200" sub="after -2,497 yesterday" accent={C.red}/>
-        <Mc label="₹/USD" value="93.20" delta="▼ ATL zone" sub="was 91.49 pre-war" accent={C.orange}/>
+        <Mc label="War Dead" value="3,000+" delta="" sub="204 children in Iran" accent={C.red}/>
+        <Mc label="Brent" value={`$${brentPrice}`} delta={brentDelta} sub="was $65 pre-war" accent={brentPrice>100?C.red:C.orange}/>
+        <Mc label="Nifty" value={niftyPrice.toLocaleString()} delta={niftyDelta} sub="auto-updated" accent={niftyPrice<23500?C.red:C.orange}/>
+        <Mc label="₹/USD" value={rupeePrice} delta="ATL zone" sub="was 91.49 pre-war" accent={C.orange}/>
       </div>
 
       {/* ═══ HORMUZ STATUS ═══ */}
@@ -306,7 +329,7 @@ export default function App(){
         <div style={{background:C.card,borderRadius:6,padding:12,overflowX:"auto"}}>
           <table style={{width:"100%",borderCollapse:"collapse",fontSize:7.5,minWidth:280}}>
             <thead><tr style={{borderBottom:`1px solid ${C.border}`}}>{["","Pre","Now","Wk3","Wk4","Wk8"].map((h,i)=>(<th key={i} style={{padding:"4px 2px",textAlign:i===0?"left":"right",color:i>2?C.amber:C.muted,fontWeight:700}}>{h}</th>))}</tr></thead>
-            <tbody>{[{m:"Brent",v:[65,106,115,125,140]},{m:"₹/USD",v:[91.0,93.20,95.0,96.5,100.0]},{m:"Petrol*",v:["₹94.72","₹94.77","₹110+","₹118","₹135"]},{m:"LPG",v:["₹853","₹913","₹1,000","₹1,100","₹1,300"]},{m:"Deaths",v:[0,"2,900+","4,500","7,000","18,000"]}].map((r,i)=>(<tr key={i} style={{borderBottom:`1px solid ${C.border}25`}}><td style={{padding:"4px 2px",fontWeight:700,color:C.text}}>{r.m}</td>{r.v.map((v,j)=>(<td key={j} style={{padding:"4px 2px",textAlign:"right",color:j===0?C.green:j===1?C.red:C.amber,fontWeight:600}}>{v}</td>))}</tr>))}</tbody>
+            <tbody>{[{m:"Brent",v:[65,108,115,125,140]},{m:"₹/USD",v:[91.0,92.94,95.0,96.5,100.0]},{m:"Petrol*",v:["₹94.72","₹94.77","₹110+","₹118","₹135"]},{m:"LPG",v:["₹853","₹913","₹1,000","₹1,100","₹1,300"]},{m:"Deaths",v:[0,"3,000+","4,500","7,000","18,000"]}].map((r,i)=>(<tr key={i} style={{borderBottom:`1px solid ${C.border}25`}}><td style={{padding:"4px 2px",fontWeight:700,color:C.text}}>{r.m}</td>{r.v.map((v,j)=>(<td key={j} style={{padding:"4px 2px",textAlign:"right",color:j===0?C.green:j===1?C.red:C.amber,fontWeight:600}}>{v}</td>))}</tr>))}</tbody>
           </table>
         </div>
       </S>
@@ -330,9 +353,9 @@ export default function App(){
       <S id="assessment" title="Strategic Assessment" accent={C.red}>
         <div style={{background:C.red+"08",border:`1px solid ${C.red}15`,borderRadius:6,padding:14}}>
           <div style={{fontSize:9.5,lineHeight:1.85,color:C.sub}}>
-            <strong style={{color:C.red,fontSize:12}}>Day 21. Energy infrastructure war is devastating. India's gas supply faces existential threat.</strong><br/><br/>
-            Ras Laffan damage is catastrophic: $20B annual revenue loss, 17% of Qatar's LNG capacity destroyed, 3-5 YEARS to repair. QatarEnergy declared force majeure on gas exports. Israel struck Caspian Sea and northern Iran for the first time. Trump intervened — told Netanyahu to stop energy attacks. Netanyahu agreed. But Pentagon wants $200B more. Qatar expelled Iranian diplomats. Saudi Arabia: "trust shattered." UN: 3 million Iranians displaced. Lebanon toll crosses 1,000.<br/><br/>
-            <strong style={{color:C.orange}}>For India, this is an energy emergency.</strong> Qatar = 60% of India's natural gas. Ras Laffan 17% capacity GONE for 3-5 years. QatarEnergy force majeure. LPG 10 days stock. Petrol pump prices FROZEN by govt — but OMCs bleeding ₹20K cr/day. Unsustainable. ₹15-25/L hike inevitable when dam breaks. Rupee 93.00. VIX +22%. ₹24.5+ lakh crore destroyed since war began. HDFC Bank chairman resigned — domestic shocks compounding war shocks.<br/><br/>
+            <strong style={{color:C.red,fontSize:12}}>Day 21. Three weeks. No end in sight. India's energy security is in crisis.</strong><br/><br/>
+            The IRGC's own spokesman was killed on live TV today. Israel struck Tehran during Nowruz. Iran warned of 'zero restraint.' Trump called NATO 'cowards' and invoked Pearl Harbor to Japan's PM. Macron will take Hormuz to the UN. US may unsanction Iranian crude. CENTCOM has struck 7,800+ targets and destroyed 120+ Iranian vessels. Pentagon wants $200B more — Hegseth: 'it takes money to kill bad guys.' Sensex gave back 760 pts intraday on late strikes. Rupee hit fresh ATL 92.94. This week wiped ₹12 lakh crore.<br/><br/>
+            <strong style={{color:C.orange}}>For India, this is an energy emergency.</strong> Qatar = 60% of India's natural gas. Ras Laffan 17% capacity GONE for 3-5 years. QatarEnergy force majeure. LPG 10 days stock. Petrol/diesel FROZEN by govt — but OMCs bleeding ₹20K cr/day. Unsustainable. ₹15-25/L hike inevitable. Rupee 92.94 — fresh ATL. VIX +22%. ₹24.5+ lakh crore destroyed since war began. HDFC Bank chairman resigned — domestic shocks compounding war shocks.<br/><br/>
             <strong style={{color:C.purple}}>Bushehr nuclear reactor has been struck.</strong> First-ever hit on a working nuclear plant in this war. 460kg enriched uranium exists. Delhi 4-7 days downwind. India has no preparedness plan.<br/><br/>
             <strong style={{color:C.cyan}}>India must act now:</strong> Emergency gas rationing. Non-Gulf LPG acceleration. Rupee defense. Nuclear monitoring. Food supply protection. This is India's crisis — not a distant war.
           </div>
