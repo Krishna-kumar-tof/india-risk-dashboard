@@ -1,0 +1,39 @@
+name: Update Market Data
+
+on:
+  schedule:
+    # Runs every 4 hours
+    - cron: '0 */4 * * *'
+  workflow_dispatch: # Allow manual trigger from GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch market data
+        run: node scripts/fetch-market-data.mjs
+
+      - name: Check for changes
+        id: check
+        run: |
+          git diff --quiet public/market-data.json || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push
+        if: steps.check.outputs.changed == 'true'
+        run: |
+          git config user.name "Market Data Bot"
+          git config user.email "bot@india-risk-dashboard"
+          git add public/market-data.json
+          git commit -m "📊 Auto-update market data — $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
