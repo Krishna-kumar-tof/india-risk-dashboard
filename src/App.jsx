@@ -159,7 +159,7 @@ const RadarSVG=({data,w=270,h=270})=>{const cx=w/2,cy=h/2,r=Math.min(cx,cy)-34,n
 // ═══════ LAYOUT ═══════
 const mono="'SF Mono',Consolas,'Courier New',monospace";
 const S=({id,title,sub,accent=C.red,children})=>(<section id={id} style={{marginBottom:30,scrollMarginTop:48}}><div style={{marginBottom:12,paddingBottom:6,borderBottom:`1px solid ${C.border}`}}><h2 style={{margin:0,fontSize:12,fontWeight:700,color:accent,letterSpacing:2,textTransform:"uppercase",fontFamily:mono}}>{title}</h2>{sub&&<p style={{margin:"4px 0 0",fontSize:9.5,color:C.sub,lineHeight:1.5}}>{sub}</p>}</div>{children}</section>);
-const Mc=({label,value,sub,delta,accent=C.red})=>(<div style={{background:C.card,borderRadius:6,padding:"10px 7px",textAlign:"center",borderLeft:`3px solid ${accent}`}}><div style={{fontSize:7,color:C.muted,letterSpacing:1.5,textTransform:"uppercase",fontWeight:600}}>{label}</div><div style={{fontSize:16,fontWeight:800,color:accent,marginTop:2,fontFamily:mono}}>{value}</div>{delta&&<div style={{fontSize:7.5,color:delta.startsWith("+")||delta.startsWith("▲")?C.green:C.red,fontWeight:700,marginTop:1,fontFamily:mono}}>{delta}</div>}{sub&&<div style={{fontSize:6.5,color:C.muted,marginTop:1}}>{sub}</div>}</div>);
+const Mc=({label,value,sub,delta,accent=C.red,deltaColor})=>(<div style={{background:C.card,borderRadius:6,padding:"10px 7px",textAlign:"center",borderLeft:`3px solid ${accent}`}}><div style={{fontSize:7,color:C.muted,letterSpacing:1.5,textTransform:"uppercase",fontWeight:600}}>{label}</div><div style={{fontSize:16,fontWeight:800,color:accent,marginTop:2,fontFamily:mono}}>{value}</div>{delta&&<div style={{fontSize:7.5,color:deltaColor||C.sub,fontWeight:700,marginTop:1,fontFamily:mono}}>{delta}</div>}{sub&&<div style={{fontSize:6.5,color:C.muted,marginTop:1}}>{sub}</div>}</div>);
 
 // ═══════ MAIN ═══════
 export default function App(){
@@ -183,11 +183,13 @@ export default function App(){
 
   // Live data with fallbacks
   const brentPrice = live?.brent?.price ?? 112;
-  const brentDelta = live?.brent?.changePct ? (live.brent.changePct > 0 ? "▲" : "▼") + ` ${Math.abs(live.brent.changePct)}%` : "";
+  const brentChg = live?.brent?.changePct ?? 0;
+  const brentDelta = brentChg ? (brentChg > 0 ? "▲" : "▼") + ` ${Math.abs(brentChg)}%` : "";
   const niftyPrice = live?.nifty?.price ?? 23115;
-  const niftyDelta = live?.nifty?.change ? (live.nifty.change > 0 ? "▲ +" : "▼ ") + live.nifty.change.toLocaleString() : "";
+  const niftyChg = live?.nifty?.change ?? 0;
+  const niftyDelta = niftyChg ? (niftyChg > 0 ? "▲ +" : "▼ ") + Math.abs(niftyChg).toLocaleString() : "";
   const sensexPrice = live?.sensex?.price ? Math.round(live.sensex.price).toLocaleString() : "74,533";
-  const rupeePrice = live?.rupee?.price?.toFixed(2) ?? "92.94";
+  const rupeePrice = live?.rupee?.price?.toFixed(2) ?? "93.65";
   const rawTime = live?._updated ?? WAR_UPDATED;
   // Format: if raw looks like "2026-03-21 — HH:MM:SS", convert to readable
   const dataTime = rawTime.includes('2026-') ? rawTime.replace(/^(\d{4})-(\d{2})-(\d{2})\s*—?\s*/, (m,y,mo,d) => {
@@ -195,6 +197,10 @@ export default function App(){
     return months[parseInt(mo)]+' '+parseInt(d)+', '+y+' — ';
   }) : rawTime;
   const isLive = !!live && !liveErr;
+  // Brent UP = bad for India (red). Nifty UP = good (green). Rupee UP = bad (red = weaker).
+  const brentColor = brentPrice > 100 ? C.red : C.orange;
+  const niftyColor = niftyChg >= 0 ? C.green : C.red;
+  const niftyAccent = niftyPrice < 23500 ? C.red : C.orange;
 
   return(
     <div style={{minHeight:"100vh",background:C.bg,color:C.text,fontFamily:"system-ui,-apple-system,sans-serif",fontSize:12,maxWidth:600,margin:"0 auto",padding:0}}>
@@ -245,9 +251,9 @@ export default function App(){
       {/* ═══ METRICS ═══ */}
       <div style={{display:"grid",gridTemplateColumns:"1fr 1fr 1fr 1fr",gap:5,marginBottom:18}}>
         <Mc label="War Dead" value="3,500+" delta="" sub="1,444 Iran (204 kids), 1,000+ Lebanon" accent={C.red}/>
-        <Mc label="Brent" value={`$${brentPrice}`} delta={brentDelta} sub="was $65 pre-war" accent={brentPrice>100?C.red:C.orange}/>
-        <Mc label="Nifty" value={niftyPrice.toLocaleString()} delta={niftyDelta} sub="auto-updated" accent={niftyPrice<23500?C.red:C.orange}/>
-        <Mc label="₹/USD" value={rupeePrice} delta="ATL zone" sub="was 91.49 pre-war" accent={C.orange}/>
+        <Mc label="Brent" value={`$${brentPrice}`} delta={brentDelta} deltaColor={brentChg>0?C.red:C.green} sub="was $65 pre-war" accent={brentColor}/>
+        <Mc label="Nifty" value={niftyPrice.toLocaleString()} delta={niftyDelta} deltaColor={niftyColor} sub="Fri close" accent={niftyAccent}/>
+        <Mc label="₹/USD" value={rupeePrice} delta="ATL zone" deltaColor={C.red} sub="was 91.49 pre-war" accent={C.orange}/>
       </div>
 
       {/* ═══ HORMUZ STATUS ═══ */}
