@@ -177,18 +177,49 @@ export default function App(){
   const[activeNav,setActiveNav]=useState(null);
   const[live,setLive]=useState(null);
   const[liveErr,setLiveErr]=useState(false);
+  const[intel,setIntel]=useState(null);
 
-  // Auto-load market data from GitHub Action JSON
+  // Auto-load market data + war intelligence
   useEffect(()=>{
     fetch('./market-data.json?t='+Date.now())
       .then(r=>{if(!r.ok) throw new Error(r.status);return r.json()})
       .then(d=>setLive(d))
       .catch(()=>setLiveErr(true));
+    fetch('./war-intel.json?t='+Date.now())
+      .then(r=>{if(!r.ok) throw new Error(r.status);return r.json()})
+      .then(d=>setIntel(d))
+      .catch(()=>{});
   },[]);
 
   const sv=s=>s===3?"🔴":s===2?"🟠":"🟡";
   const go=id=>{setActiveNav(id);document.getElementById(id)?.scrollIntoView({behavior:"smooth",block:"start"});};
-  const tickerText=TICKER.join("     •     ");
+
+  // Use war-intel.json data if loaded, otherwise fallback to hardcoded
+  const iT = intel?.ticker ?? TICKER;
+  const iDay = intel?._day ?? WAR_DAY;
+  const iUpdated = intel?._updated ?? WAR_UPDATED;
+  const iDeaths = intel?.deaths ?? "3,800+";
+  const iDeathsSub = intel?.deathsSub ?? "1,500+ Iran, 1,039 Lebanon, 60 Iraq, 17 Israel";
+  const iWC = intel?.whatChanged ?? null;
+  const iEcon = intel?.econ ?? null;
+  const iMilTop = intel?.milTop ?? [];
+  const iTlLatest = intel?.tlLatest ?? [];
+  const iRadar = intel?.radar ?? RADAR;
+  const iAssess = intel?.assessment ?? null;
+  const iHormuzLatest = intel?.hormuzLatest ?? [];
+  const iProjNow = intel?.projNow ?? PROJ[2];
+  const iScenarios = intel?.scenarios ?? null;
+
+  // Merge timeline: base TL + latest from intel
+  const fullTL = [...TL.filter(t => !iTlLatest.some(lt => lt.d === t.d)), ...iTlLatest].sort((a,b) => a.d - b.d);
+  // Merge military: intel top entries + hardcoded rest
+  const fullMIL = [...iMilTop.map(m => ({t:m.t,lv:m.lv,c:C[m.color]||C.amber,d:m.d})), ...MIL];
+  // Merge hormuz events
+  const fullHormuzEvents = [...HORMUZ.events.filter(e => !iHormuzLatest.some(le => le.d === e.d)), ...iHormuzLatest].sort((a,b) => a.d > b.d ? 1 : -1);
+  // Update PROJ "Now" row with intel data
+  const fullPROJ = PROJ.map(p => p.w === "Now" ? {...p, ...iProjNow, w:"Now"} : p);
+
+  const tickerText=iT.join("     •     ");
 
   // Live data with fallbacks
   const brentPrice = live?.brent?.price ?? 99;
@@ -227,10 +258,10 @@ export default function App(){
         <div>
           <div style={{fontSize:6.5,letterSpacing:4,color:C.muted,textTransform:"uppercase",fontWeight:600}}>India Risk Assessment</div>
           <h1 style={{margin:"4px 0 0",fontSize:18,fontWeight:800,color:C.white,lineHeight:1.2}}>How the Iran War<br/>Is Hitting India</h1>
-          <div style={{fontSize:7.5,color:C.muted,marginTop:4,fontStyle:"italic"}}>Updated: {WAR_UPDATED} • 50+ verified sources</div>
+          <div style={{fontSize:7.5,color:C.muted,marginTop:4,fontStyle:"italic"}}>Updated: {iUpdated} • 50+ verified sources</div>
         </div>
         <div style={{textAlign:"right"}}>
-          <div style={{background:C.red,color:"#fff",fontSize:12,fontWeight:900,padding:"5px 10px",borderRadius:4,fontFamily:mono}}>DAY {WAR_DAY}</div>
+          <div style={{background:C.red,color:"#fff",fontSize:12,fontWeight:900,padding:"5px 10px",borderRadius:4,fontFamily:mono}}>DAY {iDay}</div>
           <div style={{fontSize:7,color:C.cyan,marginTop:3,padding:"2px 6px",border:`1px solid ${isLive?C.green:C.muted}40`,borderRadius:3}}>"● DATA AUTO-SYNCED"</div>
         </div>
       </header>
@@ -246,20 +277,26 @@ export default function App(){
 
       {/* ═══ WHAT CHANGED TODAY ═══ */}
       <div style={{background:C.red+"0c",border:`1px solid ${C.red}20`,borderRadius:6,padding:"10px 12px",marginBottom:16}}>
-        <div style={{fontSize:7.5,fontWeight:800,color:C.red,letterSpacing:2,marginBottom:5,fontFamily:mono}}>WHAT CHANGED — MAR 25, 5 PM IST</div>
+        <div style={{fontSize:7.5,fontWeight:800,color:C.red,letterSpacing:2,marginBottom:5,fontFamily:mono}}>{iWC?.label || "WHAT CHANGED"}</div>
         <div style={{fontSize:9,color:C.text,lineHeight:1.8}}>
-          • <strong style={{color:C.red}}>NATANZ nuclear site STRUCK AGAIN</strong> — 2nd attack on enrichment facility. Iran says "no radioactive leakage." IAEA monitoring<br/>
-          • <strong style={{color:C.red}}>Iran fired missiles at DIEGO GARCIA</strong> — US-UK base in Indian Ocean. War has now reached the Indian Ocean. UK warned Iran against targeting British bases<br/>
-          • <strong style={{color:C.purple}}>Iran's 70TH WAVE of attacks.</strong> CENTCOM update: 8,000 targets struck, 130 vessels destroyed. "Navy not sailing, fighters not flying"<br/>
-          • <strong style={{color:C.orange}}>Brent closed $112.19 — highest since war began.</strong> US unsanctioned 140M bbl Iranian oil. Goldman: high prices could last to 2027<br/>
-          • <strong style={{color:C.cyan}}>Saudi intercepted 47 drones</strong> in one day (38 in 3 hours). Bahrain: 143 missiles + 242 drones total. Iran warns "crushing blows" to UAE<br/>
-          • <strong style={{color:C.amber}}>Russia: "loyal friend" to Iran</strong> (Putin). Markets closed (Sat + Eid). Rupee 93.65. Week 4 of war begins
+          {iWC?.items ? iWC.items.map((item,i) => (
+            <span key={i}>• <strong style={{color:C[item.color]||C.red}}>{item.bold}</strong>{item.text}<br/></span>
+          )) : (
+            <>
+          • <strong style={{color:C.green}}>Sensex +1,640 (2.2%)</strong> to 75,708 intraday. Nifty 23,432. 2nd straight rally. OMCs +3.4% on oil drop. Brent below $100<br/>
+          • <strong style={{color:C.cyan}}>US seeking MONTH-LONG CEASEFIRE.</strong> Sent 15-point plan to Iran. Iran: 'non-hostile ships CAN transit Hormuz' — signal of softening<br/>
+          • <strong style={{color:C.red}}>Bernstein warns:</strong> Rupee could breach ₹98/USD. Bear case: Nifty below 20,000, rupee ₹110, GDP 2-3%, double-digit inflation<br/>
+          • <strong style={{color:C.orange}}>82,000 structures damaged</strong> in Iran. 17 Red Crescent bases struck. 94 ambulances hit. FPI outflow: ₹1L+ Cr in 2026 (₹88,180 Cr in March)<br/>
+          • <strong style={{color:C.amber}}>Iran IRGC: Trump is 'deceitful.'</strong> Military adviser: war until 'full compensation.' 82nd Airborne still deploying despite pause<br/>
+          • <strong style={{color:C.purple}}>Philippines energy emergency.</strong> Pakistan ready to host. Modi-Trump call. Gold crashing. AWS data centres hit in UAE/Bahrain
+            </>
+          )}
         </div>
       </div>
 
       {/* ═══ METRICS ═══ */}
       <div style={{display:"grid",gridTemplateColumns:"1fr 1fr 1fr 1fr",gap:5,marginBottom:18}}>
-        <Mc label="War Dead" value="3,800+" delta="" sub="1,500+ Iran, 1,039 Lebanon, 60 Iraq, 17 Israel" accent={C.red}/>
+        <Mc label="War Dead" value={iDeaths} delta="" sub={iDeathsSub} accent={C.red}/>
         <Mc label="Brent" value={`$${brentPrice}`} delta={brentDelta} deltaColor={brentChg>0?C.red:C.green} sub="was $65 pre-war" accent={brentColor}/>
         <Mc label="Nifty" value={niftyPrice.toLocaleString()} delta={niftyDelta} deltaColor={niftyColor} sub="Wed +2.2% rallying" accent={niftyAccent}/>
         <Mc label="₹/USD" value={rupeePrice} delta="ATL zone" deltaColor={C.red} sub="was 91.49 pre-war" accent={C.orange}/>
@@ -297,7 +334,7 @@ export default function App(){
         </div>
         <div style={{background:C.card,borderRadius:6,padding:10}}>
           <div style={{fontSize:8,fontWeight:700,color:C.cyan,marginBottom:6,letterSpacing:1}}>HORMUZ TIMELINE</div>
-          {HORMUZ.events.map((e,i)=>(<div key={i} style={{display:"flex",gap:8,padding:"4px 0",borderBottom:`1px solid ${C.border}25`}}>
+          {fullHormuzEvents.map((e,i)=>(<div key={i} style={{display:"flex",gap:8,padding:"4px 0",borderBottom:`1px solid ${C.border}25`}}>
             <span style={{fontSize:7.5,color:C.cyan,fontWeight:700,minWidth:42,fontFamily:mono}}>{e.d}</span>
             <span style={{fontSize:8,color:C.sub,lineHeight:1.4}}>{e.e}</span>
           </div>))}
@@ -308,13 +345,13 @@ export default function App(){
       {/* ═══ 1. ECONOMIC ═══ */}
       <S id="economic" title="Economic Impact" sub="Energy infrastructure war = direct hit on India's economy" accent={C.orange}>
         <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:6,marginBottom:12}}>
-          <Mc label="Wealth Destroyed" value="₹44L+ Cr" delta="" sub="since war began" accent={C.red}/>
-          <Mc label="FPI (Mar)" value="$10.5B+" delta="₹88,180 Cr MTD" sub="FII selling" accent={C.red}/>
-          <Mc label="Sensex (Wed)" value="75,708" delta="▲ +1,640" sub="2-day rally +3,012 from Mon low" accent={C.green}/>
-          <Mc label="India VIX" value="26.73" delta="▲ extreme fear" sub="extreme uncertainty" accent={C.red}/>
+          <Mc label="Wealth Destroyed" value={iEcon?.wealth||"₹44L+ Cr"} delta="" sub="since war began" accent={C.red}/>
+          <Mc label="FPI (Mar)" value={iEcon?.fpi||"$10.5B+"} delta={iEcon?.fpiDelta||"₹88,180 Cr MTD"} sub="FII selling" accent={C.red}/>
+          <Mc label="Sensex" value={iEcon?.sensex||"75,708"} delta={iEcon?.sensexDelta||"▲ +1,640"} sub={iEcon?.sensexSub||""} accent={C.green}/>
+          <Mc label="India VIX" value={iEcon?.vix||"26.73"} delta={iEcon?.vixDelta||""} sub="extreme uncertainty" accent={C.red}/>
         </div>
-        <div style={{background:C.card,borderRadius:6,padding:12,marginBottom:8}}><div style={{fontSize:9,fontWeight:700,color:C.cyan,marginBottom:5,letterSpacing:1,textTransform:"uppercase"}}>Nifty 50 — 20-Day Track</div><MiniLine data={TL} dataKey="nifty" color={C.cyan} labels showDots/></div>
-        <div style={{background:C.card,borderRadius:6,padding:12,marginBottom:8}}><div style={{fontSize:9,fontWeight:700,color:C.orange,marginBottom:5,letterSpacing:1,textTransform:"uppercase"}}>Brent Crude ($) — 20-Day</div><MiniLine data={TL} dataKey="brent" color={C.orange} labels showDots/></div>
+        <div style={{background:C.card,borderRadius:6,padding:12,marginBottom:8}}><div style={{fontSize:9,fontWeight:700,color:C.cyan,marginBottom:5,letterSpacing:1,textTransform:"uppercase"}}>Nifty 50 — 20-Day Track</div><MiniLine data={fullTL} dataKey="nifty" color={C.cyan} labels showDots/></div>
+        <div style={{background:C.card,borderRadius:6,padding:12,marginBottom:8}}><div style={{fontSize:9,fontWeight:700,color:C.orange,marginBottom:5,letterSpacing:1,textTransform:"uppercase"}}>Brent Crude ($) — 20-Day</div><MiniLine data={fullTL} dataKey="brent" color={C.orange} labels showDots/></div>
       </S>
 
       {/* ═══ 2. KITCHEN ═══ */}
@@ -328,7 +365,7 @@ export default function App(){
 
       {/* ═══ 3. MILITARY ═══ */}
       <S id="military" title="Military & Strategic Exposure" sub="Energy infrastructure war + assassination campaign" accent={C.red}>
-        {MIL.map((m,i)=>(<div key={i} style={{background:m.lv==="BREAKING"?C.red+"0a":C.card,border:m.lv==="BREAKING"?`1px solid ${C.red}20`:"none",borderRadius:6,padding:10,marginBottom:6,borderLeft:`3px solid ${m.c}`}}>
+        {fullMIL.map((m,i)=>(<div key={i} style={{background:m.lv==="BREAKING"?C.red+"0a":C.card,border:m.lv==="BREAKING"?`1px solid ${C.red}20`:"none",borderRadius:6,padding:10,marginBottom:6,borderLeft:`3px solid ${m.c}`}}>
           <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",flexWrap:"wrap",gap:4}}><span style={{fontSize:9.5,fontWeight:700,color:C.white,flex:1}}>{m.t}</span><span style={{fontSize:6.5,padding:"2px 7px",borderRadius:3,background:m.lv==="BREAKING"?C.red:`${m.c}20`,color:m.lv==="BREAKING"?"#fff":m.c,fontWeight:800,whiteSpace:"nowrap"}}>{m.lv}</span></div>
           <div style={{fontSize:7.5,color:C.muted,marginTop:5,lineHeight:1.6}}>{m.d}</div>
         </div>))}
@@ -358,7 +395,7 @@ export default function App(){
           {[{k:"brent",l:"Oil"},{k:"rupee",l:"₹"},{k:"petrol",l:"Petrol"},{k:"lpg",l:"LPG"},{k:"deaths",l:"Deaths"}].map(m=>(<button key={m.k} onClick={()=>setProjKey(m.k)} style={{padding:"3px 10px",border:projKey===m.k?`1px solid ${C.cyan}`:`1px solid ${C.border}`,borderRadius:3,background:projKey===m.k?C.cyan+"12":"transparent",color:projKey===m.k?C.cyan:C.sub,cursor:"pointer",fontSize:8,fontWeight:700,fontFamily:"inherit"}}>{m.l}</button>))}
         </div>
         <div style={{background:C.card,borderRadius:6,padding:12,marginBottom:8}}>
-          <MiniLine data={PROJ} dataKey={projKey} color={C.cyan} labels showDots/>
+          <MiniLine data={fullPROJ} dataKey={projKey} color={C.cyan} labels showDots/>
         </div>
         <div style={{background:C.card,borderRadius:6,padding:12,overflowX:"auto"}}>
           <table style={{width:"100%",borderCollapse:"collapse",fontSize:7.5,minWidth:280}}>
@@ -370,7 +407,7 @@ export default function App(){
 
       {/* ═══ 6. RADAR ═══ */}
       <S id="radar" title="Risk Radar" sub="Week 1 → Now → Week 4" accent={C.cyan}>
-        <div style={{background:C.card,borderRadius:6,padding:12}}><RadarSVG data={RADAR}/></div>
+        <div style={{background:C.card,borderRadius:6,padding:12}}><RadarSVG data={iRadar}/></div>
       </S>
 
       {/* ═══ 7. WAR LOG ═══ */}
@@ -387,16 +424,9 @@ export default function App(){
       <S id="assessment" title="Strategic Assessment" accent={C.red}>
         <div style={{background:C.red+"08",border:`1px solid ${C.red}15`,borderRadius:6,padding:14}}>
           <div style={{fontSize:9.5,lineHeight:1.85,color:C.sub}}>
-            <strong style={{color:C.red,fontSize:12}}>Day 26. Ceasefire plan on table. Markets rallying. But Iran says war until 'full compensation.' 72 hours to March 28.</strong><br/><br/>
-            A month-long ceasefire plan with 15 points is now reportedly on the table. Iran is signaling softening — saying non-hostile ships can transit Hormuz. Markets are surging (Sensex +3,012 in 2 days from Monday's 22-month low). Brent crashed below $100. August futures at $80 = market pricing war end.
-
-But Bernstein issued a devastating warning: if war extends, rupee could breach ₹98, Nifty could fall below 20,000, inflation could hit double digits, GDP could crash to 2-3%. Iran's IRGC calls Trump 'deceitful' and a military adviser says war continues until 'full compensation.' 82nd Airborne is still deploying. 82,000 structures damaged in Iran.
-
-For India: Modi spoke with Trump about Hormuz. FII outflow crossed ₹1 lakh crore in 2026 (₹88,180 Cr in March alone). ₹44L+ Cr destroyed. Rupee near 94. LPG 10 days stock. BPCL launched LPG ATM — crisis adaptation. Oil companies exploring 10kg cylinders. Petrol/diesel still frozen — OMCs bleeding.
-
-The 5-day pause clock ticks. March 28 is D-Day. If the 15-point plan holds, India gets the biggest relief rally in its history. If it fails, power plant strikes begin, Hormuz closes completely, and India enters the worst energy crisis since independence.<br/><br/>
-            <strong style={{color:C.orange}}>For India, this is an energy emergency.</strong> Qatar = 60% of India's natural gas. Ras Laffan 17% capacity GONE for 3-5 years. QatarEnergy force majeure. LPG 10 days stock. Petrol/diesel FROZEN by govt — but OMCs bleeding ₹20K cr/day. Unsustainable. ₹15-25/L hike inevitable. Rupee 92.94 — fresh ATL. VIX +22%. ₹24.5+ lakh crore destroyed since war began. HDFC Bank chairman resigned — domestic shocks compounding war shocks.<br/><br/>
-            <strong style={{color:C.purple}}>Bushehr nuclear reactor has been struck.</strong> First-ever hit on a working nuclear plant in this war. 460kg enriched uranium exists. Delhi 4-7 days downwind. India has no preparedness plan.<br/><br/>
+            <strong style={{color:C.red,fontSize:12}}>{iAssess?.headline || "Strategic assessment loading..."}</strong><br/><br/>
+            {(iAssess?.body || "").split("\n").map((p,i) => p.trim() ? <span key={i}>{p}<br/><br/></span> : null)}
+            <strong style={{color:C.orange}}>For India, this is an energy emergency.</strong> Qatar = 60% of India's natural gas. Ras Laffan 17% capacity GONE for 3-5 years. QatarEnergy force majeure. LPG 10 days stock. Petrol/diesel FROZEN — OMCs bleeding ₹20K cr/day.<br/><br/>
             <strong style={{color:C.cyan}}>India must act now:</strong> Emergency gas rationing. Non-Gulf LPG acceleration. Rupee defense. Nuclear monitoring. Food supply protection. This is India's crisis — not a distant war.
           </div>
         </div>
