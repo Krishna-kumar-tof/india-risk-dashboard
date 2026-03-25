@@ -1,0 +1,62 @@
+{
+  "_updated": "March 25, 2026 — 5:00 PM IST",
+  "_day": 26,
+  "_note": "Update this file only. App.jsx never changes.",
+  "ticker": [
+    "⚡ SENSEX SURGES +1,640 (2.2%) — Nifty at 23,430. 2nd straight day of rally on de-escalation hopes",
+    "📉 BRENT below $100 — US seeking MONTH-LONG CEASEFIRE. Sent 15-POINT PLAN to Iran for discussion",
+    "🇮🇳 Modi-Trump call: 'Hormuz must stay OPEN.' India most vulnerable — 52% crude imports from ME",
+    "⚠️ Bernstein: Rupee could breach ₹98 if war extends. Bear case: Nifty below 20,000, rupee 110, double-digit inflation",
+    "🔴 Iran: 'Non-hostile ships CAN transit Hormuz' — signal of softening. But IRGC calls Trump 'deceitful'",
+    "☢️ 82,000 structures damaged in Iran. 17 Red Crescent bases hit. 94 ambulances destroyed. 1,500+ killed",
+    "🇵🇭 Philippines declares ENERGY EMERGENCY — first nation officially. EU: 'time to negotiate'",
+    "🇵🇰 Pakistan ready to HOST talks. Iran prefers Vance. 82nd Airborne (1,000+) still deploying to ME",
+    "💰 FII outflow ₹88,180 Cr March (₹1L+ Cr in 2026). Gold + silver crashing. OMCs up 3%+ on oil drop",
+    "🇮🇳 BPCL launches first LPG ATM in Gurugram. Oil cos exploring 10kg cylinders for shortage management"
+  ],
+  "whatChanged": {
+    "label": "WHAT CHANGED — MAR 25, 5 PM IST",
+    "items": [
+      {"color": "green", "bold": "Sensex +1,640 (2.2%)", "text": " to 75,708 intraday. Nifty 23,432. 2nd straight rally. OMCs +3.4% on oil drop. Brent below $100"},
+      {"color": "cyan", "bold": "US seeking MONTH-LONG CEASEFIRE.", "text": " Sent 15-point plan to Iran. Iran: 'non-hostile ships CAN transit Hormuz' — signal of softening"},
+      {"color": "red", "bold": "Bernstein warns:", "text": " Rupee could breach ₹98/USD. Bear case: Nifty below 20,000, rupee ₹110, GDP 2-3%, double-digit inflation"},
+      {"color": "orange", "bold": "82,000 structures damaged", "text": " in Iran. 17 Red Crescent bases struck. 94 ambulances hit. FPI outflow: ₹1L+ Cr in 2026 (₹88,180 Cr in March)"},
+      {"color": "amber", "bold": "Iran IRGC: Trump is 'deceitful.'", "text": " Military adviser: war until 'full compensation.' 82nd Airborne still deploying despite pause"},
+      {"color": "purple", "bold": "Philippines energy emergency.", "text": " Pakistan ready to host. Modi-Trump call. Gold crashing. AWS data centres hit in UAE/Bahrain"}
+    ]
+  },
+  "deaths": "3,800+",
+  "deathsSub": "1,500+ Iran, 1,039 Lebanon, 60 Iraq, 17 Israel",
+  "econ": {
+    "sensex": "75,708", "sensexDelta": "▲ +1,640", "sensexSub": "2-day rally +3,012 from Mon low",
+    "vix": "26.73", "vixDelta": "▲ extreme fear",
+    "fpi": "$10.5B+", "fpiDelta": "₹88,180 Cr MTD",
+    "wealth": "₹44L+ Cr",
+    "analysis": "WEEK 4 STATUS: Ceasefire plan on table — US sent 15-point plan and seeking month-long ceasefire. Brent below $100. Sensex surging +1,640. BUT Bernstein warns: rupee could breach ₹98, Nifty below 20K, double-digit inflation. FII outflow ₹88,180 Cr March (₹1L+ Cr in 2026)."
+  },
+  "hormuzLatest": [
+    {"d": "Mar 24", "e": "Modi-Trump call: Hormuz must stay open. Pakistan ready to host talks. Iran: willing to listen. 82nd Airborne deploying"},
+    {"d": "Mar 25", "e": "US seeking month-long ceasefire + 15-point plan. Iran: non-hostile ships CAN transit. Brent below $100. Bernstein: rupee could hit 98"}
+  ],
+  "milTop": [
+    {"t": "🇮🇳 MODI-TRUMP CALL ON HORMUZ (Mar 24)", "lv": "DEVELOPING", "color": "cyan", "d": "PM Modi spoke with Trump. 'Hormuz must remain open, secure and accessible.' India hit hard by soaring energy prices."},
+    {"t": "🟡 VANCE + RUBIO Leading Talks (Mar 24)", "lv": "DEVELOPING", "color": "amber", "d": "Iran prefers Vance over Kushner. Source: 'willing to listen to sustainable deal.' But military adviser says war until 'full compensation.' 82nd Airborne deploying."},
+    {"t": "🟡 PAKISTAN MEDIATING", "lv": "DEVELOPING", "color": "amber", "d": "Pakistan ready to host. In-person meeting possible 'in coming days.' Iran: 'received US points via mediators — being reviewed.'"}
+  ],
+  "tlLatest": [
+    {"d": 25, "l": "Mar 24", "deaths": 3800, "brent": 99, "nifty": 22912, "rupee": 93.88, "tag": "Sensex +1,372. Brent $99. Pakistan mediating. Modi-Trump call.", "sev": 1},
+    {"d": 26, "l": "Mar 25", "deaths": 3800, "brent": 100, "nifty": 23430, "rupee": 93.88, "tag": "Sensex +1,640. 15-point ceasefire plan. Iran softening. Philippines emergency.", "sev": 2}
+  ],
+  "projNow": {"brent": 100, "rupee": 93.88, "lpg": 913, "petrol": 94.77, "deaths": 3800},
+  "scenarios": {"brent": [65,100,110,125,145], "rupee": [91.0,93.88,95.5,97.0,100.0], "deaths": [0,"3,800+","6,000","10,000","24,000"]},
+  "radar": [
+    {"axis":"Oil Shock","w1":60,"now":88,"w4":96},{"axis":"Market Crash","w1":45,"now":96,"w4":92},
+    {"axis":"Nuclear Risk","w1":20,"now":82,"w4":92},{"axis":"Hormuz Closure","w1":80,"now":96,"w4":99},
+    {"axis":"Household Impact","w1":15,"now":96,"w4":99},{"axis":"Currency Crisis","w1":40,"now":90,"w4":96},
+    {"axis":"Social Unrest","w1":25,"now":62,"w4":75},{"axis":"Military Exposure","w1":35,"now":90,"w4":94}
+  ],
+  "assessment": {
+    "headline": "Day 26. Ceasefire plan on table. Markets rallying. But Iran says war until 'full compensation.' 72 hours to March 28.",
+    "body": "A month-long ceasefire plan with 15 points is now reportedly on the table. Iran is signaling softening — saying non-hostile ships can transit Hormuz. Markets surging (Sensex +3,012 in 2 days from Monday's 22-month low). Brent below $100.\n\nBut Bernstein warns: if war extends, rupee ₹98+, Nifty below 20K, double-digit inflation, GDP 2-3%. IRGC calls Trump 'deceitful.' 82nd Airborne deploying. 82,000 structures damaged.\n\nFor India: Modi-Trump call on Hormuz. FII ₹88,180 Cr outflow March. ₹44L+ Cr destroyed. Rupee near 94. LPG 10 days stock. BPCL launched LPG ATM.\n\nMarch 28 is D-Day. If 15-point plan holds = biggest relief rally ever. If it fails = power plant strikes + complete Hormuz closure + worst energy crisis since independence."
+  }
+}
