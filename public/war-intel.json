@@ -1,62 +1,66 @@
 {
-  "_updated": "March 25, 2026 — 5:00 PM IST",
-  "_day": 26,
+  "_updated": "March 26, 2026 — 9:15 AM IST",
+  "_day": 27,
   "_note": "Update this file only. App.jsx never changes.",
   "ticker": [
-    "⚡ SENSEX SURGES +1,640 (2.2%) — Nifty at 23,430. 2nd straight day of rally on de-escalation hopes",
-    "📉 BRENT below $100 — US seeking MONTH-LONG CEASEFIRE. Sent 15-POINT PLAN to Iran for discussion",
-    "🇮🇳 Modi-Trump call: 'Hormuz must stay OPEN.' India most vulnerable — 52% crude imports from ME",
-    "⚠️ Bernstein: Rupee could breach ₹98 if war extends. Bear case: Nifty below 20,000, rupee 110, double-digit inflation",
-    "🔴 Iran: 'Non-hostile ships CAN transit Hormuz' — signal of softening. But IRGC calls Trump 'deceitful'",
-    "☢️ 82,000 structures damaged in Iran. 17 Red Crescent bases hit. 94 ambulances destroyed. 1,500+ killed",
-    "🇵🇭 Philippines declares ENERGY EMERGENCY — first nation officially. EU: 'time to negotiate'",
-    "🇵🇰 Pakistan ready to HOST talks. Iran prefers Vance. 82nd Airborne (1,000+) still deploying to ME",
-    "💰 FII outflow ₹88,180 Cr March (₹1L+ Cr in 2026). Gold + silver crashing. OMCs up 3%+ on oil drop",
-    "🇮🇳 BPCL launches first LPG ATM in Gurugram. Oil cos exploring 10kg cylinders for shortage management"
+    "⚡ IRAN LISTS 5 CONDITIONS to end war: no resumption guarantee, war damage compensation, Hormuz sovereignty, sanctions relief, security assurances",
+    "🇺🇸 US sent 15-POINT PLAN to Iran via Pakistan. Includes: limit defense, stop proxies, acknowledge Israel. Islamabad talks this week",
+    "🔴 Iran military TAUNTS Trump: 'You are negotiating with YOURSELVES.' FM: US shift in tone = 'admission of failure'",
+    "🇮🇳 Iran death toll 1,750+ (IRNA). HRANA: 1,455 civilians + 217 children. Lebanon 1,094 dead. Iraq 96 dead",
+    "📉 59% Americans say war was WRONG decision (Pew). 61% disapprove Trump handling. Only 25% say it's going well",
+    "🇮🇳 Modi-Trump call: Hormuz must stay open. Israel NOT part of US-Iran talks — says war continues until Iran nuclear threat gone",
+    "⚠️ Iran will CHARGE FEE for Hormuz passage — 'absolutely' keeping toll. Kuwait airport fuel tank hit by drone",
+    "📮 USPS announces first-ever 8% FUEL SURCHARGE on packages. US gas $3.98/gal (+$1 since war). Diesel $5.37",
+    "🔴 Sensex rallied +3,000 in 2 days (Mon low 72,696 → Wed 75,700+). But FII sold ₹88,180 Cr in March",
+    "🌐 Iran wants Vance NOT Kushner for talks. White House: 'too soon to say' if satisfied with Iran's new leadership"
   ],
   "whatChanged": {
-    "label": "WHAT CHANGED — MAR 25, 5 PM IST",
+    "label": "WHAT CHANGED — MAR 26, 9:15 AM IST",
     "items": [
-      {"color": "green", "bold": "Sensex +1,640 (2.2%)", "text": " to 75,708 intraday. Nifty 23,432. 2nd straight rally. OMCs +3.4% on oil drop. Brent below $100"},
-      {"color": "cyan", "bold": "US seeking MONTH-LONG CEASEFIRE.", "text": " Sent 15-point plan to Iran. Iran: 'non-hostile ships CAN transit Hormuz' — signal of softening"},
-      {"color": "red", "bold": "Bernstein warns:", "text": " Rupee could breach ₹98/USD. Bear case: Nifty below 20,000, rupee ₹110, GDP 2-3%, double-digit inflation"},
-      {"color": "orange", "bold": "82,000 structures damaged", "text": " in Iran. 17 Red Crescent bases struck. 94 ambulances hit. FPI outflow: ₹1L+ Cr in 2026 (₹88,180 Cr in March)"},
-      {"color": "amber", "bold": "Iran IRGC: Trump is 'deceitful.'", "text": " Military adviser: war until 'full compensation.' 82nd Airborne still deploying despite pause"},
-      {"color": "purple", "bold": "Philippines energy emergency.", "text": " Pakistan ready to host. Modi-Trump call. Gold crashing. AWS data centres hit in UAE/Bahrain"}
+      {"color": "cyan", "bold": "Iran lists 5 CONDITIONS:", "text": " No resumption guarantee, war damage compensation, Hormuz sovereignty, sanctions relief, security assurances. US sent 15-point plan via Pakistan"},
+      {"color": "red", "bold": "Iran military taunts Trump:", "text": " 'Negotiating with yourselves.' FM Araghchi: shift in US tone = 'admission of failure.' Acknowledges indirect 'exchange of messages' but denies negotiations"},
+      {"color": "red", "bold": "Death toll rising:", "text": " Iran 1,750+ killed (IRNA). HRANA: 1,455 civilians + 217 children + 1,167 military. Lebanon 1,094. Iraq 96. Israel 18. US 15. Gulf 22+"},
+      {"color": "orange", "bold": "Israel NOT in US-Iran talks.", "text": " Ambassador Danon: military ops continue until Iran nuclear + missile capability eliminated. Israel fears US may declare month-long ceasefire"},
+      {"color": "amber", "bold": "Kuwait airport fuel tank hit by drone.", "text": " Saudi intercepted missiles over Eastern Province (Ras Tanura/Ghawar/Abqaiq). 2,000 ships + 20,000 seafarers stranded. Iran will charge Hormuz toll"},
+      {"color": "purple", "bold": "59% Americans say war was WRONG", "text": " (Pew). USPS first-ever fuel surcharge. US gas +$1/gal. 30% of global fertilizer raw materials transit Hormuz — food prices surging worldwide"}
     ]
   },
-  "deaths": "3,800+",
-  "deathsSub": "1,500+ Iran, 1,039 Lebanon, 60 Iraq, 17 Israel",
+  "deaths": "4,000+",
+  "deathsSub": "1,750+ Iran (217 kids), 1,094 Lebanon, 96 Iraq, 18 Israel, 15 US",
   "econ": {
-    "sensex": "75,708", "sensexDelta": "▲ +1,640", "sensexSub": "2-day rally +3,012 from Mon low",
-    "vix": "26.73", "vixDelta": "▲ extreme fear",
+    "sensex": "75,700+", "sensexDelta": "▲ rallying Wed", "sensexSub": "3-day rally from 72,696 Mon low",
+    "vix": "26.73", "vixDelta": "▲ elevated",
     "fpi": "$10.5B+", "fpiDelta": "₹88,180 Cr MTD",
     "wealth": "₹44L+ Cr",
-    "analysis": "WEEK 4 STATUS: Ceasefire plan on table — US sent 15-point plan and seeking month-long ceasefire. Brent below $100. Sensex surging +1,640. BUT Bernstein warns: rupee could breach ₹98, Nifty below 20K, double-digit inflation. FII outflow ₹88,180 Cr March (₹1L+ Cr in 2026)."
+    "analysis": "WEEK 4 DAY 27: Mixed signals dominate. US sent 15-point plan to Iran via Pakistan. Iran lists 5 counter-conditions. Sensex rallied +3,000 in 2 days from Mon low. But Iran taunts Trump, Israel says it's NOT part of talks, 82nd Airborne deploying. FII outflow ₹88,180 Cr March. 59% Americans say war was wrong. USPS adds first-ever fuel surcharge. Kuwait airport hit. March 28 deadline looms."
   },
   "hormuzLatest": [
-    {"d": "Mar 24", "e": "Modi-Trump call: Hormuz must stay open. Pakistan ready to host talks. Iran: willing to listen. 82nd Airborne deploying"},
-    {"d": "Mar 25", "e": "US seeking month-long ceasefire + 15-point plan. Iran: non-hostile ships CAN transit. Brent below $100. Bernstein: rupee could hit 98"}
+    {"d": "Mar 25", "e": "Kuwait airport fuel tank hit by drone. Saudi intercepts over Eastern Province. Iran FM: will 'absolutely' charge toll for Hormuz passage"},
+    {"d": "Mar 26", "e": "Day 27. Iran lists 5 conditions. US 15-point plan via Pakistan. Islamabad talks this week. 2,000 ships + 20K seafarers stranded. March 28 deadline"}
   ],
   "milTop": [
-    {"t": "🇮🇳 MODI-TRUMP CALL ON HORMUZ (Mar 24)", "lv": "DEVELOPING", "color": "cyan", "d": "PM Modi spoke with Trump. 'Hormuz must remain open, secure and accessible.' India hit hard by soaring energy prices."},
-    {"t": "🟡 VANCE + RUBIO Leading Talks (Mar 24)", "lv": "DEVELOPING", "color": "amber", "d": "Iran prefers Vance over Kushner. Source: 'willing to listen to sustainable deal.' But military adviser says war until 'full compensation.' 82nd Airborne deploying."},
-    {"t": "🟡 PAKISTAN MEDIATING", "lv": "DEVELOPING", "color": "amber", "d": "Pakistan ready to host. In-person meeting possible 'in coming days.' Iran: 'received US points via mediators — being reviewed.'"}
+    {"t": "🔴 Iran Lists 5 CONDITIONS — US Sent 15-Point Plan (Mar 25-26)", "lv": "BREAKING", "color": "red", "d": "Iran's 5 demands: no resumption guarantee, war damage compensation, Hormuz sovereignty, sanctions relief, security assurances. US 15-point plan (via Pakistan): limit defense, stop proxies, acknowledge Israel. Islamabad talks floated this week. FM Araghchi acknowledges indirect 'exchange of messages' but denies formal negotiations."},
+    {"t": "🔴 Iran Military Taunts: 'Negotiating With Yourselves'", "lv": "BREAKING", "color": "red", "d": "Iran's military spokesman Zolfaghari mocked US: 'You are negotiating with yourselves.' FM says US shift in tone = admission of failure. Israel says it's NOT part of talks and ops continue. White House: 'too soon to say' if satisfied with Iran's new leadership. 82nd Airborne (1,000+) still deploying."},
+    {"t": "🇮🇳 MODI-TRUMP CALL ON HORMUZ (Mar 24)", "lv": "DEVELOPING", "color": "cyan", "d": "PM Modi spoke with Trump. 'Hormuz must remain open, secure and accessible.' India hit hard by soaring energy prices. 59% Americans oppose the war."}
   ],
   "tlLatest": [
-    {"d": 25, "l": "Mar 24", "deaths": 3800, "brent": 99, "nifty": 22912, "rupee": 93.88, "tag": "Sensex +1,372. Brent $99. Pakistan mediating. Modi-Trump call.", "sev": 1},
-    {"d": 26, "l": "Mar 25", "deaths": 3800, "brent": 100, "nifty": 23430, "rupee": 93.88, "tag": "Sensex +1,640. 15-point ceasefire plan. Iran softening. Philippines emergency.", "sev": 2}
+    {"d": 26, "l": "Mar 25", "deaths": 3900, "brent": 100, "nifty": 23430, "rupee": 93.88, "tag": "Sensex +1,640 (75,700). Iran taunts Trump. Kuwait airport hit. 15-point plan via Pakistan. Iran lists 5 conditions", "sev": 2},
+    {"d": 27, "l": "Mar 26", "deaths": 4000, "brent": 100, "nifty": 23430, "rupee": 93.88, "tag": "Day 27. Iran: 1,750+ dead. Lebanon 1,094. 59% US oppose war. USPS fuel surcharge. March 28 deadline = 2 days", "sev": 2}
   ],
-  "projNow": {"brent": 100, "rupee": 93.88, "lpg": 913, "petrol": 94.77, "deaths": 3800},
-  "scenarios": {"brent": [65,100,110,125,145], "rupee": [91.0,93.88,95.5,97.0,100.0], "deaths": [0,"3,800+","6,000","10,000","24,000"]},
+  "projNow": {"brent": 100, "rupee": 93.88, "lpg": 913, "petrol": 94.77, "deaths": 4000},
+  "scenarios": {"brent": [65, 100, 108, 120, 140], "rupee": [91.0, 93.88, 95.5, 97.0, 100.0], "deaths": [0, "4,000+", "6,000", "10,000", "24,000"]},
   "radar": [
-    {"axis":"Oil Shock","w1":60,"now":88,"w4":96},{"axis":"Market Crash","w1":45,"now":96,"w4":92},
-    {"axis":"Nuclear Risk","w1":20,"now":82,"w4":92},{"axis":"Hormuz Closure","w1":80,"now":96,"w4":99},
-    {"axis":"Household Impact","w1":15,"now":96,"w4":99},{"axis":"Currency Crisis","w1":40,"now":90,"w4":96},
-    {"axis":"Social Unrest","w1":25,"now":62,"w4":75},{"axis":"Military Exposure","w1":35,"now":90,"w4":94}
+    {"axis": "Oil Shock", "w1": 60, "now": 85, "w4": 95},
+    {"axis": "Market Crash", "w1": 45, "now": 88, "w4": 90},
+    {"axis": "Nuclear Risk", "w1": 20, "now": 80, "w4": 90},
+    {"axis": "Hormuz Closure", "w1": 80, "now": 94, "w4": 98},
+    {"axis": "Household Impact", "w1": 15, "now": 95, "w4": 99},
+    {"axis": "Currency Crisis", "w1": 40, "now": 88, "w4": 95},
+    {"axis": "Social Unrest", "w1": 25, "now": 65, "w4": 78},
+    {"axis": "Military Exposure", "w1": 35, "now": 90, "w4": 94}
   ],
   "assessment": {
-    "headline": "Day 26. Ceasefire plan on table. Markets rallying. But Iran says war until 'full compensation.' 72 hours to March 28.",
-    "body": "A month-long ceasefire plan with 15 points is now reportedly on the table. Iran is signaling softening — saying non-hostile ships can transit Hormuz. Markets surging (Sensex +3,012 in 2 days from Monday's 22-month low). Brent below $100.\n\nBut Bernstein warns: if war extends, rupee ₹98+, Nifty below 20K, double-digit inflation, GDP 2-3%. IRGC calls Trump 'deceitful.' 82nd Airborne deploying. 82,000 structures damaged.\n\nFor India: Modi-Trump call on Hormuz. FII ₹88,180 Cr outflow March. ₹44L+ Cr destroyed. Rupee near 94. LPG 10 days stock. BPCL launched LPG ATM.\n\nMarch 28 is D-Day. If 15-point plan holds = biggest relief rally ever. If it fails = power plant strikes + complete Hormuz closure + worst energy crisis since independence."
+    "headline": "Day 27. Dueling demands on the table. Iran lists 5 conditions vs US 15-point plan. March 28 = 2 days away.",
+    "body": "The negotiation landscape is crystallizing. Iran has listed 5 conditions: no-resumption guarantee, war damage compensation, Hormuz sovereignty, sanctions relief, and security assurances. The US sent a 15-point plan via Pakistan demanding: defense limits, stop proxy support, acknowledge Israel. These positions are miles apart but the fact that both sides have put demands on paper is significant.\n\nIran's military is openly taunting Trump — 'negotiating with yourselves' — while FM Araghchi acknowledges indirect message exchange. Israel says it's NOT part of talks and will continue ops until nuclear threat eliminated. The 82nd Airborne is still deploying. 59% of Americans say the war was the wrong decision.\n\nFor India: Modi's Hormuz call with Trump was a direct intervention. Sensex rallied +3,000 in 2 days but FII outflow is ₹88,180 Cr in March. Rupee near 94. USPS added a fuel surcharge — global supply chain costs rising. Kuwait airport was hit by drone. Iran says it will 'absolutely' charge a toll for Hormuz passage even after the war.\n\nMarch 28 is 2 days away. If the 5-day pause produces nothing, power plant strikes resume and Iran will mine the entire Gulf. The window is narrow and closing."
   }
 }
