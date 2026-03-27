@@ -1,76 +1,76 @@
 {
-  "_updated": "March 27, 2026 — 10:00 AM IST",
+  "_updated": "March 27, 2026 — 6:30 PM IST",
   "_day": 28,
   "_note": "Update this file only. App.jsx never changes.",
   "ticker": [
-    "⚡ TRUMP EXTENDS PAUSE 10 MORE DAYS — new deadline APRIL 6. Claims talks 'going very well.' Iran: proposal 'one-sided and unfair'",
-    "🚢 8 PAKISTANI-FLAGGED TANKERS transit Hormuz — Trump: 'a present to prove they're serious.' Pre-war: 130 ships/day → now 6 or fewer",
-    "🔴 IRGC Navy chief Tangsiri KILLED (confirmed). Israel speed-running strikes in 48hrs before potential ceasefire",
-    "🇷🇺 RUSSIA providing intelligence + drones to Iran (EU diplomat, UK intel). Kremlin denies. EU: 'Russia helps kill Americans'",
-    "🇮🇷 Iran parliament FORMALIZING Hormuz fees into LAW — permanent toll even after war. Lloyd's: 2 vessels already paid large sums",
-    "⚠️ US hit 2/3 of Iran's missile + drone PRODUCTION facilities. 3,000 paratroopers (82nd Airborne) deploying. Trump weighs Kharg Island seizure",
-    "🇮🇳 Iran internet blackout DAY 27 — connectivity at 1%. 50,000 Starlink terminals smuggled in. OECD: global inflation +1.2% from war",
-    "📉 Brent ~$100. OECD: US inflation now 4.2% (was 3%). UK +1.5%. Israel's IDF chief warns of SEVERE manpower strain",
-    "🌐 Germany SLAMS US over war. G7 foreign ministers meet in France. Rubio: 'Ukraine is not America's war' to NATO allies",
-    "🇮🇳 Indian tanker captain (27yr exp) granted safe passage — warns 'conditions depend on too many parties.' 20,000 seafarers stranded"
+    "📉 SENSEX CRASHES -1,690 pts (-2.25%) to 73,583. Nifty 22,820. Rupee hits FRESH ATL 94.56. 2-day rally WIPED",
+    "⚡ TRUMP EXTENDS PAUSE TO APRIL 6 (+10 days). 'As per Iranian Government request.' But warns: 'get serious or it won't be pretty'",
+    "🔴 Iran 1,900+ KILLED — Red Crescent. 20,000 injured. 'Tehran feels completely EMPTY.' Qom struck — 6 dead",
+    "🚢 8 Pakistani-flagged tankers crossed Hormuz — Trump: 'a present.' Pre-war 130/day → now ≤6. Iran formalizing TOLL FEES into law",
+    "🇷🇺 RUSSIA providing intelligence + drones to Iran — EU accuses Moscow. UK: 'hidden hand of Putin.' Kremlin denies",
+    "⚔️ Israel SPEED-RUNNING strikes — bombed 'most central' naval arms site + ballistic missile factories in Isfahan. IDF chief: severe manpower strain",
+    "🇮🇳 India CUTS EXCISE DUTY on petrol ₹3, diesel ₹0 — first relief measure. Rupee crashed to 94.56. Petrol now ~₹91.77 Delhi",
+    "⚠️ FAKE AI VIDEOS triggering economic panic amid war — experts warn of 'digital warfare' dimension",
+    "🌐 Iran: US proposal is 'one-sided and unfair.' Has RESPONDED via intermediaries — awaiting US reply. Pakistan confirms facilitating indirect talks",
+    "📊 US weighing 10,000 MORE ground troops to ME + Kharg Island seizure. UAE says will join Hormuz force. OECD: global inflation +1.2%"
   ],
   "whatChanged": {
-    "label": "WHAT CHANGED — MAR 27, 10 AM IST",
+    "label": "WHAT CHANGED — MAR 27, 6:30 PM IST",
     "items": [
-      {"color": "green", "bold": "Trump EXTENDS PAUSE to April 6", "text": " (+10 days). 'As per Iranian Government request.' But Trump warns: 'get serious before it is too late — it won't be pretty.' Iran: US proposal is 'one-sided and unfair'"},
-      {"color": "cyan", "bold": "8 Pakistani-flagged tankers transit Hormuz", "text": " — Trump calls it 'a present.' Pre-war: 130 ships/day → now 6 or fewer with Iranian coordination. Parliament formalizing Hormuz toll fees into LAW"},
-      {"color": "red", "bold": "Russia providing intelligence + drones to Iran", "text": " (EU's Kallas, UK intel). Used to 'target and kill Americans.' Kremlin denies. Israel speed-running strikes in 48hrs before potential ceasefire"},
-      {"color": "red", "bold": "US destroyed 2/3 of Iran's missile/drone production.", "text": " 3,000 paratroopers deploying. Trump weighing Kharg Island seizure (90% of Iran oil exports). Iran ground forces: 'every inch protected'"},
-      {"color": "orange", "bold": "OECD: global inflation +1.2%", "text": " from war (US 4.2%, UK +1.5%). Germany slams US. G7 meets in France. Rubio tells NATO: 'Ukraine is not America's war.' IDF chief warns severe manpower strain"},
-      {"color": "purple", "bold": "Iran internet blackout Day 27 — 1% connectivity.", "text": " 50K Starlink terminals smuggled. Iran death toll 1,750+. Lebanon 1,116 killed (121 children). Iraq 96. Worst trade rupture in 80 years (Al Jazeera)"}
+      {"color": "red", "bold": "Sensex CRASHES -1,690 (-2.25%)", "text": " to 73,583. Nifty 22,820. Rupee hit FRESH ATL 94.56. 2-day rally completely wiped. PSU banks + auto worst hit. FIIs remain net sellers"},
+      {"color": "green", "bold": "India CUTS excise duty on petrol ₹3.", "text": " First relief measure since war began. Delhi petrol now ~₹91.77. Diesel unchanged. Government absorbing losses as Brent stays ~$107"},
+      {"color": "red", "bold": "Iran deaths: 1,900+ killed, 20,000 injured", "text": " (Red Crescent). 'Tehran feels completely empty.' Qom struck — 6 dead. Israel bombed 'most central' naval arms production + ballistic missile factories"},
+      {"color": "cyan", "bold": "Trump extends pause to April 6 (+10 days).", "text": " Iran responded to 15-point plan via intermediaries — awaiting US reply. Pakistan confirms facilitating indirect talks. Turkey + Egypt also supporting"},
+      {"color": "orange", "bold": "8 Pakistani-flagged tankers crossed Hormuz.", "text": " Pre-war: 130 ships/day → now ≤6. Iran parliament formalizing Hormuz toll fees into law. Lloyd's: 2 vessels paid large sums. GCC: 'all red lines crossed'"},
+      {"color": "purple", "bold": "Russia arming Iran (EU, UK intel).", "text": " Fake AI videos triggering panic. US weighing 10,000 more troops + Kharg Island seizure. Iran internet blackout Day 28 — 1% connectivity"}
     ]
   },
-  "deaths": "4,200+",
-  "deathsSub": "1,750+ Iran (217 kids), 1,116 Lebanon (121 kids), 96 Iraq, 18 Israel, 15 US",
+  "deaths": "4,300+",
+  "deathsSub": "1,900+ Iran (217 kids), 1,116 Lebanon (121 kids), 96 Iraq, 18 Israel, 15 US",
   "econ": {
-    "sensex": "75,700+", "sensexDelta": "▲ 3-day rally", "sensexSub": "+3,000 from Mon low 72,696",
-    "vix": "26.73", "vixDelta": "elevated",
+    "sensex": "73,583", "sensexDelta": "▼ -1,690 (-2.25%)", "sensexSub": "2-day rally wiped. ATL zone",
+    "vix": "25.78", "vixDelta": "▲ elevated fear",
     "fpi": "$10.5B+", "fpiDelta": "₹88,180 Cr MTD",
     "wealth": "₹44L+ Cr",
-    "analysis": "DAY 28: Trump extended pause to April 6 — markets relieved but cautious. Brent ~$100. 8 tankers crossed Hormuz. BUT Israel speed-running strikes before ceasefire, Russia arming Iran, US destroyed 2/3 of Iran production capacity, 3,000 more troops deploying. OECD raised global inflation forecast +1.2%. FII outflow ₹88,180 Cr March. Worst trade rupture in 80 years."
+    "analysis": "DAY 28: Whiplash continues. Mon crash (-1,837) → Tue-Wed rally (+2,577) → Thu holiday → Fri crash (-1,690). Rupee hit fresh ATL 94.56. India CUT excise duty on petrol by ₹3 — first relief measure. Brent volatile $95-$107. Iran responded to US 15-point plan — awaiting reply. But Iran says proposal 'one-sided.' Israel speed-running strikes. US weighing 10K more troops. OECD: inflation +1.2% globally."
   },
   "hormuzLatest": [
-    {"d": "Mar 27", "e": "TRUMP EXTENDS PAUSE TO APRIL 6 (+10 days). 8 Pakistani-flagged tankers transit — Trump: 'a present.' Pre-war 130/day → now ≤6. Parliament formalizing Hormuz toll fees into law. Lloyd's: 2 vessels already paid. Indian captain granted passage — warns 'too many parties involved.' 2,000 ships + 20K seafarers stranded. Iran FM told hotels to deny bookings to US military. GCC: Iran 'crossed all red lines'"}
+    {"d": "Mar 27", "e": "TRUMP EXTENDS PAUSE TO APRIL 6. 8 Pakistani-flagged tankers transit (Trump: 'a present'). Pre-war 130/day → now ≤6 with Iranian coordination. Parliament formalizing toll fees into law. Lloyd's: 2 vessels paid large sums. Indian tanker captain granted passage — warns 'too many parties.' IRGC Navy chief Tangsiri (blockade architect) killed. 2,000 ships + 20K seafarers stranded. 12+ Maham 3/7 mines. Iran: 'non-hostile' ships may pass after coordination. Iran FM told Gulf hotels to deny US military bookings. UAE says will join Hormuz force."}
   ],
   "hormuzVessels": {
     "preWarDaily": "~130 ships/day",
     "currentDaily": "≤6 ships/day (with Iranian coordination)",
     "recentTransits": [
-      {"date": "Mar 27", "vessel": "8 Pakistani-flagged oil tankers", "note": "Trump: 'a present to prove seriousness.' Flagged Pakistani."},
+      {"date": "Mar 27", "vessel": "8 Pakistani-flagged oil tankers", "note": "Trump: 'a present to prove seriousness.' Bulk transit — first since war."},
+      {"date": "Mar 23", "vessel": "2 unnamed vessels", "note": "Lloyd's: paid 'large sums' to Iran for safe passage."},
       {"date": "Mar 16", "vessel": "Aframax Karachi (tanker)", "note": "Transited with AIS on — rare since war began."},
-      {"date": "Mar 15-16", "vessel": "Shivalik + Nanda Devi (Indian LPG tankers)", "note": "Crossed under Indian Navy escort. Covered only 5% of monthly need."},
-      {"date": "Mar 23", "vessel": "2 unnamed vessels", "note": "Lloyd's: paid 'large sums' to Iran for safe passage."}
+      {"date": "Mar 15-16", "vessel": "Shivalik + Nanda Devi (Indian LPG)", "note": "Indian Navy escort. Covered only 5% monthly need."}
     ],
-    "blockadeStatus": "Iran controls passage. 'Non-hostile' ships may transit after 'coordination with Iranian authorities.' Parliament drafting law to formalize toll fees permanently. 12+ underwater mines (Maham 3 & Maham 7 Limpet) confirmed by US intel. Iran threatened to mine ENTIRE Gulf if power plants attacked.",
-    "keyFigure": "IRGC Navy chief Tangsiri — architect of blockade — KILLED by Israel (Mar 26)."
+    "blockadeStatus": "Iran controls passage. 'Non-hostile' ships may transit after coordination. Parliament drafting law to formalize toll fees permanently. 12+ underwater mines (Maham 3 & Maham 7 Limpet). IRGC Navy chief Tangsiri killed but systems remain. Iran threatened to mine ENTIRE Gulf if power plants attacked. GCC: Iran 'crossed all red lines.'",
+    "keyFigure": "IRGC Navy chief Tangsiri — architect of blockade — KILLED by Israel (Mar 26). But blockade infrastructure intact."
   },
   "milTop": [
-    {"t": "🟢 TRUMP EXTENDS PAUSE TO APRIL 6 (+10 Days)", "lv": "BREAKING", "color": "green", "d": "'As per Iranian Government request' — pausing energy plant strikes until April 6, 8 PM ET. Claims talks going 'very well.' But warns Iran to 'get serious before it is too late — it won't be pretty.' Iran calls US proposal 'one-sided and unfair.' Pakistan FM confirms facilitating 'indirect talks' between US and Iran."},
-    {"t": "🔴 RUSSIA Arming Iran — EU Accuses Moscow", "lv": "BREAKING", "color": "red", "d": "EU diplomat Kallas: Russia providing intelligence + drones to Iran, used to 'target and kill Americans.' UK intel confirms 'hidden hand of Putin.' Financial Times: Russia close to completing drone + medicine + food shipments to Iran. Kremlin denies. This makes the war a US-Israel vs Iran-Russia proxy conflict."},
-    {"t": "🔴 Israel SPEED-RUNNING Strikes Before Ceasefire", "lv": "BREAKING", "color": "red", "d": "Two Israeli military officials told NPR: Israel wants 'several more weeks of war.' Speeding up targeting in next 48 hours — focusing on arms factories before potential ceasefire. Launched 'wave of extensive strikes' on Isfahan. IDF chief warns of 'severe manpower strain.' Israeli soldier killed in Lebanon."}
+    {"t": "📉 SENSEX CRASHES -1,690 — Rupee 94.56 ATL (Mar 27)", "lv": "BREAKING", "color": "red", "d": "2-day rally wiped. PSU banks + auto worst hit. Rupee breached 94.50 for first time — hit 94.56. India cut excise duty on petrol by ₹3 (first relief). Brent ~$107. FIIs net sellers again. Market whipsaw: Mon -1,837 → Tue-Wed +2,577 → Fri -1,690."},
+    {"t": "🟢 TRUMP EXTENDS PAUSE TO APRIL 6 (+10 Days)", "lv": "BREAKING", "color": "green", "d": "'As per Iranian Government request.' Iran responded to 15-point plan via intermediaries — awaiting US reply. Pakistan FM confirms facilitating 'indirect talks.' Turkey + Egypt also supporting. But Trump warns: 'get serious before it is too late — it won't be pretty.'"},
+    {"t": "🔴 Israel SPEED-RUNNING — Bombed 'Most Central' Naval Arms Site", "lv": "BREAKING", "color": "red", "d": "IDF struck dozens of targets in Tehran + Isfahan: ballistic missile factories, IRGC weapons storage, air defense systems. Bombed Iran's 'most central' naval arms production site. IDF chief warns of severe manpower strain. Two Israeli officials: want 'several more weeks of war' — racing before ceasefire."}
   ],
   "tlLatest": [
-    {"d": 28, "l": "Mar 27", "deaths": 4200, "brent": 100, "nifty": 23430, "rupee": 93.88, "tag": "Trump extends to Apr 6. 8 tankers cross Hormuz. Russia arming Iran. Israel speed-running strikes. OECD: inflation +1.2%. Internet blackout Day 27", "sev": 2}
+    {"d": 28, "l": "Mar 27", "deaths": 4300, "brent": 107, "nifty": 22820, "rupee": 94.56, "tag": "Sensex -1,690. Rupee 94.56 ATL. India cuts excise. Trump extends to Apr 6. Iran 1,900+ dead. Israel speed-running. 8 tankers cross Hormuz", "sev": 3}
   ],
-  "projNow": {"brent": 100, "rupee": 93.88, "lpg": 913, "petrol": 94.77, "deaths": 4200},
-  "scenarios": {"brent": [65, 100, 108, 120, 140], "rupee": [91.0, 93.88, 95.5, 97.0, 100.0], "deaths": [0, "4,200+", "7,000", "12,000", "28,000"]},
+  "projNow": {"brent": 107, "rupee": 94.56, "lpg": 913, "petrol": 91.77, "deaths": 4300},
+  "scenarios": {"brent": [65, 107, 112, 125, 145], "rupee": [91.0, 94.56, 96.0, 98.0, 110.0], "deaths": [0, "4,300+", "7,500", "13,000", "30,000"]},
   "radar": [
-    {"axis": "Oil Shock", "w1": 60, "now": 80, "w4": 92},
-    {"axis": "Market Crash", "w1": 45, "now": 82, "w4": 86},
+    {"axis": "Oil Shock", "w1": 60, "now": 86, "w4": 94},
+    {"axis": "Market Crash", "w1": 45, "now": 92, "w4": 90},
     {"axis": "Nuclear Risk", "w1": 20, "now": 78, "w4": 88},
     {"axis": "Hormuz Closure", "w1": 80, "now": 90, "w4": 96},
-    {"axis": "Household Impact", "w1": 15, "now": 93, "w4": 98},
-    {"axis": "Currency Crisis", "w1": 40, "now": 85, "w4": 92},
-    {"axis": "Social Unrest", "w1": 25, "now": 70, "w4": 82},
-    {"axis": "Military Exposure", "w1": 35, "now": 93, "w4": 96}
+    {"axis": "Household Impact", "w1": 15, "now": 94, "w4": 98},
+    {"axis": "Currency Crisis", "w1": 40, "now": 92, "w4": 96},
+    {"axis": "Social Unrest", "w1": 25, "now": 72, "w4": 84},
+    {"axis": "Military Exposure", "w1": 35, "now": 94, "w4": 96}
   ],
   "assessment": {
-    "headline": "Day 28. Trump extends to April 6. 8 tankers cross Hormuz. But Russia is arming Iran and Israel is speed-running strikes.",
-    "body": "The extension to April 6 buys time but solves nothing. Iran calls the US proposal 'one-sided and unfair.' 8 Pakistani-flagged tankers crossing Hormuz is a positive signal — but pre-war was 130 ships/day. Iran's parliament is formalizing Hormuz toll fees into permanent law. The blockade architect (IRGC Navy chief Tangsiri) was killed but the mines and systems remain.\n\nThe proxy dimension is now explicit: EU accused Russia of providing intelligence and drones used to 'kill Americans.' Israel is racing to destroy as many arms factories as possible in 48 hours before a potential ceasefire — suggesting they believe a pause is imminent but want to maximize damage first. The US has destroyed 2/3 of Iran's missile and drone production.\n\nFor India: An Indian tanker captain was granted Hormuz passage but warned 'conditions depend on too many parties.' OECD raised global inflation forecast by 1.2% because of the war. FII outflow ₹88,180 Cr in March. ₹44L+ Cr destroyed. The April 6 deadline gives India more breathing room but the fundamental crisis remains — LPG 10 days stock, petrol frozen, OMCs bleeding, Hormuz effectively closed.\n\nThe best-case scenario: Pakistan-mediated talks produce a framework by April 6. Oil drops to $80. Sensex rallies 10%+. The worst case: talks fail, power plant strikes begin April 7, Iran mines the Gulf, and India faces the worst energy crisis in its history."
+    "headline": "Day 28. Sensex crashes again. Rupee 94.56 ATL. India cuts excise. But Trump extends to April 6 — a window.",
+    "body": "The market whipsaw tells the story: Monday crash (-1,837 to 22-month low) → Tuesday-Wednesday rally (+2,577 on pause hopes) → Thursday holiday → Friday crash (-1,690 as Iran called US plan 'one-sided'). Rupee hit a fresh all-time low of 94.56. India took its first concrete action: cutting excise duty on petrol by ₹3.\n\nTrump's extension to April 6 buys 10 more days. Iran has responded to the US 15-point plan via intermediaries and is awaiting Washington's reply. Pakistan is confirmed as mediator. But Israel is speed-running strikes — bombing Iran's 'most central' naval arms production and ballistic missile factories, racing to maximize damage before a potential ceasefire. Russia is arming Iran with intelligence and drones.\n\nFor India: Rupee at 94.56, Sensex at 73,583, Nifty at 22,820. FII outflow ₹88,180 Cr in March. ₹44L+ Cr destroyed. The excise cut on petrol is symbolic relief — the real crisis is LPG (10 days stock), gas supply (Qatar force majeure), and Hormuz (only 6 ships/day vs 130 pre-war). 8 Pakistani tankers crossing is positive but India's specific supply remains critical.\n\nApril 6 is the next D-Day. If Pakistan-mediated talks produce a framework: massive relief rally, oil drops to $80+, rupee recovers. If not: power plant strikes resume, Hormuz closes completely, and India faces an existential energy crisis."
   }
 }
