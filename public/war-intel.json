@@ -1,76 +1,76 @@
 {
-  "_updated": "March 28, 2026 — 11:30 AM IST",
+  "_updated": "March 28, 2026 — 6:00 PM IST",
   "_day": 29,
   "_note": "Update this file only. App.jsx never changes.",
   "ticker": [
-    "⚡ YEMEN HOUTHIS JOIN WAR — fired ballistic missile at southern Israel. First Houthi attack since Oct 2025 ceasefire",
-    "🔴 10 US troops INJURED at Prince Sultan Air Base (Saudi). Refueling aircraft damaged. 300+ US service members wounded in war total",
-    "📉 BRENT SPIKES BACK TO $110 (+3%) — Wall Street had WORST DAY of the war. Oil rally despite Trump's 10-day extension",
-    "🔴 1 person KILLED in Tel Aviv by Iranian missile (52-yr-old). Multiple impact sites across central Israel overnight",
-    "⚠️ Iran TURNED BACK 3 SHIPS from Hormuz — route closed to vessels going to/from 'enemy' ports. Safe passage NOT guaranteed",
-    "🇮🇳 India markets CLOSED today (Saturday). Rupee at 94.56 ATL. Sensex crashed -1,690 Friday. Opens Mon into chaos",
-    "⚔️ Israel strikes 'HEART OF TEHRAN' — IDF bombed Iran's most central naval arms production + ballistic missile sites in Isfahan",
-    "🇺🇸 US can only confirm 1/3 of Iran arsenal destroyed — NOT 2/3 as claimed. 300+ US troops wounded. Vance clashed with Netanyahu over regime change",
-    "☢️ Iran: 120 HISTORICAL SITES damaged. 1,900+ killed. 20,000 injured. Red Crescent: 'Tehran feels completely empty'",
-    "🌐 Trump joked: 'Strait of TRUMP — I mean Hormuz.' Israel says attacks will 'INTENSIFY AND EXPAND.' UN demands school strike probe"
+    "⚡ YEMEN HOUTHIS JOIN WAR — fired at southern Israel. War now spans 7+ countries across Middle East + Indian Ocean",
+    "🇮🇳 India SLASHES excise duty ₹10/L on petrol+diesel — 'HUGE HIT' to tax revenue. Govt likens crisis to COVID-level event",
+    "📉 RUPEE crashes to 94.79 ALL-TIME LOW. RBI deployed $12-15 BILLION from forex reserves to defend currency. FX reserves -$19B in 2 weeks",
+    "🔴 10 US troops INJURED at Saudi air base. 300+ total wounded. 1 killed Tel Aviv. Brent BACK TO $110. Wall St worst day of war",
+    "🇮🇳 91% of India's LPG from Gulf — supply CHOKED. 75% of food service depends on LPG. Industry losing ₹1,200-1,300 Cr/DAY",
+    "⚠️ Macquarie: 40% probability of $200 OIL. Indian crude basket at $125/barrel. Every $10 rise = ₹15,000 Cr extra import bill/year",
+    "🚢 Iran TURNED BACK 3 ships from Hormuz despite earlier allowing 8 Pakistani tankers. 'Safe passage CANNOT be guaranteed'",
+    "📉 Sensex -1,690 (Fri) to 73,583. Market fell 5th straight week. ₹44L+ Cr destroyed. FII outflow $11 BILLION in March",
+    "🇮🇳 Pakistan emerges as mediator — India ABSENT from diplomatic channels. CSMonitor: 'India is biggest loser in war it isn't even fighting'",
+    "☢️ Iran 1,900+ killed, 20,000 injured. 120 historical sites damaged. Red Crescent: 'Tehran feels completely empty'"
   ],
   "whatChanged": {
-    "label": "WHAT CHANGED — MAR 28, 11:30 AM IST (SAT)",
+    "label": "WHAT CHANGED — MAR 28, 6 PM IST",
     "items": [
-      {"color": "red", "bold": "YEMEN HOUTHIS JOIN WAR", "text": " — fired ballistic missile at southern Israel (Beersheba). First attack since Oct 2025 ceasefire. War now spans Iran, Israel, Lebanon, Iraq, Yemen, Gulf states + Indian Ocean"},
-      {"color": "red", "bold": "10 US troops injured at Saudi air base.", "text": " Refueling aircraft damaged at Prince Sultan Air Base. 300+ US service members wounded total in war. 1 killed in Tel Aviv by Iranian missile. Multiple impacts overnight"},
-      {"color": "red", "bold": "Brent SPIKES BACK to $110 (+3%).", "text": " Wall Street worst day of war. Trump's 10-day extension failed to calm markets. Iran TURNED BACK 3 ships from Hormuz — 'safe passage cannot be guaranteed'"},
-      {"color": "orange", "bold": "Israel: attacks will 'INTENSIFY AND EXPAND.'", "text": " IDF struck 'heart of Tehran.' Bombed most central naval arms site + Isfahan factories. US can only confirm 1/3 of Iran arsenal destroyed (not 2/3 as claimed)"},
-      {"color": "cyan", "bold": "Vance clashed with Netanyahu", "text": " over regime change expectations. Trump joked: 'Strait of Trump — I mean Hormuz.' UN demands probe into school strike (165+ killed). Iran: 120 historical sites damaged"},
-      {"color": "purple", "bold": "India markets CLOSED (Sat).", "text": " Rupee 94.56 ATL. Sensex at 73,583. Opens Monday into Houthi escalation + Brent $110 + US troops wounded. India excise cut ₹3 on petrol — symbolic only"}
+      {"color": "red", "bold": "HOUTHIS JOIN WAR.", "text": " Fired at Beersheba. India excise cut ₹10/L on petrol+diesel — 'huge hit' to revenue. Govt likens crisis to COVID. RBI deployed $12-15B to defend rupee"},
+      {"color": "red", "bold": "Rupee crashes to 94.79 ATL.", "text": " Sensex at 73,583. Market fell 5th straight week. FII outflow $11B in March. Forex reserves -$19B in 2 weeks. Indian basket at $125/barrel"},
+      {"color": "red", "bold": "10 US troops hurt at Saudi base.", "text": " 300+ total wounded. 1 killed in Tel Aviv. Brent $110. Wall St worst day. Iran turned back 3 ships from Hormuz. Safe passage NOT guaranteed"},
+      {"color": "orange", "bold": "91% of India's LPG from Gulf.", "text": " CHOKED. 75% food service depends on LPG = ₹1,200-1,300 Cr/day losses. Macquarie: 40% chance of $200 oil. Only 25 days domestic stock"},
+      {"color": "cyan", "bold": "Pakistan as mediator — India ABSENT.", "text": " CSMonitor: 'India is biggest loser in war it isn't even fighting.' Opposition accuses Modi of 'weakening India's neutrality.' EPW: 'strategic autonomy squandered'"},
+      {"color": "purple", "bold": "Iran 1,900+ killed, 120 historical sites hit.", "text": " Israel: attacks will 'intensify.' Vance clashed with Netanyahu. Trump joked 'Strait of Trump.' April 6 deadline = 9 days away"}
     ]
   },
   "deaths": "4,500+",
   "deathsSub": "1,900+ Iran (217 kids), 1,142 Lebanon (121 kids), 96 Iraq, 18 Israel, 15 US, 30+ Gulf",
   "econ": {
-    "sensex": "73,583", "sensexDelta": "▼ -1,690 (Fri)", "sensexSub": "Markets closed Sat. Opens Mon into chaos",
-    "vix": "25.78", "vixDelta": "▲ elevated",
-    "fpi": "$10.5B+", "fpiDelta": "₹88,180 Cr MTD",
+    "sensex": "73,583", "sensexDelta": "▼ -1,690 (Fri)", "sensexSub": "5th straight weekly fall. ₹44L+ Cr gone",
+    "vix": "25.78", "vixDelta": "▲ elevated fear",
+    "fpi": "$11B+", "fpiDelta": "₹88,180 Cr+ March",
     "wealth": "₹44L+ Cr",
-    "analysis": "DAY 29: Everything the market priced in (de-escalation, ceasefire) is being unwound. Houthis joined the war. Brent back to $110. Wall St worst day of war. 10 US troops injured in Saudi. Iran turned back 3 ships. Israel says attacks will 'intensify.' India opens Monday into a storm — Sensex at 73,583, rupee 94.56 ATL. Excise cut ₹3 is symbolic. FII outflow ₹88,180 Cr March."
+    "analysis": "INDIA CRISIS DEEPENS: Govt cut excise ₹10/L — 'huge hit' to revenue. Likened to COVID. RBI deployed $12-15B to defend rupee (94.79 ATL). Forex reserves -$19B in 2 weeks. Indian crude basket $125/bbl. 91% LPG from Gulf — choked. Macquarie: 40% chance of $200 oil. Food service losing ₹1,200-1,300 Cr/day. ICRA: fiscal deficit targets at risk. Bernstein: rupee could hit ₹98-110. 5th straight weekly market fall."
   },
   "hormuzLatest": [
-    {"d": "Mar 28", "e": "Iran TURNED BACK 3 SHIPS trying to transit — route closed to vessels going to/from 'enemy' ports. Analysts: 'safe passage cannot be guaranteed.' Brent spikes to $110. 8 Pakistani tankers crossed earlier this week but situation deteriorating again. Parliament formalizing toll fees. 2,000 ships + 20K seafarers stranded. 12+ mines. IRGC Navy chief killed but blockade systems intact. Trump joked: 'Strait of Trump — I mean Hormuz.'"}
+    {"d": "Mar 28", "e": "Iran TURNED BACK 3 SHIPS despite earlier allowing 8 Pakistani tankers. 'Safe passage cannot be guaranteed.' Brent back to $110. Indian sailor (28yr old) stranded a month in Gulf. Pre-war 130/day → ≤6 now. Parliament formalizing toll fees. 2,000 ships + 20K seafarers stranded. 12+ mines. Trump joked: 'Strait of Trump.' April 6 deadline = 9 days."}
   ],
   "hormuzVessels": {
     "preWarDaily": "~130 ships/day",
-    "currentDaily": "≤6 ships/day (with Iranian coordination) — BUT 3 turned back on Mar 27",
+    "currentDaily": "≤6 ships/day — BUT 3 TURNED BACK on Mar 27. Situation DETERIORATING",
     "recentTransits": [
-      {"date": "Mar 27", "vessel": "3 unnamed vessels TURNED BACK", "note": "IRGC turned them back — route closed to 'enemy' port vessels. Safe passage NOT guaranteed."},
-      {"date": "Mar 26-27", "vessel": "8 Pakistani-flagged oil tankers", "note": "Trump: 'a present.' First bulk transit since war began."},
-      {"date": "Mar 23", "vessel": "2 unnamed vessels", "note": "Lloyd's: paid 'large sums' to Iran for safe passage."},
-      {"date": "Mar 15-16", "vessel": "Shivalik + Nanda Devi (Indian LPG)", "note": "Indian Navy escort. Covered only 5% monthly need."}
+      {"date": "Mar 27", "vessel": "3 unnamed vessels TURNED BACK", "note": "IRGC turned back — route closed to 'enemy' port vessels. Safe passage NOT guaranteed."},
+      {"date": "Mar 26-27", "vessel": "8 Pakistani-flagged oil tankers", "note": "Trump: 'a present.' First bulk transit since war. But situation reversed next day."},
+      {"date": "Mar 23", "vessel": "2 unnamed vessels", "note": "Lloyd's: paid 'large sums' to Iran for passage."},
+      {"date": "Mar 15-16", "vessel": "Shivalik + Nanda Devi (Indian LPG)", "note": "Indian Navy escort (Op Sankalp). Covered only 5% monthly need."}
     ],
-    "blockadeStatus": "DETERIORATING. Iran turned back 3 ships on Mar 27 despite earlier allowing 8 Pakistani tankers. Route closed to vessels going to/from 'enemy' ports. Parliament formalizing toll fees into law. 12+ Maham 3/7 mines. IRGC Navy chief Tangsiri killed but systems operational. 28-yr-old Indian sailor stranded in Gulf for a month.",
-    "keyFigure": "IRGC Navy chief Tangsiri killed (Mar 26). But blockade infrastructure fully intact and actively enforced."
+    "blockadeStatus": "DETERIORATING. Iran turned back 3 ships after earlier allowing 8 Pakistani tankers. Route closed to 'enemy' port vessels. Parliament formalizing toll fees into law. 12+ Maham 3/7 Limpet mines. Iran threatened to mine ENTIRE Gulf if power plants attacked. 28-yr-old Indian sailor stranded a month. GCC: Iran 'crossed all red lines.'",
+    "keyFigure": "IRGC Navy chief Tangsiri killed (Mar 26). Blockade infrastructure intact and actively enforced."
   },
   "milTop": [
-    {"t": "🔴 YEMEN HOUTHIS JOIN WAR (Mar 28)", "lv": "BREAKING", "color": "red", "d": "Houthis fired ballistic missile at Beersheba in southern Israel — first attack since Oct 2025 ceasefire. War now spans 7+ countries: Iran, Israel, Lebanon, Iraq, Yemen, Gulf states, Indian Ocean. Houthi slogan: 'Death to America, Death to Israel.' This dramatically widens the conflict."},
-    {"t": "🔴 10 US Troops Injured at Saudi Air Base (Mar 27)", "lv": "BREAKING", "color": "red", "d": "Iranian missile + drones hit Prince Sultan Air Base in Saudi Arabia. 10 US troops injured, refueling aircraft damaged. Total: 300+ US service members wounded in war. 1 person killed in Tel Aviv overnight by Iranian missile. Israel says attacks will 'intensify and expand.'"},
-    {"t": "📉 Brent $110 — Wall St Worst Day of War (Mar 27-28)", "lv": "BREAKING", "color": "red", "d": "Brent spiked back above $110 despite Trump's 10-day extension. Wall Street had worst day of the war. Iran turned back 3 ships from Hormuz — safe passage not guaranteed. US can only confirm 1/3 of Iran's arsenal destroyed, not 2/3 as previously claimed. Markets recalibrating for longer war."}
+    {"t": "🇮🇳 INDIA CRISIS: Excise Cut + Rupee ATL + LPG Emergency", "lv": "CRITICAL", "color": "red", "d": "Govt cut excise ₹10/L — 'huge revenue hit.' Rupee 94.79 ATL. RBI deployed $12-15B. Forex -$19B in 2 weeks. Indian basket $125/bbl. 91% LPG from Gulf — choked. 75% food service = LPG dependent. Industry losing ₹1,200-1,300 Cr/day. Macquarie: 40% chance of $200 oil. CSMonitor: 'India biggest loser in war it isn't fighting.' Pakistan mediates while India absent."},
+    {"t": "🔴 HOUTHIS JOIN WAR — 7+ Countries Now Involved", "lv": "BREAKING", "color": "red", "d": "Yemen Houthis fired ballistic missile at Beersheba. First attack since Oct 2025. War spans: Iran, Israel, Lebanon, Iraq, Yemen, Gulf states, Indian Ocean (Diego Garcia). 10 US troops hurt at Saudi base. 300+ total wounded. 1 killed Tel Aviv. Israel: attacks will 'intensify and expand.'"},
+    {"t": "📉 Wall St Worst Day + Brent $110 + Ships Turned Back", "lv": "BREAKING", "color": "red", "d": "De-escalation rally completely reversed. Brent back to $110 despite Trump's 10-day extension. Iran turned back 3 ships from Hormuz. US can only confirm 1/3 of Iran arsenal destroyed. Vance clashed with Netanyahu on regime change. OECD: global inflation +1.2%. April 6 = 9 days away."}
   ],
   "tlLatest": [
-    {"d": 29, "l": "Mar 28", "deaths": 4500, "brent": 110, "nifty": 22820, "rupee": 94.56, "tag": "HOUTHIS JOIN WAR. 10 US troops hurt in Saudi. Brent $110. Iran turned back 3 ships. 1 killed Tel Aviv. Israel: will intensify. Wall St worst day", "sev": 3}
+    {"d": 29, "l": "Mar 28", "deaths": 4500, "brent": 110, "nifty": 22820, "rupee": 94.79, "tag": "HOUTHIS join. India cuts excise ₹10/L. Rupee 94.79 ATL. RBI deploys $12-15B. 10 US troops hit. Ships turned back. Brent $110. Wall St worst day", "sev": 3}
   ],
-  "projNow": {"brent": 110, "rupee": 94.56, "lpg": 913, "petrol": 91.77, "deaths": 4500},
-  "scenarios": {"brent": [65, 110, 115, 128, 150], "rupee": [91.0, 94.56, 96.0, 98.0, 110.0], "deaths": [0, "4,500+", "8,000", "14,000", "32,000"]},
+  "projNow": {"brent": 110, "rupee": 94.79, "lpg": 913, "petrol": 84.77, "deaths": 4500},
+  "scenarios": {"brent": [65, 110, 118, 130, 200], "rupee": [91.0, 94.79, 96.5, 98.0, 110.0], "deaths": [0, "4,500+", "8,000", "14,000", "32,000"]},
   "radar": [
-    {"axis": "Oil Shock", "w1": 60, "now": 90, "w4": 96},
-    {"axis": "Market Crash", "w1": 45, "now": 94, "w4": 92},
+    {"axis": "Oil Shock", "w1": 60, "now": 92, "w4": 97},
+    {"axis": "Market Crash", "w1": 45, "now": 94, "w4": 93},
     {"axis": "Nuclear Risk", "w1": 20, "now": 80, "w4": 90},
-    {"axis": "Hormuz Closure", "w1": 80, "now": 94, "w4": 98},
-    {"axis": "Household Impact", "w1": 15, "now": 96, "w4": 99},
-    {"axis": "Currency Crisis", "w1": 40, "now": 94, "w4": 98},
-    {"axis": "Social Unrest", "w1": 25, "now": 74, "w4": 86},
+    {"axis": "Hormuz Closure", "w1": 80, "now": 95, "w4": 99},
+    {"axis": "Household Impact", "w1": 15, "now": 97, "w4": 99},
+    {"axis": "Currency Crisis", "w1": 40, "now": 96, "w4": 99},
+    {"axis": "Social Unrest", "w1": 25, "now": 76, "w4": 88},
     {"axis": "Military Exposure", "w1": 35, "now": 96, "w4": 98}
   ],
   "assessment": {
-    "headline": "Day 29. Houthis join the war. Brent $110. 10 US troops hit. Iran turns back ships. De-escalation hopes crumbling.",
-    "body": "Everything the market priced in this week — ceasefire hopes, Trump's pause, tankers crossing Hormuz — is being violently unwound. Yemen's Houthis joined the war by firing at Israel. Iran turned back 3 ships from Hormuz despite earlier allowing 8 Pakistani tankers. Brent spiked back to $110. Wall Street had its worst day of the war. 10 US troops were injured at Prince Sultan Air Base in Saudi Arabia. Total US wounded: 300+.\n\nIsrael's defense minister said attacks will 'intensify and expand.' The IDF struck the 'heart of Tehran.' But the US can only confirm destroying 1/3 of Iran's arsenal — not the 2/3 previously claimed. Vance reportedly clashed with Netanyahu over regime change expectations. Trump joked about renaming the Strait of Hormuz after himself.\n\nFor India: Markets are closed Saturday but open Monday into a storm — Sensex at 73,583, rupee at fresh ATL 94.56, Brent at $110, Houthis expanding the war, ships being turned back. The ₹3 excise cut on petrol is symbolic. A 28-year-old Indian sailor has been stranded in the Gulf for a month. FII outflow ₹88,180 Cr in March.\n\nThe April 6 deadline is now 9 days away but the situation is deteriorating, not improving. Iran is turning back ships. Houthis are opening a new front. Oil is climbing. The 'de-escalation rally' was a mirage. India must prepare for the worst: sustained $110+ Brent, complete Hormuz closure, and the longest energy crisis in a generation."
+    "headline": "Day 29. India is now in the crisis, not watching it. Excise slashed. Rupee at ATL. LPG choking. RBI burning reserves.",
+    "body": "India is no longer observing this war from a distance — it is IN the crisis. The government cut excise duty by ₹10/L and likened the situation to COVID. The rupee crashed to 94.79 — an all-time low. RBI has deployed $12-15 billion from forex reserves. Reserves fell $19 billion in two weeks. The Indian crude basket is at $125/barrel. Macquarie puts the probability of $200 oil at 40%.\n\n91% of India's LPG comes from the Gulf — that supply is choked. 75% of the food service industry depends on LPG, costing ₹1,200-1,300 crore per day in losses. The government has invoked the Essential Commodities Act, imposed a 25-day LPG refill gap, capped industrial gas use, and is diverting all propane/butane to cooking gas. BPCL launched an LPG ATM. Oil companies are exploring 10kg cylinders.\n\nThe Christian Science Monitor called India 'the biggest loser in a war it isn't even fighting.' Pakistan has emerged as the key mediator while India is absent from diplomatic channels. The opposition accuses Modi of 'weakening India's neutrality.' EPW says India's strategic autonomy has been 'squandered in subservience to Western interests.'\n\nMarkets: Sensex at 73,583 — 5th straight weekly fall. FII outflow $11 billion in March. ₹44 lakh crore destroyed. Houthis have joined the war. Iran turned back ships from Hormuz. Brent is back at $110. April 6 is 9 days away. If talks fail, India faces the worst energy and economic crisis since independence — this is no longer hypothetical."
   }
 }
