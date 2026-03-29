@@ -1,76 +1,78 @@
 {
-  "_updated": "March 29, 2026 — 9:45 AM IST",
+  "_updated": "March 29, 2026 — 6:00 PM IST",
   "_day": 30,
   "_note": "Update this file only. App.jsx never changes.",
   "ticker": [
-    "⚡ DAY 30 — ONE MONTH OF WAR. 4,500+ dead. 2,800+ distinct attacks across 29 of 31 Iranian provinces",
-    "🚢 Iran allows 20 PAKISTANI-FLAGGED ships through Hormuz (2/day) — Pakistan FM: 'harbinger of peace.' BUT 3 ships turned back earlier",
-    "🔴 IRGC threatens US UNIVERSITY CAMPUSES in Gulf (Texas A&M, NYU, Northwestern) unless US condemns strikes on Iranian universities by Mar 30",
-    "🇮🇳 India: Excise cut ₹10/L. Rupee 94.79 ATL. RBI burned $12-15B. Indian basket $125/bbl. 91% LPG from Gulf — CHOKED",
-    "☢️ Iran FM warns 'HEAVY PRICE' for Israeli nuclear site strikes. 2 nuclear facilities hit. No radioactive leak reported",
-    "📉 Brent $110. Wall St worst day of war. India market closed (weekend). Opens Mon into Houthi escalation + $110 oil",
-    "🔴 9 PARAMEDICS killed in Lebanon in one day. 51 health workers dead since war. 1,189 killed total in Lebanon incl 124 children",
-    "🇷🇺 Russia AIDING Iran with Liana spy satellite data on US military assets. EU: Russia helping 'kill Americans'",
-    "⚠️ US anti-tank LAND MINES found scattered in residential area near Shiraz — CNN + munitions experts confirmed US-origin",
-    "🇮🇳 CSMonitor: 'India biggest LOSER in war it isn't fighting.' Pakistan mediates. India absent. 10M Indians in Gulf at risk"
+    "⚡ DAY 30 — ONE MONTH OF WAR. 4,600+ dead across 7+ countries. 2,800+ attacks across 29/31 Iranian provinces",
+    "🇮🇳 2 MORE Indian LPG carriers crossed Hormuz + DISCHARGED cargo in India. 20 Pakistani-flagged ships (2/day) transiting",
+    "🔴 FII outflow hits ₹1,13,810 Cr in March — LARGEST monthly selloff. PhonePe HALTS IPO. Nomura cuts Nifty target 15%",
+    "☢️ Israel strikes HEAVY-WATER plant + YELLOWCAKE facility — Iran: no radioactive leak. Nuclear escalation deepening",
+    "💰 $580 MILLION suspicious oil futures bets placed 15 min BEFORE Trump's Truth Social post — insider trading investigation",
+    "🇮🇳 India excise cut ₹10/L. Rupee 94.79 ATL. RBI burned $12-15B. Forex -$19B. Indian basket $125/bbl. LPG 91% from Gulf",
+    "⚠️ IRGC threatens US university campuses in Gulf. Lloyd's: 'zombie tankers' taking 'Tehran Toll Booth' route through Hormuz",
+    "🇾🇪 HOUTHIS in war — fired at Israel. War now: Iran, Israel, Lebanon, Iraq, Yemen, Gulf, Indian Ocean, Cyprus border tensions",
+    "🌐 Iran Pres Pezeshkian: any strike on infrastructure = 'strong response.' 15 US troops wounded at Saudi base (5 serious)",
+    "📉 Sensex at 73,583 (Fri close). 5th weekly fall. Markets closed weekend. IPO market FROZEN. Gold volatile. April 6 = 8 days"
   ],
   "whatChanged": {
-    "label": "WHAT CHANGED — MAR 29, 9:45 AM IST (DAY 30)",
+    "label": "WHAT CHANGED — MAR 29, 6 PM IST (DAY 30)",
     "items": [
-      {"color": "cyan", "bold": "Iran allows 20 Pakistani ships through Hormuz (2/day).", "text": " Pakistan FM: 'harbinger of peace.' But 3 ships were turned back earlier — situation remains fragile. Parliament formalizing toll fees"},
-      {"color": "red", "bold": "IRGC threatens US university campuses in Gulf", "text": " (Texas A&M Qatar, NYU Abu Dhabi, Northwestern Qatar). Demands US condemn strikes on Iranian universities by Mar 30 or 'more than 2 institutions' targeted"},
-      {"color": "red", "bold": "9 paramedics killed in Lebanon in one day.", "text": " 51 health workers dead total. 1,189 killed incl 124 children. WHO: 4 hospitals + 50 clinics forced to close. Women skipping meals for children"},
-      {"color": "orange", "bold": "US anti-tank land mines in residential Shiraz.", "text": " CNN confirmed US-origin. Iran FM: 'HEAVY price for nuclear site strikes.' Russia aiding with Liana spy satellite intelligence on US assets"},
-      {"color": "red", "bold": "India: rupee 94.79 ATL.", "text": " RBI burned $12-15B. Forex -$19B in 2 weeks. Indian basket $125/bbl. 91% LPG from Gulf choked. 75% food service = LPG. Losing ₹1,200-1,300 Cr/day. Excise cut ₹10/L = 'huge hit'"},
-      {"color": "purple", "bold": "DAY 30 — one month of war.", "text": " 4,500+ dead. 2,800+ attacks across 29/31 Iranian provinces. Trump: 'not finished yet.' April 6 deadline = 8 days. Iran: 'being bombed toward negotiation table'"}
+      {"color": "green", "bold": "2 more Indian LPG carriers crossed Hormuz", "text": " + discharged cargo in India (The Hindu). 20 Pakistani ships (2/day) also transiting. But Lloyd's reports 'zombie tankers' paying Iran's 'Tehran Toll Booth'"},
+      {"color": "red", "bold": "FII outflow ₹1,13,810 Cr in March", "text": " — LARGEST monthly selloff ever. PhonePe halts IPO. Nomura cuts Nifty target 15%. IPO market frozen. Market down 12% since January"},
+      {"color": "red", "bold": "Israel strikes heavy-water plant + yellowcake facility.", "text": " Nuclear escalation. Iran: no leak. IRGC threatens US university campuses. $580M suspicious futures bets before Trump's post — probe looming"},
+      {"color": "orange", "bold": "Houthis widened the war to Yemen front.", "text": " War now spans 7+ countries + Indian Ocean. 15 US troops wounded at Saudi base (5 serious). 300+ US troops wounded total. Pezeshkian: 'strong response' to infra strikes"},
+      {"color": "cyan", "bold": "India: excise cut ₹10/L.", "text": " Rupee 94.79 ATL. RBI burned $12-15B. Forex -$19B in 2 weeks. Indian basket $125/bbl. 91% LPG from Gulf choked. 75% food service = ₹1,200-1,300 Cr/day losses"},
+      {"color": "purple", "bold": "DAY 30 milestone.", "text": " CSMonitor: 'India biggest loser.' EPW: 'strategic autonomy squandered.' Pakistan mediates, India absent. 10M Indians in Gulf. April 6 deadline = 8 days. Iran internet blackout Day 30"}
     ]
   },
   "deaths": "4,600+",
   "deathsSub": "1,900+ Iran (217 kids), 1,189 Lebanon (124 kids), 99 Iraq, 19 Israel, 15 US, 30+ Gulf",
   "econ": {
-    "sensex": "73,583", "sensexDelta": "▼ Fri close", "sensexSub": "5th weekly fall. Opens Mon. Closed weekend",
+    "sensex": "73,583", "sensexDelta": "▼ -1,690 (Fri)", "sensexSub": "5th weekly fall. 12% down since Jan. Closed weekend",
     "vix": "25.78", "vixDelta": "▲ elevated",
-    "fpi": "$11B+", "fpiDelta": "₹88,180 Cr+ March",
+    "fpi": "$13.5B+", "fpiDelta": "₹1,13,810 Cr March",
     "wealth": "₹44L+ Cr",
-    "analysis": "DAY 30 — ONE MONTH: India cut excise ₹10/L ('huge hit'). Rupee 94.79 ATL. RBI deployed $12-15B. Forex -$19B in 2 weeks. Indian basket $125/bbl. Macquarie: 40% chance of $200 oil. 91% LPG from Gulf — choked. Industry losing ₹1,200-1,300 Cr/day. ICRA: fiscal deficit targets at risk. Sensex 5th weekly fall. FII outflow $11B+ March. Market closed weekend — opens Mon into Houthi escalation, Brent $110, university threats."
+    "analysis": "ONE MONTH CRISIS: FII outflow ₹1,13,810 Cr March — largest EVER monthly selloff. PhonePe halted IPO. Nomura cut Nifty 15%. Market down 12% since Jan. Excise cut ₹10/L = 'huge revenue hit.' RBI deployed $12-15B. Forex -$19B. Indian basket $125/bbl. Macquarie: 40% chance $200 oil. 91% LPG from Gulf choked. $580M suspicious futures bets before Trump post. IPO market frozen. Bernstein: rupee could hit 98-110."
   },
   "hormuzLatest": [
-    {"d": "Mar 29", "e": "DAY 30. Iran allows 20 PAKISTANI-FLAGGED ships (2/day) — FM Dar: 'harbinger of peace.' BUT 3 ships turned back earlier this week. Pre-war 130/day → ≤6. Parliament formalizing toll. 2,000 ships + 20K seafarers stranded. 12+ mines. IRGC Navy chief killed. UAE intercepted 398 missiles + 1,872 drones + 15 cruise missiles total since Feb 28."}
+    {"d": "Mar 29", "e": "2 more INDIAN LPG carriers crossed + discharged cargo. 20 Pakistani ships (2/day) transiting. Lloyd's: 'zombie tankers' taking 'Tehran Toll Booth' route. Parliament formalizing toll fees. 12+ mines. 2,000 ships + 20K seafarers stranded. UAE intercepted 398 missiles + 1,872 drones + 15 cruise missiles total."}
   ],
   "hormuzVessels": {
     "preWarDaily": "~130 ships/day",
-    "currentDaily": "≤6 ships/day — Iran now allowing 2 Pakistani-flagged ships/day (20 total)",
+    "currentDaily": "≤6 ships/day — 2 Pakistani ships/day + selective Indian passage",
     "recentTransits": [
-      {"date": "Mar 28-29", "vessel": "20 Pakistani-flagged ships (2/day)", "note": "New deal. Pakistan FM: 'harbinger of peace.' Iran allowing as mediation gesture."},
-      {"date": "Mar 27", "vessel": "3 unnamed vessels TURNED BACK", "note": "IRGC turned back — route closed to 'enemy' port vessels."},
+      {"date": "Mar 28-29", "vessel": "2 Indian LPG carriers (SCI-owned)", "note": "Crossed Hormuz + DISCHARGED cargo in India. India's Op Sankalp active."},
+      {"date": "Mar 28-29", "vessel": "20 Pakistani-flagged ships (2/day)", "note": "Pakistan mediation deal. FM Dar: 'harbinger of peace.'"},
+      {"date": "Mar 27", "vessel": "3 unnamed vessels TURNED BACK", "note": "IRGC turned back — closed to 'enemy' port vessels."},
       {"date": "Mar 26-27", "vessel": "8 Pakistani-flagged tankers", "note": "Trump: 'a present.' First bulk transit."},
-      {"date": "Mar 15-16", "vessel": "Shivalik + Nanda Devi (Indian LPG)", "note": "Indian Navy escort (Op Sankalp). 5% monthly need."}
+      {"date": "Mar 23", "vessel": "2 'zombie tankers'", "note": "Lloyd's: paid large sums via 'Tehran Toll Booth' route."},
+      {"date": "Mar 15-16", "vessel": "Shivalik + Nanda Devi (Indian LPG)", "note": "Indian Navy escort. 5% monthly need."}
     ],
-    "blockadeStatus": "MIXED SIGNALS. Iran allowing Pakistani ships but turned back 3 others. Parliament formalizing toll fees. 12+ Maham mines. UAE total interceptions: 398 missiles + 1,872 drones + 15 cruise missiles. Iran: 'Hormuz open to non-hostile ships after coordination.' But safe passage not guaranteed for all.",
-    "keyFigure": "IRGC Navy chief Tangsiri killed (Mar 26). Blockade operational but selective — favoring mediator Pakistan."
+    "blockadeStatus": "SELECTIVE ENFORCEMENT. India + Pakistan getting selective passage. Others turned back or charged fees. Lloyd's calls it 'Tehran Toll Booth.' Parliament writing toll fees into permanent law. 12+ Maham 3/7 mines. IRGC Navy chief killed but systems intact. UAE total: 398 missiles + 1,872 drones + 15 cruise missiles intercepted.",
+    "keyFigure": "IRGC Navy chief Tangsiri killed (Mar 26). But blockade selectively enforced — favoring Pakistan (mediator) and India (key buyer)."
   },
   "milTop": [
-    {"t": "⚠️ IRGC Threatens US University Campuses in Gulf (Mar 28)", "lv": "BREAKING", "color": "red", "d": "IRGC demanded US condemn strikes on Iranian universities by March 30 — or they will 'expand attacks to more than 2 institutions.' At-risk: Texas A&M Qatar, NYU Abu Dhabi, Northwestern Qatar. Tens of thousands of students + faculty. Unprecedented threat against academic institutions."},
-    {"t": "🚢 Iran Allows 20 Pakistani Ships Through Hormuz (Mar 28-29)", "lv": "DEVELOPING", "color": "cyan", "d": "Pakistan FM Dar: 'welcome and constructive gesture — harbinger of peace.' 2 ships/day under agreement. But 3 ships were turned back earlier this week. Parliament formalizing Hormuz toll fees into law. Situation remains fragile — safe passage NOT guaranteed for all flags."},
-    {"t": "🇮🇳 India Crisis Deepens — Day 30 Assessment", "lv": "CRITICAL", "color": "red", "d": "Excise cut ₹10/L = 'huge revenue hit.' Rupee 94.79 ATL. RBI burned $12-15B from reserves. Forex -$19B in 2 weeks. Indian basket $125/bbl. 91% LPG from Gulf choked. 75% food service depends on LPG = ₹1,200-1,300 Cr/day losses. Macquarie: 40% chance $200 oil. CSMonitor: 'India biggest loser in war it isn't fighting.' Pakistan mediates while India absent. 10M Indians in Gulf at risk."}
+    {"t": "🇮🇳 2 More Indian LPG Carriers Cross Hormuz (Mar 29)", "lv": "DEVELOPING", "color": "cyan", "d": "Two more SCI-owned LPG carriers crossed Hormuz and discharged cargo in India (The Hindu Business). India's Op Sankalp continues. Combined with Shivalik + Nanda Devi from Mar 15-16, India is getting selective passage. But covers small fraction of monthly need. 91% of LPG still Gulf-dependent."},
+    {"t": "📉 FII Outflow ₹1,13,810 Cr — Largest Ever Monthly Selloff", "lv": "CRITICAL", "color": "red", "d": "March FII selloff is LARGEST in history. PhonePe halted IPO. Nomura cut Nifty target 15% (to ~24,900). Citi cut to 27,000. Market down 12% since January. IPO pipeline frozen. $580M suspicious oil futures bets placed 15 min before Trump's Truth Social post — insider trading probe looming."},
+    {"t": "☢️ Israel Strikes Heavy-Water + Yellowcake Facilities (Mar 28-29)", "lv": "BREAKING", "color": "red", "d": "Israel struck a heavy-water plant and yellowcake production facility (Iranian media). Iran says no radioactive leak. IRGC threatened US university campuses in Gulf (Texas A&M, NYU, Northwestern). Pezeshkian: any infrastructure strike = 'strong response.' 15 US troops wounded at Prince Sultan Air Base (5 serious)."}
   ],
   "tlLatest": [
-    {"d": 30, "l": "Mar 29", "deaths": 4600, "brent": 110, "nifty": 22820, "rupee": 94.79, "tag": "DAY 30. 20 Pakistani ships allowed. IRGC threatens US universities. 9 paramedics killed Lebanon. US mines in Shiraz. Russia aiding Iran. India: excise ₹10 cut, rupee ATL", "sev": 3}
+    {"d": 30, "l": "Mar 29", "deaths": 4600, "brent": 106, "nifty": 22820, "rupee": 94.79, "tag": "DAY 30. 2 Indian carriers crossed. FII ₹1.13L Cr selloff. Yellowcake facility hit. Houthis in war. $580M suspicious bets. April 6 = 8 days", "sev": 3}
   ],
-  "projNow": {"brent": 110, "rupee": 94.79, "lpg": 913, "petrol": 84.77, "deaths": 4600},
-  "scenarios": {"brent": [65, 110, 118, 135, 200], "rupee": [91.0, 94.79, 96.5, 98.0, 110.0], "deaths": [0, "4,600+", "8,000", "15,000", "35,000"]},
+  "projNow": {"brent": 106, "rupee": 94.79, "lpg": 913, "petrol": 84.77, "deaths": 4600},
+  "scenarios": {"brent": [65, 106, 115, 130, 200], "rupee": [91.0, 94.79, 96.5, 98.0, 110.0], "deaths": [0, "4,600+", "8,000", "15,000", "35,000"]},
   "radar": [
-    {"axis": "Oil Shock", "w1": 60, "now": 92, "w4": 97},
-    {"axis": "Market Crash", "w1": 45, "now": 94, "w4": 93},
-    {"axis": "Nuclear Risk", "w1": 20, "now": 82, "w4": 92},
-    {"axis": "Hormuz Closure", "w1": 80, "now": 93, "w4": 97},
+    {"axis": "Oil Shock", "w1": 60, "now": 90, "w4": 96},
+    {"axis": "Market Crash", "w1": 45, "now": 94, "w4": 94},
+    {"axis": "Nuclear Risk", "w1": 20, "now": 84, "w4": 93},
+    {"axis": "Hormuz Closure", "w1": 80, "now": 92, "w4": 97},
     {"axis": "Household Impact", "w1": 15, "now": 97, "w4": 99},
     {"axis": "Currency Crisis", "w1": 40, "now": 96, "w4": 99},
     {"axis": "Social Unrest", "w1": 25, "now": 78, "w4": 90},
     {"axis": "Military Exposure", "w1": 35, "now": 96, "w4": 98}
   ],
   "assessment": {
-    "headline": "DAY 30. One month of war. 4,600+ dead. India cut excise, rupee at ATL, LPG choking. April 6 = 8 days.",
-    "body": "One month. 4,600+ people are dead across 7+ countries. 2,800+ distinct attacks have hit 29 of Iran's 31 provinces. The IRGC is now threatening US university campuses in the Gulf. US anti-tank land mines have been found in a residential area of Shiraz. 9 paramedics were killed in Lebanon in a single day. Russia is feeding Iran satellite intelligence on US military positions.\n\nIran is allowing 20 Pakistani-flagged ships through Hormuz (2/day) — a positive signal through the Pakistan mediation channel. But 3 ships were turned back earlier this week and Iran's parliament is writing toll fees into permanent law. The blockade remains selectively enforced.\n\nFor India — this is now a full domestic crisis:\n• Excise duty slashed ₹10/L on petrol+diesel — govt calls it 'huge revenue hit,' likens situation to COVID\n• Rupee at 94.79 — all-time low. RBI has burned $12-15 billion from forex reserves. Reserves down $19B in 2 weeks\n• Indian crude basket at $125/barrel. Macquarie: 40% probability of $200 oil\n• 91% of LPG comes from Gulf — supply is choking. 75% of food service industry depends on LPG = ₹1,200-1,300 Cr/day in losses\n• FII outflow $11B+ in March. ₹44L+ Cr destroyed. Sensex fell 5th straight week\n• CSMonitor: 'India is biggest loser in a war it isn't even fighting.' Pakistan mediates while India is absent from diplomacy\n• 10 million Indians in Gulf countries — remittances ($40B/year) at risk. Indian sailor stranded a month in Gulf\n\nApril 6 is 8 days away. The 15-point US plan and Iran's 5-point counter are miles apart. If Pakistan-mediated talks produce nothing: power plant strikes resume, Hormuz closes completely, and India enters uncharted territory."
+    "headline": "DAY 30. One month. FII ₹1.13L Cr exodus. But Indian LPG carriers are crossing. The war is both worsening and showing cracks.",
+    "body": "One month into the worst geopolitical crisis since India's independence, the picture is contradictory. On one hand, 2 more Indian LPG carriers crossed Hormuz and discharged cargo — showing India is getting selective passage. On the other, FII outflow hit ₹1,13,810 crore in March — the largest monthly selloff in history. PhonePe halted its IPO. The market is down 12% since January.\n\nThe war is widening (Houthis, nuclear strikes on heavy-water + yellowcake facilities, university threats) while simultaneously showing cracks (20 Pakistani ships transiting, indirect talks via Pakistan, Trump extending to April 6). $580 million in suspicious oil futures bets were placed 15 minutes before Trump's Truth Social post — a possible insider trading scandal.\n\nFor India's households:\n• Excise cut ₹10/L on petrol+diesel — first major relief but 'huge revenue hit'\n• Rupee at 94.79 ATL. RBI burned $12-15B. Forex reserves down $19B in 2 weeks\n• 91% of LPG from Gulf — still choking. 75% food service depends on LPG = ₹1,200-1,300 Cr/day losses\n• Indian crude basket at $125/barrel. Macquarie: 40% chance of $200 oil\n• 10 million Indians in Gulf — remittances at risk\n• CSMonitor: 'India is the biggest loser in a war it isn't even fighting'\n\nApril 6 is 8 days away. The 15-point US plan and Iran's 5-point counter remain far apart. Pakistan is mediating. India is getting some LPG through but it's a fraction of need. The next week determines whether this is the beginning of a resolution — or the prelude to the worst phase yet."
   }
 }
