@@ -166,9 +166,9 @@ const Bar=({value,max=100,color,h=5})=>(<div style={{height:h,background:C.borde
 const RadarSVG=({data,w=270,h=270})=>{const cx=w/2,cy=h/2,r=Math.min(cx,cy)-34,n=data.length;const ang=i=>(Math.PI*2*i)/n-Math.PI/2;const xy=(i,v)=>({x:cx+Math.cos(ang(i))*(v/100)*r,y:cy+Math.sin(ang(i))*(v/100)*r});const pg=(k,cl,ds)=>{const p=data.map((d,i)=>xy(i,d[k]));return<polygon points={p.map(pp=>`${pp.x},${pp.y}`).join(" ")} fill={cl+"18"} stroke={cl} strokeWidth={ds?"1.2":"1.8"} strokeDasharray={ds||"none"}/>;};return(<svg viewBox={`0 0 ${w} ${h}`} style={{width:"100%",height:"auto"}}>{[20,40,60,80,100].map(v=>(<polygon key={v} points={data.map((_,i)=>xy(i,v)).map(p=>`${p.x},${p.y}`).join(" ")} fill="none" stroke={C.border} strokeWidth="0.4"/>))}{data.map((_,i)=>{const p=xy(i,100);return<line key={i} x1={cx} y1={cy} x2={p.x} y2={p.y} stroke={C.border} strokeWidth="0.4"/>;})}{pg("w1",C.green)}{pg("now",C.orange)}{pg("w4",C.red,"3 2")}{data.map((d,i)=>{const p=xy(i,115);return<text key={i} x={p.x} y={p.y} fill={C.sub} fontSize="6" textAnchor="middle" dominantBaseline="middle" fontWeight="600">{d.axis}</text>;})}{[{l:"Week 1",c:C.green,y:h-17},{l:`Now (D${WAR_DAY})`,c:C.orange,y:h-9},{l:"Wk 4 Proj",c:C.red,y:h-1}].map((lg,i)=>(<g key={i}><rect x={8} y={lg.y-4} width={8} height={3} fill={lg.c} rx="1"/><text x={20} y={lg.y-1} fill={C.sub} fontSize="6">{lg.l}</text></g>))}</svg>);};
 
 // ═══════ LAYOUT ═══════
-const mono="'SF Mono',Consolas,'Courier New',monospace";
-const S=({id,title,sub,accent=C.red,children})=>(<section id={id} style={{marginBottom:30,scrollMarginTop:48}}><div style={{marginBottom:12,paddingBottom:6,borderBottom:`1px solid ${C.border}`}}><h2 style={{margin:0,fontSize:12,fontWeight:700,color:accent,letterSpacing:2,textTransform:"uppercase",fontFamily:mono}}>{title}</h2>{sub&&<p style={{margin:"4px 0 0",fontSize:9.5,color:C.sub,lineHeight:1.5}}>{sub}</p>}</div>{children}</section>);
-const Mc=({label,value,sub,delta,accent=C.red,deltaColor})=>(<div style={{background:C.card,borderRadius:6,padding:"10px 7px",textAlign:"center",borderLeft:`3px solid ${accent}`}}><div style={{fontSize:7,color:C.muted,letterSpacing:1.5,textTransform:"uppercase",fontWeight:600}}>{label}</div><div style={{fontSize:16,fontWeight:800,color:accent,marginTop:2,fontFamily:mono}}>{value}</div>{delta&&<div style={{fontSize:7.5,color:deltaColor||C.sub,fontWeight:700,marginTop:1,fontFamily:mono}}>{delta}</div>}{sub&&<div style={{fontSize:6.5,color:C.muted,marginTop:1}}>{sub}</div>}</div>);
+const mono="'JetBrains Mono','SF Mono',Consolas,monospace";
+const S=({id,title,sub,accent=C.red,children})=>(<section id={id} style={{marginBottom:36,scrollMarginTop:56}}><div style={{marginBottom:14,paddingBottom:8,borderBottom:`1px solid ${C.border}`}}><h2 className="dash-section-title" style={{margin:0,fontSize:13,fontWeight:700,color:accent,letterSpacing:2.5,textTransform:"uppercase",fontFamily:mono}}>{title}</h2>{sub&&<p className="dash-section-sub" style={{margin:"5px 0 0",fontSize:10.5,color:C.sub,lineHeight:1.6}}>{sub}</p>}</div>{children}</section>);
+const Mc=({label,value,sub,delta,accent=C.red,deltaColor})=>(<div style={{background:C.card,borderRadius:8,padding:"14px 10px",textAlign:"center",borderLeft:`3px solid ${accent}`,transition:"transform 0.15s ease"}}><div className="dash-mc-label" style={{fontSize:8,color:C.muted,letterSpacing:1.5,textTransform:"uppercase",fontWeight:700}}>{label}</div><div className="dash-mc-value" style={{fontSize:18,fontWeight:800,color:accent,marginTop:4,fontFamily:mono}}>{value}</div>{delta&&<div className="dash-mc-delta" style={{fontSize:8.5,color:deltaColor||C.sub,fontWeight:700,marginTop:2,fontFamily:mono}}>{delta}</div>}{sub&&<div className="dash-mc-sub" style={{fontSize:7,color:C.muted,marginTop:2}}>{sub}</div>}</div>);
 
 // ═══════ MAIN ═══════
 export default function App(){
@@ -243,42 +243,74 @@ export default function App(){
   const niftyAccent = niftyPrice < 23500 ? C.red : C.orange;
 
   return(
-    <div style={{minHeight:"100vh",background:C.bg,color:C.text,fontFamily:"system-ui,-apple-system,sans-serif",fontSize:12,maxWidth:600,margin:"0 auto",padding:0}}>
-      <style>{`@keyframes tk{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}`}</style>
+    <div style={{minHeight:"100vh",background:C.bg,color:C.text,fontFamily:"'DM Sans',system-ui,-apple-system,sans-serif",fontSize:13,maxWidth:1200,margin:"0 auto",padding:0}}>
+      <style>{`
+        @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;800&family=DM+Sans:wght@400;500;600;700;800&display=swap');
+        @keyframes tk{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+        * { box-sizing: border-box; }
+        ::-webkit-scrollbar { height: 4px; width: 4px; }
+        ::-webkit-scrollbar-thumb { background: #282e3c; border-radius: 4px; }
+        @media (min-width: 768px) {
+          .dash-grid-2 { grid-template-columns: 1fr 1fr !important; }
+          .dash-grid-4 { grid-template-columns: 1fr 1fr 1fr 1fr !important; }
+          .dash-header h1 { font-size: 28px !important; }
+          .dash-header .sub-line { font-size: 11px !important; }
+          .dash-header .label-line { font-size: 9px !important; }
+          .dash-ticker span { font-size: 13px !important; }
+          .dash-nav-btn { font-size: 12px !important; padding: 8px 16px !important; }
+          .dash-section-title { font-size: 15px !important; }
+          .dash-section-sub { font-size: 12px !important; }
+          .dash-wc-label { font-size: 10px !important; }
+          .dash-wc-body { font-size: 12.5px !important; line-height: 2 !important; }
+          .dash-mc-label { font-size: 9px !important; }
+          .dash-mc-value { font-size: 22px !important; }
+          .dash-mc-delta { font-size: 10px !important; }
+          .dash-mc-sub { font-size: 8.5px !important; }
+          .dash-content { padding: 24px 28px 60px !important; }
+          .dash-mil-title { font-size: 12px !important; }
+          .dash-mil-body { font-size: 11px !important; }
+          .dash-assess { font-size: 12.5px !important; line-height: 2 !important; }
+          .dash-hh-item { font-size: 11px !important; }
+        }
+        @media (max-width: 767px) {
+          .dash-grid-2 { grid-template-columns: 1fr !important; }
+          .dash-grid-4 { grid-template-columns: 1fr 1fr !important; }
+        }
+      `}</style>
 
       {/* ═══ TICKER ═══ */}
-      <div style={{background:C.red,padding:"5px 0",overflow:"hidden",whiteSpace:"nowrap"}}>
+      <div style={{background:`linear-gradient(90deg, ${C.red}, #b91c1c)`,padding:"7px 0",overflow:"hidden",whiteSpace:"nowrap"}}>
         <div style={{display:"inline-block",animation:"tk 80s linear infinite",paddingLeft:"100%"}}>
-          <span style={{fontSize:9.5,fontWeight:600,color:"#fff"}}>{tickerText}     •     {tickerText}</span>
+          <span className="dash-ticker" style={{fontSize:11,fontWeight:600,color:"#fff",letterSpacing:0.3}}>{tickerText}     •     {tickerText}</span>
         </div>
       </div>
 
       {/* ═══ HEADER ═══ */}
-      <header style={{padding:"16px 14px 10px",borderBottom:`1px solid ${C.border}`,display:"flex",justifyContent:"space-between",alignItems:"flex-start"}}>
+      <header style={{padding:"20px 20px 14px",borderBottom:`1px solid ${C.border}`,display:"flex",justifyContent:"space-between",alignItems:"flex-start"}} className="dash-header">
         <div>
-          <div style={{fontSize:6.5,letterSpacing:4,color:C.muted,textTransform:"uppercase",fontWeight:600}}>India Risk Assessment</div>
-          <h1 style={{margin:"4px 0 0",fontSize:18,fontWeight:800,color:C.white,lineHeight:1.2}}>How the Iran War<br/>Is Hitting India</h1>
-          <div style={{fontSize:7.5,color:C.muted,marginTop:4,fontStyle:"italic"}}>Updated: {iUpdated} • 50+ verified sources</div>
+          <div className="label-line" style={{fontSize:7.5,letterSpacing:5,color:C.muted,textTransform:"uppercase",fontWeight:700}}>India Risk Assessment</div>
+          <h1 style={{margin:"6px 0 0",fontSize:22,fontWeight:800,color:C.white,lineHeight:1.2}}>How the Iran War<br/>Is Hitting India</h1>
+          <div className="sub-line" style={{fontSize:9,color:C.muted,marginTop:6,fontStyle:"italic"}}>Updated: {iUpdated} • 50+ verified sources</div>
         </div>
-        <div style={{textAlign:"right"}}>
-          <div style={{background:C.red,color:"#fff",fontSize:12,fontWeight:900,padding:"5px 10px",borderRadius:4,fontFamily:mono}}>DAY {iDay}</div>
-          <div style={{fontSize:7,color:C.cyan,marginTop:3,padding:"2px 6px",border:`1px solid ${isLive?C.green:C.muted}40`,borderRadius:3}}>"● DATA AUTO-SYNCED"</div>
+        <div style={{textAlign:"right",display:"flex",flexDirection:"column",alignItems:"flex-end",gap:6}}>
+          <div style={{background:`linear-gradient(135deg, ${C.red}, #b91c1c)`,color:"#fff",fontSize:14,fontWeight:900,padding:"8px 16px",borderRadius:6,fontFamily:mono,boxShadow:"0 4px 12px rgba(239,68,68,0.3)"}}>DAY {iDay}</div>
+          <div style={{fontSize:8,color:C.cyan,padding:"3px 8px",border:`1px solid ${C.cyan}30`,borderRadius:4,background:C.cyan+"08",fontWeight:600}}>● DATA AUTO-SYNCED</div>
         </div>
       </header>
 
       {/* ═══ NAV ═══ */}
-      <nav style={{position:"sticky",top:0,zIndex:100,background:C.bg+"f0",backdropFilter:"blur(10px)",borderBottom:`1px solid ${C.border}`,padding:"5px 10px"}}>
-        <div style={{display:"flex",gap:1,overflowX:"auto",scrollbarWidth:"none"}}>
-          {NAV.map(n=>(<button key={n.id} onClick={()=>go(n.id)} style={{flex:"0 0 auto",padding:"3px 8px",border:"none",borderRadius:3,background:activeNav===n.id?C.cyan+"15":"transparent",color:activeNav===n.id?C.cyan:C.sub,cursor:"pointer",fontSize:8.5,fontWeight:700,fontFamily:"inherit",whiteSpace:"nowrap",borderBottom:activeNav===n.id?`2px solid ${C.cyan}`:"2px solid transparent"}}>{n.l}</button>))}
+      <nav style={{position:"sticky",top:0,zIndex:100,background:C.bg+"f5",backdropFilter:"blur(12px)",borderBottom:`1px solid ${C.border}`,padding:"8px 16px"}}>
+        <div style={{display:"flex",gap:6,overflowX:"auto",scrollbarWidth:"none",WebkitOverflowScrolling:"touch"}}>
+          {NAV.map(n=>(<button className="dash-nav-btn" key={n.id} onClick={()=>go(n.id)} style={{flex:"0 0 auto",padding:"6px 14px",border:activeNav===n.id?`1px solid ${C.cyan}`:`1px solid ${C.border}`,borderRadius:20,background:activeNav===n.id?C.cyan+"18":"transparent",color:activeNav===n.id?C.cyan:C.sub,cursor:"pointer",fontSize:10,fontWeight:700,fontFamily:"inherit",whiteSpace:"nowrap",transition:"all 0.2s ease",boxShadow:activeNav===n.id?`0 0 8px ${C.cyan}20`:"none"}}>{n.l}</button>))}
         </div>
       </nav>
 
-      <div style={{padding:"14px 12px 40px"}}>
+      <div className="dash-content" style={{padding:"18px 16px 50px"}}>
 
       {/* ═══ WHAT CHANGED TODAY ═══ */}
-      <div style={{background:C.red+"0c",border:`1px solid ${C.red}20`,borderRadius:6,padding:"10px 12px",marginBottom:16}}>
-        <div style={{fontSize:7.5,fontWeight:800,color:C.red,letterSpacing:2,marginBottom:5,fontFamily:mono}}>{iWC?.label || "WHAT CHANGED"}</div>
-        <div style={{fontSize:9,color:C.text,lineHeight:1.8}}>
+      <div style={{background:C.red+"0c",border:`1px solid ${C.red}20`,borderRadius:8,padding:"16px 18px",marginBottom:20}}>
+        <div className="dash-wc-label" style={{fontSize:8.5,fontWeight:800,color:C.red,letterSpacing:2.5,marginBottom:8,fontFamily:mono}}>{iWC?.label || "WHAT CHANGED"}</div>
+        <div className="dash-wc-body" style={{fontSize:10.5,color:C.text,lineHeight:1.9}}>
           {iWC?.items ? iWC.items.map((item,i) => (
             <span key={i}>• <strong style={{color:C[item.color]||C.red}}>{item.bold}</strong>{item.text}<br/></span>
           )) : (
@@ -295,7 +327,7 @@ export default function App(){
       </div>
 
       {/* ═══ METRICS ═══ */}
-      <div style={{display:"grid",gridTemplateColumns:"1fr 1fr 1fr 1fr",gap:5,marginBottom:18}}>
+      <div className="dash-grid-4" style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:8,marginBottom:22}}>
         <Mc label="War Dead" value={iDeaths} delta="" sub={iDeathsSub} accent={C.red}/>
         <Mc label="Brent" value={`$${brentPrice}`} delta={brentDelta} deltaColor={brentChg>0?C.red:C.green} sub="was $65 pre-war" accent={brentColor}/>
         <Mc label="Nifty" value={niftyPrice.toLocaleString()} delta={niftyDelta} deltaColor={niftyColor} sub="Wed +2.2% rallying" accent={niftyAccent}/>
@@ -315,7 +347,7 @@ export default function App(){
             <div style={{fontSize:7,color:C.sub}}>{HORMUZ.preWarFlow} → {HORMUZ.currentFlow}</div>
           </div>
         </div>
-        <div style={{display:"grid",gridTemplateColumns:"1fr 1fr 1fr",gap:6,marginBottom:12}}>
+        <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:8,marginBottom:12}}>
           <div style={{background:C.card,borderRadius:6,padding:8,textAlign:"center"}}>
             <div style={{fontSize:6.5,color:C.muted,letterSpacing:1}}>SHIPS WAITING</div>
             <div style={{fontSize:16,fontWeight:800,color:C.orange,fontFamily:mono}}>{HORMUZ.totalShipsWaiting}</div>
