@@ -139,9 +139,9 @@ const HORMUZ = {
   preWarFlow: "25.1M bpd",
   currentFlow: "≤6 ships/day",
   reduction: "95%+ (ships/day)",
-  indianVesselsNear: 20,
-  indianSeafarers: 540,
-  indianTransited: 6,
+  indianVesselsNear: 18,
+  indianSeafarers: 485,
+  indianTransited: 8,
   totalShipsWaiting: "2,000 ships / 20K seafarers / 12+ mines",
   lastTransit: "2 SCI carriers (Mar 28)",
   indianNavyEscort: "Op. Urja Suraksha — 5+ warships",
@@ -358,7 +358,7 @@ export default function App(){
           <div style={{background:C.card,borderRadius:6,padding:8,textAlign:"center"}}>
             <div style={{fontSize:6.5,color:C.muted,letterSpacing:1}}>🇮🇳 INDIAN CROSSED SAFELY</div>
             <div style={{fontSize:16,fontWeight:800,color:C.green,fontFamily:mono}}>{HORMUZ.indianTransited}</div>
-            <div style={{fontSize:6.5,color:C.sub}}>4 LPG + 2 SCI carriers</div>
+            <div style={{fontSize:6.5,color:C.sub}}>6 LPG + 1 crude + 1 gasoline</div>
           </div>
           <div style={{background:C.card,borderRadius:6,padding:8,textAlign:"center"}}>
             <div style={{fontSize:6.5,color:C.muted,letterSpacing:1}}>GLOBAL STRANDED</div>
