@@ -135,28 +135,30 @@ const RADAR = [
 
 // ═══════ HORMUZ DATA ═══════
 const HORMUZ = {
-  status: "EFFECTIVELY CLOSED",
+  status: "SELECTIVE BLOCKADE",
   preWarFlow: "25.1M bpd",
-  currentFlow: "9.7M bpd (est.)",
-  reduction: "61%",
-  indianVesselsWaiting: 28,
-  indianTransited: 2,
+  currentFlow: "≤6 ships/day",
+  reduction: "95%+ (ships/day)",
+  indianVesselsNear: 20,
+  indianSeafarers: 540,
+  indianTransited: 6,
   totalShipsWaiting: "2,000 ships / 20K seafarers / 12+ mines",
-  lastTransit: "Aframax Karachi (Mar 16)",
-  indianNavyEscort: "Op. Sankalp active",
+  lastTransit: "2 SCI carriers (Mar 28)",
+  indianNavyEscort: "Op. Urja Suraksha — 5+ warships",
   events: [
-    {d:"Mar 4",e:"IRIS Dena torpedoed off Sri Lanka"},
+    {d:"Mar 4",e:"IRIS Dena torpedoed off Sri Lanka. 87 killed"},
     {d:"Mar 12",e:"3 commercial ships hit in Hormuz"},
-    {d:"Mar 15-16",e:"Shivalik + Nanda Devi cross under Navy escort"},
-    {d:"Mar 16",e:"Aframax Karachi transits with AIS on"},
+    {d:"Mar 14",e:"Shivalik + Nanda Devi (Indian LPG) cross under Navy escort"},
+    {d:"Mar 16",e:"Shivalik docks Mundra. Nanda Devi at Kandla Mar 17"},
     {d:"Mar 18",e:"US drops 5,000-lb bunker busters on Hormuz missile sites"},
     {d:"Mar 19",e:"Aramco Yanbu hit. Ras Laffan: $20B loss, 3-5yr repair. QatarEnergy force majeure"},
-    {d:"Mar 20",e:"20 nations condemn Hormuz closure. UN negotiating humanitarian corridor. UK military planners join US on Hormuz plan"},
-    {d:"Mar 21",e:"NATANZ hit again. Diego Garcia targeted. 70th wave. 8,000 targets struck. UK: CRITICAL threat level"},
-    {d:"Mar 22",e:"DIMONA hit — 100+ injured. IRGC claims 3rd jet downed. Iraq closes airspace 72hr. 22-nation Hormuz coalition formed"},
-    {d:"Mar 23",e:"TRUMP REVERSES: 5-day pause on energy strikes. Claims talks. Iran denies. Brent crashes -10% to $99. 12+ underwater mines confirmed in Hormuz (US intel)"},
-    {d:"Mar 24",e:"Modi-Trump call: Hormuz must stay open. Pakistan ready to host talks. Iran: willing to listen. 82nd Airborne deploying"},
-    {d:"Mar 25",e:"US seeking month-long ceasefire + sent 15-point plan. Iran: non-hostile ships CAN transit Hormuz. Brent below $100. Bernstein: rupee could hit 98"},
+    {d:"Mar 22",e:"DIMONA hit. 22-nation Hormuz coalition formed. 12+ mines confirmed"},
+    {d:"Mar 23",e:"Trump 5-day pause. Lloyd's: 2 vessels paid 'Tehran Toll Booth' fees"},
+    {d:"Mar 25",e:"Pine Gas + Jag Vasant (Indian LPG, 92,612 tons) cross Hormuz"},
+    {d:"Mar 26",e:"Iran FM: India, China, Russia, Pakistan, Iraq vessels ALLOWED. IRGC Navy chief killed"},
+    {d:"Mar 27",e:"8 Pakistani tankers cross. But 3 other ships TURNED BACK. Trump extends to Apr 6"},
+    {d:"Mar 28",e:"2 more SCI carriers cross + discharge in India. Iran allows 20 Pakistani ships (2/day)"},
+    {d:"Mar 29",e:"Houthis join war — Bab al-Mandeb chokepoint now at risk. BOTH routes threatened"},
   ]
 };
 
@@ -342,26 +344,26 @@ export default function App(){
             <div style={{fontSize:11,fontWeight:900,color:C.red,marginTop:3}}>{HORMUZ.status}</div>
           </div>
           <div style={{background:C.card,borderRadius:6,padding:10,textAlign:"center"}}>
-            <div style={{fontSize:7,color:C.muted,fontWeight:700,letterSpacing:1.5}}>OIL FLOW REDUCTION</div>
+            <div style={{fontSize:7,color:C.muted,fontWeight:700,letterSpacing:1.5}}>SHIP TRAFFIC</div>
             <div style={{fontSize:18,fontWeight:900,color:C.orange,marginTop:3,fontFamily:mono}}>{HORMUZ.reduction}</div>
-            <div style={{fontSize:7,color:C.sub}}>{HORMUZ.preWarFlow} → {HORMUZ.currentFlow}</div>
+            <div style={{fontSize:7,color:C.sub}}>Pre-war: ~130 ships/day → now ≤6</div>
           </div>
         </div>
-        <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:8,marginBottom:12}}>
+        <div style={{display:"grid",gridTemplateColumns:"1fr 1fr 1fr",gap:6,marginBottom:12}}>
           <div style={{background:C.card,borderRadius:6,padding:8,textAlign:"center"}}>
-            <div style={{fontSize:6.5,color:C.muted,letterSpacing:1}}>SHIPS WAITING</div>
-            <div style={{fontSize:16,fontWeight:800,color:C.orange,fontFamily:mono}}>{HORMUZ.totalShipsWaiting}</div>
-            <div style={{fontSize:6.5,color:C.sub}}>both sides</div>
+            <div style={{fontSize:6.5,color:C.muted,letterSpacing:1}}>🇮🇳 INDIAN SHIPS IN GULF</div>
+            <div style={{fontSize:16,fontWeight:800,color:C.orange,fontFamily:mono}}>{HORMUZ.indianVesselsNear}</div>
+            <div style={{fontSize:6.5,color:C.sub}}>{HORMUZ.indianSeafarers} seafarers (was 28 at peak)</div>
           </div>
           <div style={{background:C.card,borderRadius:6,padding:8,textAlign:"center"}}>
-            <div style={{fontSize:6.5,color:C.muted,letterSpacing:1}}>INDIAN STRANDED</div>
-            <div style={{fontSize:16,fontWeight:800,color:C.red,fontFamily:mono}}>{HORMUZ.indianVesselsWaiting}</div>
-            <div style={{fontSize:6.5,color:C.sub}}>merchant vessels</div>
-          </div>
-          <div style={{background:C.card,borderRadius:6,padding:8,textAlign:"center"}}>
-            <div style={{fontSize:6.5,color:C.muted,letterSpacing:1}}>INDIAN TRANSITED</div>
+            <div style={{fontSize:6.5,color:C.muted,letterSpacing:1}}>🇮🇳 INDIAN CROSSED SAFELY</div>
             <div style={{fontSize:16,fontWeight:800,color:C.green,fontFamily:mono}}>{HORMUZ.indianTransited}</div>
-            <div style={{fontSize:6.5,color:C.sub}}>LPG tankers</div>
+            <div style={{fontSize:6.5,color:C.sub}}>4 LPG + 2 SCI carriers</div>
+          </div>
+          <div style={{background:C.card,borderRadius:6,padding:8,textAlign:"center"}}>
+            <div style={{fontSize:6.5,color:C.muted,letterSpacing:1}}>GLOBAL STRANDED</div>
+            <div style={{fontSize:14,fontWeight:800,color:C.red,fontFamily:mono}}>2,000+</div>
+            <div style={{fontSize:6.5,color:C.sub}}>ships / 20K seafarers / 12+ mines</div>
           </div>
         </div>
         <div style={{background:C.card,borderRadius:6,padding:10}}>
@@ -370,7 +372,7 @@ export default function App(){
             <span style={{fontSize:7.5,color:C.cyan,fontWeight:700,minWidth:42,fontFamily:mono}}>{e.d}</span>
             <span style={{fontSize:8,color:C.sub,lineHeight:1.4}}>{e.e}</span>
           </div>))}
-          <div style={{fontSize:7,color:C.muted,marginTop:6}}>🇮🇳 Indian Navy: {HORMUZ.indianNavyEscort} • Last non-Iranian transit: {HORMUZ.lastTransit}</div>
+          <div style={{fontSize:7,color:C.muted,marginTop:6}}>🇮🇳 {HORMUZ.indianNavyEscort} • Last transit: {HORMUZ.lastTransit} • Only 21 tankers total since Feb 28 (S&P Global)</div>
         </div>
       </S>
 
