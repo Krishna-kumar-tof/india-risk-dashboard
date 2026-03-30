@@ -1,84 +1,87 @@
 {
-  "_updated": "March 30, 2026 — 9:30 AM IST",
+  "_updated": "March 30, 2026 — 5:30 PM IST",
   "_day": 31,
-  "_note": "Update this file only. App.jsx never changes. All facts verified from multiple sources.",
+  "_note": "All facts verified from multiple sources. Update this file only.",
   "ticker": [
-    "⚡ DAY 31. Pentagon preparing LIMITED GROUND OPS in Iran — Kharg Island raids + coastal Hormuz sites (Washington Post)",
-    "🔴 Trump: Iran agreed to 'MOST OF' US 15-point demands. But Iran says 'WE decide when war ends.' Forces 'waiting' for US ground troops",
-    "🚢 Iran FM: ships from India, China, Russia, Pakistan, Iraq EXPLICITLY ALLOWED through Hormuz. 20 Indian ships + 540 seafarers still in Gulf",
-    "🇮🇳 India's Op URJA SURAKSHA: 5+ Navy warships escorting 20 high-priority ships through Gulf of Oman. 6 Indian carriers crossed so far",
-    "🇾🇪 HOUTHIS fired 2nd salvo at Israel. Bab al-Mandeb chokepoint now at risk — BOTH global oil routes threatened simultaneously",
-    "📉 Brent $106+ rising again. World losing 20M barrels/day (IEA). FII outflow ₹1,13,810 Cr March. Oil up 50%+ since war",
-    "☢️ Iran POLITICIANS pushing to EXIT Nuclear Non-Proliferation Treaty. Heavy-water plant + yellowcake + Arak struck. Universities hit",
-    "🇵🇰 Pakistan-Saudi-Turkey-Egypt 4-way talks in Islamabad. Pakistan ready to HOST US-Iran talks 'in coming days'",
-    "⚠️ Qatar signs DEFENCE PACT with Ukraine on counter-drone/missile tech. UAE: 414 missiles + 1,914 drones intercepted total",
-    "🇮🇳 India: Excise cut ₹10/L. Rupee 94.79 ATL. RBI burned $15B. Indian basket $125/bbl. 91% LPG from Gulf. Biggest loser in war it isn't fighting"
+    "📉 SENSEX CRASHES -1,636 to 71,948 — FY26's LAST DAY BLOODBATH. Nifty 22,331. WORST month in 6 years. ₹44L+ Cr destroyed",
+    "🔴 Brent surges past $115 — up 55% since war. Rupee hits NEW ATL 94.84. FII outflow $12.3 BILLION in March — all-time record",
+    "🚢 BW Elm + BW Tyr (94,000 MT LPG) cross Hormuz with Navy escort — 8 Indian carriers crossed total. 18 ships + 485 crew remain",
+    "⚔️ Pentagon preparing LIMITED GROUND OPS — Kharg Island raids + coastal Hormuz. 3,500 troops on USS Tripoli. Iran: 'forces WAITING'",
+    "🇾🇪 HOUTHIS fired 2ND salvo at Israel. Bab al-Mandeb chokepoint at risk — BOTH Hormuz AND Red Sea routes threatened for India",
+    "🇵🇰 4-way talks: Pakistan-Saudi-Turkey-Egypt in Islamabad. Pakistan to HOST US-Iran talks 'in coming days.' Trump: Iran agreed to 'most' demands",
+    "☢️ Iran pushing NPT EXIT. Heavy-water + yellowcake + Arak struck. Nuclear scientists killed. IRGC threatens US university campuses",
+    "🇮🇳 India excise cut ₹10/L. RBI burned $15B. Forex -$19B. Indian basket $125/bbl. 91% LPG from Gulf. 942+ seafarers repatriated",
+    "💰 $580M suspicious oil futures bets 15min BEFORE Trump's post. Dubai crude $126 (physical) vs Brent $115 (paper). Gap widening",
+    "🌐 DAY 31. WEF: 'structural shock to world economy.' IEA: 'greatest energy security challenge in history.' April 6 = 7 days"
   ],
   "whatChanged": {
-    "label": "WHAT CHANGED — MAR 30, 9:30 AM IST (DAY 31)",
+    "label": "WHAT CHANGED — MAR 30, 5:30 PM IST (DAY 31)",
     "items": [
-      {"color": "red", "bold": "Pentagon preparing LIMITED GROUND OPS", "text": " — Kharg Island seizure + coastal Hormuz raids (WashPost). Trump: 'Maybe we take Kharg, maybe we don't.' 3,500 more troops arrived on USS Tripoli. Iran parliament: 'forces waiting for them'"},
-      {"color": "cyan", "bold": "India: 6 LPG/crude carriers crossed Hormuz safely.", "text": " Op Urja Suraksha: 5+ Navy warships escorting 20 remaining ships. Iran FM explicitly allowed India, China, Russia, Pakistan, Iraq vessels. But 20 ships + 540 seafarers still stranded"},
-      {"color": "red", "bold": "Houthis fired 2ND salvo at Israel.", "text": " Bab al-Mandeb chokepoint now at risk — BOTH Hormuz AND Red Sea routes threatened. War spans 7+ countries + Indian Ocean. Nuclear exit from NPT being pushed in Iran parliament"},
-      {"color": "orange", "bold": "4-way talks: Pakistan-Saudi-Turkey-Egypt in Islamabad.", "text": " Pakistan ready to host US-Iran talks. Trump: Iran agreed to 'most of' 15 points. Iran: 'we decide when war ends.' April 6 deadline = 7 days"},
-      {"color": "red", "bold": "FII outflow ₹1,13,810 Cr March", "text": " — largest ever. Oil up 50%+ since war. World losing 20M bbl/day. Brent $106+. Excise cut ₹10/L. Rupee 94.79 ATL. Indian basket $125/bbl. PhonePe halted IPO"},
-      {"color": "purple", "bold": "Israel struck steel plants, universities, Arak heavy-water.", "text": " Nuclear scientists killed. Qatar signed defense pact with Ukraine on counter-drone tech. UAE: 414 missiles + 1,914 drones intercepted since Feb 28. UNIFIL peacekeeper killed in Lebanon"}
+      {"color": "red", "bold": "SENSEX CRASHES -1,636 to 71,948.", "text": " FY26 ends in bloodbath. Nifty 22,331. WORST month in 6 years. Brent past $115. Rupee 94.84 NEW ATL. FII outflow $12.3B March — all-time record"},
+      {"color": "cyan", "bold": "BW Elm + BW Tyr (94,000 MT LPG) cross Hormuz.", "text": " Navy escort confirmed (ANI video). BW Tyr → Mumbai Mar 31. BW Elm → Mangalore Apr 1. Total 8 Indian carriers crossed. 18 ships + 485 crew remain"},
+      {"color": "red", "bold": "Pentagon planning ground ops.", "text": " Kharg Island raids + coastal Hormuz sites (WashPost). 3,500 troops arrived on USS Tripoli. Iran parliament: 'forces waiting.' Trump: 'maybe we take Kharg, maybe we don't'"},
+      {"color": "orange", "bold": "Houthis fired 2nd salvo. Bab al-Mandeb at risk.", "text": " BOTH Hormuz + Red Sea routes now threatened. For India: if both close, entire maritime energy supply severed. No Cape reroute possible"},
+      {"color": "cyan", "bold": "4-way Islamabad talks (Pak-Saudi-Turkey-Egypt).", "text": " Pakistan to host US-Iran talks 'in coming days.' Trump: Iran agreed to 'most of' 15 points. Iran: 'WE decide when war ends.' $580M suspicious futures bets under probe"},
+      {"color": "purple", "bold": "Iran pushing NPT exit.", "text": " Nuclear scientists killed. IRGC threatens US universities. WEF: 'structural shock to world economy.' Brent up 55% in one month. Dubai crude $126 (physical). April 6 = 7 days"}
     ]
   },
   "deaths": "4,700+",
   "deathsSub": "1,900+ Iran (217 kids), 1,189 Lebanon (124 kids), 99 Iraq, 19 Israel, 15 US, 30+ Gulf",
   "econ": {
-    "sensex": "73,583", "sensexDelta": "▼ Fri close -1,690", "sensexSub": "5th weekly fall. 12% down since Jan. Opens Mon",
+    "sensex": "71,948", "sensexDelta": "▼ -1,636 (-2.22%)", "sensexSub": "FY26 last day bloodbath. Worst month in 6 yrs",
     "vix": "25.78", "vixDelta": "▲ elevated",
-    "fpi": "$13.5B+", "fpiDelta": "₹1,13,810 Cr March",
+    "fpi": "$12.3B", "fpiDelta": "₹1,13,810+ Cr March (record)",
     "wealth": "₹44L+ Cr",
-    "analysis": "DAY 31: Pentagon preparing ground ops. Oil up 50%+ since war — world losing 20M bbl/day. FII ₹1,13,810 Cr — largest monthly selloff ever. PhonePe halted IPO. Nomura cut Nifty 15%. Market down 12% YTD. Excise cut ₹10/L. Rupee 94.79 ATL. RBI burned $15B. Forex -$19B. Indian basket $125/bbl. Macquarie: 40% chance $200 oil. Both Hormuz AND Bab al-Mandeb now at risk."
+    "analysis": "DAY 31: Sensex 71,948 — crashed below 72K. Nifty 22,331. FY26 ends in worst monthly rout in 6 years. Brent $115+ (up 55% since war). Rupee 94.84 NEW ATL. FII outflow $12.3B — all-time March record. RBI burned $15B. Forex -$19B. Indian basket $125/bbl. Dubai physical crude $126 vs Brent paper $115 — gap shows physical scarcity. WEF: 'structural shock.' CNBC: stopgap measures losing effectiveness in April."
   },
   "hormuzLatest": [
-    {"d": "Mar 30", "e": "Iran FM (Mar 26): ships from India, China, Russia, Pakistan, Iraq EXPLICITLY allowed. 20 Indian ships + 540 seafarers remain. Op Urja Suraksha: 5+ Navy warships guiding ships through Larak-Qeshm corridor. 6 Indian carriers crossed safely so far. Houthis threaten Bab al-Mandeb — BOTH chokepoints at risk. Pentagon planning raids on coastal Hormuz sites. UAE: 414 missiles + 1,914 drones intercepted total."}
+    {"d": "Mar 30", "e": "BW Elm + BW Tyr (94,000 MT LPG) crossed with Navy escort. BW Tyr → Mumbai Mar 31. BW Elm → Mangalore Apr 1. Total 8 Indian carriers safely crossed. 18 ships + 485 crew remain. Only 21 tankers total transited since Feb 28 (S&P Global). Iran allows India, China, Russia, Pakistan, Iraq, Malaysia, Thailand. Houthis threaten Bab al-Mandeb — BOTH chokepoints at risk. Pentagon planning Kharg raids."}
   ],
   "hormuzVessels": {
     "preWarDaily": "~130 ships/day",
-    "currentDaily": "≤6 ships/day — Only 21 tankers total transited since Feb 28 (S&P Global)",
+    "currentDaily": "≤6 ships/day — Only 21 tankers total since Feb 28 (S&P Global)",
     "indianVessels": {
-      "peak": "28 Indian-flagged vessels near Hormuz at war start",
-      "current": "20 Indian ships + 540 Indian seafarers remain in western Gulf",
-      "crossed": "6 carriers have safely crossed (4 LPG + 1 crude + 1 unknown)",
-      "operation": "Op Urja Suraksha — 5+ Indian Navy warships (destroyers + frigates) deployed to Gulf of Oman. Ships routed through Larak-Qeshm corridor for Iranian verification."
+      "peak": "28 Indian-flagged vessels at war start (24 west + 4 east of Hormuz)",
+      "current": "18 Indian ships + 485 seafarers remain in western Gulf",
+      "crossed": "8 carriers safely crossed + discharged in India",
+      "repatriated": "942+ Indian seafarers repatriated so far",
+      "operation": "Op Urja Suraksha — 5+ Navy warships (destroyers + frigates). Ships route through Larak-Qeshm corridor."
     },
     "recentTransits": [
-      {"date": "Mar 28", "vessel": "2 SCI petroleum carriers", "note": "Crossed + discharged cargo in India. Op Urja Suraksha escort."},
-      {"date": "Mar 25-26", "vessel": "Pine Gas + Jag Vasant (LPG)", "note": "92,612 tons LPG combined. Reached India Mar 26-28. Navy escort."},
-      {"date": "Mar 14", "vessel": "Shivalik (LPG) + Nanda Devi (LPG)", "note": "First Indian ships to cross. Shivalik at Mundra Mar 16. Nanda Devi at Kandla Mar 17."},
-      {"date": "Mar 28-29", "vessel": "20 Pakistani-flagged ships (2/day)", "note": "Pakistan mediation deal with Iran. FM Dar: 'harbinger of peace.'"},
-      {"date": "Mar 27", "vessel": "3 vessels TURNED BACK", "note": "IRGC closed to 'enemy' port vessels. Not all flags get passage."},
-      {"date": "Various", "vessel": "Chinese, Turkish, Malaysian, Thai vessels", "note": "Iran selectively allowing. Chinese ships broadcast 'CHINA OWNER.' Lloyd's: 'Tehran Toll Booth' route."}
+      {"date": "Mar 29", "vessel": "BW Tyr + BW Elm (LPG, 94,000 MT)", "note": "Navy escort confirmed (ANI). BW Tyr → Mumbai Mar 31. BW Elm → Mangalore Apr 1."},
+      {"date": "Mar 28", "vessel": "2 SCI petroleum carriers", "note": "Crossed + discharged cargo in India."},
+      {"date": "Mar 25", "vessel": "Pine Gas + Jag Vasant (LPG, 92,612 MT)", "note": "33 + 27 crew. Reached India Mar 26-28. Via Larak-Qeshm corridor."},
+      {"date": "Mar 18", "vessel": "Jag Laadki (crude, 80,886 MT)", "note": "Crude oil from UAE. Reached Mundra."},
+      {"date": "Mar 14", "vessel": "Shivalik + Nanda Devi (LPG, 92,712 MT)", "note": "First to cross. Shivalik → Mundra Mar 16. Nanda Devi → Kandla Mar 17."},
+      {"date": "Mar 28-29", "vessel": "20 Pakistani ships (2/day)", "note": "Pakistan mediation deal. FM Dar: 'harbinger of peace.'"},
+      {"date": "Mar 27", "vessel": "3 vessels TURNED BACK", "note": "IRGC: closed to 'enemy' port vessels. Not all flags get passage."}
     ],
-    "blockadeStatus": "SELECTIVE ENFORCEMENT. Iran explicitly allows: India, China, Russia, Pakistan, Iraq, Malaysia, Thailand. Blocks: US, Israel, Western allies. Parliament writing Hormuz toll fees into permanent law. 12+ Maham 3/7 Limpet mines confirmed. 16+ vessels attacked since Mar 1 (IMO). Ships forced through Larak-Qeshm corridor (not standard TSS). Houthis now threatening Bab al-Mandeb — BOTH global chokepoints at risk.",
-    "keyFigures": "IRGC Navy chief Tangsiri killed (Mar 26). India's Op Urja Suraksha: 5+ warships. Pakistan FM facilitating. 20,000+ seafarers stranded globally."
+    "stillWaiting": "LPG carriers Jag Vikram, Green Asha, Green Sanvi still in western Gulf. 1 empty vessel being loaded with LPG.",
+    "blockadeStatus": "SELECTIVE ENFORCEMENT. Iran allows: India, China, Russia, Pakistan, Iraq, Malaysia, Thailand. Blocks: US, Israel, Western allies. Lloyd's: 'Tehran Toll Booth' — fees charged in Chinese yuan. Parliament writing toll into permanent law. 12+ Maham 3/7 mines. 16+ vessels attacked (IMO). Houthis now threaten Bab al-Mandeb.",
+    "keyFigures": "IRGC Navy chief Tangsiri killed (Mar 26). Op Urja Suraksha: 5+ warships. DG Shipping: 4,523 calls + 8,985 emails handled."
   },
   "milTop": [
-    {"t": "⚔️ Pentagon Preparing LIMITED GROUND OPS (Mar 29)", "lv": "BREAKING", "color": "red", "d": "Washington Post: Pentagon planning 'weeks of limited ground operations' — raids on Kharg Island (90% of Iran oil exports) + coastal Hormuz sites. 3,500 troops arrived on USS Tripoli. Trump: 'Maybe we take Kharg, maybe we don't — we'd need to be there a while.' Iran parliament speaker: 'our forces are WAITING for them — we'll never accept humiliation.'"},
-    {"t": "🇮🇳 India Op Urja Suraksha — 6 Carriers Crossed (VERIFIED)", "lv": "DEVELOPING", "color": "cyan", "d": "FACT-CHECKED: 28 Indian ships at peak → 20 remain with 540 seafarers. 6 have crossed safely: Shivalik (Mar 14), Nanda Devi (Mar 14), Pine Gas (Mar 25), Jag Vasant (Mar 25), + 2 SCI carriers (Mar 28). 5+ Navy warships (destroyers + frigates) escorting through Gulf of Oman. Ships route through Larak-Qeshm corridor. Iran FM explicitly allowed Indian vessels on Mar 26."},
-    {"t": "🇾🇪 Houthis Open Bab al-Mandeb Front — BOTH Chokepoints At Risk", "lv": "BREAKING", "color": "red", "d": "Houthis fired 2 salvos at Israel. Analysts warn they could block Bab al-Mandeb strait — which handles Red Sea + Suez trade. If BOTH Hormuz AND Bab al-Mandeb close: catastrophic for India. Iran source told Tasnim: can open 'new front at mouth of Red Sea.' Qatar signed Ukraine defense pact on counter-drone/missile tech."}
+    {"t": "📉 SENSEX 71,948 — FY26 Ends in BLOODBATH (Mar 30)", "lv": "BREAKING", "color": "red", "d": "Sensex -1,636 (-2.22%) to 71,948. Nifty 22,331. Worst month in 6 years. Brent past $115 (up 55% since war). Rupee 94.84 NEW ATL. FII outflow $12.3B March — all-time record. Dubai physical crude $126 vs Brent paper $115. CNBC: stopgap measures losing effectiveness in April."},
+    {"t": "🚢 8 Indian Carriers Crossed — BW Elm + BW Tyr Latest (VERIFIED)", "lv": "DEVELOPING", "color": "cyan", "d": "VERIFIED: 28 ships at peak → 18 remain + 485 crew. 8 crossed safely: Shivalik, Nanda Devi (Mar 14), Jag Laadki crude (Mar 18), Pine Gas, Jag Vasant (Mar 25), 2 SCI carriers (Mar 28), BW Elm + BW Tyr (Mar 29, 94,000 MT). BW Tyr → Mumbai Mar 31. Navy escort video confirmed. 942+ seafarers repatriated. Still waiting: Jag Vikram, Green Asha, Green Sanvi."},
+    {"t": "⚔️ Pentagon Ground Ops + Houthis + BOTH Chokepoints At Risk", "lv": "BREAKING", "color": "red", "d": "Pentagon planning Kharg Island raids (WashPost). 3,500 troops on USS Tripoli. Houthis fired 2 salvos — Bab al-Mandeb at risk. If BOTH Hormuz + Red Sea close: India's ENTIRE maritime energy supply severed. Iran pushing NPT exit. 4-way Islamabad talks. Trump: Iran agreed to 'most' demands. April 6 = 7 days."}
   ],
   "tlLatest": [
-    {"d": 31, "l": "Mar 30", "deaths": 4700, "brent": 106, "nifty": 22820, "rupee": 94.79, "tag": "DAY 31. Pentagon ground ops planned. 6 Indian carriers crossed. Houthis 2nd salvo. 4-way talks in Islamabad. NPT exit pushed. April 6 = 7 days", "sev": 3}
+    {"d": 31, "l": "Mar 30", "deaths": 4700, "brent": 115, "nifty": 22331, "rupee": 94.84, "tag": "Sensex 71,948 (-1,636). Nifty 22,331. Rupee 94.84 ATL. Brent $115. 8 Indian ships crossed. Pentagon ground ops. Houthis 2nd salvo. April 6 = 7 days", "sev": 3}
   ],
-  "projNow": {"brent": 106, "rupee": 94.79, "lpg": 913, "petrol": 84.77, "deaths": 4700},
-  "scenarios": {"brent": [65, 106, 118, 135, 200], "rupee": [91.0, 94.79, 96.5, 98.0, 110.0], "deaths": [0, "4,700+", "8,500", "16,000", "40,000"]},
+  "projNow": {"brent": 115, "rupee": 94.84, "lpg": 913, "petrol": 84.77, "deaths": 4700},
+  "scenarios": {"brent": [65, 115, 126, 140, 200], "rupee": [91.0, 94.84, 96.5, 98.0, 110.0], "deaths": [0, "4,700+", "9,000", "16,000", "40,000"]},
   "radar": [
-    {"axis": "Oil Shock", "w1": 60, "now": 92, "w4": 97},
-    {"axis": "Market Crash", "w1": 45, "now": 94, "w4": 94},
+    {"axis": "Oil Shock", "w1": 60, "now": 94, "w4": 98},
+    {"axis": "Market Crash", "w1": 45, "now": 96, "w4": 96},
     {"axis": "Nuclear Risk", "w1": 20, "now": 86, "w4": 95},
     {"axis": "Hormuz Closure", "w1": 80, "now": 92, "w4": 97},
-    {"axis": "Household Impact", "w1": 15, "now": 97, "w4": 99},
-    {"axis": "Currency Crisis", "w1": 40, "now": 96, "w4": 99},
-    {"axis": "Social Unrest", "w1": 25, "now": 80, "w4": 92},
+    {"axis": "Household Impact", "w1": 15, "now": 98, "w4": 99},
+    {"axis": "Currency Crisis", "w1": 40, "now": 97, "w4": 99},
+    {"axis": "Social Unrest", "w1": 25, "now": 82, "w4": 92},
     {"axis": "Military Exposure", "w1": 35, "now": 97, "w4": 99}
   ],
   "assessment": {
-    "headline": "DAY 31. Pentagon plans ground ops. Both chokepoints at risk. But 6 Indian carriers crossed. The paradox deepens.",
-    "body": "The war is simultaneously escalating (Pentagon planning ground raids on Kharg Island, Houthis threatening Bab al-Mandeb, nuclear scientists killed, NPT exit pushed) AND showing diplomatic cracks (4-way Islamabad talks, Trump claiming Iran agreed to 'most' demands, 20 Pakistani ships transiting).\n\nFor India specifically — VERIFIED FACTS:\n• 28 Indian ships were near Hormuz at war's peak → 20 remain with 540 seafarers\n• 6 carriers have safely crossed: Shivalik, Nanda Devi (Mar 14), Pine Gas, Jag Vasant (Mar 25), + 2 SCI carriers (Mar 28)\n• Op Urja Suraksha: 5+ Navy warships escorting through Gulf of Oman\n• Iran FM on Mar 26 explicitly listed India among nations allowed passage\n• BUT: 91% of LPG still Gulf-dependent. Only a fraction of monthly need covered\n\nThe DUAL CHOKEPOINT THREAT is the gravest development for India. If Houthis block Bab al-Mandeb (Red Sea), ships can't even reroute around Hormuz via the Cape of Good Hope and Suez. India's ENTIRE maritime energy supply chain would be severed.\n\nEconomic damage is now structural: FII outflow ₹1,13,810 Cr (largest ever monthly). Rupee 94.79 ATL. RBI burned $15B. Excise cut ₹10/L ('huge revenue hit'). Indian basket $125/bbl. Market down 12% YTD. PhonePe halted IPO.\n\nCSMonitor: 'India is the biggest loser in a war it isn't even fighting.' EPW: 'strategic autonomy squandered.' Pakistan mediates. India gets selective passage but is absent from diplomacy.\n\nApril 6 = 7 days. Ground ops are being planned. If Kharg is seized, Iran could retaliate against Indian assets in the Gulf. If talks succeed, massive relief. India is walking a tightrope between being a key buyer that Iran needs — and a nation with 10 million citizens in a war zone."
+    "headline": "DAY 31. Sensex crashes to 71,948. Brent $115. Rupee 94.84 ATL. But 8 Indian carriers crossed. FY26 ends in crisis.",
+    "body": "FY26 ended the way no one imagined — Sensex at 71,948 after crashing 1,636 points. Nifty at 22,331. This is the worst monthly market performance in 6 years. Brent has surged past $115 — up 55% in one month. The rupee hit a new all-time low of 94.84. FII outflow reached $12.3 billion in March — an all-time record.\n\nBut India's quiet operation is working: 8 carriers have now safely crossed Hormuz — Shivalik, Nanda Devi, Jag Laadki (crude), Pine Gas, Jag Vasant, 2 SCI carriers, and now BW Elm + BW Tyr (94,000 MT LPG with Navy escort). BW Tyr reaches Mumbai March 31. 18 ships + 485 crew still remain. 942+ seafarers have been repatriated.\n\nThe dual chokepoint threat is the gravest development: Houthis fired 2 salvos at Israel and could block Bab al-Mandeb. If both Hormuz AND Red Sea close, India's entire maritime energy supply is severed — no Cape of Good Hope reroute helps.\n\nVerified India numbers:\n• 28 ships at peak → 18 remain + 485 seafarers\n• 8 carriers crossed safely (carrying ~450,000+ MT of LPG/crude)\n• Op Urja Suraksha: 5+ Navy warships escorting\n• Still waiting: Jag Vikram, Green Asha, Green Sanvi\n• Excise cut ₹10/L. RBI burned $15B. Forex -$19B\n• 91% LPG from Gulf. Indian basket $125/bbl. Dubai physical $126\n• FII $12.3B outflow. ₹44L+ Cr destroyed. PhonePe halted IPO\n\nApril 6 deadline = 7 days. Pentagon is planning ground raids on Kharg Island. 4-way Islamabad talks underway. The WEF called this a 'structural shock to the world economy.' The IEA called it 'the greatest energy security challenge in history.' India is simultaneously getting some LPG through — and facing the worst economic month since the 2008 crisis."
   }
 }
