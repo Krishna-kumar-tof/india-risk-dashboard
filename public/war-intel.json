@@ -1,41 +1,41 @@
 {
-  "_updated": "March 31, 2026 — 8:30 AM IST",
+  "_updated": "March 31, 2026 — 6:00 PM IST",
   "_day": 32,
-  "_note": "All facts verified. Update this file only.",
+  "_note": "All facts verified from Al Jazeera, CNN, Bloomberg, Times of Israel, CBS, Alma Center, AP, Reuters, Britannica. Update this file only.",
   "ticker": [
-    "📉 SENSEX ended FY26 at 71,948 (-1,636). WORST MONTH in 6 yrs. Nifty 22,331. Rupee 94.84 ATL. FII $12.3B outflow — RECORD",
-    "🔴 Iran strikes FULLY LADEN Kuwaiti oil tanker near Dubai port — hull damaged, fire onboard. Biggest ship attack yet (Bloomberg)",
-    "⚡ Israel strikes Tehran POWER infrastructure — blackout across capital. IDF: 'attacking regime infrastructure throughout Tehran'",
-    "🇮🇳 INDIAN WORKER KILLED in Kuwait — strike on desalination + power plant. 10 Kuwaiti soldiers also injured. India's first civilian casualty",
-    "🛢️ Trump: 'I want to TAKE THE OIL in Iran.' Also: 'We'll make a deal, I'm pretty sure.' Rubio tells Al Jazeera: Trump prefers diplomacy",
-    "🚢 8 Indian carriers crossed Hormuz safely. BW Tyr → Mumbai TODAY (Mar 31). BW Elm → Mangalore Apr 1. 18 ships + 485 crew remain",
-    "⚔️ 50,000+ US SPECIAL FORCES now in Middle East (NYT). Pentagon planning Kharg raids. IRGC Tehran security chief Hassanzadeh killed",
-    "☢️ Iran: 2,000+ killed. 2 EXECUTED for alleged MEK links. Imam Hussein Univ (IRGC academy) struck. Nuclear scientists killed",
-    "🇾🇪 Houthis active — Bab al-Mandeb still at risk. Iran warns: 'new front at Red Sea mouth' if islands attacked",
-    "🌐 DAY 32. Brent $115+. Oil up 55% in 1 month. April 6 deadline = 6 days. Pakistan to host 'meaningful talks' in coming days"
+    "🔴 TRUMP: will 'OBLITERATE' Iran's electric plants + oil wells if no deal. But Bloomberg: Trump willing to end war even if Hormuz STAYS CLOSED",
+    "📉 Sensex 71,948 (Mon close). Worst month in 6 yrs. Nifty 22,331. Rupee 94.84 ATL. FII $12.3B — record. US gas past $4/gal",
+    "🛢️ Iran hit Haifa OIL REFINERIES — thick black smoke. Also struck fully laden Kuwaiti VLCC near Dubai. Escalation on energy targets",
+    "⚔️ 4 Israeli soldiers KILLED in Lebanon clash — deadliest single incident. 3 Indonesian UN PEACEKEEPERS killed. Lebanese soldier killed by Israel",
+    "🚢 BW Tyr docked Mumbai TODAY. BW Elm → Mangalore Apr 1. 8 Indian carriers crossed. 2 Chinese COSCO ships turned back at Larak Island",
+    "🇮🇳 INDIAN WORKER KILLED in Kuwait strike (desalination plant). India's first civilian casualty in Gulf. 1,000+ arrested in Iran for filming",
+    "☢️ Trump: 'I want to TAKE THE OIL.' Iran 2,000+ dead. 300 Russian staff still at Bushehr. Rosatom evacuating. Spy law enhanced — death penalty",
+    "🌐 IMF warns: low-income countries face food insecurity. Brent volatile ~$104-115. Oil up 55% in 1 month. April 6 deadline = 6 days",
+    "🇵🇰 Pakistan to host 'meaningful talks in coming days.' But Israel: NO intention to scale back before talks. Iran missiles slowed to 10-15/day",
+    "⚠️ Iran's CENTCOM equivalent: 9,000+ targets struck, 140+ vessels destroyed, 9,000+ combat flights. Houthis + Bab al-Mandeb still at risk"
   ],
   "whatChanged": {
-    "label": "WHAT CHANGED — MAR 31, 8:30 AM IST (DAY 32)",
+    "label": "WHAT CHANGED — MAR 31, 6 PM IST (DAY 32)",
     "items": [
-      {"color": "red", "bold": "Iran struck FULLY LADEN oil tanker near Dubai.", "text": " Kuwaiti VLCC Al-Salmi hit by drone 31nm from Dubai. Hull damaged, fire. Biggest ship attack yet. Indian worker killed in Kuwait strike on desalination plant — India's first civilian casualty"},
-      {"color": "red", "bold": "Israel hit Tehran POWER infrastructure — blackout.", "text": " IDF: 'attacking regime infrastructure throughout Tehran.' IRGC security chief Hassanzadeh killed. 2 executed for MEK links. Imam Hussein University (IRGC academy) struck"},
-      {"color": "red", "bold": "Trump: 'I want to TAKE THE OIL.'", "text": " Also: 'we'll make a deal, I'm pretty sure.' 50,000+ US special forces in region (NYT). Pentagon planning Kharg raids. Rubio told Al Jazeera: Trump prefers diplomacy"},
-      {"color": "cyan", "bold": "BW Tyr reaches Mumbai TODAY.", "text": " BW Elm → Mangalore Apr 1. Total 8 Indian carriers crossed Hormuz safely. 18 ships + 485 crew remain. Op Urja Suraksha: 5+ Navy warships. 942+ seafarers repatriated"},
-      {"color": "red", "bold": "Sensex ended FY26 at 71,948 (-1,636).", "text": " Worst month in 6 years. Nifty 22,331. Rupee 94.84 ATL. FII $12.3B March — all-time record. Brent $115+. Oil up 55% in 1 month"},
-      {"color": "purple", "bold": "DAY 32. Iran 2,000+ killed.", "text": " Pakistan to host 'meaningful talks.' UAE demands compensation from Iran. Houthis at Bab al-Mandeb. April 6 = 6 days. WEF: 'structural shock.' IEA: 'greatest energy challenge in history'"}
+      {"color": "red", "bold": "Trump: will 'obliterate' power plants + oil wells.", "text": " But Bloomberg reports Trump willing to end war even if Hormuz stays CLOSED — first sign of softening on the key demand. Iran hit Haifa oil refineries — smoke billowing. Struck Kuwaiti VLCC near Dubai"},
+      {"color": "red", "bold": "4 Israeli soldiers killed in Lebanon — deadliest incident.", "text": " 3 Indonesian UN peacekeepers killed. Lebanese soldier killed by Israel. 6+ Israeli troops dead in Lebanon this month. 1,200+ killed in Lebanon incl 124 children"},
+      {"color": "cyan", "bold": "BW Tyr docked Mumbai TODAY.", "text": " 8 Indian carriers safely crossed Hormuz. BW Elm → Mangalore Apr 1. But 2 Chinese COSCO mega-ships TURNED BACK at Larak Island — even China not fully safe"},
+      {"color": "red", "bold": "Indian worker killed in Kuwait.", "text": " Strike on desalination plant — India's first confirmed civilian casualty in Gulf. 1,000+ arrested in Iran for filming. Iran enhanced spy law — death penalty for sharing photos"},
+      {"color": "orange", "bold": "Sensex 71,948 — worst month in 6 years.", "text": " FII $12.3B outflow (record). Rupee 94.84 ATL. US gas past $4/gal. IMF warns food insecurity in low-income countries. Brent volatile $104-115"},
+      {"color": "purple", "bold": "April 6 = 6 days.", "text": " Pakistan hosting talks 'in coming days.' But Israel: NO scaling back before talks. Iran missiles slowed to 10-15/day (from 90 day 1). 300 Russian staff at Bushehr. 50K+ US special forces in region"}
     ]
   },
   "deaths": "4,700+",
-  "deathsSub": "2,000+ Iran (217 kids), 1,189 Lebanon (124 kids), 99 Iraq, 19 Israel, 15 US, 30+ Gulf",
+  "deathsSub": "2,000+ Iran (217 kids), 1,200+ Lebanon (124 kids), 99 Iraq, 19 Israel, 15 US, 30+ Gulf",
   "econ": {
-    "sensex": "71,948", "sensexDelta": "▼ -1,636 (-2.22%)", "sensexSub": "FY26 ended in worst month in 6 yrs",
+    "sensex": "71,948", "sensexDelta": "▼ -1,636 (Mon)", "sensexSub": "Worst month in 6 yrs. FY26 ended in crash",
     "vix": "25.78", "vixDelta": "▲ elevated",
     "fpi": "$12.3B", "fpiDelta": "₹1,13,810+ Cr March (record)",
     "wealth": "₹44L+ Cr",
-    "analysis": "DAY 32: Sensex 71,948. FY26 ended in bloodbath. Worst month since 2020. Brent $115+ (up 55%). Rupee 94.84 ATL. FII $12.3B outflow — record. Indian worker killed in Kuwait. Iran struck fully laden tanker near Dubai. Trump wants to 'take the oil.' 50K+ US special forces in region. But Pakistan talks coming. April 6 = 6 days."
+    "analysis": "DAY 32: Sensex 71,948. Worst month since 2020. Brent volatile $104-115 (Bloomberg: Trump may accept Hormuz staying closed — first softening). Rupee 94.84 ATL. FII $12.3B record outflow. US gas $4+. IMF warns of food insecurity in import-dependent nations. Iran hit Haifa refineries + Kuwaiti tanker. But 8 Indian carriers crossed Hormuz. April 6 = 6 days."
   },
   "hormuzLatest": [
-    {"d": "Mar 31", "e": "Iran struck FULLY LADEN Kuwaiti VLCC near Dubai — biggest ship attack yet. BW Tyr reaching Mumbai TODAY. BW Elm → Mangalore Apr 1. 8 Indian carriers crossed total. 18 ships + 485 crew remain. Indian worker killed in Kuwait strike. Iran warns 'new front at Red Sea' if islands attacked. Pentagon planning Kharg raids."}
+    {"d": "Mar 31", "e": "BW Tyr docked Mumbai TODAY. BW Elm → Mangalore Apr 1. 8 Indian carriers total. 2 Chinese COSCO mega-ships TURNED BACK at Larak Island. Kuwaiti VLCC struck near Dubai. Iran hit Haifa oil refineries. Bloomberg: Trump may accept Hormuz staying closed. IRGC: passage prohibited for ships going to/from allied enemy ports. 18 Indian ships + 485 crew remain. Jag Vikram, Green Asha, Green Sanvi still waiting."}
   ],
   "hormuzVessels": {
     "preWarDaily": "~130 ships/day",
@@ -43,34 +43,36 @@
     "indianVessels": {
       "peak": "28 Indian-flagged vessels at war start (24 west + 4 east)",
       "current": "18 Indian ships + 485 seafarers remain in western Gulf",
-      "crossed": "8 carriers safely crossed + discharged/en route to India",
+      "crossed": "8 carriers safely crossed + discharged/arriving in India",
       "repatriated": "942+ Indian seafarers repatriated so far",
-      "operation": "Op Urja Suraksha — 5+ Navy warships (destroyers + frigates). Larak-Qeshm corridor route."
+      "operation": "Op Urja Suraksha — 5+ Navy warships (destroyers + frigates). Larak-Qeshm corridor."
     },
     "recentTransits": [
-      {"date": "Mar 29", "vessel": "BW Tyr + BW Elm (LPG, 94,000 MT)", "note": "Navy escort (ANI video). BW Tyr → Mumbai Mar 31. BW Elm → Mangalore Apr 1."},
+      {"date": "Mar 31", "vessel": "BW Tyr docked Mumbai", "note": "94,000 MT LPG (combined with BW Elm). Navy escort confirmed by ANI."},
+      {"date": "Apr 1", "vessel": "BW Elm arriving Mangalore", "note": "En route with Navy escort."},
       {"date": "Mar 28", "vessel": "2 SCI petroleum carriers", "note": "Crossed + discharged cargo in India."},
-      {"date": "Mar 25", "vessel": "Pine Gas + Jag Vasant (LPG, 92,612 MT)", "note": "33 + 27 crew. Reached India Mar 26-28."},
-      {"date": "Mar 18", "vessel": "Jag Laadki (crude, 80,886 MT)", "note": "Crude oil from UAE. Reached Mundra."},
-      {"date": "Mar 14", "vessel": "Shivalik + Nanda Devi (LPG, 92,712 MT)", "note": "First to cross. Shivalik → Mundra Mar 16. Nanda Devi → Kandla Mar 17."},
-      {"date": "Mar 30", "vessel": "Kuwaiti VLCC Al-Salmi STRUCK", "note": "Fully laden tanker hit by Iranian drone near Dubai. Hull damaged. Fire. Biggest attack yet."}
+      {"date": "Mar 25", "vessel": "Pine Gas + Jag Vasant (LPG, 92,612 MT)", "note": "Reached India Mar 26-28."},
+      {"date": "Mar 18", "vessel": "Jag Laadki (crude, 80,886 MT)", "note": "Crude from UAE. Reached Mundra."},
+      {"date": "Mar 14", "vessel": "Shivalik + Nanda Devi (LPG, 92,712 MT)", "note": "First to cross. Mundra + Kandla."},
+      {"date": "Mar 31", "vessel": "2 Chinese COSCO ships TURNED BACK", "note": "U-turned at Larak Island despite earlier transiting. Even China not fully safe."},
+      {"date": "Mar 30", "vessel": "Kuwaiti VLCC Al-Salmi STRUCK", "note": "Fully laden tanker hit by drone near Dubai. Hull damaged. Fire. Biggest attack yet."}
     ],
-    "stillWaiting": "Jag Vikram, Green Asha, Green Sanvi still in western Gulf. 1 being loaded.",
-    "blockadeStatus": "SELECTIVE + ESCALATING. Iran allowing India/China/Russia/Pakistan but struck a Kuwaiti tanker near Dubai — biggest ship attack yet. Parliament formalizing toll. 12+ mines. 16+ vessels attacked (IMO). Houthis threaten Bab al-Mandeb. BOTH chokepoints at risk.",
-    "keyFigures": "IRGC Navy chief Tangsiri killed. Op Urja Suraksha: 5+ warships. 50,000+ US special forces in region. DG Shipping: 4,523 calls + 8,985 emails."
+    "stillWaiting": "Jag Vikram, Green Asha, Green Sanvi in western Gulf. 1 being loaded with LPG.",
+    "blockadeStatus": "SELECTIVE + VOLATILE. India allowed but 2 Chinese ships turned back. Kuwaiti tanker struck. IRGC: 'passage prohibited to/from allied enemy ports.' Bloomberg: Trump may accept Hormuz staying closed. Iran charging toll via Larak Island. 12+ mines. 16+ vessels attacked. Houthis at Bab al-Mandeb.",
+    "keyFigures": "Op Urja Suraksha: 5+ warships. 50K+ US special forces in region. DG Shipping: 4,523 calls + 8,985 emails. 942+ seafarers repatriated."
   },
   "milTop": [
-    {"t": "🔴 Iran Strikes FULLY LADEN Tanker Near Dubai (Mar 30)", "lv": "BREAKING", "color": "red", "d": "Kuwaiti VLCC Al-Salmi hit by Iranian drone 31nm from Dubai. Fully laden with crude. Hull damaged, fire onboard. Biggest ship attack of the war (Bloomberg). Indian worker killed in Kuwait strike on desalination/power plant — India's first civilian casualty in Gulf."},
-    {"t": "⚡ Israel Hits Tehran Power Grid — Blackout (Mar 31)", "lv": "BREAKING", "color": "red", "d": "IDF: 'attacking regime infrastructure throughout Tehran.' Power blackout hit capital — since restored. IRGC security chief Hassanzadeh killed. Imam Hussein University struck. 2 executed for MEK links. 50,000+ US special forces in region (NYT). Trump: 'I want to take the oil.'"},
-    {"t": "🚢 BW Tyr Reaches Mumbai TODAY — 8 Indian Carriers Crossed", "lv": "DEVELOPING", "color": "cyan", "d": "VERIFIED: 8 carriers crossed Hormuz safely. BW Tyr docking Mumbai Mar 31. BW Elm → Mangalore Apr 1. Total ~450,000+ MT of LPG/crude delivered. 18 ships + 485 crew remain. Still waiting: Jag Vikram, Green Asha, Green Sanvi. 942+ seafarers repatriated. Op Urja Suraksha active."}
+    {"t": "🔴 Trump May Accept Hormuz Staying CLOSED (Bloomberg)", "lv": "BREAKING", "color": "red", "d": "Bloomberg: Trump willing to end war even if Hormuz remains closed — first major softening on the KEY demand that started the conflict. But simultaneously threatens to 'obliterate' power plants + oil wells. Iran hit Haifa oil refineries — thick smoke. Struck Kuwaiti VLCC near Dubai. 2 Chinese COSCO ships turned back at Larak."},
+    {"t": "⚔️ 4 Israeli Soldiers Killed in Lebanon + 3 UN Peacekeepers", "lv": "BREAKING", "color": "red", "d": "Deadliest single incident for IDF in Lebanon this war: 4 soldiers killed in Hezbollah clash (Cpt. Madmoni, SSgt. Cohen, SSgt. Entis, SSgt. Harel). 3 Indonesian UN peacekeepers killed. Lebanese soldier killed by Israel. 6+ Israeli troops dead in Lebanon. 1,200+ Lebanese killed incl 124 children."},
+    {"t": "🚢 BW Tyr Docked Mumbai TODAY — 8 Indian Carriers Crossed", "lv": "DEVELOPING", "color": "cyan", "d": "BW Tyr at Mumbai port with LPG. BW Elm → Mangalore Apr 1. Total 8 Indian carriers crossed: ~450,000+ MT delivered. 18 ships + 485 crew remain. But Indian worker killed in Kuwait (desalination plant strike) — India's first Gulf civilian casualty. 1,000+ arrested in Iran. April 6 = 6 days."}
   ],
   "tlLatest": [
-    {"d": 32, "l": "Mar 31", "deaths": 4700, "brent": 115, "nifty": 22331, "rupee": 94.84, "tag": "Kuwaiti tanker struck near Dubai. Tehran blackout. Trump: 'take the oil.' Indian killed in Kuwait. BW Tyr → Mumbai. 50K+ US special forces. April 6 = 6 days", "sev": 3}
+    {"d": 32, "l": "Mar 31", "deaths": 4700, "brent": 106, "nifty": 22331, "rupee": 94.84, "tag": "BW Tyr docked Mumbai. Trump may accept Hormuz closed. 4 IDF killed Lebanon. Haifa refineries hit. COSCO ships turned back. Indian killed Kuwait. Apr 6 = 6 days", "sev": 3}
   ],
-  "projNow": {"brent": 115, "rupee": 94.84, "lpg": 913, "petrol": 84.77, "deaths": 4700},
-  "scenarios": {"brent": [65, 115, 126, 140, 200], "rupee": [91.0, 94.84, 96.5, 98.0, 110.0], "deaths": [0, "4,700+", "9,000", "16,000", "40,000"]},
+  "projNow": {"brent": 106, "rupee": 94.84, "lpg": 913, "petrol": 84.77, "deaths": 4700},
+  "scenarios": {"brent": [65, 106, 118, 135, 200], "rupee": [91.0, 94.84, 96.5, 98.0, 110.0], "deaths": [0, "4,700+", "9,000", "16,000", "40,000"]},
   "radar": [
-    {"axis": "Oil Shock", "w1": 60, "now": 95, "w4": 98},
+    {"axis": "Oil Shock", "w1": 60, "now": 94, "w4": 97},
     {"axis": "Market Crash", "w1": 45, "now": 96, "w4": 96},
     {"axis": "Nuclear Risk", "w1": 20, "now": 88, "w4": 96},
     {"axis": "Hormuz Closure", "w1": 80, "now": 94, "w4": 98},
@@ -80,7 +82,7 @@
     {"axis": "Military Exposure", "w1": 35, "now": 98, "w4": 99}
   ],
   "assessment": {
-    "headline": "DAY 32. Tanker struck near Dubai. Tehran blackout. Indian killed in Kuwait. But BW Tyr reaches Mumbai today. April 6 = 6 days.",
-    "body": "Iran struck a fully laden Kuwaiti oil tanker near Dubai — the biggest ship attack of the war. Israel hit Tehran's power grid, causing a blackout. Trump said he wants to 'take the oil in Iran.' 50,000+ US special forces are now in the region. And an Indian worker was killed in Kuwait when a strike hit a desalination plant — India's first confirmed civilian casualty in the Gulf.\n\nBut India's quiet Hormuz operation continues delivering: BW Tyr docks in Mumbai today with LPG. BW Elm reaches Mangalore tomorrow. 8 carriers have now crossed safely, delivering ~450,000+ MT of LPG and crude. 18 ships + 485 crew remain. Op Urja Suraksha has 5+ warships active.\n\nVerified India numbers (Day 32):\n• 28 ships at peak → 18 remain + 485 seafarers\n• 8 carriers crossed (Shivalik, Nanda Devi, Jag Laadki, Pine Gas, Jag Vasant, 2 SCI, BW Tyr + BW Elm)\n• 942+ seafarers repatriated\n• Still waiting: Jag Vikram, Green Asha, Green Sanvi\n• Sensex 71,948. Nifty 22,331. Rupee 94.84 ATL\n• FII $12.3B outflow March. ₹44L+ Cr destroyed\n• Excise cut ₹10/L. Indian basket $125/bbl. Brent $115+\n• Indian worker killed in Kuwait — first Gulf casualty\n\nThe dual chokepoint threat remains: Hormuz is selectively open but Iran just proved it can strike even near Dubai. Houthis threaten Bab al-Mandeb. If both close, India's entire maritime supply is severed.\n\nApril 6 = 6 days. Pakistan hosting talks 'in coming days.' But Israel says it will NOT scale back before any talks. Pentagon has Kharg raid plans ready. The next week is the most consequential in India's energy security history."
+    "headline": "DAY 32. BW Tyr docked Mumbai. But Trump may accept Hormuz staying closed. 4 IDF killed. Haifa hit. The war is reshaping.",
+    "body": "The most consequential signal today: Bloomberg reports Trump is willing to end the war even if the Strait of Hormuz remains closed. If true, this fundamentally changes everything — it means the US may stop fighting but India's energy crisis could become PERMANENT, with Iran controlling Hormuz toll fees indefinitely.\n\nMeanwhile, the war intensified on every front: Iran struck Haifa oil refineries (smoke visible across northern Israel). A fully laden Kuwaiti tanker was hit near Dubai. 4 Israeli soldiers were killed in a single Hezbollah clash — the deadliest incident. 3 Indonesian UN peacekeepers were killed. 2 Chinese COSCO mega-ships turned around at Larak Island. And an Indian worker was killed in a Kuwait strike — India's first confirmed civilian casualty in the Gulf.\n\nBut India's Hormuz pipeline continues: BW Tyr docked at Mumbai today with LPG. BW Elm reaches Mangalore tomorrow. 8 carriers have now crossed safely, delivering ~450,000+ MT of fuel. 18 ships + 485 crew remain.\n\nVerified India snapshot (Day 32, 6 PM):\n• Sensex 71,948 — worst month in 6 years. Nifty 22,331\n• Rupee 94.84 ATL. FII $12.3B outflow — all-time record\n• 8 carriers crossed Hormuz. BW Tyr at Mumbai today\n• 18 ships + 485 crew remain. 942+ seafarers repatriated\n• Indian worker killed in Kuwait — first Gulf casualty\n• Excise cut ₹10/L. Indian basket $125/bbl\n• Iran missiles slowed to 10-15/day (from 90 on day 1)\n\nApril 6 = 6 days. Pakistan hosting talks. Israel says NO scaling back. The Bloomberg report on Hormuz is the signal to watch — if confirmed, India must prepare for a world where Hormuz is permanently controlled by Iran, not reopened by force."
   }
 }
