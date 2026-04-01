@@ -1,96 +1,98 @@
 {
-  "_updated": "April 1, 2026 — 10:00 AM IST",
+  "_updated": "April 1, 2026 — 7:00 PM IST",
   "_day": 33,
-  "_note": "All facts verified. Analytics recalibrated for 4-8 week war scenario. Sources: CNN, Al Jazeera, Bloomberg, WSJ, Times of Israel, CBS, Newsweek, Business Standard, Alma Center, Reuters, AP, Wikipedia.",
+  "_note": "All facts verified from CNN, Al Jazeera, Bloomberg, WSJ, CNBC, Business Standard, AP, Times of Israel, Euronews, Wikipedia/Hormuz crisis page, Rystad Energy, News24. Sources cited per claim.",
   "ticker": [
-    "📈 SENSEX SURGES +1,870 to 73,660 — Trump: war ends in '2-3 WEEKS.' WSJ: willing to end even if Hormuz stays closed. Markets rally globally",
-    "🔴 But Iran FM Araghchi: 'prepared for AT LEAST 6 MONTHS of war.' Iran has NOT responded to 15-point plan despite Trump's claims",
-    "⚠️ IRGC threatens US TECH COMPANIES — deadline TODAY 8 PM Tehran. 'Expect destruction of units for each assassination in Iran'",
-    "🛢️ Brent eases to $105 (from $115). Trump: 'gas prices will tumble once we leave Iran.' US gas $4.02/gal — highest since 2022",
-    "🇮🇳 FY26 ended with WORST performance since FY20. Nifty down 5% for year. Sensex down 7%. March alone: worst month in 6 years",
-    "🚢 Iran parliament commission APPROVED Hormuz tolls — now heading for full vote. 8 Indian carriers crossed. 18 ships + 485 crew remain",
-    "⚔️ Trump: 'regime change was never a goal.' Also: 'I want to take the oil.' IDF claims Iran trying to weaponize opioid 50x stronger than heroin",
-    "🇵🇰 Rubio: 'messages being exchanged.' Teased potential US-Iran leader meeting. Pakistan ready to host. But Iran: 'no negotiations exist'",
-    "☢️ Iran: 2,000+ killed. 1,000+ arrested for filming. Enhanced spy law — death penalty. US destroyed E-3 AWACS at Saudi base (1 of 16 globally)",
-    "🌐 DAY 33. WEEK 5 BEGINS. April 6 deadline = 5 days. Nifty 22,825 (opening). Brent $105. VIX crashed 15%. Hope vs reality diverging sharply"
+    "🔴 BREAKING: Trump claims Iran ASKED FOR CEASEFIRE. Says: 'blasting Iran into oblivion' until Hormuz opens. Will ADDRESS NATION tonight 9PM ET",
+    "📈 Sensex closes +1,100 at ~73,100. Opened +1,870 but gave back gains. Nifty ~22,680. Global relief rally — Kospi +8.1%, Nikkei +4.5%",
+    "🛢️ Iran struck OIL TANKER OFF QATAR coast — missile hit (Al Jazeera). Also: Kuwaiti VLCC Al-Salmi struck near Dubai earlier. Attacks continue",
+    "📉 Brent eases to ~$105 (from $115 Mon). Futures briefly dipped below $100. But Rystad warns: 'buffered to fragile' — 500M barrels lost so far",
+    "🚢 Hormuz: One ship paid $2 MILLION for Iran's Larak channel (Lloyd's). Shipments down 90%. ~10M bbl/day lost. Iran parliament approved tolls",
+    "🇮🇳 BW Elm arrives Mangalore TODAY. 8 Indian carriers crossed. 18 ships + 485 crew remain. India's March review: 'double squeeze — no crude in, no product out'",
+    "⚠️ Iran FM Araghchi: 'prepared for 6+ MONTHS.' Has 'no faith in talks.' IRGC threatened tech companies — deadline passed 8PM Tehran",
+    "🇮🇱 16 wounded in Israel incl 11-year-old girl CRITICAL. 4 soldiers killed in Lebanon. Passover under missile threat. Iran: cluster warheads on Tel Aviv",
+    "🇮🇳 Rupee at ~94.70 (slight recovery). Nayara Energy HIKED petrol ₹5.30, diesel ₹3 — private pumps rising even as govt OMCs absorb excise cut",
+    "🌐 DAY 33. Trump to address nation TONIGHT. April 6 = 5 days. Iran Pres: 'will to end war' but needs guarantees. Market: 'war economy → truce watch'"
   ],
   "whatChanged": {
-    "label": "WHAT CHANGED — APR 1, 10 AM IST (DAY 33 — WEEK 5)",
+    "label": "WHAT CHANGED — APR 1, 7 PM IST (DAY 33)",
     "items": [
-      {"color": "green", "bold": "Sensex surges +1,870 to 73,660.", "text": " Trump: war ends in '2-3 weeks.' WSJ: willing to end even if Hormuz stays closed. Brent eases to $105. VIX crashed 15%. Global rally — Nikkei +4%, Kospi +6.4%. Markets pricing in de-escalation"},
-      {"color": "red", "bold": "But Iran FM: 'prepared for 6+ MONTHS.'", "text": " Has NOT responded to 15-point plan. Calls US demands 'excessive, unrealistic, unreasonable.' Says 'no negotiations exist.' IRGC threatens US tech companies — deadline TODAY 8 PM Tehran"},
-      {"color": "orange", "bold": "Iran parliament APPROVED Hormuz tolls.", "text": " Commission passed it — heading for full vote. Even if war ends, Iran will permanently control Hormuz passage fees. WSJ confirms Trump may accept this. Kuwait airport fuel depot hit AGAIN"},
-      {"color": "cyan", "bold": "FY26 ended worst since FY20.", "text": " Nifty down 5% for year. Sensex down 7%. March: worst month in 6 years (-11%). FII $12.3B outflow. ₹44L+ Cr destroyed. But today's rally recovers some — Nifty at 22,825 open"},
-      {"color": "red", "bold": "US lost E-3 AWACS at Saudi base.", "text": " One of only 16 globally. Iran precision hit on radar dome. IDF claims Iran weaponizing opioid 50x stronger than heroin. Trump: 'regime change was never a goal' — contradicts initial war justification"},
-      {"color": "purple", "bold": "WEEK 5 BEGINS. April 6 = 5 days.", "text": " Rubio teased potential US-Iran leader meeting. 8 Indian carriers crossed Hormuz. 18 ships + 485 crew remain. Hope vs reality diverging: markets rally but Iran preparing for months of war"}
+      {"color": "red", "bold": "BREAKING: Trump claims Iran asked for CEASEFIRE.", "text": " 'Will consider when Hormuz is open, free and clear.' Says 'blasting Iran into oblivion and back to the Stone Ages.' Will ADDRESS NATION tonight 9 PM ET (Apr 2, 6:30 AM IST). This could be the defining moment"},
+      {"color": "green", "bold": "Sensex closes +1,100 at ~73,100.", "text": " Opened +1,870 but gave back gains on profit booking. Nifty ~22,680. Global rally: Kospi +8.1%, Nikkei +4.5%. Brent eases to $105. VIX crashed. 'War economy → truce watch' (analysts)"},
+      {"color": "red", "bold": "Iran struck oil tanker OFF QATAR coast", "text": " — missile hit (Al Jazeera live). Earlier: Kuwaiti VLCC struck near Dubai. Despite 'ceasefire' talk, attacks CONTINUE. Iran FM: 'no faith in talks,' prepared for 6+ months"},
+      {"color": "cyan", "bold": "BW Elm arrives Mangalore TODAY.", "text": " 8 Indian carriers total. 18 ships + 485 crew remain. Hormuz: 1 ship paid $2M for Iran's Larak channel. Shipments down 90%. India review: 'double squeeze — no crude in, no product out'"},
+      {"color": "orange", "bold": "Nayara Energy HIKED petrol ₹5.30, diesel ₹3.", "text": " Private pumps rising even as govt OMCs absorb excise cut. Jet fuel past ₹2L/kL. Rystad: 500M barrels total lost. 'Buffered to fragile' — stopgap measures ending"},
+      {"color": "purple", "bold": "16 wounded in Israel incl 11-yr-old critical.", "text": " 4 soldiers killed in Lebanon. Passover under threat. Iran cluster warheads on Tel Aviv. IRGC tech company deadline passed. 2 executed for MEK links. April 6 = 5 days"}
     ]
   },
   "deaths": "4,700+",
   "deathsSub": "2,000+ Iran (217 kids), 1,200+ Lebanon (124 kids), 99 Iraq, 19 Israel, 15 US, 30+ Gulf",
   "econ": {
-    "sensex": "73,660", "sensexDelta": "▲ +1,870 (open)", "sensexSub": "Rally on 'war ends 2-3 weeks.' But FY26 worst since FY20",
-    "vix": "23.65", "vixDelta": "▼ -15% (relief)",
+    "sensex": "73,100", "sensexDelta": "▲ +1,100 (close)", "sensexSub": "Opened +1,870 but gave back. New FY27 starts",
+    "vix": "23.65", "vixDelta": "▼ -15% relief",
     "fpi": "$12.3B", "fpiDelta": "₹1,13,810+ Cr March (record)",
     "wealth": "₹44L+ Cr",
-    "analysis": "DAY 33: Sharp rally on Trump's '2-3 weeks' comment. Sensex +1,870. VIX -15%. Brent $105 (eased from $115). But Iran FM says prepared for 6+ months. Has NOT responded to US plan. IRGC threatening tech companies. Parliament approved Hormuz tolls. FY26 ended worst since FY20: Nifty -5%, Sensex -7%, March alone -11%. The market is pricing in hope — but Iran is pricing in protracted war."
+    "analysis": "DAY 33: Relief rally on Trump's '2-3 weeks' comment. Sensex +1,100 close (gave back from +1,870 open). Brent ~$105. Rupee ~94.70 (slight recovery). BUT Iran struck tanker off Qatar. FM says 6+ months. Rystad: 500M barrels lost, system 'buffered to fragile.' Nayara hiked ₹5.30. India review: 'double squeeze.' Trump addresses nation TONIGHT — could define everything."
   },
   "hormuzLatest": [
-    {"d": "Apr 1", "e": "Iran parliament commission APPROVED Hormuz tolls — heading for full vote. Even if war ends, Iran will permanently charge fees. WSJ: Trump may accept Hormuz staying closed. 8 Indian carriers crossed. 18 ships + 485 crew remain. COSCO ships turned back. Kuwaiti tanker struck. Kuwait airport fuel depot hit AGAIN. IRGC: passage prohibited to/from allied enemy ports."}
+    {"d": "Apr 1", "e": "TRUMP: Iran asked for CEASEFIRE — 'will consider when Hormuz open.' Iran struck tanker off Qatar (Al Jazeera). Kuwaiti VLCC struck near Dubai (Bloomberg). 1 ship paid $2M for Larak channel (Lloyd's/Wikipedia). Shipments down 90%. ~10M bbl/day lost. 500M barrels total lost (Rystad). Parliament approved tolls. BW Elm at Mangalore today. 8 Indian carriers crossed. 18+485 remain."}
   ],
   "hormuzVessels": {
     "preWarDaily": "~130 ships/day",
-    "currentDaily": "≤6 ships/day — Only 21 tankers total since Feb 28 (S&P Global)",
+    "currentDaily": "≤6 ships/day — shipments down 90% (Wikipedia). ~1 vessel/week (India govt review)",
     "indianVessels": {
-      "peak": "28 Indian-flagged vessels at war start (24 west + 4 east)",
-      "current": "18 Indian ships + 485 seafarers remain in western Gulf",
-      "crossed": "8 carriers safely crossed + discharged/arriving in India",
-      "repatriated": "942+ Indian seafarers repatriated so far",
-      "operation": "Op Urja Suraksha — 5+ Navy warships (destroyers + frigates). Larak-Qeshm corridor."
+      "peak": "28 Indian-flagged at war start (24 west + 4 east)",
+      "current": "18 ships + 485 seafarers remain",
+      "crossed": "8 carriers safely crossed + discharged/arriving",
+      "repatriated": "942+ seafarers repatriated",
+      "operation": "Op Urja Suraksha — 5+ warships. Larak-Qeshm corridor."
     },
     "recentTransits": [
-      {"date": "Mar 31", "vessel": "BW Tyr docked Mumbai", "note": "94,000 MT LPG (combined with BW Elm). Navy escort confirmed."},
-      {"date": "Apr 1", "vessel": "BW Elm arriving Mangalore", "note": "En route. Navy escort."},
+      {"date": "Apr 1", "vessel": "BW Elm arrives Mangalore", "note": "LPG cargo. Navy escort confirmed."},
+      {"date": "Mar 31", "vessel": "BW Tyr docked Mumbai", "note": "94,000 MT LPG combined. Navy escort (ANI video)."},
       {"date": "Mar 28", "vessel": "2 SCI petroleum carriers", "note": "Crossed + discharged in India."},
       {"date": "Mar 25", "vessel": "Pine Gas + Jag Vasant (92,612 MT LPG)", "note": "Reached India Mar 26-28."},
       {"date": "Mar 18", "vessel": "Jag Laadki (80,886 MT crude)", "note": "From UAE. Reached Mundra."},
       {"date": "Mar 14", "vessel": "Shivalik + Nanda Devi (92,712 MT LPG)", "note": "First to cross. Mundra + Kandla."},
-      {"date": "Mar 30-31", "vessel": "2 COSCO (Chinese) mega-ships TURNED BACK", "note": "U-turned at Larak Island despite earlier transit. Even China not safe."},
-      {"date": "Mar 30", "vessel": "Kuwaiti VLCC Al-Salmi STRUCK", "note": "Fully laden. Drone hit near Dubai. Biggest attack yet."}
+      {"date": "Mar 31", "vessel": "Kuwaiti VLCC Al-Salmi STRUCK near Dubai", "note": "Fully laden. Drone hit. Fire. Biggest attack yet (Bloomberg)."},
+      {"date": "Apr 1", "vessel": "Oil tanker STRUCK off Qatar coast", "note": "Iranian missile hit. No injuries reported (Al Jazeera)."},
+      {"date": "Mar 30", "vessel": "2 COSCO Chinese ships TURNED BACK", "note": "U-turned at Larak despite earlier transit. Even China not safe."},
+      {"date": "Mar 30", "vessel": "Express Rome (Liberia-flagged) — 2 projectiles nearby", "note": "22nm from Ras Tanura. No damage (Wikipedia)."}
     ],
-    "stillWaiting": "Jag Vikram, Green Asha, Green Sanvi in western Gulf. 1 being loaded with LPG.",
-    "blockadeStatus": "SELECTIVE + TOLLED. Parliament approved Hormuz fees (heading for full vote). WSJ: Trump may accept Hormuz staying closed. India/China/Russia/Pakistan allowed but Chinese ships turned back. IRGC: prohibited to/from 'enemy allied ports.' 12+ mines. 16+ vessels attacked (IMO).",
-    "keyFigures": "Op Urja Suraksha: 5+ warships. DG Shipping: 4,523 calls + 8,985 emails. 942+ seafarers repatriated."
+    "stillWaiting": "Jag Vikram, Green Asha, Green Sanvi in western Gulf. 1 being loaded.",
+    "blockadeStatus": "SELECTIVE + VOLATILE. India/Pakistan getting passage. Chinese ships turned back. Kuwaiti + Qatar tankers struck. 1 ship paid $2M for Larak channel. Parliament approved tolls. 90% shipment reduction. ~500M barrels total lost (Rystad). System 'buffered to fragile.'",
+    "keyFigures": "Op Urja Suraksha: 5+ warships. 50K+ US special forces in region. India govt review: 'double squeeze — no crude in, no product out.'"
   },
   "milTop": [
-    {"t": "📈 Rally: Trump Says War Ends in '2-3 Weeks' (Apr 1)", "lv": "BREAKING", "color": "green", "d": "Sensex +1,870 to 73,660. VIX -15%. Brent eases to $105. WSJ: Trump willing to end even without reopening Hormuz. Rubio teased US-Iran leader meeting. Trump: 'regime change was never a goal.' BUT Iran FM: 'prepared for 6+ months.' IRGC threatens tech companies today. Markets pricing hope — Iran pricing protracted war."},
-    {"t": "⚠️ IRGC Threatens US Tech Companies — Deadline TODAY", "lv": "BREAKING", "color": "red", "d": "IRGC (via Fars): 'Starting 8 PM Apr 1 Tehran time, expect destruction of relevant units for each assassination.' Targets: US tech/defense company facilities in Gulf. Also: Iran parliament commission approved Hormuz tolls. Kuwait airport fuel depot hit AGAIN. E-3 AWACS destroyed at Saudi base (1 of 16 globally)."},
-    {"t": "🚢 8 Indian Carriers Crossed — Iran Approves Permanent Tolls", "lv": "DEVELOPING", "color": "cyan", "d": "BW Tyr at Mumbai. BW Elm → Mangalore today. 8 carriers total: ~450,000+ MT delivered. 18 ships + 485 crew remain (Jag Vikram, Green Asha, Green Sanvi waiting). But Iran parliament approved tolls — even after war, Hormuz becomes a permanent toll road. India must factor this into long-term energy costs."}
+    {"t": "🔴 BREAKING: Trump Claims Iran Asked for CEASEFIRE (Apr 1)", "lv": "BREAKING", "color": "red", "d": "Trump on Truth Social: 'Iran's New Regime President has asked the US for a CEASEFIRE! Will consider when Hormuz is open, free, and clear.' Until then: 'blasting Iran into oblivion.' Will ADDRESS NATION tonight 9 PM ET (Apr 2, 6:30 AM IST). This speech could define the war's trajectory. Rubio: 'messages being exchanged.'"},
+    {"t": "📈 Global Relief Rally — But Iran Says 6+ Months (Apr 1)", "lv": "DEVELOPING", "color": "green", "d": "Sensex +1,100. Kospi +8.1%. Nikkei +4.5%. S&P 500 had best day in a year (+2.9%). Brent eases to $105. But Iran FM Araghchi: 'prepared for 6+ months,' 'no faith in talks.' Iran struck tanker off Qatar DURING ceasefire talk. Capital Economics: 'effects persist even if war ends soon.'"},
+    {"t": "🚢 BW Elm at Mangalore — 500M Barrels Lost Globally (Apr 1)", "lv": "DEVELOPING", "color": "cyan", "d": "BW Elm arrives Mangalore with LPG. 8 Indian carriers total. 18+485 remain. But Rystad: 500M barrels total lost in war. System 'buffered to fragile.' India March review: 'double squeeze.' 1 ship paid $2M for Larak passage. Nayara hiked petrol ₹5.30. Jet fuel past ₹2L/kL."}
   ],
   "tlLatest": [
-    {"d": 33, "l": "Apr 1", "deaths": 4700, "brent": 105, "nifty": 22825, "rupee": 94.84, "tag": "Sensex +1,870 rally. Trump: war ends 2-3 weeks. But Iran: 6+ months. IRGC threatens tech cos TODAY. Hormuz tolls approved. FY26 worst since FY20", "sev": 2}
+    {"d": 33, "l": "Apr 1", "deaths": 4700, "brent": 105, "nifty": 22680, "rupee": 94.70, "tag": "Trump: Iran asked ceasefire. Sensex +1,100. Tanker hit off Qatar. BW Elm at Mangalore. Brent $105. Trump addresses nation tonight. April 6 = 5 days", "sev": 2}
   ],
-  "projNow": {"brent": 105, "rupee": 94.84, "lpg": 913, "petrol": 84.77, "deaths": 4700},
+  "projNow": {"brent": 105, "rupee": 94.70, "lpg": 913, "petrol": 94.77, "deaths": 4700},
   "scenarios": {
     "headers": ["Pre-war", "Now (Day 33)", "If deal by Apr 15", "If war to May", "If war to Jun+"],
     "brent": [65, 105, 85, 130, 150],
-    "rupee": [91.0, 94.84, 92.5, 98.0, 105.0],
+    "rupee": [91.0, 94.70, 92.5, 98.0, 105.0],
     "deaths": [0, "4,700+", "5,500", "12,000", "25,000+"],
-    "sensex": ["78,699", "73,660", "78,000+", "65,000", "58,000"],
+    "sensex": ["78,699", "73,100", "78,000+", "65,000", "58,000"],
     "lpg": ["₹853", "₹913", "₹880", "₹1,100", "₹1,300+"],
     "fii": ["-", "$12.3B out", "$5B return", "$18B out", "$25B+ out"]
   },
   "radar": [
-    {"axis": "Oil Shock", "w1": 60, "now": 88, "w4": 96, "w8": 99},
-    {"axis": "Market Crash", "w1": 45, "now": 90, "w4": 94, "w8": 98},
+    {"axis": "Oil Shock", "w1": 60, "now": 86, "w4": 95, "w8": 99},
+    {"axis": "Market Crash", "w1": 45, "now": 88, "w4": 93, "w8": 97},
     {"axis": "Nuclear Risk", "w1": 20, "now": 86, "w4": 94, "w8": 98},
     {"axis": "Hormuz Closure", "w1": 80, "now": 90, "w4": 95, "w8": 99},
     {"axis": "Household Impact", "w1": 15, "now": 96, "w4": 99, "w8": 99},
-    {"axis": "Currency Crisis", "w1": 40, "now": 94, "w4": 98, "w8": 99},
-    {"axis": "Social Unrest", "w1": 25, "now": 80, "w4": 92, "w8": 97},
+    {"axis": "Currency Crisis", "w1": 40, "now": 92, "w4": 97, "w8": 99},
+    {"axis": "Social Unrest", "w1": 25, "now": 78, "w4": 90, "w8": 96},
     {"axis": "Military Exposure", "w1": 35, "now": 96, "w4": 98, "w8": 99}
   ],
   "assessment": {
-    "headline": "DAY 33 — WEEK 5. Markets rally on hope. Iran prepares for 6 months. The two narratives cannot coexist for long.",
-    "body": "Two completely contradictory narratives are running simultaneously. The MARKET narrative: Trump says 2-3 weeks, WSJ says he'll accept Hormuz staying closed, Sensex surges +1,870, VIX crashes 15%, Brent eases to $105. The IRAN narrative: FM Araghchi says 6+ months, hasn't responded to the 15-point plan, calls demands 'unrealistic,' IRGC threatening tech companies TODAY, parliament just approved permanent Hormuz tolls.\n\nOne of these narratives is wrong. The market will discover which one within the next 5 days (April 6 deadline).\n\nCRITICAL ANALYTICAL REASSESSMENT (Week 5):\n\nIf deal by mid-April (30% probability):\n• Brent drops to $85. Sensex rallies to 78,000+. Rupee recovers to ~92.5\n• But Hormuz STAYS tolled — Iran's permanent revenue stream\n• India's energy costs permanently higher by 5-10%\n\nIf war extends to May (45% probability):\n• Brent $130+. Sensex could fall to 65,000. Rupee 98+\n• LPG rationing tightens. CNG vehicles grounded. Fertilizer crisis hits Kharif crop\n• FII outflow could reach $18B. RBI forced to raise rates despite slowdown\n\nIf war extends to June+ (25% probability):\n• Brent $150+. Sensex below 60,000. Rupee past 100\n• Full-blown stagflation. Food inflation double digits. Social unrest\n• India forced to invoke bilateral agreements with Russia for crude\n• Strategic petroleum reserves exhausted. Rationing of all petroleum products\n\nFor India today:\n• Sensex 73,660 (+1,870 rally). Nifty 22,825. VIX -15%\n• BW Elm reaches Mangalore today. 8 carriers crossed. 18 remain\n• But FY26 ended worst since FY20. March was worst month in 6 years\n• FII $12.3B outflow — record. Rupee 94.84 ATL. Indian basket $125/bbl\n• The rally is real but the structural crisis hasn't changed\n\nThe most consequential fact today: Iran's parliament approved permanent Hormuz tolls. This means even in the BEST case scenario, India's energy import costs rise permanently. The pre-war world is gone."
+    "headline": "DAY 33. Trump claims Iran asked for ceasefire. Will address nation tonight. But Iran struck a tanker DURING the announcement.",
+    "body": "The most significant 24 hours of the war are unfolding. Trump claims Iran's president asked for a ceasefire and says he'll 'consider when Hormuz is open.' He will address the nation tonight at 9 PM ET (April 2, 6:30 AM IST). Markets rallied sharply — Sensex +1,100, Kospi +8.1%, S&P 500 best day in a year.\n\nBut Iran struck an oil tanker off Qatar's coast DURING the ceasefire announcement. FM Araghchi says he has 'no faith in talks' and Iran is prepared for 6+ months. The IRGC's tech company threat deadline has passed. 16 were wounded in Israel including an 11-year-old girl in critical condition.\n\nThe contradiction is stark: Trump says ceasefire. Iran says 6 months. The market chose to believe Trump — for now. Tonight's address could go either way.\n\nFor India — verified facts (Day 33, 7 PM):\n• Sensex ~73,100 (+1,100 close). Nifty ~22,680. Rupee ~94.70\n• BW Elm arrives Mangalore today. 8 carriers crossed. 18+485 remain\n• Nayara Energy hiked petrol ₹5.30, diesel ₹3 — private pumps rising\n• India's March economic review: 'double squeeze — no crude in, no product out'\n• Rystad: 500M barrels lost globally. System 'buffered to fragile'\n• FII $12.3B outflow March. ₹44L+ Cr destroyed\n• Hormuz: 1 ship paid $2 million for Iran's Larak channel\n\nTrump's address tonight is the most important event for India's energy security since the war began. If he announces a withdrawal timeline: relief rally, Brent drops to $85-90, rupee recovers. If he announces escalation (Kharg raid, more troops): Brent spikes past $120, rupee past 96, India enters full crisis mode. Set your alarm for 6:30 AM IST tomorrow."
   }
 }
