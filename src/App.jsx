@@ -57,25 +57,31 @@ const TL = [
   {d:24,l:"Mar 23",deaths:3700,brent:109,nifty:22513,rupee:93.88,tag:"Sensex -1,837. Nifty crashes to 22,513 (22-mo low). Rupee near 94. Trump 48hr ultimatum day. ₹14L Cr wiped",sev:3},
   {d:25,l:"Mar 24",deaths:3800,brent:99,nifty:22912,rupee:93.88,tag:"Sensex +1,372. Brent $99. Pakistan mediating. Iran: 'willing to listen.' Modi-Trump call on Hormuz. 1,000 more US troops",sev:1},
   {d:26,l:"Mar 25",deaths:3800,brent:100,nifty:22912,rupee:93.88,tag:"Day 26. Vance+Rubio lead talks. Iran: willing to listen to 'sustainable' deal. 82nd Airborne deploying. Philippines emergency. 82K structures hit",sev:2},
+  {d:27,l:"Mar 26",deaths:4100,brent:95,nifty:23430,rupee:93.88,tag:"IRGC Navy chief Tangsiri killed. Iran rejects 15-point plan. Trump extends to Apr 6. Brent crashes to $95",sev:2},
+  {d:28,l:"Mar 27",deaths:4300,brent:107,nifty:22820,rupee:94.56,tag:"Sensex -1,690. Rupee 94.56 ATL. India cuts excise ₹10/L. Israel speed-running strikes. Russia arming Iran",sev:3},
+  {d:29,l:"Mar 28",deaths:4500,brent:110,nifty:22820,rupee:94.56,tag:"HOUTHIS join war — fired at Israel. 10 US troops hit at Saudi base. Iran turned back 3 ships. Wall St worst day",sev:3},
+  {d:30,l:"Mar 29",deaths:4600,brent:106,nifty:22820,rupee:94.79,tag:"DAY 30. Pentagon plans ground ops. 8 Indian carriers crossed. BW Tyr+Elm cross Hormuz. FII ₹1.13L Cr. NPT exit pushed",sev:3},
+  {d:31,l:"Mar 30",deaths:4700,brent:115,nifty:22331,rupee:94.84,tag:"Sensex crashes to 71,948 (-1,636). Worst month in 6 yrs. Kuwaiti tanker struck. Tehran blackout. Indian killed Kuwait",sev:3},
+  {d:32,l:"Mar 31",deaths:4700,brent:106,nifty:22331,rupee:94.84,tag:"BW Tyr docks Mumbai. Trump may accept Hormuz closed. 4 IDF killed Lebanon. Iran Haifa refineries hit. Hormuz tolls approved",sev:3},
 ];
 
 const PROJ = [
   {w:"Pre-war",brent:65,rupee:91.0,lpg:853,petrol:94.72,deaths:0},
   {w:"Week 1",brent:85,rupee:92.30,lpg:853,petrol:94.72,deaths:1045},
-  {w:"Now",brent:100,rupee:93.88,lpg:913,petrol:94.77,deaths:3800},
-  {w:"Week 3*",brent:120,rupee:94.5,lpg:1000,petrol:110,deaths:4500},
-  {w:"Week 4*",brent:125,rupee:96.0,lpg:1100,petrol:118,deaths:7000},
-  {w:"Week 6*",brent:130,rupee:98.0,lpg:1200,petrol:128,deaths:10000},
-  {w:"Week 8*",brent:140,rupee:100.0,lpg:1300,petrol:135,deaths:18000},
+  {w:"Week 3",brent:108,rupee:93.23,lpg:913,petrol:94.77,deaths:2700},
+  {w:"Now (Wk5)",brent:105,rupee:94.84,lpg:913,petrol:94.77,deaths:4700},
+  {w:"If deal Apr*",brent:85,rupee:92.5,lpg:880,petrol:94.77,deaths:5500},
+  {w:"War→May*",brent:130,rupee:98.0,lpg:1100,petrol:110,deaths:12000},
+  {w:"War→Jun*",brent:150,rupee:105.0,lpg:1300,petrol:135,deaths:25000},
 ];
 
 const HH = [
   {item:"LPG Cylinder (14.2kg)",pre:"₹853",now:"₹913",chg:"+₹60 (+7%)",proj:"₹1,000+",note:"₹60 hike on Mar 7 — first in 11 months. Only 10 DAYS stock. Dairy crisis (10 days milk packaging left). 25-day inter-booking rule. LPG production up 28% but covers only 10% of need. Ras Laffan hit = 60% of India's gas at risk.",s:3},
   {item:"Natural Gas (PNG/CNG)",pre:"Normal",now:"CRITICAL ⚠️",chg:"Supply threat",proj:"Rationing likely",note:"CRITICAL: Ras Laffan damage = 17% LNG capacity gone, 3-5yr repair, $20B/yr revenue loss. QatarEnergy FORCE MAJEURE on gas. Impacts China, S.Korea, Italy, Belgium + INDIA. India imports 60% of gas from ME. CNG vehicles + piped gas + fertiliser at EXISTENTIAL risk. IEA calls it 'largest supply disruption in history.'",s:3},
-  {item:"Petrol (Delhi)",pre:"₹94.72/L",now:"₹94.77/L",chg:"FROZEN ⚠️",proj:"Hike inevitable",note:"GOVT HAS NOT RAISED PUMP PRICES despite Brent surging from $65 to $115+. OMCs absorbing the shock — losing ₹20,000 cr/DAY. Unsustainable. Analysts say hike of ₹15-25/L inevitable once war stabilises. Mumbai price ₹103.54 (also unchanged).",s:2},
+  {item:"Petrol (Delhi)",pre:"₹94.72/L",now:"₹94.77/L",chg:"UNCHANGED ⚠️",proj:"Hike risk if Brent>$110",note:"GOVT CUT EXCISE by ₹10/L (from ₹13 to ₹3) but OMCs ABSORBED it to offset losses — pump price UNCHANGED at ₹94.77. OMCs losing ~₹24/L on petrol. Nayara Energy HIKED by ₹5.30/L. Jet fuel surpassed ₹2L/kL. Elara: above $110 crude, retail hike of ₹8-14/L inevitable. Mumbai ₹103.54 (unchanged).",s:2},
   {item:"LPG Commercial (19kg)",pre:"₹1,740",now:"₹1,885",chg:"+₹145 (+8.3%)",proj:"₹2,200",note:"Restaurants shutting menus. Bengaluru cafe charging 'Gas Crisis Charge.' Railways seeking alt fuels. Delhi govt capped commercial supply at 20% of average. Bakeries warn bread shortage.",s:3},
-  {item:"Diesel (Delhi)",pre:"₹87.62/L",now:"₹87.67/L",chg:"FROZEN ⚠️",proj:"Hike inevitable",note:"GOVT HAS NOT RAISED DIESEL PRICES. OMCs taking the hit. But every ₹1 diesel rise = ₹2,500 cr annual trucking cost. When the dam breaks, food prices will surge via freight costs. Mumbai diesel ₹90.03 (also unchanged).",s:2},
-  {item:"Cooking Oil",pre:"~₹140/L",now:"~₹150-155/L",chg:"+₹10-15 (~8%)",proj:"₹180/L",note:"Palm oil +5% (Nomura). Sunflower +16%. India import-dependent. Rupee slide (91.49→93.00) adds ~1.5% to all imports.",s:2},
+  {item:"Diesel (Delhi)",pre:"₹87.62/L",now:"₹87.67/L",chg:"UNCHANGED ⚠️",proj:"Hike risk if Brent>$110",note:"GOVT CUT EXCISE by ₹10/L (from ₹10 to ZERO) but OMCs ABSORBED it — pump price UNCHANGED at ₹87.67. OMCs losing ~₹30/L on diesel. Nayara hiked ₹3/L. Every ₹1 diesel rise = ₹2,500 cr annual trucking cost. Export duty on diesel raised to ₹21.5/L. Mumbai ₹90.03 (unchanged).",s:2},
+  {item:"Cooking Oil",pre:"~₹140/L",now:"~₹155-165/L",chg:"+₹15-25 (~12%)",proj:"₹180-200/L",note:"Palm oil +5% (Nomura). Sunflower +16%. India import-dependent. Rupee slide (91.49→94.84) adds ~3.5% to all imports. Fertilizer prices up 50% — will hit Kharif crop costs.",s:2},
   {item:"Vegetables/Onion",pre:"Stable",now:"Rising",chg:"Transport↑",proj:"₹60-80/kg",note:"400K tons Basmati stuck. Diesel freight costs rising.",s:1},
   {item:"Medicine",pre:"Stable",now:"Stable (for now)",chg:"Coming Apr",proj:"+10-15%",note:"Pharma raw materials costlier. Impact from Q1 FY27.",s:1},
 ];
@@ -165,7 +171,7 @@ const HORMUZ = {
 // ═══════ SVG CHARTS ═══════
 const MiniLine=({data,dataKey,color,w=320,h=85,showDots=true,labels})=>{const vals=data.map(d=>d[dataKey]);const mn=Math.min(...vals),mx=Math.max(...vals),rng=mx-mn||1;const pts=vals.map((v,i)=>({x:28+(i/(vals.length-1))*(w-46),y:8+(1-(v-mn)/rng)*(h-24),v}));const line=pts.map((p,i)=>`${i===0?"M":"L"}${p.x},${p.y}`).join(" ");const area=line+` L${pts[pts.length-1].x},${h-5} L${pts[0].x},${h-5} Z`;return(<svg viewBox={`0 0 ${w} ${h}`} style={{width:"100%",height:"auto"}}><defs><linearGradient id={`g${dataKey}`} x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stopColor={color} stopOpacity="0.18"/><stop offset="100%" stopColor={color} stopOpacity="0"/></linearGradient></defs><path d={area} fill={`url(#g${dataKey})`}/><path d={line} fill="none" stroke={color} strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/>{showDots&&pts.map((p,i)=>(<g key={i}><circle cx={p.x} cy={p.y} r="2.5" fill={C.surface} stroke={color} strokeWidth="1.2"/><text x={p.x} y={p.y-6} fill={C.sub} fontSize="6" textAnchor="middle" fontWeight="600">{typeof p.v==="number"&&p.v>999?(p.v/1000).toFixed(1)+"k":p.v}</text></g>))}{labels&&data.map((d,i)=>(<text key={i} x={28+(i/(data.length-1))*(w-46)} y={h-0.5} fill={C.muted} fontSize="5.5" textAnchor="middle">{d.l||d.w}</text>))}</svg>);};
 const Bar=({value,max=100,color,h=5})=>(<div style={{height:h,background:C.border,borderRadius:h/2,overflow:"hidden",marginTop:3}}><div style={{height:"100%",width:`${Math.min((value/max)*100,100)}%`,background:color||(value>70?C.red:value>50?C.orange:value>30?C.amber:C.green),borderRadius:h/2}}/></div>);
-const RadarSVG=({data,w=270,h=270})=>{const cx=w/2,cy=h/2,r=Math.min(cx,cy)-34,n=data.length;const ang=i=>(Math.PI*2*i)/n-Math.PI/2;const xy=(i,v)=>({x:cx+Math.cos(ang(i))*(v/100)*r,y:cy+Math.sin(ang(i))*(v/100)*r});const pg=(k,cl,ds)=>{const p=data.map((d,i)=>xy(i,d[k]));return<polygon points={p.map(pp=>`${pp.x},${pp.y}`).join(" ")} fill={cl+"18"} stroke={cl} strokeWidth={ds?"1.2":"1.8"} strokeDasharray={ds||"none"}/>;};return(<svg viewBox={`0 0 ${w} ${h}`} style={{width:"100%",height:"auto"}}>{[20,40,60,80,100].map(v=>(<polygon key={v} points={data.map((_,i)=>xy(i,v)).map(p=>`${p.x},${p.y}`).join(" ")} fill="none" stroke={C.border} strokeWidth="0.4"/>))}{data.map((_,i)=>{const p=xy(i,100);return<line key={i} x1={cx} y1={cy} x2={p.x} y2={p.y} stroke={C.border} strokeWidth="0.4"/>;})}{pg("w1",C.green)}{pg("now",C.orange)}{pg("w4",C.red,"3 2")}{data.map((d,i)=>{const p=xy(i,115);return<text key={i} x={p.x} y={p.y} fill={C.sub} fontSize="6" textAnchor="middle" dominantBaseline="middle" fontWeight="600">{d.axis}</text>;})}{[{l:"Week 1",c:C.green,y:h-17},{l:`Now (D${WAR_DAY})`,c:C.orange,y:h-9},{l:"Wk 4 Proj",c:C.red,y:h-1}].map((lg,i)=>(<g key={i}><rect x={8} y={lg.y-4} width={8} height={3} fill={lg.c} rx="1"/><text x={20} y={lg.y-1} fill={C.sub} fontSize="6">{lg.l}</text></g>))}</svg>);};
+const RadarSVG=({data,w=270,h=270,day=33})=>{const cx=w/2,cy=h/2,r=Math.min(cx,cy)-34,n=data.length;const ang=i=>(Math.PI*2*i)/n-Math.PI/2;const xy=(i,v)=>({x:cx+Math.cos(ang(i))*(v/100)*r,y:cy+Math.sin(ang(i))*(v/100)*r});const pg=(k,cl,ds)=>{const p=data.map((d,i)=>xy(i,d[k]));return<polygon points={p.map(pp=>`${pp.x},${pp.y}`).join(" ")} fill={cl+"18"} stroke={cl} strokeWidth={ds?"1.2":"1.8"} strokeDasharray={ds||"none"}/>;};return(<svg viewBox={`0 0 ${w} ${h}`} style={{width:"100%",height:"auto"}}>{[20,40,60,80,100].map(v=>(<polygon key={v} points={data.map((_,i)=>xy(i,v)).map(p=>`${p.x},${p.y}`).join(" ")} fill="none" stroke={C.border} strokeWidth="0.4"/>))}{data.map((_,i)=>{const p=xy(i,100);return<line key={i} x1={cx} y1={cy} x2={p.x} y2={p.y} stroke={C.border} strokeWidth="0.4"/>;})}{pg("w1",C.green)}{pg("now",C.orange)}{pg("w4",C.red,"3 2")}{data.map((d,i)=>{const p=xy(i,115);return<text key={i} x={p.x} y={p.y} fill={C.sub} fontSize="6" textAnchor="middle" dominantBaseline="middle" fontWeight="600">{d.axis}</text>;})}{[{l:"Week 1",c:C.green,y:h-17},{l:`Now (D${day})`,c:C.orange,y:h-9},{l:"Wk 4+ Proj",c:C.red,y:h-1}].map((lg,i)=>(<g key={i}><rect x={8} y={lg.y-4} width={8} height={3} fill={lg.c} rx="1"/><text x={20} y={lg.y-1} fill={C.sub} fontSize="6">{lg.l}</text></g>))}</svg>);};
 
 // ═══════ LAYOUT ═══════
 const mono="'JetBrains Mono','SF Mono',Consolas,monospace";
@@ -441,7 +447,7 @@ export default function App(){
 
       {/* ═══ 6. RADAR ═══ */}
       <S id="radar" title="Risk Radar" sub="Week 1 → Now → Week 4" accent={C.cyan}>
-        <div style={{background:C.card,borderRadius:6,padding:12}}><RadarSVG data={iRadar}/></div>
+        <div style={{background:C.card,borderRadius:6,padding:12}}><RadarSVG data={iRadar} day={iDay}/></div>
       </S>
 
       {/* ═══ 7. WAR LOG ═══ */}
@@ -460,7 +466,7 @@ export default function App(){
           <div style={{fontSize:9.5,lineHeight:1.85,color:C.sub}}>
             <strong style={{color:C.red,fontSize:12}}>{iAssess?.headline || "Strategic assessment loading..."}</strong><br/><br/>
             {(iAssess?.body || "").split("\n").map((p,i) => p.trim() ? <span key={i}>{p}<br/><br/></span> : null)}
-            <strong style={{color:C.orange}}>For India, this is an energy emergency.</strong> Qatar = 60% of India's natural gas. Ras Laffan 17% capacity GONE for 3-5 years. QatarEnergy force majeure. LPG 10 days stock. Petrol/diesel FROZEN — OMCs bleeding ₹20K cr/day.<br/><br/>
+            <strong style={{color:C.orange}}>For India, this is an energy emergency.</strong> Qatar = 60% of India's natural gas. Ras Laffan 17% capacity GONE for 3-5 years. QatarEnergy force majeure. LPG 10 days stock. Excise cut ₹10/L but OMCs absorbed it — pump prices unchanged. FII $12.3B outflow in March — record.<br/><br/>
             <strong style={{color:C.cyan}}>India must act now:</strong> Emergency gas rationing. Non-Gulf LPG acceleration. Rupee defense. Nuclear monitoring. Food supply protection. This is India's crisis — not a distant war.
           </div>
         </div>
