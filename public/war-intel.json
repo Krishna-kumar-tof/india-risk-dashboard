@@ -1,98 +1,105 @@
 {
-  "_updated": "April 1, 2026 — 7:00 PM IST",
-  "_day": 33,
-  "_note": "All facts verified from CNN, Al Jazeera, Bloomberg, WSJ, CNBC, Business Standard, AP, Times of Israel, Euronews, Wikipedia/Hormuz crisis page, Rystad Energy, News24. Sources cited per claim.",
+  "_updated": "April 2, 2026 — 9:00 AM IST",
+  "_day": 34,
+  "_note": "Verified from CBS, CNN, CNBC, NPR, ABC, WashPost, PIB India, BusinessToday, Al Jazeera, HRANA. Trump addressed nation last night.",
   "ticker": [
-    "🔴 BREAKING: Trump claims Iran ASKED FOR CEASEFIRE. Says: 'blasting Iran into oblivion' until Hormuz opens. Will ADDRESS NATION tonight 9PM ET",
-    "📈 Sensex closes +1,100 at ~73,100. Opened +1,870 but gave back gains. Nifty ~22,680. Global relief rally — Kospi +8.1%, Nikkei +4.5%",
-    "🛢️ Iran struck OIL TANKER OFF QATAR coast — missile hit (Al Jazeera). Also: Kuwaiti VLCC Al-Salmi struck near Dubai earlier. Attacks continue",
-    "📉 Brent eases to ~$105 (from $115 Mon). Futures briefly dipped below $100. But Rystad warns: 'buffered to fragile' — 500M barrels lost so far",
-    "🚢 Hormuz: One ship paid $2 MILLION for Iran's Larak channel (Lloyd's). Shipments down 90%. ~10M bbl/day lost. Iran parliament approved tolls",
-    "🇮🇳 BW Elm arrives Mangalore TODAY. 8 Indian carriers crossed. 18 ships + 485 crew remain. India's March review: 'double squeeze — no crude in, no product out'",
-    "⚠️ Iran FM Araghchi: 'prepared for 6+ MONTHS.' Has 'no faith in talks.' IRGC threatened tech companies — deadline passed 8PM Tehran",
-    "🇮🇱 16 wounded in Israel incl 11-year-old girl CRITICAL. 4 soldiers killed in Lebanon. Passover under missile threat. Iran: cluster warheads on Tel Aviv",
-    "🇮🇳 Rupee at ~94.70 (slight recovery). Nayara Energy HIKED petrol ₹5.30, diesel ₹3 — private pumps rising even as govt OMCs absorb excise cut",
-    "🌐 DAY 33. Trump to address nation TONIGHT. April 6 = 5 days. Iran Pres: 'will to end war' but needs guarantees. Market: 'war economy → truce watch'"
+    "🔴 TRUMP ADDRESS: 'objectives NEARING COMPLETION.' Will hit Iran 'extremely hard' for 2-3 more weeks. 'Bring them to the stone ages'",
+    "📉 Markets REVERSED after speech — Oil JUMPED 4%. Asian markets fell (Nikkei -1.4%, Kospi -2.8%). Dow futures sank. Rally was a mirage",
+    "⚠️ Trump on Hormuz: countries 'must take care of that passage' — US WON'T secure it. 'Strait will open naturally.' India on its own",
+    "🇮🇳 India: 60 DAYS of fuel stock. 74-day total capacity. LPG 30+ days. Refineries >100%. 800 TMT LPG cargoes secured. NO dry-outs (PIB)",
+    "🔴 Iran deaths: 3,519 killed (HRANA/ABC) — FAR higher than Red Crescent's 2,000+. Pentagon: 348 US troops wounded. 13 US dead",
+    "🚢 Hormuz: Iran struck tanker off Qatar. Kuwaiti VLCC hit near Dubai. Even Chinese COSCO ships turned back. But 8 Indian carriers crossed safely",
+    "🇮🇳 India LPG production UP 40% to 50,000 MT/day (need: 80,000). 41+ crude suppliers. ₹497 Cr export support package approved",
+    "🛢️ Brent back above $105. US gas $4.06/gal (+5¢ in one day). Indian basket $115.75/bbl. Rystad: 500M barrels lost. 'Buffered to fragile'",
+    "🇬🇧 UK to host international conference on Hormuz reopening. 35 countries signed commitment. But Iran parliament APPROVED permanent tolls",
+    "🌐 DAY 34. Hegseth: 'upcoming days will be DECISIVE.' Iran: 'prepared for 6+ months.' 1,300+ killed in Lebanon. April 6 deadline = 4 days"
   ],
   "whatChanged": {
-    "label": "WHAT CHANGED — APR 1, 7 PM IST (DAY 33)",
+    "label": "WHAT CHANGED — APR 2, 9 AM IST (DAY 34)",
     "items": [
-      {"color": "red", "bold": "BREAKING: Trump claims Iran asked for CEASEFIRE.", "text": " 'Will consider when Hormuz is open, free and clear.' Says 'blasting Iran into oblivion and back to the Stone Ages.' Will ADDRESS NATION tonight 9 PM ET (Apr 2, 6:30 AM IST). This could be the defining moment"},
-      {"color": "green", "bold": "Sensex closes +1,100 at ~73,100.", "text": " Opened +1,870 but gave back gains on profit booking. Nifty ~22,680. Global rally: Kospi +8.1%, Nikkei +4.5%. Brent eases to $105. VIX crashed. 'War economy → truce watch' (analysts)"},
-      {"color": "red", "bold": "Iran struck oil tanker OFF QATAR coast", "text": " — missile hit (Al Jazeera live). Earlier: Kuwaiti VLCC struck near Dubai. Despite 'ceasefire' talk, attacks CONTINUE. Iran FM: 'no faith in talks,' prepared for 6+ months"},
-      {"color": "cyan", "bold": "BW Elm arrives Mangalore TODAY.", "text": " 8 Indian carriers total. 18 ships + 485 crew remain. Hormuz: 1 ship paid $2M for Iran's Larak channel. Shipments down 90%. India review: 'double squeeze — no crude in, no product out'"},
-      {"color": "orange", "bold": "Nayara Energy HIKED petrol ₹5.30, diesel ₹3.", "text": " Private pumps rising even as govt OMCs absorb excise cut. Jet fuel past ₹2L/kL. Rystad: 500M barrels total lost. 'Buffered to fragile' — stopgap measures ending"},
-      {"color": "purple", "bold": "16 wounded in Israel incl 11-yr-old critical.", "text": " 4 soldiers killed in Lebanon. Passover under threat. Iran cluster warheads on Tel Aviv. IRGC tech company deadline passed. 2 executed for MEK links. April 6 = 5 days"}
+      {"color": "red", "bold": "Trump addressed nation: 'hit extremely hard for 2-3 more weeks.'", "text": " NOT a de-escalation — said 'stone ages.' Markets reversed: oil jumped 4%, Asian markets fell, Dow futures sank. The rally was a mirage. Ann Coulter: 'All I heard was WAR WAR WAR'"},
+      {"color": "red", "bold": "Trump on Hormuz: US WON'T secure it.", "text": " 'Countries must take care of that passage.' 'Strait will open naturally.' This means India, Japan, S.Korea must figure it out themselves. UK hosting 35-nation conference on reopening. But Iran approved permanent tolls"},
+      {"color": "cyan", "bold": "India fuel stocks: 60 DAYS cover (PIB confirmed).", "text": " LPG 30+ days. Production up 40%. Refineries >100%. 800 TMT LPG cargoes from US/Russia/Australia. 41+ suppliers. NO dry-outs. Govt: 'oasis of energy security.' But long-term costs rising sharply"},
+      {"color": "red", "bold": "Iran deaths REVISED sharply upward: 3,519 (HRANA/ABC).", "text": " Far higher than Red Crescent's 2,000+. Pentagon: 348 US troops wounded. 13 dead. 1,300+ killed in Lebanon. Hegseth: 'upcoming days decisive.' Iran FM: 'no faith in talks'"},
+      {"color": "orange", "bold": "Brent back above $105 AFTER speech.", "text": " US gas $4.06 (+5¢ in one day — biggest single-day move in 2 weeks). Indian basket $115.75. Nayara hiked ₹5.30. Jet fuel past ₹2L/kL. Excise cut absorbed by OMCs — no pump relief"},
+      {"color": "purple", "bold": "April 6 deadline = 4 days.", "text": " Trump says 2-3 more weeks of fighting. Iran says 6+ months. UK conference on Hormuz. But Iran struck tanker off Qatar + Kuwait VLCC near Dubai. War continues despite all the talk"}
     ]
   },
-  "deaths": "4,700+",
-  "deathsSub": "2,000+ Iran (217 kids), 1,200+ Lebanon (124 kids), 99 Iraq, 19 Israel, 15 US, 30+ Gulf",
+  "deaths": "5,200+",
+  "deathsSub": "3,519 Iran (HRANA), 1,300+ Lebanon, 99 Iraq, 19 Israel, 13 US (348 wounded), 30+ Gulf",
   "econ": {
-    "sensex": "73,100", "sensexDelta": "▲ +1,100 (close)", "sensexSub": "Opened +1,870 but gave back. New FY27 starts",
-    "vix": "23.65", "vixDelta": "▼ -15% relief",
+    "sensex": "73,100", "sensexDelta": "▲ +1,100 (Apr 1 close)", "sensexSub": "But futures falling after Trump speech",
+    "vix": "23.65", "vixDelta": "likely to rise Thu",
     "fpi": "$12.3B", "fpiDelta": "₹1,13,810+ Cr March (record)",
     "wealth": "₹44L+ Cr",
-    "analysis": "DAY 33: Relief rally on Trump's '2-3 weeks' comment. Sensex +1,100 close (gave back from +1,870 open). Brent ~$105. Rupee ~94.70 (slight recovery). BUT Iran struck tanker off Qatar. FM says 6+ months. Rystad: 500M barrels lost, system 'buffered to fragile.' Nayara hiked ₹5.30. India review: 'double squeeze.' Trump addresses nation TONIGHT — could define everything."
+    "analysis": "DAY 34: Markets reversed after Trump's speech. Oil jumped 4%. Asian markets fell. He said US WON'T secure Hormuz — countries must do it themselves. This is the worst possible signal for India. Meanwhile India has 60 days of fuel stock (PIB confirmed), LPG production up 40%, 800 TMT cargoes secured. But long-term: Indian basket $115.75. Excise cut absorbed. Nayara hiked. The structural crisis deepens even as short-term supply is managed."
   },
   "hormuzLatest": [
-    {"d": "Apr 1", "e": "TRUMP: Iran asked for CEASEFIRE — 'will consider when Hormuz open.' Iran struck tanker off Qatar (Al Jazeera). Kuwaiti VLCC struck near Dubai (Bloomberg). 1 ship paid $2M for Larak channel (Lloyd's/Wikipedia). Shipments down 90%. ~10M bbl/day lost. 500M barrels total lost (Rystad). Parliament approved tolls. BW Elm at Mangalore today. 8 Indian carriers crossed. 18+485 remain."}
+    {"d": "Apr 2", "e": "TRUMP: US WON'T secure Hormuz — 'countries must take care of that passage.' UK hosting 35-nation conference on reopening. Iran parliament approved permanent tolls. Iran struck tanker off Qatar + Kuwaiti VLCC near Dubai. Chinese COSCO ships turned back. 8 Indian carriers crossed. 18+485 remain. India has 60 days fuel stock. LPG 30+ days. But Rystad: 500M barrels lost, system 'buffered to fragile.'"}
   ],
   "hormuzVessels": {
     "preWarDaily": "~130 ships/day",
-    "currentDaily": "≤6 ships/day — shipments down 90% (Wikipedia). ~1 vessel/week (India govt review)",
+    "currentDaily": "Near zero for commercial traffic. Iran's northern Larak channel only route — $2M+ per transit",
     "indianVessels": {
-      "peak": "28 Indian-flagged at war start (24 west + 4 east)",
+      "peak": "28 Indian-flagged at war start",
       "current": "18 ships + 485 seafarers remain",
-      "crossed": "8 carriers safely crossed + discharged/arriving",
+      "crossed": "8 carriers safely crossed",
       "repatriated": "942+ seafarers repatriated",
-      "operation": "Op Urja Suraksha — 5+ warships. Larak-Qeshm corridor."
+      "operation": "Op Urja Suraksha — 5+ warships"
+    },
+    "indiaFuelStatus": {
+      "crudeStock": "60 days cover (74-day total capacity)",
+      "lpgStock": "30+ days. Production up 40% to 50,000 MT/day (need: 80,000)",
+      "lpgCargoes": "800 TMT secured from US, Russia, Australia",
+      "refineries": ">100% utilization",
+      "suppliers": "41+ countries. No single-source dependency",
+      "dryOuts": "ZERO reported at any pump or distributor (PIB)",
+      "indianBasket": "$115.75/barrel (late March)"
     },
     "recentTransits": [
-      {"date": "Apr 1", "vessel": "BW Elm arrives Mangalore", "note": "LPG cargo. Navy escort confirmed."},
-      {"date": "Mar 31", "vessel": "BW Tyr docked Mumbai", "note": "94,000 MT LPG combined. Navy escort (ANI video)."},
-      {"date": "Mar 28", "vessel": "2 SCI petroleum carriers", "note": "Crossed + discharged in India."},
-      {"date": "Mar 25", "vessel": "Pine Gas + Jag Vasant (92,612 MT LPG)", "note": "Reached India Mar 26-28."},
-      {"date": "Mar 18", "vessel": "Jag Laadki (80,886 MT crude)", "note": "From UAE. Reached Mundra."},
-      {"date": "Mar 14", "vessel": "Shivalik + Nanda Devi (92,712 MT LPG)", "note": "First to cross. Mundra + Kandla."},
-      {"date": "Mar 31", "vessel": "Kuwaiti VLCC Al-Salmi STRUCK near Dubai", "note": "Fully laden. Drone hit. Fire. Biggest attack yet (Bloomberg)."},
-      {"date": "Apr 1", "vessel": "Oil tanker STRUCK off Qatar coast", "note": "Iranian missile hit. No injuries reported (Al Jazeera)."},
-      {"date": "Mar 30", "vessel": "2 COSCO Chinese ships TURNED BACK", "note": "U-turned at Larak despite earlier transit. Even China not safe."},
-      {"date": "Mar 30", "vessel": "Express Rome (Liberia-flagged) — 2 projectiles nearby", "note": "22nm from Ras Tanura. No damage (Wikipedia)."}
+      {"date": "Apr 1", "vessel": "BW Elm arrives Mangalore", "note": "LPG. Navy escort."},
+      {"date": "Mar 31", "vessel": "BW Tyr docked Mumbai", "note": "94,000 MT LPG combined."},
+      {"date": "Mar 28", "vessel": "2 SCI carriers", "note": "Crossed + discharged."},
+      {"date": "Mar 25", "vessel": "Pine Gas + Jag Vasant (92,612 MT)", "note": "Reached India."},
+      {"date": "Mar 18", "vessel": "Jag Laadki (80,886 MT crude)", "note": "Reached Mundra."},
+      {"date": "Mar 14", "vessel": "Shivalik + Nanda Devi (92,712 MT)", "note": "First to cross."},
+      {"date": "Apr 1", "vessel": "Tanker STRUCK off Qatar", "note": "Iranian missile. No injuries (Al Jazeera)."},
+      {"date": "Mar 31", "vessel": "Kuwaiti VLCC Al-Salmi STRUCK near Dubai", "note": "Fully laden. Fire. Bloomberg."}
     ],
-    "stillWaiting": "Jag Vikram, Green Asha, Green Sanvi in western Gulf. 1 being loaded.",
-    "blockadeStatus": "SELECTIVE + VOLATILE. India/Pakistan getting passage. Chinese ships turned back. Kuwaiti + Qatar tankers struck. 1 ship paid $2M for Larak channel. Parliament approved tolls. 90% shipment reduction. ~500M barrels total lost (Rystad). System 'buffered to fragile.'",
-    "keyFigures": "Op Urja Suraksha: 5+ warships. 50K+ US special forces in region. India govt review: 'double squeeze — no crude in, no product out.'"
+    "stillWaiting": "Jag Vikram, Green Asha, Green Sanvi in western Gulf.",
+    "blockadeStatus": "Trump said US WON'T secure Hormuz. Countries must do it. UK hosting 35-nation conference. Iran approved permanent tolls. 1 ship paid $2M for Larak. 500M barrels lost (Rystad). System 'buffered to fragile.'",
+    "keyFigures": "Op Urja Suraksha: 5+ warships. India fuel: 60 days stock. LPG 30+ days. 800 TMT cargoes secured."
   },
   "milTop": [
-    {"t": "🔴 BREAKING: Trump Claims Iran Asked for CEASEFIRE (Apr 1)", "lv": "BREAKING", "color": "red", "d": "Trump on Truth Social: 'Iran's New Regime President has asked the US for a CEASEFIRE! Will consider when Hormuz is open, free, and clear.' Until then: 'blasting Iran into oblivion.' Will ADDRESS NATION tonight 9 PM ET (Apr 2, 6:30 AM IST). This speech could define the war's trajectory. Rubio: 'messages being exchanged.'"},
-    {"t": "📈 Global Relief Rally — But Iran Says 6+ Months (Apr 1)", "lv": "DEVELOPING", "color": "green", "d": "Sensex +1,100. Kospi +8.1%. Nikkei +4.5%. S&P 500 had best day in a year (+2.9%). Brent eases to $105. But Iran FM Araghchi: 'prepared for 6+ months,' 'no faith in talks.' Iran struck tanker off Qatar DURING ceasefire talk. Capital Economics: 'effects persist even if war ends soon.'"},
-    {"t": "🚢 BW Elm at Mangalore — 500M Barrels Lost Globally (Apr 1)", "lv": "DEVELOPING", "color": "cyan", "d": "BW Elm arrives Mangalore with LPG. 8 Indian carriers total. 18+485 remain. But Rystad: 500M barrels total lost in war. System 'buffered to fragile.' India March review: 'double squeeze.' 1 ship paid $2M for Larak passage. Nayara hiked petrol ₹5.30. Jet fuel past ₹2L/kL."}
+    {"t": "🔴 Trump Address: 'Hit Extremely Hard for 2-3 More Weeks' (Apr 1)", "lv": "BREAKING", "color": "red", "d": "First prime-time address of the war. 'Core objectives nearing completion.' BUT: 'bring them to the stone ages.' Oil jumped 4% AFTER speech. Markets reversed. He will NOT secure Hormuz — 'countries must take care of it.' Ann Coulter: 'All I heard was WAR WAR WAR.' Democrats: 'No clear plan.' 1/3 of Americans think he has a plan (CNN poll)."},
+    {"t": "🇮🇳 India Fuel Status: 60 Days Stock — But Trump Says 'You're On Your Own' for Hormuz", "lv": "CRITICAL", "color": "orange", "d": "PIB confirmed: 60 days crude+products. 74-day total capacity. LPG 30+ days (production up 40%). Refineries >100%. 800 TMT cargoes from US/Russia/Australia. NO dry-outs. BUT: Trump won't secure Hormuz. India must figure it out. UK hosting 35-nation conference. India's Op Urja Suraksha: 5+ warships. 8 carriers crossed. 18+485 remain."},
+    {"t": "📉 Markets Reversed — Oil +4%, Asia Falls, Rally Was a Mirage", "lv": "BREAKING", "color": "red", "d": "Yesterday's Sensex +1,100 rally is being unwound. Trump's speech was NOT de-escalation — it was 'more war for 2-3 weeks.' Oil jumped 4% after. Nikkei -1.4%, Kospi -2.8%. Dow futures sank. Brent $105+. Iran deaths revised to 3,519 (HRANA). Pentagon: 348 wounded. Hegseth: 'upcoming days decisive.'"}
   ],
   "tlLatest": [
-    {"d": 33, "l": "Apr 1", "deaths": 4700, "brent": 105, "nifty": 22680, "rupee": 94.70, "tag": "Trump: Iran asked ceasefire. Sensex +1,100. Tanker hit off Qatar. BW Elm at Mangalore. Brent $105. Trump addresses nation tonight. April 6 = 5 days", "sev": 2}
+    {"d": 34, "l": "Apr 2", "deaths": 5200, "brent": 105, "nifty": 22680, "rupee": 94.70, "tag": "Trump: 'stone ages' for 2-3 more weeks. Won't secure Hormuz. Oil +4% after speech. Markets reverse. India: 60 days stock. Iran: 3,519 dead (HRANA). April 6 = 4 days", "sev": 3}
   ],
-  "projNow": {"brent": 105, "rupee": 94.70, "lpg": 913, "petrol": 94.77, "deaths": 4700},
+  "projNow": {"brent": 105, "rupee": 94.70, "lpg": 913, "petrol": 94.77, "deaths": 5200},
   "scenarios": {
-    "headers": ["Pre-war", "Now (Day 33)", "If deal by Apr 15", "If war to May", "If war to Jun+"],
-    "brent": [65, 105, 85, 130, 150],
-    "rupee": [91.0, 94.70, 92.5, 98.0, 105.0],
-    "deaths": [0, "4,700+", "5,500", "12,000", "25,000+"],
-    "sensex": ["78,699", "73,100", "78,000+", "65,000", "58,000"],
+    "headers": ["Pre-war", "Now (Day 34)", "If US exits mid-Apr", "If war to May", "If war to Jun+"],
+    "brent": [65, 105, 88, 130, 150],
+    "rupee": [91.0, 94.70, 93.0, 98.0, 105.0],
+    "deaths": [0, "5,200+", "6,000", "14,000", "30,000+"],
+    "sensex": ["78,699", "73,100", "77,000+", "65,000", "55,000"],
     "lpg": ["₹853", "₹913", "₹880", "₹1,100", "₹1,300+"],
-    "fii": ["-", "$12.3B out", "$5B return", "$18B out", "$25B+ out"]
+    "fii": ["-", "$12.3B out", "$3B return", "$18B out", "$28B+ out"]
   },
   "radar": [
-    {"axis": "Oil Shock", "w1": 60, "now": 86, "w4": 95, "w8": 99},
-    {"axis": "Market Crash", "w1": 45, "now": 88, "w4": 93, "w8": 97},
+    {"axis": "Oil Shock", "w1": 60, "now": 88, "w4": 96, "w8": 99},
+    {"axis": "Market Crash", "w1": 45, "now": 90, "w4": 95, "w8": 98},
     {"axis": "Nuclear Risk", "w1": 20, "now": 86, "w4": 94, "w8": 98},
-    {"axis": "Hormuz Closure", "w1": 80, "now": 90, "w4": 95, "w8": 99},
-    {"axis": "Household Impact", "w1": 15, "now": 96, "w4": 99, "w8": 99},
+    {"axis": "Hormuz Closure", "w1": 80, "now": 92, "w4": 96, "w8": 99},
+    {"axis": "Household Impact", "w1": 15, "now": 95, "w4": 98, "w8": 99},
     {"axis": "Currency Crisis", "w1": 40, "now": 92, "w4": 97, "w8": 99},
     {"axis": "Social Unrest", "w1": 25, "now": 78, "w4": 90, "w8": 96},
     {"axis": "Military Exposure", "w1": 35, "now": 96, "w4": 98, "w8": 99}
   ],
   "assessment": {
-    "headline": "DAY 33. Trump claims Iran asked for ceasefire. Will address nation tonight. But Iran struck a tanker DURING the announcement.",
-    "body": "The most significant 24 hours of the war are unfolding. Trump claims Iran's president asked for a ceasefire and says he'll 'consider when Hormuz is open.' He will address the nation tonight at 9 PM ET (April 2, 6:30 AM IST). Markets rallied sharply — Sensex +1,100, Kospi +8.1%, S&P 500 best day in a year.\n\nBut Iran struck an oil tanker off Qatar's coast DURING the ceasefire announcement. FM Araghchi says he has 'no faith in talks' and Iran is prepared for 6+ months. The IRGC's tech company threat deadline has passed. 16 were wounded in Israel including an 11-year-old girl in critical condition.\n\nThe contradiction is stark: Trump says ceasefire. Iran says 6 months. The market chose to believe Trump — for now. Tonight's address could go either way.\n\nFor India — verified facts (Day 33, 7 PM):\n• Sensex ~73,100 (+1,100 close). Nifty ~22,680. Rupee ~94.70\n• BW Elm arrives Mangalore today. 8 carriers crossed. 18+485 remain\n• Nayara Energy hiked petrol ₹5.30, diesel ₹3 — private pumps rising\n• India's March economic review: 'double squeeze — no crude in, no product out'\n• Rystad: 500M barrels lost globally. System 'buffered to fragile'\n• FII $12.3B outflow March. ₹44L+ Cr destroyed\n• Hormuz: 1 ship paid $2 million for Iran's Larak channel\n\nTrump's address tonight is the most important event for India's energy security since the war began. If he announces a withdrawal timeline: relief rally, Brent drops to $85-90, rupee recovers. If he announces escalation (Kharg raid, more troops): Brent spikes past $120, rupee past 96, India enters full crisis mode. Set your alarm for 6:30 AM IST tomorrow."
+    "headline": "DAY 34. Trump's address was NOT peace — it was 'stone ages for 2-3 more weeks.' And he won't secure Hormuz. India is on its own.",
+    "body": "Trump's prime-time address was the most consequential moment of the war for India — and the news is bad. He said objectives are 'nearing completion' but will hit Iran 'EXTREMELY HARD for 2-3 more weeks.' Oil jumped 4% immediately after. Asian markets fell. The relief rally evaporated.\n\nThe worst part for India: Trump explicitly said the US will NOT secure the Strait of Hormuz. 'Countries must take care of that passage.' 'The strait will open up naturally.' This means India, Japan, and South Korea are on their own. The UK is hosting a 35-nation conference on Hormuz, but Iran has already approved permanent tolls.\n\nIndia's fuel position (verified from PIB, Apr 1):\n• 60 days of stock cover (74-day total capacity)\n• LPG: 30+ days. Production up 40% to 50,000 MT/day\n• 800 TMT of LPG cargoes secured from US, Russia, Australia\n• 41+ crude suppliers. Refineries at >100% utilization\n• ZERO dry-outs reported at any pump or distributor\n• But: Indian basket at $115.75/barrel. Excise cut absorbed by OMCs. Nayara hiked ₹5.30\n\nIran's death toll revised sharply: HRANA reports 3,519 killed — far higher than Red Crescent's 2,000+. Pentagon confirmed 348 US troops wounded. Hegseth says 'upcoming days will be decisive.'\n\nThe critical question: If Trump exits in 2-3 weeks without securing Hormuz, what happens? Iran keeps the toll. India pays permanently higher energy costs. The pre-war world of free Hormuz passage is over. India must now build a coalition — with Japan, South Korea, and possibly the UK — to secure its own energy supply lines. This is the new reality."
   }
 }
