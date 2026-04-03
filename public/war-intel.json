@@ -1,45 +1,45 @@
 {
-  "_updated": "April 3, 2026 — 8:00 AM IST (Good Friday — Markets CLOSED)",
+  "_updated": "April 3, 2026 — 7:00 PM IST",
   "_day": 35,
-  "_note": "Verified: CNN, Al Jazeera, Business Standard, Reuters/Nikkei Asia, France24, Gulf News, The National, Wikipedia. UN vote TODAY. India joined Hormuz talks.",
+  "_note": "Verified: CBS, CNN, AP, Business Standard, Gulf News, Nikkei Asia, CNBC, CFR, Wikipedia. UN vote postponed to Saturday. Brent $109. India markets closed (Good Friday).",
   "ticker": [
-    "🔴 UN SECURITY COUNCIL VOTES TODAY on Hormuz 'all defensive means necessary.' China + Russia OPPOSE — likely veto. Bahrain presidency pushing",
-    "🇮🇳 INDIA JOINED UK-led Hormuz talks — Foreign Sec Vikram Misri participated. 60+ countries. India supplying oil to Bangladesh, Nepal, Bhutan, Sri Lanka. Maldives requesting",
-    "🛢️ Brent SURGES to $109 — up 7.78% since Trump speech. Russian Urals crude at $123.45 (+6.4%). Oil ROSE on war talk, not fell",
-    "💣 Tehran-Karaj bridge COLLAPSED — 8 killed, 95 wounded. 'Highest bridge in Middle East.' Ballistic missile chief Atimi KILLED in Kermanshah",
-    "📉 Good Friday — markets CLOSED today. Sensex ended 73,320 yesterday (most volatile day: crashed 1,584 → recovered +185). Rupee 93.19 on RBI NDF ban",
-    "🚢 Dry bulk through Hormuz: 83% COLLAPSE (7.5M tons Feb → 1.3M tons March). Iran drafting permanent Hormuz protocol with Oman. 'Pay-to-pass' scheme",
-    "☁️ Amazon AWS data centers HIT in Bahrain — Iranian strikes on critical cloud infrastructure. UAE exams cancelled. China banned jet fuel exports",
-    "🇬🇧 UK FM Cooper: 'Iran cannot charge countries a BOUNTY to let ships pass.' EU: Aspides naval mission assisted 1,700 ships in Red Sea",
-    "⚠️ Iran FM: 'Every bridge and building will be built back STRONGER.' Military warns of MORE DESTRUCTIVE attacks. Hormuz closed 'long term' to US/Israel",
-    "🌐 DAY 35. April 6 deadline = 3 DAYS. UN vote today. Hormuz turmoil 'will last months even after reopening' (Al Jazeera/analysts). FY27 starts under energy crisis"
+    "🔴 UN Hormuz vote POSTPONED to Saturday — China, Russia AND France oppose. 5th draft circulated. Bahrain: 'cannot accept economic terrorism'",
+    "🛢️ Brent $109 (+7.8%). WTI $111.54 (+11.4%). BIGGEST single-day oil surge of the war. BCA Research: 'oil cliff in mid-April' — supply doubles to 10M bbl/day lost",
+    "💣 B1 bridge (Tehran-Karaj) COLLAPSED — 8 killed, 95 wounded on Nature Day holiday. Trump touted it: 'much more to follow.' Missile chief Atimi killed",
+    "🇮🇷 Iran CLAIMS shot down US F-35 over Qeshm Island. CENTCOM denies: 'all aircraft accounted for.' Red Crescent warehouse struck in Bushehr",
+    "🇮🇳 India markets CLOSED (Good Friday). Sensex at 73,320. Rupee 93.19. Foreign Sec Misri in 60+ nation Hormuz talks. India supplying fuel to 5 neighbors",
+    "🚢 CMA CGM Kribi — FIRST French-linked ship through Hormuz since war (via Larak toll route). Traffic still 90% down. Iran drones hit Kuwait's Mina al-Ahmadi refinery",
+    "⚠️ CNBC/BCA: 'World hits OIL CLIFF mid-April — SPR + Russian exemptions run out. Supply loss DOUBLES to 10M bbl/day. No substitute'",
+    "🇬🇧 UK FM Cooper: 'Iran cannot charge a BOUNTY.' EU Kallas: 'Cannot lose another critical trade route.' Aspides mission: 1,700 ships assisted in Red Sea",
+    "🇮🇷 Iran military: 'war continues until US faces PERMANENT HUMILIATION.' FM Araghchi: 'Every bridge built back STRONGER.' Pezeshkian: 'resolute in defending'",
+    "🌐 DAY 35. April 6 = 2 DAYS (Sunday). Monday markets reopen into deadline. Hegseth fired Army chief. Iran hit Kuwait refinery. Week 6 looms"
   ],
   "whatChanged": {
-    "label": "WHAT CHANGED — APR 3, 8 AM IST (DAY 35 — GOOD FRIDAY)",
+    "label": "WHAT CHANGED — APR 3, 7 PM IST (DAY 35 — GOOD FRIDAY)",
     "items": [
-      {"color": "red", "bold": "UN Security Council votes TODAY on Hormuz naval action.", "text": " Bahrain's resolution: 'all defensive means necessary.' But China + Russia OPPOSE — likely veto. UK hosted 60+ nation conference. India's Foreign Sec Misri participated, said 'unimpeded transit through international waterways'"},
-      {"color": "cyan", "bold": "India joined Hormuz coalition talks.", "text": " Foreign Sec Vikram Misri in UK-led virtual meeting. India also supplying oil to Bangladesh, Nepal, Bhutan, Sri Lanka. Maldives requested fuel. MEA: 6 Indian-flagged ships transited Hormuz in past month. 8 carriers crossed. India building regional energy leadership role"},
-      {"color": "red", "bold": "Brent surges to $109 (up 7.78% since Trump speech).", "text": " Russian Urals crude at $123.45. Oil rising because Trump's speech was WAR not peace. Dry bulk through Hormuz: 83% collapse. Iran FM: 'every bridge built back stronger.' Military: 'more destructive attacks coming'"},
-      {"color": "orange", "bold": "Tehran-Karaj bridge collapsed — 8 killed, 95 wounded.", "text": " 'Highest bridge in Middle East.' Ballistic missile chief Atimi killed. AWS data centers hit in Bahrain. UAE school exams cancelled. China banned jet fuel exports. Korean Air in 'emergency mode'"},
-      {"color": "green", "bold": "India fuel: 60 days stock. Rupee at 93.19 (recovered).", "text": " RBI NDF ban working. Sensex closed 73,320 yesterday. Markets CLOSED today (Good Friday). Next trading = Monday — same day as April 6 deadline"},
-      {"color": "purple", "bold": "April 6 = 3 DAYS. Markets reopen INTO the deadline.", "text": " If no deal: power plant strikes resume. Analysts warn Hormuz turmoil 'will last MONTHS even after reopening' — congestion, insurance, rerouting. The pre-war world is permanently gone"}
+      {"color": "red", "bold": "Brent $109 (+7.8%), WTI $111.54 (+11.4%) — biggest oil surge of the war.", "text": " BCA Research warns 'oil cliff mid-April' — SPR releases + Russian oil exemptions run out. Supply loss doubles to 10M bbl/day. Chevron CEO: 'very real physical manifestations.' Shell CEO: 'disruptions moved to SE Asia, NE Asia, Europe'"},
+      {"color": "red", "bold": "UN Hormuz vote POSTPONED to Saturday.", "text": " China, Russia AND France oppose 'all necessary means' language. 5th draft circulated. GCC: 'cannot accept economic terrorism.' Even if passed, enforcement is months away. Iran drafting permanent toll protocol with Oman"},
+      {"color": "orange", "bold": "B1 bridge collapsed — 8 killed, 95 wounded.", "text": " Struck during Nature Day holiday celebrations. Trump: 'much more to follow.' Missile chief Atimi killed. Iran claims F-35 shot down (CENTCOM denies). Red Crescent warehouse hit in Bushehr. Hegseth fired Army Chief of Staff Gen. George"},
+      {"color": "cyan", "bold": "India's Foreign Sec Misri in 60+ nation Hormuz talks.", "text": " India supplying fuel to Bangladesh, Nepal, Bhutan, Sri Lanka. Maldives formally requested. MEA: 6 Indian-flagged ships transited. Markets closed today. Sensex 73,320. Rupee 93.19. April 6 deadline = 2 days"},
+      {"color": "red", "bold": "Iran hit Kuwait's Mina al-Ahmadi refinery — fires burning.", "text": " Also struck Kuwait airport earlier. Iran military: 'war until permanent humiliation.' FM: 'every bridge built stronger.' First French-linked ship (CMA CGM Kribi) through Hormuz via Larak toll"},
+      {"color": "purple", "bold": "April 6 = SUNDAY. Markets reopen Monday INTO the deadline.", "text": " If no deal: power plant strikes resume. CNBC: 'stopgap measures end mid-April.' IMF: every 10% energy price rise = +0.5% global inflation. Philippines may ground planes. Bangladesh closed universities. Pakistan: 4-day work week"}
     ]
   },
   "deaths": "5,300+",
-  "deathsSub": "3,519+ Iran (HRANA), 1,300+ Lebanon (124 kids), 99 Iraq, 19 Israel, 13 US (348 wounded), 30+ Gulf",
+  "deathsSub": "3,519+ Iran (HRANA), 1,300+ Lebanon, 99 Iraq, 19 Israel, 13 US (348 wounded), 30+ Gulf",
   "econ": {
-    "sensex": "73,320", "sensexDelta": "▲ +185 (Thu close)", "sensexSub": "Markets CLOSED today (Good Friday). Reopen Mon into Apr 6 deadline",
-    "vix": "25.99", "vixDelta": "▲ elevated",
-    "fpi": "$12.3B+", "fpiDelta": "₹1.23T March + ₹8,331 Cr Apr 1",
+    "sensex": "73,320", "sensexDelta": "closed (Good Friday)", "sensexSub": "Reopen Mon into Apr 6 deadline. Asian markets: Nikkei +0.9%, Kospi +2.1%",
+    "vix": "25.99", "vixDelta": "elevated",
+    "fpi": "$12.3B+", "fpiDelta": "₹1.23T Mar + ₹8,331 Cr Apr 1",
     "wealth": "₹44L+ Cr",
-    "analysis": "DAY 35: Markets closed (Good Friday). Brent surging to $109. Russian crude at $123.45. Oil rising BECAUSE of Trump's speech — markets read 'more war.' UN votes on Hormuz today. India joined 60+ nation coalition. India supplying fuel to neighbors. Rupee at 93.19 on RBI intervention. Manufacturing PMI 4-year low. When markets reopen Monday, it IS the April 6 deadline. Everything converges."
+    "analysis": "DAY 35: Brent surged to $109 — biggest single-day jump of the war. WTI $111.54 (+11.4%). BCA Research: 'oil cliff mid-April — SPR + Russian exemptions expire, supply loss doubles.' UN Hormuz vote postponed (China/Russia/France oppose). India markets closed. Rupee 93.19 (RBI NDF ban holding). India supplying fuel to 5 neighbors. Markets reopen Monday = April 6 deadline day. IMF: every 10% energy rise = +0.5% global inflation."
   },
   "hormuzLatest": [
-    {"d": "Apr 3", "e": "UN SECURITY COUNCIL VOTES TODAY — Bahrain's 'all defensive means necessary' resolution. China + Russia oppose (likely veto). UK hosted 60+ nation talks (India's Misri participated). Iran drafting permanent Hormuz protocol with Oman. Dry bulk 83% collapse. EU Aspides mission: 1,700 ships in Red Sea. Brent $109. 8 Indian carriers crossed. 18+485 remain."}
+    {"d": "Apr 3", "e": "UN vote POSTPONED to Saturday — China/Russia/France oppose. 5th draft. CMA CGM Kribi: first French-linked ship through (via Larak toll). Iran drones hit Kuwait's Mina al-Ahmadi refinery. Iran drafting permanent toll with Oman. Dry bulk 83% down. India's Misri in 60+ nation talks. 8 Indian carriers crossed. 18+485 remain. BCA: 'oil cliff mid-April — supply loss doubles.'"}
   ],
   "hormuzVessels": {
     "preWarDaily": "~130 ships/day",
-    "currentDaily": "Near zero. Dry bulk 83% down (7.5M→1.3M tons). Larak channel: $2M+/ship",
+    "currentDaily": "~90% down. First French ship through via Larak toll. IMO: 18+ attacks on vessels",
     "indianVessels": {
       "peak": "28 at war start",
       "current": "18 ships + 485 seafarers",
@@ -54,51 +54,53 @@
       "refineries": ">100% utilization",
       "suppliers": "41+ countries",
       "dryOuts": "ZERO (PIB)",
-      "indianBasket": "$115.75/bbl (rising)",
-      "neighborSupply": "India supplying oil to Bangladesh, Nepal, Bhutan, Sri Lanka. Maldives requested"
+      "indianBasket": "$115.75/bbl (likely higher now — Brent $109)",
+      "neighborSupply": "India supplying oil to Bangladesh, Nepal, Bhutan, Sri Lanka. Maldives requested",
+      "oilCliff": "BCA Research: stopgap measures end mid-April. Supply loss doubles to 10M bbl/day. 'No substitute'"
     },
     "recentTransits": [
+      {"date": "Apr 3", "vessel": "CMA CGM Kribi (French-linked, Malta flag)", "note": "First French ship through since war. Larak toll route (MarineTraffic)."},
       {"date": "Apr 1", "vessel": "BW Elm at Mangalore", "note": "LPG. Navy escort."},
       {"date": "Mar 31", "vessel": "BW Tyr at Mumbai", "note": "94,000 MT LPG."},
       {"date": "Mar 28", "vessel": "2 SCI carriers", "note": "Discharged."},
       {"date": "Mar 25", "vessel": "Pine Gas + Jag Vasant", "note": "92,612 MT."},
-      {"date": "Mar 18", "vessel": "Jag Laadki (crude)", "note": "80,886 MT. Mundra."},
-      {"date": "Mar 14", "vessel": "Shivalik + Nanda Devi", "note": "First. 92,712 MT."}
+      {"date": "Mar 14", "vessel": "Shivalik + Nanda Devi", "note": "First. 92,712 MT."},
+      {"date": "Apr 3", "vessel": "Iran drones HIT Kuwait Mina al-Ahmadi refinery", "note": "Fires burning. Also: Red Crescent warehouse struck Bushehr."}
     ],
     "stillWaiting": "Jag Vikram, Green Asha, Green Sanvi.",
-    "blockadeStatus": "UN voting TODAY. China likely veto. Iran drafting permanent toll protocol with Oman. 83% dry bulk collapse. Analysts: 'turmoil lasts months even after reopening.' Trump won't secure it.",
-    "keyFigures": "India Foreign Sec joined 60+ nation Hormuz talks. India supplying fuel to 5 neighbors. Op Urja Suraksha active."
+    "blockadeStatus": "UN vote postponed to Saturday. China/Russia/France oppose. Iran permanent toll with Oman. BCA: 'oil cliff mid-April.' 84% of Hormuz crude goes to Asia. No substitute for reopening.",
+    "keyFigures": "India Foreign Sec in 60+ nation talks. India supplying 5 neighbors. Op Urja Suraksha active. IMF: 10% energy rise = 0.5% global inflation."
   },
   "milTop": [
-    {"t": "🔴 UN Votes TODAY on Hormuz Naval Action — China Likely to Veto", "lv": "BREAKING", "color": "red", "d": "Bahrain's resolution: 'all defensive means necessary' to secure Hormuz. 136 co-sponsors. But China opposes ('legitimizing force'), Russia opposes. Likely veto. UK FM Cooper: 'Iran cannot charge a bounty.' EU: scale up Aspides mission. GCC chief: 'cannot accept economic terrorism.' India's Misri joined 60+ nation talks."},
-    {"t": "🇮🇳 India Joins Hormuz Coalition + Supplying Oil to 5 Neighbors", "lv": "DEVELOPING", "color": "cyan", "d": "Foreign Sec Vikram Misri joined UK-led virtual meeting. Stressed 'unimpeded transit through international waterways.' India now supplying oil to Bangladesh, Nepal, Bhutan, Sri Lanka. Maldives requested fuel. MEA: 6 Indian-flagged ships transited. India emerging as regional energy leader amid crisis."},
-    {"t": "💣 Brent $109 — Bridge Collapsed, AWS Hit, China Bans Jet Fuel", "lv": "CRITICAL", "color": "red", "d": "Brent $109 (+7.78% since Trump speech). Russian Urals $123.45. Tehran-Karaj bridge collapsed (8 dead, 95 hurt). Missile chief Atimi killed. AWS Bahrain hit. China banned jet fuel exports. Korean Air emergency mode. Philippines may ground planes. Dry bulk 83% collapse. War intensifying despite talk."}
+    {"t": "🛢️ Brent $109 — Biggest Oil Surge of the War. 'Oil Cliff Mid-April'", "lv": "BREAKING", "color": "red", "d": "Brent +7.8% to $109. WTI +11.4% to $111.54. BCA Research: 'SPR + Russian exemptions run out mid-April. Supply loss doubles to 10M bbl/day. World hits oil cliff.' Chevron CEO: 'very real physical manifestations.' Shell CEO: 'disruptions now in SE Asia, NE Asia, Europe.' IMF: 10% energy rise = 0.5% global inflation."},
+    {"t": "🔴 UN Hormuz Vote Postponed — China/Russia/France Block", "lv": "BREAKING", "color": "red", "d": "Bahrain's 'all necessary means' resolution delayed to Saturday. China: 'legitimizing force leads to escalation.' France also opposes (3rd veto power). 5th draft. Iran drafting permanent toll protocol with Oman. CMA CGM Kribi: first French ship through Larak. Drones hit Kuwait refinery."},
+    {"t": "🇮🇳 India in Hormuz Coalition + Supplying 5 Neighbors — Apr 6 = 2 Days", "lv": "CRITICAL", "color": "cyan", "d": "Foreign Sec Misri joined 60+ nation talks. India now supplying oil to Bangladesh, Nepal, Bhutan, Sri Lanka. Maldives formally requested. 8 carriers crossed. 60 days stock. Markets closed today. Reopen Monday = April 6 deadline. If no deal: power strikes resume. BCA: 'oil cliff mid-April.'"}
   ],
   "tlLatest": [
-    {"d": 35, "l": "Apr 3", "deaths": 5300, "brent": 109, "nifty": 22713, "rupee": 93.19, "tag": "Good Friday. UN votes on Hormuz. India joined 60+ nation talks. Brent $109. Bridge collapsed. AWS Bahrain hit. April 6 = 3 days. Markets reopen into deadline", "sev": 3}
+    {"d": 35, "l": "Apr 3", "deaths": 5300, "brent": 109, "nifty": 22713, "rupee": 93.19, "tag": "Good Friday. Brent $109 (+7.8%). WTI $111 (+11.4%). UN vote postponed. B1 bridge collapsed (8 dead). Kuwait refinery hit. Iran claims F-35 down. Apr 6 = 2 days", "sev": 3}
   ],
   "projNow": {"brent": 109, "rupee": 93.19, "lpg": 913, "petrol": 94.77, "deaths": 5300},
   "scenarios": {
-    "headers": ["Pre-war", "Now (Day 35)", "If US exits mid-Apr", "If war to May", "If war to Jun+"],
-    "brent": [65, 109, 88, 135, 155],
-    "rupee": [91.0, 93.19, 92.0, 98.0, 105.0],
-    "deaths": [0, "5,300+", "6,500", "15,000", "30,000+"],
-    "sensex": ["78,699", "73,320", "78,000+", "63,000", "52,000"],
-    "lpg": ["₹853", "₹913", "₹880", "₹1,100", "₹1,400+"],
+    "headers": ["Pre-war", "Now (Day 35)", "If deal by Apr 15", "If war to May", "If war to Jun+"],
+    "brent": [65, 109, 85, 135, 160],
+    "rupee": [91.0, 93.19, 92.0, 98.0, 108.0],
+    "deaths": [0, "5,300+", "6,500", "15,000", "35,000+"],
+    "sensex": ["78,699", "73,320", "78,000+", "62,000", "50,000"],
+    "lpg": ["₹853", "₹913", "₹880", "₹1,200", "₹1,500+"],
     "fii": ["-", "$12.3B+ out", "$3B return", "$20B out", "$30B+ out"]
   },
   "radar": [
-    {"axis": "Oil Shock", "w1": 60, "now": 90, "w4": 97, "w8": 99},
+    {"axis": "Oil Shock", "w1": 60, "now": 92, "w4": 98, "w8": 99},
     {"axis": "Market Crash", "w1": 45, "now": 88, "w4": 95, "w8": 98},
     {"axis": "Nuclear Risk", "w1": 20, "now": 86, "w4": 94, "w8": 98},
-    {"axis": "Hormuz Closure", "w1": 80, "now": 94, "w4": 97, "w8": 99},
+    {"axis": "Hormuz Closure", "w1": 80, "now": 95, "w4": 98, "w8": 99},
     {"axis": "Household Impact", "w1": 15, "now": 96, "w4": 99, "w8": 99},
-    {"axis": "Currency Crisis", "w1": 40, "now": 86, "w4": 95, "w8": 99},
-    {"axis": "Social Unrest", "w1": 25, "now": 80, "w4": 92, "w8": 97},
+    {"axis": "Currency Crisis", "w1": 40, "now": 86, "w4": 96, "w8": 99},
+    {"axis": "Social Unrest", "w1": 25, "now": 82, "w4": 93, "w8": 97},
     {"axis": "Military Exposure", "w1": 35, "now": 97, "w4": 99, "w8": 99}
   ],
   "assessment": {
-    "headline": "DAY 35. Good Friday. UN votes on Hormuz. India joins coalition. Brent $109. Three days to the deadline.",
-    "body": "Three converging events make today critical even though markets are closed:\n\n1. UN SECURITY COUNCIL VOTES on Bahrain's Hormuz resolution — 'all defensive means necessary' to secure the strait. 136 co-sponsors. But China and Russia will likely veto, calling it 'legitimizing force.' If vetoed, there is NO international legal framework to reopen Hormuz.\n\n2. INDIA JOINED THE COALITION. Foreign Secretary Vikram Misri participated in UK-led 60+ nation talks on Hormuz. India is also supplying oil to Bangladesh, Nepal, Bhutan, Sri Lanka — and Maldives has formally requested fuel. India is emerging as the region's energy stabilizer.\n\n3. BRENT SURGED TO $109 — up 7.78% since Trump's 'stone ages' speech. Russian Urals crude at $123.45. The market is saying: this war is not ending. Dry bulk through Hormuz collapsed 83%.\n\nOvernight: Tehran-Karaj bridge collapsed (8 dead, 95 wounded). Ballistic missile chief Atimi killed. AWS data centers in Bahrain struck. China banned jet fuel exports. Korean Air in emergency mode. Philippines considering grounding planes.\n\nIndia snapshot (Day 35):\n• 60 days fuel stock. LPG 30+ days. Refineries >100%. 800 TMT cargoes secured\n• Rupee 93.19 (recovered from 94.84 on RBI NDF ban)\n• Sensex 73,320 (most volatile day yesterday: -1,584 → +185)\n• FII ₹1.23T March + ₹8,331 Cr Apr 1\n• India supplying oil to 5 neighboring countries\n• Manufacturing PMI at 4-year low\n• Markets reopen MONDAY — the same day as April 6 deadline\n\nThe Al Jazeera analysis is the most important thing for Indians to understand: even if Hormuz reopens TOMORROW, the disruption lasts MONTHS. Hundreds of ships need to transit. Insurance premiums are permanent. Iran's toll system is permanent. Congestion will be massive. The pre-war world of free, easy Hormuz passage is permanently over. India must plan for a structurally higher energy cost future."
+    "headline": "DAY 35. Oil surged the most in the entire war. UN blocked. India in coalition. Two days to the deadline.",
+    "body": "Today produced the single largest oil price surge of the entire war: Brent +7.8% to $109, WTI +11.4% to $111.54. The market has absorbed Trump's 'stone ages' speech and concluded: this war is intensifying, not ending.\n\nThe most alarming analysis comes from BCA Research (via CNBC): the world hits an 'oil cliff' in mid-April. The stopgap measures — strategic petroleum reserves, Russian oil sanction waivers, Iranian oil exemptions — all expire. Supply loss doubles from 5M to 10M barrels/day. 'There is no substitute for pumping oil from the ground and sending it directly to clients.'\n\nThe UN Security Council vote on Hormuz was postponed to Saturday after China, Russia AND France objected. Even if the watered-down version passes, enforcement is months away. Meanwhile Iran is drafting a permanent toll protocol with Oman — institutionalizing its control of the strait.\n\nOvernight strikes: B1 bridge collapsed (8 dead, 95 wounded on Nature Day). Ballistic missile chief Atimi killed. Iran claims F-35 shot down (CENTCOM denies). Iran drones hit Kuwait's Mina al-Ahmadi refinery. Red Crescent warehouse struck in Bushehr. Hegseth fired Army Chief of Staff.\n\nFor India (Day 35, 7 PM):\n• Markets CLOSED (Good Friday). Reopen Monday = April 6 deadline\n• Brent $109. Indian basket likely above $120 now\n• Foreign Sec Misri in 60+ nation Hormuz coalition talks\n• India supplying fuel to Bangladesh, Nepal, Bhutan, Sri Lanka. Maldives requested\n• 60 days stock. LPG 30+ days. Refineries >100%. 800 TMT cargoes secured\n• Rupee 93.19 (RBI NDF ban holding)\n• FII ₹1.23T outflow March. Manufacturing PMI 4-year low\n\nThe next 72 hours are the most consequential of the entire war:\n• Saturday: UN votes on Hormuz (likely vetoed)\n• Sunday: April 6 — power plant strike deadline expires\n• Monday: Indian markets reopen into potential chaos\n\nIf April 6 passes without a deal, Trump has promised to hit power plants. Iran has promised 'permanent humiliation.' Oil could spike past $130 overnight. India must be prepared for the worst Monday in market history."
   }
 }
