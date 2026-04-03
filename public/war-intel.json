@@ -1,106 +1,104 @@
 {
-  "_updated": "April 2, 2026 — 7:30 PM IST",
-  "_day": 34,
-  "_note": "Verified: Business Standard, CNN, CNBC, Al Jazeera, The Week, BusinessToday, India.com, LatestLY, PIB, Upstox, The Federal. Market close data from BS.",
+  "_updated": "April 3, 2026 — 8:00 AM IST (Good Friday — Markets CLOSED)",
+  "_day": 35,
+  "_note": "Verified: CNN, Al Jazeera, Business Standard, Reuters/Nikkei Asia, France24, Gulf News, The National, Wikipedia. UN vote TODAY. India joined Hormuz talks.",
   "ticker": [
-    "📉 SENSEX crashed 1,584 at open BUT recovered to CLOSE +185 at 73,320. Most volatile day of the war. Nifty 22,713. RBI rupee move saved markets",
-    "💪 RUPEE recovers to 93.19 from 94.84 ATL — RBI barred banks from offshore NDF contracts. Biggest single-day rupee recovery in months",
-    "🛢️ Brent jumps to $106-108 after Trump speech. Oil ROSE despite 'war ending soon' talk. Market read: 2-3 more weeks of war = more disruption",
-    "🔴 Trump address: 'hit Iran EXTREMELY HARD for 2-3 weeks.' 'Stone ages.' Markets initially crashed then recovered on RBI intervention",
-    "🇮🇳 FII sold ₹8,331 Cr on Apr 1 ALONE. March total: ₹1.23 TRILLION. India manufacturing PMI at 4-YEAR LOW. IndiGo adds fuel surcharge ₹275-₹10,000",
-    "🇮🇳 India fuel: 60 days stock. LPG 30+ days. Refineries >100%. 800 TMT cargoes secured. NO dry-outs (PIB). But long-term costs rising structurally",
-    "⚠️ Trump: US WON'T secure Hormuz — 'countries must grab it and cherish it.' UK hosting 35-nation conference. Iran approved permanent tolls",
-    "🚢 8 Indian carriers crossed Hormuz safely. 18+485 remain. Op Urja Suraksha active. But Hormuz now a permanent Iran toll road even post-war",
-    "☢️ Iran deaths: 3,519 (HRANA). Pentagon: 348 US wounded. 13 dead. 1,300+ Lebanon. FM Araghchi: 'no faith in talks, prepared 6+ months'",
-    "🌐 DAY 34. Good Friday tomorrow — markets CLOSED. 3-day weekend. April 6 deadline = 4 days. The Week: 'Indian investors falling for Trump's mood swings'"
+    "🔴 UN SECURITY COUNCIL VOTES TODAY on Hormuz 'all defensive means necessary.' China + Russia OPPOSE — likely veto. Bahrain presidency pushing",
+    "🇮🇳 INDIA JOINED UK-led Hormuz talks — Foreign Sec Vikram Misri participated. 60+ countries. India supplying oil to Bangladesh, Nepal, Bhutan, Sri Lanka. Maldives requesting",
+    "🛢️ Brent SURGES to $109 — up 7.78% since Trump speech. Russian Urals crude at $123.45 (+6.4%). Oil ROSE on war talk, not fell",
+    "💣 Tehran-Karaj bridge COLLAPSED — 8 killed, 95 wounded. 'Highest bridge in Middle East.' Ballistic missile chief Atimi KILLED in Kermanshah",
+    "📉 Good Friday — markets CLOSED today. Sensex ended 73,320 yesterday (most volatile day: crashed 1,584 → recovered +185). Rupee 93.19 on RBI NDF ban",
+    "🚢 Dry bulk through Hormuz: 83% COLLAPSE (7.5M tons Feb → 1.3M tons March). Iran drafting permanent Hormuz protocol with Oman. 'Pay-to-pass' scheme",
+    "☁️ Amazon AWS data centers HIT in Bahrain — Iranian strikes on critical cloud infrastructure. UAE exams cancelled. China banned jet fuel exports",
+    "🇬🇧 UK FM Cooper: 'Iran cannot charge countries a BOUNTY to let ships pass.' EU: Aspides naval mission assisted 1,700 ships in Red Sea",
+    "⚠️ Iran FM: 'Every bridge and building will be built back STRONGER.' Military warns of MORE DESTRUCTIVE attacks. Hormuz closed 'long term' to US/Israel",
+    "🌐 DAY 35. April 6 deadline = 3 DAYS. UN vote today. Hormuz turmoil 'will last months even after reopening' (Al Jazeera/analysts). FY27 starts under energy crisis"
   ],
   "whatChanged": {
-    "label": "WHAT CHANGED — APR 2, 7:30 PM IST (DAY 34)",
+    "label": "WHAT CHANGED — APR 3, 8 AM IST (DAY 35 — GOOD FRIDAY)",
     "items": [
-      {"color": "green", "bold": "Sensex: crashed 1,584 then recovered to +185 (73,320).", "text": " Most volatile day of war. RBI barred NDF contracts — rupee recovered to 93.19 from 94.84 ATL. The Week: 'Indian investors falling for Trump's mood swings — a sine wave market'"},
-      {"color": "red", "bold": "Trump speech aftermath: oil ROSE, not fell.", "text": " Brent $106-108. '2-3 more weeks of extremely hard hitting' = MORE disruption, not less. Sensex crashed 1,584 at open as markets digested 'stone ages' rhetoric. FII sold ₹8,331 Cr on Apr 1"},
-      {"color": "cyan", "bold": "India fuel: 60 days stock confirmed (PIB).", "text": " LPG 30+ days. Production up 40%. 800 TMT cargoes from US/Russia/Australia. Refineries >100%. 41+ suppliers. NO dry-outs. BUT: manufacturing PMI at 4-year low. IndiGo fuel surcharge ₹275-₹10,000"},
-      {"color": "orange", "bold": "Trump won't secure Hormuz.", "text": " 'Countries must grab it and cherish it.' Iran parliament approved permanent tolls. UK hosting 35-nation conference. One ship paid $2M for Larak channel. Even post-war, India's energy costs rise permanently"},
-      {"color": "red", "bold": "Iran deaths revised: 3,519 (HRANA/ABC).", "text": " Pentagon: 348 wounded, 13 dead. Araghchi: 'no faith in talks.' 1,300+ killed in Lebanon. March FII outflow: ₹1.23 TRILLION. Gold crashed 4%. Silver -7%"},
-      {"color": "purple", "bold": "Good Friday tomorrow — markets CLOSED.", "text": " 3-day weekend. April 6 deadline = 4 days. If April 6 passes without deal: power plant strikes resume. If Trump exits without Hormuz deal: India's permanent energy crisis begins"}
+      {"color": "red", "bold": "UN Security Council votes TODAY on Hormuz naval action.", "text": " Bahrain's resolution: 'all defensive means necessary.' But China + Russia OPPOSE — likely veto. UK hosted 60+ nation conference. India's Foreign Sec Misri participated, said 'unimpeded transit through international waterways'"},
+      {"color": "cyan", "bold": "India joined Hormuz coalition talks.", "text": " Foreign Sec Vikram Misri in UK-led virtual meeting. India also supplying oil to Bangladesh, Nepal, Bhutan, Sri Lanka. Maldives requested fuel. MEA: 6 Indian-flagged ships transited Hormuz in past month. 8 carriers crossed. India building regional energy leadership role"},
+      {"color": "red", "bold": "Brent surges to $109 (up 7.78% since Trump speech).", "text": " Russian Urals crude at $123.45. Oil rising because Trump's speech was WAR not peace. Dry bulk through Hormuz: 83% collapse. Iran FM: 'every bridge built back stronger.' Military: 'more destructive attacks coming'"},
+      {"color": "orange", "bold": "Tehran-Karaj bridge collapsed — 8 killed, 95 wounded.", "text": " 'Highest bridge in Middle East.' Ballistic missile chief Atimi killed. AWS data centers hit in Bahrain. UAE school exams cancelled. China banned jet fuel exports. Korean Air in 'emergency mode'"},
+      {"color": "green", "bold": "India fuel: 60 days stock. Rupee at 93.19 (recovered).", "text": " RBI NDF ban working. Sensex closed 73,320 yesterday. Markets CLOSED today (Good Friday). Next trading = Monday — same day as April 6 deadline"},
+      {"color": "purple", "bold": "April 6 = 3 DAYS. Markets reopen INTO the deadline.", "text": " If no deal: power plant strikes resume. Analysts warn Hormuz turmoil 'will last MONTHS even after reopening' — congestion, insurance, rerouting. The pre-war world is permanently gone"}
     ]
   },
-  "deaths": "5,200+",
-  "deathsSub": "3,519 Iran (HRANA), 1,300+ Lebanon (124 kids), 99 Iraq, 19 Israel, 13 US (348 wounded), 30+ Gulf",
+  "deaths": "5,300+",
+  "deathsSub": "3,519+ Iran (HRANA), 1,300+ Lebanon (124 kids), 99 Iraq, 19 Israel, 13 US (348 wounded), 30+ Gulf",
   "econ": {
-    "sensex": "73,320", "sensexDelta": "▲ +185 (close)", "sensexSub": "Crashed 1,584 at open. Recovered on RBI move. Most volatile day",
-    "vix": "25.99", "vixDelta": "▲ +3.9%",
-    "fpi": "$12.3B+", "fpiDelta": "₹1.23 Trillion March + ₹8,331 Cr Apr 1",
+    "sensex": "73,320", "sensexDelta": "▲ +185 (Thu close)", "sensexSub": "Markets CLOSED today (Good Friday). Reopen Mon into Apr 6 deadline",
+    "vix": "25.99", "vixDelta": "▲ elevated",
+    "fpi": "$12.3B+", "fpiDelta": "₹1.23T March + ₹8,331 Cr Apr 1",
     "wealth": "₹44L+ Cr",
-    "analysis": "DAY 34: Most volatile day of the war. Sensex crashed 1,584 at open → recovered to close +185. RBI saved markets by barring NDF contracts — rupee recovered to 93.19 from 94.84. But structural damage continues: FII ₹1.23T outflow March + ₹8,331 Cr Apr 1. Manufacturing PMI at 4-year low. IndiGo fuel surcharge. Trump won't secure Hormuz. Good Friday tomorrow — 3-day weekend ahead of April 6 deadline."
+    "analysis": "DAY 35: Markets closed (Good Friday). Brent surging to $109. Russian crude at $123.45. Oil rising BECAUSE of Trump's speech — markets read 'more war.' UN votes on Hormuz today. India joined 60+ nation coalition. India supplying fuel to neighbors. Rupee at 93.19 on RBI intervention. Manufacturing PMI 4-year low. When markets reopen Monday, it IS the April 6 deadline. Everything converges."
   },
   "hormuzLatest": [
-    {"d": "Apr 2", "e": "Trump won't secure Hormuz — 'countries must grab it and cherish it.' UK hosting 35-nation conference. Iran parliament approved permanent tolls. $2M per ship for Larak channel. 8 Indian carriers crossed. 18+485 remain. India: 60 days fuel stock. LPG 30+ days. Refineries >100%. But Hormuz now permanently tolled. April 6 = 4 days."}
+    {"d": "Apr 3", "e": "UN SECURITY COUNCIL VOTES TODAY — Bahrain's 'all defensive means necessary' resolution. China + Russia oppose (likely veto). UK hosted 60+ nation talks (India's Misri participated). Iran drafting permanent Hormuz protocol with Oman. Dry bulk 83% collapse. EU Aspides mission: 1,700 ships in Red Sea. Brent $109. 8 Indian carriers crossed. 18+485 remain."}
   ],
   "hormuzVessels": {
     "preWarDaily": "~130 ships/day",
-    "currentDaily": "Near zero commercial. Iran's Larak channel: $2M+ per ship",
+    "currentDaily": "Near zero. Dry bulk 83% down (7.5M→1.3M tons). Larak channel: $2M+/ship",
     "indianVessels": {
       "peak": "28 at war start",
       "current": "18 ships + 485 seafarers",
-      "crossed": "8 carriers safely",
+      "crossed": "8 carriers (6 Indian-flagged per MEA)",
       "repatriated": "942+ seafarers",
       "operation": "Op Urja Suraksha — 5+ warships"
     },
     "indiaFuelStatus": {
-      "crudeStock": "60 days (74-day capacity). PIB confirmed Apr 1",
-      "lpgStock": "30+ days. Production up 40% to 50,000 MT/day",
-      "lpgCargoes": "800 TMT from US/Russia/Australia secured",
+      "crudeStock": "60 days (74-day capacity)",
+      "lpgStock": "30+ days. Production up 40%",
+      "lpgCargoes": "800 TMT secured",
       "refineries": ">100% utilization",
       "suppliers": "41+ countries",
-      "dryOuts": "ZERO (PIB confirmed)",
-      "indianBasket": "$115.75/barrel",
-      "mfgPMI": "4-year low (Apr 2 data)"
+      "dryOuts": "ZERO (PIB)",
+      "indianBasket": "$115.75/bbl (rising)",
+      "neighborSupply": "India supplying oil to Bangladesh, Nepal, Bhutan, Sri Lanka. Maldives requested"
     },
     "recentTransits": [
       {"date": "Apr 1", "vessel": "BW Elm at Mangalore", "note": "LPG. Navy escort."},
-      {"date": "Mar 31", "vessel": "BW Tyr at Mumbai", "note": "94,000 MT combined."},
-      {"date": "Mar 28", "vessel": "2 SCI carriers", "note": "Discharged in India."},
-      {"date": "Mar 25", "vessel": "Pine Gas + Jag Vasant", "note": "92,612 MT LPG."},
+      {"date": "Mar 31", "vessel": "BW Tyr at Mumbai", "note": "94,000 MT LPG."},
+      {"date": "Mar 28", "vessel": "2 SCI carriers", "note": "Discharged."},
+      {"date": "Mar 25", "vessel": "Pine Gas + Jag Vasant", "note": "92,612 MT."},
       {"date": "Mar 18", "vessel": "Jag Laadki (crude)", "note": "80,886 MT. Mundra."},
-      {"date": "Mar 14", "vessel": "Shivalik + Nanda Devi", "note": "First to cross. 92,712 MT."},
-      {"date": "Apr 1", "vessel": "Tanker struck off Qatar", "note": "Iranian missile (Al Jazeera)."},
-      {"date": "Mar 31", "vessel": "Kuwaiti VLCC struck near Dubai", "note": "Bloomberg."}
+      {"date": "Mar 14", "vessel": "Shivalik + Nanda Devi", "note": "First. 92,712 MT."}
     ],
     "stillWaiting": "Jag Vikram, Green Asha, Green Sanvi.",
-    "blockadeStatus": "Trump: US won't secure it. UK 35-nation conference. Iran permanent tolls approved. $2M per Larak transit. 500M barrels lost (Rystad). India on its own.",
-    "keyFigures": "Op Urja Suraksha: 5+ warships. India: 60 days stock. RBI barred NDF contracts — rupee recovered."
+    "blockadeStatus": "UN voting TODAY. China likely veto. Iran drafting permanent toll protocol with Oman. 83% dry bulk collapse. Analysts: 'turmoil lasts months even after reopening.' Trump won't secure it.",
+    "keyFigures": "India Foreign Sec joined 60+ nation Hormuz talks. India supplying fuel to 5 neighbors. Op Urja Suraksha active."
   },
   "milTop": [
-    {"t": "📉 Most Volatile Day: Crashed 1,584 → Recovered to +185 (Apr 2)", "lv": "BREAKING", "color": "green", "d": "Sensex crashed 1,584 at open on Trump's 'stone ages' speech. Hit intraday low 71,551. Then RBI barred NDF contracts — rupee recovered to 93.19 from 94.84. Markets clawed back to close +185 at 73,320. Nifty 22,713. The Week: 'Indian investors falling for Trump's mood swings.' Good Friday tomorrow — 3-day weekend."},
-    {"t": "🔴 Trump: 'Extremely Hard for 2-3 Weeks' + Won't Secure Hormuz", "lv": "BREAKING", "color": "red", "d": "Prime-time address: 'core objectives nearing completion' but will hit 'extremely hard.' Won't secure Hormuz — 'countries must grab it.' Oil rose 5-7% AFTER speech (Brent $106-108). Penn: 348 US wounded. 13 dead. Iran deaths: 3,519 (HRANA). Araghchi: 'no faith in talks.' April 6 = 4 days."},
-    {"t": "🇮🇳 India: 60 Days Fuel Stock BUT Manufacturing PMI 4-Year Low", "lv": "CRITICAL", "color": "orange", "d": "PIB: 60 days stock. LPG 30+ days. 800 TMT cargoes. Refineries >100%. NO dry-outs. BUT: manufacturing PMI 4-year low. FII ₹1.23T March + ₹8,331 Cr Apr 1. IndiGo fuel surcharge ₹275-₹10,000. Nayara hiked ₹5.30. Excise cut absorbed. Long-term costs rising even as short-term supply managed."}
+    {"t": "🔴 UN Votes TODAY on Hormuz Naval Action — China Likely to Veto", "lv": "BREAKING", "color": "red", "d": "Bahrain's resolution: 'all defensive means necessary' to secure Hormuz. 136 co-sponsors. But China opposes ('legitimizing force'), Russia opposes. Likely veto. UK FM Cooper: 'Iran cannot charge a bounty.' EU: scale up Aspides mission. GCC chief: 'cannot accept economic terrorism.' India's Misri joined 60+ nation talks."},
+    {"t": "🇮🇳 India Joins Hormuz Coalition + Supplying Oil to 5 Neighbors", "lv": "DEVELOPING", "color": "cyan", "d": "Foreign Sec Vikram Misri joined UK-led virtual meeting. Stressed 'unimpeded transit through international waterways.' India now supplying oil to Bangladesh, Nepal, Bhutan, Sri Lanka. Maldives requested fuel. MEA: 6 Indian-flagged ships transited. India emerging as regional energy leader amid crisis."},
+    {"t": "💣 Brent $109 — Bridge Collapsed, AWS Hit, China Bans Jet Fuel", "lv": "CRITICAL", "color": "red", "d": "Brent $109 (+7.78% since Trump speech). Russian Urals $123.45. Tehran-Karaj bridge collapsed (8 dead, 95 hurt). Missile chief Atimi killed. AWS Bahrain hit. China banned jet fuel exports. Korean Air emergency mode. Philippines may ground planes. Dry bulk 83% collapse. War intensifying despite talk."}
   ],
   "tlLatest": [
-    {"d": 34, "l": "Apr 2", "deaths": 5200, "brent": 107, "nifty": 22713, "rupee": 93.19, "tag": "Most volatile day. Crashed 1,584 → +185. RBI NDF ban. Rupee 93.19. Trump: 'stone ages 2-3 wks.' Won't secure Hormuz. Mfg PMI 4yr low. Good Friday tomorrow", "sev": 2}
+    {"d": 35, "l": "Apr 3", "deaths": 5300, "brent": 109, "nifty": 22713, "rupee": 93.19, "tag": "Good Friday. UN votes on Hormuz. India joined 60+ nation talks. Brent $109. Bridge collapsed. AWS Bahrain hit. April 6 = 3 days. Markets reopen into deadline", "sev": 3}
   ],
-  "projNow": {"brent": 107, "rupee": 93.19, "lpg": 913, "petrol": 94.77, "deaths": 5200},
+  "projNow": {"brent": 109, "rupee": 93.19, "lpg": 913, "petrol": 94.77, "deaths": 5300},
   "scenarios": {
-    "headers": ["Pre-war", "Now (Day 34)", "If US exits mid-Apr", "If war to May", "If war to Jun+"],
-    "brent": [65, 107, 88, 130, 150],
+    "headers": ["Pre-war", "Now (Day 35)", "If US exits mid-Apr", "If war to May", "If war to Jun+"],
+    "brent": [65, 109, 88, 135, 155],
     "rupee": [91.0, 93.19, 92.0, 98.0, 105.0],
-    "deaths": [0, "5,200+", "6,500", "14,000", "30,000+"],
-    "sensex": ["78,699", "73,320", "78,000+", "65,000", "55,000"],
-    "lpg": ["₹853", "₹913", "₹880", "₹1,100", "₹1,300+"],
-    "fii": ["-", "$12.3B+ out", "$3B return", "$18B out", "$28B+ out"]
+    "deaths": [0, "5,300+", "6,500", "15,000", "30,000+"],
+    "sensex": ["78,699", "73,320", "78,000+", "63,000", "52,000"],
+    "lpg": ["₹853", "₹913", "₹880", "₹1,100", "₹1,400+"],
+    "fii": ["-", "$12.3B+ out", "$3B return", "$20B out", "$30B+ out"]
   },
   "radar": [
-    {"axis": "Oil Shock", "w1": 60, "now": 88, "w4": 96, "w8": 99},
-    {"axis": "Market Crash", "w1": 45, "now": 88, "w4": 94, "w8": 98},
+    {"axis": "Oil Shock", "w1": 60, "now": 90, "w4": 97, "w8": 99},
+    {"axis": "Market Crash", "w1": 45, "now": 88, "w4": 95, "w8": 98},
     {"axis": "Nuclear Risk", "w1": 20, "now": 86, "w4": 94, "w8": 98},
-    {"axis": "Hormuz Closure", "w1": 80, "now": 92, "w4": 96, "w8": 99},
-    {"axis": "Household Impact", "w1": 15, "now": 95, "w4": 98, "w8": 99},
-    {"axis": "Currency Crisis", "w1": 40, "now": 88, "w4": 96, "w8": 99},
-    {"axis": "Social Unrest", "w1": 25, "now": 78, "w4": 90, "w8": 96},
-    {"axis": "Military Exposure", "w1": 35, "now": 96, "w4": 98, "w8": 99}
+    {"axis": "Hormuz Closure", "w1": 80, "now": 94, "w4": 97, "w8": 99},
+    {"axis": "Household Impact", "w1": 15, "now": 96, "w4": 99, "w8": 99},
+    {"axis": "Currency Crisis", "w1": 40, "now": 86, "w4": 95, "w8": 99},
+    {"axis": "Social Unrest", "w1": 25, "now": 80, "w4": 92, "w8": 97},
+    {"axis": "Military Exposure", "w1": 35, "now": 97, "w4": 99, "w8": 99}
   ],
   "assessment": {
-    "headline": "DAY 34. Most volatile day of the war. RBI saved markets. But Trump won't secure Hormuz. India is on its own.",
-    "body": "Today was the most volatile day in Indian market history during this war. Sensex crashed 1,584 points at open after Trump's 'stone ages' speech, hit 71,551 intraday, then clawed back to close +185 at 73,320. The recovery was driven by RBI barring NDF contracts — rupee recovered to 93.19 from 94.84 ATL.\n\nBut the structural picture is deteriorating:\n• Trump explicitly said the US will NOT secure Hormuz — 'countries must grab it and cherish it'\n• Oil ROSE 5-7% after his speech, not fell. Markets read: more war = more disruption\n• FII sold ₹8,331 Cr on Apr 1 alone. March total: ₹1.23 TRILLION\n• India's manufacturing PMI hit a 4-year low\n• IndiGo announced fuel surcharges ₹275-₹10,000 per ticket\n• Gold crashed 4%, silver crashed 7%\n\nIndia's fuel position remains managed short-term:\n• 60 days stock (PIB confirmed). LPG 30+ days\n• 800 TMT cargoes secured. Refineries >100%. 41+ suppliers\n• ZERO dry-outs. 8 Hormuz carriers crossed. 18+485 remain\n• Rupee recovered to 93.19 (from 94.84) on RBI intervention\n\nBut the long-term is alarming:\n• Iran parliament approved permanent Hormuz tolls\n• Trump won't secure the strait. India/Japan/Korea on their own\n• Manufacturing PMI 4-year low signals economic slowdown starting\n• The Week called it: 'Indian investors are falling for Trump's mood swings — the market is a sine wave'\n\nGood Friday tomorrow — markets closed. 3-day weekend. April 6 deadline = 4 days. When markets reopen Monday, either talks have progressed or Trump's 'extremely hard' 2-3 weeks begins in earnest. India enters FY27 in the middle of the worst energy crisis since independence."
+    "headline": "DAY 35. Good Friday. UN votes on Hormuz. India joins coalition. Brent $109. Three days to the deadline.",
+    "body": "Three converging events make today critical even though markets are closed:\n\n1. UN SECURITY COUNCIL VOTES on Bahrain's Hormuz resolution — 'all defensive means necessary' to secure the strait. 136 co-sponsors. But China and Russia will likely veto, calling it 'legitimizing force.' If vetoed, there is NO international legal framework to reopen Hormuz.\n\n2. INDIA JOINED THE COALITION. Foreign Secretary Vikram Misri participated in UK-led 60+ nation talks on Hormuz. India is also supplying oil to Bangladesh, Nepal, Bhutan, Sri Lanka — and Maldives has formally requested fuel. India is emerging as the region's energy stabilizer.\n\n3. BRENT SURGED TO $109 — up 7.78% since Trump's 'stone ages' speech. Russian Urals crude at $123.45. The market is saying: this war is not ending. Dry bulk through Hormuz collapsed 83%.\n\nOvernight: Tehran-Karaj bridge collapsed (8 dead, 95 wounded). Ballistic missile chief Atimi killed. AWS data centers in Bahrain struck. China banned jet fuel exports. Korean Air in emergency mode. Philippines considering grounding planes.\n\nIndia snapshot (Day 35):\n• 60 days fuel stock. LPG 30+ days. Refineries >100%. 800 TMT cargoes secured\n• Rupee 93.19 (recovered from 94.84 on RBI NDF ban)\n• Sensex 73,320 (most volatile day yesterday: -1,584 → +185)\n• FII ₹1.23T March + ₹8,331 Cr Apr 1\n• India supplying oil to 5 neighboring countries\n• Manufacturing PMI at 4-year low\n• Markets reopen MONDAY — the same day as April 6 deadline\n\nThe Al Jazeera analysis is the most important thing for Indians to understand: even if Hormuz reopens TOMORROW, the disruption lasts MONTHS. Hundreds of ships need to transit. Insurance premiums are permanent. Iran's toll system is permanent. Congestion will be massive. The pre-war world of free, easy Hormuz passage is permanently over. India must plan for a structurally higher energy cost future."
   }
 }
