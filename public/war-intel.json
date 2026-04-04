@@ -1,45 +1,45 @@
 {
-  "_updated": "April 3, 2026 — 7:00 PM IST",
-  "_day": 35,
-  "_note": "Verified: CBS, CNN, AP, Business Standard, Gulf News, Nikkei Asia, CNBC, CFR, Wikipedia. UN vote postponed to Saturday. Brent $109. India markets closed (Good Friday).",
+  "_updated": "April 4, 2026 — 8:15 AM IST",
+  "_day": 36,
+  "_note": "Verified: CNN, NPR, Al Jazeera, Euronews, Wikipedia/Timeline, CBS. TWO US planes downed. War sharply escalating. April 6 = 2 days.",
   "ticker": [
-    "🔴 UN Hormuz vote POSTPONED to Saturday — China, Russia AND France oppose. 5th draft circulated. Bahrain: 'cannot accept economic terrorism'",
-    "🛢️ Brent $109 (+7.8%). WTI $111.54 (+11.4%). BIGGEST single-day oil surge of the war. BCA Research: 'oil cliff in mid-April' — supply doubles to 10M bbl/day lost",
-    "💣 B1 bridge (Tehran-Karaj) COLLAPSED — 8 killed, 95 wounded on Nature Day holiday. Trump touted it: 'much more to follow.' Missile chief Atimi killed",
-    "🇮🇷 Iran CLAIMS shot down US F-35 over Qeshm Island. CENTCOM denies: 'all aircraft accounted for.' Red Crescent warehouse struck in Bushehr",
-    "🇮🇳 India markets CLOSED (Good Friday). Sensex at 73,320. Rupee 93.19. Foreign Sec Misri in 60+ nation Hormuz talks. India supplying fuel to 5 neighbors",
-    "🚢 CMA CGM Kribi — FIRST French-linked ship through Hormuz since war (via Larak toll route). Traffic still 90% down. Iran drones hit Kuwait's Mina al-Ahmadi refinery",
-    "⚠️ CNBC/BCA: 'World hits OIL CLIFF mid-April — SPR + Russian exemptions run out. Supply loss DOUBLES to 10M bbl/day. No substitute'",
-    "🇬🇧 UK FM Cooper: 'Iran cannot charge a BOUNTY.' EU Kallas: 'Cannot lose another critical trade route.' Aspides mission: 1,700 ships assisted in Red Sea",
-    "🇮🇷 Iran military: 'war continues until US faces PERMANENT HUMILIATION.' FM Araghchi: 'Every bridge built back STRONGER.' Pezeshkian: 'resolute in defending'",
-    "🌐 DAY 35. April 6 = 2 DAYS (Sunday). Monday markets reopen into deadline. Hegseth fired Army chief. Iran hit Kuwait refinery. Week 6 looms"
+    "🔴 TWO US PLANES DOWN — F-15E shot down over IRAN (1 crew rescued, 1 MISSING). A-10 Warthog hit near Hormuz, pilot ejected + rescued",
+    "💣 Trump: 'Haven't even STARTED destroying what's left. Bridges next, then ELECTRIC POWER PLANTS!' War ESCALATING, not ending",
+    "🇮🇷 Iran hit Mobarakeh Steel (Isfahan) + Khuzestan Steel (Ahvaz) — IRGC-linked. Yellowcake plant Yazd + Arak heavy-water reactor STRUCK",
+    "🛢️ Brent $109. WTI $111.54. Deutsche Bank: 'No signal of US seeking imminent off-ramp.' White House seeks $1.5 TRILLION defense budget",
+    "🇰🇼 Iran drones hit Kuwait Mina al-Ahmadi REFINERY — fires burning. Also hit Shuwaikh Port + Mubarak Al Kabeer Port. Kuwait retaliation risk rising",
+    "🇮🇱 Iran fired 4 missile salvos at Israel overnight. Cluster bomb hit Ramat Gan — 1 killed, 3 injured. Tel Aviv train station damaged by shrapnel",
+    "🇮🇷 Iran parliament speaker Ghalibaf MOCKS US: 'From regime change to Hey can anyone find our pilots?' BadeSaba prayer app HACKED — 5M users got defection messages",
+    "🇮🇳 India markets closed (weekend). UN Hormuz vote pushed to Saturday. Italy's Meloni in Saudi seeking energy supplies. World Bank warns of food + jobs risk",
+    "⚠️ Iran struck US steel plants in Abu Dhabi + aluminum in Bahrain + Rafael arms factories in Israel. War now hitting INDUSTRIAL infrastructure on both sides",
+    "🌐 DAY 36. WEEK 6 BEGINS. April 6 = 2 DAYS. Two US planes down = biggest single-day US loss. F-15E pilot still MISSING in Iran. This changes everything"
   ],
   "whatChanged": {
-    "label": "WHAT CHANGED — APR 3, 7 PM IST (DAY 35 — GOOD FRIDAY)",
+    "label": "WHAT CHANGED — APR 4, 8:15 AM IST (DAY 36 — WEEK 6)",
     "items": [
-      {"color": "red", "bold": "Brent $109 (+7.8%), WTI $111.54 (+11.4%) — biggest oil surge of the war.", "text": " BCA Research warns 'oil cliff mid-April' — SPR releases + Russian oil exemptions run out. Supply loss doubles to 10M bbl/day. Chevron CEO: 'very real physical manifestations.' Shell CEO: 'disruptions moved to SE Asia, NE Asia, Europe'"},
-      {"color": "red", "bold": "UN Hormuz vote POSTPONED to Saturday.", "text": " China, Russia AND France oppose 'all necessary means' language. 5th draft circulated. GCC: 'cannot accept economic terrorism.' Even if passed, enforcement is months away. Iran drafting permanent toll protocol with Oman"},
-      {"color": "orange", "bold": "B1 bridge collapsed — 8 killed, 95 wounded.", "text": " Struck during Nature Day holiday celebrations. Trump: 'much more to follow.' Missile chief Atimi killed. Iran claims F-35 shot down (CENTCOM denies). Red Crescent warehouse hit in Bushehr. Hegseth fired Army Chief of Staff Gen. George"},
-      {"color": "cyan", "bold": "India's Foreign Sec Misri in 60+ nation Hormuz talks.", "text": " India supplying fuel to Bangladesh, Nepal, Bhutan, Sri Lanka. Maldives formally requested. MEA: 6 Indian-flagged ships transited. Markets closed today. Sensex 73,320. Rupee 93.19. April 6 deadline = 2 days"},
-      {"color": "red", "bold": "Iran hit Kuwait's Mina al-Ahmadi refinery — fires burning.", "text": " Also struck Kuwait airport earlier. Iran military: 'war until permanent humiliation.' FM: 'every bridge built stronger.' First French-linked ship (CMA CGM Kribi) through Hormuz via Larak toll"},
-      {"color": "purple", "bold": "April 6 = SUNDAY. Markets reopen Monday INTO the deadline.", "text": " If no deal: power plant strikes resume. CNBC: 'stopgap measures end mid-April.' IMF: every 10% energy price rise = +0.5% global inflation. Philippines may ground planes. Bangladesh closed universities. Pakistan: 4-day work week"}
+      {"color": "red", "bold": "TWO US aircraft downed — biggest single-day US loss.", "text": " F-15E shot down OVER IRAN — 1 crew rescued, 1 MISSING (search ongoing). A-10 Warthog hit near Strait of Hormuz — pilot ejected + rescued. Ghalibaf mocks: 'from regime change to finding pilots.' This is the most significant US military setback of the war"},
+      {"color": "red", "bold": "Trump: 'Haven't even STARTED destroying what's left.'", "text": " 'Bridges next, then electric power plants!' War ESCALATING on both sides. Israel struck Mobarakeh Steel, Khuzestan Steel (IRGC-linked). Yellowcake plant Yazd + Arak heavy-water reactor struck. Iran hit Kuwait refinery, UAE steel plants, Bahrain aluminum"},
+      {"color": "orange", "bold": "Brent $109. Deutsche Bank: 'no off-ramp signal.'", "text": " White House seeks $1.5 TRILLION defense budget (+40% over last year). Pentagon building 'Golden Dome' missile defense. This is permanent war infrastructure — not 2-3 weeks. Oil rising on recognition war is prolonged"},
+      {"color": "red", "bold": "Iran cluster bomb hit Ramat Gan — 1 killed, 3 injured.", "text": " Tel Aviv train station damaged. 4 missile salvos overnight at Israel. Kuwait: drones on Shuwaikh + Mubarak Al Kabeer ports. UAE: 6 ballistic missiles + 9 drones intercepted. Palestine: 1 killed by rocket near Abu Dhabi"},
+      {"color": "cyan", "bold": "India: markets closed (weekend).", "text": " UN Hormuz vote pushed to Saturday — China/Russia/France oppose. Italy PM Meloni in Saudi Arabia seeking energy deals. India Foreign Sec in 60+ nation coalition. India supplying fuel to 5 neighbors. 60 days stock. Rupee 93.19"},
+      {"color": "purple", "bold": "APRIL 6 = 2 DAYS. F-15 crew MISSING in Iran.", "text": " If confirmed captured — POW crisis. If killed — escalation pressure. April 6 power plant strike deadline Sunday. Monday markets reopen. BadeSaba app hacked (5M users). Iran vows 'crushing' response. Week 6 of war begins"}
     ]
   },
-  "deaths": "5,300+",
-  "deathsSub": "3,519+ Iran (HRANA), 1,300+ Lebanon, 99 Iraq, 19 Israel, 13 US (348 wounded), 30+ Gulf",
+  "deaths": "5,400+",
+  "deathsSub": "3,519+ Iran (HRANA), 1,300+ Lebanon, 99 Iraq, 19 Israel, 13 US (348+ wounded), 30+ Gulf",
   "econ": {
-    "sensex": "73,320", "sensexDelta": "closed (Good Friday)", "sensexSub": "Reopen Mon into Apr 6 deadline. Asian markets: Nikkei +0.9%, Kospi +2.1%",
-    "vix": "25.99", "vixDelta": "elevated",
+    "sensex": "73,320", "sensexDelta": "closed (weekend)", "sensexSub": "Nikkei +1.4%, Kospi +3% Fri. But 2 US planes down → Mon crash risk",
+    "vix": "25.99", "vixDelta": "likely to spike Monday",
     "fpi": "$12.3B+", "fpiDelta": "₹1.23T Mar + ₹8,331 Cr Apr 1",
     "wealth": "₹44L+ Cr",
-    "analysis": "DAY 35: Brent surged to $109 — biggest single-day jump of the war. WTI $111.54 (+11.4%). BCA Research: 'oil cliff mid-April — SPR + Russian exemptions expire, supply loss doubles.' UN Hormuz vote postponed (China/Russia/France oppose). India markets closed. Rupee 93.19 (RBI NDF ban holding). India supplying fuel to 5 neighbors. Markets reopen Monday = April 6 deadline day. IMF: every 10% energy rise = +0.5% global inflation."
+    "analysis": "DAY 36: Two US planes downed — biggest single-day US loss. F-15E crew member MISSING in Iran. Trump: 'haven't started.' $1.5T defense budget. Brent $109. Deutsche Bank: 'no off-ramp.' When Indian markets reopen Monday, this news will hit hard. Nikkei +1.4% Friday was BEFORE the shootdowns. The missing crew member is the single biggest escalation risk — if Iran has a POW, everything changes."
   },
   "hormuzLatest": [
-    {"d": "Apr 3", "e": "UN vote POSTPONED to Saturday — China/Russia/France oppose. 5th draft. CMA CGM Kribi: first French-linked ship through (via Larak toll). Iran drones hit Kuwait's Mina al-Ahmadi refinery. Iran drafting permanent toll with Oman. Dry bulk 83% down. India's Misri in 60+ nation talks. 8 Indian carriers crossed. 18+485 remain. BCA: 'oil cliff mid-April — supply loss doubles.'"}
+    {"d": "Apr 4", "e": "A-10 Warthog shot down NEAR HORMUZ — pilot ejected + rescued. F-15E down over Iran (1 missing). UN vote pushed to Saturday. Iran drones hit Kuwait refinery (fires). UAE intercepted 6 ballistic + 9 drones. CMA CGM Kribi first French ship through Larak. Brent $109. April 6 = 2 days."}
   ],
   "hormuzVessels": {
     "preWarDaily": "~130 ships/day",
-    "currentDaily": "~90% down. First French ship through via Larak toll. IMO: 18+ attacks on vessels",
+    "currentDaily": "~90% down. A-10 shot down NEAR Hormuz → combat zone intensifying",
     "indianVessels": {
       "peak": "28 at war start",
       "current": "18 ships + 485 seafarers",
@@ -54,53 +54,51 @@
       "refineries": ">100% utilization",
       "suppliers": "41+ countries",
       "dryOuts": "ZERO (PIB)",
-      "indianBasket": "$115.75/bbl (likely higher now — Brent $109)",
-      "neighborSupply": "India supplying oil to Bangladesh, Nepal, Bhutan, Sri Lanka. Maldives requested",
-      "oilCliff": "BCA Research: stopgap measures end mid-April. Supply loss doubles to 10M bbl/day. 'No substitute'"
+      "indianBasket": "$120+ (estimated — Brent at $109)",
+      "neighborSupply": "India supplying oil to Bangladesh, Nepal, Bhutan, Sri Lanka. Maldives requested"
     },
     "recentTransits": [
-      {"date": "Apr 3", "vessel": "CMA CGM Kribi (French-linked, Malta flag)", "note": "First French ship through since war. Larak toll route (MarineTraffic)."},
+      {"date": "Apr 3", "vessel": "CMA CGM Kribi (French-linked)", "note": "First French ship through via Larak toll."},
       {"date": "Apr 1", "vessel": "BW Elm at Mangalore", "note": "LPG. Navy escort."},
       {"date": "Mar 31", "vessel": "BW Tyr at Mumbai", "note": "94,000 MT LPG."},
-      {"date": "Mar 28", "vessel": "2 SCI carriers", "note": "Discharged."},
-      {"date": "Mar 25", "vessel": "Pine Gas + Jag Vasant", "note": "92,612 MT."},
-      {"date": "Mar 14", "vessel": "Shivalik + Nanda Devi", "note": "First. 92,712 MT."},
-      {"date": "Apr 3", "vessel": "Iran drones HIT Kuwait Mina al-Ahmadi refinery", "note": "Fires burning. Also: Red Crescent warehouse struck Bushehr."}
+      {"date": "Apr 3", "vessel": "A-10 Warthog SHOT DOWN near Hormuz", "note": "Pilot ejected + rescued. Combat zone intensifying around strait."},
+      {"date": "Apr 3", "vessel": "Kuwait Mina al-Ahmadi refinery HIT", "note": "Iran drones. Fires at multiple units."},
+      {"date": "Apr 3", "vessel": "Kuwait ports — Shuwaikh + Mubarak hit", "note": "Drones + missiles. Material damage. No casualties."}
     ],
     "stillWaiting": "Jag Vikram, Green Asha, Green Sanvi.",
-    "blockadeStatus": "UN vote postponed to Saturday. China/Russia/France oppose. Iran permanent toll with Oman. BCA: 'oil cliff mid-April.' 84% of Hormuz crude goes to Asia. No substitute for reopening.",
-    "keyFigures": "India Foreign Sec in 60+ nation talks. India supplying 5 neighbors. Op Urja Suraksha active. IMF: 10% energy rise = 0.5% global inflation."
+    "blockadeStatus": "Combat NEAR Hormuz (A-10 down). UN vote Saturday. Iran permanent tolls. $2M/ship Larak. Israel struck yellowcake Yazd + Arak reactor. War now hitting BOTH sides' industrial base.",
+    "keyFigures": "India Foreign Sec in 60+ nation talks. Op Urja Suraksha active. F-15E crew MISSING in Iran = POW risk."
   },
   "milTop": [
-    {"t": "🛢️ Brent $109 — Biggest Oil Surge of the War. 'Oil Cliff Mid-April'", "lv": "BREAKING", "color": "red", "d": "Brent +7.8% to $109. WTI +11.4% to $111.54. BCA Research: 'SPR + Russian exemptions run out mid-April. Supply loss doubles to 10M bbl/day. World hits oil cliff.' Chevron CEO: 'very real physical manifestations.' Shell CEO: 'disruptions now in SE Asia, NE Asia, Europe.' IMF: 10% energy rise = 0.5% global inflation."},
-    {"t": "🔴 UN Hormuz Vote Postponed — China/Russia/France Block", "lv": "BREAKING", "color": "red", "d": "Bahrain's 'all necessary means' resolution delayed to Saturday. China: 'legitimizing force leads to escalation.' France also opposes (3rd veto power). 5th draft. Iran drafting permanent toll protocol with Oman. CMA CGM Kribi: first French ship through Larak. Drones hit Kuwait refinery."},
-    {"t": "🇮🇳 India in Hormuz Coalition + Supplying 5 Neighbors — Apr 6 = 2 Days", "lv": "CRITICAL", "color": "cyan", "d": "Foreign Sec Misri joined 60+ nation talks. India now supplying oil to Bangladesh, Nepal, Bhutan, Sri Lanka. Maldives formally requested. 8 carriers crossed. 60 days stock. Markets closed today. Reopen Monday = April 6 deadline. If no deal: power strikes resume. BCA: 'oil cliff mid-April.'"}
+    {"t": "🔴 TWO US Planes Down — F-15E Crew Member MISSING in Iran", "lv": "BREAKING", "color": "red", "d": "Biggest single-day US loss. F-15E shot down OVER IRAN — 1 crew rescued, 1 still MISSING. A-10 Warthog hit near Hormuz — pilot ejected + rescued. Ghalibaf mocks: 'from regime change to finding pilots.' If missing crew captured = POW crisis. This fundamentally changes the war's trajectory."},
+    {"t": "💣 Trump: 'Haven't Started Destroying. Bridges Next, Power Plants!'", "lv": "BREAKING", "color": "red", "d": "War ESCALATING on both sides. Israel struck Mobarakeh + Khuzestan steel (IRGC). Yellowcake plant Yazd + Arak reactor hit. Iran hit Kuwait refinery + UAE steel + Bahrain aluminum + Rafael in Israel. Cluster bomb killed 1 in Ramat Gan. $1.5T defense budget = permanent war footing."},
+    {"t": "🇮🇳 India: 60 Days Stock But Monday Could Be Worst Open of War", "lv": "CRITICAL", "color": "orange", "d": "Markets closed (weekend). When they reopen Monday: 2 US planes down + April 6 deadline + Brent $109 + missing crew member. If F-15 crew is a POW: Sensex could crash 2,000+ points. India fuel managed but Monday's open is the biggest risk since Feb 28. RBI intervention may be needed again."}
   ],
   "tlLatest": [
-    {"d": 35, "l": "Apr 3", "deaths": 5300, "brent": 109, "nifty": 22713, "rupee": 93.19, "tag": "Good Friday. Brent $109 (+7.8%). WTI $111 (+11.4%). UN vote postponed. B1 bridge collapsed (8 dead). Kuwait refinery hit. Iran claims F-35 down. Apr 6 = 2 days", "sev": 3}
+    {"d": 36, "l": "Apr 4", "deaths": 5400, "brent": 109, "nifty": 22713, "rupee": 93.19, "tag": "TWO US planes down. F-15E crew MISSING in Iran. A-10 hit near Hormuz. Trump: 'haven't started.' Kuwait refinery hit. Arak + Yazd struck. April 6 = 2 days", "sev": 3}
   ],
-  "projNow": {"brent": 109, "rupee": 93.19, "lpg": 913, "petrol": 94.77, "deaths": 5300},
+  "projNow": {"brent": 109, "rupee": 93.19, "lpg": 913, "petrol": 94.77, "deaths": 5400},
   "scenarios": {
-    "headers": ["Pre-war", "Now (Day 35)", "If deal by Apr 15", "If war to May", "If war to Jun+"],
-    "brent": [65, 109, 85, 135, 160],
-    "rupee": [91.0, 93.19, 92.0, 98.0, 108.0],
-    "deaths": [0, "5,300+", "6,500", "15,000", "35,000+"],
-    "sensex": ["78,699", "73,320", "78,000+", "62,000", "50,000"],
+    "headers": ["Pre-war", "Now (Day 36)", "If deal by Apr 15", "If war to May", "If war to Jun+"],
+    "brent": [65, 109, 85, 140, 165],
+    "rupee": [91.0, 93.19, 92.0, 99.0, 110.0],
+    "deaths": [0, "5,400+", "7,000", "16,000", "35,000+"],
+    "sensex": ["78,699", "73,320", "78,000+", "60,000", "48,000"],
     "lpg": ["₹853", "₹913", "₹880", "₹1,200", "₹1,500+"],
-    "fii": ["-", "$12.3B+ out", "$3B return", "$20B out", "$30B+ out"]
+    "fii": ["-", "$12.3B+ out", "$3B return", "$22B out", "$35B+ out"]
   },
   "radar": [
-    {"axis": "Oil Shock", "w1": 60, "now": 92, "w4": 98, "w8": 99},
-    {"axis": "Market Crash", "w1": 45, "now": 88, "w4": 95, "w8": 98},
-    {"axis": "Nuclear Risk", "w1": 20, "now": 86, "w4": 94, "w8": 98},
-    {"axis": "Hormuz Closure", "w1": 80, "now": 95, "w4": 98, "w8": 99},
+    {"axis": "Oil Shock", "w1": 60, "now": 93, "w4": 98, "w8": 99},
+    {"axis": "Market Crash", "w1": 45, "now": 90, "w4": 96, "w8": 99},
+    {"axis": "Nuclear Risk", "w1": 20, "now": 88, "w4": 96, "w8": 99},
+    {"axis": "Hormuz Closure", "w1": 80, "now": 96, "w4": 98, "w8": 99},
     {"axis": "Household Impact", "w1": 15, "now": 96, "w4": 99, "w8": 99},
-    {"axis": "Currency Crisis", "w1": 40, "now": 86, "w4": 96, "w8": 99},
-    {"axis": "Social Unrest", "w1": 25, "now": 82, "w4": 93, "w8": 97},
-    {"axis": "Military Exposure", "w1": 35, "now": 97, "w4": 99, "w8": 99}
+    {"axis": "Currency Crisis", "w1": 40, "now": 87, "w4": 96, "w8": 99},
+    {"axis": "Social Unrest", "w1": 25, "now": 83, "w4": 94, "w8": 98},
+    {"axis": "Military Exposure", "w1": 35, "now": 98, "w4": 99, "w8": 99}
   ],
   "assessment": {
-    "headline": "DAY 35. Oil surged the most in the entire war. UN blocked. India in coalition. Two days to the deadline.",
-    "body": "Today produced the single largest oil price surge of the entire war: Brent +7.8% to $109, WTI +11.4% to $111.54. The market has absorbed Trump's 'stone ages' speech and concluded: this war is intensifying, not ending.\n\nThe most alarming analysis comes from BCA Research (via CNBC): the world hits an 'oil cliff' in mid-April. The stopgap measures — strategic petroleum reserves, Russian oil sanction waivers, Iranian oil exemptions — all expire. Supply loss doubles from 5M to 10M barrels/day. 'There is no substitute for pumping oil from the ground and sending it directly to clients.'\n\nThe UN Security Council vote on Hormuz was postponed to Saturday after China, Russia AND France objected. Even if the watered-down version passes, enforcement is months away. Meanwhile Iran is drafting a permanent toll protocol with Oman — institutionalizing its control of the strait.\n\nOvernight strikes: B1 bridge collapsed (8 dead, 95 wounded on Nature Day). Ballistic missile chief Atimi killed. Iran claims F-35 shot down (CENTCOM denies). Iran drones hit Kuwait's Mina al-Ahmadi refinery. Red Crescent warehouse struck in Bushehr. Hegseth fired Army Chief of Staff.\n\nFor India (Day 35, 7 PM):\n• Markets CLOSED (Good Friday). Reopen Monday = April 6 deadline\n• Brent $109. Indian basket likely above $120 now\n• Foreign Sec Misri in 60+ nation Hormuz coalition talks\n• India supplying fuel to Bangladesh, Nepal, Bhutan, Sri Lanka. Maldives requested\n• 60 days stock. LPG 30+ days. Refineries >100%. 800 TMT cargoes secured\n• Rupee 93.19 (RBI NDF ban holding)\n• FII ₹1.23T outflow March. Manufacturing PMI 4-year low\n\nThe next 72 hours are the most consequential of the entire war:\n• Saturday: UN votes on Hormuz (likely vetoed)\n• Sunday: April 6 — power plant strike deadline expires\n• Monday: Indian markets reopen into potential chaos\n\nIf April 6 passes without a deal, Trump has promised to hit power plants. Iran has promised 'permanent humiliation.' Oil could spike past $130 overnight. India must be prepared for the worst Monday in market history."
+    "headline": "DAY 36. Two US planes down. Crew member MISSING in Iran. The war just changed fundamentally.",
+    "body": "The war crossed a new threshold overnight. Two US aircraft were downed in a single day — the biggest US military loss since the war began:\n\n1. F-15E Strike Eagle SHOT DOWN OVER IRAN. One crew member rescued. One still MISSING — search ongoing. If captured by Iran, this becomes a POW crisis that could extend the war by months.\n\n2. A-10 Warthog hit by Iranian air defenses NEAR THE STRAIT OF HORMUZ. Pilot ejected and was rescued. The shootdown near Hormuz means combat is intensifying around the very chokepoint India depends on.\n\nTrump's response was not de-escalation. He posted: 'We haven't even started destroying what's left in Iran. Bridges next, then Electric Power Plants!' This is the clearest signal yet that April 6 = power plant strikes BEGIN, not resume.\n\nMeanwhile, strikes hit on BOTH sides' industrial base: Israel struck Mobarakeh Steel, Khuzestan Steel (IRGC-linked), yellowcake plant in Yazd, and Arak heavy-water reactor. Iran hit Kuwait's Mina al-Ahmadi refinery, UAE steel plants, Bahrain aluminum, and Rafael arms factories in Israel. A cluster bomb killed 1 in Ramat Gan.\n\nThe White House requested a $1.5 TRILLION defense budget — a 40% increase. This is permanent war infrastructure, not '2-3 weeks.'\n\nFor India (Day 36, 8:15 AM):\n• Markets closed (weekend). Reopen Monday INTO April 6 deadline\n• Two US planes down will shock markets globally Monday\n• If F-15 crew is POW → war extends indefinitely → oil spikes → Sensex crash\n• Brent $109. Indian basket likely $120+. Rupee 93.19 (RBI holding)\n• 60 days fuel stock. LPG 30+ days. 800 TMT cargoes. Op Urja Suraksha active\n• India in 60+ nation Hormuz coalition. Supplying fuel to 5 neighbors\n• A-10 was shot down NEAR HORMUZ — combat zone around India's energy lifeline\n\nThe next 48 hours:\n• Saturday: UN Hormuz vote (likely vetoed)\n• Sunday: April 6 deadline EXPIRES (8 PM ET = Monday 5:30 AM IST)\n• Monday: Indian markets reopen into potentially the worst open of the war\n\nThe missing F-15 crew member is now the most important person in the world. If alive in Iranian hands — Trump cannot exit. If dead — domestic pressure mounts. Either way, '2-3 weeks' is no longer credible. India must prepare for a war that could last months."
   }
 }
