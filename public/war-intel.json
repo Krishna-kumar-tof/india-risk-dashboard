@@ -1,81 +1,82 @@
 {
-  "_updated": "April 4, 2026 — 8:15 AM IST",
+  "_updated": "April 4, 2026 — 7:15 PM IST",
   "_day": 36,
-  "_note": "Verified: CNN, NPR, Al Jazeera, Euronews, Wikipedia/Timeline, CBS. TWO US planes downed. War sharply escalating. April 6 = 2 days.",
+  "_note": "Verified: ANI, IANS, BusinessToday, India TV, AFP/BSS, CNN, CBS, NBC, NPR, Fortune, Al Jazeera, Times of Israel, KPBS. Green Sanvi crossed. F-15 crew still missing.",
   "ticker": [
-    "🔴 TWO US PLANES DOWN — F-15E shot down over IRAN (1 crew rescued, 1 MISSING). A-10 Warthog hit near Hormuz, pilot ejected + rescued",
-    "💣 Trump: 'Haven't even STARTED destroying what's left. Bridges next, then ELECTRIC POWER PLANTS!' War ESCALATING, not ending",
-    "🇮🇷 Iran hit Mobarakeh Steel (Isfahan) + Khuzestan Steel (Ahvaz) — IRGC-linked. Yellowcake plant Yazd + Arak heavy-water reactor STRUCK",
-    "🛢️ Brent $109. WTI $111.54. Deutsche Bank: 'No signal of US seeking imminent off-ramp.' White House seeks $1.5 TRILLION defense budget",
-    "🇰🇼 Iran drones hit Kuwait Mina al-Ahmadi REFINERY — fires burning. Also hit Shuwaikh Port + Mubarak Al Kabeer Port. Kuwait retaliation risk rising",
-    "🇮🇱 Iran fired 4 missile salvos at Israel overnight. Cluster bomb hit Ramat Gan — 1 killed, 3 injured. Tel Aviv train station damaged by shrapnel",
-    "🇮🇷 Iran parliament speaker Ghalibaf MOCKS US: 'From regime change to Hey can anyone find our pilots?' BadeSaba prayer app HACKED — 5M users got defection messages",
-    "🇮🇳 India markets closed (weekend). UN Hormuz vote pushed to Saturday. Italy's Meloni in Saudi seeking energy supplies. World Bank warns of food + jobs risk",
-    "⚠️ Iran struck US steel plants in Abu Dhabi + aluminum in Bahrain + Rafael arms factories in Israel. War now hitting INDUSTRIAL infrastructure on both sides",
-    "🌐 DAY 36. WEEK 6 BEGINS. April 6 = 2 DAYS. Two US planes down = biggest single-day US loss. F-15E pilot still MISSING in Iran. This changes everything"
+    "🚢 GREEN SANVI CROSSES HORMUZ — 46,650 MT LPG, 7th Indian tanker! Reaching Mumbai by Apr 6. Green Asha + Jag Vikram NEXT. Indian warship escort confirmed",
+    "🇮🇳 6 Indian CARGO ships also moving through Oman waters in convoy. 17 Indian ships now east of Hormuz (down from 18). 460 seafarers. BW Elm rerouted to Ennore",
+    "🔴 F-15E crew member STILL MISSING in Iran — Day 2. Iran offered $60K bounty. Governor denied capture. 2 Black Hawk helicopters HIT during rescue search",
+    "🛢️ Trump REVERSES on Hormuz: 'OPEN THE STRAIT, TAKE THE OIL, MAKE A FORTUNE.' Was saying 'countries do it themselves' 2 days ago",
+    "📉 Brent $109. WTI $111.54. UN Hormuz vote POSTPONED AGAIN — now next week. Russia/China/France still oppose. No legal framework for reopening",
+    "🇰🇼 Kuwait DESALINATION PLANT hit — 90% of Kuwait's water from desal. Also: refinery fires. Iran targeting civilian infrastructure systematically",
+    "🇮🇷 IRGC struck Israel-linked ship MSC Ishyka in Hormuz (Times of Israel). Iran targeted Oracle office in Dubai. Named 18 US tech companies as targets",
+    "🇮🇷 Iran's 5-POINT counter-proposal: recognition of Hormuz control, US bases removal, compensation, ceasefire, no repeat guarantees",
+    "⚠️ US wounded: 365 (up from 348). Italy PM Meloni in Qatar pledging LNG rebuild. Pope Leo XIV urged Israel to reopen dialogue. Former FM Zarif published peace plan",
+    "🌐 DAY 36. April 6 = TOMORROW. Green Sanvi = good news for India. But F-15 missing + UN vote failed + April 6 deadline = maximum uncertainty Monday"
   ],
   "whatChanged": {
-    "label": "WHAT CHANGED — APR 4, 8:15 AM IST (DAY 36 — WEEK 6)",
+    "label": "WHAT CHANGED — APR 4, 7:15 PM IST (DAY 36)",
     "items": [
-      {"color": "red", "bold": "TWO US aircraft downed — biggest single-day US loss.", "text": " F-15E shot down OVER IRAN — 1 crew rescued, 1 MISSING (search ongoing). A-10 Warthog hit near Strait of Hormuz — pilot ejected + rescued. Ghalibaf mocks: 'from regime change to finding pilots.' This is the most significant US military setback of the war"},
-      {"color": "red", "bold": "Trump: 'Haven't even STARTED destroying what's left.'", "text": " 'Bridges next, then electric power plants!' War ESCALATING on both sides. Israel struck Mobarakeh Steel, Khuzestan Steel (IRGC-linked). Yellowcake plant Yazd + Arak heavy-water reactor struck. Iran hit Kuwait refinery, UAE steel plants, Bahrain aluminum"},
-      {"color": "orange", "bold": "Brent $109. Deutsche Bank: 'no off-ramp signal.'", "text": " White House seeks $1.5 TRILLION defense budget (+40% over last year). Pentagon building 'Golden Dome' missile defense. This is permanent war infrastructure — not 2-3 weeks. Oil rising on recognition war is prolonged"},
-      {"color": "red", "bold": "Iran cluster bomb hit Ramat Gan — 1 killed, 3 injured.", "text": " Tel Aviv train station damaged. 4 missile salvos overnight at Israel. Kuwait: drones on Shuwaikh + Mubarak Al Kabeer ports. UAE: 6 ballistic missiles + 9 drones intercepted. Palestine: 1 killed by rocket near Abu Dhabi"},
-      {"color": "cyan", "bold": "India: markets closed (weekend).", "text": " UN Hormuz vote pushed to Saturday — China/Russia/France oppose. Italy PM Meloni in Saudi Arabia seeking energy deals. India Foreign Sec in 60+ nation coalition. India supplying fuel to 5 neighbors. 60 days stock. Rupee 93.19"},
-      {"color": "purple", "bold": "APRIL 6 = 2 DAYS. F-15 crew MISSING in Iran.", "text": " If confirmed captured — POW crisis. If killed — escalation pressure. April 6 power plant strike deadline Sunday. Monday markets reopen. BadeSaba app hacked (5M users). Iran vows 'crushing' response. Week 6 of war begins"}
+      {"color": "green", "bold": "GREEN SANVI crosses Hormuz — 46,650 MT LPG!", "text": " 7th Indian LPG tanker to cross safely. Reaching Mumbai by Apr 6. Indian warship escort confirmed. Green Asha + Jag Vikram next in line. 6 Indian cargo ships also moving through Oman waters. BW Elm rerouted to Ennore. India's Hormuz pipeline is working"},
+      {"color": "red", "bold": "F-15E crew member STILL MISSING — Day 2.", "text": " Iran offered $60K bounty. Governor denied capture but search continues. 2 Black Hawk rescue helicopters ALSO HIT by Iran (crews safe). Israel cancelled strikes to not interfere. Iran TV urged public to find 'enemy pilot.' This is the single biggest escalation risk"},
+      {"color": "orange", "bold": "Trump reverses on Hormuz: 'TAKE THE OIL, MAKE A FORTUNE.'", "text": " Was saying 'countries do it themselves' just 2 days ago. Now wants to 'OPEN THE STRAIT' himself. UN vote postponed AGAIN — now next week. No legal framework. Iran's 5-point counter-proposal includes recognition of Hormuz control"},
+      {"color": "red", "bold": "Kuwait desalination plant HIT — 90% of Kuwait's water.", "text": " Iran systematically targeting civilian infrastructure. Oracle Dubai office hit. 18 US tech companies named as targets (Palantir, META, Google, Microsoft). IRGC struck MSC Ishyka in Hormuz. US wounded: 365"},
+      {"color": "cyan", "bold": "India: 17 ships now east of Hormuz (460 seafarers).", "text": " Down from 18 — Green Sanvi crossed! Remaining: 3 LPG + 4 crude + 1 LNG + 1 chemical + 3 container + 2 bulk + 2 maintenance. 1,100+ crew evacuated. India supplying fuel to 5 neighbors. 60 days stock"},
+      {"color": "purple", "bold": "APRIL 6 = TOMORROW (Sunday).", "text": " Power plant strike deadline. Markets reopen Monday. Green Sanvi = positive for India. But F-15 missing + UN vote failed + Iran escalating. Monday could swing either way — depends entirely on what happens in the next 36 hours"}
     ]
   },
   "deaths": "5,400+",
-  "deathsSub": "3,519+ Iran (HRANA), 1,300+ Lebanon, 99 Iraq, 19 Israel, 13 US (348+ wounded), 30+ Gulf",
+  "deathsSub": "3,519+ Iran (HRANA) / 2,076 (Health Min), 1,300+ Lebanon, 99 Iraq, 19 Israel, 13 US (365 wounded), 30+ Gulf",
   "econ": {
-    "sensex": "73,320", "sensexDelta": "closed (weekend)", "sensexSub": "Nikkei +1.4%, Kospi +3% Fri. But 2 US planes down → Mon crash risk",
-    "vix": "25.99", "vixDelta": "likely to spike Monday",
+    "sensex": "73,320", "sensexDelta": "closed (weekend)", "sensexSub": "Mon open: F-15 missing + Apr 6 deadline. High volatility guaranteed",
+    "vix": "25.99", "vixDelta": "will spike Monday",
     "fpi": "$12.3B+", "fpiDelta": "₹1.23T Mar + ₹8,331 Cr Apr 1",
     "wealth": "₹44L+ Cr",
-    "analysis": "DAY 36: Two US planes downed — biggest single-day US loss. F-15E crew member MISSING in Iran. Trump: 'haven't started.' $1.5T defense budget. Brent $109. Deutsche Bank: 'no off-ramp.' When Indian markets reopen Monday, this news will hit hard. Nikkei +1.4% Friday was BEFORE the shootdowns. The missing crew member is the single biggest escalation risk — if Iran has a POW, everything changes."
+    "analysis": "DAY 36: Green Sanvi crossed Hormuz with 46,650 MT LPG — positive signal for India's supply. But F-15 crew still missing (Day 2). US wounded up to 365. UN Hormuz vote postponed again. Trump reversed: now wants to 'TAKE THE OIL.' Brent $109. Monday's market open will be dominated by: (1) F-15 crew fate, (2) April 6 deadline outcome, (3) whether strikes hit power plants."
   },
   "hormuzLatest": [
-    {"d": "Apr 4", "e": "A-10 Warthog shot down NEAR HORMUZ — pilot ejected + rescued. F-15E down over Iran (1 missing). UN vote pushed to Saturday. Iran drones hit Kuwait refinery (fires). UAE intercepted 6 ballistic + 9 drones. CMA CGM Kribi first French ship through Larak. Brent $109. April 6 = 2 days."}
+    {"d": "Apr 4", "e": "GREEN SANVI crosses Hormuz — 46,650 MT LPG, 7th Indian tanker! Reaching Mumbai Apr 6. Indian warship escort. 6 cargo ships moving via Oman waters. Green Asha + Jag Vikram next. 17 ships east of strait (460 seafarers). F-15 crew still missing. 2 Black Hawks hit. UN vote postponed to next week. IRGC hit MSC Ishyka in Hormuz. Trump: 'TAKE THE OIL.'"}
   ],
   "hormuzVessels": {
     "preWarDaily": "~130 ships/day",
-    "currentDaily": "~90% down. A-10 shot down NEAR Hormuz → combat zone intensifying",
+    "currentDaily": "~90% down. But India getting ships through — 7 LPG tankers crossed + 6 cargo ships moving",
     "indianVessels": {
       "peak": "28 at war start",
-      "current": "18 ships + 485 seafarers",
-      "crossed": "8 carriers (6 Indian-flagged per MEA)",
-      "repatriated": "942+ seafarers",
-      "operation": "Op Urja Suraksha — 5+ warships"
+      "current": "17 ships + 460 seafarers (down from 18 — Green Sanvi crossed!)",
+      "crossed": "9 carriers (7 LPG + 1 crude + 1 gasoline). Green Sanvi = 9th",
+      "repatriated": "1,100+ crew evacuated",
+      "operation": "Op Urja Suraksha — 5+ warships. Indian warship confirmed guarding Green Sanvi"
     },
     "indiaFuelStatus": {
       "crudeStock": "60 days (74-day capacity)",
       "lpgStock": "30+ days. Production up 40%",
-      "lpgCargoes": "800 TMT secured",
+      "lpgCargoes": "800 TMT secured. Green Sanvi: 46,650 MT reaching Mumbai Apr 6",
       "refineries": ">100% utilization",
-      "suppliers": "41+ countries",
+      "suppliers": "41+ countries. USA now India's largest LPG supplier (overtook UAE)",
       "dryOuts": "ZERO (PIB)",
-      "indianBasket": "$120+ (estimated — Brent at $109)",
-      "neighborSupply": "India supplying oil to Bangladesh, Nepal, Bhutan, Sri Lanka. Maldives requested"
+      "indianBasket": "$120+ estimated",
+      "neighborSupply": "India supplying oil to Bangladesh, Nepal, Bhutan, Sri Lanka, Maldives"
     },
     "recentTransits": [
-      {"date": "Apr 3", "vessel": "CMA CGM Kribi (French-linked)", "note": "First French ship through via Larak toll."},
-      {"date": "Apr 1", "vessel": "BW Elm at Mangalore", "note": "LPG. Navy escort."},
-      {"date": "Mar 31", "vessel": "BW Tyr at Mumbai", "note": "94,000 MT LPG."},
-      {"date": "Apr 3", "vessel": "A-10 Warthog SHOT DOWN near Hormuz", "note": "Pilot ejected + rescued. Combat zone intensifying around strait."},
-      {"date": "Apr 3", "vessel": "Kuwait Mina al-Ahmadi refinery HIT", "note": "Iran drones. Fires at multiple units."},
-      {"date": "Apr 3", "vessel": "Kuwait ports — Shuwaikh + Mubarak hit", "note": "Drones + missiles. Material damage. No casualties."}
+      {"date": "Apr 4", "vessel": "GREEN SANVI (LPG, 46,650 MT)", "note": "7th Indian LPG tanker. Larak-Qeshm corridor. Warship escort. Mumbai by Apr 6."},
+      {"date": "Apr 4", "vessel": "6 Indian cargo ships moving via Oman waters", "note": "MSV Al Shirazi, Faizane Mustafa 2201, Haji Ghasediya, MSV Alhamdulillah, Al Salima MNV 2190, MSV Al Jusufi (likely). Smaller vessels."},
+      {"date": "Apr 3", "vessel": "CMA CGM Kribi (French-linked)", "note": "First French ship through Larak toll."},
+      {"date": "Apr 1", "vessel": "BW Elm → rerouted to Ennore (Apr 4)", "note": "LPG. Originally Mangalore → now Ennore."},
+      {"date": "Mar 31", "vessel": "BW Tyr at Mumbai", "note": "94,000 MT LPG combined."},
+      {"date": "Apr 4", "vessel": "IRGC struck MSC Ishyka in Hormuz", "note": "Israel-linked ship. Fire. IRGC naval forces (Times of Israel)."},
+      {"date": "Apr 3", "vessel": "A-10 SHOT DOWN near Hormuz", "note": "Pilot ejected, rescued in Kuwait."}
     ],
-    "stillWaiting": "Jag Vikram, Green Asha, Green Sanvi.",
-    "blockadeStatus": "Combat NEAR Hormuz (A-10 down). UN vote Saturday. Iran permanent tolls. $2M/ship Larak. Israel struck yellowcake Yazd + Arak reactor. War now hitting BOTH sides' industrial base.",
-    "keyFigures": "India Foreign Sec in 60+ nation talks. Op Urja Suraksha active. F-15E crew MISSING in Iran = POW risk."
+    "stillWaiting": "Green Asha + Jag Vikram — NEXT to cross (IANS confirmed). Plus 4 crude + 1 LNG + 1 chemical + 3 container + 2 bulk.",
+    "blockadeStatus": "India's Hormuz pipeline WORKING — 9 carriers crossed, 6 cargo moving. But UN vote postponed. F-15 crew missing. IRGC hitting ships. Iran 5-point counter-proposal includes Hormuz control recognition. Trump now says 'TAKE THE OIL.'",
+    "keyFigures": "Op Urja Suraksha active. Warship confirmed behind Green Sanvi. 460 seafarers. 1,100+ evacuated. USA overtook UAE as India's #1 LPG supplier."
   },
   "milTop": [
-    {"t": "🔴 TWO US Planes Down — F-15E Crew Member MISSING in Iran", "lv": "BREAKING", "color": "red", "d": "Biggest single-day US loss. F-15E shot down OVER IRAN — 1 crew rescued, 1 still MISSING. A-10 Warthog hit near Hormuz — pilot ejected + rescued. Ghalibaf mocks: 'from regime change to finding pilots.' If missing crew captured = POW crisis. This fundamentally changes the war's trajectory."},
-    {"t": "💣 Trump: 'Haven't Started Destroying. Bridges Next, Power Plants!'", "lv": "BREAKING", "color": "red", "d": "War ESCALATING on both sides. Israel struck Mobarakeh + Khuzestan steel (IRGC). Yellowcake plant Yazd + Arak reactor hit. Iran hit Kuwait refinery + UAE steel + Bahrain aluminum + Rafael in Israel. Cluster bomb killed 1 in Ramat Gan. $1.5T defense budget = permanent war footing."},
-    {"t": "🇮🇳 India: 60 Days Stock But Monday Could Be Worst Open of War", "lv": "CRITICAL", "color": "orange", "d": "Markets closed (weekend). When they reopen Monday: 2 US planes down + April 6 deadline + Brent $109 + missing crew member. If F-15 crew is a POW: Sensex could crash 2,000+ points. India fuel managed but Monday's open is the biggest risk since Feb 28. RBI intervention may be needed again."}
+    {"t": "🚢 Green Sanvi Crosses Hormuz — 46,650 MT LPG, Mumbai by Apr 6", "lv": "BREAKING", "color": "green", "d": "7th Indian LPG tanker to cross safely. Indian warship escort confirmed. 6 cargo ships also moving via Oman waters. Green Asha + Jag Vikram next. 17 ships east of strait (460 seafarers). BW Elm rerouted to Ennore. USA overtook UAE as India's #1 LPG supplier. India's Hormuz pipeline is delivering."},
+    {"t": "🔴 F-15E Crew Still MISSING — Day 2. 2 Black Hawks Also Hit", "lv": "BREAKING", "color": "red", "d": "Search ongoing in mountainous Khuzestan. Iran offered $60K bounty. TV urged public to find 'enemy pilot.' Governor denied capture. 2 Black Hawk rescue helicopters HIT (crews safe). Israel cancelled strikes to help search. Trump posted 'KEEP THE OIL' while crew missing. US wounded: 365."},
+    {"t": "⚠️ April 6 = TOMORROW. UN Vote Failed. Trump Reversed on Hormuz", "lv": "CRITICAL", "color": "orange", "d": "Power plant strike deadline Sunday. Trump reversed: 'OPEN HORMUZ, TAKE THE OIL, MAKE A FORTUNE' (was 'countries do it' 2 days ago). UN vote postponed again. Iran's 5-point counter includes Hormuz control. Kuwait desal plant hit. Oracle Dubai targeted. 18 tech firms named. Monday = maximum uncertainty."}
   ],
   "tlLatest": [
-    {"d": 36, "l": "Apr 4", "deaths": 5400, "brent": 109, "nifty": 22713, "rupee": 93.19, "tag": "TWO US planes down. F-15E crew MISSING in Iran. A-10 hit near Hormuz. Trump: 'haven't started.' Kuwait refinery hit. Arak + Yazd struck. April 6 = 2 days", "sev": 3}
+    {"d": 36, "l": "Apr 4", "deaths": 5400, "brent": 109, "nifty": 22713, "rupee": 93.19, "tag": "Green Sanvi crosses! 46,650 MT LPG. F-15 crew still missing Day 2. UN vote postponed. Trump: 'TAKE THE OIL.' Kuwait desal hit. April 6 = TOMORROW", "sev": 2}
   ],
   "projNow": {"brent": 109, "rupee": 93.19, "lpg": 913, "petrol": 94.77, "deaths": 5400},
   "scenarios": {
@@ -91,14 +92,14 @@
     {"axis": "Oil Shock", "w1": 60, "now": 93, "w4": 98, "w8": 99},
     {"axis": "Market Crash", "w1": 45, "now": 90, "w4": 96, "w8": 99},
     {"axis": "Nuclear Risk", "w1": 20, "now": 88, "w4": 96, "w8": 99},
-    {"axis": "Hormuz Closure", "w1": 80, "now": 96, "w4": 98, "w8": 99},
+    {"axis": "Hormuz Closure", "w1": 80, "now": 94, "w4": 98, "w8": 99},
     {"axis": "Household Impact", "w1": 15, "now": 96, "w4": 99, "w8": 99},
     {"axis": "Currency Crisis", "w1": 40, "now": 87, "w4": 96, "w8": 99},
     {"axis": "Social Unrest", "w1": 25, "now": 83, "w4": 94, "w8": 98},
     {"axis": "Military Exposure", "w1": 35, "now": 98, "w4": 99, "w8": 99}
   ],
   "assessment": {
-    "headline": "DAY 36. Two US planes down. Crew member MISSING in Iran. The war just changed fundamentally.",
-    "body": "The war crossed a new threshold overnight. Two US aircraft were downed in a single day — the biggest US military loss since the war began:\n\n1. F-15E Strike Eagle SHOT DOWN OVER IRAN. One crew member rescued. One still MISSING — search ongoing. If captured by Iran, this becomes a POW crisis that could extend the war by months.\n\n2. A-10 Warthog hit by Iranian air defenses NEAR THE STRAIT OF HORMUZ. Pilot ejected and was rescued. The shootdown near Hormuz means combat is intensifying around the very chokepoint India depends on.\n\nTrump's response was not de-escalation. He posted: 'We haven't even started destroying what's left in Iran. Bridges next, then Electric Power Plants!' This is the clearest signal yet that April 6 = power plant strikes BEGIN, not resume.\n\nMeanwhile, strikes hit on BOTH sides' industrial base: Israel struck Mobarakeh Steel, Khuzestan Steel (IRGC-linked), yellowcake plant in Yazd, and Arak heavy-water reactor. Iran hit Kuwait's Mina al-Ahmadi refinery, UAE steel plants, Bahrain aluminum, and Rafael arms factories in Israel. A cluster bomb killed 1 in Ramat Gan.\n\nThe White House requested a $1.5 TRILLION defense budget — a 40% increase. This is permanent war infrastructure, not '2-3 weeks.'\n\nFor India (Day 36, 8:15 AM):\n• Markets closed (weekend). Reopen Monday INTO April 6 deadline\n• Two US planes down will shock markets globally Monday\n• If F-15 crew is POW → war extends indefinitely → oil spikes → Sensex crash\n• Brent $109. Indian basket likely $120+. Rupee 93.19 (RBI holding)\n• 60 days fuel stock. LPG 30+ days. 800 TMT cargoes. Op Urja Suraksha active\n• India in 60+ nation Hormuz coalition. Supplying fuel to 5 neighbors\n• A-10 was shot down NEAR HORMUZ — combat zone around India's energy lifeline\n\nThe next 48 hours:\n• Saturday: UN Hormuz vote (likely vetoed)\n• Sunday: April 6 deadline EXPIRES (8 PM ET = Monday 5:30 AM IST)\n• Monday: Indian markets reopen into potentially the worst open of the war\n\nThe missing F-15 crew member is now the most important person in the world. If alive in Iranian hands — Trump cannot exit. If dead — domestic pressure mounts. Either way, '2-3 weeks' is no longer credible. India must prepare for a war that could last months."
+    "headline": "DAY 36. Green Sanvi crosses — India's lifeline holds. But F-15 crew missing, April 6 tomorrow, and the world has no plan for Hormuz.",
+    "body": "Two narratives compete today:\n\nTHE GOOD: Green Sanvi crossed the Strait of Hormuz with 46,650 MT of LPG, becoming the 9th Indian carrier (7th LPG tanker) to transit safely. Indian warship confirmed escorting. It reaches Mumbai by April 6. Green Asha and Jag Vikram are next. Six smaller Indian cargo ships are also moving through Oman's waters. India's Hormuz pipeline is WORKING — diplomacy + Navy escort delivering results.\n\nTHE BAD: An F-15E crew member is missing in Iran for a second day. Iran offered a $60,000 bounty. Two Black Hawk rescue helicopters were also hit. The UN Hormuz vote was postponed AGAIN — Russia, China, and France still oppose. Trump reversed himself — now says 'OPEN THE STRAIT, TAKE THE OIL, MAKE A FORTUNE' after saying 'countries do it themselves' just 2 days ago. Kuwait's desalination plant was hit. Iran targeted Oracle's Dubai office and named 18 US tech companies.\n\nFor India (Day 36, 7:15 PM):\n• Green Sanvi: 46,650 MT LPG reaching Mumbai Apr 6 — positive\n• 17 Indian ships east of Hormuz (460 seafarers). 9 carriers crossed total\n• Green Asha + Jag Vikram confirmed next (IANS)\n• 6 cargo ships moving via Oman waters (MSV Al Shirazi, Faizane Mustafa etc.)\n• USA overtook UAE as India's #1 LPG supplier\n• 60 days fuel stock. LPG 30+ days. Refineries >100%\n• India supplying fuel to 5 neighbors\n• BW Elm rerouted to Ennore (arriving Apr 4)\n\nAPRIL 6 = TOMORROW:\n• If deadline passes with no deal: power plant strikes begin\n• If F-15 crew found alive by Iran: POW crisis extends war\n• If F-15 crew found dead: domestic political pressure to escalate\n• Monday: Indian markets reopen into all of this\n\nThe Green Sanvi crossing is the best news India has had all week. But 36 days into the war, the world still has no plan to reopen Hormuz — and the man who started the war just said he wants to 'take the oil.'"
   }
 }
