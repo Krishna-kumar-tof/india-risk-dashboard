@@ -76,14 +76,15 @@ const PROJ = [
 ];
 
 const HH = [
-  {item:"LPG Cylinder (14.2kg)",pre:"₹853",now:"₹913",chg:"+₹60 (+7%)",proj:"₹1,000+",note:"₹60 hike on Mar 7 — first in 11 months. Only 10 DAYS stock. Dairy crisis (10 days milk packaging left). 25-day inter-booking rule. LPG production up 28% but covers only 10% of need. Ras Laffan hit = 60% of India's gas at risk.",s:3},
+  {item:"LPG Cylinder (14.2kg)",pre:"₹853",now:"₹913",chg:"+₹60 (+7%)",proj:"₹1,000+",note:"₹60 hike Mar 7. PIB: 30+ DAYS stock. Production up 40% to 50,000 MT/day (need: 80,000). 800 TMT cargoes secured from US/Russia/Australia. 22 import terminals (was 11 in 2014). Ujjwala beneficiaries still get ₹300 subsidy. But Ras Laffan damage = 60% of India's gas at risk long-term.",s:3},
   {item:"Natural Gas (PNG/CNG)",pre:"Normal",now:"CRITICAL ⚠️",chg:"Supply threat",proj:"Rationing likely",note:"CRITICAL: Ras Laffan damage = 17% LNG capacity gone, 3-5yr repair, $20B/yr revenue loss. QatarEnergy FORCE MAJEURE on gas. Impacts China, S.Korea, Italy, Belgium + INDIA. India imports 60% of gas from ME. CNG vehicles + piped gas + fertiliser at EXISTENTIAL risk. IEA calls it 'largest supply disruption in history.'",s:3},
   {item:"Petrol (Delhi)",pre:"₹94.72/L",now:"₹94.77/L",chg:"UNCHANGED ⚠️",proj:"Hike risk if Brent>$110",note:"GOVT CUT EXCISE by ₹10/L (from ₹13 to ₹3) but OMCs ABSORBED it to offset losses — pump price UNCHANGED at ₹94.77. OMCs losing ~₹24/L on petrol. Nayara Energy HIKED by ₹5.30/L. Jet fuel surpassed ₹2L/kL. Elara: above $110 crude, retail hike of ₹8-14/L inevitable. Mumbai ₹103.54 (unchanged).",s:2},
   {item:"LPG Commercial (19kg)",pre:"₹1,740",now:"₹1,885",chg:"+₹145 (+8.3%)",proj:"₹2,200",note:"Restaurants shutting menus. Bengaluru cafe charging 'Gas Crisis Charge.' Railways seeking alt fuels. Delhi govt capped commercial supply at 20% of average. Bakeries warn bread shortage.",s:3},
   {item:"Diesel (Delhi)",pre:"₹87.62/L",now:"₹87.67/L",chg:"UNCHANGED ⚠️",proj:"Hike risk if Brent>$110",note:"GOVT CUT EXCISE by ₹10/L (from ₹10 to ZERO) but OMCs ABSORBED it — pump price UNCHANGED at ₹87.67. OMCs losing ~₹30/L on diesel. Nayara hiked ₹3/L. Every ₹1 diesel rise = ₹2,500 cr annual trucking cost. Export duty on diesel raised to ₹21.5/L. Mumbai ₹90.03 (unchanged).",s:2},
   {item:"Cooking Oil",pre:"~₹140/L",now:"~₹155-165/L",chg:"+₹15-25 (~12%)",proj:"₹180-200/L",note:"Palm oil +5% (Nomura). Sunflower +16%. India import-dependent. Rupee slide (91.49→94.84) adds ~3.5% to all imports. Fertilizer prices up 50% — will hit Kharif crop costs.",s:2},
-  {item:"Vegetables/Onion",pre:"Stable",now:"Rising",chg:"Transport↑",proj:"₹60-80/kg",note:"400K tons Basmati stuck. Diesel freight costs rising.",s:1},
-  {item:"Medicine",pre:"Stable",now:"Stable (for now)",chg:"Coming Apr",proj:"+10-15%",note:"Pharma raw materials costlier. Impact from Q1 FY27.",s:1},
+  {item:"Vegetables/Onion",pre:"Stable",now:"Rising",chg:"Transport↑",proj:"₹60-80/kg",note:"400K tons Basmati stuck. Diesel freight costs rising. 30% of fertilizers transit Hormuz — Kharif crop at risk.",s:1},
+  {item:"Air Travel (IndiGo)",pre:"Normal",now:"Surcharge ₹275-₹10K",chg:"+₹275 to ₹10,000",proj:"Higher",note:"IndiGo added fuel surcharge ₹275-₹10,000 per ticket (Apr 1). Jet fuel past ₹2L/kL. ATF tax scrapped but prices still doubled. Korean Air in 'emergency mode.' Philippines may ground planes. China banned jet fuel exports.",s:2},
+  {item:"Medicine",pre:"Stable",now:"Rising",chg:"API +30%",proj:"+10-15%",note:"API (raw material) costs up 30%. Tofigh Daru pharmaceutical plant in Iran BOMBED (Apr 3). India sources some APIs from Iran. Pharma margins squeezed. Impact visible from Q1 FY27.",s:2},
 ];
 
 const MIL = [
@@ -119,6 +120,8 @@ const NUKES = [
   {name:"Dimona (Israel)",type:"Nuclear Research",st:"TARGETED",risk:80,info:"Iranian missiles hit Arad + Dimona near Israel's Negev nuclear center — 100+ injured. IAEA says no damage to nuclear facility. First time area was targeted in this war."},
   {name:"Bushehr",type:"Reactor ☢️",st:"HIT",risk:85,info:"CONFIRMED: 'hostile projectile' struck site. UN nuclear watchdog (IAEA) confirmed strike but said NO damage to reactor. First strike on working reactor. Spent fuel on site."},
   {name:"Parchin",type:"Military Nuclear",st:"STRUCK",risk:82,info:"Nuclear weapon component testing facility. Confirmed damage."},
+  {name:"Arak",type:"Heavy Water (IR-40)",st:"STRUCK",risk:80,info:"Heavy-water reactor struck (confirmed Apr 3, Wikipedia/IDF). Plutonium pathway facility. Key to potential weapons-grade production. IAEA monitoring."},
+  {name:"Yazd (Ardakan)",type:"Yellowcake Production",st:"STRUCK",risk:78,info:"Yellowcake plant near Yazd struck (confirmed Apr 3, IDF/Wikipedia). Yellowcake is early-stage uranium processing. Feeds enrichment pipeline."},
   {name:"Fordow",type:"Underground",st:"UNCERTAIN",risk:75,info:"80m underground. 60% enrichment. 5,000-lb bunker busters used nearby."},
 ];
 
@@ -134,9 +137,9 @@ const CITIES = [
 ];
 
 const RADAR = [
-  {axis:"Oil Shock",w1:60,now:88,w4:96},{axis:"Market Crash",w1:45,now:96,w4:92},{axis:"Nuclear Risk",w1:20,now:82,w4:92},
-  {axis:"Hormuz Closure",w1:80,now:96,w4:99},{axis:"Household Impact",w1:15,now:96,w4:99},{axis:"Currency Crisis",w1:40,now:90,w4:96},
-  {axis:"Social Unrest",w1:25,now:62,w4:75},{axis:"Military Exposure",w1:35,now:90,w4:94},
+  {axis:"Oil Shock",w1:60,now:93,w4:98},{axis:"Market Crash",w1:45,now:90,w4:96},{axis:"Nuclear Risk",w1:20,now:88,w4:96},
+  {axis:"Hormuz Closure",w1:80,now:96,w4:98},{axis:"Household Impact",w1:15,now:96,w4:99},{axis:"Currency Crisis",w1:40,now:87,w4:96},
+  {axis:"Social Unrest",w1:25,now:83,w4:94},{axis:"Military Exposure",w1:35,now:98,w4:99},
 ];
 
 // ═══════ HORMUZ DATA ═══════
@@ -149,7 +152,7 @@ const HORMUZ = {
   indianSeafarers: 485,
   indianTransited: 8,
   totalShipsWaiting: "2,000 ships / 20K seafarers / 12+ mines",
-  lastTransit: "2 SCI carriers (Mar 28)",
+  lastTransit: "BW Elm at Mangalore (Apr 1)",
   indianNavyEscort: "Op. Urja Suraksha — 5+ warships",
   events: [
     {d:"Mar 4",e:"IRIS Dena torpedoed off Sri Lanka. 87 killed"},
@@ -165,6 +168,10 @@ const HORMUZ = {
     {d:"Mar 27",e:"8 Pakistani tankers cross. But 3 other ships TURNED BACK. Trump extends to Apr 6"},
     {d:"Mar 28",e:"2 more SCI carriers cross + discharge in India. Iran allows 20 Pakistani ships (2/day)"},
     {d:"Mar 29",e:"Houthis join war — Bab al-Mandeb chokepoint now at risk. BOTH routes threatened"},
+    {d:"Mar 31",e:"BW Tyr docks Mumbai. Kuwaiti VLCC Al-Salmi struck near Dubai. COSCO ships turned back"},
+    {d:"Apr 1",e:"BW Elm at Mangalore. Tanker struck off Qatar. Iran parliament approved permanent Hormuz tolls"},
+    {d:"Apr 2",e:"India Foreign Sec Misri joins 60+ nation UK-led Hormuz talks. India supplying fuel to 5 neighbors"},
+    {d:"Apr 3",e:"CMA CGM Kribi first French ship through Larak. A-10 shot down NEAR HORMUZ. Kuwait refinery hit by drones"},
   ]
 };
 
@@ -206,7 +213,7 @@ export default function App(){
   const iT = intel?.ticker ?? TICKER;
   const iDay = intel?._day ?? WAR_DAY;
   const iUpdated = intel?._updated ?? WAR_UPDATED;
-  const iDeaths = intel?.deaths ?? "3,800+";
+  const iDeaths = intel?.deaths ?? "5,400+";
   const iDeathsSub = intel?.deathsSub ?? "1,500+ Iran, 1,039 Lebanon, 60 Iraq, 17 Israel";
   const iWC = intel?.whatChanged ?? null;
   const iEcon = intel?.econ ?? null;
@@ -386,9 +393,9 @@ export default function App(){
       <S id="economic" title="Economic Impact" sub="Energy infrastructure war = direct hit on India's economy" accent={C.orange}>
         <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:6,marginBottom:12}}>
           <Mc label="Wealth Destroyed" value={iEcon?.wealth||"₹44L+ Cr"} delta="" sub="since war began" accent={C.red}/>
-          <Mc label="FPI (Mar)" value={iEcon?.fpi||"$10.5B+"} delta={iEcon?.fpiDelta||"₹88,180 Cr MTD"} sub="FII selling" accent={C.red}/>
-          <Mc label="Sensex" value={iEcon?.sensex||"75,708"} delta={iEcon?.sensexDelta||"▲ +1,640"} sub={iEcon?.sensexSub||""} accent={C.green}/>
-          <Mc label="India VIX" value={iEcon?.vix||"26.73"} delta={iEcon?.vixDelta||""} sub="extreme uncertainty" accent={C.red}/>
+          <Mc label="FPI (Mar)" value={iEcon?.fpi||"$12.3B+"} delta={iEcon?.fpiDelta||"₹1.23T Mar + ₹8,331 Cr Apr 1"} sub="FII selling" accent={C.red}/>
+          <Mc label="Sensex" value={iEcon?.sensex||"73,320"} delta={iEcon?.sensexDelta||"closed (weekend)"} sub={iEcon?.sensexSub||""} accent={C.red}/>
+          <Mc label="India VIX" value={iEcon?.vix||"25.99"} delta={iEcon?.vixDelta||""} sub="extreme uncertainty" accent={C.red}/>
         </div>
         <div style={{background:C.card,borderRadius:6,padding:12,marginBottom:8}}><div style={{fontSize:9,fontWeight:700,color:C.cyan,marginBottom:5,letterSpacing:1,textTransform:"uppercase"}}>Nifty 50 — 20-Day Track</div><MiniLine data={fullTL} dataKey="nifty" color={C.cyan} labels showDots/></div>
         <div style={{background:C.card,borderRadius:6,padding:12,marginBottom:8}}><div style={{fontSize:9,fontWeight:700,color:C.orange,marginBottom:5,letterSpacing:1,textTransform:"uppercase"}}>Brent Crude ($) — 20-Day</div><MiniLine data={fullTL} dataKey="brent" color={C.orange} labels showDots/></div>
@@ -439,8 +446,8 @@ export default function App(){
         </div>
         <div style={{background:C.card,borderRadius:6,padding:12,overflowX:"auto"}}>
           <table style={{width:"100%",borderCollapse:"collapse",fontSize:7.5,minWidth:280}}>
-            <thead><tr style={{borderBottom:`1px solid ${C.border}`}}>{["","Pre","Now","Wk3","Wk4","Wk8"].map((h,i)=>(<th key={i} style={{padding:"4px 2px",textAlign:i===0?"left":"right",color:i>2?C.amber:C.muted,fontWeight:700}}>{h}</th>))}</tr></thead>
-            <tbody>{[{m:"Brent",v:[65,100,110,125,145]},{m:"₹/USD",v:[91.0,93.88,95.5,97.0,100.0]},{m:"Petrol*",v:["₹94.72","₹94.77","₹110+","₹118","₹135"]},{m:"LPG",v:["₹853","₹913","₹1,000","₹1,100","₹1,300"]},{m:"Deaths",v:[0,"3,800+","6,000","10,000","24,000"]}].map((r,i)=>(<tr key={i} style={{borderBottom:`1px solid ${C.border}25`}}><td style={{padding:"4px 2px",fontWeight:700,color:C.text}}>{r.m}</td>{r.v.map((v,j)=>(<td key={j} style={{padding:"4px 2px",textAlign:"right",color:j===0?C.green:j===1?C.red:C.amber,fontWeight:600}}>{v}</td>))}</tr>))}</tbody>
+            <thead><tr style={{borderBottom:`1px solid ${C.border}`}}>{["","Pre","Now","Deal*","May*","Jun*"].map((h,i)=>(<th key={i} style={{padding:"4px 2px",textAlign:i===0?"left":"right",color:i>2?C.amber:C.muted,fontWeight:700}}>{h}</th>))}</tr></thead>
+            <tbody>{[{m:"Brent",v:[65,109,85,140,165]},{m:"₹/USD",v:[91.0,93.19,92.0,99.0,110.0]},{m:"Petrol*",v:["₹94.72","₹94.77","₹94.77","₹110","₹135"]},{m:"LPG",v:["₹853","₹913","₹880","₹1,200","₹1,500"]},{m:"Deaths",v:[0,"5,400+","7,000","16,000","35,000+"]}].map((r,i)=>(<tr key={i} style={{borderBottom:`1px solid ${C.border}25`}}><td style={{padding:"4px 2px",fontWeight:700,color:C.text}}>{r.m}</td>{r.v.map((v,j)=>(<td key={j} style={{padding:"4px 2px",textAlign:"right",color:j===0?C.green:j===1?C.red:C.amber,fontWeight:600}}>{v}</td>))}</tr>))}</tbody>
           </table>
         </div>
       </S>
@@ -466,7 +473,7 @@ export default function App(){
           <div style={{fontSize:9.5,lineHeight:1.85,color:C.sub}}>
             <strong style={{color:C.red,fontSize:12}}>{iAssess?.headline || "Strategic assessment loading..."}</strong><br/><br/>
             {(iAssess?.body || "").split("\n").map((p,i) => p.trim() ? <span key={i}>{p}<br/><br/></span> : null)}
-            <strong style={{color:C.orange}}>For India, this is an energy emergency.</strong> Qatar = 60% of India's natural gas. Ras Laffan 17% capacity GONE for 3-5 years. QatarEnergy force majeure. LPG 10 days stock. Excise cut ₹10/L but OMCs absorbed it — pump prices unchanged. FII $12.3B outflow in March — record.<br/><br/>
+            <strong style={{color:C.orange}}>For India, this is an energy emergency.</strong> Qatar = 60% of India's natural gas. Ras Laffan 17% capacity GONE for 3-5 years. QatarEnergy force majeure. India has 60 days crude stock, LPG 30+ days (PIB). But long-term costs rising permanently — Hormuz now a toll road.<br/><br/>
             <strong style={{color:C.cyan}}>India must act now:</strong> Emergency gas rationing. Non-Gulf LPG acceleration. Rupee defense. Nuclear monitoring. Food supply protection. This is India's crisis — not a distant war.
           </div>
         </div>
