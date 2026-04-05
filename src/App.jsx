@@ -148,11 +148,11 @@ const HORMUZ = {
   preWarFlow: "25.1M bpd",
   currentFlow: "≤6 ships/day",
   reduction: "95%+ (ships/day)",
-  indianVesselsNear: 18,
-  indianSeafarers: 485,
-  indianTransited: 8,
+  indianVesselsNear: 17,
+  indianSeafarers: 460,
+  indianTransited: 9,
   totalShipsWaiting: "2,000 ships / 20K seafarers / 12+ mines",
-  lastTransit: "BW Elm at Mangalore (Apr 1)",
+  lastTransit: "Green Sanvi (Apr 4-5) → Mumbai Apr 6",
   indianNavyEscort: "Op. Urja Suraksha — 5+ warships",
   events: [
     {d:"Mar 4",e:"IRIS Dena torpedoed off Sri Lanka. 87 killed"},
@@ -182,8 +182,8 @@ const RadarSVG=({data,w=270,h=270,day=33})=>{const cx=w/2,cy=h/2,r=Math.min(cx,c
 
 // ═══════ LAYOUT ═══════
 const mono="'JetBrains Mono','SF Mono',Consolas,monospace";
-const S=({id,title,sub,accent=C.red,children})=>(<section id={id} style={{marginBottom:36,scrollMarginTop:56}}><div style={{marginBottom:14,paddingBottom:8,borderBottom:`1px solid ${C.border}`}}><h2 className="dash-section-title" style={{margin:0,fontSize:13,fontWeight:700,color:accent,letterSpacing:2.5,textTransform:"uppercase",fontFamily:mono}}>{title}</h2>{sub&&<p className="dash-section-sub" style={{margin:"5px 0 0",fontSize:10.5,color:C.sub,lineHeight:1.6}}>{sub}</p>}</div>{children}</section>);
-const Mc=({label,value,sub,delta,accent=C.red,deltaColor})=>(<div style={{background:C.card,borderRadius:8,padding:"14px 10px",textAlign:"center",borderLeft:`3px solid ${accent}`,transition:"transform 0.15s ease"}}><div className="dash-mc-label" style={{fontSize:8,color:C.muted,letterSpacing:1.5,textTransform:"uppercase",fontWeight:700}}>{label}</div><div className="dash-mc-value" style={{fontSize:18,fontWeight:800,color:accent,marginTop:4,fontFamily:mono}}>{value}</div>{delta&&<div className="dash-mc-delta" style={{fontSize:8.5,color:deltaColor||C.sub,fontWeight:700,marginTop:2,fontFamily:mono}}>{delta}</div>}{sub&&<div className="dash-mc-sub" style={{fontSize:7,color:C.muted,marginTop:2}}>{sub}</div>}</div>);
+const S=({id,title,sub,accent=C.red,children})=>(<section id={id} style={{marginBottom:36,scrollMarginTop:56}}><div style={{marginBottom:14,paddingBottom:8,borderBottom:`1px solid ${C.border}`}}><h2 className="dash-section-title" style={{margin:0,fontSize:15,fontWeight:700,color:accent,letterSpacing:2.5,textTransform:"uppercase",fontFamily:mono}}>{title}</h2>{sub&&<p className="dash-section-sub" style={{margin:"5px 0 0",fontSize:12,color:C.sub,lineHeight:1.6}}>{sub}</p>}</div>{children}</section>);
+const Mc=({label,value,sub,delta,accent=C.red,deltaColor})=>(<div style={{background:C.card,borderRadius:8,padding:"14px 10px",textAlign:"center",borderLeft:`3px solid ${accent}`,transition:"transform 0.15s ease"}}><div className="dash-mc-label" style={{fontSize:9,color:C.muted,letterSpacing:1.5,textTransform:"uppercase",fontWeight:700}}>{label}</div><div className="dash-mc-value" style={{fontSize:22,fontWeight:800,color:accent,marginTop:4,fontFamily:mono}}>{value}</div>{delta&&<div className="dash-mc-delta" style={{fontSize:10,color:deltaColor||C.sub,fontWeight:700,marginTop:2,fontFamily:mono}}>{delta}</div>}{sub&&<div className="dash-mc-sub" style={{fontSize:8.5,color:C.muted,marginTop:2}}>{sub}</div>}</div>);
 
 // ═══════ MAIN ═══════
 export default function App(){
@@ -303,7 +303,7 @@ export default function App(){
       {/* ═══ HEADER ═══ */}
       <header style={{padding:"20px 20px 14px",borderBottom:`1px solid ${C.border}`,display:"flex",justifyContent:"space-between",alignItems:"flex-start"}} className="dash-header">
         <div>
-          <div className="label-line" style={{fontSize:7.5,letterSpacing:5,color:C.muted,textTransform:"uppercase",fontWeight:700}}>India Risk Assessment</div>
+          <div className="label-line" style={{fontSize:9,letterSpacing:5,color:C.muted,textTransform:"uppercase",fontWeight:700}}>India Risk Assessment</div>
           <h1 style={{margin:"6px 0 0",fontSize:22,fontWeight:800,color:C.white,lineHeight:1.2}}>How the Iran War<br/>Is Hitting India</h1>
           <div className="sub-line" style={{fontSize:9,color:C.muted,marginTop:6,fontStyle:"italic"}}>Updated: {iUpdated} • 50+ verified sources</div>
         </div>
@@ -316,7 +316,7 @@ export default function App(){
       {/* ═══ NAV ═══ */}
       <nav style={{position:"sticky",top:0,zIndex:100,background:C.bg+"f5",backdropFilter:"blur(12px)",borderBottom:`1px solid ${C.border}`,padding:"8px 16px"}}>
         <div style={{display:"flex",gap:6,overflowX:"auto",scrollbarWidth:"none",WebkitOverflowScrolling:"touch"}}>
-          {NAV.map(n=>(<button className="dash-nav-btn" key={n.id} onClick={()=>go(n.id)} style={{flex:"0 0 auto",padding:"6px 14px",border:activeNav===n.id?`1px solid ${C.cyan}`:`1px solid ${C.border}`,borderRadius:20,background:activeNav===n.id?C.cyan+"18":"transparent",color:activeNav===n.id?C.cyan:C.sub,cursor:"pointer",fontSize:10,fontWeight:700,fontFamily:"inherit",whiteSpace:"nowrap",transition:"all 0.2s ease",boxShadow:activeNav===n.id?`0 0 8px ${C.cyan}20`:"none"}}>{n.l}</button>))}
+          {NAV.map(n=>(<button className="dash-nav-btn" key={n.id} onClick={()=>go(n.id)} style={{flex:"0 0 auto",padding:"6px 14px",border:activeNav===n.id?`1px solid ${C.cyan}`:`1px solid ${C.border}`,borderRadius:20,background:activeNav===n.id?C.cyan+"18":"transparent",color:activeNav===n.id?C.cyan:C.sub,cursor:"pointer",fontSize:11.5,fontWeight:700,fontFamily:"inherit",whiteSpace:"nowrap",transition:"all 0.2s ease",boxShadow:activeNav===n.id?`0 0 8px ${C.cyan}20`:"none"}}>{n.l}</button>))}
         </div>
       </nav>
 
@@ -324,8 +324,8 @@ export default function App(){
 
       {/* ═══ WHAT CHANGED TODAY ═══ */}
       <div style={{background:C.red+"0c",border:`1px solid ${C.red}20`,borderRadius:8,padding:"16px 18px",marginBottom:20}}>
-        <div className="dash-wc-label" style={{fontSize:8.5,fontWeight:800,color:C.red,letterSpacing:2.5,marginBottom:8,fontFamily:mono}}>{iWC?.label || "WHAT CHANGED"}</div>
-        <div className="dash-wc-body" style={{fontSize:10.5,color:C.text,lineHeight:1.9}}>
+        <div className="dash-wc-label" style={{fontSize:10.5,fontWeight:800,color:C.red,letterSpacing:2.5,marginBottom:8,fontFamily:mono}}>{iWC?.label || "WHAT CHANGED"}</div>
+        <div className="dash-wc-body" style={{fontSize:12,color:C.text,lineHeight:1.9}}>
           {iWC?.items ? iWC.items.map((item,i) => (
             <span key={i}>• <strong style={{color:C[item.color]||C.red}}>{item.bold}</strong>{item.text}<br/></span>
           )) : (
@@ -353,39 +353,39 @@ export default function App(){
       <S id="hormuz" title="🚢 Strait of Hormuz — Shipping Status" sub="Real-time status of the world's most critical oil chokepoint" accent={C.cyan}>
         <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:6,marginBottom:10}}>
           <div style={{background:C.red+"12",borderRadius:6,padding:10,textAlign:"center",border:`1px solid ${C.red}25`}}>
-            <div style={{fontSize:7,color:C.red,fontWeight:700,letterSpacing:1.5}}>STATUS</div>
+            <div style={{fontSize:8.5,color:C.red,fontWeight:700,letterSpacing:1.5}}>STATUS</div>
             <div style={{fontSize:11,fontWeight:900,color:C.red,marginTop:3}}>{HORMUZ.status}</div>
           </div>
           <div style={{background:C.card,borderRadius:6,padding:10,textAlign:"center"}}>
-            <div style={{fontSize:7,color:C.muted,fontWeight:700,letterSpacing:1.5}}>SHIP TRAFFIC</div>
+            <div style={{fontSize:8.5,color:C.muted,fontWeight:700,letterSpacing:1.5}}>SHIP TRAFFIC</div>
             <div style={{fontSize:18,fontWeight:900,color:C.orange,marginTop:3,fontFamily:mono}}>{HORMUZ.reduction}</div>
-            <div style={{fontSize:7,color:C.sub}}>Pre-war: ~130 ships/day → now ≤6</div>
+            <div style={{fontSize:8.5,color:C.sub}}>Pre-war: ~130 ships/day → now ≤6</div>
           </div>
         </div>
         <div style={{display:"grid",gridTemplateColumns:"1fr 1fr 1fr",gap:6,marginBottom:12}}>
           <div style={{background:C.card,borderRadius:6,padding:8,textAlign:"center"}}>
-            <div style={{fontSize:6.5,color:C.muted,letterSpacing:1}}>🇮🇳 INDIAN SHIPS IN GULF</div>
-            <div style={{fontSize:16,fontWeight:800,color:C.orange,fontFamily:mono}}>{HORMUZ.indianVesselsNear}</div>
-            <div style={{fontSize:6.5,color:C.sub}}>{HORMUZ.indianSeafarers} seafarers (was 28 at peak)</div>
+            <div style={{fontSize:9,color:C.muted,letterSpacing:1}}>🇮🇳 INDIAN SHIPS IN GULF</div>
+            <div style={{fontSize:20,fontWeight:800,color:C.orange,fontFamily:mono}}>{HORMUZ.indianVesselsNear}</div>
+            <div style={{fontSize:9.5,color:C.sub}}>{HORMUZ.indianSeafarers} seafarers (was 28 at peak)</div>
           </div>
           <div style={{background:C.card,borderRadius:6,padding:8,textAlign:"center"}}>
-            <div style={{fontSize:6.5,color:C.muted,letterSpacing:1}}>🇮🇳 INDIAN CROSSED SAFELY</div>
-            <div style={{fontSize:16,fontWeight:800,color:C.green,fontFamily:mono}}>{HORMUZ.indianTransited}</div>
-            <div style={{fontSize:6.5,color:C.sub}}>6 LPG + 1 crude + 1 gasoline</div>
+            <div style={{fontSize:9,color:C.muted,letterSpacing:1}}>🇮🇳 INDIAN CROSSED SAFELY</div>
+            <div style={{fontSize:20,fontWeight:800,color:C.green,fontFamily:mono}}>{HORMUZ.indianTransited}</div>
+            <div style={{fontSize:9.5,color:C.sub}}>7 LPG + 1 crude + 1 gasoline</div>
           </div>
           <div style={{background:C.card,borderRadius:6,padding:8,textAlign:"center"}}>
-            <div style={{fontSize:6.5,color:C.muted,letterSpacing:1}}>GLOBAL STRANDED</div>
+            <div style={{fontSize:9,color:C.muted,letterSpacing:1}}>GLOBAL STRANDED</div>
             <div style={{fontSize:14,fontWeight:800,color:C.red,fontFamily:mono}}>2,000+</div>
-            <div style={{fontSize:6.5,color:C.sub}}>ships / 20K seafarers / 12+ mines</div>
+            <div style={{fontSize:9.5,color:C.sub}}>ships / 20K seafarers / 12+ mines</div>
           </div>
         </div>
         <div style={{background:C.card,borderRadius:6,padding:10}}>
           <div style={{fontSize:8,fontWeight:700,color:C.cyan,marginBottom:6,letterSpacing:1}}>HORMUZ TIMELINE</div>
           {fullHormuzEvents.map((e,i)=>(<div key={i} style={{display:"flex",gap:8,padding:"4px 0",borderBottom:`1px solid ${C.border}25`}}>
-            <span style={{fontSize:7.5,color:C.cyan,fontWeight:700,minWidth:42,fontFamily:mono}}>{e.d}</span>
-            <span style={{fontSize:8,color:C.sub,lineHeight:1.4}}>{e.e}</span>
+            <span style={{fontSize:9,color:C.cyan,fontWeight:700,minWidth:42,fontFamily:mono}}>{e.d}</span>
+            <span style={{fontSize:9.5,color:C.sub,lineHeight:1.4}}>{e.e}</span>
           </div>))}
-          <div style={{fontSize:7,color:C.muted,marginTop:6}}>🇮🇳 {HORMUZ.indianNavyEscort} • Last transit: {HORMUZ.lastTransit} • Only 21 tankers total since Feb 28 (S&P Global)</div>
+          <div style={{fontSize:8.5,color:C.muted,marginTop:6}}>🇮🇳 {HORMUZ.indianNavyEscort} • Last transit: {HORMUZ.lastTransit} • Only 21 tankers total since Feb 28 (S&P Global)</div>
         </div>
       </S>
 
@@ -397,42 +397,42 @@ export default function App(){
           <Mc label="Sensex" value={iEcon?.sensex||"73,320"} delta={iEcon?.sensexDelta||"closed (weekend)"} sub={iEcon?.sensexSub||""} accent={C.red}/>
           <Mc label="India VIX" value={iEcon?.vix||"25.99"} delta={iEcon?.vixDelta||""} sub="extreme uncertainty" accent={C.red}/>
         </div>
-        <div style={{background:C.card,borderRadius:6,padding:12,marginBottom:8}}><div style={{fontSize:9,fontWeight:700,color:C.cyan,marginBottom:5,letterSpacing:1,textTransform:"uppercase"}}>Nifty 50 — 20-Day Track</div><MiniLine data={fullTL} dataKey="nifty" color={C.cyan} labels showDots/></div>
-        <div style={{background:C.card,borderRadius:6,padding:12,marginBottom:8}}><div style={{fontSize:9,fontWeight:700,color:C.orange,marginBottom:5,letterSpacing:1,textTransform:"uppercase"}}>Brent Crude ($) — 20-Day</div><MiniLine data={fullTL} dataKey="brent" color={C.orange} labels showDots/></div>
+        <div style={{background:C.card,borderRadius:6,padding:12,marginBottom:8}}><div style={{fontSize:11,fontWeight:700,color:C.cyan,marginBottom:5,letterSpacing:1,textTransform:"uppercase"}}>Nifty 50 — 20-Day Track</div><MiniLine data={fullTL} dataKey="nifty" color={C.cyan} labels showDots/></div>
+        <div style={{background:C.card,borderRadius:6,padding:12,marginBottom:8}}><div style={{fontSize:11,fontWeight:700,color:C.orange,marginBottom:5,letterSpacing:1,textTransform:"uppercase"}}>Brent Crude ($) — 20-Day</div><MiniLine data={fullTL} dataKey="brent" color={C.orange} labels showDots/></div>
       </S>
 
       {/* ═══ 2. KITCHEN ═══ */}
       <S id="kitchen" title="Your Kitchen Table" sub="Gas crisis deepens — Qatar's Ras Laffan hit overnight" accent={C.amber}>
         {HH.map((h,i)=>(<div key={i} style={{background:C.card,borderRadius:6,padding:10,marginBottom:6,borderLeft:`3px solid ${h.s===3?C.red:h.s===2?C.orange:C.amber}`}}>
-          <div style={{display:"flex",justifyContent:"space-between",alignItems:"baseline",flexWrap:"wrap",gap:4}}><span style={{fontSize:10,fontWeight:700,color:C.white}}>{sv(h.s)} {h.item}</span><span style={{fontSize:9.5,fontWeight:800,color:C.red,fontFamily:mono}}>{h.chg}</span></div>
-          <div style={{display:"flex",justifyContent:"space-between",marginTop:4,fontSize:8,color:C.sub,flexWrap:"wrap",gap:2}}><span>Pre: {h.pre}</span><span style={{color:C.orange,fontWeight:700}}>Now: {h.now}</span><span style={{color:C.red}}>4wk: {h.proj}</span></div>
-          <div style={{fontSize:7.5,color:C.muted,marginTop:5,lineHeight:1.6}}>{h.note}</div>
+          <div style={{display:"flex",justifyContent:"space-between",alignItems:"baseline",flexWrap:"wrap",gap:4}}><span style={{fontSize:12,fontWeight:700,color:C.white}}>{sv(h.s)} {h.item}</span><span style={{fontSize:11,fontWeight:800,color:C.red,fontFamily:mono}}>{h.chg}</span></div>
+          <div style={{display:"flex",justifyContent:"space-between",marginTop:4,fontSize:9.5,color:C.sub,flexWrap:"wrap",gap:2}}><span>Pre: {h.pre}</span><span style={{color:C.orange,fontWeight:700}}>Now: {h.now}</span><span style={{color:C.red}}>4wk: {h.proj}</span></div>
+          <div style={{fontSize:9,color:C.muted,marginTop:5,lineHeight:1.6}}>{h.note}</div>
         </div>))}
       </S>
 
       {/* ═══ 3. MILITARY ═══ */}
       <S id="military" title="Military & Strategic Exposure" sub="Energy infrastructure war + assassination campaign" accent={C.red}>
         {fullMIL.map((m,i)=>(<div key={i} style={{background:m.lv==="BREAKING"?C.red+"0a":C.card,border:m.lv==="BREAKING"?`1px solid ${C.red}20`:"none",borderRadius:6,padding:10,marginBottom:6,borderLeft:`3px solid ${m.c}`}}>
-          <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",flexWrap:"wrap",gap:4}}><span style={{fontSize:9.5,fontWeight:700,color:C.white,flex:1}}>{m.t}</span><span style={{fontSize:6.5,padding:"2px 7px",borderRadius:3,background:m.lv==="BREAKING"?C.red:`${m.c}20`,color:m.lv==="BREAKING"?"#fff":m.c,fontWeight:800,whiteSpace:"nowrap"}}>{m.lv}</span></div>
-          <div style={{fontSize:7.5,color:C.muted,marginTop:5,lineHeight:1.6}}>{m.d}</div>
+          <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",flexWrap:"wrap",gap:4}}><span style={{fontSize:11.5,fontWeight:700,color:C.white,flex:1}}>{m.t}</span><span style={{fontSize:8,padding:"2px 7px",borderRadius:3,background:m.lv==="BREAKING"?C.red:`${m.c}20`,color:m.lv==="BREAKING"?"#fff":m.c,fontWeight:800,whiteSpace:"nowrap"}}>{m.lv}</span></div>
+          <div style={{fontSize:9,color:C.muted,marginTop:5,lineHeight:1.6}}>{m.d}</div>
         </div>))}
       </S>
 
       {/* ═══ 4. NUCLEAR ═══ */}
       <S id="nuclear" title="☢️ Nuclear Exposure" sub="Bushehr struck. What does this mean for India?" accent={C.purple}>
-        <div style={{background:C.purple+"0c",border:`1px solid ${C.purple}18`,borderRadius:6,padding:10,marginBottom:12,fontSize:9,color:C.sub,lineHeight:1.6}}>
+        <div style={{background:C.purple+"0c",border:`1px solid ${C.purple}18`,borderRadius:6,padding:10,marginBottom:12,fontSize:10.5,color:C.sub,lineHeight:1.6}}>
           <strong style={{color:C.purple}}>Bushehr — a working nuclear reactor — has been struck.</strong> First confirmed hit on an active nuclear facility. 460kg enriched uranium across Iran's sites. Netanyahu claims Iran 'has NO ability to enrich uranium or make ballistic missiles' — but UN watchdog has not confirmed this. Delhi 4-7 days downwind. India has NO iodine program.
         </div>
         {NUKES.map((n,i)=>(<div key={i} onClick={()=>setExpNuke(expNuke===i?null:i)} style={{background:C.card,borderRadius:6,padding:10,marginBottom:5,cursor:"pointer"}}>
-          <div style={{display:"flex",justifyContent:"space-between",alignItems:"center"}}><div><span style={{fontSize:10.5,fontWeight:700,color:n.risk>85?C.red:n.risk>70?C.orange:C.amber}}>{n.name}</span><span style={{fontSize:7.5,color:C.muted,marginLeft:5}}>{n.type}</span></div><span style={{fontSize:7,padding:"2px 6px",borderRadius:3,fontWeight:800,background:n.st.includes("HIT")||n.st.includes("DAMAGED")||n.st.includes("STRUCK")?C.red+"15":C.orange+"12",color:n.st.includes("HIT")||n.st.includes("DAMAGED")||n.st.includes("STRUCK")?C.red:C.orange}}>{n.st}</span></div>
-          <Bar value={n.risk} color={n.risk>85?C.red:n.risk>70?C.orange:C.amber}/><div style={{fontSize:6.5,color:C.muted,marginTop:2,textAlign:"right"}}>{n.risk}/100 {expNuke===i?"▲":"▼"}</div>
-          {expNuke===i&&<div style={{fontSize:7.5,color:C.sub,marginTop:5,lineHeight:1.6,borderTop:`1px solid ${C.border}`,paddingTop:5}}>{n.info}</div>}
+          <div style={{display:"flex",justifyContent:"space-between",alignItems:"center"}}><div><span style={{fontSize:12,fontWeight:700,color:n.risk>85?C.red:n.risk>70?C.orange:C.amber}}>{n.name}</span><span style={{fontSize:9,color:C.muted,marginLeft:5}}>{n.type}</span></div><span style={{fontSize:8.5,padding:"2px 6px",borderRadius:3,fontWeight:800,background:n.st.includes("HIT")||n.st.includes("DAMAGED")||n.st.includes("STRUCK")?C.red+"15":C.orange+"12",color:n.st.includes("HIT")||n.st.includes("DAMAGED")||n.st.includes("STRUCK")?C.red:C.orange}}>{n.st}</span></div>
+          <Bar value={n.risk} color={n.risk>85?C.red:n.risk>70?C.orange:C.amber}/><div style={{fontSize:9,color:C.muted,marginTop:2,textAlign:"right"}}>{n.risk}/100 {expNuke===i?"▲":"▼"}</div>
+          {expNuke===i&&<div style={{fontSize:9,color:C.sub,marginTop:5,lineHeight:1.6,borderTop:`1px solid ${C.border}`,paddingTop:5}}>{n.info}</div>}
         </div>))}
         <div style={{fontSize:9,fontWeight:700,color:C.pink,marginTop:16,marginBottom:6,letterSpacing:1,textTransform:"uppercase"}}>Indian City Exposure</div>
         {CITIES.map((c,i)=>(<div key={i} style={{background:C.card,borderRadius:6,padding:10,marginBottom:5}}>
-          <div style={{display:"flex",justifyContent:"space-between",alignItems:"center"}}><div><span style={{fontSize:11,fontWeight:800,color:C.white}}>{c.city}</span><span style={{fontSize:7,color:C.muted,marginLeft:5}}>{c.pop}</span></div><span style={{fontSize:14,fontWeight:900,color:c.tot>55?C.red:c.tot>42?C.orange:C.amber,fontFamily:mono}}>{c.tot}<span style={{fontSize:7}}>/100</span></span></div>
+          <div style={{display:"flex",justifyContent:"space-between",alignItems:"center"}}><div><span style={{fontSize:11,fontWeight:800,color:C.white}}>{c.city}</span><span style={{fontSize:8.5,color:C.muted,marginLeft:5}}>{c.pop}</span></div><span style={{fontSize:14,fontWeight:900,color:c.tot>55?C.red:c.tot>42?C.orange:C.amber,fontFamily:mono}}>{c.tot}<span style={{fontSize:8.5}}>/100</span></span></div>
           <div style={{display:"flex",gap:6,marginTop:5}}>{[{l:"Wind",v:c.wind,cl:C.orange},{l:"Sea",v:c.sea,cl:C.cyan},{l:"Nuke",v:c.nuke,cl:C.purple}].map((vv,j)=>(<div key={j} style={{flex:1}}><div style={{fontSize:6,color:vv.cl,fontWeight:600}}>{vv.l}: {vv.v}</div><Bar value={vv.v} color={vv.cl} h={4}/></div>))}</div>
-          <div style={{fontSize:7,color:C.muted,marginTop:4,lineHeight:1.5}}>{c.info}</div>
+          <div style={{fontSize:8.5,color:C.muted,marginTop:4,lineHeight:1.5}}>{c.info}</div>
         </div>))}
       </S>
 
@@ -445,7 +445,7 @@ export default function App(){
           <MiniLine data={fullPROJ} dataKey={projKey} color={C.cyan} labels showDots/>
         </div>
         <div style={{background:C.card,borderRadius:6,padding:12,overflowX:"auto"}}>
-          <table style={{width:"100%",borderCollapse:"collapse",fontSize:7.5,minWidth:280}}>
+          <table style={{width:"100%",borderCollapse:"collapse",fontSize:9,minWidth:280}}>
             <thead><tr style={{borderBottom:`1px solid ${C.border}`}}>{["","Pre","Now","Deal*","May*","Jun*"].map((h,i)=>(<th key={i} style={{padding:"4px 2px",textAlign:i===0?"left":"right",color:i>2?C.amber:C.muted,fontWeight:700}}>{h}</th>))}</tr></thead>
             <tbody>{[{m:"Brent",v:[65,109,85,140,165]},{m:"₹/USD",v:[91.0,93.19,92.0,99.0,110.0]},{m:"Petrol*",v:["₹94.72","₹94.77","₹94.77","₹110","₹135"]},{m:"LPG",v:["₹853","₹913","₹880","₹1,200","₹1,500"]},{m:"Deaths",v:[0,"5,400+","7,000","16,000","35,000+"]}].map((r,i)=>(<tr key={i} style={{borderBottom:`1px solid ${C.border}25`}}><td style={{padding:"4px 2px",fontWeight:700,color:C.text}}>{r.m}</td>{r.v.map((v,j)=>(<td key={j} style={{padding:"4px 2px",textAlign:"right",color:j===0?C.green:j===1?C.red:C.amber,fontWeight:600}}>{v}</td>))}</tr>))}</tbody>
           </table>
@@ -462,7 +462,7 @@ export default function App(){
         <div style={{background:C.card,borderRadius:6,padding:12}}>
           {[...TL].reverse().map((d,i)=>(<div key={i} style={{padding:"5px 0",borderBottom:`1px solid ${C.border}25`,display:"flex",gap:8,alignItems:"flex-start"}}>
             <div style={{minWidth:38}}><div style={{fontSize:9,fontWeight:800,color:d.sev===3?C.red:d.sev===2?C.orange:C.green,fontFamily:mono}}>D{d.d}</div><div style={{fontSize:6,color:C.muted}}>{d.l}</div></div>
-            <div style={{fontSize:7.5,color:C.sub,lineHeight:1.5}}>{d.tag}</div>
+            <div style={{fontSize:10.5,color:C.sub,lineHeight:1.5}}>{d.tag}</div>
           </div>))}
         </div>
       </S>
@@ -481,7 +481,7 @@ export default function App(){
 
       {/* ═══ FOOTER ═══ */}
       <footer style={{padding:"12px 0",borderTop:`1px solid ${C.border}`,marginTop:8}}>
-        <div style={{fontSize:6.5,color:C.muted,lineHeight:1.7}}>
+        <div style={{fontSize:9,color:C.muted,lineHeight:1.7}}>
           <strong style={{color:C.sub}}>Sources:</strong> Al Jazeera, CNN, CBS, NBC, ABC, AP, Reuters, Bloomberg, Euronews, Iran International, Times of Israel, ACLED, Atlantic Council, Amnesty Intl, Business Standard, BusinessToday, Goodreturns, News24, Trading Economics, Fortune, Wikipedia, IAEA, HRW, CSIS, IEA, EIA, Kpler, MarineTraffic, MUFG, ORF, MEA India, Nomura, Elara, UBS, HSBC, Kotak, JM Financial, ICRA, Motilal Oswal, SBI Securities, Choice Broking
           <br/><br/>
           <strong style={{color:C.sub}}>Methodology:</strong> Nuclear/contamination scores are analytical estimates — NOT confirmed measurements. Projections are trend extrapolations, not forecasts. Nifty projections excluded. All timestamps IST (UTC+5:30). Hormuz shipping data from Kpler, MarineTraffic, and news reports.
