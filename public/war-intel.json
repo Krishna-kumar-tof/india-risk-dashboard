@@ -1,103 +1,104 @@
 {
-  "_updated": "April 6, 2026 — 9:30 AM IST",
+  "_updated": "April 6, 2026 — 7:15 PM IST",
   "_day": 38,
-  "_note": "Verified: CNN, Al Jazeera, Bloomberg, TIME, NBC, The Hill, Yahoo/AP, Wikipedia. Deadline EXTENDED to Tuesday. Brent $110.60. Haifa hit — 2 killed.",
+  "_note": "Verified: CNN, CNBC/Axios, Al Jazeera, Bloomberg, TheStreet, NBC, TIME, Wikipedia, Alma Center, The Federal. 45-DAY CEASEFIRE DISCUSSED. Iran formulated response. Hormuz easing slightly.",
   "ticker": [
-    "🔴 DEADLINE EXTENDED — Trump moved to TUESDAY 8PM ET (Wed 5:30 AM IST). 'Power Plant Day + Bridge Day.' 'Open the F***in Strait, you crazy bastards'",
-    "🟢 BUT: Trump told Fox News 'good chance of a deal by Monday.' News conference at White House Monday 1PM ET (10:30 PM IST). Markets may rally on hope",
-    "🛢️ Brent $110.60 (+1.4%). WTI $113.60 (+1.8%). Oil RISING despite 'deal' talk. IEA: 'April prices much worse than March.' 10M bbl/day lost",
-    "🇮🇱 Iran missile hit RESIDENTIAL BUILDING in Haifa — 2 killed, 4 wounded, 2 missing. War hitting Israeli civilians directly now",
-    "🚢 Green Sanvi arrives MUMBAI TODAY — 46,650 MT LPG. India buying Iranian oil (first in 7 yrs). 9 carriers crossed. Markets reopen tomorrow",
-    "🇮🇷 Iran REJECTS deadline — 'Hormuz won't reopen until FULLY COMPENSATED for war damage.' Military: 'energy + trade disrupted with single signal'",
-    "⚔️ SEAL TEAM 6 rescued F-15E WSO. Hid 36hrs in mountains. CIA deception. Netanyahu: 'incredible rescue, Israel helped.' Trump: 'seriously wounded, brave'",
-    "🇮🇷 Iran hit Mahshahr petrochemical hub — 5 killed, 170 injured. Bushehr auxiliary building struck. 30+ Iranian universities bombed total",
-    "🇮🇳 India markets reopen TOMORROW (Monday). Deadline extended = slightly positive. But Brent $110, Haifa hit, Iran escalating. Volatile open expected",
-    "🌐 DAY 38. Deadline now TUESDAY not Monday. Trump's 4th deadline extension. 'Deal possible Monday' vs 'Hell on Tuesday.' One of them is true"
+    "🟢 45-DAY CEASEFIRE under discussion — US, Iran + mediators (Axios, 4 sources). Oil fell on news. Iran: 'formulated response to ceasefire proposals'",
+    "🔴 BUT: Trump deadline TUESDAY 8 PM ET (Wed 5:30 AM IST). 'Power Plant Day + Bridge Day.' Iran: 'won't reopen until fully compensated'",
+    "📈 Sensex closes +800 at ~73,800 on ceasefire hopes. Nifty ~22,577. But volatility extreme — Tuesday deadline looms",
+    "🚢 Hormuz EASING: 53 ships last week (most since war began, up from 36). Japan + Oman ships crossed. Iraq EXEMPTED. Iran-Oman joint meeting planned",
+    "🇮🇳 Green Sanvi docked MUMBAI today — 46,650 MT LPG. Iranian LPG (Sea Bird) already at Mangalore. India buying from ALL sides working",
+    "🛢️ Brent eases to $108.76. WTI $110.45. Oil FELL on ceasefire talk — first meaningful drop in days. But if Tuesday strikes happen: $140+",
+    "🇮🇷 IRGC intelligence chief KILLED today (The Federal). 34 killed in today's strikes incl 6 children. But Iran says 'no direct talks during attacks'",
+    "🇮🇷 Iranian FM Araghchi called EAM Jaishankar — discussed bilateral ties + regional issues (The Federal confirmed). India's diplomatic channels ACTIVE",
+    "✈️ B1-B bombers arriving Europe — 5 at RAF Fairford UK + 3 at Ramstein Germany. Massive escalation infrastructure even as ceasefire discussed",
+    "🌐 DAY 38. Two parallel tracks: ceasefire negotiation + escalation preparation. Tuesday = the fork in the road. India positioned on both sides"
   ],
   "whatChanged": {
-    "label": "WHAT CHANGED — APR 6, 9:30 AM IST (DAY 38)",
+    "label": "WHAT CHANGED — APR 6, 7:15 PM IST (DAY 38)",
     "items": [
-      {"color": "orange", "bold": "Deadline EXTENDED to Tuesday 8PM ET (Wed 5:30 AM IST).", "text": " Trump's 4th extension. Originally 48hrs (Mar 21) → 5 days → Apr 6 → now TUESDAY. 'Power Plant Day + Bridge Day, all wrapped in one.' But also told Fox: 'good chance of deal by Monday.' White House news conference Monday 1PM ET"},
-      {"color": "red", "bold": "Iran missile hit residential building in Haifa — 2 killed.", "text": " 4 wounded, 2 missing. War now directly hitting Israeli civilians. Iran also hit Mahshahr petrochemical hub — 5 killed, 170 injured. Bushehr auxiliary building struck. 30+ universities hit. Iran: 'Hormuz won't reopen until FULLY COMPENSATED'"},
-      {"color": "green", "bold": "SEAL Team 6 rescued F-15E WSO from Iran mountains.", "text": " Colonel hid 36hrs with pistol + beacon. CIA deception campaign. Bombs dropped to clear area. Netanyahu: 'Israel provided intelligence, postponed strikes.' Trump: 'seriously wounded, really brave.' First aircrew rescue from enemy territory since 1995"},
-      {"color": "cyan", "bold": "Green Sanvi arrives MUMBAI TODAY — 46,650 MT LPG.", "text": " India's 9th carrier. India officially buying Iranian oil (first in 7 years — Ministry confirmed). USA = #1 LPG supplier. 17 ships + 460 seafarers remain. Green Asha + Jag Vikram next. India playing all sides"},
-      {"color": "red", "bold": "Brent $110.60 (+1.4%). Oil still RISING.", "text": " WTI $113.60 (+1.8%). IEA warned 'April will be much worse than March.' 10M bbl/day lost. Iran: 'global energy disrupted with single signal.' Fed's Goolsbee: rate cuts unlikely due to war. US gas up 37% since war began"},
-      {"color": "purple", "bold": "India markets reopen TOMORROW (Monday).", "text": " Deadline extension = slightly positive (not striking Monday). But Brent $110, Haifa hit, Iran escalating. Trump news conference Monday could move markets. Rupee 93.19. Expect high volatility. Tel Aviv 1,000+ anti-war protest"}
+      {"color": "green", "bold": "45-DAY CEASEFIRE under discussion!", "text": " Axios (4 sources): US, Iran + regional mediators discussing possible 45-day ceasefire that could lead to permanent end. Iran: 'formulated response to proposals.' Oil fell to $108.76 on the news. Sensex +800. THIS IS THE MOST POSITIVE SIGNAL SINCE THE WAR BEGAN"},
+      {"color": "red", "bold": "But Tuesday deadline still ON.", "text": " Trump: 'Power Plant Day + Bridge Day. Open the F***in' Strait.' Iran: 'Hormuz stays closed until fully compensated.' B1-B bombers arriving in UK + Germany = escalation infrastructure. Ceasefire talk AND war preparation happening simultaneously"},
+      {"color": "cyan", "bold": "Hormuz EASING — 53 ships last week (most since war began).", "text": " Up from 36 previous week (Lloyd's List). Japan + Oman ships crossed. Iraq EXEMPTED from restrictions. Iran-Oman joint meeting on regulating passage. French CMA CGM crossed. India: 9 carriers through. Green Sanvi docked Mumbai TODAY"},
+      {"color": "cyan", "bold": "Iranian FM Araghchi called EAM Jaishankar.", "text": " Discussed bilateral ties + regional issues (The Federal). India's diplomatic channels active with ALL parties. India buying Iranian oil+LPG. Sea Bird (44,000 MT Iranian LPG) at Mangalore. Iran's Mumbai consulate praised ties. India positioned perfectly for any outcome"},
+      {"color": "orange", "bold": "IRGC intelligence chief killed today.", "text": " 34 killed in today's strikes incl 6 children. Mahshahr petrochemical: 5 killed, 170 wounded. Haifa: 2 killed. Iran embassies worldwide mocked Trump — suggested invoking 25th Amendment. Tel Aviv 1,000+ protested"},
+      {"color": "purple", "bold": "Tuesday = the fork in the road.", "text": " Path A: 45-day ceasefire → oil crashes to $80 → Sensex rallies 5,000+ → rupee recovers → India wins. Path B: Power plant strikes → oil $140+ → Sensex crashes 3,000 → rupee past 96 → India in crisis. Both paths equally possible as of tonight"}
     ]
   },
-  "deaths": "5,600+",
-  "deathsSub": "3,519+ Iran (HRANA), 1,300+ Lebanon, 99 Iraq, 21 Israel (2 Haifa), 13 US (365 wounded), 30+ Gulf",
+  "deaths": "5,700+",
+  "deathsSub": "3,519+ Iran (HRANA), 1,300+ Lebanon, 99 Iraq, 21 Israel, 13 US (365 wounded), 30+ Gulf",
   "econ": {
-    "sensex": "73,320", "sensexDelta": "closed (weekend)", "sensexSub": "Reopen Mon. Deadline extended to Tue = slight relief. But Brent $110",
-    "vix": "25.99", "vixDelta": "volatile Monday",
+    "sensex": "73,800", "sensexDelta": "▲ +800 (Mon close)", "sensexSub": "Ceasefire hopes. But Tuesday deadline = binary outcome",
+    "vix": "24.50", "vixDelta": "▼ easing on ceasefire talk",
     "fpi": "$12.3B+", "fpiDelta": "₹1.23T Mar + ₹8,331 Cr Apr 1",
     "wealth": "₹44L+ Cr",
-    "analysis": "DAY 38: Deadline EXTENDED to Tuesday — Trump's 4th extension. Markets will read this as: either genuine negotiation progress (rally) or Trump bluffing again (muted). Brent at $110.60 rising. Green Sanvi at Mumbai today (positive). India buying Iranian oil (historic). Trump news conference Monday could be the catalyst — if he announces deal progress, Sensex +1,000. If he announces strikes, Sensex -2,000."
+    "analysis": "DAY 38: THE MOST IMPORTANT SIGNAL OF THE WAR — 45-day ceasefire under discussion (Axios). Oil fell to $108.76. Sensex +800. Iran 'formulated response to proposals.' But Trump's Tuesday deadline still on. B1-B bombers arriving Europe. Two parallel tracks running. Hormuz easing — 53 ships last week (most since war). Green Sanvi at Mumbai. Iranian FM called Jaishankar. India positioned on all sides for any outcome."
   },
   "hormuzLatest": [
-    {"d": "Apr 6", "e": "Deadline EXTENDED to TUESDAY 8PM ET (Wed 5:30 AM IST). Trump: 'Power Plant Day + Bridge Day.' But also 'good chance of deal Monday.' Iran: Hormuz won't reopen until 'fully compensated.' Brent $110.60. Green Sanvi at Mumbai today. India buying Iranian oil. SEAL Team 6 rescued F-15E WSO. Haifa hit — 2 killed."}
+    {"d": "Apr 6", "e": "CEASEFIRE DISCUSSED — 45 days (Axios). Hormuz EASING: 53 ships last week (most since war, up from 36). Iraq EXEMPTED. Japan + Oman ships crossed. Iran-Oman joint meeting planned. Green Sanvi docked Mumbai TODAY. Sea Bird (Iranian LPG) at Mangalore. But Tuesday deadline still on. If strikes: Hormuz = full combat zone again."}
   ],
   "hormuzVessels": {
     "preWarDaily": "~130 ships/day",
-    "currentDaily": "~90% down. Ships charged millions via Larak IRGC toll. 10M bbl/day lost",
+    "currentDaily": "Easing: 53 ships LAST WEEK (most since war). Up from 36 prev week. Still ~90% below normal",
     "indianVessels": {
       "peak": "28 at war start",
-      "current": "17 ships + 460 seafarers",
-      "crossed": "9 carriers (7 LPG + 1 crude + 1 gasoline)",
-      "repatriated": "1,100+ crew evacuated",
+      "current": "17 ships + 460 seafarers (20,500 in wider Gulf)",
+      "crossed": "9 carriers (7 LPG + 1 crude + 1 gasoline) + Iranian LPG (Sea Bird)",
+      "repatriated": "1,130+ crew evacuated",
       "operation": "Op Urja Suraksha — 5+ warships"
     },
     "indiaFuelStatus": {
       "crudeStock": "60 days (74-day capacity)",
       "lpgStock": "30+ days. Production up 40%",
-      "lpgCargoes": "800 TMT + Green Sanvi 46,650 MT at Mumbai TODAY",
+      "lpgCargoes": "Green Sanvi 46,650 MT docked Mumbai TODAY. Sea Bird 44,000 MT Iranian LPG at Mangalore",
       "refineries": ">100% utilization",
-      "suppliers": "41+ countries. USA #1 LPG. IRAN oil (first in 7 yrs). Russia. Australia",
-      "dryOuts": "ZERO (PIB)",
-      "indianBasket": "$120+ (Brent $110.60)",
+      "suppliers": "41+ countries. USA = #1 LPG. Buying Iranian oil+LPG. India-Iran FM call today",
+      "dryOuts": "ZERO",
+      "indianBasket": "$118+ (Brent at $108.76)",
       "neighborSupply": "Supplying Bangladesh, Nepal, Bhutan, Sri Lanka, Maldives"
     },
     "recentTransits": [
-      {"date": "Apr 6", "vessel": "GREEN SANVI at Mumbai TODAY", "note": "46,650 MT LPG. 9th carrier. Warship escort."},
-      {"date": "Apr 4", "vessel": "6 Indian cargo ships via Oman", "note": "MSV Al Shirazi + 5 others."},
-      {"date": "Apr 3", "vessel": "CMA CGM Kribi (French)", "note": "First French ship through Larak."},
-      {"date": "Apr 1", "vessel": "BW Elm → Ennore", "note": "Rerouted."},
+      {"date": "Apr 6", "vessel": "GREEN SANVI docked MUMBAI", "note": "46,650 MT LPG. BPCL buyer. 9th Indian carrier."},
+      {"date": "Apr 4", "vessel": "French CMA CGM + Japanese + Omani ships crossed", "note": "First European + Japanese transits. Hormuz opening to more nations."},
+      {"date": "Apr 5", "vessel": "Iraq EXEMPTED from Hormuz restrictions", "note": "Iran: 'brotherly Iraq exempt.' Could add millions of barrels to supply."},
+      {"date": "Apr 2", "vessel": "Sea Bird (Iranian LPG) at Mangalore", "note": "44,000 MT. India buying Iranian LPG first in 7 years."},
+      {"date": "Apr 4", "vessel": "6 Indian cargo ships via Oman", "note": "MSV Al Shirazi, Faizane Mustafa etc."},
       {"date": "Mar 31", "vessel": "BW Tyr at Mumbai", "note": "94,000 MT LPG."}
     ],
-    "stillWaiting": "Green Asha + Jag Vikram NEXT. 4 crude + 1 LNG + 1 chemical + 3 container + 2 bulk.",
-    "blockadeStatus": "Deadline EXTENDED to Tuesday. Trump's 4th extension. Iran: won't open until compensated. But 'deal possible Monday.' India's pipeline working — 9 carriers, Iranian oil, 60 days stock.",
-    "keyFigures": "Op Urja Suraksha. SEAL Team 6 rescued F-15E WSO. India buying Iranian + US + Russian oil simultaneously."
+    "stillWaiting": "Green Asha + Jag Vikram NEXT. 17 vessels total in Gulf.",
+    "blockadeStatus": "EASING but fragile. 53 ships last week. Iraq exempted. Japan/France/Oman crossing. But Tuesday deadline: if power plant strikes → Hormuz becomes combat zone again. 45-day ceasefire would change everything.",
+    "keyFigures": "Araghchi called Jaishankar today. 9 Indian carriers + Iranian LPG. Op Urja Suraksha active. Iran-Oman joint meeting on Hormuz regulation planned."
   },
   "milTop": [
-    {"t": "🔴 Deadline EXTENDED to Tuesday — 'Power Plant Day + Bridge Day'", "lv": "BREAKING", "color": "red", "d": "Trump's 4th deadline extension. 'Open the F***in Strait, you crazy bastards, or you'll be living in Hell.' But told Fox: 'good chance of deal Monday.' News conference Mon 1PM ET. Iran: 'won't reopen until FULLY COMPENSATED.' If no deal by Tue: power plants + bridges struck. Haifa missile: 2 killed."},
-    {"t": "⚔️ SEAL Team 6 Rescued F-15E Officer from Iran Mountains", "lv": "BREAKING", "color": "green", "d": "Colonel hid 36hrs in mountain crevice. SEAL Team 6 extracted. CIA deception campaign. Bombs dropped to clear area. Netanyahu: 'Israel helped.' First US aircrew rescue from enemy territory since Bosnia 1995. 'Seriously wounded but really brave.' Removes POW crisis risk."},
-    {"t": "🇮🇳 Green Sanvi at Mumbai + India Buying Iranian Oil", "lv": "DEVELOPING", "color": "cyan", "d": "46,650 MT LPG arriving Mumbai TODAY. India officially buying Iranian oil for first time in 7 years (Ministry confirmed). USA = #1 LPG supplier. India playing USA + Russia + Iran + Australia simultaneously. 9 carriers crossed. 60 days stock. Markets reopen tomorrow into deadline week."}
+    {"t": "🟢 45-DAY CEASEFIRE Under Discussion — Most Positive Signal of War", "lv": "BREAKING", "color": "green", "d": "Axios (4 sources): US, Iran + regional mediators discussing 45-day ceasefire leading to permanent end. Iran: 'formulated response to proposals.' Oil fell. Sensex +800. But Iran says 'no direct talks during attacks.' Witkoff + Kushner leading US side. Pakistan mediating. Egypt FM calling all parties."},
+    {"t": "🔴 Tuesday Deadline Still ON — B1-B Bombers Arriving Europe", "lv": "BREAKING", "color": "red", "d": "Trump: 'Power Plant Day + Bridge Day.' 5 B1-Bs at RAF Fairford + 3 at Ramstein. Dozen B1-Bs total. This is escalation infrastructure. Iran: 'Hormuz closed until compensated.' IRGC intel chief killed today. 34 killed incl 6 children. Two tracks: ceasefire AND war prep running simultaneously."},
+    {"t": "🇮🇳 Green Sanvi at Mumbai + Iranian FM Called Jaishankar", "lv": "DEVELOPING", "color": "cyan", "d": "46,650 MT LPG docked Mumbai today. Sea Bird (Iranian LPG) at Mangalore. Araghchi called Jaishankar — bilateral ties + regional issues. India buying from USA, Russia, Iran, Australia. Hormuz easing: 53 ships last week. India positioned on ALL sides for any Tuesday outcome."}
   ],
   "tlLatest": [
-    {"d": 38, "l": "Apr 6", "deaths": 5600, "brent": 110, "nifty": 22713, "rupee": 93.19, "tag": "Deadline EXTENDED to Tuesday. 'Power Plant Day.' F-15E WSO rescued by SEAL Team 6. Green Sanvi at Mumbai. India buying Iranian oil. Haifa: 2 killed. Brent $110.60. Markets reopen Monday", "sev": 3}
+    {"d": 38, "l": "Apr 6", "deaths": 5700, "brent": 109, "nifty": 22577, "rupee": 93.19, "tag": "45-DAY CEASEFIRE discussed! Sensex +800. Green Sanvi at Mumbai. Hormuz: 53 ships (most since war). Iraq exempted. But Tuesday deadline ON. B1-Bs arriving Europe. Iran FM called Jaishankar", "sev": 2}
   ],
-  "projNow": {"brent": 110, "rupee": 93.19, "lpg": 913, "petrol": 94.77, "deaths": 5600},
+  "projNow": {"brent": 109, "rupee": 93.19, "lpg": 913, "petrol": 94.77, "deaths": 5700},
   "scenarios": {
-    "headers": ["Pre-war", "Now (Day 38)", "If deal this week", "If war to May", "If war to Jun+"],
-    "brent": [65, 110, 82, 140, 170],
-    "rupee": [91.0, 93.19, 91.5, 100.0, 112.0],
-    "deaths": [0, "5,600+", "7,000", "18,000", "40,000+"],
-    "sensex": ["78,699", "73,320", "80,000+", "58,000", "45,000"],
-    "lpg": ["₹853", "₹913", "₹860", "₹1,200", "₹1,600+"],
-    "fii": ["-", "$12.3B+ out", "$5B return", "$25B out", "$40B+ out"]
+    "headers": ["Pre-war", "Now (Day 38)", "If 45-day ceasefire", "If war to May", "If war to Jun+"],
+    "brent": [65, 109, 78, 145, 170],
+    "rupee": [91.0, 93.19, 91.0, 100.0, 112.0],
+    "deaths": [0, "5,700+", "6,200", "18,000", "40,000+"],
+    "sensex": ["78,699", "73,800", "82,000+", "58,000", "45,000"],
+    "lpg": ["₹853", "₹913", "₹853", "₹1,300", "₹1,600+"],
+    "fii": ["-", "$12.3B+ out", "$8B return", "$25B out", "$40B+ out"]
   },
   "radar": [
-    {"axis": "Oil Shock", "w1": 60, "now": 95, "w4": 99, "w8": 99},
-    {"axis": "Market Crash", "w1": 45, "now": 91, "w4": 97, "w8": 99},
-    {"axis": "Nuclear Risk", "w1": 20, "now": 90, "w4": 97, "w8": 99},
-    {"axis": "Hormuz Closure", "w1": 80, "now": 97, "w4": 99, "w8": 99},
+    {"axis": "Oil Shock", "w1": 60, "now": 93, "w4": 98, "w8": 99},
+    {"axis": "Market Crash", "w1": 45, "now": 88, "w4": 96, "w8": 99},
+    {"axis": "Nuclear Risk", "w1": 20, "now": 91, "w4": 97, "w8": 99},
+    {"axis": "Hormuz Closure", "w1": 80, "now": 94, "w4": 98, "w8": 99},
     {"axis": "Household Impact", "w1": 15, "now": 97, "w4": 99, "w8": 99},
-    {"axis": "Currency Crisis", "w1": 40, "now": 88, "w4": 97, "w8": 99},
+    {"axis": "Currency Crisis", "w1": 40, "now": 86, "w4": 96, "w8": 99},
     {"axis": "Social Unrest", "w1": 25, "now": 86, "w4": 95, "w8": 98},
     {"axis": "Military Exposure", "w1": 35, "now": 99, "w4": 99, "w8": 99}
   ],
   "assessment": {
-    "headline": "DAY 38. Deadline extended to TUESDAY. F-15E rescued. Green Sanvi at Mumbai. India buying Iranian oil. The most consequential week begins.",
-    "body": "Trump extended the Hormuz deadline for the FOURTH time — now TUESDAY 8 PM ET (Wednesday 5:30 AM IST). He called it 'Power Plant Day and Bridge Day, all wrapped in one.' The language was his most aggressive yet: 'Open the F***in' Strait, you crazy bastards, or you'll be living in Hell.' He signed off: 'Praise be to Allah.'\n\nBut hours later, he told Fox News there's a 'good chance of a deal by Monday' and announced a White House news conference for Monday 1 PM ET (10:30 PM IST). This creates a binary setup for markets:\n\nIF DEAL ANNOUNCED MONDAY:\n• Brent drops to $82-85. Sensex rallies 2,000+. Rupee recovers below 92\n• FII reversal begins. VIX crashes. India relief rally\n• But Hormuz congestion lasts months. Tolls may be permanent\n\nIF NO DEAL + STRIKES TUESDAY:\n• Brent spikes past $130. Sensex crashes 2,000+. Rupee past 95\n• Power outages across Iran. Humanitarian crisis. Regional escalation\n• India's 60-day fuel buffer starts depleting faster\n\nOvernight: Iran missile hit a residential building in Haifa — 2 killed, 4 wounded, 2 missing. Mahshahr petrochemical hub hit — 5 killed, 170 injured. Iran: 'Hormuz won't reopen until fully compensated for war damage.' Tel Aviv anti-war protest — 1,000+ defied police.\n\nFor India (Day 38):\n• Green Sanvi arriving MUMBAI TODAY — 46,650 MT LPG\n• India OFFICIALLY buying Iranian oil — first time in 7 years\n• 9 carriers crossed. 17 ships + 460 seafarers remain\n• 60 days stock. LPG 30+ days. Refineries >100%\n• USA = #1 LPG supplier. India supplying 5 neighbors\n• Markets reopen TOMORROW. Deadline extension = slight positive\n• Brent $110.60 — crossing $110 triggers Elara's ₹8-14/L petrol hike estimate\n\nThe week ahead is the most consequential since the war began. Monday's news conference will either be the beginning of the end — or the beginning of something much worse."
+    "headline": "DAY 38. 45-day ceasefire under discussion. Green Sanvi at Mumbai. Hormuz easing. But Tuesday deadline looms. This is the fork in the road.",
+    "body": "For the first time in 38 days, there is a credible path to peace.\n\nAxios reports (4 sources) that the US, Iran, and regional mediators are discussing a possible 45-day ceasefire that could lead to a permanent end to the war. Iran's foreign ministry confirmed it has 'formulated its response to ceasefire proposals.' Oil fell to $108.76. Sensex rallied +800.\n\nBut simultaneously, Trump's Tuesday deadline remains on: 'Power Plant Day + Bridge Day. Open the F***in' Strait, you crazy bastards.' Dozen B1-B bombers arrived at bases in UK and Germany. Iran says Hormuz stays closed 'until fully compensated.'\n\nThe war is now on a knife's edge between two tracks:\n\nTRACK A — CEASEFIRE (growing probability):\n• 45-day ceasefire → Hormuz reopens gradually → Brent drops to $78\n• Sensex rallies to 82,000+. Rupee recovers to 91. FII returns\n• India's energy costs normalize. LPG drops back to ₹853\n• But: Hormuz permanently tolled. Iran retains leverage\n\nTRACK B — ESCALATION (still possible):\n• Tuesday power plant + bridge strikes → Iran retaliates on Gulf infrastructure\n• Brent spikes past $140. Sensex crashes 3,000+. Rupee past 96\n• Houthis escalate on Red Sea. Both chokepoints threatened\n• India's 60-day stock buffer starts depleting rapidly\n\nHORMUZ IS EASING:\n• 53 ships last week — most since war began (was 36 previous week)\n• Iraq exempted from restrictions. Japan + Oman + France ships crossed\n• Iran-Oman joint meeting planned on regulating passage\n• But still 90% below pre-war levels\n\nINDIA'S POSITION IS STRONG:\n• Green Sanvi docked Mumbai TODAY — 46,650 MT LPG\n• Sea Bird (Iranian LPG) at Mangalore — India buying Iranian fuel\n• Iranian FM Araghchi called EAM Jaishankar today\n• India buying from USA, Russia, Iran, Australia simultaneously\n• 9 carriers crossed. Green Asha + Jag Vikram next\n• 60 days stock. LPG 30+ days. Refineries >100%\n• India supplying fuel to 5 neighbors\n\nThe next 36 hours determine everything. If the 45-day ceasefire materializes, this war enters its endgame — and India emerges as the diplomatic and energy winner of the conflict. If Tuesday's strikes happen, India enters the worst energy crisis since 1973."
   }
 }
