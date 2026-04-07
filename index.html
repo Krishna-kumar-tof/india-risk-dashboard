@@ -1,13 +1,454 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Iran-Gulf War: India Threat Matrix</title>
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☢️</text></svg>" />
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>India Risk Dashboard — Iran-Gulf War Tracker</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+/* ── RESET & BASE ──────────────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --ff: 'IBM Plex Sans', sans-serif;
+  --fm: 'IBM Plex Mono', monospace;
+  --red: #c0392b;
+  --red-light: #fdf1f0;
+  --red-border: #e8a09b;
+  --amber: #b7600a;
+  --amber-light: #fef8ed;
+  --green: #1a7a4a;
+  --green-light: #edf7f2;
+  --muted: #666;
+  --border: #e0ddd6;
+  --bg: #fafaf8;
+  --card: #ffffff;
+  --text: #1a1a1a;
+}
+
+body { font-family: var(--ff); font-size: 14px; color: var(--text); background: var(--bg); line-height: 1.6; }
+
+/* ── LAYOUT ────────────────────────────────────────────────────────────────── */
+.wrap { max-width: 900px; margin: 0 auto; padding: 20px 16px 40px; }
+
+/* ── HEADER ────────────────────────────────────────────────────────────────── */
+.header { border-bottom: 2px solid var(--text); padding-bottom: 12px; margin-bottom: 20px; }
+.header-meta { font-size: 11px; font-family: var(--fm); color: var(--muted); letter-spacing: .05em; margin-bottom: 6px; }
+.header-title { font-size: 22px; font-weight: 500; line-height: 1.2; }
+.day-badge { display: inline-block; background: var(--text); color: #fff; font-family: var(--fm); font-size: 11px; padding: 2px 8px; margin-left: 8px; vertical-align: middle; }
+
+/* ── TICKER ────────────────────────────────────────────────────────────────── */
+.ticker { background: var(--red); color: #fff; padding: 8px 14px; font-size: 12px; font-family: var(--fm); margin-bottom: 20px; display: flex; align-items: center; gap: 8px; }
+.pulse { width: 8px; height: 8px; border-radius: 50%; background: #fff; animation: pulse 1.2s infinite; flex-shrink: 0; }
+@keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .3; } }
+
+/* ── KPIs ──────────────────────────────────────────────────────────────────── */
+.kpis { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-bottom: 20px; }
+.kpi { background: var(--card); border: 0.5px solid var(--border); padding: 12px; border-radius: 6px; }
+.kpi-label { font-size: 10px; font-family: var(--fm); color: var(--muted); letter-spacing: .06em; text-transform: uppercase; margin-bottom: 4px; }
+.kpi-value { font-size: 20px; font-weight: 500; font-family: var(--fm); }
+.kpi-sub { font-size: 10px; color: var(--muted); margin-top: 2px; }
+.kpi.danger .kpi-value { color: var(--red); }
+.kpi.warn   .kpi-value { color: var(--amber); }
+
+/* ── SECTIONS ──────────────────────────────────────────────────────────────── */
+.section { margin-bottom: 24px; }
+.section-label { font-size: 10px; font-family: var(--fm); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); border-bottom: 0.5px solid var(--border); padding-bottom: 6px; margin-bottom: 14px; }
+
+/* ── WHAT CHANGED ──────────────────────────────────────────────────────────── */
+.what-changed { background: var(--card); border: 0.5px solid var(--border); border-left: 3px solid var(--red); padding: 14px 16px; border-radius: 0 6px 6px 0; }
+.wc-item { padding: 7px 0; border-bottom: 0.5px solid var(--border); font-size: 13px; line-height: 1.55; }
+.wc-item:last-child { border-bottom: none; padding-bottom: 0; }
+.wc-tag { font-family: var(--fm); font-size: 10px; font-weight: 500; padding: 1px 6px; border-radius: 3px; margin-right: 6px; display: inline-block; }
+.tag-BREAKING   { background: #fdecea; color: var(--red); }
+.tag-DEVELOPING { background: #fff3e0; color: var(--amber); }
+.tag-OK         { background: var(--green-light); color: var(--green); }
+
+/* ── NUCLEAR ────────────────────────────────────────────────────────────────  */
+.nuke-alert { background: var(--red-light); border: 1px solid var(--red-border); border-radius: 6px; padding: 14px 16px; margin-bottom: 12px; }
+.nuke-alert-title { font-size: 13px; font-weight: 500; color: var(--red); margin-bottom: 6px; }
+.nuke-alert p { font-size: 13px; line-height: 1.6; color: #4a1515; }
+.weather-note { background: #f0f4fb; border: 0.5px solid #b0c4e8; border-radius: 4px; padding: 7px 12px; font-size: 11px; color: #2c4a7a; margin-bottom: 14px; line-height: 1.5; }
+
+/* site table */
+.site-table { width: 100%; border-collapse: collapse; font-size: 12px; margin-bottom: 16px; }
+.site-table th { padding: 6px 0; font-weight: 500; color: var(--muted); font-family: var(--fm); font-size: 10px; text-transform: uppercase; letter-spacing: .05em; text-align: left; border-bottom: 1px solid var(--border); }
+.site-table th:not(:first-child) { padding-left: 8px; }
+.site-table td { padding: 7px 0; border-bottom: 0.5px solid var(--border); vertical-align: top; }
+.site-table td:not(:first-child) { padding-left: 8px; }
+.site-table tr:last-child td { border-bottom: none; }
+
+.dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 5px; vertical-align: middle; }
+.dot-red   { background: var(--red); }
+.dot-amber { background: var(--amber); }
+.dot-green { background: var(--green); }
+
+/* city grid */
+.city-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.city-card { background: var(--card); border: 0.5px solid var(--border); border-radius: 6px; padding: 12px; }
+.city-card.highlight { border-color: var(--red-border); }
+.city-name { font-weight: 500; font-size: 14px; margin-bottom: 2px; }
+.city-pop  { font-size: 11px; color: var(--muted); margin-bottom: 8px; }
+
+.risk-row { display: flex; align-items: center; gap: 8px; margin-bottom: 4px; }
+.risk-lbl { font-size: 10px; font-family: var(--fm); width: 40px; color: var(--muted); }
+.risk-track { flex: 1; height: 5px; background: #ede9e0; border-radius: 2px; overflow: hidden; }
+.risk-fill { height: 100%; border-radius: 2px; }
+.risk-val { font-size: 10px; font-family: var(--fm); width: 24px; text-align: right; }
+
+.verdict { font-size: 11px; margin-top: 8px; padding: 6px 8px; border-radius: 4px; line-height: 1.4; }
+.verdict-high { background: #fdecea; color: #7a1515; }
+.verdict-med  { background: #fff3e0; color: #7a4500; }
+.verdict-low  { background: var(--green-light); color: #0f4a28; }
+
+/* scenarios */
+.sc-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; margin-bottom: 14px; }
+.sc-card { border: 0.5px solid var(--border); border-radius: 6px; padding: 12px; background: var(--card); }
+.sc-card.bad { border-color: var(--red-border); background: var(--red-light); }
+.sc-prob  { font-size: 20px; font-weight: 500; font-family: var(--fm); margin-bottom: 2px; }
+.sc-title { font-size: 12px; font-weight: 500; margin-bottom: 6px; }
+.sc-detail{ font-size: 11px; color: var(--muted); line-height: 1.5; }
+.sc-card.bad .sc-prob { color: var(--red); }
+.sc-card.mid .sc-prob { color: var(--amber); }
+.sc-card.ok  .sc-prob { color: var(--green); }
+.sc-card.bad .sc-detail { color: #7a1515; }
+
+/* precautions */
+.prec-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.prec-item { background: var(--card); border: 0.5px solid var(--border); border-radius: 6px; padding: 10px 12px; font-size: 12px; line-height: 1.55; }
+
+/* ── ECONOMY ────────────────────────────────────────────────────────────────  */
+.econ-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; }
+.econ-item { background: var(--card); border: 0.5px solid var(--border); border-radius: 6px; padding: 10px; }
+.econ-name { font-size: 12px; font-weight: 500; margin-bottom: 3px; }
+.econ-pre  { font-size: 10px; color: var(--muted); }
+.econ-now  { font-size: 13px; font-weight: 500; margin: 2px 0; }
+.econ-fcast{ font-size: 10px; color: var(--muted); }
+.econ-summary { margin-top: 12px; padding: 12px; background: var(--card); border: 0.5px solid var(--border); border-radius: 6px; font-size: 13px; line-height: 1.6; }
+
+/* ── PROJECTIONS ────────────────────────────────────────────────────────────  */
+.proj-table { width: 100%; border-collapse: collapse; font-size: 12px; }
+.proj-table th { padding: 7px 0; font-weight: 500; font-family: var(--fm); font-size: 10px; text-transform: uppercase; color: var(--muted); border-bottom: 1px solid var(--border); text-align: left; }
+.proj-table th.deal { color: var(--green); }
+.proj-table th.ext  { color: var(--amber); }
+.proj-table th.esc  { color: var(--red); }
+.proj-table th:not(:first-child), .proj-table td:not(:first-child) { padding-left: 8px; }
+.proj-table td { padding: 6px 0; border-bottom: 0.5px solid var(--border); }
+.proj-table tr:last-child td { border-bottom: none; }
+.proj-table td.deal { color: var(--green); }
+.proj-table td.ext  { color: var(--amber); }
+.proj-table td.esc  { color: var(--red); }
+.proj-table td.now  { font-weight: 500; }
+
+/* ── STRATEGIC ──────────────────────────────────────────────────────────────  */
+.strat-body { background: var(--card); border: 0.5px solid var(--border); border-radius: 6px; padding: 14px 16px; font-size: 13px; line-height: 1.7; margin-bottom: 12px; }
+.strat-sc-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; }
+.strat-sc { border: 0.5px solid var(--border); border-radius: 6px; padding: 12px; font-size: 12px; background: var(--card); }
+.strat-sc.bad { border-color: var(--red-border); }
+.strat-sc-label { font-weight: 500; margin-bottom: 6px; }
+
+/* ── HORMUZ ─────────────────────────────────────────────────────────────────  */
+.hz-status { background: #f7f5f0; border: 0.5px solid var(--border); border-radius: 6px; padding: 8px 14px; margin-bottom: 12px; font-size: 12px; font-family: var(--fm); color: var(--red); font-weight: 500; }
+.hz-stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-bottom: 12px; }
+.hz-stat { background: var(--card); border: 0.5px solid var(--border); border-radius: 6px; padding: 10px; text-align: center; }
+.hz-val   { font-size: 18px; font-weight: 500; font-family: var(--fm); }
+.hz-label { font-size: 10px; color: var(--muted); margin-top: 3px; white-space: pre-line; line-height: 1.4; }
+
+/* ── FOOTER ─────────────────────────────────────────────────────────────────  */
+.footer { border-top: 0.5px solid var(--border); margin-top: 24px; padding-top: 12px; font-size: 10px; color: var(--muted); line-height: 1.7; }
+
+/* ── UTILITY ─────────────────────────────────────────────────────────────────  */
+.note { font-size: 11px; color: var(--muted); font-style: italic; margin-top: 10px; line-height: 1.5; }
+.color-red   { color: var(--red); }
+.color-amber { color: var(--amber); }
+.color-green { color: var(--green); }
+
+@media (max-width: 600px) {
+  .kpis      { grid-template-columns: 1fr 1fr; }
+  .city-grid { grid-template-columns: 1fr; }
+  .sc-grid   { grid-template-columns: 1fr; }
+  .prec-grid { grid-template-columns: 1fr; }
+  .econ-grid { grid-template-columns: 1fr 1fr; }
+  .hz-stats  { grid-template-columns: 1fr 1fr; }
+  .strat-sc-grid { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+<div class="wrap" id="root">
+  <!-- rendered by JS below -->
+</div>
+
+<!-- Load the intel data file first -->
+<script src="war-intel.js"></script>
+
+<script>
+/* ── HELPERS ─────────────────────────────────────────────────────────────── */
+const D = WAR_INTEL;
+
+function el(tag, cls, html) {
+  const e = document.createElement(tag);
+  if (cls)  e.className = cls;
+  if (html !== undefined) e.innerHTML = html;
+  return e;
+}
+function append(parent, ...children) {
+  children.forEach(c => parent.appendChild(c));
+  return parent;
+}
+function sectionLabel(text) {
+  return el('div', 'section-label', text);
+}
+function riskFillColor(val) {
+  if (val >= 60) return 'var(--red)';
+  if (val >= 40) return 'var(--amber)';
+  return '#888';
+}
+
+/* ── HEADER ──────────────────────────────────────────────────────────────── */
+function buildHeader() {
+  const wrap = el('div', 'header');
+  wrap.innerHTML = `
+    <div class="header-meta">INDIA RISK ASSESSMENT · DAY ${D.meta.day} · ${D.meta.updated} · 50+ VERIFIED SOURCES</div>
+    <div class="header-title">How the Iran–Gulf War is hitting India <span class="day-badge">DAY ${D.meta.day}</span></div>
+  `;
+  return wrap;
+}
+
+/* ── TICKER ──────────────────────────────────────────────────────────────── */
+function buildTicker() {
+  return el('div', 'ticker', `<span class="pulse"></span>${D.ticker}`);
+}
+
+/* ── KPIs ────────────────────────────────────────────────────────────────── */
+function buildKpis() {
+  const grid = el('div', 'kpis');
+  D.kpis.forEach(k => {
+    grid.innerHTML += `
+      <div class="kpi ${k.level}">
+        <div class="kpi-label">${k.label}</div>
+        <div class="kpi-value">${k.value}</div>
+        <div class="kpi-sub">${k.sub}</div>
+      </div>`;
+  });
+  return grid;
+}
+
+/* ── WHAT CHANGED ────────────────────────────────────────────────────────── */
+function buildWhatChanged() {
+  const sec = el('div', 'section');
+  sec.appendChild(sectionLabel('What changed — ' + D.meta.updated));
+  const box = el('div', 'what-changed');
+  D.whatChanged.forEach(item => {
+    box.innerHTML += `<div class="wc-item"><span class="wc-tag tag-${item.tag}">${item.tag}</span> ${item.text}</div>`;
+  });
+  sec.appendChild(box);
+  return sec;
+}
+
+/* ── NUCLEAR ─────────────────────────────────────────────────────────────── */
+function buildNuclear() {
+  const N = D.nuclear;
+  const sec = el('div', 'section');
+  sec.appendChild(sectionLabel('☢ Nuclear threat to India — weather-updated assessment'));
+
+  // alert box
+  sec.innerHTML += `
+    <div class="nuke-alert">
+      <div class="nuke-alert-title">Threat level: ${N.threatLevel} — all major Iranian nuclear sites have been struck</div>
+      <p>${N.alertText}</p>
+    </div>
+    <div class="weather-note">${N.weatherNote}</div>
+  `;
+
+  // site table
+  sec.appendChild(sectionLabel('Nuclear site damage'));
+  const tbl = el('table', 'site-table');
+  tbl.innerHTML = `
+    <thead><tr>
+      <th>Site</th><th>Status</th><th>Score</th><th>India risk vector</th>
+    </tr></thead>
+    <tbody>
+      ${N.sites.map(s => `
+        <tr>
+          <td style="font-weight:500">${s.name}</td>
+          <td><span class="dot dot-${s.level}"></span>${s.status}</td>
+          <td style="font-family:var(--fm)">${s.score}/100</td>
+          <td style="font-size:11px">${s.vector}</td>
+        </tr>`).join('')}
+    </tbody>`;
+  sec.appendChild(tbl);
+
+  // city grid
+  sec.appendChild(sectionLabel('Indian city exposure — scores incorporate live weather'));
+  const grid = el('div', 'city-grid');
+  N.cities.forEach(c => {
+    const card = el('div', 'city-card' + (c.highlight ? ' highlight' : ''));
+    if (c.dual) {
+      card.innerHTML = `
+        <div class="city-name">${c.name}</div>
+        <div class="city-pop">${c.pop}</div>
+        <div class="risk-row"><span class="risk-lbl">Chennai</span><div class="risk-track"><div class="risk-fill" style="width:${c.dualScores.Chennai}%;background:#888"></div></div><span class="risk-val">${c.dualScores.Chennai}</span></div>
+        <div class="risk-row"><span class="risk-lbl">Lucknow</span><div class="risk-track"><div class="risk-fill" style="width:${c.dualScores.Lucknow}%;background:#888"></div></div><span class="risk-val">${c.dualScores.Lucknow}</span></div>
+        <div class="verdict verdict-${c.verdictLevel}">${c.verdict}</div>`;
+    } else {
+      const s = c.scores;
+      card.innerHTML = `
+        <div class="city-name">${c.name}</div>
+        <div class="city-pop">${c.pop}</div>
+        <div class="risk-row"><span class="risk-lbl">Overall</span><div class="risk-track"><div class="risk-fill" style="width:${s.overall}%;background:${riskFillColor(s.overall)}"></div></div><span class="risk-val" style="color:${riskFillColor(s.overall)}">${s.overall}</span></div>
+        <div class="risk-row"><span class="risk-lbl">Wind</span><div class="risk-track"><div class="risk-fill" style="width:${s.wind}%;background:${riskFillColor(s.wind)}"></div></div><span class="risk-val">${s.wind}</span></div>
+        <div class="risk-row"><span class="risk-lbl">Sea</span><div class="risk-track"><div class="risk-fill" style="width:${s.sea}%;background:${riskFillColor(s.sea)}"></div></div><span class="risk-val">${s.sea}</span></div>
+        <div class="risk-row"><span class="risk-lbl">Nuke</span><div class="risk-track"><div class="risk-fill" style="width:${s.nuke}%;background:${riskFillColor(s.nuke)}"></div></div><span class="risk-val">${s.nuke}</span></div>
+        <div class="verdict verdict-${c.verdictLevel}">${c.verdict}</div>`;
+    }
+    grid.appendChild(card);
+  });
+  sec.appendChild(grid);
+
+  // scenarios
+  sec.appendChild(Object.assign(el('div', 'section-label'), { style: 'margin-top:16px', textContent: 'Dispersal scenarios — next 10 hours' }));
+  const scGrid = el('div', 'sc-grid');
+  N.scenarios.forEach(s => {
+    scGrid.innerHTML += `
+      <div class="sc-card ${s.level}">
+        <div class="sc-prob">${s.prob}</div>
+        <div class="sc-title">${s.title}</div>
+        <div class="sc-detail">${s.detail}</div>
+      </div>`;
+  });
+  sec.appendChild(scGrid);
+
+  // precautions
+  sec.appendChild(sectionLabel('Recommended precautions'));
+  const precGrid = el('div', 'prec-grid');
+  const dotColor = { urgent: 'var(--red)', mod: 'var(--amber)', low: '#888' };
+  N.precautions.forEach(p => {
+    precGrid.innerHTML += `
+      <div class="prec-item">
+        <span class="dot" style="background:${dotColor[p.urgency]}"></span>${p.text}
+      </div>`;
+  });
+  sec.appendChild(precGrid);
+  sec.appendChild(el('p', 'note', 'Methodology: Scores are analytical estimates combining site damage reports, live ECMWF wind/pressure data (Windy.com), and regional dispersal modelling. Not confirmed radiation measurements. Not IAEA- or NDMA-certified. Not evacuation advice.'));
+
+  return sec;
+}
+
+/* ── ECONOMY ─────────────────────────────────────────────────────────────── */
+function buildEconomy() {
+  const E = D.economy;
+  const sec = el('div', 'section');
+  sec.appendChild(sectionLabel('Economy — key numbers'));
+  const grid = el('div', 'econ-grid');
+  const nowColor = { red: 'var(--red)', amber: 'var(--amber)', green: 'var(--green)' };
+  E.items.forEach(i => {
+    grid.innerHTML += `
+      <div class="econ-item">
+        <div class="econ-name"><span class="dot dot-${i.level}"></span>${i.name}</div>
+        <div class="econ-pre">Pre-war: ${i.preWar}</div>
+        <div class="econ-now" style="color:${nowColor[i.level]}">Now: ${i.now}</div>
+        <div class="econ-fcast">${i.forecast}</div>
+      </div>`;
+  });
+  sec.appendChild(grid);
+  sec.appendChild(el('div', 'econ-summary', E.summary));
+  return sec;
+}
+
+/* ── PROJECTIONS ─────────────────────────────────────────────────────────── */
+function buildProjections() {
+  const P = D.projections;
+  const sec = el('div', 'section');
+  sec.appendChild(sectionLabel('If this continues — projections'));
+  const tbl = el('table', 'proj-table');
+  tbl.innerHTML = `
+    <thead><tr>
+      <th>Indicator</th><th>Pre-war</th><th>Now</th>
+      <th class="deal">Deal (${P.probabilities.deal})</th>
+      <th class="ext">Extension (${P.probabilities.extension})</th>
+      <th class="esc">Escalation (${P.probabilities.escalation})</th>
+    </tr></thead>
+    <tbody>
+      ${P.rows.map(r => `
+        <tr>
+          <td>${r.label}</td>
+          <td>${r.preWar}</td>
+          <td class="now">${r.now}</td>
+          <td class="deal">${r.deal}</td>
+          <td class="ext">${r.ext}</td>
+          <td class="esc">${r.esc}</td>
+        </tr>`).join('')}
+    </tbody>`;
+  sec.appendChild(tbl);
+  return sec;
+}
+
+/* ── STRATEGIC ───────────────────────────────────────────────────────────── */
+function buildStrategic() {
+  const S = D.strategic;
+  const levelColor = { ok: 'var(--green)', mid: 'var(--amber)', bad: 'var(--red)' };
+  const sec = el('div', 'section');
+  sec.appendChild(sectionLabel('Strategic assessment'));
+  sec.appendChild(el('div', 'strat-body', S.body));
+  const grid = el('div', 'strat-sc-grid');
+  S.scenarios.forEach(s => {
+    grid.innerHTML += `
+      <div class="strat-sc ${s.level}">
+        <div class="strat-sc-label" style="color:${levelColor[s.level]}">${s.label}</div>
+        ${s.text}
+      </div>`;
+  });
+  sec.appendChild(grid);
+  return sec;
+}
+
+/* ── HORMUZ ──────────────────────────────────────────────────────────────── */
+function buildHormuz() {
+  const H = D.hormuz;
+  const valColor = { red: 'var(--red)', amber: 'var(--amber)', green: 'var(--green)' };
+  const sec = el('div', 'section');
+  sec.appendChild(sectionLabel('Strait of Hormuz — shipping status'));
+  sec.appendChild(el('div', 'hz-status', `STATUS: ${H.status} · ${H.subStatus}`));
+  const stats = el('div', 'hz-stats');
+  H.stats.forEach(s => {
+    stats.innerHTML += `
+      <div class="hz-stat">
+        <div class="hz-val" style="color:${valColor[s.level]}">${s.value}</div>
+        <div class="hz-label">${s.label}</div>
+      </div>`;
+  });
+  sec.appendChild(stats);
+  sec.appendChild(el('div', '', H.summary)).style && (sec.lastChild.style.cssText = 'font-size:12px;line-height:1.7;color:var(--muted)');
+  sec.lastChild.style.cssText = 'font-size:12px;line-height:1.7;color:var(--muted)';
+  return sec;
+}
+
+/* ── FOOTER ──────────────────────────────────────────────────────────────── */
+function buildFooter() {
+  return el('div', 'footer',
+    `Sources: ${D.meta.sources} · Weather: ${D.meta.weatherBasis} · Nuclear scores are analytical estimates — not confirmed radiation measurements · Not financial, safety, or evacuation advice.`
+  );
+}
+
+/* ── RENDER ──────────────────────────────────────────────────────────────── */
+(function render() {
+  const root = document.getElementById('root');
+  [
+    buildHeader(),
+    buildTicker(),
+    buildKpis(),
+    buildWhatChanged(),
+    buildNuclear(),
+    buildEconomy(),
+    buildProjections(),
+    buildStrategic(),
+    buildHormuz(),
+    buildFooter(),
+  ].forEach(node => root.appendChild(node));
+})();
+</script>
+</body>
 </html>
