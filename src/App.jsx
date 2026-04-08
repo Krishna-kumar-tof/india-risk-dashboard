@@ -423,6 +423,43 @@ export default function App(){
         <div style={{background:C.purple+"0c",border:`1px solid ${C.purple}18`,borderRadius:6,padding:10,marginBottom:12,fontSize:10.5,color:C.sub,lineHeight:1.6}}>
           <strong style={{color:C.purple}}>Bushehr — a working nuclear reactor — has been struck.</strong> First confirmed hit on an active nuclear facility. 460kg enriched uranium across Iran's sites. Netanyahu claims Iran 'has NO ability to enrich uranium or make ballistic missiles' — but UN watchdog has not confirmed this. Delhi 4-7 days downwind. India has NO iodine program.
         </div>
+        {/* ── LIVE WIND FORECAST (Windy.com embed) ── */}
+        <div style={{background:C.card,borderRadius:8,padding:12,marginBottom:12,border:`1px solid ${C.purple}25`}}>
+          <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",marginBottom:8,flexWrap:"wrap",gap:6}}>
+            <div>
+              <div style={{fontSize:11,fontWeight:800,color:C.purple,letterSpacing:1.5,textTransform:"uppercase",fontFamily:mono}}>🌬️ Live Wind Forecast — Iran → India</div>
+              <div style={{fontSize:9,color:C.muted,marginTop:2}}>Real-time atmospheric transport vectors from struck nuclear sites</div>
+            </div>
+            <div style={{fontSize:8,color:C.cyan,padding:"3px 8px",border:`1px solid ${C.cyan}30`,borderRadius:4,background:C.cyan+"08",fontWeight:600}}>● LIVE • windy.com</div>
+          </div>
+          <div style={{position:"relative",width:"100%",paddingBottom:"56%",height:0,borderRadius:6,overflow:"hidden",border:`1px solid ${C.border}`}}>
+            <iframe
+              title="Windy.com wind forecast — Iran nuclear sites to India"
+              src="https://embed.windy.com/embed2.html?lat=28&lon=58&detailLat=32.5&detailLon=51.7&width=650&height=450&zoom=5&level=500h&overlay=wind&product=ecmwf&menu=&message=&marker=true&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=default&metricTemp=default&radarRange=-1"
+              style={{position:"absolute",top:0,left:0,width:"100%",height:"100%",border:0}}
+              frameBorder="0"
+            />
+          </div>
+          <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fit, minmax(140px, 1fr))",gap:6,marginTop:8}}>
+            {[
+              {n:"Bushehr ☢️",lat:"28.83°N",lon:"50.88°E",d:"Reactor — HIT"},
+              {n:"Natanz",lat:"33.72°N",lon:"51.73°E",d:"Enrichment — HIT"},
+              {n:"Isfahan",lat:"32.57°N",lon:"51.81°E",d:"Conversion — HIT"},
+              {n:"Arak",lat:"34.37°N",lon:"49.24°E",d:"Heavy Water — HIT"},
+              {n:"Fordow",lat:"34.88°N",lon:"50.99°E",d:"Underground"},
+              {n:"Yazd",lat:"32.31°N",lon:"53.97°E",d:"Yellowcake — HIT"}
+            ].map((s,i)=>(
+              <div key={i} style={{background:C.bg,borderLeft:`2px solid ${C.purple}`,padding:"5px 7px",borderRadius:3}}>
+                <div style={{fontSize:9,fontWeight:700,color:C.purple}}>{s.n}</div>
+                <div style={{fontSize:7.5,color:C.muted,fontFamily:mono}}>{s.lat} {s.lon}</div>
+                <div style={{fontSize:7.5,color:C.sub,marginTop:1}}>{s.d}</div>
+              </div>
+            ))}
+          </div>
+          <div style={{background:C.amber+"08",border:`1px solid ${C.amber}25`,borderRadius:4,padding:8,marginTop:8,fontSize:8.5,color:C.sub,lineHeight:1.6}}>
+            <strong style={{color:C.amber}}>⚠️ Methodology:</strong> This map shows <strong>wind direction and speed only</strong> at 500 hPa (~5.5 km altitude — the layer most relevant for long-range particulate transport). It does <strong>NOT</strong> show radiation levels or fallout concentration. Wind toward India = potential transport vector if radioactive material is released; it does not imply contamination has occurred. Powered by ECMWF model via Windy.com. For actual fallout modeling, see NOAA HYSPLIT. Tap the layers icon on the map to toggle particulates, pressure, or surface winds.
+          </div>
+        </div>
         {NUKES.map((n,i)=>(<div key={i} onClick={()=>setExpNuke(expNuke===i?null:i)} style={{background:C.card,borderRadius:6,padding:10,marginBottom:5,cursor:"pointer"}}>
           <div style={{display:"flex",justifyContent:"space-between",alignItems:"center"}}><div><span style={{fontSize:12,fontWeight:700,color:n.risk>85?C.red:n.risk>70?C.orange:C.amber}}>{n.name}</span><span style={{fontSize:9,color:C.muted,marginLeft:5}}>{n.type}</span></div><span style={{fontSize:8.5,padding:"2px 6px",borderRadius:3,fontWeight:800,background:n.st.includes("HIT")||n.st.includes("DAMAGED")||n.st.includes("STRUCK")?C.red+"15":C.orange+"12",color:n.st.includes("HIT")||n.st.includes("DAMAGED")||n.st.includes("STRUCK")?C.red:C.orange}}>{n.st}</span></div>
           <Bar value={n.risk} color={n.risk>85?C.red:n.risk>70?C.orange:C.amber}/><div style={{fontSize:9,color:C.muted,marginTop:2,textAlign:"right"}}>{n.risk}/100 {expNuke===i?"▲":"▼"}</div>
