@@ -7,8 +7,8 @@ import { useState, useEffect } from "react";
 // Updated: March 25, 2026 — 5:00 PM IST (Day 21)
 // ═══════════════════════════════════════════════════════════════════
 
-const WAR_UPDATED = "March 25, 2026 — 5:00 PM IST";
-const WAR_DAY = 26;
+const WAR_UPDATED = "April 8, 2026 — 8:00 AM IST";
+const WAR_DAY = 40;
 
 const C = {
   bg:"#0f1117",surface:"#171b23",card:"#1c2029",raised:"#242934",
@@ -224,13 +224,26 @@ export default function App(){
   const iHormuzLatest = intel?.hormuzLatest ?? [];
   const iProjNow = intel?.projNow ?? PROJ[2];
   const iScenarios = intel?.scenarios ?? null;
+  // NEW FIELDS — replace hardcoded sections entirely
+  const iKitchen = intel?.kitchen ?? HH;
+  const iMilitary = intel?.military ?? null;  // if present, REPLACES hardcoded MIL
+  const iNukes = intel?.nukes ?? NUKES;
+  const iCities = intel?.cities ?? CITIES;
+  const iHormuzStatus = intel?.hormuzStatus ?? null;
+  const iHormuzEvents = intel?.hormuzEvents ?? null;
+  const iPhase = intel?._phase ?? null;  // "CEASEFIRE" etc
+  const isCeasefire = iPhase === "CEASEFIRE";
 
   // Merge timeline: base TL + latest from intel
   const fullTL = [...TL.filter(t => !iTlLatest.some(lt => lt.d === t.d)), ...iTlLatest].sort((a,b) => a.d - b.d);
-  // Merge military: intel top entries + hardcoded rest
-  const fullMIL = [...iMilTop.map(m => ({t:m.t,lv:m.lv,c:C[m.color]||C.amber,d:m.d})), ...MIL];
-  // Merge hormuz events
-  const fullHormuzEvents = [...HORMUZ.events.filter(e => !iHormuzLatest.some(le => le.d === e.d)), ...iHormuzLatest].sort((a,b) => a.d > b.d ? 1 : -1);
+  // Military: if intel.military exists use it directly, otherwise old merge
+  const fullMIL = iMilitary
+    ? iMilitary.map(m => ({t:m.t,lv:m.lv,c:C[m.color]||C.amber,d:m.d}))
+    : [...iMilTop.map(m => ({t:m.t,lv:m.lv,c:C[m.color]||C.amber,d:m.d})), ...MIL];
+  // Hormuz events: use intel.hormuzEvents if present, otherwise old merge
+  const fullHormuzEvents = iHormuzEvents
+    ? iHormuzEvents
+    : [...HORMUZ.events.filter(e => !iHormuzLatest.some(le => le.d === e.d)), ...iHormuzLatest].sort((a,b) => a.d > b.d ? 1 : -1);
   // Update PROJ "Now" row with intel data
   const fullPROJ = PROJ.map(p => p.w === "Now" ? {...p, ...iProjNow, w:"Now"} : p);
 
@@ -268,24 +281,24 @@ export default function App(){
         @media (min-width: 768px) {
           .dash-grid-2 { grid-template-columns: 1fr 1fr !important; }
           .dash-grid-4 { grid-template-columns: 1fr 1fr 1fr 1fr !important; }
-          .dash-header h1 { font-size: 28px !important; }
-          .dash-header .sub-line { font-size: 11px !important; }
-          .dash-header .label-line { font-size: 9px !important; }
-          .dash-ticker span { font-size: 13px !important; }
-          .dash-nav-btn { font-size: 12px !important; padding: 8px 16px !important; }
-          .dash-section-title { font-size: 15px !important; }
-          .dash-section-sub { font-size: 12px !important; }
-          .dash-wc-label { font-size: 10px !important; }
-          .dash-wc-body { font-size: 12.5px !important; line-height: 2 !important; }
-          .dash-mc-label { font-size: 9px !important; }
-          .dash-mc-value { font-size: 22px !important; }
-          .dash-mc-delta { font-size: 10px !important; }
-          .dash-mc-sub { font-size: 8.5px !important; }
-          .dash-content { padding: 24px 28px 60px !important; }
-          .dash-mil-title { font-size: 12px !important; }
-          .dash-mil-body { font-size: 11px !important; }
-          .dash-assess { font-size: 12.5px !important; line-height: 2 !important; }
-          .dash-hh-item { font-size: 11px !important; }
+          .dash-header h1 { font-size: 34px !important; }
+          .dash-header .sub-line { font-size: 13px !important; }
+          .dash-header .label-line { font-size: 11px !important; }
+          .dash-ticker span { font-size: 14px !important; }
+          .dash-nav-btn { font-size: 13px !important; padding: 9px 18px !important; }
+          .dash-section-title { font-size: 18px !important; letter-spacing: 2.5px !important; }
+          .dash-section-sub { font-size: 13.5px !important; }
+          .dash-wc-label { font-size: 12px !important; }
+          .dash-wc-body { font-size: 14px !important; line-height: 2 !important; }
+          .dash-mc-label { font-size: 11px !important; }
+          .dash-mc-value { font-size: 28px !important; }
+          .dash-mc-delta { font-size: 12px !important; }
+          .dash-mc-sub { font-size: 10px !important; }
+          .dash-content { padding: 28px 32px 70px !important; }
+          .dash-mil-title { font-size: 14px !important; }
+          .dash-mil-body { font-size: 12.5px !important; line-height: 1.8 !important; }
+          .dash-assess { font-size: 14px !important; line-height: 2 !important; }
+          .dash-hh-item { font-size: 13.5px !important; }
         }
         @media (max-width: 767px) {
           .dash-grid-2 { grid-template-columns: 1fr !important; }
@@ -350,42 +363,42 @@ export default function App(){
       </div>
 
       {/* ═══ HORMUZ STATUS ═══ */}
-      <S id="hormuz" title="🚢 Strait of Hormuz — Shipping Status" sub="Real-time status of the world's most critical oil chokepoint" accent={C.cyan}>
-        <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:6,marginBottom:10}}>
-          <div style={{background:C.red+"12",borderRadius:6,padding:10,textAlign:"center",border:`1px solid ${C.red}25`}}>
-            <div style={{fontSize:8.5,color:C.red,fontWeight:700,letterSpacing:1.5}}>STATUS</div>
-            <div style={{fontSize:11,fontWeight:900,color:C.red,marginTop:3}}>{HORMUZ.status}</div>
+      <S id="hormuz" title="🚢 Strait of Hormuz — Shipping Status" sub={iHormuzStatus?.headline || "Real-time status of the world's most critical oil chokepoint"} accent={C.cyan}>
+        <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:8,marginBottom:12}}>
+          <div style={{background:(isCeasefire?C.green:C.red)+"12",borderRadius:8,padding:14,textAlign:"center",border:`1px solid ${(isCeasefire?C.green:C.red)}30`}}>
+            <div style={{fontSize:10,color:isCeasefire?C.green:C.red,fontWeight:700,letterSpacing:2}}>STATUS</div>
+            <div style={{fontSize:14,fontWeight:900,color:isCeasefire?C.green:C.red,marginTop:5}}>{iHormuzStatus?.status || HORMUZ.status}</div>
           </div>
-          <div style={{background:C.card,borderRadius:6,padding:10,textAlign:"center"}}>
-            <div style={{fontSize:8.5,color:C.muted,fontWeight:700,letterSpacing:1.5}}>SHIP TRAFFIC</div>
-            <div style={{fontSize:18,fontWeight:900,color:C.orange,marginTop:3,fontFamily:mono}}>{HORMUZ.reduction}</div>
-            <div style={{fontSize:8.5,color:C.sub}}>Pre-war: ~130 ships/day → now ≤6</div>
-          </div>
-        </div>
-        <div style={{display:"grid",gridTemplateColumns:"1fr 1fr 1fr",gap:6,marginBottom:12}}>
-          <div style={{background:C.card,borderRadius:6,padding:8,textAlign:"center"}}>
-            <div style={{fontSize:9,color:C.muted,letterSpacing:1}}>🇮🇳 INDIAN SHIPS IN GULF</div>
-            <div style={{fontSize:20,fontWeight:800,color:C.orange,fontFamily:mono}}>{HORMUZ.indianVesselsNear}</div>
-            <div style={{fontSize:9.5,color:C.sub}}>{HORMUZ.indianSeafarers} seafarers (was 28 at peak)</div>
-          </div>
-          <div style={{background:C.card,borderRadius:6,padding:8,textAlign:"center"}}>
-            <div style={{fontSize:9,color:C.muted,letterSpacing:1}}>🇮🇳 INDIAN CROSSED SAFELY</div>
-            <div style={{fontSize:20,fontWeight:800,color:C.green,fontFamily:mono}}>{HORMUZ.indianTransited}</div>
-            <div style={{fontSize:9.5,color:C.sub}}>7 LPG + 1 crude + 1 gasoline</div>
-          </div>
-          <div style={{background:C.card,borderRadius:6,padding:8,textAlign:"center"}}>
-            <div style={{fontSize:9,color:C.muted,letterSpacing:1}}>GLOBAL STRANDED</div>
-            <div style={{fontSize:14,fontWeight:800,color:C.red,fontFamily:mono}}>2,000+</div>
-            <div style={{fontSize:9.5,color:C.sub}}>ships / 20K seafarers / 12+ mines</div>
+          <div style={{background:C.card,borderRadius:8,padding:14,textAlign:"center"}}>
+            <div style={{fontSize:10,color:C.muted,fontWeight:700,letterSpacing:2}}>SHIP TRAFFIC</div>
+            <div style={{fontSize:18,fontWeight:900,color:isCeasefire?C.green:C.orange,marginTop:5,fontFamily:mono}}>{iHormuzStatus?.currentFlow || HORMUZ.reduction}</div>
+            <div style={{fontSize:9,color:C.sub,marginTop:2}}>Pre-war: {iHormuzStatus?.preWarFlow || "~130 ships/day"}</div>
           </div>
         </div>
-        <div style={{background:C.card,borderRadius:6,padding:10}}>
-          <div style={{fontSize:8,fontWeight:700,color:C.cyan,marginBottom:6,letterSpacing:1}}>HORMUZ TIMELINE</div>
-          {fullHormuzEvents.map((e,i)=>(<div key={i} style={{display:"flex",gap:8,padding:"4px 0",borderBottom:`1px solid ${C.border}25`}}>
-            <span style={{fontSize:9,color:C.cyan,fontWeight:700,minWidth:42,fontFamily:mono}}>{e.d}</span>
-            <span style={{fontSize:9.5,color:C.sub,lineHeight:1.4}}>{e.e}</span>
+        <div style={{display:"grid",gridTemplateColumns:"1fr 1fr 1fr",gap:8,marginBottom:14}}>
+          <div style={{background:C.card,borderRadius:8,padding:10,textAlign:"center"}}>
+            <div style={{fontSize:9,color:C.muted,letterSpacing:1.2,fontWeight:700}}>🇮🇳 INDIAN SHIPS IN GULF</div>
+            <div style={{fontSize:24,fontWeight:800,color:C.orange,fontFamily:mono,marginTop:4}}>{iHormuzStatus?.indianVesselsNear ?? HORMUZ.indianVesselsNear}</div>
+            <div style={{fontSize:9,color:C.sub}}>{iHormuzStatus?.indianSeafarers ?? HORMUZ.indianSeafarers} seafarers (was 28)</div>
+          </div>
+          <div style={{background:C.card,borderRadius:8,padding:10,textAlign:"center"}}>
+            <div style={{fontSize:9,color:C.muted,letterSpacing:1.2,fontWeight:700}}>🇮🇳 INDIAN CROSSED SAFELY</div>
+            <div style={{fontSize:24,fontWeight:800,color:C.green,fontFamily:mono,marginTop:4}}>{iHormuzStatus?.indianTransited ?? HORMUZ.indianTransited}</div>
+            <div style={{fontSize:9,color:C.sub}}>8 LPG + 1 crude + 1 gasoline</div>
+          </div>
+          <div style={{background:C.card,borderRadius:8,padding:10,textAlign:"center"}}>
+            <div style={{fontSize:9,color:C.muted,letterSpacing:1.2,fontWeight:700}}>NAVY ESCORT</div>
+            <div style={{fontSize:14,fontWeight:800,color:C.cyan,fontFamily:mono,marginTop:4}}>ACTIVE</div>
+            <div style={{fontSize:9,color:C.sub}}>Op Urja Suraksha — 5+ ships</div>
+          </div>
+        </div>
+        <div style={{background:C.card,borderRadius:8,padding:12}}>
+          <div style={{fontSize:10,fontWeight:700,color:C.cyan,marginBottom:8,letterSpacing:1.5}}>HORMUZ TIMELINE</div>
+          {fullHormuzEvents.map((e,i)=>(<div key={i} style={{display:"flex",gap:10,padding:"6px 0",borderBottom:`1px solid ${C.border}25`}}>
+            <span style={{fontSize:10,color:C.cyan,fontWeight:700,minWidth:48,fontFamily:mono}}>{e.d}</span>
+            <span style={{fontSize:11,color:C.sub,lineHeight:1.5}}>{e.e}</span>
           </div>))}
-          <div style={{fontSize:8.5,color:C.muted,marginTop:6}}>🇮🇳 {HORMUZ.indianNavyEscort} • Last transit: {HORMUZ.lastTransit} • Only 21 tankers total since Feb 28 (S&P Global)</div>
+          <div style={{fontSize:9,color:C.muted,marginTop:8,paddingTop:6,borderTop:`1px solid ${C.border}25`}}>🇮🇳 Last transit: {iHormuzStatus?.lastTransit || HORMUZ.lastTransit}</div>
         </div>
       </S>
 
@@ -402,74 +415,123 @@ export default function App(){
       </S>
 
       {/* ═══ 2. KITCHEN ═══ */}
-      <S id="kitchen" title="Your Kitchen Table" sub="Gas crisis deepens — Qatar's Ras Laffan hit overnight" accent={C.amber}>
-        {HH.map((h,i)=>(<div key={i} style={{background:C.card,borderRadius:6,padding:10,marginBottom:6,borderLeft:`3px solid ${h.s===3?C.red:h.s===2?C.orange:C.amber}`}}>
-          <div style={{display:"flex",justifyContent:"space-between",alignItems:"baseline",flexWrap:"wrap",gap:4}}><span style={{fontSize:12,fontWeight:700,color:C.white}}>{sv(h.s)} {h.item}</span><span style={{fontSize:11,fontWeight:800,color:C.red,fontFamily:mono}}>{h.chg}</span></div>
-          <div style={{display:"flex",justifyContent:"space-between",marginTop:4,fontSize:9.5,color:C.sub,flexWrap:"wrap",gap:2}}><span>Pre: {h.pre}</span><span style={{color:C.orange,fontWeight:700}}>Now: {h.now}</span><span style={{color:C.red}}>4wk: {h.proj}</span></div>
-          <div style={{fontSize:9,color:C.muted,marginTop:5,lineHeight:1.6}}>{h.note}</div>
+      <S id="kitchen" title="Your Kitchen Table" sub={isCeasefire?"Prices easing — ceasefire restoring supply chains":"Gas crisis deepens — Qatar's Ras Laffan hit overnight"} accent={C.amber}>
+        {iKitchen.map((h,i)=>(<div key={i} style={{background:C.card,borderRadius:8,padding:12,marginBottom:8,borderLeft:`3px solid ${h.s===3?C.red:h.s===2?C.orange:C.green}`}}>
+          <div style={{display:"flex",justifyContent:"space-between",alignItems:"baseline",flexWrap:"wrap",gap:6}}><span className="dash-hh-item" style={{fontSize:13,fontWeight:700,color:C.white}}>{sv(h.s)} {h.item}</span><span style={{fontSize:11,fontWeight:800,color:h.s===1?C.green:C.red,fontFamily:mono}}>{h.chg}</span></div>
+          <div style={{display:"flex",justifyContent:"space-between",marginTop:6,fontSize:10,color:C.sub,flexWrap:"wrap",gap:4}}><span>Pre: {h.pre}</span><span style={{color:C.orange,fontWeight:700}}>Now: {h.now}</span><span style={{color:isCeasefire?C.green:C.red}}>2wk: {h.proj}</span></div>
+          <div style={{fontSize:10,color:C.muted,marginTop:6,lineHeight:1.7}}>{h.note}</div>
         </div>))}
       </S>
 
       {/* ═══ 3. MILITARY ═══ */}
-      <S id="military" title="Military & Strategic Exposure" sub="Energy infrastructure war + assassination campaign" accent={C.red}>
-        {fullMIL.map((m,i)=>(<div key={i} style={{background:m.lv==="BREAKING"?C.red+"0a":C.card,border:m.lv==="BREAKING"?`1px solid ${C.red}20`:"none",borderRadius:6,padding:10,marginBottom:6,borderLeft:`3px solid ${m.c}`}}>
-          <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",flexWrap:"wrap",gap:4}}><span style={{fontSize:11.5,fontWeight:700,color:C.white,flex:1}}>{m.t}</span><span style={{fontSize:8,padding:"2px 7px",borderRadius:3,background:m.lv==="BREAKING"?C.red:`${m.c}20`,color:m.lv==="BREAKING"?"#fff":m.c,fontWeight:800,whiteSpace:"nowrap"}}>{m.lv}</span></div>
-          <div style={{fontSize:9,color:C.muted,marginTop:5,lineHeight:1.6}}>{m.d}</div>
+      <S id="military" title="Military &amp; Strategic Updates" sub={isCeasefire?"Ceasefire active — diplomatic track + lingering risks":"Energy infrastructure war + assassination campaign"} accent={C.red}>
+        {fullMIL.map((m,i)=>(<div key={i} style={{background:m.lv==="BREAKING"?m.c+"0a":C.card,border:m.lv==="BREAKING"?`1px solid ${m.c}30`:"none",borderRadius:8,padding:12,marginBottom:8,borderLeft:`3px solid ${m.c}`}}>
+          <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",flexWrap:"wrap",gap:6}}><span className="dash-mil-title" style={{fontSize:13,fontWeight:700,color:C.white,flex:1}}>{m.t}</span><span style={{fontSize:9,padding:"3px 9px",borderRadius:3,background:m.lv==="BREAKING"?m.c:`${m.c}20`,color:m.lv==="BREAKING"?"#fff":m.c,fontWeight:800,whiteSpace:"nowrap",letterSpacing:0.5}}>{m.lv}</span></div>
+          <div className="dash-mil-body" style={{fontSize:11,color:C.sub,marginTop:6,lineHeight:1.7}}>{m.d}</div>
         </div>))}
       </S>
 
       {/* ═══ 4. NUCLEAR ═══ */}
-      <S id="nuclear" title="☢️ Nuclear Exposure" sub="Bushehr struck. What does this mean for India?" accent={C.purple}>
-        <div style={{background:C.purple+"0c",border:`1px solid ${C.purple}18`,borderRadius:6,padding:10,marginBottom:12,fontSize:10.5,color:C.sub,lineHeight:1.6}}>
-          <strong style={{color:C.purple}}>Bushehr — a working nuclear reactor — has been struck.</strong> First confirmed hit on an active nuclear facility. 460kg enriched uranium across Iran's sites. Netanyahu claims Iran 'has NO ability to enrich uranium or make ballistic missiles' — but UN watchdog has not confirmed this. Delhi 4-7 days downwind. India has NO iodine program.
+      <S id="nuclear" title="☢️ Nuclear Exposure" sub={isCeasefire?"Ceasefire halts further strikes — but damage already done. IAEA monitoring resumed.":"Bushehr struck. What does this mean for India?"} accent={C.purple}>
+        <div style={{background:C.purple+"0c",border:`1px solid ${C.purple}25`,borderRadius:8,padding:14,marginBottom:14,fontSize:12,color:C.sub,lineHeight:1.7}}>
+          <strong style={{color:C.purple}}>Bushehr — a working nuclear reactor — has been struck.</strong> First confirmed hit on an active nuclear facility. IAEA: strikes 250ft from operating reactor (Apr 7). Rosatom evacuated 200 staff "minutes before plant was hit." 460kg of 60% enriched uranium across Iran's sites. Delhi 4-7 days downwind at 500 hPa. India has NO national iodine prophylaxis program. Ceasefire pauses further risk but does not undo damage.
         </div>
-        {/* ── LIVE WIND FORECAST (Windy.com embed) ── */}
-        <div style={{background:C.card,borderRadius:8,padding:12,marginBottom:12,border:`1px solid ${C.purple}25`}}>
-          <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",marginBottom:8,flexWrap:"wrap",gap:6}}>
+
+        {/* ── LIVE WIND FORECAST WITH NUCLEAR SITE MARKERS ── */}
+        <div style={{background:C.card,borderRadius:10,padding:14,marginBottom:14,border:`1px solid ${C.purple}30`}}>
+          <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",marginBottom:10,flexWrap:"wrap",gap:8}}>
             <div>
-              <div style={{fontSize:11,fontWeight:800,color:C.purple,letterSpacing:1.5,textTransform:"uppercase",fontFamily:mono}}>🌬️ Live Wind Forecast — Iran → India</div>
-              <div style={{fontSize:9,color:C.muted,marginTop:2}}>Real-time atmospheric transport vectors from struck nuclear sites</div>
+              <div style={{fontSize:13,fontWeight:800,color:C.purple,letterSpacing:1.5,textTransform:"uppercase",fontFamily:mono}}>🌬️ Live Wind Forecast — Iran → India</div>
+              <div style={{fontSize:10,color:C.muted,marginTop:3}}>Real-time atmospheric transport vectors at 500 hPa (~5.5 km altitude)</div>
             </div>
-            <div style={{fontSize:8,color:C.cyan,padding:"3px 8px",border:`1px solid ${C.cyan}30`,borderRadius:4,background:C.cyan+"08",fontWeight:600}}>● LIVE • windy.com</div>
+            <div style={{fontSize:9,color:C.cyan,padding:"4px 10px",border:`1px solid ${C.cyan}40`,borderRadius:4,background:C.cyan+"10",fontWeight:700,letterSpacing:0.5}}>● LIVE • windy.com</div>
           </div>
-          <div style={{position:"relative",width:"100%",paddingBottom:"56%",height:0,borderRadius:6,overflow:"hidden",border:`1px solid ${C.border}`}}>
+
+          {/* Iframe + marker overlay container */}
+          <div style={{position:"relative",width:"100%",paddingBottom:"60%",height:0,borderRadius:8,overflow:"hidden",border:`1px solid ${C.border}`,background:"#0a0e17"}}>
             <iframe
-              title="Windy.com wind forecast — Iran nuclear sites to India"
-              src="https://embed.windy.com/embed2.html?lat=28&lon=58&detailLat=32.5&detailLon=51.7&width=650&height=450&zoom=5&level=500h&overlay=wind&product=ecmwf&menu=&message=&marker=true&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=default&metricTemp=default&radarRange=-1"
+              title="Windy.com wind forecast — Iran nuclear sites"
+              src="https://embed.windy.com/embed2.html?lat=30&lon=54&detailLat=32.5&detailLon=51.7&width=650&height=450&zoom=5&level=500h&overlay=wind&product=ecmwf&menu=&message=&marker=true&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=default&metricTemp=default&radarRange=-1"
               style={{position:"absolute",top:0,left:0,width:"100%",height:"100%",border:0}}
               frameBorder="0"
             />
+            {/* Nuclear site markers — absolutely positioned overlay (pointer-events: none so map stays interactive) */}
+            <div style={{position:"absolute",top:0,left:0,width:"100%",height:"100%",pointerEvents:"none"}}>
+              {[
+                {n:"Bushehr",abbr:"B",l:"45%",t:"55%",risk:"HIT"},
+                {n:"Natanz",abbr:"N",l:"49%",t:"38%",risk:"HIT"},
+                {n:"Isfahan",abbr:"I",l:"49%",t:"43%",risk:"HIT"},
+                {n:"Arak",abbr:"A",l:"42%",t:"34%",risk:"HIT"},
+                {n:"Fordow",abbr:"F",l:"47%",t:"32%",risk:"?"},
+                {n:"Yazd",abbr:"Y",l:"55%",t:"44%",risk:"HIT"}
+              ].map((s,i)=>(
+                <div key={i} style={{position:"absolute",left:s.l,top:s.t,transform:"translate(-50%,-50%)"}}>
+                  {/* Pulsing ring */}
+                  <div style={{position:"absolute",top:"50%",left:"50%",transform:"translate(-50%,-50%)",width:24,height:24,borderRadius:"50%",border:`2px solid ${C.red}`,opacity:0.4,animation:"nukepulse 2s ease-out infinite"}}/>
+                  {/* Inner dot */}
+                  <div style={{position:"relative",width:14,height:14,borderRadius:"50%",background:C.red,border:`2px solid #fff`,boxShadow:`0 0 8px ${C.red}`,display:"flex",alignItems:"center",justifyContent:"center"}}>
+                    <span style={{fontSize:8,fontWeight:900,color:"#fff",lineHeight:1}}>{s.abbr}</span>
+                  </div>
+                  {/* Label below */}
+                  <div style={{position:"absolute",top:"calc(100% + 4px)",left:"50%",transform:"translateX(-50%)",background:"rgba(0,0,0,0.85)",border:`1px solid ${C.red}50`,borderRadius:3,padding:"2px 6px",fontSize:8,fontWeight:700,color:"#fff",whiteSpace:"nowrap",fontFamily:mono}}>{s.n}</div>
+                </div>
+              ))}
+            </div>
           </div>
-          <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fit, minmax(140px, 1fr))",gap:6,marginTop:8}}>
-            {[
-              {n:"Bushehr ☢️",lat:"28.83°N",lon:"50.88°E",d:"Reactor — HIT"},
-              {n:"Natanz",lat:"33.72°N",lon:"51.73°E",d:"Enrichment — HIT"},
-              {n:"Isfahan",lat:"32.57°N",lon:"51.81°E",d:"Conversion — HIT"},
-              {n:"Arak",lat:"34.37°N",lon:"49.24°E",d:"Heavy Water — HIT"},
-              {n:"Fordow",lat:"34.88°N",lon:"50.99°E",d:"Underground"},
-              {n:"Yazd",lat:"32.31°N",lon:"53.97°E",d:"Yellowcake — HIT"}
-            ].map((s,i)=>(
-              <div key={i} style={{background:C.bg,borderLeft:`2px solid ${C.purple}`,padding:"5px 7px",borderRadius:3}}>
-                <div style={{fontSize:9,fontWeight:700,color:C.purple}}>{s.n}</div>
-                <div style={{fontSize:7.5,color:C.muted,fontFamily:mono}}>{s.lat} {s.lon}</div>
-                <div style={{fontSize:7.5,color:C.sub,marginTop:1}}>{s.d}</div>
+          <style>{`@keyframes nukepulse{0%{transform:translate(-50%,-50%) scale(0.8);opacity:0.6}100%{transform:translate(-50%,-50%) scale(2.2);opacity:0}}`}</style>
+
+          {/* Legend below the map */}
+          <div style={{display:"flex",alignItems:"center",gap:14,marginTop:10,padding:"8px 12px",background:C.bg,borderRadius:6,flexWrap:"wrap"}}>
+            <div style={{display:"flex",alignItems:"center",gap:6}}>
+              <div style={{width:10,height:10,borderRadius:"50%",background:C.red,border:"2px solid #fff",boxShadow:`0 0 6px ${C.red}`}}/>
+              <span style={{fontSize:10,color:C.sub,fontWeight:600}}>Struck nuclear site</span>
+            </div>
+            <div style={{fontSize:10,color:C.muted}}>B = Bushehr • N = Natanz • I = Isfahan • A = Arak • F = Fordow • Y = Yazd</div>
+          </div>
+
+          <div style={{background:C.amber+"08",border:`1px solid ${C.amber}30`,borderRadius:6,padding:10,marginTop:10,fontSize:10,color:C.sub,lineHeight:1.7}}>
+            <strong style={{color:C.amber}}>⚠️ Methodology:</strong> Map shows <strong>wind direction and speed only</strong> at 500 hPa altitude — the layer most relevant for long-range particulate transport. It does <strong>NOT</strong> show radiation levels or fallout concentration. Wind toward India = potential transport vector if material is released; it does not imply contamination has occurred. Site markers are pinned to the default map view and may misalign if you pan/zoom — refresh to reset. Powered by ECMWF model via Windy.com. For actual fallout modeling, see NOAA HYSPLIT.
+          </div>
+        </div>
+
+        {/* Nuclear sites list */}
+        <div style={{fontSize:10,fontWeight:700,color:C.purple,marginBottom:8,letterSpacing:1.5,textTransform:"uppercase"}}>Site Status</div>
+        {iNukes.map((n,i)=>{
+          const status = n.status || n.st || "";
+          const isHit = status.includes("HIT")||status.includes("DAMAGED")||status.includes("STRUCK")||status.includes("WAR ZONE");
+          return(<div key={i} onClick={()=>setExpNuke(expNuke===i?null:i)} style={{background:C.card,borderRadius:8,padding:12,marginBottom:6,cursor:"pointer"}}>
+            <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",gap:8}}>
+              <div style={{flex:1,minWidth:0}}>
+                <span style={{fontSize:13,fontWeight:700,color:n.risk>85?C.red:n.risk>70?C.orange:C.amber}}>{n.name}</span>
+                <span style={{fontSize:10,color:C.muted,marginLeft:6}}>{n.type}</span>
+              </div>
+              <span style={{fontSize:9,padding:"3px 8px",borderRadius:3,fontWeight:800,background:isHit?C.red+"20":C.orange+"15",color:isHit?C.red:C.orange,whiteSpace:"nowrap"}}>{status}</span>
+            </div>
+            <Bar value={n.risk} color={n.risk>85?C.red:n.risk>70?C.orange:C.amber}/>
+            <div style={{fontSize:10,color:C.muted,marginTop:3,textAlign:"right"}}>{n.risk}/100 {expNuke===i?"▲":"▼"}</div>
+            {expNuke===i&&<div style={{fontSize:11,color:C.sub,marginTop:8,lineHeight:1.7,borderTop:`1px solid ${C.border}`,paddingTop:8}}>{n.info}</div>}
+          </div>);
+        })}
+
+        {/* Indian cities */}
+        <div style={{fontSize:10,fontWeight:700,color:C.pink,marginTop:18,marginBottom:8,letterSpacing:1.5,textTransform:"uppercase"}}>Indian City Exposure</div>
+        {iCities.map((c,i)=>(<div key={i} style={{background:C.card,borderRadius:8,padding:12,marginBottom:6}}>
+          <div style={{display:"flex",justifyContent:"space-between",alignItems:"center"}}>
+            <div>
+              <span style={{fontSize:12,fontWeight:800,color:C.white}}>{c.city}</span>
+              <span style={{fontSize:10,color:C.muted,marginLeft:6}}>{c.pop}</span>
+            </div>
+            <span style={{fontSize:16,fontWeight:900,color:c.tot>55?C.red:c.tot>42?C.orange:C.amber,fontFamily:mono}}>{c.tot}<span style={{fontSize:10}}>/100</span></span>
+          </div>
+          <div style={{display:"flex",gap:8,marginTop:6}}>
+            {[{l:"Wind",v:c.wind,cl:C.orange},{l:"Sea",v:c.sea,cl:C.cyan},{l:"Nuke",v:c.nuke,cl:C.purple}].map((vv,j)=>(
+              <div key={j} style={{flex:1}}>
+                <div style={{fontSize:8.5,color:vv.cl,fontWeight:700}}>{vv.l}: {vv.v}</div>
+                <Bar value={vv.v} color={vv.cl} h={4}/>
               </div>
             ))}
           </div>
-          <div style={{background:C.amber+"08",border:`1px solid ${C.amber}25`,borderRadius:4,padding:8,marginTop:8,fontSize:8.5,color:C.sub,lineHeight:1.6}}>
-            <strong style={{color:C.amber}}>⚠️ Methodology:</strong> This map shows <strong>wind direction and speed only</strong> at 500 hPa (~5.5 km altitude — the layer most relevant for long-range particulate transport). It does <strong>NOT</strong> show radiation levels or fallout concentration. Wind toward India = potential transport vector if radioactive material is released; it does not imply contamination has occurred. Powered by ECMWF model via Windy.com. For actual fallout modeling, see NOAA HYSPLIT. Tap the layers icon on the map to toggle particulates, pressure, or surface winds.
-          </div>
-        </div>
-        {NUKES.map((n,i)=>(<div key={i} onClick={()=>setExpNuke(expNuke===i?null:i)} style={{background:C.card,borderRadius:6,padding:10,marginBottom:5,cursor:"pointer"}}>
-          <div style={{display:"flex",justifyContent:"space-between",alignItems:"center"}}><div><span style={{fontSize:12,fontWeight:700,color:n.risk>85?C.red:n.risk>70?C.orange:C.amber}}>{n.name}</span><span style={{fontSize:9,color:C.muted,marginLeft:5}}>{n.type}</span></div><span style={{fontSize:8.5,padding:"2px 6px",borderRadius:3,fontWeight:800,background:n.st.includes("HIT")||n.st.includes("DAMAGED")||n.st.includes("STRUCK")?C.red+"15":C.orange+"12",color:n.st.includes("HIT")||n.st.includes("DAMAGED")||n.st.includes("STRUCK")?C.red:C.orange}}>{n.st}</span></div>
-          <Bar value={n.risk} color={n.risk>85?C.red:n.risk>70?C.orange:C.amber}/><div style={{fontSize:9,color:C.muted,marginTop:2,textAlign:"right"}}>{n.risk}/100 {expNuke===i?"▲":"▼"}</div>
-          {expNuke===i&&<div style={{fontSize:9,color:C.sub,marginTop:5,lineHeight:1.6,borderTop:`1px solid ${C.border}`,paddingTop:5}}>{n.info}</div>}
-        </div>))}
-        <div style={{fontSize:9,fontWeight:700,color:C.pink,marginTop:16,marginBottom:6,letterSpacing:1,textTransform:"uppercase"}}>Indian City Exposure</div>
-        {CITIES.map((c,i)=>(<div key={i} style={{background:C.card,borderRadius:6,padding:10,marginBottom:5}}>
-          <div style={{display:"flex",justifyContent:"space-between",alignItems:"center"}}><div><span style={{fontSize:11,fontWeight:800,color:C.white}}>{c.city}</span><span style={{fontSize:8.5,color:C.muted,marginLeft:5}}>{c.pop}</span></div><span style={{fontSize:14,fontWeight:900,color:c.tot>55?C.red:c.tot>42?C.orange:C.amber,fontFamily:mono}}>{c.tot}<span style={{fontSize:8.5}}>/100</span></span></div>
-          <div style={{display:"flex",gap:6,marginTop:5}}>{[{l:"Wind",v:c.wind,cl:C.orange},{l:"Sea",v:c.sea,cl:C.cyan},{l:"Nuke",v:c.nuke,cl:C.purple}].map((vv,j)=>(<div key={j} style={{flex:1}}><div style={{fontSize:6,color:vv.cl,fontWeight:600}}>{vv.l}: {vv.v}</div><Bar value={vv.v} color={vv.cl} h={4}/></div>))}</div>
-          <div style={{fontSize:8.5,color:C.muted,marginTop:4,lineHeight:1.5}}>{c.info}</div>
+          <div style={{fontSize:10,color:C.muted,marginTop:6,lineHeight:1.6}}>{c.info}</div>
         </div>))}
       </S>
 
