@@ -1,100 +1,104 @@
 {
-  "_updated": "April 8, 2026 — 8:00 AM IST",
+  "_updated": "April 8, 2026 — 1:00 PM IST",
   "_day": 40,
   "_phase": "CEASEFIRE",
-  "_note": "Verified: NBC, ABC, CBS, CNN, Al Jazeera, NPR, Axios, Bloomberg, Reuters. Pakistan brokered. 2-week pause. Talks Fri Apr 10 Islamabad.",
+  "_note": "Verified: NBC, ABC, CBS, CNN, NPR, Bloomberg, Reuters, BusinessToday, ANI, Free Press Journal, Indiablooms. Sensex +2,775. Brent crashed 13%. RBI held rates 5.25%. Ceasefire holding, Lebanon excluded.",
 
   "ticker": [
-    "🟢 CEASEFIRE: 2-week pause announced. Pakistan brokered. Trump suspended strikes. Iran accepted. Hormuz reopening with Iranian coordination",
-    "🇵🇰 Talks open Fri Apr 10 in ISLAMABAD. VP Vance leading US delegation. Israel agreed. Lebanon ceasefire included",
-    "💰 OIL CRASHED 8% — US crude $117→$103. Brent ~$95. S&P futures +1.6%. Sensex set for huge gap-up open",
-    "🇮🇷 Iran declared 'VICTORY' — Trump accepted Iran's 10-point plan as 'general framework' for negotiations",
-    "🚢 INDIA WIN: 8 of 9 LPG carriers extracted before ceasefire. Only Jag Vikram still in Gulf — now safer to cross",
-    "🇮🇳 Jaishankar-Araghchi call validated India's all-sides diplomacy. India quiet backer of Pakistan brokering",
-    "⚠️ Ceasefire is FRAGILE — only 14 days. Iran demands sanctions lift + reconstruction. Hezbollah did not sign",
-    "📉 Saudi Aramco hiked Asia oil to RECORD just before ceasefire. EIA: full supply recovery only by late 2026",
-    "🌐 DAY 40. The war is PAUSED. India enters this moment in the strongest possible strategic position"
+    "🚀 SENSEX +2,775 (3.71%) → 77,392! Nifty +815 (3.52%) → 23,938! Biggest single-day gain in years on ceasefire euphoria",
+    "🛢️ BRENT CRASHED 13.24% to $94.80. WTI -13.76% to $97.41. Oil 'war premium' wiped out overnight",
+    "🏦 RBI HELD repo rate at 5.25% (Sanjay Malhotra). 'Prudent to wait and watch.' CPI FY27 projection: 4.6%",
+    "✈️ IndiGo +9-10%, Aviation stocks up to 11%! L&T +7%, Bajaj Finance +5%, Adani Ports +6%, Realty index +5%",
+    "🇮🇷 Iran-Oman to charge $2M PER SHIP for Hormuz transit (NYT) — for reconstruction. Iran calls it 'historic victory'",
+    "⚠️ Lebanon NOT in ceasefire (Netanyahu confirmed). Israel airstrike on Saida vehicle today. 1,530+ Lebanese dead since March",
+    "🇮🇳 RELIANCE bought 2 MILLION barrels Iranian crude DIRECTLY (Apr 7) — Mukesh Ambani's big power move before ceasefire",
+    "🚢 1,500+ ships waiting off Oman/UAE coasts. Only ~5% of pre-war Hormuz traffic flowing. Reopening will take days",
+    "🇵🇰 Talks open Friday Apr 10 ISLAMABAD. New Supreme Leader Mojtaba Khamenei approved deal. VP Vance leading US side",
+    "🌐 DAY 40, 1 PM IST: The relief rally is REAL. India entered as the war's quietest winner — diplomacy + energy + markets all delivering"
   ],
 
   "whatChanged": {
-    "label": "WHAT CHANGED — APR 8, 8:00 AM IST (DAY 40 — CEASEFIRE)",
+    "label": "WHAT CHANGED — APR 8, 1:00 PM IST (DAY 40 — CEASEFIRE HOLDING)",
     "items": [
-      {"color": "green", "bold": "2-WEEK CEASEFIRE — Trump suspended strikes, Iran accepted.", "text": " Trump on Truth Social: 'I agree to suspend the bombing and attack of Iran for a period of two weeks. This will be a double sided CEASEFIRE!' Subject to Iran 'COMPLETE, IMMEDIATE, and SAFE OPENING of the Strait of Hormuz.' Iran FM Araghchi confirmed safe passage via coordination. US Defense official: ceasefire now in effect."},
-      {"color": "cyan", "bold": "Pakistan brokered the deal — Talks Friday Islamabad.", "text": " PM Shehbaz Sharif + Field Marshal Asim Munir convinced Trump in last-minute calls to 'hold off the destructive force being sent tonight.' Talks open Apr 10 Islamabad. VP Vance leading US delegation. Sharif called it 'sagacious gesture.' India quiet backer (Jaishankar-Araghchi call earlier)."},
-      {"color": "green", "bold": "Oil crashed 8% — Markets ripped higher globally.", "text": " US crude $117 to $103 in minutes. Brent dropped to ~$95. S&P 500 futures +1.6%. Nasdaq +1.8%. Dow futures +725. Indian markets open in ~1 hour to expected massive gap-up. India's strategic energy positioning fully vindicated."},
-      {"color": "purple", "bold": "Iran declared VICTORY — 10-point plan accepted as framework.", "text": " Supreme National Security Council: 'POTUS announced acceptance of general framework of Iran's 10-point proposal.' Iran sees this as strategic win. Demands include Hormuz protocol, sanctions lift, reconstruction, permanent end to war."},
-      {"color": "orange", "bold": "Israel agreed — Lebanon included.", "text": " Pakistan PM said deal applies in Lebanon (where Israel has been invading). Tough for Netanyahu who along with Saudi + UAE + Sen Graham had urged REJECTION. Vance + Witkoff advised acceptance. Hezbollah did NOT sign on."},
-      {"color": "red", "bold": "Hours BEFORE the deal — near-catastrophe.", "text": " Trump warned 'a whole civilization will die tonight.' US struck Kharg Island oil hub. Israel hit Sharif University + Rafi Niya synagogue (destroyed). 18 civilians killed in one province. Iranian youth formed human chains around power plants. IAEA: strikes 250ft from Bushehr operating reactor."}
+      {"color": "green", "bold": "SENSEX +2,775 (3.71%) to 77,392 — BIGGEST GAIN IN YEARS.", "text": " Nifty +815 (+3.52%) to 23,938 — near 24,000. Brent crashed 13.24% to $94.80. WTI -13.76% to $97.41. Asian markets exploded: Nikkei +5.28%, KOSPI +5.61%, Hang Seng +3.04%. Indian aviation +9-11%, realty +5%, banks +3-4%, autos +3-4%. Tech Mahindra only laggard. The war premium has been wiped out."},
+      {"color": "cyan", "bold": "RBI held repo rate at 5.25% — 'wait and watch.'", "text": " Sanjay Malhotra: status quo, neutral stance maintained. CPI FY27 projection: 4.6%. RBI flagged West Asia as 'supply shock.' Home loan EMIs unchanged. Borrowers save up to ₹13.9 lakh. Banks net open positions still capped at $100M to defend rupee. Rupee strengthening below 92.50."},
+      {"color": "purple", "bold": "Reliance bought 2 MILLION barrels Iranian crude DIRECTLY (Apr 7).", "text": " Mukesh Ambani's 'big power move' before ceasefire. India is now buying from USA, Russia, Iran, Australia simultaneously — most aggressive all-sides energy diplomacy in Indian history. Sea Bird (Iranian LPG, 44k MT) at Mangalore. India has officially returned as Iran's customer for first time in 7 years."},
+      {"color": "orange", "bold": "Hormuz to be jointly tolled by Iran + Oman — $2 MILLION per ship.", "text": " Per New York Times. Funds earmarked for Iranian reconstruction. Trump on Truth Social: 'big money will be made... Golden Age of the Middle East.' But still only ~5% of pre-war Hormuz traffic flowing. ~1,500 ships waiting off Oman/UAE coasts. Reopening will take days, not hours."},
+      {"color": "red", "bold": "Lebanon NOT in ceasefire — Israel still hitting today.", "text": " Netanyahu's office clarified: deal does NOT include Lebanon (contradicts Pakistan PM's earlier statement). Israeli airstrike on vehicle in Saida, Lebanon today. 1,530+ Lebanese killed since March 2 incl 130 children. Hezbollah did not sign on. Israel + UAE both had missile alerts early Wednesday — possible last-minute violations during transition."},
+      {"color": "green", "bold": "India = the quietest winner of the war.", "text": " Sensex/Nifty massive rally. RBI room to ease later. 8 LPG carriers extracted before ceasefire. Reliance in directly with Iran. Jaishankar-Araghchi diplomatic call. 51 lakh cylinders delivered Mon. ZERO LPG dry-outs. India supplied fuel to 5 neighbors throughout. Pakistan brokered with India as quiet backer. Strategic foresight from Day 1 has paid off."}
     ]
   },
 
   "deaths": "5,900+",
-  "deathsSub": "3,519+ Iran (HRANA), 1,300+ Lebanon, 99 Iraq, 29 Israel, 13 US (373 wounded), 30+ Gulf",
+  "deathsSub": "3,519+ Iran (HRANA), 1,530+ Lebanon, 99 Iraq, 29 Israel, 13 US (373 wounded), 30+ Gulf",
 
   "econ": {
-    "sensex": "75,500*",
-    "sensexDelta": "Wed gap-up expected",
-    "sensexSub": "Tue close 73,800. Ceasefire = relief rally",
-    "vix": "18.5*",
-    "vixDelta": "collapse expected",
-    "fpi": "$12.4B+",
-    "fpiDelta": "FII return likely",
-    "wealth": "₹44L+ Cr",
-    "analysis": "DAY 40 — CEASEFIRE: Trump suspended strikes for 2 weeks. Iran accepted. Pakistan brokered. Hormuz reopening with Iranian coordination. Talks Fri Apr 10 Islamabad. Oil crashed 8% (US crude $117 to $103, Brent ~$95). S&P +1.6%, Nasdaq +1.8%, Dow +725 in futures. Indian markets open to expected massive gap-up. India's strategic positioning vindicated — 8 LPG carriers extracted, Jaishankar-Araghchi diplomatic channels active. Energy crisis softens dramatically."
+    "sensex": "77,392",
+    "sensexDelta": "▲ +2,775 (+3.71%)",
+    "sensexSub": "Biggest single-day gain in years",
+    "vix": "16.8",
+    "vixDelta": "▼ collapsed from 26.19",
+    "fpi": "FII reversing",
+    "fpiDelta": "DII strong support",
+    "wealth": "₹44L+ Cr (recovering)",
+    "analysis": "DAY 40, 1 PM IST: THE RELIEF RALLY IS REAL. Sensex closed +2,775 (+3.71%) at 77,392 — biggest single-day gain in years. Nifty +815 (+3.52%) to 23,938. Brent crashed 13.24% to $94.80. WTI -13.76%. RBI held rates at 5.25% (Sanjay Malhotra), maintained neutral stance, CPI FY27 projection 4.6%. Aviation stocks +9-11% (IndiGo, GMR, SpiceJet). L&T +7%. Realty index +5%. Asian markets exploded. Reliance bought 2M barrels Iranian crude direct. India = quiet winner of the war."
   },
 
   "hormuzStatus": {
-    "status": "REOPENING (CEASEFIRE)",
+    "status": "REOPENING (CEASEFIRE — DAY 1)",
     "preWarFlow": "~130 ships/day",
-    "currentFlow": "Reopening — 53 ships last week (most since war)",
-    "reduction": "Easing from 95% blockade",
+    "currentFlow": "~5% of pre-war flow (rebuilding)",
+    "reduction": "1,500+ ships waiting off Oman/UAE",
     "indianVesselsNear": 8,
     "indianSeafarers": 280,
     "indianTransited": 10,
-    "totalShipsWaiting": "Iraq exempted. Japan + France + Oman crossed",
-    "lastTransit": "Green Asha (Apr 6, 8th LPG) — only Jag Vikram remains",
-    "indianNavyEscort": "Op Urja Suraksha — 5+ warships still active",
+    "totalShipsWaiting": "Iran-Oman to charge $2M/ship for transit (NYT)",
+    "lastTransit": "Reopening first vessels expected next 24-48 hrs",
+    "indianNavyEscort": "Op Urja Suraksha — 5+ warships standing by",
     "headline": "HORMUZ REOPENING — 2-WEEK CEASEFIRE WINDOW"
   },
 
   "hormuzEvents": [
-    {"d": "Apr 8", "e": "CEASEFIRE in effect. Hormuz reopening 2 weeks via Iranian coordination. India's pre-positioning fully vindicated."},
-    {"d": "Apr 7", "e": "Trump 2-week ceasefire announced. Iran accepted. Pakistan brokered. Talks Fri Islamabad. Oil crashed 8%."},
-    {"d": "Apr 6", "e": "Green Asha crosses (8th Indian LPG). Hormuz easing: 53 ships last week. Iraq exempted. Iran-Oman joint regulation meeting."},
-    {"d": "Apr 5", "e": "Trump renewed deadline to Tuesday. Iranian FM called Jaishankar. India: 'supports ongoing efforts to stop war.'"},
-    {"d": "Apr 4", "e": "Green Sanvi crosses (7th Indian LPG, 46,650 MT). Sea Bird (Iranian LPG) at Mangalore. F-15E officer rescued from Iran mountains."},
-    {"d": "Apr 3", "e": "F-15E shot down over Iran. A-10 down near Hormuz. CMA CGM Kribi (1st French ship) crosses. UAE: 500+ missiles intercepted total."},
-    {"d": "Apr 2", "e": "India Foreign Sec joins 60+ nation UK-led Hormuz talks. India supplies fuel to Bangladesh, Nepal, Bhutan, Sri Lanka, Maldives."},
-    {"d": "Apr 1", "e": "BW Elm at Mangalore. Iran parliament approved permanent Hormuz tolls."},
-    {"d": "Mar 31", "e": "BW Tyr docks Mumbai (94,000 MT LPG). Kuwaiti VLCC struck near Dubai."},
+    {"d": "Apr 8 PM", "e": "Sensex +2,775 (+3.71%) to 77,392. Nifty +815 to 23,938. Brent -13.24% to $94.80. RBI held rates at 5.25%. India aviation +9-11%."},
+    {"d": "Apr 8 AM", "e": "CEASEFIRE in effect. Hormuz reopening 2 weeks. Iran-Oman to charge $2M per ship for transit. ~5% of pre-war flow. 1,500 ships waiting."},
+    {"d": "Apr 7 PM", "e": "Trump 2-week ceasefire announced ~midnight ET. Pakistan brokered. Iran SNSC accepted (Mojtaba Khamenei approved). Talks Fri Islamabad. Lebanon NOT included."},
+    {"d": "Apr 7", "e": "Reliance bought 2 million barrels Iranian crude DIRECTLY — Mukesh Ambani's big power move before ceasefire."},
+    {"d": "Apr 7", "e": "Trump rejected initial 45-day ceasefire as 'not good enough.' Threatened 'whole civilization will die tonight.' Kharg Island struck."},
+    {"d": "Apr 6", "e": "Green Asha crosses (8th Indian LPG). Hormuz easing: 53 ships last week. Iraq exempted. Iranian FM Araghchi called EAM Jaishankar."},
+    {"d": "Apr 5", "e": "F-15E officer rescued from Iran mountains. Sea Bird (Iranian LPG, 44k MT) at Mangalore — first Iranian LPG to India in 7 years."},
+    {"d": "Apr 4", "e": "Green Sanvi crosses (7th Indian LPG, 46,650 MT) → Mumbai Apr 6. F-15E shot down over Iran. A-10 down near Hormuz."},
+    {"d": "Apr 3", "e": "CMA CGM Kribi (1st French ship) crosses. UAE: 500+ missiles intercepted total. Indian Foreign Sec joins 60+ nation Hormuz talks."},
+    {"d": "Mar 31", "e": "BW Tyr docks Mumbai (94,000 MT LPG). India supplies fuel to Bangladesh, Nepal, Bhutan, Sri Lanka, Maldives."},
     {"d": "Mar 25", "e": "Pine Gas + Jag Vasant (Indian LPG, 92,612 MT) cross Hormuz."},
     {"d": "Mar 19", "e": "Aramco Yanbu hit. Ras Laffan: $20B loss, 3-5yr repair. QatarEnergy force majeure."},
-    {"d": "Mar 14", "e": "Shivalik + Nanda Devi (Indian LPG) cross under Indian Navy escort — first to break the blockade."},
+    {"d": "Mar 14", "e": "Shivalik + Nanda Devi (Indian LPG) cross under Indian Navy escort — first carriers to break the blockade."},
     {"d": "Mar 4", "e": "IRIS Dena torpedoed off Sri Lanka. 87 killed."}
   ],
 
   "kitchen": [
-    {"item": "LPG Cylinder (14.2kg)", "pre": "₹853", "now": "₹913", "chg": "Easing post-ceasefire", "proj": "₹880 by Apr 15", "note": "Ceasefire = LPG cargoes flowing again. 8 Indian LPG tankers extracted. Sea Bird (Iranian LPG, 44k MT) at Mangalore. PIB: 30+ days stock, ZERO dry-outs throughout war. 51 lakh cylinders delivered Mon (95% online). USA = #1 LPG supplier. Production up 40% to ~50,000 MT/day during crisis. Prices likely to ease as Brent drops from $117 to $95.", "s": 1},
-    {"item": "Natural Gas (PNG/CNG)", "pre": "Normal", "now": "Recovering", "chg": "Ras Laffan still damaged", "proj": "Tight through 2026", "note": "Ras Laffan (17% of LNG capacity) still 3-5 years to fully repair. QatarEnergy force majeure may ease but won't lift immediately. Eurasia Group: 'months to repair refineries even with ceasefire.' India 60% gas from ME — long-term costs structurally higher. CNG/piped gas supply takes weeks to normalize.", "s": 2},
-    {"item": "Petrol (Delhi)", "pre": "₹94.72/L", "now": "₹94.77/L", "chg": "Hike risk receding", "proj": "Stable if Brent <$100", "note": "Govt cut excise ₹10/L (₹13 to ₹3) but OMCs absorbed it. Ceasefire = Brent dropping to ~$95. If holds, no retail hike needed. Mumbai ₹103.54. Elara: above $110 crude → ₹8-14/L hike inevitable; below = stability returns.", "s": 1},
-    {"item": "LPG Commercial (19kg)", "pre": "₹1,740", "now": "₹1,885", "chg": "+₹145 (8.3%)", "proj": "Easing to ₹1,750 by Apr 15", "note": "Ceasefire restores supply. Restaurants reopening. Bengaluru cafes dropping 'Gas Crisis Charge.' Delhi commercial cap likely to lift. Bakeries resuming normal operations. Recovery faster than residential as commercial markets price more dynamically.", "s": 2},
-    {"item": "Diesel (Delhi)", "pre": "₹87.62/L", "now": "₹87.67/L", "chg": "Hike risk receding", "proj": "Stable", "note": "Govt cut excise ₹10 to 0/L; OMCs absorbed. Trucking costs stable. ₹2,500cr/year exposure per ₹1 rise neutralized. Mumbai ₹90.03. Ceasefire removes immediate hike pressure.", "s": 1},
-    {"item": "Cooking Oil", "pre": "~₹140/L", "now": "~₹155-165/L", "chg": "Easing slowly", "proj": "₹150-160/L by May", "note": "Palm +5%, Sunflower +16% (Nomura). Rupee strengthening below 92 = imports cheaper. Ceasefire eases shipping costs from Indonesia/Malaysia. Fertilizer 50% spike will take longer to unwind — Kharif costs still elevated.", "s": 2},
-    {"item": "Vegetables/Onion", "pre": "Stable", "now": "Easing", "chg": "Transport normalizing", "proj": "Pre-war by May", "note": "400K tons Basmati stuck during war — now releasing. Diesel costs stable. 30% of fertilizers transit Hormuz — reopening = Kharif crop relief. Onion ~₹50/kg holding.", "s": 1},
-    {"item": "Air Travel (IndiGo)", "pre": "Normal", "now": "Surcharge ₹275-₹10K", "chg": "Likely to drop", "proj": "Surcharge phased out by Apr 30", "note": "IndiGo fuel surcharge ₹275-₹10,000/ticket from Apr 1. Jet fuel past ₹2L/kL. With Brent dropping to ~$95, ATF costs ease. Surcharge expected to phase out within 3 weeks. Korean Air, Philippines normalizing. China lifting jet fuel export bans.", "s": 2},
+    {"item": "LPG Cylinder (14.2kg)", "pre": "₹853", "now": "₹913", "chg": "Easing — Brent $94.80", "proj": "₹880 by Apr 15", "note": "Brent crashed 13% to $94.80 today on ceasefire. LPG cargoes flowing again. 8 Indian LPG tankers extracted. Sea Bird (Iranian LPG) at Mangalore. Reliance bought 2M barrels Iranian crude direct (Apr 7). 51 lakh cylinders delivered Mon (95% online). PIB: 30+ days stock, ZERO dry-outs throughout war. Prices likely to ease over 2 weeks as cargoes arrive.", "s": 1},
+    {"item": "Natural Gas (PNG/CNG)", "pre": "Normal", "now": "Recovering", "chg": "Ras Laffan still damaged", "proj": "Tight through 2026", "note": "Ras Laffan (17% of LNG capacity) still 3-5 years to fully repair. QatarEnergy force majeure may ease. Eurasia Group: 'months to repair refineries even with ceasefire.' India 60% gas from ME — long-term costs structurally higher. CNG/piped gas supply takes weeks to normalize even with ceasefire holding.", "s": 2},
+    {"item": "Petrol (Delhi)", "pre": "₹94.72/L", "now": "₹94.77/L", "chg": "Hike risk gone with Brent <$100", "proj": "Stable / mild cut likely", "note": "Brent at $94.80 = OMCs profitable again. Govt cut excise ₹10/L (₹13 to ₹3) but OMCs absorbed it. With Brent below $100, retail hike is OFF the table. Possible mild cut by month-end if Brent stays sub-$95. Mumbai ₹103.54.", "s": 1},
+    {"item": "LPG Commercial (19kg)", "pre": "₹1,740", "now": "₹1,885", "chg": "+₹145 (8.3%)", "proj": "Cut to ~₹1,750 by Apr 20", "note": "Ceasefire restores supply. Restaurants reopening. Bengaluru cafes dropping 'Gas Crisis Charge.' Delhi commercial cap likely to lift. Bakeries resuming normal operations. Recovery faster than residential as commercial markets price more dynamically.", "s": 2},
+    {"item": "Diesel (Delhi)", "pre": "₹87.62/L", "now": "₹87.67/L", "chg": "Hike risk gone", "proj": "Stable / mild cut", "note": "Govt cut excise ₹10 to 0/L; OMCs absorbed. Trucking costs stable. ₹2,500cr/year exposure per ₹1 rise neutralized. Mumbai ₹90.03. Ceasefire + Brent crash removes immediate hike pressure entirely.", "s": 1},
+    {"item": "Cooking Oil", "pre": "~₹140/L", "now": "~₹155-165/L", "chg": "Easing slowly", "proj": "₹150-160/L by May", "note": "Palm +5%, Sunflower +16%. Rupee strengthening below 92.50 = imports cheaper. Ceasefire eases shipping costs from Indonesia/Malaysia. Fertilizer 50% spike will take longer to unwind — Kharif costs still elevated.", "s": 2},
+    {"item": "Vegetables/Onion", "pre": "Stable", "now": "Easing", "chg": "Transport normalizing", "proj": "Pre-war by May", "note": "400K tons Basmati stuck during war — now releasing as Hormuz reopens. Diesel costs stable. 30% of fertilizers transit Hormuz — reopening = Kharif crop relief. Onion ~₹50/kg holding.", "s": 1},
+    {"item": "Air Travel (IndiGo)", "pre": "Normal", "now": "Surcharge ₹275-₹10K", "chg": "Surcharge to drop", "proj": "Phased out by Apr 30", "note": "IndiGo stock JUMPED 9-11% TODAY on ceasefire (top Nifty gainer). Brent at $94.80 = ATF costs easing fast. Surcharge expected to phase out within 2-3 weeks. Aviation index up 11%. GMR Airports, SpiceJet, Dreamfolks all up. Korean Air, Philippines normalizing.", "s": 1},
     {"item": "Medicine (API)", "pre": "Stable", "now": "+30% raw material", "chg": "Q1 FY27 impact", "proj": "Easing by Q2", "note": "API costs +30%. Tofigh Daru pharma plant in Iran bombed Apr 3. Indian pharma margins squeezed. Ceasefire restores some Iranian supply chains. Q1 FY27 reports will show full impact; Q2 should see normalization.", "s": 2}
   ],
 
   "military": [
-    {"t": "🟢 2-WEEK CEASEFIRE — Trump Suspends Strikes, Iran Accepts", "lv": "BREAKING", "color": "green", "d": "Trump on Truth Social: 'COMPLETE, IMMEDIATE, and SAFE OPENING of Strait of Hormuz' in exchange for 2-week strike suspension. 'Double sided CEASEFIRE!' Iran accepted via FM Araghchi: 'safe passage via coordination with Iran's Armed Forces.' US Defense official: ceasefire now in effect, US suspended all strikes. Israel agreed. Lebanon included. War PAUSED."},
+    {"t": "🚀 Sensex +2,775 → 77,392! Brent Crashed 13% to $94.80", "lv": "BREAKING", "color": "green", "d": "Biggest single-day gain in years on ceasefire euphoria. Nifty +815 to 23,938 (near 24,000). Brent crude crashed 13.24% to $94.80. WTI -13.76% to $97.41. IndiGo +9-10% (top gainer). L&T +7%. Bajaj Finance +5%. Adani Ports +6%. Realty index +5%. Auto +3-4%. PSU + private banks +3-4%. Tech Mahindra only laggard. Asian markets exploded: Nikkei +5.28%, KOSPI +5.61%."},
+    {"t": "🟢 2-WEEK CEASEFIRE — Trump Suspends Strikes, Iran Accepts", "lv": "BREAKING", "color": "green", "d": "Trump on Truth Social: 'COMPLETE, IMMEDIATE, and SAFE OPENING of Strait of Hormuz' in exchange for 2-week strike suspension. 'Double sided CEASEFIRE!' Iran SNSC accepted with new Supreme Leader Mojtaba Khamenei's approval. Iran FM Araghchi: 'safe passage via coordination with Iran's Armed Forces.' US Defense official: ceasefire now in effect, US suspended all strikes."},
     {"t": "🇵🇰 Pakistan Brokered — Talks Friday in Islamabad", "lv": "BREAKING", "color": "cyan", "d": "PM Sharif + Field Marshal Asim Munir convinced Trump to hold off 'destructive force being sent tonight.' Talks open Apr 10 Islamabad. VP Vance likely leading US delegation. Vance + Witkoff advised acceptance. Sharif: 'sagacious gesture, both parties displayed remarkable wisdom.' India quiet diplomatic backer (Jaishankar-Araghchi call earlier in week)."},
-    {"t": "💰 Oil Crashes 8% — Markets Rip Higher Globally", "lv": "BREAKING", "color": "green", "d": "US crude $117 to $103 in minutes. Brent fell to ~$95. S&P 500 futures +1.6%. Nasdaq 100 +1.8%. Dow futures +725. Indian markets open to expected massive gap-up. India's strategic energy positioning fully vindicated — 8 LPG carriers extracted before ceasefire."},
-    {"t": "🚢 Green Asha Crosses — 8 Indian LPG Carriers Now Safe", "lv": "DEVELOPING", "color": "green", "d": "First MID-SIZE gas carrier to cross (previous 7 were VLGCs). Reuters/LSEG/Kpler confirmed Apr 6. Only Jag Vikram (Indian LPG) remains awaiting clearance — now much safer to extract during ceasefire window. India's energy pipeline fully secured."},
-    {"t": "🇮🇳 Jaishankar-Araghchi Call + India Quiet Diplomacy", "lv": "DEVELOPING", "color": "cyan", "d": "Iranian FM called EAM Jaishankar Apr 6 — 'India supports ongoing efforts to stop war.' Qatar PM also called India in mediation outreach. Pakistan brokered = India is quiet diplomatic backer. India playing ALL sides — diplomatic + energy. 51 lakh LPG cylinders delivered Mon. 345 Indian fishermen returned from Iran."},
-    {"t": "🟡 F-15E Officer RESCUED (Sun Apr 5) — 36hrs in Mountains", "lv": "DEVELOPING", "color": "amber", "d": "Colonel hid 36+ hours in mountain crevice in Khuzestan with pistol + tracking beacon. US commandos swarmed mountains, dropped bombs to clear area. CIA deception campaign. 'Seriously wounded but really brave' — Trump. First US aircrew recovery from enemy territory since Bosnia 1995. Removed POW crisis risk that almost derailed talks."},
-    {"t": "⚠️ Tuesday Pre-Ceasefire Escalation — Kharg Island Hit", "lv": "CRITICAL", "color": "red", "d": "Hours before ceasefire, US struck Kharg Island oil export hub (90% of Iran's exports). Israel hit Sharif University of Technology + Rafi Niya synagogue (destroyed). 18 civilians killed in one Iranian province. Iranian youth formed human chains around power plants. Iran threatened UAE AI center. Trump warned 'a whole civilization will die tonight.'"},
-    {"t": "☢️ IAEA: Strikes 250ft from Bushehr Reactor", "lv": "CRITICAL", "color": "purple", "d": "IAEA chief Grossi: strikes near operating Bushehr plant including one 250 feet away. 'A nuclear facility and surrounding areas should never be struck.' Rosatom evacuated 200 staff 'minutes before the plant was hit.' 1 security guard killed. Only ~100 Russian staff remain. Bushehr now active war zone — but ceasefire halts further risk."},
-    {"t": "🇮🇷 Iran Claims Struck US LHA7 Amphibious Ship", "lv": "DEVELOPING", "color": "orange", "d": "IRGC: 'forced retreat to southern Indian Ocean.' US not confirmed. 15 Americans hurt at Ali Al Salem base Kuwait. 373 US troops wounded total (up from 365). UAE: 500 ballistic missiles + 2,100 drones intercepted total since Feb 28. Saudi Aramco hiked Asia oil price to RECORD premium just before ceasefire."},
+    {"t": "🏦 RBI Held Rates at 5.25% — Wait and Watch", "lv": "DEVELOPING", "color": "cyan", "d": "Sanjay Malhotra: 'Prudent to wait and watch.' Repo rate unchanged at 5.25% for second consecutive meeting. Neutral stance maintained. CPI FY27 projection: 4.6%. Home loan EMIs unchanged — borrowers save up to ₹13.9 lakh. RBI flagged West Asia as 'supply shock.' Banks net open positions still capped at $100M. With Brent crashing to $94.80, RBI now has room for future rate cuts if needed."},
+    {"t": "🇮🇳 Reliance Bought 2 MILLION Barrels Iranian Crude (Apr 7)", "lv": "DEVELOPING", "color": "cyan", "d": "Mukesh Ambani's 'big power move' before ceasefire. India now officially buying from USA, Russia, Iran, Australia simultaneously. Sea Bird (Iranian LPG, 44k MT) at Mangalore. Jaishankar-Araghchi call: 'India supports ongoing efforts to stop war.' 51 lakh LPG cylinders delivered Mon. 345 Indian fishermen returned. India = quiet winner of the war."},
+    {"t": "🚢 Hormuz to be Tolled — $2M Per Ship by Iran-Oman", "lv": "DEVELOPING", "color": "orange", "d": "NYT: Iran-Oman jointly will charge $2 million per ship for Hormuz transit during 2-week ceasefire window. Funds earmarked for Iranian reconstruction. Trump: 'big money will be made... Golden Age of the Middle East.' Currently only ~5% of pre-war traffic flowing. 1,500+ ships waiting off Oman/UAE coasts. Reopening will take days, not hours."},
+    {"t": "⚠️ Lebanon NOT in Ceasefire — Israel Strikes Continue", "lv": "CRITICAL", "color": "red", "d": "Netanyahu's office clarified: ceasefire does NOT cover Lebanon (contradicts Pakistan PM's earlier statement). Israeli airstrike on vehicle in Saida, Lebanon today (Apr 8). 1,530+ Lebanese killed since March 2 incl 130 children. Hezbollah did not sign on. Israeli officials 'skeptical' the broader ceasefire holds. Israel + UAE missile alerts early Wednesday — possible transition violations."},
+    {"t": "🚢 Green Asha + 7 More — India's Full LPG Fleet Extracted", "lv": "DEVELOPING", "color": "green", "d": "Green Asha (8th Indian LPG, first MID-SIZE gas carrier) crossed Apr 6. Reuters/LSEG/Kpler confirmed. Only Jag Vikram (Indian LPG) remains awaiting clearance — now much safer to extract during ceasefire window. India's energy pipeline fully secured BEFORE ceasefire. Strategic vindication. 60 days fuel stock. Zero dry-outs."},
+    {"t": "🟡 F-15E Officer RESCUED (Sun Apr 5) — Hostage Crisis Averted", "lv": "DEVELOPING", "color": "amber", "d": "Colonel hid 36+ hours in mountain crevice in Khuzestan with pistol + tracking beacon. US commandos swarmed mountains, dropped bombs to clear area. CIA deception campaign. 'Seriously wounded but really brave' — Trump. First US aircrew recovery from enemy territory since Bosnia 1995. Removed POW crisis risk that almost derailed talks."},
+    {"t": "☢️ IAEA: Strikes 250ft from Bushehr Reactor", "lv": "CRITICAL", "color": "purple", "d": "IAEA chief Grossi: strikes near operating Bushehr plant including one 250 feet away. 'A nuclear facility and surrounding areas should never be struck.' Rosatom evacuated 200 staff 'minutes before plant was hit.' 1 security guard killed. Bushehr now active war zone — but ceasefire halts further risk. Iran's 460kg of 60% enriched uranium remains a concern. Trump: 'will be perfectly taken care of.'"},
+    {"t": "🇮🇷 Iran Declared 'Historic Victory'", "lv": "DEVELOPING", "color": "purple", "d": "Iran SNSC: 'Iran achieved a historic victory by forcing the criminal US to accept its 10-point plan. The US has accepted Iran's control over the Strait of Hormuz, enrichment rights, and removal of all sanctions.' Major points: Hormuz protocol, sanctions lift, reconstruction, US base withdrawal, permanent end to war. New Supreme Leader Ayatollah Mojtaba Khamenei approved deal."},
     {"t": "🇮🇱 Israel Killed 2 IRGC Senior Commanders + Hit South Pars", "lv": "DEVELOPING", "color": "red", "d": "Israel struck South Pars petrochemical plant (Asaluyeh). Killed 2 IRGC senior commanders + IRGC undercover unit leader. 4 killed in Israel by Iranian missiles (Haifa residential building). Tel Aviv 1,000+ protested defying wartime ban. Pope Leo, EU Costa pushed peace throughout."}
   ],
 
@@ -103,14 +107,14 @@
     {"name": "Natanz", "type": "Enrichment", "status": "HIT TWICE — DAMAGED", "risk": 95, "info": "Struck Mar 21 (2nd time). Underground halls damaged. Iran says no radioactive leakage. IAEA confirmed damage + enriched uranium still on site. Mountainous construction nearby may be intact (ISIS report). Centrifuges destroyed.", "lat": 33.72, "lon": 51.73},
     {"name": "Isfahan", "type": "Conversion", "status": "HEAVILY DAMAGED", "risk": 88, "info": "UCF (Uranium Conversion Facility) processes UF6 gas — feedstock for centrifuges. Missile complex destroyed in early strikes. Multiple buildings flattened. Recovery years away.", "lat": 32.57, "lon": 51.81},
     {"name": "Arak", "type": "Heavy Water (IR-40)", "status": "STRUCK", "risk": 80, "info": "Heavy-water reactor at Khondab struck Apr 3 (Wikipedia/IDF confirmed). Plutonium pathway facility — key to potential weapons-grade route. IAEA monitoring. Reactor not yet operational at full capacity.", "lat": 34.37, "lon": 49.24},
-    {"name": "Fordow", "type": "Underground Enrichment", "status": "STATUS UNCERTAIN", "risk": 75, "info": "Built into mountain near Qom. Designed to survive bunker busters. US claimed earlier strikes 'obliterated' enrichment, but DNI Gabbard later said 460kg of 60% enriched uranium still exists. Impossible to verify without inspections — Iran has refused IAEA since 2025.", "lat": 34.88, "lon": 50.99},
+    {"name": "Fordow", "type": "Underground Enrichment", "status": "STATUS UNCERTAIN", "risk": 75, "info": "Built into mountain near Qom. Designed to survive bunker busters. US claimed earlier strikes 'obliterated' enrichment, but DNI Gabbard later said 460kg of 60% enriched uranium still exists. Trump: 'will be perfectly taken care of' — may be part of negotiation. Impossible to verify without inspections.", "lat": 34.88, "lon": 50.99},
     {"name": "Yazd (Ardakan)", "type": "Yellowcake Production", "status": "STRUCK", "risk": 78, "info": "Yellowcake plant struck Apr 3 (IDF/Wikipedia). Yellowcake is early-stage uranium processing — feeds enrichment pipeline. Damage limits Iran's ability to produce new feedstock for years.", "lat": 32.31, "lon": 53.97},
     {"name": "Parchin", "type": "Military Nuclear", "status": "STRUCK", "risk": 82, "info": "Nuclear weapon component testing facility near Tehran. Confirmed damage. Historical site of suspected weaponization research. IAEA had been denied access here for years.", "lat": 35.52, "lon": 51.78},
     {"name": "Dimona (Israel)", "type": "Israeli Nuclear Research", "status": "AREA TARGETED", "risk": 70, "info": "Iranian missiles hit Arad + Dimona near Israel's Negev nuclear center. 100+ injured. IAEA: no damage to nuclear facility. First time area was targeted this war. Israel does not officially confirm Dimona's role.", "lat": 31.00, "lon": 35.15}
   ],
 
   "cities": [
-    {"city": "Delhi NCR", "pop": "32M", "wind": 72, "sea": 15, "nuke": 50, "tot": 62, "info": "1,800km downwind from Iran. 4-7 days transit at 500hPa. Bushehr/Natanz strikes raised baseline risk. NO national iodine prophylaxis program. Air quality already among worst globally."},
+    {"city": "Delhi NCR", "pop": "32M", "wind": 72, "sea": 15, "nuke": 50, "tot": 62, "info": "1,800km downwind from Iran. 4-7 days transit at 500hPa. Bushehr/Natanz strikes raised baseline risk. NO national iodine prophylaxis program. Ceasefire halts further strikes but does not undo damage."},
     {"city": "Mumbai", "pop": "21M", "wind": 40, "sea": 78, "nuke": 42, "tot": 58, "info": "900km from Hormuz. Sea + Aramco fire particulates risk via Arabian Sea currents. JNPT port at risk. Coastal positioning = primary maritime exposure."},
     {"city": "Ahmedabad", "pop": "8.5M", "wind": 65, "sea": 55, "nuke": 46, "tot": 57, "info": "Closest Indian metro to Iran. Dual exposure vector (wind + sea). Jamnagar refinery uses Arabian Sea water. Industrial concentration amplifies risk."},
     {"city": "Jaipur", "pop": "4M", "wind": 68, "sea": 10, "nuke": 44, "tot": 47, "info": "Rajasthan acts as wind funnel for upper-atmosphere transport. Aramco smoke plumes potentially reach in 5-8 days. Inland but exposed to airborne vectors."},
@@ -122,13 +126,13 @@
 
   "milTop": [],
   "tlLatest": [
-    {"d": 38, "l": "Apr 6", "deaths": 5700, "brent": 109, "nifty": 22577, "rupee": 93.0, "tag": "Sensex +800 on ceasefire hope. Hormuz easing: 53 ships. Green Sanvi at Mumbai. Iraq exempted. Iran 10-pt counter via Pakistan", "sev": 2},
-    {"d": 39, "l": "Apr 7", "deaths": 5800, "brent": 110, "nifty": 22577, "rupee": 93.0, "tag": "Trump rejected ceasefire as 'not good enough.' Green Asha crossed (8th LPG). Kharg Island struck. 'Whole civilization' threat", "sev": 3},
-    {"d": 40, "l": "Apr 8", "deaths": 5900, "brent": 95, "nifty": 23200, "rupee": 92.5, "tag": "🟢 2-WEEK CEASEFIRE! Pakistan brokered. Hormuz reopening. Oil crashed 8%. Talks Fri Islamabad", "sev": 1}
+    {"d": 38, "l": "Apr 6", "deaths": 5700, "brent": 109, "nifty": 22577, "rupee": 93.0, "tag": "Sensex +800 on ceasefire hope. Hormuz easing: 53 ships. Green Sanvi at Mumbai. Iraq exempted", "sev": 2},
+    {"d": 39, "l": "Apr 7", "deaths": 5800, "brent": 110, "nifty": 22577, "rupee": 93.0, "tag": "Trump rejected ceasefire as 'not good enough.' Green Asha crossed (8th LPG). Kharg Island struck", "sev": 3},
+    {"d": 40, "l": "Apr 8", "deaths": 5900, "brent": 95, "nifty": 23938, "rupee": 92.5, "tag": "🚀 SENSEX +2,775! Nifty +815 → 23,938. Brent -13% to $94.80. RBI held 5.25%. Ceasefire holding", "sev": 1}
   ],
 
   "hormuzLatest": [
-    {"d": "Apr 8", "e": "CEASEFIRE — Hormuz reopening 2 weeks via Iranian coordination. India's 8 LPG carriers extracted. Only Jag Vikram remains. Oil crashed 8%. Talks Fri Apr 10 Islamabad."}
+    {"d": "Apr 8", "e": "Sensex +2,775. Brent -13%. RBI held rates. Hormuz reopening 2 weeks via Iranian coordination. India's 8 LPG carriers extracted. Reliance bought 2M barrels Iranian crude. Lebanon NOT in deal."}
   ],
 
   "projNow": {"brent": 95, "rupee": 92.5, "lpg": 880, "petrol": 94.77, "deaths": 5900},
@@ -138,24 +142,24 @@
     "brent": [65, 95, 82, 72, 145],
     "rupee": [91.0, 92.5, 91.5, 91.0, 100.0],
     "deaths": [0, "5,900+", "6,200", "6,500", "20,000"],
-    "sensex": ["78,699", "75,500", "78,000", "82,000+", "55,000"],
+    "sensex": ["78,699", "77,392", "80,000+", "82,000+", "55,000"],
     "lpg": ["₹853", "₹880", "₹860", "₹853", "₹1,400"],
     "fii": ["-", "Reversing", "$8B return", "$15B return", "$30B out"]
   },
 
   "radar": [
-    {"axis": "Oil Shock", "w1": 60, "now": 70, "w4": 55, "w8": 45},
-    {"axis": "Market Crash", "w1": 45, "now": 55, "w4": 45, "w8": 35},
-    {"axis": "Nuclear Risk", "w1": 20, "now": 75, "w4": 65, "w8": 55},
-    {"axis": "Hormuz Closure", "w1": 80, "now": 55, "w4": 35, "w8": 25},
-    {"axis": "Household Impact", "w1": 15, "now": 75, "w4": 60, "w8": 45},
-    {"axis": "Currency Crisis", "w1": 40, "now": 65, "w4": 55, "w8": 45},
-    {"axis": "Social Unrest", "w1": 25, "now": 70, "w4": 60, "w8": 50},
-    {"axis": "Military Exposure", "w1": 35, "now": 75, "w4": 60, "w8": 45}
+    {"axis": "Oil Shock", "w1": 60, "now": 60, "w4": 50, "w8": 40},
+    {"axis": "Market Crash", "w1": 45, "now": 35, "w4": 30, "w8": 25},
+    {"axis": "Nuclear Risk", "w1": 20, "now": 70, "w4": 60, "w8": 50},
+    {"axis": "Hormuz Closure", "w1": 80, "now": 45, "w4": 30, "w8": 20},
+    {"axis": "Household Impact", "w1": 15, "now": 65, "w4": 50, "w8": 40},
+    {"axis": "Currency Crisis", "w1": 40, "now": 55, "w4": 45, "w8": 40},
+    {"axis": "Social Unrest", "w1": 25, "now": 65, "w4": 55, "w8": 45},
+    {"axis": "Military Exposure", "w1": 35, "now": 65, "w4": 55, "w8": 45}
   ],
 
   "assessment": {
-    "headline": "DAY 40. THE WAR PAUSES. 2-week ceasefire announced. Pakistan brokered. Hormuz reopening. Talks Friday in Islamabad.",
-    "body": "After 39 days of escalating war, the most consequential breakthrough yet: Trump announced a 2-WEEK CEASEFIRE on Truth Social late Tuesday. Iran accepted. Pakistan brokered. The war is paused.\n\nTrump's Truth Social post: 'Subject to the Islamic Republic of Iran agreeing to the COMPLETE, IMMEDIATE, and SAFE OPENING of the Strait of Hormuz, I agree to suspend the bombing and attack of Iran for a period of two weeks. This will be a double sided CEASEFIRE!'\n\nIran FM Araghchi confirmed: 'For a period of two weeks, safe passage through the Strait of Hormuz will be possible via coordination with Iran's Armed Forces and with due consideration of technical limitations.' Iran's Supreme National Security Council declared victory and said Trump accepted Iran's 10-point plan as 'general framework' for negotiations. A US Defense official: 'the ceasefire is now in effect and the US has suspended all strikes.'\n\nPAKISTAN BROKERED: PM Shehbaz Sharif + Field Marshal Asim Munir convinced Trump in last-minute calls. Trump cited their requests directly. Peace talks open Friday April 10 in Islamabad. VP Vance likely leading US delegation. Vance + Witkoff advised acceptance; Graham, Netanyahu, Saudi, UAE urged rejection. Sharif called it 'a sagacious gesture.'\n\nMARKETS RIPPED HIGHER: US crude $117 to $103 (-8% in minutes). Brent fell to ~$95. S&P 500 futures +1.6%. Nasdaq 100 +1.8%. Dow futures +725 points. Indian markets open to expected massive gap-up.\n\nINDIA — STRATEGIC VINDICATION: 8 of 9 LPG carriers extracted BEFORE the ceasefire. Sea Bird (Iranian LPG) at Mangalore. Jaishankar-Araghchi call earlier in the week confirmed India 'supports ongoing efforts to stop war.' 51 lakh LPG cylinders delivered Mon — supply held throughout. 60 days fuel buffer never breached. Refineries >100%. Pakistan brokered = India is quiet diplomatic backer. Indian basket likely to drop sharply. Sensex closed +800 Mon on ceasefire hope; Wed open expected to gap up massively. Rupee likely to strengthen below 92. 345 Indian fishermen returned. Only Jag Vikram still in Gulf.\n\nBEFORE THE CEASEFIRE — TUESDAY ESCALATION: In the hours BEFORE the deal, the situation looked catastrophic. Trump warned 'a whole civilization will die tonight.' US struck Kharg Island oil export hub. Israel hit Sharif University + Rafi Niya synagogue (destroyed). 18 civilians killed in one Iranian province. Iranian youth formed human chains around power plants. IAEA: strikes 250ft from Bushehr operating reactor. US gas $4.14/gallon. Saudi raised Asia premium to RECORD.\n\nTHE CEASEFIRE IS FRAGILE: Only 14 days to negotiate permanent end. Iran demands sanctions lift + reconstruction + permanent end. Trump says US has 'met and exceeded all Military objectives.' Israel + Lebanon included but Netanyahu reluctant. Hezbollah did not sign on. Eurasia Group: months to repair damaged refineries even with ceasefire. Oil supply won't return to pre-war levels until late 2026 (EIA). If ceasefire breaks: Brent $145+, full re-escalation.\n\nWHAT TO WATCH:\n1. Indian markets gap-up open at 9:15 AM IST today\n2. First commercial ship through Hormuz under ceasefire\n3. Friday April 10: Islamabad talks begin\n4. Whether Israel/Hezbollah ceasefire holds\n5. Iran's 10-point plan vs Trump's 15-point plan reconciliation\n\nAfter 40 days, the war is paused. India enters this moment in the strongest possible position — strategic foresight, energy buffer, diplomatic neutrality, extracted fleet. The breakthrough vindicates India's careful all-sides approach from Day 1."
+    "headline": "DAY 40, 1 PM IST. THE RELIEF RALLY IS REAL. Sensex +2,775 → 77,392. Brent crashed 13%. RBI held rates. India = the war's quietest winner.",
+    "body": "Indian markets delivered their biggest single-day gain in years today as the ceasefire took hold and oil crashed.\n\nMARKET EXPLOSION:\n• Sensex +2,775 (+3.71%) to 77,392\n• Nifty +815 (+3.52%) to 23,938 — near 24,000\n• Brent crude -13.24% to $94.80\n• WTI -13.76% to $97.41\n• Asian markets: Nikkei +5.28%, KOSPI +5.61%, Hang Seng +3.04%\n\nSECTOR WINNERS:\n• Aviation: IndiGo +9-10%, GMR Airports, SpiceJet, Dreamfolks all up to 11%\n• L&T +7%\n• Bajaj Finance/Finserv +4-5%\n• Adani Ports/Adani Enterprises +5-6%\n• Realty index +5%\n• PSU + private banks +3-4%\n• Auto +3-4%\n• Tech Mahindra: only laggard\n\nRBI MONETARY POLICY:\n• Repo rate held at 5.25% (Sanjay Malhotra)\n• 'Prudent to wait and watch'\n• Neutral stance maintained\n• CPI FY27 projection: 4.6%\n• Home loan EMIs unchanged — borrowers save up to ₹13.9 lakh\n• Banks net open positions still capped at $100M to defend rupee\n• With Brent crashing to $94.80, RBI now has room for future rate cuts\n\nINDIA — THE QUIET WINNER:\n• 8 of 9 LPG carriers extracted BEFORE ceasefire (Green Asha last)\n• Reliance bought 2 MILLION barrels Iranian crude DIRECTLY (Apr 7)\n• India now officially buying from USA, Russia, Iran, Australia simultaneously\n• Sea Bird (Iranian LPG, 44k MT) at Mangalore — first Iranian LPG in 7 years\n• Jaishankar-Araghchi diplomatic call validated\n• 51 lakh LPG cylinders delivered Mon (95% online), ZERO dry-outs\n• 60 days fuel stock buffer never breached\n• India supplied fuel to Bangladesh, Nepal, Bhutan, Sri Lanka, Maldives throughout\n• 345 Indian fishermen returned from Iran\n• Pakistan brokered with India as quiet diplomatic backer\n\nCEASEFIRE FRAMEWORK:\n• 2-week pause negotiated by Pakistan (PM Sharif + Field Marshal Munir)\n• Trump suspended bombing campaign\n• Iran's Supreme National Security Council accepted (new Supreme Leader Ayatollah Mojtaba Khamenei approved)\n• Iran-Oman to JOINTLY charge $2 MILLION per ship for Hormuz transit (NYT) — funds for reconstruction\n• Talks open Friday April 10 in Islamabad\n• VP Vance leading US delegation; Witkoff also involved\n• Trump on Truth Social: 'big money will be made... Golden Age of the Middle East'\n\nTHE FRAGILE PARTS:\n• Lebanon NOT in deal (Netanyahu confirmed — contradicts Pakistan PM)\n• Israeli airstrike on Saida, Lebanon TODAY (Apr 8)\n• 1,530+ Lebanese killed since March 2 incl 130 children\n• Hezbollah did not sign on\n• Israel + UAE missile alerts early Wednesday — possible transition violations\n• Israeli officials 'skeptical' broader ceasefire will hold\n• Currently only ~5% of pre-war Hormuz traffic flowing\n• ~1,500 ships waiting off Oman/UAE coasts\n• Reopening will take days, not hours\n• Iran's 460kg of 60% enriched uranium remains; Trump: 'will be perfectly taken care of'\n\nWHAT TO WATCH:\n1. First commercial ship through Hormuz under ceasefire (24-48 hrs)\n2. Friday April 10: Islamabad talks begin\n3. Lebanon — does it spread or stay contained?\n4. Iran honoring '$2M per ship' tolling fairly\n5. Whether Israel/Hezbollah finds parallel ceasefire\n6. Iran's enriched uranium negotiation\n\nAfter 40 days, India enters the post-war phase as the quiet winner. The strategic foresight from Day 1 — buying from all sides, negotiating with all parties, extracting the LPG fleet preemptively, maintaining the energy buffer, supplying neighbors throughout — has delivered the biggest single-day market gain in years. The relief rally is real."
   }
 }
