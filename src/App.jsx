@@ -247,8 +247,6 @@ export default function App(){
   // Update PROJ "Now" row with intel data
   const fullPROJ = PROJ.map(p => p.w === "Now" ? {...p, ...iProjNow, w:"Now"} : p);
 
-  const tickerText=iT.join("     •     ");
-
   // Live data with fallbacks
   const brentPrice = live?.brent?.price ?? 99;
   const brentChg = live?.brent?.changePct ?? 0;
@@ -284,7 +282,7 @@ export default function App(){
           .dash-header h1 { font-size: 34px !important; }
           .dash-header .sub-line { font-size: 13px !important; }
           .dash-header .label-line { font-size: 11px !important; }
-          .dash-ticker span { font-size: 14px !important; }
+          span.dash-ticker { font-size: 14px !important; }
           .dash-nav-btn { font-size: 13px !important; padding: 9px 18px !important; }
           .dash-section-title { font-size: 18px !important; letter-spacing: 2.5px !important; }
           .dash-section-sub { font-size: 13.5px !important; }
@@ -307,9 +305,15 @@ export default function App(){
       `}</style>
 
       {/* ═══ TICKER ═══ */}
-      <div style={{background:`linear-gradient(90deg, ${C.red}, #b91c1c)`,padding:"7px 0",overflow:"hidden",whiteSpace:"nowrap"}}>
-        <div style={{display:"inline-block",animation:"tk 80s linear infinite",paddingLeft:"100%"}}>
-          <span className="dash-ticker" style={{fontSize:11,fontWeight:600,color:"#fff",letterSpacing:0.3}}>{tickerText}     •     {tickerText}</span>
+      <div style={{background:`linear-gradient(90deg, ${C.red}, #b91c1c)`,padding:"9px 0",overflow:"hidden",position:"relative"}}>
+        <div className="dash-ticker-track" style={{display:"flex",width:"max-content",animation:"tk 90s linear infinite",willChange:"transform"}}>
+          {/* Two identical copies side-by-side. Keyframe animates -50% so second copy slides in seamlessly as first exits */}
+          <div style={{display:"flex",flexShrink:0,paddingRight:60}}>
+            {iT.map((t,i)=>(<span key={`a${i}`} className="dash-ticker" style={{fontSize:12,fontWeight:600,color:"#fff",letterSpacing:0.3,paddingRight:60,whiteSpace:"nowrap",flexShrink:0}}>{t}<span style={{paddingLeft:60,color:"#ffffff80"}}>•</span></span>))}
+          </div>
+          <div style={{display:"flex",flexShrink:0,paddingRight:60}} aria-hidden="true">
+            {iT.map((t,i)=>(<span key={`b${i}`} className="dash-ticker" style={{fontSize:12,fontWeight:600,color:"#fff",letterSpacing:0.3,paddingRight:60,whiteSpace:"nowrap",flexShrink:0}}>{t}<span style={{paddingLeft:60,color:"#ffffff80"}}>•</span></span>))}
+          </div>
         </div>
       </div>
 
