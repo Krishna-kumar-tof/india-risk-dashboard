@@ -341,10 +341,16 @@ export default function App(){
 
       {/* ═══ WHAT CHANGED TODAY ═══ */}
       <div style={{background:C.red+"0c",border:`1px solid ${C.red}20`,borderRadius:8,padding:"16px 18px",marginBottom:20}}>
-        <div className="dash-wc-label" style={{fontSize:10.5,fontWeight:800,color:C.red,letterSpacing:2.5,marginBottom:8,fontFamily:mono}}>{iWC?.label || "WHAT CHANGED"}</div>
-        <div className="dash-wc-body" style={{fontSize:12,color:C.text,lineHeight:1.9}}>
+        <div className="dash-wc-label" style={{fontSize:10.5,fontWeight:800,color:C.red,letterSpacing:2.5,marginBottom:12,fontFamily:mono}}>{iWC?.label || "WHAT CHANGED"}</div>
+        <div className="dash-wc-body" style={{fontSize:12,color:C.text,lineHeight:1.6}}>
           {iWC?.items ? iWC.items.map((item,i) => (
-            <span key={i}>• <strong style={{color:C[item.color]||C.red}}>{item.bold}</strong>{item.text}<br/></span>
+            <div key={i} style={{display:"flex",gap:10,marginBottom:i===iWC.items.length-1?0:12,paddingBottom:i===iWC.items.length-1?0:12,borderBottom:i===iWC.items.length-1?"none":`1px solid ${C.border}40`}}>
+              <span style={{color:C[item.color]||C.red,fontWeight:900,flexShrink:0,marginTop:1}}>▸</span>
+              <span style={{flex:1}}>
+                <strong style={{color:C[item.color]||C.red,fontWeight:800}}>{item.bold}</strong>
+                {item.text && <span style={{color:C.sub}}> {item.text}</span>}
+              </span>
+            </div>
           )) : (
             <>
           • <strong style={{color:C.green}}>Sensex +1,640 (2.2%)</strong> to 75,708 intraday. Nifty 23,432. 2nd straight rally. OMCs +3.4% on oil drop. Brent below $100<br/>
