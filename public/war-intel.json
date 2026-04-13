@@ -1,77 +1,77 @@
 {
-  "_updated": "April 12, 2026 — 7:30 AM IST",
-  "_day": 44,
+  "_updated": "April 13, 2026 — 11:00 AM IST",
+  "_day": 45,
   "_phase": "CEASEFIRE",
   "_note": "Verified: NBC News, CBS News, CNN, AP, Reuters, Wikipedia, Argus Media, ABC News, S&P Global Intelligence, IMF. DAY 43: Islamabad talks BEGIN TODAY. Iranian delegation ARRIVED Friday (Ghalibaf + Araghchi). Only 2 ships through Hormuz Fri (lowest since ceasefire). Trump: US warships reloading 'best ammunition', 24-hour window. US March CPI 3.3%. Lebanon-Israel talks confirmed Washington next week.",
   "ticker": [
-    "🚨 NO DEAL AFTER 21 HOURS — Vance confirmed no agreement after marathon Islamabad talks. Round 2 Sunday. First US-Iran face-to-face since 1979",
-    "🚢 HORMUZ THAW STARTING — 16 ships transited Sunday AM (busiest since ceasefire). 3 crude tankers: Chinese, Hong Kong, Liberian flags",
-    "⚔️ US destroyers USS Peterson + USS Murphy OPERATED in Hormuz clearing mines. Iran DENIED transit. IRGC: military vessels face 'severe' response",
-    "🇮🇷 Iran's 4 RED LINES UNMOVED: Hormuz sovereignty, war reparations, unconditional asset unfreeze, region-wide ceasefire (incl Lebanon)",
-    "💰 Asset unfreeze: Iranian source to Reuters said US agreed. Senior US official immediately DENIED to CBS. Contradictory signals",
-    "🇱🇧 Lebanon toll PAST 2,000. Al Jazeera source: 'possible understanding to limit strikes to southern Lebanon'. Not confirmed",
-    "🛢️ Trump: 'all 28 Iran mine-dropper boats sunk'. Empty tankers heading to US. Brent ~$96. WTI ~$98. 'Regardless we win'",
-    "🇮🇳 INDIA = 14.7% Hormuz flows (2nd after China 37.7%). Oil Min in Qatar. Jaishankar UAE today-Sun. Reliance Iranian crude direct",
-    "📊 Monday Sensex pivotal: 76,630 Thu low. FPI ₹8,200 Cr OUT in 2 days. Rupee 92.40. TCS Q4 +12% cushion",
-    "🌐 DAY 44: Talks continue Sunday. Monday open will price binary ambiguity. Hormuz thaw = first positive data point"
+    "🚨 TALKS COLLAPSED after 21 HOURS. Vance: 'Iran chose not to accept our terms'. Trump ordered FULL HORMUZ BLOCKADE effective Mon 10 AM ET",
+    "💥 SENSEX CRASHED -1,700 pts to 75,868 intraday (-2%). Nifty -500 to 23,556. ₹8 LAKH CR WIPED OUT in minutes. Market cap ₹443L Cr (from ₹451L)",
+    "🛢️ BRENT JUMPED 8% to ~$103 (peak $102.29). WTI +9.3% to $105 (peak $104.24). US Navy to interdict every vessel that paid toll to Iran",
+    "💱 RUPEE CRASHED 49 paise to 93.32/USD — weighed by crude + geopolitical risk. FPI pull out ₹20,700 Cr last week, DII bought ₹21,600 Cr",
+    "☢️ NUCLEAR was THE dealbreaker. Trump: 'most points agreed to, but the only point that mattered, NUCLEAR, was not.' Iran refused no-nuke commit",
+    "🇮🇷 Ghalibaf on X: 'Enjoy current pump figures. With the so-called blockade, soon you'll be nostalgic for $4-$5 gas.' Returned Tehran, said 'won't bow'",
+    "🛢️ SAUDI restored FULL East-West Pipeline + Manifa field output. OMC stocks BPCL/HPCL/IOC -3 to -4%. Upstream ONGC/Oil India positive",
+    "🇱🇧 Lebanon-Israel talks STILL on for Tuesday (US mediated). Netanyahu: 'not yet over', wants 'real peace agreement' with Lebanon",
+    "🇮🇳 NSE launched BRENT CRUDE FUTURES today Apr 13 (coincidentally!). India 85%+ crude via Hormuz. Monday crash tests all structural shields",
+    "🌐 DAY 45: War Phase 2 begins. Blockade applies only to Iranian ports (not all Hormuz). Scenario C (20% failure) activated. Binary event over"
   ],
   "whatChanged": {
-    "label": "WHAT CHANGED — APR 12, 7:30 AM IST (DAY 44)",
+    "label": "WHAT CHANGED — APR 13, 11:00 AM IST (DAY 45)",
     "items": [
       {
-        "color": "amber",
-        "bold": "Marathon talks — no deal after 21 hours.",
-        "text": "Vance confirmed no agreement after face-to-face Islamabad talks stretching 15+ hours past midnight. First direct US-Iran contact since 1979. Round 2 Sunday. 'Tone positive' per Pakistan sources."
-      },
-      {
-        "color": "green",
-        "bold": "Hormuz thaw — 16 ships Sunday morning.",
-        "text": "Busiest day since ceasefire (NBC). 3 crude tankers: Chinese, Hong Kong, Liberian flags. Up from 2 Fri, 4 Wed-Thu, 8 Tue. Qatar Gulf navigation resumed. First real flow signs."
+        "color": "red",
+        "bold": "Islamabad talks COLLAPSED after 21 hours.",
+        "text": "Vance: 'bad news, no agreement, Iran chose not to accept our terms.' First US-Iran face-to-face since 1979 ended in failure. US red lines: end all enrichment, dismantle facilities, retrieve HEU, stop proxies, open Hormuz."
       },
       {
         "color": "red",
-        "bold": "US destroyers clearing Hormuz mines.",
-        "text": "CENTCOM: USS Peterson + USS Murphy operated in Hormuz Sat to clear mines. Iran's joint command DENIED transit. IRGC: any military vessel attempt faces 'severe' response."
+        "bold": "Trump ordered FULL HORMUZ BLOCKADE.",
+        "text": "Truth Social: 'effective immediately, US Navy will begin blockading any Ships trying to enter or leave Strait of Hormuz.' CENTCOM: effective 10 AM ET Mon. Applies only to vessels entering/leaving Iranian ports."
       },
       {
         "color": "red",
-        "bold": "Iran's 4 red lines unmoved.",
-        "text": "Per Tasnim: full Hormuz sovereignty, complete reparations, unconditional asset unfreeze, region-wide ceasefire incl Lebanon. Ghalibaf: 'experience with Americans met with failure and broken promises'."
+        "bold": "Sensex CRASHED -1,700 pts (-2%), ₹8L Cr wiped.",
+        "text": "Sensex intraday low 75,868. Nifty -500 to 23,556. Market cap ₹443L Cr from ₹451L. Monday open plunge gave back Wed's ₹16L Cr rally. Rupee -49 paise to 93.32."
       },
       {
-        "color": "amber",
-        "bold": "Contradictory asset unfreeze signals.",
-        "text": "Iranian source to Reuters: US agreed to release frozen assets in Qatar/foreign banks, linked to Hormuz passage. Senior US official IMMEDIATELY DENIED to CBS. Major sticking point."
-      },
-      {
-        "color": "cyan",
-        "bold": "India = 14.7% of Hormuz flows.",
-        "text": "India receives 14.7% of all Hormuz crude (2nd after China 37.7%). Oil Min Qatar Apr 9. Jaishankar UAE today-tomorrow. Reliance 2M Iranian barrels direct. 6-8 weeks fuel stocks."
+        "color": "red",
+        "bold": "Brent jumped 8% to $103, WTI $105.",
+        "text": "Brent futures +8% to ~$103/barrel (peak $102.29). WTI +9.3% peak $104.24 — erasing last week's -12% decline. Gold, gasoline surged. Asian markets Nikkei/Kospi/Hang Seng -1-1.2%."
       },
       {
         "color": "purple",
-        "bold": "Trump: Iran military 'gone'.",
-        "text": "Truth Social: 'all 28 Iran mine-dropper boats sunk'. Iran navy, anti-aircraft, air forces 'gone'. 'Empty tankers heading to US for sweetest oil'. 'Regardless we win'."
+        "bold": "Nuclear was the ONE point that mattered.",
+        "text": "Trump Truth Social: 'most points were agreed to, but the only point that really mattered, NUCLEAR, was not.' Iran refused to commit to no nuclear weapon. Vance: need 'affirmative commitment.'"
+      },
+      {
+        "color": "amber",
+        "bold": "Ghalibaf taunted Trump from Tehran.",
+        "text": "On X: 'Enjoy current pump figures. With so-called blockade, soon you'll be nostalgic for $4-$5 gas.' Returned Tehran saying Iran 'will not bow to any threats.' Iran FM: 'inches away' from deal."
       },
       {
         "color": "green",
-        "bold": "Possible Lebanon strikes-limitation.",
-        "text": "Al Jazeera source: 'some progress on basic conditions including Lebanon ceasefire need'. Possible understanding to limit strikes to southern Lebanon. Not confirmed. Hezbollah rejects direct talks."
+        "bold": "Saudi restored East-West Pipeline fully.",
+        "text": "Saudi Arabia restored full pumping capacity through East-West Pipeline to Red Sea + Manifa field output. Limited offset to blockade impact. Bypasses Hormuz. SBI Securities: negative for OMCs/airlines."
+      },
+      {
+        "color": "cyan",
+        "bold": "India: 85% crude via Hormuz, rupee 93.32.",
+        "text": "India 85%+ crude imports Hormuz dependent. OMC stocks BPCL/HPCL/IOC -3 to -4%. Upstream ONGC/Oil India positive. FPI ₹20,700 Cr OUT last week. DII ₹21,600 Cr IN. NSE Brent futures launched today."
       }
     ]
   },
   "deaths": "6,350+",
   "deathsSub": "~3,400 Iran (HRANA, 1,600+ civilians), 1,800+ Lebanon (Beirut >300), 99 Iraq, 23 Israel, 13 US (+2 noncombat), 35+ Gulf",
   "econ": {
-    "sensex": "76,630",
-    "sensexDelta": "Mon opens pending Sunday talks",
-    "sensexSub": "Binary event — deal or no deal",
-    "vix": "20.26",
-    "vixDelta": "elevated, binary risk",
-    "fpi": "₹8,200 Cr OUT in 2 days",
-    "fpiDelta": "Relief rally faded",
-    "wealth": "₹16L Cr (Wed) at risk",
-    "analysis": "DAY 44, SUN 7:30 AM IST: Most consequential Monday open of FY26. Overnight: Islamabad Round 1 ended NO DEAL after 21 hours direct talks. Round 2 Sunday. 'Tone positive' per Pakistan sources but Iran's 4 red lines unmoved. HORMUZ THAW STARTING: 16 ships Sunday morning (best day since ceasefire) — 3 crude tankers Chinese/HK/Liberian. US destroyers clearing mines. Monday Sensex opens on binary event. India best-positioned: 14.7% Hormuz dependency, Oil Min Qatar, Jaishankar UAE, Reliance Iranian crude direct, 6-8 weeks stocks, TCS Q4 +12%, rupee 92.40. Brent $96. FPI ₹8,200 Cr OUT. Watch Monday open for decisive signal."
+    "sensex": "75,868*",
+    "sensexDelta": "▼ -1,700 intraday (-2%)",
+    "sensexSub": "₹8L Cr WIPED in minutes. Binary event resolved DOWN",
+    "vix": "22+ (spike)",
+    "vixDelta": "elevated fear gauge",
+    "fpi": "₹20,700 Cr OUT last week",
+    "fpiDelta": "DII ₹21,600 Cr IN cushion",
+    "wealth": "₹8L Cr WIPED Monday morning",
+    "analysis": "DAY 45 MON 11 AM IST: War Phase 2 begins. Islamabad talks COLLAPSED after 21 hours direct negotiation. Trump ordered FULL Hormuz blockade effective Mon 10 AM ET — applies only to vessels entering/leaving Iranian ports. Sensex crashed -1,700 pts to intraday low 75,868 (-2%), Nifty -500 to 23,556, ₹8 LAKH CR wiped out in minutes, market cap ₹443L Cr from ₹451L. Brent jumped 8% to $103 (peak $102.29), WTI +9.3% to $105 (peak $104.24). Rupee crashed 49 paise to 93.32/USD. Nuclear was THE dealbreaker — Trump: 'most points agreed to, but only point that mattered, NUCLEAR, was not.' Iran refused no-weapon commitment. Ghalibaf taunted from Tehran: 'enjoy current pump figures.' Asian markets -1-1.2%. OMC stocks BPCL/HPCL/IOC -3-4%, upstream ONGC/Oil India positive, SBI Securities: negative for airlines/chemicals/paints/tyres/plastics. Saudi restored full East-West Pipeline + Manifa field (partial offset). Lebanon-Israel Washington talks still Tuesday. India shields tested: 40% Hormuz dependency (not 85% — correction), 6-8 weeks fuel stocks, Reliance Iranian crude direct, Jaishankar UAE concluded, RBI held 5.25%. NSE launched Brent crude futures coincidentally today Apr 13. Scenario C (20% failure case) has activated. Binary event over — direction now DOWN until diplomatic reset or US military escalation."
   },
   "hormuzStatus": {
     "status": "EFFECTIVELY CLOSED",
@@ -601,7 +601,7 @@
     }
   ],
   "assessment": {
-    "headline": "DAY 44 SUN MORNING: Islamabad talks produced NO DEAL after 21 hours direct negotiations. But Hormuz thaw starting — 16 ships Sunday AM. US destroyers clearing mines. Iran's 4 red lines unmoved. Monday Indian markets face binary open: Round 2 decides everything.",
-    "body": "Day 44 begins with history and ambiguity.\n\nISLAMABAD TALKS — 21 HOURS, NO DEAL\n• First face-to-face US-Iran contact since 1979 Islamic Revolution\n• Vance+Witkoff+Kushner vs Ghalibaf+Araghchi, Pakistan mediating\n• Talks stretched 15+ hrs past midnight Sat into Sun\n• Vance confirmed NO agreement reached after marathon session\n• 'Tone positive' per Pakistan sources to CNN\n• BUT stalemate on Hormuz sovereignty persists\n• Iranian media (Mehr, IRIB): US making 'excessive/overzealous' demands\n• Ghalibaf: 'Our experience negotiating with Americans has always been met with failure and broken promises'\n• Round 2 continues Sunday\n\nIRAN'S 4 NON-NEGOTIABLE RED LINES\n1. Full Hormuz sovereignty\n2. Complete war reparations\n3. Unconditional asset unfreeze\n4. Region-wide ceasefire incl Lebanon\n\nHORMUZ THAW STARTING\n• 16 ships transited Sunday morning — BUSIEST since ceasefire\n• 3 crude tankers: Chinese, Hong Kong, Liberian flags\n• Up from 2 Fri, 4 Wed-Thu, 8 Tue\n• Qatar resumed Persian Gulf navigation Sunday 6AM-6PM\n• First real flow restoration signs\n\nUS NAVY INSERTS ITSELF\n• USS Peterson + USS Murphy operated in Hormuz Sat (CENTCOM)\n• First US vessels since war began\n• MarineTraffic briefly detected USS Murphy\n• Iran's joint command DENIED US transit\n• IRGC: 'any military vessel... dealt with severely'\n• Only civilian vessels allowed 'under specific conditions'\n\nTRUMP POSTURE\n• 'All 28 Iran mine-dropper boats sunk'\n• Iran navy, anti-aircraft, air forces 'gone'\n• 'Empty oil tankers heading to US for sweetest oil'\n• 'Regardless we win. Maybe they make a deal. Maybe they don't'\n• 'Whatever, otherwise we'll reset. We're ready to go'\n\nLEBANON\n• Lebanese toll past 2,000\n• Netanyahu: 'campaign not yet over'\n• AJ source: possible understanding to limit strikes to south Lebanon — unconfirmed\n• Hezbollah MP Fadlallah rejects direct Lebanon-Israel talks\n• Lebanon PM Salam still set for Washington this week\n\nASSET UNFREEZE DISPUTE\n• Iranian source to Reuters: US agreed to release frozen Qatar/foreign assets, linked to Hormuz\n• Senior US official immediately DENIED to CBS\n• Major contradictory signal\n\nINDIA — MONDAY STAKES\n• 14.7% of total Hormuz flows (2nd after China 37.7%)\n• Ahead of Japan 10.9%, S Korea 12%\n• Oil Minister Qatar Apr 9 securing supply\n• Jaishankar UAE Apr 11-12 (today-tomorrow)\n• Foreign Secretary Misri in Washington\n• Reliance 2M Iranian barrels direct (Apr 7)\n• 6-8 weeks fuel stocks\n• 40% Hormuz exposure (vs EU/Japan 50%+)\n• Sensex 76,630 Thu low. Rupee 92.40. Brent $96\n• FPI ₹8,200 Cr OUT in 2 days\n• TCS Q4: +12% profit, ₹31 dividend — bright spot\n• RBI held 5.25%, flagged Hormuz as FY27 drag\n• ZERO dry-outs\n\nMONDAY SCENARIOS\n• SUCCESS (30%): Sun Round 2 produces framework. Hormuz reopens. Brent→$85, Sensex→80,000+, Rupee→91.80, RBI May cut\n• HOLDING (50%): Communique extends 2-wk ceasefire, talks continue. Brent $92-96, Sensex 76,500-78,500\n• FAILURE (20%): Round 2 collapses on 4 red lines. Trump 'reset'. Brent→$120-145, Sensex→74,000, rupee 95+\n\nBOTTOM LINE: 21 hrs direct talks produced 'no deal but positive tone' — ambiguity Monday must price. The test: does Round 2 bridge Iran's 4 red lines with US bottom lines on Hormuz + enrichment? Hormuz thaw (16 ships Sun) is the first genuinely positive data point. India best-positioned: neutral, diversified, forex-stable, Reliance accumulating Iranian crude direct. FY27 still hangs on what happens in Islamabad next 12 hours."
+    "headline": "DAY 45, MON 11 AM: ISLAMABAD TALKS COLLAPSED. Trump ordered FULL HORMUZ BLOCKADE effective today 10 AM ET. Sensex CRASHED -1,700 pts to 75,868 (-2%), ₹8L Cr WIPED. Brent +8% to $103. Rupee -49p to 93.32. Nuclear was the dealbreaker. Scenario C (failure) has activated. War Phase 2 begins.",
+    "body": "Day 45 opens with the war's worst single morning for Indian markets since Day 1.\n\nTHE COLLAPSE\n• After 21 hours of marathon direct talks in Islamabad — first US-Iran face-to-face since 1979 — Vance confirmed no agreement\n• Vance press conference before boarding Air Force Two: 'The bad news is that we have not reached an agreement. And I think that's bad news for Iran much more than it's bad news for the US. They have chosen not to accept our terms.'\n• Sticking point per Vance: 'We need to see an affirmative commitment that they will not seek a nuclear weapon, and they will not seek the tools that would enable that.'\n• Trump Truth Social: 'the meeting went well, most points were agreed to, but the only point that really mattered, NUCLEAR, was not.'\n• US red lines per TIME/senior US official: end ALL uranium enrichment, dismantle major enrichment facilities, allow US to retrieve Iran's HEU, end funding for proxies, fully open Hormuz without toll\n• Iran demands: frozen asset release ($6B+), continued Hormuz control, right to peaceful enrichment, end Israeli attacks on Lebanon, war reparations\n• Iran's Ghalibaf: 'experience with Americans met with failure and broken promises'\n• Iran FM spokesman Baghaei: 'excessive demands by America prevented any agreement'\n• AFP: Iran says was 'inches away' from deal\n\nTHE BLOCKADE\n• Trump Truth Social: 'Effective immediately, the United States Navy, the Finest in the World, will begin the process of BLOCKADING any and all Ships trying to enter, or leave, the Strait of Hormuz'\n• Called Iran's position 'extortion'\n• 'Instructed our Navy to seek and interdict every vessel in International Waters that has paid a toll to Iran'\n• 'No one who pays an illegal toll will have safe passage'\n• 'We will also begin destroying the mines the Iranians laid in the Straits'\n• CENTCOM: blockade 'enforced impartially against vessels of all nations' entering/departing Iranian ports and coastal areas\n• CRUCIAL: Still allows ships traveling between non-Iranian ports to transit Hormuz\n• Effective Monday 10 AM ET\n• Trump to Fox News Sunday Futures: 'civilisation will die' statement 'got them to the bargaining table', 'I predict they come back and give us everything we want'\n\nINDIAN MARKET CARNAGE\n• Sensex opened sharply lower Monday\n• Crashed nearly 1,700 points (-2%) intraday to 75,868\n• Nifty 50 plunged 500 points (-2%) to intraday low 23,556\n• ₹8 LAKH CRORE WIPED OUT in minutes\n• Total market cap of BSE-listed firms fell from ₹451 lakh crore to ₹443 lakh crore by 9:20 AM\n• Nifty Midcap 100 and Smallcap 100 -2% each — broad-based selloff\n• Rupee CRASHED 49 paise to 93.32 against USD\n• India VIX spiked\n• OMC stocks: BPCL, HPCL, IOC all -3 to -4%\n• SBI Securities: blockade NEGATIVE for OMCs, airlines, chemicals, paints, tyres, plastics\n• Upstream ONGC and Oil India positive (higher crude prices)\n• RIL among losers\n• IndiGo led airline selloff\n• Last week FPI pulled ₹20,700 Cr but DII bought ₹21,600 Cr (cushion)\n• Wed's ₹16 LAKH CR wealth creation partially given back\n\nOIL PRICE SHOCK\n• Brent crude jumped 8% to around $103/barrel (intraday peak $102.29)\n• WTI climbed as much as 9.3% to above $105/barrel (peak $104.24)\n• Erased all of last week's -12% Brent decline\n• Brent range during war: $70 pre-war → $119 peak → $95 Friday → $103 Monday\n• Saudi Arabia RESTORED full pumping capacity through East-West Pipeline to Red Sea\n• Saudi also restored Manifa field output\n• Limited offset to blockade impact — bypass route\n• Asian markets: Nikkei 225, Kospi, Hang Seng all -1 to -1.2%\n• US index futures -0.8% pre-open\n• Gasoline futures jumped on blockade\n\nIRAN'S RESPONSE\n• Ghalibaf returned to Tehran from Islamabad Sunday\n• Told reporters: 'If they fight, we will fight, and if they come forward with logic, we will deal with logic. We will not bow to any threats, let them test our will once again so that we can teach them a bigger lesson.'\n• Ghalibaf on X: 'Enjoy the current pump figures. With the so-called blockade, soon you'll be nostalgic for $4-$5 gas.'\n• Iranian state media (IRIB, Press TV): talks 'stalled on issue of control over Strait of Hormuz and Tehran's right to a peaceful nuclear energy program'\n• Ghalibaf also: 'forward-looking initiatives, but the opposing side ultimately failed to gain the trust of the Iranian delegation'\n• Iran said 'inches away' from deal (AFP)\n• Iran FM Araghchi also reportedly wanted to speak with Europeans in Berlin, Paris, London next\n\nLEBANON TRACK STILL ALIVE\n• Netanyahu: campaign against Iran 'not yet over'\n• Wants 'real peace agreement that will last for generations' with Lebanon\n• Lebanon-Israel talks STILL on for Tuesday in Washington (US mediated)\n• Lebanese PM Nawaf Salam: working to stop Israel-Hezbollah war\n• Lebanon toll past 2,000 already\n• IDF struck rocket launcher in Jouaiyya southern Lebanon Sun\n• Israel killed 3 in Nabatieh Sunday\n• Hezbollah MP Fadlallah rejects direct Lebanon-Israel talks as 'blatant violation'\n\nINDIA — THE STAKES TESTING\n• EAM Jaishankar's UAE visit Apr 11-12 concluded\n• Foreign Secretary Misri still in Washington\n• Pakistan FM Ishaq Dar urged US-Iran to continue ceasefire despite collapse, characterized 21-hour session as 'intense and constructive'\n• India's structural shields being tested in real-time:\n  - 40% crude via Hormuz (not 85% some media report) — structural insulation\n  - Reliance 2M Iranian barrels direct (Apr 7)\n  - Sea Bird Iranian LPG at Mangalore\n  - 6-8 weeks fuel stocks\n  - US 30-day Russia waiver\n  - RBI held 5.25% Apr 8, flagged Hormuz as FY27 drag\n  - ZERO LPG dry-outs maintained throughout war\n  - 51 lakh cylinders delivered Mon\n  - 345 Indian fishermen returned\n  - TCS Q4 +12% profit, ₹31 dividend — cushion\n• NSE LAUNCHED BRENT CRUDE FUTURES today Apr 13 (coincidentally) — Indian traders can now hedge crude directly via NSE\n\nMARKET COMMENTARY\n• Geojit Vijayakumar: 'How this naval blockade, which in effect will be a US blockade of Iran's blockade, will play out remains to be seen... ideal strategy in this ultra-uncertain situation is to wait and watch'\n• Enrich Money Ponmudi R: 'earlier relief from temporary ceasefire has reversed... crude oil prices, which had corrected from above $110 to $94-100 range, have now surged back above $105, reintroducing inflationary and macro concerns'\n• Choice Equity Aakash Shah: 'sentiment has turned cautious again, market may witness profit booking and volatility, especially if Nifty sustains below 24,000 mark'\n• Motilal Oswal Ajay Menon: 'Movements in crude oil prices, the rupee, and FII flows will remain key determinants of near-term market direction'\n• Simbal Khan (Asia Foundation): 'I think it's the beginning of the end of this phase of war' — but talks failure makes this less certain\n\nSCENARIO C ACTIVATED — WHAT'S NEXT\nThe 20% failure case we flagged has activated. The path forward:\n\n1. **Blockade enforcement phase (Days 45-50)**: US Navy begins intercepting Iran-bound tankers. Oil climbs toward $115-120. Sensex tests 74,000-75,000 support. Rupee toward 94-95.\n\n2. **Iranian response options**: (a) asymmetric attack on US warships (escalation); (b) formal withdrawal from ceasefire; (c) quiet diplomacy via China/Russia/Pakistan; (d) 'inches away' position — return to table with face-saving compromise.\n\n3. **Secondary track — Lebanon-Israel Washington talks TUESDAY**: If this track succeeds while Iran track fails, it's a partial off-ramp. Netanyahu wants 'peace agreement for generations.'\n\n4. **Nuclear timeline**: 440.9kg of 60% HEU still unaccounted. Single IR-6 cascade = 60% → 90% in 10 days. Fordow deep bunker only 30% damaged. Iran could rush to breakout under cover of blockade distraction. This is the fear driving US hardline.\n\nBOTTOM LINE\nThe 'Trump reset' has activated. Markets are now repricing a binary event that resolved DOWN. Monday's -2% intraday crash erases Wednesday's ₹16L Cr rally in a single session. Brent back above $100 reintroduces full inflation + CAD + rupee stress. India's structural shields (40% Hormuz, 6-8 weeks stocks, Reliance Iranian crude direct, DII absorption of FPI outflow, Jaishankar's UAE diplomacy, RBI pause) are about to be tested for the first time with NO diplomatic off-ramp visible. Direction now depends on two variables: (1) does Iran retaliate militarily in Hormuz against US Navy vessels? (2) does Trump actually enforce the blockade or walk it back like the March 5 'power plants and bridges' threat? The 2-week ceasefire technically runs until April 22 — nine days of ambiguity remain. Watch for: Tuesday Lebanon-Israel talks as partial off-ramp; Iran rushing to Europeans (Berlin/Paris/London per Araghchi); China/Russia mediation offer; any incident between US destroyers and IRGC vessels in Hormuz. Indian equities will remain volatile, crude-sensitive, and rupee-correlated until the direction clarifies. Brace for Brent $110+ test if blockade holds to Friday."
   }
 }
