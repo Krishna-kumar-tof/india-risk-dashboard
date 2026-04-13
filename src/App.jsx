@@ -4,11 +4,11 @@ import { useState, useEffect } from "react";
 // INDIA RISK DASHBOARD — V7.0 — AUTO-UPDATE EDITION
 // Market data auto-fetched via GitHub Action every 4 hours
 // War intelligence: manually updated
-// Updated: March 25, 2026 — 5:00 PM IST (Day 21)
+// Updated: April 13, 2026 — 11:00 AM IST (Day 45)
 // ═══════════════════════════════════════════════════════════════════
 
-const WAR_UPDATED = "April 8, 2026 — 8:00 AM IST";
-const WAR_DAY = 40;
+const WAR_UPDATED = "April 13, 2026 — 11:00 AM IST";
+const WAR_DAY = 45;
 
 const C = {
   bg:"#0f1117",surface:"#171b23",card:"#1c2029",raised:"#242934",
