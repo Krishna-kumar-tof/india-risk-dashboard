@@ -1,147 +1,143 @@
 {
-  "_updated": "April 13, 2026 — 11:00 AM IST",
-  "_day": 45,
+  "_updated": "April 14, 2026 — 9:15 AM IST",
+  "_day": 46,
   "_phase": "BLOCKADE",
-  "_note": "Verified: NPR, CNN, NBC, ABC, CNBC, TIME, Reuters, AP, Al Jazeera, BusinessToday, ANI. DAY 45: Islamabad talks COLLAPSED after 21 hours. CENTCOM blockade live from 10 AM ET Mon. Nuclear was dealbreaker. Sensex -1,700 pts, Nifty -500, rupee -49p. Brent +8% to $103. War Phase 2 begins.",
+  "_note": "Verified: NBC, CNN, Al Jazeera, CBS, NPR, ABC, BusinessToday, Goodreturns. DAY 46: BSE/NSE CLOSED today — Ambedkar Jayanti. Blockade live since Mon 10 AM ET. Trump says 'called by right people in Iran.' Iran calls it piracy. Sensex Apr 13 CLOSE: 76,847 (-702 / -0.91%). Nifty 23,842 (-207 / -0.86%). Brent $99.36 Mon close. Ceasefire expires Apr 22 — 8 days left.",
   "ticker": [
-    "🚨 BLOCKADE LIVE: CENTCOM enforcing maritime blockade on Iranian ports from 10 AM ET Mon. Iran IRGC: US warships will be 'met with severe force'",
-    "💥 SENSEX CRASHED -1,700 pts to 75,868 intraday (-2%). Nifty -500 to 23,556. ₹8 LAKH CR WIPED. Market cap ₹443L Cr (from ₹451L Cr)",
-    "🛢️ BRENT JUMPED 8% to ~$103/barrel (peak $102.29). WTI +9.3% to $105. Analysts warn $115-$140 if blockade escalates",
-    "💱 RUPEE CRASHED 49 paise to 93.32/USD — crude shock + FPI outflows. India VIX spiked above 22",
-    "☢️ NUCLEAR was THE dealbreaker. Trump: 'most points agreed, but the only point that mattered, NUCLEAR, was not.' Iran refused no-weapon commitment",
-    "🇮🇷 Iran FM Araghchi: 'inches away from Islamabad MoU — then encountered maximalism, shifting goalposts, and blockade.' IRGC threatens US warships",
-    "🛢️ Saudi restored FULL East-West Pipeline + Manifa field output. OMC stocks BPCL/HPCL/IOC -3 to -4%. Upstream ONGC/Oil India positive",
-    "🇱🇧 Lebanon-Israel Washington talks still confirmed Tuesday. Netanyahu wants 'real peace agreement, not just ceasefire'",
-    "🇮🇳 NSE launched BRENT CRUDE FUTURES today Apr 13. India 85%+ crude via Hormuz. All 30 Sensex stocks fell. IndiGo Aviation -6.4%, Maruti -4.3%",
-    "🌐 DAY 45: Ceasefire technically 'holding' per Trump. UK will NOT join blockade. Vance left 'final and best offer' — diplomacy not fully dead"
+    "🏦 BSE/NSE CLOSED TODAY — Ambedkar Jayanti public holiday. Markets reopen Wednesday Apr 15",
+    "📞 TRUMP: 'called today by the RIGHT PEOPLE in Iran — they want to work on a deal.' S&P 500 surged, erasing ALL Iran war losses",
+    "🚨 BLOCKADE DAY 2: CENTCOM blockade of Iranian ports active. Iran calls it 'PIRACY.' Thousands rally in Tehran against blockade",
+    "⚔️ Iran Armed Forces on 'MAXIMUM COMBAT ALERT' — acting defence minister. Iran: 'will not allow any interference by US forces in Hormuz'",
+    "🤝 France + UK convening 40+ nation coalition for 'peaceful multinational mission to restore freedom of navigation' — separate from US blockade",
+    "🛢️ BRENT settled $99.36 Mon (+4.3%). WTI $99.08 (+2.6%). Recovered from intraday $103 peak. Trump threatens to 'ELIMINATE' Iranian fast attack ships",
+    "📉 SENSEX APR 13 CLOSE: 76,847 (-702 / -0.91%). Nifty 23,842 (-208 / -0.86%). Recovered sharply from intraday lows of 75,868/23,556",
+    "🌍 IEA + IMF + World Bank JOINT STATEMENT: 'No quick relief on fuel/fertilizer prices even after Hormuz reopens' — structural damage too deep",
+    "🇨🇳 China FM Wang Yi: blockade 'does not serve common interests of international community.' Ceasefire 'extremely fragile' — expires Apr 22",
+    "🇱🇧 Israel-Lebanon: Israeli PM Netanyahu crossed into Lebanon Sunday. 100+ killed Lebanon over weekend. Washington talks aim for ceasefire deal"
   ],
   "whatChanged": {
-    "label": "WHAT CHANGED — APR 13, 11:00 AM IST (DAY 45)",
+    "label": "WHAT CHANGED — APR 14, 9:15 AM IST (DAY 46)",
     "items": [
       {
-        "color": "red",
-        "bold": "Islamabad talks COLLAPSED after 21 hours.",
-        "text": "Vance press conference: 'The bad news is that we have not reached an agreement. Iran chose not to accept our terms.' First US-Iran face-to-face since 1979 ended in failure. US red lines: end all enrichment, dismantle facilities, retrieve HEU, stop proxies, open Hormuz without toll."
+        "color": "green",
+        "bold": "Trump: 'called by the right people in Iran — they want a deal.'",
+        "text": "Trump told reporters Monday he was 'called today by the right people in Iran' and that 'they want to work on a deal.' This sent US stocks sharply higher — S&P 500 closed up 1%+ Mon, erasing ALL losses since the Iran war began Feb 28. Vance: 'ball is in Iran's court.' No formal confirmation from Tehran."
       },
       {
         "color": "red",
-        "bold": "CENTCOM BLOCKADE begins Mon 10 AM ET.",
-        "text": "CENTCOM statement: 'will begin implementing a blockade of all maritime traffic entering and exiting Iranian ports on April 13 at 10 AM ET.' Applies impartially to vessels of all nations entering/departing Iranian ports and coastal areas. Ships going between non-Iranian ports may still transit Hormuz."
-      },
-      {
-        "color": "red",
-        "bold": "Sensex CRASHED -1,700 pts (-2%), ₹8L Cr wiped.",
-        "text": "Sensex intraday low 75,868. Nifty -500 to 23,556. All 30 Sensex stocks fell. IndiGo -6.4%, Maruti -4.3%, L&T/Asian Paints/Bajaj Finance -3%+. OMC stocks BPCL/HPCL/IOC -3-4%. HDFC Bank -2.5%, Reliance -2.6%, SBI -3%."
-      },
-      {
-        "color": "red",
-        "bold": "Brent jumped 8% to $103, WTI $105.",
-        "text": "Brent futures +8% to ~$103/barrel (peak $102.29). WTI +9.3% peak $104.24. Analysts warn $115-$140/barrel possible if blockade hardens. Oil prices erased last week's -12% decline. Rupee -49 paise to 93.32/USD."
-      },
-      {
-        "color": "purple",
-        "bold": "Nuclear was the ONE point that mattered.",
-        "text": "Trump Truth Social: 'most points were agreed to, but the only point that really mattered, NUCLEAR, was not.' US demanded end of ALL enrichment, dismantle major facilities, allow US to retrieve HEU. Iran refused — says nuclear program is civilian and it has a right to peaceful enrichment."
+        "bold": "Iran calls blockade 'PIRACY.' Armed forces on maximum combat alert.",
+        "text": "Iran's armed forces accused the US of 'piracy' and declared its ports are 'either for everyone or for no one.' Acting defence minister said armed forces are on 'maximum combat alert.' Iranian Defence Gen. Talaei-Nik: 'Iran will not allow any interference or aggression by US forces in Hormuz and will respond decisively to any aggressor.'"
       },
       {
         "color": "amber",
-        "bold": "Iran FM: 'inches away' from MoU, blames US maximalism.",
-        "text": "Araghchi on X: 'When just inches away from Islamabad MoU, we encountered maximalism, shifting goalposts, and blockade. Zero lessons earned.' Ghalibaf from Tehran: 'With so-called blockade, soon you'll be nostalgic for $4-$5 gas.' Iran IRGC: US warships in Hormuz 'will be met with severe force.'"
-      },
-      {
-        "color": "green",
-        "bold": "Vance: diplomacy not dead, left 'final and best offer.'",
-        "text": "Vance: 'We leave here with a very simple proposal: a method of understanding that is our final and best offer. We'll see if the Iranians accept it.' Ceasefire technically still 'holding well' per Trump. UK will NOT join blockade. Lebanon-Israel talks still Tuesday in Washington."
+        "bold": "Trump threatens to ELIMINATE Iranian 'fast attack ships.'",
+        "text": "Trump Truth Social: 'Warning: If any of these ships come anywhere close to our BLOCKADE, they will be immediately ELIMINATED, using the same system of kill that we use against the drug dealers on boats at Sea.' Thousands rallied in Tehran against the blockade. Ceasefire officially expires Apr 22 — 8 days left."
       },
       {
         "color": "cyan",
-        "bold": "India: 85%+ crude via Hormuz, rupee 93.32, NSE Brent futures launch.",
-        "text": "India 85%+ crude imports Hormuz dependent. Experts warn CAD widening, rupee pressure, inflation re-acceleration. OMCs -3-4%, airlines worst hit (IndiGo -6.4%). NSE launched Brent crude futures today Apr 13. FPI outflow ₹20,700 Cr last week, DII ₹21,600 Cr in. RBI rate at 5.25%."
+        "bold": "BSE/NSE CLOSED today — Ambedkar Jayanti. Apr 13 close: Sensex 76,847.",
+        "text": "Indian markets closed today (Apr 14) for Ambedkar Jayanti public holiday. Reopen Wednesday Apr 15. Apr 13 CLOSE: Sensex 76,847 (-702 / -0.91%), Nifty 23,842 (-207 / -0.86%). Recovered sharply from intraday lows of 75,868/23,556. FII net sold ₹1,244 Cr Mon. DII net bought ₹2,051 Cr."
+      },
+      {
+        "color": "cyan",
+        "bold": "Brent settled $99.36 Mon. WTI $99.08. Off $103 peak.",
+        "text": "Brent crude closed +4.3% to $99.36 Mon (down from intraday $103 peak). WTI +2.6% to $99.08. Oil remains ~40% above pre-war levels. US Energy Secretary Wright: prices will stay high and 'maybe even rising' until 'meaningful ship traffic' gets through Hormuz — expects peak 'in coming weeks.'"
+      },
+      {
+        "color": "purple",
+        "bold": "France + UK convening 40+ nation coalition — separate 'peaceful mission.'",
+        "text": "Macron announced 'peaceful multinational mission aimed at restoring freedom of navigation in Hormuz.' Conference to be held 'in coming days' jointly with UK. UK PM Starmer: 'We're not supporting the blockade — all efforts focused on getting strait fully open.' UK leading planning for coalition of 40+ nations from NATO and beyond. Strictly defensive, separate from warring parties."
+      },
+      {
+        "color": "red",
+        "bold": "IEA + IMF + World Bank: No quick relief even after Hormuz reopens.",
+        "text": "Joint statement from IEA, IMF and World Bank heads: 'Even after a resumption of regular shipping flows through the Strait, it will take time for global supplies to move back towards pre-conflict levels — fuel and fertilizer prices may remain high for a prolonged period given the damage to infrastructure.' JPMorgan: 'Reopening the Strait has become the market's most time-sensitive priority.'"
+      },
+      {
+        "color": "amber",
+        "bold": "Lebanon: Netanyahu enters Lebanon. 100+ killed over weekend. Washington talks today.",
+        "text": "Israeli PM Netanyahu crossed into Lebanon Sunday. Israeli airstrikes hit border villages, creating buffer zone. Lebanese authorities: 100+ killed over the weekend. Israeli-Lebanese ceasefire talks underway in Washington. Lebanese Red Cross: 57 medics killed in 6 weeks. Israel denies targeting medics. Macron: Lebanon must be included in any ceasefire deal."
       }
     ]
   },
-  "deaths": "6,350+",
-  "deathsSub": "~3,400 Iran (HRANA, 1,600+ civilians), 1,800+ Lebanon (Beirut >300), 99 Iraq, 23 Israel, 13 US (+2 noncombat), 35+ Gulf",
+  "deaths": "6,400+",
+  "deathsSub": "~3,400 Iran (HRANA, 1,600+ civilians), 1,900+ Lebanon (100+ killed this weekend alone), 99 Iraq, 23 Israel, 13 US (+2 noncombat), 35+ Gulf",
   "econ": {
-    "sensex": "75,868*",
-    "sensexDelta": "▼ -1,700 intraday (-2%)",
-    "sensexSub": "₹8L Cr WIPED Mon morning. All 30 Sensex stocks fell. Blockade shock",
-    "vix": "22+ (elevated)",
-    "vixDelta": "fear gauge spiking",
-    "fpi": "₹20,700 Cr OUT last week",
-    "fpiDelta": "DII ₹21,600 Cr IN cushion",
-    "wealth": "₹8L Cr WIPED Monday morning",
-    "analysis": "DAY 45 MON 11 AM IST: War Phase 2 — BLOCKADE era begins. Islamabad talks COLLAPSED after 21-hour marathon US-Iran direct negotiation (first since 1979). CENTCOM blockade implemented from 10 AM ET Mon, targeting vessels entering/departing Iranian ports. Sensex crashed -1,700 pts to 75,868 intraday (-2%), Nifty -500 to 23,556, ₹8 LAKH CR wiped — all 30 Sensex stocks fell. Brent +8% to $103 (peak $102.29), WTI +9.3% to $105. Rupee -49 paise to 93.32. Nuclear was THE dealbreaker — US demanded end of all enrichment + HEU retrieval; Iran refused. Iran FM Araghchi: 'inches away from MoU then encountered maximalism.' Ghalibaf taunted: 'enjoy current gas prices.' IRGC threatens US warships. UK NOT joining blockade. Saudi restored full East-West Pipeline (partial offset). Lebanon-Israel Washington talks still Tuesday. OMC stocks BPCL/HPCL/IOC -3-4%, airlines worst hit (IndiGo -6.4%), upstream ONGC/Oil India positive. Analysts: $115-$140/barrel possible if blockade firms. Columbia University's Karen Young: 'elevated oil prices through end of 2026 for certain.' Ceasefire technically holding but Phase 2 has begun."
+    "sensex": "76,847",
+    "sensexDelta": "▼ -702 pts (-0.91%) Apr 13 close",
+    "sensexSub": "Recovered from 75,868 intraday low. CLOSED today (Ambedkar Jayanti)",
+    "vix": "~18-20 (easing)",
+    "vixDelta": "recovered from 22+ spike",
+    "fpi": "FII net -₹1,244 Cr Apr 13",
+    "fpiDelta": "DII net +₹2,051 Cr Apr 13",
+    "wealth": "BSE market cap ~₹446L Cr (recovered from ₹443L Cr Mon morning)",
+    "analysis": "DAY 46 TUE 9:15 AM IST: Markets CLOSED today — Ambedkar Jayanti public holiday. Reopen Wed Apr 15. Apr 13 CLOSE: Sensex settled 76,847 (-702 / -0.91%), Nifty 23,842 (-207 / -0.86%) — significant recovery from intraday lows of 75,868/23,556. Brent Mon close $99.36 (+4.3%), WTI $99.08 (+2.6%) — off intraday $103/$105 peaks. Key development: Trump said he was 'called by the right people in Iran' who want a deal — propelled S&P 500 +1%+ Mon, erasing ALL Iran war losses since Feb 28. FII sold ₹1,244 Cr, DII bought ₹2,051 Cr on Apr 13. Iran declared maximum combat alert + called blockade 'piracy.' France + UK convening 40+ nation coalition for peaceful mission to reopen Hormuz. IEA+IMF+World Bank: no quick price relief even post-reopening. Ceasefire expires Apr 22 — 8 days. US Energy Secretary Wright: oil prices peak expected 'in coming weeks.' JPMorgan: 'Reopening the Strait is the market's most time-sensitive priority.'"
   },
   "hormuzStatus": {
-    "status": "BLOCKADED — CENTCOM ENFORCING",
+    "status": "BLOCKADED — DAY 2. IRAN: MAXIMUM COMBAT ALERT",
     "preWarFlow": "130-160 ships/day",
-    "currentFlow": "BLOCKADE from 10 AM ET Mon. Non-Iranian-port ships may still transit",
-    "reduction": "~98% below normal pre-blockade; US Navy now actively interdicting Iranian port vessels",
+    "currentFlow": "< 10% of pre-war. Blockade targeting Iranian port vessels. Trump threatens to sink Iranian fast attack ships",
+    "reduction": "~90%+ below normal. 17 vessels crossed Sat (Windward). Non-Iranian-port ships still technically permitted",
     "indianVesselsNear": 8,
     "indianSeafarers": 280,
     "indianTransited": 10,
-    "totalShipsWaiting": "600+ vessels stuck (Lloyd's List). US Navy to interdict vessels that paid toll to Iran",
-    "lastTransit": "Fri: 2 non-tanker ships only. Tue-Thu: 4-8 ships/day. Total 19 in 3 days. Blockade now active.",
+    "totalShipsWaiting": "34,000+ ships diverted from strait in past month (Al Jazeera). Insurance 10x pre-war rates",
+    "lastTransit": "17 vessels crossed Saturday (Windward). Blockade now in Day 2. Iranian fast attack ships warned to stay back",
     "indianNavyEscort": "Op Urja Suraksha — 5+ warships standing by in Gulf of Oman",
-    "headline": "CENTCOM BLOCKADE LIVE — Targeting Iranian port vessels from Mon 10 AM ET. Iran IRGC threatens 'severe force.' Ceasefire status uncertain. War Phase 2 begins."
+    "headline": "BLOCKADE DAY 2 — Iran on maximum combat alert. Trump threatens fast attack ships. 40+ nation coalition forming separately. Ceasefire expires Apr 22."
   },
   "hormuzEvents": [
     {
+      "d": "Apr 14 AM",
+      "e": "DAY 46. BSE/NSE CLOSED — Ambedkar Jayanti. Iran on maximum combat alert. Calls blockade 'piracy.' Thousands rally Tehran. Trump: 'called by right people in Iran, they want a deal.' S&P 500 closed Mon +1%+, erasing all Iran war losses. France+UK convening 40+ nation coalition. IEA+IMF+World Bank: no quick price relief."
+    },
+    {
+      "d": "Apr 13 PM",
+      "e": "Sensex closed 76,847 (-702 / -0.91%), Nifty 23,842 (-207). Recovered from 75,868/23,556 intraday lows. Brent settled $99.36, WTI $99.08. Trump threatened Iran fast attack ships with 'elimination.' Iran Defence: will not allow US interference. Macron announced peaceful multinational Hormuz mission with UK."
+    },
+    {
       "d": "Apr 13 AM",
-      "e": "DAY 45. CENTCOM BLOCKADE begins 10 AM ET. Iran IRGC warns US warships face 'severe force.' Sensex -1,700 pts, Nifty -500. Brent +8% to $103. Rupee -49p to 93.32. NSE Brent futures launch today. All 30 Sensex stocks fall. IndiGo -6.4%, OMCs -3-4%."
+      "e": "DAY 45. CENTCOM BLOCKADE begins 10 AM ET. Sensex intraday low 75,868 (-1,700 / -2%). Nifty 23,556 (-500). ₹8L Cr wiped in minutes. Brent +8% peak $103. Rupee -49p to 93.32. All 30 Sensex stocks fell. IndiGo -6.4%, OMCs -3-4%."
     },
     {
-      "d": "Apr 12-13",
-      "e": "Islamabad talks COLLAPSE after 21 hours. Vance: 'Iran chose not to accept our terms.' Nuclear the dealbreaker. Trump orders blockade Truth Social. CENTCOM formalizes from Mon 10 AM ET. Araghchi: 'inches from MoU then maximalism.' UK refuses to join blockade. Vance leaves 'final and best offer.'"
-    },
-    {
-      "d": "Apr 12 AM",
-      "e": "Two US guided-missile destroyers (USS Frank E. Petersen Jr. + USS Michael Murphy) transit Hormuz — first US warships since war began. CENTCOM: 'operation for freedom of navigation + mine clearance.' Iran claimed one vessel turned back after warning."
+      "d": "Apr 12",
+      "e": "Islamabad talks COLLAPSE after 21 hours. Vance: 'Iran chose not to accept our terms.' Nuclear the dealbreaker. Trump orders Hormuz blockade. CENTCOM formalizes from Mon 10 AM ET. UK declines to participate."
     },
     {
       "d": "Apr 11",
-      "e": "Day 43. Islamabad talks BEGIN. Iranian delegation arrived Islamabad Fri night: Ghalibaf (Parliament Speaker) + Araghchi (FM). US side: VP Vance + Witkoff + Kushner. Trump: 'We'll know in 24 hours.' Only 2 ships through Hormuz Fri — lowest since ceasefire."
-    },
-    {
-      "d": "Apr 10 PM",
-      "e": "Lebanon-Israel Washington talks confirmed next week. Iran adviser Kharazi died. Pakistan Def Min deleted 'Israel evil' post. US March CPI 3.3%."
-    },
-    {
-      "d": "Apr 9",
-      "e": "Sensex snapped 5-day rally -932. Iran SEA MINES confirmed by CENTCOM (began 'setting conditions for clearing mines'). TCS Q4 +12%. Israel agreed Lebanon talks."
+      "e": "Day 43. Islamabad talks BEGIN. Iranian delegation: Ghalibaf + Araghchi. US: Vance + Witkoff + Kushner. Trump: '24 hours.' Only 2 ships through Hormuz Fri — lowest since ceasefire."
     },
     {
       "d": "Apr 8",
-      "e": "CEASEFIRE announced. Sensex +2,946 pts (+3.95%) — biggest gain since Feb 2021. Brent -11% below $90. Iran FM: 'safe passage via coordination with Armed Forces.' Hormuz partial reopen for 2 weeks."
+      "e": "CEASEFIRE announced. Sensex +2,946 pts (+3.95%) — biggest gain since Feb 2021. Brent -11% below $90. Hormuz partial reopen for 2 weeks. Ceasefire expires Apr 22."
     }
   ],
   "kitchen": [
     {
       "item": "LPG Cylinder (14.2kg)",
       "pre": "₹853",
-      "now": "₹913",
-      "chg": "Blockade risk rising",
-      "proj": "₹950-1,000+ if blockade firms",
-      "note": "Brent at $103 and rising. CENTCOM blockade now live. LPG flow stalled — Hormuz effectively closed for Iranian port vessels. Reliance 2M Iranian barrels (Apr 7). Sea Bird Iranian LPG at Mangalore. ZERO dry-outs today. 51 lakh cylinders. Blockade threatens all ME LPG routes.",
+      "now": "₹912.50",
+      "chg": "Blockade risk — watch Apr 22",
+      "proj": "₹950-1,000 if blockade extends past Apr 22",
+      "note": "Brent ~$99. Blockade Day 2. LPG imports via Hormuz constrained. ZERO dry-outs. 51 lakh cylinders buffer. Trump-Iran contact (right people) gives small hope. Ceasefire expires Apr 22 — key date. Saudi East-West pipeline offset limited.",
       "s": 2
     },
     {
       "item": "Natural Gas (PNG/CNG)",
       "pre": "Normal",
       "now": "Recovering slowly",
-      "chg": "Blockade re-tightens",
-      "proj": "Tight through 2026",
-      "note": "Ras Laffan (17% LNG capacity) still 3-5 years to repair. QatarEnergy force majeure. India 60% gas from ME. Blockade of Iranian port vessels tightens Hormuz further. Structural premium stays. CNG vehicles at risk if blockade extends.",
+      "chg": "Blockade re-tightens further",
+      "proj": "Tight through 2026 — IEA confirms",
+      "note": "IEA+IMF+World Bank joint statement: fuel prices may stay high 'for prolonged period' even after Hormuz reopens due to infrastructure damage. Ras Laffan 17% LNG capacity still 3-5 years to repair. QatarEnergy force majeure ongoing. India 60% gas from ME.",
       "s": 2
     },
     {
       "item": "Petrol (Delhi)",
       "pre": "₹94.72/L",
       "now": "₹94.77/L",
-      "chg": "Hike risk HIGH — Brent $103",
-      "proj": "Hike likely if Brent holds >$100",
-      "note": "Brent at $103+. WTI $105. Govt excise cut ₹10/L already deployed. OMCs absorbing losses. If Brent stays above $100 for 2+ weeks, retail hike of ₹8-14/L becomes inevitable (Elara). Mumbai ₹103.54. Watch blockade duration.",
+      "chg": "Brent $99 — hike risk remains",
+      "proj": "Hike if Brent stays above $100 post-Apr 22",
+      "note": "Brent settled $99.36 Mon. Govt excise cut ₹10/L already used up. OMCs absorbing losses. US Energy Secretary Wright expects oil to peak and fall 'in coming weeks' if diplomacy works. But IEA warns no quick relief. Mumbai ₹103.54.",
       "s": 2
     },
     {
@@ -150,103 +146,103 @@
       "now": "₹1,885",
       "chg": "+₹145 (8.3%)",
       "proj": "₹2,100+ if blockade extends",
-      "note": "Delayed by Hormuz mines + now blockade. Restaurants reopening after ceasefire hope now facing fresh uncertainty. Recovery delayed again. SBI Securities: blockade negative for hotels/restaurants/food service sector.",
+      "note": "Restaurant recovery stalled again with blockade. IEA+IMF+World Bank warn fertilizer prices also stay high prolonged. SBI Securities: negative for hotels/restaurants. Watch Apr 22 ceasefire expiry.",
       "s": 2
     },
     {
       "item": "Diesel (Delhi)",
       "pre": "₹87.62/L",
       "now": "₹87.67/L",
-      "chg": "Hike risk returns",
-      "proj": "Stable short-term, hike risk builds",
-      "note": "Govt cut excise ₹10 to 0/L; OMCs absorbed. Brent $103 squeezes margins sharply. Every ₹1 diesel rise = ₹2,500 cr annual trucking cost. Mumbai ₹90.03. Risk of hike rises with each day of blockade.",
+      "chg": "Hike risk elevated",
+      "proj": "Stable if Brent retreats below $95",
+      "note": "Brent $99 keeps pressure on OMC margins. Every ₹1 diesel rise = ₹2,500 cr annual trucking cost. 34,000+ ships diverted from strait in past month — shipping costs +10%+ (Al Jazeera). Mumbai ₹90.03.",
       "s": 2
     },
     {
       "item": "Cooking Oil",
       "pre": "~₹140/L",
       "now": "~₹155-165/L",
-      "chg": "Easing slightly",
-      "proj": "₹150-160/L if blockade resolves",
-      "note": "Palm +5%, Sunflower +16%. Rupee 93.32 = imports costlier again. Fertilizer 50% spike takes longer to unwind. Kharif crop costs rising.",
+      "chg": "Easing slowly",
+      "proj": "₹150-160/L by May if ceasefire extends",
+      "note": "IEA+IMF+World Bank: fertilizer prices also slow to recover even after Hormuz reopens — hits next kharif crop. Rupee 93.33 = imports still costlier. 30% global fertilizer transits Hormuz.",
       "s": 2
     },
     {
       "item": "Vegetables/Onion",
       "pre": "Stable",
       "now": "Rising",
-      "chg": "Diesel freight risk",
-      "proj": "₹60-80/kg onion risk",
-      "note": "400K tons Basmati stuck. Diesel freight costs rising. 30% of fertilizers transit Hormuz — Kharif crop at risk. Blockade extension = food inflation acceleration.",
+      "chg": "Fertilizer + freight risk",
+      "proj": "₹60-80/kg onion risk if blockade extends",
+      "note": "IEA+IMF+World Bank flagged fertilizer disruption as key structural risk. 30% of fertilizers transit Hormuz. Kharif sowing season approaching. Diesel freight costs rising.",
       "s": 1
     },
     {
       "item": "Air Travel",
       "pre": "Normal",
-      "now": "Surcharge + IndiGo -6.4%",
-      "chg": "IndiGo worst Sensex faller today",
-      "proj": "Higher surcharges certain",
-      "note": "IndiGo fell -6.4% — worst Sensex performer today. ATF linked to Brent. Jet fuel past ₹2L/kL. $103 Brent makes airline economics extremely painful. Korean Air 'emergency mode.' Further surcharges expected.",
+      "now": "Surcharges. IndiGo -6.4% Mon",
+      "chg": "US gas avg $4.12/gallon (+$1.20 since war)",
+      "proj": "Further surcharges if Brent holds $95-100+",
+      "note": "IndiGo fell -6.4% Mon — worst Sensex performer. US avg gas $4.12/gallon per AAA (+$1.20 since war began). ATF linked to Brent. Shipping costs +10%+ past month. Maritime insurance 10x pre-war. Airlines facing structural margin pressure.",
       "s": 3
     },
     {
       "item": "Medicine",
       "pre": "Stable",
       "now": "Rising",
-      "chg": "API +30%",
-      "proj": "+10-15% retail impact",
-      "note": "API (raw material) costs up 30%. Tofigh Daru pharma plant in Iran bombed (Apr 3). India sources some APIs from Iran. Pharma margins squeezed. Impact visible from Q1 FY27. Blockade adds shipping cost and delay risk.",
+      "chg": "API +30%, shipping +10%",
+      "proj": "+10-15% retail impact Q1 FY27",
+      "note": "API costs up 30%. 34,000+ ships diverted from Hormuz — supply chain disruptions spreading. Baltimore city: forced to cut fluoride in water supply due to war-related supply chain disruption (Israeli supplier disrupted). India pharma impact Q1 FY27.",
       "s": 2
     }
   ],
   "military": [
     {
-      "t": "🚨 CENTCOM BLOCKADE BEGINS — Mon 10 AM ET (Apr 13)",
+      "t": "📞 Trump: 'Called by RIGHT PEOPLE in Iran — They Want a Deal'",
       "lv": "BREAKING",
-      "color": "red",
-      "d": "CENTCOM statement: 'will begin implementing a blockade of all maritime traffic entering and exiting Iranian ports on April 13 at 10 AM ET, in accordance with the President's proclamation.' Will be enforced impartially against vessels of all nations entering or departing Iranian ports and coastal areas. Ships going between non-Iranian ports may still transit Hormuz. US also instructed Navy to 'seek and interdict every vessel in International Waters that has paid a toll to Iran.' DOJ AG Blanche: 'will vigorously prosecute anyone who buys or sells sanctioned Iranian oil.'"
-    },
-    {
-      "t": "🚨 Iran IRGC Threatens 'Severe Force' Against US Warships",
-      "lv": "BREAKING",
-      "color": "red",
-      "d": "Iran IRGC Navy: any military vessels approaching Strait of Hormuz 'will be considered a violation of the ceasefire and will be met with a firm and forceful response' (Fars news agency). IRGC also stated Hormuz is under 'smart control and management' and open for non-military vessels under specific regulations — directly contradicting US blockade framing. Iran Deputy Parliament Speaker Nikzad: 'In 40 days of war, US learned determination beats rhetoric on social media.'"
-    },
-    {
-      "t": "🔴 Islamabad Talks COLLAPSED — 21 Hours, No Deal",
-      "lv": "BREAKING",
-      "color": "red",
-      "d": "Most intensive US-Iran engagement since 1979 ended without agreement. Vance: 'bad news — no agreement. Iran chose not to accept our terms. I think that's bad news for Iran much more than it's bad news for the US.' US red lines unmet: end all enrichment, dismantle major facilities, allow retrieval of HEU, stop proxy funding (Hamas/Hezbollah/Houthis), fully open Hormuz without toll. Iran demanded: frozen asset release, sanctions lifted, Hormuz control, right to enrichment, end Israel attacks on Lebanon, war reparations."
-    },
-    {
-      "t": "⚠️ Trump Considers Resuming Military Strikes — WSJ",
-      "lv": "DEVELOPING",
-      "color": "amber",
-      "d": "Wall Street Journal: Trump considering resumption of limited military strikes on Iran to break stalemate, citing sources. Trump Truth Social: 'At an appropriate moment, we are fully LOCKED AND LOADED, and our Military will finish up the little that is left of Iran.' Trump on Fox: blockade is 'called all in and all out.' Vance left a 'final and best offer.' Analysts warn strikes would end ceasefire and risk full escalation. Ceasefire technically 'holding' per Trump as of Mon morning."
-    },
-    {
-      "t": "🚢 Two US Destroyers Transit Hormuz — First Since War",
-      "lv": "DEVELOPING",
-      "color": "amber",
-      "d": "USS Frank E. Petersen Jr. (DDG 121) and USS Michael Murphy transited Hormuz Saturday — first US warships since war began. CENTCOM: 'operation focused on freedom of navigation + setting conditions for clearing mines.' Iran claimed one vessel 'turned back after warning' — US did not confirm. Pentagon confirmed mine-clearance operation underway. India's Op Urja Suraksha: 5+ warships standing by in Gulf of Oman."
-    },
-    {
-      "t": "🇬🇧 UK Refuses to Join Blockade — Backs Freedom of Navigation",
-      "lv": "DEVELOPING",
-      "color": "cyan",
-      "d": "UK government confirmed it will NOT assist with the blockade. Spokesperson: 'We continue to support freedom of navigation and the opening of the Strait of Hormuz, which is urgently needed to support the global economy and the cost of living back home.' UK joining coalition of 40+ countries seeking to open strait. Relations between Trump and UK PM Starmer strained. Trump suggested Gulf allies helping — 'they've already started.'"
-    },
-    {
-      "t": "🇮🇱🇱🇧 Lebanon-Israel Talks Confirmed for Tuesday in Washington",
-      "lv": "DEVELOPING",
       "color": "green",
-      "d": "Lebanese and Israeli diplomats due to meet in Washington this week for US-mediated talks. Lebanon PM on Orthodox Easter: hoped Lebanon would 'overcome dangers, achieve stability, peace and prosperity.' Netanyahu: 'wants real peace agreement with Lebanon, not just a ceasefire.' Israel killed 350+ in Lebanon on Apr 9 (a day after ceasefire with Iran). Lebanon-Israel track continuing independently of Iran talks."
+      "d": "Trump told reporters Monday he was 'called today by the right people in Iran' and that 'they want to work on a deal.' This was the single biggest market-moving statement of the day — S&P 500 closed +1%+ Mon, erasing all losses since the Iran war began Feb 28. Vance: 'It's a question best put to the Iranians — ball really is in their court.' No formal confirmation from Tehran. Iran FM Araghchi says Iran approached talks 'in good faith' but US was maximalist."
     },
     {
-      "t": "🇮🇳 India: Op Urja Suraksha + NSE Brent Futures Launch",
+      "t": "🚨 Iran: MAXIMUM COMBAT ALERT. Blockade is 'PIRACY.'",
+      "lv": "BREAKING",
+      "color": "red",
+      "d": "Iran's acting defence minister declared armed forces on 'maximum combat alert.' Iranian Defence Gen. Talaei-Nik: 'Iran will not allow any interference or aggression by US or other foreign forces in the Strait of Hormuz. Will respond decisively to any aggressor including Israel and the US.' Iran's armed forces called blockade 'piracy' and said its ports are 'either for everyone or for no one.' Thousands rallied in Tehran against the blockade."
+    },
+    {
+      "t": "⚠️ Trump Threatens to ELIMINATE Iranian 'Fast Attack Ships'",
+      "lv": "BREAKING",
+      "color": "red",
+      "d": "Trump Truth Social post Monday: 'Warning: If any of these ships come anywhere close to our BLOCKADE, they will be immediately ELIMINATED, using the same system of kill that we use against the drug dealers on boats at Sea.' Earlier also threatened any Iranian ship approaching as 'will be sunk.' Creates extreme risk of naval incident that could end ceasefire."
+    },
+    {
+      "t": "🇫🇷🇬🇧 France + UK Convening 40+ Nation Hormuz Mission",
       "lv": "DEVELOPING",
       "color": "cyan",
-      "d": "India Op Urja Suraksha — 5+ Indian Navy warships standing by in Gulf of Oman to escort Indian vessels. 8 Indian vessels near Hormuz. 280 Indian seafarers in region. NSE launched Brent crude futures today Apr 13 — coincidental but timely given Day 45 blockade. Jaishankar concluded UAE visit last week. India 85%+ crude imports via Hormuz. 6-8 weeks strategic fuel stocks buffer. RBI held rates at 5.25%."
+      "d": "French President Macron announced a 'peaceful multinational mission aimed at restoring freedom of navigation in the Strait of Hormuz.' Conference to be held 'in coming days' with UK. UK PM Starmer: 'We're not supporting the blockade — all efforts focused on getting strait fully open.' UK leading planning for coalition of 40+ nations from NATO and beyond. Mission described as 'strictly defensive' and 'separate from warring parties.' Starmer and Macron summit ongoing."
+    },
+    {
+      "t": "📊 IEA + IMF + World Bank: No Quick Relief Even After Hormuz Reopens",
+      "lv": "DEVELOPING",
+      "color": "amber",
+      "d": "Joint statement from IEA, IMF and World Bank heads: 'The situation remains very uncertain, and shipping through the Strait of Hormuz is yet to normalize. Even after a resumption of regular shipping flows through the Strait, it will take time for global supplies of key commodities to move back towards pre-conflict levels — and fuel and fertilizer prices may remain high for a prolonged period given the damage to infrastructure.' JPMorgan: 'Reopening the Strait has become the market's most time-sensitive priority.'"
+    },
+    {
+      "t": "🇨🇳 China FM Wang Yi: Blockade Not in 'Common Interests'",
+      "lv": "DEVELOPING",
+      "color": "amber",
+      "d": "Chinese FM Wang Yi met UAE special envoy and Pakistani FM Ishaq Dar Monday. Told Dar that the ceasefire is 'extremely fragile' and the 'urgent task is to prevent resumption of hostilities.' Wang: blockading the Strait of Hormuz 'does not serve the world's common interests.' China stands ready to 'work with all sides to safeguard energy security and supplies.' Russia's Lavrov: ready to help find solutions, says agreements apply to Lebanon too."
+    },
+    {
+      "t": "🇮🇱🇱🇧 Netanyahu Enters Lebanon. 100+ Killed This Weekend. Washington Talks",
+      "lv": "DEVELOPING",
+      "color": "red",
+      "d": "Israeli PM Netanyahu crossed into Lebanon Sunday. Israeli airstrikes hit border villages, Israel says creating buffer zone. Lebanese authorities: 100+ killed over the weekend from Israeli attacks. Israeli-Lebanese officials meeting in Washington for US-mediated ceasefire talks. Lebanese Red Cross: 57 medics killed in 6 weeks. Israel denies targeting medics, accuses Hezbollah of using ambulances. Macron: Lebanon must be included in ceasefire deal."
+    },
+    {
+      "t": "🇮🇳 India: Markets Closed Today. Brent $99. Rupee 93.33",
+      "lv": "DEVELOPING",
+      "color": "cyan",
+      "d": "BSE/NSE closed today — Ambedkar Jayanti. Reopen Wed Apr 15. Apr 13 close: Sensex 76,847 (-702), Nifty 23,842 (-207). Brent settled $99.36 Mon. Rupee 93.33/USD. FII net sold ₹1,244 Cr Mon, DII bought ₹2,051 Cr. 34,000+ ships diverted from Hormuz past month — India supply chain stress. 8 Indian vessels near Hormuz. Op Urja Suraksha: 5+ warships on standby."
     }
   ],
   "nukes": [
@@ -255,7 +251,7 @@
       "type": "Reactor",
       "status": "ACTIVE WAR ZONE — IAEA WARNED",
       "risk": 92,
-      "info": "IAEA: strikes 250ft from operating reactor. Rosatom evacuated 200 staff 'minutes before plant was hit.' 1 security guard killed. Iran AEOI Eslami called strikes 'blatant war crime.' Ceasefire technically holding but blockade changes calculus. Reactor operational. IAEA cannot access.",
+      "info": "IAEA: strikes 250ft from operating reactor. Rosatom evacuated 200 staff 'minutes before plant was hit.' 1 security guard killed. Ceasefire technically holding — Iran on maximum combat alert raises risk of resumed strikes. IAEA cannot access. Reactor operational.",
       "lat": 28.83,
       "lon": 50.88
     },
@@ -264,7 +260,7 @@
       "type": "Enrichment + HEU Storage",
       "status": "75% DAMAGED — 6,000+ CENTRIFUGES DESTROYED",
       "risk": 90,
-      "info": "MAIN enrichment plant 75% damaged. R&D facility 95% destroyed. Some 60% HEU stockpile in Natanz tunnel complex (Grossi). IAEA cannot verify — cameras off May 2025, 'continuity of knowledge lost, irreversible.' Iran terminated ALL IAEA access Feb 28, 2026. Nuclear was the Islamabad dealbreaker — US demanded end of all enrichment here.",
+      "info": "MAIN enrichment plant 75% damaged. R&D facility 95% destroyed. IAEA cameras off since May 2025 — 'continuity of knowledge lost.' Iran terminated all IAEA access Feb 28. Nuclear was the Islamabad dealbreaker — US demanded end of all enrichment + HEU retrieval. Undeclared deep facility possibly under construction nearby.",
       "lat": 33.72,
       "lon": 51.73
     },
@@ -273,7 +269,7 @@
       "type": "Conversion + PRIMARY HEU STORAGE",
       "status": "PRIMARY HEU LOCATION — 200kg+ HERE",
       "risk": 96,
-      "info": "CRITICAL: IAEA Grossi (Mar 9): MAJORITY of Iran's 440.9kg of 60% HEU in deeply buried tunnel complex here. Up to 540kg moved here pre-June 2025 strikes (satellite imagery). UCF conversion 90% destroyed above-ground. New underground enrichment facility — IAEA never inspected. US demanded retrieval of this HEU at Islamabad; Iran refused.",
+      "info": "CRITICAL: IAEA Grossi: MAJORITY of Iran's 440.9kg of 60% HEU in deeply buried tunnel complex here. Up to 540kg moved here pre-June 2025 strikes (satellite imagery). US demanded retrieval at Islamabad — Iran refused. UCF conversion 90% destroyed above-ground. New underground enrichment facility — IAEA never inspected.",
       "lat": 32.57,
       "lon": 51.81
     },
@@ -282,7 +278,7 @@
       "type": "Underground Enrichment — DEEP BUNKER",
       "status": "ONLY 30% DAMAGED — GREATEST PROLIFERATION RISK",
       "risk": 88,
-      "info": "Fordow Fuel Enrichment Plant built into mountain near Qom. Only 30% damaged despite GBU-57 MOPs. Core enrichment capability potentially intact. IAEA cannot verify. Hegseth: 'It's buried, and we're watching it.' Trump demanded full dismantlement; Iran refused at Islamabad. Greatest long-term proliferation risk.",
+      "info": "Fordow Fuel Enrichment Plant built into mountain near Qom. Only 30% damaged despite GBU-57 MOPs. Core enrichment capability potentially intact. IAEA cannot verify. Trump demanded full dismantlement; Iran refused at Islamabad. Greatest long-term proliferation risk. If ceasefire collapses, this is the primary target.",
       "lat": 34.88,
       "lon": 51.73
     },
@@ -291,7 +287,7 @@
       "type": "Heavy Water Reactor",
       "status": "STRUCK — PLUTONIUM PATH CONCERN",
       "risk": 75,
-      "info": "Heavy water reactor capable of producing weapons-grade plutonium. Struck in early war waves. Damage extent unclear — IAEA cannot access. Second potential weapons path alongside uranium enrichment. US demands included this facility. Iran's refusal to commit on nuclear program at Islamabad leaves all sites in limbo.",
+      "info": "Heavy water reactor capable of producing weapons-grade plutonium. Struck in early war waves. Damage extent unclear — IAEA cannot access. Second potential weapons path alongside uranium enrichment. US demands included this facility. Iran's maximum combat alert raises risk of resumed strikes if ceasefire collapses Apr 22.",
       "lat": 34.10,
       "lon": 49.20
     }
@@ -304,7 +300,7 @@
       "sea": 15,
       "nuke": 55,
       "tot": 64,
-      "info": "1,800km downwind from Iran. 440.9kg HEU at Isfahan/Fordow unaccounted. NO iodine prophylaxis program. Blockade era raises nuclear risk as diplomacy failed."
+      "info": "1,800km downwind from Iran. 440.9kg HEU at Isfahan/Fordow unaccounted. NO iodine prophylaxis program. Blockade Day 2, Iran maximum combat alert raises nuclear risk."
     },
     {
       "city": "Mumbai",
@@ -313,7 +309,7 @@
       "sea": 78,
       "nuke": 42,
       "tot": 58,
-      "info": "900km from Hormuz. Reliance Jamnagar refinery processing Iranian crude direct. JNPT port at risk. Sensex crash -1,700 today hits financial capital hardest. NSE Brent futures launched here today."
+      "info": "900km from Hormuz. Reliance Jamnagar refinery processing Iranian crude direct. JNPT port at risk. NSE Brent futures launched Apr 13. BSE/NSE closed today."
     },
     {
       "city": "Ahmedabad",
@@ -322,7 +318,7 @@
       "sea": 55,
       "nuke": 46,
       "tot": 57,
-      "info": "Closest Indian metro to Iran. Dual exposure. Jamnagar refinery nearby. LPG and diesel price shock hits hardest here."
+      "info": "Closest Indian metro to Iran. Dual exposure. Jamnagar refinery nearby. LPG and diesel price shock hits hardest here. 34,000+ ships diverted from Hormuz impacts port supply chains."
     },
     {
       "city": "Jaipur",
@@ -331,7 +327,7 @@
       "sea": 10,
       "nuke": 44,
       "tot": 47,
-      "info": "Rajasthan wind funnel. Inland exposure to nuclear fallout risk. LPG shortage impact moderate. Food inflation risk from fertilizer disruption."
+      "info": "Rajasthan wind funnel. Inland exposure to nuclear fallout risk. LPG shortage impact moderate. Food inflation risk from fertilizer disruption — IEA+IMF+World Bank confirmed prolonged."
     },
     {
       "city": "Kochi",
@@ -340,7 +336,7 @@
       "sea": 70,
       "nuke": 24,
       "tot": 44,
-      "info": "Southern Naval Command. Op Urja Suraksha naval base. Oil spill risk 15-25 days. Fishing economy ₹4,000 cr exposed."
+      "info": "Southern Naval Command. Op Urja Suraksha naval base. Oil spill risk 15-25 days. Fishing economy ₹4,000 cr exposed. Insurance costs 10x for vessels in region."
     },
     {
       "city": "Goa",
@@ -349,7 +345,7 @@
       "sea": 72,
       "nuke": 22,
       "tot": 42,
-      "info": "Konkan coast. Fishing economy ₹4,000 cr exposed. Tourism sector hit by fuel surcharges. Beach economy at risk from shipping disruption."
+      "info": "Konkan coast. Fishing economy ₹4,000 cr exposed. Tourism sector hit by fuel surcharges. Beach economy at risk from shipping disruption and high fuel costs."
     },
     {
       "city": "Lucknow",
@@ -358,7 +354,7 @@
       "sea": 5,
       "nuke": 39,
       "tot": 40,
-      "info": "Indo-Gangetic plain trap. Inland city most exposed to food inflation from fertilizer/diesel shock. CNG vehicle users hit by gas supply squeeze."
+      "info": "Indo-Gangetic plain trap. Most exposed to food inflation from fertilizer/diesel shock. IEA+IMF+World Bank confirmed prolonged fertilizer price elevation. CNG vehicle users hit."
     },
     {
       "city": "Chennai",
@@ -367,7 +363,7 @@
       "sea": 55,
       "nuke": 18,
       "tot": 36,
-      "info": "East coast currents provide buffer. Auto sector (Maruti/Hyundai) hit by raw material costs today. Port active for alternative routes."
+      "info": "East coast currents provide buffer. Auto sector (Maruti/Hyundai) under pressure — Nifty Auto Index fell 2.09% Apr 13. Port active for alternative routes. Shipping insurance 10x normal."
     }
   ],
   "milTop": [],
@@ -389,7 +385,7 @@
       "brent": 96,
       "nifty": 23800,
       "rupee": 92.4,
-      "tag": "Lebanon PM to Washington. Iran adviser Kharazi died. 19 ships Hormuz 3 days. US CPI 3.3%.",
+      "tag": "Lebanon PM to Washington. Iran adviser Kharazi died. US CPI 3.3%.",
       "sev": 2
     },
     {
@@ -399,7 +395,7 @@
       "brent": 96,
       "nifty": 23800,
       "rupee": 92.4,
-      "tag": "ISLAMABAD TALKS BEGIN. Iran delegation arrived (Ghalibaf+Araghchi). Trump: '24 hours'. Only 2 ships Fri.",
+      "tag": "ISLAMABAD TALKS BEGIN. Iran delegation (Ghalibaf+Araghchi). Trump: '24 hours'. Only 2 ships Fri Hormuz.",
       "sev": 3
     },
     {
@@ -409,64 +405,78 @@
       "brent": 102,
       "nifty": 24050,
       "rupee": 92.83,
-      "tag": "TALKS COLLAPSE after 21 hrs. Vance: no deal. Trump orders Hormuz blockade. Brent +8% to $103. Ceasefire uncertain.",
+      "tag": "TALKS COLLAPSE after 21 hrs. Trump orders Hormuz blockade. Brent +8% to $103. Nuclear the dealbreaker.",
       "sev": 3
     },
     {
       "d": 45,
       "l": "Apr 13",
       "deaths": 6350,
-      "brent": 103,
-      "nifty": 23556,
-      "rupee": 93.32,
-      "tag": "BLOCKADE BEGINS 10 AM ET. Sensex -1,700 to 75,868. ₹8L Cr wiped. All 30 Sensex stocks fall. IndiGo -6.4%.",
+      "brent": 99,
+      "nifty": 23842,
+      "rupee": 93.33,
+      "tag": "BLOCKADE BEGINS. Sensex closed 76,847 (-702). Brent settled $99.36. Trump: 'right people in Iran called me.' S&P 500 erases war losses.",
       "sev": 3
+    },
+    {
+      "d": 46,
+      "l": "Apr 14",
+      "deaths": 6400,
+      "brent": 99,
+      "nifty": 23842,
+      "rupee": 93.33,
+      "tag": "BSE/NSE CLOSED — Ambedkar Jayanti. Iran maximum combat alert. Calls blockade piracy. France+UK 40+ nation coalition forming. Ceasefire expires Apr 22.",
+      "sev": 2
     }
   ],
   "hormuzLatest": [
     {
-      "d": "Apr 13 AM",
-      "e": "DAY 45. CENTCOM BLOCKADE begins 10 AM ET. Targets Iranian port vessels. Non-Iranian-port ships may still transit Hormuz. Iran IRGC threatens 'severe force.' US Navy begins mine clearance operations. India Op Urja Suraksha: 5+ warships on standby in Gulf of Oman."
+      "d": "Apr 14 AM",
+      "e": "DAY 46. BSE/NSE CLOSED — Ambedkar Jayanti. Iran on maximum combat alert. Calls blockade 'piracy.' Thousands rally Tehran. Trump: 'called by right people in Iran, they want a deal.' France+UK convening 40+ nation peaceful Hormuz mission. IEA+IMF+World Bank: no quick price relief. Ceasefire expires Apr 22."
     },
     {
-      "d": "Apr 12",
-      "e": "Two US destroyers (USS Frank E. Petersen Jr. + USS Michael Murphy) transit Hormuz — first US warships since war began. Islamabad talks collapse after 21 hours. Trump orders blockade. CENTCOM formalizes. UK declines to participate. Vance leaves 'final and best offer.'"
+      "d": "Apr 13 PM",
+      "e": "Brent settled $99.36 (+4.3%), WTI $99.08. Sensex CLOSE 76,847 (-702). Nifty 23,842 (-207). Recovered from intraday lows. Trump threatened Iranian fast attack ships with 'elimination.' Iran defence: will not allow US interference. Macron announced peaceful Hormuz mission. S&P 500 +1%+ erasing all war losses after Trump 'right people' comment."
+    },
+    {
+      "d": "Apr 13 AM",
+      "e": "BLOCKADE DAY 1 BEGINS 10 AM ET. Sensex intraday low 75,868 (-1,700). Nifty 23,556. Brent peak $103. Rupee 93.32. All 30 Sensex stocks fell. IndiGo -6.4%."
     }
   ],
   "projNow": {
-    "brent": 103,
-    "rupee": 93.32,
-    "lpg": 913,
+    "brent": 99,
+    "rupee": 93.33,
+    "lpg": 912,
     "petrol": 94.77,
-    "deaths": 6350
+    "deaths": 6400
   },
   "scenarios": {
     "headers": [
       "Pre-war",
-      "Now (D45)",
-      "Blockade 1wk",
-      "If diplomacy resumes",
-      "If escalates to strikes"
+      "Now (D46)",
+      "Ceasefire expires Apr 22",
+      "Iran accepts deal",
+      "Strikes resume"
     ],
-    "brent": [65, 103, 115, 85, 145],
-    "rupee": [91, 93.32, 96, 91.5, 102],
-    "deaths": [0, "6,350+", "6,500", "7,000", "25,000+"],
-    "sensex": ["78,699", "75,868*", "72,000", "82,000+", "55,000"],
-    "lpg": ["₹853", "₹913", "₹1,000+", "₹860", "₹1,500+"],
-    "fii": ["-", "₹20,700 Cr OUT", "$8B more out", "$5B return", "$40B out"]
+    "brent": [65, 99, 120, 82, 145],
+    "rupee": [91, 93.33, 98, 91.5, 105],
+    "deaths": [0, "6,400+", "7,000+", "7,000", "30,000+"],
+    "sensex": ["78,699", "76,847", "70,000", "85,000+", "55,000"],
+    "lpg": ["₹853", "₹912", "₹1,100+", "₹860", "₹1,500+"],
+    "fii": ["-", "₹1,244 Cr OUT (Mon)", "$10B out", "$5B return", "$40B out"]
   },
   "radar": [
-    {"axis": "Oil Shock", "w1": 60, "now": 75, "w4": 60, "w8": 40},
-    {"axis": "Market Crash", "w1": 45, "now": 60, "w4": 45, "w8": 30},
+    {"axis": "Oil Shock", "w1": 60, "now": 72, "w4": 58, "w8": 38},
+    {"axis": "Market Crash", "w1": 45, "now": 55, "w4": 40, "w8": 28},
     {"axis": "Nuclear Risk", "w1": 20, "now": 85, "w4": 78, "w8": 65},
-    {"axis": "Hormuz Closure", "w1": 80, "now": 90, "w4": 50, "w8": 25},
-    {"axis": "Household Impact", "w1": 15, "now": 68, "w4": 55, "w8": 38},
-    {"axis": "Currency Crisis", "w1": 40, "now": 55, "w4": 48, "w8": 38},
-    {"axis": "Social Unrest", "w1": 25, "now": 72, "w4": 60, "w8": 45},
-    {"axis": "Military Exposure", "w1": 35, "now": 82, "w4": 60, "w8": 40}
+    {"axis": "Hormuz Closure", "w1": 80, "now": 88, "w4": 50, "w8": 25},
+    {"axis": "Household Impact", "w1": 15, "now": 68, "w4": 58, "w8": 40},
+    {"axis": "Currency Crisis", "w1": 40, "now": 52, "w4": 45, "w8": 35},
+    {"axis": "Social Unrest", "w1": 25, "now": 70, "w4": 58, "w8": 42},
+    {"axis": "Military Exposure", "w1": 35, "now": 82, "w4": 62, "w8": 42}
   ],
   "assessment": {
-    "headline": "DAY 45, MON 11 AM: ISLAMABAD COLLAPSED. US BLOCKADE LIVE from 10 AM ET. Sensex -1,700 to 75,868. ₹8L Cr WIPED. Brent +8% to $103. Rupee 93.32. Nuclear was the dealbreaker. Iran IRGC threatens US ships. War Phase 2: Blockade Era begins.",
-    "body": "Day 45 opens as the war's worst single morning for Indian markets since Day 1.\n\nTHE COLLAPSE\n• After 21 hours of marathon direct talks in Islamabad — first US-Iran face-to-face since 1979 — Vance confirmed no agreement\n• Vance: 'The bad news is that we have not reached an agreement. Iran chose not to accept our terms. I think that's bad news for Iran much more than for the US.'\n• THE sticking point: Trump Truth Social: 'most points were agreed to, but the only point that really mattered, NUCLEAR, was not.'\n• US red lines: end ALL uranium enrichment, dismantle major enrichment facilities, allow US to retrieve Iran's HEU, end funding for proxies (Hamas/Hezbollah/Houthis), fully open Hormuz without toll\n• Iran demands: frozen assets ($6B+), all sanctions lifted, continued Hormuz control, right to peaceful enrichment, end Israeli attacks on Lebanon, war reparations\n• Araghchi on X: 'When just inches away from Islamabad MoU, we encountered maximalism, shifting goalposts, and blockade.'\n• Ghalibaf taunted from Tehran: 'With so-called blockade, soon you'll be nostalgic for $4-$5 gas.'\n\nTHE BLOCKADE (Phase 2 Begins)\n• CENTCOM: 'will begin implementing a blockade of all maritime traffic entering and exiting Iranian ports on April 13 at 10 AM ET.'\n• Applied impartially to vessels of all nations entering/departing Iranian ports and coastal areas.\n• Ships transiting Hormuz between non-Iranian ports: NOT impeded.\n• US Navy to 'seek and interdict every vessel in International Waters that has paid a toll to Iran.'\n• DOJ AG Blanche: 'will vigorously prosecute anyone who buys or sells sanctioned Iranian oil.'\n• UK refuses to join — backs freedom of navigation. Gulf allies reportedly helping. Coalition of 40+ countries meeting separately.\n• Iran IRGC: US military vessels in Hormuz 'will be considered ceasefire violation and met with severe force.'\n• Columbia University's Karen Young: shortage of ~7M barrels crude + 4M barrels products daily. 'Elevated oil prices through end of 2026 for certain.'\n• WSJ: Trump considering limited military strikes to break stalemate.\n\nINDIA IMPACT (11 AM IST)\n• Sensex: 75,868 intraday low (-1,700 pts / -2%). All 30 Sensex stocks fell.\n• Nifty: 23,556 intraday low (-500 pts / -2%). Midcap 100 + Smallcap 100 also -2%.\n• ₹8 LAKH CRORE wiped from BSE market cap (₹451L Cr to ₹443L Cr) in minutes.\n• Rupee: 93.32/USD (-49 paise) — crude shock + FPI exodus.\n• Worst performers: IndiGo -6.4%, Maruti -4.3%, L&T/Asian Paints/Bajaj Finance -3%+, HDFC Bank -2.5%, Reliance -2.6%, SBI -3%.\n• OMCs BPCL/HPCL/IOC: -3-4%. Upstream ONGC/Oil India: positive.\n• NSE launched Brent crude futures today — coincidental but timely.\n\nWHAT COMES NEXT\n• Vance left 'final and best offer' — diplomacy theoretically not dead.\n• Ceasefire: Trump says 'holding well' but IRGC threatens US warships.\n• Lebanon-Israel talks: Washington this Tuesday — separate diplomatic track.\n• Saudi East-West Pipeline: partially offsets but cannot replace Hormuz at scale.\n• India: 85%+ crude imports via Hormuz. 6-8 weeks fuel stock buffer. RBI rate 5.25%.\n• Binary risks: Will blockade trigger Iranian military response? Will IRGC fire on US ships? Will Trump resume strikes?\n• Morgan Stanley Sensex target: ₹95,000 Dec 2026 (IF deal). Emkay Nifty: 29,000 Mar 2027 (IF peace). Bear case: Nifty 55,000 / rupee 100+ / double-digit inflation.\n\nVERDICT: Phase 2 — Blockade Era. Worst case (US-Iran naval combat) not yet activated. But every day of blockade with no breakthrough = oil prices firm higher, rupee weakens, inflation returns. The diplomacy window is narrow. Monitor IRGC response and any US strike resumption."
+    "headline": "DAY 46, TUE 9:15 AM: BSE/NSE CLOSED (Ambedkar Jayanti). Blockade Day 2. Iran on MAX COMBAT ALERT. Trump: 'called by right people in Iran.' S&P 500 erased ALL war losses. Brent $99.36. Ceasefire expires Apr 22 — 8 days left. France+UK 40+ nation mission forming.",
+    "body": "Day 46 — Indian markets closed today for Ambedkar Jayanti. Reopen Wednesday Apr 15.\n\nTHE DIPLOMATIC WILDCARD\n• Trump: 'I was called today by the right people in Iran. They want to work on a deal.'\n• This single statement sent S&P 500 to close +1%+ Mon — erasing ALL losses since the Iran war began Feb 28\n• Vance: 'ball is in Iran's court.' No formal confirmation from Tehran.\n• Iran FM Araghchi says Iran approached talks 'in good faith' but US was maximalist\n• Key: Ceasefire officially expires Apr 22 — 8 days. This is the next critical binary event.\n\nBLOCKADE DAY 2 — HARDENING\n• Iran declares maximum combat alert. Armed forces: 'will not allow any interference by US or foreign forces.'\n• Iran calls blockade 'piracy.' Thousands rally in Tehran.\n• Trump threatens to 'ELIMINATE' Iranian fast attack ships. Creates extreme risk of naval incident.\n• 34,000+ ships have diverted from Hormuz in past month (Al Jazeera). Insurance 10x pre-war rates.\n• 17 vessels crossed Saturday (Windward) — <10% of pre-war levels.\n\nCOALITION SPLIT\n• France + UK convening 40+ nation 'peaceful multinational mission' to restore freedom of navigation.\n• Strictly defensive, separate from warring parties. Conference in 'coming days.'\n• Macron: Lebanon must be included in ceasefire deal.\n• China: blockade 'does not serve common interests.' Russia: supports ceasefire applying to Lebanon.\n• UK NOT joining US blockade — Starmer: 'All efforts focused on getting strait fully open.'\n\nINDIA MARKET SNAPSHOT (Apr 13 CLOSE / Today Holiday)\n• Sensex: 76,847 (-702 / -0.91%). Recovered from 75,868 intraday low.\n• Nifty: 23,842 (-207 / -0.86%). Recovered from 23,556 intraday low.\n• FII net sold ₹1,244 Cr Apr 13. DII net bought ₹2,051 Cr.\n• Brent $99.36 Mon close. Rupee 93.33/USD.\n• VIX eased from 22+ spike as Trump 'right people' comment revived hope.\n• Markets reopen Wed Apr 15 — watch Trump-Iran contact developments overnight.\n\nIEA + IMF + WORLD BANK WARNING\n• Joint statement: 'Even after a resumption of regular shipping flows, it will take time for global supplies to move back towards pre-conflict levels — fuel and fertilizer prices may remain high for a prolonged period given the damage to infrastructure.'\n• JPMorgan: 'Reopening the Strait has become the market's most time-sensitive priority.'\n• US Energy Secretary Wright: prices will peak 'in coming weeks' if traffic meaningfully resumes.\n\nKEY DATE: APR 22 — CEASEFIRE EXPIRY\n• 8 days remain on the 2-week ceasefire.\n• If no deal by Apr 22: ceasefire lapses — IRGC maximum combat alert + Trump 'locked and loaded' = extreme escalation risk.\n• If deal before Apr 22: Sensex could surge 5-10%, Brent collapse toward $75-80.\n• Trump's 'right people called me' comment is the first positive signal since Islamabad collapse.\n\nVERDICT: Cautiously volatile. The market is pricing in a 'deal possible' scenario but hedging with blockade risk. Apr 22 is the event horizon. Watch for any formal Iran response to Trump's 'right people' claim. India exposure remains 85%+ Hormuz crude dependency with 6-8 weeks buffer — every day of blockade shortens that window."
   }
 }
