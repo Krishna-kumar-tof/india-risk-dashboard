@@ -1,115 +1,119 @@
 {
-  "_updated": "April 15, 2026 — 9:00 AM IST",
+  "_updated": "April 15, 2026 — 7:30 PM IST",
   "_day": 47,
   "_phase": "BLOCKADE",
-  "_note": "Verified: CNN, Al Jazeera, NBC, PBS/AP, Fox Business, Washington Times, TIME, CNBC, ABC News, Britannica, Wikipedia. DAY 47: Trump says war 'VERY CLOSE TO OVER' (Fox Business). Talks expected to RESUME THURSDAY in Islamabad. CENTCOM: blockade 'completely halted' Iran economic sea trade — 10,000+ personnel, 12+ warships. Iran threatens to shut Red Sea + Gulf of Oman if blockade continues. US NOT formally agreed to ceasefire extension. Iran loses $435M/day from blockade. Ceasefire expires APR 21 — 6 days. Markets OPEN today.",
+  "_note": "Verified: CNN, Al Jazeera, NBC, Fox News, Fox Business, News9live, Outlook Business, Reuters, TIME, PBS/AP, TradingView. DAY 47: Sensex SURGED +1,263 to 78,111. Nifty +388 to 24,231. Rupee 93.15 (+20p). All 30 Sensex stocks green. IndiGo +4%. Brent fell below $95. US Navy intercepted 2 Iranian tankers. US to end sanctions waiver on Iranian oil. Fox News: US official says 'all ingredients of a deal' in place. Talks expected Thursday/this week Islamabad. Iran threatening Red Sea. IMF warns of global recession risk. Senate votes on Trump war powers Wednesday. Ceasefire expires Apr 21.",
   "ticker": [
-    "🕊️ TRUMP: Iran war 'VERY CLOSE TO OVER' — Fox Business/Maria Bartiromo interview. Talks expected to resume THURSDAY in Islamabad",
-    "🚢 CENTCOM: Blockade has 'COMPLETELY HALTED' Iran's economic sea trade. 10,000+ US personnel, 12+ warships, dozens of aircraft enforcing",
-    "⚠️ IRAN THREATENS RED SEA + Gulf of Oman if blockade continues — Gen. Abdollahi: 'will not allow exports or imports to continue in Persian Gulf, Sea of Oman AND Red Sea'",
-    "📋 US NOT formally agreed to ceasefire extension — senior US official to CNN: 'continued engagement between US and Iran to reach a deal.' Extension still possible",
-    "💸 BLOCKADE COSTS IRAN $435M/DAY — $139M oil + $54M petrochemicals. Storage fills in ~13 days. Iran has ~20M barrels spare capacity",
-    "🇵🇰 Pakistan PM Sharif visiting Saudi Arabia, Qatar and Turkey THIS WEEK to push for second round. Turkish FM: ceasefire could be extended 45-60 days",
-    "🇺🇸 Trump: China 'very happy' US opening Hormuz, agreed NOT to send weapons to Iran. Wall Street rallied to edge of all-time highs Apr 14",
-    "🛢️ BRENT easing ~$97-98 on peace talks optimism. Wall Street rallied Apr 14 — S&P 500 near all-time high. Asia markets higher this morning",
-    "🇮🇳 BSE/NSE OPEN TODAY. GIFT Nifty 24,205 at 8:09 AM IST (-0.02%). Near-flat open. Bullish if Sensex holds above 77,000",
-    "📅 CEASEFIRE EXPIRES APR 21 — 6 DAYS. Next 48-72 hrs critical: will talks confirm Thursday? Will Iran formally respond to US extension offer?"
+    "📈 SENSEX SURGED +1,263 to 78,111 (+1.65%). Nifty +388 to 24,231 (+1.63%). All 30 stocks green. IndiGo best gainer +4%",
+    "🕊️ TRUMP: War 'VERY CLOSE TO OVER.' Fox News: US official says 'ALL INGREDIENTS OF A DEAL' in place. Talks expected Thursday Islamabad",
+    "🛢️ BRENT fell BELOW $95 on deal optimism. Rupee strengthened 20 paise to 93.15. India VIX easing. WTI toward $90",
+    "🚢 US NAVY intercepted 2 Iranian oil tankers trying to leave Iran — ordered them to turn back (Reuters, Fox News). First confirmed interdiction",
+    "💸 US TREASURY: Will NOT renew sanctions waiver on Iranian oil stranded at sea — expires in coming days. Tightening economic pressure on Iran",
+    "⚠️ IRAN threatens to shut RED SEA + Gulf of Oman + Persian Gulf if blockade continues — Gen. Abdollahi, unified command",
+    "🏛️ US SENATE to vote as early as WEDNESDAY on Democratic effort to limit Trump's war powers in Iran conflict",
+    "💥 IMF: further escalation could push world to brink of RECESSION. MENA growth cut to 1.1% from 3.9%",
+    "🇮🇳 IT SECTOR led rally — Infosys, HCLTech, TCS up sharply. Wipro Q4 results due tomorrow Apr 16. Infosys results this week",
+    "📅 CEASEFIRE EXPIRES APR 21 — 6 DAYS. Two parallel pressures: blockade tightening (tanker interdictions + sanctions waiver end) + diplomacy accelerating (Thursday talks)"
   ],
   "whatChanged": {
-    "label": "WHAT CHANGED — APR 15, 9:00 AM IST (DAY 47)",
+    "label": "WHAT CHANGED — APR 15, 7:30 PM IST (DAY 47)",
     "items": [
       {
         "color": "green",
-        "bold": "TRUMP: War 'very close to over.' Talks expected to resume THURSDAY.",
-        "text": "Trump told Fox Business's Maria Bartiromo: 'I think it's close to over, yeah. I view it as very close to being over.' Peace talks expected to resume Thursday in Islamabad (Fox Business, Washington Times, Yahoo News — multiple sources). Pakistan PM Sharif visiting Saudi Arabia, Qatar and Turkey this week to push second round. Turkish FM Fidan suggests ceasefire could be extended 45-60 days. Vance expected to again lead US side."
-      },
-      {
-        "color": "red",
-        "bold": "CENTCOM: Blockade 'completely halted' Iran's economic sea trade.",
-        "text": "CENTCOM confirmed the blockade has 'completely halted economic trade going into and out of Iran by sea.' First day: 10,000+ US personnel, supported by more than a dozen warships and dozens of aircraft enforcing operation. No vessels attempted to breach the blockade; 6 commercial ships redirected back to Iranian ports. At least 4 Iran-related ships crossed on Apr 14 (BBC Verify) — all sanctioned vessels under surveillance."
-      },
-      {
-        "color": "red",
-        "bold": "Iran threatens to shut Red Sea, Gulf of Oman AND Persian Gulf.",
-        "text": "Gen. Ali Abdollahi, commander of Khatam al-Anbiya Central Headquarters (Iran's unified armed forces command): if US blockade continues, Iran 'would not allow any exports or imports to continue in the Persian Gulf, the Sea of Oman, and the Red Sea.' Extends threat beyond Hormuz to all regional waterways. Described US blockade as 'illegal' and a 'violation of the ceasefire.' This would affect Indian Ocean shipping lanes critical to India."
-      },
-      {
-        "color": "amber",
-        "bold": "US NOT formally agreed to ceasefire extension — but extension still possible.",
-        "text": "Senior US official to CNN: 'The United States has not formally agreed to an extension of the ceasefire. There is continued engagement between the US and Iran to reach a deal.' Earlier reports said both sides had 'agreed in principle' to extension — US denied formal agreement. White House: 'eager to work out a potential deal as quickly as possible.' Ceasefire expires Tuesday April 21 — 6 days."
-      },
-      {
-        "color": "amber",
-        "bold": "Blockade costs Iran $435M/day. Storage fills in ~13 days.",
-        "text": "Iran exports ~1.5M bpd crude ($139M/day) plus $54M/day petrochemicals — all through Hormuz/Persian Gulf. 90%+ of Iran's $109.7B annual trade passes through Persian Gulf. Analyst Miad Maleki: Iran has ~20M barrels spare storage capacity; at 1.5M bpd surplus production rate, storage fills in ~13 days — after which Iran must shut in production. Kharg Island handles 92% of crude exports; lies within blockade zone."
+        "bold": "Sensex +1,263 to 78,111. Nifty +388 to 24,231. All 30 green.",
+        "text": "BSE Sensex closed at 78,111.24 (+1,263.67 pts / +1.65%). NSE Nifty closed at 24,231.30 (+388.65 pts / +1.63%). All 30 Sensex stocks traded in green. Top gainers: IndiGo +4%, UltraTech Cement, HCLTech, Infosys, Bajaj Finance, L&T. Rupee strengthened 20 paise to 93.15/93.18 against USD. Broad-based rally — IT, banks, metals, PSU banks all gained. Brent fell below $95, WTI toward $90."
       },
       {
         "color": "green",
-        "bold": "China 'very happy,' agreed NOT to send weapons to Iran — Trump.",
-        "text": "Trump post: 'China is very happy that I am permanently opening the Strait of Hormuz. I am doing it for them, also — and the World. This situation will never happen again.' Also claimed China agreed not to send weapons to Iran. Chinese Embassy denied weapons plans. Chinese MFA called blockade 'dangerous and irresponsible.' Wall Street rallied Apr 14 to edge of all-time highs on lower oil prices and deal optimism."
+        "bold": "Fox News: US official says 'all the ingredients of a deal' in place.",
+        "text": "A senior US official told Fox News on Tuesday that the US and Iran have 'all the ingredients of a deal.' Trump (Fox Business, aired Apr 15): 'I think it's close to over, yeah. I view it as very close to being over.' Talks expected to resume Thursday or this week in Islamabad. Pakistan PM Sharif visiting Saudi Arabia, Qatar and Turkey to facilitate. Turkish FM suggests ceasefire could extend 45-60 days."
       },
       {
-        "color": "cyan",
-        "bold": "Markets open today. GIFT Nifty 24,205. Asia markets higher this morning.",
-        "text": "BSE/NSE reopen after 2-day break. GIFT Nifty 24,205 (-0.02%) at 8:09 AM IST — near-flat open. Asia-Pacific markets mostly higher Apr 15 morning as oil prices eased and deal optimism grew. Wall Street S&P 500 rallied to edge of all-time high Apr 14. If Thursday talks confirm before Indian market open: Sensex could rally sharply toward 77,500-78,000. FII -₹1,983 Cr / DII +₹2,432 Cr on Apr 13 (Trendlyne)."
+        "color": "red",
+        "bold": "US Navy intercepted 2 Iranian tankers — first confirmed interdiction.",
+        "text": "A US Navy destroyer intercepted two oil tankers trying to leave Iran on Tuesday and ordered them to turn back (Reuters, Fox News, citing two US officials). Vessels departed from Chabahar Port in Gulf of Oman. Contacted by warship via radio communication and instructed to return. Among 6 ships CENTCOM said had been redirected to Iranian ports. First confirmed naval enforcement action under the blockade."
+      },
+      {
+        "color": "red",
+        "bold": "US Treasury will NOT renew sanctions waiver on Iranian oil stranded at sea.",
+        "text": "US Treasury Department announced it will not renew the temporary sanctions waiver that allowed sale of Iranian oil stranded at sea. Waiver expires in coming days. Treasury also warned banks: 'Financial institutions should be on notice that the department is leveraging the full range of available tools and is prepared to deploy secondary sanctions against foreign financial institutions that continue to support Iran's activities.' Tightens economic noose on Iran."
       },
       {
         "color": "amber",
-        "bold": "Israel-Lebanon: first direct talks in decades concluded. More talks agreed.",
-        "text": "After first direct Israel-Lebanon talks in decades in Washington, both sides agreed to hold further negotiations 'at a mutually agreed time and venue' (US State Department). Israel refused to commit to ceasefire in southern Lebanon. Talks partly focused on disarming Hezbollah (State Dept). Hezbollah: 'will not abide by any agreements.' IDF continues southern Lebanon operations — 35+ killed in Lebanon in 24 hrs (Lebanese health ministry Apr 14). Lebanon PM Nawaf Salam submitting formal UN complaint about Apr 8 Israeli strikes."
+        "bold": "IMF: further escalation risks global recession. MENA growth cut to 1.1%.",
+        "text": "IMF warned that any further escalation in the war on Iran and continued oil market disruption could push the world to the brink of recession. IMF cut its 2026 growth forecast for the Middle East and North Africa to 1.1%, down sharply from 3.9%. Global growth projected at 3.1% in 2026. IEA projected rare decline in global oil demand in 2026 — first since 2020. 'Demand destruction will spread as scarcity and higher prices persist' (IEA)."
+      },
+      {
+        "color": "red",
+        "bold": "Senate to vote Wednesday on limiting Trump's war powers in Iran.",
+        "text": "US Senate could vote as early as Wednesday on a Democratic-led effort to limit Trump's war powers in the Iran conflict. Lawmakers pledging to keep pushing the issue. Separate domestic political pressure building. Also: Retired US General Kellogg (Sean Hannity, Fox News Tuesday) suggested capturing Kharg Island — Iran's main oil export hub — as more aggressive action, calling for US to 'finish them now.'"
+      },
+      {
+        "color": "amber",
+        "bold": "Iran threatening Red Sea closure. Minor explosions in Tehran.",
+        "text": "Gen. Ali Abdollahi, Khatam al-Anbiya command: if blockade continues, Iran 'would not allow any exports or imports to continue in the Persian Gulf, the Sea of Oman, and the Red Sea.' Al Jazeera also reported minor explosions causing limited damage and injuries in Tehran — 'highlighting continuing instability in the capital.' Iran's ICRC received first shipment of medical supplies and humanitarian aid since war began."
+      },
+      {
+        "color": "cyan",
+        "bold": "IT sector led India rally. Wipro Q4 results tomorrow. Infosys this week.",
+        "text": "Infosys, HCLTech, TCS, Tech Mahindra among top Sensex gainers today. IT sector benefiting from deal optimism + relatively insulated from oil shock. Wipro Q4 results due April 16 (tomorrow). Infosys results expected this week — both key bellwethers for FY27 outlook. WTI crude dropped toward $90 as markets priced in renewed diplomacy. API reported 6.1M barrel increase in US crude inventories — 8th consecutive weekly build."
       }
     ]
   },
   "deaths": "6,500+",
-  "deathsSub": "~3,400 Iran (HRANA), 2,055+ Lebanon (PBS/AP confirmed; 35+ more killed Apr 14), 99 Iraq, 23 Israel, 13 US (+2 noncombat), 35+ Gulf",
+  "deathsSub": "~3,400 Iran (HRANA, 1,701 civilians incl. 254 children), 2,100+ Lebanon (2,055 confirmed PBS/AP), 99 Iraq, 23 Israel, 13 US (+2 noncombat), 35+ Gulf",
   "econ": {
-    "sensex": "76,847",
-    "sensexDelta": "Last close Apr 13. Markets OPEN TODAY",
-    "sensexSub": "GIFT Nifty 24,205 (-0.02%) at 8:09 AM. Near-flat open. Bullish above 77,000",
-    "vix": "~17-19 (easing)",
-    "vixDelta": "Peace talks optimism calming fear gauge",
+    "sensex": "78,111",
+    "sensexDelta": "▲ +1,263 (+1.65%) Apr 15 CLOSE",
+    "sensexSub": "All 30 stocks green. IndiGo +4%. IT, banks, metals led. Strong risk-on rally",
+    "vix": "~15-17 (falling)",
+    "vixDelta": "Fear gauge easing on deal optimism",
     "fpi": "FII -₹1,983 Cr Apr 13",
-    "fpiDelta": "DII +₹2,432 Cr Apr 13 (Trendlyne)",
-    "wealth": "BSE market cap ~₹446L Cr recovering",
-    "analysis": "DAY 47 WED 9 AM IST: Markets OPEN today. GIFT Nifty 24,205 at 8:09 AM IST (-0.02%) — near-flat reopen. Trump says war 'very close to over' (Fox Business). Talks expected to resume Thursday in Islamabad. CENTCOM confirmed blockade 'completely halted' Iran economic sea trade — 10,000+ personnel, 12+ warships, 0 ships past in Day 1. Iran threatening to extend blockade to Red Sea + Gulf of Oman. US NOT formally agreed to ceasefire extension (expires Apr 21). Blockade costs Iran $435M/day — ~13 days before Iran must shut in production (Maleki analysis). Turkey suggests 45-60 day ceasefire extension. Wall Street S&P 500 near all-time high on Apr 14 on deal optimism. FII -₹1,983 Cr, DII +₹2,432 Cr on Apr 13 (Trendlyne). Emkay: Nifty target 29,000 Mar 2027 if deal. Morgan Stanley: Sensex ₹95,000 Dec 2026."
+    "fpiDelta": "DII +₹2,432 Cr Apr 13. FII may have turned net buyers Apr 15",
+    "wealth": "BSE market cap ~₹452L Cr (recovering sharply from ₹443L Cr on Apr 13)",
+    "analysis": "DAY 47 WED 7:30 PM IST: Sensex SURGED +1,263 to 78,111 (+1.65%). Nifty +388 to 24,231 (+1.63%). All 30 Sensex stocks green. IndiGo best gainer +4%. Rupee +20p to 93.15. Brent fell BELOW $95, WTI toward $90 — biggest positive for India in days. Rally driven by: Trump 'very close to over' (Fox Business), Fox News official 'all ingredients of a deal' in place, peace talks expected Thursday Islamabad, oil prices falling. IT led: Infosys, HCLTech, TCS up sharply. Wipro Q4 results tomorrow Apr 16. IMF: further escalation risks global recession; MENA growth cut to 1.1%. US Navy intercepted 2 Iranian tankers (first confirmed interdiction). US Treasury ending sanctions waiver on stranded Iranian oil. Senate war powers vote Wednesday. Iran threatening Red Sea. Minor Tehran explosions. Ceasefire expires Apr 21 — 6 days."
   },
   "hormuzStatus": {
-    "status": "BLOCKADE DAY 3 — 'COMPLETELY HALTED' IRAN SEA TRADE",
+    "status": "BLOCKADE DAY 3 — FIRST TANKER INTERCEPTIONS CONFIRMED",
     "preWarFlow": "130-160 ships/day",
-    "currentFlow": "ZERO ships past blockade Day 1 (6 turned back). 4 Iran-linked ships Apr 14 (BBC Verify) — all sanctioned. Iran threatens Red Sea shutdown if blockade continues",
-    "reduction": "90%+ below pre-war since conflict began (JMIC Bahrain). Dual constraint: US + Iranian permission both required",
+    "currentFlow": "US Navy intercepted 2 tankers from Chabahar on Tue. 6 total ships turned back. 'Completely halted' Iran sea trade (CENTCOM). Brent now below $95 on deal optimism",
+    "reduction": "90%+ below pre-war (JMIC Bahrain). Dual constraint: US + Iranian clearance both required. First confirmed naval interceptions Tuesday",
     "indianVesselsNear": 8,
     "indianSeafarers": 280,
     "indianTransited": 10,
-    "totalShipsWaiting": "732 vessels in the Gulf (Windward Apr 13). 34,000+ ships diverted from strait past month. Insurance 10x pre-war",
-    "lastTransit": "Day 1 blockade: 0 past CENTCOM. Day 2: 4 Iran-linked (all sanctioned, under watch). Rich Starry made U-turn in Gulf of Oman. Elpis turned off transponder",
+    "totalShipsWaiting": "732 vessels in Gulf (Windward). 34,000+ ships diverted past month. 5 laden tankers stationary Gulf of Oman (Kpler). Insurance 10x pre-war",
+    "lastTransit": "US destroyer intercepted 2 tankers from Chabahar (Tue). Rich Starry reversed in Gulf of Oman. Elpis transponder off. Ostria turned back before loading.",
     "indianNavyEscort": "Op Urja Suraksha — 5+ warships standing by Gulf of Oman",
-    "headline": "BLOCKADE 'COMPLETELY HALTED' Iran sea trade. Iran threatens Red Sea. Talks resume THURSDAY. Ceasefire expires Apr 21. Markets OPEN today."
+    "headline": "FIRST TANKER INTERCEPTIONS. Brent below $95. Talks Thursday. Treasury ends sanctions waiver. Ceasefire Apr 21. Iran threatens Red Sea."
   },
   "hormuzEvents": [
     {
+      "d": "Apr 15 PM",
+      "e": "Sensex +1,263 to 78,111. Nifty +388 to 24,231. All 30 green. Rupee +20p to 93.15. Brent below $95. US Navy intercepted 2 Iranian tankers from Chabahar — first confirmed interdiction (Reuters/Fox News). US Treasury ending sanctions waiver on Iranian oil. Senate war powers vote Wednesday. IMF: escalation risks global recession. Minor explosions in Tehran."
+    },
+    {
       "d": "Apr 15 AM",
-      "e": "DAY 47. Markets OPEN. GIFT Nifty 24,205. Trump says war 'very close to over' (Fox Business). Talks expected Thursday in Islamabad. CENTCOM: blockade 'completely halted' Iran economic sea trade. Iran threatens Red Sea + Gulf of Oman shutdown. US NOT formally agreed to ceasefire extension. Turkey suggests 45-60 day extension. Brent ~$97-98."
+      "e": "Markets opened sharply higher — Sensex +1,300 at open, Nifty +400. Trump: 'very close to over' (Fox Business). Fox News: US official says 'all ingredients of a deal.' CENTCOM: blockade 'completely halted' Iran sea trade. Iran threatens Red Sea + Gulf of Oman. Talks expected Thursday Islamabad."
     },
     {
       "d": "Apr 14",
-      "e": "4 Iran-linked ships crossed Hormuz (BBC Verify) — all US-sanctioned. Rich Starry reversed course in Gulf of Oman; Elpis turned off transponder. 5 laden tankers stationary in Gulf of Oman (Kpler). CENTCOM: blockade 'completely halted' Iran sea trade. Iran threatens Red Sea. Wall Street near all-time high. Pakistan PM Sharif visiting Gulf + Turkey this week."
+      "e": "4 Iran-linked ships transited (all sanctioned). Rich Starry reversed in Gulf of Oman. Elpis transponder off. 5 laden tankers stationary Gulf of Oman (Kpler). CENTCOM confirmed 0 ships past blockade Day 1, 6 turned back. Wall Street near all-time high. Pakistan PM Sharif begins Gulf + Turkey diplomatic tour."
     },
     {
       "d": "Apr 13",
-      "e": "BLOCKADE DAY 1 — 10,000+ US personnel, 12+ warships. 0 ships past blockade; 6 turned around. Sensex intraday -1,700 to 75,868. Brent peaked $103. FII -₹1,983 Cr. All 30 Sensex stocks fell. S&P 500 +1%+ erasing all war losses on Trump 'right people called' comment."
+      "e": "BLOCKADE DAY 1. 10,000+ US personnel, 12+ warships. 0 ships past blockade. Sensex intraday -1,700. FII -₹1,983 Cr. Brent peaked $103. S&P 500 +1%+ erasing all war losses."
     },
     {
       "d": "Apr 12",
-      "e": "ISLAMABAD TALKS COLLAPSE after 21 hours, 3 rounds. Nuclear the dealbreaker — Vance offered 20-yr moratorium, Iran said 3-5 yrs. Trump orders Hormuz blockade. UK declines to participate."
+      "e": "Islamabad talks COLLAPSE after 21 hours. Nuclear the dealbreaker — Vance offered 20-yr moratorium, Iran said 3-5 yrs. Trump orders blockade. CENTCOM formalizes."
     },
     {
       "d": "Apr 11",
-      "e": "Islamabad talks BEGIN. Ghalibaf + Araghchi vs Vance + Witkoff + Kushner. 300-member US team, 70-member Iranian team. First US-Iran face-to-face since 1979."
+      "e": "ISLAMABAD TALKS BEGIN. Ghalibaf + Araghchi vs Vance + Witkoff + Kushner. 300-member US team, 70-member Iranian team. First US-Iran face-to-face since 1979."
     },
     {
       "d": "Apr 8",
-      "e": "CEASEFIRE agreed. Sensex +2,946 pts (+3.95%) — biggest gain since Feb 2021. Brent -11% below $90. Hormuz partial reopen. CEASEFIRE EXPIRES APR 21."
+      "e": "CEASEFIRE agreed. Sensex +2,946 pts (+3.95%). Brent -11% below $90. Hormuz partial reopen. CEASEFIRE EXPIRES APR 21."
     }
   ],
   "kitchen": [
@@ -117,28 +121,28 @@
       "item": "LPG Cylinder (14.2kg)",
       "pre": "₹853",
       "now": "₹912.50",
-      "chg": "Talks optimism — Brent easing to ~$97",
-      "proj": "₹853-880 if Thursday deal; ₹1,000+ if blockade extends past Apr 21",
-      "note": "Brent easing toward $97-98 on Thursday talks optimism. CENTCOM confirmed 'completely halted' Iran sea trade. Iran threatens Red Sea shutdown — would hit LPG routes from Oman/Qatar. ZERO dry-outs. 51 lakh cylinders buffer. Apr 21 ceasefire expiry is the key date.",
+      "chg": "Brent below $95 — cut possible if deal done",
+      "proj": "₹853-860 if Thursday deal; ₹1,000+ if blockade extends past Apr 21",
+      "note": "Brent now below $95 on talks optimism — strong positive for LPG import costs. First tanker interceptions confirmed. Iran threatening Red Sea — could hit LPG routes from Oman/Qatar if implemented. ZERO dry-outs. 51 lakh cylinder buffer. Apr 21 ceasefire expiry is the key date.",
       "s": 2
     },
     {
       "item": "Natural Gas (PNG/CNG)",
       "pre": "Normal",
       "now": "Recovering slowly",
-      "chg": "IEA: largest oil supply shock in history",
-      "proj": "Tight through 2026 regardless — IEA confirmed structural damage",
-      "note": "IEA: 'Oil prices posted their largest-ever monthly gain in March in wake of most severe oil supply shock in history.' Ras Laffan 17% LNG capacity still 3-5 years to repair. Turkey suggests 45-60 day ceasefire extension — longer timeline means structural gas shortage persists. India 60% gas from ME.",
+      "chg": "IEA: structural damage — prolonged high prices",
+      "proj": "Tight through 2026 regardless of deal (IEA confirmed)",
+      "note": "IEA projects rare global oil demand decline in 2026 — first since COVID. But structural damage (Ras Laffan 3-5yr repair, QatarEnergy force majeure) means gas prices elevated long-term. Brent below $95 helps at margin. Turkey suggests 45-60 day ceasefire extension — more time for gas supply normalisation.",
       "s": 2
     },
     {
       "item": "Petrol (Delhi)",
       "pre": "₹94.72/L",
       "now": "₹94.77/L",
-      "chg": "Brent ~$97-98 — hike risk easing",
-      "proj": "No hike if Brent stays below $100; ₹8-14/L hike if blockade extends",
-      "note": "Brent ~$97-98 on Thursday talks optimism. Govt excise cut ₹10/L already deployed. OMC margins improving below $100. If Thursday talks produce ceasefire extension: hike risk largely removed. Mumbai ₹103.54.",
-      "s": 2
+      "chg": "Brent below $95 — hike risk largely removed",
+      "proj": "No hike if Brent stays below $95; reversal toward ₹94.72 if deal done quickly",
+      "note": "Brent now below $95 — biggest fall since blockade began. Hike risk (₹8-14/L that Elara warned of at Brent >$110) now much lower. If Thursday deal confirms and Brent falls further: retail price cut possible in 2-3 weeks. OMC margins improving sharply. Mumbai ₹103.54.",
+      "s": 1
     },
     {
       "item": "LPG Commercial (19kg)",
@@ -146,103 +150,103 @@
       "now": "₹1,885",
       "chg": "+₹145 (8.3%)",
       "proj": "₹1,740 if deal; ₹2,200+ if blockade extends",
-      "note": "UN FAO warned of global food catastrophe risk from fertilizer disruption. Restaurant recovery contingent on Apr 21 outcome. Iran threatening Red Sea — would extend pressure to all ME shipping routes. Watch Thursday talks closely.",
+      "note": "Brent below $95 = positive signal for commercial LPG cost. IMF warns of global recession risk — dampens business recovery outlook. If Thursday talks produce ceasefire extension: restaurant sector could see rapid recovery in confidence.",
       "s": 2
     },
     {
       "item": "Diesel (Delhi)",
       "pre": "₹87.62/L",
       "now": "₹87.67/L",
-      "chg": "Brent easing — hike risk reducing",
-      "proj": "Stable if Thursday deal; hike if blockade extends",
-      "note": "Brent ~$97-98 = OMC margin pressure easing from $103 Monday peak. 34,000+ ships diverted from strait past month — shipping costs +10%+. Mumbai ₹90.03. Every ₹1 diesel rise = ₹2,500 cr annual trucking cost.",
-      "s": 2
+      "chg": "Brent below $95 — hike risk removed",
+      "proj": "Stable; possible small cut if Brent stays below $90 post-deal",
+      "note": "Brent below $95, WTI toward $90 (API: 6.1M barrel inventory build, 8th consecutive week) = strong margin improvement for OMCs. Every ₹1 diesel rise = ₹2,500 cr annual trucking cost — risk now easing. Mumbai ₹90.03.",
+      "s": 1
     },
     {
       "item": "Cooking Oil",
       "pre": "~₹140/L",
       "now": "~₹155-165/L",
-      "chg": "Easing slowly",
-      "proj": "₹140-150/L if Thursday deal; ₹165+ if blockade extends",
-      "note": "IEA+IMF+World Bank: fertilizer prices slow to recover even after Hormuz reopens. 30% global fertilizer transits Hormuz. UN FAO warned of global food catastrophe. Iran threatening Red Sea extends shipping disruption risk to all routes.",
+      "chg": "Easing on Brent fall + rupee strength",
+      "proj": "₹140-150/L by May if Thursday deal finalises",
+      "note": "Rupee strengthened to 93.15 (+20p) — all imports cheaper. Brent below $95 reduces freight costs. IEA+IMF+World Bank: fertilizer prices slow to recover even post-deal. 30% global fertilizer transits Hormuz. Kharif sowing season approaching.",
       "s": 2
     },
     {
       "item": "Vegetables/Onion",
       "pre": "Stable",
-      "now": "Rising",
-      "chg": "Fertilizer + freight pressure",
-      "proj": "₹60-80/kg onion risk if blockade extends past Apr 21",
-      "note": "UN FAO warned of global food catastrophe from fertilizer disruption. Iran threatening Red Sea + Gulf of Oman — extends disruption beyond Hormuz. Kharif sowing season approaching. 30% of fertilizers transit Hormuz.",
+      "now": "Easing slightly",
+      "chg": "Diesel freight costs reducing with Brent fall",
+      "proj": "₹40-60/kg if Thursday deal; ₹60-80/kg risk if blockade extends",
+      "note": "Rupee +20p and Brent below $95 reducing freight costs. But IEA+IMF+World Bank confirmed fertilizer disruption structural — hits kharif crop regardless. UN FAO food catastrophe warning still active. Iran Red Sea threat would extend disruption.",
       "s": 1
     },
     {
       "item": "Air Travel",
       "pre": "Normal",
-      "now": "Surcharges active",
-      "chg": "US gas avg $4.12/gallon (+$1.20 since war began)",
-      "proj": "Easing quickly if Thursday deal; higher if blockade extends",
-      "note": "IndiGo fell -6.4% on Apr 13. US avg gas $4.12/gallon (+$1.20 since war, per AAA). Brent ~$97-98 reducing pressure — if Thursday talks produce ceasefire extension, airline stocks could recover sharply. ATF linked to Brent. Maritime insurance 10x pre-war.",
-      "s": 2
+      "now": "Surcharges active — easing rapidly",
+      "chg": "IndiGo best Sensex gainer today +4%",
+      "proj": "Surcharges removed quickly if Brent holds below $90",
+      "note": "IndiGo surged +4% on Apr 15 — best Sensex performer. Airlines lead oil price recovery. Brent below $95, WTI toward $90. ATF prices will fall with oil. If Thursday deal: airline stocks could see 8-12% further rally. US gas avg $4.12/gallon — under pressure to fall.",
+      "s": 1
     },
     {
       "item": "Medicine",
       "pre": "Stable",
-      "now": "Rising",
-      "chg": "API +30%, shipping costs elevated",
-      "proj": "+10-15% retail impact Q1 FY27",
-      "note": "API costs up 30%. Iran threatening Red Sea extends supply chain disruption beyond Hormuz. Baltimore cut fluoride in water supply due to war supply chain disruption. Wipro Q4 results due Apr 16. Infosys results this week. India pharma API impact continuing.",
+      "now": "Pressure easing",
+      "chg": "Supply chain improving with Brent fall",
+      "proj": "+5-10% retail impact Q1 FY27 (reduced from +15% on oil easing)",
+      "note": "API costs remain elevated at +30% but easing with oil. Wipro Q4 results tomorrow (Apr 16) — pharma and IT sectors key bellwethers. Infosys results this week. Shipping cost pressure reducing as Brent falls. Iran Red Sea threat still a risk for API supply chains.",
       "s": 2
     }
   ],
   "military": [
     {
-      "t": "🕊️ TRUMP: War 'Very Close to Over.' Talks Resume THURSDAY.",
+      "t": "📈 Sensex +1,263 to 78,111. Nifty +388 to 24,231. All 30 Green.",
       "lv": "BREAKING",
       "color": "green",
-      "d": "Trump to Fox Business's Maria Bartiromo (aired Apr 15): 'I think it's close to over, yeah. I view it as very close to being over.' Also: 'I had to divert because if I didn't do that, right now, you'd have Iran with a nuclear weapon.' Talks expected to resume Thursday in Islamabad — Pakistan PM Sharif visiting Saudi Arabia, Qatar and Turkey this week to facilitate. Vance expected to lead US side again. Turkish FM Fidan suggests ceasefire could be extended 45-60 days for more negotiations. UN Sec-Gen Guterres: 'highly probable' talks restart."
+      "d": "BSE Sensex closed at 78,111.24 (+1,263.67 pts / +1.65%). NSE Nifty closed at 24,231.30 (+388.65 pts / +1.63%). All 30 Sensex stocks traded in green. Top gainers: IndiGo +4%, UltraTech Cement, HCLTech, Infosys, Bajaj Finance, L&T. Laggards: Axis Bank, Bharti Airtel, ICICI Bank (marginally). Rupee strengthened 20 paise to 93.15/93.18. Brent fell below $95. WTI toward $90. Strong risk-on rally — markets pricing in Thursday talks producing result."
     },
     {
-      "t": "🚢 CENTCOM: Blockade 'Completely Halted' Iran Sea Trade. 10,000+ Personnel.",
+      "t": "🤝 'All Ingredients of a Deal' in Place — Senior US Official to Fox News",
+      "lv": "BREAKING",
+      "color": "green",
+      "d": "A senior US official told Fox News Tuesday that the US and Iran have 'all the ingredients of a deal.' Trump (Fox Business, Maria Bartiromo, aired Apr 15): 'I think it's close to over, yeah. I view it as very close to being over.' Also: 'There's going to be a hit [to economic growth] but it's going to recover fully.' Peace talks expected to resume Thursday or this week in Islamabad. Pakistan PM Sharif visiting Saudi Arabia, Qatar and Turkey to facilitate. Turkish FM Fidan suggests ceasefire could extend 45-60 days. Vance expected to lead US side."
+    },
+    {
+      "t": "🚢 US Navy Intercepted 2 Iranian Tankers — First Confirmed Interdiction",
       "lv": "BREAKING",
       "color": "red",
-      "d": "CENTCOM confirmed the blockade has 'completely halted economic trade going into and out of Iran by sea.' Day 1: 10,000+ US personnel, supported by more than a dozen warships and dozens of aircraft. No vessels attempted to breach the blockade outright; 6 commercial ships were redirected back to Iranian ports. 4 Iran-linked ships on Apr 14 (all US-sanctioned) transited under watch — Rich Starry reversed course in Gulf of Oman; Elpis turned off transponder. 5 laden product tankers stationary in Gulf of Oman (Kpler). 732 vessels in Gulf (Windward)."
+      "d": "A US Navy destroyer intercepted two oil tankers trying to leave Iran on Tuesday and ordered them to turn back (Reuters, Fox News, two US officials). Vessels departed from Chabahar Port in Gulf of Oman. Contacted by warship via radio communication and instructed to return. Among the 6 ships CENTCOM said had been redirected to Iranian ports. This is the first confirmed naval enforcement action — escalation from CENTCOM's 'zero ships past' Day 1 announcement to active interception of departing Iranian vessels."
     },
     {
-      "t": "⚠️ Iran Threatens to Shut Red Sea + Gulf of Oman + Persian Gulf",
+      "t": "💸 US Treasury Ends Sanctions Waiver on Iranian Oil. Warns Banks.",
       "lv": "BREAKING",
+      "color": "amber",
+      "d": "US Treasury Department confirmed it will not renew the temporary sanctions waiver that allowed sale of Iranian oil stranded at sea — measure expires in coming days. Treasury also warned global banks: 'Financial institutions should be on notice that the department is leveraging the full range of available tools and is prepared to deploy secondary sanctions against foreign financial institutions that continue to support Iran's activities.' Maximum economic pressure tactic alongside naval blockade."
+    },
+    {
+      "t": "🏛️ US Senate to Vote Wednesday on Limiting Trump's Iran War Powers",
+      "lv": "DEVELOPING",
+      "color": "amber",
+      "d": "US Senate could vote as early as Wednesday on a Democratic-led effort to limit President Trump's war powers in the Iran conflict. Lawmakers pledging to keep pushing the issue. Passage uncertain but reflects growing domestic pressure. Also: Retired US General Kellogg told Fox News' Sean Hannity (Tuesday evening) to suggest capturing Kharg Island — Iran's main oil export hub. Called for US to 'finish them now, finish them once and for all.' Represents most hawkish US voice yet."
+    },
+    {
+      "t": "💥 IMF: Escalation Risks Global Recession. MENA Growth Cut to 1.1%.",
+      "lv": "DEVELOPING",
+      "color": "amber",
+      "d": "IMF warned that any further escalation in the war on Iran and continued oil market disruption could push the world to the brink of recession. IMF cut its 2026 growth forecast for Middle East and North Africa to 1.1%, down from 3.9%. Global growth projected at 3.1% in 2026 (down from pre-war 3.8%). IEA projected rare decline in global oil demand in 2026 — first since COVID-19. 'Demand destruction will spread as scarcity and higher prices persist' (IEA). API: 6.1M barrel increase in US crude inventories — 8th consecutive weekly build."
+    },
+    {
+      "t": "⚠️ Iran Threatens Red Sea. Minor Explosions in Tehran.",
+      "lv": "DEVELOPING",
       "color": "red",
-      "d": "Gen. Ali Abdollahi, commander of Iran's Khatam al-Anbiya Central Headquarters (unified armed forces command): if US blockade continues, Iran 'would not allow any exports or imports to continue in the Persian Gulf, the Sea of Oman, and the Red Sea.' Described blockade as 'illegal' and a 'violation of the ceasefire agreement.' This expands Iran's threat from Hormuz to ALL regional waterways — Red Sea closure would also hit India's western coast shipping routes, Suez Canal traffic, and energy supplies to Europe."
+      "d": "Gen. Ali Abdollahi, Khatam al-Anbiya unified command: if blockade continues, Iran 'would not allow any exports or imports to continue in the Persian Gulf, the Sea of Oman, and the Red Sea.' Red Sea closure would compound global energy crisis — affect India's alternative shipping routes through Suez Canal. Al Jazeera reported minor explosions causing limited damage and injuries in Tehran — 'highlighting continuing instability in the capital.' First ICRC humanitarian shipment reached Iran since war began."
     },
     {
-      "t": "📋 US NOT Formally Agreed to Ceasefire Extension. Expires Apr 21.",
+      "t": "🇮🇱🇱🇧 Israel-Lebanon: More Talks Agreed. Israel Demolishing Villages.",
       "lv": "DEVELOPING",
       "color": "amber",
-      "d": "Senior US official to CNN: 'The United States has not formally agreed to an extension of the ceasefire. There is continued engagement between the US and Iran to reach a deal.' Earlier reports suggested both sides agreed in principle to extension — US denied formal agreement. White House: 'eager to work out a potential deal as quickly as possible.' Possible extension still on table but not confirmed. If no deal AND no extension by Apr 21: ceasefire lapses — Iran maximum combat alert + Trump 'locked and loaded' = extreme escalation risk."
-    },
-    {
-      "t": "💸 Blockade Costs Iran $435M/Day. Storage Fills in ~13 Days.",
-      "lv": "DEVELOPING",
-      "color": "amber",
-      "d": "BusinessToday/analyst Miad Maleki: Iran exporting ~1.5M bpd crude ($139M/day) plus $54M/day petrochemicals = $193M/day direct loss. 90%+ of Iran's $109.7B annual trade passes through Persian Gulf. Kharg Island handles 92% of crude exports and lies within blockade zone. Iran has ~20M barrels spare storage capacity — at 1.5M bpd surplus production, storage fills in ~13 days. After that, Iran must shut in production, sharply cutting revenue. This is the core US economic pressure tactic."
-    },
-    {
-      "t": "🇨🇳 Trump: China 'Very Happy,' Agreed Not to Send Weapons to Iran.",
-      "lv": "DEVELOPING",
-      "color": "cyan",
-      "d": "Trump Truth Social: 'China is very happy that I am permanently opening the Strait of Hormuz. I am doing it for them, also — and the World.' Also claimed China agreed not to send weapons to Iran. Chinese Embassy previously denied weapons plans after US intelligence report. Wall Street S&P 500 rallied to edge of all-time highs Apr 14 on lower oil prices and deal optimism. Asia markets higher this morning. Brent ~$97-98, easing from $103 Monday peak."
-    },
-    {
-      "t": "🇮🇱🇱🇧 Israel-Lebanon: First Direct Talks in Decades. More Talks Agreed.",
-      "lv": "DEVELOPING",
-      "color": "cyan",
-      "d": "First direct Israel-Lebanon talks in decades held in Washington, attended by US Ambassadors to both countries and Secretary of State Rubio. Both sides agreed to hold further negotiations 'at a mutually agreed time and venue' (US State Department). Talks partly focused on disarming Hezbollah. Israel refused to commit to ceasefire in southern Lebanon. Hezbollah: 'will not abide by any agreements.' IDF continues southern Lebanon operations — 35+ killed in Lebanon in 24 hours (Lebanese health ministry Apr 14). Lebanon submitting formal UN complaint about Apr 8 Israeli strikes that killed 300+."
-    },
-    {
-      "t": "🇮🇳 India: Markets Open Today. GIFT Nifty 24,205. Brent ~$97-98.",
-      "lv": "DEVELOPING",
-      "color": "cyan",
-      "d": "BSE/NSE reopen after 2-day break (Good Friday + Ambedkar Jayanti). GIFT Nifty 24,205 (-0.02%) at 8:09 AM IST — near-flat open. TradingView: 'bullish set-up if Sensex opens above 77,000, target 77,500.' FII -₹1,983 Cr / DII +₹2,432 Cr on Apr 13 (Trendlyne). Brent ~$97-98 — below $100 positive for India. Iran threatening Red Sea compounds India's supply chain risks. Op Urja Suraksha: 5+ warships on standby. Wipro Q4 results Apr 16. Infosys results this week."
+      "d": "Israel and Lebanon agreed to hold further negotiations after first direct talks in decades in Washington. Talks focused partly on disarming Hezbollah (State Dept). Hezbollah: 'will not abide by any agreements.' IDF soldiers told Haaretz they are demolishing villages in southern Lebanon 'in methods similar to those used in the Gaza Strip.' Lebanese health ministry: last functioning hospital in Tebnin hit. Lebanon submitting formal UN complaint about Apr 8 strikes that killed 303. 2,100+ Lebanese deaths confirmed (PBS/AP)."
     }
   ],
   "nukes": [
@@ -250,8 +254,8 @@
       "name": "Bushehr ☢️",
       "type": "Reactor",
       "status": "ACTIVE WAR ZONE — IAEA WARNED",
-      "risk": 90,
-      "info": "IAEA: strikes 250ft from operating reactor. Rosatom evacuated 200 staff 'minutes before plant was hit.' Reactor operational. IAEA cannot access. Ceasefire technically holding but Iran reconstituting missile bases — escalation risk if Apr 21 ceasefire lapses.",
+      "risk": 88,
+      "info": "IAEA: strikes 250ft from operating reactor. Rosatom evacuated 200 staff. Reactor operational. IAEA cannot access. Minor explosions in Tehran suggest continuing instability. Ceasefire holding but Iran reconstituting missile bases — escalation risk if Apr 21 ceasefire lapses.",
       "lat": 28.83,
       "lon": 50.88
     },
@@ -260,7 +264,7 @@
       "type": "Enrichment + HEU Storage",
       "status": "75% DAMAGED — 6,000+ CENTRIFUGES DESTROYED",
       "risk": 90,
-      "info": "MAIN enrichment plant 75% damaged. R&D 95% destroyed. Nuclear sticking point at Islamabad — Vance offered 20-yr moratorium, Iran said 3-5 yrs, both rejected. IAEA: Iran has ~1,000 lbs (440kg+) HEU = enough for ~11 nuclear weapons. IAEA cameras off since May 2025.",
+      "info": "MAIN enrichment plant 75% damaged. R&D 95% destroyed. Nuclear sticking point — Vance offered 20-yr moratorium, Iran said 3-5 yrs, both rejected. IAEA: Iran has ~1,000 lbs (440kg+) HEU = enough for ~11 nuclear weapons. Fox News: 'all ingredients of a deal' — suggests nuclear gap may be bridgeable.",
       "lat": 33.72,
       "lon": 51.73
     },
@@ -269,7 +273,7 @@
       "type": "Conversion + PRIMARY HEU STORAGE",
       "status": "PRIMARY HEU LOCATION — 200kg+ HERE",
       "risk": 96,
-      "info": "CRITICAL: IAEA: MAJORITY of Iran's ~440kg of 60% HEU in deeply buried tunnel complex here. US demanded retrieval at Islamabad; Iran agreed only to 'monitored down-blending' — rejected by US. UCF conversion 90% destroyed above-ground. New underground enrichment facility — IAEA never inspected.",
+      "info": "CRITICAL: IAEA Grossi: MAJORITY of Iran's ~440kg of 60% HEU in deeply buried tunnel complex here. US demanded retrieval at Islamabad; Iran agreed only to 'monitored down-blending' — rejected by US. UCF conversion 90% destroyed above-ground. New underground enrichment facility — IAEA never inspected.",
       "lat": 32.57,
       "lon": 51.81
     },
@@ -278,7 +282,7 @@
       "type": "Underground Enrichment — DEEP BUNKER",
       "status": "ONLY 30% DAMAGED — GREATEST PROLIFERATION RISK",
       "risk": 88,
-      "info": "Fordow built into mountain near Qom. Only 30% damaged despite GBU-57 MOPs. Core enrichment capability potentially intact. US demanded full dismantlement; Iran refused at Islamabad. Greatest long-term proliferation risk. Reconstitution pattern visible at missile bases — similar expected here.",
+      "info": "Fordow built into mountain near Qom. Only 30% damaged despite GBU-57 MOPs. Core enrichment capability potentially intact. US demanded full dismantlement; Iran refused at Islamabad. Greatest long-term proliferation risk. Iran reconstituting missile cities during ceasefire — same pattern expected here.",
       "lat": 34.88,
       "lon": 51.73
     },
@@ -300,7 +304,7 @@
       "sea": 15,
       "nuke": 55,
       "tot": 64,
-      "info": "1,800km downwind from Iran. IAEA: ~1,000 lbs HEU = material for 11 nuclear weapons. NO iodine prophylaxis program. Iran missile base reconstitution confirmed — escalation risk if Apr 21 ceasefire lapses."
+      "info": "1,800km downwind from Iran. IAEA: ~1,000 lbs HEU = material for 11 nuclear weapons. NO iodine prophylaxis program. Iran missile base reconstitution confirmed by satellite imagery — risk if Apr 21 ceasefire lapses with no deal."
     },
     {
       "city": "Mumbai",
@@ -309,7 +313,7 @@
       "sea": 78,
       "nuke": 42,
       "tot": 58,
-      "info": "900km from Hormuz. Reliance Jamnagar refinery at risk. BSE/NSE reopen today. GIFT Nifty 24,205 — near-flat open. Iran threatening Red Sea adds pressure on western coast shipping routes."
+      "info": "900km from Hormuz. Reliance Jamnagar refinery. Sensex closed +1,263 today at 78,111. IndiGo best performer +4%. BSE market cap ~₹452L Cr — recovering from ₹443L Cr low on Apr 13. Brent below $95 reducing import costs."
     },
     {
       "city": "Ahmedabad",
@@ -318,7 +322,7 @@
       "sea": 55,
       "nuke": 46,
       "tot": 57,
-      "info": "Closest Indian metro to Iran. Dual exposure. Jamnagar refinery nearby. Blockade 'completely halted' Iran sea trade — LPG/crude supply chain stress continues. Iran Red Sea threat compounds risk."
+      "info": "Closest Indian metro to Iran. Dual exposure. Jamnagar refinery nearby. Brent below $95 — oil import cost relief. Iran threatening Red Sea still a risk for western coast supply chains. US Navy intercepted first tankers today."
     },
     {
       "city": "Jaipur",
@@ -327,7 +331,7 @@
       "sea": 10,
       "nuke": 44,
       "tot": 47,
-      "info": "Rajasthan wind funnel. UN FAO warned of global food catastrophe — kharif crop at risk from fertilizer disruption. Iran threatening Red Sea extends supply chain pressure."
+      "info": "Rajasthan wind funnel. UN FAO food catastrophe risk — kharif crop under fertilizer pressure. Diesel freight costs easing with Brent below $95. Rupee +20p helps reduce input costs."
     },
     {
       "city": "Kochi",
@@ -336,7 +340,7 @@
       "sea": 70,
       "nuke": 24,
       "tot": 44,
-      "info": "Southern Naval Command + Op Urja Suraksha base. Oil spill risk. Fishing economy ₹4,000 cr exposed. Iran Red Sea threat hits western coast shipping routes near Kochi."
+      "info": "Southern Naval Command + Op Urja Suraksha base. Oil spill risk 15-25 days. Fishing economy ₹4,000 cr exposed. Iran Red Sea threat hits western coast shipping routes near Kochi. Insurance 10x pre-war."
     },
     {
       "city": "Goa",
@@ -345,7 +349,7 @@
       "sea": 72,
       "nuke": 22,
       "tot": 42,
-      "info": "Konkan coast. Fishing economy ₹4,000 cr exposed. Tourism hit by fuel surcharge inflation. Iran Red Sea threat near Konkan shipping lanes."
+      "info": "Konkan coast. Fishing economy ₹4,000 cr exposed. Tourism sector recovering with Brent below $95 — airline costs easing. IndiGo +4% today positive signal for travel sector."
     },
     {
       "city": "Lucknow",
@@ -354,7 +358,7 @@
       "sea": 5,
       "nuke": 39,
       "tot": 40,
-      "info": "Indo-Gangetic plain trap. Most exposed to food inflation — UN FAO food catastrophe risk, fertilizer disruption. CNG vehicle users hit. Iran's Red Sea threat extends supply chain disruption further."
+      "info": "Indo-Gangetic plain trap. Food inflation risk from fertilizer disruption — structural even post-deal. CNG vehicle users benefiting from rupee strengthening. IMF recession risk warning dampens consumption outlook."
     },
     {
       "city": "Chennai",
@@ -363,7 +367,7 @@
       "sea": 55,
       "nuke": 18,
       "tot": 36,
-      "info": "East coast currents provide buffer from nuclear risk. Auto sector pressure — Maruti/Hyundai/Hyundai Motor. Port active for alternative routes. Shipping insurance 10x normal. Infosys Q4 results this week — key IT bellwether."
+      "info": "East coast currents provide nuclear buffer. IT sector led today's rally — Infosys, HCLTech major gainers. Wipro Q4 results tomorrow Apr 16. Auto sector (Maruti/Hyundai) also recovering. Port active for alternative routes."
     }
   ],
   "milTop": [],
@@ -385,7 +389,7 @@
       "brent": 96,
       "nifty": 23900,
       "rupee": 92.40,
-      "tag": "Ceasefire holding. Hormuz partial reopen. Sensex best day since Feb 2021.",
+      "tag": "Ceasefire holding. Hormuz partial reopen. Best Sensex day since Feb 2021.",
       "sev": 1
     },
     {
@@ -395,7 +399,7 @@
       "brent": 96,
       "nifty": 23760,
       "rupee": 92.4,
-      "tag": "Sensex -932. Iran sea mines confirmed by Pentagon. TCS Q4 results strong.",
+      "tag": "Sensex -932. Iran sea mines confirmed by Pentagon. TCS Q4 strong.",
       "sev": 3
     },
     {
@@ -415,7 +419,7 @@
       "brent": 96,
       "nifty": 23800,
       "rupee": 92.4,
-      "tag": "ISLAMABAD TALKS BEGIN. Ghalibaf+Araghchi vs Vance+Witkoff+Kushner. 21-hr marathon.",
+      "tag": "ISLAMABAD TALKS BEGIN. Ghalibaf+Araghchi vs Vance+Witkoff+Kushner. First US-Iran since 1979.",
       "sev": 3
     },
     {
@@ -425,7 +429,7 @@
       "brent": 102,
       "nifty": 24050,
       "rupee": 92.83,
-      "tag": "TALKS COLLAPSE. Nuclear dealbreaker — Vance 20yr vs Iran 3-5yr. Trump orders Hormuz blockade.",
+      "tag": "TALKS COLLAPSE. Nuclear dealbreaker — Vance 20yr vs Iran 3-5yr. Trump orders blockade.",
       "sev": 3
     },
     {
@@ -435,7 +439,7 @@
       "brent": 99,
       "nifty": 23842,
       "rupee": 93.33,
-      "tag": "BLOCKADE BEGINS. Sensex closed 76,847 (-702). 10,000+ US personnel enforcing. FII -₹1,983 Cr. S&P 500 erases war losses.",
+      "tag": "BLOCKADE BEGINS. Sensex closed 76,847 (-702). 10,000+ US personnel. FII -₹1,983 Cr.",
       "sev": 3
     },
     {
@@ -445,45 +449,45 @@
       "brent": 98,
       "nifty": 23842,
       "rupee": 93.33,
-      "tag": "BSE/NSE CLOSED. CENTCOM: blockade 'completely halted' Iran sea trade. Iran threatens Red Sea. Wall Street near all-time high. 4 sanctioned Iran ships transited Hormuz.",
+      "tag": "BSE/NSE CLOSED — Ambedkar Jayanti. CENTCOM: 'completely halted' Iran sea trade. Iran threatens Red Sea. Wall Street near all-time high.",
       "sev": 2
     },
     {
       "d": 47,
       "l": "Apr 15",
       "deaths": 6500,
-      "brent": 97,
-      "nifty": 24205,
-      "rupee": 93.33,
-      "tag": "BSE/NSE REOPEN. Trump: war 'very close to over.' Talks resume THURSDAY Islamabad. Iran threatens Red Sea. US no formal ceasefire extension. Blockade costs Iran $435M/day.",
-      "sev": 2
+      "brent": 94,
+      "nifty": 24231,
+      "rupee": 93.15,
+      "tag": "SENSEX +1,263 to 78,111. Nifty +388 to 24,231. All 30 green. IndiGo +4%. Brent below $95. US intercepted 2 Iranian tankers. 'All ingredients of a deal' — US official.",
+      "sev": 1
     }
   ],
   "hormuzLatest": [
     {
+      "d": "Apr 15 PM",
+      "e": "Sensex +1,263 to 78,111. Nifty +388 to 24,231. All 30 green. Rupee +20p to 93.15. Brent below $95. US Navy intercepted 2 Iranian tankers from Chabahar — first confirmed interdiction. US Treasury ending sanctions waiver on Iranian oil. Fox News: 'all ingredients of a deal' in place. Senate war powers vote Wednesday. IMF: escalation risks global recession."
+    },
+    {
       "d": "Apr 15 AM",
-      "e": "DAY 47. Markets OPEN. GIFT Nifty 24,205. Trump: war 'very close to over.' Talks resume Thursday Islamabad. CENTCOM: 'completely halted' Iran sea trade. Iran threatens Red Sea + Gulf of Oman. US not formally agreed to ceasefire extension (expires Apr 21). Turkey suggests 45-60 day extension. Brent ~$97-98."
+      "e": "Markets opened +1,300 pts on deal optimism. Trump: 'very close to over.' CENTCOM: 'completely halted' Iran sea trade. Iran threatens Red Sea + Gulf of Oman. Talks expected Thursday Islamabad. Minor explosions in Tehran."
     },
     {
       "d": "Apr 14",
-      "e": "4 Iran-linked ships transited (all sanctioned). Rich Starry reversed in Gulf of Oman; Elpis transponder off. 5 laden tankers stationary Gulf of Oman (Kpler). 732 vessels in Gulf (Windward). Wall Street S&P 500 near all-time high on deal optimism. Pakistan PM Sharif begins Gulf + Turkey diplomatic tour."
+      "e": "4 Iran-linked ships transited (all sanctioned). Rich Starry reversed in Gulf of Oman. Elpis transponder off. Wall Street near all-time high. Pakistan PM Sharif begins Gulf + Turkey diplomatic tour."
     },
     {
       "d": "Apr 13",
-      "e": "BLOCKADE DAY 1. 10,000+ US personnel, 12+ warships, dozens of aircraft. 0 ships past blockade, 6 turned around. Sensex intraday -1,700 to 75,868. Brent peaked $103. FII -₹1,983 Cr. S&P 500 +1%+ erasing war losses."
-    },
-    {
-      "d": "Apr 12",
-      "e": "Islamabad talks collapse after 21 hours. Nuclear dealbreaker — Vance offered 20-yr moratorium; Iran said 3-5 yrs; both rejected. Trump orders blockade. CENTCOM formalizes."
+      "e": "BLOCKADE DAY 1. 10,000+ US personnel, 12+ warships. Zero ships past blockade; 6 turned back. Sensex -1,700 intraday. FII -₹1,983 Cr. Brent peaked $103."
     },
     {
       "d": "Apr 8",
-      "e": "CEASEFIRE agreed. Sensex +2,946 pts (+3.95%). Brent -11% below $90. Hormuz partial reopen for 2 weeks. CEASEFIRE EXPIRES APR 21."
+      "e": "CEASEFIRE agreed. Sensex +2,946 pts. Brent -11% below $90. CEASEFIRE EXPIRES APR 21."
     }
   ],
   "projNow": {
-    "brent": 97,
-    "rupee": 93.33,
+    "brent": 94,
+    "rupee": 93.15,
     "lpg": 912,
     "petrol": 94.77,
     "deaths": 6500
@@ -492,29 +496,29 @@
     "headers": [
       "Pre-war",
       "Now (D47)",
-      "Thu deal/extension",
+      "Thursday deal/extension",
       "Ceasefire lapses Apr 21",
       "Strikes resume"
     ],
-    "brent": [65, 97, 75, 125, 145],
-    "rupee": [91, 93.33, 90.5, 99, 105],
+    "brent": [65, 94, 72, 125, 145],
+    "rupee": [91, 93.15, 90.0, 99, 105],
     "deaths": [0, "6,500+", "7,200", "9,000+", "30,000+"],
-    "sensex": ["78,699", "76,847", "90,000+", "68,000", "52,000"],
+    "sensex": ["78,699", "78,111", "90,000+", "68,000", "52,000"],
     "lpg": ["₹853", "₹912", "₹853", "₹1,200+", "₹1,600+"],
     "fii": ["-", "₹1,983 Cr OUT", "$15B return", "$12B out", "$45B out"]
   },
   "radar": [
-    {"axis": "Oil Shock",        "w1": 60, "now": 65, "w4": 48, "w8": 32},
-    {"axis": "Market Crash",     "w1": 45, "now": 48, "w4": 35, "w8": 22},
+    {"axis": "Oil Shock",        "w1": 60, "now": 60, "w4": 42, "w8": 28},
+    {"axis": "Market Crash",     "w1": 45, "now": 42, "w4": 30, "w8": 18},
     {"axis": "Nuclear Risk",     "w1": 20, "now": 88, "w4": 82, "w8": 70},
-    {"axis": "Hormuz Closure",   "w1": 80, "now": 92, "w4": 42, "w8": 18},
-    {"axis": "Household Impact", "w1": 15, "now": 62, "w4": 52, "w8": 35},
-    {"axis": "Currency Crisis",  "w1": 40, "now": 46, "w4": 40, "w8": 28},
-    {"axis": "Social Unrest",    "w1": 25, "now": 62, "w4": 52, "w8": 38},
-    {"axis": "Military Exposure","w1": 35, "now": 78, "w4": 55, "w8": 36}
+    {"axis": "Hormuz Closure",   "w1": 80, "now": 90, "w4": 38, "w8": 15},
+    {"axis": "Household Impact", "w1": 15, "now": 58, "w4": 48, "w8": 32},
+    {"axis": "Currency Crisis",  "w1": 40, "now": 42, "w4": 36, "w8": 25},
+    {"axis": "Social Unrest",    "w1": 25, "now": 58, "w4": 48, "w8": 35},
+    {"axis": "Military Exposure","w1": 35, "now": 75, "w4": 52, "w8": 34}
   ],
   "assessment": {
-    "headline": "DAY 47, WED 9 AM: Trump says war 'VERY CLOSE TO OVER.' Talks resume THURSDAY Islamabad. CENTCOM: blockade 'completely halted' Iran sea trade. Iran threatens Red Sea shutdown. US no formal ceasefire extension. Brent ~$97. Markets OPEN. Ceasefire expires Apr 21 — 6 days.",
-    "body": "Day 47 is the most diplomatically active morning of the war.\n\nTHE DIPLOMATIC SIGNAL — CLEAREST YET\n• Trump (Fox Business, aired Apr 15): 'I think it's close to over, yeah. I view it as very close to being over'\n• Talks expected to resume Thursday in Islamabad — multiple confirmed sources\n• Pakistan PM Sharif visiting Saudi Arabia, Qatar and Turkey this week to facilitate\n• Turkish FM Fidan suggests ceasefire could be extended 45-60 days for more negotiations\n• UN Sec-Gen Guterres: 'highly probable' talks restart\n• Vance: 'a grand deal to be had — but it's up to the Iranians to take the next step'\n• BUT: US NOT formally agreed to ceasefire extension — expires Apr 21\n• Key gap remains: nuclear enrichment (US: zero forever; Iran: 3-5 years at most)\n\nBLOCKADE — WORKING BUT ESCALATING IRAN\n• CENTCOM: 'completely halted economic trade going into and out of Iran by sea'\n• Day 1: 10,000+ US personnel, 12+ warships, dozens of aircraft — zero ships breached\n• 6 commercial ships redirected back to Iranian ports\n• 4 Iran-linked ships on Apr 14 — all sanctioned, all under watch; Rich Starry reversed\n• Iran's economic pain: $435M/day loss. Storage fills in ~13 days — then forced production shutdown\n• But Iran's response is concerning: threatening to shut Red Sea + Gulf of Oman + Persian Gulf\n\nIRAN'S RED SEA THREAT — INDIA EXPOSURE EXPANDS\n• Gen. Abdollahi: if blockade continues, Iran 'would not allow any exports or imports to continue in the Persian Gulf, the Sea of Oman, and the Red Sea'\n• Red Sea closure would affect Suez Canal route — India's alternative to Hormuz\n• Would cut both India's oil import routes simultaneously\n• India 85%+ Hormuz dependent; western coast shipping also uses Red Sea via Suez\n• This is Iran's nuclear option in trade war terms\n\nINDIA MARKET OUTLOOK — TODAY'S OPEN\n• BSE/NSE reopen after 2-day break\n• GIFT Nifty 24,205 (-0.02%) at 8:09 AM IST — near-flat open\n• Brent ~$97-98 — below $100 positive for India\n• If Thursday talks confirm formally before market close: Sensex could rally to 77,500-78,000\n• If Iran acts on Red Sea threat: extreme negative — both oil import routes compromised\n• Wipro Q4 results Apr 16; Infosys results this week — IT sector a positive catalyst\n• Emkay: Nifty target 29,000 Mar 2027 (if permanent deal). Morgan Stanley: Sensex ₹95,000 Dec 2026\n\nKEY DATE: APRIL 21 — CEASEFIRE EXPIRY (6 DAYS)\n• Scenario A (most likely ~55%): Talks resume Thursday, ceasefire extended 45-60 days — Brent drops to $75-80, Sensex rallies 5-10%\n• Scenario B (~30%): No deal but ceasefire extended — status quo continues, oil stable ~$95-100\n• Scenario C (~15%): No deal, no extension, ceasefire lapses — IRGC maximum alert + Trump strikes resume = extreme escalation, Nifty could test 20,000\n• Trump's 'very close to over' + Thursday talks signal is the strongest positive yet\n\nVERDICT: Thursday is the most important day of the war for markets. If talks confirm formally and ceasefire extends, India gets the relief it needs. If they fail, Apr 21 becomes a genuine crisis point. Iran's Red Sea threat is the most dangerous new escalation — watch for any action on this. India has 6-8 weeks fuel buffer but the clock is ticking."
+    "headline": "DAY 47, 7:30 PM: Sensex +1,263 to 78,111. Nifty +388 to 24,231. All 30 green. Brent below $95. US intercepted first Iranian tankers. 'All ingredients of a deal' — US official. Talks Thursday Islamabad. Treasury ends sanctions waiver. Senate war powers vote Wed. IMF: recession risk. Ceasefire Apr 21.",
+    "body": "Day 47 closes as the strongest market day since the blockade began — and a genuinely pivotal moment.\n\nMARKET CLOSE — STRONG RISK-ON\n• Sensex: 78,111 (+1,263 / +1.65%) — all 30 stocks green\n• Nifty: 24,231 (+388 / +1.63%)\n• Rupee: 93.15 (+20 paise) — strengthening fast\n• Brent: below $95 — WTI toward $90 — biggest single-day oil fall since blockade started\n• Top gainers: IndiGo +4% (airlines recover), UltraTech, HCLTech, Infosys, Bajaj Finance, L&T\n• IT sector led — markets pricing in diplomatic resolution\n• API: 6.1M barrel US crude inventory build (8th consecutive week) adding to oil supply confidence\n\nDIPLOMATIC ACCELERATION\n• Senior US official to Fox News: 'all the ingredients of a deal' in place\n• Trump (Fox Business): 'very close to over. I view it as very close to being over'\n• Talks expected to resume Thursday or this week in Islamabad\n• Pakistan PM Sharif visiting Saudi Arabia, Qatar and Turkey to facilitate\n• Turkish FM: ceasefire could extend 45-60 days for more negotiations\n• UN Sec-Gen Guterres: 'highly probable' talks restart\n\nBLOCKADE HARDENING SIMULTANEOUSLY\n• US Navy intercepted 2 Iranian tankers from Chabahar — FIRST confirmed naval interdiction\n• US Treasury: ending sanctions waiver on Iranian oil stranded at sea (expires days)\n• Treasury warning banks: secondary sanctions on Iran-supporting financial institutions\n• CENTCOM: blockade 'completely halted' Iran's economic sea trade\n• Iran losing ~$435M/day — storage fills in ~13 days — production shutdown looming\n• Retired Gen. Kellogg urged capturing Kharg Island — most hawkish US voice yet\n\nIRAN'S ESCALATION THREATS\n• Gen. Abdollahi: Iran will not allow 'exports or imports in Persian Gulf, Sea of Oman, and Red Sea' if blockade continues\n• Minor explosions in Tehran — continuing instability\n• IMF: further escalation risks global recession; MENA growth cut to 1.1%\n• Senate war powers vote Wednesday — domestic US pressure mounting\n\nINDIA OUTLOOK\n• Sensex recovered 1,263 pts today — now at 78,111 vs 76,847 on Apr 13 close\n• Brent below $95 = OMC margins improving, hike risk removed, LPG cut possible if deal done\n• Rupee +20p = all imports cheaper\n• If Thursday talks produce ceasefire extension: Sensex could rally another 1,500-2,500 pts toward 80,000-82,000\n• If Iran acts on Red Sea threat before Thursday: sharp reversal likely\n• Wipro Q4 results tomorrow Apr 16 — IT bellwether\n• Emkay: Nifty 29,000 by Mar 2027 (if deal). Morgan Stanley: Sensex ₹95,000 Dec 2026\n\nKEY DATE: APRIL 21 — CEASEFIRE EXPIRY (6 DAYS)\n• Scenario A (~60%): Thursday talks produce ceasefire extension 45-60 days → Brent $70-80, Sensex 82,000-85,000, rupee 91-92\n• Scenario B (~25%): No deal, no extension, ceasefire lapses → extreme escalation, Nifty could test 20,000-22,000\n• Scenario C (~15%): Talks produce partial deal — blockade eases, nuclear issues deferred → Sensex 79,000-82,000, Brent $80-85\n• VERDICT: Most positive day of the war for India. Two parallel pressures (blockade tightening + diplomacy accelerating) creating a race to Apr 21. Thursday's talks outcome is the single most important market event of the week."
   }
 }
