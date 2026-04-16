@@ -289,6 +289,188 @@ const Chip = ({children, color=C.amber, size=9}) => (
     textTransform:'uppercase', whiteSpace:'nowrap'}}>{children}</span>
 );
 
+// ─── WindyMapWithPins ─────────────────────────────────────────────
+// Renders the Windy embed with an SVG overlay of nuclear site pins.
+// The map is centred at lat:30 lon:54 zoom:5.
+// We use Mercator projection math to convert lat/lon → % position.
+// overflow:visible on the outer div + pointer-events:none on SVG
+// keeps the iframe fully interactive beneath the overlay.
+
+const NUCLEAR_PINS = [
+  { id:'B', name:'Bushehr',  lat:28.83, lon:50.88, risk:88, col:'#ef4444', type:'Reactor ☢️',       labelPos:'left'  },
+  { id:'N', name:'Natanz',   lat:33.72, lon:51.73, risk:90, col:'#ef4444', type:'Enrichment',       labelPos:'right' },
+  { id:'I', name:'Isfahan',  lat:32.57, lon:51.81, risk:96, col:'#ef4444', type:'HEU Storage',      labelPos:'left'  },
+  { id:'A', name:'Arak',     lat:34.10, lon:49.20, risk:75, col:'#fb923c', type:'Heavy Water',      labelPos:'left'  },
+  { id:'F', name:'Fordow',   lat:34.88, lon:51.73, risk:88, col:'#ef4444', type:'Underground',      labelPos:'right' },
+  { id:'Y', name:'Yazd',     lat:31.89, lon:54.37, risk:40, col:'#f59e0b', type:'Mining',           labelPos:'right' },
+];
+
+// Mercator: convert lat/lon to 0-1 fraction given map centre and zoom
+// Windy embed at zoom 5: each degree is ~6.4px on a 650px wide map
+// viewport is 650×450, centred at lat:30 lon:54
+// We calculate the fractional offset within the viewport
+function latLonToFrac(lat, lon, centerLat, centerLon, zoom) {
+  // Mercator Y for a latitude
+  const mercY  = (la) => Math.log(Math.tan(Math.PI / 4 + (la * Math.PI / 180) / 2));
+  // pixels per degree longitude at zoom 5 (tile size 256, 2^zoom tiles)
+  const pxPerDeg = (256 * Math.pow(2, zoom)) / 360;
+  // viewport in degrees: 650px wide, 450px tall
+  const viewW = 650, viewH = 450;
+  const degW = viewW / pxPerDeg;           // ~36.6 degrees wide at zoom 5
+  const centerMercY = mercY(centerLat);
+  const targetMercY = mercY(lat);
+  const mercDegH = (viewH / pxPerDeg);     // ~25.4 mercator degrees tall
+  const xFrac = 0.5 + (lon - centerLon) / degW;
+  const yFrac = 0.5 - (targetMercY - centerMercY) / (mercDegH * (Math.PI / 180) * (180 / Math.PI));
+  return { x: Math.max(0.02, Math.min(0.98, xFrac)), y: Math.max(0.02, Math.min(0.98, yFrac)) };
+}
+
+const WindyMapWithPins = () => {
+  const mapRef = useRef(null);
+  const [dims, setDims] = useState({ w: 0, h: 0 });
+  const CENTER_LAT = 30, CENTER_LON = 54, ZOOM = 5;
+
+  useEffect(() => {
+    const update = () => {
+      if (mapRef.current) {
+        const r = mapRef.current.getBoundingClientRect();
+        setDims({ w: r.width, h: r.height });
+      }
+    };
+    update();
+    const ro = new ResizeObserver(update);
+    if (mapRef.current) ro.observe(mapRef.current);
+    return () => ro.disconnect();
+  }, []);
+
+  return (
+    <div ref={mapRef} style={{
+      position: 'relative',
+      width: '100%',
+      paddingBottom: '56%',
+      height: 0,
+      borderRadius: 8,
+      border: `1px solid #1e2a3d`,
+      background: '#07090f',
+      overflow: 'hidden',   // clip iframe; SVG is absolute + full-size so still overlays
+    }}>
+      {/* Windy iframe — remove marker=true to reduce clutter from default marker */}
+      <iframe
+        title="Wind forecast — Iran nuclear sites to India"
+        src="https://embed.windy.com/embed2.html?lat=30&lon=54&detailLat=32.5&detailLon=51.7&width=650&height=450&zoom=5&level=500h&overlay=wind&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=default&metricTemp=default&radarRange=-1"
+        style={{ position:'absolute', top:0, left:0, width:'100%', height:'100%', border:0 }}
+        frameBorder="0"
+      />
+
+      {/* SVG pin overlay — pointer-events:none so mouse passes through to iframe */}
+      {dims.w > 0 && (
+        <svg
+          viewBox={`0 0 ${dims.w} ${dims.h}`}
+          width={dims.w}
+          height={dims.h}
+          style={{
+            position: 'absolute', top: 0, left: 0,
+            pointerEvents: 'none',
+            overflow: 'visible',
+          }}
+        >
+          <defs>
+            <filter id="pin-shadow" x="-30%" y="-30%" width="160%" height="160%">
+              <feDropShadow dx="0" dy="1" stdDeviation="2" floodColor="#000" floodOpacity="0.7"/>
+            </filter>
+          </defs>
+
+          {NUCLEAR_PINS.map((pin) => {
+            const frac = latLonToFrac(pin.lat, pin.lon, CENTER_LAT, CENTER_LON, ZOOM);
+            const cx = frac.x * dims.w;
+            const cy = frac.y * dims.h;
+            const r = 11;
+            const labelRight = pin.labelPos === 'right';
+            const labelX = labelRight ? cx + r + 5 : cx - r - 5;
+            const labelAnchor = labelRight ? 'start' : 'end';
+            const riskLabel = `${pin.risk}/100`;
+            // Pulsing ring for high-risk sites
+            const highRisk = pin.risk >= 88;
+
+            return (
+              <g key={pin.id} filter="url(#pin-shadow)">
+                {/* Pulse ring for critical sites */}
+                {highRisk && (
+                  <circle cx={cx} cy={cy} r={r + 6} fill="none"
+                    stroke={pin.col} strokeWidth="1.5" opacity="0.4"
+                    style={{animation: 'nukepulse 2.2s ease-out infinite'}}/>
+                )}
+
+                {/* Pin circle */}
+                <circle cx={cx} cy={cy} r={r} fill={pin.col} opacity="0.92"/>
+                <circle cx={cx} cy={cy} r={r} fill="none"
+                  stroke="rgba(255,255,255,0.35)" strokeWidth="1.5"/>
+
+                {/* Letter */}
+                <text x={cx} y={cy + 1} textAnchor="middle" dominantBaseline="middle"
+                  fontSize={10} fontWeight="900" fontFamily="'IBM Plex Mono',monospace"
+                  fill="#fff" letterSpacing="0">
+                  {pin.id}
+                </text>
+
+                {/* Label background pill */}
+                <rect
+                  x={labelRight ? cx + r + 4 : cx - r - 4 - 66}
+                  y={cy - 14}
+                  width={66} height={28} rx={5}
+                  fill="rgba(8,12,20,0.88)"
+                  stroke={pin.col} strokeWidth="1" opacity="0.95"
+                />
+
+                {/* Site name */}
+                <text x={labelRight ? cx + r + 37 : cx - r - 37}
+                  y={cy - 3} textAnchor="middle" dominantBaseline="middle"
+                  fontSize={9.5} fontWeight="700"
+                  fontFamily="'IBM Plex Mono',monospace"
+                  fill="#eef2fa">
+                  {pin.name}
+                </text>
+
+                {/* Risk score */}
+                <text x={labelRight ? cx + r + 37 : cx - r - 37}
+                  y={cy + 9} textAnchor="middle" dominantBaseline="middle"
+                  fontSize={8} fontWeight="600"
+                  fontFamily="'IBM Plex Mono',monospace"
+                  fill={pin.col}>
+                  {riskLabel} risk
+                </text>
+              </g>
+            );
+          })}
+
+          {/* Legend strip — bottom left corner */}
+          <rect x={8} y={dims.h - 38} width={136} height={30} rx={5}
+            fill="rgba(8,12,20,0.82)" stroke="#1e2a3d" strokeWidth="1"/>
+          <text x={16} y={dims.h - 24} fontSize={8} fontFamily="'IBM Plex Mono',monospace"
+            fill="#7a8ba8" fontWeight="700">NUCLEAR SITES — RISK OVERLAY</text>
+          {[{col:'#ef4444',l:'Critical (85+)'},{col:'#fb923c',l:'High (70-84)'},{col:'#f59e0b',l:'Moderate'}]
+            .map((lg,i) => (
+            <g key={i}>
+              <circle cx={16} cy={dims.h - 11 + (i - 1) * 0} r={3} fill={lg.col}/>
+            </g>
+          ))}
+          <text x={16} y={dims.h - 13} fontSize={7.5} fontFamily="'IBM Plex Mono',monospace"
+            fill="#3d4f6a">🔴 Critical  🟠 High  🟡 Moderate</text>
+        </svg>
+      )}
+
+      {/* CSS for pulse animation injected locally */}
+      <style>{`
+        @keyframes nukepulse {
+          0%   { r: 17; opacity: 0.6; }
+          70%  { r: 26; opacity: 0; }
+          100% { r: 26; opacity: 0; }
+        }
+      `}</style>
+    </div>
+  );
+};
+
 // ─── Main App ─────────────────────────────────────────────────────
 export default function App() {
   const [expNuke,       setExpNuke]       = useState(null);
@@ -807,46 +989,16 @@ export default function App() {
               </div>
               <Chip color={C.cyan} size={8}>● LIVE • windy.com</Chip>
             </div>
-            <div style={{position:'relative', width:'100%', paddingBottom:'56%', height:0,
-              borderRadius:8, overflow:'hidden', border:`1px solid ${C.border}`, background:'#07090f'}}>
-              <iframe title="Wind forecast — Iran nuclear sites to India"
-                src="https://embed.windy.com/embed2.html?lat=30&lon=54&detailLat=32.5&detailLon=51.7&width=650&height=450&zoom=5&level=500h&overlay=wind&product=ecmwf&menu=&message=&marker=true&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=default&metricTemp=default&radarRange=-1"
-                style={{position:'absolute',top:0,left:0,width:'100%',height:'100%',border:0}} frameBorder="0"/>
-            </div>
-            {/* Site reference table — replaces floating pills */}
-            <div style={{marginTop:12, borderTop:`1px solid ${C.border}`, paddingTop:12}}>
-              <div style={{fontSize:8.5, color:C.muted, fontFamily:MONO, fontWeight:700,
-                letterSpacing:2, marginBottom:8}}>MAP SITE REFERENCE — markers labelled inside the map above</div>
-              <div style={{display:'grid', gridTemplateColumns:'1fr 1fr 1fr', gap:6}}>
-                {[
-                  {n:'B', l:'Bushehr',  type:'Reactor',        risk:88, riskCol:C.red},
-                  {n:'N', l:'Natanz',   type:'Enrichment',     risk:90, riskCol:C.red},
-                  {n:'I', l:'Isfahan',  type:'HEU Storage',    risk:96, riskCol:C.red},
-                  {n:'A', l:'Arak',     type:'Heavy Water',    risk:75, riskCol:C.orange},
-                  {n:'F', l:'Fordow',   type:'Underground',    risk:88, riskCol:C.red},
-                  {n:'Y', l:'Yazd',     type:'Mining',         risk:40, riskCol:C.amber},
-                ].map(s => (
-                  <div key={s.n} style={{background:C.bg, borderRadius:6, padding:'7px 9px',
-                    border:`1px solid ${s.riskCol}22`, display:'flex', gap:7, alignItems:'center'}}>
-                    <div style={{width:18, height:18, borderRadius:'50%', background:s.riskCol,
-                      display:'flex', alignItems:'center', justifyContent:'center', flexShrink:0,
-                      border:'2px solid rgba(255,255,255,0.15)'}}>
-                      <span style={{fontSize:8, fontWeight:900, color:'#fff'}}>{s.n}</span>
-                    </div>
-                    <div>
-                      <div style={{fontSize:9.5, fontWeight:700, color:C.white, fontFamily:MONO, lineHeight:1.1}}>{s.l}</div>
-                      <div style={{fontSize:8, color:s.riskCol, fontFamily:MONO, marginTop:1}}>{s.type} • {s.risk}/100</div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-              <div style={{background:C.amberDim, border:`1px solid ${C.amber}25`,
-                borderRadius:6, padding:'8px 10px', marginTop:10,
-                fontSize:10, color:C.sub, lineHeight:1.65, fontFamily:SERIF}}>
-                <strong style={{color:C.amber}}>⚠️ Note:</strong> Map shows wind direction and speed at 500 hPa only —
-                relevant for long-range particulate transport. Does NOT show radiation levels or fallout.
-                For actual fallout modelling, see <a href="https://www.ready.noaa.gov/HYSPLIT.php" target="_blank" rel="noopener noreferrer" style={{color:C.cyan}}>NOAA HYSPLIT</a>.
-              </div>
+            {/* Map + SVG overlay wrapper */}
+            <WindyMapWithPins />
+            <div style={{background:C.amberDim, border:`1px solid ${C.amber}25`,
+              borderRadius:6, padding:'8px 10px', marginTop:10,
+              fontSize:10, color:C.sub, lineHeight:1.65, fontFamily:SERIF}}>
+              <strong style={{color:C.amber}}>⚠️ Note:</strong> Map shows wind direction and speed at 500 hPa only —
+              relevant for long-range particulate transport. Does NOT show radiation levels or fallout.
+              Pin positions are approximate. For actual fallout modelling, see{' '}
+              <a href="https://www.ready.noaa.gov/HYSPLIT.php" target="_blank" rel="noopener noreferrer"
+                style={{color:C.cyan}}>NOAA HYSPLIT</a>.
             </div>
           </div>
 
