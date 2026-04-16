@@ -813,25 +813,40 @@ export default function App() {
                 src="https://embed.windy.com/embed2.html?lat=30&lon=54&detailLat=32.5&detailLon=51.7&width=650&height=450&zoom=5&level=500h&overlay=wind&product=ecmwf&menu=&message=&marker=true&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=default&metricTemp=default&radarRange=-1"
                 style={{position:'absolute',top:0,left:0,width:'100%',height:'100%',border:0}} frameBorder="0"/>
             </div>
-            <div style={{background:C.amberDim, border:`1px solid ${C.amber}25`,
-              borderRadius:6, padding:10, marginTop:10,
-              fontSize:10, color:C.sub, lineHeight:1.7, fontFamily:SERIF}}>
-              <strong style={{color:C.amber}}>⚠️ Note:</strong> Shows wind direction/speed at 500 hPa only —
-              relevant for long-range particulate transport. Does NOT show radiation levels or fallout.
-              For actual fallout modelling, see <strong>NOAA HYSPLIT</strong>.
-            </div>
-            <div style={{display:'flex', gap:5, marginTop:10, flexWrap:'wrap'}}>
-              {[{n:'B',l:'Bushehr'},{n:'N',l:'Natanz'},{n:'I',l:'Isfahan'},
-                {n:'A',l:'Arak'},{n:'F',l:'Fordow'},{n:'Y',l:'Yazd'}].map(s => (
-                <div key={s.n} style={{display:'flex', alignItems:'center', gap:4,
-                  background:C.bg, border:`1px solid ${C.red}25`, borderRadius:4, padding:'3px 7px'}}>
-                  <div style={{width:14,height:14,borderRadius:'50%',background:C.red,
-                    display:'flex',alignItems:'center',justifyContent:'center',flexShrink:0}}>
-                    <span style={{fontSize:7,fontWeight:900,color:'#fff'}}>{s.n}</span>
+            {/* Site reference table — replaces floating pills */}
+            <div style={{marginTop:12, borderTop:`1px solid ${C.border}`, paddingTop:12}}>
+              <div style={{fontSize:8.5, color:C.muted, fontFamily:MONO, fontWeight:700,
+                letterSpacing:2, marginBottom:8}}>MAP SITE REFERENCE — markers labelled inside the map above</div>
+              <div style={{display:'grid', gridTemplateColumns:'1fr 1fr 1fr', gap:6}}>
+                {[
+                  {n:'B', l:'Bushehr',  type:'Reactor',        risk:88, riskCol:C.red},
+                  {n:'N', l:'Natanz',   type:'Enrichment',     risk:90, riskCol:C.red},
+                  {n:'I', l:'Isfahan',  type:'HEU Storage',    risk:96, riskCol:C.red},
+                  {n:'A', l:'Arak',     type:'Heavy Water',    risk:75, riskCol:C.orange},
+                  {n:'F', l:'Fordow',   type:'Underground',    risk:88, riskCol:C.red},
+                  {n:'Y', l:'Yazd',     type:'Mining',         risk:40, riskCol:C.amber},
+                ].map(s => (
+                  <div key={s.n} style={{background:C.bg, borderRadius:6, padding:'7px 9px',
+                    border:`1px solid ${s.riskCol}22`, display:'flex', gap:7, alignItems:'center'}}>
+                    <div style={{width:18, height:18, borderRadius:'50%', background:s.riskCol,
+                      display:'flex', alignItems:'center', justifyContent:'center', flexShrink:0,
+                      border:'2px solid rgba(255,255,255,0.15)'}}>
+                      <span style={{fontSize:8, fontWeight:900, color:'#fff'}}>{s.n}</span>
+                    </div>
+                    <div>
+                      <div style={{fontSize:9.5, fontWeight:700, color:C.white, fontFamily:MONO, lineHeight:1.1}}>{s.l}</div>
+                      <div style={{fontSize:8, color:s.riskCol, fontFamily:MONO, marginTop:1}}>{s.type} • {s.risk}/100</div>
+                    </div>
                   </div>
-                  <span style={{fontSize:9,color:C.sub,fontWeight:600,fontFamily:MONO}}>{s.l}</span>
-                </div>
-              ))}
+                ))}
+              </div>
+              <div style={{background:C.amberDim, border:`1px solid ${C.amber}25`,
+                borderRadius:6, padding:'8px 10px', marginTop:10,
+                fontSize:10, color:C.sub, lineHeight:1.65, fontFamily:SERIF}}>
+                <strong style={{color:C.amber}}>⚠️ Note:</strong> Map shows wind direction and speed at 500 hPa only —
+                relevant for long-range particulate transport. Does NOT show radiation levels or fallout.
+                For actual fallout modelling, see <a href="https://www.ready.noaa.gov/HYSPLIT.php" target="_blank" rel="noopener noreferrer" style={{color:C.cyan}}>NOAA HYSPLIT</a>.
+              </div>
             </div>
           </div>
 
