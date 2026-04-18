@@ -1,95 +1,99 @@
 {
-  "_updated": "April 18, 2026 — 9:15 AM IST",
+  "_updated": "April 18, 2026 — 8:15 PM IST",
   "_day": 50,
-  "_phase": "CEASEFIRE",
-  "_note": "Verified: Wikipedia US-Iran negotiations, MS Now live blog, Reuters/Investing.com, Rio Times. DAY 50: Rubio Apr 18: urged Europe to reimpose sanctions — also said Iran CAN have civilian nuclear program (major US position shift). Ghalibaf Apr 17 evening: Iran will CLOSE Hormuz if US does not lift blockade — fragility warning. Brent settled DOWN ~9% on Hormuz open (Reuters confirmed). Second round talks this weekend (Trump said). Hegseth vs Waltz: split on attacking Iran. Ceasefire expires Apr 22.",
+  "_phase": "BLOCKADE",
+  "_note": "Verified: Axios, Republic World, ABC7/UKMTO, Wikipedia Hormuz crisis, TankerTrackers.com. DAY 50 EVENING: HORMUZ RECLOSED. IRGC fired on tankers including 2 INDIAN VESSELS. One Indian-flagged VLCC (2M barrels Iraqi oil) fired upon DESPITE HAVING CLEARANCE — turned back. At least 3 attacks on commercial ships (Axios/US defense official). UKMTO: 2 IRGC gunboats approached tanker, no VHF challenge, opened fire — crew safe. Iran IRIB: Hormuz returned to previous state. Iran summoned India ambassador. Trump: Iran got a little cute — still talking. US CENTCOM: 23 ships turned around total. Brent spiking on reclosure. Second round talks status unclear.",
   "ticker": [
-    "⚠️ GHALIBAF THREAT: Iran will CLOSE Hormuz again if US does not lift blockade. Fragility of opening confirmed — ceasefire Apr 22 still the hard deadline.",
-    "🕊️ RUBIO: Iran CAN have civilian nuclear energy program — major US position shift. Also urged Europe to reimpose Iran sanctions. Two-track strategy.",
-    "🛢️ BRENT CRASHED ~9% on Hormuz open — settled ~$88-90 (Reuters confirmed). Oil prices dipped sharply. Wall Street hit record highs. India beneficiary.",
-    "📅 SECOND ROUND TALKS this weekend — Trump said could happen Saturday/Sunday in Islamabad. Nuclear enrichment gap: US wants 20yr, Iran offered 5yr.",
-    "🇮🇳 India markets open today (Saturday). Sensex 78,494 on Friday. Hormuz open = LPG tankers moving. Brent fall = LPG price cut possible in 2-3 weeks.",
-    "🏛️ HEGSETH vs WALTZ reportedly split on attacking Iran militarily. Trump: 'in no rush to attack.' Two options: bomb viciously or nicely — undecided.",
-    "☢️ Rubio: Iran 'nearing capability to develop nuclear weapon' — accelerating European pressure on sanctions. Iran hardliners: enrichment rights non-negotiable.",
-    "🇵🇰 Pakistan diplomatic push continuing. Munir likely heading to Washington next. PM Sharif Gulf tour (Saudi, Qatar, Turkey) completed.",
-    "💰 Wall Street record highs on Hormuz open (Reuters). Indian markets: Sensex targets 79,000-80,000 if second round talks confirmed today/this weekend.",
-    "⏰ CEASEFIRE EXPIRES APR 22 — 4 DAYS. Hormuz open is conditional — Ghalibaf threat means closure risk if blockade not lifted before Apr 22."
+    "🚨 BREAKING: HORMUZ RECLOSED — IRGC FIRED ON INDIAN SHIPS. 2 Indian vessels forced back after IRGC gunboats opened fire. Indian VLCC (2M barrels Iraqi oil) fired upon DESPITE CLEARANCE from Iran. Crew safe.",
+    "🇮🇳 INDIA SUMMONS IRANIAN AMBASSADOR — MEA demands explanation after two Indian-flagged vessels attacked by IRGC gunboats in Strait of Hormuz. 4 Indian + 2 Greek tankers failed to cross.",
+    "🛢️ HORMUZ BACK TO PREVIOUS STATE — Iran IRIB state TV: Strait returned to previous state. Iran accuses US of piracy and failing to uphold commitments. IRGC: no passage for anyone.",
+    "⚠️ UKMTO CONFIRMED: 2 IRGC gunboats approached tanker, no VHF challenge, then opened fire. At least 3 attacks total (US defense official). One ship hit — some damage, no injuries.",
+    "😡 TRUMP: 'Iran got a little cute, wanted to close up the Strait again. Can't blackmail us.' Still talking to Iran — expects to know by end of day if talks going forward.",
+    "📈 BRENT SPIKING on Hormuz reclosure — reversed sharply from Friday's 9% crash. If Hormuz stays closed: Brent could return to $100+ territory. India LPG hike risk BACK on table.",
+    "📅 CEASEFIRE EXPIRES APR 22 — 4 DAYS. Hormuz open 24 hours then reclosed. Second round Islamabad talks uncertain — Hormuz crisis may delay or cancel this weekend.",
+    "🇮🇷 Iran's position: opened Hormuz in good faith, US continued piracy (blockade). Iran: as long as blockade continues, Hormuz stays closed. Iran summoned India ambassador — bilateral crisis.",
+    "⏰ SEQUENCE: Apr 17 FM opens Hormuz → Apr 17 PM Ghalibaf threatens closure → Apr 18 AM ships attempt transit → Apr 18 IRGC fires on tankers → Hormuz reclosed. 24-hour window.",
+    "🇮🇳 India at highest risk: 8 vessels in region, 280 seafarers, Indian VLCC fired upon. Op Urja Suraksha on high alert. Indian Navy response expected. MEA lodges strong protest."
   ],
   "whatChanged": {
-    "label": "WHAT CHANGED — APR 18, 9:15 AM IST (DAY 50)",
+    "label": "WHAT CHANGED — APR 18, 8:15 PM IST (DAY 50) — CRISIS UPDATE",
     "items": [
       {
         "color": "red",
-        "bold": "GHALIBAF: Iran will CLOSE Hormuz again if US does not lift blockade.",
-        "text": "Iran Parliament Speaker Mohammad Bagher Ghalibaf posted on X Friday evening: Iran would close the Strait of Hormuz if the US does not lift its blockade of Iranian ports. This is the most critical new risk since the Hormuz opening was declared. The Hormuz opening by FM Araghchi is explicitly conditional — tied to Lebanon ceasefire AND implicitly to blockade lifting. Trump has said blockade remains \"in full force\" until deal is 100% complete. The gap between Iran's condition (lift blockade) and US condition (full deal signed) creates a dangerous window before April 22. If second round talks stall this weekend, Ghalibaf threat could become reality."
+        "bold": "IRGC FIRED ON INDIAN VESSELS IN HORMUZ — 2 ships forced back, crew safe.",
+        "text": "Two IRGC gunboats opened fire on a tanker transiting the Strait of Hormuz — UKMTO confirmed: \"The Master of the Tanker reports being approached by 2 IRGC gun boats, no VHF challenge, that then fires upon the tanker.\" Crew reported safe. One of the vessels attacked was an Indian-flagged VLCC supertanker carrying 2 million barrels of Iraqi oil — fired upon DESPITE having clearance from Iranian authorities (Republic World, TankerTrackers.com). Republic TV has audio of the mayday call from the captain. Both Indian vessels forced back west. Four Indian + two Greek tankers also failed to cross. At least 3 total attacks confirmed (US defense official to Axios), 2 confirmed by UKMTO. One ship hit with some damage, no injuries."
       },
       {
-        "color": "green",
-        "bold": "RUBIO: Iran CAN have civilian nuclear energy program — major US position softening.",
-        "text": "Secretary of State Marco Rubio on April 18 said Iran can have a civilian nuclear energy program instead of a military WMD atomic weapons program. This is a significant softening from the US position of \"no enrichment at all.\" It creates a potential landing zone: Iran suspends weapons-grade enrichment, accepts IAEA oversight of civilian program, and transfers or dilutes 440kg HEU. Rubio also urged European countries to quickly reimpose sanctions on Iran, warning Iran is nearing nuclear weapons capability — keeping the pressure track active alongside the diplomatic track."
+        "color": "red",
+        "bold": "HORMUZ RECLOSED — Iran IRIB: \"Returned to previous state.\"",
+        "text": "Iran IRIB state TV, quoting IRGC Armed Forces spokesperson: the Strait of Hormuz \"has returned to its previous state.\" Iran accused the US of \"continuing piracy and maritime robbery under the so-called blockade\" and said the US failed to uphold its commitments. \"As a result, control of the Strait of Hormuz has returned to its previous state.\" Iran had declared Hormuz completely open on Friday (Apr 17) — it lasted less than 24 hours before Iran reimposed restrictions and IRGC fired on ships. The Hormuz opening was the single biggest positive event in the war — its reclosure is the single biggest setback in one day."
       },
       {
-        "color": "green",
-        "bold": "Brent crashed ~9% on Hormuz open — settled ~$88-90 (Reuters confirmed).",
-        "text": "Reuters confirmed: oil prices settled down by around 9% on Friday after Iran FM Araghchi declared Hormuz completely open. Brent cratered. Wall Street indexes scaled record highs simultaneously. Investing.com: \"Oil prices cratered, Wall Street indexes scaled record highs — the risk-on machine throttled to its loudest setting of 2026.\" For India: Brent at $88-90 vs pre-Hormuz-open $95+ is direct relief. LPG price cut mechanism: if Brent holds below $85 for 2+ weeks, OMCs have headroom to cut cylinder price. Petrol/diesel hike risk fully removed."
-      },
-      {
-        "color": "amber",
-        "bold": "Second round talks this WEEKEND — Trump said Saturday/Sunday in Islamabad.",
-        "text": "Trump said Friday that a second round of negotiations between the US and Iran could take place \"this weekend\" — Saturday or Sunday. Islamabad again the likely venue (White House Leavitt confirmed). Nuclear enrichment gap remains: US wanted 20-year pause, Iran offered 5-year suspension. Rubio's civilian-nuclear concession creates a new middle ground. Pakistan preparing logistics; Munir expected in Washington to brief before second round. Key question: will Iran send Araghchi and Ghalibaf again, or a higher-level delegation?"
+        "color": "red",
+        "bold": "INDIA SUMMONS IRANIAN AMBASSADOR — Bilateral crisis triggered.",
+        "text": "India summoned the Iranian Ambassador following the IRGC attack on two Indian-flagged vessels in the Strait of Hormuz (Republic World confirmed). MEA lodged a strong protest. An Indian-flagged VLCC carrying 2 million barrels of Iraqi crude oil — one of the largest tankers in the Gulf — was fired upon despite its captain having received clearance from Iranian port authorities to transit. This constitutes a direct attack on Indian-flagged vessels and Indian crew. India-Iran diplomatic relations strained at a critical moment during ceasefire negotiations."
       },
       {
         "color": "amber",
-        "bold": "Hegseth vs Waltz: US divided on attacking Iran militarily.",
-        "text": "Defense Secretary Pete Hegseth and National Security Advisor Mike Waltz reportedly divided on whether US military should attack Iran. Trump told reporters he was \"in no rush to attack Iran\" and it still has a chance to \"live happily without death.\" Also said US would \"lead the pack\" in possibly attacking and there are only two alternatives: \"bombing them viciously or nicely\" — undecided. Internal US split is actually positive for diplomacy: Waltz representing dovish track, Hegseth the hawkish. Trump playing both for maximum pressure."
+        "bold": "TRUMP: \"Iran got a little cute.\" Still talking — will know by end of day.",
+        "text": "Trump, speaking to reporters in the Oval Office Saturday: Iran \"got a little cute, they wanted to close up the Strait again\" and \"can't blackmail us.\" Said the US is still talking to Iran and he will know by end of the day if the two parties will move forward with a deal. Crucial: Trump has NOT walked away from talks. His framing suggests negotiating leverage play rather than full breakdown. US CENTCOM: 23 ships total have now complied with US instructions to turn around since blockade began. Second round Islamabad talks status uncertain following Hormuz crisis."
+      },
+      {
+        "color": "amber",
+        "bold": "The 24-Hour Sequence — What Actually Happened in Hormuz.",
+        "text": "Apr 17 morning: Iran FM Araghchi declares Hormuz \"completely open\" for all commercial vessels. Apr 17 evening: Ghalibaf posts threat — Hormuz will close if US does not lift blockade. Apr 18 morning: Ships attempt transit believing FM's opening is in effect. Some received explicit clearance from Iranian port authorities. Apr 18: IRGC gunboats approach ships without VHF challenge and open fire. Iran IRIB announces Hormuz returned to previous state. Iran says US failed to lift blockade — conditions not met. Iranian spokesperson: allowed \"managed passage in good faith\" but US continuing piracy. The clearance given to Indian ships by port authorities and the IRGC action appear to have been uncoordinated — left hand vs right hand."
+      },
+      {
+        "color": "amber",
+        "bold": "Brent spiking on reclosure — India LPG hike risk returns.",
+        "text": "Brent had crashed ~9% to $88-90 on Friday's Hormuz opening. Saturday's reclosure and attacks on tankers reversed that gain sharply. Exact Apr 18 close not yet confirmed but significant spike expected — prior Hormuz closure cycles showed 5-8% immediate spikes. If Brent returns to $95-100 and stays there: LPG price cut scenario reverses, OMC margins squeezed again, petrol/diesel hike risk returns. India import costs spiking again. Every day Hormuz stays closed = India loses $100-150M in import cost efficiency vs open-Hormuz baseline."
+      },
+      {
+        "color": "amber",
+        "bold": "Second round Islamabad talks status UNCERTAIN after Hormuz crisis.",
+        "text": "Trump had said Friday that second round talks could happen \"this weekend.\" The Hormuz reclosure and firing on tankers — including Indian vessels — creates a new crisis that complicates the diplomatic track. Trump said he will know \"by end of day\" if talks going forward. Iran positioned the closure as US failure to lift blockade (their condition), not a breakdown of diplomacy. Both sides remain \"in contact\" per Trump. Pakistan as mediator still active. The question: does this Hormuz crisis become a negotiating escalation (similar to Apr 13 blockade announcement) or a dealbreaker?"
       },
       {
         "color": "cyan",
-        "bold": "India DAY 50: Markets open. Hormuz open = energy crisis easing. LPG cut in sight.",
-        "text": "Day 50. Sensex last close 78,494 (+505 Apr 17). Nifty 24,354. Week performance: +1,647 pts in 3 trading sessions. Today Saturday — markets closed. Next trading session Monday April 21. Key watch: second round talks this weekend → if talks announced today/Sunday: Monday gap-up likely toward 79,000-80,000. Brent ~$88-90: LPG price cut threshold approaching. OMCs: every $5 fall in Brent from $95 baseline = Rs 20-25 cylinder cut headroom. At $85 sustained: full LPG price cut to Rs 853 pre-war level possible. Rupee strengthening toward 92.50-93.00."
-      },
-      {
-        "color": "amber",
-        "bold": "Gulf energy infrastructure damage: up to $58 billion — years to repair.",
-        "text": "OilPrice.com/Reuters: war damage to Gulf energy infrastructure could cost up to $58 billion to repair, far higher than earlier estimates. Some facilities taking years to recover. Sirri Island oil hub still burning (EU satellite). Ras Laffan LNG complex damage: 3-5 years to repair (IEA). Iran's Lavan Island refinery also struck. This means even after ceasefire and Hormuz fully normalised, physical oil and LNG supply recovery will be gradual — 3-6 months for shipping normalisation, years for infrastructure. For India: some supply chains (LPG, fertiliser) will normalise faster than others (LNG)."
-      },
-      {
-        "color": "amber",
-        "bold": "Lebanon ceasefire holding — civilians rushing home despite warnings.",
-        "text": "Israel-Lebanon 10-day ceasefire appears to be holding. Tens of thousands of displaced Lebanese rushing south despite official warnings. Lebanese army working to restore key bridges. Lebanese President Aoun: negotiations with Israel \"delicate and crucial.\" Israel Defence Minister Katz: ground maneuver \"has not yet been completed.\" Netanyahu rejected Hezbollah demand for immediate Israeli withdrawal from southern Lebanon. Hezbollah credited its own \"steadfastness\" for ceasefire. Ceasefire fragility remains — any IDF-Hezbollah flashpoint could cascade to Iran closing Hormuz again per Ghalibaf threat."
+        "bold": "India: Op Urja Suraksha on high alert. MEA lodging protest. Monday markets key.",
+        "text": "India in direct bilateral crisis with Iran after IRGC fired on Indian-flagged vessels. Indian Navy Op Urja Suraksha vessels on high alert in Gulf of Oman — warships available to escort or respond. MEA summoned Iranian Ambassador for explanation. 8 Indian vessels in the region, 280+ seafarers. The Indian VLCC carrying 2 million barrels of Iraqi crude oil was one of the largest commercial ships in the Gulf. Monday April 21 market open = ceasefire expiry day + first reaction to this weekend's entire sequence. If Hormuz stays closed through Monday: expect Sensex gap-down, Brent spike, rupee weakness. India VIX will spike."
       }
     ]
   },
   "deaths": "6,600+",
-  "deathsSub": "~3,400+ Iran, 2,196 Lebanon (10-day ceasefire holding), 99 Iraq, 23 Israel, 13 US (+2 noncombat), 35+ Gulf",
+  "deathsSub": "~3,400+ Iran, 2,196 Lebanon (10-day ceasefire holding), 99 Iraq, 23 Israel, 13 US (+2 noncombat), 35+ Gulf. No injuries in Apr 18 Hormuz attacks.",
   "econ": {
     "sensex": "78,494",
-    "sensexDelta": "Last close Apr 17 (+505 / +0.65%). Markets CLOSED TODAY (Saturday). Next: Mon Apr 21.",
-    "sensexSub": "Brent ~$88-90 (down 9% on Hormuz open). Second round talks this weekend key trigger.",
-    "vix": "~10-12 (approaching pre-war levels)",
-    "vixDelta": "Wall Street record high + Hormuz open + Brent crash",
-    "fpi": "FII +Rs 382 Cr Apr 16",
-    "fpiDelta": "Structural positive turn. If second round talks confirmed: major FII inflow expected",
-    "wealth": "BSE market cap ~Rs 453L Cr — 205 pts from fully erasing war losses.",
-    "analysis": "DAY 50 SAT 9:15 AM IST: Markets closed today (Saturday). Last close Sensex 78,494 (+505 Apr 17). Nifty 24,354. Week recovery: +1,647 pts. Brent crashed ~9% to $88-90 on Hormuz open (Reuters). Wall Street record highs. Rubio: Iran can have civilian nuclear program — US position softening. Ghalibaf: Iran will close Hormuz if blockade not lifted — key risk. Second round talks expected this weekend in Islamabad. Hegseth vs Waltz split on Iran strike. Monday market open (Apr 21 = ceasefire expiry day): if second round announced → Sensex could gap to 79,000-80,000. If talks stall or Ghalibaf threat activated → reversal to 77,000-77,500. LPG price cut approaching: at Brent $85 sustained, OMCs have full cut headroom."
+    "sensexDelta": "Last close Apr 17. Markets CLOSED (weekend). BRENT SPIKING on Hormuz reclosure.",
+    "sensexSub": "Monday Apr 21 = ceasefire expiry + first reaction to Hormuz crisis. Gap-down risk.",
+    "vix": "~15-20 (spiking — Hormuz crisis)",
+    "vixDelta": "Hormuz reclosed + Indian ships attacked + Brent spike = fear back",
+    "fpi": "FII +Rs 382 Cr Apr 16 (last confirmed)",
+    "fpiDelta": "Hormuz reclosure threatens FII reversal on Monday open",
+    "wealth": "BSE market cap at risk — Monday gap-down likely if Hormuz stays closed through weekend.",
+    "analysis": "DAY 50 SAT 8:15 PM IST: CRISIS. Hormuz opened Friday (Araghchi) → lasted less than 24 hours → IRGC fired on tankers including 2 INDIAN VESSELS Saturday → Hormuz back to previous state (IRIB). Brent reversed from Friday 9% crash — now spiking. India summoned Iranian ambassador. Trump: Iran got a little cute, still talking. US CENTCOM: 23 ships turned around total. Monday April 21 (ceasefire expiry day) market open will be the critical test. If talks produce framework over weekend despite crisis: Sensex could recover. If no deal and Hormuz stays closed: Sensex gap-down 77,000-75,000, Brent $95-100+, rupee weakens, LPG cut reversal. Second round talks status: uncertain but not cancelled. Pakistan still mediating."
   },
   "hormuzStatus": {
-    "status": "HORMUZ OPEN — BUT GHALIBAF THREATENS CLOSURE IF BLOCKADE NOT LIFTED",
+    "status": "HORMUZ RECLOSED — IRGC FIRED ON INDIAN SHIPS. Returned to previous state.",
     "preWarFlow": "130-160 ships/day",
-    "currentFlow": "Iran FM: all commercial vessels completely open for ceasefire period. Ghalibaf Apr 17 evening: will close again if US does not lift blockade. Brent down 9% on opening news. US blockade of Iranian PORTS continues.",
-    "reduction": "Officially open for commercial transit. US blockade of Iranian ports still active. Mine risk — minesweeping ongoing. Insurance normalisation weeks away.",
+    "currentFlow": "RECLOSED — IRGC fired on tankers. India VLCC (2M bbl Iraqi oil) fired upon despite clearance. 4 Indian + 2 Greek tankers failed to cross. Iran IRIB: returned to previous state. At least 3 attacks (Axios).",
+    "reduction": "Back to ~95%+ disruption. IRGC firing actively. India ambassador summoned. US CENTCOM: 23 ships total turned around since blockade began.",
     "indianVesselsNear": 8,
     "indianSeafarers": 280,
-    "indianTransited": "Ships beginning to move — formal transit data updating",
-    "totalShipsWaiting": "230+ loaded tankers in Gulf can exit. 20,000 seafarers unstuck. War-risk insurance still elevated.",
-    "lastTransit": "Hormuz declared completely open Apr 17. Brent crashed 9%. Ghalibaf threatened reclosure if blockade not lifted.",
-    "indianNavyEscort": "Op Urja Suraksha — warships on standby. LPG tankers beginning to move.",
-    "headline": "HORMUZ OPEN but FRAGILE — Ghalibaf threatened closure if blockade not lifted. Ceasefire Apr 22 deadline. Second round talks this weekend critical."
+    "indianTransited": 0,
+    "totalShipsWaiting": "230+ tankers in Gulf unable to exit. Indian VLCC (2M bbl) turned back. War-risk insurance spiking again.",
+    "lastTransit": "IRGC fired on 2+ tankers Apr 18. Indian VLCC attacked despite clearance — turned back. Iran ambassador summoned by India.",
+    "indianNavyEscort": "Op Urja Suraksha on HIGH ALERT. Indian Navy warships in Gulf of Oman ready to respond.",
+    "headline": "HORMUZ RECLOSED — IRGC FIRED ON INDIAN SHIPS. India VLCC attacked despite clearance. Iran summoned. Brent spiking. Ceasefire Apr 22. Monday markets at risk."
   },
   "hormuzEvents": [
     {
+      "d": "Apr 18 PM",
+      "e": "CRISIS: Hormuz reclosed. IRGC fired on 2+ tankers including 2 INDIAN VESSELS — Indian-flagged VLCC (2M barrels Iraqi oil) attacked despite clearance. UKMTO: 2 IRGC gunboats, no VHF challenge, opened fire — crew safe. Iran IRIB: Hormuz returned to previous state, US failing commitments. Trump: Iran got a little cute. India summoned Iranian ambassador. Brent spiking. US CENTCOM: 23 ships turned around total. Second round talks uncertain."
+    },
+    {
       "d": "Apr 18 AM",
-      "e": "DAY 50. Markets closed (Saturday). Rubio: Iran can have civilian nuclear energy program (major US position shift). Also urged Europe to reimpose Iran sanctions. Brent settled down ~9% on Hormuz open (Reuters confirmed, ~$88-90). Wall Street record highs. Second round talks expected this weekend Islamabad. Hegseth vs Waltz split on Iran military strike. Ghalibaf Apr 17 evening: Iran will close Hormuz if US does not lift blockade. Ceasefire expires Apr 22 — 4 days."
+      "e": "Rubio: Iran can have civilian nuclear program (major US shift). Brent ~$88-90 after 9% crash Friday. Ghalibaf had threatened Hormuz closure if blockade not lifted. Ships attempting transit post-FM opening."
     },
     {
       "d": "Apr 17 PM",
@@ -201,52 +205,52 @@
   ],
   "military": [
     {
-      "t": "GHALIBAF: Iran Will CLOSE Hormuz Again If Blockade Not Lifted",
+      "t": "IRGC FIRED ON INDIAN SHIPS IN HORMUZ — VLCC Attacked Despite Clearance",
       "lv": "BREAKING",
       "color": "red",
-      "d": "Iran Parliament Speaker Ghalibaf posted on X Friday evening (Apr 17): Iran would close the Strait of Hormuz if the US does not lift its blockade of Iranian ports. This creates a critical fragility in the Hormuz opening — it is explicitly conditional. Iran FM Araghchi opened Hormuz \"in line with Lebanon ceasefire.\" Ghalibaf is now conditioning it further on blockade removal. Trump has said blockade remains \"in full force\" until deal 100% complete. The gap: Iran wants blockade lifted first, US wants full deal signed first. This is the most dangerous new risk since the war began. If second round talks stall this weekend, Ghalibaf threat could be activated before April 22."
+      "d": "UKMTO confirmed: \"The Master of the Tanker reports being approached by 2 IRGC gun boats, no VHF challenge, that then fires upon the tanker. The tanker and crew are reported safe.\" Two Indian vessels were forced back west after IRGC gunboats opened fire (Republic World, TankerTrackers.com). One vessel was an Indian-flagged VLCC supertanker carrying 2 million barrels of Iraqi crude oil — attacked DESPITE having received clearance from Iranian port authorities to transit. Republic TV has exclusive audio of the mayday call made by the captain immediately after being fired upon. At least 3 attacks total (US defense official to Axios), 2 attacks confirmed by UKMTO. One ship hit, some damage, no injuries reported. Four Indian and two Greek tankers also failed to cross."
     },
     {
-      "t": "RUBIO: Iran CAN Have Civilian Nuclear Program — Major US Position Shift",
+      "t": "HORMUZ RECLOSED — Iran IRIB: Returned to Previous State",
       "lv": "BREAKING",
-      "color": "green",
-      "d": "Secretary of State Marco Rubio on April 18 said Iran can have a civilian nuclear energy program instead of a military WMD atomic weapons program. This is the most significant US concession since the war began — previously the US position was effectively no enrichment at all. Creates a potential landing zone for deal: Iran suspends weapons-grade enrichment, accepts IAEA oversight, transfers 440kg HEU. Separately Rubio urged European countries to quickly reimpose sanctions on Iran, warning Iran is nearing nuclear weapons capability. Two-track: diplomatic concession + pressure lever simultaneously. Hegseth and Waltz reportedly divided on whether US should attack Iran militarily."
+      "color": "red",
+      "d": "Iran IRIB state TV, quoting IRGC Armed Forces spokesperson: the Strait of Hormuz \"has returned to its previous state.\" Iran's IRGC accused the US of \"continuing piracy and maritime robbery under the so-called blockade\" and said the US failed to uphold commitments. Iran said it previously allowed \"managed passage of a limited number of oil tankers and commercial vessels in good faith following recent negotiations\" — but US continuing blockade meant conditions not met. The Hormuz opening declared by FM Araghchi on April 17 lasted less than 24 hours. This is the most severe single-day reversal in the war's diplomatic trajectory."
     },
     {
-      "t": "Brent Crashed ~9% on Hormuz Open. Wall Street Record Highs (Reuters).",
+      "t": "INDIA SUMMONS IRANIAN AMBASSADOR — Bilateral Diplomatic Crisis",
       "lv": "BREAKING",
-      "color": "green",
-      "d": "Reuters confirmed: oil prices settled down by around 9% on Friday after Iran FM Araghchi declared Hormuz completely open. Brent cratered to approximately $88-90. Investing.com: \"The risk-on machine throttled to its loudest setting of 2026.\" Wall Street indexes scaled fresh record highs simultaneously. For India: Brent at $88-90 vs $95+ pre-opening is direct relief. OMC margin recovery begins. LPG price cut threshold: if Brent holds below $85 for 2 weeks, full cylinder price cut to pre-war Rs 853 becomes possible. Petrol/diesel hike risk removed. Rupee strengthening."
+      "color": "red",
+      "d": "India summoned the Iranian Ambassador to the MEA following the IRGC attack on two Indian-flagged vessels in the Strait of Hormuz. India lodged a strong protest. The attacked Indian VLCC was carrying 2 million barrels of Iraqi crude oil — one of the largest commercial tankers in the Gulf. The captain had received explicit clearance from Iranian port authorities before IRGC gunboats opened fire without any radio challenge. This is a direct attack on Indian-flagged vessels and Indian crew. India-Iran relations had been on careful footing since Iran gave India special transit rights in March (along with China, Russia, Pakistan, Iraq). Those preferential arrangements appear to have broken down. Op Urja Suraksha on high alert."
     },
     {
-      "t": "Second Round Talks Expected THIS WEEKEND — Islamabad Again",
+      "t": "TRUMP: \"Iran Got a Little Cute.\" Still Talking — Knows by End of Day.",
       "lv": "BREAKING",
-      "color": "green",
-      "d": "Trump said Friday that a second round of US-Iran negotiations could take place \"this weekend\" — Saturday or Sunday — in Islamabad (White House Leavitt confirmed location). Nuclear enrichment gap: US wanted 20-year pause at Islamabad round 1, Iran offered 5-year suspension. Rubio's civilian-nuclear concession on April 18 creates a new middle ground. Araghchi (Islamabad round 1): Iran was \"inches away from an MoU\" before US shifted goalposts. Pakistan preparing. Key question: will talks produce a deal before April 22 ceasefire expiry or another extension?"
+      "color": "amber",
+      "d": "Trump, speaking to reporters in the Oval Office Saturday: Iran \"got a little cute, they wanted to close up the Strait again\" and the US \"can't blackmail us.\" Said the US is still talking to Iran and he expects to know by end of day whether parties will move forward with a deal. Crucially — Trump did NOT walk away. His framing suggests he views this as a negotiating escalation rather than a full breakdown. \"They got a little cute\" implies tactical irritation, not strategic abandonment. Second round Islamabad talks remain uncertain but not officially cancelled. US CENTCOM: 23 ships total have now turned around since blockade began."
     },
     {
-      "t": "Hegseth vs Waltz: US Divided on Striking Iran Militarily",
+      "t": "The 24-Hour Hormuz Sequence — What Actually Happened",
       "lv": "DEVELOPING",
       "color": "amber",
-      "d": "Defense Secretary Pete Hegseth and National Security Advisor Mike Waltz reportedly split on whether US military should attack Iran. Trump told reporters he was \"in no rush to attack\" and Iran still has a chance to \"live happily without death.\" Also said US would \"lead the pack\" and there are only two alternatives: \"bombing them viciously or nicely\" — undecided. Internal split is actually positive for diplomacy: represents the internal pressure Trump is managing. Waltz represents the diplomatic track; Hegseth the military track. Trump appears to be using the split strategically as maximum pressure."
+      "d": "Apr 17 morning: FM Araghchi declares Hormuz completely open for all commercial vessels. Apr 17 evening: Ghalibaf posts on X — Hormuz will close if US does not lift blockade. Apr 18 morning: Ships attempt transit believing FM opening is in effect. Some received explicit clearance from Iranian port authorities. Apr 18 mid-morning: IRGC gunboats approach ships WITHOUT VHF challenge and open fire. Iran IRIB announces Hormuz returned to previous state. Iran says US continuing blockade = conditions not met. The clearance given by port authorities and the IRGC action appear uncoordinated — Iranian civilian port authority vs IRGC military command acting independently. This is the most dangerous internal Iran incoherence since the war began."
     },
     {
-      "t": "Gulf Energy Infrastructure Damage: $58 Billion — Years to Repair",
+      "t": "Brent Spiking — India LPG Hike Risk Returns",
       "lv": "DEVELOPING",
-      "color": "amber",
-      "d": "OilPrice.com/Reuters: war damage to Gulf energy infrastructure could cost up to $58 billion to repair, far higher than earlier estimates. Some facilities taking years to recover. Sirri Island oil hub still burning (EU Copernicus satellite). Ras Laffan LNG complex damage: 3-5 years to repair (IEA). Iran Lavan Island refinery also struck. Choice Equity: 10 mb/d of supply remains shut in, may take 3-6 months to ramp up. Even after ceasefire and Hormuz fully normalised: physical supply recovery gradual. Freight operators and P&I clubs will take weeks to reclassify Hormuz as standard transit zone. Full shipping cost normalisation 3-6 months."
+      "color": "red",
+      "d": "Brent had crashed ~9% to $88-90 on Friday's Hormuz opening. Saturday's reclosure and attacks on tankers are reversing that gain sharply. Exact Apr 18 close not yet confirmed but significant spike expected — prior Hormuz closure cycles showed 5-8% immediate spikes back toward $95-100. If Brent returns to $95-100 and stays there: LPG price cut scenario fully reversed, OMC margins squeezed again, petrol/diesel hike risk returns. India import costs spiking again. Monday April 21 (ceasefire expiry day) Sensex open will be the key market signal. Gap-down risk if Hormuz stays closed through weekend."
     },
     {
-      "t": "Lebanon Ceasefire Holding — Civilians Rushing Home Despite Warnings",
+      "t": "Rubio April 18: Iran CAN Have Civilian Nuclear Program — Position Shift Stands",
       "lv": "DEVELOPING",
       "color": "green",
-      "d": "Israel-Lebanon 10-day ceasefire holding. Tens of thousands of displaced Lebanese rushing south despite official warnings and calls to wait. Lebanese army working to restore key bridges including Qasmiyeh-Tyre bridge. UK provided $28 million humanitarian assistance to Lebanon. Aoun: negotiations \"delicate and crucial.\" Netanyahu rejected immediate Israeli withdrawal demand from Hezbollah. IDF: ground maneuver not yet completed. Hezbollah credited its \"steadfastness\" — will not disarm except in national security framework. Lebanon ceasefire fragility remains — key risk if IDF-Hezbollah flashpoint cascades to Ghalibaf activating Hormuz threat."
+      "d": "Despite the Hormuz crisis, Rubio's April 18 statement that Iran can have a civilian nuclear energy program remains on the record — the most significant US concession of the war. This creates a deal framework even as Hormuz tensions escalate. The Hormuz crisis is a negotiating tactic (similar to US announcing blockade Apr 13 after Islamabad talks failed) — both sides using maximum pressure while keeping diplomatic channel open. Pakistan continuing to mediate. If Trump knows by end of day that deal is on, talks could proceed Sunday despite crisis. The Rubio civilian-nuclear concession is the key unlocking condition for a final deal."
     },
     {
-      "t": "India Day 50: Weekend. Next market open Monday Apr 21 = Ceasefire Expiry Day.",
+      "t": "Monday April 21: Ceasefire Expiry + Market Open — The Critical Day",
       "lv": "DEVELOPING",
-      "color": "cyan",
-      "d": "India markets closed Saturday. Next trading session: Monday April 21 — the same day the US-Iran ceasefire expires. This creates a unique market event: April 21 open will be the first reaction to whatever second round talks produce (or don't). Scenarios: (A) Deal/extension announced this weekend → Monday gap-up Sensex 79,000-80,000+. (B) Talks stall, ceasefire expiry → Monday gap-down 77,000-77,500. (C) Ceasefire extended without deal → flat to modest gain. LPG price cut approaching: Brent ~$88-90, LPG cut threshold is ~$85 sustained. Infosys results April 23 — next major domestic trigger."
+      "color": "amber",
+      "d": "Monday April 21 is simultaneously the day India markets open and the day the US-Iran ceasefire expires. The weekend's entire sequence — Hormuz opened, IRGC fired on Indian ships, Hormuz reclosed — will be fully priced in on Monday morning. Scenario A (~45%): Deal/extension announced over weekend despite Hormuz crisis → Sensex gap-up, Brent falls → LPG cut approaching. Scenario B (~35%): Hormuz stays closed, ceasefire lapses without extension → Sensex gap-down 76,000-75,000, Brent $100+. Scenario C (~20%): Ceasefire extended without full deal, Hormuz standoff continues → Sensex flat to -1%, Brent $93-97."
     }
   ],
   "nukes": [
@@ -486,14 +490,22 @@
       "d": 50,
       "l": "Apr 18",
       "deaths": 6600,
-      "brent": 88,
+      "brent": 97,
       "nifty": 24354,
-      "rupee": 92.8,
-      "tag": "Rubio: Iran can have civilian nuclear program. Ghalibaf: will close Hormuz if blockade not lifted. Brent down 9% to $88-90. Second round talks this weekend. Hegseth vs Waltz divided. Ceasefire Apr 22 — 4 days.",
-      "sev": 1
+      "rupee": 93.5,
+      "tag": "HORMUZ RECLOSED. IRGC fired on Indian VLCC (2M bbl) despite clearance. India summoned Iran ambassador. Trump: got a little cute. Brent spiking. Ceasefire Apr 22. Second round talks uncertain.",
+      "sev": 3
     }
   ],
   "hormuzLatest": [
+    {
+      "d": "Apr 18 PM",
+      "e": "CRISIS: Hormuz reclosed. IRGC fired on 2+ tankers including 2 INDIAN VESSELS — Indian-flagged VLCC (2M barrels Iraqi oil) attacked despite clearance. UKMTO: 2 IRGC gunboats, no VHF challenge, opened fire — crew safe. Iran IRIB: Hormuz returned to previous state, US failing commitments. Trump: Iran got a little cute. India summoned Iranian ambassador. Brent spiking. US CENTCOM: 23 ships turned around total. Second round talks uncertain."
+    },
+    {
+      "d": "Apr 18 AM",
+      "e": "Rubio: Iran can have civilian nuclear program (major US shift). Brent ~$88-90 after 9% crash Friday. Ghalibaf had threatened Hormuz closure if blockade not lifted. Ships attempting transit post-FM opening."
+    },
     {
       "d": "Apr 18 AM",
       "e": "DAY 50. Markets closed (Saturday). Rubio: Iran can have civilian nuclear energy program (major US position shift). Also urged Europe to reimpose Iran sanctions. Brent settled down ~9% on Hormuz open (Reuters confirmed, ~$88-90). Wall Street record highs. Second round talks expected this weekend Islamabad. Hegseth vs Waltz split on Iran military strike. Ghalibaf Apr 17 evening: Iran will close Hormuz if US does not lift blockade. Ceasefire expires Apr 22 — 4 days."
@@ -501,19 +513,11 @@
     {
       "d": "Apr 17 PM",
       "e": "HORMUZ DECLARED COMPLETELY OPEN by Iran FM Araghchi: \"passage for all commercial vessels declared completely open for remaining period of ceasefire.\" Sensex +505 to 78,494. Nifty +157 to 24,354. Dow Futures +500. US blockade of Iranian ports remains. House war powers failed 213-214. South Korea first crude via Red Sea. FII +Rs 382 Cr Apr 16. Ceasefire Apr 22 — 5 days."
-    },
-    {
-      "d": "Apr 17 AM",
-      "e": "Markets opened flat 77,947 (-41). Israel-Lebanon 10-day ceasefire holding. Iran FM Araghchi had not yet declared Hormuz open at open. Brent ~$98. Pakistan diplomatic push continuing. Trump: might go to Pakistan if deal to sign."
-    },
-    {
-      "d": "Apr 17 AM",
-      "e": "DAY 49. Markets open. ISRAEL-LEBANON 10-DAY CEASEFIRE began 5 PM ET yesterday — removes Iran key red line. Iran FM welcomed it, credited Pakistan. Trump: \"agreed to give us back the nuclear dust\" (Iran not confirmed). Trump: \"might go to Pakistan\" if deal to sign. G7 emergency finance meeting. IEA: Europe 6 weeks jet fuel. Hegseth: blockade for as long as it takes. Ceasefire expires Apr 22 — 5 days."
     }
   ],
   "projNow": {
-    "brent": 88,
-    "rupee": 92.8,
+    "brent": 97,
+    "rupee": 93.5,
     "lpg": 912,
     "petrol": 94.77,
     "deaths": 6600
@@ -523,50 +527,50 @@
       "Pre-war",
       "Now (D50)",
       "Deal by Apr 22",
-      "Extension",
-      "Collapse + Reclose"
+      "Ceasefire lapses",
+      "Hormuz stays closed"
     ],
     "brent": [
       65,
-      88,
+      97,
       70,
-      82,
-      115
+      120,
+      130
     ],
     "rupee": [
       91,
-      92.8,
+      93.5,
       90.0,
-      91.5,
-      99
+      100,
+      104
     ],
     "deaths": [
       0,
       "6,600+",
       "7,500",
-      "7,200",
-      "11,000+"
+      "10,000+",
+      "15,000+"
     ],
     "sensex": [
       "78,699",
-      "78,494",
+      "78,494*",
       "85,000+",
-      "81,000",
-      "63,000"
+      "65,000",
+      "60,000"
     ],
     "lpg": [
       "Rs 853",
       "Rs 912",
       "Rs 853",
-      "Rs 870",
-      "Rs 1,200+"
+      "Rs 1,400+",
+      "Rs 1,600+"
     ],
     "fii": [
       "-",
-      "+Rs 382 Cr",
+      "Rs 382 Cr",
       "$25B return",
-      "$12B return",
-      "$20B out"
+      "$20B out",
+      "$50B out"
     ]
   },
   "radar": [
@@ -628,8 +632,8 @@
     }
   ],
   "assessment": {
-    "headline": "DAY 50, 9:15 AM SAT: RUBIO says Iran CAN have civilian nuclear program — major US shift. GHALIBAF threatens Hormuz RECLOSURE if blockade not lifted. Brent down 9% to $88. Second round talks THIS WEEKEND. Ceasefire Apr 22 — 4 days.",
-    "body": "Day 50 brings two developments that define the next 96 hours.\n\nTHE RUBIO CONCESSION — CIVILIAN NUCLEAR IS ON THE TABLE\n• Rubio April 18: Iran can have a civilian nuclear energy program\n• This is the most significant US concession since the war began\n• Previous US position: effectively zero enrichment\n• New landing zone: Iran suspends weapons-grade enrichment (60%+) + IAEA oversight + HEU transfer\n• Pakistan and Iran had already surfaced HEU options: third country or dilute to 3%\n• Araghchi: Iran was \"inches away from an MoU\" at Islamabad — this concession may close the gap\n• Rubio simultaneously pushed Europe to reimpose sanctions — dual-track pressure + concession\n\nTHE GHALIBAF THREAT — THE NEW CRITICAL RISK\n• Ghalibaf Friday evening: Iran will close Hormuz if US does not lift blockade\n• Hormuz opening by Araghchi was explicitly \"in line with Lebanon ceasefire\"\n• Ghalibaf is adding a second condition: blockade must be lifted\n• Trump: blockade \"in full force\" until deal 100% complete\n• This creates a 4-day window where both sides are in a dangerous standoff\n• If second round talks this weekend produce a framework: blockade lifted → Hormuz stays open\n• If talks stall: Ghalibaf threat could be activated before April 22\n\nTHE SECOND ROUND — THIS WEEKEND IN ISLAMABAD\n• Trump Friday: talks could happen this weekend\n• Nuclear gap: US wants 20-year enrichment pause, Iran offered 5-year\n• Rubio civilian-nuclear concession creates middle ground\n• Araghchi said Iran was \"inches away\" at Islamabad — both sides know how close they are\n• Pakistan preparing logistics; Munir heading to Washington to brief first\n• Key unknowns: delegation level, whether Ghalibaf attends, Lebanon disarmament clause\n\nINDIA — THE WEEKEND SCORECARD (DAY 50)\n• Sensex 78,494 (+505 Apr 17): just 205 pts from pre-war high of 78,699\n• Brent ~$88-90: down 9% from pre-Hormuz-open levels\n• LPG cut threshold: ~$85 sustained × 2 weeks = full Rs 853/cylinder cut\n• Week gain: Sensex recovered 1,647 pts in 3 trading sessions Apr 14-17\n• FII turning structural buyers (Rs 382 Cr Apr 16)\n• Next trading: Monday April 21 — ceasefire expiry day itself\n\nWHAT TO WATCH THIS WEEKEND\n• Official confirmation of second round Islamabad talks\n• Iran formal response to Rubio civilian-nuclear concession\n• Whether Ghalibaf or Araghchi sets the Iranian tone\n• Brent movement Saturday/Sunday — sustained below $85 = LPG cut confirmed\n• Any Lebanon flashpoint that could activate Ghalibaf threat\n\nCEASEFIRE: APRIL 22 — 4 DAYS\n• Scenario A (~65%): Second round this weekend + Rubio concession = deal framework → Apr 22 extended or signed. Brent $70-80, Sensex 82,000-85,000+, LPG cut, rupee to 91\n• Scenario B (~25%): Talks stall, Ghalibaf closes Hormuz, Apr 22 lapses → Brent $110-120, Sensex 63,000-67,000\n• Scenario C (~10%): Framework agreed, implementation delayed → Brent $80-88, Sensex 80,000-82,000\n\nVERDICT: The Rubio civilian-nuclear concession was the move India needed most — it unlocks the deal. Ghalibaf's threat is the risk India can least afford. The next 96 hours will determine whether India's energy crisis ends this week or escalates beyond April 22."
+    "headline": "DAY 50, 8:15 PM SAT — CRISIS: IRGC FIRED ON INDIAN SHIPS. Hormuz RECLOSED. India VLCC (2M barrels) attacked despite clearance. India summons Iran ambassador. Trump: got a little cute. Ceasefire expires Monday. Brent spiking.",
+    "body": "Day 50 is the most volatile 24-hour period since the war began on February 28.\n\nTHE HORMUZ SEQUENCE — WHAT ACTUALLY HAPPENED TODAY\n• Apr 17 AM: FM Araghchi declares Hormuz \"completely open\" for all commercial vessels\n• Apr 17 PM: Ghalibaf posts Iran will close Hormuz if US does not lift blockade\n• Apr 18 AM: Ships attempt transit. Some receive explicit clearance from Iranian port authorities\n• Apr 18 MID-MORNING: 2 IRGC gunboats approach ships without VHF radio challenge → open fire\n• UKMTO confirmed: tanker captain reports \"2 IRGC gun boats, no VHF challenge, then fires\"\n• Crew reported safe. One ship hit — some damage, no injuries\n• Apr 18: Iran IRIB — Hormuz \"returned to its previous state\"\n• Iran: US continuing \"piracy and maritime robbery\" = conditions for opening not met\n• The FM opening and IRGC action appear to be UNCOORDINATED — civilian vs military chain of command\n\nINDIA DIRECTLY HIT — THE MOST SERIOUS BILATERAL INCIDENT OF THE WAR\n• TWO Indian-flagged vessels fired upon — forced back west\n• Indian VLCC carrying 2 MILLION BARRELS of Iraqi crude oil attacked\n• Attacked DESPITE having clearance from Iranian port authorities\n• Captain made mayday call — audio captured by Republic TV\n• 4 additional Indian tankers + 2 Greek tankers also failed to cross\n• India summoned Iranian Ambassador — strong protest lodged\n• Op Urja Suraksha on HIGH ALERT — Indian Navy warships in Gulf of Oman\n• This is a direct attack on Indian crew, Indian cargo, Indian flag\n\nWHAT TRUMP SAID — NO WALKAWAY YET\n• Oval Office Saturday: \"Iran got a little cute, wanted to close up the Strait again\"\n• \"Can't blackmail us\" — but added: \"We're still talking\"\n• Will know \"by end of day\" if deal going forward\n• This is NOT a negotiating breakdown language — it's pressure management\n• Rubio's civilian-nuclear concession from this morning still stands\n• Pakistan still mediating — both sides technically still \"in contact\"\n\nINDIA MARKET OUTLOOK — MONDAY APRIL 21\n• Markets closed Saturday-Sunday. Next open: Monday April 21 = CEASEFIRE EXPIRY DAY\n• This is the most consequential market open since February 28\n• If deal/extension announced this weekend DESPITE crisis: gap-up toward 78,000-79,000\n• If Hormuz stays closed + ceasefire lapses without deal: gap-down 75,000-76,000\n• Brent currently spiking from Friday's $88-90 back toward $95-100 range\n• LPG price cut scenario: REVERSED until Hormuz reopens sustainably\n• India VIX will spike Monday — expect high volatility all session\n\nCEASEFIRE: APRIL 22 — 4 DAYS REMAINING\n• Scenario A (~40%): Crisis is negotiating theatre → deal/extension announced Sunday → Brent $75-80, Sensex 80,000+\n• Scenario B (~35%): Hormuz stays closed, ceasefire lapses Apr 22 → Brent $115-125, Sensex 64,000-67,000\n• Scenario C (~25%): Emergency ceasefire extension, Hormuz partial → Sensex 77,000-79,000, Brent $90-95\n\nWHAT TO WATCH TONIGHT AND TOMORROW\n• Trump announcement on deal status — expected \"by end of day\" Saturday\n• Iran FM or official response to IRGC actions — did Araghchi sanction IRGC firing?\n• Whether second round talks confirmed for Sunday in Islamabad\n• Brent price movement — sustained above $95 = full LPG crisis reversal\n• India MEA formal statement and whether Iran responds to ambassador summons\n\nVERDICT: The Iran civilian-military coordination breakdown — port authorities granting clearance while IRGC fires — is the most dangerous new development since the blockade. India is directly targeted. But Trump's language (\"still talking\") and the Rubio concession suggest both sides want a deal. The next 24 hours determine whether this is the last pressure play before a deal or the beginning of a new escalation cycle."
   },
   "featured": [
     {
