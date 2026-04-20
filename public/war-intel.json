@@ -1,666 +1,676 @@
 {
-"_updated": "April 19, 2026 — 7:00 PM IST",
-"_day": 51,
-"_phase": "BLOCKADE",
-"_note": "Verified: CBS News live blog (updated 24min ago), Axios, NBC, CNN, Al Jazeera, Republic World. DAY 51 EVE: Trump: US officials TRAVELLING TO PAKISTAN for talks — could resume as soon as MONDAY (ceasefire expiry day). Axios: nuclear progress made before Hormuz crisis erupted. Trump (Bloomberg/CBS): \"most main points finalized, will go pretty quickly.\" Hormuz CLOSED — IRGC targeting all vessels. No confirmed Indian tanker crossing Apr 19 — VLCC with 2M barrels was FIRED ON and TURNED BACK Apr 18. 8+ ships crossed during brief opening Apr 17-18 including some Indian-flagged. US: 19 ships turned back total. India MEA (Vikram Misri): deep concern lodged. Ceasefire expires APR 22 — 3 days. MONDAY = ceasefire expiry + market open + possibly talks.",
-"ticker": [
-"🕊️ TALKS RESUMING: Trump says US officials TRAVELLING TO PAKISTAN — talks with Iran could resume as soon as MONDAY (ceasefire expiry day). Nuclear: most main points 'finalized.'",
-"⚛️ NUCLEAR BREAKTHROUGH (Axios): Progress made on uranium enrichment and HEU stockpile BEFORE Hormuz crisis — deal closer than Hormuz chaos suggests. Trump: Iran agreed to suspend nuclear program indefinitely.",
-"🚨 HORMUZ STILL CLOSED — IRGC targeting all vessels. FACT CHECK: No confirmed Indian tanker crossing on April 19. Indian VLCC (2M barrels) was FIRED ON Apr 18 and turned back.",
-"🇮🇳 INDIA MEA: Foreign Secretary Misri summoned Iran ambassador. Urged Iran to 'resume at the earliest facilitating India-bound ships.' India-Iran back channel active — but no transit confirmed Apr 19.",
-"🛢️ BRENT ~$96-97 — partial recovery after Friday's 9% crash, but Hormuz reclosure pushing back toward $98-100. US blockade: 19 ships turned back total since Apr 13.",
-"📅 MONDAY APRIL 21 = ceasefire expiry + market open + possibly second round talks. Most consequential single day for India since Feb 28.",
-"💬 TRUMP (Bloomberg): 'Most main points finalized. It will go pretty quickly.' Iran has NOT confirmed. Axis: gaps narrowed on nuclear BEFORE Hormuz dispute erupted.",
-"🏛️ SITUATION ROOM: Trump convened Vance, Rubio, Hegseth, CIA director Ratcliffe, Witkoff Saturday on Hormuz crisis. Decision: Keep talking, send officials to Pakistan.",
-"📊 SENSEX: 78,494 last close. Monday gap-up if talks resume + ceasefire extended. Gap-down to 75,000-76,000 if no deal and ceasefire lapses. High-volatility session expected.",
-"⚠️ CEASEFIRE EXPIRES APR 22 — 3 DAYS. If talks Mon-Tue produce framework: extended. If not: most dangerous day since Feb 28."
-],
-"whatChanged": {
-"label": "WHAT CHANGED — APR 19, 7:00 PM IST (DAY 51) — EVENING UPDATE",
-"items": [
-{
-"color": "green",
-"bold": "US officials TRAVELLING TO PAKISTAN — talks could resume Monday (CBS News confirmed).",
-"text": "CBS News live blog (updated within the hour): Trump said US officials are traveling to Pakistan for negotiations with Tehran after Iran closes Hormuz again. No firm date finalized as of Friday morning, but talks could resume as soon as Monday — ceasefire expiry day itself. This is the most significant positive development since the Hormuz crisis erupted Saturday. Trump decision after Saturday situation room meeting (Vance, Rubio, Hegseth, CIA director Ratcliffe, Witkoff all present): keep talking, send officials to Islamabad. Pakistan as mediator confirmed active."
-},
-{
-"color": "green",
-"bold": "NUCLEAR PROGRESS confirmed before Hormuz crisis — deal closer than it appears (Axios).",
-"text": "Axios (sourced from senior US official): the renewed Hormuz crisis on Saturday arose \"after the parties made progress in narrowing the gaps regarding Iran's uranium enrichment and its enriched uranium stockpile.\" This means nuclear talks had actually moved forward before Iran closed Hormuz over the blockade dispute. Trump told Bloomberg: \"Most of the main points are finalized. It will go pretty quickly.\" Iran has NOT confirmed this. But if accurate: the Hormuz reclosure was a tactical pressure move over the blockade, not a breakdown of the nuclear framework. Deal is structurally closer than the crisis suggests."
-},
-{
-"color": "red",
-"bold": "FACT CHECK: No confirmed Indian tanker crossing Hormuz on April 19.",
-"text": "VERIFIED: No credible source — CBS, NBC, Al Jazeera, Reuters, Republic World — confirms an Indian tanker successfully transited Hormuz on April 19. What IS confirmed: during the brief 24-hour Hormuz opening (Apr 17-18), at least 8 oil and gas tankers crossed (AFP/Al Jazeera). Some Indian-flagged vessels may have been among those 8+ ships in the brief window. However, the Indian-flagged VLCC carrying 2 million barrels of Iraqi crude was FIRED UPON by IRGC gunboats on April 18 and TURNED BACK — confirmed by UKMTO, Republic World, Reuters. As of April 19, Hormuz is CLOSED and IRGC is targeting all approaching vessels. India MEA summoned Iranian ambassador and urged Iran to resume facilitating India-bound ships — implying passage is NOT currently happening."
-},
-{
-"color": "amber",
-"bold": "India MEA official statement: deep concern, urged Iran to resume India-bound facilitation.",
-"text": "Al Jazeera confirmed: India MEA statement — Foreign Secretary Vikram Misri summoned Iranian ambassador and \"conveyed India's deep concern\" over the shooting incident. New Delhi urged Iran to \"resume at the earliest the process of facilitating India-bound ships across the Strait.\" The ambassador \"undertook to convey these views to the Iranian authorities.\" India was historically among nations Iran labelled \"friendly\" (along with China, Russia, Pakistan, Iraq). That preferential arrangement has broken down with the IRGC reclosure. The urging to \"resume at the earliest\" confirms India-bound ships are currently NOT transiting as of April 19."
-},
-{
-"color": "amber",
-"bold": "Trump Situation Room Saturday: Vance, Rubio, Hegseth, Ratcliffe, Witkoff all in.",
-"text": "NBC News/Axios confirmed: Trump convened White House Situation Room meeting Saturday morning after Hormuz closure and tanker attacks. Present: VP Vance, Treasury Secretary Bessent, Secretary of State Rubio, Defense Secretary Hegseth, CIA Director Ratcliffe, White House Chief of Staff Susie Wiles, special envoy Witkoff, and Joint Chiefs Chairman Caine. Axios: senior US official said \"if there is no breakthrough soon, the war could resume in the coming days.\" Decision from the meeting: continue diplomacy, send officials to Pakistan, keep ceasefire from lapsing if possible."
-},
-{
-"color": "amber",
-"bold": "IRGC confirmed attacks: 2 gunboats on tanker (UKMTO), container ship hit 25nm NE of Oman.",
-"text": "UKMTO (UK Maritime Trade Operations): two Iranian Revolutionary Guard gunboats fired on a tanker in the strait — no VHF radio challenge before opening fire. Tanker and crew safe. Separately: a container ship reported being struck by an \"unknown projectile\" 25 nautical miles northeast of Oman causing \"damage to some containers, no fires or environmental impact reported.\" Shipping sources told Reuters at least two other vessels reported coming under fire. US defense official told Axios: at least 3 attacks Saturday. One ship hit with some damage. The IRGC targeting is now confirmed from multiple independent sources."
-},
-{
-"color": "amber",
-"bold": "Brent ~$96-97 — partial reversal. Monday open will be the defining price signal.",
-"text": "Brent had settled at $90.38 on Friday (Hormuz-open day, CNBC confirmed). Saturday Hormuz reclosure and attacks pushed it back up. CBS News confirmed Brent was $96.25 on Friday during trading. With Hormuz reclosed and ceasefire expiry looming, Brent likely in $95-98 range Sunday. If talks confirmed for Monday and ceasefire extended: Brent could fall to $85-90 quickly. If ceasefire lapses without extension: Brent could push to $110-120. US: 19 ships total turned around since blockade began April 13 (CBS News confirmed — up from 13 at first Pentagon briefing)."
-},
-{
-"color": "cyan",
-"bold": "Monday April 21: Ceasefire expiry + market open + possibly second round talks. The defining day.",
-"text": "India markets open Monday April 21 — the same day the US-Iran ceasefire expires. If Trump's claim that US officials are traveling to Pakistan is accurate and talks resume Monday or Tuesday: the ceasefire is likely to be extended, and markets will react positively. Sensex at 78,494 — just 205 pts from pre-war high. Gap-up potential to 79,000-81,000 if extension confirmed. Gap-down to 75,000-76,000 if no deal and ceasefire lapses. Infosys results Wednesday April 23 — next domestic anchor. India energy brief: Brent at $96-97 = LPG/petrol/diesel relief off the table for now. But nuclear progress + deal proximity means structural relief could come within 1-2 weeks of any deal."
-}
-]
-},
-"deaths": "6,600+",
-"deathsSub": "~3,300+ Iran (forensics chief updated figure), 2,294 Lebanon (health ministry Apr 17), 99 Iraq, 23 Israel, 13 US (+2 noncombat), 35+ Gulf. No injuries in Apr 18 Hormuz attacks.",
-"econ": {
-"sensex": "78,494",
-"sensexDelta": "Last close Apr 17. Markets closed Sunday. Monday = ceasefire expiry day open.",
-"sensexSub": "Gap-up if talks/extension confirmed. Gap-down to 75,000-76,000 if ceasefire lapses.",
-"vix": "~18-22 (elevated — ceasefire expiry risk)",
-"vixDelta": "Hormuz closed + talks resuming = mixed signals. Monday open will set VIX direction.",
-"fpi": "FII +Rs 382 Cr Apr 16 (last confirmed)",
-"fpiDelta": "Structural reversal risk if ceasefire lapses Monday. Structural positive if extension confirmed.",
-"wealth": "BSE market cap ~Rs 453L Cr. Monday open is the defining session of the war.",
-"analysis": "DAY 51 EVE SUN 7 PM IST: Hormuz still closed after IRGC fired on ships including Indian vessels Apr 18. HOWEVER: Trump says US officials travelling to Pakistan — talks could resume Monday. Nuclear progress made before Hormuz crisis (Axios). Trump (Bloomberg): most main points finalized. Situation Room: Vance, Rubio, Hegseth, Ratcliffe, Witkoff all discussed Hormuz crisis Sat morning. Brent ~$96-97. 19 ships turned back (US blockade). FACT CHECK: No Indian tanker confirmed crossing Apr 19 — Indian VLCC was fired on and turned back Apr 18. MEA Misri urged Iran to resume facilitating India-bound ships. Ceasefire expires Apr 22 — 3 days. Monday April 21 = most consequential India market open since Feb 28. Scenario: 45% deal/extension → gap-up. 35% no deal, lapses → gap-down. 20% extension without framework → flat."
-},
-"hormuzStatus": {
-"status": "HORMUZ CLOSED — IRGC TARGETING ALL VESSELS. TALKS RESUMING IN ISLAMABAD.",
-"preWarFlow": "130-160 ships/day",
-"currentFlow": "CLOSED. IRGC targeting policy: any approaching vessel = enemy. Brief 24hr opening Apr 17-18: 8+ ships crossed. Then IRGC fired on tankers. Indian VLCC (2M bbl Iraqi oil) fired on and turned back. As of Apr 19: no safe transit. US blockade: 19 ships total turned around.",
-"reduction": "95%+ disruption. IRGC targeting explicit. US blockade of Iranian ports. India-bound ships NOT transiting as of Apr 19 (MEA confirmed by urging resume).",
-"indianVesselsNear": 8,
-"indianSeafarers": 280,
-"indianTransited": 0,
-"totalShipsWaiting": "230+ tankers in Gulf. Indian VLCC (2M bbl) turned back. War-risk insurance at near-peak. FACT: No Indian tanker confirmed crossing Apr 19.",
-"lastTransit": "Brief window Apr 17-18: 8+ ships including some Indian-flagged during FM opening. Apr 18: Indian VLCC fired on, turned back. Apr 19: CLOSED. India MEA urged Iran to resume India-bound facilitation — confirms no transit happening.",
-"indianNavyEscort": "Op Urja Suraksha on HIGH ALERT. Indian Navy warships in Gulf of Oman. MEA actively back-channelling Tehran.",
-"headline": "HORMUZ CLOSED. Indian VLCC fired on Apr 18, turned back. No transit Apr 19. MEA urged Iran to resume. Talks resuming Islamabad — could be Monday. Ceasefire Apr 22."
-},
-"hormuzEvents": [
-{
-"d": "Apr 19 PM",
-"e": "DAY 51 EVENING. Hormuz CLOSED. IRGC targeting all vessels. FACT CHECK: No Indian tanker crossing confirmed Apr 19 — Indian VLCC (2M bbl) was fired on Apr 18 and turned back. MEA Misri urged Iran to resume India-bound facilitation. Trump: US officials travelling to Pakistan — talks could resume Monday. Nuclear: most main points finalized (Trump/Bloomberg). Axios: nuclear progress made before Hormuz crisis. Situation Room: Vance, Rubio, Hegseth, Ratcliffe, Witkoff all present Sat. Brent ~$96-97. 19 ships turned back. Ceasefire expires Apr 22 — 3 days."
-},
-{
-"d": "Apr 19 AM",
-"e": "DAY 51. HORMUZ STILL CLOSED. IRGC: any approaching vessel will be targeted. Near-miss: IRGC nearly fired on US minesweeper — US backed down (Ghalibaf). Iran Deputy FM Khatibzadeh (Antalya): no date set for next round talks, framework first. Trump: maybe won't extend ceasefire, may start bombing. Brent ~$98. MEA Misri met Indian ambassador to Iran — deep concern over Indian ships. Ceasefire expires Apr 22 — 3 days. Monday markets open = ceasefire expiry day."
-},
-{
-"d": "Apr 18 PM",
-"e": "CRISIS: Hormuz reclosed. IRGC fired on 2+ tankers including 2 INDIAN VESSELS — Indian-flagged VLCC (2M barrels Iraqi oil) attacked despite clearance. UKMTO: 2 IRGC gunboats, no VHF challenge, opened fire — crew safe. Iran IRIB: Hormuz returned to previous state, US failing commitments. Trump: Iran got a little cute. India summoned Iranian ambassador. Brent spiking. US CENTCOM: 23 ships turned around total. Second round talks uncertain."
-},
-{
-"d": "Apr 18 AM",
-"e": "Rubio: Iran can have civilian nuclear program (major US shift). Brent ~$88-90 after 9% crash Friday. Ghalibaf had threatened Hormuz closure if blockade not lifted. Ships attempting transit post-FM opening."
-},
-{
-"d": "Apr 17 PM",
-"e": "HORMUZ DECLARED COMPLETELY OPEN by Iran FM Araghchi: \"passage for all commercial vessels declared completely open for remaining period of ceasefire.\" Sensex +505 to 78,494. Nifty +157 to 24,354. Dow Futures +500. US blockade of Iranian ports remains. House war powers failed 213-214. South Korea first crude via Red Sea. FII +Rs 382 Cr Apr 16. Ceasefire Apr 22 — 5 days."
-},
-{
-"d": "Apr 17 AM",
-"e": "Markets opened flat 77,947 (-41). Israel-Lebanon 10-day ceasefire holding. Iran FM Araghchi had not yet declared Hormuz open at open. Brent ~$98. Pakistan diplomatic push continuing. Trump: might go to Pakistan if deal to sign."
-},
-{
-"d": "Apr 16 PM",
-"e": "Sensex closed 77,989 (-123). Nifty 24,197. Faded 741pts from day high 78,730. WPI inflation drag. FII net buyers Rs 666 Cr Apr 15. Wipro Q4 profit +12% Rs 3,502 Cr; buyback Rs 15,000 Cr at Rs 250 (19% premium). Pakistan: nuclear breakthrough expected — 440kg HEU options: third country or dilute to 3%."
-}
-],
-"kitchen": [
-{
-"item": "LPG Cylinder (14.2kg)",
-"pre": "₹853",
-"now": "₹912.50",
-"chg": "Brent below $95 — cut possible if deal done",
-"proj": "₹853-860 if Thursday deal; ₹1,000+ if blockade extends past Apr 21",
-"note": "Brent now below $95 on talks optimism — strong positive for LPG import costs. First tanker interceptions confirmed. Iran threatening Red Sea — could hit LPG routes from Oman/Qatar if implemented. ZERO dry-outs. 51 lakh cylinder buffer. Apr 21 ceasefire expiry is the key date.",
-"s": 2
-},
-{
-"item": "Natural Gas (PNG/CNG)",
-"pre": "Normal",
-"now": "Recovering slowly",
-"chg": "IEA: structural damage — prolonged high prices",
-"proj": "Tight through 2026 regardless of deal (IEA confirmed)",
-"note": "IEA projects rare global oil demand decline in 2026 — first since COVID. But structural damage (Ras Laffan 3-5yr repair, QatarEnergy force majeure) means gas prices elevated long-term. Brent below $95 helps at margin. Turkey suggests 45-60 day ceasefire extension — more time for gas supply normalisation.",
-"s": 2
-},
-{
-"item": "Petrol (Delhi)",
-"pre": "₹94.72/L",
-"now": "₹94.77/L",
-"chg": "Brent below $95 — hike risk largely removed",
-"proj": "No hike if Brent stays below $95; reversal toward ₹94.72 if deal done quickly",
-"note": "Brent now below $95 — biggest fall since blockade began. Hike risk (₹8-14/L that Elara warned of at Brent >$110) now much lower. If Thursday deal confirms and Brent falls further: retail price cut possible in 2-3 weeks. OMC margins improving sharply. Mumbai ₹103.54.",
-"s": 1
-},
-{
-"item": "LPG Commercial (19kg)",
-"pre": "₹1,740",
-"now": "₹1,885",
-"chg": "+₹145 (8.3%)",
-"proj": "₹1,740 if deal; ₹2,200+ if blockade extends",
-"note": "Brent below $95 = positive signal for commercial LPG cost. IMF warns of global recession risk — dampens business recovery outlook. If Thursday talks produce ceasefire extension: restaurant sector could see rapid recovery in confidence.",
-"s": 2
-},
-{
-"item": "Diesel (Delhi)",
-"pre": "₹87.62/L",
-"now": "₹87.67/L",
-"chg": "Brent below $95 — hike risk removed",
-"proj": "Stable; possible small cut if Brent stays below $90 post-deal",
-"note": "Brent below $95, WTI toward $90 (API: 6.1M barrel inventory build, 8th consecutive week) = strong margin improvement for OMCs. Every ₹1 diesel rise = ₹2,500 cr annual trucking cost — risk now easing. Mumbai ₹90.03.",
-"s": 1
-},
-{
-"item": "Cooking Oil",
-"pre": "~₹140/L",
-"now": "~₹155-165/L",
-"chg": "Easing on Brent fall + rupee strength",
-"proj": "₹140-150/L by May if Thursday deal finalises",
-"note": "Rupee strengthened to 93.15 (+20p) — all imports cheaper. Brent below $95 reduces freight costs. IEA+IMF+World Bank: fertilizer prices slow to recover even post-deal. 30% global fertilizer transits Hormuz. Kharif sowing season approaching.",
-"s": 2
-},
-{
-"item": "Vegetables/Onion",
-"pre": "Stable",
-"now": "Easing slightly",
-"chg": "Diesel freight costs reducing with Brent fall",
-"proj": "₹40-60/kg if Thursday deal; ₹60-80/kg risk if blockade extends",
-"note": "Rupee +20p and Brent below $95 reducing freight costs. But IEA+IMF+World Bank confirmed fertilizer disruption structural — hits kharif crop regardless. UN FAO food catastrophe warning still active. Iran Red Sea threat would extend disruption.",
-"s": 1
-},
-{
-"item": "Air Travel",
-"pre": "Normal",
-"now": "Surcharges active — easing rapidly",
-"chg": "IndiGo best Sensex gainer today +4%",
-"proj": "Surcharges removed quickly if Brent holds below $90",
-"note": "IndiGo surged +4% on Apr 15 — best Sensex performer. Airlines lead oil price recovery. Brent below $95, WTI toward $90. ATF prices will fall with oil. If Thursday deal: airline stocks could see 8-12% further rally. US gas avg $4.12/gallon — under pressure to fall.",
-"s": 1
-},
-{
-"item": "Medicine",
-"pre": "Stable",
-"now": "Pressure easing",
-"chg": "Supply chain improving with Brent fall",
-"proj": "+5-10% retail impact Q1 FY27 (reduced from +15% on oil easing)",
-"note": "API costs remain elevated at +30% but easing with oil. Wipro Q4 results tomorrow (Apr 16) — pharma and IT sectors key bellwethers. Infosys results this week. Shipping cost pressure reducing as Brent falls. Iran Red Sea threat still a risk for API supply chains.",
-"s": 2
-}
-],
-"military": [
-{
-"t": "US Officials TRAVELLING TO PAKISTAN — Talks Could Resume Monday",
-"lv": "BREAKING",
-"color": "green",
-"d": "CBS News live blog confirmed (updated within the hour): Trump said US officials are traveling to Pakistan for negotiations with Tehran after Hormuz closure. No firm date finalized as of Friday morning, but talks could resume as soon as Monday — ceasefire expiry day itself. Saturday Situation Room meeting (Vance, Rubio, Hegseth, CIA Director Ratcliffe, Witkoff, Joint Chiefs Caine) decided: continue diplomacy, send officials to Islamabad. Axios: senior US official said if no breakthrough soon, war could resume in coming days. Decision tree is now: Monday talks start → ceasefire extended → deal framework OR ceasefire lapses Monday without extension → most dangerous day since Feb 28."
-},
-{
-"t": "NUCLEAR PROGRESS Before Hormuz Crisis — Deal Structurally Closer Than It Appears",
-"lv": "BREAKING",
-"color": "green",
-"d": "Axios (sourced from senior US official): the Hormuz crisis erupted AFTER parties had made progress narrowing gaps on \"Iran's uranium enrichment and its enriched uranium stockpile.\" Nuclear talks moved forward before the blockade dispute caused reclosure. Trump told Bloomberg: \"Most of the main points are finalized. It will go pretty quickly.\" Iran NOT confirmed this. But if accurate, Hormuz reclosure was a tactical pressure move over blockade, not a nuclear breakdown. Rubio's civilian-nuclear concession (Apr 18) stands. Pakistan carrying updated US positions to Tehran. Deal may be closer than the weekend chaos suggests."
-},
-{
-"t": "FACT CHECK: Indian Tanker Crossing Hormuz April 19 — NOT CONFIRMED",
-"lv": "BREAKING",
-"color": "amber",
-"d": "VERIFIED via cross-check of CBS, NBC, Al Jazeera, Reuters, Republic World, UKMTO: No credible source confirms an Indian tanker successfully transited Hormuz on April 19. What IS confirmed: during the brief 24-hour opening (Apr 17-18), at least 8 oil/gas tankers crossed (AFP/Al Jazeera). Some Indian-flagged vessels may have been among those. However: the Indian-flagged VLCC carrying 2 million barrels of Iraqi crude was FIRED UPON by IRGC gunboats April 18 and turned back (UKMTO, Republic World, Reuters confirmed). As of April 19, Hormuz is CLOSED and IRGC targeting all approaching vessels. India MEA urged Iran to \"resume at the earliest\" facilitating India-bound ships — the word \"resume\" confirms passage is NOT currently happening."
-},
-{
-"t": "India MEA: Misri Summoned Iran Ambassador — Urged Resume of India-Bound Facilitation",
-"lv": "BREAKING",
-"color": "amber",
-"d": "Al Jazeera confirmed full MEA statement: Foreign Secretary Vikram Misri summoned Iranian ambassador and conveyed India's \"deep concern\" over the shooting incident. New Delhi urged Iran to \"resume at the earliest the process of facilitating India-bound ships across the Strait.\" The Iranian ambassador \"undertook to convey these views to the Iranian authorities.\" The word \"resume\" explicitly confirms India-bound ships are currently NOT transiting. India historically among Iran's \"friendly\" five nations (China, Russia, India, Pakistan, Iraq). That arrangement has broken down. India working back channel through ambassador to restore it. Op Urja Suraksha Indian Navy warships on HIGH ALERT in Gulf of Oman."
-},
-{
-"t": "Saturday Situation Room: Vance, Rubio, Hegseth, Ratcliffe, Witkoff — All In",
-"lv": "DEVELOPING",
-"color": "amber",
-"d": "NBC News/Axios confirmed: Trump convened White House Situation Room Saturday morning. Present: VP Vance, Treasury Sec Bessent, Sec State Rubio, Def Sec Hegseth, CIA Director Ratcliffe, WH Chief of Staff Susie Wiles, special envoy Witkoff, Joint Chiefs Chairman Caine. Axios: \"if there is no breakthrough soon, the war could resume in the coming days.\" Decision: continue diplomacy, send officials to Pakistan, keep ceasefire from lapsing. Senior US official on nuclear progress: gaps had narrowed on enrichment and HEU before Hormuz dispute erupted. Iran National Security Commission head Azizi: Hormuz closure response to \"America's untrustworthiness\" and \"new duplicity.\""
-},
-{
-"t": "IRGC Attacks Confirmed: 2 Gunboats, Container Ship Hit, 3+ Attacks Total",
-"lv": "DEVELOPING",
-"color": "red",
-"d": "UKMTO confirmed: 2 IRGC gunboats fired on a tanker with no VHF challenge. Tanker and crew safe. Container ship separately hit by \"unknown projectile\" 25 nautical miles northeast of Oman — damage to containers, no fire, no environmental impact. Shipping sources told Reuters at least 2 other vessels reported coming under fire. US defense official to Axios: at least 3 attacks total Saturday. One ship hit with some damage. IRGC statement: \"approaching Hormuz will be considered cooperation with the enemy, and any offending vessel will be targeted.\" 19 ships turned back under US blockade total since April 13 (CBS News confirmed — highest count to date)."
-},
-{
-"t": "Brent ~$96-97 — Partial Reversal. Monday Open the Defining Oil Price Signal.",
-"lv": "DEVELOPING",
-"color": "amber",
-"d": "Brent settled $90.38 on Friday (Hormuz-open day, CNBC). Saturday reclosure reversed gains — Brent back to ~$96-97 range. CBS News confirmed Brent was $96.25 intraday Friday before reclosure sent it back up. ING: \"13 million barrels per day of supply disrupted — upside risk is peace talks break down.\" Goldman Sachs: Hormuz flows at just ~10% of normal levels (2.1M bpd on 4-day moving average). JPMorgan: \"last tanker to clear Hormuz on February 28 expected to reach destination ~April 20 — pre-closure barrels fully exhausted from supply chain.\" This is the critical supply-chain inflection: from April 21, global supply chains fully dependent on any new Hormuz transit."
-},
-{
-"t": "Monday April 21: Ceasefire Expiry + Market Open + Possibly Talks. Defining Day.",
-"lv": "DEVELOPING",
-"color": "amber",
-"d": "India markets open Monday April 21. Ceasefire expires same day. US officials potentially in Islamabad for talks same day. JPMorgan note: pre-closure crude barrels fully exhausted from global supply chain by ~April 20 — from April 21, world fully dependent on any new Hormuz transit. Three simultaneous risk factors Monday: (1) Ceasefire expiry, (2) Hormuz closed, (3) Indian ships at risk. Scenario A (~45%): Talks restart Monday + extension announced → Sensex gap-up 79,000-81,000, Brent $85-90. Scenario B (~35%): No deal, ceasefire lapses → Sensex gap-down 74,000-76,000, Brent $108-118. Scenario C (~20%): Emergency extension without framework → Sensex flat/slight recovery. Infosys results Wednesday April 23."
-}
-],
-"nukes": [
-{
-"name": "Bushehr ☢️",
-"type": "Reactor",
-"status": "ACTIVE WAR ZONE — IAEA WARNED",
-"risk": 88,
-"info": "IAEA: strikes 250ft from operating reactor. Rosatom evacuated 200 staff. Reactor operational. IAEA cannot access. Minor explosions in Tehran suggest continuing instability. Ceasefire holding but Iran reconstituting missile bases — escalation risk if Apr 21 ceasefire lapses.",
-"lat": 28.83,
-"lon": 50.88
-},
-{
-"name": "Natanz",
-"type": "Enrichment + HEU Storage",
-"status": "75% DAMAGED — 6,000+ CENTRIFUGES DESTROYED",
-"risk": 90,
-"info": "MAIN enrichment plant 75% damaged. R&D 95% destroyed. Nuclear sticking point — Vance offered 20-yr moratorium, Iran said 3-5 yrs, both rejected. IAEA: Iran has ~1,000 lbs (440kg+) HEU = enough for ~11 nuclear weapons. Fox News: 'all ingredients of a deal' — suggests nuclear gap may be bridgeable.",
-"lat": 33.72,
-"lon": 51.73
-},
-{
-"name": "Isfahan",
-"type": "Conversion + PRIMARY HEU STORAGE",
-"status": "PRIMARY HEU LOCATION — 200kg+ HERE",
-"risk": 96,
-"info": "CRITICAL: IAEA Grossi: MAJORITY of Iran's ~440kg of 60% HEU in deeply buried tunnel complex here. US demanded retrieval at Islamabad; Iran agreed only to 'monitored down-blending' — rejected by US. UCF conversion 90% destroyed above-ground. New underground enrichment facility — IAEA never inspected.",
-"lat": 32.57,
-"lon": 51.81
-},
-{
-"name": "Fordow",
-"type": "Underground Enrichment — DEEP BUNKER",
-"status": "ONLY 30% DAMAGED — GREATEST PROLIFERATION RISK",
-"risk": 88,
-"info": "Fordow built into mountain near Qom. Only 30% damaged despite GBU-57 MOPs. Core enrichment capability potentially intact. US demanded full dismantlement; Iran refused at Islamabad. Greatest long-term proliferation risk. Iran reconstituting missile cities during ceasefire — same pattern expected here.",
-"lat": 34.88,
-"lon": 51.73
-},
-{
-"name": "Arak (IR-40)",
-"type": "Heavy Water Reactor",
-"status": "STRUCK — PLUTONIUM PATH CONCERN",
-"risk": 75,
-"info": "Heavy water reactor capable of producing weapons-grade plutonium. Struck in early war waves. Satellite imagery showing Iran reconstituting missile cities during ceasefire — Arak likely same pattern. Second potential weapons path alongside uranium enrichment.",
-"lat": 34.1,
-"lon": 49.2
-}
-],
-"cities": [
-{
-"city": "Delhi NCR",
-"pop": "32M",
-"wind": 72,
-"sea": 15,
-"nuke": 55,
-"tot": 64,
-"info": "1,800km downwind from Iran. IAEA: ~1,000 lbs HEU = material for 11 nuclear weapons. NO iodine prophylaxis program. Iran missile base reconstitution confirmed by satellite imagery — risk if Apr 21 ceasefire lapses with no deal."
-},
-{
-"city": "Mumbai",
-"pop": "21M",
-"wind": 40,
-"sea": 78,
-"nuke": 42,
-"tot": 58,
-"info": "900km from Hormuz. Reliance Jamnagar refinery. Sensex closed +1,263 today at 78,111. IndiGo best performer +4%. BSE market cap ~₹452L Cr — recovering from ₹443L Cr low on Apr 13. Brent below $95 reducing import costs."
-},
-{
-"city": "Ahmedabad",
-"pop": "8.5M",
-"wind": 65,
-"sea": 55,
-"nuke": 46,
-"tot": 57,
-"info": "Closest Indian metro to Iran. Dual exposure. Jamnagar refinery nearby. Brent below $95 — oil import cost relief. Iran threatening Red Sea still a risk for western coast supply chains. US Navy intercepted first tankers today."
-},
-{
-"city": "Jaipur",
-"pop": "4M",
-"wind": 68,
-"sea": 10,
-"nuke": 44,
-"tot": 47,
-"info": "Rajasthan wind funnel. UN FAO food catastrophe risk — kharif crop under fertilizer pressure. Diesel freight costs easing with Brent below $95. Rupee +20p helps reduce input costs."
-},
-{
-"city": "Kochi",
-"pop": "2.1M",
-"wind": 25,
-"sea": 70,
-"nuke": 24,
-"tot": 44,
-"info": "Southern Naval Command + Op Urja Suraksha base. Oil spill risk 15-25 days. Fishing economy ₹4,000 cr exposed. Iran Red Sea threat hits western coast shipping routes near Kochi. Insurance 10x pre-war."
-},
-{
-"city": "Goa",
-"pop": "1.5M",
-"wind": 30,
-"sea": 72,
-"nuke": 22,
-"tot": 42,
-"info": "Konkan coast. Fishing economy ₹4,000 cr exposed. Tourism sector recovering with Brent below $95 — airline costs easing. IndiGo +4% today positive signal for travel sector."
-},
-{
-"city": "Lucknow",
-"pop": "3.5M",
-"wind": 58,
-"sea": 5,
-"nuke": 39,
-"tot": 40,
-"info": "Indo-Gangetic plain trap. Food inflation risk from fertilizer disruption — structural even post-deal. CNG vehicle users benefiting from rupee strengthening. IMF recession risk warning dampens consumption outlook."
-},
-{
-"city": "Chennai",
-"pop": "11M",
-"wind": 20,
-"sea": 55,
-"nuke": 18,
-"tot": 36,
-"info": "East coast currents provide nuclear buffer. IT sector led today's rally — Infosys, HCLTech major gainers. Wipro Q4 results tomorrow Apr 16. Auto sector (Maruti/Hyundai) also recovering. Port active for alternative routes."
-}
-],
-"milTop": [],
-"tlLatest": [
-{
-"d": 39,
-"l": "Apr 7",
-"deaths": 5400,
-"brent": 95,
-"nifty": 23100,
-"rupee": 93.65,
-"tag": "CEASEFIRE agreed. Sensex +2,946 (+3.95%). Brent -11% below $90. Hormuz partial reopen.",
-"sev": 1
-},
-{
-"d": 40,
-"l": "Apr 8",
-"deaths": 5400,
-"brent": 96,
-"nifty": 23900,
-"rupee": 92.4,
-"tag": "Ceasefire holding. Hormuz partial reopen. Best Sensex day since Feb 2021.",
-"sev": 1
-},
-{
-"d": 41,
-"l": "Apr 9",
-"deaths": 6100,
-"brent": 96,
-"nifty": 23760,
-"rupee": 92.4,
-"tag": "Sensex -932. Iran sea mines confirmed by Pentagon. TCS Q4 strong.",
-"sev": 3
-},
-{
-"d": 42,
-"l": "Apr 10",
-"deaths": 6300,
-"brent": 96,
-"nifty": 23800,
-"rupee": 92.4,
-"tag": "Lebanon PM to Washington. Iran adviser Kharazi died. US CPI 3.3%.",
-"sev": 2
-},
-{
-"d": 43,
-"l": "Apr 11",
-"deaths": 6350,
-"brent": 96,
-"nifty": 23800,
-"rupee": 92.4,
-"tag": "ISLAMABAD TALKS BEGIN. Ghalibaf+Araghchi vs Vance+Witkoff+Kushner. First US-Iran since 1979.",
-"sev": 3
-},
-{
-"d": 44,
-"l": "Apr 12",
-"deaths": 6350,
-"brent": 102,
-"nifty": 24050,
-"rupee": 92.83,
-"tag": "TALKS COLLAPSE. Nuclear dealbreaker — Vance 20yr vs Iran 3-5yr. Trump orders blockade.",
-"sev": 3
-},
-{
-"d": 45,
-"l": "Apr 13",
-"deaths": 6350,
-"brent": 99,
-"nifty": 23842,
-"rupee": 93.33,
-"tag": "BLOCKADE BEGINS. Sensex closed 76,847 (-702). 10,000+ US personnel. FII -₹1,983 Cr.",
-"sev": 3
-},
-{
-"d": 46,
-"l": "Apr 14",
-"deaths": 6450,
-"brent": 98,
-"nifty": 23842,
-"rupee": 93.33,
-"tag": "BSE/NSE CLOSED — Ambedkar Jayanti. CENTCOM: 'completely halted' Iran sea trade. Iran threatens Red Sea. Wall Street near all-time high.",
-"sev": 2
-},
-{
-"d": 47,
-"l": "Apr 15",
-"deaths": 6500,
-"brent": 94,
-"nifty": 24231,
-"rupee": 93.15,
-"tag": "SENSEX +1,263 to 78,111. Nifty +388 to 24,231. All 30 green. IndiGo +4%. Brent below $95. US intercepted 2 Iranian tankers. 'All ingredients of a deal' — US official.",
-"sev": 1
-},
-{
-"d": 48,
-"l": "Apr 16",
-"deaths": 6600,
-"brent": 95,
-"nifty": 24197,
-"rupee": 93.15,
-"tag": "Nuclear breakthrough: 440kg HEU options. Munir to Washington. Hegseth: choose wisely. Wipro buyback Rs 15,000 Cr. Sensex 77,989 faded from 78,730. Iran offers Oman-side passage.",
-"sev": 2
-},
-{
-"d": 49,
-"l": "Apr 17",
-"deaths": 6600,
-"brent": 88,
-"nifty": 24354,
-"rupee": 92.8,
-"tag": "HORMUZ DECLARED COMPLETELY OPEN by Iran FM Araghchi. Sensex +505 to 78,494. Dow Futures +500. US blockade of Iranian ports remains. House war powers failed 213-214. South Korea first crude via Red Sea. Ceasefire Apr 22.",
-"sev": 1
-},
-{
-"d": 50,
-"l": "Apr 18",
-"deaths": 6600,
-"brent": 97,
-"nifty": 24354,
-"rupee": 93.5,
-"tag": "HORMUZ RECLOSED. IRGC fired on Indian VLCC (2M bbl) despite clearance. India summoned Iran ambassador. Trump: got a little cute. Brent spiking. Ceasefire Apr 22. Second round talks uncertain.",
-"sev": 3
-},
-{
-"d": 51,
-"l": "Apr 19",
-"deaths": 6600,
-"brent": 97,
-"nifty": 24354,
-"rupee": 93.7,
-"tag": "US officials travelling to Pakistan — talks could resume Monday. Nuclear progress before Hormuz crisis (Axios). FACT: No Indian tanker crossing Apr 19 — VLCC fired on Apr 18 turned back. MEA Misri urged resume. Brent ~$97. Ceasefire Apr 22.",
-"sev": 2
-}
-],
-"hormuzLatest": [
-{
-"d": "Apr 19 PM",
-"e": "DAY 51 EVENING. Hormuz CLOSED. IRGC targeting all vessels. FACT CHECK: No Indian tanker crossing confirmed Apr 19 — Indian VLCC (2M bbl) was fired on Apr 18 and turned back. MEA Misri urged Iran to resume India-bound facilitation. Trump: US officials travelling to Pakistan — talks could resume Monday. Nuclear: most main points finalized (Trump/Bloomberg). Axios: nuclear progress made before Hormuz crisis. Situation Room: Vance, Rubio, Hegseth, Ratcliffe, Witkoff all present Sat. Brent ~$96-97. 19 ships turned back. Ceasefire expires Apr 22 — 3 days."
-},
-{
-"d": "Apr 19 AM",
-"e": "DAY 51. HORMUZ STILL CLOSED. IRGC: any approaching vessel will be targeted. Near-miss: IRGC nearly fired on US minesweeper — US backed down (Ghalibaf). Iran Deputy FM Khatibzadeh (Antalya): no date set for next round talks, framework first. Trump: maybe won't extend ceasefire, may start bombing. Brent ~$98. MEA Misri met Indian ambassador to Iran — deep concern over Indian ships. Ceasefire expires Apr 22 — 3 days. Monday markets open = ceasefire expiry day."
-},
-{
-"d": "Apr 18 PM",
-"e": "CRISIS: Hormuz reclosed. IRGC fired on 2+ tankers including 2 INDIAN VESSELS — Indian-flagged VLCC (2M barrels Iraqi oil) attacked despite clearance. UKMTO: 2 IRGC gunboats, no VHF challenge, opened fire — crew safe. Iran IRIB: Hormuz returned to previous state, US failing commitments. Trump: Iran got a little cute. India summoned Iranian ambassador. Brent spiking. US CENTCOM: 23 ships turned around total. Second round talks uncertain."
-},
-{
-"d": "Apr 18 AM",
-"e": "Rubio: Iran can have civilian nuclear program (major US shift). Brent ~$88-90 after 9% crash Friday. Ghalibaf had threatened Hormuz closure if blockade not lifted. Ships attempting transit post-FM opening."
-}
-],
-"projNow": {
-"brent": 97,
-"rupee": 93.7,
-"lpg": 912,
-"petrol": 94.77,
-"deaths": 6600
-},
-"scenarios": {
-"headers": [
-"Pre-war",
-"Now (D51)",
-"Talks Mon + Extension",
-"Ceasefire lapses",
-"Bombing resumes"
-],
-"brent": [
-65,
-97,
-78,
-115,
-135
-],
-"rupee": [
-91,
-93.7,
-90.5,
-101,
-108
-],
-"deaths": [
-0,
-"6,600+",
-"7,500",
-"9,000+",
-"25,000+"
-],
-"sensex": [
-"78,699",
-"78,494*",
-"81,000+",
-"74,000",
-"55,000"
-],
-"lpg": [
-"Rs 853",
-"Rs 912",
-"Rs 865",
-"Rs 1,350+",
-"Rs 1,800+"
-],
-"fii": [
-"-",
-"+Rs 382 Cr",
-"$20B return",
-"$22B out",
-"$55B out"
-]
-},
-"radar": [
-{
-"axis": "Oil Shock",
-"w1": 60,
-"now": 60,
-"w4": 42,
-"w8": 28
-},
-{
-"axis": "Market Crash",
-"w1": 45,
-"now": 42,
-"w4": 30,
-"w8": 18
-},
-{
-"axis": "Nuclear Risk",
-"w1": 20,
-"now": 88,
-"w4": 82,
-"w8": 70
-},
-{
-"axis": "Hormuz Closure",
-"w1": 80,
-"now": 90,
-"w4": 38,
-"w8": 15
-},
-{
-"axis": "Household Impact",
-"w1": 15,
-"now": 58,
-"w4": 48,
-"w8": 32
-},
-{
-"axis": "Currency Crisis",
-"w1": 40,
-"now": 42,
-"w4": 36,
-"w8": 25
-},
-{
-"axis": "Social Unrest",
-"w1": 25,
-"now": 58,
-"w4": 48,
-"w8": 35
-},
-{
-"axis": "Military Exposure",
-"w1": 35,
-"now": 75,
-"w4": 52,
-"w8": 34
-}
-],
-"assessment": {
-"headline": "DAY 51, 7 PM SUN: US officials TRAVELLING TO PAKISTAN — talks could resume MONDAY (ceasefire expiry day). NUCLEAR PROGRESS before Hormuz crisis. FACT: No Indian tanker crossing Apr 19 confirmed — VLCC fired on Apr 18. Brent ~$97. Ceasefire Apr 22 — 3 days. Monday = defining day.",
-"body": "Day 51 evening brings the most important diplomatic signal since the Hormuz crisis erupted.\n\nTHE SINGLE MOST IMPORTANT FACT: US OFFICIALS GOING TO ISLAMABAD\n• CBS News (updated within the hour): Trump says US officials travelling to Pakistan\n• Talks could resume as soon as Monday — ceasefire expiry day itself\n• No firm date, but direction of travel is clear: deal, not war\n• Saturday Situation Room decision: Vance, Rubio, Hegseth, Ratcliffe, Witkoff all agreed — keep talking\n• Senior US official: if no breakthrough soon, war could resume\n\nTHE NUCLEAR PROGRESS REVELATION (AXIOS)\n• Axios (senior US official): \"gaps narrowed on uranium enrichment and HEU BEFORE Hormuz crisis\"\n• Trump (Bloomberg): \"Most main points finalized. Will go pretty quickly.\"\n• Iran NOT confirmed — but structural progress is real per US side\n• The Hormuz reclosure was tactical pressure over blockade, not nuclear breakdown\n• Rubio civilian-nuclear concession (Apr 18) still stands\n• This is why Trump is sending officials to Pakistan rather than resuming strikes\n\nFACT CHECK: THE INDIAN TANKER STORY\n• VERIFIED: No credible source confirms Indian tanker transiting Hormuz on April 19\n• What happened during brief Apr 17-18 window: 8+ ships crossed (AFP confirmed)\n• Indian VLCC (2M barrels Iraqi crude): FIRED ON by IRGC Apr 18, TURNED BACK\n• India MEA (Misri) summoned Iran ambassador: urged Iran to \"RESUME\" India-bound facilitation\n• The word \"resume\" explicitly confirms India-bound ships are NOT currently transiting\n• Any reports of an Indian tanker crossing April 19 are UNVERIFIED\n\nINDIA MEA POSITION\n• Foreign Secretary Misri: deep concern expressed formally\n• India urged Iran to resume India-bound ship facilitation at the earliest\n• India-Iran back channel active — ambassador instructed to convey to Tehran\n• India was among Iran's \"friendly\" five nations since March — arrangement broken\n• Op Urja Suraksha warships on HIGH ALERT\n\nBRENT AND MARKETS\n• Brent ~$96-97 after partial recovery from Friday's $90 crash\n• 19 ships turned back under US blockade total (CBS News confirmed)\n• JPMorgan: pre-closure barrels fully exhausted from supply chain by ~April 20\n• From Monday: world fully dependent on any new Hormuz transit\n• ING: 13M bpd supply disrupted\n\nMONDAY APRIL 21 — THE DEFINING DAY\n• Ceasefire expires + India market opens + US officials possibly in Islamabad\n• If talks restart + extension announced: Sensex 79,000-81,000+, Brent $80-88\n• If no deal, ceasefire lapses: Sensex 74,000-76,000, Brent $108-118\n• Infosys results Wednesday April 23 — domestic anchor amid storm\n• India's five-week energy buffer being consumed daily\n\nVERDICT: The US is going to Pakistan. Nuclear progress is real. The Hormuz crisis is negotiating theatre. The deal is close — but \"close\" in this war has meant many things before. Monday will tell. India's markets, rupee, energy costs, and 280 seafarers' safety all depend on what gets announced in the next 48 hours."
-},
-"featured": [
-{
-"title": "Geopolitics of LPG Supply in India",
-"date": "March 18, 2026",
-"tag": "PUBLICATION",
-"tagColor": "#f59e0b",
-"desc": "How India's LPG import dependency on the Gulf creates acute vulnerability during the Iran-Gulf War. Explores Hormuz exposure, alternative supply routes, and policy imperatives for energy security in a blockade scenario.",
-"url": "https://takshashila.org.in/content/publications/20260318-LPG-Geopolitics.html",
-"org": "Takshashila Institution",
-"icon": "🛢️"
-},
-{
-"title": "Geopolitics of Fertiliser Supply in India",
-"date": "April 2, 2026",
-"tag": "PUBLICATION",
-"tagColor": "#10b981",
-"desc": "India imports 30%+ of its fertilisers via the Strait of Hormuz. This paper maps the supply chain risks to kharif and rabi crops, the strategic case for diversification, and what a prolonged blockade means for food security.",
-"url": "https://takshashila.org.in/content/publications/20260402-Fertilizer-Geopolitics.html",
-"org": "Takshashila Institution",
-"icon": "🌾"
-}
-]
+  "_updated": "April 20, 2026 — 7:00 AM IST",
+  "_day": 52,
+  "_phase": "BLOCKADE",
+  "_note": "Verified: CNBC, CBS News, NPR, CNN, NBC, Al Jazeera, Jerusalem Post, AP, CENTCOM. DAY 52 MONDAY 7AM IST: USS SPRUANCE SEIZED TOUSKA — fired into engine room, Marines boarded. Iran OFFICIALLY DENIED second round talks (IRNA) — cited US excessive demands, blockade violation. Iran IRGC REBUILDING missile and drone stockpiles during ceasefire (IRGC Aerospace commander confirmed). Vance+Witkoff+Kushner heading Islamabad — IRAN NOT ATTENDING per IRNA. ZERO tankers crossed Hormuz Sunday. Brent $95.64 Sunday open (+5.8%). India markets open 9:15 AM IST = ceasefire expiry day. Ceasefire expires TOMORROW April 22. Most dangerous India market open since Feb 28.",
+  "ticker": [
+    "⚔️ USS SPRUANCE SEIZED TOUSKA — blew hole in engine room, Marines boarded. Iran vowed SWIFT RESPONSE. First ship seized. Most serious US-Iran naval confrontation since war began.",
+    "🚫 IRAN OFFICIALLY REJECTED second round talks — IRNA: 'absence stems from Washington excessive demands, unrealistic expectations, ongoing naval blockade.' Iran NOT going to Islamabad.",
+    "🚀 IRAN IRGC REBUILDING MISSILES AND DRONES during ceasefire — Aerospace commander: 'Speed of updating and refilling missile and drone launch platforms is even greater than before the war.'",
+    "🚢 ZERO tankers crossed Hormuz Sunday — quietest day since war began. IRGC targeting all vessels. 25+ ships turned back under US blockade. Brent +5.8% to $95.64 Sunday open.",
+    "📅 CEASEFIRE EXPIRES TOMORROW APRIL 22 — 2 DAYS. No second round talks confirmed. Iran rebuilding weapons. USS seized Iranian ship. India markets open 9:15 AM TODAY.",
+    "🇮🇳 India: Monday April 21 market open = ceasefire expiry day + Touska crisis + Iran rejection of talks + Brent $95+ = MOST DANGEROUS open since Feb 28. Gap-down risk serious.",
+    "💣 TRUMP TRUTH SOCIAL: 'Knock out every Power Plant and Bridge in Iran. NO MORE MR. NICE GUY.' Iran: further talks require US to abandon excessive demands and end blockade.",
+    "⚛️ Iran's Supreme National Security Council: US proposals from Munir's Tehran visit 'still under review.' Further talks require US to abandon excessive demands. Nuclear gap massive.",
+    "🇮🇳 TWO MORE Indian-flag vessels attacked April 18. CMA CGM Everglade (French) damaged. IMO: 24 incidents total since March 1. Op Urja Suraksha HIGH ALERT. MEA engaged.",
+    "⏰ KEY RISK: Iran IRGC rebuilding weapons. Ceasefire expiry tomorrow. Talks collapsed. Ship seized. Brent rising. India Monday open in 2 hours — brace for high VIX, gap-down possible."
+  ],
+  "whatChanged": {
+    "label": "WHAT CHANGED — APR 20, 7:00 AM IST (DAY 52) — MONDAY PRE-MARKET",
+    "items": [
+      {
+        "color": "red",
+        "bold": "IRAN OFFICIALLY REJECTED second round Islamabad talks — IRNA confirmed.",
+        "text": "Iran's official IRNA news agency Sunday: Iran stated its \"absence from the second round of talks stems from Washington's excessive demands, unrealistic expectations, constant shifts in stance, repeated contradictions, and the ongoing naval blockade, which it considers a breach of the ceasefire.\" This is the most definitive Iranian rejection of talks since Islamabad round 1 collapsed April 12. Iran's Supreme National Security Council separately said US proposals from Munir's Tehran visit are \"still under review\" and further talks require the US to \"abandon excessive demands and adjust its requests to the realities on the ground.\" Vance, Witkoff, Kushner heading to Islamabad — but there will be no Iranian delegation to meet them."
+      },
+      {
+        "color": "red",
+        "bold": "IRAN IRGC REBUILDING MISSILES AND DRONES during ceasefire — confirmed by IRGC commander.",
+        "text": "Brig. Gen. Seyed Majid Mousavi, commander of the Revolutionary Guard's Aerospace Force, confirmed to Iranian state media (IRIB): \"Our speed in updating and refilling missile and drone launch platforms is even greater than before the war.\" Iran has been repairing missiles and drone launchers during the ceasefire which started April 8. This is a direct admission that Iran has used the ceasefire period to rearm — dramatically raising the stakes if/when the ceasefire lapses April 22. If Iran has rebuilt significant strike capacity by tomorrow, renewed conflict will be more destructive than phase 1."
+      },
+      {
+        "color": "red",
+        "bold": "USS SPRUANCE SEIZED TOUSKA — full sequence confirmed by CENTCOM video.",
+        "text": "CENTCOM confirmed and published 34-second video. USS Spruance intercepted Touska (900-foot Iranian cargo ship) in Gulf of Oman heading to Bandar Abbas. 6-hour warning period. CENTCOM audio: \"Motor vessel Touska — Vacate your engine room. We are about to subject you to disabling fire.\" Spruance fired 5-inch MK 45 gun rounds into engine room. US Marines from 31st Marine Expeditionary Unit boarded and seized. Touska under US Treasury sanctions. Iran joint military command: \"Armed forces will soon respond.\" First Iranian ship physically seized since blockade began April 13. 25 ships total directed to turn back/return to Iranian ports (CENTCOM, up from 23)."
+      },
+      {
+        "color": "red",
+        "bold": "ZERO tankers crossed Hormuz Sunday — quietest day since war began. Brent +5.8%.",
+        "text": "CNN from ship tracking data: zero tankers crossed Hormuz Sunday — \"one of the quietest days in the channel since the conflict began.\" Vessels anchored, traveling in loops, avoiding entirely. Sunday trading open: Brent +5.8% to $95.64. US crude +6.4% to $87.90. Iran forced back two more tankers (Botswana, Angola-flagged). For India: zero Hormuz transit = zero crude imports via that route. India's strategic petroleum reserve (6-8 week buffer) being consumed daily. Every day without Hormuz transit = India losing ~$150M+ in import cost efficiency. India's June-July crude import crisis approaches if Hormuz stays closed."
+      },
+      {
+        "color": "amber",
+        "bold": "TRUMP: \"Knock out every Power Plant and Bridge.\" Power plant threat + Touska = maximum pressure.",
+        "text": "Trump Truth Social: \"If Iran doesn't agree, the United States is going to knock out every single Power Plant and every single Bridge in Iran. NO MORE MR. NICE GUY.\" Combined with Touska seizure, this is dual-track maximum pressure. Iran says blockade is ceasefire violation — US says Iran firing on ships is violation. Each side claims the other broke the deal. Ceasefire expires TOMORROW April 22. With talks rejected and weapons being rebuilt, the path to renewed conflict is narrowing rapidly. One miscalculation in the strait could trigger resumption of strikes before talks can be arranged."
+      },
+      {
+        "color": "amber",
+        "bold": "India: Two more Indian-flag vessels attacked April 18. IMO: 24 total incidents.",
+        "text": "Jerusalem Post (maritime intelligence): two additional Indian-flagged vessels were attacked April 18 in the Strait — first given clearance, then IRGC gunboats fired upon them without warning. IMO: 24 total incidents since March 1. CMA CGM Everglade (French container ship) damaged April 18. India MEA summoned Iranian ambassador. Foreign Secretary Misri urged Iran to \"resume at the earliest\" India-bound ship facilitation — word \"resume\" confirms no transit happening. India-Iran bilateral relationship under maximum strain. Op Urja Suraksha warships on HIGH ALERT in Gulf of Oman. 280 Indian seafarers affected, 8 Indian vessels in the region."
+      },
+      {
+        "color": "red",
+        "bold": "INDIA MARKET OPENS IN 2 HOURS — ceasefire expiry day + worst overnight sequence.",
+        "text": "India markets open 9:15 AM IST Monday April 21 — the ceasefire expiry day. Overnight: Touska seized, Iran rejected talks, IRGC rebuilding weapons, zero Hormuz transit, Brent +5.8%. Sensex last close 78,494. Brent $95.64 Sunday open — approaching $96-97 at India open. Rupee weakening toward 94.00-94.50. India VIX likely to open at 25-28. Scenario A (30%): Iran somehow reverses position, talks happen Tuesday, ceasefire extended → Sensex 75,000-77,000. Scenario B (50%): Ceasefire lapses April 22, IRGC responds to Touska → Sensex gap-down 70,000-73,000, Brent $108-120. Scenario C (20%): Emergency de-facto extension via both sides ignoring expiry → Sensex 74,000-76,000. Infosys results Wednesday."
+      },
+      {
+        "color": "amber",
+        "bold": "Lebanon ceasefire stressed — two Israeli soldiers killed, Hezbollah on trigger.",
+        "text": "Israel military: two more soldiers killed in Lebanon since ceasefire — total 15. Hezbollah leader Naim Qassem: \"No ceasefire from resistance only — fighters remain in field with hands on trigger, will respond to violations.\" IDF continues striking what it calls \"imminent Hezbollah threats.\" Lebanon PM Nawaf Salam urged unity. Netanyahu says ceasefire could open door to broader Lebanon agreement but Israel not withdrawing from southern security buffer. Lebanon ceasefire fragility is a secondary risk — if it collapses, Iran could use as pretext for further Hormuz escalation beyond Touska response."
+      }
+    ]
+  },
+  "deaths": "6,600+",
+  "deathsSub": "~3,000+ Iran, 2,294 Lebanon (10-day ceasefire stressed), 99 Iraq, 23+ Israel (15 Lebanon combat), 13 US (+2 noncombat), 35+ Gulf. No casualties in Touska incident.",
+  "econ": {
+    "sensex": "78,494",
+    "sensexDelta": "Last close Apr 17. India markets OPEN IN 2 HOURS at 9:15 AM IST. Brent $95.64 Sunday open.",
+    "sensexSub": "Ceasefire expiry day open. Iran rejected talks. Touska seized. IRGC rebuilding. Gap-down risk 70,000-73,000 if ceasefire lapses.",
+    "vix": "~25-28 (approaching war-peak)",
+    "vixDelta": "Iran rejected talks + Touska seized + IRGC rebuilding weapons + ceasefire expiry tomorrow",
+    "fpi": "FII reversal expected — sell-off likely on ceasefire expiry fears",
+    "fpiDelta": "Structural outflow risk as ceasefire collapses without extension",
+    "wealth": "BSE market cap at maximum risk. Monday 9:15 AM open = most important Indian market moment since Feb 28.",
+    "analysis": "DAY 52 MON 7 AM IST: INDIA MARKETS OPEN IN 2 HOURS. Overnight sequence: USS Spruance seized Touska (CENTCOM confirmed, video released). Iran OFFICIALLY rejected second round talks (IRNA). IRGC commander confirmed rebuilding missiles and drones during ceasefire. ZERO Hormuz transit Sunday. Brent +5.8% to $95.64. Ceasefire expires TOMORROW April 22. With Iran rejecting talks and rebuilding weapons, the probability of ceasefire lapsing without extension has risen sharply. Scenario probabilities: deal/extension 25%, ceasefire lapses 55%, de-facto extension 20%. If ceasefire lapses and Iran responds to Touska militarily: Sensex 70,000-73,000, Brent $110-120, rupee to 96-98. Infosys results Wednesday April 23 in this environment. India VIX opening at 25-28."
+  },
+  "hormuzStatus": {
+    "status": "HORMUZ CLOSED. ZERO TRANSIT SUNDAY. USS SEIZED TOUSKA. IRAN REBUILDING WEAPONS.",
+    "preWarFlow": "130-160 ships/day",
+    "currentFlow": "ZERO tankers crossed Sunday — quietest day since war began. IRGC targeting all vessels. Iran rejected talks. IRGC rebuilding missiles/drones. Touska seized. Iran vows swift response.",
+    "reduction": "100% disruption Sunday. Iran openly rearming during ceasefire. Multiple Indian ships attacked. US seized first Iranian ship. Ceasefire expires tomorrow.",
+    "indianVesselsNear": 8,
+    "indianSeafarers": 280,
+    "indianTransited": 0,
+    "totalShipsWaiting": "230+ tankers stranded. Multiple Indian-flag vessels attacked. Brent $95.64 Sunday open. India buffer consuming daily.",
+    "lastTransit": "ZERO Sunday. IRGC attacked multiple vessels April 18 including 2 more Indian-flag ships. USS Spruance seized Touska. Iran vowed swift response.",
+    "indianNavyEscort": "Op Urja Suraksha on HIGH ALERT. Indian Navy warships in Gulf of Oman. MEA back-channelling Tehran urgently. Markets open in 2 hours.",
+    "headline": "ZERO TRANSIT. TOUSKA SEIZED. IRAN REJECTED TALKS. IRGC REBUILDING WEAPONS. Ceasefire expires TOMORROW. India markets open 9:15 AM."
+  },
+  "hormuzEvents": [
+    {
+      "d": "Apr 20 7AM",
+      "e": "DAY 52 PRE-MARKET. USS Spruance seized Touska (CENTCOM video confirmed). Iran OFFICIALLY rejected second round talks (IRNA) — excessive demands, blockade violation. IRGC Aerospace commander: rebuilding missiles and drones faster than before war. ZERO tankers crossed Hormuz Sunday. Brent $95.64 (+5.8%) Sunday open. Ceasefire expires TOMORROW Apr 22. India markets open 9:15 AM IST — most dangerous session since Feb 28. Sensex gap-down risk: 70,000-73,000 if ceasefire lapses."
+    },
+    {
+      "d": "Apr 19 PM",
+      "e": "HORMUZ CLOSED. IRGC targeting all vessels. No Indian tanker confirmed crossing Apr 19. Indian VLCC (2M bbl) fired on Apr 18, turned back. MEA urged Iran to resume. US officials travelling to Pakistan. Nuclear progress before crisis. Brent ~$96-97. Ceasefire Apr 22 — 3 days."
+    },
+    {
+      "d": "Apr 19 AM",
+      "e": "DAY 51. HORMUZ STILL CLOSED. IRGC: any approaching vessel will be targeted. Near-miss: IRGC nearly fired on US minesweeper — US backed down (Ghalibaf). Iran Deputy FM Khatibzadeh (Antalya): no date set for next round talks, framework first. Trump: maybe won't extend ceasefire, may start bombing. Brent ~$98. MEA Misri met Indian ambassador to Iran — deep concern over Indian ships. Ceasefire expires Apr 22 — 3 days. Monday markets open = ceasefire expiry day."
+    },
+    {
+      "d": "Apr 18 PM",
+      "e": "CRISIS: Hormuz reclosed. IRGC fired on 2+ tankers including 2 INDIAN VESSELS — Indian-flagged VLCC (2M barrels Iraqi oil) attacked despite clearance. UKMTO: 2 IRGC gunboats, no VHF challenge, opened fire — crew safe. Iran IRIB: Hormuz returned to previous state, US failing commitments. Trump: Iran got a little cute. India summoned Iranian ambassador. Brent spiking. US CENTCOM: 23 ships turned around total. Second round talks uncertain."
+    },
+    {
+      "d": "Apr 18 AM",
+      "e": "Rubio: Iran can have civilian nuclear program (major US shift). Brent ~$88-90 after 9% crash Friday. Ghalibaf had threatened Hormuz closure if blockade not lifted. Ships attempting transit post-FM opening."
+    },
+    {
+      "d": "Apr 17 PM",
+      "e": "HORMUZ DECLARED COMPLETELY OPEN by Iran FM Araghchi: \"passage for all commercial vessels declared completely open for remaining period of ceasefire.\" Sensex +505 to 78,494. Nifty +157 to 24,354. Dow Futures +500. US blockade of Iranian ports remains. House war powers failed 213-214. South Korea first crude via Red Sea. FII +Rs 382 Cr Apr 16. Ceasefire Apr 22 — 5 days."
+    },
+    {
+      "d": "Apr 17 AM",
+      "e": "Markets opened flat 77,947 (-41). Israel-Lebanon 10-day ceasefire holding. Iran FM Araghchi had not yet declared Hormuz open at open. Brent ~$98. Pakistan diplomatic push continuing. Trump: might go to Pakistan if deal to sign."
+    }
+  ],
+  "kitchen": [
+    {
+      "item": "LPG Cylinder (14.2kg)",
+      "pre": "₹853",
+      "now": "₹912.50",
+      "chg": "Brent below $95 — cut possible if deal done",
+      "proj": "₹853-860 if Thursday deal; ₹1,000+ if blockade extends past Apr 21",
+      "note": "Brent now below $95 on talks optimism — strong positive for LPG import costs. First tanker interceptions confirmed. Iran threatening Red Sea — could hit LPG routes from Oman/Qatar if implemented. ZERO dry-outs. 51 lakh cylinder buffer. Apr 21 ceasefire expiry is the key date.",
+      "s": 2
+    },
+    {
+      "item": "Natural Gas (PNG/CNG)",
+      "pre": "Normal",
+      "now": "Recovering slowly",
+      "chg": "IEA: structural damage — prolonged high prices",
+      "proj": "Tight through 2026 regardless of deal (IEA confirmed)",
+      "note": "IEA projects rare global oil demand decline in 2026 — first since COVID. But structural damage (Ras Laffan 3-5yr repair, QatarEnergy force majeure) means gas prices elevated long-term. Brent below $95 helps at margin. Turkey suggests 45-60 day ceasefire extension — more time for gas supply normalisation.",
+      "s": 2
+    },
+    {
+      "item": "Petrol (Delhi)",
+      "pre": "₹94.72/L",
+      "now": "₹94.77/L",
+      "chg": "Brent below $95 — hike risk largely removed",
+      "proj": "No hike if Brent stays below $95; reversal toward ₹94.72 if deal done quickly",
+      "note": "Brent now below $95 — biggest fall since blockade began. Hike risk (₹8-14/L that Elara warned of at Brent >$110) now much lower. If Thursday deal confirms and Brent falls further: retail price cut possible in 2-3 weeks. OMC margins improving sharply. Mumbai ₹103.54.",
+      "s": 1
+    },
+    {
+      "item": "LPG Commercial (19kg)",
+      "pre": "₹1,740",
+      "now": "₹1,885",
+      "chg": "+₹145 (8.3%)",
+      "proj": "₹1,740 if deal; ₹2,200+ if blockade extends",
+      "note": "Brent below $95 = positive signal for commercial LPG cost. IMF warns of global recession risk — dampens business recovery outlook. If Thursday talks produce ceasefire extension: restaurant sector could see rapid recovery in confidence.",
+      "s": 2
+    },
+    {
+      "item": "Diesel (Delhi)",
+      "pre": "₹87.62/L",
+      "now": "₹87.67/L",
+      "chg": "Brent below $95 — hike risk removed",
+      "proj": "Stable; possible small cut if Brent stays below $90 post-deal",
+      "note": "Brent below $95, WTI toward $90 (API: 6.1M barrel inventory build, 8th consecutive week) = strong margin improvement for OMCs. Every ₹1 diesel rise = ₹2,500 cr annual trucking cost — risk now easing. Mumbai ₹90.03.",
+      "s": 1
+    },
+    {
+      "item": "Cooking Oil",
+      "pre": "~₹140/L",
+      "now": "~₹155-165/L",
+      "chg": "Easing on Brent fall + rupee strength",
+      "proj": "₹140-150/L by May if Thursday deal finalises",
+      "note": "Rupee strengthened to 93.15 (+20p) — all imports cheaper. Brent below $95 reduces freight costs. IEA+IMF+World Bank: fertilizer prices slow to recover even post-deal. 30% global fertilizer transits Hormuz. Kharif sowing season approaching.",
+      "s": 2
+    },
+    {
+      "item": "Vegetables/Onion",
+      "pre": "Stable",
+      "now": "Easing slightly",
+      "chg": "Diesel freight costs reducing with Brent fall",
+      "proj": "₹40-60/kg if Thursday deal; ₹60-80/kg risk if blockade extends",
+      "note": "Rupee +20p and Brent below $95 reducing freight costs. But IEA+IMF+World Bank confirmed fertilizer disruption structural — hits kharif crop regardless. UN FAO food catastrophe warning still active. Iran Red Sea threat would extend disruption.",
+      "s": 1
+    },
+    {
+      "item": "Air Travel",
+      "pre": "Normal",
+      "now": "Surcharges active — easing rapidly",
+      "chg": "IndiGo best Sensex gainer today +4%",
+      "proj": "Surcharges removed quickly if Brent holds below $90",
+      "note": "IndiGo surged +4% on Apr 15 — best Sensex performer. Airlines lead oil price recovery. Brent below $95, WTI toward $90. ATF prices will fall with oil. If Thursday deal: airline stocks could see 8-12% further rally. US gas avg $4.12/gallon — under pressure to fall.",
+      "s": 1
+    },
+    {
+      "item": "Medicine",
+      "pre": "Stable",
+      "now": "Pressure easing",
+      "chg": "Supply chain improving with Brent fall",
+      "proj": "+5-10% retail impact Q1 FY27 (reduced from +15% on oil easing)",
+      "note": "API costs remain elevated at +30% but easing with oil. Wipro Q4 results tomorrow (Apr 16) — pharma and IT sectors key bellwethers. Infosys results this week. Shipping cost pressure reducing as Brent falls. Iran Red Sea threat still a risk for API supply chains.",
+      "s": 2
+    }
+  ],
+  "military": [
+    {
+      "t": "IRAN OFFICIALLY REJECTED Second Round Talks — IRNA: Excessive Demands, Blockade Violation",
+      "lv": "BREAKING",
+      "color": "red",
+      "d": "Iran's official IRNA Sunday: Iran's \"absence from the second round of talks stems from Washington's excessive demands, unrealistic expectations, constant shifts in stance, repeated contradictions, and the ongoing naval blockade, which it considers a breach of the ceasefire.\" Iran's Supreme National Security Council separately: US proposals from Munir's Tehran visit \"still under review.\" Further talks require US to \"abandon excessive demands and adjust its requests to the realities on the ground.\" This is the most definitive Iranian rejection of talks since Islamabad. Vance, Witkoff, Kushner heading to Islamabad — but Iran is not sending a delegation to meet them. Talks cannot happen without Iran present."
+    },
+    {
+      "t": "IRAN IRGC REBUILDING MISSILES AND DRONES During Ceasefire — Commander Confirmed",
+      "lv": "BREAKING",
+      "color": "red",
+      "d": "Brig. Gen. Seyed Majid Mousavi, commander of Revolutionary Guard's Aerospace Force, confirmed to Iranian state media IRIB: \"Our speed in updating and refilling missile and drone launch platforms is even greater than before the war.\" Iran has been repairing missiles and drone launchers throughout the ceasefire which started April 8. This is an open admission that Iran has used the 12-day ceasefire to rearm — dramatically raising the stakes if ceasefire lapses April 22 without extension. If Iran has rebuilt significant strike capacity by tomorrow: renewed conflict will be more destructive than phase 1. For India: Iranian strike range includes Gulf oil infrastructure critical to India's supply chains."
+    },
+    {
+      "t": "USS SPRUANCE SEIZED TOUSKA — CENTCOM Video Confirms. Iran Vows Swift Response.",
+      "lv": "BREAKING",
+      "color": "red",
+      "d": "CENTCOM confirmed and published 34-second video. USS Spruance intercepted Touska (900-foot, Iranian-flagged) in Gulf of Oman heading to Bandar Abbas — violating US blockade. 6-hour warning period. CENTCOM audio: \"Motor vessel Touska — Vacate your engine room. We are about to subject you to disabling fire.\" 5-inch MK 45 gun rounds fired into engine room. US Marines from 31st Marine Expeditionary Unit boarded. Touska under US Treasury sanctions. Iran joint military command: \"Armed forces will SOON RESPOND to this act of armed piracy.\" First Iranian ship physically seized since blockade began April 13. 25 ships total directed to turn back/return to Iranian ports (CENTCOM updated count)."
+    },
+    {
+      "t": "ZERO Tankers Crossed Hormuz Sunday. Brent +5.8%. India Markets Open In 2 Hours.",
+      "lv": "BREAKING",
+      "color": "red",
+      "d": "CNN from ship tracking: zero tankers crossed the Strait of Hormuz on Sunday — \"one of the quietest days in the channel since the conflict began.\" Vessels anchored throughout Gulf. Sunday trading open: Brent crude +5.8% to $95.64. US crude +6.4% to $87.90. Iran forced back two more tankers (Botswana, Angola-flagged). For India: zero Hormuz transit = zero crude imports via that route. India markets open 9:15 AM IST Monday — ceasefire expiry day itself. Brent $95.64 at India open = petrol/diesel hike pressure, LPG cut reversed, OMC margins under pressure. India VIX likely 25-28 at open."
+    },
+    {
+      "t": "India: Multiple Indian-Flag Vessels Attacked April 18. IMO: 24 Incidents Total.",
+      "lv": "BREAKING",
+      "color": "red",
+      "d": "Jerusalem Post (maritime intelligence): two additional Indian-flagged vessels attacked April 18 — given clearance, then IRGC gunboats fired without warning. IMO: 24 total incidents since March 1 including CMA CGM Everglade (French, damaged April 18). India MEA Foreign Secretary Misri summoned Iranian ambassador. India urged Iran to \"resume at the earliest\" India-bound ship facilitation — \"resume\" confirms no transit happening. India-Iran bilateral relationship at maximum tension. Op Urja Suraksha Indian Navy warships in Gulf of Oman on HIGH ALERT. 280 Indian seafarers affected. 8 Indian vessels in region. India is most exposed large economy given 85% crude dependency on Hormuz corridor."
+    },
+    {
+      "t": "Trump: \"Knock Out Every Power Plant and Bridge.\" Ceasefire Expires Tomorrow.",
+      "lv": "DEVELOPING",
+      "color": "amber",
+      "d": "Trump Truth Social: \"If Iran doesn't agree to the deal, the United States is going to knock out every single Power Plant and every single Bridge in Iran. NO MORE MR. NICE GUY!\" Ceasefire expires TOMORROW April 22. With Iran officially rejecting talks and IRGC rebuilding weapons, the path to renewed conflict is narrowing. One miscalculation in the strait — especially given Iran's vow to respond to Touska — could trigger resumed strikes before any new round of talks can be arranged. Macron and Starmer called for \"unconditional, unrestricted, and immediate reopening of Hormuz.\" Netanyahu: \"the conflict is not over yet, any moment could bring new development.\""
+    },
+    {
+      "t": "Lebanon Ceasefire Stressed. Hezbollah On Hair Trigger. Two More Israeli Soldiers Killed.",
+      "lv": "DEVELOPING",
+      "color": "amber",
+      "d": "Israel military: two more soldiers killed in Lebanon since ceasefire — total 15 Israeli soldiers killed since Lebanon war began. Hezbollah leader Qassem: \"No ceasefire from resistance only — fighters in field with hands on trigger, will respond to violations.\" IDF continues striking \"imminent threats.\" If Lebanon ceasefire collapses: Iran could use as pretext for further Hormuz escalation beyond Touska response. Iran has explicitly linked Hormuz status to Lebanon ceasefire throughout the war. Lebanon fragility is the secondary fuse in an already dangerously overloaded system."
+    },
+    {
+      "t": "Monday 9:15 AM: India Market Open — Most Dangerous Session Since Feb 28.",
+      "lv": "DEVELOPING",
+      "color": "red",
+      "d": "India markets open in 2 hours (9:15 AM IST). Overnight sequence feeding into open: Touska seized, Iran rejected talks officially, IRGC rebuilding weapons, zero Hormuz Sunday, Brent +5.8%, ceasefire expires tomorrow. Sensex last close 78,494. Scenario A (30%): Iran somehow reverses, talks happen Tuesday, extension announced → Sensex opens 75,000-77,000, partial recovery. Scenario B (50%): Ceasefire lapses April 22, Iran responds to Touska militarily → Sensex gap-down 70,000-73,000, Brent $108-120, rupee to 96+. Scenario C (20%): De-facto extension, standoff continues → Sensex 73,000-76,000. India VIX to open 25-28. Infosys results Wednesday. RBI facing impossible inflation-growth tradeoff."
+    }
+  ],
+  "nukes": [
+    {
+      "name": "Bushehr ☢️",
+      "type": "Reactor",
+      "status": "ACTIVE WAR ZONE — IAEA WARNED",
+      "risk": 88,
+      "info": "IAEA: strikes 250ft from operating reactor. Rosatom evacuated 200 staff. Reactor operational. IAEA cannot access. Minor explosions in Tehran suggest continuing instability. Ceasefire holding but Iran reconstituting missile bases — escalation risk if Apr 21 ceasefire lapses.",
+      "lat": 28.83,
+      "lon": 50.88
+    },
+    {
+      "name": "Natanz",
+      "type": "Enrichment + HEU Storage",
+      "status": "75% DAMAGED — 6,000+ CENTRIFUGES DESTROYED",
+      "risk": 90,
+      "info": "MAIN enrichment plant 75% damaged. R&D 95% destroyed. Nuclear sticking point — Vance offered 20-yr moratorium, Iran said 3-5 yrs, both rejected. IAEA: Iran has ~1,000 lbs (440kg+) HEU = enough for ~11 nuclear weapons. Fox News: 'all ingredients of a deal' — suggests nuclear gap may be bridgeable.",
+      "lat": 33.72,
+      "lon": 51.73
+    },
+    {
+      "name": "Isfahan",
+      "type": "Conversion + PRIMARY HEU STORAGE",
+      "status": "PRIMARY HEU LOCATION — 200kg+ HERE",
+      "risk": 96,
+      "info": "CRITICAL: IAEA Grossi: MAJORITY of Iran's ~440kg of 60% HEU in deeply buried tunnel complex here. US demanded retrieval at Islamabad; Iran agreed only to 'monitored down-blending' — rejected by US. UCF conversion 90% destroyed above-ground. New underground enrichment facility — IAEA never inspected.",
+      "lat": 32.57,
+      "lon": 51.81
+    },
+    {
+      "name": "Fordow",
+      "type": "Underground Enrichment — DEEP BUNKER",
+      "status": "ONLY 30% DAMAGED — GREATEST PROLIFERATION RISK",
+      "risk": 88,
+      "info": "Fordow built into mountain near Qom. Only 30% damaged despite GBU-57 MOPs. Core enrichment capability potentially intact. US demanded full dismantlement; Iran refused at Islamabad. Greatest long-term proliferation risk. Iran reconstituting missile cities during ceasefire — same pattern expected here.",
+      "lat": 34.88,
+      "lon": 51.73
+    },
+    {
+      "name": "Arak (IR-40)",
+      "type": "Heavy Water Reactor",
+      "status": "STRUCK — PLUTONIUM PATH CONCERN",
+      "risk": 75,
+      "info": "Heavy water reactor capable of producing weapons-grade plutonium. Struck in early war waves. Satellite imagery showing Iran reconstituting missile cities during ceasefire — Arak likely same pattern. Second potential weapons path alongside uranium enrichment.",
+      "lat": 34.1,
+      "lon": 49.2
+    }
+  ],
+  "cities": [
+    {
+      "city": "Delhi NCR",
+      "pop": "32M",
+      "wind": 72,
+      "sea": 15,
+      "nuke": 55,
+      "tot": 64,
+      "info": "1,800km downwind from Iran. IAEA: ~1,000 lbs HEU = material for 11 nuclear weapons. NO iodine prophylaxis program. Iran missile base reconstitution confirmed by satellite imagery — risk if Apr 21 ceasefire lapses with no deal."
+    },
+    {
+      "city": "Mumbai",
+      "pop": "21M",
+      "wind": 40,
+      "sea": 78,
+      "nuke": 42,
+      "tot": 58,
+      "info": "900km from Hormuz. Reliance Jamnagar refinery. Sensex closed +1,263 today at 78,111. IndiGo best performer +4%. BSE market cap ~₹452L Cr — recovering from ₹443L Cr low on Apr 13. Brent below $95 reducing import costs."
+    },
+    {
+      "city": "Ahmedabad",
+      "pop": "8.5M",
+      "wind": 65,
+      "sea": 55,
+      "nuke": 46,
+      "tot": 57,
+      "info": "Closest Indian metro to Iran. Dual exposure. Jamnagar refinery nearby. Brent below $95 — oil import cost relief. Iran threatening Red Sea still a risk for western coast supply chains. US Navy intercepted first tankers today."
+    },
+    {
+      "city": "Jaipur",
+      "pop": "4M",
+      "wind": 68,
+      "sea": 10,
+      "nuke": 44,
+      "tot": 47,
+      "info": "Rajasthan wind funnel. UN FAO food catastrophe risk — kharif crop under fertilizer pressure. Diesel freight costs easing with Brent below $95. Rupee +20p helps reduce input costs."
+    },
+    {
+      "city": "Kochi",
+      "pop": "2.1M",
+      "wind": 25,
+      "sea": 70,
+      "nuke": 24,
+      "tot": 44,
+      "info": "Southern Naval Command + Op Urja Suraksha base. Oil spill risk 15-25 days. Fishing economy ₹4,000 cr exposed. Iran Red Sea threat hits western coast shipping routes near Kochi. Insurance 10x pre-war."
+    },
+    {
+      "city": "Goa",
+      "pop": "1.5M",
+      "wind": 30,
+      "sea": 72,
+      "nuke": 22,
+      "tot": 42,
+      "info": "Konkan coast. Fishing economy ₹4,000 cr exposed. Tourism sector recovering with Brent below $95 — airline costs easing. IndiGo +4% today positive signal for travel sector."
+    },
+    {
+      "city": "Lucknow",
+      "pop": "3.5M",
+      "wind": 58,
+      "sea": 5,
+      "nuke": 39,
+      "tot": 40,
+      "info": "Indo-Gangetic plain trap. Food inflation risk from fertilizer disruption — structural even post-deal. CNG vehicle users benefiting from rupee strengthening. IMF recession risk warning dampens consumption outlook."
+    },
+    {
+      "city": "Chennai",
+      "pop": "11M",
+      "wind": 20,
+      "sea": 55,
+      "nuke": 18,
+      "tot": 36,
+      "info": "East coast currents provide nuclear buffer. IT sector led today's rally — Infosys, HCLTech major gainers. Wipro Q4 results tomorrow Apr 16. Auto sector (Maruti/Hyundai) also recovering. Port active for alternative routes."
+    }
+  ],
+  "milTop": [],
+  "tlLatest": [
+    {
+      "d": 39,
+      "l": "Apr 7",
+      "deaths": 5400,
+      "brent": 95,
+      "nifty": 23100,
+      "rupee": 93.65,
+      "tag": "CEASEFIRE agreed. Sensex +2,946 (+3.95%). Brent -11% below $90. Hormuz partial reopen.",
+      "sev": 1
+    },
+    {
+      "d": 40,
+      "l": "Apr 8",
+      "deaths": 5400,
+      "brent": 96,
+      "nifty": 23900,
+      "rupee": 92.4,
+      "tag": "Ceasefire holding. Hormuz partial reopen. Best Sensex day since Feb 2021.",
+      "sev": 1
+    },
+    {
+      "d": 41,
+      "l": "Apr 9",
+      "deaths": 6100,
+      "brent": 96,
+      "nifty": 23760,
+      "rupee": 92.4,
+      "tag": "Sensex -932. Iran sea mines confirmed by Pentagon. TCS Q4 strong.",
+      "sev": 3
+    },
+    {
+      "d": 42,
+      "l": "Apr 10",
+      "deaths": 6300,
+      "brent": 96,
+      "nifty": 23800,
+      "rupee": 92.4,
+      "tag": "Lebanon PM to Washington. Iran adviser Kharazi died. US CPI 3.3%.",
+      "sev": 2
+    },
+    {
+      "d": 43,
+      "l": "Apr 11",
+      "deaths": 6350,
+      "brent": 96,
+      "nifty": 23800,
+      "rupee": 92.4,
+      "tag": "ISLAMABAD TALKS BEGIN. Ghalibaf+Araghchi vs Vance+Witkoff+Kushner. First US-Iran since 1979.",
+      "sev": 3
+    },
+    {
+      "d": 44,
+      "l": "Apr 12",
+      "deaths": 6350,
+      "brent": 102,
+      "nifty": 24050,
+      "rupee": 92.83,
+      "tag": "TALKS COLLAPSE. Nuclear dealbreaker — Vance 20yr vs Iran 3-5yr. Trump orders blockade.",
+      "sev": 3
+    },
+    {
+      "d": 45,
+      "l": "Apr 13",
+      "deaths": 6350,
+      "brent": 99,
+      "nifty": 23842,
+      "rupee": 93.33,
+      "tag": "BLOCKADE BEGINS. Sensex closed 76,847 (-702). 10,000+ US personnel. FII -₹1,983 Cr.",
+      "sev": 3
+    },
+    {
+      "d": 46,
+      "l": "Apr 14",
+      "deaths": 6450,
+      "brent": 98,
+      "nifty": 23842,
+      "rupee": 93.33,
+      "tag": "BSE/NSE CLOSED — Ambedkar Jayanti. CENTCOM: 'completely halted' Iran sea trade. Iran threatens Red Sea. Wall Street near all-time high.",
+      "sev": 2
+    },
+    {
+      "d": 47,
+      "l": "Apr 15",
+      "deaths": 6500,
+      "brent": 94,
+      "nifty": 24231,
+      "rupee": 93.15,
+      "tag": "SENSEX +1,263 to 78,111. Nifty +388 to 24,231. All 30 green. IndiGo +4%. Brent below $95. US intercepted 2 Iranian tankers. 'All ingredients of a deal' — US official.",
+      "sev": 1
+    },
+    {
+      "d": 48,
+      "l": "Apr 16",
+      "deaths": 6600,
+      "brent": 95,
+      "nifty": 24197,
+      "rupee": 93.15,
+      "tag": "Nuclear breakthrough: 440kg HEU options. Munir to Washington. Hegseth: choose wisely. Wipro buyback Rs 15,000 Cr. Sensex 77,989 faded from 78,730. Iran offers Oman-side passage.",
+      "sev": 2
+    },
+    {
+      "d": 49,
+      "l": "Apr 17",
+      "deaths": 6600,
+      "brent": 88,
+      "nifty": 24354,
+      "rupee": 92.8,
+      "tag": "HORMUZ DECLARED COMPLETELY OPEN by Iran FM Araghchi. Sensex +505 to 78,494. Dow Futures +500. US blockade of Iranian ports remains. House war powers failed 213-214. South Korea first crude via Red Sea. Ceasefire Apr 22.",
+      "sev": 1
+    },
+    {
+      "d": 50,
+      "l": "Apr 18",
+      "deaths": 6600,
+      "brent": 97,
+      "nifty": 24354,
+      "rupee": 93.5,
+      "tag": "HORMUZ RECLOSED. IRGC fired on Indian VLCC (2M bbl) despite clearance. India summoned Iran ambassador. Trump: got a little cute. Brent spiking. Ceasefire Apr 22. Second round talks uncertain.",
+      "sev": 3
+    },
+    {
+      "d": 51,
+      "l": "Apr 19",
+      "deaths": 6600,
+      "brent": 97,
+      "nifty": 24354,
+      "rupee": 93.7,
+      "tag": "US officials travelling to Pakistan — talks could resume Monday. Nuclear progress before Hormuz crisis (Axios). FACT: No Indian tanker crossing Apr 19 — VLCC fired on Apr 18 turned back. MEA Misri urged resume. Brent ~$97. Ceasefire Apr 22.",
+      "sev": 2
+    },
+    {
+      "d": 52,
+      "l": "Apr 20",
+      "deaths": 6600,
+      "brent": 96,
+      "nifty": 24354,
+      "rupee": 94.2,
+      "tag": "Iran REJECTED talks (IRNA). IRGC rebuilding missiles/drones during ceasefire (confirmed). USS Spruance seized Touska — CENTCOM video. ZERO Hormuz transit Sunday. Brent $95.64 (+5.8%). Markets open 9:15 AM. Ceasefire expires tomorrow.",
+      "sev": 3
+    }
+  ],
+  "hormuzLatest": [
+    {
+      "d": "Apr 20 7AM",
+      "e": "DAY 52 PRE-MARKET. USS Spruance seized Touska (CENTCOM video confirmed). Iran OFFICIALLY rejected second round talks (IRNA) — excessive demands, blockade violation. IRGC Aerospace commander: rebuilding missiles and drones faster than before war. ZERO tankers crossed Hormuz Sunday. Brent $95.64 (+5.8%) Sunday open. Ceasefire expires TOMORROW Apr 22. India markets open 9:15 AM IST — most dangerous session since Feb 28. Sensex gap-down risk: 70,000-73,000 if ceasefire lapses."
+    },
+    {
+      "d": "Apr 20 AM",
+      "e": "DAY 52. USS SPRUANCE SEIZED IRANIAN CARGO SHIP TOUSKA — fired into engine room, Marines boarded. Iran vowed swift response: \"Armed forces will soon respond.\" ZERO tankers crossed Hormuz Sunday (CNN). Brent +5.8% to $95.64. Vance+Witkoff+Kushner heading Islamabad Monday — Iran NOT confirmed, IRNA says declined. Trump: knock out every power plant and bridge. Ceasefire expires Wed Apr 22. IMO: 24 incidents total. Two more Indian-flag vessels attacked Apr 18. Brent $95+. India Monday open: extreme volatility."
+    },
+    {
+      "d": "Apr 19 PM",
+      "e": "HORMUZ CLOSED. IRGC targeting all vessels. No Indian tanker confirmed crossing Apr 19. Indian VLCC (2M bbl) fired on Apr 18, turned back. MEA urged Iran to resume. US officials travelling to Pakistan. Nuclear progress before crisis. Brent ~$96-97. Ceasefire Apr 22 — 3 days."
+    },
+    {
+      "d": "Apr 19 PM",
+      "e": "DAY 51 EVENING. Hormuz CLOSED. IRGC targeting all vessels. FACT CHECK: No Indian tanker crossing confirmed Apr 19 — Indian VLCC (2M bbl) was fired on Apr 18 and turned back. MEA Misri urged Iran to resume India-bound facilitation. Trump: US officials travelling to Pakistan — talks could resume Monday. Nuclear: most main points finalized (Trump/Bloomberg). Axios: nuclear progress made before Hormuz crisis. Situation Room: Vance, Rubio, Hegseth, Ratcliffe, Witkoff all present Sat. Brent ~$96-97. 19 ships turned back. Ceasefire expires Apr 22 — 3 days."
+    }
+  ],
+  "projNow": {
+    "brent": 96,
+    "rupee": 94.2,
+    "lpg": 912,
+    "petrol": 94.77,
+    "deaths": 6600
+  },
+  "scenarios": {
+    "headers": [
+      "Pre-war",
+      "Now (D52)",
+      "Extension somehow",
+      "Ceasefire lapses",
+      "Iran strikes back"
+    ],
+    "brent": [
+      65,
+      96,
+      82,
+      112,
+      130
+    ],
+    "rupee": [
+      91,
+      94.2,
+      91.5,
+      102,
+      108
+    ],
+    "deaths": [
+      0,
+      "6,600+",
+      "7,500",
+      "9,500+",
+      "20,000+"
+    ],
+    "sensex": [
+      "78,699",
+      "78,494*",
+      "76,000+",
+      "71,000",
+      "60,000"
+    ],
+    "lpg": [
+      "Rs 853",
+      "Rs 912",
+      "Rs 880",
+      "Rs 1,400+",
+      "Rs 1,800+"
+    ],
+    "fii": [
+      "-",
+      "Selloff risk",
+      "$10B return",
+      "$30B out",
+      "$55B out"
+    ]
+  },
+  "radar": [
+    {
+      "axis": "Oil Shock",
+      "w1": 60,
+      "now": 60,
+      "w4": 42,
+      "w8": 28
+    },
+    {
+      "axis": "Market Crash",
+      "w1": 45,
+      "now": 42,
+      "w4": 30,
+      "w8": 18
+    },
+    {
+      "axis": "Nuclear Risk",
+      "w1": 20,
+      "now": 88,
+      "w4": 82,
+      "w8": 70
+    },
+    {
+      "axis": "Hormuz Closure",
+      "w1": 80,
+      "now": 90,
+      "w4": 38,
+      "w8": 15
+    },
+    {
+      "axis": "Household Impact",
+      "w1": 15,
+      "now": 58,
+      "w4": 48,
+      "w8": 32
+    },
+    {
+      "axis": "Currency Crisis",
+      "w1": 40,
+      "now": 42,
+      "w4": 36,
+      "w8": 25
+    },
+    {
+      "axis": "Social Unrest",
+      "w1": 25,
+      "now": 58,
+      "w4": 48,
+      "w8": 35
+    },
+    {
+      "axis": "Military Exposure",
+      "w1": 35,
+      "now": 75,
+      "w4": 52,
+      "w8": 34
+    }
+  ],
+  "assessment": {
+    "headline": "DAY 52, 7 AM MON: IRAN REJECTED TALKS. IRGC REBUILDING WEAPONS. USS SEIZED TOUSKA. ZERO Hormuz Sunday. Brent +5.8%. INDIA MARKETS OPEN IN 2 HOURS. Ceasefire expires TOMORROW. Most dangerous day since Feb 28.",
+    "body": "7 AM Monday April 20. India markets open in 2 hours. This is the situation.\n\nIRAN OFFICIALLY REJECTED SECOND ROUND TALKS\n• IRNA Sunday: absence stems from \"Washington excessive demands, unrealistic expectations, constant shifts, repeated contradictions, and ongoing naval blockade\"\n• Supreme National Security Council: US proposals \"still under review,\" further talks require US to \"abandon excessive demands\"\n• Vance, Witkoff, Kushner flying to Islamabad — but Iran is not sending a delegation\n• Without Iran attending, talks cannot happen\n• This is the most definitive rejection since Islamabad round 1 collapsed April 12\n\nIRAN IS REBUILDING ITS WEAPONS DURING THE CEASEFIRE\n• IRGC Aerospace commander confirmed to IRIB state media: \"Our speed in updating and refilling missile and drone launch platforms is EVEN GREATER than before the war\"\n• Iran has been rearming throughout the ceasefire (April 8-22)\n• If ceasefire lapses tomorrow, Iran will have MORE strike capacity than it started with\n• For India: Gulf oil infrastructure, tankers, and Indian vessels are all in range\n\nUSS SPRUANCE SEIZED TOUSKA — FIRST NAVAL BOARDING\n• CENTCOM published video. 6-hour warning. Engine room fired on. Marines boarded.\n• Iran vowed \"swift response\" from armed forces\n• First Iranian ship physically seized since war began\n• 25 ships total turned back under US blockade\n\nZERO HORMUZ TRANSIT SUNDAY\n• CNN from ship tracking: zero tankers — quietest day since war began\n• Brent +5.8% to $95.64 on Sunday open\n• Iran turned back two more tankers Sunday\n• IRGC targeting order on all approaching vessels remains active\n\nWHAT THIS MEANS FOR INDIA — NEXT 2 HOURS\n• Sensex at 78,494 (last close April 17)\n• Brent at $95.64 — petrol/diesel hike risk, LPG cut fully reversed\n• Rupee heading toward 94.20-94.50\n• India VIX to open at 25-28 — near war-peak\n• Multiple Indian-flag vessels attacked, MEA summoned Iran ambassador\n• Ceasefire expires TOMORROW — this opens a 9:15 AM-3:30 PM IST window of maximum uncertainty\n• Infosys results Wednesday April 23 — next domestic anchor\n\nSCENARIO PROBABILITIES (7 AM IST ASSESSMENT)\n• Scenario A (30%): Iran somehow reverses rejection, talks happen Tuesday/Wednesday, ceasefire extended → Sensex opens 74,000-77,000\n• Scenario B (50%): Ceasefire lapses April 22, Iran responds to Touska, strikes resume → Sensex gap-down 70,000-73,000, Brent $108-120, rupee to 96+\n• Scenario C (20%): Both sides ignore expiry, de-facto standoff without new strikes → Sensex 73,000-76,000, Brent $97-102\n\nVERDICT: India is heading into its most dangerous market open since February 28. Three simultaneous risks are materialising simultaneously: (1) Iran officially rejecting talks while ceasefire expires in 36 hours, (2) IRGC openly rearming during ceasefire, (3) US physically seizing Iranian ship — all while zero oil is moving through Hormuz and Brent is rising. The window for avoiding renewed conflict is narrowing by the hour."
+  },
+  "featured": [
+    {
+      "title": "Geopolitics of LPG Supply in India",
+      "date": "March 18, 2026",
+      "tag": "PUBLICATION",
+      "tagColor": "#f59e0b",
+      "desc": "How India's LPG import dependency on the Gulf creates acute vulnerability during the Iran-Gulf War. Explores Hormuz exposure, alternative supply routes, and policy imperatives for energy security in a blockade scenario.",
+      "url": "https://takshashila.org.in/content/publications/20260318-LPG-Geopolitics.html",
+      "org": "Takshashila Institution",
+      "icon": "🛢️"
+    },
+    {
+      "title": "Geopolitics of Fertiliser Supply in India",
+      "date": "April 2, 2026",
+      "tag": "PUBLICATION",
+      "tagColor": "#10b981",
+      "desc": "India imports 30%+ of its fertilisers via the Strait of Hormuz. This paper maps the supply chain risks to kharif and rabi crops, the strategic case for diversification, and what a prolonged blockade means for food security.",
+      "url": "https://takshashila.org.in/content/publications/20260402-Fertilizer-Geopolitics.html",
+      "org": "Takshashila Institution",
+      "icon": "🌾"
+    }
+  ]
 }
