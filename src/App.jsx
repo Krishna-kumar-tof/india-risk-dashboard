@@ -434,7 +434,7 @@ export default function App() {
   const sv = s => s===3?"🔴":s===2?"🟠":"🟡";
   const share = (platform) => {
     const url = 'https://nithiyageo.github.io/india-risk-dashboard/';
-    const txt = `🇮🇳 Iran-Gulf War: India Threat Matrix — Day ${iDay} | ${iUpdated}`;
+    const txt = `🇮🇳 West Asia War: India Risk Dashboard — Day ${iDay} | ${iUpdated}`;
     if (platform==='x')    window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(txt)}&url=${encodeURIComponent(url)}`,'_blank');
     if (platform==='li')   window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(url)}`,'_blank');
     if (platform==='wa')   window.open(`https://wa.me/?text=${encodeURIComponent(txt+'\n\n'+url)}`,'_blank');
@@ -519,7 +519,7 @@ export default function App() {
             </div>
             <h1 className="hdr-h1" style={{margin:0, fontSize:26, fontWeight:800, color:C.white,
               fontFamily:SYNE, lineHeight:1.1, letterSpacing:-0.5}}>
-              How the Iran War<br/>Is Hitting India
+              How the West Asia War<br/>Is Hitting India
             </h1>
             <div style={{marginTop:8, fontSize:11, color:C.sub, fontFamily:MONO}}>
               {iUpdated} &nbsp;•&nbsp; 50+ verified sources
