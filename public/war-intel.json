@@ -1,95 +1,103 @@
 {
-  "_updated": "April 21, 2026 — 7:15 PM IST",
+  "_updated": "April 22, 2026 — 12:00 AM IST",
   "_day": 53,
   "_phase": "BLOCKADE",
-  "_note": "Verified: CNN live (36min ago), Axios, NPR, Business Standard, Euronews, ABC7, MS NOW, CNBC. DAY 53 TUE 7:15PM IST: Sensex +753 to 79,273. Nifty +212 to 24,577. Brent ~$95. Vance DEPARTED for Islamabad (Axios: 3 US sources). Iran state TV: \"no delegation departed yet\" — but AP (2 regional officials): Iranian negotiators WILL attend; Ghalibaf + Araghchi go IF Vance present (MS NOW diplomat). WH Leavitt Mon night: \"never been so close to making a truly good deal.\" Trump CNBC Squawk Box: \"going to end up with a great deal.\" Axios: IRGC pressuring negotiators to hold firm. Iran Gen. Abdollahi: prepared to respond decisively to ceasefire breach. Ceasefire expires 1:30 AM IST WEDNESDAY = tonight. All language updated to West Asia War.",
+  "_note": "Verified: CNN, NPR, Time, Al Jazeera, OPB, CNBC, CBS News live, Investing.com, Irish Times, PBS. DAY 53 NIGHT: TRUMP EXTENDED CEASEFIRE INDEFINITELY — no end date, at Pakistan (Munir + Sharif) request. Vance trip CANCELLED — stayed in West Wing 5hrs. SECOND SHIP BOARDED: M/T Tifani (Indian Ocean, ~400mi SE Sri Lanka) — sanctioned Iranian crude carrier. Iran reaction: Ghalibaf adviser: \"extension means nothing — must be met with military response.\" Tasnim: Iran NOT attending Wednesday talks. Araghchi: blockade is \"act of war.\" Iran UN envoy Iravani: talks after blockade lifted. Bessent: Kharg Island storage full \"in days.\" Brent briefly topped $101 before settling ~$95. Sensex 79,273, Nifty 24,577 (prev close). ALL LANGUAGE: West Asia War.",
   "ticker": [
-    "🛫 VANCE DEPARTED FOR ISLAMABAD (Axios: 3 US sources confirmed). Ceasefire expires TONIGHT 1:30 AM IST. Iran state TV: no delegation yet — but AP: Iran WILL attend; Ghalibaf + Araghchi going IF Vance present.",
-    "📈 SENSEX +753 to 79,273. NIFTY +212 to 24,577. Markets rallied on ceasefire extension hopes and imminent Islamabad talks. Brent ~$95 — stable. VIX still elevated.",
-    "💬 WH PRESS SEC LEAVITT (Mon night Fox News): 'The United States tonight has never been so close to making a truly good deal.' TRUMP CNBC Squawk Box Tue: 'Going to end up with a great deal.'",
-    "⚠️ IRGC BLOCKING IRAN DIPLOMATS — Axios (3 US sources): IRGC putting pressure on Iranian negotiators to hold firmer line — 'no talks without lifting blockade.' Internal Iran power struggle between diplomats and IRGC.",
-    "⚔️ Iran General Abdollahi (top joint military command) Tuesday: Iran 'prepared to respond decisively to enemy's breach of promises.' Ceasefire breach response still on table.",
-    "🚢 Brent $95.38 (-0.1%) Tuesday. Trump 'great deal' comment cooled oil slightly. Iran state TV: no delegation departed yet as of Tue morning. Islamabad hotels, security, and protocol all in place for talks.",
-    "⏰ CEASEFIRE EXPIRES 1:30 AM IST WEDNESDAY. If talks begin tonight Islamabad time and show progress: Trump may allow informal extension. If Iran no-shows by midnight ET: war resumes Wednesday.",
-    "🇮🇳 India markets closed +753 Sensex. VIX still elevated at ~19. Wednesday = ceasefire outcome + Infosys Q4 results. Double event risk. Rupee ~94.00. Petrol/diesel decisions deferred.",
-    "🇨🇳 China's Xi pressed Saudi MBS for Hormuz opening. Egypt + Pakistan + Turkey all pushing Iran to talks. 500M+ barrels disrupted since Feb 28 — largest supply shock in modern history (Kpler).",
-    "📊 NPR sticking points confirmed: (1) Nuclear enrichment — US: no enrichment ever; Iran: won't accept. (2) US naval blockade — Iran: must be lifted first; US: only after deal. (3) Lebanon — Iran: ceasefire must include it; US/Israel: no. Three hard gaps remain."
+    "☮️ TRUMP EXTENDED CEASEFIRE INDEFINITELY — no end date, at Pakistan's request (PM Sharif + Field Marshal Munir). Will hold until Iran submits 'unified proposal.' Blockade continues.",
+    "🚫 VANCE ISLAMABAD TRIP CANCELLED — stayed in West Wing for 5 hours of policy meetings. Witkoff and Kushner also in Washington. No US delegation travelling to Islamabad.",
+    "🛢️ SECOND SHIP BOARDED: M/T Tifani — sanctioned oil tanker interdicted in Indian Ocean (~400mi SE Sri Lanka) by US Indo-Pacific Command. Pentagon: 'without incident.' Tifani previously at Iran's Kharg Island April 6.",
+    "⚔️ IRAN REACTION: Ghalibaf adviser: 'Extension means nothing. Continuation of siege is no different from bombardment and MUST BE MET WITH A MILITARY RESPONSE.' Tasnim: Iran NOT attending Wednesday talks.",
+    "🛢️ BRENT BRIEFLY TOPPED $101 — first time above $100 since ceasefire announcement. Settled back to ~$95. Saudi/UAE Yanbu + Fujairah bypass routes rising to 6.5 mbpd (ANZ) — up from 5.0 mbpd pre-war.",
+    "💬 ARAGHCHI: US blockade is 'an act of war and violation of ceasefire.' Iran UN envoy Iravani: 'As soon as Washington ends the naval blockade, the next round of negotiations will be held in Islamabad.'",
+    "⚠️ TRUMP ADVISERS privately warned: open-ended extension removes pressure on Iran and allows Tehran to DRAG OUT talks (CNN sources). No new deadline = Iran has no urgency to submit a proposal.",
+    "💰 BESSENT: Kharg Island oil storage 'full in days' — US blockade tightening economically. Iran earning ~$0 in oil exports. Rystad: Gulf states producing 14.3 mbpd in April, down 3 mbpd vs March.",
+    "🇮🇳 India: Sensex 79,273 (+753), Nifty 24,577 (+212) — ceasefire extension priced in during day. Brent $95 settled. Rupee ~94.00. Infosys Q4 results tomorrow — now the key domestic catalyst.",
+    "📊 NEW STATUS: Ceasefire indefinite = no imminent war risk BUT blockade continues = no Hormuz opening = Brent stays $93-100 = India LPG/petrol pressure persists. 500M+ barrels disrupted (Kpler)."
   ],
   "whatChanged": {
-    "label": "WHAT CHANGED — APR 21, 7:15 PM IST (DAY 53) — CEASEFIRE EXPIRY TONIGHT",
+    "label": "WHAT CHANGED — APR 21, 9:30 PM IST (DAY 53 NIGHT) — CEASEFIRE EXTENDED INDEFINITELY",
     "items": [
       {
         "color": "green",
-        "bold": "VANCE DEPARTED for Islamabad — Axios confirmed by 3 US sources. Talks tonight.",
-        "text": "Axios (three US sources, updated Tuesday): VP Vance departed for Islamabad by Tuesday morning for a second round of talks over a potential deal to end the West Asia War. The US delegation is led by Vance with special envoy Steve Witkoff and Jared Kushner. CNN live blog confirmed Vance and top US officials \"expected to depart today for Islamabad.\" Pakistan's Islamabad is in full lockdown with 10,000 security forces deployed and the Serena Hotel prepared. The ceasefire expires tonight at 1:30 AM IST Wednesday. Trump could allow an informal extension if talks show meaningful progress — he already extended from Tuesday to Wednesday evening ET. This is the most consequential diplomatic arrival since Vance came to Islamabad for round one on April 11."
+        "bold": "TRUMP EXTENDED CEASEFIRE INDEFINITELY — no end date, at Pakistan's request.",
+        "text": "Trump announced via Truth Social Tuesday: the ceasefire would be extended until \"such time as their leaders and representatives can come up with a unified proposal.\" No specific end date provided. Trump said the decision was made \"at the request of Field Marshal Asim Munir, and Prime Minister Shehbaz Sharif, of Pakistan.\" He also cited Iran's government being \"seriously fractured, not unexpectedly so\" as a reason — signalling awareness of the IRGC vs diplomatic corps divide. Pakistan PM Sharif immediately thanked Trump: \"graciously accepting our request to extend the ceasefire to allow ongoing diplomatic efforts to take their course.\" The extension removes the immediate war resumption risk — but without a deadline, it also removes the pressure on Iran to come to the table urgently."
       },
       {
         "color": "amber",
-        "bold": "Iran state TV: \"No delegation departed yet.\" But AP (2 regional officials): Iran WILL attend.",
-        "text": "Iran state TV Tuesday: \"So far, no delegation from Iran has departed for Islamabad, Pakistan, whether it is the main or subsidiary delegation.\" However — AP (two regional officials): Iranian negotiators will attend the talks. MS NOW (foreign diplomat inside Tehran with close contact to Ghalibaf): Parliament Speaker Ghalibaf and FM Araghchi will travel to Islamabad, but ONLY IF Vance is personally present. Vance has confirmed going. The critical variable is timing: will the Iranian delegation depart before the 1:30 AM IST Wednesday expiry, allowing talks to begin? Axios separately reported the IRGC has been pressuring Iran's negotiators to hold a firmer line — the internal power struggle between Iran's diplomatic corps and its military is the real reason for the ambiguity."
-      },
-      {
-        "color": "green",
-        "bold": "WH Leavitt: \"Never been so close.\" Trump CNBC: \"Going to end up with a great deal.\"",
-        "text": "White House Press Secretary Karoline Leavitt on Fox News Monday night: \"The United States of America tonight has never been so close to making a truly good deal.\" Praised Trump's \"hard-line negotiating style.\" Trump separately told CNBC's Squawk Box Tuesday: \"What I think is that we're going to end up with a great deal.\" Brent crude fell slightly on the Trump CNBC comment — from $95.38 to near flat. These are the most optimistic public signals from the US side since the West Asia War began on February 28. However, both Trump and Leavitt have made optimistic statements before that did not materialise. The Iran IRGC internal pressure dynamic (Axios) is the key unpredictable variable."
+        "bold": "VANCE ISLAMABAD TRIP CANCELLED — White House said Vance held policy meetings, not travelling Tuesday.",
+        "text": "Following Trump's ceasefire extension announcement, a White House official confirmed Vance would not be travelling to Pakistan on Tuesday — he had been spotted by CNN cameras departing the White House at approximately 6 PM ET after roughly 5 hours in the West Wing. \"Additional policy meetings are taking place at the White House in which the vice president will participate.\" Witkoff and Kushner were also expected to remain in Washington for consultations. The White House said \"any further updates on in-person meetings will be announced.\" This means round two of the Islamabad talks is on hold — with no confirmed date. Officials said a trip could be arranged quickly \"if they receive indications that Iran is prepared to come back to the table.\""
       },
       {
         "color": "red",
-        "bold": "IRGC BLOCKING diplomats — pressuring negotiators to hold firm on blockade (Axios).",
-        "text": "Axios (sourced from a person with knowledge of the White House deliberations): \"The Iranians were stalling amid apparent pressure from the Revolutionary Guards on the negotiators to hold a firmer line: no talks without lifting the blockade.\" This explains the gap between Iran's public refusals and private signals that a delegation is coming. The IRGC — Iran's military-ideological force — is resistant to talks while the US blockade remains in place and while the Touska seizure has not been answered. Iran's diplomatic corps (Araghchi, the Foreign Ministry) wants to negotiate. The IRGC wants to escalate. The outcome of this internal power struggle determines whether talks happen tonight — and whether any deal holds."
+        "bold": "SECOND SHIP BOARDED: M/T Tifani interdicted in Indian Ocean by US Indo-Pacific Command.",
+        "text": "The Pentagon confirmed US forces boarded the M/T Tifani — a \"stateless sanctioned\" oil tanker — in the US Indo-Pacific Command area of responsibility, \"without incident.\" Ship tracking showed Tifani in the Indian Ocean approximately 400 miles southeast of Sri Lanka, heading toward Singapore. Satellite imagery confirmed the vessel was previously docked at Iran's Kharg Island on April 6. Tifani is sanctioned for conducting dark ship-to-ship transfers of Iranian crude oil in Asian waters. Pentagon: \"International waters are not a refuge for sanctioned vessels.\" This is the second ship the US has physically seized since the West Asia War began — the first being the Touska in the Gulf of Oman on April 19. The Tifani interception extends the US enforcement posture from the Gulf all the way to the Indo-Pacific — a significant geographic escalation of the blockade."
       },
       {
         "color": "red",
-        "bold": "Iran Gen. Abdollahi: \"Prepared to respond decisively to enemy's breach.\" Military on alert.",
-        "text": "Gen. Ali Abdollahi, commander of Iran's Khatam al-Anbiya Central Headquarters (top joint military command), stated Tuesday: Iran is \"prepared to respond decisively to the enemy's breach of promises,\" per IRNA. Iran's judiciary head Ejei separately: \"strong possibility\" of more US attacks; Iran will \"definitely respond\" to Touska seizure. This military signalling is consistent with Ghalibaf's \"new battlefield cards\" warning. The IRGC has confirmed it rearmed during the ceasefire. If talks collapse tonight and ceasefire lapses: the Iranian military response could be a Gulf oil infrastructure strike, escalated Hormuz drone attacks, or an IRGC missile salvo — within hours of the 1:30 AM IST expiry."
-      },
-      {
-        "color": "green",
-        "bold": "SENSEX +753 to 79,273. NIFTY +212 to 24,577. Markets pricing in talks and extension.",
-        "text": "India markets closed sharply higher Tuesday — Sensex 79,273.33 (+753.03 / +0.96%), Nifty 24,576.60 (+211.75 / +0.87%), third consecutive session of gains. Business Standard: \"traders hoped that the US and Iran would likely extend their ceasefire in the impending meeting in Islamabad.\" Nestle India, Trent, Hindustan Unilever were top Nifty50 gainers. FMCG and Realty outperformed. Pharma was the worst performer. Broader markets also up — MidCap +0.49%, SmallCap +0.88%. The 753-point Sensex gain reflects the market pricing in a 55-60% probability of ceasefire extension. Brent was ~$95.38 on Tuesday (-0.1% from Monday) — moderated on Trump \"great deal\" comment. If ceasefire confirmed extended tonight: Sensex could gap up to 80,000+ Wednesday."
+        "bold": "IRAN REACTION: \"Extension means nothing — continuation of siege must be met with military response.\"",
+        "text": "Ghalibaf adviser Mahdi Mohammadi (Reuters/CNN): \"Trump's ceasefire extension means nothing. The losing side cannot dictate terms. The continuation of the siege is no different from bombardment and must be met with a military response.\" Tasnim reported Iran announced it would NOT attend talks on Wednesday, citing \"an Iranian official.\" Araghchi on X: US blockade is \"an act of war and thus a violation of the ceasefire\" — the Touska seizure is \"an even greater violation.\" Iran UN envoy Iravani: \"As soon as Washington ends the naval blockade, I think the next round of negotiations will be held in Islamabad.\" Tasnim separately: Iran declared Hormuz water routes \"closed until further notice\" following ceasefire violations — a new channel Iran had designed for commercial passage is now shut."
       },
       {
         "color": "amber",
-        "bold": "Three hard gaps remain — nuclear, blockade, Lebanon. NPR sticking points confirmed.",
-        "text": "NPR confirmed the three core unresolved issues ahead of the second Islamabad round: (1) Nuclear enrichment — the US demands Iran commit to never seeking a nuclear weapon or the tools for one; Iran says it will \"never accept\" being an \"exception from international law\" on enrichment. (2) US naval blockade — Iran says the blockade must be lifted before talks can proceed meaningfully; the US says the blockade stays until a deal is done. (3) Lebanon — Iran insists any deal must include a ceasefire in Lebanon; the US and Israel have refused. None of these three gaps closed in round one. The objective of round two is narrower: agree a framework and a ceasefire extension of perhaps 2-4 weeks, not a final deal. Even that limited goal requires both sides to show up and find minimal common ground tonight."
+        "bold": "BRENT briefly topped $101 — first above $100 since ceasefire. Settled ~$95.",
+        "text": "Investing.com confirmed Brent briefly topped $101 per barrel on Tuesday — the first time above $100 since the original ceasefire announcement on April 8 sent prices tumbling. This occurred when it became clear Vance was not departing for Pakistan and Iran confirmed it would not attend talks. Brent then retreated to approximately $95 after Trump's ceasefire extension announcement provided temporary relief. Saudi Arabia and UAE bypass routes via Yanbu (Red Sea) and Fujairah (Gulf of Oman) rising to 6.5 mbpd — up from 5.0 mbpd pre-war (ANZ). Gulf states producing 14.3 mbpd in April, down 3 mbpd vs March (Rystad). Bessent: Kharg Island oil storage \"full in days\" — the blockade is economically tightening."
+      },
+      {
+        "color": "amber",
+        "bold": "Trump advisers warning: indefinite extension removes pressure, allows Iran to drag out talks.",
+        "text": "CNN (sources familiar with discussions): Trump's advisers \"have privately warned the president that alleviating pressure could allow Iran to drag out negotiations.\" Without a new deadline, Iran has no urgency to submit a unified proposal. The open-ended extension reflects a genuine dilemma: a hard deadline risks war if Iran calls the bluff; an open-ended extension risks indefinite stalemate. Trump appears to have sided with Pakistani mediators who argued for more time. The US position for resuming talks remains: Iran must submit a unified proposal (implying sign-off from Iran's Supreme National Security Council, which needs IRGC agreement). Treasury Sec Bessent signalled the blockade will intensify, not ease — making Iran's precondition of lifting the blockade before talks even harder to meet."
       },
       {
         "color": "cyan",
-        "bold": "Wednesday = Ceasefire outcome (1:30 AM IST) + Infosys Q4 results. Highest-stakes dual event.",
-        "text": "Tonight at 1:30 AM IST the ceasefire expires unless extended. Wednesday market open at 9:15 AM IST will be the first session with a clear answer. Simultaneously, Infosys reports Q4 results Wednesday during market hours — the first major IT bellwether result of the post-war earnings season. Scenario A (55%): Talks begin tonight, ceasefire extended by Trump — Sensex 80,000-82,000+, Brent $88-92, India VIX falls to 15-17. Scenario B (30%): Iran no-shows or talks collapse, ceasefire lapses — Sensex 73,000-75,000, Brent $108-120, rupee to 97+, VIX spikes to 28+. Scenario C (15%): De-facto standoff, both sides hold fire without formal extension — Sensex 76,000-79,000, Brent $95-100. Infosys results will add a domestic layer to whichever geopolitical scenario plays out."
+        "bold": "India: Sensex 79,273 (+753), Nifty 24,577. Infosys Q4 tomorrow. Rupee ~94.00. Brent $95.",
+        "text": "India markets had already priced in the ceasefire extension during Tuesday's session — Sensex 79,273.33 (+753.03, +0.96%), Nifty 24,576.60 (+211.75, +0.87%). The indefinite ceasefire extension confirms what the market bet on. Key shifts for India: (1) No imminent war resumption = structural positive for sentiment. (2) Blockade continues = Hormuz stays restricted = Brent stays $93-100 = no near-term LPG/petrol relief. (3) Second ship boarded in Indian Ocean = US enforcement extending to India's maritime neighbourhood. (4) Infosys Q4 results Wednesday morning = the primary domestic market catalyst tomorrow, now that geopolitical risk is slightly reduced. Rupee ~94.00 holding steady. Op Urja Suraksha on HIGH ALERT — 280 Indian seafarers still affected. 20,000+ seafarers stranded across the Gulf (CBS News)."
+      },
+      {
+        "color": "amber",
+        "bold": "Hormuz stays restricted. Iran shut new commercial passage route after ceasefire violation.",
+        "text": "Tasnim reported that Iran declared the new water route it had designed for controlled passage of commercial vessels \"closed until further notice\" following what it called US ceasefire violations. This shuts the alternative channel Iran had created post the brief April 17-18 opening — meaning even the limited navigation option Iran had previously offered is now gone. CBS News journalists confirmed the gridlock first-hand, posing as tourists to access the strait by pleasure boat: \"dozens of cargo ships and tankers, all of which have sat idle for weeks.\" About 20,000 seafarers remain stranded on hundreds of ships in the Gulf. Including multiple Indian-flag vessels, crew, and the broader Indian maritime community. MEA back-channel with Tehran remains active. India-Iran relationship at maximum strain."
       }
     ]
   },
   "deaths": "6,600+",
-  "deathsSub": "~3,375+ Iran, 2,294+ Lebanon, 99 Iraq, 23+ Israel, 13 US (+2 noncombat), 35+ Gulf. Hezbollah broke Lebanon ceasefire Monday — 4 Israeli tanks destroyed in south Lebanon.",
+  "deathsSub": "~3,375+ Iran, 2,294+ Lebanon, 99 Iraq, 23+ Israel, 13 US (+2 noncombat), 35+ Gulf. Hezbollah broke Lebanon ceasefire Monday — 4 Israeli tanks destroyed.",
   "econ": {
     "sensex": "79,273",
-    "sensexDelta": "APR 21 CLOSE: +753 (+0.96%) — strong rally on ceasefire extension hopes.",
-    "sensexSub": "Third consecutive gaining session. Wednesday = ceasefire outcome + Infosys results.",
-    "vix": "~19 (still elevated)",
-    "vixDelta": "Markets priced in talks optimism. VIX to spike or collapse based on tonight's ceasefire outcome.",
-    "fpi": "FMCG, Realty led. MidCap +0.49%, SmallCap +0.88%.",
-    "fpiDelta": "If ceasefire extended tonight: FII structural accumulation likely. If lapses: structural selloff.",
-    "wealth": "BSE market cap ~Rs 457L Cr (+Rs 4L Cr on day). Wednesday is the verdict session.",
-    "analysis": "DAY 53 TUE 7:15PM IST: Sensex 79,273 (+753). Nifty 24,577 (+212). Brent $95.38 (-0.1%). Vance departed for Islamabad (Axios: 3 US sources). Iran state TV: no delegation departed yet — but AP (2 regional officials) and MS NOW diplomat: Iran WILL attend if Vance present. WH Leavitt: \"never been so close to a great deal.\" Trump CNBC: \"going to end up with a great deal.\" Axios: IRGC pressuring Iranian negotiators to hold firm — explains ambiguity. Iran Gen. Abdollahi: prepared to respond decisively. Markets rallied 753 pts on extension hopes. Ceasefire expires 1:30 AM IST Wednesday. Three gaps remain: nuclear, blockade, Lebanon. Wednesday = expiry outcome + Infosys Q4. Scenario probabilities: 55% talks/extension, 30% lapses, 15% standoff."
+    "sensexDelta": "APR 21 CLOSE: +753 (+0.96%) — market closed BEFORE Trump ceasefire extension announcement.",
+    "sensexSub": "Third consecutive gaining session. Brent settled $98.48 after Trump announcement. Wed: Infosys Q4 + extension dynamics.",
+    "vix": "~17-18 (easing on indefinite extension)",
+    "vixDelta": "Indefinite extension removes immediate war resumption risk. VIX may ease to 16-17 Wednesday.",
+    "fpi": "FMCG, Realty led Tuesday. FII accumulation selective in power, capital goods.",
+    "fpiDelta": "Structural FII return on ceasefire extension. Brent $95 cap on IT/discretionary.",
+    "wealth": "BSE market cap ~Rs 457L Cr. Wednesday = Infosys Q4 + any Iran response to extension.",
+    "analysis": "DAY 53 LATE: Ceasefire EXTENDED INDEFINITELY by Trump at Pakistan request. Iran \"seriously fractured\" — must submit unified proposal. Vance stayed Washington. Islamabad talks postponed indefinitely. M/T Tifani boarded Indian Ocean (400mi SE Sri Lanka) — US enforcement now global. Brent spiked $101 pre-announcement, settled $98.48 (+3.1%). Kharg Island storage filling in days (Bessent). UK+France 30-nation military Hormuz conference Wednesday. Iran: extension \"means nothing\", prepared for renewed war, \"new surprises.\" Iran domestic flights resume Wednesday. Sensex 79,273 closed before announcement — Wednesday open moderate positive on no-war news, slight Brent headwind at $98 vs $95. Infosys Q4 results Wednesday. Scenarios: 60% ceasefire holds, talks eventually resume → Sensex 82,000+. 25% stalemate, no talks, Kharg fills → Brent $104, Sensex 76,000. 15% Iran escalates → Brent $125+, Sensex 68,000."
   },
   "hormuzStatus": {
-    "status": "HORMUZ RESTRICTED. TALKS IMMINENT. CEASEFIRE EXPIRES TONIGHT 1:30 AM IST.",
+    "status": "HORMUZ RESTRICTED. CEASEFIRE EXTENDED INDEFINITELY. UK+FRANCE 30-NATION MILITARY CONFERENCE WEDNESDAY.",
     "preWarFlow": "130-160 ships/day",
-    "currentFlow": "Very low. IRGC enforcement active. Brent $95.38. Vance en route Islamabad. Iran delegation expected if Vance present. Ceasefire expires tonight.",
-    "reduction": "90%+ disruption. 500M+ barrels knocked from global supply — largest disruption in modern history (Kpler). Rystad: Hormuz crisis upgraded 2026 oil price outlook significantly.",
+    "currentFlow": "Very low — ~12 ships past 24 hours (MarineTraffic). IRGC enforcement active. US blockade continues with no Islamabad talks date. Iran domestic flights restarting.",
+    "reduction": "90%+ disruption. Iran shut new commercial channel. Saudi/UAE bypass rising but insufficient — combined 6.5 mbpd vs 20 mbpd through Hormuz pre-war. 500M+ barrels disrupted — largest in modern history (Kpler).",
     "indianVesselsNear": 8,
     "indianSeafarers": 280,
     "indianTransited": 0,
-    "totalShipsWaiting": "230+ tankers stranded. India buffer consuming daily. OMCs await ceasefire outcome before pricing decisions. Rupee ~94.00.",
-    "lastTransit": "16 ships Monday (MarineTraffic). Sunday: zero. Brief window Apr 17-18: 8+ ships. USS Spruance seized Touska Apr 19.",
-    "indianNavyEscort": "Op Urja Suraksha on HIGH ALERT. Indian Navy warships in Gulf of Oman. MEA channel with Tehran active.",
-    "headline": "TALKS IMMINENT. Vance en route. Iran expected IF Vance present. Ceasefire expires TONIGHT 1:30 AM IST. Wednesday = deal or war."
+    "totalShipsWaiting": "20,000+ seafarers stranded (CBS News). 230+ tankers anchored. Tifani (Indian Ocean) seized. CBS journalists confirmed gridlock by pleasure boat in strait.",
+    "lastTransit": "Iran shut new commercial route. Last meaningful transit: brief Apr 17-18 window (8+ ships). USS Spruance seized Touska Apr 19. M/T Tifani seized Indian Ocean Apr 21.",
+    "indianNavyEscort": "Op Urja Suraksha on HIGH ALERT. Indian Navy in Gulf of Oman. MEA back-channel with Tehran. Tifani seizure in Indian Ocean = US enforcement extends to India's maritime zone.",
+    "headline": "Indefinite ceasefire. No Islamabad talks date. UK+France 30-nation military Hormuz conference Wednesday. Kharg filling. Two ships seized/boarded. Iran domestic flights resume."
   },
   "hormuzEvents": [
     {
-      "d": "Apr 21 PM",
-      "e": "DAY 53 EVENING. Sensex +753 to 79,273. Nifty +212 to 24,577. Markets priced in ceasefire extension. Vance departed Islamabad (Axios: 3 US sources). Iran state TV: no delegation yet. AP (2 regional officials): Iran WILL attend. MS NOW: Ghalibaf + Araghchi go IF Vance present. WH Leavitt: \"never been so close to a great deal.\" Trump CNBC: \"great deal coming.\" IRGC pressuring negotiators to hold firm (Axios). Iran Gen. Abdollahi: prepared to respond decisively. Brent $95.38. Ceasefire expires 1:30 AM IST Wed. Wednesday = ceasefire outcome + Infosys Q4."
+      "d": "Apr 21 Night",
+      "e": "DAY 53 NIGHT 9:30PM IST. TRUMP EXTENDED CEASEFIRE INDEFINITELY — no end date, Pakistan request. Vance Islamabad trip cancelled. M/T TIFANI seized Indian Ocean (400mi SE Sri Lanka) — second ship boarded in West Asia War. Iran: extension \"means nothing,\" Hormuz commercial route closed, NOT attending Wednesday talks. Araghchi: blockade is \"act of war.\" Brent briefly $101, settled ~$95. Bessent: Kharg storage full in days. 20,000+ seafarers stranded (CBS News). Sensex 79,273 (+753). Nifty 24,577 (+212). Infosys Q4 tomorrow."
+    },
+    {
+      "d": "Apr 22 12AM",
+      "e": "DAY 53 LATE. TRUMP EXTENDED CEASEFIRE INDEFINITELY at Pakistan PM request — Iran must submit unified proposal. Vance DID NOT travel — stayed Washington, WH policy meetings. SECOND tanker boarded: M/T Tifani (Indian Ocean, INDOPACOM). Brent spiked $101, settled $98.48 (+3.1%). Kharg Island storage filling in days (Bessent). UK+France 30-nation military Hormuz conference Wed. Iran: extension \"means nothing,\" prepared for renewed war, \"new surprises.\" Iran domestic flights resume Wed. Sensex 79,273. Nifty 24,577. Infosys Q4 results Wed."
+    },
+    {
+      "d": "Apr 22 9AM",
+      "e": "DAY 54. Trump extended ceasefire INDEFINITELY — Iran must submit \"unified proposal,\" govt \"seriously fractured.\" Vance did NOT travel. M/T Tifani seized in Bay of Bengal (2M bbl Iranian oil, loaded Kharg April 5). Kharg Island storage full in days (Bessent). Brent $98.48 settled (+3.1%), spiked to $101 pre-announcement. Iran adviser Mohammadi: extension \"means nothing,\" \"time for Iran to take initiative.\" UK+France 30-nation Hormuz military conference London today. EU sanctioned Iran blockers. FPI outflows Rs 1.67L Cr YTD record. Infosys results April 23. No new deadline — open-ended."
     },
     {
       "d": "Apr 20 PM",
@@ -106,14 +114,6 @@
     {
       "d": "Apr 18 PM",
       "e": "CRISIS: Hormuz reclosed. IRGC fired on 2+ tankers including 2 INDIAN VESSELS — Indian-flagged VLCC (2M barrels Iraqi oil) attacked despite clearance. UKMTO: 2 IRGC gunboats, no VHF challenge, opened fire — crew safe. Iran IRIB: Hormuz returned to previous state, US failing commitments. Trump: Iran got a little cute. India summoned Iranian ambassador. Brent spiking. US CENTCOM: 23 ships turned around total. Second round talks uncertain."
-    },
-    {
-      "d": "Apr 18 AM",
-      "e": "Rubio: Iran can have civilian nuclear program (major US shift). Brent ~$88-90 after 9% crash Friday. Ghalibaf had threatened Hormuz closure if blockade not lifted. Ships attempting transit post-FM opening."
-    },
-    {
-      "d": "Apr 17 PM",
-      "e": "HORMUZ DECLARED COMPLETELY OPEN by Iran FM Araghchi: \"passage for all commercial vessels declared completely open for remaining period of ceasefire.\" Sensex +505 to 78,494. Nifty +157 to 24,354. Dow Futures +500. US blockade of Iranian ports remains. House war powers failed 213-214. South Korea first crude via Red Sea. FII +Rs 382 Cr Apr 16. Ceasefire Apr 22 — 5 days."
     }
   ],
   "kitchen": [
@@ -201,52 +201,46 @@
   ],
   "military": [
     {
-      "t": "VANCE DEPARTED for Islamabad — Axios: 3 US Sources Confirmed. Talks Tonight.",
+      "t": "TRUMP EXTENDED CEASEFIRE INDEFINITELY — No End Date. Pakistan Request. Blockade Continues.",
       "lv": "BREAKING",
       "color": "green",
-      "d": "Axios (three US sources, Tuesday): VP Vance departed for Islamabad by Tuesday morning for a second round of talks to end the West Asia War. CNN live confirmed US officials expected to depart today. Pakistan in full lockdown — 10,000 security forces, Serena Hotel prepared, all protocol in place. Ceasefire expires tonight at 1:30 AM IST Wednesday. Trump could allow informal extension if talks show progress — he already extended from Tuesday to Wednesday evening ET. Vance leading with Witkoff and Kushner as in round one. Critical question: will the Iranian delegation arrive before or after the ceasefire technically expires? If Iran arrives and begins indirect talks: Trump will almost certainly hold fire even if the clock runs out."
+      "d": "Trump Truth Social Tuesday: ceasefire extended \"until such time as their leaders and representatives can come up with a unified proposal.\" No specific deadline. Made \"at the request of Field Marshal Asim Munir, and Prime Minister Shehbaz Sharif, of Pakistan.\" Trump cited Iran's government being \"seriously fractured\" — acknowledging the IRGC vs diplomatic corps divide. Military directed to \"continue the Blockade and, in all other respects, remain ready and able.\" PM Sharif thanked Trump on X. Iran has not responded to the extension announcement. CNN: Trump's advisers privately warned the open-ended extension removes pressure on Iran and \"could allow Tehran to drag out negotiations.\" Officials said a trip to Islamabad could be arranged quickly if Iran signals readiness to return to the table."
     },
     {
-      "t": "Iran: No Delegation Yet (State TV) — But AP + MS NOW: They WILL Come If Vance Is There.",
+      "t": "VANCE ISLAMABAD TRIP CANCELLED. Second Ship Seized: M/T TIFANI in Indian Ocean.",
       "lv": "BREAKING",
       "color": "amber",
-      "d": "Iran state TV Tuesday: \"So far, no delegation from Iran has departed for Islamabad, whether main or subsidiary, primary or secondary.\" BUT — AP (two regional officials): Iranian negotiators will attend. MS NOW (foreign diplomat in Tehran with close contact to Ghalibaf): Ghalibaf and FM Araghchi will travel to Islamabad, but ONLY IF Vance is personally present. Vance has confirmed going. Axios: the White House spent all of Monday waiting for Tehran signal — delayed by IRGC pressure on negotiators to hold firm on blockade. This internal power struggle between Iran's diplomatic corps and IRGC is the real story. If IRGC pressure yields to diplomatic pragmatism: Iran shows up. If IRGC wins the internal argument: Iran doesn't come and war resumes."
+      "d": "Following the ceasefire extension, a White House official confirmed Vance would not travel to Pakistan Tuesday — he spent ~5 hours in the West Wing for policy meetings. Witkoff and Kushner also stayed in Washington. \"Any further updates on in-person meetings will be announced by the White House.\" Simultaneously: Pentagon confirmed US forces boarded M/T Tifani — a \"stateless sanctioned\" crude oil tanker — in the Indo-Pacific Command area of responsibility (Indian Ocean, ~400 miles SE of Sri Lanka) heading toward Singapore. Satellite imagery confirmed prior docking at Iran's Kharg Island April 6. Tifani sanctioned for dark ship-to-ship transfers of Iranian crude. Pentagon: \"without incident.\" This is the second West Asia War ship seizure — Touska (Apr 19, Gulf of Oman) was the first. The Tifani interception extends US enforcement from the Gulf to the Indo-Pacific — a major geographic expansion of the blockade."
     },
     {
-      "t": "IRGC Blocking Iran Diplomats — Pressuring \"No Talks Without Lifting Blockade\" (Axios).",
+      "t": "IRAN: \"Extension Means Nothing.\" Hormuz Commercial Route CLOSED. NOT Attending Wednesday Talks.",
       "lv": "BREAKING",
       "color": "red",
-      "d": "Axios (person with knowledge of White House deliberations): \"The Iranians were stalling amid apparent pressure from the Revolutionary Guards on the negotiators to hold a firmer line: no talks without lifting the blockade.\" This is the most significant piece of intelligence on the talks. Iran's IRGC — which has its own navy, confirmed it rearmed during the ceasefire, and called Touska seizure \"piracy\" — is not aligned with the Foreign Ministry position on talks. Iran's Parliament Speaker Ghalibaf serves as a bridge figure: he is both a political figure with IRGC roots AND the designated negotiator. His statement about \"new battlefield cards\" reflected IRGC pressure. Whether he ultimately travels to Islamabad reflects the outcome of this internal struggle."
+      "d": "Ghalibaf adviser Mahdi Mohammadi (Reuters/CNN): \"Trump's ceasefire extension means nothing. The losing side cannot dictate terms. The continuation of the siege is no different from bombardment and must be met with a military response.\" Tasnim: Iran confirmed it will NOT attend talks on Wednesday. Iran FM Araghchi on X: US blockade is \"an act of war and violation of ceasefire\" — Touska seizure is \"an even greater violation.\" Iran UN envoy Iravani: \"As soon as Washington ends the naval blockade, the next round of negotiations will be held in Islamabad.\" Tasnim also reported Iran declared the new commercial Hormuz passage route it had designed \"closed until further notice\" — shutting even the limited alternative channel Iran had previously offered. Iran's stated position is now hardened: no talks while blockade continues."
     },
     {
-      "t": "WH Leavitt: \"Never Been So Close.\" Trump CNBC: \"Going to End Up With a Great Deal.\"",
+      "t": "BRENT Briefly Topped $101 — First Above $100 Since Ceasefire. Settled ~$95.",
       "lv": "BREAKING",
-      "color": "green",
-      "d": "White House Press Secretary Karoline Leavitt on Fox News Monday night: \"The United States of America tonight has never been so close to making a truly good deal.\" Trump told CNBC's Squawk Box Tuesday morning: \"What I think is that we're going to end up with a great deal.\" Brent crude fell slightly on the CNBC comment. These are the most optimistic public signals from the US side since the West Asia War began February 28. Iran's Foreign Minister Araghchi told Pakistan's Dar that Iran is \"taking all aspects into consideration and will decide on how to proceed\" — careful language that neither fully confirms nor denies. The two sides' diplomatic signals are more aligned than their military postures suggest. A deal framework — not a final agreement, but an extension + framework — is within reach if talks begin."
+      "color": "amber",
+      "d": "Brent crude briefly exceeded $101 per barrel Tuesday — first time above $100 since the April 8 ceasefire announcement sent prices tumbling to $90. The spike occurred when it became clear Vance was not departing for Pakistan and Tasnim confirmed Iran would not attend talks. Brent retreated to approximately $95 after Trump's ceasefire extension provided temporary relief. Saudi Arabia and UAE bypass routes via Yanbu (Red Sea) and Fujairah (Gulf of Oman) rising to 6.5 mbpd combined, up from 5.0 mbpd pre-war (ANZ Research). However, combined bypass is 6.5 mbpd vs 20 mbpd previously through Hormuz — a deficit of 13.5 mbpd still unaddressed. Rystad: Gulf states produced 14.3 mbpd in April, down 3 mbpd vs March. Treasury Sec Bessent: Kharg Island oil storage \"full in days\" — blockade economically tightening."
     },
     {
-      "t": "Iran Gen. Abdollahi: \"Prepared to Respond Decisively.\" Military on High Alert.",
+      "t": "Bessent: Kharg Island Storage Full in Days. Blockade Economically Tightening.",
+      "lv": "DEVELOPING",
+      "color": "amber",
+      "d": "Treasury Secretary Scott Bessent confirmed Tuesday: oil storage at Iran's Kharg Island — which handles approximately 90% of Iran's oil exports — will be full \"in days\" as a result of the US naval blockade preventing tankers from loading. Once storage is full, Iran must either shut down production or find alternative ways to move oil — neither is easy. Iran earns approximately $140 million daily from oil exports; the blockade has zeroed this out. Bessent emphasised the continued US blockade and \"other efforts to financially weaken the Tehran regime.\" This economic squeeze is the leverage Trump believes will eventually force Iran to submit a \"unified proposal.\" However, Iran has access to a shadow fleet of tankers (Lloyd's List confirmed shadow fleet still moving) — the question is whether Tifani-type interdictions can shut that route too."
+    },
+    {
+      "t": "India: Tifani Seizure in Indian Ocean Brings West Asia War into India's Maritime Zone.",
       "lv": "DEVELOPING",
       "color": "red",
-      "d": "Gen. Ali Abdollahi, commander of Iran's Khatam al-Anbiya Central Headquarters (top joint military command), stated Tuesday via IRNA: Iran is \"prepared to respond decisively to the enemy's breach of promises.\" Iran's judiciary head Ejei separately: \"strong possibility\" of more US attacks — Iran will \"definitely respond\" to Touska seizure. IRGC has confirmed rearming faster than pre-war pace. Iran parliament legislating permanent Hormuz toll system. If talks collapse tonight: the military response timeline is hours, not days. Likely options: Gulf oil infrastructure strikes (UAE, Saudi, Iraqi ports), escalated IRGC drone attacks in Hormuz, or a missile salvo targeting a US naval asset. Any of these scenarios would push Brent to $110-130 immediately."
+      "d": "The M/T Tifani was seized in the Indian Ocean approximately 400 miles southeast of Sri Lanka — well within the Indo-Pacific theatre that overlaps with India's strategic maritime neighbourhood. US Indo-Pacific Command (not CENTCOM) conducted this operation, meaning enforcement has extended from the Persian Gulf all the way through the Indian Ocean. For India: (1) Indian shipping lanes between the Gulf and Indian ports now pass through a US enforcement zone; (2) Indian-flagged or chartered vessels carrying Iranian-adjacent cargo face interdiction risk; (3) India's Op Urja Suraksha warships in the Gulf of Oman are now operating in a zone where both IRGC gunboats and US destroyers are active. MEA channel with Tehran active. India has 280 seafarers in the affected zone and 8 vessels near the strait. CBS News confirmed 20,000+ seafarers stranded across the Gulf."
     },
     {
-      "t": "SENSEX +753 to 79,273. NIFTY +212 to 24,577. Markets Priced in Extension.",
+      "t": "Indefinite Ceasefire: What It Means for India's Markets and Energy in Coming Days.",
       "lv": "DEVELOPING",
-      "color": "green",
-      "d": "India markets closed sharply higher Tuesday: Sensex 79,273.33 (+753.03 / +0.96%), Nifty 24,576.60 (+211.75 / +0.87%) — third consecutive gaining session. Business Standard: \"traders hoped US and Iran would likely extend their ceasefire in the impending Islamabad meeting.\" FMCG and Realty led. Pharma lagged. Broader markets up: MidCap +0.49%, SmallCap +0.88%. Brent $95.38 (-0.1%) on Tuesday. The 753-point rally reflects markets pricing in a 55-60% probability of ceasefire extension tonight. If extension confirmed: Sensex 80,000-82,000+ Wednesday. If ceasefire lapses: gap-down to 73,000-75,000. Infosys results Wednesday add a domestic layer to whichever scenario plays out."
-    },
-    {
-      "t": "Wednesday: Ceasefire Expiry + Infosys Results. Highest-Stakes Dual Event of the War.",
-      "lv": "DEVELOPING",
-      "color": "amber",
-      "d": "Ceasefire expires 1:30 AM IST Wednesday April 22 unless extended. Infosys Q4 results report during Wednesday market hours — first major IT bellwether. Scenario A (55%): Talks begin tonight, Trump extends → Sensex 80,000-82,000, Brent $88-92, India VIX to 15-17. Scenario B (30%): Iran no-shows, ceasefire lapses, war resumes → Sensex 73,000-75,000, Brent $108-120, rupee 97+, VIX to 28+. Scenario C (15%): De-facto standoff, both sides hold without formal extension → Sensex 76,000-79,000, Brent $95-100. Three West Asia War sticking points NPR confirmed: nuclear enrichment, US blockade, Lebanon ceasefire. None resolved in round one. Round two objective: framework + extension, not final deal."
-    },
-    {
-      "t": "Three Unresolved Sticking Points — Nuclear, Blockade, Lebanon. NPR Analysis.",
-      "lv": "DEVELOPING",
-      "color": "amber",
-      "d": "NPR confirmed the three core gaps heading into Islamabad round two: (1) Nuclear enrichment: US demands Iran commit to never pursuing nuclear weapons or the tools for them; Iran refuses to accept being an \"exception from international law.\" US proposed 20-year pause at round one; Iran countered with 5 years; Trump said even 20 years was \"unacceptable.\" (2) US naval blockade: Iran says blockade must end before productive talks can happen; US says blockade stays until a deal is done. This is a classic chicken-and-egg deadlock. (3) Lebanon: Iran insists any deal must include ceasefire in Lebanon; US and Israel have consistently refused. Additionally, Iran demands $20B+ in frozen assets and war reparations; US position is much lower. A senior Iranian source told Reuters Iran is also not open to discussing its missile programme. Round two aims for a framework and extension — not resolution of all four issues."
+      "color": "cyan",
+      "d": "The indefinite ceasefire extension changes India's risk calculus: Immediate war risk reduced significantly — no resumption in the next 24-48 hours. BUT: (1) Blockade continues = Hormuz stays restricted = Brent $93-100 = India petrol/diesel hike pressure and LPG cut fully off table for at least 2-4 more weeks. (2) No talks date set = diplomatic stalemate could last weeks or months. (3) Tifani seizure in Indian Ocean = US enforcement in India's maritime neighbourhood — Indian vessels face proximity risk. (4) Iran shut commercial Hormuz route = even the limited passage Iran had created is gone. Wednesday India markets: Infosys Q4 results is now the primary catalyst — with reduced geopolitical tail risk, Infosys results will set the IT sector tone. Rupee ~94.00, Brent $95, India VIX expected to ease to 16-18."
     }
   ],
   "nukes": [
@@ -519,31 +513,41 @@
       "brent": 95,
       "nifty": 24577,
       "rupee": 94.0,
-      "tag": "Sensex +753 to 79,273. Nifty +212 to 24,577. Vance en route Islamabad (Axios). Iran expected if Vance present (AP, MS NOW). WH: never closer to deal. IRGC blocking diplomats. Ceasefire expires 1:30 AM IST Wed. West Asia War Day 53.",
+      "tag": "CEASEFIRE EXTENDED INDEFINITELY. Vance trip cancelled. M/T Tifani seized Indian Ocean. Iran: extension means nothing, Hormuz route closed, no talks Wed. Brent briefly $101 then $95. Sensex +753 to 79,273. West Asia War Day 53.",
+      "sev": 2
+    },
+    {
+      "d": 54,
+      "l": "Apr 22",
+      "deaths": 6600,
+      "brent": 98,
+      "nifty": 24577,
+      "rupee": 94.5,
+      "tag": "Ceasefire extended INDEFINITELY. Vance did not travel. M/T Tifani seized Bay of Bengal (2M bbl). Kharg storage full in days. Brent $98.48 settled. Iran adviser: extension \"means nothing.\" UK-France 30-nation Hormuz conference. Infosys results April 23.",
       "sev": 2
     }
   ],
   "hormuzLatest": [
     {
+      "d": "Apr 21 Night",
+      "e": "DAY 53 NIGHT 9:30PM IST. TRUMP EXTENDED CEASEFIRE INDEFINITELY — no end date, Pakistan request. Vance Islamabad trip cancelled. M/T TIFANI seized Indian Ocean (400mi SE Sri Lanka) — second ship boarded in West Asia War. Iran: extension \"means nothing,\" Hormuz commercial route closed, NOT attending Wednesday talks. Araghchi: blockade is \"act of war.\" Brent briefly $101, settled ~$95. Bessent: Kharg storage full in days. 20,000+ seafarers stranded (CBS News). Sensex 79,273 (+753). Nifty 24,577 (+212). Infosys Q4 tomorrow."
+    },
+    {
+      "d": "Apr 22 12AM",
+      "e": "DAY 53 LATE. TRUMP EXTENDED CEASEFIRE INDEFINITELY at Pakistan PM request — Iran must submit unified proposal. Vance DID NOT travel — stayed Washington, WH policy meetings. SECOND tanker boarded: M/T Tifani (Indian Ocean, INDOPACOM). Brent spiked $101, settled $98.48 (+3.1%). Kharg Island storage filling in days (Bessent). UK+France 30-nation military Hormuz conference Wed. Iran: extension \"means nothing,\" prepared for renewed war, \"new surprises.\" Iran domestic flights resume Wed. Sensex 79,273. Nifty 24,577. Infosys Q4 results Wed."
+    },
+    {
+      "d": "Apr 22 9AM",
+      "e": "DAY 54. Trump extended ceasefire INDEFINITELY — Iran must submit \"unified proposal,\" govt \"seriously fractured.\" Vance did NOT travel. M/T Tifani seized in Bay of Bengal (2M bbl Iranian oil, loaded Kharg April 5). Kharg Island storage full in days (Bessent). Brent $98.48 settled (+3.1%), spiked to $101 pre-announcement. Iran adviser Mohammadi: extension \"means nothing,\" \"time for Iran to take initiative.\" UK+France 30-nation Hormuz military conference London today. EU sanctioned Iran blockers. FPI outflows Rs 1.67L Cr YTD record. Infosys results April 23. No new deadline — open-ended."
+    },
+    {
       "d": "Apr 21 PM",
       "e": "DAY 53 EVENING. Sensex +753 to 79,273. Nifty +212 to 24,577. Markets priced in ceasefire extension. Vance departed Islamabad (Axios: 3 US sources). Iran state TV: no delegation yet. AP (2 regional officials): Iran WILL attend. MS NOW: Ghalibaf + Araghchi go IF Vance present. WH Leavitt: \"never been so close to a great deal.\" Trump CNBC: \"great deal coming.\" IRGC pressuring negotiators to hold firm (Axios). Iran Gen. Abdollahi: prepared to respond decisively. Brent $95.38. Ceasefire expires 1:30 AM IST Wed. Wednesday = ceasefire outcome + Infosys Q4."
-    },
-    {
-      "d": "Apr 21 7:30AM",
-      "e": "DAY 53 CEASEFIRE EXPIRY DAY. NYT: Iranian delegation making plans to head Islamabad TODAY despite public refusal. CNN: Vance confirmed attending. Ceasefire expires tonight 1:30 AM IST (0000 GMT Wed). Ghalibaf: \"prepared to reveal new cards on the battlefield.\" 16 ships Hormuz Monday. Third US carrier (USS Bush) converging near Madagascar. China Xi pressed MBS for Hormuz opening. Hezbollah broke Lebanon ceasefire (4 Israeli tanks killed). Iran deaths 3,375+. India market opens 9:15 AM. Wednesday = expiry + Infosys."
-    },
-    {
-      "d": "Apr 20 PM",
-      "e": "DAY 52 CLOSE. Sensex +27 to 78,520 (flat). Nifty +11 to 24,365. VIX +10.5% to 19.01. Trump extended ceasefire to WEDNESDAY EVENING ET — \"highly unlikely\" to extend further. Iran STILL REFUSING talks: Baghaei \"no plans,\" US \"not serious.\" Islamabad LOCKDOWN: 10,000 security forces, US C-17 at Nur Khan, Serena Hotel secured. Late-night ambiguity: Iranian sources say delegation expected Tuesday despite public refusal. Brent $95-96 (+7% opened, moderated). 500M+ barrels from global supply disrupted (largest in modern history). Wednesday = ceasefire expiry + Infosys results."
-    },
-    {
-      "d": "Apr 20 7AM",
-      "e": "DAY 52 PRE-MARKET. USS Spruance seized Touska (CENTCOM video confirmed). Iran OFFICIALLY rejected second round talks (IRNA) — excessive demands, blockade violation. IRGC Aerospace commander: rebuilding missiles and drones faster than before war. ZERO tankers crossed Hormuz Sunday. Brent $95.64 (+5.8%) Sunday open. Ceasefire expires TOMORROW Apr 22. India markets open 9:15 AM IST — most dangerous session since Feb 28. Sensex gap-down risk: 70,000-73,000 if ceasefire lapses."
     }
   ],
   "projNow": {
-    "brent": 95,
-    "rupee": 94.0,
+    "brent": 98,
+    "rupee": 93.8,
     "lpg": 912,
     "petrol": 94.77,
     "deaths": 6600
@@ -552,51 +556,51 @@
     "headers": [
       "Pre-war",
       "Now (D53)",
-      "Talks + Extension",
-      "Ceasefire lapses",
-      "War resumes"
+      "Talks resume + deal",
+      "Stalemate/attrition",
+      "Iran escalates"
     ],
     "brent": [
       65,
-      95,
-      89,
-      110,
-      130
+      98,
+      82,
+      104,
+      125
     ],
     "rupee": [
       91,
-      94.0,
-      91.0,
-      101,
-      108
+      93.8,
+      90.5,
+      99,
+      107
     ],
     "deaths": [
       0,
       "6,600+",
-      "7,200",
-      "9,000+",
-      "20,000+"
+      "7,000",
+      "8,000+",
+      "18,000+"
     ],
     "sensex": [
       "78,699",
       "79,273",
-      "82,000+",
-      "73,500",
-      "63,000"
+      "83,000+",
+      "76,000",
+      "68,000"
     ],
     "lpg": [
       "Rs 853",
       "Rs 912",
-      "Rs 865",
-      "Rs 1,350+",
-      "Rs 1,720+"
+      "Rs 860",
+      "Rs 1,200+",
+      "Rs 1,650+"
     ],
     "fii": [
       "-",
       "Accumulating",
-      "$22B return",
-      "$26B out",
-      "$50B out"
+      "$25B return",
+      "$15B out",
+      "$45B out"
     ]
   },
   "radar": [
@@ -658,8 +662,8 @@
     }
   ],
   "assessment": {
-    "headline": "DAY 53, 7:15 PM TUE: VANCE EN ROUTE ISLAMABAD. Iran expected if Vance present. Sensex +753 to 79,273. Ceasefire expires TONIGHT 1:30 AM IST. WH: \"never been so close.\" IRGC blocking diplomats. Wednesday = deal or war.",
-    "body": "Tuesday 7:15 PM IST. Vance is in the air. The ceasefire expires in 6 hours.\n\nTHE STATE OF PLAY\n• Vance departed for Islamabad — Axios, 3 US sources confirmed\n• Iran state TV: \"no delegation departed yet as of Tuesday\"\n• AP (2 regional officials): Iranian negotiators WILL attend\n• MS NOW (diplomat in Tehran with Ghalibaf contact): Ghalibaf + Araghchi go IF Vance present\n• Vance IS present — so the condition is technically met\n• The question is timing: will they arrive before the ceasefire expires at 1:30 AM IST?\n\nTHE OPTIMISM SIGNALS\n• WH Leavitt (Mon Fox News): \"Never been so close to a truly good deal\"\n• Trump (Tue CNBC Squawk Box): \"Going to end up with a great deal\"\n• Brent fell slightly on Trump CNBC comment — markets believe it\n• Sensex +753 today, third consecutive session of gains\n• India markets pricing in 55-60% probability of ceasefire extension\n\nTHE BLOCKING FORCE — IRGC\n• Axios (White House source): IRGC pressuring Iranian negotiators to hold firm: no talks without lifting blockade\n• This explains the gap between Iran's private signals (coming) and public face (refusing)\n• Ghalibaf is both the lead negotiator AND has IRGC roots — his decision reflects this internal struggle\n• If IRGC yields to diplomatic pragmatism: Iran delegation boards the flight\n• If IRGC wins: Iran doesn't come, ceasefire lapses, military response within hours\n\nTHE MILITARY DIMENSION\n• Iran Gen. Abdollahi (top joint military command): \"prepared to respond decisively\"\n• IRGC confirmed rearmed faster than pre-war pace\n• Three US carrier battle groups in theatre: Lincoln (Gulf of Oman), Ford (Red Sea), Bush (converging)\n• Both sides are more militarily ready for escalation today than on February 28\n\nTHE THREE GAPS\n• Nuclear enrichment: US wants no enrichment ever; Iran says unacceptable\n• Blockade: Iran wants it lifted first; US says only after deal\n• Lebanon: Iran insists it's included; US/Israel refuse\n\nINDIA'S POSITION TONIGHT\n• Sensex 79,273 — up 753, third consecutive gain\n• Rupee ~94.00 — stable on deal optimism\n• Brent $95.38 — moderated from Monday spike\n• India VIX still elevated at ~19 — markets not fully at ease\n• Tonight 1:30 AM IST: the moment of truth\n• If extension: Wednesday Sensex 80,000-82,000+, India VIX 15-17\n• If lapses: Wednesday Sensex 73,000-75,000, Brent $108-120, rupee 97+\n• Infosys results also Wednesday — dual event, dual risk\n\nVERDICT: Vance is in the air. Iran's diplomatic corps wants to come. The IRGC wants to hold firm. Pakistan, Egypt, China, Turkey are all pushing Iran to the table. The 753-point Sensex rally says the market thinks the IRGC loses this argument. The 6 hours between now and the ceasefire expiry will answer the question that has defined the West Asia War for 53 days: can diplomacy beat military logic at the last hour?"
+    "headline": "DAY 53, 9:30 PM: CEASEFIRE EXTENDED INDEFINITELY. Vance trip cancelled. Tifani seized Indian Ocean. Iran: \"extension means nothing.\" Brent briefly $101. No talks date. Stalemate. Infosys Q4 tomorrow.",
+    "body": "Tuesday 9:30 PM IST. The West Asia War enters a new phase: indefinite ceasefire stalemate.\n\nWHAT HAPPENED\n• Trump extended the ceasefire indefinitely — no end date — at Pakistan's request\n• The extension will hold \"until such time as Iran submits a unified proposal\"\n• Vance's Islamabad trip cancelled after announcement — spent 5hrs in West Wing\n• Iran reaction: \"extension means nothing\" — Ghalibaf adviser Mohammadi\n• Tasnim: Iran confirmed it would NOT attend talks Wednesday\n• Iran shut the alternative commercial Hormuz passage route it had designed\n\nTHE SECOND SHIP — TIFANI IN THE INDIAN OCEAN\n• US Indo-Pacific Command boarded M/T Tifani, 400 miles SE of Sri Lanka\n• Sanctioned for Iranian crude oil smuggling via dark ship-to-ship transfers near Singapore\n• Previously docked at Iran's Kharg Island on April 6\n• This extends US enforcement from the Gulf to the Indo-Pacific\n• For India: this is in India's strategic maritime neighbourhood\n\nTHE ECONOMIC SQUEEZE\n• Bessent: Kharg Island storage \"full in days\" — blockade tightening\n• Brent briefly topped $101 before retreating to $95 on extension news\n• Saudi/UAE bypass rising to 6.5 mbpd — still 13.5 mbpd short of pre-war Hormuz levels\n• Iran shut new commercial Hormuz route — even limited passage gone\n• 20,000+ seafarers stranded across the Gulf (CBS News confirmed)\n• Rystad: Gulf states producing 14.3 mbpd in April, down 3 mbpd vs March\n\nTHE STRUCTURAL PROBLEM\n• Advisers warned Trump: no deadline = no pressure on Iran\n• Iran's stated condition for talks: lift blockade first\n• US stated condition for lifting blockade: final deal first\n• Classic diplomatic deadlock — both sides need the other to move first\n• Without a new deadline, this stalemate could last weeks or months\n\nINDIA'S NEW CALCULUS\n• Sensex 79,273, Nifty 24,577 — markets had already priced in extension\n• No imminent war = positive for Indian equities\n• Brent $95 persists = LPG/petrol relief at least 4-6 more weeks away\n• Tifani seizure: US enforcement now in India's maritime zone\n• Infosys Q4 results Wednesday = primary market catalyst now\n• Rupee ~94.00 — stable but no significant recovery until Hormuz opens\n• India buffer: 6-8 weeks crude, consuming daily\n\nTHE SCENARIO SHIFT\n• War resumption risk: reduced from 40% to ~10% for next 7-10 days\n• Diplomatic breakthrough: 25% (both sides still say deal possible)\n• Prolonged stalemate: 55% — most likely outcome\n• Iran escalation (Touska-type response): 10%\n\nVERDICT: The West Asia War has shifted from acute crisis to grinding stalemate. No explosions tonight — but no Hormuz opening either. The blockade tightens. Iran hardens. Bessent says Kharg fills up in days. The question is whether economic pressure breaks the IRGC's resistance before Iran finds a way to keep its shadow fleet moving. India sits in the middle — relieved there's no war tonight, still paying $95 Brent, still waiting for its seafarers to come home."
   },
   "featured": [
     {
@@ -667,7 +671,7 @@
       "date": "March 18, 2026",
       "tag": "PUBLICATION",
       "tagColor": "#f59e0b",
-      "desc": "How India's LPG import dependency on the Gulf creates acute vulnerability during the Iran-Gulf War. Explores Hormuz exposure, alternative supply routes, and policy imperatives for energy security in a blockade scenario.",
+      "desc": "How India's LPG import dependency on the Gulf creates acute vulnerability during the West Asia War. Explores Hormuz exposure, alternative supply routes, and policy imperatives for energy security in a blockade scenario.",
       "url": "https://takshashila.org.in/content/publications/20260318-LPG-Geopolitics.html",
       "org": "Takshashila Institution",
       "icon": "🛢️"
