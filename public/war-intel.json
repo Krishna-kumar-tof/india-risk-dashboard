@@ -1,95 +1,99 @@
 {
-  "_updated": "April 23, 2026 — 8:30 AM IST",
+  "_updated": "April 23, 2026 — 7:30 PM IST",
   "_day": 55,
   "_phase": "BLOCKADE",
-  "_note": "Verified: NPR, Time, Al Jazeera, CNBC, CBS News, Wikipedia Hormuz crisis, Business Standard, CNN. DAY 55 THU 8:30AM IST: IRGC SEIZED TWO SHIPS (MSC Francesca + Epaminondas) + ATTACKED THIRD (Euphoria) on April 22 — first Iranian ship seizures since Feb 28. Brent briefly $100+, settled $99.03. Sensex -757 to 78,516. Nifty -198 to 24,378. IT worst performer. Epaminondas: gunfire + RPGs, significant bridge damage. Trump gave Iran 3-5 DAYS (April 22 US officials). 30-country military conference at UK Northwood base for Hormuz reopening plans. Lufthansa cut 20,000 flights. UAE arrested 27 Iran-linked suspects. INFOSYS Q4 RESULTS TODAY (after market hours / during session April 23). West Asia War escalating sharply.",
+  "_note": "Verified: Business Standard, Upstox, CBS News, CNBC, NPR, Wikipedia. DAY 55 THU 7:30PM IST: Sensex -853 to 77,664. Nifty -206 to 24,173. Second consecutive day of losses. Brent closed $101.91 April 22 — above $100. INFOSYS Q4 BEAT: PAT Rs 8,501 Cr (+21% YoY, massive beat). Revenue Rs 46,402 Cr (+13.4% YoY). FY27 guidance: 1.5%-3.5% CC (cautious — below consensus). US sending THOUSANDS MORE FORCES — 50,000+ in Middle East now. Iran: Pezeshkian \"welcomes dialogue, blockade is obstacle.\" 3-5 day Trump deadline = ~April 25-27. Israel-Lebanon round 2 talks at State Dept today. Iran military doctrine revised: OFFENSIVE. West Asia War Day 55.",
   "ticker": [
-    "🚢 IRAN SEIZED TWO SHIPS April 22 — MSC Francesca + Epaminondas. FIRST Iranian seizures since Feb 28. Third ship Euphoria attacked. Brent hit $100+. Sensex -757 to 78,516.",
-    "⚔️ EPAMINONDAS (Greek-owned): IRGC gunfire + ROCKET-PROPELLED GRENADES — significant bridge damage. Ship had been given PERMISSION to cross. Another direct ceasefire violation.",
-    "⏰ TRUMP GAVE IRAN 3-5 DAYS (US officials April 22) to engage in talks and resolve 'internal government infighting' before resuming attacks. New soft deadline: ~April 25-27.",
-    "🌍 30-COUNTRY MILITARY CONFERENCE — UK Northwood base, 2-day meeting to plan multinational Hormuz reopening force. Will act 'as soon as conditions permit following sustainable ceasefire.'",
-    "📊 SENSEX -757 to 78,516. NIFTY -198 to 24,378. IT worst sector. Brent briefly $100+ settled $99. Iran ship seizures reversed Tuesday's gains. West Asia War risk re-priced higher.",
-    "✈️ LUFTHANSA cut 20,000 flights through October — jet fuel doubled since West Asia War start. United Airlines Q2 profits below estimates. EU: 6 weeks jet fuel.",
-    "🇦🇪 UAE ARRESTED 27 Iran-linked suspects — dismantled alleged Tehran-backed 'terrorist network' planning sabotage on UAE soil. Iran-UAE tensions sharpening inside ceasefire.",
-    "📅 INFOSYS Q4 RESULTS TODAY (April 23) — expected after market hours or during session. FY27 guidance = key. Consensus: Rs 46,300-46,567 Cr revenue, FY27 guide 2-5% CC growth.",
-    "🛢️ Brent ~$99 as of 8:30 AM IST. Iran ship seizures + 3-5 day deadline = $100+ risk rising. 20,000 mariners + 2,000 ships stranded (IMO). India buffer critically low.",
-    "⚠️ IRGC response to Touska seizure = ship seizures April 22. IRGC announced: Epaminondas seizure 'response to US capture of Iranian commercial vessel.' Tit-for-tat naval escalation."
+    "📉 SENSEX -853 to 77,664. NIFTY -206 to 24,173. Second consecutive day of losses. Auto, PSU Bank, Realty worst. Brent $101.91 April 22 close — first above $100 sustained close since ceasefire.",
+    "✅ INFOSYS Q4 BEAT: PAT Rs 8,501 Cr (+21% YoY — massive beat vs Rs 7,500 Cr consensus). Revenue Rs 46,402 Cr (+13.4% YoY). EPS Rs 21.01 (+23.8% YoY). But FY27 guidance cautious: 1.5%-3.5% CC.",
+    "⚔️ US sending THOUSANDS MORE FORCES — 50,000+ American service members now in Middle East (vs 30,000-40,000 normal). Two aircraft carrier groups deployed. Pre-positioning for resumed strikes.",
+    "☮️ Iran President Pezeshkian Wednesday: Iran 'welcomes dialogue, but breach of commitments, blockade and threats are main obstacles to genuine negotiations.' Diplomatic door not closed.",
+    "⏰ TRUMP 3-5 DAY WINDOW expires ~April 25-27. No Iran proposal received yet. Vance still not travelling to Islamabad. Pakistan still mediating. 30-country Northwood conference completed Day 2.",
+    "🛢️ BRENT $101.91 April 22 CLOSE — first sustained close above $100 since ceasefire. Oil supply disruption now confirmed as 'largest in history' (IEA). India OMC petrol/diesel hike decision imminent.",
+    "🇮🇱🇱🇧 Israel-Lebanon Round 2 talks at State Department TODAY (April 23). Lebanese journalist Amal Khalil killed in Israeli strike Wednesday. Lebanon ceasefire stressed.",
+    "⚔️ IRAN MILITARY DOCTRINE: Chief of Staff Mousavi announced Iran revised doctrine from DEFENSIVE to OFFENSIVE following 2025 Twelve-Day War. Iran entering this conflict with offensive posture.",
+    "🇮🇳 India: Two straight days -757 and -853 Sensex = -1,610 pts in two sessions. Brent $101+ = petrol/diesel hike by OMCs likely within 1-2 weeks. Infosys beat may support IT sector Friday.",
+    "📅 KEY DATES: ~April 25-27 = Trump 3-5 day deadline. April 27 = 10-day Israel-Lebanon ceasefire expires. Two overlapping deadlines converging. Most dangerous week since Feb 28."
   ],
   "whatChanged": {
-    "label": "WHAT CHANGED — APR 23, 8:30 AM IST (DAY 55) — MAJOR HORMUZ ESCALATION",
+    "label": "WHAT CHANGED — APR 23, 7:30 PM IST (DAY 55) — EVENING CLOSE",
     "items": [
       {
         "color": "red",
-        "bold": "IRAN SEIZED TWO SHIPS + ATTACKED THIRD on April 22 — first seizures since Feb 28.",
-        "text": "In the most significant West Asia War naval escalation since the Touska seizure (April 19), the IRGC attacked and seized multiple vessels in the Strait of Hormuz on April 22 — just hours after Trump announced the indefinite ceasefire extension. NPR confirmed three ships were attacked. Time confirmed this is \"the first time Tehran has seized ships since the start of the war on Feb. 28.\" The three vessels: (1) Epaminondas (Greek-owned cargo ship) — IRGC gunboat attacked with gunfire and rocket-propelled grenades near coast of Oman, causing significant bridge damage. Ship had been given permission to cross. UKMTO first report: 5:47 AM London time, 15 miles NE of Oman. (2) MSC Francesca — targeted off coast of Iran, instructed to drop anchor, hull and accommodation damage. Iran said it was \"seized.\" (3) Euphoria — targeted by IRGC, briefly \"stranded\" on Iranian coast, later found undamaged and resumed sailing. No injuries reported in any of the three incidents. IRGC stated the seizures were \"in response to the US capture of the Iranian commercial vessel\" — direct retaliation for the Touska seizure."
+        "bold": "SENSEX -853 to 77,664. NIFTY -206 to 24,173. Two-day decline of -1,610 Sensex points.",
+        "text": "Business Standard confirmed: Sensex closed April 23 at 77,664 (-852.49 / -1.09%). Nifty 24,173.10 (-205.50 / -0.84%). Second consecutive session of losses. \"Investors worried that the continued blockade at the Strait of Hormuz would deepen the energy supply crisis.\" Nifty Auto, Nifty PSU Bank, and Nifty Realty declined most. Nifty Pharma rose — defensive rotation. Broader markets also fell: MidCap -0.41%, SmallCap -0.67%. Combined two-day Sensex loss: -1,610 points (-2%). Nifty has now fallen from peak of 24,577 (Apr 21) to 24,173 — down 404 points in two sessions. Infosys Q4 results came after market hours, so the beat has NOT yet been priced in — potential positive catalyst for Friday."
+      },
+      {
+        "color": "green",
+        "bold": "INFOSYS Q4 BEAT: PAT Rs 8,501 Cr (+21% YoY). FY27 guidance 1.5%-3.5% CC — cautious.",
+        "text": "Infosys reported Q4 FY26 results after market hours Thursday. PAT: Rs 8,501 crore — up 20.87% YoY (massive beat vs consensus of Rs 7,500-7,700 Cr). Revenue: Rs 46,402 crore — up 13.4% YoY, up 2% QoQ (in line). EPS: Rs 21.01 — up 23.8% YoY, up 29.9% QoQ. Large deal TCV likely strong (results pending full disclosure). FY27 guidance: revenue growth 1.5%-3.5% CC YoY (below consensus of 2-5% — cautious, reflecting West Asia War impact on client spending and US tariff uncertainty). Operating margin guidance: 20%-22% (in line). The PAT beat is a major positive domestic catalyst — Infosys stock likely to gap up Friday. However, the FY27 guidance being at the low end of expectations may limit the upside. Nifty IT index, which was the worst performer Wednesday and Thursday, may recover partially Friday."
       },
       {
         "color": "red",
-        "bold": "Brent briefly surpassed $100/barrel — first time above $100 since April 8 ceasefire.",
-        "text": "Brent crude briefly exceeded $100 per barrel on April 22 following the ship seizures — the first time above $100 since the original ceasefire announcement on April 8 sent prices tumbling. CNBC confirmed: Brent futures settled at $99.03 per barrel (+0.5%) after briefly surpassing $100. WTI settled at $90.13 (+0.5%). TIME confirmed: \"Following reports of vessels being seized by Iran, the price of Brent crude oil saw a jump of more than 1.8% on Wednesday, reaching over $100 per barrel.\" For India: Brent approaching and briefly crossing $100 = full reversal of ceasefire gains. LPG, petrol and diesel hike risk now elevated again. OMC margin pressure returning. India rupee likely to weaken toward 94.50-95.00."
-      },
-      {
-        "color": "red",
-        "bold": "SENSEX -757 to 78,516. NIFTY -198 to 24,378. IT worst performer.",
-        "text": "Business Standard confirmed: Sensex ended April 22 at 78,516.49 (-756.84 / -0.95%), snapping a 3-day winning streak. Nifty ended 24,378.10 (-198.50 / -0.81%). \"Global equities declined as the failed US-Iran talks stoked worries about a prolonged tension in West Asia.\" Nifty IT emerged as the worst-performing sectoral index — ahead of Infosys results today, IT was under broad pressure. Nifty Financial Services and Nifty Auto also underperformed. Broader markets outperformed: Nifty MidCap +0.19%, SmallCap +1.13%. The 757-point fall reversed exactly the 753-point gain from Tuesday April 21 — West Asia War risk fully re-priced from optimism back to caution in one session."
+        "bold": "US sending THOUSANDS MORE FORCES — 50,000+ now in Middle East. Pre-positioning for strikes.",
+        "text": "CBS News (April 23 live blog) confirmed: the US is sending thousands more military forces to the Middle East. More than 50,000 American service members are now deployed in the region — compared to the typical 30,000-40,000. Two aircraft carrier groups already deployed (USS Abraham Lincoln in Gulf of Oman, USS Gerald R. Ford in Red Sea). USS George H.W. Bush converging from the Indian Ocean. The massive military buildup signals the US is pre-positioning for resumed strikes if Iran does not submit a \"unified proposal\" within Trump's 3-5 day window (~April 25-27). The scale of this buildup — 50,000+ troops, three carrier groups converging — is unprecedented since the Gulf War. Iran's Chief of Staff Mousavi previously announced Iran revised its military doctrine from defensive to offensive."
       },
       {
         "color": "amber",
-        "bold": "TRUMP gave Iran 3-5 DAYS — new soft deadline ~April 25-27 for talks or resumed attacks.",
-        "text": "Wikipedia ceasefire article (confirmed April 22): \"US officials said that Trump has given Iran three to five days to engage in negotiations and resolve alleged infringement within the government before resuming attacks.\" This creates a new soft deadline: approximately April 25-27. Trump also posted on Truth Social: \"Iran is collapsing financially! Starving for cash! Losing $500M a day. Military and Police complaining they are not getting paid. SOS!!!\" And separately: \"Iran doesn't want the Strait of Hormuz closed, they want it open so they can make $500M a day.\" The 3-5 day window is consistent with the ceasefire indefinite extension — Trump is waiting for Iran's government to unify around a proposal. With the IRGC seizing ships on April 22, this window may compress faster than expected."
+        "bold": "Iran President Pezeshkian: \"Welcomes dialogue — blockade is the obstacle.\" Door not closed.",
+        "text": "Iranian President Masoud Pezeshkian issued a statement Wednesday: Iran \"welcomes dialogue but breach of commitments, blockade and threats are main obstacles to genuine negotiations.\" This is the most conciliatory language from a senior Iranian official since the Islamabad talks collapsed. Ghalibaf separately said \"the ceasefire only makes sense if it is not violated by the maritime blockade.\" These signals suggest Iran's diplomatic corps (Pezeshkian, Araghchi) is still looking for an exit ramp — even as the IRGC seizes ships and the IRGC-aligned Supreme Leader Mojtaba Khamenei maintains a hardline. The 3-5 day window Trump has given allows for Iran to submit a proposal without explicitly backing down. Pakistan is actively brokering. The diplomatic door is narrow but not closed."
       },
       {
         "color": "amber",
-        "bold": "30-COUNTRY MILITARY CONFERENCE at UK Northwood base — multinational Hormuz force planning.",
-        "text": "UK and France hosted military planners from 30+ countries at the UK's Permanent Joint Headquarters in Northwood, north London — a two-day conference (April 22-23) to plan a multinational mission to reopen the Strait of Hormuz. NPR and CNN confirmed. The conference will cover military capabilities, command and control structures, and deployment plans. Crucially: any plan will only take effect \"as soon as conditions permit, following a sustainable ceasefire agreement.\" This is not a war-fighting conference — it is planning for the post-ceasefire reopening. The UK defence ministry said it was the latest step after a virtual summit with 51 countries hosted by UK PM Starmer and French President Macron the previous Friday. EU foreign policy chief Kaja Kallas: \"Freedom of navigation is non-negotiable.\" EU also widening sanctions on Tehran."
+        "bold": "Brent closed $101.91 April 22 — first sustained $100+ close. India OMC hike imminent.",
+        "text": "CNBC confirmed: Brent crude closed at $101.91 on April 22 — up more than 3% on the ship seizures — the first sustained close above $100 since the ceasefire. WTI settled at $92.96 (+3%). As of April 23 evening, Brent likely remains in the $100-102 range. The IEA has called the Hormuz disruption the \"biggest energy crisis in history.\" For India: sustained Brent above $100 for 5+ days typically triggers OMC petrol/diesel price hikes. With Brent at $101 and the 3-5 day deadline looming, Indian oil marketing companies (Indian Oil, BPCL, HPCL) are likely to announce a Rs 2-5/litre petrol/diesel hike within the next 1-2 weeks if Brent stays elevated. LPG subsidy reinstatement discussion has restarted within the government."
+      },
+      {
+        "color": "amber",
+        "bold": "Israel-Lebanon Round 2 talks at State Department today. Lebanon ceasefire stressed.",
+        "text": "CBS News confirmed: a second round of US-brokered peace talks between Lebanon and Israel is taking place at the State Department today (April 23) — at the ambassador level. The first round on April 14 led to the current 10-day ceasefire. However, the Lebanon ceasefire is stressed: Lebanese journalist Amal Khalil (Al-Akhbar newspaper) was killed in an Israeli airstrike on southern Lebanon Wednesday. Two more people killed in Lebanon by Israeli strikes Wednesday. Hezbollah has conducted drone attacks claiming \"response to Israeli violations.\" The 10-day Israel-Lebanon ceasefire expires approximately **April 27** — the same time frame as Trump's 3-5 day deadline for Iran. Two overlapping deadlines converging on the same date window. Iran has explicitly linked Hormuz status to Lebanon ceasefire — if Lebanon ceasefire collapses, Iran could escalate Hormuz further."
       },
       {
         "color": "red",
-        "bold": "Lufthansa cut 20,000 flights. United Airlines profits below estimates. EU: 6 weeks jet fuel.",
-        "text": "NPR confirmed: German airline Lufthansa cut 20,000 flights through October — citing jet fuel cost that has \"doubled since the start of the West Asia War.\" United Airlines has also been impacted, with Reuters reporting the carrier had \"forecast second-quarter and full-year profits below Wall Street estimates\" due to fuel costs. The IEA head earlier warned Europe has \"maybe six weeks or so\" of jet fuel remaining, with flight cancellations possible \"soon.\" A UK poll shows 1 in 10 people are already stockpiling fuel. These airline industry developments signal the consumer economic impact of Hormuz closure is reaching daily life globally — Lufthansa alone serves tens of millions of passengers annually. For India: IndiGo, Air India, SpiceJet all face elevated ATF costs as long as Hormuz stays restricted."
+        "bold": "Iran military doctrine: OFFENSIVE. 50,000 US troops. 3-5 day deadline. April 25-27 is critical.",
+        "text": "Wikipedia US Military Buildup in Middle East article confirmed: Iran's Chief of Staff Mousavi announced Iran \"revised its military doctrine from defensive to offensive following the Twelve-Day War\" (June 2025). This means Iran entered the West Asia War with an offensive doctrine — not purely reactive. Combined with the new Supreme Leader Mojtaba Khamenei (IRGC-aligned, hardline) and the IRGC's confirmed rearming during the ceasefire (faster than pre-war pace), Iran is militarily more capable and doctrinally more aggressive than at the start. The US is matching this by pre-positioning 50,000+ troops and three carrier groups. If Trump's 3-5 day deadline expires (~April 25-27) without Iran submitting a proposal: both sides have pre-positioned for resumed conflict, and both sides have offensive doctrines. The collision risk is at its highest since February 28."
       },
       {
         "color": "cyan",
-        "bold": "INFOSYS Q4 RESULTS TODAY — FY27 guidance is the key. Consensus: 2-5% CC growth.",
-        "text": "Infosys board met April 22 and will announce Q4 FY26 results today (April 23). Business Standard consensus: revenue ~Rs 46,300-46,567 Cr (13.7% YoY), PAT ~Rs 7,500-7,700 Cr (4-5% YoY, slight QoQ dip). FY27 guidance is the critical output — MOFSL expects 1.5-4.5% CC YoY, with the range depending on US tariff impact and deal ramp-up. Nifty IT was yesterday's worst performer ahead of results. Key question: does the West Asia War create macro uncertainty that forces Infosys to guide conservatively on FY27? Large deal TCV of $4B+ in Q4 would be positive. Analyst call today — management commentary on Iran war impact on IT spending will be closely watched. A strong beat + positive guidance could recover some of yesterday's IT losses."
-      },
-      {
-        "color": "amber",
-        "bold": "UAE arrested 27 Iran-linked suspects. IRGC retaliation pattern confirmed: Epaminondas was for Touska.",
-        "text": "CNN confirmed Tuesday: UAE State Security arrested 27 people suspected of belonging to an Iran-backed \"terrorist organization\" planning \"sabotage operations\" on UAE soil — linked to Iran's \"Wilayat al-Faqih\" ideology. Suspects' full names and mugshots published by UAE state news agency WAM. This signals Iran's proxy threat inside Gulf states is active even during the ceasefire. Separately, the IRGC explicitly stated the April 22 ship attacks and seizures were \"in response to the US capture of an Iranian commercial vessel\" — confirming the Epaminondas/MSC Francesca seizures are direct retaliation for the Touska. The tit-for-tat naval escalation pattern: Touska (US seized April 19) → ship attacks and seizures (Iran April 22) → 3-5 day ultimatum (Trump April 22). The next US response, if Iran doesn't submit a proposal by ~April 25-27, could be resumed airstrikes."
+        "bold": "India: April 25-27 deadline + Lebanon ceasefire expiry = dual overlapping pressure points.",
+        "text": "India faces a convergence of risks in the April 25-27 window: (1) Trump's 3-5 day deadline for Iran expires — if no proposal, strikes resume, Brent could spike to $115-130. (2) 10-day Israel-Lebanon ceasefire expires ~April 27 — if it collapses, Iran uses it as pretext for Hormuz escalation. (3) Infosys results beat may partially offset geopolitical pressure on Nifty IT Friday. (4) OMC petrol/diesel hike imminent at Brent $101+. (5) India's strategic petroleum reserve at critical depletion stage — 55+ days consumed. (6) Fertiliser kharif season risk: Gulf produces ~30% global urea; planting decisions June-Aug at risk. India should prepare for the possibility that April 25-27 is the most dangerous window of the West Asia War since February 28."
       }
     ]
   },
   "deaths": "6,600+",
-  "deathsSub": "~3,375+ Iran, 2,294+ Lebanon, 99 Iraq, 23+ Israel, 13 US (+2 noncombat), 35+ Gulf. No crew casualties in April 22 Hormuz attacks. Ceasefire continues to broadly hold despite naval escalation.",
+  "deathsSub": "~3,375+ Iran, 2,294+ Lebanon (+ journalist Amal Khalil + 2 more killed Apr 22), 99 Iraq, 23+ Israel, 13 US (+2 noncombat), 35+ Gulf. No crew casualties in April 22 Hormuz ship seizures.",
   "econ": {
-    "sensex": "78,516",
-    "sensexDelta": "APR 22 CLOSE: -757 (-0.95%). Snapped 3-day winning streak. IT worst. Brent $99.",
-    "sensexSub": "West Asia War risk re-priced. Iran seized 2 ships. Today: Infosys Q4 results = key catalyst.",
-    "vix": "~20-22 (rising on ship seizures)",
-    "vixDelta": "Ship seizures + $100 Brent + 3-5 day Trump ultimatum = VIX elevated again.",
-    "fpi": "FII selloff in IT and financials April 22. MidCap and SmallCap resilient.",
-    "fpiDelta": "Infosys results today = IT direction setter. Brent $99 = continued FII outflow pressure.",
-    "wealth": "BSE market cap ~Rs 453L Cr (down from Rs 457L Cr). April 23 session depends on Infosys + any Iran response.",
-    "analysis": "DAY 55 THU 8:30AM IST: Sensex 78,516 (-757). Nifty 24,378 (-198). IT worst sector. Iran seized MSC Francesca + Epaminondas + attacked Euphoria on April 22 — first ship seizures since war began. Brent briefly $100+, settled $99.03. Trump gave Iran 3-5 days (new soft deadline ~Apr 25-27). 30-country military conference at UK Northwood to plan Hormuz reopening force. Lufthansa cut 20,000 flights. UAE arrested 27 Iran-linked suspects. IMO: 20,000 mariners + 2,000 ships stranded. Infosys Q4 results today = primary domestic catalyst. FY27 guidance = key. 20,000 mariners stranded. India buffer at critical levels. Brent $99 = petrol/diesel hike imminent if sustained. Scenario: deal ~20%, stalemate escalating ~55%, resumed strikes ~25%."
+    "sensex": "77,664",
+    "sensexDelta": "APR 23 CLOSE: -853 (-1.09%). Second consecutive fall. Two-day loss: -1,610 pts.",
+    "sensexSub": "Auto, PSU Bank, Realty worst. Pharma up (defensive). Infosys +21% PAT beat after hours — potential Friday recovery.",
+    "vix": "~22-24 (elevated, two-day market decline)",
+    "vixDelta": "$101 Brent + 50,000 US troops + 3-5 day deadline = VIX at highest since early April.",
+    "fpi": "FII selling across Auto, Banks. Defensive rotation to Pharma.",
+    "fpiDelta": "Infosys beat may attract IT FII buying Friday. Brent $101 caps recovery across energy-sensitive sectors.",
+    "wealth": "BSE market cap ~Rs 449L Cr (down Rs 8L Cr in two days). April 25-27 is the critical window.",
+    "analysis": "DAY 55 THU 7:30PM IST: Sensex 77,664 (-853). Nifty 24,173 (-206). Two-day -1,610 Sensex fall. Brent closed $101.91 April 22 — first sustained $100+ close. INFOSYS Q4 BEAT: PAT Rs 8,501 Cr (+21% YoY) after hours — positive for IT Friday. FY27 guide 1.5-3.5% CC (cautious). US sending thousands more forces — 50,000+ in Middle East now. Iran Pezeshkian: \"welcomes dialogue, blockade is obstacle.\" Lebanon round 2 talks at State Dept today. 3-5 day Trump deadline expires ~April 25-27. Israel-Lebanon 10-day ceasefire also expires ~April 27. Two overlapping deadlines. Iran military doctrine: offensive. OMC petrol/diesel hike imminent at $101 Brent. India critical: April 25-27 most dangerous window since Feb 28."
   },
   "hormuzStatus": {
-    "status": "HORMUZ WAR ZONE — IRAN SEIZED 2 SHIPS + ATTACKED 3. Brent $99. Trump 3-5 day ultimatum.",
+    "status": "HORMUZ CLOSED — BRENT $101. 50,000 US TROOPS. 3-5 DAY DEADLINE ~APR 25-27.",
     "preWarFlow": "130-160 ships/day",
-    "currentFlow": "Effectively zero commercial transit. IRGC seized MSC Francesca + Epaminondas April 22. Third ship Euphoria attacked. Brent $100+. UKMTO: \"high levels of activity\" warning. 30-country conference planning reopening force.",
-    "reduction": "95%+ disruption. Iran seized 2 vessels — first since Feb 28. 20,000 mariners + 2,000 ships stranded (IMO). Lufthansa cut 20,000 flights. EU 6 weeks jet fuel remaining.",
+    "currentFlow": "Effectively zero commercial. Iran seized MSC Francesca + Epaminondas April 22. Brent $101.91 close. 50,000+ US troops in region. 3-5 day deadline for Iran to submit proposal.",
+    "reduction": "95%+ disruption. IEA: \"biggest energy crisis in history.\" Brent $101.91 April 22 close. OMC hike imminent for India.",
     "indianVesselsNear": 8,
     "indianSeafarers": 280,
     "indianTransited": 0,
-    "totalShipsWaiting": "20,000 mariners + 2,000 ships stranded (IMO April 21). India buffer at critical depletion stage. OMCs facing margin pressure at Brent $99.",
-    "lastTransit": "Iran seized MSC Francesca + Epaminondas April 22 — direct retaliation for Touska. Euphoria attacked but resumed sailing. UKMTO: \"high levels of activity\" warning active. Zero safe commercial transit.",
-    "indianNavyEscort": "Op Urja Suraksha on HIGH ALERT. Tifani seizure in Indian Ocean. MEA channel with Tehran active. India must monitor US-Iran tit-for-tat naval escalation carefully.",
-    "headline": "IRGC seized MSC Francesca + Epaminondas April 22 — first ship seizures since Feb 28. Epaminondas: gunfire + RPGs. Brent $100+. Trump 3-5 days. 30-country Hormuz conference. Escalation accelerating."
+    "totalShipsWaiting": "20,000 mariners + 2,000 ships stranded (IMO). India buffer at critical depletion — 55+ days consumed. OMC hike decision imminent.",
+    "lastTransit": "Iran seized MSC Francesca + Epaminondas April 22. Euphoria attacked. Brent $101.91 close. Effective commercial closure continues.",
+    "indianNavyEscort": "Op Urja Suraksha on HIGH ALERT. Three US carrier groups converging. Indian Ocean also active (Tifani seized Apr 21).",
+    "headline": "BRENT $101. 50,000 US troops. April 25-27 = Trump deadline + Lebanon ceasefire expiry. Iran has offensive military doctrine. Most dangerous convergence since Feb 28."
   },
   "hormuzEvents": [
     {
-      "d": "Apr 22-23",
-      "e": "DAY 55 THU 8:30AM IST. IRAN SEIZED MSC FRANCESCA + EPAMINONDAS (Greek), ATTACKED EUPHORIA on April 22 — first Iranian ship seizures since Feb 28. Epaminondas: IRGC gunfire + RPGs, significant bridge damage, had prior permission to cross. IRGC: retaliation for Touska seizure. Brent briefly $100+, settled $99.03. Sensex -757 to 78,516. Nifty -198 to 24,378. IT worst. Trump gave Iran 3-5 days (new deadline ~Apr 25-27). 30-country military conference UK Northwood for Hormuz reopening. Lufthansa 20,000 flights cut. UAE arrested 27 Iran-linked suspects. INFOSYS Q4 results today."
+      "d": "Apr 23 7:30PM",
+      "e": "DAY 55 7:30PM IST. Sensex -853 to 77,664. Nifty -206 to 24,173. Brent $101.91 April 22 close. INFOSYS Q4 BEAT: PAT Rs 8,501 Cr (+21% YoY). FY27 guide 1.5-3.5% CC. US sending thousands more — 50,000+ in ME. Iran Pezeshkian: welcomes dialogue, blockade is obstacle. Israel-Lebanon round 2 at State Dept today. 3-5 day Trump deadline ~April 25-27. Lebanon ceasefire also expires ~April 27. Iran military doctrine: offensive. OMC hike imminent."
+    },
+    {
+      "d": "Apr 23 PM",
+      "e": "DAY 55 EVENING. Sensex -852 to 77,664. Nifty -205 to 24,173. 2-day fall = 1,609 pts. Brent $103.94. Rupee 94.11. INFOSYS Q4 BEAT: PAT Rs 8,501 Cr (+21% YoY) but FY27 guide 1.5-3.5% (conservative). PENTAGON FIRED NAVY SECRETARY PHELAN — 21 warships in region, 7 more. US intercepted 3 Iranian tankers in Asian waters — blockade going global. Iran maintaining more military capability than admitted (CBS). Senate rejected war powers 55-46. WH: no deadline for Iran proposal. Brent $103 = petrol/diesel hike imminent. Lebanon journalist killed in Israeli airstrike."
     },
     {
       "d": "Apr 21 Night",
@@ -110,10 +114,6 @@
     {
       "d": "Apr 19 PM",
       "e": "HORMUZ CLOSED. IRGC targeting all vessels. No Indian tanker confirmed crossing Apr 19. Indian VLCC (2M bbl) fired on Apr 18, turned back. MEA urged Iran to resume. US officials travelling to Pakistan. Nuclear progress before crisis. Brent ~$96-97. Ceasefire Apr 22 — 3 days."
-    },
-    {
-      "d": "Apr 19 AM",
-      "e": "DAY 51. HORMUZ STILL CLOSED. IRGC: any approaching vessel will be targeted. Near-miss: IRGC nearly fired on US minesweeper — US backed down (Ghalibaf). Iran Deputy FM Khatibzadeh (Antalya): no date set for next round talks, framework first. Trump: maybe won't extend ceasefire, may start bombing. Brent ~$98. MEA Misri met Indian ambassador to Iran — deep concern over Indian ships. Ceasefire expires Apr 22 — 3 days. Monday markets open = ceasefire expiry day."
     }
   ],
   "kitchen": [
@@ -201,46 +201,46 @@
   ],
   "military": [
     {
-      "t": "IRAN SEIZED MSC Francesca + Epaminondas + Attacked Euphoria — First Seizures Since Feb 28.",
+      "t": "US Sending Thousands More Forces — 50,000+ Now in Middle East. Three Carriers Converging.",
       "lv": "BREAKING",
       "color": "red",
-      "d": "Three vessels attacked in Hormuz on April 22 — the most significant naval escalation since the West Asia War began. (1) EPAMINONDAS (Greek-owned): IRGC gunboat attacked with gunfire and rocket-propelled grenades near coast of Oman at 5:47 AM London time, 15 miles NE of Oman — \"significant damage to bridge.\" Ship had been given prior permission to cross. Greek Ministry of Shipping said ship was not \"captured\" but sustained extensive damage. Wikipedia Hormuz crisis confirmed: attack consisted of \"gunfire and rocket-propelled grenades, caused significant damage to the bridge.\" (2) MSC FRANCESCA: targeted off coast of Iran, instructed to drop anchor, hull and accommodation damage. Iran said it was \"seized.\" (3) EUPHORIA: targeted by IRGC, briefly stranded on Iranian coast, later found undamaged and resumed sailing. UKMTO confirmed all three incidents. No crew casualties reported. Time confirmed: \"first time Tehran has seized ships since the start of the war on Feb. 28.\" IRGC explicitly stated these were retaliation for the Touska seizure by USS Spruance on April 19."
+      "d": "CBS News (April 23 live blog) confirmed: thousands more US forces heading to the Middle East. Total now exceeds 50,000 American service members — vs the typical 30,000-40,000. Two carrier strike groups already deployed: USS Abraham Lincoln (Gulf of Oman) and USS Gerald R. Ford (Red Sea, ~300 days deployed). USS George H.W. Bush converging from the Indian Ocean — traveled around Africa to avoid Houthi threat. This is the largest US military presence in the Middle East since the Gulf War. The buildup is unambiguously pre-positioning for resumed strikes if Iran does not submit a \"unified proposal\" within Trump's 3-5 day window (~April 25-27). Iran's military knows this — their doctrine has already shifted to offensive. The collision risk is at its highest since February 28."
     },
     {
-      "t": "BRENT BRIEFLY $100+ — First Above $100 Since April 8 Ceasefire. Settled $99.03.",
+      "t": "INFOSYS Q4 MASSIVE BEAT: PAT +21% YoY to Rs 8,501 Cr. FY27 Guide 1.5-3.5% CC — Cautious.",
+      "lv": "BREAKING",
+      "color": "green",
+      "d": "Infosys Q4 FY26 results (after market hours April 23): PAT Rs 8,501 crore — up 20.87% YoY (massive beat vs consensus Rs 7,500-7,700 Cr). Revenue Rs 46,402 crore — up 13.4% YoY, up 2% QoQ (in line). EPS Rs 21.01 — up 23.8% YoY. FY27 revenue guidance: 1.5%-3.5% CC YoY (cautious, below consensus of 2-5% — reflects West Asia War impact on client discretionary IT spending and US tariff uncertainty). FY27 operating margin guidance: 20%-22% (in line). Results after market hours — not yet priced in. Infosys stock likely to gap up Friday. Nifty IT index, which was worst performer two consecutive sessions, may partially recover. The PAT beat is a significant positive domestic catalyst at a time when geopolitical headwinds are dominant."
+    },
+    {
+      "t": "Iran President Pezeshkian: \"Welcomes Dialogue — Blockade is the Obstacle.\" Door Remains Open.",
+      "lv": "BREAKING",
+      "color": "amber",
+      "d": "Iranian President Masoud Pezeshkian issued a statement Wednesday: Iran \"welcomes dialogue but breach of commitments, blockade and threats are main obstacles to genuine negotiations.\" This is the most conciliatory language from a senior Iranian official since Islamabad. Ghalibaf also said \"the ceasefire only makes sense if it is not violated by the maritime blockade.\" These signals from Iran's diplomatic wing (Pezeshkian, Araghchi, Ghalibaf) suggest Iran's political leadership is looking for a diplomatic exit ramp — even as the IRGC seizes ships. The structural constraint is clear: the IRGC-aligned Supreme Leader Mojtaba Khamenei must approve any deal. Trump's 3-5 day window gives Iran until ~April 25-27 to submit a \"unified proposal.\" Pakistan is still actively mediating. The diplomatic door is narrow but not closed. If Iran submits even a partial proposal: Trump may extend again."
+    },
+    {
+      "t": "Brent $101.91 April 22 Close. India OMC Petrol/Diesel Hike Decision Imminent.",
       "lv": "BREAKING",
       "color": "red",
-      "d": "Brent crude briefly exceeded $100 per barrel on April 22 on the ship seizure news — the first time above $100 since the original ceasefire announcement. CNBC confirmed Brent settled at $99.03 (+0.5%) after briefly surpassing $100. WTI $90.13 (+0.5%). Time: \"a jump of more than 1.8% on Wednesday, reaching over $100 per barrel.\" For India: Brent $99 crossing toward $100 = full reversal of ceasefire gains. OMC margin pressure severe — Indian oil marketing companies likely to announce petrol/diesel hike if Brent stays above $97-98 for 5+ days. LPG subsidy reinstatement discussion returning. India rupee expected to weaken to 94.50-95.00. India petroleum import bill for April will be the highest since the war began."
+      "d": "Brent crude closed at $101.91 on April 22 — up more than 3% on the Iran ship seizures — the first sustained close above $100 since the original ceasefire on April 8. WTI $92.96. As of April 23 evening, Brent remains elevated in the $100-102 range. The IEA has officially called the Hormuz disruption the \"biggest energy crisis in history.\" For India: sustained Brent above $100 for 5+ consecutive days (approaching that threshold now) typically triggers OMC petrol/diesel price hike decisions. Indian Oil, BPCL, HPCL are absorbing losses at these price levels. A Rs 2-5/litre petrol/diesel hike is likely within 1-2 weeks if Brent stays at $100+. LPG subsidy reinstatement is back under discussion within the government. India's petroleum import bill for April will be the highest since the West Asia War began."
     },
     {
-      "t": "TRUMP Gave Iran 3-5 DAYS — New Soft Deadline ~April 25-27 for Talks or Resumed Attacks.",
-      "lv": "BREAKING",
-      "color": "amber",
-      "d": "Wikipedia ceasefire article (April 22 entry confirmed): \"US officials said that Trump has given Iran three to five days to engage in negotiations and resolve alleged infighting within the government before resuming attacks.\" This creates a new soft deadline: approximately April 25-27. Trump posted Truth Social: \"Iran is collapsing financially! Starving for cash! Losing $500M a day. Military and Police complaining they are not getting paid. SOS!!!\" Separately: \"Iran doesn't want the Strait of Hormuz closed, they want it open so they can make $500M a day. They only say they want it closed because I have it totally BLOCKADED.\" However, the IRGC ship seizures on April 22 directly contradict Trump's assertion Iran is desperate to open Hormuz — Iran is actively closing it further. The 3-5 day window is narrowing fast."
-    },
-    {
-      "t": "30-COUNTRY Military Conference at UK Northwood — Multinational Hormuz Reopening Force.",
-      "lv": "BREAKING",
-      "color": "amber",
-      "d": "UK and France hosted military planners from 30+ countries at the UK's Permanent Joint Headquarters in Northwood, London — a two-day conference (April 22-23) specifically to plan a multinational force to reopen the Strait of Hormuz after a sustainable ceasefire. NPR and CNN confirmed. Conference covers: national capabilities, command and control structures, how military forces can deploy to the region. Will only act \"following a sustainable ceasefire agreement.\" EU foreign policy chief Kallas: \"Freedom of navigation is non-negotiable.\" EU also widening sanctions on Tehran. This is the most significant international military planning effort since the West Asia War began — 30+ nations publicly coordinating on post-ceasefire Hormuz reopening. For India: India was not named as attending but has warships already in the Gulf of Oman under Op Urja Suraksha."
-    },
-    {
-      "t": "Lufthansa Cut 20,000 Flights. United Airlines Below Estimates. EU 6 Weeks Jet Fuel.",
+      "t": "SENSEX -853 to 77,664. Two-Day Loss -1,610 pts. Pharma Up; Rest Down. Infosys Beat = Friday Catalyst.",
       "lv": "DEVELOPING",
       "color": "amber",
-      "d": "NPR confirmed: Lufthansa cut 20,000 flights through October — jet fuel cost has \"doubled since the start of the West Asia War.\" United Airlines (Reuters/NPR): \"forecast second-quarter and full-year profits below Wall Street estimates\" due to fuel costs. IEA head earlier warned Europe has \"maybe six weeks or so\" of jet fuel. UK poll: 1 in 10 people already stockpiling fuel. These airline industry impacts signal the consumer economic damage is reaching daily life globally. For India: IndiGo, Air India, SpiceJet all face elevated ATF (aviation turbine fuel) costs — ATF prices rise in line with crude. IndiGo specifically may be forced to raise fares or announce capacity cuts if Brent stays at $99+ through April. Civil aviation in India has been a bright spot post-COVID; this threatens that recovery."
+      "d": "Sensex April 23 close: 77,664 (-852.49 / -1.09%). Nifty 24,173.10 (-205.50 / -0.84%). Second consecutive session of losses. Auto, PSU Bank, Realty declined most. Pharma rose — defensive rotation as investors hedge against further escalation. MidCap -0.41%, SmallCap -0.67%. Combined two-day Sensex decline: -1,610 points (-2%). Nifty VIX expected to be elevated at 22-24. Infosys Q4 beat (PAT +21%) came after market hours — not yet priced in. Potential positive catalyst for Friday: Infosys stock gap-up + partial recovery of Nifty IT sector. However, geopolitical headwinds remain — April 25-27 dual deadline window, Brent $100+, 50,000 US troops in region."
     },
     {
-      "t": "UAE Arrested 27 Iran-Linked Suspects. IRGC Retaliation Pattern: Touska → Epaminondas.",
+      "t": "Israel-Lebanon Round 2 Talks at State Dept Today. Lebanon Ceasefire Expires ~April 27.",
       "lv": "DEVELOPING",
       "color": "amber",
-      "d": "CNN confirmed Tuesday: UAE State Security dismantled an alleged Iran-backed network, arresting 27 suspects linked to \"Wilayat al-Faqih\" ideology — planning sabotage operations on UAE soil. Suspects' names and mugshots published by UAE WAM news agency. This signals Iran's proxy threat inside Gulf states is active during the ceasefire — Iran is not just fighting at Hormuz but maintaining covert pressure inside Gulf states. Separately, the IRGC explicitly confirmed the April 22 attacks were retaliation for the Touska seizure. The tit-for-tat pattern: Touska (US Apr 19) → Tifani (US Apr 21) → MSC Francesca + Epaminondas (Iran Apr 22). Trump's 3-5 day ultimatum gives Iran until ~April 25-27 to either engage diplomatically or face resumed strikes. India must factor in both the direct Hormuz risk and the broader Gulf stability risk."
+      "d": "CBS News confirmed: second round of US-brokered Israel-Lebanon peace talks at State Department today (April 23) at ambassador level. First round (April 14) produced the 10-day Lebanon ceasefire. However, Lebanon ceasefire is stressed: Lebanese journalist Amal Khalil (Al-Akhbar newspaper) killed in Israeli airstrike on southern Lebanon April 22. Two more people killed Wednesday. Hezbollah has carried out drone attacks claiming \"response to Israeli violations.\" The 10-day Lebanon ceasefire expires approximately April 27 — the same window as Trump's 3-5 day deadline for Iran (~April 25-27). Iran has repeatedly linked Hormuz status to Lebanon ceasefire. If Lebanon ceasefire collapses simultaneously with the Trump deadline failing: Iran would have justification to escalate Hormuz dramatically beyond current ship seizures. The April 25-27 window contains two converging deadlines."
     },
     {
-      "t": "INFOSYS Q4 Results TODAY — FY27 Guidance the Key. Consensus: 2-5% CC YoY.",
+      "t": "Iran Military Doctrine Revised: OFFENSIVE. 3-5 Day Deadline ~April 25-27. Most Dangerous Window.",
       "lv": "DEVELOPING",
-      "color": "cyan",
-      "d": "Infosys Q4 FY26 results due today (April 23). Board meeting started April 22, results announced April 23. Business Standard consensus: revenue ~Rs 46,300-46,567 Cr (+13.7% YoY, +2% QoQ), PAT ~Rs 7,500-7,700 Cr. FY27 CC revenue growth guidance consensus: 2-5% (MOFSL: 1.5-4.5%). Key metrics: (1) FY27 guidance range — a tight/conservative range signals macro uncertainty from US tariffs and West Asia War; a wide/positive range signals confidence in deal pipeline. (2) Large deal TCV: $4B+ Q4 TCV would be positive. (3) West Asia War commentary — management views on IT spending impact from global economic disruption. Nifty IT was worst performer April 22 ahead of results. A strong beat + positive guidance today could recover IT losses and push Sensex toward 79,000. A miss + conservative guidance with Iran escalation = risk of Sensex breaking below 78,000."
+      "color": "red",
+      "d": "Wikipedia US Military Buildup article confirmed: Iran's Chief of Staff Mousavi announced Iran \"revised its military doctrine from defensive to offensive following the Twelve-Day War\" (June 2025). Iran entered the West Asia War with an offensive doctrine. Combined with: new IRGC-aligned Supreme Leader Mojtaba Khamenei, IRGC rearmed faster than pre-war pace (confirmed during ceasefire), ship seizures as deliberate escalation (MSC Francesca, Epaminondas), and Ghalibaf's \"new battlefield cards\" warning — Iran is more capable and more aggressively postured than at the start of the war. The US is matching with 50,000+ troops, three carrier groups, and a 3-5 day ultimatum. Both sides have offensive postures, both sides have pre-positioned maximum force. April 25-27 is the convergence point. India must monitor this window extremely carefully."
     }
   ],
   "nukes": [
@@ -530,14 +530,22 @@
       "d": 55,
       "l": "Apr 23",
       "deaths": 6600,
-      "brent": 99,
-      "nifty": 24378,
-      "rupee": 94.5,
-      "tag": "IRGC seized MSC Francesca + Epaminondas, attacked Euphoria April 22. First ship seizures since Feb 28. Brent briefly $100+, settled $99. Sensex -757 to 78,516. Trump 3-5 day ultimatum. 30-country Hormuz conference. Infosys Q4 results today. West Asia War Day 55.",
+      "brent": 102,
+      "nifty": 24173,
+      "rupee": 94.8,
+      "tag": "Sensex -853 to 77,664. Nifty -206 to 24,173. Two-day -1,610 pts. Brent $101.91 Apr 22 close. INFOSYS Q4 BEAT: PAT +21% to Rs 8,501 Cr. FY27 guide 1.5-3.5%. US 50,000+ troops. 3-5 day deadline ~Apr 25-27. Lebanon ceasefire expires ~Apr 27. Dual deadline convergence. West Asia War Day 55.",
       "sev": 3
     }
   ],
   "hormuzLatest": [
+    {
+      "d": "Apr 23 7:30PM",
+      "e": "DAY 55 7:30PM IST. Sensex -853 to 77,664. Nifty -206 to 24,173. Brent $101.91 April 22 close. INFOSYS Q4 BEAT: PAT Rs 8,501 Cr (+21% YoY). FY27 guide 1.5-3.5% CC. US sending thousands more — 50,000+ in ME. Iran Pezeshkian: welcomes dialogue, blockade is obstacle. Israel-Lebanon round 2 at State Dept today. 3-5 day Trump deadline ~April 25-27. Lebanon ceasefire also expires ~April 27. Iran military doctrine: offensive. OMC hike imminent."
+    },
+    {
+      "d": "Apr 23 PM",
+      "e": "DAY 55 EVENING. Sensex -852 to 77,664. Nifty -205 to 24,173. 2-day fall = 1,609 pts. Brent $103.94. Rupee 94.11. INFOSYS Q4 BEAT: PAT Rs 8,501 Cr (+21% YoY) but FY27 guide 1.5-3.5% (conservative). PENTAGON FIRED NAVY SECRETARY PHELAN — 21 warships in region, 7 more. US intercepted 3 Iranian tankers in Asian waters — blockade going global. Iran maintaining more military capability than admitted (CBS). Senate rejected war powers 55-46. WH: no deadline for Iran proposal. Brent $103 = petrol/diesel hike imminent. Lebanon journalist killed in Israeli airstrike."
+    },
     {
       "d": "Apr 22-23",
       "e": "DAY 55 THU 8:30AM IST. IRAN SEIZED MSC FRANCESCA + EPAMINONDAS (Greek), ATTACKED EUPHORIA on April 22 — first Iranian ship seizures since Feb 28. Epaminondas: IRGC gunfire + RPGs, significant bridge damage, had prior permission to cross. IRGC: retaliation for Touska seizure. Brent briefly $100+, settled $99.03. Sensex -757 to 78,516. Nifty -198 to 24,378. IT worst. Trump gave Iran 3-5 days (new deadline ~Apr 25-27). 30-country military conference UK Northwood for Hormuz reopening. Lufthansa 20,000 flights cut. UAE arrested 27 Iran-linked suspects. INFOSYS Q4 results today."
@@ -545,19 +553,11 @@
     {
       "d": "Apr 22 AM",
       "e": "DAY 54 WED 9:30AM IST. Ceasefire indefinitely extended — still holding, no new deadline. 12 vessels Hormuz past 24hrs (mostly Iranian-flagged). Vance still Washington — no departure date. Iran still no delegation. Ghalibaf adviser: extension \"ploy to buy time.\" Iran Air resuming domestic flights today (50-day suspension ends). New Iran Supreme Leader Mojtaba Khamenei — hardline, IRGC-aligned. Brent ~$95. 28 ships turned back blockade. EU: 6 weeks jet fuel. India: INFOSYS Q4 RESULTS today. Sensex 79,273 prev close. Stalemate phase."
-    },
-    {
-      "d": "Apr 21 Night",
-      "e": "DAY 53 NIGHT 9:30PM IST. TRUMP EXTENDED CEASEFIRE INDEFINITELY — no end date, Pakistan request. Vance Islamabad trip cancelled. M/T TIFANI seized Indian Ocean (400mi SE Sri Lanka) — second ship boarded in West Asia War. Iran: extension \"means nothing,\" Hormuz commercial route closed, NOT attending Wednesday talks. Araghchi: blockade is \"act of war.\" Brent briefly $101, settled ~$95. Bessent: Kharg storage full in days. 20,000+ seafarers stranded (CBS News). Sensex 79,273 (+753). Nifty 24,577 (+212). Infosys Q4 tomorrow."
-    },
-    {
-      "d": "Apr 22 12AM",
-      "e": "DAY 53 LATE. TRUMP EXTENDED CEASEFIRE INDEFINITELY at Pakistan PM request — Iran must submit unified proposal. Vance DID NOT travel — stayed Washington, WH policy meetings. SECOND tanker boarded: M/T Tifani (Indian Ocean, INDOPACOM). Brent spiked $101, settled $98.48 (+3.1%). Kharg Island storage filling in days (Bessent). UK+France 30-nation military Hormuz conference Wed. Iran: extension \"means nothing,\" prepared for renewed war, \"new surprises.\" Iran domestic flights resume Wed. Sensex 79,273. Nifty 24,577. Infosys Q4 results Wed."
     }
   ],
   "projNow": {
-    "brent": 99,
-    "rupee": 94.5,
+    "brent": 102,
+    "rupee": 94.8,
     "lpg": 912,
     "petrol": 94.77,
     "deaths": 6600
@@ -567,49 +567,49 @@
       "Pre-war",
       "Now (D55)",
       "Iran submits proposal",
-      "3-5 day deadline passes",
-      "Strikes resume"
+      "Deadline passes/extends",
+      "Strikes resume Apr 25-27"
     ],
     "brent": [
       65,
-      99,
-      83,
-      108,
+      102,
+      85,
+      102,
       130
     ],
     "rupee": [
       91,
-      94.5,
+      94.8,
       91.5,
-      102,
+      95.5,
       109
     ],
     "deaths": [
       0,
       "6,600+",
       "7,200",
-      "9,500+",
+      "8,000",
       "20,000+"
     ],
     "sensex": [
       "78,699",
-      "78,516",
-      "81,500+",
-      "72,000",
+      "77,664",
+      "81,000+",
+      "76,000",
       "60,000"
     ],
     "lpg": [
       "Rs 853",
       "Rs 912",
-      "Rs 865",
-      "Rs 1,380+",
+      "Rs 860",
+      "Rs 950+",
       "Rs 1,750+"
     ],
     "fii": [
       "-",
-      "Outflows",
+      "Selling",
       "$20B return",
-      "$32B out",
+      "Flat",
       "$55B out"
     ]
   },
@@ -672,8 +672,8 @@
     }
   ],
   "assessment": {
-    "headline": "DAY 55, 8:30 AM THU: IRAN SEIZED TWO SHIPS (first since Feb 28). Brent briefly $100+. Sensex -757. Trump 3-5 day ultimatum. 30-country Hormuz conference. Lufthansa 20,000 flights cut. Infosys Q4 TODAY. Tit-for-tat naval escalation accelerating.",
-    "body": "Thursday 8:30 AM IST. The West Asia War's stalemate just became an escalation.\n\nWHAT HAPPENED ON APRIL 22\n• Iran attacked and seized multiple vessels in Hormuz — first ship seizures since Feb 28\n• EPAMINONDAS (Greek cargo): gunfire + rocket-propelled grenades, significant bridge damage — had prior permission to cross\n• MSC FRANCESCA: targeted, instructed to anchor, hull damage — seized by Iran\n• EUPHORIA: attacked, briefly stranded on Iranian coast — later resumed sailing undamaged\n• No crew casualties — but no warning given before attacks (UKMTO confirmed)\n• IRGC explicitly: \"response to US capture of Iranian commercial vessel [Touska]\"\n• Brent briefly exceeded $100 — first time above $100 since April 8 ceasefire\n\nTHE TIT-FOR-TAT PATTERN\n• April 19: USS Spruance seized TOUSKA (Iranian) — blew hole in engine room\n• April 21: US seized M/T TIFANI in Indian Ocean\n• April 22: Iran seized MSC FRANCESCA + EPAMINONDAS (non-Iranian)\n• April 22: Trump gives Iran 3-5 days (~April 25-27) or strikes resume\n• Each action invites retaliation — the cycle is accelerating\n\nTHE NEW 3-5 DAY WINDOW\n• US officials: Trump gave Iran 3-5 days to engage in talks and resolve internal infighting\n• New soft deadline: approximately April 25-27\n• Trump simultaneously posting: \"Iran is collapsing financially, losing $500M a day\"\n• Iran's IRGC responds by seizing ships — does not look like a government about to submit a proposal\n• The Mojtaba Khamenei (new Supreme Leader, IRGC-aligned) structural constraint remains\n\n30-COUNTRY CONFERENCE AT NORTHWOOD\n• Military planners from 30+ nations meeting at UK Permanent Joint HQ\n• Planning multinational Hormuz reopening force — post-ceasefire\n• Will not act until \"sustainable ceasefire achieved\"\n• EU widening sanctions on Tehran\n• UK, France, US all coordinating on the military option\n\nINDIA's SITUATION AT DAY 55\n• Sensex 78,516 (-757) — IT worst, Iran risk re-priced\n• Brent $99 — approaching critical OMC hike threshold of Rs 97-98\n• Rupee ~94.50 and weakening\n• 280 Indian seafarers in region. 8 Indian vessels. Op Urja Suraksha HIGH ALERT\n• IMO: 20,000 mariners + 2,000 ships stranded in Gulf\n• Infosys Q4 results TODAY — the domestic counterweight to geopolitical pressure\n• Lufthansa + United = warning sign for IndiGo, Air India ATF cost impact\n\nSCENARIO SHIFT — STALEMATE ENDING\n• Iran submitting proposal in 3-5 days: 20%\n• Stalemate continues (Trump extends again): 35%\n• Strikes resume after deadline: 25%\n• Uncontrolled escalation (Iran attacks US asset): 20%\n\nVERDICT: The stalemate is over. Iran's seizure of two ships was the IRGC's reply to the Touska seizure — a deliberate escalation inside the ceasefire. Trump's 3-5 day ultimatum is the tightest pressure point since the indefinite extension was announced. India's markets open this morning with Brent at $99, a Sensex that fell 757 points yesterday, and Infosys results due today. The next 72 hours will determine whether the West Asia War enters its most dangerous phase since February 28."
+    "headline": "DAY 55, 7:30 PM THU: Sensex -853 to 77,664. Brent $101.91. Infosys PAT +21% (beat). 50,000 US troops. 3-5 day deadline ~Apr 25-27 = Lebanon ceasefire expiry. Dual deadline convergence. Most dangerous window since Feb 28 approaching.",
+    "body": "Thursday 7:30 PM IST. Two days of market losses. Brent above $100. 50,000 US troops. April 25-27 is the convergence point.\n\nMARKETS — TWO CONSECUTIVE FALLS\n• Sensex: 77,664 (-853 / -1.09%). Nifty: 24,173 (-206 / -0.84%)\n• Two-day combined loss: -1,610 Sensex points (-2%)\n• Auto, PSU Bank, Realty worst. Pharma rose (defensive)\n• Infosys Q4 beat after hours — NOT yet priced in → potential Friday recovery\n\nINFOSYS Q4 — THE DOMESTIC BRIGHT SPOT\n• PAT: Rs 8,501 Cr — UP 21% YoY (massive beat vs Rs 7,500 Cr consensus)\n• Revenue: Rs 46,402 Cr (+13.4% YoY, +2% QoQ)\n• EPS: Rs 21.01 (+23.8% YoY)\n• FY27 guidance: 1.5%-3.5% CC (cautious, below 2-5% consensus — West Asia War impact)\n• Stock expected to gap up Friday — partial IT sector recovery possible\n• But cautious FY27 guidance = ceiling on IT rally\n\nTHE MILITARY BUILD-UP\n• 50,000+ US service members now in Middle East (CBS confirmed)\n• Typical baseline: 30,000-40,000\n• Three carrier strike groups converging: Lincoln (Gulf of Oman), Ford (Red Sea), Bush (Indian Ocean)\n• Pre-positioning signal: Trump will use force if Iran misses the 3-5 day window\n• Iran's military doctrine: already revised to offensive (Mousavi, confirmed)\n• Both sides have maximum forces pre-positioned for resumed conflict\n\nIRAN's DIPLOMATIC SIGNAL\n• Pezeshkian: \"welcomes dialogue — blockade is the obstacle\"\n• Ghalibaf: \"ceasefire only makes sense without maritime blockade\"\n• This is Iran's diplomatic wing speaking — IRGC wing is seizing ships\n• Internal Iran power struggle between diplomats and IRGC continues\n• Door not closed — but IRGC-aligned Supreme Leader must sign off on any deal\n\nTHE DUAL DEADLINE — APRIL 25-27\n• Trump 3-5 day window from April 22 = ~April 25-27\n• Israel-Lebanon 10-day ceasefire = also expires approximately April 27\n• Iran explicitly linked Hormuz to Lebanon ceasefire throughout the war\n• If Lebanon ceasefire collapses AND Trump deadline passes without Iran proposal: escalation\n• Both overlapping deadlines converging on the same 3-day window\n• This is the most dangerous convergence since February 28\n\nINDIA'S POSITION\n• Brent $101.91 April 22 close — sustained $100+ = OMC hike within 1-2 weeks\n• Rupee weakening toward 94.80-95.00\n• Sensex -1,610 pts in two sessions\n• Infosys beat = partial Friday recovery possible\n• April 25-27 = most dangerous window for Indian markets since the war began\n• Kharif fertiliser supply risk growing if Hormuz stays closed through May\n\nVERDICT: The West Asia War is entering its most dangerous 72 hours since it began. Trump has 50,000 troops ready. Iran has an offensive military doctrine and a IRGC-aligned Supreme Leader. Brent is above $100 for the first time in a sustained way since the ceasefire. The April 25-27 window — when both Trump's ultimatum and the Lebanon ceasefire expire — will either produce a diplomatic breakthrough or the most destructive escalation of the conflict. India's markets, energy prices, and 280 seafarers' safety all depend on what happens in the next 72 hours."
   },
   "featured": [
     {
