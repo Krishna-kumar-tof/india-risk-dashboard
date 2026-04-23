@@ -1,90 +1,95 @@
 {
-  "_updated": "April 22, 2026 — 9:30 AM IST",
-  "_day": 54,
+  "_updated": "April 23, 2026 — 8:30 AM IST",
+  "_day": 55,
   "_phase": "BLOCKADE",
-  "_note": "Verified: NBC live blog (3hrs ago), NPR, CBS News, Euronews, CNBC, PBS. DAY 54 WED 9:30AM IST: Ceasefire indefinitely extended — still holding, no new deadline. 12 vessels Hormuz past 24hrs (NBC/MarineTraffic) — 4 Iranian-flagged, mostly Bandar Abbas route. Vance STILL in Washington — no departure date. Iran still no delegation sent. Ghalibaf adviser: extension \"ploy to buy time for surprise strike.\" Iran Air resuming domestic flights today (50-day suspension ends). Brent ~$95. Sensex 79,273 prev close. INFOSYS Q4 RESULTS TODAY — primary domestic market catalyst. EU: jet fuel 6 weeks remaining. 28 ships turned back (blockade). Shadow fleet still moving (Lloyd's List). New Iran Supreme Leader: Mojtaba Khamenei — hardline, IRGC-aligned. West Asia War continues.",
+  "_note": "Verified: NPR, Time, Al Jazeera, CNBC, CBS News, Wikipedia Hormuz crisis, Business Standard, CNN. DAY 55 THU 8:30AM IST: IRGC SEIZED TWO SHIPS (MSC Francesca + Epaminondas) + ATTACKED THIRD (Euphoria) on April 22 — first Iranian ship seizures since Feb 28. Brent briefly $100+, settled $99.03. Sensex -757 to 78,516. Nifty -198 to 24,378. IT worst performer. Epaminondas: gunfire + RPGs, significant bridge damage. Trump gave Iran 3-5 DAYS (April 22 US officials). 30-country military conference at UK Northwood base for Hormuz reopening plans. Lufthansa cut 20,000 flights. UAE arrested 27 Iran-linked suspects. INFOSYS Q4 RESULTS TODAY (after market hours / during session April 23). West Asia War escalating sharply.",
   "ticker": [
-    "☮️ CEASEFIRE STILL HOLDING — indefinitely extended, no new deadline. Vance still in Washington. 12 vessels crossed Hormuz past 24hrs. Brent ~$95. Iran Air resuming domestic flights today.",
-    "📊 INFOSYS Q4 RESULTS TODAY — the primary India market catalyst this morning. West Asia War ceasefire stable = markets free to focus on fundamentals. Sensex 79,273 prev close.",
-    "🚢 12 VESSELS CROSSED HORMUZ past 24 hours (NBC/MarineTraffic) — 4 Iranian-flagged, mostly Bandar Abbas route. Very low vs 130-160 pre-war but not zero. New commercial passage route still shut.",
-    "⚠️ IRAN: Ghalibaf adviser calls ceasefire extension 'ploy to buy time for a surprise strike.' Iran still refusing to send delegation to Islamabad. 'No final decision' on talks (Baghaei).",
-    "✈️ IRAN AIR RESUMING DOMESTIC FLIGHTS TODAY — first flights after 50-day suspension. Tehran-Mashhad service restarting. Iran signalling expectation ceasefire holds — partial domestic normalisation.",
-    "⚛️ NEW IRAN SUPREME LEADER: Mojtaba Khamenei — son of the late Ayatollah, more hardline, VERY CLOSE TIES TO IRGC. Explains IRGC dominance over Iran's diplomatic corps in negotiations.",
-    "🛢️ Brent ~$95 (stable). 28 ships turned back under US blockade (NPR). Lloyd's List: shadow fleet still moving in/out of Iranian ports — Tifani seizure part of effort to close shadow route.",
-    "🇪🇺 EU TRANSPORT MINISTERS met Brussels — IEA head warned Europe has 'maybe six weeks' of jet fuel remaining. Europe under severe supply pressure from Hormuz closure.",
-    "🇮🇳 India: Infosys Q4 results = primary catalyst today. Brent $95 stable = no new petrol/diesel shock. Rupee ~94.00. Blockade continues = LPG/fuel relief still weeks away. Op Urja Suraksha HIGH ALERT.",
-    "📍 STALEMATE STATUS: No imminent war (ceasefire holds). No Hormuz opening (blockade continues, Iran refusing). No talks date. West Asia War enters grinding diplomatic stalemate phase."
+    "🚢 IRAN SEIZED TWO SHIPS April 22 — MSC Francesca + Epaminondas. FIRST Iranian seizures since Feb 28. Third ship Euphoria attacked. Brent hit $100+. Sensex -757 to 78,516.",
+    "⚔️ EPAMINONDAS (Greek-owned): IRGC gunfire + ROCKET-PROPELLED GRENADES — significant bridge damage. Ship had been given PERMISSION to cross. Another direct ceasefire violation.",
+    "⏰ TRUMP GAVE IRAN 3-5 DAYS (US officials April 22) to engage in talks and resolve 'internal government infighting' before resuming attacks. New soft deadline: ~April 25-27.",
+    "🌍 30-COUNTRY MILITARY CONFERENCE — UK Northwood base, 2-day meeting to plan multinational Hormuz reopening force. Will act 'as soon as conditions permit following sustainable ceasefire.'",
+    "📊 SENSEX -757 to 78,516. NIFTY -198 to 24,378. IT worst sector. Brent briefly $100+ settled $99. Iran ship seizures reversed Tuesday's gains. West Asia War risk re-priced higher.",
+    "✈️ LUFTHANSA cut 20,000 flights through October — jet fuel doubled since West Asia War start. United Airlines Q2 profits below estimates. EU: 6 weeks jet fuel.",
+    "🇦🇪 UAE ARRESTED 27 Iran-linked suspects — dismantled alleged Tehran-backed 'terrorist network' planning sabotage on UAE soil. Iran-UAE tensions sharpening inside ceasefire.",
+    "📅 INFOSYS Q4 RESULTS TODAY (April 23) — expected after market hours or during session. FY27 guidance = key. Consensus: Rs 46,300-46,567 Cr revenue, FY27 guide 2-5% CC growth.",
+    "🛢️ Brent ~$99 as of 8:30 AM IST. Iran ship seizures + 3-5 day deadline = $100+ risk rising. 20,000 mariners + 2,000 ships stranded (IMO). India buffer critically low.",
+    "⚠️ IRGC response to Touska seizure = ship seizures April 22. IRGC announced: Epaminondas seizure 'response to US capture of Iranian commercial vessel.' Tit-for-tat naval escalation."
   ],
   "whatChanged": {
-    "label": "WHAT CHANGED — APR 22, 9:30 AM IST (DAY 54) — WEDNESDAY MORNING",
+    "label": "WHAT CHANGED — APR 23, 8:30 AM IST (DAY 55) — MAJOR HORMUZ ESCALATION",
     "items": [
       {
-        "color": "green",
-        "bold": "CEASEFIRE STILL HOLDING — indefinitely extended, no new deadline. 12 vessels crossed Hormuz overnight.",
-        "text": "Trump's indefinitely extended ceasefire is holding as of Wednesday 9:30 AM IST. No new US attacks on Iran. No new Iranian strikes on US forces or Gulf infrastructure. 12 vessels crossed the Strait of Hormuz in the past 24 hours (NBC live blog, MarineTraffic data) — 4 were Iranian-flagged, with most using the Iranian-approved route off Bandar Abbas. This is very low vs 130-160 pre-war, but not zero — the Hormuz corridor is functioning at a minimal, controlled level for Iranian and a handful of other vessels. The ceasefire holding is the single most important fact for India markets this morning — with no immediate war risk, markets can focus on fundamentals, primarily Infosys Q4 results."
-      },
-      {
-        "color": "amber",
-        "bold": "Vance STILL in Washington — no departure date set. Iran still no delegation sent.",
-        "text": "NBC live blog (updated 3 hours ago): \"It's unclear whether or when Vice President Vance will depart Washington for Islamabad at this point.\" White House: Vance heading to the White House for meetings today to \"discuss what might happen next.\" Things remain \"quite fluid.\" Tasnim confirmed Iran notified Pakistan it would NOT send a delegation for Wednesday talks. Iran FM Baghaei: \"no final decision\" on whether to attend due to \"unacceptable actions\" by the US. The round two Islamabad talks have effectively collapsed before starting — but both sides say they haven't cancelled, just postponed. Pakistan still hosting, security still deployed, Serena Hotel still on standby. The next catalyst will be Iran submitting a \"unified proposal\" to the US — the condition Trump set for further talks."
+        "color": "red",
+        "bold": "IRAN SEIZED TWO SHIPS + ATTACKED THIRD on April 22 — first seizures since Feb 28.",
+        "text": "In the most significant West Asia War naval escalation since the Touska seizure (April 19), the IRGC attacked and seized multiple vessels in the Strait of Hormuz on April 22 — just hours after Trump announced the indefinite ceasefire extension. NPR confirmed three ships were attacked. Time confirmed this is \"the first time Tehran has seized ships since the start of the war on Feb. 28.\" The three vessels: (1) Epaminondas (Greek-owned cargo ship) — IRGC gunboat attacked with gunfire and rocket-propelled grenades near coast of Oman, causing significant bridge damage. Ship had been given permission to cross. UKMTO first report: 5:47 AM London time, 15 miles NE of Oman. (2) MSC Francesca — targeted off coast of Iran, instructed to drop anchor, hull and accommodation damage. Iran said it was \"seized.\" (3) Euphoria — targeted by IRGC, briefly \"stranded\" on Iranian coast, later found undamaged and resumed sailing. No injuries reported in any of the three incidents. IRGC stated the seizures were \"in response to the US capture of the Iranian commercial vessel\" — direct retaliation for the Touska seizure."
       },
       {
         "color": "red",
-        "bold": "Ghalibaf adviser: Extension \"ploy to buy time for a surprise strike.\" Iran deeply suspicious.",
-        "text": "Ghalibaf's adviser Mahdi Mohammadi (Reuters): called Trump's ceasefire extension \"a ploy to buy time\" for a surprise strike. Said the US blockade \"is no different from bombardment and must be met with a military response.\" This reflects the dominant IRGC-aligned view within Iran's power structure. Iran's armed forces commander Abdollahi on Tuesday said Iran was \"prepared to respond decisively to the enemy's breach of promises.\" Iranian state TV and IRGC media continue warning that Hormuz will remain closed. The IRGC is not treating the ceasefire extension as a diplomatic opening — they are treating it as a tactical pause before escalation. The IRGC's influence under new Supreme Leader Mojtaba Khamenei (more hardline, very close to IRGC) makes this posture likely to persist."
+        "bold": "Brent briefly surpassed $100/barrel — first time above $100 since April 8 ceasefire.",
+        "text": "Brent crude briefly exceeded $100 per barrel on April 22 following the ship seizures — the first time above $100 since the original ceasefire announcement on April 8 sent prices tumbling. CNBC confirmed: Brent futures settled at $99.03 per barrel (+0.5%) after briefly surpassing $100. WTI settled at $90.13 (+0.5%). TIME confirmed: \"Following reports of vessels being seized by Iran, the price of Brent crude oil saw a jump of more than 1.8% on Wednesday, reaching over $100 per barrel.\" For India: Brent approaching and briefly crossing $100 = full reversal of ceasefire gains. LPG, petrol and diesel hike risk now elevated again. OMC margin pressure returning. India rupee likely to weaken toward 94.50-95.00."
+      },
+      {
+        "color": "red",
+        "bold": "SENSEX -757 to 78,516. NIFTY -198 to 24,378. IT worst performer.",
+        "text": "Business Standard confirmed: Sensex ended April 22 at 78,516.49 (-756.84 / -0.95%), snapping a 3-day winning streak. Nifty ended 24,378.10 (-198.50 / -0.81%). \"Global equities declined as the failed US-Iran talks stoked worries about a prolonged tension in West Asia.\" Nifty IT emerged as the worst-performing sectoral index — ahead of Infosys results today, IT was under broad pressure. Nifty Financial Services and Nifty Auto also underperformed. Broader markets outperformed: Nifty MidCap +0.19%, SmallCap +1.13%. The 757-point fall reversed exactly the 753-point gain from Tuesday April 21 — West Asia War risk fully re-priced from optimism back to caution in one session."
       },
       {
         "color": "amber",
-        "bold": "NEW IRAN SUPREME LEADER: Mojtaba Khamenei — hardline, IRGC-aligned. Key structural fact.",
-        "text": "CNBC oil timeline article confirmed: Iran named Mojtaba Khamenei — son of the late Supreme Leader Ayatollah Ali Khamenei — as its new Supreme Leader. He is described as \"more hardline, with very close ties to the Iranian Revolutionary Guard Corps.\" This is the single most important structural fact about Iran's negotiating posture: the new Supreme Leader is IRGC-aligned, which means the IRGC's hardline position on negotiations (no talks while blockade continues; Hormuz as sovereign Iranian territory) now has the Supreme Leader's backing. This explains why Ghalibaf and the Foreign Ministry are constrained from making concessions even when they might privately want to. Any deal must be approved by Mojtaba Khamenei — and his IRGC alignment makes the nuclear enrichment and Hormuz issues even harder to resolve."
+        "bold": "TRUMP gave Iran 3-5 DAYS — new soft deadline ~April 25-27 for talks or resumed attacks.",
+        "text": "Wikipedia ceasefire article (confirmed April 22): \"US officials said that Trump has given Iran three to five days to engage in negotiations and resolve alleged infringement within the government before resuming attacks.\" This creates a new soft deadline: approximately April 25-27. Trump also posted on Truth Social: \"Iran is collapsing financially! Starving for cash! Losing $500M a day. Military and Police complaining they are not getting paid. SOS!!!\" And separately: \"Iran doesn't want the Strait of Hormuz closed, they want it open so they can make $500M a day.\" The 3-5 day window is consistent with the ceasefire indefinite extension — Trump is waiting for Iran's government to unify around a proposal. With the IRGC seizing ships on April 22, this window may compress faster than expected."
       },
       {
-        "color": "green",
-        "bold": "IRAN AIR RESUMING DOMESTIC FLIGHTS TODAY — after 50-day suspension. Partial normalisation signal.",
-        "text": "NBC live blog confirmed: Iran Air announced domestic flights resume today after a 50-day suspension caused by the West Asia War. First service: Tehran to Mashhad, departing this morning with a return flight the same day. This is a meaningful signal — Iran is acting as if it expects the ceasefire to hold and is beginning domestic normalisation. It does not signal diplomatic flexibility on the Hormuz or nuclear issues, but it does suggest Iran is not planning an imminent military escalation that would trigger US strikes. For context: Iran suspended all domestic flights on February 28 when the war began, expecting US strikes on infrastructure including airports. Resuming flights signals Iran calculates the ceasefire is stable enough for civilian aviation."
+        "color": "amber",
+        "bold": "30-COUNTRY MILITARY CONFERENCE at UK Northwood base — multinational Hormuz force planning.",
+        "text": "UK and France hosted military planners from 30+ countries at the UK's Permanent Joint Headquarters in Northwood, north London — a two-day conference (April 22-23) to plan a multinational mission to reopen the Strait of Hormuz. NPR and CNN confirmed. The conference will cover military capabilities, command and control structures, and deployment plans. Crucially: any plan will only take effect \"as soon as conditions permit, following a sustainable ceasefire agreement.\" This is not a war-fighting conference — it is planning for the post-ceasefire reopening. The UK defence ministry said it was the latest step after a virtual summit with 51 countries hosted by UK PM Starmer and French President Macron the previous Friday. EU foreign policy chief Kaja Kallas: \"Freedom of navigation is non-negotiable.\" EU also widening sanctions on Tehran."
+      },
+      {
+        "color": "red",
+        "bold": "Lufthansa cut 20,000 flights. United Airlines profits below estimates. EU: 6 weeks jet fuel.",
+        "text": "NPR confirmed: German airline Lufthansa cut 20,000 flights through October — citing jet fuel cost that has \"doubled since the start of the West Asia War.\" United Airlines has also been impacted, with Reuters reporting the carrier had \"forecast second-quarter and full-year profits below Wall Street estimates\" due to fuel costs. The IEA head earlier warned Europe has \"maybe six weeks or so\" of jet fuel remaining, with flight cancellations possible \"soon.\" A UK poll shows 1 in 10 people are already stockpiling fuel. These airline industry developments signal the consumer economic impact of Hormuz closure is reaching daily life globally — Lufthansa alone serves tens of millions of passengers annually. For India: IndiGo, Air India, SpiceJet all face elevated ATF costs as long as Hormuz stays restricted."
       },
       {
         "color": "cyan",
-        "bold": "INFOSYS Q4 RESULTS TODAY — primary India market catalyst. Ceasefire stable = fundamentals in focus.",
-        "text": "With the West Asia War ceasefire holding indefinitely and Brent stable at ~$95, India markets today shift focus to the primary domestic catalyst: Infosys Q4 FY26 results. NDTV Business confirmed Infosys is among the major Q4 results this week. The IT sector has been under pressure during the war — TCS, Infosys, Tech Mahindra all traded lower during peak geopolitical stress. A strong Infosys result could lift the IT index and provide a domestic positive to offset the lingering Brent pressure. Key metrics to watch: revenue growth (USD terms), deal wins, and guidance for FY27 — the first full post-war fiscal year. FII flow: selective accumulation in power and capital goods continues; IT requires an earnings catalyst. India VIX expected to ease further to 15-17 on ceasefire stability."
+        "bold": "INFOSYS Q4 RESULTS TODAY — FY27 guidance is the key. Consensus: 2-5% CC growth.",
+        "text": "Infosys board met April 22 and will announce Q4 FY26 results today (April 23). Business Standard consensus: revenue ~Rs 46,300-46,567 Cr (13.7% YoY), PAT ~Rs 7,500-7,700 Cr (4-5% YoY, slight QoQ dip). FY27 guidance is the critical output — MOFSL expects 1.5-4.5% CC YoY, with the range depending on US tariff impact and deal ramp-up. Nifty IT was yesterday's worst performer ahead of results. Key question: does the West Asia War create macro uncertainty that forces Infosys to guide conservatively on FY27? Large deal TCV of $4B+ in Q4 would be positive. Analyst call today — management commentary on Iran war impact on IT spending will be closely watched. A strong beat + positive guidance could recover some of yesterday's IT losses."
       },
       {
         "color": "amber",
-        "bold": "EU jet fuel: \"maybe six weeks\" remaining. 28 ships turned back. Shadow fleet still running.",
-        "text": "EU transport ministers met in Brussels Tuesday — the IEA head warned Europe has \"maybe six weeks or so\" of jet fuel remaining, with potential flight cancellations \"soon\" if Hormuz stays closed. This underlines the global supply pressure that keeps Brent elevated. On the blockade: NPR confirmed US forces have turned back 28 ships since the blockade began April 13. However, Lloyd's List confirmed shadow fleet vessels are still moving in and out of Iranian ports — the Tifani interception in the Indian Ocean was part of the US effort to close this loophole. Saudi Arabia and UAE bypass routes via Yanbu and Fujairah now at 6.5 mbpd combined (ANZ) — insufficient to replace Hormuz's 20 mbpd pre-war flow. India's LPG/petrol relief remains at least 4-6 weeks away even if a deal is struck today, due to supply chain lag."
+        "bold": "UAE arrested 27 Iran-linked suspects. IRGC retaliation pattern confirmed: Epaminondas was for Touska.",
+        "text": "CNN confirmed Tuesday: UAE State Security arrested 27 people suspected of belonging to an Iran-backed \"terrorist organization\" planning \"sabotage operations\" on UAE soil — linked to Iran's \"Wilayat al-Faqih\" ideology. Suspects' full names and mugshots published by UAE state news agency WAM. This signals Iran's proxy threat inside Gulf states is active even during the ceasefire. Separately, the IRGC explicitly stated the April 22 ship attacks and seizures were \"in response to the US capture of an Iranian commercial vessel\" — confirming the Epaminondas/MSC Francesca seizures are direct retaliation for the Touska. The tit-for-tat naval escalation pattern: Touska (US seized April 19) → ship attacks and seizures (Iran April 22) → 3-5 day ultimatum (Trump April 22). The next US response, if Iran doesn't submit a proposal by ~April 25-27, could be resumed airstrikes."
       }
     ]
   },
   "deaths": "6,600+",
-  "deathsSub": "~3,375+ Iran, 2,294+ Lebanon, 99 Iraq, 23+ Israel, 13 US (+2 noncombat), 35+ Gulf. Ceasefire holding — no new combat deaths reported Wednesday morning.",
+  "deathsSub": "~3,375+ Iran, 2,294+ Lebanon, 99 Iraq, 23+ Israel, 13 US (+2 noncombat), 35+ Gulf. No crew casualties in April 22 Hormuz attacks. Ceasefire continues to broadly hold despite naval escalation.",
   "econ": {
-    "sensex": "79,273",
-    "sensexDelta": "PREV CLOSE APR 21: +753 (+0.96%). Markets opening April 22 now. Infosys results = primary catalyst.",
-    "sensexSub": "Ceasefire stable = positive backdrop. Brent $95 = cap on energy-sensitive sectors. Watch Infosys for IT direction.",
-    "vix": "~16-17 (expected, easing from 19)",
-    "vixDelta": "Ceasefire indefinitely extended = structural VIX decline. Infosys results add domestic volatility.",
-    "fpi": "FII accumulation in power, capital goods continuing. IT sector awaiting Infosys catalyst.",
-    "fpiDelta": "Brent stable below $100 = moderate positive for FII. Infosys results will set IT sector flow direction.",
-    "wealth": "BSE market cap ~Rs 457L Cr. Today's session driven by Infosys results + geopolitical backdrop.",
-    "analysis": "DAY 54 WED 9:30AM IST: Ceasefire indefinitely extended, still holding. 12 vessels crossed Hormuz past 24hrs. Vance still in Washington — no departure date. Iran no delegation sent. Ghalibaf adviser: extension \"ploy.\" Iran Air resuming flights — partial normalisation. New Supreme Leader Mojtaba Khamenei: hardline, IRGC-aligned. Brent ~$95 stable. 28 ships turned back (blockade). Shadow fleet still moving (Lloyd's List). EU: 6 weeks jet fuel. India: Infosys Q4 results today = primary catalyst. Sensex 79,273 prev close. VIX expected 16-17. With ceasefire stable and Brent below $100, markets returning focus to fundamentals. LPG/petrol relief still 4-6 weeks away even if deal struck today."
+    "sensex": "78,516",
+    "sensexDelta": "APR 22 CLOSE: -757 (-0.95%). Snapped 3-day winning streak. IT worst. Brent $99.",
+    "sensexSub": "West Asia War risk re-priced. Iran seized 2 ships. Today: Infosys Q4 results = key catalyst.",
+    "vix": "~20-22 (rising on ship seizures)",
+    "vixDelta": "Ship seizures + $100 Brent + 3-5 day Trump ultimatum = VIX elevated again.",
+    "fpi": "FII selloff in IT and financials April 22. MidCap and SmallCap resilient.",
+    "fpiDelta": "Infosys results today = IT direction setter. Brent $99 = continued FII outflow pressure.",
+    "wealth": "BSE market cap ~Rs 453L Cr (down from Rs 457L Cr). April 23 session depends on Infosys + any Iran response.",
+    "analysis": "DAY 55 THU 8:30AM IST: Sensex 78,516 (-757). Nifty 24,378 (-198). IT worst sector. Iran seized MSC Francesca + Epaminondas + attacked Euphoria on April 22 — first ship seizures since war began. Brent briefly $100+, settled $99.03. Trump gave Iran 3-5 days (new soft deadline ~Apr 25-27). 30-country military conference at UK Northwood to plan Hormuz reopening force. Lufthansa cut 20,000 flights. UAE arrested 27 Iran-linked suspects. IMO: 20,000 mariners + 2,000 ships stranded. Infosys Q4 results today = primary domestic catalyst. FY27 guidance = key. 20,000 mariners stranded. India buffer at critical levels. Brent $99 = petrol/diesel hike imminent if sustained. Scenario: deal ~20%, stalemate escalating ~55%, resumed strikes ~25%."
   },
   "hormuzStatus": {
-    "status": "HORMUZ RESTRICTED — 12 VESSELS/24HRS. CEASEFIRE HOLDS. STALEMATE PHASE.",
+    "status": "HORMUZ WAR ZONE — IRAN SEIZED 2 SHIPS + ATTACKED 3. Brent $99. Trump 3-5 day ultimatum.",
     "preWarFlow": "130-160 ships/day",
-    "currentFlow": "12 vessels past 24hrs (NBC/MarineTraffic) — 4 Iranian-flagged, mostly Bandar Abbas route. Iran's new commercial passage route still closed. Shadow fleet still moving (Lloyd's List). Saudi/UAE bypass: 6.5 mbpd.",
-    "reduction": "90%+ disruption. EU: 6 weeks jet fuel remaining. 28 ships turned back under blockade. Shadow fleet being intercepted (Tifani, Touska).",
+    "currentFlow": "Effectively zero commercial transit. IRGC seized MSC Francesca + Epaminondas April 22. Third ship Euphoria attacked. Brent $100+. UKMTO: \"high levels of activity\" warning. 30-country conference planning reopening force.",
+    "reduction": "95%+ disruption. Iran seized 2 vessels — first since Feb 28. 20,000 mariners + 2,000 ships stranded (IMO). Lufthansa cut 20,000 flights. EU 6 weeks jet fuel remaining.",
     "indianVesselsNear": 8,
     "indianSeafarers": 280,
     "indianTransited": 0,
-    "totalShipsWaiting": "20,000+ seafarers stranded Gulf (CBS News). 230+ tankers anchored. India buffer consuming daily. LPG/petrol relief 4-6 weeks away even with deal.",
-    "lastTransit": "12 vessels past 24hrs — mostly Iranian-flagged on Bandar Abbas route. Last meaningful commercial transit: brief Apr 17-18 window. Touska seized Apr 19. Tifani seized Indian Ocean Apr 21.",
-    "indianNavyEscort": "Op Urja Suraksha on HIGH ALERT. Indian Navy in Gulf of Oman. Tifani seizure shows US enforcement extends to Indian Ocean. MEA channel with Tehran active.",
-    "headline": "12 vessels/24hrs — near-zero commercial flow. Ceasefire holding. No talks date. Iran Air resumes domestic flights. Stalemate. Infosys Q4 today."
+    "totalShipsWaiting": "20,000 mariners + 2,000 ships stranded (IMO April 21). India buffer at critical depletion stage. OMCs facing margin pressure at Brent $99.",
+    "lastTransit": "Iran seized MSC Francesca + Epaminondas April 22 — direct retaliation for Touska. Euphoria attacked but resumed sailing. UKMTO: \"high levels of activity\" warning active. Zero safe commercial transit.",
+    "indianNavyEscort": "Op Urja Suraksha on HIGH ALERT. Tifani seizure in Indian Ocean. MEA channel with Tehran active. India must monitor US-Iran tit-for-tat naval escalation carefully.",
+    "headline": "IRGC seized MSC Francesca + Epaminondas April 22 — first ship seizures since Feb 28. Epaminondas: gunfire + RPGs. Brent $100+. Trump 3-5 days. 30-country Hormuz conference. Escalation accelerating."
   },
   "hormuzEvents": [
     {
-      "d": "Apr 22 AM",
-      "e": "DAY 54 WED 9:30AM IST. Ceasefire indefinitely extended — still holding, no new deadline. 12 vessels Hormuz past 24hrs (mostly Iranian-flagged). Vance still Washington — no departure date. Iran still no delegation. Ghalibaf adviser: extension \"ploy to buy time.\" Iran Air resuming domestic flights today (50-day suspension ends). New Iran Supreme Leader Mojtaba Khamenei — hardline, IRGC-aligned. Brent ~$95. 28 ships turned back blockade. EU: 6 weeks jet fuel. India: INFOSYS Q4 RESULTS today. Sensex 79,273 prev close. Stalemate phase."
+      "d": "Apr 22-23",
+      "e": "DAY 55 THU 8:30AM IST. IRAN SEIZED MSC FRANCESCA + EPAMINONDAS (Greek), ATTACKED EUPHORIA on April 22 — first Iranian ship seizures since Feb 28. Epaminondas: IRGC gunfire + RPGs, significant bridge damage, had prior permission to cross. IRGC: retaliation for Touska seizure. Brent briefly $100+, settled $99.03. Sensex -757 to 78,516. Nifty -198 to 24,378. IT worst. Trump gave Iran 3-5 days (new deadline ~Apr 25-27). 30-country military conference UK Northwood for Hormuz reopening. Lufthansa 20,000 flights cut. UAE arrested 27 Iran-linked suspects. INFOSYS Q4 results today."
     },
     {
       "d": "Apr 21 Night",
@@ -196,46 +201,46 @@
   ],
   "military": [
     {
-      "t": "CEASEFIRE HOLDING — 12 Vessels Hormuz Past 24hrs. No New Military Incidents.",
-      "lv": "DEVELOPING",
-      "color": "green",
-      "d": "Trump's indefinitely extended ceasefire is holding as of Wednesday 9:30 AM IST. No new US airstrikes on Iran. No new Iranian attacks on US forces or Gulf infrastructure. 12 vessels crossed Hormuz in the past 24 hours (NBC live blog, MarineTraffic) — 4 Iranian-flagged, most using the Iranian-approved Bandar Abbas route. Very low vs 130-160 pre-war but not zero. Iran has not escalated militarily despite Ghalibaf adviser calling the extension \"a ploy.\" Iran Air resuming domestic flights today after a 50-day suspension — partial normalisation signal suggesting Iran does not expect immediate escalation. The stalemate phase is settling in: no war, no deal, no Hormuz opening."
-    },
-    {
-      "t": "New Iran Supreme Leader: Mojtaba Khamenei — Hardline, IRGC-Aligned. Critical Structural Fact.",
+      "t": "IRAN SEIZED MSC Francesca + Epaminondas + Attacked Euphoria — First Seizures Since Feb 28.",
       "lv": "BREAKING",
       "color": "red",
-      "d": "Iran named Mojtaba Khamenei — son of the late Supreme Leader Ali Khamenei — as its new Supreme Leader during the West Asia War. He is described as \"more hardline, with very close ties to the IRGC\" (CNBC). This is the most important structural fact about Iran's negotiating constraints: any deal must be approved by the Supreme Leader, who is now IRGC-aligned. This explains the IRGC's dominant position in Iran's decision-making on talks: the new Supreme Leader backs the IRGC hardline position — no talks while blockade continues, Hormuz as sovereign Iranian territory. The gap between Iran's diplomatic corps (Araghchi, FM) and the IRGC is not just institutional — it is now a gap between the ministry and the Supreme Leader himself. A deal requires Mojtaba Khamenei's sign-off, which means the IRGC position must be satisfied first."
+      "d": "Three vessels attacked in Hormuz on April 22 — the most significant naval escalation since the West Asia War began. (1) EPAMINONDAS (Greek-owned): IRGC gunboat attacked with gunfire and rocket-propelled grenades near coast of Oman at 5:47 AM London time, 15 miles NE of Oman — \"significant damage to bridge.\" Ship had been given prior permission to cross. Greek Ministry of Shipping said ship was not \"captured\" but sustained extensive damage. Wikipedia Hormuz crisis confirmed: attack consisted of \"gunfire and rocket-propelled grenades, caused significant damage to the bridge.\" (2) MSC FRANCESCA: targeted off coast of Iran, instructed to drop anchor, hull and accommodation damage. Iran said it was \"seized.\" (3) EUPHORIA: targeted by IRGC, briefly stranded on Iranian coast, later found undamaged and resumed sailing. UKMTO confirmed all three incidents. No crew casualties reported. Time confirmed: \"first time Tehran has seized ships since the start of the war on Feb. 28.\" IRGC explicitly stated these were retaliation for the Touska seizure by USS Spruance on April 19."
     },
     {
-      "t": "Vance Still Washington. Iran Still No Delegation. Round Two Islamabad Talks Effectively Collapsed.",
-      "lv": "DEVELOPING",
-      "color": "amber",
-      "d": "NBC live blog (3hrs ago): \"It's unclear whether or when Vance will depart Washington for Islamabad.\" White House: Vance attending meetings \"to discuss what might happen next.\" Things \"quite fluid.\" Tasnim: Iran notified Pakistan it will NOT send delegation Wednesday. Iran FM Baghaei: \"no final decision\" on attendance. The round two Islamabad talks have not been formally cancelled but have collapsed in practice. Pakistan still has Islamabad on standby — 10,000 security forces, Serena Hotel secured. The next diplomatic catalyst is Iran submitting a \"unified proposal\" — Trump's stated condition for extending the ceasefire further. Without such a proposal, the stalemate continues indefinitely. Pakistan, Egypt, Turkey, and China all continuing mediation efforts but without a clear path."
-    },
-    {
-      "t": "INFOSYS Q4 RESULTS TODAY — Primary India Market Catalyst. Ceasefire Stable = Fundamentals in Focus.",
+      "t": "BRENT BRIEFLY $100+ — First Above $100 Since April 8 Ceasefire. Settled $99.03.",
       "lv": "BREAKING",
+      "color": "red",
+      "d": "Brent crude briefly exceeded $100 per barrel on April 22 on the ship seizure news — the first time above $100 since the original ceasefire announcement. CNBC confirmed Brent settled at $99.03 (+0.5%) after briefly surpassing $100. WTI $90.13 (+0.5%). Time: \"a jump of more than 1.8% on Wednesday, reaching over $100 per barrel.\" For India: Brent $99 crossing toward $100 = full reversal of ceasefire gains. OMC margin pressure severe — Indian oil marketing companies likely to announce petrol/diesel hike if Brent stays above $97-98 for 5+ days. LPG subsidy reinstatement discussion returning. India rupee expected to weaken to 94.50-95.00. India petroleum import bill for April will be the highest since the war began."
+    },
+    {
+      "t": "TRUMP Gave Iran 3-5 DAYS — New Soft Deadline ~April 25-27 for Talks or Resumed Attacks.",
+      "lv": "BREAKING",
+      "color": "amber",
+      "d": "Wikipedia ceasefire article (April 22 entry confirmed): \"US officials said that Trump has given Iran three to five days to engage in negotiations and resolve alleged infighting within the government before resuming attacks.\" This creates a new soft deadline: approximately April 25-27. Trump posted Truth Social: \"Iran is collapsing financially! Starving for cash! Losing $500M a day. Military and Police complaining they are not getting paid. SOS!!!\" Separately: \"Iran doesn't want the Strait of Hormuz closed, they want it open so they can make $500M a day. They only say they want it closed because I have it totally BLOCKADED.\" However, the IRGC ship seizures on April 22 directly contradict Trump's assertion Iran is desperate to open Hormuz — Iran is actively closing it further. The 3-5 day window is narrowing fast."
+    },
+    {
+      "t": "30-COUNTRY Military Conference at UK Northwood — Multinational Hormuz Reopening Force.",
+      "lv": "BREAKING",
+      "color": "amber",
+      "d": "UK and France hosted military planners from 30+ countries at the UK's Permanent Joint Headquarters in Northwood, London — a two-day conference (April 22-23) specifically to plan a multinational force to reopen the Strait of Hormuz after a sustainable ceasefire. NPR and CNN confirmed. Conference covers: national capabilities, command and control structures, how military forces can deploy to the region. Will only act \"following a sustainable ceasefire agreement.\" EU foreign policy chief Kallas: \"Freedom of navigation is non-negotiable.\" EU also widening sanctions on Tehran. This is the most significant international military planning effort since the West Asia War began — 30+ nations publicly coordinating on post-ceasefire Hormuz reopening. For India: India was not named as attending but has warships already in the Gulf of Oman under Op Urja Suraksha."
+    },
+    {
+      "t": "Lufthansa Cut 20,000 Flights. United Airlines Below Estimates. EU 6 Weeks Jet Fuel.",
+      "lv": "DEVELOPING",
+      "color": "amber",
+      "d": "NPR confirmed: Lufthansa cut 20,000 flights through October — jet fuel cost has \"doubled since the start of the West Asia War.\" United Airlines (Reuters/NPR): \"forecast second-quarter and full-year profits below Wall Street estimates\" due to fuel costs. IEA head earlier warned Europe has \"maybe six weeks or so\" of jet fuel. UK poll: 1 in 10 people already stockpiling fuel. These airline industry impacts signal the consumer economic damage is reaching daily life globally. For India: IndiGo, Air India, SpiceJet all face elevated ATF (aviation turbine fuel) costs — ATF prices rise in line with crude. IndiGo specifically may be forced to raise fares or announce capacity cuts if Brent stays at $99+ through April. Civil aviation in India has been a bright spot post-COVID; this threatens that recovery."
+    },
+    {
+      "t": "UAE Arrested 27 Iran-Linked Suspects. IRGC Retaliation Pattern: Touska → Epaminondas.",
+      "lv": "DEVELOPING",
+      "color": "amber",
+      "d": "CNN confirmed Tuesday: UAE State Security dismantled an alleged Iran-backed network, arresting 27 suspects linked to \"Wilayat al-Faqih\" ideology — planning sabotage operations on UAE soil. Suspects' names and mugshots published by UAE WAM news agency. This signals Iran's proxy threat inside Gulf states is active during the ceasefire — Iran is not just fighting at Hormuz but maintaining covert pressure inside Gulf states. Separately, the IRGC explicitly confirmed the April 22 attacks were retaliation for the Touska seizure. The tit-for-tat pattern: Touska (US Apr 19) → Tifani (US Apr 21) → MSC Francesca + Epaminondas (Iran Apr 22). Trump's 3-5 day ultimatum gives Iran until ~April 25-27 to either engage diplomatically or face resumed strikes. India must factor in both the direct Hormuz risk and the broader Gulf stability risk."
+    },
+    {
+      "t": "INFOSYS Q4 Results TODAY — FY27 Guidance the Key. Consensus: 2-5% CC YoY.",
+      "lv": "DEVELOPING",
       "color": "cyan",
-      "d": "Infosys reports Q4 FY26 results today — the first major IT bellwether result since the West Asia War began February 28. With the ceasefire holding indefinitely and Brent stable at $95, India markets have the breathing room to respond to domestic earnings. IT sector has been under pressure throughout the war — TCS, Infosys, Tech Mahindra all traded lower during peak geopolitical stress. Key Infosys metrics: USD revenue growth, deal wins, and FY27 guidance. A beat and positive guidance would lift the Nifty IT index and provide a domestic positive alongside the ceasefire stability. FII have been selectively accumulating in power and capital goods; IT flow depends on Infosys guidance quality. Sensex 79,273 prev close. VIX expected to ease to 15-17."
-    },
-    {
-      "t": "EU: \"Maybe Six Weeks\" Jet Fuel. 28 Ships Turned Back. Shadow Fleet Still Moving (Lloyd's List).",
-      "lv": "DEVELOPING",
-      "color": "amber",
-      "d": "EU transport ministers met Brussels Tuesday — IEA head warned Europe has \"maybe six weeks or so\" of jet fuel, with potential flight cancellations \"soon\" if Hormuz stays closed. This underlines the supply pressure keeping Brent at $95. US blockade: 28 ships turned back since April 13 (NPR). However, Lloyd's List confirmed shadow fleet vessels are still moving in and out of Iranian ports despite the blockade — the Tifani interdiction in the Indian Ocean was part of the US effort to close this loophole. Saudi/UAE bypass via Yanbu and Fujairah: combined 6.5 mbpd (ANZ), up from 5.0 mbpd pre-war, but still far short of replacing Hormuz's 20 mbpd pre-war flow. Rystad: Gulf states producing 14.3 mbpd in April, down 3 mbpd vs March. Even if Hormuz reopens today, it would take 3-6 months for supply chains to normalise."
-    },
-    {
-      "t": "Iran Air Resuming Domestic Flights Today — 50-Day Suspension Ends. Partial Normalisation.",
-      "lv": "DEVELOPING",
-      "color": "green",
-      "d": "NBC confirmed: Iran Air announced domestic flights resume today after a 50-day suspension from the start of the West Asia War. First services: Tehran-Mashhad route, departing this morning. This is a meaningful signal: Iran suspended all domestic flights February 28 expecting US airstrikes on infrastructure including airports. Resuming domestic flights signals Iran calculates the indefinitely extended ceasefire is stable enough for civilian aviation. It does not signal diplomatic flexibility — Iran's military posture and refusal to talk while blockade continues is unchanged. But it does suggest Iran is not planning an imminent offensive that would trigger US retaliation. For India: Iran resuming domestic aviation reduces the probability of sudden West Asia War escalation in the very near term."
-    },
-    {
-      "t": "India: Stalemate Means Brent $93-100 for Weeks. LPG/Petrol Relief Still Distant.",
-      "lv": "DEVELOPING",
-      "color": "amber",
-      "d": "The West Asia War stalemate phase has specific implications for India's energy economy: (1) Brent likely stays $90-100 range for the duration of the stalemate — no immediate crash without Hormuz opening, no spike without new military incident. (2) India's LPG cut that was reversed when Brent rose above $95 will stay reversed — OMCs under margin pressure. (3) Petrol/diesel hike risk: OMCs have been absorbing losses; if stalemate continues 4+ weeks, a Rs 2-5/litre hike becomes likely. (4) India strategic petroleum buffer: 6-8 weeks originally — now consumed for 54 days. India has been drawing on domestic refiners' crude inventories and alternative suppliers (US, Russia, Africa) but the Hormuz supply chain gap is real. (5) Fertiliser: Gulf produces ~30% of global urea — India's Kharif crop season (June-August) planting decisions are now at risk if Hormuz stays closed through May."
+      "d": "Infosys Q4 FY26 results due today (April 23). Board meeting started April 22, results announced April 23. Business Standard consensus: revenue ~Rs 46,300-46,567 Cr (+13.7% YoY, +2% QoQ), PAT ~Rs 7,500-7,700 Cr. FY27 CC revenue growth guidance consensus: 2-5% (MOFSL: 1.5-4.5%). Key metrics: (1) FY27 guidance range — a tight/conservative range signals macro uncertainty from US tariffs and West Asia War; a wide/positive range signals confidence in deal pipeline. (2) Large deal TCV: $4B+ Q4 TCV would be positive. (3) West Asia War commentary — management views on IT spending impact from global economic disruption. Nifty IT was worst performer April 22 ahead of results. A strong beat + positive guidance today could recover IT losses and push Sensex toward 79,000. A miss + conservative guidance with Iran escalation = risk of Sensex breaking below 78,000."
     }
   ],
   "nukes": [
@@ -520,9 +525,23 @@
       "rupee": 94.0,
       "tag": "Ceasefire indefinitely extended — holding. 12 vessels Hormuz/24hrs. Vance in Washington. Iran no delegation. Iran Air resumes domestic flights. New Supreme Leader Mojtaba Khamenei (IRGC-aligned). Infosys Q4 today. West Asia War stalemate phase.",
       "sev": 1
+    },
+    {
+      "d": 55,
+      "l": "Apr 23",
+      "deaths": 6600,
+      "brent": 99,
+      "nifty": 24378,
+      "rupee": 94.5,
+      "tag": "IRGC seized MSC Francesca + Epaminondas, attacked Euphoria April 22. First ship seizures since Feb 28. Brent briefly $100+, settled $99. Sensex -757 to 78,516. Trump 3-5 day ultimatum. 30-country Hormuz conference. Infosys Q4 results today. West Asia War Day 55.",
+      "sev": 3
     }
   ],
   "hormuzLatest": [
+    {
+      "d": "Apr 22-23",
+      "e": "DAY 55 THU 8:30AM IST. IRAN SEIZED MSC FRANCESCA + EPAMINONDAS (Greek), ATTACKED EUPHORIA on April 22 — first Iranian ship seizures since Feb 28. Epaminondas: IRGC gunfire + RPGs, significant bridge damage, had prior permission to cross. IRGC: retaliation for Touska seizure. Brent briefly $100+, settled $99.03. Sensex -757 to 78,516. Nifty -198 to 24,378. IT worst. Trump gave Iran 3-5 days (new deadline ~Apr 25-27). 30-country military conference UK Northwood for Hormuz reopening. Lufthansa 20,000 flights cut. UAE arrested 27 Iran-linked suspects. INFOSYS Q4 results today."
+    },
     {
       "d": "Apr 22 AM",
       "e": "DAY 54 WED 9:30AM IST. Ceasefire indefinitely extended — still holding, no new deadline. 12 vessels Hormuz past 24hrs (mostly Iranian-flagged). Vance still Washington — no departure date. Iran still no delegation. Ghalibaf adviser: extension \"ploy to buy time.\" Iran Air resuming domestic flights today (50-day suspension ends). New Iran Supreme Leader Mojtaba Khamenei — hardline, IRGC-aligned. Brent ~$95. 28 ships turned back blockade. EU: 6 weeks jet fuel. India: INFOSYS Q4 RESULTS today. Sensex 79,273 prev close. Stalemate phase."
@@ -534,15 +553,11 @@
     {
       "d": "Apr 22 12AM",
       "e": "DAY 53 LATE. TRUMP EXTENDED CEASEFIRE INDEFINITELY at Pakistan PM request — Iran must submit unified proposal. Vance DID NOT travel — stayed Washington, WH policy meetings. SECOND tanker boarded: M/T Tifani (Indian Ocean, INDOPACOM). Brent spiked $101, settled $98.48 (+3.1%). Kharg Island storage filling in days (Bessent). UK+France 30-nation military Hormuz conference Wed. Iran: extension \"means nothing,\" prepared for renewed war, \"new surprises.\" Iran domestic flights resume Wed. Sensex 79,273. Nifty 24,577. Infosys Q4 results Wed."
-    },
-    {
-      "d": "Apr 22 9AM",
-      "e": "DAY 54. Trump extended ceasefire INDEFINITELY — Iran must submit \"unified proposal,\" govt \"seriously fractured.\" Vance did NOT travel. M/T Tifani seized in Bay of Bengal (2M bbl Iranian oil, loaded Kharg April 5). Kharg Island storage full in days (Bessent). Brent $98.48 settled (+3.1%), spiked to $101 pre-announcement. Iran adviser Mohammadi: extension \"means nothing,\" \"time for Iran to take initiative.\" UK+France 30-nation Hormuz military conference London today. EU sanctioned Iran blockers. FPI outflows Rs 1.67L Cr YTD record. Infosys results April 23. No new deadline — open-ended."
     }
   ],
   "projNow": {
-    "brent": 95,
-    "rupee": 94.0,
+    "brent": 99,
+    "rupee": 94.5,
     "lpg": 912,
     "petrol": 94.77,
     "deaths": 6600
@@ -550,52 +565,52 @@
   "scenarios": {
     "headers": [
       "Pre-war",
-      "Now (D54)",
-      "Deal this week",
-      "Stalemate 4+ weeks",
-      "Escalation"
+      "Now (D55)",
+      "Iran submits proposal",
+      "3-5 day deadline passes",
+      "Strikes resume"
     ],
     "brent": [
       65,
-      95,
-      80,
-      97,
-      120
+      99,
+      83,
+      108,
+      130
     ],
     "rupee": [
       91,
-      94.0,
-      91.0,
-      95.5,
-      105
+      94.5,
+      91.5,
+      102,
+      109
     ],
     "deaths": [
       0,
       "6,600+",
-      "7,000",
       "7,200",
-      "18,000+"
+      "9,500+",
+      "20,000+"
     ],
     "sensex": [
       "78,699",
-      "79,273",
-      "83,000+",
-      "76,000",
-      "65,000"
+      "78,516",
+      "81,500+",
+      "72,000",
+      "60,000"
     ],
     "lpg": [
       "Rs 853",
       "Rs 912",
-      "Rs 862",
-      "Rs 940+",
-      "Rs 1,400+"
+      "Rs 865",
+      "Rs 1,380+",
+      "Rs 1,750+"
     ],
     "fii": [
       "-",
-      "Accumulating",
-      "$28B return",
-      "Flat/slight out",
-      "$40B out"
+      "Outflows",
+      "$20B return",
+      "$32B out",
+      "$55B out"
     ]
   },
   "radar": [
@@ -657,8 +672,8 @@
     }
   ],
   "assessment": {
-    "headline": "DAY 54, 9:30 AM WED: CEASEFIRE HOLDS. 12 vessels Hormuz. Iran Air resumes flights. New Supreme Leader: IRGC-aligned Mojtaba Khamenei. No talks date. Infosys Q4 results today. West Asia War stalemate phase.",
-    "body": "Wednesday 9:30 AM IST. The West Asia War has entered its stalemate phase.\n\nTHE STATE OF PLAY — WHAT IS CONFIRMED\n• Ceasefire: indefinitely extended, still holding. No new attacks either side\n• Hormuz: 12 vessels past 24 hours — mostly Iranian-flagged on Bandar Abbas route. Not zero, not open\n• Vance: still in Washington. No departure date set. \"Things quite fluid\"\n• Iran: no delegation sent. Tasnim: Iran NOT attending Wednesday talks\n• Ghalibaf adviser: extension \"a ploy to buy time for a surprise strike\"\n• Iran Air: resuming domestic flights today (50-day suspension ends) — calculates ceasefire stable\n\nTHE STRUCTURAL KEY — NEW SUPREME LEADER\n• Mojtaba Khamenei — son of the late Ayatollah — named as new Supreme Leader\n• Described as more hardline with very close ties to the IRGC\n• Any deal must receive Supreme Leader sign-off\n• IRGC hardline position now has Supreme Leader backing\n• This makes nuclear enrichment and Hormuz sovereign control concessions much harder\n• The diplomatic corps (Araghchi) is constrained not just by IRGC but by the Supreme Leader himself\n\nWHAT THE STALEMATE MEANS FOR INDIA\n• Brent $90-100 range for weeks — no crash, no spike (absent new incident)\n• LPG/petrol hike risk: OMCs absorbing losses; Rs 2-5/litre hike likely in 4+ weeks if stalemate continues\n• Fertiliser: Gulf produces ~30% global urea; Kharif planting (June-Aug) at risk if Hormuz stays closed through May\n• India SPR buffer of 6-8 weeks has been consumed — now dependent on alternative supply lines\n• Tifani seizure in Indian Ocean = US enforcement in India's maritime neighbourhood\n• 280 Indian seafarers still affected. 8 Indian vessels in region\n\nTODAY'S MARKET FOCUS: INFOSYS Q4\n• With ceasefire stable and Brent below $100, India markets shift to fundamentals\n• Infosys Q4 FY26 results = primary catalyst\n• IT sector has been under pressure; a beat + positive FY27 guidance could be the catalyst to push Sensex toward 80,000\n• Sensex 79,273 prev close. VIX expected to ease to 15-17\n• FII: power and capital goods accumulation continuing; IT awaits Infosys\n\nTHE SCENARIO SHIFT\n• Immediate war resumption: ~8% (ceasefire holding, Iran Air resuming flights)\n• Deal this week: ~20% (no talks date, IRGC-aligned Supreme Leader)\n• Stalemate 4+ weeks: ~60% — most likely. No deadline, no pressure\n• Iranian military escalation: ~12% (IRGC warns, but Iran Air resumption suggests restraint for now)\n\nVERDICT: The West Asia War has settled into a grinding stalemate. No bombs. No deal. Hormuz trickling at 10% capacity. The world is learning to live with $95 Brent. India is consuming its buffer daily. And the new Iranian Supreme Leader — more hardline than his father, IRGC through and through — makes the diplomatic gap wider than it was at the start. The immediate question for India's markets this morning: does Infosys deliver a beat that takes Sensex through 80,000?"
+    "headline": "DAY 55, 8:30 AM THU: IRAN SEIZED TWO SHIPS (first since Feb 28). Brent briefly $100+. Sensex -757. Trump 3-5 day ultimatum. 30-country Hormuz conference. Lufthansa 20,000 flights cut. Infosys Q4 TODAY. Tit-for-tat naval escalation accelerating.",
+    "body": "Thursday 8:30 AM IST. The West Asia War's stalemate just became an escalation.\n\nWHAT HAPPENED ON APRIL 22\n• Iran attacked and seized multiple vessels in Hormuz — first ship seizures since Feb 28\n• EPAMINONDAS (Greek cargo): gunfire + rocket-propelled grenades, significant bridge damage — had prior permission to cross\n• MSC FRANCESCA: targeted, instructed to anchor, hull damage — seized by Iran\n• EUPHORIA: attacked, briefly stranded on Iranian coast — later resumed sailing undamaged\n• No crew casualties — but no warning given before attacks (UKMTO confirmed)\n• IRGC explicitly: \"response to US capture of Iranian commercial vessel [Touska]\"\n• Brent briefly exceeded $100 — first time above $100 since April 8 ceasefire\n\nTHE TIT-FOR-TAT PATTERN\n• April 19: USS Spruance seized TOUSKA (Iranian) — blew hole in engine room\n• April 21: US seized M/T TIFANI in Indian Ocean\n• April 22: Iran seized MSC FRANCESCA + EPAMINONDAS (non-Iranian)\n• April 22: Trump gives Iran 3-5 days (~April 25-27) or strikes resume\n• Each action invites retaliation — the cycle is accelerating\n\nTHE NEW 3-5 DAY WINDOW\n• US officials: Trump gave Iran 3-5 days to engage in talks and resolve internal infighting\n• New soft deadline: approximately April 25-27\n• Trump simultaneously posting: \"Iran is collapsing financially, losing $500M a day\"\n• Iran's IRGC responds by seizing ships — does not look like a government about to submit a proposal\n• The Mojtaba Khamenei (new Supreme Leader, IRGC-aligned) structural constraint remains\n\n30-COUNTRY CONFERENCE AT NORTHWOOD\n• Military planners from 30+ nations meeting at UK Permanent Joint HQ\n• Planning multinational Hormuz reopening force — post-ceasefire\n• Will not act until \"sustainable ceasefire achieved\"\n• EU widening sanctions on Tehran\n• UK, France, US all coordinating on the military option\n\nINDIA's SITUATION AT DAY 55\n• Sensex 78,516 (-757) — IT worst, Iran risk re-priced\n• Brent $99 — approaching critical OMC hike threshold of Rs 97-98\n• Rupee ~94.50 and weakening\n• 280 Indian seafarers in region. 8 Indian vessels. Op Urja Suraksha HIGH ALERT\n• IMO: 20,000 mariners + 2,000 ships stranded in Gulf\n• Infosys Q4 results TODAY — the domestic counterweight to geopolitical pressure\n• Lufthansa + United = warning sign for IndiGo, Air India ATF cost impact\n\nSCENARIO SHIFT — STALEMATE ENDING\n• Iran submitting proposal in 3-5 days: 20%\n• Stalemate continues (Trump extends again): 35%\n• Strikes resume after deadline: 25%\n• Uncontrolled escalation (Iran attacks US asset): 20%\n\nVERDICT: The stalemate is over. Iran's seizure of two ships was the IRGC's reply to the Touska seizure — a deliberate escalation inside the ceasefire. Trump's 3-5 day ultimatum is the tightest pressure point since the indefinite extension was announced. India's markets open this morning with Brent at $99, a Sensex that fell 757 points yesterday, and Infosys results due today. The next 72 hours will determine whether the West Asia War enters its most dangerous phase since February 28."
   },
   "featured": [
     {
