@@ -43,12 +43,12 @@ const SERIF  = "'Source Serif 4','Georgia',serif";
 
 // ─── Fallbacks ───────────────────────────────────────────────────
 const TICKER_FB = [
-  "🚢 BLOCKADE DAY 3: US Navy intercepted 2 Iranian tankers from Chabahar — first confirmed naval interdiction",
-  "🕊️ TRUMP: War 'very close to over' — Fox Business. Talks expected THURSDAY Islamabad",
-  "🛢️ BRENT below $95 — Sensex +1,263 to 78,111. Nifty +388 to 24,231. All 30 stocks green",
+  "🚢 BLOCKADE DAY 11: CENTCOM: 31 ships turned back. Iran seized MSC Francesca + Epaminondas. 3rd tanker boarded Indian Ocean overnight.",
+  "🕊️ TRUMP ordered US Navy SHOOT AND KILL Iranian mine-laying boats. Israel Def Min Katz: 'targets marked, ready to resume war.'",
+  "🛢️ BRENT $106+ — Day 56 West Asia War. Shoot-to-kill order. Israel ready to resume. Lebanon ceasefire 3-week extension.",
   "💸 US TREASURY: Will NOT renew sanctions waiver on Iranian oil. Banks warned on secondary sanctions",
   "⚠️ IRAN threatens to shut RED SEA + Gulf of Oman + Persian Gulf if blockade continues",
-  "📅 CEASEFIRE EXPIRES APR 21 — 6 DAYS. Thursday talks = most important market event of the week",
+  "📅 IRAN DEADLINE ~APR 25-27. Lebanon ceasefire extended 3 WEEKS. Infosys Q4 +21% PAT beat. Brent $106+. Mine clearing up to 6 months.",
 ];
 
 const TL_BASE = [
@@ -100,11 +100,11 @@ const NUKES_FB = [
 
 const CITIES_FB = [
   {city:"Delhi NCR",  pop:"32M",wind:72,sea:15,nuke:55,tot:64,info:"1,800km downwind from Iran. IAEA: ~1,000 lbs HEU = material for 11 nuclear weapons. NO iodine prophylaxis program."},
-  {city:"Mumbai",     pop:"21M",wind:40,sea:78,nuke:42,tot:58,info:"900km from Hormuz. Reliance Jamnagar refinery. Sensex +1,263 today. Brent below $95 reducing import costs."},
+  {city:"Mumbai",     pop:"21M",wind:40,sea:78,nuke:42,tot:58,info:"900km from Hormuz. Reliance Jamnagar refinery. Sensex 77,664. Brent $106+ raising import costs. OMC hike imminent."},
   {city:"Ahmedabad",  pop:"8.5M",wind:65,sea:55,nuke:46,tot:57,info:"Closest Indian metro to Iran. Jamnagar refinery nearby. US Navy intercepted first tankers today."},
   {city:"Jaipur",     pop:"4M",  wind:68,sea:10,nuke:44,tot:47,info:"Rajasthan wind funnel. UN FAO food catastrophe risk — kharif crop under fertilizer pressure."},
   {city:"Kochi",      pop:"2.1M",wind:25,sea:70,nuke:24,tot:44,info:"Southern Naval Command + Op Urja Suraksha base. Iran Red Sea threat hits western coast routes."},
-  {city:"Goa",        pop:"1.5M",wind:30,sea:72,nuke:22,tot:42,info:"Konkan coast. Fishing economy ₹4,000 cr exposed. Tourism recovering with Brent below $95."},
+  {city:"Goa",        pop:"1.5M",wind:30,sea:72,nuke:22,tot:42,info:"Konkan coast. Fishing economy ₹4,000 cr exposed. Tourism under pressure with Brent at $106+. Fuel surcharges rising."},
   {city:"Lucknow",    pop:"3.5M",wind:58,sea:5, nuke:39,tot:40,info:"Indo-Gangetic plain. Most exposed to food inflation from fertilizer disruption."},
   {city:"Chennai",    pop:"11M", wind:20,sea:55,nuke:18,tot:36,info:"East coast buffer. IT sector led today's rally. Wipro Q4 results tomorrow Apr 16."},
 ];
@@ -484,13 +484,16 @@ export default function App() {
 
       {/* ══ TICKER ══ */}
       <div style={{background:`linear-gradient(90deg,#7f1d1d,${C.red},#b91c1c)`,
-        padding:'7px 0', overflow:'hidden'}}>
-        <div style={{display:'flex', width:'max-content',
-          animation:'ticker 90s linear infinite', willChange:'transform'}}>
-          {[...iT,...iT].map((t,i) => (
+        padding:'7px 0', overflow:'hidden', width:'100%', position:'relative'}}>
+        <div style={{display:'flex', width:'max-content', flexWrap:'nowrap',
+          animation:'ticker 90s linear infinite',
+          WebkitAnimation:'ticker 90s linear infinite',
+          MozAnimation:'ticker 90s linear infinite',
+          willChange:'transform'}}>
+          {[...iT,...iT,...iT].map((t,i) => (
             <span key={i} className="tk-txt" style={{fontSize:11.5, fontWeight:600, color:'#fff',
               letterSpacing:0.2, paddingRight:56, whiteSpace:'nowrap', flexShrink:0,
-              fontFamily:MONO}}>
+              display:'inline-block', fontFamily:MONO}}>
               {t}<span style={{paddingLeft:56, color:'#ffffff40'}}>◆</span>
             </span>
           ))}
@@ -965,8 +968,8 @@ export default function App() {
         </S>
 
         {/* ══ SCENARIOS — APRIL 21 DECISION TREE ══ */}
-        <S id="scenarios" title="📈 April 21 Decision Tree" accent={C.cyan}
-          sub="Ceasefire expires in 6 days. Three paths. One matters most for India.">
+        <S id="scenarios" title="📈 April 24 Decision Tree" accent={C.cyan}
+          sub="Iran deadline ~Apr 25-27. Lebanon ceasefire 3-week extension. Three paths. One matters most for India.">
 
           {/* 3 scenario cards */}
           <div className="grid3" style={{display:'grid', gridTemplateColumns:'1fr', gap:10, marginBottom:16}}>
@@ -980,7 +983,7 @@ export default function App() {
                 rupee:"₹90–91",
                 lpg:"₹853",
                 fii:"$15B return",
-                desc:"Thursday talks produce ceasefire extension 45–60 days. Blockade eases. Brent collapses. Nifty surges.",
+                desc:"Iran submits unified proposal by April 27. Blockade begins easing. Brent falls to $85-90. Nifty surges. Mine clearing still takes months.",
               },
               {
                 label:"🟡 PARTIAL DEAL",
@@ -1002,7 +1005,7 @@ export default function App() {
                 rupee:"₹99–105",
                 lpg:"₹1,200–1,600+",
                 fii:"$12–45B out",
-                desc:"No deal, no extension by Apr 21. Iran maximum alert. Trump 'locked and loaded.' Extreme escalation.",
+                desc:"No proposal by April 27. Shoot-to-kill order triggers incident. Israel resumes strikes. Iran activates 'new battlefield cards.' Brent $125-145.",
               },
             ].map((sc, i) => (
               <div key={i} className="card-lift"
@@ -1204,12 +1207,7 @@ export default function App() {
             Projections are trend extrapolations, not forecasts. All timestamps IST (UTC+5:30).
             Hormuz shipping data from Kpler, MarineTraffic, Windward, and news reports.
             <br/><br/>
-            <strong style={{color:C.sub}}>Update cadence:</strong>{' '}
-            Market data (Brent, Nifty, Sensex, Rupee) auto-syncs twice daily via GitHub Action.
-            War intelligence updated manually via{' '}
-            <code style={{background:C.surface,padding:'1px 5px',borderRadius:3,
-              color:C.amber,fontFamily:MONO,fontSize:9}}>public/war-intel.json</code>.
-            <br/><br/>
+
             <strong style={{color:C.sub}}>Disclaimer:</strong>{' '}
             Built with AI tools. Ongoing project. Not financial, safety, or evacuation advice.
           </div>
