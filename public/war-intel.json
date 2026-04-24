@@ -1,95 +1,90 @@
 {
-  "_updated": "April 24, 2026 — 9:30 AM IST",
+  "_updated": "April 24, 2026 — 6:30 PM IST",
   "_day": 56,
   "_phase": "BLOCKADE",
-  "_note": "Verified: CBS News live (35min ago), NPR, PBS, CNBC, AP, CBC, WaPo, Time, Euronews, Al Jazeera, Business Standard. NO Wikipedia sources. DAY 56 FRI 9:30AM IST: TRUMP ORDERED US NAVY \"SHOOT AND KILL\" Iranian mine-laying boats in Hormuz. ISRAEL-LEBANON CEASEFIRE EXTENDED 3 WEEKS (White House talks Thursday — Rubio+Needham led). ISRAEL DEFENSE MIN KATZ: ready to resume war with Iran — awaiting US green light — \"targets marked.\" THIRD US TANKER BOARDED overnight (Indian Ocean — ex-Phonix, sanctioned 2024). 31 ships total turned back. Philippines: 15 Filipino crew on seized ships (safe). Navy Sec Phelan FIRED — acting: Hung Cao. IRGC: shoot-to-kill order is \"overt ceasefire breach.\" Brent $106+. GIFT Nifty +69 at 24,232. Mine clearing: up to 6 months (NYT/PBS). West Asia War Day 56.",
+  "_note": "Verified: IBTimes India, Business Standard, The Week, News24, HDFC SKY, IBTimes. NO Wikipedia. DAY 56 FRI 6:30PM IST: SENSEX -983 to 76,681. NIFTY -275 to 23,898 (BELOW 24,000). Third consecutive day of losses. Three-day fall: -2,592 pts from 79,273 peak. INFOSYS -7% to Rs 1,154.60. NIFTY IT -5% — 30-month lows approaching. Brent $106-107.25. BLOOMBERG: Iranian officials discussed ceasefire with Pakistan — first back-channel signal. New Supreme Leader Mojtaba Khamenei: surgery on hand, facial burns, difficulty speaking (NYT). Nifty 24,000 now key resistance. Coal India +1.85%, Cochin Shipyard +7% (only major gainers). Intraday low: Sensex 76,403, Nifty 23,813. Week worst in months. West Asia War Day 56.",
   "ticker": [
-    "🔫 TRUMP ORDERED US NAVY 'SHOOT AND KILL' Iranian mine-laying boats in Hormuz. 'There is to be no hesitation.' Mine sweepers tripled. IRGC: order is 'overt ceasefire breach.'",
-    "☮️ ISRAEL-LEBANON CEASEFIRE EXTENDED 3 WEEKS — White House talks Thursday. Trump+Vance+Rubio in Oval Office. Removes one of the two April 25-27 deadline risks for India.",
-    "⚔️ ISRAEL DEFENSE MIN KATZ: Israel 'prepared to resume war with Iran' — awaiting US 'green light.' Military 'ready for both defensive and offensive operations.' Targets marked.",
-    "🚢 THIRD US TANKER BOARDED overnight — ex-Phonix (Indian Ocean, sanctioned 2024 for Iranian oil smuggling). CENTCOM: 31 ships turned back total since April 13 blockade began.",
-    "🇵🇭 PHILIPPINES: 15 Filipino seafarers on seized Hormuz ships — 10 on Epaminondas, 5 on MSC Francesca. Philippine government: 'safe and unharmed.' India: 280 seafarers also in zone.",
-    "⚓ US NAVY SEC PHELAN FIRED — effective immediately. Acting civilian lead: Undersecretary Hung Cao (Navy veteran, lost Virginia Senate race 2024). Dept of Navy loses top civilian during active blockade.",
-    "🛢️ BRENT $106+ — above $106 per barrel at India open (Business Standard confirmed). GIFT Nifty +69 at 24,232 — positive open despite elevated Brent. Lebanon extension providing partial offset.",
-    "⏰ Mine clearing could take UP TO 6 MONTHS (NYT/PBS). Trump: 'We have total control over Hormuz. No ship can enter or leave without approval of US Navy.' IRGC disputes this.",
-    "🇮🇳 India: GIFT Nifty +69 at 24,232 = positive open. Infosys PAT +21% beat not priced in yet. Lebanon extension removes one deadline risk. But Brent $106+ = OMC hike near-certain within days.",
-    "📅 KEY REMAINING DEADLINE: Trump 3-5 days from April 22 = ~April 25-27 for Iran to submit proposal. Lebanon deadline now REMOVED (3-week extension). Iran-US standoff remains unresolved."
+    "📉 SENSEX -983 to 76,681. NIFTY -275 to 23,898 — BELOW 24,000. Third straight day of losses. Three-day crash: -2,592 pts from peak. Intraday low: Sensex 76,403, Nifty 23,813.",
+    "💻 INFOSYS -7% to Rs 1,154.60. NIFTY IT -5% — approaching 30-month lows. TCS, Tech Mahindra, LTIMindtree, Coforge all -4-6%. Cautious FY27 guidance (1.5-3.5%) punished hard.",
+    "🕊️ BLOOMBERG: Iranian officials DISCUSSED CEASEFIRE with Pakistan — first confirmed back-channel signal today. First positive diplomatic signal since Iran rejected Islamabad talks.",
+    "🛢️ BRENT $107.25 — April futures up 2.07%. Rupee under pressure from $107 oil + capital outflows. Every Rs 1 fall = Rs 4,000 Cr annual import bill rise. OMC hike now near-certain.",
+    "🤕 NEW IRAN SUPREME LEADER Mojtaba Khamenei: surgery on one hand, facial burns, difficulty speaking (NYT confirmed). Explains why Iran cannot submit a 'unified proposal' — its leader is incapacitated.",
+    "📊 Nifty 24,000 now KEY RESISTANCE — analysts say decisive break above 24,000 needed to ease pressure. Below 23,800 = weakness extends to 23,600. Market breadth deeply negative all session.",
+    "⚓ COCHIN SHIPYARD +7% — bucked trend. COAL INDIA +1.85% (energy prices benefiting domestic coal). NIFTY METAL — smallest decline. Only defensive/domestic energy plays held up.",
+    "⚠️ WEEKLY DAMAGE: Sensex lost 2,592 pts this week (-3.3% from Monday open of 79,273). Worst week in months. FII outflows accelerating. Nifty IT nearing 30-month lows.",
+    "🇮🇳 India macro: Brent $107 + rupee pressure + FII outflows + IT sector structural concerns = triple headwind. Petrol/diesel hike by OMCs now expected within days at $107 Brent.",
+    "📅 NEXT WEEK WATCH: Iran proposal deadline ~Apr 25-27. Bloomberg back-channel suggests Iran testing diplomatic ground. Mojtaba Khamenei health = wild card on Iran's ability to decide."
   ],
   "whatChanged": {
-    "label": "WHAT CHANGED — APR 24, 9:30 AM IST (DAY 56) — FRIDAY MORNING",
+    "label": "WHAT CHANGED — APR 24, 6:30 PM IST (DAY 56) — WEEKLY CLOSE",
     "items": [
       {
         "color": "red",
-        "bold": "TRUMP ordered US Navy \"SHOOT AND KILL\" Iranian mine-laying boats in Hormuz.",
-        "text": "PBS, NPR, CBC, AP and CNBC confirmed: Trump posted Thursday: \"I have ordered the United States Navy to shoot and kill any boat, small boats though they may be...that is putting mines in the waters of the Strait of Hormuz. There is to be no hesitation. Additionally, our mine sweepers are clearing the Strait right now. I am hereby ordering that activity to continue, but at a tripled up level!\" Trump also claimed: \"We have total control over the Strait of Hormuz. No ship can enter or leave without the approval of the United States Navy. It is sealed up tight until such time as Iran is able to make a deal.\" The IRGC called the shoot-to-kill order \"an overt breach of the ceasefire.\" PBS reported the NYT separately cited US officials saying mine-clearing could take up to six months. This is the most aggressive US Rules of Engagement change since the war began February 28."
+        "bold": "SENSEX -983 to 76,681. NIFTY -275 to 23,898 — below 24,000. Third consecutive loss. Worst week in months.",
+        "text": "IBTimes India and Business Standard confirmed: Sensex closed at 76,681.29 (-982.71 / -1.27%). Nifty settled at 23,897.95 (-275.10 / -1.14%). Third straight session of losses. Intraday lows: Sensex 76,403.87 (-1,260 pts / -1.6%), Nifty 23,813.65 (-359 pts / -1.4%). Weekly damage from Monday open (79,273) to Friday close (76,681) = -2,592 points (-3.3%) — The Week confirmed this as \"worst week in months.\" All 16 major sectors declined Friday. Market breadth deeply negative throughout. MidCap -0.96%, SmallCap -0.87%. Nifty 24,000 has now turned from support to resistance — analysts say a decisive close above 24,000 is needed to trigger recovery. Below 23,800 risks extension to 23,600."
+      },
+      {
+        "color": "red",
+        "bold": "INFOSYS -7% to Rs 1,154.60. NIFTY IT -5% — approaching 30-month lows.",
+        "text": "The Week and IBTimes India confirmed: Infosys stock ended at Rs 1,154.60 on NSE — down close to 7% on the day, as markets punished the cautious FY27 guidance (1.5-3.5% CC growth). Nifty IT index declined 5%, approaching its 30-month lows. TCS, Tech Mahindra, LTIMindtree, Coforge all fell 4-6%. Business Standard: \"sector-wide the Nifty IT declined 5% as Infosys and TCS weighed.\" Analysts were blunt — Equinomics Research founder: \"medium-to-long-term outlook for IT remains bleak, wealth creation story appears to be over.\" Even before AI disruption, dollar revenue growth was modest at 2-4% and is expected to slow to 0-2% or negative. Short-term tactical upside of 10-15% possible given valuation punishment, but structural headwinds remain."
       },
       {
         "color": "green",
-        "bold": "ISRAEL-LEBANON CEASEFIRE EXTENDED 3 WEEKS — White House Thursday. One deadline removed.",
-        "text": "WaPo, NPR, CNBC, and CBS News confirmed: Trump announced Thursday evening that the Israel-Lebanon ceasefire was extended by three weeks after a meeting in the White House Oval Office. Trump posted on Truth Social: \"The Ceasefire between Israel and Lebanon will be extended by THREE WEEKS. The Meeting went very well!\" Secretary of State Rubio and State Department Counselor Michael Needham led the talks; Israel and Lebanon were represented by their ambassadors to the US. Trump said the US would \"work with Lebanon in order to help it protect itself from Hezbollah.\" This removes the Lebanon ceasefire expiry as a converging deadline — the most dangerous scenario was Iran using a Lebanon collapse as a pretext for Hormuz escalation simultaneously with the Trump Iran deadline. That risk is now deferred by three weeks. The remaining active deadline is Trump's 3-5 day window for Iran (~April 25-27)."
+        "bold": "BLOOMBERG: Iranian officials DISCUSSED CEASEFIRE with Pakistan — first back-channel signal today.",
+        "text": "Business Standard live blog (confirmed via Bloomberg, updated during Friday session): \"Iranian officials discussed ceasefire with Pakistan.\" This is the first confirmed positive diplomatic signal since Iran formally rejected Islamabad round two. It does not mean Iran has submitted a unified proposal — Trump's stated condition for talks. But it signals Iran's diplomatic wing (not the IRGC) is actively testing the diplomatic ground through Pakistan's mediation channel. Pakistan has maintained the Islamabad talks infrastructure (security forces, hotels, protocol all on standby). This back-channel activity is the single most important positive development of Friday and may explain why markets partially recovered from the intraday low of Nifty 23,813 to close at 23,897."
       },
       {
         "color": "red",
-        "bold": "ISRAEL DEFENSE MINISTER KATZ: Ready to resume war with Iran — awaiting US green light.",
-        "text": "CBC News and CBS News confirmed: Israeli Defense Minister Israel Katz stated Thursday that Israel is \"prepared to resume war with Iran\" and is awaiting a \"green light\" from the United States. Katz said the military is \"ready for both defensive and offensive operations and targets are marked.\" This is the most explicit Israeli military readiness statement since the ceasefire began April 8. Combined with the 50,000+ US troops in the region and Trump's shoot-to-kill order for mine-laying boats, the West Asia War is closer to resuming than at any point since the ceasefire. Katz's statement is also significant because it signals Israel and the US are coordinating closely on the timing of any resumed strikes — it will not be unilateral."
+        "bold": "MOJTABA KHAMENEI (new Supreme Leader): surgery on hand, facial burns, difficulty speaking — NYT.",
+        "text": "News24 (citing NYT, four Iranian officials) confirmed: New Iranian Supreme Leader Mojtaba Khamenei \"had a surgical procedure on one hand and is slowly regaining function. He sustained facial burns, making it difficult for him to speak.\" This is a critical new fact — it explains why Iran has been unable to submit a \"unified proposal\" despite the IRGC-vs-diplomatic-corps divide. The Supreme Leader, who must sign off on any deal, is physically incapacitated. He cannot easily hold the internal Iran power broker meetings needed to unify the government position. This could mean: (1) Iran genuinely cannot produce a proposal until Mojtaba recovers, (2) The IRGC is effectively running Iran's war policy in the vacuum, (3) Any deal timeline is now dependent on Mojtaba's recovery pace — not just diplomatic will."
       },
       {
         "color": "amber",
-        "bold": "THIRD US TANKER BOARDED overnight — ex-Phonix (Indian Ocean). 31 ships total turned back.",
-        "text": "PBS and Time confirmed: US forces boarded another sanctioned tanker overnight Thursday in the Indian Ocean — the vessel previously named \"Phonix,\" sanctioned by US Treasury in 2024 for smuggling Iranian crude oil. This is the third ship boarding in the Indian Ocean region (after Tifani April 21). CENTCOM stated: \"We will continue global maritime enforcement to disrupt illicit networks and interdict vessels providing material support to Iran, wherever they operate.\" CENTCOM separately confirmed 31 vessels total have been directed to turn around or return to port since the blockade began April 13 — up from 28. The shadow fleet enforcement is extending to the Indo-Pacific. India's maritime neighbourhood is directly affected."
+        "bold": "Brent $107.25. Rupee under pressure. OMC petrol/diesel hike within days.",
+        "text": "IBTimes India confirmed Brent April futures at $107.25 (+2.07%). Business Standard: \"Brent crude is trading near $106 per barrel level, supported by persistent supply concerns amid escalating US-Iran tensions.\" Enrich Money CEO Ponmudi R: \"elevated crude oil prices, holding above $105 per barrel, remain the key drag, intensifying concerns over inflation, India's import bill, and overall macro balance. The Indian rupee is under pressure due to higher oil prices and continued capital outflows.\" At $107 Brent sustained for 5+ days (approaching threshold), Indian OMCs (Indian Oil, BPCL, HPCL) are absorbing significant losses. Petrol/diesel hike of Rs 2-5/litre now expected within days. LPG subsidy reinstatement under active discussion within government."
+      },
+      {
+        "color": "green",
+        "bold": "Cochin Shipyard +7%. Coal India +1.85%. Metal resilient. Domestic energy plays held.",
+        "text": "Business Standard confirmed: Cochin Shipyard surged over 7% in intraday trade — PSU shipbuilder bucked the entire market trend on strong volumes, benefiting from the West Asia War naval buildup narrative (US ordering more mine-sweepers, naval escort discussions). Coal India +1.85% to Rs 459 — elevated energy prices benefiting domestic coal producers. Tata Consumer Products +0.89%. Apollo Hospitals +0.72%. Nestlé India +0.55% (post strong Q4 with 26% profit jump). Nifty Metal posted the smallest sectoral decline — metals holding up on infrastructure/defence narrative. These gainers highlight the investment logic of the West Asia War: domestic energy, defence, and consumer staples as the war-resilient plays."
       },
       {
         "color": "amber",
-        "bold": "PHILIPPINES: 15 Filipino seafarers on IRGC-seized ships — safe. India: 280 in zone.",
-        "text": "CBS News confirmed the Philippine government confirmed 15 Filipino seafarers were aboard the seized Hormuz vessels — 10 on the Epaminondas and 5 on the MSC Francesca. Philippine Department of Migrant Workers said they are \"safe and unharmed.\" Iran's state media released dramatically-edited video Thursday of IRGC forces in black masks boarding the MSC Francesca — masked fighters speeding toward the ship in a gunboat, climbing ladders up the hull with rifles slung over backs. CBS confirmed the video. For India: 280 Indian seafarers remain in the broader Gulf zone across 8 vessels. MEA channel with Tehran active. Op Urja Suraksha warships on HIGH ALERT. The third Indian Ocean tanker boarding overnight adds risk to India-adjacent sea lanes."
-      },
-      {
-        "color": "red",
-        "bold": "US NAVY SECRETARY PHELAN FIRED — acting: Hung Cao. Dept loses top civilian during active blockade.",
-        "text": "CBS News and Time confirmed: Navy Secretary John Phelan was dismissed — chief Pentagon spokesman Sean Parnell confirmed \"effective immediately.\" Undersecretary of the Navy Hung Cao named acting civilian lead. Cao is a Navy veteran who ran as the GOP's Senate nominee in Virginia in 2024, losing to Democratic Sen. Tim Kaine. Trump said Phelan \"did an outstanding job\" and would \"like to have him back in the Trump Administration.\" The dismissal comes as the US Navy is actively enforcing the Hormuz blockade, conducting three ship boardings, operating minesweepers, and now under new orders to shoot mine-laying boats on sight. Losing the top civilian official at this critical moment is operationally significant — the acting lead has no Senate confirmation."
-      },
-      {
-        "color": "amber",
-        "bold": "Brent $106+. GIFT Nifty +69 at 24,232. India markets opening positive despite $106 oil.",
-        "text": "Business Standard (updated this morning) confirmed: Brent crude is trading above $106 per barrel at India market open — elevated from $101.91 at April 22 close. However, GIFT Nifty is trading +69 at 24,232 — indicating a positive open for Indian markets. The contradiction: Lebanon ceasefire extended 3 weeks (positive), Infosys PAT +21% beat not yet priced in (positive), partially offsetting the shoot-to-kill order escalation and Brent at $106. Most Asia-Pacific markets declined overnight — Kospi -0.22%, Hang Seng -0.45%. Japan Nikkei +0.55%. US S&P 500 futures +0.1%. The India open will balance the Infosys beat and Lebanon ceasefire extension against the escalating Iran-US naval confrontation. Brent $106 = OMC petrol/diesel hike decision now near-certain within days."
-      },
-      {
-        "color": "amber",
-        "bold": "Mine clearing up to 6 months. Pope Leo XIV condemned war. Reza Pahlavi attacked in Berlin.",
-        "text": "PBS (citing NYT/US officials) confirmed: Mine clearing operations in Hormuz could take up to 6 months — meaning even a deal today would leave Hormuz restricted for months while mines are cleared. Pope Leo XIV, ending his 11-day Africa trip, expressed \"deep concern\" over the war and said both parties must \"stop the spiral of violence before it becomes an irreparable abyss\" — he condemned Trump's \"whole civilization will die\" post. Trump responded saying he was \"not a big fan\" of Leo and he should not get involved in politics. Separately: Iranian exiled opposition leader Reza Pahlavi was splattered with a red liquid as he left a press conference in Berlin Thursday — the alleged perpetrator was detained. Trump also posted: \"Iran is having a very hard time figuring out who their leader is! They just don't know!\" — referencing the IRGC vs diplomatic corps internal divide."
+        "bold": "Weekly damage: -2,592 Sensex points (-3.3%). FII outflows accelerating. Three-day rout.",
+        "text": "Three-day Sensex rout confirmed: Day 1 (Apr 22): -757. Day 2 (Apr 23): -853. Day 3 (Apr 24): -983. Total: -2,593 points in three sessions from 79,273 to 76,681. Weekly context: the prior two weeks saw India markets largely hold up on ceasefire optimism. This week reversed all gains and more. FII flows: capital outflows accelerating per Ponmudi R (Enrich Money). Rupee under dual pressure from $107 Brent and FII selling. Analyst consensus: next week will be defined by (1) whether Iran submits a unified proposal before the ~April 25-27 deadline, (2) Bloomberg back-channel talks producing a signal, (3) whether Mojtaba Khamenei's physical recovery allows Iran to unify around a position. Without a diplomatic breakthrough, Nifty 23,600 is the next technical support."
       }
     ]
   },
   "deaths": "6,600+",
-  "deathsSub": "~3,375+ Iran, 2,294+ Lebanon, 99 Iraq, 23+ Israel, 13 US (+2 noncombat), 35+ Gulf. 15 Filipino crew on seized vessels (safe). 280 Indian seafarers in Gulf zone.",
+  "deathsSub": "~3,375+ Iran (Supreme Leader Mojtaba Khamenei: hand surgery, facial burns, difficulty speaking — NYT), 2,294+ Lebanon (ceasefire extended 3 weeks), 99 Iraq, 23+ Israel, 13 US (+2 noncombat), 35+ Gulf",
   "econ": {
-    "sensex": "77,664",
-    "sensexDelta": "PREV CLOSE APR 23: -853 (-1.09%). Markets opening NOW. GIFT Nifty +69 at 24,232 = positive open.",
-    "sensexSub": "Infosys PAT +21% beat (not priced in) + Lebanon ceasefire extension = partial recovery. Brent $106 = cap.",
-    "vix": "~20-22 (expected at open)",
-    "vixDelta": "Lebanon extension reduces tail risk. But shoot-to-kill order + $106 Brent + Israel ready to resume = VIX elevated.",
-    "fpi": "IT sector recovery expected (Infosys beat). Pharma defensive gains likely to hold.",
-    "fpiDelta": "Brent $106 caps energy-sensitive FII flows. Lebanon extension may attract partial risk-on rotation.",
-    "wealth": "BSE market cap ~Rs 449L Cr. Today: Infosys beat + Lebanon extension vs $106 Brent + shoot-to-kill escalation.",
-    "analysis": "DAY 56 FRI 9:30AM IST: Brent $106+. GIFT Nifty +69 at 24,232 — positive open expected. Trump ordered Navy to shoot-to-kill Iranian mine-laying boats. Israel-Lebanon ceasefire extended 3 weeks (White House Thursday). Israel Def Min Katz: ready to resume war, targets marked. Third US tanker boarded overnight (ex-Phonix, Indian Ocean). 31 ships total turned back. 15 Filipino crew on seized vessels (safe, confirmed). Navy Sec Phelan fired. Mine clearing up to 6 months (NYT/PBS). Infosys Q4 PAT +21% beat not yet priced in — primary positive catalyst today. Lebanon extension removes one deadline; Trump 3-5 day Iran deadline (~Apr 25-27) remains. OMC petrol/diesel hike near-certain at $106 Brent within days."
+    "sensex": "76,681",
+    "sensexDelta": "APR 24 CLOSE: -983 (-1.27%). Third consecutive loss. Three-day fall: -2,592 pts. Worst week in months.",
+    "sensexSub": "Nifty 24,000 = key resistance. Below 23,800 → 23,600. Bloomberg: Iran back-channel with Pakistan = only bright spot.",
+    "vix": "~25-27 (war-week peak, elevated)",
+    "vixDelta": "Three straight sessions down. $107 Brent. IT structural selloff. Iran leader incapacitated. FII outflows.",
+    "fpi": "FII outflows accelerating. Cochin Shipyard +7%, Coal India +1.85% — only gainers worth noting.",
+    "fpiDelta": "All 16 sectors red Friday. IT worst (-5%). Metal most resilient. Defensive rotation to staples/domestic energy.",
+    "wealth": "BSE market cap ~Rs 441L Cr (down ~Rs 16L Cr in three days from Rs 457L Cr). Next week = Iran deadline week.",
+    "analysis": "DAY 56 FRI 6:30PM IST: SENSEX -983 to 76,681. NIFTY -275 to 23,898 (BELOW 24,000). Third consecutive loss, three-day fall -2,592 pts. INFOSYS -7%, NIFTY IT -5% approaching 30-month lows. Brent $107.25. BLOOMBERG: Iranian officials discussed ceasefire with Pakistan — first back-channel signal (only positive of the day). MOJTABA KHAMENEI: hand surgery, facial burns, difficulty speaking (NYT via four Iranian officials) — explains why Iran cannot unify around a proposal. Cochin Shipyard +7%, Coal India +1.85% (only meaningful gainers). Nifty 24,000 now resistance. OMC petrol/diesel hike within days at $107 Brent. Next week: Iran proposal deadline ~Apr 25-27, Bloomberg back-channel could produce signal, Mojtaba recovery = wild card for deal timeline."
   },
   "hormuzStatus": {
-    "status": "HORMUZ WAR ZONE — BRENT $106. SHOOT-TO-KILL ORDER. MINE CLEARING 6 MONTHS.",
+    "status": "HORMUZ CLOSED — BRENT $107. BLOOMBERG: IRAN BACK-CHANNEL WITH PAKISTAN. MOJTABA INCAPACITATED.",
     "preWarFlow": "130-160 ships/day",
-    "currentFlow": "Effectively zero commercial. Trump ordered Navy to shoot-to-kill mine-laying boats. IRGC called it ceasefire breach. Third tanker boarded in Indian Ocean. 31 ships turned back total. Mine clearing could take 6 months even with a deal.",
-    "reduction": "95%+ disruption. Mine clearing 6 months. Brent $106. Israel ready to resume war. IEA: biggest energy crisis in history.",
+    "currentFlow": "Effectively zero commercial. Shoot-to-kill order active. Mine clearing 6 months. Bloomberg: Iran discussed ceasefire with Pakistan (first back-channel signal). 31 ships turned back total.",
+    "reduction": "95%+ disruption. Brent $107.25. Mine clearing 6 months even with deal. 20,000+ mariners stranded. India buffer at critical depletion.",
     "indianVesselsNear": 8,
     "indianSeafarers": 280,
     "indianTransited": 0,
-    "totalShipsWaiting": "20,000 mariners + 2,000 ships stranded. 15 Filipino crew seized (safe). India 280 seafarers in zone. Third Indian Ocean boarding overnight.",
-    "lastTransit": "IRGC seized MSC Francesca + Epaminondas April 22. Euphoria attacked. Third tanker boarded Indian Ocean overnight. Mine clearing: up to 6 months post-deal.",
-    "indianNavyEscort": "Op Urja Suraksha on HIGH ALERT. Indian Ocean enforcement zone now active. MEA channel with Tehran active.",
-    "headline": "BRENT $106. Shoot-to-kill order. Israel ready to resume war. 3rd tanker Indian Ocean. Mine clearing 6 months. Lebanon ceasefire 3-week extension = partial relief."
+    "totalShipsWaiting": "20,000+ mariners stranded. 15 Filipino crew on seized ships (safe). India 280 seafarers in zone. Third Indian Ocean boarding Apr 24 (ex-Phonix). OMC hike imminent at $107.",
+    "lastTransit": "Iran seized MSC Francesca + Epaminondas April 22. Euphoria attacked. Ex-Phonix boarded Indian Ocean. Shoot-to-kill order active for mine-laying boats.",
+    "indianNavyEscort": "Op Urja Suraksha HIGH ALERT. Indian Ocean enforcement zone active. MEA channel with Tehran active. Bloomberg: back-channel Iran-Pakistan signal positive.",
+    "headline": "BRENT $107. Zero commercial transit. Bloomberg: Iran-Pakistan back-channel. Mojtaba incapacitated — explains proposal delay. Mine clearing 6 months regardless of deal."
   },
   "hormuzEvents": [
     {
-      "d": "Apr 24 AM",
-      "e": "DAY 56 FRI 9:30AM IST. TRUMP ordered US Navy SHOOT AND KILL Iranian mine-laying boats in Hormuz. Israel-Lebanon ceasefire EXTENDED 3 WEEKS (White House Thursday). Israel Def Min Katz: ready to resume war with Iran — targets marked. Third US tanker boarded Indian Ocean overnight (ex-Phonix, sanctioned 2024). CENTCOM: 31 ships turned back total. 15 Filipino crew on seized ships (safe). Navy Sec PHELAN FIRED — acting: Hung Cao. Mine clearing up to 6 months (NYT/PBS). Brent $106+. GIFT Nifty +69. Infosys PAT +21% beat opening Friday. Lebanon deadline removed — Iran 3-5 day deadline (~Apr 25-27) remains."
+      "d": "Apr 24 PM",
+      "e": "DAY 56 FRI 6:30PM IST CLOSE. SENSEX -983 to 76,681. NIFTY -275 to 23,898 (BELOW 24,000). Third straight loss — three-day fall -2,592 pts. Worst week in months. INFOSYS -7%, NIFTY IT -5% (30-month lows). Brent $107.25. BLOOMBERG: Iranian officials discussed ceasefire with Pakistan — first back-channel. MOJTABA KHAMENEI: hand surgery, facial burns, difficulty speaking (NYT). Cochin Shipyard +7%, Coal India +1.85% only gainers. Nifty 24,000 now resistance. OMC hike within days. West Asia War Day 56."
     },
     {
       "d": "Apr 23 7:30PM",
@@ -201,46 +196,40 @@
   ],
   "military": [
     {
-      "t": "TRUMP Ordered US Navy \"SHOOT AND KILL\" Iranian Mine-Laying Boats in Hormuz.",
-      "lv": "BREAKING",
-      "color": "red",
-      "d": "PBS, NPR, CBC, CNBC, AP confirmed Thursday: Trump posted: \"I have ordered the United States Navy to shoot and kill any boat, small boats though they may be...that is putting mines in the waters of the Strait of Hormuz. There is to be no hesitation. Additionally, our mine sweepers are clearing the Strait right now. I am hereby ordering that activity to continue, but at a tripled up level!\" Trump also stated: \"We have total control over the Strait of Hormuz. No ship can enter or leave without the approval of the United States Navy. It is sealed up tight until such time as Iran is able to make a deal.\" IRGC responded that the order was \"an overt breach of the ceasefire.\" NYT cited US officials (via PBS) saying mine clearing could take up to 6 months. This is the most aggressive US Rules of Engagement change since the West Asia War began February 28 — authorising lethal force on Iranian vessels on sight."
-    },
-    {
-      "t": "ISRAEL-LEBANON CEASEFIRE EXTENDED 3 WEEKS — White House Thursday. Lebanon Deadline Removed.",
+      "t": "BLOOMBERG: Iranian Officials DISCUSSED CEASEFIRE with Pakistan — First Back-Channel Signal.",
       "lv": "BREAKING",
       "color": "green",
-      "d": "WaPo, NPR, CNBC, CBS News confirmed Thursday: Trump announced the Israel-Lebanon ceasefire extended by three weeks after White House Oval Office meeting. \"The Ceasefire between Israel and Lebanon will be extended by THREE WEEKS. The Meeting went very well!\" Rubio and Needham led; Israel and Lebanon represented by their US ambassadors. Trump: US \"will work with Lebanon to help it protect itself from Hezbollah.\" This removes the Lebanon ceasefire expiry as a converging deadline — previously scheduled to coincide with the Trump Iran deadline at ~April 25-27. The most dangerous dual-deadline scenario (Lebanon collapse + Iran deadline simultaneously) is now deferred by three weeks. The remaining active risk is Trump's 3-5 day window for Iran (~April 25-27)."
+      "d": "Business Standard live blog (via Bloomberg, updated Friday session) confirmed: \"Iranian officials discussed ceasefire with Pakistan.\" This is the first confirmed positive back-channel diplomatic signal since Iran formally rejected the second round of Islamabad talks. It does not mean Iran has submitted a unified proposal — Trump's stated condition for talks. But Iran's diplomatic wing is actively testing diplomatic ground through Pakistan's mediation channel. Pakistan's Islamabad talks infrastructure (10,000 security, Serena Hotel, protocol) remains on standby. This back-channel activity is the single most important positive development of Friday. Combined with the Bloomberg signal, the partial market recovery from intraday Nifty low of 23,813 to 23,897 suggests markets are partially pricing in a diplomatic breakthrough possibility over the weekend."
     },
     {
-      "t": "ISRAEL DEFENSE MINISTER KATZ: \"Prepared to Resume War with Iran\" — Awaiting US Green Light.",
+      "t": "MOJTABA KHAMENEI: Hand Surgery, Facial Burns, Difficulty Speaking — NYT (4 Iranian Officials).",
       "lv": "BREAKING",
       "color": "red",
-      "d": "CBC News and CBS News confirmed Thursday: Israeli Defense Minister Israel Katz stated Israel is \"prepared to resume war with Iran\" and awaiting a \"green light\" from the United States. Katz: military is \"ready for both defensive and offensive operations and targets are marked.\" This is the most explicit Israeli military readiness statement since the April 8 ceasefire. Combined with 50,000+ US troops in the region, Trump's shoot-to-kill order, and the 3-5 day Iran deadline, the West Asia War is at its closest to resuming since the ceasefire began. Katz's statement also signals US-Israel close coordination — any resumed strike will not be unilateral. For India: resumed strikes would immediately push Brent toward $115-130, Sensex could gap-down to 70,000-73,000, rupee could hit 97+."
+      "d": "News24 (citing NYT, four Iranian officials) confirmed: new Supreme Leader Mojtaba Khamenei \"had a surgical procedure on one hand and is slowly regaining function. He sustained facial burns, making it difficult for him to speak.\" This is a critical intelligence fact — it structurally explains why Iran has been unable to submit a \"unified proposal.\" The Supreme Leader, who must sign off on any deal, is physically incapacitated and cannot easily convene the internal Iran power broker meetings needed to unify the government. This means: (1) Iran genuinely cannot produce a proposal until Mojtaba recovers, (2) IRGC is effectively running war policy in the vacuum, (3) Deal timeline is now dependent on Mojtaba's recovery pace — not just diplomatic will. This fundamentally changes the negotiating calculus — Trump's 3-5 day window may need further extension simply because Iran's decision-maker is not functional."
     },
     {
-      "t": "THIRD US Tanker Boarded Overnight — ex-Phonix (Indian Ocean). 31 Ships Total Turned Back.",
+      "t": "SENSEX -983 to 76,681. NIFTY -275 to 23,898. NIFTY IT -5%. Three-Day Fall -2,592 pts.",
       "lv": "BREAKING",
-      "color": "amber",
-      "d": "PBS and Time confirmed Thursday: US forces boarded another Iranian-oil smuggling tanker overnight — the ex-Phonix (now sailing under a different name), sanctioned by US Treasury in 2024 for smuggling Iranian crude. Boarded in the Indian Ocean by US military forces. This is the third Indian Ocean ship boarding (after Tifani April 21, Epaminondas/MSC Francesca April 22). CENTCOM: \"We will continue global maritime enforcement to disrupt illicit networks and interdict vessels providing material support to Iran, wherever they operate.\" CENTCOM separately confirmed 31 vessels have been directed to turn around or return to port since blockade began April 13. US enforcement is now active across the Persian Gulf AND the Indo-Pacific — directly in India's strategic maritime neighbourhood."
+      "color": "red",
+      "d": "IBTimes India and Business Standard confirmed: Sensex 76,681.29 (-982.71 / -1.27%). Nifty 23,897.95 (-275.10 / -1.14%). Intraday lows: Sensex 76,403, Nifty 23,813. Third consecutive loss — three-day fall from 79,273: -2,592 points (-3.3%). The Week: \"worst week in months.\" Nifty IT -5% — Infosys, TCS, Tech Mahindra, LTIMindtree, Coforge top losers. Infosys specifically -7% to Rs 1,154.60 as markets punished cautious FY27 guidance. Nifty IT approaching 30-month lows. Nifty 24,000 flipped from support to resistance. Analyst target: \"decisive break above 24,000 needed for recovery; below 23,800 → 23,600.\" BSE market cap lost ~Rs 16L Cr in three sessions from Rs 457L Cr to Rs 441L Cr."
     },
     {
-      "t": "Philippines: 15 Filipino Crew on Seized Ships — Safe. Navy Sec Phelan FIRED.",
+      "t": "Brent $107.25. Rupee Under Pressure. OMC Petrol/Diesel Hike Within Days.",
       "lv": "BREAKING",
-      "color": "amber",
-      "d": "CBS News confirmed Thursday: Philippine Department of Migrant Workers confirmed 15 Filipino seafarers aboard IRGC-seized vessels — 10 on Epaminondas, 5 on MSC Francesca. Philippine government: \"safe and unharmed.\" IRGC released dramatically-edited video Thursday of masked commandos boarding MSC Francesca — CBS confirmed the footage. Separately: Navy Secretary John Phelan was dismissed effective immediately — Pentagon spokesman Sean Parnell confirmed. Acting civilian lead: Undersecretary of the Navy Hung Cao (Navy veteran, 2024 Virginia Senate GOP nominee). The Department of Navy loses its top civilian official while actively running the Hormuz blockade, conducting ship boardings, operating minesweepers, and now authorised to shoot mine-laying vessels on sight."
+      "color": "red",
+      "d": "IBTimes India confirmed Brent April futures at $107.25 (+2.07%). Sustained above $106 all Friday session. Enrich Money CEO Ponmudi R: \"elevated crude oil prices, holding above $105 per barrel, remain the key drag, intensifying concerns over inflation, India's import bill, and overall macro balance. The Indian rupee is under pressure due to higher oil prices and continued capital outflows.\" At $107 Brent for 5+ days (threshold approaching), OMC margin losses are severe. Indian Oil, BPCL, HPCL expected to announce petrol/diesel hike of Rs 2-5/litre within days. LPG subsidy reinstatement under active government discussion. India petroleum import bill for April will be the highest of the war. For India: every $1 Brent increase = approximately $1.4 billion annual import bill increase."
     },
     {
-      "t": "Brent $106+. GIFT Nifty +69 at 24,232. Infosys Beat Not Priced In. Positive Open Expected.",
+      "t": "Cochin Shipyard +7%, Coal India +1.85% — Domestic Energy/Defence Plays Buck Rout.",
+      "lv": "DEVELOPING",
+      "color": "green",
+      "d": "Business Standard confirmed: Cochin Shipyard surged 7%+ bucking the entire market on strong volumes — PSU shipbuilder benefiting from the West Asia War naval demand narrative (US mine-sweepers, escort vessel demand, Indian Navy Op Urja Suraksha). Coal India +1.85% to Rs 459 — domestic coal producer benefiting from elevated energy prices. Tata Consumer Products +0.89%, Apollo Hospitals +0.72%, Nestlé India +0.55% (post strong Q4: 26% profit jump). Nifty Metal posted smallest sectoral decline — infrastructure and defence narrative holding. These winners illustrate the West Asia War investment playbook: domestic energy producers, defence/shipbuilding, consumer staples, and healthcare as war-resilient sectors while IT and import-heavy sectors suffer."
+    },
+    {
+      "t": "Next Week: Iran Deadline ~Apr 25-27. Back-Channel. Mojtaba Recovery. India's Most Critical Week.",
       "lv": "DEVELOPING",
       "color": "amber",
-      "d": "Business Standard (updated this morning) confirmed: Brent crude trading above $106 per barrel at India open. However, GIFT Nifty +69 at 24,232 indicates a positive open. Contradictions being balanced by markets: Positive — (1) Infosys Q4 PAT +21% beat (not yet priced in — announced after hours Thursday), (2) Israel-Lebanon ceasefire extended 3 weeks, removing a key tail risk. Negative — (1) Brent $106 vs $101 two days ago, (2) shoot-to-kill order escalation, (3) Israel ready to resume war. Asia-Pacific: Kospi -0.22%, Hang Seng -0.45%, Nikkei +0.55% (Japan inflation data). US futures: S&P 500 +0.1%, Dow -0.24%. Brent $106 = OMC petrol/diesel hike near-certain within 1-2 days. LPG hike back under discussion."
-    },
-    {
-      "t": "Mine Clearing: Up to 6 Months. Pope Leo XIV Condemned War. Reza Pahlavi Attacked in Berlin.",
-      "lv": "DEVELOPING",
-      "color": "amber",
-      "d": "PBS (citing NYT, US officials) confirmed: Mine clearing operations in Hormuz could take up to six months — even a deal today leaves Hormuz restricted for months. This is a structural India energy supply risk regardless of any ceasefire outcome. Pope Leo XIV, ending Africa trip, expressed \"deep concern\" over the war and urged both parties to \"stop the spiral of violence before it becomes an irreparable abyss.\" He condemned Trump's \"whole civilization will die\" post. Trump responded: \"not a big fan\" of Leo. Reza Pahlavi — Iranian exiled opposition leader — was hit with a red liquid after a Berlin press conference Thursday. Alleged perpetrator immediately detained. Trump simultaneously posted: \"Iran is having a very hard time figuring out who their leader is! They just don't know!\" — referencing the IRGC vs diplomatic corps internal divide that has stalled the second round of Islamabad talks."
+      "d": "Next week's India market direction depends on three overlapping factors: (1) Iran proposal deadline ~April 25-27 — Trump's 3-5 day window from April 22. Bloomberg back-channel (Iran discussing ceasefire with Pakistan) suggests a proposal may be forming. (2) Mojtaba Khamenei recovery — if the Supreme Leader recovers enough to convene an internal Iran meeting and sign off on a proposal, the diplomatic path reopens. Hand surgery + facial burns = estimated 1-2 week recovery timeline. (3) US military response — if shoot-to-kill order produces an incident in Hormuz over the weekend, markets open Monday with another shock. Scenario: 35% — Iran submits partial proposal → markets recover, Nifty to 24,300-24,600. 40% — stalemate, no incident → Nifty 23,600-24,000. 25% — military incident → Nifty below 23,000, Brent $115+."
     }
   ],
   "nukes": [
@@ -540,14 +529,18 @@
       "d": 56,
       "l": "Apr 24",
       "deaths": 6600,
-      "brent": 106,
-      "nifty": 24232,
-      "rupee": 95.0,
-      "tag": "Trump ordered Navy SHOOT AND KILL Iranian mine-laying boats. Israel-Lebanon ceasefire extended 3 WEEKS. Israel Def Min: ready to resume war. 3rd tanker boarded Indian Ocean. 15 Filipino crew seized (safe). Navy Sec Phelan fired. Brent $106+. GIFT Nifty +69. Mine clearing 6 months. West Asia War Day 56.",
+      "brent": 107,
+      "nifty": 23898,
+      "rupee": 95.2,
+      "tag": "SENSEX -983 to 76,681. NIFTY -275 to 23,898 (BELOW 24,000). Third loss. Three-day -2,592 pts. IT -5%. Infosys -7%. Brent $107.25. Bloomberg: Iran-Pakistan back-channel. Mojtaba incapacitated (NYT). Cochin Shipyard +7%. Worst week in months. West Asia War Day 56.",
       "sev": 3
     }
   ],
   "hormuzLatest": [
+    {
+      "d": "Apr 24 PM",
+      "e": "DAY 56 FRI 6:30PM IST CLOSE. SENSEX -983 to 76,681. NIFTY -275 to 23,898 (BELOW 24,000). Third straight loss — three-day fall -2,592 pts. Worst week in months. INFOSYS -7%, NIFTY IT -5% (30-month lows). Brent $107.25. BLOOMBERG: Iranian officials discussed ceasefire with Pakistan — first back-channel. MOJTABA KHAMENEI: hand surgery, facial burns, difficulty speaking (NYT). Cochin Shipyard +7%, Coal India +1.85% only gainers. Nifty 24,000 now resistance. OMC hike within days. West Asia War Day 56."
+    },
     {
       "d": "Apr 24 AM",
       "e": "DAY 56 FRI 9:30AM IST. TRUMP ordered US Navy SHOOT AND KILL Iranian mine-laying boats in Hormuz. Israel-Lebanon ceasefire EXTENDED 3 WEEKS (White House Thursday). Israel Def Min Katz: ready to resume war with Iran — targets marked. Third US tanker boarded Indian Ocean overnight (ex-Phonix, sanctioned 2024). CENTCOM: 31 ships turned back total. 15 Filipino crew on seized ships (safe). Navy Sec PHELAN FIRED — acting: Hung Cao. Mine clearing up to 6 months (NYT/PBS). Brent $106+. GIFT Nifty +69. Infosys PAT +21% beat opening Friday. Lebanon deadline removed — Iran 3-5 day deadline (~Apr 25-27) remains."
@@ -559,15 +552,11 @@
     {
       "d": "Apr 23 PM",
       "e": "DAY 55 EVENING. Sensex -852 to 77,664. Nifty -205 to 24,173. 2-day fall = 1,609 pts. Brent $103.94. Rupee 94.11. INFOSYS Q4 BEAT: PAT Rs 8,501 Cr (+21% YoY) but FY27 guide 1.5-3.5% (conservative). PENTAGON FIRED NAVY SECRETARY PHELAN — 21 warships in region, 7 more. US intercepted 3 Iranian tankers in Asian waters — blockade going global. Iran maintaining more military capability than admitted (CBS). Senate rejected war powers 55-46. WH: no deadline for Iran proposal. Brent $103 = petrol/diesel hike imminent. Lebanon journalist killed in Israeli airstrike."
-    },
-    {
-      "d": "Apr 22-23",
-      "e": "DAY 55 THU 8:30AM IST. IRAN SEIZED MSC FRANCESCA + EPAMINONDAS (Greek), ATTACKED EUPHORIA on April 22 — first Iranian ship seizures since Feb 28. Epaminondas: IRGC gunfire + RPGs, significant bridge damage, had prior permission to cross. IRGC: retaliation for Touska seizure. Brent briefly $100+, settled $99.03. Sensex -757 to 78,516. Nifty -198 to 24,378. IT worst. Trump gave Iran 3-5 days (new deadline ~Apr 25-27). 30-country military conference UK Northwood for Hormuz reopening. Lufthansa 20,000 flights cut. UAE arrested 27 Iran-linked suspects. INFOSYS Q4 results today."
     }
   ],
   "projNow": {
-    "brent": 106,
-    "rupee": 95.0,
+    "brent": 107,
+    "rupee": 95.2,
     "lpg": 912,
     "petrol": 94.77,
     "deaths": 6600
@@ -577,49 +566,49 @@
       "Pre-war",
       "Now (D56)",
       "Iran submits proposal",
-      "Deadline passes",
-      "Strikes resume"
+      "Stalemate next week",
+      "Military incident"
     ],
     "brent": [
       65,
-      106,
+      107,
       85,
-      110,
-      132
+      105,
+      125
     ],
     "rupee": [
       91,
-      95.0,
+      95.2,
       91.5,
-      103,
-      110
+      96,
+      106
     ],
     "deaths": [
       0,
       "6,600+",
       "7,200",
-      "9,000+",
+      "7,500",
       "20,000+"
     ],
     "sensex": [
       "78,699",
-      "77,664",
-      "82,000+",
-      "72,000",
+      "76,681",
+      "80,000+",
+      "23,600 Nifty",
       "58,000"
     ],
     "lpg": [
       "Rs 853",
       "Rs 912",
       "Rs 862",
-      "Rs 1,100+",
-      "Rs 1,750+"
+      "Rs 950+",
+      "Rs 1,600+"
     ],
     "fii": [
       "-",
-      "Selective",
-      "$22B return",
-      "$30B out",
+      "Outflows",
+      "$20B return",
+      "Continued out",
       "$55B out"
     ]
   },
@@ -682,8 +671,8 @@
     }
   ],
   "assessment": {
-    "headline": "DAY 56, 9:30 AM FRI: TRUMP ordered SHOOT AND KILL for Iranian mine-laying boats. ISRAEL ready to resume war. Lebanon ceasefire EXTENDED 3 WEEKS. Brent $106+. GIFT Nifty +69. Infosys +21% beat opening today. Iran ~Apr 25-27 deadline remains. Mine clearing: 6 months.",
-    "body": "Friday 9:30 AM IST. Markets opening positive despite the most aggressive US military order since the war began.\n\nTHE SHOOT-TO-KILL ORDER\n• Trump posted Thursday: ordered Navy to \"shoot and kill\" Iranian mine-laying boats\n• \"There is to be no hesitation\"\n• Mine sweepers ordered to triple operations\n• IRGC: order is \"overt breach of ceasefire\"\n• Mine clearing could take up to 6 months (NYT/US officials via PBS)\n• Even a deal today = Hormuz restricted for months during clearing\n\nISRAEL READY TO RESUME WAR\n• Defense Minister Katz: \"prepared to resume war with Iran\"\n• Awaiting \"green light\" from the United States\n• \"Targets are marked\" — both defensive and offensive operations ready\n• This is the most explicit Israeli readiness statement since April 8 ceasefire\n\nTHE POSITIVE OFFSET — LEBANON CEASEFIRE EXTENDED\n• White House Thursday: Israel-Lebanon ceasefire extended by THREE WEEKS\n• Trump+Vance+Rubio+Needham in Oval Office — ambassadors of Israel and Lebanon present\n• Removes Lebanon expiry from the April 25-27 dual deadline risk\n• The most dangerous scenario (Lebanon collapse + Iran deadline simultaneously) is deferred\n\nREMAINING RISK: IRAN 3-5 DAY DEADLINE\n• Trump gave Iran 3-5 days from April 22 = ~April 25-27\n• No unified proposal received from Iran yet\n• Ghalibaf adviser: ceasefire extension \"means nothing\"\n• IRGC: shoot-to-kill order is \"overt ceasefire breach\"\n• Iran has 48 hours to submit proposal or deadline expires\n\nINDIA OPENING TODAY\n• GIFT Nifty +69 at 24,232 = positive open\n• Infosys Q4 PAT +21% beat (announced after hours Thursday) — NOT yet priced in\n• IT sector recovery expected — two days of underperformance reversing\n• Brent $106 = OMC petrol/diesel hike within 1-2 days — now near-certain\n• Rupee ~95.00 — weakening on $106 Brent\n• Lebanon extension removes tail risk → partially risk-on\n\nSTRUCTURAL HORMUZ FACTS\n• Mine clearing: up to 6 months even with a deal (NYT/PBS)\n• Third US tanker boarded Indian Ocean overnight (ex-Phonix)\n• 31 ships total turned back since April 13 blockade\n• 15 Filipino crew on seized ships (safe)\n• 280 Indian seafarers still in Gulf zone\n• Navy Sec Phelan fired — acting: Hung Cao (no Senate confirmation)\n\nVERDICT: Friday opens with the West Asia War at its most militarily escalated point since the ceasefire. Trump has authorised lethal force on Iranian vessels. Israel has its finger on the trigger. Brent is at $106. Yet GIFT Nifty is positive — markets are choosing to focus on the Lebanon ceasefire extension and the Infosys beat. The next 48-72 hours will determine whether Iran's deadline produces a proposal or the shoot-to-kill order produces an incident that forces both sides back to full war."
+    "headline": "DAY 56, 6:30 PM FRI: SENSEX -983 to 76,681. NIFTY BELOW 24,000. Three-day -2,592 pts. IT -5%. Brent $107. BLOOMBERG: Iran back-channel with Pakistan. MOJTABA INCAPACITATED. Worst week in months.",
+    "body": "Friday 6:30 PM IST. The worst week in months ends on a sour note — but one significant back-channel signal.\n\nTHE WEEK IN NUMBERS\n• Sensex: 79,273 (Monday) → 76,681 (Friday close) = -2,592 pts (-3.3%)\n• Three consecutive daily losses: -757 (Wed) → -853 (Thu) → -983 (Fri)\n• Nifty IT: -5% Friday alone. Infosys: -7% to Rs 1,154.60\n• Brent: $107.25 Friday. Up from $95 just one week ago\n• BSE market cap lost ~Rs 16L Cr in three days\n\nTHE SINGLE MOST IMPORTANT SIGNAL — BLOOMBERG BACK-CHANNEL\n• Bloomberg (via Business Standard live): Iranian officials discussed ceasefire with Pakistan\n• First confirmed positive diplomatic signal since Iran rejected Islamabad round two\n• Iran's diplomatic wing is testing the ground through Pakistan's mediation channel\n• This does NOT mean Iran submitted a unified proposal\n• But it means Iran has NOT completely slammed the door\n• The partial market recovery from Nifty intraday low of 23,813 to close at 23,897 reflects this signal\n\nTHE STRUCTURAL EXPLANATION — MOJTABA INCAPACITATED\n• NYT (four Iranian officials via News24): Mojtaba Khamenei had hand surgery, facial burns, difficulty speaking\n• He cannot easily convene internal power broker meetings needed to unify Iran's position\n• IRGC is effectively running war policy in the vacuum\n• This explains why Iran cannot produce a \"unified proposal\" — its decision-maker is physically unable\n• Recovery timeline: estimated 1-2 weeks (hand surgery + facial burns)\n• Deal timeline now linked to Mojtaba's recovery, not just diplomatic will\n\nTHE MARKET DAMAGE\n• Nifty 24,000 flipped from support to resistance — key level for next week\n• IT sector structural concerns separate from war: AI disruption + 2-4% dollar revenue growth pre-war\n• Nifty IT approaching 30-month lows\n• Recovery stocks: Cochin Shipyard (+7%), Coal India (+1.85%), Consumer staples\n\nINDIA's NEXT WEEK RISK MATRIX\n• Iran deadline ~April 25-27 expires this weekend\n• Bloomberg back-channel = Iran may be preparing a partial proposal\n• Mojtaba recovery = wild card\n• OMC hike: near-certain within days at $107 Brent\n• Nifty 23,600 = next support if no diplomatic signal\n• Nifty 24,300-24,600 = recovery target if proposal submitted\n\nVERDICT: Week 8 of the West Asia War ends with India's market at its worst since the war began, Brent at $107, and a new explanation for why the diplomatic impasse has lasted so long — Iran's new Supreme Leader is physically unable to chair the internal meetings needed to unify Tehran around a proposal. The Bloomberg back-channel signal is real but thin. The weekend will determine whether the back-channel produces a formal proposal or whether the shoot-to-kill order produces a naval incident that opens next week with fresh chaos."
   },
   "featured": [
     {
