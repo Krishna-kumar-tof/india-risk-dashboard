@@ -628,57 +628,49 @@
       "axis": "Oil Shock",
       "w1": 60,
       "now": 60,
-      "w4": 42,
-      "w8": 28
+      "w4": 58
     },
     {
       "axis": "Market Crash",
       "w1": 45,
       "now": 42,
-      "w4": 30,
-      "w8": 18
+      "w4": 35
     },
     {
       "axis": "Nuclear Risk",
       "w1": 20,
       "now": 88,
-      "w4": 82,
-      "w8": 70
+      "w4": 80
     },
     {
       "axis": "Hormuz Closure",
       "w1": 80,
       "now": 90,
-      "w4": 38,
-      "w8": 15
+      "w4": 55
     },
     {
-      "axis": "Household Impact",
+      "axis": "Household",
       "w1": 15,
       "now": 58,
-      "w4": 48,
-      "w8": 32
+      "w4": 52
     },
     {
-      "axis": "Currency Crisis",
+      "axis": "Currency",
       "w1": 40,
       "now": 42,
-      "w4": 36,
-      "w8": 25
+      "w4": 38
     },
     {
       "axis": "Social Unrest",
       "w1": 25,
       "now": 58,
-      "w4": 48,
-      "w8": 35
+      "w4": 50
     },
     {
-      "axis": "Military Exposure",
+      "axis": "Mil. Exposure",
       "w1": 35,
       "now": 75,
-      "w4": 52,
-      "w8": 34
+      "w4": 55
     }
   ],
   "assessment": {
@@ -706,5 +698,15 @@
       "org": "Takshashila Institution",
       "icon": "🌾"
     }
-  ]
+  ],
+  "radarScores": {
+    "Oil Shock": 60,
+    "Market Crash": 42,
+    "Nuclear Risk": 88,
+    "Hormuz Closure": 90,
+    "Household Impact": 58,
+    "Currency Crisis": 42,
+    "Social Unrest": 58,
+    "Military Exposure": 75
+  }
 }
