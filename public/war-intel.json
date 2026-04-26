@@ -1,90 +1,95 @@
 {
-  "_updated": "April 26, 2026 — 8:00 AM IST",
+  "_updated": "April 26, 2026 — 9:00 PM IST",
   "_day": 58,
   "_phase": "BLOCKADE",
-  "_note": "Verified: NPR, PBS, CNN, AP, Iran International, Times of Israel, IRNA. NO Wikipedia. DAY 58 SUN 8AM IST: ARAGHCHI LEFT ISLAMABAD — flew to Muscat, Oman (IRNA/PBS/AP). TRUMP CANCELLED Witkoff+Kushner trip. Truth Social: \"Too much time wasted. Too much work. If they want to talk, call us.\" Trump (Air Force One): \"Not going to spend 15 hours in airplanes for a document not good enough — will deal by telephone.\" Trump: cancellation NOT resumption of war. Iran International: Araghchi delivered \"comprehensive\" response to Pakistan. ARAGHCHI RETURNING TO ISLAMABAD SUNDAY before Moscow (IRNA). Part of Iranian delegation returned Tehran for consultations. Iran parliament deputy speaker Nikzad (state TV): \"No meetings with Americans in Pakistan or Oman.\" USS Pinckney intercepted vessel via helicopter — 37 ships redirected total. PM Sharif \"warm and constructive\" call with Pezeshkian. Air defense sounds in Kermanshah. Iran Air resumed international flights Saturday. Spain threatened with NATO suspension. Brent $103-107.",
+  "_note": "Verified: CNN live (15min ago), AP/Washington Times (1hr ago), IANS (49min ago), Tribune India (1hr ago), Al Jazeera (1hr ago), Press TV, IRNA. NO Wikipedia. DAY 58 SUN 9PM IST: ARAGHCHI MET OMAN SULTAN HAITHAM (AFP photo confirmed). ARAGHCHI RETURNED TO ISLAMABAD SUNDAY NIGHT (IRNA/CNN/AP). Araghchi: Islamabad visit \"very fruitful.\" Pakistan officials: contacts \"still alive but fragile.\" Iran wants OMAN TO BACK HORMUZ TOLL MECHANISM (AP regional official). Araghchi called Qatar FM + Saudi FM Sunday. Pezeshkian: Iran will not accede to \"forced negotiations.\" Lebanon deaths: 2,496+ (Lebanon Health Ministry). Only a FEW vessels crossed Hormuz today — Deepblue traversed Gulf of Oman → Persian Gulf (MarineTraffic/CNN). India Monday 9:15 AM open: Araghchi now in Islamabad en route Moscow — diplomacy alive. Brent ~$99-103 (talks optimism). West Asia War Day 58.",
   "ticker": [
-    "📵 TRUMP CANCELLED Witkoff+Kushner Islamabad trip. Truth Social: 'Too much time wasted on traveling. Too much work! If they want to talk, all they have to do is call.' Talks by PHONE now.",
-    "✈️ ARAGHCHI LEFT ISLAMABAD — flew to Muscat, Oman (IRNA/PBS/AP). Iran delivered 'comprehensive' response to Pakistan (Iran International). RETURNING TO ISLAMABAD SUNDAY before Moscow (IRNA).",
-    "☎️ TRUMP (Air Force One): 'Not going to spend 15 hours in airplanes for a document not good enough — we will deal by telephone.' Cancellation does NOT mean war resumption (Trump told Axios).",
-    "⚓ USS PINCKNEY intercepted Iranian-bound vessel via helicopter — now 37 ships redirected total since April 13 blockade. Iran military warning: strong response if blockade continues.",
-    "🇮🇷 Iran parliament deputy speaker NIKZAD (state TV): 'Araghchi will have NO meetings with Americans in Pakistan or Oman. No talks with Americans on nuclear issue.' Iran hardline public position.",
-    "🤝 PM SHARIF 'warm and constructive' call with Iran President Pezeshkian Saturday evening — Sharif appreciated Iran engagement, committed to being 'honest and sincere facilitator.'",
-    "🚨 AIR DEFENSE SOUNDS heard in western Iran city of Kermanshah — Mehr News Agency. Cause unconfirmed as of 8AM IST. No confirmed new strike.",
-    "🛫 IRAN AIR resumed INTERNATIONAL FLIGHTS Saturday — Istanbul, Muscat, Medina routes. First international flights since Feb 28. Partial normalisation signal even amid diplomatic deadlock.",
-    "🇪🇸 SPAIN threatened with NATO SUSPENSION — Reuters reported confidential US communication suggesting Spain could be suspended for refusing US bases for Iran war (denied by Spain PM Sanchez).",
-    "🇮🇳 India markets open Monday 9:15 AM IST. Araghchi → Oman → Islamabad (Sunday) → Moscow. Proximity talks evolving not collapsed. Brent $103-107. Nifty 23,897 prev close. Watch Monday open."
+    "✈️ ARAGHCHI RETURNED TO ISLAMABAD SUNDAY NIGHT — IRNA/CNN/AP confirmed. Second Islamabad visit in 2 days. Called it 'very fruitful.' Now heading to Moscow. Diplomacy alive but stalled.",
+    "🤝 ARAGHCHI MET OMAN SULTAN HAITHAM — AFP photo. Focused on Hormuz. Iran wants OMAN TO BACK HORMUZ TOLL MECHANISM (AP regional official). Sovereignty play at the heart of Hormuz deadlock.",
+    "📞 ARAGHCHI CALLED QATAR FM + SAUDI FM SUNDAY — AP confirmed. Multi-country diplomatic sprint: Pakistan → Oman → Pakistan → Russia. Qatar and Saudi Arabia brought into framework.",
+    "🕊️ PAKISTAN OFFICIALS (AP): Indirect ceasefire contacts 'still alive but fragile.' No immediate plans for US envoys to return. Pakistani mediation continuing despite Trump cancelling trip.",
+    "⚠️ PEZESHKIAN: Iran will not accede to 'forced negotiations' with US, citing 'hostile actions.' Public hardline maintained while Araghchi privately builds deal architecture across four countries.",
+    "🚢 HORMUZ: Only a FEW vessels crossed today (MarineTraffic/CNN). Deepblue tanker traversed Gulf of Oman → Persian Gulf. Near-zero commercial transit continues. Iran toll mechanism plan emerging.",
+    "🇱🇧 LEBANON: 2,496+ killed since March 2 — Lebanon Health Ministry (steep jump from April 17 update). Israel striking 'vigorously' despite extended ceasefire. 177+ children killed.",
+    "🛢️ BRENT ~$99-103 — easing slightly on talks-alive signal. Araghchi's multi-country sprint + Pakistan contacts 'fragile but alive' = partial market optimism heading into Monday.",
+    "🇷🇺 ARAGHCHI → MOSCOW next. Russia as guarantor country — critical for any Iran security guarantee in nuclear deal. Lavrov-Araghchi meeting will shape Russia's role in final framework.",
+    "🇮🇳 India Monday 9:15 AM: Araghchi in Islamabad (confirmed). Contacts fragile but alive. Brent easing. Nifty 23,897 prev close (below 24k). Watch for Monday recovery if Moscow visit signals progress."
   ],
   "whatChanged": {
-    "label": "WHAT CHANGED — APR 26, 8:00 AM IST (DAY 58) — SUNDAY MORNING",
+    "label": "WHAT CHANGED — APR 26, 9:00 PM IST (DAY 58) — SUNDAY EVENING",
     "items": [
       {
+        "color": "green",
+        "bold": "ARAGHCHI returned to Islamabad Sunday night — second visit in 2 days. Called visit \"very fruitful.\"",
+        "text": "IRNA, CNN (live blog updated 15 minutes ago), and AP/Washington Times (1 hour ago) all confirmed: Iranian FM Araghchi returned to Islamabad on Sunday night after his Oman stop, landing at Nur Khan Airbase. He was received by Pakistan's Interior Minister Mohsin Naqvi and Iran's ambassador to Pakistan. IRNA: he held \"further consultations with Pakistani mediators.\" Araghchi himself described his Islamabad visit as \"very fruitful.\" Press TV: he is expected to continue to Moscow after this brief Islamabad stop. This is Araghchi's second visit to Islamabad in two days — Saturday visit (delivered comprehensive demands) + Sunday return (post-Oman consultations, en route Moscow). The pattern signals a functioning multi-stage diplomatic process, not an abandoned one."
+      },
+      {
         "color": "amber",
-        "bold": "TRUMP CANCELLED Witkoff+Kushner trip — \"Too much work.\" Talks shifting to telephone.",
-        "text": "NPR, CNN, Times of Israel confirmed: After Araghchi left Islamabad on Saturday, Trump posted on Truth Social: \"I just cancelled the trip of my representatives going to Islamabad, Pakistan, to meet with the Iranians. Too much time wasted on traveling, too much work!\" He added: \"Besides which, there is tremendous infighting and confusion within their 'leadership.' Nobody knows who is in charge, including them. Also, we have all the cards, they have none!\" Trump told reporters at Air Force One: \"We're not going to spend 15 hours in airplanes all the time going back and forth to be giving a document that was not good enough, and so we'll deal by telephone, and they can call us anytime they want.\" Critically — Trump told Axios reporter Barak Ravid: cancellation does NOT mean resumption of war. \"No. It doesn't mean that. We haven't thought about it yet.\""
+        "bold": "ARAGHCHI met Oman Sultan Haitham — Iran wants Oman to back HORMUZ TOLL MECHANISM.",
+        "text": "IANS (49 min ago) and AP confirmed: Araghchi met Sultan Haitham bin Tariq and Omani FM Badr al-Busaidi in Muscat Sunday. AFP photo released. Araghchi briefed the Sultan on Iran's stance following the US-Israeli strikes and expressed appreciation for Oman's support for dialogue. Sultan Haitham stressed \"importance of using dialogue and diplomacy.\" Critically: AP (regional official on condition of anonymity) reported Iran wants to persuade Oman to support a mechanism to collect tolls from vessels passing through Hormuz. This is Iran's Hormuz sovereignty play — rather than simply reopening the strait, Iran wants to institutionalise control via an Oman-backed toll mechanism. This goes beyond the ceasefire and into the permanent status of Hormuz — the core unresolved issue."
       },
       {
         "color": "green",
-        "bold": "ARAGHCHI delivered \"comprehensive\" response to Pakistan — RETURNING TO ISLAMABAD SUNDAY before Moscow.",
-        "text": "Iran International confirmed Araghchi delivered a \"comprehensive\" response during Pakistan meetings. PBS confirmed: \"In Pakistan, Araghchi met with Army Chief Field Marshal Asim Munir and Prime Minister Shehbaz Sharif about what he called Iran's red lines for negotiations.\" IRNA then reported: Araghchi is expected to return to Islamabad on Sunday before travelling to Russia. Part of the Iranian delegation returned to Tehran after the Islamabad talks for \"consultations and to receive further instructions on issues related to the war.\" This return for instructions suggests Iran is actively preparing its next position — not abandoning talks. The comprehensive response delivered to Pakistan + the Islamabad return Sunday + Moscow visit signals a multi-step diplomatic process, not a collapse."
+        "bold": "ARAGHCHI called Qatar FM + Saudi FM Sunday. Multi-country diplomatic sprint confirmed.",
+        "text": "AP confirmed Araghchi spoke by phone Sunday with counterparts in Qatar and Saudi Arabia — bringing two additional Gulf states into the diplomatic framework. Qatar is critical: it hosts US Al Udeid Air Base AND Ras Laffan LNG (severely damaged). Saudi Arabia is critical: it is producing at maximum capacity to offset Hormuz disruption AND has offered to guarantee parts of any Iran nuclear deal through the Abraham Accords framework. Araghchi's full Sunday diplomatic sprint: met Sultan Haitham (Oman) in person + called Qatar FM + called Saudi FM + returned to Islamabad for Pakistan consultations. Then heading to Moscow. This is the most intensive Iranian diplomatic outreach since the war began February 28."
+      },
+      {
+        "color": "amber",
+        "bold": "Pakistan officials (AP): Contacts \"still alive but fragile.\" No US envoy return planned yet.",
+        "text": "AP (two Pakistani officials, condition of anonymity, 1 hour ago): indirect ceasefire contacts are \"still alive but fragile.\" No immediate plans for US envoys to return to the region for follow-up talks. Pakistani mediation continuing despite Trump cancelling the Witkoff-Kushner trip Saturday. Al Jazeera's Kimberly Halkett from Islamabad: Pakistani officials see Araghchi's return as \"a hopeful sign\" and hope it will be \"something that can be incremental in the process.\" Tribune India: \"Pakistan, alongside Oman and other regional actors, is trying to revive indirect negotiations, but major sticking points — including sanctions relief, maritime access and security guarantees — remain unresolved.\" The process is alive. The gap is wide. The pace is slow."
       },
       {
         "color": "red",
-        "bold": "Iran parliament deputy speaker Nikzad (state TV): \"No meetings with Americans in Pakistan or Oman.\"",
-        "text": "Iran International confirmed: Iran's parliament deputy speaker Ali Nikzad told state television: \"Foreign Minister Abbas Araghchi will have no meetings with Americans in Pakistan or Oman. The public should know that Araghchi is holding no talks with the Americans on the nuclear issue.\" This is Iran's hardline public position — maintained consistently. The paradox: Araghchi delivered Iran's comprehensive negotiating demands to Pakistan (Reuters), is returning to Islamabad Sunday (IRNA), and then heading to Moscow as guarantor country. Iran is actively engaged diplomatically while publicly denying it. Iran International's headline — \"Araghchi passes on comprehensive response in Pakistan talks\" — and Nikzad's denial are not contradictory: Iran is talking to Pakistan (the mediator), not to Americans directly."
+        "bold": "PEZESHKIAN: Iran will not accede to \"forced negotiations\" citing US \"hostile actions.\"",
+        "text": "CNN confirmed: Iran's President Pezeshkian warned Tehran would not accede to \"forced negotiations\" with the US, citing \"hostile actions.\" This public hardline is maintained consistently even as Araghchi privately builds deal architecture across four countries in two days. Iran's public and private positions remain structurally divergent — by design. Iran's Foreign Ministry: \"Iran will not negotiate with the US under threats and as long as it maintains an illegal naval blockade of Iranian ports.\" This is Iran's stated precondition: blockade must end before direct talks. The US position is the inverse: deal first, then blockade lifts. Classic diplomatic deadlock — but the proximity talks via Pakistan are designed to bridge exactly this."
       },
       {
         "color": "amber",
-        "bold": "USS Pinckney intercepted vessel via helicopter — 37 ships redirected total. Air defense in Kermanshah.",
-        "text": "Iran International and CNN confirmed: M/V Sevan intercepted by a US Navy helicopter operating from guided-missile destroyer USS Pinckney in the Arabian Sea — just one day after being added to US sanctions lists. The vessel is now \"complying with orders to turn back toward Iran under US military escort.\" This brings total vessels redirected to 37 since blockade began April 13. CENTCOM: blockade enforcement continues. Separately: Iran International cited Mehr News Agency — multiple air defense sounds heard in western Iranian city of Kermanshah and surrounding areas. Cause unconfirmed as of 8 AM IST. No confirmed new US or Israeli strike. Possible defensive test or false alarm. Requires monitoring."
+        "bold": "HORMUZ: Only a few vessels crossed today. Iran's toll mechanism plan emerging as permanent play.",
+        "text": "CNN (MarineTraffic data, updated 15 minutes ago): \"Only a few vessels have crossed the Strait of Hormuz today.\" The vessel Deepblue (partially loaded oil and chemical tanker) traversed from Gulf of Oman into the Persian Gulf, passing by Iran's Larak Island — one of the very few crossings of the day. Near-zero commercial transit continues. AP's reporting on Iran's toll mechanism ambition is significant: Iran is no longer just using Hormuz as leverage — it wants to permanently institutionalise control via a Hormuz toll structure backed by Oman as neutral administrator. This would give Iran ongoing revenue and sovereignty recognition even after a deal. It is the most maximalist Hormuz position Iran has yet expressed."
       },
       {
-        "color": "green",
-        "bold": "PM Sharif \"warm and constructive\" call with Pezeshkian. Iran Air resumed international flights.",
-        "text": "Iran International confirmed: Pakistan PM Sharif had a \"warm and constructive\" phone call with Iranian President Masoud Pezeshkian Saturday evening about the evolving regional situation. Sharif \"appreciated Iran's continued engagement, including the high-level delegation to Islamabad led by FM Araghchi.\" Pakistan reaffirmed commitment to acting as \"an honest and sincere facilitator\" toward durable peace. Separately (PBS confirmed): Iran Air resumed international flights Saturday for the first time since the war began February 28. Routes launched: Tehran to Istanbul, Muscat, and Medina (Saudi Arabia). This is a significant normalisation signal — Iran suspended all international flights February 28 expecting US airstrikes on airports. Resuming them signals Iran calculates the ceasefire is structurally stable enough for civilian aviation."
-      },
-      {
-        "color": "amber",
-        "bold": "Spain threatened with NATO suspension over Iran war base refusal. Senator Graham praised cancellation.",
-        "text": "NPR confirmed: Reuters reported a confidential US communication suggesting Spain could be suspended from NATO and blocked from top alliance positions — this after Spain refused to allow the US to use bases on Spanish territory for the Iran war and declared the war \"illegal.\" Spanish PM Sanchez: \"We don't work on the basis of emails. We are working on official documents and positions.\" This is the most serious NATO internal rift of the war. Separately: Senator Lindsey Graham (R-SC) praised Trump's cancellation of the Witkoff-Kushner trip, saying Tehran had responded to the ceasefire extension with more attacks on international shipping — making the case for the hawkish position that talks are futile and pressure should continue."
+        "color": "red",
+        "bold": "LEBANON: 2,496+ killed since March 2 — steep jump. Israel \"vigorously\" striking despite ceasefire.",
+        "text": "CNN confirmed: Lebanon's Health Ministry reported 2,496 people killed by Israeli strikes since March 2 — a steep jump from the previous update on April 17. At least 177 children among the dead. Despite the three-week ceasefire extension announced Thursday, Israel's PM Netanyahu ordered his military to \"vigorously attack\" Hezbollah targets, insisting Israel is responding to rocket and drone fire from the Iran-backed group. CNN: the continued fighting \"jeopardizes an already fragile ceasefire and raises questions about whether Trump will be able to host Netanyahu and Lebanese President Joseph Aoun at the White House.\" Iran has repeatedly linked Hormuz status to Lebanon — the Lebanon escalation is a direct complication for any Hormuz deal."
       },
       {
         "color": "cyan",
-        "bold": "India: Monday 9:15 AM open. Brent $103-107. Araghchi → Islamabad Sunday → Moscow. Proximity talks evolving.",
-        "text": "India markets open Monday at 9:15 AM IST. Key overnight factors: Trump cancelled Islamabad trip but explicitly said it is NOT war resumption. Araghchi returning to Islamabad Sunday then Moscow — talks evolving not collapsed. Iran delivered comprehensive response to Pakistan. 37 ships turned back (US blockade tightening). Air defense sounds in Kermanshah (unconfirmed incident). Brent $103-107 range weekend. Nifty prev close 23,897 (below 24,000). Scenarios for Monday open: A (35%): Araghchi Sunday return to Islamabad produces progress signal, Brent holds $103-105 → Nifty 24,000-24,300. B (40%): Stalemate continues, Trump phone diplomacy produces nothing → Nifty 23,700-24,000, Brent $105-108. C (25%): Kermanshah incident confirmed as strike, military escalation → Nifty below 23,500, Brent $112+. The crucial question: does Araghchi's Sunday Islamabad return produce a signal Witkoff can respond to by telephone?"
+        "bold": "India Monday 9:15 AM open: Araghchi in Islamabad, Brent ~$99-103, talks fragile but alive.",
+        "text": "India markets open Monday 9:15 AM IST. Weekend summary feeding into open: (1) Araghchi confirmed back in Islamabad — diplomacy alive, not collapsed. (2) Met Oman Sultan in person (AFP photo). (3) Called Qatar + Saudi FMs. (4) Pakistan contacts \"still alive but fragile\" (AP). (5) Brent ~$99-103 — slight easing on talks-alive signal vs $105-107 intraday highs this week. (6) Pezeshkian public hardline maintained. (7) Lebanon 2,496+ killed (complication). Scenario A (40%): Moscow visit produces Russia-as-guarantor signal, Brent eases to $95-100 → Nifty 24,100-24,400 recovery. Scenario B (40%): Stalemate continues, US-Iran no contact → Nifty 23,700-24,000, Brent $100-105. Scenario C (20%): Lebanon escalation or Hormuz incident → Nifty below 23,500, Brent $108+."
       }
     ]
   },
   "deaths": "6,600+",
-  "deathsSub": "~3,375+ Iran (air defense sounds in Kermanshah — unconfirmed cause), 2,294+ Lebanon (+4 killed April 25 Israeli strikes), 99 Iraq, 23+ Israel, 13 US (+2 noncombat), 35+ Gulf. Iran: 612 executions since start of 2026 (Abdorrahman Boroumand Center).",
+  "deathsSub": "~3,375+ Iran, 2,496+ Lebanon (177+ children — steep jump from April 17 update, Lebanon Health Ministry), 99 Iraq, 23+ Israel, 13 US (+2 noncombat), 35+ Gulf",
   "econ": {
     "sensex": "76,681",
     "sensexDelta": "PREV CLOSE APR 24: -983 (-1.27%). Markets closed Sat-Sun. Monday 9:15 AM IST = post-weekend verdict.",
-    "sensexSub": "Trump cancelled Islamabad trip but NOT war resumption. Araghchi returns Islamabad Sunday. Brent $103-107.",
-    "vix": "~24-26 (war-week peak, elevated)",
-    "vixDelta": "Talks evolving via phone + Pakistan proximity. Monday open depends on Araghchi Sunday return signal.",
-    "fpi": "FII outflows last week. Monday open = first chance to price weekend diplomatic developments.",
-    "fpiDelta": "Iran International: comprehensive response delivered. Araghchi returning Islamabad. Deal not dead — stalled.",
-    "wealth": "BSE market cap ~Rs 441L Cr. Monday verdict: talks signal → Rs 450L Cr. Escalation → Rs 428L Cr.",
-    "analysis": "DAY 58 SUN 8AM IST: ARAGHCHI left Islamabad → Muscat. TRUMP cancelled Witkoff trip. Truth Social: \"Too much work. Call us.\" But NOT war resumption (confirmed to Axios). Iran delivered comprehensive response (Iran International). Araghchi RETURNING to Islamabad SUNDAY (IRNA) before Moscow. Part of delegation returned Tehran for instructions. Nikzad (state TV): no talks with Americans on nuclear. USS Pinckney intercepted M/V Sevan — 37 ships turned back total. Air defense sounds in Kermanshah (unconfirmed). Iran Air resumed international flights (Istanbul, Muscat, Medina). Spain threatened NATO suspension. PM Sharif warm call with Pezeshkian. Brent $103-107. India Monday: 35% talks signal → Nifty 24,000-24,300. 40% stalemate → 23,700-24,000. 25% incident → below 23,500."
+    "sensexSub": "Araghchi back in Islamabad, Brent easing to $99-103. Nifty 23,897 prev close. Monday: fragile talks alive = partial recovery possible.",
+    "vix": "~22-24 (elevated, easing slightly on talks-alive signal)",
+    "vixDelta": "Contacts fragile but alive (AP). Brent easing from $107 peak. Monday open depends on any Russia visit signal.",
+    "fpi": "FII outflows last week. Potential partial reversal Monday if Brent holds below $102.",
+    "fpiDelta": "Araghchi multi-country sprint = talks not abandoned. Brent easing = positive for FII flows into India.",
+    "wealth": "BSE market cap ~Rs 441L Cr. Monday: talks alive + Brent easing → potential Rs 447-452L Cr recovery.",
+    "analysis": "DAY 58 SUN 9PM IST: Araghchi RETURNED to Islamabad Sunday night (IRNA/CNN/AP). Met Oman Sultan Haitham (AFP photo). Called Qatar + Saudi FMs. Pakistan: contacts \"alive but fragile\" (AP). No US envoy return planned. Iran wants Oman to back Hormuz toll mechanism (AP regional official). Pezeshkian: no \"forced negotiations.\" Lebanon: 2,496+ killed (steep jump). Hormuz: only a few crossings today (MarineTraffic/CNN). Deepblue traversed. Araghchi heading Moscow next — Russia as guarantor. Brent ~$99-103 (easing on talks-alive signal). India Monday: 40% recovery to Nifty 24,100-24,400 (Moscow signal), 40% stalemate flat (23,700-24,000), 20% escalation (<23,500)."
   },
   "hormuzStatus": {
-    "status": "HORMUZ CLOSED — 37 SHIPS REDIRECTED. PHONE DIPLOMACY. ARAGHCHI IN OMAN, RETURNING ISLAMABAD SUNDAY.",
+    "status": "HORMUZ NEAR-ZERO — FEW VESSELS TODAY. IRAN SEEKING OMAN-BACKED TOLL MECHANISM.",
     "preWarFlow": "130-160 ships/day",
-    "currentFlow": "Effectively zero commercial. USS Pinckney intercepted M/V Sevan via helicopter (37th ship). Iran Air resumed international flights (Istanbul, Muscat, Medina). Air defense sounds in Kermanshah (unconfirmed). Brent $103-107.",
-    "reduction": "95%+ disruption. 37 ships redirected. Air defense sounds in Kermanshah (unconfirmed cause). Iran Air resumed international flights — partial domestic normalisation.",
+    "currentFlow": "Near-zero commercial. Only a few vessels crossed today (MarineTraffic/CNN). Deepblue traversed Gulf of Oman → Persian Gulf. Iran pushing Oman to back Hormuz toll mechanism (AP). 37 ships redirected under US blockade total.",
+    "reduction": "95%+ disruption. Iran toll mechanism plan = permanent sovereignty play. Mine clearing 6 months post-deal. Oman-backed toll system would reshape Hormuz permanently.",
     "indianVesselsNear": 8,
     "indianSeafarers": 280,
     "indianTransited": 0,
-    "totalShipsWaiting": "20,000+ mariners stranded. India 280 seafarers in zone. Kharif fertiliser risk growing. Brent $103-107. OMC hike still pending.",
-    "lastTransit": "USS Pinckney intercepted M/V Sevan (37th ship) via helicopter. Iran Air resumed international flights. Air defense sounds Kermanshah (unconfirmed). Mine clearing 6 months post-deal.",
-    "indianNavyEscort": "Op Urja Suraksha HIGH ALERT. Araghchi → Oman → Islamabad (Sunday) → Moscow. India Monday 9:15 AM = verdict on proximity talks outcome.",
-    "headline": "Araghchi in Oman, returning Islamabad Sunday. Trump: call us if you want to talk. 37 ships redirected. Air defense sounds in Kermanshah. Talks evolving, not collapsed."
+    "totalShipsWaiting": "20,000+ mariners stranded. India 280 seafarers. Kharif fertiliser risk growing if Hormuz stays closed through May.",
+    "lastTransit": "Deepblue traversed Gulf of Oman → Persian Gulf Sunday (MarineTraffic/CNN). 37 ships turned back total. Iran toll mechanism plan via Oman emerging as permanent Hormuz play.",
+    "indianNavyEscort": "Op Urja Suraksha HIGH ALERT. Araghchi → Islamabad → Moscow. India Monday 9:15 AM = talks verdict.",
+    "headline": "Near-zero crossings Sunday. Iran seeking Oman toll mechanism for Hormuz. Araghchi back in Islamabad. Contacts fragile but alive. Brent easing $99-103."
   },
   "hormuzEvents": [
     {
-      "d": "Apr 26 AM",
-      "e": "DAY 58 SUN 8AM IST. ARAGHCHI LEFT ISLAMABAD → MUSCAT OMAN (IRNA/PBS/AP). TRUMP CANCELLED Witkoff+Kushner trip. \"Too much work. Call us.\" — NOT war resumption (confirmed). Iran delivered comprehensive response to Pakistan (Iran International). ARAGHCHI RETURNING TO ISLAMABAD SUNDAY before Moscow (IRNA). Part of delegation returned Tehran for consultations/further instructions. Nikzad (state TV): no meetings with Americans. USS Pinckney intercepted M/V Sevan — 37 ships redirected total. Air defense sounds in Kermanshah (unconfirmed). Iran Air resumed international flights Saturday. PM Sharif warm call with Pezeshkian. Spain threatened NATO suspension. Brent $103-107. India Monday open 9:15 AM IST."
+      "d": "Apr 26 9PM",
+      "e": "DAY 58 SUN 9PM IST. ARAGHCHI RETURNED TO ISLAMABAD SUNDAY NIGHT (IRNA/CNN/AP). Met OMAN SULTAN HAITHAM in Muscat (AFP photo) — Iran wants Oman to back HORMUZ TOLL MECHANISM (AP). Called Qatar FM + Saudi FM Sunday (AP). Pakistan: contacts \"still alive but fragile\" (AP). Araghchi: visit \"very fruitful.\" Pezeshkian: no \"forced negotiations.\" Lebanon: 2,496+ killed (steep jump — Lebanon Health Ministry). Hormuz: only few crossings today — Deepblue traversed. Brent ~$99-103 easing on talks-alive signal. Araghchi → Moscow next. India Monday 9:15 AM = verdict."
     },
     {
       "d": "Apr 23 7:30PM",
@@ -187,40 +192,40 @@
   ],
   "military": [
     {
-      "t": "TRUMP CANCELLED Witkoff+Kushner Islamabad Trip — \"Too Much Work.\" Talks by Phone.",
-      "lv": "BREAKING",
-      "color": "amber",
-      "d": "NPR, CNN, Times of Israel confirmed: Trump posted Truth Social after Araghchi left Islamabad: \"I just cancelled the trip of my representatives going to Islamabad, Pakistan, to meet with the Iranians. Too much time wasted on traveling, too much work! Besides which, there is tremendous infighting and confusion within their 'leadership.' Nobody knows who is in charge, including them. Also, we have all the cards, they have none!\" Trump told reporters at Air Force One: \"We're not going to spend 15 hours in airplanes all the time going back and forth to be giving a document that was not good enough, and so we'll deal by telephone, and they can call us anytime they want.\" Critically: Trump told Axios reporter Barak Ravid that the cancellation does NOT mean resumption of war. \"No. It doesn't mean that. We haven't thought about it yet.\" Senator Lindsey Graham praised the cancellation."
-    },
-    {
-      "t": "ARAGHCHI Delivered \"Comprehensive\" Response — RETURNING TO ISLAMABAD SUNDAY before Moscow.",
+      "t": "ARAGHCHI Returned to Islamabad Sunday Night — \"Very Fruitful.\" Heading to Moscow.",
       "lv": "BREAKING",
       "color": "green",
-      "d": "Iran International confirmed Araghchi delivered a \"comprehensive\" response to Pakistani officials. PBS confirmed: Araghchi met with Field Marshal Munir and PM Sharif about Iran's red lines for negotiations. IRNA reported: Araghchi will return to Islamabad on Sunday before travelling to Russia. Part of the Iranian delegation returned to Tehran for \"consultations and to receive further instructions on issues related to the war.\" This return-for-instructions pattern signals Iran is actively preparing its next position — not abandoning talks. PM Sharif confirmed \"warm and constructive\" call with Pezeshkian. The Sunday return to Islamabad + Moscow visit signal a multi-step diplomatic process. The Oman stop (historic Iran-US back-channel) + Moscow (Russia as guarantor) + return to Islamabad Sunday = comprehensive deal architecture still functioning despite Trump's trip cancellation."
+      "d": "IRNA, CNN (15 minutes ago) and AP (1 hour ago) all confirmed: Araghchi returned to Islamabad Sunday night after his Oman stop, landing at Nur Khan Airbase. Received by Pakistan's Interior Minister Mohsin Naqvi and Iran's ambassador. IRNA: held \"further consultations with Pakistani mediators.\" Araghchi called his Islamabad visit \"very fruitful.\" This is his second Islamabad visit in two days. After this brief Pakistan stop, he heads to Moscow (Russia as guarantor country). The sequence: Pakistan (Sat) → Oman/Sultan meeting (Sun morning) → Qatar + Saudi FM calls (Sun) → Islamabad again (Sun night) → Moscow. This is the most intensive Iranian diplomatic sprint of the entire war."
     },
     {
-      "t": "USS Pinckney Intercepted M/V Sevan via Helicopter — 37 Ships Redirected Total.",
+      "t": "ARAGHCHI Met OMAN SULTAN HAITHAM — Iran Wants Oman to Back HORMUZ TOLL MECHANISM.",
       "lv": "BREAKING",
       "color": "amber",
-      "d": "Iran International and CNN confirmed: M/V Sevan was intercepted by a US Navy helicopter operating from guided-missile destroyer USS Pinckney in the Arabian Sea — just one day after being added to US sanctions lists for links to Iranian oil smuggling. The vessel is now \"complying with orders to turn back toward Iran under US military escort.\" CENTCOM: US forces have redirected 37 vessels since the blockade began April 13. Every interception tightens the economic noose on Iran. Treasury Sec Bessent had warned Kharg Island oil storage would be \"full in days\" — at 37 ships blocked and shadow fleet being intercepted, Iran's oil export capacity is effectively zero. Wells approaching shut-in threshold."
+      "d": "IANS (49 min ago) and AP confirmed: Araghchi met Sultan Haitham bin Tariq and Omani FM in Muscat Sunday. AFP photo released and confirmed. Araghchi briefed the Sultan on Iran's stance post US-Israeli strikes. Sultan Haitham stressed importance of dialogue. Critically: AP (regional official, anonymity) reported Iran wants Oman to support a mechanism to collect tolls from vessels passing through Hormuz. This is Iran's maximalist Hormuz sovereignty play — not simply reopening the strait but institutionalising permanent control via Oman-backed tolls. This would give Iran ongoing revenue and sovereignty recognition even after a deal. It is the most explicit articulation yet of what Iran actually wants from Hormuz — and it goes far beyond what the US, UAE, Saudi Arabia, or international shipping law will easily accept."
     },
     {
-      "t": "Air Defense Sounds in Kermanshah, Iran — Unconfirmed Cause. Requires Monitoring.",
-      "lv": "DEVELOPING",
+      "t": "ARAGHCHI Called Qatar FM + Saudi FM Sunday. Pakistan: Contacts \"Alive but Fragile.\"",
+      "lv": "BREAKING",
+      "color": "amber",
+      "d": "AP confirmed: Araghchi called Qatar FM and Saudi FM Sunday — bringing both Gulf states into the diplomatic framework. Qatar critical: hosts US Al Udeid Air Base AND Ras Laffan LNG. Saudi Arabia: producing at maximum capacity to offset Hormuz disruption, has security ties with US. AP (two Pakistani officials, condition of anonymity): indirect ceasefire contacts \"still alive but fragile.\" No immediate plans for US envoys to return to region. Al Jazeera's Halkett from Islamabad: Araghchi's return seen as \"a hopeful sign\" — Pakistani officials hope it will be \"incremental.\" Tribune India: major sticking points — sanctions relief, maritime access, security guarantees — remain unresolved. Process is alive. Gap is wide."
+    },
+    {
+      "t": "PEZESHKIAN: No \"Forced Negotiations.\" Lebanon: 2,496+ Killed — Steep Jump.",
+      "lv": "BREAKING",
       "color": "red",
-      "d": "Iran International cited Mehr News Agency (Iran state media): multiple air defense sounds heard in western Iranian city of Kermanshah and surrounding areas on Saturday. Cause unconfirmed as of 8 AM IST Sunday. No confirmed new US or Israeli strike on Kermanshah. Possible scenarios: (1) Defensive radar test, (2) False alarm, (3) An unconfirmed strike on military infrastructure near Kermanshah (western Iran, close to Iraq border — hosts IRGC bases). Kermanshah was not reported as a strike target in February 28 Op Epic Fury strikes. If confirmed as a new strike: significant escalation outside the ceasefire framework. India must monitor for any confirmation before Monday market open at 9:15 AM IST."
+      "d": "CNN confirmed: Iran's President Pezeshkian warned Tehran would not accede to \"forced negotiations\" with the US, citing \"hostile actions.\" Public hardline maintained even as Araghchi privately builds architecture. Iran's FM Baqaei on X: \"Iran will not negotiate under threats while US maintains illegal naval blockade of Iranian ports.\" Meanwhile: Lebanon Health Ministry — 2,496+ people killed by Israeli strikes since March 2, including 177+ children. Steep jump from April 17 update (was 2,294). Israel ordered to \"vigorously attack\" Hezbollah despite three-week ceasefire extension. CNN: continued Lebanon fighting jeopardises whether Trump can host Netanyahu + Lebanese President Aoun in Washington. Iran has repeatedly linked Hormuz to Lebanon — the Lebanon escalation is a direct complication for any Hormuz deal."
     },
     {
-      "t": "Iran Air Resumed International Flights Saturday. Spain Threatened with NATO Suspension.",
+      "t": "HORMUZ: Only a Few Vessels Today. Deepblue Traversed. Iran's Toll Mechanism Emerging.",
       "lv": "DEVELOPING",
       "color": "amber",
-      "d": "PBS confirmed: Iran Air resumed international flights Saturday for the first time since February 28 — routes to Istanbul, Muscat, and Medina. Iran had suspended all flights February 28 expecting US airstrikes on airports. Resuming international (not just domestic) flights signals Iran calculates ceasefire is structurally stable. Separately: NPR confirmed Reuters reported a confidential US communication threatening Spain with NATO suspension and blocking from top alliance positions — punishment for Spain refusing to allow the US to use Spanish military bases for the Iran war and declaring the war \"illegal.\" Spanish PM Sanchez: \"We don't work on the basis of emails.\" This is the most serious NATO internal rift of the war. Turkey, Hungary, and several other members have also questioned the war's legality."
+      "d": "CNN (MarineTraffic data, updated 15 minutes ago): \"Only a few vessels have crossed the Strait of Hormuz today.\" Deepblue — a partially loaded oil and chemical tanker — traversed from Gulf of Oman into the Persian Gulf, passing Iran's Larak Island. This is near-zero commercial transit continuing. AP's Hormuz toll mechanism reporting is the key new structural insight: Iran is not just using Hormuz as a temporary war weapon — it wants to permanently institutionalise control via toll collection backed by Oman as neutral administrator. This reshapes the entire Hormuz negotiation: it's no longer just about reopening, but about who permanently controls access and revenue from the world's most critical energy chokepoint."
     },
     {
-      "t": "India: Monday 9:15 AM Open. Araghchi Sunday Islamabad Return = Key Signal to Watch.",
+      "t": "India Monday 9:15 AM: Brent Easing to $99-103. Moscow Visit = Key Week-Ahead Signal.",
       "lv": "DEVELOPING",
       "color": "cyan",
-      "d": "India markets open Monday 9:15 AM IST. Weekend developments feeding into open: (1) Trump cancelled Islamabad trip — negative but NOT war resumption. (2) Araghchi returning Islamabad Sunday — potentially meets Witkoff by phone/proxy before Moscow. (3) Iran delivered comprehensive response — content unknown but \"comprehensive\" signals substance. (4) Air defense sounds in Kermanshah — if confirmed as a strike, major negative for Monday open. (5) 37 ships turned back — blockade tightening. (6) Brent $103-107 — still elevated but not spiking. Scenarios Monday: A (35%): Araghchi Sunday return produces progress signal, Brent holds → Nifty 24,000-24,300, Sensex recovery 700-1,000 pts. B (40%): Stalemate, Trump phone diplomacy produces nothing → Nifty 23,700-24,000, Brent $105-108. C (25%): Kermanshah confirmed as strike or new Hormuz incident → Nifty below 23,500, Brent $112+."
+      "d": "India markets open Monday 9:15 AM IST. Brent ~$99-103 — easing from $107 peak as talks-alive signal reduces escalation premium. Nifty closed Friday at 23,897 (below 24,000). Scenarios: A (40%): Moscow visit produces Russia-as-guarantor signal this week, Araghchi-Pakistan contacts produce progress → Brent eases to $95-100, Nifty 24,100-24,400, Sensex recovery 800-1,200 pts. B (40%): Stalemate continues, US-Iran no direct contact, Moscow visit produces nothing concrete → Nifty 23,700-24,000, Brent $100-105, flat to modest recovery. C (20%): Lebanon escalation or new Hormuz incident → Nifty below 23,500, Brent spikes $108+. Key watch: Araghchi-Lavrov meeting in Moscow. Russia's position as guarantor is pivotal for Iran's security guarantee ask."
     }
   ],
   "nukes": [
@@ -540,14 +545,18 @@
       "d": 58,
       "l": "Apr 26",
       "deaths": 6600,
-      "brent": 105,
+      "brent": 101,
       "nifty": 23898,
-      "rupee": 95.2,
-      "tag": "TRUMP CANCELLED Witkoff Islamabad trip — NOT war resumption. Araghchi in Oman, returning Islamabad SUNDAY (IRNA). Iran delivered comprehensive response to Pakistan (Iran International). USS Pinckney intercepted M/V Sevan — 37 ships redirected. Air defense sounds in Kermanshah (unconfirmed). Iran Air resumed international flights. PM Sharif warm call with Pezeshkian. Brent $103-107. West Asia War Day 58.",
+      "rupee": 95.0,
+      "tag": "ARAGHCHI returned Islamabad Sunday night (IRNA/CNN). Met Oman Sultan Haitham (AFP). Iran wants Oman to back HORMUZ TOLL MECHANISM (AP). Called Qatar + Saudi FMs. Pakistan: contacts alive but fragile. Pezeshkian: no forced talks. Lebanon 2,496+ killed. Few Hormuz crossings. Brent $99-103. Heading Moscow. West Asia War Day 58.",
       "sev": 2
     }
   ],
   "hormuzLatest": [
+    {
+      "d": "Apr 26 9PM",
+      "e": "DAY 58 SUN 9PM IST. ARAGHCHI RETURNED TO ISLAMABAD SUNDAY NIGHT (IRNA/CNN/AP). Met OMAN SULTAN HAITHAM in Muscat (AFP photo) — Iran wants Oman to back HORMUZ TOLL MECHANISM (AP). Called Qatar FM + Saudi FM Sunday (AP). Pakistan: contacts \"still alive but fragile\" (AP). Araghchi: visit \"very fruitful.\" Pezeshkian: no \"forced negotiations.\" Lebanon: 2,496+ killed (steep jump — Lebanon Health Ministry). Hormuz: only few crossings today — Deepblue traversed. Brent ~$99-103 easing on talks-alive signal. Araghchi → Moscow next. India Monday 9:15 AM = verdict."
+    },
     {
       "d": "Apr 26 AM",
       "e": "DAY 58 SUN 8AM IST. ARAGHCHI LEFT ISLAMABAD → MUSCAT OMAN (IRNA/PBS/AP). TRUMP CANCELLED Witkoff+Kushner trip. \"Too much work. Call us.\" — NOT war resumption (confirmed). Iran delivered comprehensive response to Pakistan (Iran International). ARAGHCHI RETURNING TO ISLAMABAD SUNDAY before Moscow (IRNA). Part of delegation returned Tehran for consultations/further instructions. Nikzad (state TV): no meetings with Americans. USS Pinckney intercepted M/V Sevan — 37 ships redirected total. Air defense sounds in Kermanshah (unconfirmed). Iran Air resumed international flights Saturday. PM Sharif warm call with Pezeshkian. Spain threatened NATO suspension. Brent $103-107. India Monday open 9:15 AM IST."
@@ -559,15 +568,11 @@
     {
       "d": "Apr 25 AM",
       "e": "DAY 57 SAT 8AM IST. ARAGHCHI LANDED ISLAMABAD — received by FM Dar + Field Marshal Munir (AFP photo). WITKOFF + KUSHNER arriving Saturday morning (WH Leavitt confirmed). Vance on standby. Iran: \"No meeting with US planned\" — proximity format via Pakistan mediator likely. Bessent (AP): Iran shutters oil production in 2-3 days. Kharg Island full. No waiver. Brent $105.33 Friday close. Qatar Emir called Trump. Netanyahu disclosed prostate cancer. USS Rafael Peralta intercepted Iranian ship Friday. Araghchi tour: Islamabad → Oman → Moscow. India Monday open = talks verdict."
-    },
-    {
-      "d": "Apr 24 PM",
-      "e": "DAY 56 FRI 6:30PM IST CLOSE. SENSEX -983 to 76,681. NIFTY -275 to 23,898 (BELOW 24,000). Third straight loss — three-day fall -2,592 pts. Worst week in months. INFOSYS -7%, NIFTY IT -5% (30-month lows). Brent $107.25. BLOOMBERG: Iranian officials discussed ceasefire with Pakistan — first back-channel. MOJTABA KHAMENEI: hand surgery, facial burns, difficulty speaking (NYT). Cochin Shipyard +7%, Coal India +1.85% only gainers. Nifty 24,000 now resistance. OMC hike within days. West Asia War Day 56."
     }
   ],
   "projNow": {
-    "brent": 105,
-    "rupee": 95.2,
+    "brent": 101,
+    "rupee": 95.0,
     "lpg": 912,
     "petrol": 94.77,
     "deaths": 6600
@@ -576,51 +581,51 @@
     "headers": [
       "Pre-war",
       "Now (D58)",
-      "Sunday signal + Oman",
-      "Phone diplomacy stalls",
-      "Military incident"
+      "Moscow signal this week",
+      "Stalemate continues",
+      "Escalation"
     ],
     "brent": [
       65,
-      105,
-      92,
-      107,
-      118
+      101,
+      90,
+      103,
+      115
     ],
     "rupee": [
       91,
-      95.2,
+      95.0,
       92.0,
       96.0,
-      107
+      106
     ],
     "deaths": [
       0,
       "6,600+",
       "7,000",
       "7,200",
-      "20,000+"
+      "18,000+"
     ],
     "sensex": [
       "78,699",
       "76,681",
       "78,500+",
-      "23,700 Nifty",
+      "23,800 Nifty",
       "70,000"
     ],
     "lpg": [
       "Rs 853",
       "Rs 912",
-      "Rs 875",
-      "Rs 945+",
-      "Rs 1,400+"
+      "Rs 878",
+      "Rs 940+",
+      "Rs 1,380+"
     ],
     "fii": [
       "-",
       "Outflows",
-      "$12B return",
+      "$14B return",
       "Flat",
-      "$45B out"
+      "$42B out"
     ]
   },
   "radar": [
@@ -674,8 +679,8 @@
     }
   ],
   "assessment": {
-    "headline": "DAY 58, 8AM SUN: TRUMP CANCELLED ISLAMABAD TRIP — NOT war resumption. ARAGHCHI in Oman, returning Islamabad SUNDAY. Iran delivered comprehensive response. 37 ships redirected. Air defense sounds in Kermanshah (unconfirmed). India Monday 9:15 AM = verdict.",
-    "body": "Sunday 8 AM IST. The diplomacy shifted gears overnight — from Islamabad to phone lines and Oman.\n\nWHAT HAPPENED SATURDAY — THE FULL CONFIRMED SEQUENCE\n• Araghchi arrived Islamabad Friday evening (AFP photo confirmed)\n• Saturday: Araghchi met PM Sharif + Field Marshal Munir — discussed Iran's red lines (PBS)\n• Araghchi delivered \"comprehensive\" response to Pakistan (Iran International)\n• Araghchi left Islamabad Saturday → flew to Muscat, Oman (IRNA/PBS/AP)\n• Trump posted on Truth Social: cancelled Witkoff+Kushner trip — \"Too much work, call us\"\n• Trump at Air Force One: \"Not going to spend 15 hours in airplanes for a document not good enough\"\n• Critical clarification — Trump to Axios: cancellation NOT resumption of war\n• IRNA: Araghchi RETURNING to Islamabad Sunday before Moscow\n• Part of Iranian delegation returned to Tehran for consultations and further instructions\n\nWHY THIS IS NOT A COLLAPSE\n• Iran delivered a \"comprehensive\" response — not a blank rejection\n• Araghchi is coming back to Islamabad Sunday — proximity talks continuing\n• PM Sharif had \"warm and constructive\" call with Pezeshkian Saturday evening\n• Oman stop (historic Iran-US back-channel) + Moscow (Russia as guarantor) + Sunday Islamabad return = deal architecture active\n• Trump explicitly said cancellation ≠ war resumption\n• Iran Air resumed international flights (Istanbul, Muscat, Medina) — Iran expects ceasefire to hold\n\nTHE HARDLINE SIGNALS (BOTH SIDES)\n• Iran parliament deputy speaker Nikzad (state TV): \"No meetings with Americans. No nuclear talks.\"\n• Trump: \"Nobody knows who is in charge in Iran, including them. We have all the cards.\"\n• Senator Graham praised the cancellation — hawkish pressure on Trump from Senate\n• Iran IRGC warning: strong response if blockade continues\n• USS Pinckney intercepted 37th ship — blockade tightening\n\nTHE Kermanshah UNKNOWN\n• Air defense sounds heard in western Iranian city of Kermanshah\n• No confirmed new US or Israeli strike as of 8 AM IST\n• Requires monitoring before India market open Monday 9:15 AM\n\nINDIA'S MONDAY OPEN\n• Nifty closed Friday at 23,897 — below 24,000\n• Three-day -2,592 Sensex fall last week\n• Araghchi Islamabad return Sunday + Oman back-channel + Moscow = talks not dead\n• Trump cancellation + 37 ship blockade + air defense sounds = risks remain\n• 35% talks signal → Nifty 24,000-24,300\n• 40% phone stalemate → Nifty 23,700-24,000\n• 25% incident → Nifty below 23,500\n\nVERDICT: Saturday's sequence is best described as a choreographed diplomatic dance — both sides maintaining their public positions (Iran: we're not talking to Americans; Trump: too much work, call us) while the actual negotiating machinery continues through Pakistan and now Oman. Araghchi delivered Iran's comprehensive demands. He's returning to Islamabad Sunday. He's heading to Moscow for Russian guarantees. The ceasefire holds. Iran Air is flying again internationally. This is the West Asia War's diplomatic framework functioning at its most sophisticated level — just not the way anyone expected or announced it would."
+    "headline": "DAY 58, 9PM SUN: ARAGHCHI BACK IN ISLAMABAD. Met Oman Sultan. Iran wants Hormuz TOLL MECHANISM via Oman. Pakistan: contacts alive but fragile. Lebanon 2,496+ killed. Brent easing $99-103. Monday = Moscow signal week.",
+    "body": "Sunday 9 PM IST. Day 58 closes with diplomacy moving — slowly — across four countries.\n\nTHE SUNDAY SEQUENCE — CONFIRMED FULLY\n• Araghchi arrived Islamabad Saturday evening (AFP photo)\n• Saturday: met PM Sharif + Field Marshal Munir — delivered comprehensive Iran demands\n• Sunday morning: flew to Muscat, Oman\n• Sunday: met Sultan Haitham bin Tariq in person (AFP photo)\n• Sunday: called Qatar FM + Saudi FM by phone (AP confirmed)\n• Sunday night: returned to Islamabad (IRNA/CNN/AP)\n• Described visit as \"very fruitful\"\n• Next stop: Moscow (Russia as guarantor)\n\nTHE KEY NEW INTELLIGENCE — HORMUZ TOLL MECHANISM\n• AP (regional official, anonymity): Iran wants Oman to support a toll mechanism for Hormuz\n• Not just reopening — Iran wants to INSTITUTIONALISE sovereignty via tolls\n• Oman would act as neutral administrator\n• This gives Iran ongoing revenue + sovereignty recognition post-deal\n• Maximalist position — far beyond what US/UAE/Saudi Arabia or shipping law accepts\n• This is the permanent Hormuz status question — more complex than nuclear\n\nTHE STATE OF CONTACTS\n• Pakistan officials (AP): \"still alive but fragile\"\n• No US envoy return planned yet\n• Al Jazeera: Araghchi return to Islamabad is \"hopeful sign\" per Pakistani officials\n• Pezeshkian: no \"forced negotiations\" — public hardline maintained\n• Trump: \"call us anytime\" — phone-first US position maintained\n• Both sides are talking through Pakistan, not to each other\n\nLEBANON COMPLICATION\n• Lebanon health ministry: 2,496+ killed since March 2 (steep jump)\n• 177+ children dead\n• Israel \"vigorously attacking\" Hezbollah despite 3-week ceasefire extension\n• Iran has repeatedly linked Hormuz to Lebanon\n• Lebanon escalation = direct Hormuz deal complication\n\nINDIA MONDAY\n• Brent easing to $99-103 (from $107 peak) on talks-alive signal\n• Nifty 23,897 prev close — below 24,000\n• Sensex 76,681 — three-day down week\n• Moscow visit: Araghchi-Lavrov meeting = key signal for week ahead\n• If Moscow produces Russia guarantor framework: Nifty 24,100-24,400\n• If stalemate: Nifty flat to modest recovery 23,700-24,000\n• If Lebanon escalates or Hormuz incident: Nifty below 23,500\n\nVERDICT: The West Asia War's diplomacy is functioning at its most sophisticated level — across Pakistan, Oman, Qatar, Saudi Arabia, and now Russia simultaneously. But Iran's Hormuz toll mechanism demand signals this is not heading toward a quick deal. Iran wants permanent institutionalised sovereignty over Hormuz, not just a temporary ceasefire. That is a fundamentally different negotiation than the nuclear deal framework. India's markets will read this correctly on Monday: the tail risk is lower (diplomacy alive), but the path to Hormuz reopening is longer (toll mechanism = months of negotiation). Brent at $99-103 rather than $107 reflects exactly this: less acute, still elevated."
   },
   "featured": [
     {
