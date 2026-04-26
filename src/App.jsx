@@ -106,7 +106,7 @@ const CITIES_FB = [
   {city:"Kochi",      pop:"2.1M",wind:25,sea:70,nuke:24,tot:44,info:"Southern Naval Command + Op Urja Suraksha base. Iran Red Sea threat hits western coast routes."},
   {city:"Goa",        pop:"1.5M",wind:30,sea:72,nuke:22,tot:42,info:"Konkan coast. Fishing economy ₹4,000 cr exposed. Tourism under pressure with Brent at $106+. Fuel surcharges rising."},
   {city:"Lucknow",    pop:"3.5M",wind:58,sea:5, nuke:39,tot:40,info:"Indo-Gangetic plain. Most exposed to food inflation from fertilizer disruption."},
-  {city:"Chennai",    pop:"11M", wind:20,sea:55,nuke:18,tot:36,info:"East coast buffer. IT sector led today's rally. Wipro Q4 results tomorrow Apr 16."},
+  {city:"Chennai",    pop:"11M", wind:20,sea:55,nuke:18,tot:36,info:"East coast buffer. IT sector under war pressure. Nifty IT approaching 30-month lows. Port active for alternative routes."},
 ];
 
 const FEATURED_FB = [
@@ -139,7 +139,7 @@ const NAV = [
   {id:"kitchen",  l:"🍳 Kitchen"},
   {id:"military", l:"⚔️ Military"},
   {id:"nuclear",  l:"☢️ Nuclear"},
-  {id:"scenarios",l:"📈 Apr 21"},
+  {id:"scenarios",l:"📈 Scenarios"},
   {id:"radar",    l:"🎯 Radar"},
   {id:"warlog",   l:"📋 Archive"},
   {id:"assessment",l:"🔴 Verdict"},
@@ -408,17 +408,17 @@ export default function App() {
   const niftyRaw  = live?.nifty?.price      ?? 24231;
   const niftyChg  = live?.nifty?.change     ?? 388;
   const sensexRaw = live?.sensex?.price     ? Math.round(live.sensex.price) : 78111;
-  const rupeeRaw  = live?.rupee?.price      ?? 93.15;
+  const rupeeRaw  = live?.rupee?.price      ?? 95.20;
 
   const brentColor  = brentRaw > 105 ? C.red : brentRaw > 95 ? C.orange : C.amber;
   const niftyColor  = niftyChg >= 0 ? C.green : C.red;
   const isBlockade  = iPhase === "BLOCKADE";
 
   // Scenario data
-  const scenHeaders = iScenarios?.headers ?? ["Pre-war","Now (D47)","Thursday deal","Ceasefire lapses","Strikes resume"];
+  const scenHeaders = iScenarios?.headers ?? ["Pre-war","Now (D58)","Sunday signal","Stalemate","Escalation"];
   const scenRows = [
     {m:"Brent ($)",  vals: iScenarios?.brent   ?? [65, 94, 72, 125, 145]},
-    {m:"₹/USD",      vals: iScenarios?.rupee   ?? [91, 93.15, 90.0, 99, 105]},
+    {m:"₹/USD",      vals: iScenarios?.rupee   ?? [91, 95.20, 92.0, 96.0, 107]},
     {m:"Deaths",     vals: iScenarios?.deaths  ?? [0,"6,500+","7,200","9,000+","30,000+"]},
     {m:"Sensex",     vals: iScenarios?.sensex  ?? ["78,699","78,111","90,000+","68,000","52,000"]},
     {m:"LPG",        vals: iScenarios?.lpg     ?? ["₹853","₹912","₹853","₹1,200+","₹1,600+"]},
@@ -486,9 +486,9 @@ export default function App() {
       <div style={{background:`linear-gradient(90deg,#7f1d1d,${C.red},#b91c1c)`,
         padding:'7px 0', overflow:'hidden', width:'100%', position:'relative'}}>
         <div style={{display:'flex', width:'max-content', flexWrap:'nowrap',
-          animation:'ticker 90s linear infinite',
-          WebkitAnimation:'ticker 90s linear infinite',
-          MozAnimation:'ticker 90s linear infinite',
+          animation:'ticker 150s linear infinite',
+          WebkitAnimation:'ticker 150s linear infinite',
+          MozAnimation:'ticker 150s linear infinite',
           willChange:'transform'}}>
           {[...iT,...iT,...iT].map((t,i) => (
             <span key={i} className="tk-txt" style={{fontSize:11.5, fontWeight:600, color:'#fff',
@@ -592,35 +592,28 @@ export default function App() {
 
       <div className="dash-pad" style={{padding:'22px 18px 72px'}}>
 
-        {/* ══ FEATURED PUBLICATIONS ══ */}
-        <section style={{marginBottom:36}}>
-          <div style={{display:'flex', alignItems:'center', gap:10, marginBottom:14}}>
-            <div style={{fontSize:8.5, fontWeight:700, color:C.amber, letterSpacing:4,
+        {/* ══ FEATURED PUBLICATIONS — compact blinking strip ══ */}
+        <section style={{marginBottom:24}}>
+          <div style={{display:'flex', alignItems:'center', gap:8, marginBottom:8}}>
+            <div style={{width:6, height:6, borderRadius:'50%', background:C.amber,
+              animation:'pulse 1.8s infinite', flexShrink:0}}/>
+            <div style={{fontSize:8, fontWeight:700, color:C.amber, letterSpacing:3.5,
               textTransform:'uppercase', fontFamily:MONO}}>Featured Research</div>
-            <div style={{height:1, flex:1, background:`linear-gradient(90deg,${C.amber}40,transparent)`}}/>
+            <div style={{height:1, flex:1, background:`linear-gradient(90deg,${C.amber}30,transparent)`}}/>
           </div>
-          <div className="pub-grid" style={{display:'grid', gridTemplateColumns:'1fr', gap:12}}>
+          <div style={{display:'flex', flexDirection:'column', gap:6}}>
             {(iFeatured.length ? iFeatured : FEATURED_FB).map((pub, i) => (
               <a key={i} href={pub.url} target="_blank" rel="noopener noreferrer"
-                className="pub-card card-lift"
-                style={{display:'flex', gap:14, background:C.card,
-                  border:`1px solid ${C.border}`, borderLeft:`3px solid ${pub.tagColor||C.amber}`,
-                  borderRadius:10, padding:'14px 16px', textDecoration:'none',
-                  transition:'all 0.18s', animation:`fadein 0.3s ease ${i*0.1}s both`}}>
-                <div style={{fontSize:28, flexShrink:0, lineHeight:1}}>{pub.icon||'📄'}</div>
+                style={{display:'flex', alignItems:'center', gap:10, background:C.card,
+                  border:`1px solid ${C.border}`, borderLeft:`2px solid ${pub.tagColor||C.amber}`,
+                  borderRadius:6, padding:'8px 12px', textDecoration:'none',
+                  transition:'all 0.15s'}}>
+                <span style={{fontSize:14, flexShrink:0}}>{pub.icon||'📄'}</span>
                 <div style={{flex:1, minWidth:0}}>
-                  <div style={{display:'flex', gap:6, alignItems:'center', marginBottom:5, flexWrap:'wrap'}}>
-                    <Chip color={pub.tagColor||C.amber} size={8}>{pub.tag||'PUBLICATION'}</Chip>
-                    <span style={{fontSize:9, color:C.muted, fontFamily:MONO}}>{pub.org}</span>
-                    <span style={{fontSize:9, color:C.muted, fontFamily:MONO}}>• {pub.date}</span>
-                  </div>
-                  <div style={{fontSize:13.5, fontWeight:700, color:C.white, fontFamily:SYNE,
-                    lineHeight:1.3, marginBottom:6}}>{pub.title}</div>
-                  <div style={{fontSize:11.5, color:C.sub, fontFamily:SERIF,
-                    lineHeight:1.6}}>{pub.desc}</div>
-                  <div style={{marginTop:8, fontSize:10, color:pub.tagColor||C.amber,
-                    fontFamily:MONO, fontWeight:600}}>Read publication →</div>
+                  <span style={{fontSize:11, fontWeight:700, color:C.white, fontFamily:SYNE}}>{pub.title}</span>
+                  <span style={{fontSize:9.5, color:C.muted, fontFamily:MONO, marginLeft:8}}>{pub.org}</span>
                 </div>
+                <span style={{fontSize:9, color:pub.tagColor||C.amber, fontFamily:MONO, fontWeight:700, flexShrink:0}}>Read →</span>
               </a>
             ))}
           </div>
@@ -672,6 +665,18 @@ export default function App() {
         {/* ══ HORMUZ ══ */}
         <S id="hormuz" title="🚢 Hormuz — India's Energy Lifeline" accent={C.cyan}
           sub="85% of India's crude oil transits this 39km chokepoint. What happens here lands at your pump.">
+          {/* Hormuz live headline */}
+          {iHormuz?.headline && (
+            <div style={{background:`linear-gradient(90deg,${C.red}18,${C.card})`,
+              border:`1px solid ${C.red}40`, borderLeft:`3px solid ${C.red}`,
+              borderRadius:8, padding:'10px 14px', marginBottom:14,
+              display:'flex', alignItems:'flex-start', gap:10}}>
+              <div style={{width:7, height:7, borderRadius:'50%', background:C.red,
+                animation:'pulse 1.5s infinite', flexShrink:0, marginTop:4}}/>
+              <div style={{fontSize:12, fontWeight:700, color:C.red, fontFamily:SYNE,
+                lineHeight:1.4}}>{iHormuz.headline}</div>
+            </div>
+          )}
 
           {/* Status strip */}
           <div style={{display:'grid', gridTemplateColumns:'1fr 1fr', gap:8, marginBottom:10}}>
@@ -697,7 +702,7 @@ export default function App() {
             <div style={{display:'grid', gridTemplateColumns:'1fr 1fr 1fr', gap:8}}>
               {[
                 {l:"Ships in Gulf",  v:iHormuz?.indianVesselsNear??8, sub:(iHormuz?.indianSeafarers??280)+" seafarers"},
-                {l:"Crossed Safely", v:iHormuz?.indianTransited??10,  sub:"8 LPG + 1 crude + 1 gas"},
+                {l:"Crossed Safely", v:iHormuz?.indianTransited??0,  sub:"Hormuz effectively closed"},
                 {l:"Navy Escort",    v:"ACTIVE", sub:iHormuz?.indianNavyEscort||"Op Urja Suraksha", isText:true},
               ].map((s,i) => (
                 <div key={i} style={{textAlign:'center'}}>
@@ -744,8 +749,8 @@ export default function App() {
               sub="recovering from ₹443L Cr low Apr 13" accent={C.orange}/>
             <Mc label="FII Flow Apr 13" value={iEcon?.fpi||"₹1,983 Cr OUT"}
               delta={iEcon?.fpiDelta||"DII +₹2,432 Cr IN"} sub="net flow" accent={C.red}/>
-            <Mc label="Sensex" value={iEcon?.sensex||"78,111"}
-              delta={iEcon?.sensexDelta||"▲ +1,263 (+1.65%)"}
+            <Mc label="Sensex" value={iEcon?.sensex||"76,681"}
+              delta={iEcon?.sensexDelta||"▼ -983 (-1.27%)"}
               deltaColor={C.green} sub={iEcon?.sensexSub||"Apr 15 close. All 30 green."} accent={C.green}/>
             <Mc label="India VIX" value={iEcon?.vix||"~15-17"}
               delta={iEcon?.vixDelta||"falling"} sub="fear gauge easing" accent={C.amber}/>
