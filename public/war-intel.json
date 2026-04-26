@@ -114,84 +114,75 @@
   "kitchen": [
     {
       "item": "LPG Cylinder (14.2kg)",
+      "status": "orange",
+      "statusText": "Brent $105 — hike risk if sustained above $100",
       "pre": "₹853",
       "now": "₹912.50",
-      "chg": "Brent below $95 — cut possible if deal done",
-      "proj": "₹853-860 if Thursday deal; ₹1,000+ if blockade extends past Apr 21",
-      "note": "Brent now below $95 on talks optimism — strong positive for LPG import costs. First tanker interceptions confirmed. Iran threatening Red Sea — could hit LPG routes from Oman/Qatar if implemented. ZERO dry-outs. 51 lakh cylinder buffer. Apr 21 ceasefire expiry is the key date.",
-      "s": 2
+      "twoWeek": "₹912-960 if blockade holds; ₹853-870 if deal reached",
+      "detail": "Brent at $105 — above the $95 threshold where OMC hike pressure typically builds. India has 30+ days LPG buffer (PIB). No dry-outs confirmed. If proximity talks produce a deal signal this week: LPG cut back possible within 3-4 weeks. If blockade extends through May: hike to ₹960+ likely. Kharg Island approaching storage capacity (Bessent/AP) — Iran's oil export crisis is acute."
     },
     {
       "item": "Natural Gas (PNG/CNG)",
+      "status": "orange",
+      "statusText": "IEA: structural damage — prolonged elevated prices",
       "pre": "Normal",
-      "now": "Recovering slowly",
-      "chg": "IEA: structural damage — prolonged high prices",
-      "proj": "Tight through 2026 regardless of deal (IEA confirmed)",
-      "note": "IEA projects rare global oil demand decline in 2026 — first since COVID. But structural damage (Ras Laffan 3-5yr repair, QatarEnergy force majeure) means gas prices elevated long-term. Brent below $95 helps at margin. Turkey suggests 45-60 day ceasefire extension — more time for gas supply normalisation.",
-      "s": 2
+      "now": "Elevated",
+      "twoWeek": "Tight through 2026 regardless of deal (IEA confirmed)",
+      "detail": "Ras Laffan (Qatar) — which supplies 60%+ of India's LNG — sustained 17% capacity damage. QatarEnergy force majeure still active. IEA: structural damage means 3-5 year repair timeline. Gas prices will remain elevated even after a Hormuz deal. CNG users face structural cost rise. IEA also projects rare global oil demand decline in 2026 — first since COVID."
     },
     {
       "item": "Petrol (Delhi)",
+      "status": "yellow",
+      "statusText": "Brent $105 — OMC hike decision pending",
       "pre": "₹94.72/L",
       "now": "₹94.77/L",
-      "chg": "Brent below $95 — hike risk largely removed",
-      "proj": "No hike if Brent stays below $95; reversal toward ₹94.72 if deal done quickly",
-      "note": "Brent now below $95 — biggest fall since blockade began. Hike risk (₹8-14/L that Elara warned of at Brent >$110) now much lower. If Thursday deal confirms and Brent falls further: retail price cut possible in 2-3 weeks. OMC margins improving sharply. Mumbai ₹103.54.",
-      "s": 1
-    },
-    {
-      "item": "LPG Commercial (19kg)",
-      "pre": "₹1,740",
-      "now": "₹1,885",
-      "chg": "+₹145 (8.3%)",
-      "proj": "₹1,740 if deal; ₹2,200+ if blockade extends",
-      "note": "Brent below $95 = positive signal for commercial LPG cost. IMF warns of global recession risk — dampens business recovery outlook. If Thursday talks produce ceasefire extension: restaurant sector could see rapid recovery in confidence.",
-      "s": 2
+      "twoWeek": "Hike of ₹2-5/L imminent if Brent holds above $100 for 5+ days; cut possible if deal agreed",
+      "detail": "Brent at $105 — sustained above $100 for several days, approaching the threshold where OMC margin losses trigger retail price revision. Indian Oil, BPCL, HPCL absorbing losses. OMC hike of ₹2-5/L likely within days if no diplomatic breakthrough. If Araghchi-Pakistan-US proximity talks produce a framework signal: Brent could fall to $88-95 within days, removing hike pressure. Mumbai currently ₹103.54/L."
     },
     {
       "item": "Diesel (Delhi)",
+      "status": "yellow",
+      "statusText": "Hike risk — trucking cost pressure building",
       "pre": "₹87.62/L",
       "now": "₹87.67/L",
-      "chg": "Brent below $95 — hike risk removed",
-      "proj": "Stable; possible small cut if Brent stays below $90 post-deal",
-      "note": "Brent below $95, WTI toward $90 (API: 6.1M barrel inventory build, 8th consecutive week) = strong margin improvement for OMCs. Every ₹1 diesel rise = ₹2,500 cr annual trucking cost — risk now easing. Mumbai ₹90.03.",
-      "s": 1
+      "twoWeek": "₹2-4/L hike risk if Brent holds $100+; stable if deal signal this week",
+      "detail": "Every ₹1 diesel rise = ₹2,500 Cr annual trucking cost increase — directly hitting food and goods inflation. At Brent $105, OMC diesel margins are under pressure. A petrol/diesel hike together is most likely OMC decision if Brent stays elevated. Conversely, if Araghchi's Islamabad Sunday return + Oman back-channel produce a positive deal signal: Brent could fall $10-15 in a day."
     },
     {
       "item": "Cooking Oil",
+      "status": "orange",
+      "statusText": "Freight costs elevated. Rupee under pressure at 95.20.",
       "pre": "~₹140/L",
-      "now": "~₹155-165/L",
-      "chg": "Easing on Brent fall + rupee strength",
-      "proj": "₹140-150/L by May if Thursday deal finalises",
-      "note": "Rupee strengthened to 93.15 (+20p) — all imports cheaper. Brent below $95 reduces freight costs. IEA+IMF+World Bank: fertilizer prices slow to recover even post-deal. 30% global fertilizer transits Hormuz. Kharif sowing season approaching.",
-      "s": 2
+      "now": "~₹158-168/L",
+      "twoWeek": "₹148-158/L by May if deal reached; ₹168-180/L if blockade extends through May",
+      "detail": "Rupee at 95.20 (ATL zone) — every ₹1 fall raises import bill by ₹4,000 Cr. All imports now more expensive. IEA, IMF, World Bank confirmed fertiliser disruption is structural — hits kharif crop even post-deal. 30% of global fertiliser transits Hormuz. Kharif sowing season (June-August) is approaching — if Hormuz does not reopen by mid-May, fertiliser supply for India's kharif crop is at serious risk."
     },
     {
-      "item": "Vegetables/Onion",
+      "item": "Vegetables / Onion",
+      "status": "yellow",
+      "statusText": "Fertiliser supply disruption threatens June kharif",
       "pre": "Stable",
-      "now": "Easing slightly",
-      "chg": "Diesel freight costs reducing with Brent fall",
-      "proj": "₹40-60/kg if Thursday deal; ₹60-80/kg risk if blockade extends",
-      "note": "Rupee +20p and Brent below $95 reducing freight costs. But IEA+IMF+World Bank confirmed fertilizer disruption structural — hits kharif crop regardless. UN FAO food catastrophe warning still active. Iran Red Sea threat would extend disruption.",
-      "s": 1
+      "now": "Mild pressure",
+      "twoWeek": "₹45-65/kg if deal this week; ₹65-90/kg risk if blockade through May",
+      "detail": "Diesel freight costs still elevated at Brent $105. Fertiliser supply disruption from Gulf is now the bigger structural risk — Gulf produces ~30% of global urea and DAP. If Hormuz blockade extends through May: India's kharif sowing (June-August) will face fertiliser shortages. UN FAO food catastrophe warning still active globally. WFP confirmed food prices in Gaza up 85% since West Asia War began."
     },
     {
       "item": "Air Travel",
+      "status": "yellow",
+      "statusText": "ATF costs elevated. Surcharges active on most routes.",
       "pre": "Normal",
-      "now": "Surcharges active — easing rapidly",
-      "chg": "IndiGo best Sensex gainer today +4%",
-      "proj": "Surcharges removed quickly if Brent holds below $90",
-      "note": "IndiGo surged +4% on Apr 15 — best Sensex performer. Airlines lead oil price recovery. Brent below $95, WTI toward $90. ATF prices will fall with oil. If Thursday deal: airline stocks could see 8-12% further rally. US gas avg $4.12/gallon — under pressure to fall.",
-      "s": 1
+      "now": "Surcharges active",
+      "twoWeek": "Surcharges ease if Brent falls below $95 on deal signal",
+      "detail": "Brent at $105 = ATF (aviation turbine fuel) remains elevated. Airlines including IndiGo, Air India and SpiceJet have passed on surcharges. Lufthansa cut 20,000 flights through October globally. US gas prices above $4/gallon. If proximity talks produce a deal signal this week: airline surcharges could ease within 2-3 weeks as Brent falls. Iran Air resumed international flights Saturday (Istanbul, Muscat, Medina) — partial normalisation signal."
     },
     {
       "item": "Medicine",
+      "status": "yellow",
+      "statusText": "API costs elevated. Supply chain pressure persisting.",
       "pre": "Stable",
-      "now": "Pressure easing",
-      "chg": "Supply chain improving with Brent fall",
-      "proj": "+5-10% retail impact Q1 FY27 (reduced from +15% on oil easing)",
-      "note": "API costs remain elevated at +30% but easing with oil. Wipro Q4 results tomorrow (Apr 16) — pharma and IT sectors key bellwethers. Infosys results this week. Shipping cost pressure reducing as Brent falls. Iran Red Sea threat still a risk for API supply chains.",
-      "s": 2
+      "now": "Moderate pressure",
+      "twoWeek": "+8-12% retail impact Q1 FY27 if blockade extends; easing if deal reached",
+      "detail": "Active pharmaceutical ingredient (API) supply chains continue under pressure — shipping costs elevated, Gulf-sourced chemical precursors more expensive. Brent at $105 keeps logistics costs high. Pharma sector has been relatively defensive during the West Asia War (Nifty Pharma rose on April 24 while rest fell). A deal signal this week could ease API import costs within 30-45 days as shipping normalises."
     }
   ],
   "military": [
