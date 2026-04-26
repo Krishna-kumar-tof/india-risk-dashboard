@@ -75,14 +75,14 @@ const TL_BASE = [
 ];
 
 const RADAR_FB = [
-  {axis:"Oil Shock",       w1:60,now:60,w4:42},
-  {axis:"Market Crash",   w1:45,now:42,w4:30},
-  {axis:"Nuclear Risk",   w1:20,now:88,w4:82},
-  {axis:"Hormuz Closure", w1:80,now:90,w4:38},
-  {axis:"Household",      w1:15,now:58,w4:48},
-  {axis:"Currency",       w1:40,now:42,w4:36},
-  {axis:"Social Unrest",  w1:25,now:58,w4:48},
-  {axis:"Mil. Exposure",  w1:35,now:75,w4:52},
+  {axis:"Oil Shock",       w1:60,now:60,w4:58},
+  {axis:"Market Crash",   w1:45,now:42,w4:35},
+  {axis:"Nuclear Risk",   w1:20,now:88,w4:80},
+  {axis:"Hormuz Closure", w1:80,now:90,w4:55},
+  {axis:"Household",      w1:15,now:58,w4:52},
+  {axis:"Currency",       w1:40,now:42,w4:38},
+  {axis:"Social Unrest",  w1:25,now:58,w4:50},
+  {axis:"Mil. Exposure",  w1:35,now:75,w4:55},
 ];
 
 const NUKES_FB = [
@@ -238,7 +238,7 @@ const RadarSVG = ({data, day}) => {
         );
       })}
       {/* Legend */}
-      {[{l:'Week 1',c:C.green},{l:`Now (D${day})`,c:C.amber},{l:'Wk 6+ Proj',c:C.red}].map((lg,i)=>(
+      {[{l:'Week 1',c:C.green},{l:`Now (D${day})`,c:C.amber},{l:'Wk 12 Outlook',c:C.red}].map((lg,i)=>(
         <g key={i}>
           <rect x={8} y={H-30+i*10} width={10} height={3} fill={lg.c} rx="1"/>
           <text x={22} y={H-26+i*10} fill={C.sub} fontSize="8" fontFamily={MONO}>{lg.l}</text>
