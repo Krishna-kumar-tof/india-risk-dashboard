@@ -1,95 +1,90 @@
 {
-  "_updated": "April 26, 2026 — 9:00 PM IST",
-  "_day": 58,
+  "_updated": "April 27, 2026 — 7:00 AM IST",
+  "_day": 59,
   "_phase": "BLOCKADE",
-  "_note": "Verified: CNN live (15min ago), AP/Washington Times (1hr ago), IANS (49min ago), Tribune India (1hr ago), Al Jazeera (1hr ago), Press TV, IRNA. NO Wikipedia. DAY 58 SUN 9PM IST: ARAGHCHI MET OMAN SULTAN HAITHAM (AFP photo confirmed). ARAGHCHI RETURNED TO ISLAMABAD SUNDAY NIGHT (IRNA/CNN/AP). Araghchi: Islamabad visit \"very fruitful.\" Pakistan officials: contacts \"still alive but fragile.\" Iran wants OMAN TO BACK HORMUZ TOLL MECHANISM (AP regional official). Araghchi called Qatar FM + Saudi FM Sunday. Pezeshkian: Iran will not accede to \"forced negotiations.\" Lebanon deaths: 2,496+ (Lebanon Health Ministry). Only a FEW vessels crossed Hormuz today — Deepblue traversed Gulf of Oman → Persian Gulf (MarineTraffic/CNN). India Monday 9:15 AM open: Araghchi now in Islamabad en route Moscow — diplomacy alive. Brent ~$99-103 (talks optimism). West Asia War Day 58.",
+  "_note": "Verified: CNN live (41min ago), CBS News (2hrs ago), Iran International (29min ago), IRNA, ISNA, Voice of Emirates (4hrs ago), UK House of Commons Library, TankerTrackers.com. NO Wikipedia. DAY 59 MON 7AM IST: ARAGHCHI DEPARTING FOR ST PETERSBURG — meets PUTIN TODAY (IRNA/ISNA/CNN). Araghchi left Islamabad — two visits in 48 hours concluded. Iran + Oman as \"only littoral states\" discussed Hormuz safe transit (Araghchi on X). TRUMP OPPOSES IRAN TOLL MECHANISM (House of Commons Library confirmed). Trump Sunday: \"If they want to talk, call us. War will come to end very soon. US will be victorious.\" SHADOW FLEET STILL MOVING: TankerTrackers — Iran loaded 4.6M bbls despite blockade, 4M more may have crossed. Chevron CEO: energy system \"lost incredible flexibility.\" Lebanon: 16 Israeli soldiers killed since war began 8 weeks ago. India Monday markets open 9:15 AM IST. Brent ~$99-103.",
   "ticker": [
-    "✈️ ARAGHCHI RETURNED TO ISLAMABAD SUNDAY NIGHT — IRNA/CNN/AP confirmed. Second Islamabad visit in 2 days. Called it 'very fruitful.' Now heading to Moscow. Diplomacy alive but stalled.",
-    "🤝 ARAGHCHI MET OMAN SULTAN HAITHAM — AFP photo. Focused on Hormuz. Iran wants OMAN TO BACK HORMUZ TOLL MECHANISM (AP regional official). Sovereignty play at the heart of Hormuz deadlock.",
-    "📞 ARAGHCHI CALLED QATAR FM + SAUDI FM SUNDAY — AP confirmed. Multi-country diplomatic sprint: Pakistan → Oman → Pakistan → Russia. Qatar and Saudi Arabia brought into framework.",
-    "🕊️ PAKISTAN OFFICIALS (AP): Indirect ceasefire contacts 'still alive but fragile.' No immediate plans for US envoys to return. Pakistani mediation continuing despite Trump cancelling trip.",
-    "⚠️ PEZESHKIAN: Iran will not accede to 'forced negotiations' with US, citing 'hostile actions.' Public hardline maintained while Araghchi privately builds deal architecture across four countries.",
-    "🚢 HORMUZ: Only a FEW vessels crossed today (MarineTraffic/CNN). Deepblue tanker traversed Gulf of Oman → Persian Gulf. Near-zero commercial transit continues. Iran toll mechanism plan emerging.",
-    "🇱🇧 LEBANON: 2,496+ killed since March 2 — Lebanon Health Ministry (steep jump from April 17 update). Israel striking 'vigorously' despite extended ceasefire. 177+ children killed.",
-    "🛢️ BRENT ~$99-103 — easing slightly on talks-alive signal. Araghchi's multi-country sprint + Pakistan contacts 'fragile but alive' = partial market optimism heading into Monday.",
-    "🇷🇺 ARAGHCHI → MOSCOW next. Russia as guarantor country — critical for any Iran security guarantee in nuclear deal. Lavrov-Araghchi meeting will shape Russia's role in final framework.",
-    "🇮🇳 India Monday 9:15 AM: Araghchi in Islamabad (confirmed). Contacts fragile but alive. Brent easing. Nifty 23,897 prev close (below 24k). Watch for Monday recovery if Moscow visit signals progress."
+    "🇷🇺 ARAGHCHI MEETS PUTIN TODAY IN ST PETERSBURG — IRNA/ISNA/CNN confirmed. Consult on negotiations, ceasefire and surrounding developments. Russia as guarantor country. Key signal for deal architecture.",
+    "☎️ TRUMP SUNDAY: 'If they want to talk, call us. War will come to end very soon. US will be victorious.' Reiterated phone-first US stance. No envoy trip planned. Phone diplomacy era continues.",
+    "🛢️ SHADOW FLEET STILL MOVING — TankerTrackers.com satellite analysis: Iran loaded 4.6M barrels despite blockade. 4M MORE may have crossed the blockade line. US blockade leaking.",
+    "⚓ IRAN + OMAN as 'only littoral states' discussed Hormuz safe transit 'to benefit of all neighbours' (Araghchi on X). TRUMP OPPOSES toll mechanism (UK Parliament Library). Hormuz sovereignty gap widening.",
+    "✈️ ARAGHCHI LEFT ISLAMABAD — two visits to Pakistan in 48 hours concluded. Iranian ambassador thanked Pakistan for 'tireless efforts.' Araghchi: unclear if US is 'truly serious about diplomacy.'",
+    "💰 CHEVRON CEO WIRTH (CBS Face the Nation): global energy system 'has lost an incredible amount of flexibility' since Iran war start. Structural damage permanent — even post-deal.",
+    "🇱🇧 LEBANON: 16th Israeli soldier killed in south Lebanon Sunday. 2,496+ total killed since March 2. Israel continuing strikes despite 3-week ceasefire extension. Lebanon ceasefire fragile.",
+    "🛢️ BRENT ~$99-103 Monday open. Talks stalled but alive. Shadow fleet leak reducing acute blockade impact. Iran retaining some export capacity. India Monday open at 9:15 AM IST.",
+    "🇮🇳 India: Monday 9:15 AM open. Araghchi-Putin meeting TODAY = key signal. Shadow fleet leak = Brent cap. Nifty 23,897 prev close. Infosys beat not fully priced in. Partial recovery likely.",
+    "📅 KEY WEEK AHEAD: Araghchi-Putin (today) → Russia guarantee framework. Iran shadow fleet vs US blockade tightening. Lebanon ceasefire fragility. No new US-Iran talks scheduled. Stalemate deepens."
   ],
   "whatChanged": {
-    "label": "WHAT CHANGED — APR 26, 9:00 PM IST (DAY 58) — SUNDAY EVENING",
+    "label": "WHAT CHANGED — APR 27, 7:00 AM IST (DAY 59) — MONDAY MORNING",
     "items": [
       {
         "color": "green",
-        "bold": "ARAGHCHI returned to Islamabad Sunday night — second visit in 2 days. Called visit \"very fruitful.\"",
-        "text": "IRNA, CNN (live blog updated 15 minutes ago), and AP/Washington Times (1 hour ago) all confirmed: Iranian FM Araghchi returned to Islamabad on Sunday night after his Oman stop, landing at Nur Khan Airbase. He was received by Pakistan's Interior Minister Mohsin Naqvi and Iran's ambassador to Pakistan. IRNA: he held \"further consultations with Pakistani mediators.\" Araghchi himself described his Islamabad visit as \"very fruitful.\" Press TV: he is expected to continue to Moscow after this brief Islamabad stop. This is Araghchi's second visit to Islamabad in two days — Saturday visit (delivered comprehensive demands) + Sunday return (post-Oman consultations, en route Moscow). The pattern signals a functioning multi-stage diplomatic process, not an abandoned one."
+        "bold": "ARAGHCHI MEETS PUTIN TODAY IN ST PETERSBURG — Russia as guarantor confirmed.",
+        "text": "IRNA, ISNA, and CNN (41 minutes ago) confirmed: Araghchi departed Islamabad Sunday night and is heading to St Petersburg, Russia (not Moscow city — IRNA specifically said St Petersburg). He will meet President Vladimir Putin today (Monday) and \"consult with Russian officials on the latest status of the negotiations, the ceasefire and surrounding developments.\" Iran International (29 min ago) confirmed the same. This is the most significant diplomatic meeting of the week: Russia as guarantor country is a potential bridge for Iran's security guarantee demand — the key unresolved issue alongside Hormuz and nuclear. If Putin signals Russia will guarantee Iran's post-deal security: it removes one of Iran's core objections to a nuclear deal framework."
       },
       {
         "color": "amber",
-        "bold": "ARAGHCHI met Oman Sultan Haitham — Iran wants Oman to back HORMUZ TOLL MECHANISM.",
-        "text": "IANS (49 min ago) and AP confirmed: Araghchi met Sultan Haitham bin Tariq and Omani FM Badr al-Busaidi in Muscat Sunday. AFP photo released. Araghchi briefed the Sultan on Iran's stance following the US-Israeli strikes and expressed appreciation for Oman's support for dialogue. Sultan Haitham stressed \"importance of using dialogue and diplomacy.\" Critically: AP (regional official on condition of anonymity) reported Iran wants to persuade Oman to support a mechanism to collect tolls from vessels passing through Hormuz. This is Iran's Hormuz sovereignty play — rather than simply reopening the strait, Iran wants to institutionalise control via an Oman-backed toll mechanism. This goes beyond the ceasefire and into the permanent status of Hormuz — the core unresolved issue."
-      },
-      {
-        "color": "green",
-        "bold": "ARAGHCHI called Qatar FM + Saudi FM Sunday. Multi-country diplomatic sprint confirmed.",
-        "text": "AP confirmed Araghchi spoke by phone Sunday with counterparts in Qatar and Saudi Arabia — bringing two additional Gulf states into the diplomatic framework. Qatar is critical: it hosts US Al Udeid Air Base AND Ras Laffan LNG (severely damaged). Saudi Arabia is critical: it is producing at maximum capacity to offset Hormuz disruption AND has offered to guarantee parts of any Iran nuclear deal through the Abraham Accords framework. Araghchi's full Sunday diplomatic sprint: met Sultan Haitham (Oman) in person + called Qatar FM + called Saudi FM + returned to Islamabad for Pakistan consultations. Then heading to Moscow. This is the most intensive Iranian diplomatic outreach since the war began February 28."
+        "bold": "ARAGHCHI left Islamabad — two visits in 48 hours concluded. Thanks to Pakistan. Questions US seriousness.",
+        "text": "CNN confirmed: Araghchi's departure from Islamabad \"marks the end of two visits to Pakistan in 48 hours, as hopes for further face-to-face US-Iranian talks dissipated.\" Iranian Ambassador to Pakistan Reza Amiri Moghadam thanked Pakistani leadership for \"their tireless efforts\" to end the war. Araghchi himself posted on X: \"it's not clear if Washington is truly serious about diplomacy\" — after Trump cancelled his envoys' trip. Iran International: Iran has loaded 4.6 million barrels at export terminals despite the blockade, with 4 million more appearing to have crossed the blockade line (TankerTrackers.com satellite data). This suggests the US blockade is leaking via the shadow fleet — reducing the acute economic pressure somewhat."
       },
       {
         "color": "amber",
-        "bold": "Pakistan officials (AP): Contacts \"still alive but fragile.\" No US envoy return planned yet.",
-        "text": "AP (two Pakistani officials, condition of anonymity, 1 hour ago): indirect ceasefire contacts are \"still alive but fragile.\" No immediate plans for US envoys to return to the region for follow-up talks. Pakistani mediation continuing despite Trump cancelling the Witkoff-Kushner trip Saturday. Al Jazeera's Kimberly Halkett from Islamabad: Pakistani officials see Araghchi's return as \"a hopeful sign\" and hope it will be \"something that can be incremental in the process.\" Tribune India: \"Pakistan, alongside Oman and other regional actors, is trying to revive indirect negotiations, but major sticking points — including sanctions relief, maritime access and security guarantees — remain unresolved.\" The process is alive. The gap is wide. The pace is slow."
+        "bold": "IRAN + OMAN as \"only littoral states\" — discussed Hormuz safe transit. Trump OPPOSES toll mechanism.",
+        "text": "Araghchi posted on X after Oman meeting: Iran and Oman, \"as the only littoral states of the Strait of Hormuz, discussed ways to ensure safe transit to the benefit of all dear neighbors and the world.\" UK House of Commons Library (updated 10 hours ago) confirmed: \"Trump has also opposed Iranian attempts to charge tolls for vessels to use the strait.\" Iran's FM Araghchi has said \"we intend to devise a new arrangement to ensure secure maritime traffic through the waterway.\" The gap: Iran insisting on a Hormuz toll arrangement; Trump explicitly opposing it. This is not merely a temporary access dispute — it is a permanent sovereignty question. Oman's response to Iran's toll mechanism request is not yet known."
+      },
+      {
+        "color": "amber",
+        "bold": "TRUMP Sunday: \"Call us. War will end very soon. US will be victorious.\" Phone-first US stance.",
+        "text": "CNN confirmed: Trump on Sunday defended his decision to cancel envoys' Pakistan trip — \"If they want to talk, they can come to us, or they can call us. You know, there is a telephone.\" Trump told Fox News: \"we're not sending people to travel 18 hours to meet.\" Trump added the war would \"come to an end very soon\" and reiterated the US is \"going to be very victorious.\" CBS News confirmed the same comments. Neither Trump nor any White House official scheduled a new envoy trip to the region. The US position is now: Iran must initiate contact (by phone), submit a unified proposal, and come to the table before any new in-person talks. This is a fundamentally passive US posture that puts all initiative on Iran."
       },
       {
         "color": "red",
-        "bold": "PEZESHKIAN: Iran will not accede to \"forced negotiations\" citing US \"hostile actions.\"",
-        "text": "CNN confirmed: Iran's President Pezeshkian warned Tehran would not accede to \"forced negotiations\" with the US, citing \"hostile actions.\" This public hardline is maintained consistently even as Araghchi privately builds deal architecture across four countries in two days. Iran's public and private positions remain structurally divergent — by design. Iran's Foreign Ministry: \"Iran will not negotiate with the US under threats and as long as it maintains an illegal naval blockade of Iranian ports.\" This is Iran's stated precondition: blockade must end before direct talks. The US position is the inverse: deal first, then blockade lifts. Classic diplomatic deadlock — but the proximity talks via Pakistan are designed to bridge exactly this."
+        "bold": "SHADOW FLEET STILL MOVING — Iran loaded 4.6M barrels despite blockade. Blockade leaking.",
+        "text": "Iran International (29 min ago) citing TankerTrackers.com satellite analysis: Iran has loaded at least 4.6 million barrels of crude oil at export terminals despite the ongoing US naval blockade, with an additional 4 million barrels appearing to have crossed the blockade line. This significantly tempers the Bessent \"wells shuttering in 2-3 days\" warning from last week. Iran retains SOME ability to continue oil exports through its shadow fleet — sanctioned tankers, dark ship-to-ship transfers, false flag operations. The US has been intercepting shadow fleet vessels (Touska, Tifani, Sevan, ex-Phonix) but cannot intercept every vessel. The 4M barrels crossing the blockade line suggest Iran's economic pain is real but not as acute as Washington claimed."
       },
       {
         "color": "amber",
-        "bold": "HORMUZ: Only a few vessels crossed today. Iran's toll mechanism plan emerging as permanent play.",
-        "text": "CNN (MarineTraffic data, updated 15 minutes ago): \"Only a few vessels have crossed the Strait of Hormuz today.\" The vessel Deepblue (partially loaded oil and chemical tanker) traversed from Gulf of Oman into the Persian Gulf, passing by Iran's Larak Island — one of the very few crossings of the day. Near-zero commercial transit continues. AP's reporting on Iran's toll mechanism ambition is significant: Iran is no longer just using Hormuz as leverage — it wants to permanently institutionalise control via a Hormuz toll structure backed by Oman as neutral administrator. This would give Iran ongoing revenue and sovereignty recognition even after a deal. It is the most maximalist Hormuz position Iran has yet expressed."
-      },
-      {
-        "color": "red",
-        "bold": "LEBANON: 2,496+ killed since March 2 — steep jump. Israel \"vigorously\" striking despite ceasefire.",
-        "text": "CNN confirmed: Lebanon's Health Ministry reported 2,496 people killed by Israeli strikes since March 2 — a steep jump from the previous update on April 17. At least 177 children among the dead. Despite the three-week ceasefire extension announced Thursday, Israel's PM Netanyahu ordered his military to \"vigorously attack\" Hezbollah targets, insisting Israel is responding to rocket and drone fire from the Iran-backed group. CNN: the continued fighting \"jeopardizes an already fragile ceasefire and raises questions about whether Trump will be able to host Netanyahu and Lebanese President Joseph Aoun at the White House.\" Iran has repeatedly linked Hormuz status to Lebanon — the Lebanon escalation is a direct complication for any Hormuz deal."
+        "bold": "CHEVRON CEO: Energy system \"lost incredible flexibility.\" Lebanon: 16th Israeli soldier killed Sunday.",
+        "text": "CBS News confirmed: Chevron Chairman and CEO Mike Wirth told Face the Nation with Margaret Brennan that the global energy system \"has lost an incredible amount of flexibility\" since the start of the Iran war. This is a structural energy market statement — even if Hormuz reopens, the supply chain damage from 8+ weeks of disruption will take 6-12 months to fully recover. The mine-clearing timeline (up to 6 months per US officials) alone prevents rapid normalisation. Separately: CNN confirmed an Israeli soldier was killed in southern Lebanon Sunday — bringing total Israeli soldiers killed in Lebanon since the war began to 16. Lebanon death toll: 2,496+ since March 2. Lebanon ceasefire fragility remains a complication for any Hormuz deal."
       },
       {
         "color": "cyan",
-        "bold": "India Monday 9:15 AM open: Araghchi in Islamabad, Brent ~$99-103, talks fragile but alive.",
-        "text": "India markets open Monday 9:15 AM IST. Weekend summary feeding into open: (1) Araghchi confirmed back in Islamabad — diplomacy alive, not collapsed. (2) Met Oman Sultan in person (AFP photo). (3) Called Qatar + Saudi FMs. (4) Pakistan contacts \"still alive but fragile\" (AP). (5) Brent ~$99-103 — slight easing on talks-alive signal vs $105-107 intraday highs this week. (6) Pezeshkian public hardline maintained. (7) Lebanon 2,496+ killed (complication). Scenario A (40%): Moscow visit produces Russia-as-guarantor signal, Brent eases to $95-100 → Nifty 24,100-24,400 recovery. Scenario B (40%): Stalemate continues, US-Iran no contact → Nifty 23,700-24,000, Brent $100-105. Scenario C (20%): Lebanon escalation or Hormuz incident → Nifty below 23,500, Brent $108+."
+        "bold": "India Monday 9:15 AM: Brent ~$99-103, Araghchi-Putin meeting today, Nifty 23,897 prev close.",
+        "text": "India markets open Monday 9:15 AM IST. Key factors: (1) Araghchi-Putin meeting TODAY in St Petersburg — if positive signal on Russia as security guarantor: partial positive for markets. (2) Brent ~$99-103 — shadow fleet leak + talks-alive signal easing from $107 peak. (3) Nifty 23,897 prev close (below 24,000). (4) Infosys Q4 beat (+21% PAT) not fully priced in from last Thursday — potential residual IT sector recovery. (5) Shadow fleet data shows Iran retaining some export capacity → Brent cap reduces. Scenario A (45%): Putin-Araghchi meeting produces positive signal, Brent holds below $102 → Nifty 24,000-24,300. Scenario B (40%): Meeting produces nothing concrete, stalemate → Nifty 23,700-24,000. Scenario C (15%): Lebanon escalation or new Hormuz incident → Nifty below 23,500."
       }
     ]
   },
   "deaths": "6,600+",
-  "deathsSub": "~3,375+ Iran, 2,496+ Lebanon (177+ children — steep jump from April 17 update, Lebanon Health Ministry), 99 Iraq, 23+ Israel, 13 US (+2 noncombat), 35+ Gulf",
+  "deathsSub": "~3,375+ Iran, 2,496+ Lebanon (16 Israeli soldiers killed in Lebanon since war began 8 weeks ago), 99 Iraq, 23+ Israel (16 Lebanon combat), 13 US (+2 noncombat), 35+ Gulf",
   "econ": {
     "sensex": "76,681",
-    "sensexDelta": "PREV CLOSE APR 24: -983 (-1.27%). Markets closed Sat-Sun. Monday 9:15 AM IST = post-weekend verdict.",
-    "sensexSub": "Araghchi back in Islamabad, Brent easing to $99-103. Nifty 23,897 prev close. Monday: fragile talks alive = partial recovery possible.",
-    "vix": "~22-24 (elevated, easing slightly on talks-alive signal)",
-    "vixDelta": "Contacts fragile but alive (AP). Brent easing from $107 peak. Monday open depends on any Russia visit signal.",
-    "fpi": "FII outflows last week. Potential partial reversal Monday if Brent holds below $102.",
-    "fpiDelta": "Araghchi multi-country sprint = talks not abandoned. Brent easing = positive for FII flows into India.",
-    "wealth": "BSE market cap ~Rs 441L Cr. Monday: talks alive + Brent easing → potential Rs 447-452L Cr recovery.",
-    "analysis": "DAY 58 SUN 9PM IST: Araghchi RETURNED to Islamabad Sunday night (IRNA/CNN/AP). Met Oman Sultan Haitham (AFP photo). Called Qatar + Saudi FMs. Pakistan: contacts \"alive but fragile\" (AP). No US envoy return planned. Iran wants Oman to back Hormuz toll mechanism (AP regional official). Pezeshkian: no \"forced negotiations.\" Lebanon: 2,496+ killed (steep jump). Hormuz: only a few crossings today (MarineTraffic/CNN). Deepblue traversed. Araghchi heading Moscow next — Russia as guarantor. Brent ~$99-103 (easing on talks-alive signal). India Monday: 40% recovery to Nifty 24,100-24,400 (Moscow signal), 40% stalemate flat (23,700-24,000), 20% escalation (<23,500)."
+    "sensexDelta": "PREV CLOSE APR 24: -983 (-1.27%). Markets opening TODAY 9:15 AM IST — Monday verdict.",
+    "sensexSub": "Araghchi-Putin today. Shadow fleet leak → Brent capped. Infosys beat residual positive. Nifty 23,897.",
+    "vix": "~20-22 (easing from 24-26 peak on talks-alive signal)",
+    "vixDelta": "Shadow fleet data + Putin meeting today = reduced tail risk. Brent easing from $107 to $99-103.",
+    "fpi": "FII outflows last week. Partial reversal possible Monday on Brent easing + Putin signal.",
+    "fpiDelta": "Brent below $103 = FII structural relief. IT sector (Infosys beat) may attract selective buying.",
+    "wealth": "BSE market cap ~Rs 441L Cr. Monday: Putin meeting positive → Rs 447-452L Cr. Stalemate → Rs 441-444L Cr.",
+    "analysis": "DAY 59 MON 7AM IST: ARAGHCHI MEETS PUTIN TODAY IN ST PETERSBURG (IRNA/CNN). Left Islamabad — two visits in 48hrs concluded. Iran + Oman as \"only littoral states\" discussed Hormuz safe transit (Araghchi X). TRUMP OPPOSES toll mechanism (House of Commons Library). Shadow fleet: Iran loaded 4.6M bbls + 4M may have crossed blockade (TankerTrackers). Chevron CEO: energy system lost \"incredible flexibility.\" Lebanon: 16th Israeli soldier killed Sunday, 2,496+ total. Brent ~$99-103 (shadow fleet leak + talks-alive signal). Trump Sunday: \"call us anytime.\" India Monday open 9:15 AM: 45% Putin positive signal → Nifty 24,000-24,300. 40% stalemate → 23,700-24,000. 15% incident → below 23,500."
   },
   "hormuzStatus": {
-    "status": "HORMUZ NEAR-ZERO — FEW VESSELS TODAY. IRAN SEEKING OMAN-BACKED TOLL MECHANISM.",
+    "status": "HORMUZ NEAR-ZERO — SHADOW FLEET LEAKING. IRAN TOLL MECHANISM vs TRUMP OPPOSITION.",
     "preWarFlow": "130-160 ships/day",
-    "currentFlow": "Near-zero commercial. Only a few vessels crossed today (MarineTraffic/CNN). Deepblue traversed Gulf of Oman → Persian Gulf. Iran pushing Oman to back Hormuz toll mechanism (AP). 37 ships redirected under US blockade total.",
-    "reduction": "95%+ disruption. Iran toll mechanism plan = permanent sovereignty play. Mine clearing 6 months post-deal. Oman-backed toll system would reshape Hormuz permanently.",
+    "currentFlow": "Near-zero commercial. Shadow fleet: Iran loaded 4.6M bbls + 4M may have crossed blockade (TankerTrackers). Araghchi + Oman: discussed Hormuz safe transit as \"only littoral states.\" Trump opposes toll mechanism. Araghchi meeting Putin today.",
+    "reduction": "90%+ disruption. Shadow fleet leaking — Iran retaining some export capacity. Mine clearing 6 months post-deal. Chevron CEO: global energy system lost \"incredible flexibility.\"",
     "indianVesselsNear": 8,
     "indianSeafarers": 280,
     "indianTransited": 0,
-    "totalShipsWaiting": "20,000+ mariners stranded. India 280 seafarers. Kharif fertiliser risk growing if Hormuz stays closed through May.",
-    "lastTransit": "Deepblue traversed Gulf of Oman → Persian Gulf Sunday (MarineTraffic/CNN). 37 ships turned back total. Iran toll mechanism plan via Oman emerging as permanent Hormuz play.",
-    "indianNavyEscort": "Op Urja Suraksha HIGH ALERT. Araghchi → Islamabad → Moscow. India Monday 9:15 AM = talks verdict.",
-    "headline": "Near-zero crossings Sunday. Iran seeking Oman toll mechanism for Hormuz. Araghchi back in Islamabad. Contacts fragile but alive. Brent easing $99-103."
+    "totalShipsWaiting": "20,000+ mariners stranded. Shadow fleet 4.6M bbls loaded despite blockade. Kharif fertiliser risk growing. Brent $99-103.",
+    "lastTransit": "Shadow fleet vessels still moving (TankerTrackers: 4M bbls may have crossed blockade line). Deepblue traversed Sunday (MarineTraffic). 37 ships turned back under US blockade.",
+    "indianNavyEscort": "Op Urja Suraksha HIGH ALERT. Araghchi → St Petersburg (Putin meeting today). India Monday 9:15 AM = verdict on Putin signal.",
+    "headline": "Araghchi meets Putin TODAY in St Petersburg. Shadow fleet leaking (4.6M bbls loaded). Iran toll vs Trump opposition. Brent $99-103. India markets open 9:15 AM."
   },
   "hormuzEvents": [
     {
-      "d": "Apr 26 9PM",
-      "e": "DAY 58 SUN 9PM IST. ARAGHCHI RETURNED TO ISLAMABAD SUNDAY NIGHT (IRNA/CNN/AP). Met OMAN SULTAN HAITHAM in Muscat (AFP photo) — Iran wants Oman to back HORMUZ TOLL MECHANISM (AP). Called Qatar FM + Saudi FM Sunday (AP). Pakistan: contacts \"still alive but fragile\" (AP). Araghchi: visit \"very fruitful.\" Pezeshkian: no \"forced negotiations.\" Lebanon: 2,496+ killed (steep jump — Lebanon Health Ministry). Hormuz: only few crossings today — Deepblue traversed. Brent ~$99-103 easing on talks-alive signal. Araghchi → Moscow next. India Monday 9:15 AM = verdict."
+      "d": "Apr 27 7AM",
+      "e": "DAY 59 MON 7AM IST. ARAGHCHI MEETS PUTIN TODAY IN ST PETERSBURG (IRNA/ISNA/CNN). Left Islamabad after 2 visits in 48hrs. Iran + Oman as \"only littoral states\" discussed Hormuz safe transit (Araghchi X). TRUMP OPPOSES toll mechanism (UK HoC Library). SHADOW FLEET: Iran loaded 4.6M bbls despite blockade, 4M more may have crossed (TankerTrackers). Chevron CEO: energy system lost \"incredible flexibility.\" Lebanon: 2,496+ killed, 16th Israeli soldier killed Sunday. Trump: \"call us.\" Brent ~$99-103. India markets open 9:15 AM IST."
     },
     {
       "d": "Apr 23 7:30PM",
@@ -192,40 +187,40 @@
   ],
   "military": [
     {
-      "t": "ARAGHCHI Returned to Islamabad Sunday Night — \"Very Fruitful.\" Heading to Moscow.",
+      "t": "ARAGHCHI Meets PUTIN TODAY in St Petersburg — Russia as Guarantor. Key Signal for Deal.",
       "lv": "BREAKING",
       "color": "green",
-      "d": "IRNA, CNN (15 minutes ago) and AP (1 hour ago) all confirmed: Araghchi returned to Islamabad Sunday night after his Oman stop, landing at Nur Khan Airbase. Received by Pakistan's Interior Minister Mohsin Naqvi and Iran's ambassador. IRNA: held \"further consultations with Pakistani mediators.\" Araghchi called his Islamabad visit \"very fruitful.\" This is his second Islamabad visit in two days. After this brief Pakistan stop, he heads to Moscow (Russia as guarantor country). The sequence: Pakistan (Sat) → Oman/Sultan meeting (Sun morning) → Qatar + Saudi FM calls (Sun) → Islamabad again (Sun night) → Moscow. This is the most intensive Iranian diplomatic sprint of the entire war."
+      "d": "IRNA, ISNA, CNN (41 min ago) and Iran International (29 min ago) confirmed: Araghchi departed Islamabad Sunday night heading to St Petersburg, Russia — will meet President Putin today (Monday). Will \"consult with Russian officials on the latest status of the negotiations, the ceasefire and surrounding developments.\" Iran International: Araghchi's meeting with Putin will be in St Petersburg specifically. Voice of Emirates (4 hrs ago): meeting aimed at \"formulating a joint position\" and \"sending a strong message to the international community about depth of strategic coordination.\" Russia as guarantor is a potential bridge for Iran's security guarantee demand — the key unresolved element of any nuclear/war-end deal. If Putin signals Russia will guarantee Iran's post-deal security: removes one of Iran's core objections to a nuclear concession."
     },
     {
-      "t": "ARAGHCHI Met OMAN SULTAN HAITHAM — Iran Wants Oman to Back HORMUZ TOLL MECHANISM.",
-      "lv": "BREAKING",
-      "color": "amber",
-      "d": "IANS (49 min ago) and AP confirmed: Araghchi met Sultan Haitham bin Tariq and Omani FM in Muscat Sunday. AFP photo released and confirmed. Araghchi briefed the Sultan on Iran's stance post US-Israeli strikes. Sultan Haitham stressed importance of dialogue. Critically: AP (regional official, anonymity) reported Iran wants Oman to support a mechanism to collect tolls from vessels passing through Hormuz. This is Iran's maximalist Hormuz sovereignty play — not simply reopening the strait but institutionalising permanent control via Oman-backed tolls. This would give Iran ongoing revenue and sovereignty recognition even after a deal. It is the most explicit articulation yet of what Iran actually wants from Hormuz — and it goes far beyond what the US, UAE, Saudi Arabia, or international shipping law will easily accept."
-    },
-    {
-      "t": "ARAGHCHI Called Qatar FM + Saudi FM Sunday. Pakistan: Contacts \"Alive but Fragile.\"",
-      "lv": "BREAKING",
-      "color": "amber",
-      "d": "AP confirmed: Araghchi called Qatar FM and Saudi FM Sunday — bringing both Gulf states into the diplomatic framework. Qatar critical: hosts US Al Udeid Air Base AND Ras Laffan LNG. Saudi Arabia: producing at maximum capacity to offset Hormuz disruption, has security ties with US. AP (two Pakistani officials, condition of anonymity): indirect ceasefire contacts \"still alive but fragile.\" No immediate plans for US envoys to return to region. Al Jazeera's Halkett from Islamabad: Araghchi's return seen as \"a hopeful sign\" — Pakistani officials hope it will be \"incremental.\" Tribune India: major sticking points — sanctions relief, maritime access, security guarantees — remain unresolved. Process is alive. Gap is wide."
-    },
-    {
-      "t": "PEZESHKIAN: No \"Forced Negotiations.\" Lebanon: 2,496+ Killed — Steep Jump.",
+      "t": "SHADOW FLEET LEAKING — Iran Loaded 4.6M Barrels. 4M More May Have Crossed Blockade.",
       "lv": "BREAKING",
       "color": "red",
-      "d": "CNN confirmed: Iran's President Pezeshkian warned Tehran would not accede to \"forced negotiations\" with the US, citing \"hostile actions.\" Public hardline maintained even as Araghchi privately builds architecture. Iran's FM Baqaei on X: \"Iran will not negotiate under threats while US maintains illegal naval blockade of Iranian ports.\" Meanwhile: Lebanon Health Ministry — 2,496+ people killed by Israeli strikes since March 2, including 177+ children. Steep jump from April 17 update (was 2,294). Israel ordered to \"vigorously attack\" Hezbollah despite three-week ceasefire extension. CNN: continued Lebanon fighting jeopardises whether Trump can host Netanyahu + Lebanese President Aoun in Washington. Iran has repeatedly linked Hormuz to Lebanon — the Lebanon escalation is a direct complication for any Hormuz deal."
+      "d": "Iran International (29 min ago) citing TankerTrackers.com satellite analysis: Iran has loaded at least 4.6 million barrels of crude oil at export terminals despite the US naval blockade, with an additional 4 million barrels appearing to have crossed the blockade line. This significantly tempers the Bessent \"wells shuttering in 2-3 days\" warning from last week — Iran retains SOME export capacity through its shadow fleet. The US has intercepted Touska, Tifani, M/V Sevan, and ex-Phonix — 37 total ships redirected — but cannot intercept every vessel. For India: the shadow fleet leak means Brent is capped lower than pure-blockade scenarios, as Iran's production is not at risk of permanent shut-in. It also means Iran's economic pain is real but less acute than Washington projected."
     },
     {
-      "t": "HORMUZ: Only a Few Vessels Today. Deepblue Traversed. Iran's Toll Mechanism Emerging.",
+      "t": "Iran + Oman as \"Only Littoral States\" — Discussed Hormuz Safe Transit. Trump Opposes Toll.",
+      "lv": "BREAKING",
+      "color": "amber",
+      "d": "Araghchi posted on X after Muscat meeting: Iran and Oman, \"as the only littoral states of the Strait of Hormuz, discussed ways to ensure safe transit to the benefit of all dear neighbors and the world.\" UK House of Commons Library (updated 10 hours ago) confirmed: Trump \"has also opposed Iranian attempts to charge tolls for vessels to use the strait.\" Iran FM Araghchi has said \"we intend to devise a new arrangement to ensure secure maritime traffic through the waterway\" — consistent with the AP-reported toll mechanism. The framing of Iran and Oman as the \"only littoral states\" is Iran's legal argument for sovereignty over Hormuz — establishing Oman as co-manager rather than just a mediator. Trump explicitly opposing this mechanism means the Hormuz sovereignty question is as far from resolution as the nuclear issue."
+    },
+    {
+      "t": "TRUMP Sunday: \"Call Us. War Will End Very Soon. US Will Be Victorious.\"",
       "lv": "DEVELOPING",
       "color": "amber",
-      "d": "CNN (MarineTraffic data, updated 15 minutes ago): \"Only a few vessels have crossed the Strait of Hormuz today.\" Deepblue — a partially loaded oil and chemical tanker — traversed from Gulf of Oman into the Persian Gulf, passing Iran's Larak Island. This is near-zero commercial transit continuing. AP's Hormuz toll mechanism reporting is the key new structural insight: Iran is not just using Hormuz as a temporary war weapon — it wants to permanently institutionalise control via toll collection backed by Oman as neutral administrator. This reshapes the entire Hormuz negotiation: it's no longer just about reopening, but about who permanently controls access and revenue from the world's most critical energy chokepoint."
+      "d": "CNN and CBS News confirmed: Trump told Fox News Sunday: \"If they want to talk, they can come to us, or they can call us. You know, there is a telephone. We're not sending people to travel 18 hours to meet.\" Added the war would \"come to an end very soon\" and the US is \"going to be very victorious.\" No new US envoy trip planned. No phone call from Iran received (as of 7 AM IST Monday). The US posture is now passive: Iran must initiate contact, submit a unified proposal, and come to the table before new in-person talks. This puts all initiative on Iran while keeping the ceasefire and blockade in place. Iran's Araghchi responded on X: it's \"not clear if Washington is truly serious about diplomacy.\""
     },
     {
-      "t": "India Monday 9:15 AM: Brent Easing to $99-103. Moscow Visit = Key Week-Ahead Signal.",
+      "t": "Chevron CEO: Energy System Lost \"Incredible Flexibility.\" Lebanon: 16th Soldier Killed.",
+      "lv": "DEVELOPING",
+      "color": "amber",
+      "d": "CBS News (2 hours ago) confirmed: Chevron Chairman and CEO Mike Wirth told CBS Face the Nation: the global energy system \"has lost an incredible amount of flexibility\" since the start of the Iran war. Structural energy market statement — even if Hormuz reopens, supply chain damage from 8+ weeks of disruption takes 6-12 months to recover. Mine-clearing timeline alone (up to 6 months per US officials) prevents rapid normalisation. Separately: CNN confirmed — an Israeli soldier killed in southern Lebanon Sunday. Total now 16 Israeli soldiers killed in Lebanon since war began 8 weeks ago. Lebanon death toll: 2,496+ since March 2. Lebanon ceasefire fragility remains a complication for any Hormuz deal — Iran has repeatedly linked the two."
+    },
+    {
+      "t": "India Monday 9:15 AM Open: Putin Meeting + Brent $99-103 + Infosys Residual = Path to Recovery.",
       "lv": "DEVELOPING",
       "color": "cyan",
-      "d": "India markets open Monday 9:15 AM IST. Brent ~$99-103 — easing from $107 peak as talks-alive signal reduces escalation premium. Nifty closed Friday at 23,897 (below 24,000). Scenarios: A (40%): Moscow visit produces Russia-as-guarantor signal this week, Araghchi-Pakistan contacts produce progress → Brent eases to $95-100, Nifty 24,100-24,400, Sensex recovery 800-1,200 pts. B (40%): Stalemate continues, US-Iran no direct contact, Moscow visit produces nothing concrete → Nifty 23,700-24,000, Brent $100-105, flat to modest recovery. C (20%): Lebanon escalation or new Hormuz incident → Nifty below 23,500, Brent spikes $108+. Key watch: Araghchi-Lavrov meeting in Moscow. Russia's position as guarantor is pivotal for Iran's security guarantee ask."
+      "d": "India markets open 9:15 AM IST. Factors: (1) Araghchi-Putin today in St Petersburg — positive signal on Russia guarantor: partial market positive. (2) Brent ~$99-103 — shadow fleet leak + talks-alive easing from $107 peak. (3) Nifty 23,897 (below 24,000), Sensex 76,681. (4) Infosys Q4 PAT +21% beat — residual IT sector recovery possible (announced Thursday after hours, not fully priced yet). (5) Shadow fleet data shows Iran retaining some export capacity → Brent cap means OMC hike risk slightly lower. Scenarios: A (45%): Putin signal positive, Brent holds below $102 → Nifty recovery 24,000-24,300. B (40%): Meeting inconclusive, stalemate → Nifty flat 23,700-24,000. C (15%): Lebanon escalation/Hormuz incident → Nifty below 23,500, Brent $108+"
     }
   ],
   "nukes": [
@@ -550,9 +545,23 @@
       "rupee": 95.0,
       "tag": "ARAGHCHI returned Islamabad Sunday night (IRNA/CNN). Met Oman Sultan Haitham (AFP). Iran wants Oman to back HORMUZ TOLL MECHANISM (AP). Called Qatar + Saudi FMs. Pakistan: contacts alive but fragile. Pezeshkian: no forced talks. Lebanon 2,496+ killed. Few Hormuz crossings. Brent $99-103. Heading Moscow. West Asia War Day 58.",
       "sev": 2
+    },
+    {
+      "d": 59,
+      "l": "Apr 27",
+      "deaths": 6600,
+      "brent": 101,
+      "nifty": 23898,
+      "rupee": 95.0,
+      "tag": "ARAGHCHI MEETS PUTIN TODAY in St Petersburg (IRNA/CNN). Shadow fleet leaking — 4.6M bbls loaded, 4M may have crossed blockade (TankerTrackers). Iran + Oman as \"only littoral states\" discussed Hormuz safe transit. Trump opposes toll mechanism. Chevron CEO: energy system lost \"incredible flexibility.\" Lebanon 2,496+. Brent $99-103. India markets open 9:15 AM. West Asia War Day 59.",
+      "sev": 2
     }
   ],
   "hormuzLatest": [
+    {
+      "d": "Apr 27 7AM",
+      "e": "DAY 59 MON 7AM IST. ARAGHCHI MEETS PUTIN TODAY IN ST PETERSBURG (IRNA/ISNA/CNN). Left Islamabad after 2 visits in 48hrs. Iran + Oman as \"only littoral states\" discussed Hormuz safe transit (Araghchi X). TRUMP OPPOSES toll mechanism (UK HoC Library). SHADOW FLEET: Iran loaded 4.6M bbls despite blockade, 4M more may have crossed (TankerTrackers). Chevron CEO: energy system lost \"incredible flexibility.\" Lebanon: 2,496+ killed, 16th Israeli soldier killed Sunday. Trump: \"call us.\" Brent ~$99-103. India markets open 9:15 AM IST."
+    },
     {
       "d": "Apr 26 9PM",
       "e": "DAY 58 SUN 9PM IST. ARAGHCHI RETURNED TO ISLAMABAD SUNDAY NIGHT (IRNA/CNN/AP). Met OMAN SULTAN HAITHAM in Muscat (AFP photo) — Iran wants Oman to back HORMUZ TOLL MECHANISM (AP). Called Qatar FM + Saudi FM Sunday (AP). Pakistan: contacts \"still alive but fragile\" (AP). Araghchi: visit \"very fruitful.\" Pezeshkian: no \"forced negotiations.\" Lebanon: 2,496+ killed (steep jump — Lebanon Health Ministry). Hormuz: only few crossings today — Deepblue traversed. Brent ~$99-103 easing on talks-alive signal. Araghchi → Moscow next. India Monday 9:15 AM = verdict."
@@ -564,10 +573,6 @@
     {
       "d": "Apr 25 6PM",
       "e": "DAY 57 SAT 6PM IST. ARAGHCHI delivered Iran negotiating demands + reservations to Pakistani officials (Reuters — Pakistani source in talks). NO direct US-Iran meeting (Al Arabiya Islamabad). Iran prefers Vance. Witkoff+Kushner arrive SUNDAY. Pakistan proposed multinational nuclear monitoring plan (Al Arabiya). Germany pre-deploying minesweepers to Mediterranean. Trump (Reuters): \"They are making an offer.\" Jones Act 90-day waiver. Brent $103-105. Lebanon: 4 killed Saturday. Iran military: firm response if blockade continues. Senate GOP chair: time is over for talks."
-    },
-    {
-      "d": "Apr 25 AM",
-      "e": "DAY 57 SAT 8AM IST. ARAGHCHI LANDED ISLAMABAD — received by FM Dar + Field Marshal Munir (AFP photo). WITKOFF + KUSHNER arriving Saturday morning (WH Leavitt confirmed). Vance on standby. Iran: \"No meeting with US planned\" — proximity format via Pakistan mediator likely. Bessent (AP): Iran shutters oil production in 2-3 days. Kharg Island full. No waiver. Brent $105.33 Friday close. Qatar Emir called Trump. Netanyahu disclosed prostate cancer. USS Rafael Peralta intercepted Iranian ship Friday. Araghchi tour: Islamabad → Oman → Moscow. India Monday open = talks verdict."
     }
   ],
   "projNow": {
@@ -580,9 +585,9 @@
   "scenarios": {
     "headers": [
       "Pre-war",
-      "Now (D58)",
-      "Moscow signal this week",
-      "Stalemate continues",
+      "Now (D59)",
+      "Putin signal positive",
+      "Stalemate deepens",
       "Escalation"
     ],
     "brent": [
@@ -609,8 +614,8 @@
     "sensex": [
       "78,699",
       "76,681",
-      "78,500+",
-      "23,800 Nifty",
+      "78,000+",
+      "23,700 Nifty",
       "70,000"
     ],
     "lpg": [
@@ -623,9 +628,9 @@
     "fii": [
       "-",
       "Outflows",
-      "$14B return",
+      "$12B return",
       "Flat",
-      "$42B out"
+      "$40B out"
     ]
   },
   "radar": [
@@ -679,8 +684,8 @@
     }
   ],
   "assessment": {
-    "headline": "DAY 58, 9PM SUN: ARAGHCHI BACK IN ISLAMABAD. Met Oman Sultan. Iran wants Hormuz TOLL MECHANISM via Oman. Pakistan: contacts alive but fragile. Lebanon 2,496+ killed. Brent easing $99-103. Monday = Moscow signal week.",
-    "body": "Sunday 9 PM IST. Day 58 closes with diplomacy moving — slowly — across four countries.\n\nTHE SUNDAY SEQUENCE — CONFIRMED FULLY\n• Araghchi arrived Islamabad Saturday evening (AFP photo)\n• Saturday: met PM Sharif + Field Marshal Munir — delivered comprehensive Iran demands\n• Sunday morning: flew to Muscat, Oman\n• Sunday: met Sultan Haitham bin Tariq in person (AFP photo)\n• Sunday: called Qatar FM + Saudi FM by phone (AP confirmed)\n• Sunday night: returned to Islamabad (IRNA/CNN/AP)\n• Described visit as \"very fruitful\"\n• Next stop: Moscow (Russia as guarantor)\n\nTHE KEY NEW INTELLIGENCE — HORMUZ TOLL MECHANISM\n• AP (regional official, anonymity): Iran wants Oman to support a toll mechanism for Hormuz\n• Not just reopening — Iran wants to INSTITUTIONALISE sovereignty via tolls\n• Oman would act as neutral administrator\n• This gives Iran ongoing revenue + sovereignty recognition post-deal\n• Maximalist position — far beyond what US/UAE/Saudi Arabia or shipping law accepts\n• This is the permanent Hormuz status question — more complex than nuclear\n\nTHE STATE OF CONTACTS\n• Pakistan officials (AP): \"still alive but fragile\"\n• No US envoy return planned yet\n• Al Jazeera: Araghchi return to Islamabad is \"hopeful sign\" per Pakistani officials\n• Pezeshkian: no \"forced negotiations\" — public hardline maintained\n• Trump: \"call us anytime\" — phone-first US position maintained\n• Both sides are talking through Pakistan, not to each other\n\nLEBANON COMPLICATION\n• Lebanon health ministry: 2,496+ killed since March 2 (steep jump)\n• 177+ children dead\n• Israel \"vigorously attacking\" Hezbollah despite 3-week ceasefire extension\n• Iran has repeatedly linked Hormuz to Lebanon\n• Lebanon escalation = direct Hormuz deal complication\n\nINDIA MONDAY\n• Brent easing to $99-103 (from $107 peak) on talks-alive signal\n• Nifty 23,897 prev close — below 24,000\n• Sensex 76,681 — three-day down week\n• Moscow visit: Araghchi-Lavrov meeting = key signal for week ahead\n• If Moscow produces Russia guarantor framework: Nifty 24,100-24,400\n• If stalemate: Nifty flat to modest recovery 23,700-24,000\n• If Lebanon escalates or Hormuz incident: Nifty below 23,500\n\nVERDICT: The West Asia War's diplomacy is functioning at its most sophisticated level — across Pakistan, Oman, Qatar, Saudi Arabia, and now Russia simultaneously. But Iran's Hormuz toll mechanism demand signals this is not heading toward a quick deal. Iran wants permanent institutionalised sovereignty over Hormuz, not just a temporary ceasefire. That is a fundamentally different negotiation than the nuclear deal framework. India's markets will read this correctly on Monday: the tail risk is lower (diplomacy alive), but the path to Hormuz reopening is longer (toll mechanism = months of negotiation). Brent at $99-103 rather than $107 reflects exactly this: less acute, still elevated."
+    "headline": "DAY 59, 7AM MON: ARAGHCHI MEETS PUTIN TODAY (St Petersburg). SHADOW FLEET LEAKING — 4.6M bbls loaded despite blockade. Iran + Oman as \"only littoral states\" — toll mechanism vs Trump opposition. Brent $99-103. India markets open 9:15 AM.",
+    "body": "Monday 7 AM IST. Day 59. Two key developments reframe the West Asia War this morning.\n\nTHE PUTIN MEETING — THE DAY'S KEY DIPLOMATIC EVENT\n• Araghchi left Islamabad Sunday night heading to St Petersburg\n• Will meet President Putin today (IRNA/ISNA/CNN confirmed)\n• Will \"consult on negotiations, ceasefire and surrounding developments\"\n• Russia as guarantor is the bridge for Iran's security guarantee demand\n• If Putin signals Russia will guarantee Iran's post-deal security: removes a core Iranian objection\n• Voice of Emirates: meeting aimed at \"formulating a joint position\" and signalling strategic depth\n• Watch for: any Lavrov-Araghchi/Putin-Araghchi readout on Russia's guarantor role\n\nTHE SHADOW FLEET REVELATION — BLOCKADE IS LEAKING\n• TankerTrackers.com satellite data (Iran International, 29 min ago): Iran loaded 4.6M bbls despite blockade\n• Additional 4M barrels may have crossed the blockade line\n• This tempers Bessent's \"wells shuttering in 2-3 days\" claim significantly\n• Iran's economic pain: real but not as acute as Washington projected\n• US is intercepting vessels (37 total redirected) but cannot stop every shadow tanker\n• For India: Brent cap is lower than pure-blockade scenario suggests\n• For oil markets: blockade effectiveness is ~70%, not 100%\n\nTHE HORMUZ SOVEREIGNTY GAP — WIDER THAN EXPECTED\n• Araghchi on X: Iran and Oman as \"only littoral states\" discussed Hormuz safe transit\n• UK House of Commons Library: Trump explicitly opposes Iran's toll mechanism\n• Iran wants: institutionalised Hormuz control with toll revenue\n• Trump wants: unconditional free navigation\n• Oman's response to hosting the toll mechanism: unknown\n• This is a permanent sovereignty question — more difficult than the nuclear deal\n\nTHE DIPLOMATIC ARCHITECTURE AT DAY 59\n• Iran: Araghchi has visited Pakistan (twice), Oman (Sultan meeting), Qatar+Saudi (calls), Moscow (Putin today)\n• US: Trump cancelled Islamabad trip, phone-first, no new envoy trip planned\n• Pakistan: mediating with tireless effort — infrastructure on standby\n• Russia: meeting today — guarantor role being finalised\n• Oman: toll mechanism ask pending response\n• Lebanon: fragile — 2,496+ killed, Israel striking \"vigorously\"\n\nINDIA MONDAY OPEN — 9:15 AM IST\n• Brent ~$99-103: shadow fleet + talks-alive easing from $107 peak\n• Nifty 23,897 prev close (below 24,000), Sensex 76,681\n• Infosys Q4 PAT +21% beat residual positive — IT sector possible recovery\n• Shadow fleet data = Brent cap = reduced OMC hike urgency\n• 45% Putin positive → Nifty 24,000-24,300\n• 40% stalemate → Nifty 23,700-24,000\n• 15% incident → below 23,500\n\nVERDICT: The two new facts that matter most this morning: (1) The shadow fleet is leaking the US blockade — Iran has loaded 8.6M barrels despite 37 ships being redirected. The blockade is effective but not airtight. This changes the timeline for economic collapse of Iran's oil sector. (2) Araghchi is meeting Putin today in St Petersburg. Russia's role as a security guarantor is the missing piece in any deal architecture — if Putin agrees to guarantee Iran's security post-deal, the nuclear concession becomes politically possible inside Iran. India wakes up to Brent at $99-103 (easing), diplomacy alive (Putin meeting), and its markets opening in 2 hours to price all of this."
   },
   "featured": [
     {
