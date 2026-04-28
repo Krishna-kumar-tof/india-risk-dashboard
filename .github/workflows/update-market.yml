@@ -2,39 +2,43 @@ name: Update Market Data
 
 on:
   schedule:
-    # Runs twice daily: 6:30 AM IST (1:00 UTC) and 6:30 PM IST (13:00 UTC)
-    - cron: '0 1 * * *'
-    - cron: '0 13 * * *'
-  workflow_dispatch: # Allow manual trigger from GitHub UI
-
-permissions:
-  contents: write
+    - cron: '30 3 * * *'   # 9:00 AM IST
+    - cron: '30 9 * * *'   # 3:00 PM IST
+  workflow_dispatch:
 
 jobs:
-  update-data:
+  update-market-data:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Fetch market data
-        run: node scripts/fetch-market-data.mjs
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
 
-      - name: Check for changes
-        id: check
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Fetch market data and update JSON
+        run: python scripts/fetch_market_data.py
+
+      - name: Configure git
         run: |
-          git diff --quiet public/market-data.json || echo "changed=true" >> $GITHUB_OUTPUT
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Commit and push
-        if: steps.check.outputs.changed == 'true'
+      - name: Pull latest changes before pushing
         run: |
-          git config user.name "Market Data Bot"
-          git config user.email "bot@india-risk-dashboard"
+          git pull origin main --rebase
+
+      - name: Commit and push if changed
+        run: |
           git add public/market-data.json
-          git commit -m "📊 Auto-update market data — $(date -u +'%Y-%m-%d %H:%M UTC')"
-          git push
+          git diff --staged --quiet || git commit -m "chore: auto-update market data $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push origin main
