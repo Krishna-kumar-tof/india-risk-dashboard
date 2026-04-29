@@ -2,9 +2,12 @@ name: Update Market Data
 
 on:
   schedule:
-    - cron: '30 3 * * *'   # 9:00 AM IST
-    - cron: '30 9 * * *'   # 3:00 PM IST
+    - cron: '0 */4 * * *'   # Every 4 hours UTC
   workflow_dispatch:
+
+# CRITICAL — without this, GITHUB_TOKEN cannot push commits
+permissions:
+  contents: write
 
 jobs:
   update-market-data:
@@ -17,16 +20,13 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
         with:
-          python-version: '3.11'
-
-      - name: Install dependencies
-        run: pip install requests
+          node-version: '20'
 
       - name: Fetch market data and update JSON
-        run: python scripts/fetch_market_data.py
+        run: node scripts/fetch-market-data.mjs
 
       - name: Configure git
         run: |
@@ -34,11 +34,14 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
       - name: Pull latest changes before pushing
-        run: |
-          git pull origin main --rebase
+        run: git pull origin main --rebase
 
       - name: Commit and push if changed
         run: |
           git add public/market-data.json
-          git diff --staged --quiet || git commit -m "chore: auto-update market data $(date -u '+%Y-%m-%d %H:%M UTC')"
-          git push origin main
+          if git diff --staged --quiet; then
+            echo "No changes to market-data.json — skipping commit"
+          else
+            git commit -m "chore: auto-update market data $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push origin main
+          fi
