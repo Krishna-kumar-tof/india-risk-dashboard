@@ -1,95 +1,90 @@
 {
-  "_updated": "April 28, 2026 — 9:30 PM IST",
-  "_day": 60,
+  "_updated": "April 29, 2026 — 9:30 AM IST",
+  "_day": 61,
   "_phase": "BLOCKADE",
-  "_note": "Verified: PBS/AP, NPR, CBS News, CNN, Times of Israel, WSJ, Al Jazeera, Business Standard, HDFC SKY, Gulf News, CNBC. NO Wikipedia. DAY 60 TUE 9:30PM IST. TWO-DAY WRAP (Apr 27-28): APR 27: IRAN PROPOSED Hormuz reopening + war end — DEFER nuclear to later (AP: two regional officials). Trump NSC reviewed. Sensex +639 to 77,303. Nifty +195 to 24,093. Araghchi MET PUTIN St Petersburg 1.5hr. Putin received Mojtaba Khamenei message. Brent $108.36. UAE LEAVING OPEC Friday. UN Guterres: GLOBAL FOOD EMERGENCY warning. APR 28: TRUMP NOT SATISFIED — nuclear not addressed (NYT). WSJ: counterproposal coming in days. RUBIO: unacceptable. VANCE privately worried weapons depletion (The Atlantic). Iran using RAIL + CASPIAN + JUNK STORAGE for crude (WSJ). Brent $111.49 — 7th straight gain. Sensex -417 to 76,887. Nifty -97 to 23,996 (below 24k). Coal India +2.75% top Nifty. US clearing mines. West Asia War Day 60.",
+  "_note": "Verified: CBS News live (35min ago), Business Standard (1hr ago), Al Jazeera, House of Commons Library, Windward/MarineTraffic. NO Wikipedia sourced facts directly. DAY 61 WED 9:30AM IST: JAPANESE TANKER IDEMITSU MARU passed Hormuz with Iran coordination — first coordinated passage since closure (CBS/Tasnim). 2M bbl Saudi crude. Unclear if Japan paid toll to Iran. GIFT Nifty +23.5 at 24,092 — marginal positive open. Brent $111.6 (+0.36%). Iran BANNED STEEL EXPORTS effective April 26 (CBS/IRGC customs). Iran billboard Tehran: \"Strait of Hormuz remains closed.\" 4 ships passed without incident Tuesday. Israel evacuating 16 towns/villages in Lebanon. WH counterproposal STILL NOT DELIVERED. Trump opposed Iran toll mechanism. IEA: \"greatest global energy security challenge in history.\" Business Standard: Brent $114 signals extremely tight physical oil market. India OMC hike IMMINENT. West Asia War Day 61.",
   "ticker": [
-    "📋 IRAN PROPOSED: Reopen Hormuz + end war in exchange for US lifting blockade — DEFER nuclear talks to later phase (AP: two regional officials). Pakistan delivered to US. Trump called it 'much better.'",
-    "❌ TRUMP NOT SATISFIED — nuclear not addressed (NYT). WSJ: White House making COUNTERPROPOSAL in coming days. Rubio: 'unacceptable — nuclear fundamental issue must be confronted.'",
-    "🤝 ARAGHCHI MET PUTIN in St Petersburg — 1.5hr meeting (NPR/AFP). Putin received message from Supreme Leader Mojtaba Khamenei. Putin: 'Will do everything to help secure peace.' Russia as guarantor confirmed.",
-    "🛢️ BRENT $111.49 Tuesday (+3%) — 7th straight session gain. WTI $99.75. Highest since April 7. Trump dissatisfied = no quick deal = oil stays elevated. India OMC hike IMMINENT.",
-    "📊 SENSEX: Mon +639 to 77,303 (Iran proposal rally). Tue -417 to 76,887 (Trump rejection). Nifty 23,996 — back below 24,000. Net two-day: -206 pts.",
-    "🇦🇪 UAE LEAVING OPEC FRIDAY — will pump freely. Partial offset to Hormuz disruption. US CLEARING MINES in Hormuz (AP). Iran using rail + Caspian + junk storage for crude (WSJ).",
-    "🌍 UN GUTERRES: Hormuz standoff could trigger GLOBAL FOOD EMERGENCY. Dozens of countries at Security Council called for 'urgent and unimpeded reopening.' Bahrain: closure is 'violation of international law.'",
-    "⚔️ VANCE privately worried war depleting US weapons stockpiles, Pentagon giving Trump 'rosy picture' (The Atlantic). Germany's Merz: US 'being humiliated' by Iran. EU: too early to ease Iran sanctions.",
-    "🇮🇳 India: Brent $111 = OMC petrol/diesel hike Rs 4-8/L IMMINENT. Coal India +2.75% top Nifty Tue. Kharif fertiliser at risk if Hormuz closed through May. WH counterproposal = next market catalyst.",
-    "📅 NEXT CATALYST: White House counterproposal to Iran in coming days. If bridges gap → Brent falls $10-15, Nifty 24,200-24,500. If maximalist → Brent $112-118, Nifty 23,500-24,000."
+    "🚢 JAPANESE TANKER IDEMITSU MARU passed Hormuz WITH IRAN COORDINATION — first coordinated passage since closure. 2M bbl Saudi crude from Ras Tanura. Unclear if Japan paid toll to Iran. CBS News/Tasnim confirmed.",
+    "📊 GIFT NIFTY +23.5 at 24,092 — marginal positive open Wednesday. Brent $111.6 (+0.36%). WH counterproposal still not delivered. Markets watching for US response to Iran's decoupled proposal.",
+    "🚫 IRAN BANNED STEEL EXPORTS effective April 26 — customs authorities cited airstrikes targeting steel industry. Steel strategic for missiles, drones, ships — signals Iran protecting military-industrial capacity.",
+    "🏙️ BILLBOARD IN TEHRAN: 'The Strait of Hormuz remains closed' — Iran's public position unchanged. But 4 ships passed Tuesday + Idemitsu Maru coordinated passage signals selective Iranian control, not full closure.",
+    "🛢️ BRENT $111.6 Wednesday open (+0.36%). Business Standard: 'At $114, market signals immediate barrels scarce, inventories depleted, physical oil balance in far tighter regime than headline price alone suggests.'",
+    "🇬🇧 UK HOUSE OF COMMONS Library confirmed: Trump opposed Iranian attempts to charge tolls for Hormuz passage. Iran FM Araghchi: Iran intends to 'devise a new arrangement for secure maritime traffic' — toll system push.",
+    "🇮🇱 ISRAEL evacuating 16 towns/villages in Lebanon ahead of military operations — 10 miles north of border. IDF ground force occupying swath of southern Lebanon. Lebanon ceasefire increasingly nominal.",
+    "💬 WH COUNTERPROPOSAL still not delivered. Al Jazeera analyst: Iran's proposal 'reasonable — both Tehran and Washington need to focus on reforming the Strait first.' IEA: greatest energy security challenge in history.",
+    "🇮🇳 India: GIFT Nifty +23 = marginal open. OMC petrol/diesel hike imminent at Brent $111+. Idemitsu Maru passage = Japan may have paid Iran toll — sets precedent India must monitor. Kharif fertiliser risk growing.",
+    "📅 NEXT: White House counterproposal to Iran — the single biggest market catalyst. If Hormuz-first accepted: Brent -$15 in a session. If rejected or delayed: Brent $115-120. India markets entirely hostage to this signal."
   ],
   "whatChanged": {
-    "label": "WHAT CHANGED — APR 27-28, 9:30 PM IST (DAY 60) — TWO-DAY WRAP",
+    "label": "WHAT CHANGED — APR 29, 9:30 AM IST (DAY 61) — WEDNESDAY MORNING",
     "items": [
       {
-        "color": "amber",
-        "bold": "IRAN PROPOSED: Reopen Hormuz + end war — DEFER nuclear to later. Staged two-track proposal.",
-        "text": "AP (Monday, two regional officials): Iran offered to reopen the Strait of Hormuz and end the war in exchange for US lifting its naval blockade, while deferring nuclear talks to a later phase. Reuters (senior Iranian officials): staged approach — first end war with no-restart guarantees, then resolve blockade + Hormuz, nuclear later. Most concrete formal proposal since February 28. Nuclear decoupling is deliberate — Iran sees Hormuz as a ceasefire/sovereignty issue, nuclear as a separate long-term negotiation. Trump told reporters Saturday Iran sent a \"much better\" proposal. WH confirmed NSC reviewed it Monday."
-      },
-      {
-        "color": "red",
-        "bold": "TRUMP NOT SATISFIED — nuclear not addressed. WSJ: White House counterproposal coming in days.",
-        "text": "NYT (briefed on Monday NSC meeting): Trump told advisers he is not satisfied — nuclear programme not addressed. Reuters: Trump wants nuclear at the start, not deferred. WSJ: Trump did NOT reject outright — White House will likely make a counterproposal in coming days. WH: \"will not negotiate through press, clear about red lines.\" Rubio (Fox News): \"fundamental issue of nuclear must still be confronted — can't let them buy time.\" CNN: unlikely to accept as-is — lifting blockade without nuclear resolution weakens US leverage. Vance (The Atlantic): privately worried war is depleting US weapons stockpiles and Pentagon giving Trump overly rosy picture."
-      },
-      {
         "color": "green",
-        "bold": "ARAGHCHI MET PUTIN in St Petersburg — 1.5hr. Putin confirmed Mojtaba Khamenei message.",
-        "text": "NPR (updated April 27) and AFP photo confirmed: Araghchi met Putin at Boris Yeltsin Presidential Library, St Petersburg. 1.5hr meeting. Also met Lavrov and Admiral Kostyukov (Russia military intelligence chief). Putin (TASS): \"Will do everything so that peace can be achieved as soon as possible.\" Putin confirmed receiving message from Supreme Leader Mojtaba Khamenei — who has not been seen publicly since becoming Supreme Leader. Araghchi: meeting \"very good,\" \"very good ideas put forward,\" \"very good grounds for continued cooperation.\" Kremlin: \"importance of this conversation is difficult to overestimate.\" Russia confirmed as deal guarantor."
-      },
-      {
-        "color": "red",
-        "bold": "BRENT $111.49 Tuesday — 7th straight session gain. India OMC hike imminent.",
-        "text": "CNBC confirmed Tuesday: Brent $111.49 (+~3%), WTI $99.75 — 7th consecutive session gain. Highest since April 7. Trigger: Trump dissatisfied = no quick deal = no Hormuz opening = oil stays elevated. CNBC energy analyst Lipow: even if hostilities ended immediately, oil markets take 4-6 months to stabilise due to mines, tanker congestion, production restart lags. For India: Brent $111 = OMC (Indian Oil, BPCL, HPCL) absorbing unsustainable losses. Petrol/diesel hike of Rs 4-8/litre is now imminent — most significant consumer price impact of the war for India so far."
+        "bold": "JAPANESE TANKER IDEMITSU MARU passed Hormuz with Iran coordination — first since closure.",
+        "text": "CBS News (live blog, 35 minutes ago) confirmed: a Japanese oil tanker \"passed through the Strait of Hormuz with coordination from Iran,\" citing Tasnim (semi-official Iranian news agency linked to IRGC). The Idemitsu Maru departed from Saudi Arabia's Ras Tanura industrial port on April 17 and crossed Hormuz Tuesday morning carrying 2 million barrels of crude oil. CBS confirmed the passage via tracking data. Tasnim said the ship was carrying 2 million barrels of crude. Crucially: \"it was unclear whether the ship's Japanese owners paid a fee to Iran for safe passage.\" This is potentially the first instance of Iran's Hormuz toll mechanism in practice — Japan may have paid Iran to let the tanker through. If confirmed as a toll payment, it sets a precedent that directly affects India's crude imports: India may need to pay Iran for safe passage too."
       },
       {
         "color": "amber",
-        "bold": "Sensex Mon +639, Tue -417. Net -206. Nifty 23,996 — below 24,000 again.",
-        "text": "Business Standard: Monday April 27 — Sensex +639 (+0.83%) to 77,303, Nifty +195 (+0.81%) to 24,093, on Iran Hormuz proposal. MidCap +1.47%, SmallCap +1.90%. Tuesday April 28 — Sensex -417 (-0.54%) to 76,887, Nifty -97 to 23,996, back below 24,000. Coal India +2.75% top Nifty performer Tuesday. Nifty Oil & Gas and Metal outperformed. PSU Bank and Nifty Bank worst. The perfect rally-reversal: up on Iran proposal, down on Trump rejection. Markets entirely hostage to diplomatic signal."
-      },
-      {
-        "color": "amber",
-        "bold": "UAE leaving OPEC Friday. US clearing mines. Iran using rail + Caspian for crude (WSJ).",
-        "text": "CNBC: UAE leaving OPEC starting Friday — had been secretly exceeding quotas, will now pump freely. Partial offset to Hormuz disruption. AP: US says it is clearing Iranian mines in Hormuz in \"latest push to open the Strait.\" WSJ: Iran resorting to rail delivery and \"junk storage\" sites for crude — oil shipping cratered since US blockade began April 13. Six tankers forced back in recent days. Tehran Chamber of Commerce: Iran increasing Caspian Sea imports as alternative route. Iran's oil sector under existential pressure — Kharg Island storage near capacity, wells approaching shut-in threshold."
+        "bold": "GIFT Nifty +23.5 at 24,092 — marginal positive open. Brent $111.6 (+0.36%).",
+        "text": "Business Standard (live blog, 1 hour ago) confirmed: GIFT Nifty futures quoted at 24,092, up 0.1% (+23.50 points) — indicating a marginal, lacklustre open for Indian markets Wednesday April 29. Asian markets mixed: Hang Seng +1.15%, S&P ASX -0.23%, Kospi -0.24%. Brent crude +0.36% to $111.6/barrel. Wall Street declined overnight — S&P 500 -0.49%, Nasdaq -0.90% (OpenAI revenue concerns, Iran war). Business Standard analyst note: \"Brent at $114 is not just a price spike — the market is telling us immediate barrels are scarce, inventories are being pulled down, and the physical oil balance has moved into a regime far tighter than the headline price alone suggests.\" India markets bracing for OMC petrol/diesel hike announcement. OMC hike of Rs 4-8/L now widely expected this week."
       },
       {
         "color": "red",
-        "bold": "UN Guterres: Global food emergency warning. Germany: US \"humiliated.\" EU won't ease Iran sanctions.",
-        "text": "Al Jazeera: UN Guterres warned Hormuz standoff could trigger \"global food emergency\" at Security Council Monday. Dozens of countries called for \"urgent and unimpeded reopening.\" Bahrain: closure is \"violation of international law.\" Germany's Merz: US is being \"humiliated\" by Iran in the standoff. EU Commission President von der Leyen: too early to ease EU sanctions on Iran — must see \"fundamental and radical changes.\" Israel's army chief Zamir: 2026 \"likely to be another year of fighting\" for Israel. These signals confirm the war's structural duration — not a quick resolution."
+        "bold": "IRAN BANNED STEEL EXPORTS effective April 26. Billboard: \"Strait of Hormuz remains closed.\"",
+        "text": "CBS News (live blog) confirmed: Iran banned the export of steel products effective April 26 — local media cited customs authorities issuing a \"directive regarding the prohibition of the export\" of steel including slab, sheet and strip products. CBS: \"Steel is a strategically important material, vital for a range of industries as well as military production, including missiles, drones and ships.\" Iran is protecting its military-industrial capacity while simultaneously using steel reserves for post-war reconstruction planning. CBS also confirmed a billboard in Tehran's Revolution Square reading \"The Strait of Hormuz remains closed\" — Iran's official public position unchanged, even as selective coordinated passages (Idemitsu Maru) are occurring. The gap between Iran's public messaging and its quiet operational decisions on specific vessels is the clearest sign of Iran's Hormuz control doctrine."
+      },
+      {
+        "color": "amber",
+        "bold": "WH counterproposal still not delivered. Trump opposed Iran toll mechanism. IEA: greatest energy crisis ever.",
+        "text": "Al Jazeera confirmed: WH counterproposal to Iran's decoupled proposal has not yet been delivered as of Wednesday morning. The House of Commons Library briefing (updated Tuesday) confirmed: \"Trump has opposed Iranian attempts to charge tolls for vessels to use the strait.\" However, Iran FM Araghchi told media Iran \"intends to devise a new arrangement to ensure secure maritime traffic through the waterway\" — Iran's toll mechanism remains its stated goal. Al Jazeera analyst Negar Mortazavi (Center for International Policy): \"Iran's proposal looks reasonable — both Tehran and Washington need to focus on reforming the Strait first. Tehran will not move if US doesn't lift its blockade, and Washington will not do so if Iran does not open the strait. So this can be a good first step.\" IEA head: the Hormuz crisis is \"the greatest global energy security challenge in history.\""
+      },
+      {
+        "color": "red",
+        "bold": "ISRAEL evacuating 16 Lebanon towns/villages. Lebanon ceasefire increasingly nominal.",
+        "text": "CBS News (live blog) confirmed: \"In its latest warning to Lebanese civilians to flee their homes, Israel's military told people in 16 towns and villages in the neighboring country to evacuate on Tuesday ahead of military operations. Most of the locations appeared to be about 10 miles north of the border between northern Israel and southern Lebanon, over which Israeli forces have sent a significant ground force.\" Hezbollah and Israel \"have accused each other of violating a tenuous ceasefire.\" CBS separately confirmed smoke billowing from Khiam village (AFP). Iran has explicitly linked Hormuz to Lebanon throughout the war — the Lebanon escalation is the critical complication for any Hormuz deal. If Lebanon ceasefire fully collapses: Iran would have justification to escalate Hormuz beyond selective coordination and back to full closure."
+      },
+      {
+        "color": "amber",
+        "bold": "4 ships passed Hormuz Tuesday without incident. Selective Iran coordination emerging.",
+        "text": "CBS News confirmed: \"All four appeared to have passed through the Strait of Hormuz without incident by Tuesday, less than a week after Iran's IRGC attacked and seized at least two commercial ships in the same part of the narrow waterway.\" Combined with the Idemitsu Maru coordinated passage, this signals Iran is practising selective Hormuz control — not blanket closure. Iran is distinguishing between ships that coordinate (and potentially pay) and those that don't. This is Iran's Hormuz toll mechanism in embryonic form: those who pay or coordinate get through; those who don't are stopped or seized. For India: Indian vessels may need to coordinate with and potentially pay Iran for safe passage — this is a structural change in how India accesses Gulf crude, regardless of any deal."
       },
       {
         "color": "cyan",
-        "bold": "India Day 60: Crude buffer exhausted. Kharif at risk. WH counterproposal = next catalyst.",
-        "text": "Day 60: India's crude buffer (6-8 weeks originally) is now fully exhausted. Every barrel is from spot purchases at $111 Brent. OMC hike Rs 4-8/L petrol/diesel is imminent. Kharif fertiliser season (June-August planting): if Hormuz stays closed through May — which now looks likely — India faces fertiliser shortfall for its summer crop. Coal India +2.75%, Nifty Oil & Gas and Metal are the only sectors working in this environment. The White House counterproposal (expected in days) is the next market catalyst: If it proposes Hormuz-first with nuclear conditions: Brent falls $10-15, Nifty 24,200-24,500. If maximalist (nuclear-everything together): Brent $112-118, Nifty 23,500-24,000."
+        "bold": "India Wednesday: Marginal open, OMC hike imminent, Japan tanker precedent crucial to monitor.",
+        "text": "India markets open at 9:15 AM IST with GIFT Nifty pointing to marginal gains at 24,092 (+23.5 pts). Three key India-specific developments Wednesday: (1) OMC petrol/diesel hike of Rs 4-8/L imminent — Indian Oil, BPCL, HPCL cannot absorb losses at Brent $111+ for much longer. An announcement could come any day this week. (2) Idemitsu Maru precedent: if Japan paid Iran a toll for Hormuz passage, India must decide whether to do the same. India imports ~4.8 million barrels/day through Hormuz — even a $1/barrel toll = ~$5 million/day additional cost = Rs 15,000 Cr/year. (3) WH counterproposal remains the primary market catalyst — until it arrives, markets will trade cautiously. MOFSL Siddhartha Khemka: \"Markets may maintain gradual upmove, supported by hopes of a resolution.\" Q4 earnings season continuing Wednesday."
       }
     ]
   },
   "deaths": "6,600+",
-  "deathsSub": "~3,375+ Iran, 2,496+ Lebanon (Israel \"vigorously attacking\" Hezbollah), 99 Iraq, 23+ Israel, 13 US (+2 noncombat), 35+ Gulf. UN Guterres: global food emergency warning from Hormuz closure.",
+  "deathsSub": "~3,375+ Iran, 2,496+ Lebanon (Israel evacuating 16 more towns/villages, Lebanon ceasefire increasingly nominal), 99 Iraq, 23+ Israel, 13 US (+2 noncombat), 35+ Gulf. IEA: greatest global energy security challenge in history.",
   "econ": {
     "sensex": "76,887",
-    "sensexDelta": "APR 28 CLOSE: -417 (-0.54%). Mon Apr 27: +639 (Iran proposal rally). Net 2-day: -206 pts.",
-    "sensexSub": "Nifty 23,996 — below 24,000. Coal India +2.75%. Oil & Gas + Metal outperformed. Banks worst.",
-    "vix": "~24-26 (elevated, 7th straight Brent gain)",
-    "vixDelta": "Brent $111 — no quick deal. OMC hike imminent. WH counterproposal in days = next VIX direction trigger.",
-    "fpi": "FII outflows continuing. Coal India, Nifty Metal, Oil & Gas attracting buying.",
-    "fpiDelta": "WH counterproposal in days = next FII catalyst. Until then: defensive. OMC hike adds inflation pressure.",
-    "wealth": "BSE market cap ~Rs 442L Cr. OMC hike imminent. Kharif at risk. India crude buffer exhausted at Day 60.",
-    "analysis": "DAY 60 TUE 9:30PM IST. IRAN PROPOSED Hormuz reopening + war end, defer nuclear (AP). TRUMP NOT SATISFIED — nuclear must be addressed first (NYT/Reuters). WSJ: WH counterproposal coming in days. Rubio: unacceptable. Araghchi met Putin 1.5hr — Putin received Mojtaba Khamenei message, will help secure peace. Brent $111.49 (+3%) — 7th straight gain. Sensex Mon +639 → Tue -417 = net -206. Nifty 23,996 (below 24k). UAE leaving OPEC Friday. US clearing mines. Iran using rail + Caspian for crude. UN: global food emergency warning. Vance worried weapons depletion. India crude buffer exhausted. OMC hike Rs 4-8/L IMMINENT. Next catalyst: WH counterproposal."
+    "sensexDelta": "PREV CLOSE APR 28: -417. GIFT Nifty +23.5 at 24,092 = marginal positive open Wednesday.",
+    "sensexSub": "Brent $111.6. OMC hike imminent. Idemitsu Maru passage = selective Hormuz opening. WH counterproposal = primary catalyst.",
+    "vix": "~22-24 (slightly easing on partial Hormuz passage signal)",
+    "vixDelta": "Idemitsu Maru coordinated passage + 4 more ships Tuesday = partial positive. WH counterproposal timing = next VIX direction trigger.",
+    "fpi": "Coal India, Oil & Gas, Metal sectors attracting buying. Financials and IT subdued.",
+    "fpiDelta": "Q4 earnings season continuing. MOFSL: gradual upmove possible on resolution hopes. OMC hike = inflation headwind.",
+    "wealth": "BSE market cap ~Rs 442L Cr. OMC hike this week = consumer inflation impact. Kharif fertiliser risk critical through May.",
+    "analysis": "DAY 61 WED 9:30AM IST. Japanese tanker Idemitsu Maru passed Hormuz with Iran coordination (CBS/Tasnim) — first coordinated passage since closure. 2M bbl Saudi crude. Unclear if Japan paid toll. 4 more ships passed Tuesday without incident. Iran banned steel exports April 26. Billboard Tehran: \"Strait remains closed.\" GIFT Nifty +23.5 at 24,092 = marginal open. Brent $111.6 (+0.36%). WH counterproposal still not delivered. Trump opposed Iran toll mechanism. IEA: greatest energy crisis in history. Israel evacuating 16 Lebanon towns. Business Standard: at $114 Brent, physical oil market in tight regime. India: OMC hike imminent, Idemitsu toll precedent crucial, WH counterproposal = primary catalyst."
   },
   "hormuzStatus": {
-    "status": "HORMUZ BLOCKED — BRENT $111. DECOUPLED DEAL PROPOSED. TRUMP NOT SATISFIED. COUNTERPROPOSAL COMING.",
+    "status": "SELECTIVE IRAN CONTROL — IDEMITSU MARU COORDINATED. 4 MORE SHIPS TUESDAY. WH COUNTERPROPOSAL AWAITED.",
     "preWarFlow": "130-160 ships/day",
-    "currentFlow": "Near-zero commercial. Iran proposed Hormuz reopening + war end (defer nuclear). Trump not satisfied. US clearing mines. Iran using rail + Caspian + junk storage for crude. UAE leaving OPEC Friday. Even a deal today: 4-6 months to normalise.",
-    "reduction": "95%+ disruption. Brent $111 — 7th session gain. UAE leaving OPEC. UN: global food emergency. Mine clearing even after deal = 4-6 months.",
+    "currentFlow": "Selective coordinated passages. Idemitsu Maru (2M bbl) passed with Iran coordination Tuesday. 4 more ships passed without incident. Iran billboard: \"remains closed.\" Unclear if toll paid. WH counterproposal awaited.",
+    "reduction": "90%+ disruption — but selective coordination emerging. Iran distinguishing between coordinated (pay?) and non-coordinated vessels. IEA: greatest energy security challenge in history.",
     "indianVesselsNear": 8,
     "indianSeafarers": 280,
     "indianTransited": 0,
-    "totalShipsWaiting": "20,000+ mariners stranded. India 280 seafarers. India crude buffer exhausted. OMC hike imminent. Kharif fertiliser at risk.",
-    "lastTransit": "Near-zero crossings. US clearing mines. Iran 6 tankers forced back, using rail/Caspian. Even deal = 4-6 months normalisation (mines, congestion, production).",
-    "indianNavyEscort": "Op Urja Suraksha HIGH ALERT. India crude buffer exhausted at Day 60. OMC hike imminent. WH counterproposal in days = next catalyst.",
-    "headline": "Brent $111 — 7th straight gain. Iran proposed decoupled deal (Hormuz first, nuclear later). Trump not satisfied. WH counterproposal coming. UAE leaving OPEC. India OMC hike imminent."
+    "totalShipsWaiting": "20,000+ mariners stranded. India 280 seafarers. Idemitsu toll precedent: India may need to coordinate/pay Iran for crude passage. 4.8M bbl/day Indian imports via Hormuz corridor.",
+    "lastTransit": "Idemitsu Maru (Japan, 2M bbl) passed Tuesday with Iran coordination — first coordinated passage since closure. 4 more ships passed without incident. Unclear if toll paid.",
+    "indianNavyEscort": "Op Urja Suraksha HIGH ALERT. Idemitsu Maru precedent critical for India — may need to coordinate/pay Iran. OMC hike imminent. WH counterproposal = next India market catalyst.",
+    "headline": "Japanese tanker Idemitsu Maru coordinated with Iran to pass Hormuz — first such passage since closure. Unclear if toll paid. 4 more ships Tuesday without incident. Selective Iran control emerging."
   },
   "hormuzEvents": [
     {
-      "d": "Apr 27-28",
-      "e": "DAY 59-60 TWO-DAY WRAP. APR 27: IRAN PROPOSED Hormuz reopening + war end, defer nuclear (AP: two regional officials). Sensex +639 to 77,303. ARAGHCHI MET PUTIN St Petersburg (AFP/NPR). Putin received Mojtaba Khamenei message. Brent $108.36. UAE leaving OPEC Friday. UN Guterres: global food emergency. APR 28: TRUMP NOT SATISFIED (NYT). WSJ: counterproposal coming in days. Rubio: unacceptable. Brent $111.49 — 7th straight gain. Sensex -417 to 76,887. Nifty 23,996 (below 24k). Coal India +2.75%. US clearing mines. Iran rail + Caspian + junk storage. Vance: worried weapons depletion. India OMC hike IMMINENT."
+      "d": "Apr 29 AM",
+      "e": "DAY 61 WED 9:30AM IST. JAPANESE TANKER IDEMITSU MARU passed Hormuz with IRAN COORDINATION — first since closure (CBS/Tasnim). 2M bbl Saudi crude from Ras Tanura. Unclear if Japan paid toll. 4 more ships passed Tuesday without incident. Iran BANNED STEEL EXPORTS effective April 26 (CBS/IRGC customs). Tehran billboard: \"Strait remains closed.\" GIFT Nifty +23.5 at 24,092 — marginal open. Brent $111.6 (+0.36%). WH counterproposal still not delivered. Trump opposed toll mechanism. Israel evacuating 16 Lebanon towns. IEA: greatest energy crisis in history. India OMC hike IMMINENT."
     },
     {
       "d": "Apr 28 AM",
@@ -192,46 +187,40 @@
   ],
   "military": [
     {
-      "t": "IRAN PROPOSED: Reopen Hormuz + End War — DEFER Nuclear to Later Phase.",
-      "lv": "BREAKING",
-      "color": "amber",
-      "d": "AP (Monday, two regional officials): Iran offered to reopen Hormuz and end the war in exchange for US lifting its naval blockade, while deferring nuclear talks to a later phase. Reuters (senior Iranian officials): staged approach — first end war with guarantees it cannot restart; second resolve blockade + Hormuz; nuclear later. Pakistan delivered the proposal to the US. This is Iran's most concrete formal proposal since February 28. The nuclear decoupling is deliberate — Hormuz is a ceasefire/sovereignty issue; nuclear is a separate long-term negotiation. Trump told reporters Saturday Iran sent a \"much better\" proposal. WH confirmed Trump and NSC discussed it Monday."
-    },
-    {
-      "t": "TRUMP NOT SATISFIED — Nuclear Not Addressed. WSJ: White House Counterproposal Coming in Days.",
-      "lv": "BREAKING",
-      "color": "red",
-      "d": "NYT (people briefed on Monday NSC meeting): Trump told advisers he is not satisfied — nuclear not addressed. Reuters: Trump wants nuclear at the start, not deferred. WSJ: Trump did NOT reject outright — White House will likely make a counterproposal in coming days. WH: \"will not negotiate through press, clear about red lines.\" Rubio (Fox News): \"Fundamental nuclear issue must be confronted. Iran is a skilled negotiator trying to buy time. Any deal must definitively prevent Iran sprinting towards nuclear weapon.\" Vance (The Atlantic): privately worried war is depleting US weapons stockpiles and Pentagon giving Trump rosy picture of the war."
-    },
-    {
-      "t": "ARAGHCHI MET PUTIN — 1.5hr. Putin Received Message From Mojtaba Khamenei. Russia as Guarantor.",
+      "t": "IDEMITSU MARU Passed Hormuz with Iran Coordination — First Coordinated Passage Since Closure.",
       "lv": "BREAKING",
       "color": "green",
-      "d": "NPR and AFP photo confirmed: Araghchi met Putin at Boris Yeltsin Presidential Library, St Petersburg Monday. 1.5hr meeting. Also met Lavrov + Admiral Kostyukov (Russia military intelligence). Putin (TASS): \"Will do everything so that peace can be achieved as soon as possible.\" Putin confirmed receiving message from Supreme Leader Mojtaba Khamenei — not seen publicly since becoming Supreme Leader. Araghchi: \"very good\" meeting, \"very good ideas put forward,\" \"very good grounds for continued cooperation.\" Kremlin: \"importance of this conversation is difficult to overestimate.\" Russia positioning as deal guarantor — critical for Iran's security guarantee requirement in any nuclear agreement."
+      "d": "CBS News (live blog, 35 minutes ago) and Tasnim (Iran semi-official IRGC-linked) confirmed: Japanese oil tanker Idemitsu Maru \"passed through the Strait of Hormuz with coordination from Iran.\" Departed from Saudi Arabia's Ras Tanura on April 17. CBS confirmed via tracking data the vessel crossed Tuesday morning carrying 2 million barrels of crude oil. Crucially: \"It was unclear whether the ship's Japanese owners paid a fee to Iran for safe passage.\" This is the first confirmed coordinated Iran-approved passage since the strait closure. If Japan paid a toll: Iran's Hormuz toll mechanism is now operational — not just a negotiating position. For India: India imports ~4.8 million barrels/day through the Hormuz corridor. If a toll system is established, India may need to pay Iran for each tanker — at $1-3/barrel that is Rs 15,000-45,000 Cr/year in additional costs."
     },
     {
-      "t": "BRENT $111.49 — 7th Straight Session Gain. India OMC Hike Rs 4-8/L IMMINENT.",
+      "t": "4 More Ships Passed Hormuz Tuesday Without Incident. Selective Iran Control Emerging.",
+      "lv": "BREAKING",
+      "color": "amber",
+      "d": "CBS News (live blog) confirmed: \"All four appeared to have passed through the Strait of Hormuz without incident by Tuesday, less than a week after Iran's IRGC attacked and seized at least two commercial ships in the same part of the narrow waterway.\" Combined with the Idemitsu Maru coordinated passage, this signals Iran is now practising selective Hormuz control — not blanket closure. Iran is distinguishing between vessels that coordinate (and potentially pay tolls) and those that don't. Iran's public position (billboard: \"Hormuz remains closed\") and operational reality (selective passages occurring) are diverging. This is Iran's Hormuz toll mechanism in embryonic operation. The transition from \"closed\" to \"controlled with tolls\" is the strategic shift Iran has been working toward since the Araghchi-Sultan Haitham meeting in Oman."
+    },
+    {
+      "t": "IRAN BANNED STEEL EXPORTS Effective April 26. Tehran Billboard: \"Strait Remains Closed.\"",
       "lv": "BREAKING",
       "color": "red",
-      "d": "CNBC confirmed Tuesday: Brent $111.49 (+~3%), WTI $99.75 — 7th consecutive session of gains. Highest since April 7. Trump dissatisfied = no quick deal = no Hormuz opening = oil elevated. CNBC analyst Lipow: \"Absent new negotiations, WTI drifts back to $100, Brent over $110.\" Even if hostilities ended immediately: 4-6 months to normalise due to mines, tanker congestion, production restart lags. For India: Brent $111 = OMC absorbing unsustainable losses. Indian Oil, BPCL, HPCL facing severe margin pressure. Petrol/diesel hike Rs 4-8/litre IMMINENT. LPG subsidy reinstatement under active government discussion. India petroleum import bill at war-record levels."
+      "d": "CBS News (live blog) confirmed: Iran banned export of all steel products effective April 26 — customs authorities issued a directive banning export of slab, sheet and strip products. CBS: \"Steel is a strategically important material, vital for a range of industries as well as military production, including missiles, drones and ships.\" This signals Iran is preserving strategic material for its own military production and reconstruction needs. Simultaneously: a giant billboard in Tehran's Revolution Square reads \"The Strait of Hormuz remains closed\" — Iran's official public messaging. The gap between public messaging (closed) and operational reality (selective coordinated passages) is deliberate: Iran is maintaining maximum negotiating pressure publicly while quietly testing its toll mechanism."
     },
     {
-      "t": "UAE Leaving OPEC Friday. US Clearing Mines. Iran Using Rail + Caspian + Junk Storage.",
+      "t": "WH Counterproposal Still Not Delivered. Trump Opposed Iran Toll. IEA: Greatest Energy Crisis Ever.",
       "lv": "BREAKING",
       "color": "amber",
-      "d": "CNBC: UAE leaving OPEC starting Friday — had secretly exceeded quotas, will now pump freely without OPEC constraints. Partial offset to global supply loss. AP: US says it is clearing Iranian mines in Hormuz — \"latest push to open the Strait.\" WSJ: Iran resorting to rail delivery and \"junk storage\" sites for crude — oil shipping cratered since US blockade began April 13. Six tankers forced back in recent days. Tehran Chamber of Commerce: Iran increasing Caspian Sea imports as alternative route. Iran oil production: Kharg Island storage near capacity, wells approaching shut-in threshold, $140M daily revenue zeroed. Iran's proposal to reopen Hormuz is partly driven by this existential economic pressure."
+      "d": "Al Jazeera and House of Commons Library (updated Tuesday) confirmed: the White House counterproposal to Iran's decoupled Hormuz-first proposal has not yet been delivered as of Wednesday morning. UK Parliament briefing: Trump has \"opposed Iranian attempts to charge tolls for vessels to use the strait.\" Iran FM Araghchi: Iran \"intends to devise a new arrangement for secure maritime traffic\" — toll system push continues. Al Jazeera analyst Negar Mortazavi (Center for International Policy): \"Iran's proposal looks reasonable. Both Tehran and Washington need to immediately focus on reforming the Strait. Tehran will not move if US doesn't lift blockade, and Washington will not do so if Iran doesn't open the strait. So this can be a good first step.\" IEA head: the Hormuz crisis is \"the greatest global energy security challenge in history.\""
     },
     {
-      "t": "UN Guterres: Global Food Emergency. Germany: US \"Humiliated.\" Sensex Mon +639 → Tue -417.",
+      "t": "ISRAEL Evacuating 16 Lebanon Towns. Lebanon Ceasefire Increasingly Nominal.",
       "lv": "DEVELOPING",
-      "color": "amber",
-      "d": "Al Jazeera: UN Guterres warned Hormuz standoff could trigger \"global food emergency\" at Security Council Monday. Dozens of countries called for \"urgent and unimpeded reopening.\" Bahrain: closure is \"violation of international law.\" Germany's Merz: US being \"humiliated\" by Iran. EU Commission President von der Leyen: too early to ease EU Iran sanctions. Israel's army chief Zamir: 2026 \"likely to be another year of fighting.\" Business Standard confirmed two-day market: Monday Sensex +639 (Iran proposal) → Tuesday -417 (Trump rejection) = net -206. Nifty back below 24,000 at 23,996. Rally-reversal shows India markets entirely hostage to diplomatic signal. Coal India +2.75% top Nifty Tuesday."
+      "color": "red",
+      "d": "CBS News (live blog) confirmed: Israel's military issued evacuation orders to 16 towns and villages in Lebanon ahead of military operations — most about 10 miles north of the border, in territory where Israeli ground forces are already operating. Hezbollah and Israel have accused each other of violating the ceasefire. CBS: \"The IDF said: these incidents constitute a violation of the ceasefire understandings by the Hezbollah terrorist organization.\" Iran has explicitly linked Hormuz to Lebanon throughout the West Asia War — a Lebanon ceasefire collapse is the trigger for Hormuz escalation beyond selective coordination. Israel's army chief Zamir stated 2026 is \"likely to be another year of fighting\" for Israel. If Lebanon fighting intensifies this week: Iran's selective Hormuz coordination could quickly reverse to full closure."
     },
     {
-      "t": "India Day 60: Crude Buffer Exhausted. Kharif at Risk. WH Counterproposal = Next Catalyst.",
+      "t": "India: OMC Hike Imminent. Japan Toll Precedent. GIFT Nifty +23.5 at 24,092.",
       "lv": "DEVELOPING",
       "color": "cyan",
-      "d": "Day 60: India's original 6-8 week crude buffer is now fully exhausted. Every barrel now sourced at spot prices — Brent $111. OMC hike Rs 4-8/L petrol/diesel imminent. Kharif fertiliser season (June-August planting): if Hormuz stays closed through May, India faces fertiliser shortfall for its summer crop. Coal India +2.75%, Nifty Oil & Gas and Metal are the only sectors performing in this environment. The WH counterproposal (expected in days) is the next market catalyst: If it bridges gap (Hormuz-first with nuclear conditions) → Brent falls $10-15, Nifty 24,200-24,500. If maximalist (nuclear-everything) → Brent $112-118, Nifty 23,500-24,000. India scenario: 40% counterproposal bridges gap, 35% stalemate, 25% breakdown."
+      "d": "Three India-specific developments Wednesday: (1) OMC petrol/diesel hike imminent — Indian Oil, BPCL, HPCL cannot absorb losses at Brent $111+ much longer. Rs 4-8/L hike expected this week. (2) Idemitsu Maru toll precedent: if Japan paid Iran for Hormuz passage, India must decide its response. India imports ~4.8M bbl/day through the corridor. At $1-3/barrel toll: Rs 15,000-45,000 Cr/year additional cost. MEA will need to engage Iran on coordinated passage for Indian tankers. (3) WH counterproposal = primary market catalyst. Until delivered: markets cautious. MOFSL (Siddhartha Khemka): \"Gradual upmove possible on resolution hopes, with stock-specific approach.\" GIFT Nifty +23.5 at 24,092 confirms marginal positive open. Brent $111.6. Business Standard analyst: at $114 Brent, physical oil market is in a historically tight regime."
     }
   ],
   "nukes": [
@@ -289,7 +278,7 @@
       "sea": 15,
       "nuke": 55,
       "tot": 64,
-      "info": "1,800km downwind from Iran. IAEA: ~1,000 lbs HEU = material for 11 nuclear weapons. NO iodine prophylaxis program. Iran missile base reconstitution confirmed by satellite imagery — risk if Apr 21 ceasefire lapses with no deal."
+      "info": "1,800km downwind from Iran. NO iodine prophylaxis program. OMC petrol hike Rs 4-8/L imminent at Brent $112. Iran missile base reconstitution ongoing during ceasefire."
     },
     {
       "city": "Mumbai",
@@ -298,7 +287,7 @@
       "sea": 78,
       "nuke": 42,
       "tot": 58,
-      "info": "900km from Hormuz. Reliance Jamnagar refinery. Sensex closed +1,263 today at 78,111. IndiGo best performer +4%. BSE market cap ~₹452L Cr — recovering from ₹443L Cr low on Apr 13. Brent below $95 reducing import costs."
+      "info": "900km from Hormuz. Reliance Jamnagar refinery. Sensex 76,887. Brent $112 raising import costs. OMC hike imminent. Idemitsu toll precedent critical for India crude imports."
     },
     {
       "city": "Ahmedabad",
@@ -307,7 +296,7 @@
       "sea": 55,
       "nuke": 46,
       "tot": 57,
-      "info": "Closest Indian metro to Iran. Dual exposure. Jamnagar refinery nearby. Brent below $95 — oil import cost relief. Iran threatening Red Sea still a risk for western coast supply chains. US Navy intercepted first tankers today."
+      "info": "Closest Indian metro to Iran. Jamnagar refinery nearby. Brent $112 = oil import cost pressure. Idemitsu passage could signal selective Hormuz opening."
     },
     {
       "city": "Jaipur",
@@ -316,7 +305,7 @@
       "sea": 10,
       "nuke": 44,
       "tot": 47,
-      "info": "Rajasthan wind funnel. UN FAO food catastrophe risk — kharif crop under fertilizer pressure. Diesel freight costs easing with Brent below $95. Rupee +20p helps reduce input costs."
+      "info": "Rajasthan wind funnel. Kharif fertiliser at risk if Hormuz closed through May. Diesel freight costs elevated at Brent $112. OMC hike imminent."
     },
     {
       "city": "Kochi",
@@ -334,7 +323,7 @@
       "sea": 72,
       "nuke": 22,
       "tot": 42,
-      "info": "Konkan coast. Fishing economy ₹4,000 cr exposed. Tourism sector recovering with Brent below $95 — airline costs easing. IndiGo +4% today positive signal for travel sector."
+      "info": "Konkan coast. Fishing economy Rs 4,000 Cr exposed. Tourism under pressure with Brent $112+. ATF surcharges active on all airline routes."
     },
     {
       "city": "Lucknow",
@@ -576,9 +565,23 @@
       "rupee": 95.3,
       "tag": "TRUMP NOT SATISFIED with Iran proposal (NYT). WSJ: WH counterproposal in days. Rubio: unacceptable. Brent $111.49 — 7th straight gain. Sensex -417 to 76,887. Nifty 23,996 (below 24k). UAE leaving OPEC Friday. US clearing mines. India OMC hike IMMINENT. West Asia War Day 60.",
       "sev": 3
+    },
+    {
+      "d": 61,
+      "l": "Apr 29",
+      "deaths": 6600,
+      "brent": 112,
+      "nifty": 24092,
+      "rupee": 95.2,
+      "tag": "IDEMITSU MARU (Japan) passed Hormuz with Iran coordination — first since closure. 2M bbl Saudi crude. Toll unclear. 4 more ships Tuesday without incident. Iran banned steel exports. Tehran billboard: \"remains closed.\" GIFT Nifty +23.5 at 24,092. Brent $111.6. WH counterproposal awaited. Israel evacuating 16 Lebanon towns. West Asia War Day 61.",
+      "sev": 2
     }
   ],
   "hormuzLatest": [
+    {
+      "d": "Apr 29 AM",
+      "e": "DAY 61 WED 9:30AM IST. JAPANESE TANKER IDEMITSU MARU passed Hormuz with IRAN COORDINATION — first since closure (CBS/Tasnim). 2M bbl Saudi crude from Ras Tanura. Unclear if Japan paid toll. 4 more ships passed Tuesday without incident. Iran BANNED STEEL EXPORTS effective April 26 (CBS/IRGC customs). Tehran billboard: \"Strait remains closed.\" GIFT Nifty +23.5 at 24,092 — marginal open. Brent $111.6 (+0.36%). WH counterproposal still not delivered. Trump opposed toll mechanism. Israel evacuating 16 Lebanon towns. IEA: greatest energy crisis in history. India OMC hike IMMINENT."
+    },
     {
       "d": "Apr 27-28",
       "e": "DAY 59-60 TWO-DAY WRAP. APR 27: IRAN PROPOSED Hormuz reopening + war end, defer nuclear (AP: two regional officials). Sensex +639 to 77,303. ARAGHCHI MET PUTIN St Petersburg (AFP/NPR). Putin received Mojtaba Khamenei message. Brent $108.36. UAE leaving OPEC Friday. UN Guterres: global food emergency. APR 28: TRUMP NOT SATISFIED (NYT). WSJ: counterproposal coming in days. Rubio: unacceptable. Brent $111.49 — 7th straight gain. Sensex -417 to 76,887. Nifty 23,996 (below 24k). Coal India +2.75%. US clearing mines. Iran rail + Caspian + junk storage. Vance: worried weapons depletion. India OMC hike IMMINENT."
@@ -590,15 +593,11 @@
     {
       "d": "Apr 27 7:30PM",
       "e": "DAY 59 MON 7:30PM IST. PUTIN MET ARAGHCHI — Boris Yeltsin Library, St Petersburg. Russia confirmed intelligence ties. Putin received Khamenei message + extended health wishes. IRAN NEW PROPOSAL: reopen Hormuz if US ends war + no-resumption guarantees (Al Mayadeen/Tasnim). WH: will not negotiate through press. Araghchi: US excessive demands caused failure. Oman FM: much diplomacy required — NO agreements confirmed. Goldman raised Q4 Brent to $90. Citi raised to $80. CENTCOM: 38 ships. Brent $107. Lebanon 14 killed Sunday — DEADLIEST day since ceasefire. Netanyahu: Hezbollah dismantling ceasefire."
-    },
-    {
-      "d": "Apr 27 7AM",
-      "e": "DAY 59 MON 7AM IST. ARAGHCHI MEETS PUTIN TODAY IN ST PETERSBURG (IRNA/ISNA/CNN). Left Islamabad after 2 visits in 48hrs. Iran + Oman as \"only littoral states\" discussed Hormuz safe transit (Araghchi X). TRUMP OPPOSES toll mechanism (UK HoC Library). SHADOW FLEET: Iran loaded 4.6M bbls despite blockade, 4M more may have crossed (TankerTrackers). Chevron CEO: energy system lost \"incredible flexibility.\" Lebanon: 2,496+ killed, 16th Israeli soldier killed Sunday. Trump: \"call us.\" Brent ~$99-103. India markets open 9:15 AM IST."
     }
   ],
   "projNow": {
-    "brent": 111,
-    "rupee": 95.3,
+    "brent": 112,
+    "rupee": 95.2,
     "lpg": 912,
     "petrol": 94.77,
     "deaths": 6600
@@ -606,30 +605,30 @@
   "scenarios": {
     "headers": [
       "Pre-war",
-      "Now (D60)",
+      "Now (D61)",
       "WH counterproposal bridges gap",
-      "Stalemate continues",
-      "Nuclear standoff → strikes"
+      "Stalemate + toll system",
+      "Escalation/breakdown"
     ],
     "brent": [
       65,
-      111,
-      92,
       112,
-      135
+      90,
+      112,
+      138
     ],
     "rupee": [
       91,
-      95.3,
+      95.2,
       92.0,
       96.0,
-      109
+      110
     ],
     "deaths": [
       0,
       "6,600+",
       "7,200",
-      "8,000",
+      "8,500",
       "22,000+"
     ],
     "sensex": [
@@ -637,20 +636,20 @@
       "76,887",
       "79,500+",
       "75,000",
-      "60,000"
+      "58,000"
     ],
     "lpg": [
       "Rs 853",
       "Rs 912+",
-      "Rs 870",
-      "Rs 980+",
+      "Rs 865",
+      "Rs 985+",
       "Rs 1,600+"
     ],
     "fii": [
       "-",
       "Outflows",
       "$18B return",
-      "Continued out",
+      "Flat",
       "$55B out"
     ]
   },
@@ -705,8 +704,8 @@
     }
   ],
   "assessment": {
-    "headline": "DAY 60, 9:30PM TUE: IRAN PROPOSED Hormuz reopening (defer nuclear). TRUMP NOT SATISFIED. WH counterproposal in days. Araghchi met Putin — Russia as guarantor. Brent $111 — 7th straight gain. Sensex Mon +639 → Tue -417. India OMC hike IMMINENT.",
-    "body": "Tuesday 9:30 PM IST. Day 60 of the West Asia War. Two days of the most significant diplomatic movement since February 28 — with no deal yet.\n\nTHE IRAN PROPOSAL\n• Iran: reopen Hormuz + end war in exchange for US lifting blockade\n• Nuclear talks: deferred to a later phase\n• Staged approach: (1) end war; (2) resolve blockade + Hormuz; (3) nuclear later\n• Delivered via Pakistan to US\n• Most concrete formal proposal since February 28\n\nTHE US RESPONSE — NOT SATISFIED, BUT NOT REJECTED\n• Trump: not satisfied — nuclear not addressed (NYT)\n• Trump: Iran sent \"much better\" proposal (Saturday, before formal NSC review)\n• WSJ: White House will likely make a counterproposal in coming days\n• Rubio: proposal unacceptable — nuclear must be confronted first\n• CNN: unlikely to accept as-is — lifting blockade without nuclear weakens leverage\n• Vance: privately worried war is depleting US weapons stockpiles\n\nTHE RUSSIA FACTOR\n• Araghchi met Putin in St Petersburg — 1.5 hours\n• Also met Lavrov + Russia military intelligence chief\n• Putin confirmed he received a message from Mojtaba Khamenei\n• Putin: \"Will do everything to help secure peace\"\n• Russia confirmed as deal guarantor — critical for Iran's security guarantee requirement\n\nTHE OIL SHOCK DEEPENING\n• Brent $111.49 — 7th consecutive session gain\n• UAE leaving OPEC Friday (partial offset)\n• US clearing mines in Hormuz\n• Iran using rail delivery + Caspian + junk storage for crude\n• Even a deal today: 4-6 months to normalise\n• India OMC hike Rs 4-8/L — IMMINENT\n\nINDIA AT DAY 60\n• 60 days of war. Crude buffer EXHAUSTED\n• Sensex 76,887. Nifty 23,996 (below 24k)\n• OMC petrol/diesel hike Rs 4-8/L — most significant consumer price shock of the war\n• Kharif fertiliser: at risk if Hormuz closed through May\n• Coal India, Nifty Metal, Oil & Gas — only sectors working\n• WH counterproposal in days = next market catalyst\n\n40-35-25 CALL\n• 40%: WH counterproposal bridges gap → Brent $90-95, Nifty 24,200-24,500\n• 35%: Stalemate, proposals and counterproposals → Brent $110-115, Nifty 23,500-24,000\n• 25%: Nuclear standoff → breakdown, resumed strikes → Brent $130+, Nifty 60,000\n\nVERDICT: Day 60 ends with the West Asia War in its most diplomatically active and most economically destructive phase simultaneously. Iran made a real proposal. Trump rejected the nuclear decoupling. A counterproposal is coming. Brent is at $111. India's crude buffer is exhausted. The White House counterproposal in the coming days will determine whether this war ends in a deal or escalates into its most dangerous chapter yet."
+    "headline": "DAY 61, 9:30AM WED: IDEMITSU MARU passed Hormuz with Iran coordination (CBS/Tasnim). 4 more ships Tuesday. Iran banned steel exports. WH counterproposal awaited. GIFT Nifty +23. Brent $111.6. India OMC hike IMMINENT. Selective Hormuz control emerging.",
+    "body": "Wednesday 9:30 AM IST. Day 61. The West Asia War's most significant Hormuz development since April 17.\n\nTHE IDEMITSU MARU — WHAT IT MEANS\n• Japanese tanker coordinated with Iran to pass Hormuz (CBS News, Tasnim confirmed)\n• 2 million barrels of Saudi crude from Ras Tanura\n• \"Unclear whether Japan paid a fee to Iran for safe passage\"\n• This is Iran's Hormuz toll mechanism potentially operational\n• 4 more ships also passed Tuesday without incident\n• Iran's public message: \"Strait remains closed\" (Tehran billboard)\n• Iran's operational reality: selective coordinated passages occurring\n\nTHE EMERGING IRAN HORMUZ DOCTRINE\n• Not blanket closure anymore — selective control with coordination\n• Ships that coordinate (and potentially pay) = passage granted\n• Ships that don't coordinate = stopped, seized, or turned back\n• Iran banned steel exports April 26 — protecting military-industrial material\n• Iran FM Araghchi: intends to \"devise new arrangement for maritime traffic\"\n• Trump: opposed Iranian toll attempts — but passage is happening anyway\n\nWH COUNTERPROPOSAL — STILL AWAITED\n• Iran proposed: reopen Hormuz + end war; defer nuclear\n• Trump: not satisfied, but not rejected — counterproposal coming\n• As of Wednesday 9:30 AM IST: counterproposal not yet delivered\n• IEA: \"greatest global energy security challenge in history\"\n• Al Jazeera analyst: Iran's proposal \"reasonable — good first step\"\n\nLEBANON ESCALATION\n• Israel evacuating 16 towns and villages in southern Lebanon\n• IDF ground force occupying swath of southern Lebanon\n• Both sides accusing each other of ceasefire violations\n• Iran linked Hormuz to Lebanon throughout the war\n• Lebanon escalation = Hormuz selective control could reverse\n\nINDIA AT DAY 61\n• GIFT Nifty +23.5 at 24,092 — marginal open\n• Brent $111.6 — still historically elevated\n• OMC petrol/diesel hike Rs 4-8/L imminent this week\n• Idemitsu Maru toll precedent: MEA must engage Iran on Indian tanker coordination\n• 4.8M bbl/day Indian imports at risk; even $1/barrel toll = Rs 15,000 Cr/year additional\n• Kharif fertiliser: if Hormuz stays even partially closed through May, planting at risk\n\nVERDICT: The West Asia War's Hormuz dynamics are shifting from blanket closure to selective Iranian control. The Idemitsu Maru passage — whether or not a toll was paid — marks the beginning of Iran's new Hormuz management doctrine. The question for India is not just \"when does Hormuz reopen?\" but \"what will India pay for the privilege?\" The WH counterproposal, when it arrives, will determine whether this selective system becomes the new normal or gives way to a full reopening."
   },
   "featured": [
     {
