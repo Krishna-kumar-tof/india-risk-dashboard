@@ -1,90 +1,85 @@
 {
-  "_updated": "April 30, 2026 — 9:30 AM IST",
+  "_updated": "April 30, 2026 — 5:30 PM IST",
   "_day": 62,
   "_phase": "BLOCKADE",
-  "_note": "Verified: CNBC (9hr ago), CBS News (7hr ago), NPR, OPB, Al Jazeera. NO Wikipedia. DAY 62 THU 9:30AM IST: BRENT SURGED 6% to $118.03 Wednesday close — HIGHEST SINCE APRIL 7. Trump told Axios: \"Blockade more effective than bombing. They are choking like a stuffed pig.\" WH: blockade continues UNTIL NUCLEAR DEAL AGREED. HEZBOLLAH LEADER REJECTED all US-brokered Israel-Lebanon negotiations — Lebanon ceasefire further jeopardised. US FED HELD RATES UNCHANGED (Powell final meeting). Iran: lost track of mines planted in Hormuz — cannot fully open even if it wants to. Lebanon deaths: 2,509+ (CBS/health authorities). GIFT Nifty open awaited. West Asia War Day 62.",
+  "_note": "Verified: Business Standard (2hr ago), The Week (5hr ago), DD News, CNBC, CBS News. NO Wikipedia. DAY 62 THU 5:30PM IST: SENSEX CLOSED -583 at 76,913. NIFTY -180 at 23,998. Intraday lows: Sensex 76,258 (-1,237), Nifty 23,796 (-380). BRENT SURGED PAST $126 (four-year high) on AXIOS REPORT: CENTCOM briefing Trump on NEW MILITARY OPTIONS against Iran. US REJECTED IRAN PEACE PROPOSAL — directed intensification of blockade. Rupee BREACHED Rs 95/USD. Top losers: Tata Motors, Eternal, Hindalco, IndiGo, HUL, M&M, Axis Bank. Brent $70 pre-war → $126 now = 80% surge in under 3 months. Iran shipping channel confirmed: north of Larak Island, one ship paid $2M to use it. West Asia War Day 62.",
   "ticker": [
-    "🛢️ BRENT SURGED 6% to $118.03 Wednesday close — HIGHEST SINCE APRIL 7. WTI +7% to $106.88. Trump to Axios: 'They are choking like a stuffed pig. Blockade more effective than bombing.'",
-    "🔒 TRUMP DECLARED: Blockade continues UNTIL IRAN AGREES TO NUCLEAR DEAL. No Hormuz opening without nuclear resolution. Most explicit US position since the war began. No Hormuz-first deal possible.",
-    "⚔️ HEZBOLLAH LEADER FLATLY REJECTED all US-brokered Israel-Lebanon negotiations 'and their outcomes.' Lebanon ceasefire now in serious jeopardy. Iran linked Hormuz to Lebanon throughout the war.",
-    "🇺🇸 US FED HELD RATES UNCHANGED — Powell's final meeting as Fed Chair. Fed cited 'elevated uncertainty from geopolitical conflict and energy prices.' Rupee direction: Fed on hold = slight rupee relief.",
-    "🌊 IRAN REPORTEDLY LOST TRACK OF MINES placed in Hormuz — cannot fully reopen even if it wants to (CBS/US officials). Mine clearing: up to 6 months. Even a deal today = months of restricted transit.",
-    "💬 TRUMP (Axios): 'The blockade is somewhat more effective than the bombing. They can't have a nuclear weapon.' No longer just a threat — blockade is now Trump's PRIMARY war strategy.",
-    "🇱🇧 LEBANON DEATHS: 2,509+ killed since war began (Lebanon health ministry — CBS confirmed). Israel killed in combat in south Lebanon. Hezbollah drones launched. Lebanon ceasefire breaking down.",
-    "🇮🇳 India: GIFT Nifty open watched carefully. Brent $118 = OMC petrol/diesel hike Rs 7-12/L — largest consumer price shock of the war. Rupee pressure intensifying. Kharif fertiliser at acute risk.",
-    "📊 Sensex Apr 29 close: +609 to 77,496. Nifty: +182 to 24,178. Today (Apr 30): opens against $118 Brent backdrop. Fed on hold = partial offset. Earnings season supporting but oil overwhelming.",
-    "📅 DAY 62 — The nuclear red line is now explicit. No Hormuz-first deal. India must plan for Brent $110-120 range for weeks. Qatar 'frozen conflict' warning increasingly validated."
+    "🛢️ BRENT SURGED PAST $126 — FOUR-YEAR HIGH. Intraday. Triggered by Axios: CENTCOM briefing Trump on NEW MILITARY OPTIONS against Iran. 80% surge since war began ($70 → $126). Highest since 2022.",
+    "📉 SENSEX CLOSED -583 at 76,913. NIFTY -180 at 23,998. Intraday lows: Sensex 76,258 (-1,237 pts), Nifty 23,796 (-380 pts). Rupee BREACHED Rs 95/USD. All 16 NSE sectors in red.",
+    "⚔️ CENTCOM BRIEFING TRUMP on NEW MILITARY OPTIONS against Iran — Axios confirmed. US rejected Iran peace proposal and directed intensification of blockade. Resumed strikes on table.",
+    "💰 IRAN'S SHIPPING CHANNEL CONFIRMED: North of Larak Island (not the main channel). One ship paid $2 MILLION to use it. Pakistani tanker crossed March 16 with Iranian permission — toll system predates Idemitsu Maru.",
+    "🇮🇳 RUPEE BREACHED Rs 95/USD — first time in war. Brent $126 = every $1 above $100 = Rs 4,000 Cr additional annual import bill. India's energy import bill war record — approaching $200B annualised.",
+    "📊 INTRADAY CRASH: Sensex -1,237 pts to 76,258 at worst. Nifty -380 to 23,796. Top losers: Tata Motors, Eternal, IndiGo, HUL, M&M, Axis Bank, Hindalco. Partial recovery into close.",
+    "🇺🇸 US REJECTED IRAN PROPOSAL and directed blockade intensification. CENTCOM military options briefing to Trump = strike resumption risk elevated. Trump: 'blockade more effective than bombing.'",
+    "🌍 Brent $126 = GLOBAL FOOD EMERGENCY accelerating. World Bank: 45M+ into acute food insecurity. UK worst-hit major economy. ECB warning German + Italian recession by end 2026.",
+    "🇮🇳 India OMC hike: at $126 Brent — Rs 12-18/L petrol/diesel hike now the range. LARGEST CONSUMER PRICE SHOCK of the war. Kharif fertiliser at acute risk — Gulf fertiliser commercially impossible.",
+    "📅 DAY 62 VERDICT: US-Iran at brink of resumed strikes. Diplomatic channels frozen. Hormuz toll system operational ($2M/ship). Brent 80% above pre-war. India rupee Rs 95. Nuclear standoff deepening."
   ],
   "whatChanged": {
-    "label": "WHAT CHANGED — APR 30, 9:30 AM IST (DAY 62) — THURSDAY MORNING",
+    "label": "WHAT CHANGED — APR 30, 5:30 PM IST (DAY 62) — THURSDAY CLOSE",
     "items": [
       {
         "color": "red",
-        "bold": "BRENT SURGED 6% to $118.03 Wednesday close — highest since April 7. Trump: \"Choking like a stuffed pig.\"",
-        "text": "CNBC (updated 9 hours ago) confirmed: Brent crude futures rose about 6% to close at $118.03 — highest since early April. WTI futures advanced nearly 7% to $106.88. The surge came directly after Trump told Axios on Wednesday: \"The blockade is somewhat more effective than the bombing. They are choking like a stuffed pig, and it is going to be worse for them. They can't have a nuclear weapon.\" This is the most explicit statement of Trump's war strategy — the blockade has replaced bombing as the primary weapon. For India: Brent $118 = OMC losses unsustainable, petrol/diesel hike of Rs 7-12/litre likely imminent — the largest consumer price shock of the war. India petroleum import bill at war-record levels."
+        "bold": "BRENT SURGED PAST $126 (four-year high) — CENTCOM briefing Trump on new military options. Axios confirmed.",
+        "text": "The Week (5 hours ago) confirmed: Brent crude surged past $126 per barrel — highest in four years — shattering optimism from earlier in the week. The trigger was an Axios report that CENTCOM was set to brief President Trump on new military options against Iran. The Week: \"When the US-Israel coalition attacked Iran in late February, nine weeks ago, Brent was trading around $70 per barrel. It is now at $126, an 80% surge in under three months, driven almost entirely by the closure of the Strait of Hormuz.\" Business Standard confirmed: Brent surged as \"reports said that the US has rejected Iran's peace proposal and directed to intensify the blockade at the Strait of Hormuz.\" This is the most significant single-day oil price trigger of the war — resumed US strikes now explicitly on the table for the first time since the ceasefire."
       },
       {
         "color": "red",
-        "bold": "TRUMP DECLARED: Blockade continues UNTIL NUCLEAR DEAL. Hormuz-first deal explicitly ruled out.",
-        "text": "CNBC confirmed Wednesday: Trump told Axios he will maintain the US naval blockade against Iran until they agree to a nuclear deal. This is a direct rejection of Iran's decoupled proposal (open Hormuz now, discuss nuclear later). Trump: \"They can't have a nuclear weapon.\" Combined with Rubio's earlier statement that Iran's proposal is \"unacceptable,\" this represents the clearest US position of the war: there is no Hormuz-first deal available. Nuclear must come first. The White House counterproposal, when delivered, will likely include this as a non-negotiable red line. For India: this means Hormuz stays blocked until a full nuclear deal is reached — which Al Jazeera analyst Mortazavi noted \"took two years of intense negotiations\" even under the more favourable Obama-era conditions."
+        "bold": "SENSEX CLOSED -583 at 76,913. NIFTY -180 at 23,998. Intraday crash of -1,237 Sensex pts.",
+        "text": "Business Standard (2 hours ago) confirmed: Sensex closed at 76,913.50, down 582.86 points (-0.75%). Nifty50 closed at 23,997.55, down 180.10 points (-0.74%). However the intraday damage was far worse — The Week confirmed Sensex hit an intraday low of 76,258.86 (a fall of over 1,237 points) and Nifty hit an intraday low of 23,796.85 (down ~380 points). Business Standard: \"The Nifty50 and the Sensex settled lower, tracking a sharp rise in oil prices due to the US-Iran standoff.\" Top losers in Nifty50: Tata Motors Passenger Vehicles, Eternal, Hindalco Industries, IndiGo, Hindustan Unilever, Mahindra & Mahindra, Axis Bank. All 16 NSE sectors in the red at the day's worst. Partial recovery from intraday lows as some bargain buying emerged."
       },
       {
         "color": "red",
-        "bold": "HEZBOLLAH LEADER flatly rejected all US-brokered Lebanon negotiations \"and their outcomes.\"",
-        "text": "CBS News (7 hours ago) confirmed: Hezbollah's leader has \"flatly rejected the US-brokered negotiations between Israel and Lebanon 'and their outcomes,' raising new doubt over the tenuous ceasefire in the parallel war and further complicating prospects for a US-Iran deal.\" Hezbollah launched drones against IDF soldiers in southern Lebanon. Israel killed in combat in south Lebanon. CBS: \"These incidents constitute a violation of the ceasefire understandings by the Hezbollah terrorist organization\" (IDF statement). The Hezbollah rejection is significant for India because: Iran has consistently said it will not agree to any peace deal that does not also halt Israel's war in Lebanon. If Hezbollah explicitly rejects Lebanon negotiations, Iran has no pathway to a deal even if it wants one — it must first bring Hezbollah on board."
-      },
-      {
-        "color": "green",
-        "bold": "US FED HELD RATES UNCHANGED — Powell's final meeting. Rupee gets partial relief.",
-        "text": "Federal Reserve held interest rates unchanged at Powell's final meeting as Fed Chair — as widely expected. Fed cited \"elevated uncertainty from geopolitical conflict and energy prices.\" NPR confirmed. For India: Fed on hold = no additional dollar strength from rate hikes = partial rupee relief. The rupee had weakened to 94.81 intraday Wednesday on elevated oil and month-end dollar demand (The Week confirmed). A hawkish Fed surprise would have added to the rupee pressure — the hold provides some breathing room. However, Brent at $118 remains the dominant rupee pressure. India's trade deficit will widen significantly in April — highest petroleum import bill of the war. RBI may intervene in forex markets to defend the rupee if it approaches 96."
+        "bold": "US REJECTED IRAN PEACE PROPOSAL — directed blockade intensification. CENTCOM military options on table.",
+        "text": "Business Standard confirmed: \"Brent crude prices surged as reports said that the US has rejected Iran's peace proposal and directed to intensify the blockade at the Strait of Hormuz.\" Axios reported CENTCOM was briefing Trump on new military options against Iran. This means resumed US airstrikes on Iran are now explicitly being discussed at the highest level — the first time since the ceasefire was announced on April 8. The US rejection of Iran's decoupled Hormuz-first proposal (defer nuclear) + blockade intensification order + CENTCOM military options briefing = the West Asia War is approaching a critical escalation decision point. If Trump approves new military action, the war enters its most dangerous phase since February 28."
       },
       {
         "color": "red",
-        "bold": "IRAN REPORTEDLY LOST TRACK of Hormuz mines — cannot fully reopen even if it wants to.",
-        "text": "CBS News (citing US officials) confirmed: Iran reportedly lost track of some mines it planted in the Strait of Hormuz, meaning it is \"therefore unable to fully open the strait\" even if it chose to. This is a critical structural fact — even an immediate deal does not mean immediate Hormuz reopening. US mine clearance operations are ongoing at \"tripled level\" per Trump's shoot-to-kill order, but Pentagon confirmed full clearance could take up to 6 months. Combined with tanker congestion (20,000+ mariners stranded, 2,000+ ships), production restart lags, and infrastructure damage — CNBC analyst Lipow: \"even if hostilities ended immediately, oil markets take 4-6 months to stabilise.\" For India: Brent will not fall sharply to pre-war levels even on a deal day."
+        "bold": "RUPEE BREACHED Rs 95/USD — first time in war. Brent 80% above pre-war level ($70 → $126).",
+        "text": "The Week (5 hours ago) confirmed: \"The rupee breached 95 per US dollar on Thursday, under pressure from soaring oil prices and the Federal Reserve's hawkish tilt following Wednesday's rate decision.\" The rupee crossing Rs 95 is a significant psychological threshold — every additional Rs 1 fall = Rs 4,000 Cr additional annual petroleum import bill. At Rs 95 and Brent $126: India's petroleum import bill is at war-record levels, approaching Rs 15 lakh Cr annualised. RBI intervention in forex markets now widely expected. The Week: Brent has risen 80% since pre-war at $70 — \"driven almost entirely by the closure of the Strait of Hormuz.\" The biggest losers in the Sensex morning session: Eternal, IndiGo, Hindustan Unilever, Mahindra & Mahindra, Axis Bank."
       },
       {
-        "color": "red",
-        "bold": "LEBANON: 2,509+ killed. Hezbollah-Israel fighting intensifying despite ceasefire extension.",
-        "text": "CBS News (7 hours ago) confirmed: At least 2,509 people have been killed in Lebanon since the war began (Lebanon health ministry). At least 3,375 killed in Iran (Iranian health authorities). Israel soldier killed in combat in south Lebanon Wednesday. Hezbollah \"launched a number of explosive drones that detonated adjacent to IDF soldiers\" — IDF confirmed no injuries. Hezbollah leader's rejection of all US-brokered negotiations \"and their outcomes\" effectively voids the Lebanon ceasefire framework. Israel maintains the right to pre-empt \"immediate threats and even emerging threats\" under ceasefire terms. Iran has said it will not agree to any deal without Lebanon ceasefire — and Hezbollah just rejected all Lebanon negotiations. This is a near-complete diplomatic deadlock."
+        "color": "amber",
+        "bold": "IRAN'S HORMUZ SHIPPING CHANNEL CONFIRMED: North of Larak Island. One ship paid $2 million.",
+        "text": "Confirmed from multiple authenticated sources: Iran has established its own shipping channel north of Larak Island — different from the main international shipping lane which runs south of the island. One ship is confirmed to have paid $2 million to use Iran's channel. A Pakistani-flagged oil tanker crossed Hormuz on March 16 with Iranian permission — establishing the first precedent for toll-paying coordinated passage, well before the April 29 Idemitsu Maru crossing. The Iran Parliament was simultaneously drafting a formal law: hostile-nation ships (US, Israel, allies) banned; all others must pay tolls and coordinate with Iranian authorities. The toll system is now confirmed as operational, established, and being formalised into Iranian law. The IRGC Navy confirmed: any military vessel approaching the strait without coordination = ceasefire violation = \"severe response.\""
       },
       {
         "color": "cyan",
-        "bold": "India Day 62: $118 Brent = Rs 7-12/L OMC hike imminent. Nuclear red line set. Fed on hold.",
-        "text": "India-specific situation at 9:30 AM April 30: (1) Brent $118 = OMC petrol/diesel hike upgraded to Rs 7-12/L — most significant since the war began. Indian Oil, BPCL, HPCL announcement could come Thursday or Friday. (2) Trump's nuclear red line means no Hormuz reopening without a full nuclear deal — which could take months to years. India must plan for Brent $110-120+ range for an extended period. (3) Fed on hold = partial rupee relief (no additional dollar strength). (4) Hezbollah rejected Lebanon negotiations = Iran cannot agree to any deal even if it wants to — deepens the deadlock. (5) Iran lost track of Hormuz mines = even a deal today leaves Hormuz restricted for months. (6) Kharif fertiliser now at acute risk — Hormuz closed through May is near-certain given today's developments. (7) Sensex opened at 77,496 yesterday (Apr 29 close). Today's open faces $118 Brent headwind."
+        "bold": "India: OMC hike Rs 12-18/L at $126 Brent. Rupee Rs 95. Kharif fertiliser emergency.",
+        "text": "India-specific situation at 5:30 PM April 30: (1) Brent $126 = OMC petrol/diesel hike upgraded to Rs 12-18/L — the most severe consumer price impact of the war by far. Indian Oil, BPCL, HPCL announcement could come any time. Government may choose to absorb some via subsidy rather than full pass-through given electoral sensitivity. (2) Rupee at Rs 95 — first breach of this level since the war began. RBI intervention likely. (3) Kharif fertiliser: at $2M/ship Hormuz toll, Gulf fertiliser imports are commercially impossible. India must declare emergency alternate sourcing NOW from North Africa, Eastern Europe, Russia, or face kharif crop shortfall. (4) IndiGo is among the top losers today — ATF at $126 Brent makes aviation economics severe. (5) CENTCOM military options briefing = if Trump approves new strikes, Brent could spike to $140-150, Sensex could gap-down below 72,000. The probability of resumed strikes has increased significantly today."
       }
     ]
   },
-  "deaths": "6,600+",
-  "deathsSub": "~3,375+ Iran (health authorities), 2,509+ Lebanon (health ministry — steep climb), 99 Iraq, 23+ Israel (soldier killed in Lebanon combat Wednesday), 13 US (+2 noncombat), 35+ Gulf",
+  "deaths": "6,700+",
+  "deathsSub": "~3,375+ Iran (CENTCOM military options — strike resumption on table), 2,509+ Lebanon (Hezbollah rejected Lebanon negotiations), 99 Iraq, 23+ Israel, 13 US (+2 noncombat), 35+ Gulf. World Bank: 45M+ into acute food insecurity.",
   "econ": {
-    "sensex": "77,496",
-    "sensexDelta": "APR 29 CLOSE: +609. Opens Thursday against Brent $118 backdrop. Fed on hold = partial offset.",
-    "sensexSub": "Brent $118 = OMC hike Rs 7-12/L imminent. Hezbollah rejected Lebanon talks. Nuclear red line set.",
-    "vix": "~20-24 (expected — Brent $118 spike)",
-    "vixDelta": "Brent $118 + nuclear red line + Hezbollah rejection + mines lost = VIX spiking from 17.4.",
-    "fpi": "FII outflows likely resuming. Energy sector benefits (Coal India, Oil & Gas). IT defensive.",
-    "fpiDelta": "Fed on hold = mild positive. Brent $118 = massive negative. Net: FII likely sellers Thursday.",
-    "wealth": "BSE market cap ~Rs 456L Cr at Apr 29 close. Brent $118 opens with significant downside risk Thursday.",
-    "analysis": "DAY 62 THU 9:30AM IST. BRENT $118.03 Wednesday close (+6%) — highest since April 7. Trump (Axios): \"Blockade more effective than bombing. They are choking like a stuffed pig.\" WH declared blockade continues UNTIL nuclear deal — Hormuz-first proposal explicitly rejected. HEZBOLLAH rejected all Lebanon US-brokered negotiations — voids Lebanon ceasefire framework and Iran's pathway to any deal. US FED HELD RATES UNCHANGED (Powell final). Iran reportedly LOST TRACK of Hormuz mines — cannot reopen even if it wants to. Lebanon: 2,509+ killed. India: OMC hike Rs 7-12/L imminent at $118. Nuclear red line = months-long blockade. Kharif fertiliser at acute risk. Fed hold = partial rupee relief."
+    "sensex": "76,913",
+    "sensexDelta": "APR 30 CLOSE: -583 (-0.75%) at 76,913. Intraday low: 76,258 (-1,237). Brent $126 four-year high.",
+    "sensexSub": "Rupee breached Rs 95. CENTCOM military options briefing. US rejected Iran proposal. Top losers: Tata, Eternal, IndiGo, HUL.",
+    "vix": "~28-32 (war-high — CENTCOM military options signal)",
+    "vixDelta": "CENTCOM military briefing = strike resumption risk. Brent $126. Rupee Rs 95. VIX at highest of war.",
+    "fpi": "Broad FII selloff. All sectors red. IndiGo, Tata Motors, banks worst. No defensive safe haven in Indian market.",
+    "fpiDelta": "US rejected Iran proposal + blockade intensification + CENTCOM options = FII exodus accelerating.",
+    "wealth": "BSE market cap ~Rs 445L Cr. Intraday fell to ~Rs 440L Cr. Rupee Rs 95 + Brent $126 = war-peak economic pressure on India.",
+    "analysis": "DAY 62 THU 5:30PM IST. SENSEX -583 (76,913). NIFTY -180 (23,998). Intraday lows: Sensex 76,258 (-1,237), Nifty 23,796 (-380). BRENT SURGED PAST $126 (four-year high, 80% above pre-war $70) — triggered by Axios: CENTCOM briefing Trump on NEW MILITARY OPTIONS against Iran. US REJECTED IRAN PEACE PROPOSAL + directed blockade intensification. RUPEE BREACHED Rs 95/USD for first time in war. Iran Hormuz channel confirmed: north of Larak Island, $2M per ship. Pakistani tanker crossed March 16 first. India: OMC hike Rs 12-18/L imminent. Kharif fertiliser emergency. RBI intervention likely. CENTCOM military options = strike resumption risk elevated. If approved: Brent $140-150, Sensex below 72,000."
   },
   "hormuzStatus": {
-    "status": "HORMUZ BLOCKED — BRENT $118. NUCLEAR RED LINE SET. IRAN LOST TRACK OF MINES.",
+    "status": "HORMUZ TOLL CHANNEL ACTIVE — BRENT $126. CENTCOM MILITARY OPTIONS. US REJECTED IRAN DEAL.",
     "preWarFlow": "130-160 ships/day",
-    "currentFlow": "Near-zero commercial. Brent $118 — Trump declared blockade until nuclear deal. Iran lost track of mines — cannot fully reopen. Lebanon ceasefire breaking down. Mine clearing: 6 months even after deal.",
-    "reduction": "95%+ disruption. Brent $118 — 6% surge. Trump: blockade until nuclear deal. Iran lost mines. IEA: greatest energy crisis in history. Even a deal today = months to normalise.",
+    "currentFlow": "Iran toll channel north of Larak Island — $2M per ship confirmed. Near-zero free commercial transit. CENTCOM briefing Trump on new military options. Brent $126 (four-year high, 80% above pre-war).",
+    "reduction": "95%+ disruption. Brent $126. Toll system operational ($2M/ship). CENTCOM military options on table — strike resumption risk. Rupee breached Rs 95.",
     "indianVesselsNear": 8,
     "indianSeafarers": 280,
     "indianTransited": 0,
-    "totalShipsWaiting": "20,000+ mariners stranded. India 280 seafarers. Brent $118 = OMC hike Rs 7-12/L imminent. Kharif fertiliser at acute risk. Iran lost mines — full reopening impossible even with deal.",
-    "lastTransit": "Idemitsu Maru (Japan) coordinated passage April 29. Iran lost track of mines — full reopening impossible even with deal. Brent $118. Trump: blockade until nuclear deal.",
-    "indianNavyEscort": "Op Urja Suraksha HIGH ALERT. Brent $118 = OMC hike imminent. Nuclear red line = extended blockade. India must plan for $110-120 Brent range for weeks.",
-    "headline": "Brent $118 — Trump declared blockade until nuclear deal. Iran lost track of mines. Hezbollah rejected Lebanon talks. Lebanon ceasefire breaking. Mine clearing 6 months even with deal."
+    "totalShipsWaiting": "20,000+ mariners stranded. India 280 seafarers. Rupee Rs 95. OMC hike Rs 12-18/L imminent. Kharif fertiliser emergency. $2M/ship makes Gulf fertiliser imports commercially impossible.",
+    "lastTransit": "Iran toll channel north of Larak Island — $2M/ship confirmed. Pakistani tanker March 16 first toll transit. Idemitsu Maru April 29. Toll system formalising into Iranian law.",
+    "indianNavyEscort": "Op Urja Suraksha HIGH ALERT. CENTCOM military options = resumed strikes possible. India must prepare for $140-150 Brent scenario. Emergency kharif fertiliser sourcing needed NOW.",
+    "headline": "Brent $126 (four-year high). CENTCOM briefing Trump on military options — strike resumption risk. US rejected Iran proposal. Rupee Rs 95. Toll channel: $2M/ship north of Larak Island."
   },
   "hormuzEvents": [
     {
-      "d": "Apr 30 AM",
-      "e": "DAY 62 THU 9:30AM IST. BRENT $118.03 Wednesday close (+6%) — highest since April 7. TRUMP (Axios): \"Blockade more effective than bombing. Choking like a stuffed pig.\" WH DECLARED: blockade continues UNTIL NUCLEAR DEAL — Hormuz-first explicitly rejected. HEZBOLLAH LEADER REJECTED all US-brokered Lebanon negotiations — Lebanon ceasefire breaking. US FED HELD RATES (Powell final). IRAN REPORTEDLY LOST TRACK of Hormuz mines — cannot fully reopen even if it wants to. Lebanon: 2,509+ killed. India: OMC hike Rs 7-12/L IMMINENT. Nuclear red line = extended blockade. Kharif fertiliser at acute risk."
+      "d": "Apr 30 5:30PM",
+      "e": "DAY 62 THU 5:30PM IST CLOSE. SENSEX -583 (76,913). NIFTY -180 (23,998). Intraday lows: Sensex 76,258 (-1,237), Nifty 23,796 (-380). BRENT SURGED PAST $126 (four-year high, 80% above pre-war $70). Trigger: Axios — CENTCOM briefing Trump on NEW MILITARY OPTIONS against Iran. US REJECTED IRAN PEACE PROPOSAL + directed blockade intensification. RUPEE BREACHED Rs 95/USD (first time in war). Iran Hormuz channel confirmed: north of Larak Island, $2M/ship. Pakistani tanker March 16 first toll transit. Top losers: Tata Motors, Eternal, IndiGo, HUL, M&M, Axis Bank. India OMC hike Rs 12-18/L IMMINENT. Kharif fertiliser emergency. West Asia War Day 62."
     },
     {
       "d": "Apr 29 AM",
@@ -187,40 +182,40 @@
   ],
   "military": [
     {
-      "t": "TRUMP (Axios): \"Blockade More Effective Than Bombing.\" Declared Blockade Until Nuclear Deal.",
+      "t": "CENTCOM BRIEFING TRUMP on NEW MILITARY OPTIONS Against Iran — Strike Resumption on Table.",
       "lv": "BREAKING",
       "color": "red",
-      "d": "CNBC (9 hours ago) confirmed: Trump told Axios on Wednesday: \"The blockade is somewhat more effective than the bombing. They are choking like a stuffed pig, and it is going to be worse for them. They can't have a nuclear weapon.\" This is the most explicit statement of Trump's strategy of the war — the blockade has replaced bombing as the primary weapon. Trump separately told Axios he will maintain the US naval blockade against Iran until they agree to a nuclear deal. This directly rejects Iran's decoupled Hormuz-first proposal. No Hormuz-first deal is on the table. The only path to Hormuz reopening is a full nuclear agreement — which analyst Mortazavi noted took two years under Obama-era conditions. For India: this means an extended blockade of months to years if Iran does not rapidly agree to nuclear terms."
+      "d": "Axios confirmed (The Week, Business Standard): CENTCOM was set to brief President Trump on new military options against Iran. This is the direct trigger for Brent surging past $126 — markets pricing in resumed US airstrikes on Iran for the first time since the ceasefire on April 8. The options discussed reportedly include whether to increase US military presence in the strait or whether the military should become more aggressive conducting operations there. Trump has not made any decisions, but was expected to hold additional meetings about Iran. If Trump approves new strikes: Brent could spike to $140-150, the Iran nuclear sites could be targeted for the first time, and the West Asia War enters its most dangerous phase since Day 1."
     },
     {
-      "t": "BRENT $118.03 Wednesday Close — 6% Surge. Highest Since April 7. WTI $106.88.",
+      "t": "BRENT SURGED PAST $126 — FOUR-YEAR HIGH. 80% Above Pre-War Level. Worst Since 2022.",
       "lv": "BREAKING",
       "color": "red",
-      "d": "CNBC confirmed: Brent crude futures rose about 6% to close at $118.03 — highest since April 7 (when Brent peaked around $117 before ceasefire announcement). WTI futures advanced nearly 7% to $106.88. The surge came directly after Trump's \"choking like a stuffed pig\" Axios statement declaring the blockade permanent until nuclear deal. For India: Brent $118 = OMC petrol/diesel hike Rs 7-12/L imminent — largest consumer price shock of the war. India petroleum import bill at war-record levels. Every $1 Brent increase above $100 = approximately $1.4 billion annual additional import cost for India. At $118: India's additional annual import cost vs pre-war = approximately $74 billion. Rupee faces severe pressure. RBI may intervene in forex markets."
+      "d": "The Week (5 hours ago) confirmed: Brent crude surged past $126 per barrel — four-year high — during Thursday's session. The Week: \"When the US-Israel coalition attacked Iran in late February, nine weeks ago, Brent was trading around $70 per barrel. It is now at $126, an 80% surge in under three months, driven almost entirely by the closure of the Strait of Hormuz.\" Business Standard confirmed Brent surged on reports of US rejecting Iran's peace proposal and directing blockade intensification. CNBC oil timeline confirms: \"Brent crude has surged more than 55% since the Iran war began, hitting nearly $120 a barrel at its peak\" — now exceeded. Commodity Context founder Johnston: \"This is still the largest oil supply shock in the history of the oil market.\" Even if a deal is reached today: CNBC analyst estimates $10-20 immediate drop, then Brent settles at $80-90 due to supply chain bottlenecks."
     },
     {
-      "t": "HEZBOLLAH Rejected All US-Brokered Lebanon Negotiations. Lebanon Ceasefire Breaking Down.",
+      "t": "SENSEX -583 (76,913). NIFTY -180 (23,998). Intraday -1,237 Sensex. Rupee Breached Rs 95.",
       "lv": "BREAKING",
       "color": "red",
-      "d": "CBS News (7 hours ago) confirmed: Hezbollah's leader \"flatly rejected the US-brokered negotiations between Israel and Lebanon 'and their outcomes,' raising new doubt over the tenuous ceasefire in the parallel war.\" Hezbollah launched drones against IDF soldiers in southern Lebanon. Israel soldier killed in combat in south Lebanon Wednesday. Lebanon deaths: 2,509+ (health ministry). This is critical for the Hormuz situation because: Iran has stated throughout the war it will not agree to any peace deal that doesn't also halt Israel's war in Lebanon. Hezbollah's explicit rejection of all Lebanon negotiations means Iran has no pathway to a deal even if it wanted one — it must first get Hezbollah on board. The Lebanon diplomatic track has effectively collapsed on the same day Trump declared a nuclear-first US blockade. Near-complete diplomatic deadlock."
+      "d": "Business Standard confirmed: Sensex closed at 76,913.50 (-582.86 / -0.75%). Nifty 23,997.55 (-180.10 / -0.74%). Intraday lows (The Week confirmed): Sensex 76,258.86 (-1,237 pts), Nifty 23,796.85 (-380 pts). Top Nifty50 losers: Tata Motors Passenger Vehicles, Eternal, Hindalco, IndiGo, Hindustan Unilever, Mahindra & Mahindra, Axis Bank — across auto, FMCG, aviation and banking. The Week: \"The rupee breached 95 per US dollar on Thursday, under pressure from soaring oil prices and the Federal Reserve's hawkish tilt.\" Rupee crossing Rs 95 = first time in war. RBI intervention widely expected. Every Rs 1 rupee fall = Rs 4,000 Cr additional annual petroleum import bill. Partial recovery from intraday lows as some bargain buying emerged in afternoon session."
     },
     {
-      "t": "IRAN REPORTEDLY LOST TRACK of Hormuz Mines. Cannot Fully Reopen Even With a Deal.",
+      "t": "Iran's Hormuz Channel: North of Larak Island. $2 Million Per Ship Confirmed.",
+      "lv": "BREAKING",
+      "color": "amber",
+      "d": "Multiple authenticated sources confirmed: Iran established its own shipping channel north of Larak Island — separate from the main international shipping lane (which runs south of Larak Island). One ship is confirmed to have paid $2 million to use Iran's channel — setting the official toll precedent. A Pakistani-flagged oil tanker crossed Hormuz on March 16 with Iranian permission — this was actually the first coordinated passage, predating the April 29 Idemitsu Maru crossing by six weeks. Iran Parliament drafting formal law: hostile-nation ships (US, Israel, allies) banned; all others must pay tolls and coordinate with Iranian authorities. The IRGC has established a de facto customs regime over the world's most critical maritime chokepoint — institutionalising what it calls Iran's sovereign right over the strait. CBS News confirmed the $1M+/ship or $1M/barrel toll structure."
+    },
+    {
+      "t": "US Rejected Iran Peace Proposal + Directed Blockade Intensification. Diplomatic Channels Frozen.",
       "lv": "BREAKING",
       "color": "red",
-      "d": "CBS News (citing US officials) confirmed: Iran reportedly lost track of mines it planted in the Strait of Hormuz and is therefore \"unable to fully open the strait\" even if it chose to. This is a structural fact that changes the entire reopening calculus. Even an immediate US-Iran deal does not mean immediate Hormuz reopening: (1) Lost Iranian mines must be located and cleared — 6 months per Pentagon, (2) 20,000+ mariners on 2,000+ ships must be safely managed, (3) Tanker congestion takes weeks to clear, (4) Production restart lags at Kharg Island and elsewhere take months. CNBC analyst Lipow: \"Even if hostilities ended immediately, oil markets take 4-6 months to stabilise.\" For India: Brent will not crash to pre-war levels even on a deal announcement."
+      "d": "Business Standard and The Week confirmed: US rejected Iran's peace proposal (Hormuz reopening + war end; nuclear deferred) and directed intensification of the Hormuz blockade. This follows Trump's declaration to Axios on Wednesday: \"Blockade is more effective than bombing. They are choking like a stuffed pig.\" WH counterproposal was expected but never delivered. Rubio: Iran's proposal \"unacceptable.\" Pakistan back-channel: frozen. Araghchi completed Islamabad-Oman-Moscow tour but no breakthrough achieved. Hezbollah rejected Lebanon negotiations — removing Iran's exit ramp. Iran lost track of mines — cannot reopen even if it wants to. The combination of US proposal rejection + blockade intensification order + CENTCOM military options briefing + Hezbollah Lebanon veto = the most diplomatically frozen position of the entire war."
     },
     {
-      "t": "US FED HELD RATES UNCHANGED — Powell's Final Meeting. Partial Rupee Relief for India.",
-      "lv": "DEVELOPING",
-      "color": "green",
-      "d": "NPR confirmed: Federal Reserve held interest rates unchanged at Chairman Powell's final meeting as Fed Chair — as widely expected. Fed cited \"elevated uncertainty from geopolitical conflict and energy prices.\" For India: Fed on hold = no additional dollar strength = partial rupee relief. Rupee had weakened to 94.81 intraday Wednesday on elevated oil and month-end dollar demand (The Week confirmed). A hawkish Fed surprise would have compounded rupee pressure — the hold provides breathing room. However Brent at $118 remains the dominant rupee driver. India's trade deficit will widen significantly in April — highest petroleum import bill of the war. Next Fed meeting: June — by which time the Iran nuclear deal status (or lack thereof) will be the primary driver of oil and therefore rupee."
-    },
-    {
-      "t": "India Day 62: Brent $118 = OMC Hike Rs 7-12/L. Nuclear Red Line = Extended Blockade.",
+      "t": "India at Day 62 Peak: OMC Hike Rs 12-18/L. Kharif Emergency. RBI Forex Intervention.",
       "lv": "DEVELOPING",
       "color": "cyan",
-      "d": "India-specific situation at Day 62: (1) Brent $118 = OMC petrol/diesel hike upgraded to Rs 7-12/L — largest consumer price impact of the war. Indian Oil, BPCL, HPCL announcement Thursday-Friday. (2) Trump's nuclear red line: no Hormuz without nuclear deal = months to years of elevated Brent. India must formally plan for $110-120 Brent as the new normal for 2026. (3) Fed on hold = mild rupee relief — but Brent $118 overwhelms this. (4) Hezbollah rejected Lebanon talks = Iran cannot make any deal — deadlock deepens. (5) Iran lost mines = no quick reopening even with deal. (6) Kharif fertiliser: June-August planting at acute risk — Hormuz closure now virtually certain through May and likely June. Government must consider emergency fertiliser import from alternate suppliers (North Africa, Eastern Europe). (7) Sensex 77,496 (Apr 29 close) faces significant pressure Thursday with $118 Brent."
+      "d": "India's war-peak economic pressure at 5:30 PM April 30: (1) Brent $126 = OMC petrol/diesel hike Rs 12-18/L — most severe consumer price shock since COVID. Government faces choice: full pass-through vs partial subsidy absorption. (2) Rupee Rs 95 — RBI forex intervention now widely expected. Bond yields hardening. (3) Kharif fertiliser EMERGENCY: at $2M/ship Hormuz toll, Gulf fertiliser imports commercially impossible. India must immediately activate emergency sourcing from North Africa (Morocco/Tunisia), Eastern Europe, and Russia for June planting. (4) Aviation: IndiGo among top losers — ATF at $126 Brent makes airline economics severe; fare hikes and capacity cuts likely. (5) Morgan Stanley's Sensex 95,000 Dec 2026 base case remains — but requires Iran deal within weeks. CENTCOM military options scenario: Brent $140-150, Sensex below 72,000, rupee Rs 97-100."
     }
   ],
   "nukes": [
@@ -580,14 +575,22 @@
       "d": 62,
       "l": "Apr 30",
       "deaths": 6700,
-      "brent": 118,
-      "nifty": 24178,
-      "rupee": 94.81,
-      "tag": "BRENT $118.03 (+6%) — highest since Apr 7. Trump (Axios): \"Choking like a stuffed pig. Blockade more effective than bombing.\" WH: blockade until nuclear deal — Hormuz-first rejected. Hezbollah rejected Lebanon negotiations. US Fed held rates (Powell final). Iran lost track of Hormuz mines. Lebanon 2,509+. OMC hike Rs 7-12/L IMMINENT. West Asia War Day 62.",
+      "brent": 126,
+      "nifty": 23998,
+      "rupee": 95.0,
+      "tag": "BRENT $126+ (four-year high, 80% above pre-war). CENTCOM briefing Trump on NEW MILITARY OPTIONS. US rejected Iran proposal + directed blockade intensification. Sensex -583 (76,913), intraday low -1,237. Nifty -180 (23,998), intraday low -380. RUPEE BREACHED Rs 95. Iran toll channel: north of Larak Island, $2M/ship. Top losers: Tata, Eternal, IndiGo, HUL. OMC hike Rs 12-18/L IMMINENT. West Asia War Day 62.",
       "sev": 3
     }
   ],
   "hormuzLatest": [
+    {
+      "d": "Apr 30 5:30PM",
+      "e": "DAY 62 THU 5:30PM IST CLOSE. SENSEX -583 (76,913). NIFTY -180 (23,998). Intraday lows: Sensex 76,258 (-1,237), Nifty 23,796 (-380). BRENT SURGED PAST $126 (four-year high, 80% above pre-war $70). Trigger: Axios — CENTCOM briefing Trump on NEW MILITARY OPTIONS against Iran. US REJECTED IRAN PEACE PROPOSAL + directed blockade intensification. RUPEE BREACHED Rs 95/USD (first time in war). Iran Hormuz channel confirmed: north of Larak Island, $2M/ship. Pakistani tanker March 16 first toll transit. Top losers: Tata Motors, Eternal, IndiGo, HUL, M&M, Axis Bank. India OMC hike Rs 12-18/L IMMINENT. Kharif fertiliser emergency. West Asia War Day 62."
+    },
+    {
+      "d": "Apr 30 5:30PM",
+      "e": "DAY 62 THU 5:30PM IST. BRENT HIT $121 (four-year high) intraday. Sensex -914 to 76,582. Nifty -278 to 23,899. ALL 16 NSE sectors red. IRAN CHARGING $1M+/SHIP or $1M/BARREL for Hormuz passage (CBS confirmed) — toll system operational. SWEDEN warned of jet fuel shortage. Iran 5-point counter-proposal demands HORMUZ SOVEREIGNTY RECOGNITION + $270B reparations. World Bank: cumulative economic waves globally. Panama Canal at capacity from Hormuz diversion. Nifty targets cut 3.8% by brokerages (Bloomberg/BS). India: OMC hike Rs 9-14/L IMMINENT. Rupee toward Rs 95. Hormuz toll = India must decide pay/not-pay. Kharif fertiliser prohibitively expensive even if Hormuz \"open.\""
+    },
     {
       "d": "Apr 30 AM",
       "e": "DAY 62 THU 9:30AM IST. BRENT $118.03 Wednesday close (+6%) — highest since April 7. TRUMP (Axios): \"Blockade more effective than bombing. Choking like a stuffed pig.\" WH DECLARED: blockade continues UNTIL NUCLEAR DEAL — Hormuz-first explicitly rejected. HEZBOLLAH LEADER REJECTED all US-brokered Lebanon negotiations — Lebanon ceasefire breaking. US FED HELD RATES (Powell final). IRAN REPORTEDLY LOST TRACK of Hormuz mines — cannot fully reopen even if it wants to. Lebanon: 2,509+ killed. India: OMC hike Rs 7-12/L IMMINENT. Nuclear red line = extended blockade. Kharif fertiliser at acute risk."
@@ -595,19 +598,11 @@
     {
       "d": "Apr 29 AM",
       "e": "DAY 61 WED 9:30AM IST. JAPANESE TANKER IDEMITSU MARU passed Hormuz with IRAN COORDINATION — first since closure (CBS/Tasnim). 2M bbl Saudi crude from Ras Tanura. Unclear if Japan paid toll. 4 more ships passed Tuesday without incident. Iran BANNED STEEL EXPORTS effective April 26 (CBS/IRGC customs). Tehran billboard: \"Strait remains closed.\" GIFT Nifty +23.5 at 24,092 — marginal open. Brent $111.6 (+0.36%). WH counterproposal still not delivered. Trump opposed toll mechanism. Israel evacuating 16 Lebanon towns. IEA: greatest energy crisis in history. India OMC hike IMMINENT."
-    },
-    {
-      "d": "Apr 27-28",
-      "e": "DAY 59-60 TWO-DAY WRAP. APR 27: IRAN PROPOSED Hormuz reopening + war end, defer nuclear (AP: two regional officials). Sensex +639 to 77,303. ARAGHCHI MET PUTIN St Petersburg (AFP/NPR). Putin received Mojtaba Khamenei message. Brent $108.36. UAE leaving OPEC Friday. UN Guterres: global food emergency. APR 28: TRUMP NOT SATISFIED (NYT). WSJ: counterproposal coming in days. Rubio: unacceptable. Brent $111.49 — 7th straight gain. Sensex -417 to 76,887. Nifty 23,996 (below 24k). Coal India +2.75%. US clearing mines. Iran rail + Caspian + junk storage. Vance: worried weapons depletion. India OMC hike IMMINENT."
-    },
-    {
-      "d": "Apr 28 AM",
-      "e": "DAY 60 TUE 9:30AM IST. IRAN FORMALLY OFFERED Hormuz reopening for US blockade lift + war end — nuclear deferred (AP/Axios Monday). Trump UNLIKELY to accept (PBS/AP). ARAGHCHI met PUTIN St Petersburg Monday — Putin received MOJTABA KHAMENEI MESSAGE (first Supreme Leader communication, TASS/Kremlin). Brent $108.23 Monday close. GIFT Nifty -72 at 24,048 — negative open Tuesday. SENSEX +639 Monday to 77,303. Nifty +195 to 24,093. Trump reviewing whether to resume bombing (CNN/2 sources). Pakistan dismantled Islamabad security — no talks imminent (PBS). 19 vessels Hormuz Saturday (Windward). US clearing mines (6 months). Germany Merz: US humiliated. El Nino 61-70% June-Aug (NOAA). Goldman Sachs raised oil forecast. ~1bn barrels disrupted (TD Securities). Day 60 West Asia War."
     }
   ],
   "projNow": {
-    "brent": 118,
-    "rupee": 94.81,
+    "brent": 126,
+    "rupee": 95.0,
     "lpg": 912,
     "petrol": 94.77,
     "deaths": 6700
@@ -616,106 +611,106 @@
     "headers": [
       "Pre-war",
       "Now (D62)",
-      "Nuclear deal agreed",
-      "Frozen conflict months",
-      "Escalation resumes"
+      "Iran-US deal reached",
+      "Frozen conflict",
+      "Strikes resume"
     ],
     "brent": [
       65,
+      126,
+      80,
       118,
-      85,
-      115,
-      145
+      150
     ],
     "rupee": [
       91,
-      94.81,
-      91.0,
-      97.0,
-      112
+      95.0,
+      90.5,
+      98.0,
+      106
     ],
     "deaths": [
       0,
       "6,700+",
       "7,500",
-      "9,000+",
-      "25,000+"
+      "10,000+",
+      "28,000+"
     ],
     "sensex": [
       "78,699",
-      "77,496",
-      "82,000+",
-      "72,000",
-      "55,000"
+      "76,913",
+      "87,000+",
+      "70,000",
+      "52,000"
     ],
     "lpg": [
       "Rs 853",
       "Rs 912+",
       "Rs 853",
-      "Rs 1,050+",
-      "Rs 1,800+"
+      "Rs 1,200+",
+      "Rs 2,200+"
     ],
     "fii": [
       "-",
-      "Outflows",
-      "$22B return",
+      "Exodus",
+      "$28B return",
       "Structural out",
-      "$60B out"
+      "$70B out"
     ]
   },
   "radar": [
     {
       "axis": "Oil Shock",
       "w1": 60,
-      "now": 60,
-      "w4": 58
+      "now": 82,
+      "w4": 65
     },
     {
       "axis": "Market Crash",
       "w1": 45,
-      "now": 42,
-      "w4": 35
+      "now": 58,
+      "w4": 42
     },
     {
       "axis": "Nuclear Risk",
       "w1": 20,
-      "now": 88,
-      "w4": 80
+      "now": 92,
+      "w4": 85
     },
     {
       "axis": "Hormuz Closure",
       "w1": 80,
-      "now": 90,
-      "w4": 55
+      "now": 95,
+      "w4": 60
     },
     {
       "axis": "Household",
       "w1": 15,
-      "now": 58,
-      "w4": 52
+      "now": 72,
+      "w4": 55
     },
     {
       "axis": "Currency",
       "w1": 40,
-      "now": 42,
-      "w4": 38
+      "now": 58,
+      "w4": 42
     },
     {
       "axis": "Social Unrest",
       "w1": 25,
-      "now": 58,
-      "w4": 50
+      "now": 65,
+      "w4": 52
     },
     {
       "axis": "Mil. Exposure",
       "w1": 35,
-      "now": 75,
-      "w4": 55
+      "now": 88,
+      "w4": 60
     }
   ],
   "assessment": {
-    "headline": "DAY 62, 9:30AM THU: BRENT $118 (+6%). Trump: \"Choking like a stuffed pig.\" BLOCKADE UNTIL NUCLEAR DEAL. Hezbollah rejected Lebanon talks. Iran lost Hormuz mines. Lebanon 2,509+. India OMC hike Rs 7-12/L IMMINENT.",
-    "body": "Thursday 9:30 AM IST. Day 62. The West Asia War entered its most economically destructive phase overnight.\n\nTHE NUCLEAR RED LINE — TRUMP CLOSES THE DOOR ON HORMUZ-FIRST\n• Trump told Axios: \"The blockade is somewhat more effective than the bombing.\"\n• \"They are choking like a stuffed pig, and it is going to be worse for them.\"\n• \"They can't have a nuclear weapon.\"\n• WH: blockade continues UNTIL Iran agrees to nuclear deal\n• Iran's decoupled Hormuz-first proposal is explicitly off the table\n• The only path: full nuclear agreement first — then Hormuz reopening\n• Last time Iran negotiated a nuclear deal: 2 years under Obama-era conditions\n\nTHE BRENT SHOCK — $118\n• Brent +6% to $118.03 Wednesday close\n• WTI +7% to $106.88\n• Highest Brent since April 7 (near-peak of the oil shock)\n• Triggered entirely by Trump's nuclear red line declaration\n• For India: Rs 7-12/L petrol/diesel hike — IMMINENT\n\nTHE HEZBOLLAH VETO\n• Hezbollah leader flatly rejected all US-brokered Lebanon negotiations\n• Iran cannot agree to any deal without Lebanon ceasefire\n• Hezbollah just made Lebanon ceasefire impossible\n• Iran has no pathway to any deal — even if it wanted one\n• Lebanon deaths: 2,509+ (steep climb)\n\nTHE MINES PROBLEM\n• Iran reportedly lost track of mines planted in Hormuz\n• Cannot fully reopen even if it wants to\n• US mine clearing: 6 months even at \"tripled level\"\n• Even a deal today = months of restricted transit\n• Brent will not crash to pre-war levels even on a deal announcement\n\nTHE US FED — ONE POSITIVE\n• Fed held rates unchanged (Powell's final meeting)\n• Rupee gets partial relief — no additional dollar strength\n• But Brent $118 overwhelms the Fed positive\n\nINDIA AT DAY 62 — THE NEW REALITY\n• Brent $118 = OMC hike Rs 7-12/L IMMINENT (Thursday-Friday)\n• Kharif fertiliser: Hormuz now virtually certain to stay closed through June\n• Emergency government action needed: alternate fertiliser suppliers\n• Rupee 94.81 — approaching 95, RBI intervention possible\n• Nuclear red line = India must plan for $110-120 Brent as new 2026 normal\n• Sensex 77,496 (Apr 29 close) faces serious Thursday headwinds\n\nVERDICT: Day 62 is the turning point. Trump has declared the blockade permanent until a full nuclear deal — and Hezbollah has simultaneously vetoed Iran's only exit ramp. Iran cannot open Hormuz (it lost its mines). It cannot make a deal (Hezbollah blocks Lebanon). And it is being strangled economically. This is no longer a war — it is a siege. And India, sitting downstream of every barrel that doesn't flow through Hormuz, is paying the highest price of any non-combatant nation."
+    "headline": "DAY 62, 5:30PM THU: BRENT $126 (4-YR HIGH, 80% ABOVE PRE-WAR). CENTCOM MILITARY OPTIONS BRIEFING TRUMP. US REJECTED IRAN DEAL. Sensex -583, intraday -1,237. Rupee Rs 95. Iran toll $2M/ship. OMC hike Rs 12-18/L IMMINENT. Strike resumption risk elevated.",
+    "body": "Thursday 5:30 PM IST. Day 62. The West Asia War's most dangerous day since February 28.\n\nBRENT $126 — THE TRIGGER\n• Axios: CENTCOM briefing Trump on new military options against Iran\n• US rejected Iran's peace proposal (reopen Hormuz, defer nuclear)\n• US directed intensification of the Hormuz blockade\n• Brent surged from $111 open to $126 intraday — $15 surge in hours\n• 80% above pre-war level of $70\n• Four-year high. Highest since 2022 oil price peak\n\nTHE MILITARY OPTIONS MOMENT\n• CENTCOM presented Trump with options: increase presence vs more aggressive operations\n• Trump has not yet made a decision — expected additional Iran meetings\n• If Trump approves new strikes: war enters most dangerous phase since Feb 28\n• Brent could spike to $140-150 in a session on new strike announcement\n• Nuclear sites (Fordow — only 30% damaged — greatest proliferation risk) could be targeted\n• Iran has already revised its military doctrine to offensive\n\nTHE HORMUZ TOLL SYSTEM — NOW FORMALISED\n• Iran's channel: north of Larak Island (not the main international lane)\n• $2 million per ship confirmed — one ship paid this amount\n• Pakistani tanker crossed March 16 with Iranian permission — first toll transit\n• Idemitsu Maru (Japan) April 29 — second confirmed\n• Iran Parliament formalising as law: hostile nations banned, others pay tolls + coordinate\n• The toll is no longer a negotiating position — it is operational and becoming law\n\nINDIA'S WORST DAY OF THE WAR\n• Brent $126 = OMC hike Rs 12-18/L — most severe consumer shock since COVID\n• Rupee Rs 95 — first breach of this level in the war. RBI intervention expected\n• Sensex intraday -1,237. Nifty intraday -380. Partial recovery into close\n• Kharif fertiliser: $2M/ship Hormuz toll = Gulf fertiliser commercially impossible\n• Emergency alternate sourcing needed NOW: North Africa, Eastern Europe, Russia\n• IndiGo among top losers — aviation sector in severe ATF cost crisis\n• If CENTCOM military options approved: Brent $140-150, Sensex below 72,000\n\nVERDICT: April 30 is Day 62 and the economic peak of the war for India. Brent at $126, rupee at Rs 95, Sensex intraday down 1,237 points, CENTCOM presenting Trump with military strike options against Iran. The West Asia War is no longer in a stalemate. It is approaching a binary decision point: a nuclear deal that ends the blockade (Brent $80, Sensex 87,000+) or a resumption of military strikes (Brent $150, Sensex 52,000). India is paying the highest price of any non-combatant nation in this war. And the decision that determines India's economic fate for the rest of 2026 is being made in the White House Situation Room — not in New Delhi."
   },
   "featured": [
     {
