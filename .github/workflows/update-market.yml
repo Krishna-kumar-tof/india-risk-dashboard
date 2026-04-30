@@ -5,7 +5,6 @@ on:
     - cron: '0 */4 * * *'   # Every 4 hours UTC
   workflow_dispatch:
 
-# CRITICAL — without this, GITHUB_TOKEN cannot push commits
 permissions:
   contents: write
 
@@ -33,14 +32,17 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Pull latest changes before pushing
-        run: git pull origin main --rebase
+      - name: Stash, pull, then restore
+        run: |
+          git stash
+          git pull origin main
+          git stash pop || true
 
       - name: Commit and push if changed
         run: |
           git add public/market-data.json
           if git diff --staged --quiet; then
-            echo "No changes to market-data.json — skipping commit"
+            echo "No changes to commit"
           else
             git commit -m "chore: auto-update market data $(date -u '+%Y-%m-%d %H:%M UTC')"
             git push origin main
