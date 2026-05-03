@@ -1,87 +1,81 @@
 {
-  "_updated": "May 2, 2026 — 6:30 PM IST",
-  "_day": 64,
+  "_updated": "May 3, 2026 — 6:15 AM IST",
+  "_day": 65,
   "_phase": "BLOCKADE",
-  "_note": "Verified: CNBC (9hr ago), Business Standard (4 days ago), Trading Economics, Goldman Sachs note (April 26), CBS News. NO Wikipedia. DAY 64 SAT 6:30PM IST. India markets CLOSED Fri (Labour Day) + Sat (weekend). Reopen Monday 9:15 AM IST. BRENT $107-110 range Saturday — easing from $126 peak. WTI near $101-103. Goldman Sachs FOURTH upgrade of Brent forecast since war: Q4 2026 now $90 (from $80) — fourth revision from $66→$71→$80→$90 as Hormuz disruption proves persistent. Inventories drawing at 11-12 Mbpd FASTEST PACE ON RECORD since satellite tracking began. Gulf crude production collapsed to 11.9 Mbpd from 26.4 Mbpd pre-war — 14.5 Mbpd hit. Nifty targets cut 3.8% — from 29,899 pre-war to 28,747 now (Bloomberg/Business Standard). Morgan Stanley Sensex 95,000 by Dec 2026. Iran updated proposal delivered to US via Pakistan (Friday). Trump: \"not satisfied.\" CENTCOM \"short and powerful\" strikes plan ready. US pitching allies on joint naval force. Iran activated Tehran air defenses Thursday. Murkowski AUMF May 11. West Asia War Day 64.",
+  "_note": "Verified: CNBC (1hr ago), CBS News, Reuters, Time magazine, BusinessToday. NO Wikipedia. DAY 65 SUN 6:15AM IST — CRITICAL SHIFT: TRUMP (May 2, West Palm Beach, Air Force One): \"They told me about the concept of the deal. They're going to give me the exact wording now.\" — MOST POSITIVE US SIGNAL OF THE WAR. Senior Iranian official (Reuters, anonymity): Iran's proposal is a \"SIGNIFICANT SHIFT\" — opens Hormuz + ends war + no-restart guarantee + US lifts blockade. Nuclear talks DEFERRED to later (Iran demands right to peaceful enrichment). Trump also warned: still \"possibility of restarting strikes if Tehran misbehaves.\" \"On a human basis, I don't prefer the military course.\" US PCE inflation rose 0.7% in March — war-driven energy prices feeding into US inflation. National average gasoline $4.30/gallon (+7 cents). Brent $108-110 Saturday range. India markets CLOSED today. Reopen Monday 9:15 AM IST. West Asia War Day 65.",
   "ticker": [
-    "🗺️ NEW: 'The Strait of Hormuz and the New Logic of Chokepoint Control' — Dr Y Nithiyanandam, Takshashila Geospatial Bulletin. Chokepoint control: no longer binary but a layered spatial contest. Read now →",
-    "📋 IRAN UPDATED PROPOSAL via Pakistan — delivered to US (CNBC/Bloomberg). Brent -2% to $108.17 on Friday. Trump: 'not satisfied. Iran has no military left.' Softer language than previous rejection.",
-    "⚔️ CENTCOM 'SHORT AND POWERFUL' strikes plan prepared (Axios). Trump briefed by CENTCOM Cooper + Joint Chiefs Chair Caine. Military option at highest planning level — no decision made yet.",
-    "📈 GOLDMAN SACHS 4TH BRENT UPGRADE: Q4 2026 forecast now $90 (from $80). Track: $66→$71→$80→$90. April inventories at RECORD draw 11-12 Mbpd. Gulf output collapsed -14.5 Mbpd from pre-war.",
-    "📉 NIFTY TARGETS CUT 3.8% since war — from 29,899 to 28,747 (Bloomberg/Business Standard). MORGAN STANLEY: Sensex 95,000 by Dec 2026. Goldman prefers financials, staples, telecom over autos, durables.",
-    "⚓ US PITCHING ALLIES on JOINT NAVAL FORCE to secure Hormuz (Bloomberg). IRAN ACTIVATED TEHRAN AIR DEFENSES Thursday — counter to reconnaissance drones (Axios/Iranian state media). Cause unconfirmed.",
-    "🏛️ WAR POWERS 60-DAY DEADLINE passed May 1. Murkowski AUMF May 11 if no WH plan. Pentagon war cost $25B — senators say 'probably less than a quarter of the true cost.'",
-    "🇮🇳 India markets reopen Monday 9:15 AM IST. State election results May 4 (West Bengal, Tamil Nadu, others). Brent $108 (from $126 peak) = modest gap-up likely. Rupee ATL 95.32 — RBI intervention expected.",
-    "🛢️ BRENT $107-110 Saturday range — easing from $126 Thursday peak. WTI ~$101-103. Even with deal: Lipow estimates 4-6 months to normalise due to mines, congestion, production restart lags.",
-    "🚢 HORMUZ: Goldman Sachs: Gulf exports at 4% of normal. 42 vessels redirected by CENTCOM. Desh Garima (India) Mumbai unloading confirmed. Mojtaba: 'new management' of Hormuz is permanent doctrine."
+    "🕊️ TRUMP (May 2, Air Force One): 'They told me about the CONCEPT OF THE DEAL. They're going to give me the EXACT WORDING now.' MOST POSITIVE US SIGNAL OF THE WAR. Deal framework under active review.",
+    "📋 IRAN SENIOR OFFICIAL (Reuters): Iran's proposal is a 'SIGNIFICANT SHIFT.' Opens Hormuz + ends war + no-restart guarantee + US lifts blockade. Nuclear talks deferred — Iran demands right to peaceful enrichment.",
+    "⚠️ TRUMP ALSO WARNED: 'Still possibility of restarting strikes if Tehran misbehaves.' 'On a human basis, I don't prefer the military course.' Diplomatic door open — military option remains on table.",
+    "🛢️ BRENT $108-110 Saturday range. PCE inflation rose 0.7% March — war-driven energy prices feeding US inflation. US gasoline national average $4.30/gallon (+7 cents). Iran blockade costing American consumers.",
+    "🔑 IRAN PROPOSAL DETAILS (Reuters senior official): (1) Open Hormuz. (2) End war with no-restart guarantee. (3) US lifts blockade. (4) Nuclear talks later — Iran demands recognised right to peaceful enrichment.",
+    "🏛️ TRUMP (Congressional leaders): Does NOT need permission to extend war beyond May 1 deadline — ceasefire has 'terminated' hostilities per his reading of war powers law. Murkowski AUMF May 11 still pending.",
+    "🇮🇳 India: Markets reopen Monday 9:15 AM IST. Trump 'concept of deal' signal = Brent could fall $10-15 on any deal confirmation. Nifty likely gap-up 24,200-24,500. State election results May 4 = additional driver.",
+    "📊 India VIX expected to ease Monday — Trump 'exact wording' signal reduces acute war escalation risk. Goldman Sachs: Brent $90 Q4 2026 base case still intact. Nifty targets 28,747 (Bloomberg avg).",
+    "🌍 US PCE inflation +0.7% March — highest in 2 years. Gasoline $4.30/gallon. War cost $25B (Pentagon). Congressional pressure building as war hits American consumers directly.",
+    "📅 NEXT: Trump receives Iran's exact wording. If accepted: Brent -$15-20, Nifty +800-1,200. If rejected: CENTCOM strikes plan activated. Binary decision — most pivotal moment of the war."
   ],
   "whatChanged": {
-    "label": "WHAT CHANGED — MAY 2, 6:30 PM IST (DAY 64) — SATURDAY EVENING",
+    "label": "WHAT CHANGED — MAY 3, 6:15 AM IST (DAY 65) — SUNDAY MORNING",
     "items": [
       {
-        "color": "amber",
-        "bold": "IRAN UPDATED PROPOSAL via Pakistan — delivered to US. Brent settled $108.17 (-2%) on Friday.",
-        "text": "CNBC confirmed: Iran sent an updated peace proposal to Pakistan mediators Friday. Pakistani officials confirmed it was delivered to the US. IRNA confirmed the relay but gave no details on Hormuz or nuclear specifics. Brent fell 2% to $108.17 on hope; WTI closed $101.94 (-3%). Trump: \"Iran wants to make a deal, but I'm not satisfied with it. Iran wants to make a deal because they have no military left.\" The \"not satisfied\" language is softer than \"unacceptable\" — suggesting Iran's updated proposal has moved somewhat but not enough."
+        "color": "green",
+        "bold": "TRUMP: \"They told me the CONCEPT OF THE DEAL. Waiting for the EXACT WORDING.\" — Most positive US signal of the war.",
+        "text": "CNBC (1 hour ago) confirmed: Trump said on Saturday at West Palm Beach airport before boarding Air Force One to Miami: \"They told me about the concept of the deal. They're going to give me the exact wording now.\" This is the most positive signal from the US since the war began February 28. Trump shifted from \"not satisfied\" (Friday) to \"waiting for exact wording\" (Saturday) — a significant softening. He also warned that there was still the \"possibility of restarting strikes if Tehran misbehaves\" and said \"on a human basis, I don't prefer the military course.\" The concept being discussed: Iran opens Hormuz + ends war + no-restart guarantee, US lifts blockade. Nuclear talks deferred to later phase."
       },
       {
-        "color": "red",
-        "bold": "CENTCOM \"SHORT AND POWERFUL\" strikes plan ready. Trump briefed by Cooper + Joint Chiefs Chair Caine.",
-        "text": "Axios confirmed: CENTCOM has prepared a \"short and powerful\" wave of strikes plan to break the negotiating deadlock. Trump was briefed at the White House by Admiral Cooper (CENTCOM) AND Dan Caine, the chairman of the Joint Chiefs of Staff. Having the Joint Chiefs Chair in the room signals the most serious military planning process of the war so far. No decision made yet — but the plan is ready to execute."
-      },
-      {
-        "color": "amber",
-        "bold": "US PITCHING ALLIES on joint naval force for Hormuz. Iran activated Tehran air defenses Thursday.",
-        "text": "Bloomberg confirmed: US is pitching allies on a joint naval force to secure Hormuz — an active enforcement force against Iran's blockade, distinct from the Northwood mine-clearing conference. Separately: Iran activated air defenses around Tehran Thursday night to counter reconnaissance drones (\"small drones, micro-UAVs\" per Iranian state media). Cause of drone incursion unconfirmed. Either a US/Israeli reconnaissance mission or an internal test."
-      },
-      {
-        "color": "red",
-        "bold": "GOLDMAN SACHS 4th upgrade: Brent $90 Q4 2026. Inventories at RECORD draw 11-12 Mbpd. Gulf output -14.5 Mbpd.",
-        "text": "Goldman Sachs (April 26 note, confirmed): fourth Brent upgrade since war began — Q4 2026 forecast now $90 (from $80 previously). The track: $66→$71→$80→$90, each revision tied to a longer assumed Hormuz disruption. April global oil inventories drawing at 11-12 Mbpd — fastest pace on record since satellite tracking began. Gulf crude production collapsed to 11.9 Mbpd from pre-war 26.4 Mbpd — a 14.5 Mbpd hit. Goldman now sees market swinging from 1.8 Mbpd surplus in 2025 to a 9.6 Mbpd deficit in Q2 2026. Even at the Q4 $90 forecast: Brent stays 38% above pre-war for the rest of 2026."
+        "color": "green",
+        "bold": "IRAN SENIOR OFFICIAL (Reuters): Proposal is a \"SIGNIFICANT SHIFT.\" Nuclear deferred — Iran demands right to peaceful enrichment.",
+        "text": "Reuters (senior Iranian official, anonymity): Iran's latest proposal to shelve nuclear talks for a later stage was described as a \"significant shift aimed at facilitating an agreement.\" Under the proposal: the war ends with a guarantee that Israel and the US would not attack again; Iran opens the strait; the US lifts its blockade; future talks would then address curbs to Iran's nuclear programme in return for lifting of sanctions. Critically: Iran demands Washington recognise its right to enrich uranium for peaceful purposes, even if it agrees to suspend its nuclear programme. This is Iran's bottom line on nuclear — not zero enrichment, but recognised peaceful enrichment with suspension. A significant difference from Trump's demand of full abandonment."
       },
       {
         "color": "amber",
-        "bold": "Nifty targets cut 3.8% since war. Morgan Stanley: Sensex 95,000 Dec 2026. Goldman prefers financials, staples.",
-        "text": "Business Standard confirmed: average Nifty 12-month target slipped 3.8% — from 29,899 pre-war (Feb 28) to 28,747 now (Bloomberg data). Geojit: \"8-10% cut in market forecasts as higher inflation pressures demand and profitability.\" Morgan Stanley: Sensex 95,000 by December 2026 (base case) — improving earnings momentum, strong policy support, attractive valuations. HDFC Securities: nearing end of 18-month correction cycle. Goldman Sachs sector strategy: prefers financials, staples, telecom (lower oil sensitivity); cautious on autos, durables, NBFCs (higher oil sensitivity). Goldman also positive on defence and energy as structural themes."
+        "bold": "US PCE inflation +0.7% March — war-driven energy feeding US inflation. Gasoline $4.30/gallon (+7 cents).",
+        "text": "Time magazine (1 day ago) and CBS News confirmed: the US Personal Consumption Expenditure (PCE) price index rose 0.7% in March from February — the highest monthly increase in nearly two years — reflecting rising costs for goods and services as war-driven energy prices feed through to the US economy. National average gasoline climbed to $4.30 per gallon, up 7 cents from the previous day. The domestic US inflation from the war is now becoming a direct political pressure on Trump — gas prices above $4 hurt ordinary Americans, and every week of blockade raises the domestic political cost. This inflation pressure is accelerating Trump's incentive to reach a deal, even at the cost of deferring nuclear talks."
       },
       {
         "color": "amber",
-        "bold": "WAR POWERS 60-day deadline passed May 1. Murkowski AUMF May 11. Pentagon cost $25B — senators say understated.",
-        "text": "The 60-day war powers clock passed May 1. Hegseth claims it \"pauses\" during ceasefire — senators dispute. GOP Sen. Murkowski will introduce AUMF measure when Senate returns May 11 if WH has no credible plan. One senator said the Pentagon's $25B cost figure is \"probably less than half, maybe less than a quarter of the true cost of war.\" May 11 is the next congressional pressure point — Murkowski AUMF vote could force Senate to formally authorize or end the war."
+        "bold": "TRUMP: Does NOT need congressional permission to extend war beyond May 1. Murkowski AUMF May 11 still pending.",
+        "text": "CNBC (Reuters) confirmed: Trump told congressional leaders he does not need their permission to extend the war beyond the May 1 deadline set by law, because the ceasefire had \"terminated\" hostilities. This is the administration's legal theory: the ceasefire means there are no active hostilities, so the 60-day war powers clock does not apply. Democrats and some Republicans dispute this. GOP Sen. Murkowski (R-Alaska) still plans to introduce an AUMF measure when the Senate returns May 11 — forcing a Senate vote on formally authorising or ending the war. The AUMF threat is the next congressional pressure point. If Murkowski follows through, it puts Republicans in a difficult position: vote to authorise a war many find uncomfortable, or force its end."
       },
       {
         "color": "cyan",
-        "bold": "India: Markets reopen Monday 9:15 AM. Brent $108 range. Morgan Stanley $95k Sensex Dec 2026.",
-        "text": "India markets closed Fri (Labour Day) + Sat. Monday 9:15 AM IST is the first session to price in: Iran updated proposal (positive), Brent $108 easing from $126 (positive), CENTCOM \"short and powerful\" strikes plan (tail risk negative), joint naval force pitch (structural positive for Hormuz access), Tehran air defense activation (minor negative), Murkowski AUMF May 11 (political pressure positive for deal). Goldman Sachs $90 Brent Q4 2026 = medium-term India relief. State election results May 4 = additional domestic market driver. Monday opening: likely modest positive on Brent easing from $126 peak. Rupee at ATL 95.32 — RBI intervention expected."
+        "bold": "India: Markets reopen Monday 9:15 AM IST. Trump \"concept of deal\" = potential Brent -$15-20. Nifty gap-up likely.",
+        "text": "India markets closed Friday (Labour Day) and Saturday. Monday 9:15 AM IST is the first session to price in: (1) Trump \"concept of deal, waiting for exact wording\" — MAJOR positive. (2) Iran \"significant shift\" proposal detail confirmed (Reuters). (3) Brent $108-110 Saturday range — down from $126 peak. (4) PCE inflation 0.7% — Fed stay on hold = rupee partial relief. (5) Goldman Sachs $90 Q4 2026 Brent base case. (6) State election results May 4 (West Bengal, Tamil Nadu, others) — additional domestic catalyst. Monday scenario: if deal concept signal holds: Nifty 24,200-24,500, Sensex recovery 1,000-1,500 pts, Brent -$8-12. If Trump rejects exact wording: Nifty flat to slight decline, Brent $108-112. CENTCOM strikes scenario: Brent $140+, Nifty below 23,000."
       }
     ]
   },
   "deaths": "6,700+",
-  "deathsSub": "~3,375+ Iran, 2,509+ Lebanon, 99 Iraq, 23+ Israel, 13 US (+2 noncombat), 35+ Gulf. True war cost: $50B (CBS/US officials). US gas $4.39/gallon — up 34 cents from week ago (AAA).",
+  "deathsSub": "~3,375+ Iran, 2,509+ Lebanon (IDF operations in south Lebanon continuing), 99 Iraq, 23+ Israel, 13 US (+2 noncombat), 35+ Gulf. US PCE inflation +0.7% March — war-driven energy costs feeding through to US economy.",
   "econ": {
     "sensex": "76,913",
-    "sensexDelta": "APR 30 CLOSE: -583 (-0.75%). Markets CLOSED Fri+Sat. Reopen Monday 9:15 AM IST.",
-    "sensexSub": "Brent $108 easing from $126 peak. Iran updated proposal. Nifty targets cut 3.8% (Bloomberg). Morgan Stanley Sensex 95k Dec 2026.",
-    "vix": "~22-24 (easing — Brent pulled back from $126)",
-    "vixDelta": "Brent $108 range Saturday. Iran proposal hope. CENTCOM plan tail risk. Monday open: cautiously positive.",
-    "fpi": "Goldman Sachs: prefers financials, staples, telecom. Cautious autos, durables, NBFCs.",
-    "fpiDelta": "Morgan Stanley Sensex 95k Dec 2026. Goldman $90 Brent Q4. Medium-term constructive. Near-term: Monday open + state election results May 4.",
-    "wealth": "BSE market cap ~Rs 445L Cr. Monday open: Brent $108 easing + Iran proposal = modest gap-up expected. State election results May 4 = additional catalyst.",
-    "analysis": "DAY 64 SAT 6:30PM IST. India markets closed Fri+Sat. BRENT $107-110 Saturday — easing from $126 Thursday peak. WTI ~$101-103. Goldman Sachs 4th Brent upgrade: Q4 2026 $90 (from $80). April inventories at record draw 11-12 Mbpd. Gulf output collapsed to 11.9 Mbpd from 26.4 Mbpd pre-war (-14.5 Mbpd hit). Goldman: market swings to 9.6 Mbpd deficit Q2 2026. Iran updated proposal delivered to US via Pakistan Friday. Brent -2% to $108.17 on hopes. Trump: not satisfied. CENTCOM \"short and powerful\" strikes plan ready (Cooper + Caine briefed Trump). US pitching allies on joint naval force. Tehran air defenses activated Thursday. Nifty targets cut 3.8% — 29,899→28,747. Morgan Stanley Sensex 95k Dec 2026. Goldman: financials, staples, telecom preferred. Monday 9:15 AM = first pricing session. State results May 4."
+    "sensexDelta": "APR 30 CLOSE: -583. Closed Fri+Sat. REOPENS MONDAY 9:15 AM IST. Trump \"concept of deal\" = gap-up likely.",
+    "sensexSub": "Trump: \"waiting for exact wording.\" Iran: \"significant shift.\" Brent $108-110. State elections May 4.",
+    "vix": "~20-22 (expected easing — Trump positive deal signal)",
+    "vixDelta": "Trump \"concept of deal\" = most positive war signal. Brent $108 (from $126). Monday VIX expected to ease significantly.",
+    "fpi": "Monday open expected cautiously positive. Trump deal signal = partial FII reversal possible.",
+    "fpiDelta": "Goldman Sachs $90 Brent Q4 2026. Morgan Stanley Sensex 95k Dec 2026. If deal confirmed: $20-25B FII return possible within weeks.",
+    "wealth": "BSE market cap ~Rs 445L Cr. Monday: Trump deal signal + Brent $108 = Rs 460-470L Cr possible on recovery.",
+    "analysis": "DAY 65 SUN 6:15AM IST. TRUMP (May 2, Air Force One): \"They told me about the CONCEPT OF THE DEAL. They're going to give me the EXACT WORDING now.\" Most positive US signal of the war. Iran senior official (Reuters): proposal is \"significant shift\" — Hormuz opens, war ends, no-restart guarantee, US lifts blockade, nuclear deferred. Iran demands right to peaceful enrichment recognised. Trump also warned strikes possible \"if Tehran misbehaves.\" PCE inflation +0.7% March (war-driven). Gasoline $4.30/gallon (+7c). Brent $108-110 Saturday. India markets reopen Monday 9:15 AM. Trump deal signal = Nifty gap-up 24,200-24,500 likely. State elections May 4. Goldman $90 Q4 Brent. Morgan Stanley Sensex 95k Dec 2026."
   },
   "hormuzStatus": {
-    "status": "HORMUZ NEAR-ZERO — UPDATED PROPOSAL SUBMITTED. CENTCOM STRIKES PLAN READY. BRENT $108.",
+    "status": "HORMUZ CHOKED — BUT TRUMP: \"CONCEPT OF DEAL — WAITING FOR EXACT WORDING.\"",
     "preWarFlow": "130-160 ships/day",
-    "currentFlow": "Goldman Sachs: 4% of normal. Iran updated proposal submitted Friday — Brent -2% to $108. CENTCOM \"short and powerful\" strikes plan ready. US pitching allies on joint naval force. Trump AI-gun post: \"better get smart soon.\"",
-    "reduction": "96% disruption (Goldman Sachs: 4% of normal). Brent $108 (eased from $126). Iran updated proposal submitted. CENTCOM strikes plan ready. UAE OPEC exit \"gradual\" — no near-term supply offset.",
+    "currentFlow": "Near-zero commercial free transit. Trump said Saturday he was told the concept of a deal and was waiting for exact wording. Iran confirmed proposal is a \"significant shift.\" Brent $108-110. Deal possible this week.",
+    "reduction": "95%+ disruption. Trump \"concept of deal\" signal = most positive development since ceasefire April 8. Goldman: 4% of normal Hormuz flow. Even with deal: 4-6 months to fully normalise.",
     "indianVesselsNear": 8,
     "indianSeafarers": 280,
     "indianTransited": 1,
-    "totalShipsWaiting": "20,000+ mariners stranded. India 280 seafarers. Rupee ATL 95.32. Desh Garima Mumbai unloading confirmed. Monday 9:15 AM = first India pricing session.",
-    "lastTransit": "Desh Garima (India-flagged) Mumbai unloading confirmed Reuters April 30. Idemitsu Maru (Japan) April 29. Both via Iran's coordinated toll channel north of Larak Island. Goldman Sachs: 4% of normal Hormuz flow.",
-    "indianNavyEscort": "Op Urja Suraksha HIGH ALERT. Iran updated proposal submitted Friday. Monday open cautiously positive. Rupee ATL 95.32 — RBI intervention expected at open.",
-    "headline": "Iran updated proposal submitted Friday — Brent -2% to $108.17. Trump: \"not satisfied.\" CENTCOM strikes plan ready. True war cost $50B. US gas $4.39/gallon. India markets closed — Monday 9:15 AM IST = first pricing."
+    "totalShipsWaiting": "20,000+ mariners stranded. India 280 seafarers. Desh Garima Mumbai confirmed. Trump \"exact wording\" signal = potential breakthrough this week. India Monday open: gap-up likely on deal hope.",
+    "lastTransit": "Desh Garima (India) Mumbai unloading confirmed April 30. Trump Saturday: \"concept of deal, waiting for exact wording.\" Most positive Hormuz signal since ceasefire.",
+    "indianNavyEscort": "Op Urja Suraksha HIGH ALERT. Trump \"concept of deal\" = India Monday gap-up 24,200-24,500. OMC hike may be deferred if Brent falls. State elections May 4.",
+    "headline": "TRUMP: \"Told me the concept of the deal — waiting for exact wording.\" Iran: proposal is a \"significant shift.\" Brent $108-110. India markets reopen Monday — gap-up likely on deal hope."
   },
   "hormuzEvents": [
+    {
+      "d": "May 3 6:15AM",
+      "e": "DAY 65 SUN 6:15AM IST. TRUMP (May 2, Air Force One, West Palm Beach): \"They told me about the CONCEPT OF THE DEAL. They're going to give me the exact wording now.\" MOST POSITIVE US SIGNAL OF THE WAR. Also warned: \"still possibility of restarting strikes if Tehran misbehaves.\" \"On a human basis, I don't prefer the military course.\" Iran senior official (Reuters): proposal is \"SIGNIFICANT SHIFT\" — opens Hormuz + ends war + no-restart guarantee + US lifts blockade + nuclear deferred. Iran demands right to peaceful enrichment recognised. US PCE inflation +0.7% March. Gasoline $4.30/gallon (+7c). Brent $108-110 Saturday. India markets reopen Monday 9:15 AM. Nifty gap-up 24,200-24,500 likely on deal hope. State elections May 4. West Asia War Day 65."
+    },
     {
       "d": "May 2 PM",
       "e": "DAY 64 SAT 6:30PM IST. IRAN SENT UPDATED PROPOSAL to Pakistan Friday (CNBC/Bloomberg/IRNA) — delivered to US. Brent -2% to $108.17. WTI $101.94. Trump: \"not satisfied, Iran has no military left.\" TRUE WAR COST $50B (CBS/US officials) — double Pentagon's $25B. Munitions gap key driver. US GAS $4.39/gallon — up 34 cents from week ago (AAA). TRUMP AI-GUN POST: \"Iran better get smart soon!\" CENTCOM \"short and powerful\" strikes plan ready. Goldman Sachs: Hormuz 4% of normal. UAE OPEC exit gradual — no near-term offset. Murkowski AUMF May 11. India markets CLOSED Sat-Sun. Rupee ATL 95.32. West Asia War Day 64."
@@ -105,10 +99,6 @@
     {
       "d": "Apr 23 PM",
       "e": "DAY 55 EVENING. Sensex -852 to 77,664. Nifty -205 to 24,173. 2-day fall = 1,609 pts. Brent $103.94. Rupee 94.11. INFOSYS Q4 BEAT: PAT Rs 8,501 Cr (+21% YoY) but FY27 guide 1.5-3.5% (conservative). PENTAGON FIRED NAVY SECRETARY PHELAN — 21 warships in region, 7 more. US intercepted 3 Iranian tankers in Asian waters — blockade going global. Iran maintaining more military capability than admitted (CBS). Senate rejected war powers 55-46. WH: no deadline for Iran proposal. Brent $103 = petrol/diesel hike imminent. Lebanon journalist killed in Israeli airstrike."
-    },
-    {
-      "d": "Apr 21 Night",
-      "e": "DAY 53 NIGHT 9:30PM IST. TRUMP EXTENDED CEASEFIRE INDEFINITELY — no end date, Pakistan request. Vance Islamabad trip cancelled. M/T TIFANI seized Indian Ocean (400mi SE Sri Lanka) — second ship boarded in West Asia War. Iran: extension \"means nothing,\" Hormuz commercial route closed, NOT attending Wednesday talks. Araghchi: blockade is \"act of war.\" Brent briefly $101, settled ~$95. Bessent: Kharg storage full in days. 20,000+ seafarers stranded (CBS News). Sensex 79,273 (+753). Nifty 24,577 (+212). Infosys Q4 tomorrow."
     }
   ],
   "kitchen": [
@@ -187,40 +177,34 @@
   ],
   "military": [
     {
-      "t": "TRUE WAR COST: $50 BILLION — Double Pentagon's Public Figure. Munitions Depletion Key Gap.",
+      "t": "TRUMP: \"Concept of the Deal — Waiting for Exact Wording.\" Most Positive US Signal of the War.",
       "lv": "BREAKING",
-      "color": "red",
-      "d": "CBS News (1 day ago) confirmed: the true price tag of the Iran war is closer to $50 billion, per US officials familiar with internal assessments — roughly double the $25B the Pentagon cited publicly to Congress. \"Much of the gap is accounted for by munitions that have been used and need to be replaced.\" Pentagon: $25B. Democratic senators: \"probably less than a quarter of the true cost.\" CBS/officials: $50B. The munitions gap directly validates Vance's privately expressed concern (The Atlantic) that the war is depleting US weapons stockpiles. At $50B over 64 days: approximately $780M/day in true war costs. The $50B figure will accelerate congressional pressure and the Murkowski AUMF May 11 deadline."
+      "color": "green",
+      "d": "CNBC (1 hour ago, Reuters) confirmed: Trump said Saturday at West Palm Beach airport before boarding Air Force One: \"They told me about the concept of the deal. They're going to give me the exact wording now.\" This marks a significant shift from his Friday statement (\"not satisfied\") to Saturday (\"waiting for exact wording\") — the most positive US signal since the war began February 28. The concept being reviewed: Iran opens Hormuz, war ends with no-restart guarantee, US lifts blockade, nuclear talks deferred. Trump also warned: \"still the possibility of restarting strikes if Tehran misbehaves.\" \"On a human basis, I don't prefer the military course.\" Trump told congressional leaders he does not need permission to extend the war beyond the May 1 deadline — ceasefire has \"terminated\" hostilities per his reading."
     },
     {
-      "t": "IRAN UPDATED PROPOSAL via Pakistan — Brent -2% to $108.17. Trump: \"Not Satisfied.\"",
+      "t": "IRAN SENIOR OFFICIAL (Reuters): Proposal is a \"Significant Shift.\" Nuclear Deferred — Peaceful Enrichment Recognised.",
       "lv": "BREAKING",
-      "color": "amber",
-      "d": "CNBC and Bloomberg confirmed: Iran sent an updated peace proposal to Pakistan mediators Friday. Pakistani officials confirmed delivery to US. Brent -2% to $108.17, WTI $101.94 (-3%) on hopes. IRNA confirmed relayed via Pakistan — did not specify nuclear or Hormuz specifics. Trump: \"Iran wants to make a deal, but I'm not satisfied with it. Iran wants to make a deal because they have no military left.\" \"Not satisfied\" is softer than \"unacceptable\" (previous proposal language) — suggests the updated proposal may have moved marginally toward US requirements. WH counterproposal still not delivered. Pakistan and Oman back-channels remain active."
+      "color": "green",
+      "d": "Reuters (senior Iranian official, anonymity, Saturday) confirmed: Iran's latest proposal to shelve nuclear talks for a later stage was described as a \"significant shift aimed at facilitating an agreement.\" Under the full proposal: (1) War ends with guarantee Israel and US will not attack again; (2) Iran opens the Strait of Hormuz; (3) US lifts its naval blockade; (4) Future talks would address curbs to Iran's nuclear programme in return for lifting of sanctions. Iran demands Washington recognise its right to enrich uranium for peaceful purposes even if it agrees to suspend its programme. This is Iran's nuclear bottom line: not zero enrichment, but recognised peaceful enrichment with suspension. The gap with Trump's \"full abandonment\" demand is real but may be bridgeable through a phased framework."
     },
     {
-      "t": "TRUMP AI-GUN POST: \"Iran Better Get Smart Soon!\" No More Mr. Nice Guy.",
-      "lv": "BREAKING",
-      "color": "red",
-      "d": "CNBC confirmed: Trump posted an AI-generated image of himself holding a gun with explosions and \"NO MORE MR. NICE GUY\" on Truth Social, alongside: \"Iran can't get their act together. They don't know how to sign a nonnuclear deal. They better get smart soon!\" Most aggressive public Trump threat since the war began. Posted on the same day CENTCOM briefed him on \"short and powerful\" strike options. The visual messaging is deliberate — maximum resolve to Iran's leadership at a moment when diplomatic channels are stalled. The AI-gun post is designed to pressure Iran into modifying its nuclear position before the WH counterproposal is delivered. Calibrated brinkmanship, not a declaration of military action."
-    },
-    {
-      "t": "US GAS $4.39/Gallon Friday — Up 34 Cents from Week Ago. Domestic Pressure on Trump Rising.",
+      "t": "US PCE Inflation +0.7% March — War Costs Hitting US Consumers. Gasoline $4.30/Gallon.",
       "lv": "BREAKING",
       "color": "amber",
-      "d": "CBS News confirmed: average US gas hit $4.39/gallon Friday (AAA) — up 9 cents from Thursday, 34 cents from week ago and month ago. Highest since 2022. Iran war directly hitting American households at the pump. Gas prices up ~27% since war began. Combined with grocery inflation (fertiliser supply disruption), Americans experiencing the Iran war in daily costs. This domestic pressure is a key driver of Trump's stated desire for a deal — on his terms. Trump: \"We've already won. I want to win by a bigger margin.\" The $4.39 figure creates political urgency for resolution even as Trump maintains the blockade."
+      "d": "Time magazine and CBS News confirmed: the US Personal Consumption Expenditure (PCE) price index rose 0.7% in March from February — the highest monthly increase in nearly two years — as war-driven energy prices feed through the US economy. National average gasoline: $4.30/gallon, up 7 cents in one day. Pentagon war cost: $25 billion (senators say vastly understated). The domestic US inflation from the war is now becoming a direct political pressure on Trump — every week of blockade raises the domestic political cost. This inflation pressure is a key driver behind Trump's \"concept of deal\" Saturday signal: the war is hurting American consumers badly, and the November 2026 midterms are approaching. A deal that reopens Hormuz and lowers gas prices is a massive political win for Trump."
     },
     {
-      "t": "Goldman Sachs: Hormuz 4% of Normal. UAE OPEC Exit \"Gradual\" — No Near-Term Offset.",
+      "t": "CENTCOM Strikes Plan Ready — But Trump: \"On a Human Basis, I Don't Prefer the Military Course.\"",
       "lv": "DEVELOPING",
       "color": "amber",
-      "d": "CNBC confirmed: Goldman Sachs estimates exports through Hormuz fallen to 4% of normal. Bank separately noted UAE OPEC departure boost to global supply is \"likely to materialise more gradually over the medium term rather than offsetting near-term tightness.\" Key nuance: UAE OPEC exit (widely seen as partial supply positive) will NOT help near-term. Goldman raised Brent forecast to $90 late 2026 — normalisation only by end-June at earliest. Inventories drawing at record 11-12M bbl/day in April. CNBC analyst Perkins (Skylar Capital): \"We're kind of far apart from a deal, and maybe hostilities or a little bit more time is needed to open up the Strait of Hormuz.\" Product markets — diesel especially — significantly more strained than crude."
+      "d": "CNBC and Axios confirmed: CENTCOM has prepared a \"short and powerful\" strikes plan. Trump briefed by Admiral Cooper (CENTCOM) and Dan Caine (Joint Chiefs Chair). No decision made. However — Trump's Saturday Air Force One statement is the clearest signal yet that he does not want to resume bombing: \"On a human basis, I don't prefer the military course.\" The \"concept of deal\" language suggests Trump is actively working toward a diplomatic resolution, with strikes as the backup option rather than the primary plan. The CENTCOM plan remains ready to execute if Iran's exact wording fails to meet US conditions — particularly on nuclear. Trump: \"still the possibility of restarting strikes if Tehran misbehaves.\""
     },
     {
-      "t": "India: Monday 9:15 AM Open. Brent $108 + Iran Proposal = Cautious Positive. Rupee ATL 95.32.",
+      "t": "India: Monday 9:15 AM Reopen. Trump Deal Signal = Nifty Gap-Up 24,200-24,500 Likely.",
       "lv": "DEVELOPING",
       "color": "cyan",
-      "d": "India markets closed Friday (Labour Day) and Saturday. Monday 9:15 AM IST = first post-weekend session. Key inputs: (1) Brent $108 Friday close — significant relief from $126 intraday Thursday. (2) Iran updated proposal — partial positive signal. (3) True war cost $50B — extended conflict signal, negative. (4) Trump AI-gun post — escalation risk. (5) CENTCOM strikes plan + joint naval force = tail downside. (6) Goldman: no near-term UAE supply offset, 4% Hormuz flow. (7) Rupee ATL 95.32 — RBI intervention expected at open. Net: cautiously positive Monday open toward Nifty 24,100-24,400 if no weekend escalation. Kharif fertiliser emergency + OMC hike = key India-specific near-term risks."
+      "d": "India markets closed Friday (Labour Day) and Saturday. Monday 9:15 AM IST is the first session to price in Trump's Saturday \"concept of deal\" signal — the most significant positive war development since the ceasefire on April 8. Brent is at $108-110 (down from $126 peak Thursday). Scenario A (50%): Trump accepts Iran's exact wording this week → Brent -$12-18 to $90-96, Nifty gap-up 24,200-24,500, Sensex +1,000-1,500 pts, rupee strengthens below 94, OMC hike deferred. Scenario B (35%): Trump reviews but delays → Brent holds $105-110, Nifty cautious recovery to 24,000-24,200. Scenario C (15%): Breakdown, CENTCOM strikes → Brent $135-145, Nifty below 23,000. State election results May 4 (West Bengal, Tamil Nadu, others) are an additional Monday-Tuesday catalyst."
     }
   ],
   "nukes": [
@@ -605,9 +589,23 @@
       "rupee": 95.32,
       "tag": "IRAN UPDATED PROPOSAL via Pakistan Friday (CNBC/Bloomberg) — Brent -2% to $108.17. Trump: \"not satisfied.\" TRUE WAR COST $50B (CBS/US officials) — double Pentagon's $25B. US GAS $4.39/gallon (AAA). TRUMP AI-GUN POST. CENTCOM \"short and powerful\" strikes plan ready. Goldman: Hormuz 4% of normal. UAE OPEC exit gradual. Murkowski AUMF May 11. Rupee ATL 95.32. India CLOSED. West Asia War Day 64.",
       "sev": 2
+    },
+    {
+      "d": 65,
+      "l": "May 3",
+      "deaths": 6700,
+      "brent": 109,
+      "nifty": 23998,
+      "rupee": 95.32,
+      "tag": "TRUMP (Air Force One May 2): \"Told me concept of deal — waiting for exact wording.\" MOST POSITIVE US SIGNAL OF THE WAR. Iran (Reuters): proposal is \"significant shift.\" US PCE inflation +0.7% March. Gasoline $4.30/gallon. Brent $108-110. India markets reopen Monday 9:15 AM. Nifty gap-up likely 24,200-24,500. West Asia War Day 65.",
+      "sev": 1
     }
   ],
   "hormuzLatest": [
+    {
+      "d": "May 3 6:15AM",
+      "e": "DAY 65 SUN 6:15AM IST. TRUMP (May 2, Air Force One, West Palm Beach): \"They told me about the CONCEPT OF THE DEAL. They're going to give me the exact wording now.\" MOST POSITIVE US SIGNAL OF THE WAR. Also warned: \"still possibility of restarting strikes if Tehran misbehaves.\" \"On a human basis, I don't prefer the military course.\" Iran senior official (Reuters): proposal is \"SIGNIFICANT SHIFT\" — opens Hormuz + ends war + no-restart guarantee + US lifts blockade + nuclear deferred. Iran demands right to peaceful enrichment recognised. US PCE inflation +0.7% March. Gasoline $4.30/gallon (+7c). Brent $108-110 Saturday. India markets reopen Monday 9:15 AM. Nifty gap-up 24,200-24,500 likely on deal hope. State elections May 4. West Asia War Day 65."
+    },
     {
       "d": "May 2 PM",
       "e": "DAY 64 SAT 6:30PM IST. IRAN SENT UPDATED PROPOSAL to Pakistan Friday (CNBC/Bloomberg/IRNA) — delivered to US. Brent -2% to $108.17. WTI $101.94. Trump: \"not satisfied, Iran has no military left.\" TRUE WAR COST $50B (CBS/US officials) — double Pentagon's $25B. Munitions gap key driver. US GAS $4.39/gallon — up 34 cents from week ago (AAA). TRUMP AI-GUN POST: \"Iran better get smart soon!\" CENTCOM \"short and powerful\" strikes plan ready. Goldman Sachs: Hormuz 4% of normal. UAE OPEC exit gradual — no near-term offset. Murkowski AUMF May 11. India markets CLOSED Sat-Sun. Rupee ATL 95.32. West Asia War Day 64."
@@ -619,14 +617,10 @@
     {
       "d": "May 2 AM",
       "e": "DAY 64 SAT 9AM IST. IRAN DELIVERED UPDATED PROPOSAL to US via Pakistan — IRNA + Pakistani officials confirmed Friday. BRENT FELL 3% to $108.17. WTI $101.94. Trump: \"Not satisfied — they want a deal because they have no military left.\" CENTCOM prepared \"SHORT AND POWERFUL\" strike plan (Axios). US PITCHING ALLIES on JOINT NAVAL FORCE (Bloomberg). Iran activated AIR DEFENSES around TEHRAN Thursday — counter to reconnaissance drones. Ghalibaf: \"Good luck blockading a country with those borders.\" IRNA: no details on proposal content on Hormuz or nuclear. Murkowski AUMF May 11. Morgan Stanley Sensex 95,000 Dec 2026. India Monday open: Brent $108 = cautious positive. West Asia War Day 64."
-    },
-    {
-      "d": "May 1 8:15PM",
-      "e": "DAY 63 FRI 8:15PM IST. MOJTABA KHAMENEI FULL PERSIAN GULF DAY STATEMENT: \"Only place Americans belong in Gulf is at the bottom of its waters.\" Declared \"new chapter\" for Gulf and Hormuz. Iran's \"new management\" of Hormuz \"will bring calm.\" Nuclear and missile capabilities are \"national assets.\" IRGC Aerospace Commander MOUSAVI: if US renews attacks, Iran will launch \"LONG AND PAINFUL STRIKES\" on US regional bases and warships. Guterres: Hormuz \"strangling global economy.\" IEA Birol: \"biggest energy crisis in history.\" ECB: recession risk. RUPEE FRESH ATL 95.32. Goldman Sachs Brent $90 late 2026. Record inventory draw 11-12M bbl/day April. Iran internet shutdown: 90M Iranians offline. India markets CLOSED Labour Day. West Asia War Day 63."
     }
   ],
   "projNow": {
-    "brent": 108,
+    "brent": 109,
     "rupee": 95.32,
     "lpg": 912,
     "petrol": 94.77,
@@ -635,51 +629,51 @@
   "scenarios": {
     "headers": [
       "Pre-war",
-      "Now (D64)",
-      "WH counterproposal accepted",
-      "Extended blockade + tolls",
-      "CENTCOM strikes resume"
+      "Now (D65)",
+      "Deal accepted this week",
+      "Talks continue slowly",
+      "Breakdown → strikes"
     ],
     "brent": [
       65,
-      108,
-      80,
-      115,
-      148
+      109,
+      88,
+      110,
+      145
     ],
     "rupee": [
       91,
       95.32,
-      90.5,
-      98.0,
+      91.0,
+      96.0,
       108
     ],
     "deaths": [
       0,
       "6,700+",
-      "7,500",
-      "10,000+",
+      "7,200",
+      "8,500",
       "28,000+"
     ],
     "sensex": [
       "78,699",
       "76,913",
       "85,000+",
-      "70,000",
+      "76,000",
       "52,000"
     ],
     "lpg": [
       "Rs 853",
       "Rs 912+",
       "Rs 853",
-      "Rs 1,100+",
+      "Rs 960+",
       "Rs 2,000+"
     ],
     "fii": [
       "-",
       "Outflows",
-      "$25B return",
-      "Structural out",
+      "$22B return",
+      "Flat",
       "$65B out"
     ]
   },
@@ -734,8 +728,8 @@
     }
   ],
   "assessment": {
-    "headline": "DAY 64, 6:30PM SAT: IRAN UPDATED PROPOSAL via Pakistan. CENTCOM \"short and powerful\" strikes plan ready. Goldman Sachs 4th Brent upgrade: $90 Q4 2026. Nifty targets cut 3.8%. India reopens Monday — state elections May 4.",
-    "body": "Saturday 6:30 PM IST. Day 64. The weekend bringing clarity on where the war stands.\n\nTHE IRAN PROPOSAL — WHAT WE KNOW\n• Iran submitted an updated proposal to Pakistan mediators on Friday\n• Pakistani officials confirmed: delivered to the US\n• IRNA confirmed: content not disclosed on Hormuz or nuclear\n• Brent fell 2% to $108.17 on proposal hope\n• Trump: \"not satisfied\" — softer than \"unacceptable\" (previous proposal)\n• The gap may be narrowing — but is not closed\n\nTHE MILITARY REALITY\n• CENTCOM prepared \"short and powerful\" strikes plan (Axios confirmed)\n• Trump briefed by Cooper (CENTCOM) AND Caine (Joint Chiefs Chair)\n• Joint Chiefs Chair in room = highest-level military planning of the war\n• No decision made — but plan is ready to execute immediately\n• US also pitching allies on joint naval force for Hormuz enforcement\n\nTHE OIL MARKET — GOLDMAN'S FOURTH UPGRADE\n• Goldman Sachs Q4 2026 Brent: $90 (4th upgrade since war: $66→$71→$80→$90)\n• April inventories drawing at 11-12 Mbpd — fastest on record\n• Gulf crude output: 11.9 Mbpd vs 26.4 Mbpd pre-war — 14.5 Mbpd collapse\n• Goldman: market swings to 9.6 Mbpd DEFICIT in Q2 2026\n• Even at $90 Q4 2026: Brent stays 38% above pre-war for rest of year\n• Brent currently $107-110 Saturday — easing from $126 peak\n\nINDIA'S EQUITY MARKET — CAUTIOUS RECOVERY EXPECTED\n• Nifty targets cut 3.8% — from 29,899 pre-war to 28,747 now\n• Morgan Stanley: Sensex 95,000 by December 2026 (base case)\n• HDFC Securities: nearing end of 18-month correction cycle\n• Goldman sector strategy: buy financials, staples, telecom; avoid autos, durables\n• India markets reopen Monday 9:15 AM IST\n• State election results May 4 = additional domestic catalyst\n\nVERDICT: Day 64 closes with the West Asia War's diplomatic and military tracks running at maximum intensity — simultaneously. Iran is submitting proposals. CENTCOM is briefing the President on strikes. Goldman is revising oil forecasts upward for the fourth time. And India watches from the sidelines, markets closed for the weekend, waiting for Monday morning to price two weeks of war developments. The Takshashila Geospatial Bulletin's new analysis of the \"new logic of chokepoint control\" frames it well: Hormuz is no longer a binary (open/closed) but a layered spatial contest — and the contest shows no signs of resolution."
+    "headline": "DAY 65, 6:15AM SUN: TRUMP — \"Concept of deal. Waiting for exact wording.\" IRAN — \"Significant shift.\" Most positive moment of the war. India reopens Monday. Brent $109. State elections May 4.",
+    "body": "Sunday 6:15 AM IST. Day 65. The West Asia War's most positive diplomatic moment since the ceasefire.\n\nTHE TRUMP SIGNAL — \"CONCEPT OF DEAL. EXACT WORDING.\"\n• Trump (West Palm Beach, May 2, before Air Force One): \"They told me about the concept of the deal. They're going to give me the exact wording now.\"\n• Shift from Friday: \"not satisfied\" → Saturday: \"waiting for exact wording\"\n• This is the most positive US signal since February 28\n• He also warned: \"still the possibility of restarting strikes if Tehran misbehaves\"\n• \"On a human basis, I don't prefer the military course\"\n• Translation: diplomatic door is open — military option remains ready\n\nTHE IRAN PROPOSAL — FULL DETAIL (REUTERS)\n• War ends with guarantee Israel and US will not attack again\n• Iran opens the Strait of Hormuz\n• US lifts its naval blockade\n• Nuclear talks: deferred to later phase\n• Iran demands: recognised right to enrich uranium for peaceful purposes\n• Iran calls this a \"significant shift aimed at facilitating an agreement\"\n• Gap with Trump's \"full abandonment\" demand: real but potentially bridgeable\n\nWHY TRUMP IS MOVING — THE DOMESTIC PRESSURE\n• US PCE inflation +0.7% March — highest in 2 years\n• Gasoline: $4.30/gallon, up 7 cents in one day\n• War cost: $25B (Pentagon) — senators say vastly understated\n• November 2026 midterms approaching\n• A deal that reopens Hormuz and lowers gas prices = massive political win\n\nINDIA'S MONDAY MORNING\n• Markets closed Fri (Labour Day) + Sat. Reopen Monday 9:15 AM IST\n• Brent $108-110 (down from $126 Thursday peak)\n• Trump \"concept of deal\" = most positive signal India's markets can receive\n• 50%: Deal accepted → Nifty 24,200-24,500, Brent $88-96, rupee below 94\n• 35%: Talks continue → Nifty cautious recovery 24,000-24,200\n• 15%: Breakdown → Nifty below 23,000, Brent $135-145\n• State election results May 4 = additional catalyst\n\nVERDICT: Day 65 opens as the most diplomatically promising morning of the entire West Asia War. Trump's \"concept of deal, waiting for exact wording\" language is not rhetoric — it is the language of a negotiator who has received a proposal he can work with. Combined with Iran's senior official describing their proposal as a \"significant shift,\" the pieces of a deal are closer than at any point since February 28. The question is whether the nuclear gap — Iran wants peaceful enrichment recognised, Trump wants full abandonment — can be bridged. If it can: Brent crashes $15-20 in a session, India's markets surge, the rupee strengthens, and the worst energy crisis in history begins its slow end. If it cannot: CENTCOM's \"short and powerful\" strikes plan is ready to execute."
   },
   "featured": [
     {
