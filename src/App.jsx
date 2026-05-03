@@ -96,15 +96,15 @@ const CITIES_FB = [
 ];
 
 const FEATURED_FB = [
+  {title:"The Strait of Hormuz and the New Logic of Chokepoint Control",date:"April 30, 2026",tag:"GEOSPATIAL",tagColor:C.cyan,
+   desc:"Chokepoint control is no longer binary (open/closed) but a layered spatial contest spanning seabed topology, island sovereignty, electronic warfare, and visibility asymmetry — by Dr Y Nithiyanandam.",
+   url:"https://geospatialbulletin.takshashila.org.in/p/15-the-strait-of-hormuz-and-the-new",org:"Takshashila Geospatial Bulletin",icon:"🗺️"},
   {title:"Geopolitics of LPG Supply in India",date:"March 18, 2026",tag:"PUBLICATION",tagColor:C.amber,
-   desc:"India's LPG import dependency on the Gulf and acute vulnerability during the West Asia War.",
+   desc:"How India's LPG import dependency on the Gulf creates acute vulnerability during the West Asia War. Explores Hormuz exposure, alternative supply routes, and policy imperatives for energy security.",
    url:"https://takshashila.org.in/content/publications/20260318-LPG-Geopolitics.html",org:"Takshashila Institution",icon:"🛢️"},
   {title:"Geopolitics of Fertiliser Supply in India",date:"April 2, 2026",tag:"PUBLICATION",tagColor:C.green,
-   desc:"India imports 30%+ of fertilisers via Hormuz. Supply chain risks and kharif crop impact.",
+   desc:"India imports 30%+ of its fertilisers via the Strait of Hormuz. Maps supply chain risks to kharif and rabi crops and the strategic case for diversification.",
    url:"https://takshashila.org.in/content/publications/20260402-Fertilizer-Geopolitics.html",org:"Takshashila Institution",icon:"🌾"},
-  {title:"The Strait of Hormuz and the New...",date:"April 2026",tag:"GEOSPATIAL",tagColor:C.cyan,
-   desc:"Geospatial analysis of Iran's new Hormuz management doctrine, toll channel north of Larak Island, and implications for global energy security.",
-   url:"https://geospatialbulletin.takshashila.org.in/p/15-the-strait-of-hormuz-and-the-new",org:"Takshashila Geospatial Bulletin",icon:"🗺️"},
 ];
 
 const NAV = [
