@@ -1,85 +1,89 @@
 {
-  "_updated": "May 6, 2026 — 6:45 PM IST",
-  "_day": 68,
+  "_updated": "May 7, 2026 — 7:00 PM IST",
+  "_day": 69,
   "_phase": "BLOCKADE",
-  "_note": "Verified: Business Standard (2hr ago), BusinessToday (4hr ago), NewsX (3hr ago), CNBC (18hr ago), Trading Economics, Business Standard Capital Markets. NO Wikipedia. 24-HOUR WRAP DAY 68 WED 6:45PM IST. TUESDAY May 5: Brent CLOSED $109.87 (-4%) after Hegseth confirmed ceasefire not over. Sensex closed ~77,018 (-0.3%). BJP LANDSLIDE WIN in West Bengal. M&M +3.4% (profit beat). WEDNESDAY May 6: TRUMP PAUSED PROJECT FREEDOM (Truth Social): \"Mutually agreed — Blockade remains, Project Freedom paused for short period to see whether Agreement can be finalised.\" US-IRAN CLOSE TO ONE-PAGE MOU — sources say CLOSEST to agreement since war began. US expects Iranian response on key points within 48 HOURS. Iran: \"will only accept fair and comprehensive agreement.\" China told Iran \"comprehensive ceasefire needed.\" BRENT PLUNGED 8.44% to $100.60 (largest single-day fall since March ceasefire). SENSEX +941 to 24,330+. NIFTY +24,300+. RUPEE rebounded to ~94. SpiceJet +4.96%, IndiGo +6.60% (Cabinet ECLGS 5.0 for airlines). S&P 500 record 7,259. Nasdaq record 25,326. West Asia War Day 68.",
+  "_note": "Verified: CNBC (2hr ago), Business Standard (3hr ago), BusinessToday (1 day ago), NBC News (15hr ago), The Week (7hr ago), Tribune India (8hr ago). NO Wikipedia. 24-HOUR WRAP DAY 69 THU 7PM IST. WEDNESDAY May 6 FINAL: Sensex +941 to 77,958. Nifty +298 to 24,330. BSE market cap Rs 472.81 lakh crore. Brent closed -7.8% at $101.27. WTI -7% to $95.08. WTI plunged to $88 intraday — 15% fall. TRUMP told NY Post deal is \"too soon\" to sign. Trump: \"If they don't agree, the bombing starts at a much higher level and intensity than before.\" IRAN NAVY: \"with new protocols in place, safe, stable passage through Hormuz will be ensured.\" ZERO ships crossed Hormuz Wednesday. VANCE, WITKOFF, KUSHNER held in-person talks in ISLAMABAD. 23,000 seafarers across 87 countries stranded. THURSDAY May 7: Nifty settled BELOW 24,350 (flat, marginal losses). Consumer durables, IT, FMCG declined. Auto, Realty, Chemical buying. Brent fell -1.85% to $99.40 — BELOW $100 for first time since war began. WTI $93.21. IRAN FM BAQAEI: Tehran still reviewing proposal, response to Pakistan mediators coming. Murkowski AUMF May 11 deadline. West Asia War Day 69.",
   "ticker": [
-    "🕊️ TRUMP PAUSED PROJECT FREEDOM: 'Mutually agreed — Blockade remains, Project Freedom paused to see if Agreement can be finalised and signed.' CLOSEST to deal since war began. US seeking Iran response in 48 HOURS.",
-    "📋 US-IRAN CLOSE TO ONE-PAGE MOU (BusinessToday/sources) — one-page memorandum of understanding could pave way to end the war. Sources: closest the parties have been to agreement since February 28.",
-    "🛢️ BRENT PLUNGED 8.44% to $100.60 — LARGEST SINGLE-DAY FALL since March ceasefire news. WTI also fell sharply. Deal hopes + Project Freedom pause = Brent back below $105 for first time in weeks.",
-    "📈 SENSEX +941 to 24,330+ (+1.2%). NIFTY TOPPED 24,300. Rupee rebounded to ~94. SpiceJet +4.96%, IndiGo +6.60% on Cabinet ECLGS 5.0 for airlines. Banking shares led. Barring FMCG, all sectors green.",
-    "🇨🇳 CHINA TOLD IRAN 'comprehensive ceasefire is needed as war drags on.' China's intervention as Iran's largest oil buyer adds crucial pressure. Xi-Trump Hormuz discussion next week still on.",
-    "🇮🇳 CABINET: ECLGS 5.0 approved for MSMEs and airlines affected by West Asia conflict. SpiceJet +5%, IndiGo +6.6%. Direct government support for war-impacted sectors — positive signal.",
-    "🗳️ WEST BENGAL RESULTS: BJP LANDSLIDE WIN — Trading Economics confirmed. Thalapathy Vijay's party historic win in Tamil Nadu. Political landscape shifting. Markets cheered BJP Bengal win.",
-    "🌍 S&P 500 RECORD 7,259. NASDAQ RECORD 25,326. Korea's Kospi +6.45%. European markets +2%+ each. Global risk-on triggered by Project Freedom pause + Iran deal MOU report.",
-    "⚠️ IRAN: 'Will ONLY ACCEPT a FAIR AND COMPREHENSIVE AGREEMENT' — Iran not accepting partial deal. Gap on nuclear enrichment recognition remains. 48-hour clock running on US key points response.",
-    "📅 48-HOUR CLOCK: US expects Iranian response by Thursday-Friday. If Iran accepts key points: deal signed, Brent could fall to $80-85, Sensex toward 85,000+. If Iran rejects: Brent back to $108+, Project Freedom resumes."
+    "⚠️ TRUMP (NY Post): Deal is 'TOO SOON' to sign. Also threatened: 'If they don't agree, the bombing starts at a MUCH HIGHER LEVEL and intensity than before.' Ceasefire pressure intensifying.",
+    "🛢️ BRENT FELL BELOW $100 on Thursday — $99.40 (-1.85%). FIRST TIME BELOW $100 since the war began. WTI $93.21. Wednesday: Brent closed $101.27 (-7.8%), WTI $95.08 (-7%). WTI intraday low: $88 (-15%).",
+    "🚢 ZERO SHIPS crossed Hormuz Wednesday (S&P Global data). One ship crossed Tuesday. Iran Navy: 'With new protocols in place, safe stable passage will be ensured.' Deal or new Iran toll system — signals mixed.",
+    "💬 IRAN FM BAQAEI: Tehran still reviewing US proposal — response to Pakistan mediators COMING. Response to 14-point framework expected. US seeks Iran response on key nuclear enrichment points.",
+    "✈️ VANCE, WITKOFF, KUSHNER held IN-PERSON TALKS in ISLAMABAD (NBC News confirmed). Most senior US diplomatic delegation to Pakistan since war began. Direct engagement via mediators intensifying.",
+    "📊 NIFTY settled BELOW 24,350 (marginal losses Thursday). Consumer durables, IT, FMCG declined. Auto, Realty, Chemical bought. Brent below $100 for first time = rupee strengthening toward ₹93.50.",
+    "🏛️ MURKOWSKI AUMF MAY 11 — Senate returns this week. If WH has no credible plan: formal war authorization vote forced. Intensifies pressure on Trump to either deal or escalate.",
+    "🌍 23,000 SEAFARERS across 87 COUNTRIES stranded in Persian Gulf (NBC News). ING Patterson: 'A deal normalising oil flows through Hormuz is crucial — 13 Mbpd disrupted supply offset by inventory declining rapidly.'",
+    "🇮🇳 India: Brent below $100 = FIRST TIME since war. OMC hike now virtually off the table. Rupee strengthening. Kharif fertiliser sourcing becoming viable again if Brent stays below $100. Major structural relief.",
+    "📅 NEXT: Iran FM Baqaei response to Pakistan mediators (expected Friday). Murkowski AUMF vote May 11. Trump bombing threat = deal or strikes by end of week. Most consequential days of the war ahead."
   ],
   "whatChanged": {
-    "label": "WHAT CHANGED — MAY 6, 6:45 PM IST (DAY 68) — 24-HOUR WRAP TUESDAY-WEDNESDAY",
+    "label": "WHAT CHANGED — MAY 7, 7:00 PM IST (DAY 69) — 24-HOUR WRAP WED-THU",
     "items": [
       {
-        "color": "green",
-        "bold": "TRUMP PAUSED PROJECT FREEDOM — \"Mutually agreed — paused to see if Agreement can be finalised.\" One-page MOU close.",
-        "text": "Business Standard (2hr ago) and BusinessToday confirmed: Trump posted on Truth Social Wednesday: \"We have mutually agreed that, while the Blockade will remain in full force and effect, Project Freedom will be paused for a short period of time to see whether or not the Agreement can be finalized and signed.\" Separately, BusinessToday reported that US and Iran are reportedly close to a one-page memorandum of understanding (MOU) that could pave the way to end the war. Sources say this is the closest the parties have been to an agreement since the war began February 28. The US is seeking an Iranian response on several key points within the next 48 hours, though no agreement has been reached yet. The Project Freedom pause is the most positive diplomatic signal since Trump said \"concept of deal\" on Saturday — but this time with an operational concession: Project Freedom is actually stopped."
+        "color": "amber",
+        "bold": "WEDNESDAY FINAL: Brent -7.8% to $101.27. WTI $95.08 (-7%). Intraday WTI plunged to $88 (-15%). Sensex +941 to 77,958.",
+        "text": "BusinessToday (1 day ago) confirmed: Sensex +941 to 77,958. Nifty +298 to 24,330. BSE market cap Rs 472.81 lakh crore. NBC News confirmed: Brent closed -7.8% at $101.27. WTI -7% at $95.08. US crude plunged as much as 15% to $88 intraday — the largest single-session crude fall in years — before recovering to close at $95.08. The trigger: White House sources told Axios the US believes it is nearing a one-page 14-point MOU. But Trump told the New York Post it was \"too soon\" to prepare to sign — causing prices to recover from lows. Net result: massive volatility, oil closes down 7-8% but well off the intraday crash lows."
       },
       {
         "color": "red",
-        "bold": "BRENT PLUNGED 8.44% to $100.60 — largest single-day fall since March ceasefire. WTI also tumbled.",
-        "text": "Business Standard Capital Markets confirmed: Brent crude for July 2026 settlement slumped $9.27 or 8.44% to $100.60 per barrel on Wednesday. WTI also fell sharply. This is the largest single-day oil price decline since the March ceasefire rally. Markets are pricing a significant probability that the one-page MOU gets signed within 48 hours. CNBC Tuesday confirmed Brent had closed at $109.87 (-4%) Tuesday after Hegseth confirmed ceasefire not over — making the two-day Brent move from Tuesday open ($114+) to Wednesday close ($100.60) an extraordinary $13+ decline in two sessions. Even at $100.60, Brent remains 55% above pre-war ($65). The market is not pricing a full deal — just a high probability of a framework being agreed."
+        "bold": "TRUMP (NY Post): \"Too soon\" to sign deal. Threatens: \"Bombing starts at MUCH HIGHER LEVEL and intensity than before.\"",
+        "text": "NBC News confirmed: Trump told the New York Post in an interview that it was \"too soon\" to prepare to sign a peace deal — causing oil to recover from the $88 intraday low. Trump also posted on Truth Social: \"If they don't agree, the bombing starts, and it will be, sadly, at a much higher level and intensity than it was before.\" The threat is explicit: accept the MOU framework or face resumed airstrikes far more intensive than February 28's Operation Epic Fury. Trump also said that if a deal is agreed, the US naval blockade of Iranian ports would \"allow the Hormuz Strait to be OPEN TO ALL, including Iran.\" This framing — open to Iran too — signals the US is prepared to fully lift the blockade as part of a deal, removing a key Iranian demand."
+      },
+      {
+        "color": "amber",
+        "bold": "VANCE, WITKOFF, KUSHNER held IN-PERSON TALKS in ISLAMABAD. Iran Navy: \"new protocols\" for Hormuz passage.",
+        "text": "NBC News confirmed: Vice President JD Vance, special envoy Steve Witkoff and Trump's son-in-law Jared Kushner held in-person talks in the Pakistani capital, Islamabad — the most senior US diplomatic delegation to Pakistan since the war began. Pakistan is the primary intermediary between the US and Iran. The in-person talks signal the US is treating the next few days as the decisive window for a deal. Separately: Iran's navy said Wednesday that \"with aggressor's threats neutralized and new protocols in place, safe, stable passage through the Strait of Hormuz will be ensured.\" This ambiguous statement could signal either a deal framework or Iran's toll/protocol system — unclear. On Wednesday, zero ships crossed Hormuz (S&P Global). On Tuesday, only one ship crossed."
       },
       {
         "color": "green",
-        "bold": "SENSEX +941 to 24,330+. NIFTY TOPPED 24,300. Rupee rebounded to ~94. SpiceJet +5%, IndiGo +6.6%.",
-        "text": "Business Standard (Capital Markets, 2hr ago) confirmed: Sensex soared 941 points, Nifty surged past 24,300 on Wednesday as investor sentiment strengthened on mounting optimism over a potential US-Iran peace agreement. Cooling geopolitical tensions dragged Brent crude below $105-per-barrel mark, while the rupee rebounded strongly to hover near Rs 94-per-dollar level. Barring the Nifty FMCG index, all sectoral indices on the NSE ended firmly in the green. Banking shares led gains. SpiceJet +4.96%, IndiGo +6.60% after the Union Cabinet approved ECLGS 5.0 for MSMEs and airlines affected by the West Asia conflict. US Dow Jones futures surged 539 points. European indices advanced 2%+ each. Korea's Kospi +6.45%. S&P 500 closed at record 7,259, Nasdaq at record 25,326."
+        "bold": "BRENT FELL BELOW $100 Thursday — $99.40 (-1.85%). FIRST TIME below $100 since the war began.",
+        "text": "CNBC (2 hours ago) confirmed: Brent crude fell 1.85% to $99.40 per barrel Thursday — falling below the $100 psychological threshold for the first time since the war began on February 28. WTI rose 1.85% to $93.21 per barrel (some intraday volatility). Business Standard (3 hours ago) confirmed Brent slipped below $100 on Thursday with Nifty settling below 24,350. For India: Brent below $100 is the first time the war's oil shock has eased below this critical level. At $99.40: the OMC petrol/diesel hike is virtually off the table. Rupee is strengthening. Gulf fertiliser sourcing is becoming commercially viable again. India's import bill is improving rapidly from the $126 peak."
       },
       {
         "color": "amber",
-        "bold": "CHINA TOLD IRAN \"comprehensive ceasefire needed.\" BJP LANDSLIDE WIN West Bengal. Cabinet ECLGS 5.0 approved.",
-        "text": "Business Standard confirmed: China told Iran a \"comprehensive\" ceasefire is needed as the war drags on — China's most direct intervention into the US-Iran negotiation yet. China is Iran's largest oil buyer (~1.5 Mbpd) and largest trading partner. Beijing's direct message to Tehran adds crucial pressure that no other country can replicate. Separately: Trading Economics confirmed BJP won a landslide in West Bengal — market-positive stability signal. India's Union Cabinet approved Emergency Credit Line Guarantee Scheme (ECLGS) 5.0 for MSMEs and airlines affected by the West Asia conflict. Aviation stocks surged on this news. M&M +3.4% Tuesday after profit beat, UltraTech Cement +1.6%."
+        "bold": "IRAN FM BAQAEI: Tehran reviewing US proposal — response to Pakistan mediators coming. Murkowski AUMF May 11.",
+        "text": "CNBC (2 hours ago) confirmed: Iranian Foreign Ministry spokesperson Esmaeil Baqaei said Wednesday that Tehran is still reviewing the proposal and would present its response to mediators in Pakistan. Baqaei appeared to cite the International Court of Justice, writing that \"the concept of negotiations requires, at the very least, a genuine attempt to engage in discussions.\" This signals Iran is engaging diplomatically but carefully — not accepting and not rejecting. The response to Pakistan mediators is the next critical milestone. Separately: Senator Murkowski's AUMF deadline is May 11 — Senate returns this week. If the WH has no credible plan, a formal war authorization vote is forced. This congressional pressure is another driver pushing the White House toward a deal this week."
       },
       {
-        "color": "amber",
-        "bold": "IRAN: \"Will ONLY accept fair and comprehensive agreement.\" Goldman Sachs: INDIA at high risk of refined product scarcity.",
-        "text": "Business Standard confirmed: Iran stated it will \"only accept a fair and comprehensive agreement\" — signalling it is not accepting a partial or phased deal. The gap on nuclear enrichment recognition remains the core sticking point. The 48-hour clock set by the US is the next critical deadline. CNBC Tuesday: Goldman Sachs warned India, South Africa, Thailand, and Taiwan face higher risks of refined product scarcity specifically — not just crude shortages. Goldman: \"easily accessible buffers of refined products are being depleted rapidly, particularly in petrochemical feedstocks such as naphtha and LPG, as well as jet fuel.\" Chevron CEO Wirth: normalization will take months even after deal — mines, ships, insurance. CNBC: Iraq offering steep discounts to buyers willing to transit Hormuz."
-      },
-      {
-        "color": "cyan",
-        "bold": "India: Rs 14L Cr+ added Wednesday. ECLGS 5.0 for airlines. Brent $100.60. 48-hour Iran deadline = Thursday/Friday.",
-        "text": "India-specific situation at 6:45 PM May 6: (1) Sensex +941, Nifty +24,300 = Rs 14L Cr+ added to BSE market cap in one session. (2) Brent $100.60 — easing from $126 peak. If MOU signed Thursday-Friday: Brent could fall to $80-88, OMC hike entirely avoided, rupee strengthens to Rs 91-92. (3) Rupee ~94 — bounced significantly from ATL 95.32. (4) Cabinet ECLGS 5.0 = government directly supporting airlines and MSMEs hurt by war. SpiceJet +5%, IndiGo +6.6%. (5) Goldman Sachs: India specifically at risk of LPG and jet fuel product scarcity — kharif fertiliser risk remains even with a deal (structural Gulf supply disruption). (6) BJP Bengal landslide = political stability signal. (7) 48-hour clock: if Iran accepts US key points by Thursday-Friday: biggest single-day Sensex rally of the war possible — potentially 1,500-2,000 pts. If Iran rejects: Project Freedom resumes, Brent back to $108+."
+        "color": "green",
+        "bold": "India: Nifty flat Thursday. Brent $99 = OMC hike off table. Rupee strengthening. Kharif fertiliser becoming viable.",
+        "text": "India-specific situation at 7 PM May 7: (1) Nifty settled below 24,350 — flat after Wednesday's +941 surge. Consumer durables, IT, FMCG declined; auto, realty, chemical bought. Sensex derivatives weekly expiry added volatility. (2) Brent $99.40 = first below $100 since war began. OMC hike now virtually off table — Indian Oil, BPCL, HPCL margin recovery beginning. (3) Rupee strengthening toward Rs 93.50-94 from ATL 95.32 — significant improvement. (4) Kharif fertiliser: at Brent $99, Gulf fertiliser imports are becoming commercially viable again — May 11-15 is the critical window to restart sourcing for June-August planting. (5) Vance-Witkoff-Kushner in Islamabad = most intense diplomatic engagement since war began = deal probability rising. (6) ING: 13 Mbpd disrupted supply being offset by inventory \"declining rapidly\" — every day without a deal makes the global oil system more fragile."
       }
     ]
   },
   "deaths": "6,700+",
-  "deathsSub": "~3,375+ Iran, 2,509+ Lebanon (Israel-Hezbollah exchanges continuing), 99 Iraq, 23+ Israel, 13 US (+2 noncombat), 35+ Gulf. Three Indian nationals wounded in Fujairah (May 5). Goldman Sachs: India at higher risk of refined product scarcity specifically.",
+  "deathsSub": "~3,375+ Iran, 2,509+ Lebanon (Hezbollah-Israel exchanges continuing), 99 Iraq, 23+ Israel, 13 US (+2 noncombat), 35+ Gulf. 23,000 seafarers across 87 countries stranded. NBC News confirmed. Zero ships crossed Hormuz Wednesday.",
   "econ": {
-    "sensex": "78,028",
-    "sensexDelta": "WED MAY 6 CLOSE: +941 (est.) — Nifty topped 24,300. Brent $100.60 (-8.44%). One-page MOU close. 48-hr Iran deadline.",
-    "sensexSub": "Banking led. SpiceJet +4.96%, IndiGo +6.60%. Rupee ~94. ECLGS 5.0 for airlines. BJP Bengal landslide. S&P 500 record 7,259.",
-    "vix": "~16-18 (sharply lower — deal MOU signal + Brent -8.44%)",
-    "vixDelta": "Project Freedom paused. One-page MOU close. Iran 48-hr response deadline. VIX at lowest since before the war.",
-    "fpi": "Partial FII reversal expected on Wednesday. Banking, aviation, consumer leading. Goldman: India at refined product scarcity risk.",
-    "fpiDelta": "Project Freedom pause + MOU close = FII reversal of exodus beginning. If deal signed Thu-Fri: Rs 20,000-25,000 Cr FII buying possible in one session.",
-    "wealth": "BSE market cap ~Rs 461L Cr+ (estimate, post-rally). Rs 14L Cr+ added Wednesday. If MOU signed: Rs 475-480L Cr by week end.",
-    "analysis": "DAY 68 WED 6:45PM IST. 24-HOUR WRAP. TUESDAY: Brent closed $109.87 (-4%) after Hegseth confirmed ceasefire not over. Sensex -0.3% to ~77,018. BJP LANDSLIDE WIN West Bengal. WEDNESDAY: TRUMP PAUSED PROJECT FREEDOM (Truth Social) — \"mutually agreed, paused to see if Agreement can be finalised.\" US-IRAN CLOSE TO ONE-PAGE MOU — closest to deal since war began. US expects Iran response in 48 HOURS. BRENT PLUNGED 8.44% to $100.60. SENSEX +941. NIFTY TOPPED 24,300. RUPEE ~94. SpiceJet +5%, IndiGo +6.6% (ECLGS 5.0). S&P 500 RECORD 7,259. Korea Kospi +6.45%. CHINA told Iran \"comprehensive ceasefire needed.\" Iran: \"only fair and comprehensive agreement.\" Goldman: India at risk of refined product scarcity. 48-HOUR CLOCK: US expects Iranian response by Thursday-Friday."
+    "sensex": "77,958",
+    "sensexDelta": "WED CLOSE: +941 to 77,958. THU: Nifty settled below 24,350 (flat, marginal losses). Derivatives expiry volatility.",
+    "sensexSub": "Brent $99.40 — first below $100 since war. Rupee strengthening. Auto, Realty, Chemical buying. IT, FMCG, Consumer durables weak. Vance-Witkoff-Kushner in Islamabad.",
+    "vix": "~14-16 (lowest since pre-war — Brent below $100, deal close)",
+    "vixDelta": "Brent $99.40 — below $100 for first time. Deal framework close. Murkowski AUMF May 11. VIX at war lows.",
+    "fpi": "Partial FII return continuing. Brent below $100 = India macro improving sharply. Rupee strengthening.",
+    "fpiDelta": "ING: deal normalising Hormuz is crucial. Vance-Witkoff-Kushner in Islamabad = decisive week. If deal signed: Rs 20,000-25,000 Cr FII return possible.",
+    "wealth": "BSE market cap Rs 472.81 lakh crore (Wed close, BusinessToday). Thursday: slight decline on flat close. Brent below $100 = structural positive for India.",
+    "analysis": "DAY 69 THU 7PM IST. 24-HOUR WRAP. WEDNESDAY FINAL: Brent closed $101.27 (-7.8%), WTI $95.08 (-7%), intraday WTI plunged to $88 (-15%). Sensex +941 to 77,958. Nifty +298 to 24,330. BSE cap Rs 472.81L Cr. Trump told NY Post deal \"too soon.\" Threatened: \"bombing starts at much higher level and intensity.\" Iran navy: \"new protocols — safe passage ensured.\" ZERO ships crossed Hormuz Wednesday (S&P Global). VANCE, WITKOFF, KUSHNER held in-person talks ISLAMABAD (NBC). THURSDAY: Nifty settled below 24,350 (flat, marginal losses). Brent FELL BELOW $100 to $99.40 — FIRST TIME since war began. Iran FM Baqaei: response to Pakistan mediators coming. Murkowski AUMF May 11. ING: 13 Mbpd disrupted, inventory declining rapidly. 23,000 seafarers 87 countries stranded."
   },
   "hormuzStatus": {
-    "status": "PROJECT FREEDOM PAUSED — DEAL MOU CLOSE. BRENT $100.60. 48-HR IRAN DEADLINE.",
+    "status": "ZERO SHIPS WEDNESDAY. BRENT BELOW $100. DEAL FRAMEWORK CLOSE. VANCE-WITKOFF IN ISLAMABAD.",
     "preWarFlow": "130-160 ships/day",
-    "currentFlow": "Project Freedom paused by Trump (Truth Social Wednesday) — \"mutually agreed, paused to see if Agreement can be finalised.\" US-Iran close to one-page MOU. Brent plunged 8.44% to $100.60. Blockade remains in effect. 48-hour clock on Iran response.",
-    "reduction": "Still ~90% disruption — blockade remains, no commercial reopening yet. But one-page MOU close = partial market pricing of reopening. Even with deal: Chevron CEO Wirth says months to fully normalise (mines, ships, insurance).",
+    "currentFlow": "ZERO ships crossed Hormuz Wednesday. One ship crossed Tuesday. Brent $99.40 — first below $100 since war. Iran navy: \"new protocols — safe stable passage will be ensured.\" Vance, Witkoff, Kushner in Islamabad in-person talks. Iran FM response to Pakistan mediators expected.",
+    "reduction": "Still effectively 100% disruption — ZERO crossings Wednesday. But deal framework close. Brent below $100 = market pricing partial resolution. ING: 13 Mbpd disrupted, inventory declining rapidly.",
     "indianVesselsNear": 8,
     "indianSeafarers": 280,
     "indianTransited": 1,
-    "totalShipsWaiting": "20,000+ mariners stranded. India 280 seafarers. 3 Indian nationals wounded Fujairah (May 5). If MOU signed Thursday-Friday: potential start of mine clearing and tanker decongestioning. 4-6 months to full normalisation.",
-    "lastTransit": "2 US-flagged vessels transited Hormuz Monday (May 4) under Project Freedom before pause. Project Freedom now paused for deal. Blockade remains. Brent $100.60.",
-    "indianNavyEscort": "Op Urja Suraksha status. Project Freedom paused. If MOU signed: Op Urja Suraksha scaling down possible within weeks. Goldman: India still at risk of refined product scarcity even with deal (structural disruption).",
-    "headline": "PROJECT FREEDOM PAUSED — \"mutually agreed, paused to see if Agreement can be finalised.\" US-Iran close to one-page MOU. Brent -8.44% to $100.60. 48-hour Iran response deadline. Sensex +941, Nifty 24,300+."
+    "totalShipsWaiting": "23,000 seafarers across 87 countries stranded (NBC News confirmed). India 280 seafarers. Brent $99 = kharif fertiliser imports becoming commercially viable again.",
+    "lastTransit": "Tuesday: one ship crossed. Wednesday: ZERO ships crossed (S&P Global). Iran navy: \"new protocols — safe stable passage ensured.\" Deal or toll system — unclear. Brent $99.40.",
+    "indianNavyEscort": "Op Urja Suraksha status. Brent below $100 = first critical milestone. Kharif fertiliser window: May 11-15 restart sourcing for June-August planting. If deal signed: Op Urja Suraksha scaling down possible.",
+    "headline": "ZERO ships crossed Hormuz Wednesday. Brent $99.40 — first below $100 since war. Vance-Witkoff-Kushner in Islamabad. Iran FM response to Pakistan mediators expected. Trump: deal too soon but bombing threat if no agreement."
   },
   "hormuzEvents": [
     {
-      "d": "May 6 6:45PM",
-      "e": "DAY 68 WED 6:45PM IST. TRUMP PAUSED PROJECT FREEDOM (Truth Social): \"Mutually agreed — Blockade remains, Project Freedom paused for short period to see if Agreement can be finalised and signed.\" US-IRAN CLOSE TO ONE-PAGE MOU — closest to agreement since Feb 28 (BusinessToday/sources). US expects Iranian response on key points within 48 HOURS. BRENT PLUNGED 8.44% to $100.60 — largest single-day fall since March ceasefire. SENSEX +941 to 24,330+ (+1.2%). NIFTY TOPPED 24,300. RUPEE ~94. SpiceJet +4.96%, IndiGo +6.60% (Cabinet ECLGS 5.0 for airlines). S&P 500 record 7,259. Korea Kospi +6.45%. CHINA told Iran \"comprehensive ceasefire needed.\" Iran: \"will only accept fair and comprehensive agreement.\" West Asia War Day 68."
+      "d": "May 7 7PM",
+      "e": "DAY 69 THU 7PM IST. Nifty settled BELOW 24,350 (flat, marginal losses). Derivatives expiry volatility. Consumer durables, IT, FMCG declined. Auto, Realty, Chemical buying. BRENT FELL BELOW $100 to $99.40 (-1.85%) — FIRST TIME BELOW $100 since war began Feb 28. WTI $93.21. Iran FM BAQAEI: Tehran reviewing proposal, response to Pakistan mediators coming. MURKOWSKI AUMF MAY 11 deadline. ING: 13 Mbpd disrupted, inventory declining rapidly. 23,000 seafarers 87 countries stranded. Former US Ambassador Sievers (CNBC): \"immediate focus is full reopening of Hormuz — no toll imposed by Iran.\" West Asia War Day 69."
+    },
+    {
+      "d": "May 6 close",
+      "e": "DAY 68 WED FINAL. Sensex +941 to 77,958. Nifty +298 to 24,330. BSE cap Rs 472.81L Cr. Brent closed $101.27 (-7.8%). WTI $95.08 (-7%). WTI intraday low $88 (-15%). ZERO ships crossed Hormuz. Trump (NY Post): \"too soon\" to sign deal. Threatened resumed bombing \"at much higher level and intensity.\" Iran navy: \"new protocols — safe stable passage will be ensured.\" VANCE, WITKOFF, KUSHNER in-person talks ISLAMABAD (NBC). 23,000 seafarers 87 countries stranded."
     },
     {
       "d": "May 5 close",
@@ -100,10 +104,6 @@
     {
       "d": "Apr 27 7:30PM",
       "e": "DAY 59 MON 7:30PM IST. PUTIN MET ARAGHCHI — Boris Yeltsin Library, St Petersburg. Russia confirmed intelligence ties. Putin received Khamenei message + extended health wishes. IRAN NEW PROPOSAL: reopen Hormuz if US ends war + no-resumption guarantees (Al Mayadeen/Tasnim). WH: will not negotiate through press. Araghchi: US excessive demands caused failure. Oman FM: much diplomacy required — NO agreements confirmed. Goldman raised Q4 Brent to $90. Citi raised to $80. CENTCOM: 38 ships. Brent $107. Lebanon 14 killed Sunday — DEADLIEST day since ceasefire. Netanyahu: Hezbollah dismantling ceasefire."
-    },
-    {
-      "d": "Apr 23 7:30PM",
-      "e": "DAY 55 7:30PM IST. Sensex -853 to 77,664. Nifty -206 to 24,173. Brent $101.91 April 22 close. INFOSYS Q4 BEAT: PAT Rs 8,501 Cr (+21% YoY). FY27 guide 1.5-3.5% CC. US sending thousands more — 50,000+ in ME. Iran Pezeshkian: welcomes dialogue, blockade is obstacle. Israel-Lebanon round 2 at State Dept today. 3-5 day Trump deadline ~April 25-27. Lebanon ceasefire also expires ~April 27. Iran military doctrine: offensive. OMC hike imminent."
     }
   ],
   "kitchen": [
@@ -182,40 +182,40 @@
   ],
   "military": [
     {
-      "t": "TRUMP PAUSED PROJECT FREEDOM — \"Mutually Agreed. Paused to See if Agreement Can Be Finalised.\"",
+      "t": "VANCE, WITKOFF, KUSHNER Held IN-PERSON TALKS in ISLAMABAD. Most Senior US Delegation Since War Began.",
       "lv": "BREAKING",
       "color": "green",
-      "d": "Business Standard and BusinessToday confirmed: Trump posted on Truth Social Wednesday: \"We have mutually agreed that, while the Blockade will remain in full force and effect, Project Freedom will be paused for a short period of time to see whether or not the Agreement can be finalized and signed.\" This is the most significant diplomatic concession from the US since the war began — Trump is actively stopping a military operation to create space for a deal. The blockade remains. Project Freedom is paused. The 48-hour clock is running. Sources tell BusinessToday this is the closest the parties have been to an agreement since February 28. A one-page MOU framework is reportedly being negotiated. US is seeking Iranian response on several key points within 48 hours."
+      "d": "NBC News (15 hours ago) confirmed: Vice President JD Vance, special envoy Steve Witkoff and Trump's son-in-law Jared Kushner held in-person talks in the Pakistani capital, Islamabad — the most senior US diplomatic delegation to Pakistan since the war began February 28. Pakistan is the primary intermediary between the US and Iran. In-person talks from the VP, senior envoy, and presidential son-in-law simultaneously signals the US is treating the next 48-72 hours as the decisive window for a deal. Iran FM Baqaei confirmed Tehran will present its response to mediators in Pakistan — timing unclear but expected Friday. Murkowski AUMF May 11 is the congressional pressure point."
     },
     {
-      "t": "US-IRAN CLOSE TO ONE-PAGE MOU — Closest to Deal Since February 28. 48-Hour Deadline.",
+      "t": "BRENT FELL BELOW $100 Thursday — $99.40. First Time Below $100 Since War Began February 28.",
       "lv": "BREAKING",
       "color": "green",
-      "d": "BusinessToday (4hr ago) confirmed: Benchmark indices Sensex and Nifty climbed sharply on Wednesday \"thanks to reports suggesting the US-Iran were close to an agreement on a one-page memorandum of understanding (MoU), which could pave way to end the months-long war.\" The report quoted sources saying this was \"the closest the parties had been to an agreement since the war began.\" Business Standard confirmed: \"The US expects Iranian responses on several key points within the next 48 hours. However, it also cautioned that no agreement has been reached yet.\" Iran responded: it \"will only accept a fair and comprehensive agreement\" with the US. China told Iran a \"comprehensive\" ceasefire is needed as war drags on — adding crucial diplomatic pressure on Tehran."
+      "d": "CNBC (2 hours ago) confirmed: Brent crude fell 1.85% to $99.40 per barrel Thursday — below $100 for the first time since the war began February 28. WTI at $93.21. Business Standard confirmed Brent slipped below $100 Thursday. This is the most significant oil price milestone since Brent peaked at $126 on April 30. The decline from $126 to $99.40 = -21.1% in one week — driven by: (1) Project Freedom pause signalling deal close, (2) One-page MOU reports, (3) Vance-Witkoff-Kushner Islamabad in-person talks. For India: OMC hike now virtually off the table. Rupee strengthening rapidly. Kharif fertiliser imports commercially viable again at $99 Brent."
     },
     {
-      "t": "BRENT PLUNGED 8.44% to $100.60 — Largest Single-Day Fall Since March Ceasefire. Sensex +941.",
+      "t": "TRUMP: \"Too Soon\" to Sign Deal. Threatens Bombing \"At Much Higher Level and Intensity Than Before.\"",
       "lv": "BREAKING",
-      "color": "green",
-      "d": "Business Standard Capital Markets (2hr ago) confirmed: Brent crude for July 2026 settlement slumped $9.27 or 8.44% to $100.60 — the largest single-day oil price fall since the March ceasefire. WTI also fell sharply. Tuesday: Brent had closed at $109.87 (-4%) after Hegseth's ceasefire confirmation. Wednesday: Project Freedom pause + MOU report = Brent crashed through $105, $103, and $100 level intraday before settling at $100.60. Even at $100.60, Brent remains 55% above pre-war $65. Sensex soared 941 points. Nifty topped 24,300. Rupee rebounded to ~94. SpiceJet +4.96%, IndiGo +6.60% after Union Cabinet approved ECLGS 5.0 for MSMEs and airlines affected by West Asia conflict. US S&P 500 hit record 7,259. Korea's Kospi +6.45%."
+      "color": "red",
+      "d": "NBC News confirmed: Trump told the New York Post it was \"too soon\" to prepare to sign a peace deal — causing oil to recover from WTI's $88 intraday low. Trump also posted: \"If they don't agree, the bombing starts, and it will be, sadly, at a much higher level and intensity than it was before.\" The threat is explicit: accept the MOU framework or face resumed airstrikes far more intensive than February 28's Operation Epic Fury. However, Trump also said that if deal agreed, the naval blockade would \"allow the Hormuz Strait to be OPEN TO ALL, including Iran\" — signalling the US is prepared to fully lift the blockade as part of a deal."
     },
     {
-      "t": "TUESDAY RECAP: Brent $109.87 (-4%). Sensex -0.3%. BJP LANDSLIDE Win West Bengal. M&M +3.4%.",
+      "t": "ZERO Ships Crossed Hormuz Wednesday. Iran Navy: \"New Protocols — Safe Passage Ensured.\"",
+      "lv": "BREAKING",
+      "color": "amber",
+      "d": "NBC News and S&P Global Market Intelligence confirmed: Zero ships crossed the Strait of Hormuz on Wednesday. On Tuesday, only one ship crossed. This is the lowest shipping traffic since the war began — even lower than the days immediately after February 28 closure. Iran's navy said Wednesday that \"with aggressor's threats neutralized and new protocols in place, safe, stable passage through the Strait of Hormuz will be ensured.\" The \"new protocols\" language is ambiguous — it could reference Iran's toll/coordination system, or a deal-adjacent framework. Former US Ambassador to Oman Marc Sievers (CNBC): \"The immediate focus has been on a full reopening of the Strait of Hormuz — no toll imposed by the Iranian IRGC on tankers to pass.\" ING: 23,000 seafarers across 87 countries stranded."
+    },
+    {
+      "t": "IRAN FM BAQAEI: Response to Pakistan Mediators Coming. Murkowski AUMF May 11 Pressure.",
       "lv": "DEVELOPING",
       "color": "amber",
-      "d": "CNBC (18hr ago) confirmed: Brent closed $109.87 (-4%) Tuesday after Hegseth's Pentagon briefing confirmed ceasefire not over. WTI settled $102.27 (-4%). Sensex closed ~77,018 (-0.3%). CNBC: Goldman Sachs warned India, South Africa, Thailand, Taiwan face higher risks of refined product scarcity specifically. Goldman: \"easily accessible buffers of refined products being depleted rapidly, particularly in petrochemical feedstocks (naphtha, LPG) and jet fuel.\" Chevron CEO Wirth at Milken Institute: normalisation will take months even after deal — mines, ships, insurance. Iraq offering steep discounts to buyers willing to transit Hormuz. Trading Economics confirmed BJP won a landslide in West Bengal — positive market stability signal. M&M +3.4% (beat earnings). Mahindra's strong quarterly result signals domestic consumption resilience."
+      "d": "CNBC (2 hours ago) confirmed: Iranian FM spokesperson Baqaei said Tehran is still reviewing the proposal and would present its response to mediators in Pakistan. Baqaei cited the International Court of Justice on what \"negotiations\" require — signalling Iran is engaging carefully but not accepting outright. Iran also stated it will \"only accept a fair and comprehensive agreement.\" The response to Pakistan mediators is the next critical milestone — expected Friday-Saturday. Separately: Murkowski AUMF deadline May 11 creates congressional pressure on the WH to show a credible plan. If Murkowski introduces AUMF: forces Senate to vote on formally authorising or ending the war — removing Trump's executive flexibility."
     },
     {
-      "t": "Goldman Sachs: India at Higher Risk of Refined Product Scarcity. Cabinet Approves ECLGS 5.0.",
-      "lv": "DEVELOPING",
-      "color": "amber",
-      "d": "CNBC (Goldman Sachs note, Tuesday) confirmed: Goldman specifically identified India as one of the countries at \"higher risks of product scarcity\" in refined products — especially naphtha, LPG, and jet fuel. Goldman: \"total global oil stocks at about 101 days of demand currently, could fall to 98 days by end of May.\" While aggregate figures look manageable, \"sharper shortages in specific regions and products\" are emerging — India is named explicitly. India's Union Cabinet approved ECLGS 5.0 on Wednesday for MSMEs and airlines affected by the West Asia conflict — SpiceJet +4.96%, IndiGo +6.60%. This is India's government directly absorbing war damage to the aviation sector. Even if the one-page MOU is signed, Goldman and Chevron CEO Wirth warn normalisation takes months (mines, ships, insurance, production restart)."
-    },
-    {
-      "t": "India: 48-Hour Clock Running. If MOU Signed Thu-Fri: Sensex +1,500-2,000. If Rejected: Brent $108+.",
+      "t": "India: Nifty Flat Thursday. Brent $99 = OMC Hike Off Table. Kharif Fertiliser Window Opens.",
       "lv": "DEVELOPING",
       "color": "cyan",
-      "d": "India-specific situation at 6:45 PM May 6: (1) The 48-hour clock US set for Iran response expires Thursday-Friday. If Iran accepts: MOU signed, Brent could fall to $80-88, Sensex rally 1,500-2,000 pts, rupee to Rs 91-92, OMC hike entirely avoided. (2) If Iran rejects: Project Freedom resumes, Brent back to $108+, Sensex reverses. (3) Goldman Sachs: India at refined product scarcity risk even with deal — LPG and jet fuel structural shortage possible through summer. ECLGS 5.0 helps aviation sector. (4) Kharif fertiliser: even with MOU, Chevron CEO says normalisation takes months — kharif June-August still at risk for fertiliser sourcing. (5) Three Indian nationals wounded in Fujairah (May 5) — India direct casualty now part of the diplomatic narrative. (6) BJP Bengal landslide = political stability. (7) Rupee ~94 = significant improvement from ATL 95.32. If MOU signed: rupee to Rs 91-92 possible within days."
+      "d": "India-specific situation at 7 PM May 7: (1) Nifty settled below 24,350 — flat after Wednesday surge. Derivatives expiry volatility. Auto, Realty, Chemical outperformed. IT, Consumer Durables, FMCG declined. (2) Brent $99.40 — OMC hike now virtually off table. Indian Oil, BPCL, HPCL margin recovery beginning. If Brent stays below $100: no petrol/diesel hike needed. (3) Rupee strengthening toward Rs 93.50 from ATL 95.32 — rapid improvement. (4) Kharif fertiliser CRITICAL WINDOW: at Brent $99, Gulf fertiliser imports are commercially viable again. India must restart sourcing NOW — June planting window opens May 11-15. (5) Vance-Witkoff-Kushner in Islamabad = decisive diplomatic week. If deal signed: Brent $80-85, Sensex 85,000+, rupee Rs 91-92. (6) ING: 13 Mbpd disrupted supply offset by inventory \"declining rapidly\" — every day without deal makes system more fragile."
     }
   ],
   "nukes": [
@@ -625,16 +625,6 @@
       "d": 67,
       "l": "May 5",
       "deaths": 6700,
-      "brent": 114,
-      "nifty": 23993,
-      "rupee": 95.27,
-      "tag": "HEGSETH: \"Ceasefire is not over.\" Caine: Iran attacks 10+ times — \"below threshold, grasping at straws.\" FUJAIRAH FIRE: 3 Indian nationals wounded. PM MODI condemned attacks — strongest India statement of war. ARAGHCHI: talks \"making progress.\" QALIBAF: \"new equation\" coming. Sensex -421 to 76,849. Nifty -126 to 23,993. Brent $114. FII ownership NSE 14-year low 16.13%. Rs 2.28 trillion FII sales Jan-Apr. Rupee 95.27. West Asia War Day 67.",
-      "sev": 2
-    },
-    {
-      "d": 67,
-      "l": "May 5",
-      "deaths": 6700,
       "brent": 110,
       "nifty": 24119,
       "rupee": 95.0,
@@ -650,9 +640,37 @@
       "rupee": 94.0,
       "tag": "TRUMP PAUSED PROJECT FREEDOM — \"mutually agreed, paused to see if Agreement can be finalised.\" US-IRAN CLOSE TO ONE-PAGE MOU — closest since Feb 28. 48-hour Iran response deadline. BRENT -8.44% to $100.60 — largest fall since March ceasefire. SENSEX +941 to 24,330+. NIFTY topped 24,300. RUPEE ~94. SpiceJet +5%, IndiGo +6.6%. S&P 500 record 7,259. Korea Kospi +6.45%. China told Iran \"comprehensive ceasefire needed.\" West Asia War Day 68.",
       "sev": 1
+    },
+    {
+      "d": 68,
+      "l": "May 6",
+      "deaths": 6700,
+      "brent": 101,
+      "nifty": 24330,
+      "rupee": 94.0,
+      "tag": "Sensex +941 to 77,958. Nifty +298 to 24,330. BSE cap Rs 472.81L Cr. Brent -7.8% to $101.27. WTI $95.08 (-7%). WTI intraday $88 (-15%). ZERO ships crossed Hormuz. Trump: \"too soon\" to sign, threatens bombing \"at much higher level.\" Iran navy: new protocols, safe passage ensured. Vance-Witkoff-Kushner in Islamabad.",
+      "sev": 1
+    },
+    {
+      "d": 69,
+      "l": "May 7",
+      "deaths": 6700,
+      "brent": 99,
+      "nifty": 24335,
+      "rupee": 93.8,
+      "tag": "BRENT FELL BELOW $100 to $99.40 — FIRST TIME SINCE WAR BEGAN. Nifty flat below 24,350. Iran FM Baqaei: response to Pakistan mediators coming. Murkowski AUMF May 11. ING: 13 Mbpd disrupted, inventories declining rapidly. 23,000 seafarers 87 countries stranded. Vance-Witkoff-Kushner in Islamabad. West Asia War Day 69.",
+      "sev": 1
     }
   ],
   "hormuzLatest": [
+    {
+      "d": "May 7 7PM",
+      "e": "DAY 69 THU 7PM IST. Nifty settled BELOW 24,350 (flat, marginal losses). Derivatives expiry volatility. Consumer durables, IT, FMCG declined. Auto, Realty, Chemical buying. BRENT FELL BELOW $100 to $99.40 (-1.85%) — FIRST TIME BELOW $100 since war began Feb 28. WTI $93.21. Iran FM BAQAEI: Tehran reviewing proposal, response to Pakistan mediators coming. MURKOWSKI AUMF MAY 11 deadline. ING: 13 Mbpd disrupted, inventory declining rapidly. 23,000 seafarers 87 countries stranded. Former US Ambassador Sievers (CNBC): \"immediate focus is full reopening of Hormuz — no toll imposed by Iran.\" West Asia War Day 69."
+    },
+    {
+      "d": "May 6 close",
+      "e": "DAY 68 WED FINAL. Sensex +941 to 77,958. Nifty +298 to 24,330. BSE cap Rs 472.81L Cr. Brent closed $101.27 (-7.8%). WTI $95.08 (-7%). WTI intraday low $88 (-15%). ZERO ships crossed Hormuz. Trump (NY Post): \"too soon\" to sign deal. Threatened resumed bombing \"at much higher level and intensity.\" Iran navy: \"new protocols — safe stable passage will be ensured.\" VANCE, WITKOFF, KUSHNER in-person talks ISLAMABAD (NBC). 23,000 seafarers 87 countries stranded."
+    },
     {
       "d": "May 6 6:45PM",
       "e": "DAY 68 WED 6:45PM IST. TRUMP PAUSED PROJECT FREEDOM (Truth Social): \"Mutually agreed — Blockade remains, Project Freedom paused for short period to see if Agreement can be finalised and signed.\" US-IRAN CLOSE TO ONE-PAGE MOU — closest to agreement since Feb 28 (BusinessToday/sources). US expects Iranian response on key points within 48 HOURS. BRENT PLUNGED 8.44% to $100.60 — largest single-day fall since March ceasefire. SENSEX +941 to 24,330+ (+1.2%). NIFTY TOPPED 24,300. RUPEE ~94. SpiceJet +4.96%, IndiGo +6.60% (Cabinet ECLGS 5.0 for airlines). S&P 500 record 7,259. Korea Kospi +6.45%. CHINA told Iran \"comprehensive ceasefire needed.\" Iran: \"will only accept fair and comprehensive agreement.\" West Asia War Day 68."
@@ -660,19 +678,11 @@
     {
       "d": "May 5 close",
       "e": "DAY 67 TUE CLOSE. Brent closed $109.87 (-4%) after Hegseth confirmed ceasefire not over. WTI $102.27. Sensex ~77,018 (-0.3%). M&M +3.4% (profit beat). ICICI Bank -1.5%, Tech Mahindra -1.3% worst. BJP LANDSLIDE WIN in West Bengal confirmed (Trading Economics). FII ownership NSE 14-year low 16.13%. Rs 2.28 trillion sold Jan-Apr. Goldman Sachs: India at higher risk of refined product scarcity (naphtha, LPG, jet fuel). Chevron CEO Wirth: even with deal, normalisation takes months — mines, ships, insurance. Iraq offering steep discounts to buyers willing to transit Hormuz."
-    },
-    {
-      "d": "May 5 7:30PM",
-      "e": "DAY 67 TUE 7:30PM IST. PENTAGON BRIEFING: HEGSETH: \"CEASEFIRE IS NOT OVER.\" Project Freedom \"separate from Op Epic Fury — defensive, focused, temporary.\" CAINE: Iran attacked US forces \"MORE THAN 10 TIMES\" since April 8 — \"below threshold of restarting major combat.\" \"Grasping at straws.\" ARAGHCHI: talks \"MAKING PROGRESS.\" QALIBAF: \"new equation\" in Hormuz — Iran yet to fully respond. FUJAIRAH DRONE FIRE: Iranian drone sparked fire at key Fujairah oil facility — THREE INDIAN NATIONALS WOUNDED. PM MODI condemned attacks — \"targeting civilians unacceptable.\" India \"firm solidarity\" with UAE. Stressed Hormuz free shipping \"vital.\" Sensex -421 to 76,849. Nifty -126 to 23,993. Brent $113-114. FII ownership NSE 14-year low 16.13%. Rs 2.28 trillion FII sales Jan-Apr. West Asia War Day 67."
-    },
-    {
-      "d": "May 5 11AM",
-      "e": "DAY 67 TUE 11AM IST. PROJECT FREEDOM DAY 2 — IRAN ESCALATED: IRGC launched cruise missiles, drones, fast boats at US ships in Hormuz. US DESTROYED 6-7 IRANIAN FAST BOATS (Apache + Seahawk helicopters). Cruise missiles/drones SHOT DOWN. SOUTH KOREAN VESSEL HMM NAMU hit by explosion off UAE — 24 crew, no casualties. IRAN ATTACKED UAE: 3 cruise missiles intercepted, 4th in sea. FUJAIRAH oil port also targeted. ADMIRAL COOPER REFUSED to confirm if April 8 CEASEFIRE still in effect. BRENT +$3.06 to $111.23. Trump: Iran negotiators \"far more malleable.\" Bessent urged China to pressure Iran. TRUMP-XI to discuss Hormuz NEXT WEEK. Pentagon briefing Hegseth + Caine Tuesday. India gap-DOWN expected. Fujairah bypass route under threat. West Asia War Day 67."
     }
   ],
   "projNow": {
-    "brent": 101,
-    "rupee": 94.0,
+    "brent": 99,
+    "rupee": 93.8,
     "lpg": 912,
     "petrol": 94.77,
     "deaths": 6700
@@ -680,52 +690,52 @@
   "scenarios": {
     "headers": [
       "Pre-war",
-      "Now (D68)",
-      "MOU signed Thu-Fri",
-      "MOU rejected, stalemate",
-      "Full deal + Hormuz reopens"
+      "Now (D69)",
+      "MOU signed this week",
+      "Talks stall, stalemate",
+      "Trump resumes bombing"
     ],
     "brent": [
       65,
-      101,
-      82,
-      108,
-      72
+      99,
+      78,
+      105,
+      140
     ],
     "rupee": [
       91,
-      94.0,
-      91.5,
-      96.0,
-      90.5
+      93.8,
+      91.0,
+      95.5,
+      108
     ],
     "deaths": [
       0,
       "6,700+",
       "7,000",
       "8,500",
-      "7,000"
+      "30,000+"
     ],
     "sensex": [
       "78,699",
-      "78,028",
-      "82,000+",
+      "77,958",
+      "86,000+",
       "74,000",
-      "88,000+"
+      "50,000"
     ],
     "lpg": [
       "Rs 853",
       "Rs 912+",
-      "Rs 875",
+      "Rs 853",
       "Rs 960+",
-      "Rs 853"
+      "Rs 2,200+"
     ],
     "fii": [
       "-",
       "Partial return",
-      "$18B return",
-      "Outflows resume",
-      "$30B return"
+      "$28B return",
+      "Flat",
+      "$70B out"
     ]
   },
   "radar": [
@@ -779,8 +789,8 @@
     }
   ],
   "assessment": {
-    "headline": "DAY 68, 6:45PM WED: TRUMP PAUSED PROJECT FREEDOM — \"mutually agreed, paused for deal.\" US-IRAN CLOSE TO ONE-PAGE MOU — closest since Feb 28. 48-HOUR CLOCK running. BRENT -8.44% to $100.60. SENSEX +941, NIFTY 24,300+. RUPEE ~94. S&P 500 RECORD.",
-    "body": "Wednesday 6:45 PM IST. Day 68. The most significant diplomatic day of the West Asia War.\n\nTHE TUESDAY RECAP\n• Hegseth: \"ceasefire is not over\" — full war not resuming\n• Caine: Iran attacked US 10+ times since ceasefire — \"below threshold\"\n• Brent closed $109.87 (-4%). Sensex -0.3% to ~77,018\n• BJP landslide win in West Bengal — political stability confirmed\n• M&M +3.4% on profit beat — domestic demand resilient\n• Goldman Sachs specifically named India at risk of refined product scarcity\n\nTHE WEDNESDAY GAME-CHANGER\n• Trump paused Project Freedom: \"mutually agreed, paused to see if Agreement can be finalised\"\n• US-Iran close to a one-page MOU (BusinessToday sources)\n• Closest to agreement since February 28\n• US expects Iranian response on key points within 48 hours\n• Brent plunged 8.44% to $100.60 — largest one-day fall since March ceasefire\n• Sensex +941. Nifty topped 24,300. Rupee ~94. S&P 500 record 7,259\n\nTHE 48-HOUR CLOCK\n• US expects Iranian response by Thursday-Friday\n• Iran: \"will only accept fair and comprehensive agreement\"\n• Nuclear enrichment recognition remains the core gap\n• China told Iran \"comprehensive ceasefire needed\" — crucial external pressure\n• If Iran accepts: MOU signed, Brent $80-88, Sensex +1,500-2,000 possible\n• If Iran rejects: Project Freedom resumes, Brent back to $108+\n\nINDIA's POSITION AT DAY 68\n• Sensex +941. Nifty 24,300+. Rupee ~94\n• ECLGS 5.0 approved — aviation and MSME war relief\n• Three Indians wounded in Fujairah (May 5) — India in conflict narrative\n• Goldman Sachs: India at specific risk of LPG and jet fuel scarcity\n• Kharif fertiliser: still at risk even with MOU (months to normalise)\n• BJP Bengal landslide = political stability premium\n\nVERDICT: Day 68 is the most hopeful day of the entire West Asia War. Trump paused a military operation to create space for a deal. A one-page MOU is reportedly being negotiated. Brent crashed 8.44%. Global markets surged to records. The 48-hour clock is running on Iran. The question is whether Iran's Supreme Leader will authorise Araghchi to sign a framework that defers nuclear discussions — or whether Qalibaf's \"new equation\" hardline prevails. India wakes up Thursday watching one of the most consequential 48 hours since February 28."
+    "headline": "DAY 69, 7PM THU: BRENT $99.40 — FIRST BELOW $100 SINCE WAR. VANCE-WITKOFF-KUSHNER in ISLAMABAD. Iran FM response to Pakistan COMING. Zero ships Wed. Trump: \"too soon\" but threatens bombing \"at much higher level.\" Murkowski AUMF May 11.",
+    "body": "Thursday 7 PM IST. Day 69. Brent is below $100 for the first time since the war began.\n\nTHE WEDNESDAY FINAL PICTURE\n• Sensex +941 to 77,958. Nifty +298 to 24,330. BSE market cap Rs 472.81 lakh crore\n• Brent closed $101.27 (-7.8%). WTI $95.08 (-7%). WTI plunged to $88 intraday (-15%)\n• Trump (NY Post): \"too soon\" to sign deal — prices recovered from lows\n• Trump: \"If they don't agree, the bombing starts at much higher level and intensity than before\"\n• Iran navy: \"with new protocols in place, safe stable passage will be ensured\"\n• ZERO ships crossed Hormuz Wednesday (S&P Global). One crossed Tuesday.\n• Vance, Witkoff, Kushner held in-person talks in Islamabad (NBC News)\n• 23,000 seafarers across 87 countries stranded\n\nTHURSDAY — BRENT BELOW $100\n• Brent fell 1.85% to $99.40 — first time below $100 since February 28\n• WTI $93.21. Market pricing significant deal probability\n• Nifty settled below 24,350 — flat, marginal losses. Derivatives expiry volatility\n• Auto, Realty, Chemical buying. IT, Consumer Durables, FMCG declining\n• Iran FM Baqaei: response to Pakistan mediators coming (expected Friday-Saturday)\n• Murkowski AUMF May 11 — Senate returns this week\n\nTHE ISLAMABAD TALKS — WHY THEY MATTER\n• Vance (VP) + Witkoff (senior envoy) + Kushner (son-in-law) = most senior US delegation since war began\n• Pakistan is the primary mediator between US and Iran\n• In-person presence signals the US treats next 48-72 hours as decisive\n• Iran FM Baqaei response to Pakistan expected Friday-Saturday\n• Former US Ambassador Sievers (CNBC): focus is full reopening, no Iranian IRGC toll\n\nTHE INDIA MOMENT\n• Brent $99.40 = OMC hike virtually off table — biggest relief since the war began\n• Rupee strengthening rapidly from ATL 95.32 toward Rs 93.50-94\n• Kharif fertiliser: at Brent $99, Gulf imports commercially viable — restart sourcing NOW\n• June planting window: May 11-15 is the critical restart period\n• Nifty flat Thursday = market waiting for Iran FM response\n• If MOU signed this weekend: Sensex 86,000+, rupee Rs 91-92, Brent $78-82\n\nVERDICT: Day 69 closes with the West Asia War at its most decisive moment since February 28. Brent is below $100 for the first time. The US VP is in Islamabad. Iran is preparing its response. Trump has issued both a deal signal (\"open to all including Iran\") and a bombing threat (\"much higher level and intensity\"). The next 48-72 hours — from Friday through Sunday — will determine whether the 69-day energy crisis that has cost India Rs 50+ trillion in economic value begins its end, or enters its most dangerous phase."
   },
   "featured": [
     {
