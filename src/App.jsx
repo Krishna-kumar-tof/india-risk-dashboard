@@ -58,6 +58,10 @@ const TL_BASE = [
   {d:70,l:"May 8", deaths:6700,brent:101,nifty:24231,rupee:94.50,tag:"NASA satellite fire signatures in Hormuz separation zone — Omani lane deserted, ZERO TRAFFIC. IRGC toll agency formalised. Pezeshkian met Khamenei 2hrs. Araghchi-Wang Yi Beijing.",sev:3},
   {d:71,l:"May 9", deaths:6700,brent:101,nifty:24176,rupee:94.50,tag:"US fighter jet attacked Iranian ship (CNN satellite). Iran warns heavy assault. Iran General: sanction-enforcing nations face Hormuz problems. Sensex -516. OMC hike before May 15.",sev:2},
   {d:72,l:"May 10",deaths:6700,brent:101,nifty:24176,rupee:94.50,tag:"PM MODI: use petrol/gas/diesel with great restraint. Avoid gold 1 yr. Revive WFH. OMC losses Rs 30,000Cr/month. Hike Rs4-5/L before May 15. Iran responded to US proposal. Charles de Gaulle → Red Sea. Murkowski AUMF May 11.",sev:2},
+  {d:73,l:"May 11",deaths:6700,brent:103,nifty:23816,rupee:94.91,tag:"TRUMP: TOTALLY UNACCEPTABLE. Sensex -1,312 to 76,015 (biggest fall since March 24). Nifty below 24,000. RBI intervened at 94.9650. Murkowski AUMF blocked by Thune.",sev:3},
+  {d:75,l:"May 13",deaths:6700,brent:108,nifty:23379,rupee:95.71,tag:"PETROL hiked Rs 103.54. Diesel Rs 90.03. Rupee ATL 95.71. Brent $107.52. Sensex -1,456 to 74,559. Two-day crash -2,769 pts. Gold customs duty raised.",sev:3},
+  {d:77,l:"May 15",deaths:6700,brent:106,nifty:23650,rupee:95.71,tag:"TRUMP-XI: Hormuz open+demilitarized. Xi opposes tolls. Xi buys US oil. IRAN: seized UAE vessel + SANK INDIAN CARGO SHIP off Oman. 3-day Sensex recovery to 75,741.",sev:2},
+  {d:78,l:"May 16",deaths:6700,brent:106,nifty:23560,rupee:95.71,tag:"WEEKLY WRAP. Trump-Xi structural positive not binding on Iran. Three-day recovery +1,182 pts. Petrol Rs 103.54. Indian cargo ship sunk off Oman. Monday binary.",sev:2},
 ];
 
 const RADAR_FB = [
@@ -65,10 +69,10 @@ const RADAR_FB = [
   {axis:"Market Crash",  w1:45,now:48,w4:35},
   {axis:"Nuclear Risk",  w1:20,now:92,w4:85},
   {axis:"Hormuz Closure",w1:80,now:95,w4:60},
-  {axis:"Household",     w1:15,now:78,w4:55},
+  {axis:"Household",     w1:15,now:82,w4:58},
   {axis:"Currency",      w1:40,now:58,w4:42},
   {axis:"Social Unrest", w1:25,now:65,w4:52},
-  {axis:"Mil. Exposure", w1:35,now:90,w4:60},
+  {axis:"Mil. Exposure", w1:35,now:92,w4:62},
 ];
 
 const NUKES_FB = [
@@ -387,18 +391,18 @@ export default function App() {
   };
 
   const iT        = intel?.ticker        ?? TICKER_FB;
-  const iDay      = intel?._day          ?? 72;
-  const iUpdated  = intel?._updated      ?? "May 10, 2026 — 6:00 PM IST";
+  const iDay      = intel?._day          ?? 78;
+  const iUpdated  = intel?._updated      ?? "May 16, 2026 — 7:00 AM IST";
   const iDeaths   = intel?.deaths        ?? "6,700+";
   const iDeathsSub= intel?.deathsSub     ?? "";
   const iWC       = intel?.whatChanged   ?? {
-    label: 'WHAT CHANGED — MAY 10, 6:00 PM IST (DAY 72)',
+    label: 'WHAT CHANGED — MAY 16, 7:00 AM IST (DAY 78)',
     items: [
-      {color:'red',   bold:'IRAN SENT UPDATED PROPOSAL via Pakistan — delivered to US. Brent -2% to $108.17.', text:'CNBC and Bloomberg confirmed: Iran sent an updated peace proposal to mediators in Pakistan on Friday. Pakistani officials confirmed mediators received the proposal and it was delivered to the US. Brent crude fell nearly 2% to settle at $108.17, and WTI closed at $101.94 on the news. Trump: "Iran wants to make a deal, but I\'m not satisfied with it. Iran wants to make a deal because they have no military left."'},
-      {color:'red',   bold:'CENTCOM prepared "short and powerful" strikes plan. Joint Chiefs Chair Caine briefed Trump.', text:'Axios confirmed: CENTCOM has prepared a plan for a "brief wave" of strikes on Iran to break the stalled negotiations. Trump was briefed by Admiral Brad Cooper (CENTCOM) AND Dan Caine, the chairman of the Joint Chiefs of Staff. Having the Joint Chiefs Chair in the briefing signals serious military planning at the highest level.'},
-      {color:'amber', bold:'US pitching allies on JOINT NAVAL FORCE for Hormuz. Tehran air defenses activated.', text:'Bloomberg confirmed: US is pitching allies on a joint naval force to secure the Strait of Hormuz — an active enforcement force against Iran\'s blockade. Separately: Iran activated air defenses around Tehran Thursday night to counter reconnaissance drones.'},
-      {color:'red',   bold:'MURKOWSKI AUMF MAY 11 — Senate returns Monday. Iran responded Sunday. Charles de Gaulle heading to Red Sea.', text:'Senate returns Monday May 11. Murkowski to introduce AUMF if WH has no credible plan. Iran formally responded to US proposal Sunday via Pakistan — WH can claim progress. If AUMF introduced: Senate votes to authorize or end war. Charles de Gaulle + 40-nation initiative also adding pressure on Iran.'},
-      {color:'red',   bold:'NASA SATELLITE: Fire signatures in Hormuz separation zone — Omani lane DESERTED. Iran responded to US proposal Sunday.', text:'NASA FIRMS satellite data confirmed by @prof_nithiya: fire signatures in Hormuz Traffic Separation Zone, ships near Omani waters hit, area completely deserted — zero traffic. Iran blocking Omani bypass to force ships onto IRGC toll lane. Iran has formally responded to US proposal via Pakistan mediators Sunday morning — content TBC. White House Hassett: \'gusher of oil\' when Hormuz opens.'},
+      {color:'red',   bold:'TRUMP-XI SUMMIT: Hormuz must be OPEN and DEMILITARIZED. Xi OPPOSES toll charging. Xi to buy MORE US OIL.', text:'CNBC and Bloomberg confirmed: Iran sent an updated peace proposal to mediators in Pakistan on Friday. Pakistani officials confirmed mediators received the proposal and it was delivered to the US. Brent crude fell nearly 2% to settle at $108.17, and WTI closed at $101.94 on the news. Trump: "Iran wants to make a deal, but I\'m not satisfied with it. Iran wants to make a deal because they have no military left."'},
+      {color:'red',   bold:'INDIAN CARGO SHIP SUNK OFF OMAN (May 15). Iran SEIZED UAE vessel same day as Trump-Xi. Iran defied framework Day 1.', text:'Axios confirmed: CENTCOM has prepared a plan for a "brief wave" of strikes on Iran to break the stalled negotiations. Trump was briefed by Admiral Brad Cooper (CENTCOM) AND Dan Caine, the chairman of the Joint Chiefs of Staff. Having the Joint Chiefs Chair in the briefing signals serious military planning at the highest level.'},
+      {color:'amber', bold:'THREE CONSECUTIVE SENSEX GAINS: Wed +354, Thu +790, Fri +370. Recovery +1,182 pts from 74,559 low to 75,741.', text:'Bloomberg confirmed: US is pitching allies on a joint naval force to secure the Strait of Hormuz — an active enforcement force against Iran\'s blockade. Separately: Iran activated air defenses around Tehran Thursday night to counter reconnaissance drones.'},
+      {color:'red',   bold:'TRUMP-XI FRAMEWORK: Xi opposing Hormuz tolls removes Iran diplomatic cover. Xi buying US oil = long-term Iran revenue erosion.', text:'Senate returns Monday May 11. Murkowski to introduce AUMF if WH has no credible plan. Iran formally responded to US proposal Sunday via Pakistan — WH can claim progress. If AUMF introduced: Senate votes to authorize or end war. Charles de Gaulle + 40-nation initiative also adding pressure on Iran.'},
+      {color:'red',   bold:'PETROL Rs 103.54 (hiked May 13). Rupee ATL 95.71. Two-day crash -2,769 Sensex pts. Weekly recovery +1,182 pts from low.', text:'NASA FIRMS satellite data confirmed by @prof_nithiya: fire signatures in Hormuz Traffic Separation Zone, ships near Omani waters hit, area completely deserted — zero traffic. Iran blocking Omani bypass to force ships onto IRGC toll lane. Iran has formally responded to US proposal via Pakistan mediators Sunday morning — content TBC. White House Hassett: \'gusher of oil\' when Hormuz opens.'},
       {color:'red',   bold:'PM MODI: "Use petrol, gas, diesel with GREAT RESTRAINT." OMC hike Rs 4-5/L BEFORE MAY 15. Gold moratorium.', text:'PM Modi at Hyderabad Sunday: use imported petro products only as per need. Urged: avoid gold purchase for one year, revive WFH, use Metro/public transport, farmers reduce fertiliser 50%. OMC losses Rs 30,000 Cr/month. Petrol/diesel hike Rs 4-5/L expected before May 15 — petrol approaching Rs 100/L. LPG at 70% of pre-crisis commercial levels. Modi has moved India from crisis management to crisis adaptation.'},
     ]
   };
@@ -421,18 +425,18 @@ export default function App() {
   const fullTL = [...TL_BASE.filter(t=>!iTlLatest.some(lt=>lt.d===t.d)), ...iTlLatest]
     .sort((a,b)=>a.d-b.d);
 
-  const brentRaw  = live?.brent?.price     ?? 101;
-  const brentChg  = live?.brent?.changePct ?? -8.44;
-  const niftyRaw  = live?.nifty?.price     ?? 24176;
-  const niftyChg  = live?.nifty?.change    ?? -151;
-  const sensexRaw = live?.sensex?.price    ? Math.round(live.sensex.price) : 77328;
-  const rupeeRaw  = live?.rupee?.price     ?? 94.50;
+  const brentRaw  = live?.brent?.price     ?? 106;
+  const brentChg  = live?.brent?.changePct ?? 0.50;
+  const niftyRaw  = live?.nifty?.price     ?? 23560;
+  const niftyChg  = live?.nifty?.change    ?? 181;
+  const sensexRaw = live?.sensex?.price    ? Math.round(live.sensex.price) : 75741;
+  const rupeeRaw  = live?.rupee?.price     ?? 95.71;
 
   const brentColor = brentRaw > 110 ? C.red : brentRaw > 95 ? C.orange : C.amber;
   const niftyColor = niftyChg >= 0 ? C.green : C.red;
   const isBlockade = iPhase === "BLOCKADE";
 
-  const scenHeaders = iScenarios?.headers ?? ["Pre-war","Now (D72)","MOU signed","Stalemate","Project Freedom resumes"];
+  const scenHeaders = iScenarios?.headers ?? ["Pre-war","Now (D78)","China pressure+deal","Iran defies+stalemate","Trump strikes resume"];
   const scenRows = [
     {m:"Brent ($)",  vals: iScenarios?.brent  ?? [65,101,82,108,115]},
     {m:"₹/USD",      vals: iScenarios?.rupee  ?? [91,94.00,91.5,96.0,97.0]},
@@ -654,7 +658,7 @@ export default function App() {
             indiaImpact={`Sensex ${typeof sensexRaw==='number'?sensexRaw.toLocaleString():sensexRaw}`}/>
           <Mc label="₹ / USD" value={typeof rupeeRaw==='number'?rupeeRaw.toFixed(2):rupeeRaw}
             delta="Fresh ATL" deltaColor={C.red} sub="was ₹91.49 pre-war" accent={C.orange}
-            indiaImpact="Every ₹1 fall = ₹4,000cr import bill rise"/>
+            indiaImpact="ATL 95.71. Every ₹1 fall = ₹4,000cr import bill rise"/>
         </div>
 
         {/* ══ HORMUZ ══ */}
@@ -703,7 +707,7 @@ export default function App() {
             <div style={{display:'grid',gridTemplateColumns:'1fr 1fr 1fr',gap:8}}>
               {[
                 {l:"Ships in Gulf", v:iHormuz?.indianVesselsNear??8, sub:(iHormuz?.indianSeafarers??280)+" seafarers"},
-                {l:"Crossed Safely",v:iHormuz?.indianTransited??1,  sub:"Desh Garima confirmed Mumbai"},
+                {l:"Crossed Safely",v:iHormuz?.indianTransited??1,  sub:"Desh Garima Apr 30. Ship SUNK May 15."},
                 {l:"Navy Escort",   v:"ACTIVE", sub:"Op Urja Suraksha", isText:true},
               ].map((s,i)=>(
                 <div key={i} style={{textAlign:'center'}}>
@@ -734,7 +738,7 @@ export default function App() {
           sub="8+ weeks of war — what it costs Indian households today.">
           {(iKitchen.length ? iKitchen : [
             {item:"LPG Cylinder (14.2kg)",status:"orange",statusText:"Brent $108 — hike risk",pre:"₹853",now:"₹912.50",twoWeek:"₹912-960 if blockade holds",detail:"30+ days buffer. No dry-outs. Gulf fertiliser imports at $1M+/ship toll now commercially impossible."},
-            {item:"Petrol (Delhi)",status:"red",statusText:"HIKE Rs 4-5/L BEFORE MAY 15 — MODI CONSERVATION SPEECH",pre:"₹94.72/L",now:"₹94.77/L (frozen)",twoWeek:"₹98-100/L — approaching Rs 100 first time ever",detail:"OMC losses Rs 30,000 Cr/month. Modi Hyderabad speech May 10: use with great restraint. Hike before May 15. Every Rs 1/L = Rs 12,000 Cr annual consumer burden."},
+            {item:"Petrol (Delhi)",status:"red",statusText:"HIKED TO Rs 103.54 — OMC LOSSES Rs 18/L CONTINUE AT BRENT $106",pre:"₹94.72/L",now:"₹103.54/L (HIKED May 13)",twoWeek:"Under-recovery Rs 18/L continues at Brent $106. Further hike if Brent above $105 sustained.",detail:"OMC losses Rs 30,000 Cr/month. Modi Hyderabad speech May 10: use with great restraint. Hike before May 15. Every Rs 1/L = Rs 12,000 Cr annual consumer burden."},
             {item:"Diesel (Delhi)",status:"yellow",statusText:"Trucking cost pressure",pre:"₹87.62/L",now:"₹87.67/L",twoWeek:"₹2-4/L hike risk",detail:"Every ₹1 diesel rise = ₹2,500 Cr annual trucking cost. Food and goods inflation building."},
             {item:"Kharif Fertiliser",status:"red",statusText:"ACUTE RISK — June planting",pre:"Normal",now:"Emergency",twoWeek:"Shortfall if Hormuz closed through May",detail:"Gulf produces 30% of global urea. $1M+/ship Hormuz toll makes imports commercially impossible. June-August planting at risk."},
           ]).map((h,i)=>{
@@ -775,7 +779,7 @@ export default function App() {
           {/* Key metrics row */}
           <div className="grid4" style={{display:'grid',gridTemplateColumns:'1fr 1fr',gap:8,marginBottom:14}}>
             <Mc label="BSE Market Cap" value={iEcon?.wealth||"~₹445L Cr"} accent={C.orange}
-              sub="OMC hike Rs 4-5/L before May 15. PM Modi: use with great restraint."/>
+              sub="Petrol Rs 103.54 (hiked). Diesel Rs 90.03. OMC losses Rs 18/L petrol, Rs 35/L diesel."/>
             <Mc label="FII Flow" value={iEcon?.fpi||"Outflows"}
               delta={iEcon?.fpiDelta||"Coal India, Oil & Gas attracting buying"} accent={C.red}
               sub="WH counterproposal = next FII catalyst"/>
@@ -1131,7 +1135,7 @@ export default function App() {
               fontSize:12.5,color:C.sub,lineHeight:1.8,fontFamily:SERIF}}>
               <strong style={{color:C.amber}}>For India, this is an energy emergency.</strong>{' '}
               PM Modi: use petrol/gas/diesel with great restraint. OMC hike Rs 4-5/L before May 15. LPG at 70% of pre-crisis. Iran responded Sunday. Murkowski AUMF May 11. Charles de Gaulle → Red Sea.
-              PM Modi conservation speech: use petrol/gas/diesel with great restraint. Hike Rs 4-5/L before May 15.
+              Petrol Rs 103.54 (hiked May 13). Rupee ATL 95.71. Indian cargo ship sunk off Oman May 15.
               <br/><br/>
               <strong style={{color:C.cyan}}>India must act now:</strong> Emergency fertiliser sourcing (North Africa/Russia).
               RBI rupee defence. Nuclear monitoring. Non-Gulf LPG acceleration. This is India's crisis — not a distant war.
