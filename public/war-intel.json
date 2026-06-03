@@ -1,12 +1,12 @@
 {
-  "_updated": "June 2, 2026 — 7:30 AM IST",
+  "_updated": "June 2, 2026 — 11:00 AM IST",
   "_day": 93,
   "_phase": "BLOCKADE",
-  "_note": "Verified: CBS News (17hr ago), CNN (1 day ago). NO Wikipedia used as factual source. DAY 93 TUE 7:30AM IST — WEEK 14 DAY 2. TRUMP RECENTLY EDITED US-IRAN AGREEMENT including on enriched uranium + Hormuz — new Trump demands \"did not go down well in Tehran\" (CBS News 17hr ago). MOU: \"still at best a work in progress.\" IRAN: vehemently denied the tentative deal on ceasefire extension. BRENT FRIDAY MAY 29 CLOSE: $91.89. WTI: $87.86. US STOCKS FRIDAY: Dow +0.5% to 50,902. S&P500 +0.4% to 7,594. Nasdaq +0.5%. HEZBOLLAH-ISRAEL: clashes intensifying in Lebanon despite April ceasefire — Israel advancing further into southern Lebanon. US DEFENSE SECRETARY: warned military ready to RESUME COMBAT in Gulf if needed (CNN). GIFT NIFTY Tuesday: direction pending. Monday June 1 Sensex close: data pending confirmation. Brent ~$91-92 range — deal still priced, MOU unsigned, Trump demands hardened. West Asia War Day 93.",
+  "_note": "Verified: CBS News (17hr ago), CNN (1 day ago). NO Wikipedia used as factual source. DAY 93 TUE 7:30AM IST — WEEK 14 DAY 2. TRUMP RECENTLY EDITED US-IRAN AGREEMENT including on enriched uranium + Hormuz — new Trump demands \"did not go down well in Tehran\" (CBS News 17hr ago). MOU: \"still at best a work in progress.\" IRAN: vehemently denied the tentative deal on ceasefire extension. BRENT FRIDAY MAY 29 CLOSE: $91.89. WTI: $87.86. US STOCKS FRIDAY: Dow +0.5% to 50,902. S&P500 +0.4% to 7,594. Nasdaq +0.5%. HEZBOLLAH-ISRAEL: clashes intensifying in Lebanon despite April ceasefire — Israel advancing further into southern Lebanon. US DEFENSE SECRETARY: warned military ready to RESUME COMBAT in Gulf if needed (CNN). GIFT NIFTY Tuesday: direction pending. Monday June 1 Sensex close: data pending confirmation. Brent ~$91-92 range — deal still priced, MOU unsigned, Trump demands hardened. West Asia War Day 93. | 11AM UPDATE: BRENT $95 TUESDAY (Economic Times 5hr ago) — rebounded from $91.89 Friday close. Zerodha Pulse (5hr ago): Nifty continues to trade BELOW KEY MOVING AVERAGES. Bollinger Bands trending lower and WIDENING. Downside momentum INTACT. Asian markets DIPPED from record highs as peace talks with Iran FALTERED. Oil prices elevated amid geopolitical tensions. US stock futures slight decline. Gold and silver prices in India FELL Tuesday — global market losses + US-Iran military tensions + rising crude. Economic Times (5hr ago): \"Oil Price Today (June 2): Crude oil at $95 per barrel amid conflicting Iran war signals. What are experts saying?\" Brent edged UP Tuesday, WTI slight dip. Both Brent and Nifty signals: cautious/negative tone at 11AM IST.",
   "ticker": [
-    "⚠️ TRUMP RECENTLY EDITED US-IRAN AGREEMENT — new demands on enriched uranium + Hormuz 'DID NOT GO DOWN WELL IN TEHRAN' (CBS News 17hr ago). MOU: 'still, at best, A WORK IN PROGRESS.' Iran vehemently denied tentative deal.",
-    "🛡️ US DEFENSE SECRETARY: warned military READY TO RESUME COMBAT IN GULF if needed (CNN 1 day ago). Hardened US military posture alongside negotiation = pressure tactic on Iran.",
-    "🛢️ BRENT FRIDAY CLOSE: $91.89. WTI: $87.86. US STOCKS: Dow +0.5% to 50,902. S&P 500 +0.4% to 7,594. Nasdaq +0.5% to 27,062. Wall Street adding to records on deal optimism.",
+    "🛢️ BRENT $95 TUESDAY (Economic Times 5hr ago) — rebounded from $91.89 Friday close. \"Conflicting Iran war signals.\" Asian markets dipped from record highs as peace talks FALTERED. Oil prices elevated. US stock futures slight decline.",
+    "📉 NIFTY BELOW KEY MOVING AVERAGES (Zerodha Pulse 5hr ago): Bollinger Bands trending lower and WIDENING. Downside momentum INTACT. Gold and silver fell Tuesday — US-Iran military tensions + rising crude.",
+    "⚠️ TRUMP EDITED MOU — new demands on uranium + Hormuz \"did not go down well in Tehran\" (CBS News). MOU \"work in progress.\" Iran vehemently denied Thursday deal. US Defense Secretary: combat-ready in Gulf.",
     "🇱🇧 HEZBOLLAH-ISRAEL: clashes INTENSIFYING in Lebanon despite April ceasefire. Israel advancing further into southern Lebanon. Second front complicating US-Iran deal dynamics.",
     "💬 IRAN: 'vehemently denied' the tentative ceasefire extension deal on Thursday. Trump's new demands on uranium + Hormuz = Iran-US gap widened again after apparent bridge found last week.",
     "🇮🇳 INDIA TUESDAY 9:15 AM: GIFT Nifty direction pending. Trump new demands 'not well received' = cautious open. Brent $91.89 Friday close. MOU 'work in progress.' Nifty support 23,600-23,800.",
@@ -16,8 +16,13 @@
     "📅 WEEK 14 TUESDAY: Trump new demands + Iran denial + US military combat-ready warning = deal delayed beyond this week. Brent $91-93 range. India Nifty 23,600-24,000. Volatile session ahead."
   ],
   "whatChanged": {
-    "label": "WHAT CHANGED — JUNE 2, 7:30 AM IST (DAY 93) — TUESDAY MORNING",
+    "label": "WHAT CHANGED — JUNE 2, 11:00 AM IST (DAY 93) — TUESDAY MIDDAY",
     "items": [
+      {
+        "color": "red",
+        "bold": "BRENT $95 Tuesday — rebounded from $91.89 Friday. Nifty BELOW key moving averages. Bollinger Bands widening. Asian markets dipped as talks faltered.",
+        "text": "Economic Times (5 hours ago) confirmed: crude oil at $95 per barrel Tuesday amid conflicting Iran war signals. Zerodha Pulse (5 hours ago) confirmed: Nifty continues to trade below key moving averages, while Bollinger Bands are trending lower and widening — signals suggest downside momentum remains intact. Asian markets dipped from record highs as peace talks with Iran faltered. Oil prices remained elevated amid geopolitical tensions. US stock futures saw a slight decline. Gold and silver prices in India fell Tuesday following global market losses amid US-Iran military tensions and rising crude oil prices. Brent edged up Tuesday from $91.89 Friday close toward $95 — a $3/barrel rebound driven by: (1) Trump edited MOU — Iran rejecting new terms, (2) Peace talks faltering per Asian market reaction, (3) US Defense Secretary combat-ready warning. For India at Brent $95: OMC losses Rs 12-14/L petrol (worse than $91.89 near-breakeven level). Diesel under-recovery Rs 28-30/L. Nifty technical: below moving averages, Bollinger Bands widening = bearish technical setup. Support 23,400-23,600."
+      },
       {
         "color": "red",
         "bold": "TRUMP EDITED US-IRAN AGREEMENT — new demands on uranium + Hormuz \"did not go down well in Tehran.\" MOU: \"still, at best, a work in progress.\" Iran vehemently denied deal.",
@@ -42,11 +47,6 @@
         "color": "amber",
         "bold": "MOU STATUS: \"work in progress.\" Both sides still at table. Trump negotiating leverage = Brent $91 (politically comfortable) + military combat-ready warning.",
         "text": "The MOU status as of 7:30 AM June 2: Negotiators agreed 60-day MOU (Axios confirmed, multiple sources). Trump edited the terms — new demands on uranium, Hormuz, asset unfreezing. Iran vehemently denied the Thursday deal. Iran has not formally walked out of negotiations. Both sides are still at the table. Trump's leverage position as of Day 93: (1) Brent $91 = US gas prices politically comfortable (14-cent drop confirmed). Trump can afford to wait. (2) US Defense Secretary: military combat-ready warning = military option credibly preserved. (3) \"Time is on Washington's side\" (Trump, Day 87) confirmed: Iran's economy under sanctions + Hormuz closure hurts Iran more than US. Iran's leverage position: (1) Hormuz remains closed — Brent stays elevated. (2) Vehement denial = Iran negotiating for better terms, not walking out. (3) Hezbollah active = Iran maintains proxy leverage."
-      },
-      {
-        "color": "cyan",
-        "bold": "India Tuesday 7:30 AM: Trump new demands + Iran denial = cautious open. Brent $91.89. MOU work in progress. Nifty 23,600-23,900 expected.",
-        "text": "India at 7:30 AM June 2: (1) GIFT Nifty direction pending at 7:30 AM. Trump new demands \"not received well\" by Iran = cautious signal. Brent $91.89 Friday (stable) = no major Brent shock overnight. Expected Tuesday open: Nifty 23,600-23,900 (cautious). Support: 23,400-23,600. Resistance: 24,000. (2) MOU \"work in progress\" = deal not dead, but signing timeline extended from \"days\" to \"weeks.\" India markets will remain volatile on deal progress. (3) Brent $91.89: OMC losses Rs 8-10/L petrol near-breakeven. Diesel Rs 25-28/L. Second hike implemented. Third hike unlikely at $91 unless Brent rebounds to $100+. (4) Actions still urgent: Haji Ali MEA protest: file today — 18 days overdue. PGSA applications: submit — Hormuz coordination still required. Bessent sanctions waivers: engage Treasury. Kharif fertiliser: order for delivery post-de-mining window. (5) Hezbollah-Israel intensifying: India has nationals in Lebanon — MEA contingency required. (6) US Defense Secretary combat-ready warning: military option credibly preserved. If Iran rejects edited terms: resumed strikes possible. Brent would spike $8-12 on strike resumption."
       }
     ]
   },
@@ -54,17 +54,17 @@
   "deathsSub": "~3,375+ Iran, 2,509+ Lebanon (Hezbollah-Israel clashes INTENSIFYING — Israel advancing into southern Lebanon despite April ceasefire), 99 Iraq, 23+ Israel, 13 US (+2 noncombat), 35+ Gulf. TRUMP: edited MOU — new demands on uranium + Hormuz \"did not go down well\" in Tehran. US Defense Secretary: military ready to resume combat in Gulf. Brent $91.89 Friday. MOU \"work in progress.\"",
   "econ": {
     "sensex": "~75,500",
-    "sensexDelta": "MON JUNE 1 CLOSE: pending confirmation. TUE JUNE 2 7:30 AM: GIFT Nifty direction pending. Trump new demands + Iran denial = cautious. Expected: Nifty 23,600-23,900. Brent $91.89 (stable). No major overnight shock.",
-    "sensexSub": "Trump edited MOU — uranium + Hormuz demands hardened. Iran vehemently denied Thursday deal. US Defense Secretary: combat-ready warning. Hezbollah-Israel clashes intensifying. Brent $91.89 Friday. WTI $87.86. US stocks at records (S&P 7,594). MOU \"work in progress.\"",
-    "vix": "~17-20 (cautious — Trump editing demands + Iran denial + combat-ready warning vs Brent $91 stability)",
+    "sensexDelta": "TUE JUNE 2 11AM IST: Nifty BELOW KEY MOVING AVERAGES. Bollinger Bands trending lower and widening — downside momentum intact (Zerodha Pulse 5hr ago). Brent $95 — rebounded $3 from $91.89 Friday. Asian markets dipped as talks faltered.",
+    "sensexSub": "Brent $95 Tuesday. Nifty bearish technical (below MAs, BBands widening). Trump edited MOU — Iran rejected new terms. Asian markets dipped from records. US stock futures slight decline. Gold, silver fell in India. Peace talks faltered signal.",
+    "vix": "~20-23 (rising — Brent $95 + Nifty below MAs + Bollinger widening + talks faltered)",
     "vixDelta": "Trump edited MOU = deal delay. Iran denial = gap reopened. But Brent $91 stable = markets not panicking. US military combat-ready = controlled escalation signal. VIX cautious but not spiking.",
     "fpi": "FII cautious Tuesday. Trump demand editing = deal delay. Brent $91 stable = no major OMC selloff. US stocks at records = global risk-on still alive. India cautious given MOU \"work in progress.\"",
     "fpiDelta": "Trump new demands on uranium + Hormuz = deal timeline extended. Hezbollah-Israel second front adds complexity. US Defense Secretary combat-ready = controlled pressure. Brent $91.89 = OMC near-breakeven — no urgent new hike. FII: deal still base case, just delayed.",
     "wealth": "BSE market cap ~Rs 468-472 trillion. Tuesday cautious open. Trump demand editing = deal delayed from \"days\" to \"weeks.\" Brent $91 stable = limited wealth erosion from energy. US S&P at record 7,594 = positive global backdrop.",
-    "analysis": "DAY 93 TUE 7:30AM IST. TRUMP RECENTLY EDITED US-IRAN AGREEMENT — new demands on enriched uranium + Hormuz + Iranian asset unfreezing \"did not go down well in Tehran\" (CBS News 17hr ago). MOU \"still, at best, a work in progress.\" IRAN: vehemently denied Thursday ceasefire extension deal. US DEFENSE SECRETARY: military ready to RESUME COMBAT if needed (CNN). BRENT FRIDAY: $91.89. WTI: $87.86. US STOCKS FRIDAY: Dow 50,902 (+0.5%). S&P 7,594 (+0.4%). Nasdaq 27,062 (+0.5%). HEZBOLLAH-ISRAEL: clashes intensifying despite April ceasefire. India Tuesday: cautious open. Nifty 23,600-23,900. Brent stable at $91-92. Deal delayed — not dead. MOU work in progress. Trump negotiating from leverage position."
+    "analysis": "DAY 93 TUE 11AM IST. BRENT $95 (Economic Times 5hr ago) — rebounded from $91.89 Friday. \"Conflicting Iran war signals.\" NIFTY BELOW KEY MOVING AVERAGES — Bollinger Bands widening, downside momentum intact (Zerodha Pulse 5hr ago). ASIAN MARKETS DIPPED from record highs as peace talks FALTERED. TRUMP EDITED MOU — new demands on uranium + Hormuz \"not received well\" in Tehran. MOU \"work in progress.\" Iran denied Thursday deal. US Defense Secretary: combat-ready warning. Gold, silver fell India. US stock futures slight decline. India 11AM: cautious/negative. Nifty 23,400-23,600 support watch."
   },
   "hormuzStatus": {
-    "status": "MOU \"WORK IN PROGRESS\" — TRUMP EDITED DEMANDS. IRAN DENIED DEAL. US COMBAT-READY WARNING. BRENT $91.89. DEAL DELAYED NOT DEAD.",
+    "status": "BRENT $95 TUESDAY — TALKS FALTERED. NIFTY BELOW MAs. TRUMP EDITED MOU. IRAN DENIED DEAL. ASIAN MARKETS DIPPED.",
     "preWarFlow": "130-160 ships/day",
     "currentFlow": "MOU \"work in progress\" — Trump edited uranium + Hormuz terms. Iran vehemently denied Thursday deal. US Defense Secretary: combat-ready in Gulf. UBS: crude loadings \"extremely low\" (Day 91 confirmed). Brent $91.89 Friday — deal still priced. Hormuz: still effectively closed per UBS. Hezbollah-Israel second front complicating settlement.",
     "reduction": "Still 95%+ disruption per UBS (Day 91). Trump editing MOU = signing delayed weeks. Iran denial = gap reopened on edited terms. Both sides still at table. Brent $91 = deal still the market base case. US military combat-ready = force option preserved.",
@@ -74,7 +74,7 @@
     "totalShipsWaiting": "23,000 seafarers stranded. India 280 seafarers. MOU delayed — Hormuz still closed. PGSA applications: submit today. Haji Ali protest: 18 days overdue — file today. Kharif: order today for delivery within de-mining window. Bessent waivers: engage Treasury.",
     "lastTransit": "UBS: crude loadings \"extremely low.\" Trump edited MOU terms on uranium + Hormuz. Iran denied Thursday deal. US Defense Secretary combat-ready warning. Brent $91.89 Friday. Hezbollah-Israel intensifying.",
     "indianNavyEscort": "Op Urja Suraksha. PGSA applications: submit today. MOU delayed — Hormuz still closed. Haji Ali protest: file today (18 days overdue). Kharif: order now. Bessent waivers: engage Treasury.",
-    "headline": "TRUMP EDITED MOU — new demands on uranium + Hormuz \"did not go down well in Tehran.\" MOU \"work in progress.\" Iran vehemently denied Thursday deal. US Defense Secretary: military ready to resume combat in Gulf. Brent $91.89 Friday. Hezbollah-Israel clashes intensifying. Deal delayed — not dead. India: cautious Tuesday open."
+    "headline": "Brent $95 Tuesday — rebounded from $91.89 Friday. Asian markets dipped as Iran talks faltered. Trump edited MOU — uranium + Hormuz demands \"not well received.\" Nifty below key moving averages, Bollinger Bands widening. MOU \"work in progress.\" US Defense Secretary combat-ready."
   },
   "hormuzEvents": [
     {
@@ -852,10 +852,10 @@
       "d": 93,
       "l": "June 2",
       "deaths": 6700,
-      "brent": 92,
-      "nifty": 23750,
+      "brent": 95,
+      "nifty": 23550,
       "rupee": 94.5,
-      "tag": "TUE JUNE 2: Trump recently edited US-Iran MOU — new demands on uranium + Hormuz \"did not go down well in Tehran.\" MOU \"work in progress.\" Iran vehemently denied Thursday ceasefire extension deal. US Defense Secretary: military ready to resume combat in Gulf if needed. Brent $91.89 Friday close. WTI $87.86. US stocks at records (S&P 7,594). Hezbollah-Israel clashes intensifying. West Asia War Day 93.",
+      "tag": "TUE JUNE 2 11AM: BRENT $95 — rebounded from $91.89 Friday. Asian markets dipped as Iran talks FALTERED. Nifty below key MAs — Bollinger Bands widening, downside momentum intact. Trump edited MOU — uranium + Hormuz demands \"did not go down well\" in Tehran. MOU \"work in progress.\" Iran denied Thursday deal. US Defense Secretary: combat-ready. Gold, silver fell India. West Asia War Day 93.",
       "sev": 2
     }
   ],
@@ -878,7 +878,7 @@
     }
   ],
   "projNow": {
-    "brent": 92,
+    "brent": 95,
     "rupee": 94.5,
     "lpg": 912,
     "petrol": 103.54,
@@ -986,8 +986,8 @@
     }
   ],
   "assessment": {
-    "headline": "DAY 93, 7:30AM TUE: TRUMP EDITED MOU — URANIUM + HORMUZ DEMANDS \"DID NOT GO DOWN WELL IN TEHRAN.\" MOU \"WORK IN PROGRESS.\" IRAN VEHEMENTLY DENIED DEAL. US DEFENSE SECRETARY: COMBAT-READY IN GULF. BRENT $91.89. HEZBOLLAH-ISRAEL INTENSIFYING. DEAL DELAYED — NOT DEAD. INDIA: CAUTIOUS TUESDAY OPEN.",
-    "body": "Tuesday 7:30 AM IST. Day 93. The deal is being re-written.\n\nTRUMP'S EDITED DEMANDS\nTrump recently edited the US-Iran agreement including on:\n→ Enriched uranium (likely: tighter verification/destruction terms)\n→ Strait of Hormuz (likely: closing \"Iran+Oman manage\" loophole)\n→ Iranian asset unfreezing (possibly: offered as carrot for harder nuclear terms)\nTehran's response: these demands \"did not go down well.\"\nIran's vehement denial of the Thursday deal.\nMOU status: \"still, at best, a work in progress.\"\n\nTHE MILITARY PRESSURE\nUS Defense Secretary: military ready to resume combat in Gulf if needed.\nThis is the \"or else\" to Trump's edited demands.\nAccept the harder terms — or face resumed strikes.\nThe Hezbollah-Israel second front complicates Iran's calculus:\nIran cannot be seen signing peace with the US while its proxy fights Israel simultaneously.\nA comprehensive settlement requires both tracks to close together.\n\nTHE BRENT-STOCK PICTURE\nBrent $91.89 Friday — stable. Markets pricing delay, not cancellation.\nWTI $87.86. US stocks at records (Dow 50,902, S&P 7,594, Nasdaq 27,062).\nWall Street reading: deal still happens, just not today.\nFor India: Brent $91 = near-breakeven OMC on petrol. No third hike yet.\n\nLEVERAGE BALANCE\nTrump: Brent $91 (gas prices comfortable) + combat-ready military + time.\nIran: Hormuz still closed + Hezbollah active + uranium under rubble (requires Iranian cooperation Trump needs).\nEquilibrium: both sides have cards.\nNeither can afford the other scenario.\n\nINDIA'S TUESDAY\nCautious open: Nifty 23,600-23,900.\nHaji Ali: 18 days since sinking — MEA protest overdue.\nPGSA + kharif + Bessent waivers: still urgent.\nHezbollah-Israel: India nationals in Lebanon — MEA contingency needed.\n\nVERDICT: Day 93 opens with Trump having done what no one expected — not signing the \"largely negotiated\" deal, but re-writing it. The Camp David Cabinet meeting produced harder demands. Tehran rejected them. The Defense Secretary issued a combat-ready warning. And Brent settled at $91.89 — because Wall Street believes a deal still comes. It does. The question is whether it comes this week on Trump's edited terms, or next month after Iran accepts them as the only alternative to resumed strikes. India is watching Brent, not the rhetoric. At $91, the energy emergency has eased. The deal — when it comes — will ease it further. The edited MOU is the last negotiation. Not the last straw."
+    "headline": "DAY 93, 11AM TUE: BRENT $95 — REBOUNDED FROM $91.89 FRIDAY. ASIAN MARKETS DIPPED AS TALKS FALTERED. NIFTY BELOW KEY MAs — BOLLINGER BANDS WIDENING, DOWNSIDE MOMENTUM INTACT. TRUMP EDITED MOU \"NOT RECEIVED WELL.\" MOU \"WORK IN PROGRESS.\" US DEFENSE SECRETARY COMBAT-READY. INDIA CAUTIOUS.",
+    "body": "Tuesday 11:00 AM IST. Day 93. Three signals all pointing the same way.\n\nBRENT $95 AT 11AM\nRebounded from $91.89 Friday close — a $3/barrel rise Tuesday morning.\nEconomic Times: \"conflicting Iran war signals.\"\nThe rebound reflects: Trump's edited demands (harder on nuclear/Hormuz), Iran rejecting new terms, peace talks faltering per Asian market reaction.\nAt $95: OMC losses Rs 12-14/L petrol (worse than near-breakeven at $91), diesel Rs 28-30/L.\n\nNIFTY TECHNICAL — BEARISH SETUP\nZerodha Pulse (5 hours ago): Nifty below key moving averages.\nBollinger Bands trending lower and widening.\nDownside momentum intact.\nSupport: 23,400-23,600. If broken: 23,000-23,200.\nThe technical picture confirms what the macro picture signals:\ndeal delay = Brent $93-97 range = OMC pressure = market uncertainty.\n\nASIAN MARKETS — TALKS FALTERED SIGNAL\nAsian markets dipped from record highs as peace talks with Iran faltered.\nThis is the key phrase — \"talks faltered\" is the market verdict on\nTrump's edited demands + Iran's vehement denial.\nUS stock futures: slight decline (vs records on Friday).\nGold and silver fell in India — but this is a counterintuitive signal:\ngold falling = inflation expectations slightly easing despite Brent $95.\n\nTHE MOU STATUS AT 11AM\nWork in progress. Trump editing. Iran denying. Both still at table.\nUS Defense Secretary: combat-ready in Gulf — the \"or else\" preserved.\nThe deal will come. The technical picture says India waits.\n\nVERDICT: Day 93 at 11 AM presents three aligned bearish signals:\nBrent $95 (up from $91.89), Nifty below moving averages (Bollinger widening),\nAsian markets dipping as talks falter.\nThe edited MOU is the source of all three signals.\nWhen Trump and Iran bridge the edited terms: all three reverse simultaneously.\nUntil then: India range-bound 23,400-23,800,\nBrent $92-97, MOU \"work in progress.\""
   },
   "featured": [
     {
