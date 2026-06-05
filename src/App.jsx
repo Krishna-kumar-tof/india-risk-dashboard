@@ -1,11 +1,12 @@
 import { useState, useEffect, useRef } from "react";
 
 // ═══════════════════════════════════════════════════════════════════
-// INDIA RISK DASHBOARD — V10.0 — CRISP INTELLIGENCE REDESIGN
-// Changes: expandable What Changed, Hormuz interactive timeline,
-// better Economy section, Kitchen Table moved up, crisp Military,
-// updated Nuclear cities, Wk 12 Radar, blinking Featured strip,
-// third Takshashila Hormuz publication added
+// INDIA RISK DASHBOARD — V11.0 — DAY 96 ESCALATION UPDATE
+// Changes: ESCALATION phase badge + red pulse, Day 96 TL entries,
+// Qeshm/Kuwait event added, phases timeline updated to include
+// ESCALATION phase, footer hardcoded text updated, fallback
+// ticker + whatChanged updated to Day 96, isEscalation logic,
+// assessment callout box updated, radar fallback updated
 // ═══════════════════════════════════════════════════════════════════
 
 const C = {
@@ -27,12 +28,12 @@ const SERIF= "'Source Serif 4','Georgia',serif";
 
 // ─── Fallbacks ────────────────────────────────────────────────────
 const TICKER_FB = [
-  "TRUMP: Deal LARGELY NEGOTIATED. RUBIO (New Delhi May 23): Whether today, tomorrow, in a couple days, we may have something to say. Most positive deal signal of 86-day war.",
-  "IRAN STATE MEDIA: 35 VESSELS transited Hormuz in past 24 hours in coordination with Iran naval forces. Highest single-day Hormuz transit claim. Brent $100 Friday.",
-  "PGSA published CONTROLLED MARITIME ZONE graphic (May 20) spanning Hormuz. RUBIO criteria: no nuclear weapon + Hormuz WITHOUT TOLLS + TURN OVER enriched uranium.",
-  "BRENT $100 Friday close. CNN: traders may test $94 floor Monday. Deal confirmed = Brent $88-92. India Monday 9:15 AM: Sensex +1,500-2,000 if deal. Nifty 24,500-25,000.",
-  "INDIA MONDAY: Deal confirmed = Sensex +1,500-2,000, Nifty 24,500-25,000, Rupee 93.00. IOC/BPCL/HPCL massive rally. Aviation surge. Largest India market gain possible.",
-  "IRAN-OMAN MECHANISM in development. PGSA controlled maritime zone graphic published. Trump: largely negotiated. Rubio: days away. Brent $100. Monday = binary moment.",
+  "💥 OVERNIGHT ESCALATION DAY 96: US STRUCK QESHM ISLAND near Hormuz — Iran retaliated with 13 ballistic missiles + 17 drones at KUWAIT + BAHRAIN. Kuwait Airport Terminal 1 hit. 1 INDIAN NATIONAL KILLED, 63 INJURED.",
+  "🛢️ BRENT $96.89 WEDNESDAY CLOSE — third straight session of gains. WTI ~$95. US crude inventories: sixth consecutive weekly drawdown of 6.8M barrels. Climbing toward $97-100.",
+  "📉 NIFTY 23,355 (-0.22%) AT 9:19AM THU. SENSEX 74,219 (-0.17%). IT, Realty, Private Bank lagging. Renewed US-Iran flare-up driving losses (Business Standard live June 4).",
+  "🇺🇸 HOUSE WAR POWERS 215-208 — first-ever passage. Bipartisan rebuke: 4 Republicans + all Democrats. Symbolic concurrent resolution, heads to Senate. Not required to reach Trump's desk.",
+  "🇮🇳 INDIA: 1 NATIONAL KILLED at Kuwait Airport. MEA: 'We condemn the attack... an Indian national has died and several of our nationals are injured.' Embassy in touch with family.",
+  "💬 TRUMP OPTIMISTIC DESPITE ESCALATION: deal could happen 'over the weekend.' Iran 'pretty close.' Talks 'going very well.' BUT Iran STOPPED communicating with mediators. US demands WRITTEN nuclear commitments.",
 ];
 
 const TL_BASE = [
@@ -69,17 +70,20 @@ const TL_BASE = [
   {d:83,l:"May 21",deaths:6700,brent:105,nifty:23800,rupee:95.80,tag:"Senate War Powers 50-47: Cassidy + Murkowski + Collins + one other. Most significant congressional challenge. Brent $105+ on inventory draw. Sensex volatile little changed.",sev:2},
   {d:84,l:"May 22",deaths:6700,brent:104,nifty:23719,rupee:95.50,tag:"Sensex +232 to 75,415. Nifty +65 to 23,719. Weekly +0.2%/+0.3%. IT led. Rubio: tentative progress. Iran uranium stays. Week 12 closed.",sev:1},
   {d:86,l:"May 24",deaths:6700,brent:100,nifty:23719,rupee:95.50,tag:"TRUMP: deal largely negotiated. RUBIO: days away. IRAN: 35 vessels/24hr. PGSA controlled maritime zone graphic. Brent $100. India Monday: largest gap-up of 86-day war possible.",sev:1},
+  {d:93,l:"Jun 2", deaths:6700,brent:95, nifty:23400,rupee:95.60,tag:"TRUMP EDITED MOU — new demands on uranium + Hormuz 'did not go down well in Tehran.' Iran vehemently denied Thursday deal. US Defense Secretary: combat-ready. Brent $95 rebounded.",sev:2},
+  {d:95,l:"Jun 3", deaths:6800,brent:97, nifty:23450,rupee:95.80,tag:"ESCALATION: US struck QESHM ISLAND near Hormuz. Iran retaliated — 13 missiles + 17 drones at KUWAIT + BAHRAIN. Kuwait Airport hit: 1 INDIAN KILLED, 63 injured. Kuwait expelled 2 Iranian diplomats. Iran halted mediator contact. House war powers 215-208. Brent $96.89.",sev:3},
+  {d:96,l:"Jun 4", deaths:6800,brent:97, nifty:23355,rupee:95.90,tag:"DAY 96 THU 9:30AM IST. Nifty 23,355 (-0.22%). Sensex 74,219 (-0.17%). IT/Realty/Banks lagging. Trump: deal 'over the weekend' but Iran halted mediators. US demands written nuclear commitments. Ceasefire 'increasingly tenuous.' Third fuel hike risk rising at Brent $97.",sev:2},
 ];
 
 const RADAR_FB = [
-  {axis:"Oil Shock",      w1:60,now:72,w4:50},
-  {axis:"Market Crash",  w1:45,now:48,w4:35},
+  {axis:"Oil Shock",      w1:60,now:80,w4:50},
+  {axis:"Market Crash",  w1:45,now:58,w4:35},
   {axis:"Nuclear Risk",  w1:20,now:92,w4:85},
-  {axis:"Hormuz Closure",w1:80,now:92,w4:55},
-  {axis:"Household",     w1:15,now:82,w4:55},
-  {axis:"Currency",      w1:40,now:58,w4:42},
-  {axis:"Social Unrest", w1:25,now:65,w4:52},
-  {axis:"Mil. Exposure", w1:35,now:90,w4:58},
+  {axis:"Hormuz Closure",w1:80,now:94,w4:55},
+  {axis:"Household",     w1:15,now:85,w4:55},
+  {axis:"Currency",      w1:40,now:62,w4:42},
+  {axis:"Social Unrest", w1:25,now:68,w4:52},
+  {axis:"Mil. Exposure", w1:35,now:94,w4:58},
 ];
 
 const NUKES_FB = [
@@ -331,8 +335,8 @@ const HormuzTimeline = ({events}) => {
     {label:"PEAK SHOCK",  color:C.orange, days:"Mar 11–Apr 7"},
     {label:"CEASEFIRE",   color:C.green,  days:"Apr 7–18"},
     {label:"DUAL BLOCKADE",color:C.red,  days:"Apr 18–22"},
-    {label:"STALEMATE",   color:C.amber,  days:"Apr 22–26"},
-    {label:"TOLL SYSTEM", color:C.cyan,   days:"Apr 27–now"},
+    {label:"STALEMATE",   color:C.amber,  days:"Apr 22–May"},
+    {label:"ESCALATION",  color:C.red,    days:"Jun 3–now"},
   ];
   return (
     <div>
@@ -398,19 +402,19 @@ export default function App() {
   };
 
   const iT        = intel?.ticker        ?? TICKER_FB;
-  const iDay      = intel?._day          ?? 86;
-  const iUpdated  = intel?._updated      ?? "May 24, 2026 — 10:40 PM IST";
+  const iDay      = intel?._day          ?? 96;
+  const iUpdated  = intel?._updated      ?? "June 4, 2026 — 9:30 AM IST";
   const iDeaths   = intel?.deaths        ?? "6,700+";
   const iDeathsSub= intel?.deathsSub     ?? "";
   const iWC       = intel?.whatChanged   ?? {
-    label: 'WHAT CHANGED — MAY 24, 10:40 PM IST (DAY 86)',
+    label: 'WHAT CHANGED — JUNE 4, 9:30 AM IST (DAY 96)',
     items: [
-      {color:'red',   bold:'TRUMP: Deal LARGELY NEGOTIATED — RUBIO (New Delhi): Whether today, tomorrow, in a couple days, we may have something to say.', text:'CNBC and Bloomberg confirmed: Iran sent an updated peace proposal to mediators in Pakistan on Friday. Pakistani officials confirmed mediators received the proposal and it was delivered to the US. Brent crude fell nearly 2% to settle at $108.17, and WTI closed at $101.94 on the news. Trump: "Iran wants to make a deal, but I\'m not satisfied with it. Iran wants to make a deal because they have no military left."'},
-      {color:'red',   bold:'IRAN STATE MEDIA: 35 VESSELS transited Hormuz in past 24 hours in coordination with Iran naval forces. Highest single-day claim of the war.', text:'Axios confirmed: CENTCOM has prepared a plan for a "brief wave" of strikes on Iran to break the stalled negotiations. Trump was briefed by Admiral Brad Cooper (CENTCOM) AND Dan Caine, the chairman of the Joint Chiefs of Staff. Having the Joint Chiefs Chair in the briefing signals serious military planning at the highest level.'},
-      {color:'amber', bold:'PGSA published CONTROLLED MARITIME ZONE graphic (May 20) spanning Hormuz. First visual map of Iran Hormuz control architecture.', text:'Bloomberg confirmed: US is pitching allies on a joint naval force to secure the Strait of Hormuz — an active enforcement force against Iran\'s blockade. Separately: Iran activated air defenses around Tehran Thursday night to counter reconnaissance drones.'},
-      {color:'red',   bold:'RUBIO CRITERIA: No nuclear weapon + Hormuz WITHOUT TOLLS + TURN OVER enriched uranium. This problem will be solved one way or the other.', text:'Senate returns Monday May 11. Murkowski to introduce AUMF if WH has no credible plan. Iran formally responded to US proposal Sunday via Pakistan — WH can claim progress. If AUMF introduced: Senate votes to authorize or end war. Charles de Gaulle + 40-nation initiative also adding pressure on Iran.'},
-      {color:'red',   bold:'BRENT settled $100 Friday. CNN: traders may test $94 floor Monday. Deal confirmed = $88-92. India Monday: largest gap-up of 86-day war.', text:'NASA FIRMS satellite data confirmed by @prof_nithiya: fire signatures in Hormuz Traffic Separation Zone, ships near Omani waters hit, area completely deserted — zero traffic. Iran blocking Omani bypass to force ships onto IRGC toll lane. Iran has formally responded to US proposal via Pakistan mediators Sunday morning — content TBC. White House Hassett: \'gusher of oil\' when Hormuz opens.'},
-      {color:'red',   bold:'INDIA MONDAY 9:15 AM: Deal confirmed = Sensex +1,500-2,000, Nifty 24,500-25,000, Rupee 93.00. Largely negotiated holds = Sensex +400-700.', text:'PM Modi at Hyderabad Sunday: use imported petro products only as per need. Urged: avoid gold purchase for one year, revive WFH, use Metro/public transport, farmers reduce fertiliser 50%. OMC losses Rs 30,000 Cr/month. Petrol/diesel hike Rs 4-5/L expected before May 15 — petrol approaching Rs 100/L. LPG at 70% of pre-crisis commercial levels. Modi has moved India from crisis management to crisis adaptation.'},
+      {color:'red',   bold:'US STRUCK QESHM ISLAND — Iran retaliated at Kuwait Airport. 1 INDIAN NATIONAL KILLED, 63 injured. Kuwait expelled 2 Iranian diplomats. Iran halted mediator contact.', text:'Washington Post, Al Jazeera, CBC, Euronews (June 3-4): The most intense exchange of fire since the April ceasefire. CENTCOM struck an Iranian military ground control station on Qeshm Island near Hormuz after Iran attacked a blockade-breaching tanker. Iran retaliated with 13 ballistic missiles and 17 drones at Kuwait and Bahrain. Kuwait Airport Terminal 1 was hit — 1 Indian national killed (confirmed MEA), 63 injured. Iran stopped communicating with ceasefire mediators. Kuwait expelled 2 Iranian diplomats.'},
+      {color:'red',   bold:'NIFTY 23,355 (-0.22%) AT 9:19AM THU. SENSEX 74,219 (-0.17%). IT, Realty, Private Bank lagging. Renewed US-Iran flare-up driving losses.', text:'Business Standard (live June 4, 9:30 AM IST): Nifty50 fell 52.65 points or 0.22% to 23,355.10 at 9:19AM. Sensex down 126.59 points or 0.17% to 74,219.58. Nifty MidCap and SmallCap also lower. IT, Realty, Private Bank lagging. Markets absorbing two signals: escalation (Qeshm/Kuwait) vs Trump optimism (deal over the weekend). Support: 23,200-23,300.'},
+      {color:'red',   bold:'BRENT $96.89 WEDNESDAY CLOSE — Third straight session of gains. US crude inventories: sixth consecutive weekly drawdown 6.8M barrels. Climbing toward $97-100.', text:'Trading Economics (June 3-4): Brent rose to $96.89 on June 3, up 0.93% — third consecutive session of gains. US crude inventories declined 6.8M barrels last week, the sixth consecutive weekly drawdown. WTI ~$95. For India at Brent $97: OMC losses Rs 12-15/L petrol (post-second hike), diesel Rs 28-32/L. Third hike timeline accelerated.'},
+      {color:'amber', bold:'HOUSE WAR POWERS RESOLUTION 215-208 — Historic first passage. 4 Republicans + all Democrats. Symbolic rebuke, heads to Senate.', text:'NPR, Washington Post (June 3): US House passed war powers resolution 215-208 — first ever since conflict began. Four Republicans (Massie, Fitzpatrick, Barrett, Davidson) joined all Democrats. Concurrent resolution — symbolic, does not require Trump signature. Signals bipartisan Congressional fatigue with 96-day conflict and growing pressure to end it.'},
+      {color:'amber', bold:'TRUMP: Deal "over the weekend." Iran "pretty close." BUT Iran halted mediators + US demands WRITTEN nuclear commitments vs Iran verbal assurances only.', text:'ABC News, Trading Economics (June 3): Trump expressed optimism. "If it happens, it could happen, like, over the weekend." But Iran stopped communicating with mediators following Qeshm strikes. US is now seeking written commitments from Iran on nuclear concessions — Iran had only provided verbal assurances. Khamenei adviser warned of "deluge of missiles." Gap between Trump optimism and Iran posture is the defining tension of Day 96.'},
+      {color:'red',   bold:'CEASEFIRE "INCREASINGLY TENUOUS" (CBC/WaPo). Iran halted mediators. Kuwait expelled Iranian diplomats. Hezbollah-Israel: Israeli strikes on Lebanon, 2 Israeli tanks destroyed.', text:'CBC News, Washington Post, Euronews (June 3-4): Multiple signals indicate ceasefire is at its most fragile point since April 7. Iran stopped communicating with mediators. Kuwait expelled 2 Iranian diplomats — diplomatic downgrade of a Gulf state. US struck Qeshm Island — Iran\'s Hormuz monitoring capability targeted. Hezbollah-Israel: Israeli strikes on southern Lebanon overnight, Hezbollah claims 2 Israeli tanks destroyed. Multi-front nature of conflict complicates any single ceasefire framework.'},
     ]
   };
   const iEcon     = intel?.econ          ?? null;
@@ -442,15 +446,16 @@ export default function App() {
   const brentColor = brentRaw > 110 ? C.red : brentRaw > 95 ? C.orange : C.amber;
   const niftyColor = niftyChg >= 0 ? C.green : C.red;
   const isBlockade = iPhase === "BLOCKADE";
+  const isEscalation = iPhase === "ESCALATION";
 
-  const scenHeaders = iScenarios?.headers ?? ["Pre-war","Now (D86)","Deal confirmed this week","Largely negotiated stalls","Deal collapses"];
+  const scenHeaders = iScenarios?.headers ?? ["Pre-war","Now (D96)","Deal this weekend","Escalation stalls","Ceasefire collapses"];
   const scenRows = [
-    {m:"Brent ($)",  vals: iScenarios?.brent  ?? [65,101,82,108,115]},
-    {m:"₹/USD",      vals: iScenarios?.rupee  ?? [91,94.00,91.5,96.0,97.0]},
-    {m:"Deaths",     vals: iScenarios?.deaths ?? [0,"6,700+","7,500","10,000+","28,000+"]},
-    {m:"Sensex",     vals: iScenarios?.sensex ?? ["78,699","76,913","85,000+","70,000","52,000"]},
-    {m:"LPG",        vals: iScenarios?.lpg    ?? ["₹853","₹912+","₹853","₹1,100+","₹2,000+"]},
-    {m:"FII",        vals: iScenarios?.fii    ?? ["-","Outflows","$25B return","Structural out","$65B out"]},
+    {m:"Brent ($)",  vals: iScenarios?.brent  ?? [65,97,82,102,118]},
+    {m:"₹/USD",      vals: iScenarios?.rupee  ?? [91,95.90,91.5,97.5,100.0]},
+    {m:"Deaths",     vals: iScenarios?.deaths ?? [0,"6,800+","7,500","11,000+","30,000+"]},
+    {m:"Sensex",     vals: iScenarios?.sensex ?? ["78,699","74,219","84,000+","68,000","50,000"]},
+    {m:"LPG",        vals: iScenarios?.lpg    ?? ["₹853","₹912+","₹853","₹1,200+","₹2,200+"]},
+    {m:"FII",        vals: iScenarios?.fii    ?? ["-","Outflows","$25B return","Structural out","$70B out"]},
   ];
 
   const filteredTL = logSearch.trim()
@@ -543,12 +548,12 @@ export default function App() {
             <div style={{background:C.amber,color:C.bg,fontSize:17,fontWeight:800,
               padding:'10px 20px',borderRadius:8,fontFamily:SYNE,letterSpacing:-0.3,
               boxShadow:`0 4px 20px ${C.amber}40`}}>DAY {iDay}</div>
-            <div style={{fontSize:9,color:isBlockade?C.red:C.green,
-              padding:'5px 10px',border:`1px solid ${isBlockade?C.red:C.green}40`,
-              borderRadius:6,background:(isBlockade?C.red:C.green)+'0c',
+            <div style={{fontSize:9,color:isEscalation?C.red:isBlockade?C.orange:C.green,
+              padding:'5px 10px',border:`1px solid ${isEscalation?C.red:isBlockade?C.orange:C.green}40`,
+              borderRadius:6,background:(isEscalation?C.red:isBlockade?C.orange:C.green)+'0c',
               fontWeight:700,fontFamily:MONO,
-              animation:isBlockade?'pulse 2.5s infinite':undefined}}>
-              {isBlockade?"⚠ BLOCKADE ACTIVE":"● CEASEFIRE"}
+              animation:(isEscalation||isBlockade)?'pulse 1.8s infinite':undefined}}>
+              {isEscalation?"🔴 ESCALATION — QESHM/KUWAIT":isBlockade?"⚠ BLOCKADE ACTIVE":"● CEASEFIRE"}
             </div>
           </div>
         </div>
@@ -1140,12 +1145,11 @@ export default function App() {
             <div style={{background:`${C.amber}0c`,border:`1px solid ${C.amber}25`,
               borderRadius:8,padding:'12px 14px',marginTop:14,
               fontSize:12.5,color:C.sub,lineHeight:1.8,fontFamily:SERIF}}>
-              <strong style={{color:C.amber}}>For India, this is an energy emergency.</strong>{' '}
-              PM Modi: use petrol/gas/diesel with great restraint. OMC hike Rs 4-5/L before May 15. LPG at 70% of pre-crisis. Iran responded Sunday. Murkowski AUMF May 11. Charles de Gaulle → Red Sea.
-              TRUMP: largely negotiated. RUBIO: days away. IRAN: 35 vessels/24hr. BRENT $100. Monday = largest India gap-up of 86-day war.
+              <strong style={{color:C.red}}>For India, this is now a direct casualty situation.</strong>{' '}
+              1 Indian national killed at Kuwait Airport (June 3). MEA condemned the attack. US struck Qeshm Island. Iran halted mediator contact. Brent $96.89 — third straight gain. Nifty 23,355 (-0.22%).
+              House war powers 215-208 — first-ever passage. Trump: deal 'over the weekend.' Ceasefire 'increasingly tenuous.'
               <br/><br/>
-              <strong style={{color:C.cyan}}>India must act now:</strong> Emergency fertiliser sourcing (North Africa/Russia).
-              RBI rupee defence. Nuclear monitoring. Non-Gulf LPG acceleration. This is India's crisis — not a distant war.
+              <strong style={{color:C.cyan}}>India must act now:</strong> MEA emergency protocol for Indian nationals across Kuwait + Bahrain. PGSA applications: file immediately. Third fuel hike timeline accelerated at Brent $97. Kharif fertiliser: order today. Bessent waivers: engage Treasury.
             </div>
           </div>
         </S>
