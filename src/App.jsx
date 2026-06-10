@@ -1,12 +1,11 @@
 import { useState, useEffect, useRef } from "react";
 
 // ═══════════════════════════════════════════════════════════════════
-// INDIA RISK DASHBOARD — V14.0 — DAY 101 MAHSHAHR + PAUSE UPDATE
-// Changes: Israel struck Mahshahr petrochemical complex (first energy
-// strike since Apr 8 ceasefire), Iran-Israel PAUSE signals,
-// Trump: both sides want immediate ceasefire, Pakistan Naqvi
-// special letter to Khamenei, Nifty 23123 Mon close, Brent $94.25,
-// GIFT Nifty -20 Tue, Day 101 TL, radar + scenarios updated
+// INDIA RISK DASHBOARD — V15.0 — ARCHITECTURE: JSON-driven, no daily hardcoding
+// Changes: Removed all hardcoded news fallbacks (ticker, whatChanged,
+// scenario rows, radar, timeline). App now reads 100% from
+// war-intel.json. TL_BASE replaced by intel.timeline from JSON.
+// Daily updates: war-intel.json only. App.jsx: weekly UI changes.
 // ═══════════════════════════════════════════════════════════════════
 
 const C = {
@@ -27,68 +26,11 @@ const MONO = "'IBM Plex Mono','JetBrains Mono',monospace";
 const SERIF= "'Source Serif 4','Georgia',serif";
 
 // ─── Fallbacks ────────────────────────────────────────────────────
-const TICKER_FB = [
-  "💥 OVERNIGHT ESCALATION DAY 96: US STRUCK QESHM ISLAND near Hormuz — Iran retaliated with 13 ballistic missiles + 17 drones at KUWAIT + BAHRAIN. Kuwait Airport Terminal 1 hit. 1 INDIAN NATIONAL KILLED, 63 INJURED.",
-  "🛢️ BRENT $96.89 WEDNESDAY CLOSE — third straight session of gains. WTI ~$95. US crude inventories: sixth consecutive weekly drawdown of 6.8M barrels. Climbing toward $97-100.",
-  "📉 NIFTY 23,355 (-0.22%) AT 9:19AM THU. SENSEX 74,219 (-0.17%). IT, Realty, Private Bank lagging. Renewed US-Iran flare-up driving losses (Business Standard live June 4).",
-  "🇺🇸 HOUSE WAR POWERS 215-208 — first-ever passage. Bipartisan rebuke: 4 Republicans + all Democrats. Symbolic concurrent resolution, heads to Senate. Not required to reach Trump's desk.",
-  "🇮🇳 INDIA: 1 NATIONAL KILLED at Kuwait Airport. MEA: 'We condemn the attack... an Indian national has died and several of our nationals are injured.' Embassy in touch with family.",
-  "💬 TRUMP OPTIMISTIC DESPITE ESCALATION: deal could happen 'over the weekend.' Iran 'pretty close.' Talks 'going very well.' BUT Iran STOPPED communicating with mediators. US demands WRITTEN nuclear commitments.",
-];
+const TICKER_FB = [];
 
-const TL_BASE = [
-  {d:1, l:"Feb 28",deaths:555, brent:78, nifty:25179,rupee:91.49,tag:"Op. Epic Fury. Khamenei killed. War begins.",sev:3},
-  {d:3, l:"Mar 2", deaths:787, brent:82, nifty:24866,rupee:91.49,tag:"Black Monday. Ras Tanura shut. Sensex -2%",sev:3},
-  {d:5, l:"Mar 4", deaths:1045,brent:85, nifty:24481,rupee:92.30,tag:"IRIS Dena sunk. Iranian mines confirmed",sev:2},
-  {d:10,l:"Mar 9", deaths:1754,brent:104,nifty:24028,rupee:92.33,tag:"Brent $120 intraday. ₹8.5L Cr wiped",sev:3},
-  {d:11,l:"Mar 10",deaths:1754,brent:84, nifty:24200,rupee:92.10,tag:"Trump: 'very complete.' Oil crashes 20%",sev:1},
-  {d:12,l:"Mar 11",deaths:1966,brent:93, nifty:23867,rupee:92.20,tag:"IEA 400M barrel SPR release",sev:2},
-  {d:20,l:"Mar 19",deaths:2700,brent:117,nifty:23002,rupee:93.23,tag:"CRASH -2,497. Bushehr struck. Brent $117",sev:3},
-  {d:24,l:"Mar 23",deaths:3700,brent:109,nifty:22513,rupee:93.88,tag:"Sensex -1,837. Nifty 22-mo low.",sev:3},
-  {d:33,l:"Apr 1", deaths:4900,brent:101,nifty:22700,rupee:94.56,tag:"Iran parliament votes permanent Hormuz tolls",sev:2},
-  {d:39,l:"Apr 7", deaths:5400,brent:95, nifty:23100,rupee:93.65,tag:"CEASEFIRE. Sensex +2,946 (+3.95%). Brent -11%",sev:1},
-  {d:40,l:"Apr 8", deaths:5400,brent:96, nifty:23900,rupee:92.40,tag:"Hormuz partial reopen. Best day since Feb 2021",sev:1},
-  {d:50,l:"Apr 18",deaths:5800,brent:97, nifty:24400,rupee:93.80,tag:"Hormuz RECLOSED. Indian VLCC fired on.",sev:3},
-  {d:51,l:"Apr 19",deaths:5900,brent:97, nifty:24300,rupee:93.90,tag:"USS Spruance seizes Touska — first ship boarding",sev:3},
-  {d:53,l:"Apr 21",deaths:6000,brent:95, nifty:24577,rupee:94.00,tag:"Ceasefire extended indefinitely. M/T Tifani seized.",sev:2},
-  {d:62,l:"Apr 30",deaths:6700,brent:126,nifty:23998,rupee:95.00,tag:"BRENT $126 4-yr high. CENTCOM briefed Trump military options. Rupee breached Rs 95. Sensex -583.",sev:3},
-  {d:66,l:"May 4", deaths:6700,brent:109,nifty:24200,rupee:94.88,tag:"PROJECT FREEDOM: 2 US vessels transited Hormuz. US sank 6-7 Iranian boats. Ceasefire held. Sensex +903.",sev:1},
-  {d:67,l:"May 5", deaths:6700,brent:110,nifty:24119,rupee:95.00,tag:"Hegseth: ceasefire not over. Fujairah fire — 3 Indians wounded. Modi condemned. Araghchi: talks making progress.",sev:2},
-  {d:68,l:"May 6", deaths:6700,brent:101,nifty:24330,rupee:94.00,tag:"TRUMP PAUSED PROJECT FREEDOM. US-IRAN ONE-PAGE MOU CLOSE. Brent -8.44% to $100.60. Sensex +941. Nifty 24,300+.",sev:1},
-  {d:69,l:"May 7", deaths:6700,brent:99, nifty:24335,rupee:93.80,tag:"BRENT BELOW $100 for first time since war. Vance-Witkoff-Kushner in Islamabad. Iran FM Baqaei: response to Pakistan coming. Murkowski AUMF May 11.",sev:1},
-  {d:70,l:"May 8", deaths:6700,brent:101,nifty:24231,rupee:94.50,tag:"NASA satellite fire signatures in Hormuz separation zone — Omani lane deserted, ZERO TRAFFIC. IRGC toll agency formalised. Pezeshkian met Khamenei 2hrs. Araghchi-Wang Yi Beijing.",sev:3},
-  {d:71,l:"May 9", deaths:6700,brent:101,nifty:24176,rupee:94.50,tag:"US fighter jet attacked Iranian ship (CNN satellite). Iran warns heavy assault. Iran General: sanction-enforcing nations face Hormuz problems. Sensex -516. OMC hike before May 15.",sev:2},
-  {d:72,l:"May 10",deaths:6700,brent:101,nifty:24176,rupee:94.50,tag:"PM MODI: use petrol/gas/diesel with great restraint. Avoid gold 1 yr. Revive WFH. OMC losses Rs 30,000Cr/month. Hike Rs4-5/L before May 15. Iran responded to US proposal. Charles de Gaulle → Red Sea. Murkowski AUMF May 11.",sev:2},
-  {d:73,l:"May 11",deaths:6700,brent:103,nifty:23816,rupee:94.91,tag:"TRUMP: TOTALLY UNACCEPTABLE. Sensex -1,312 to 76,015 (biggest fall since March 24). Nifty below 24,000. RBI intervened at 94.9650. Murkowski AUMF blocked by Thune.",sev:3},
-  {d:75,l:"May 13",deaths:6700,brent:108,nifty:23379,rupee:95.71,tag:"PETROL hiked Rs 103.54. Diesel Rs 90.03. Rupee ATL 95.71. Brent $107.52. Sensex -1,456 to 74,559. Two-day crash -2,769 pts. Gold customs duty raised.",sev:3},
-  {d:77,l:"May 15",deaths:6700,brent:106,nifty:23650,rupee:95.71,tag:"TRUMP-XI: Hormuz open+demilitarized. Xi opposes tolls. Xi buys US oil. IRAN: seized UAE vessel + SANK INDIAN CARGO SHIP off Oman. 3-day Sensex recovery to 75,741.",sev:2},
-  {d:78,l:"May 16",deaths:6700,brent:106,nifty:23560,rupee:95.71,tag:"WEEKLY WRAP. Trump-Xi structural positive not binding on Iran. Three-day recovery +1,182 pts. Petrol Rs 103.54. Indian cargo ship sunk off Oman. Monday binary.",sev:2},
-  {d:79,l:"May 17",deaths:6700,brent:109,nifty:23560,rupee:95.71,tag:"IEA: oil market severely undersupplied until October even if fighting ends next month. HAJI ALI (Indian livestock carrier, 4,000 animals) sunk off Oman. IRGC claimed 30 vessels crossed Hormuz. PGSA operational. Cooper: 90% mines destroyed. Brent $109.26 (+3.35%). Kharif fertiliser final window.",sev:2},
+// TL_BASE removed — timeline now read from intel.timeline in war-intel.json
 
-  {d:80,l:"May 18",deaths:6700,brent:111,nifty:23641,rupee:96.10,tag:"Trump emergency NSC: FAST or nothing left. UAE Barakah nuclear plant drone — IAEA reactor emergency diesel. Brent $111.29 touched $112. Rupee 96+ ATL. Sensex -161 (recovered from -855 intraday).",sev:3},
-  {d:81,l:"May 19",deaths:6700,brent:108,nifty:23650,rupee:95.80,tag:"TRUMP CALLED OFF TUESDAY IRAN STRIKE. Kpler 55 vessels May 11-17. Bessent general license energy-vulnerable countries. Iran-Oman mechanism. Brent $112 to $107 on news.",sev:1},
-  {d:83,l:"May 21",deaths:6700,brent:105,nifty:23800,rupee:95.80,tag:"Senate War Powers 50-47: Cassidy + Murkowski + Collins + one other. Most significant congressional challenge. Brent $105+ on inventory draw. Sensex volatile little changed.",sev:2},
-  {d:84,l:"May 22",deaths:6700,brent:104,nifty:23719,rupee:95.50,tag:"Sensex +232 to 75,415. Nifty +65 to 23,719. Weekly +0.2%/+0.3%. IT led. Rubio: tentative progress. Iran uranium stays. Week 12 closed.",sev:1},
-  {d:86,l:"May 24",deaths:6700,brent:100,nifty:23719,rupee:95.50,tag:"TRUMP: deal largely negotiated. RUBIO: days away. IRAN: 35 vessels/24hr. PGSA controlled maritime zone graphic. Brent $100. India Monday: largest gap-up of 86-day war possible.",sev:1},
-  {d:93,l:"Jun 2", deaths:6700,brent:95, nifty:23400,rupee:95.60,tag:"TRUMP EDITED MOU — new demands on uranium + Hormuz 'did not go down well in Tehran.' Iran vehemently denied Thursday deal. US Defense Secretary: combat-ready. Brent $95 rebounded.",sev:2},
-  {d:95,l:"Jun 3", deaths:6800,brent:97, nifty:23450,rupee:95.80,tag:"ESCALATION: US struck QESHM ISLAND near Hormuz. Iran retaliated — 13 missiles + 17 drones at KUWAIT + BAHRAIN. Kuwait Airport hit: 1 INDIAN KILLED, 63 injured. Kuwait expelled 2 Iranian diplomats. Iran halted mediator contact. House war powers 215-208. Brent $96.89.",sev:3},
-  {d:96,l:"Jun 4", deaths:6800,brent:97, nifty:23355,rupee:95.90,tag:"DAY 96 THU 9:30AM IST. Nifty 23,355 (-0.22%). Sensex 74,219 (-0.17%). IT/Realty/Banks lagging. Trump: deal 'over the weekend' but Iran halted mediators. US demands written nuclear commitments. Ceasefire 'increasingly tenuous.' Third fuel hike risk rising at Brent $97.",sev:2},
-  {d:98,l:"Jun 5", deaths:6830,brent:93, nifty:23367,rupee:95.90,tag:"IRAN FIRED 7 BALLISTIC MISSILES + DRONES at Kuwait+Bahrain — CENTCOM intercepted 6 of 7; 7th failed. US struck Goruk+Qeshm radar sites. OMAN MINA AL FAHAL TERMINAL: explosion briefly disrupted, then resumed. Hezbollah rejected US ceasefire. Iran FM Araghchi: deal only when Lebanon ends. RBI held 5.25%, 5-pronged FII plan. Brent ~$93 (slid ~2% on diplomatic signals, but Friday salvo AFTER close). US S&P -0.74% to 7,553. Nifty closed 23,367 (-0.21%). FII sold Rs8,776 Cr.",sev:3},
-  {d:99,l:"Jun 7", deaths:6850,brent:93, nifty:23091,rupee:96.00,tag:"DAY 99 SUN 8:45AM IST. GIFT NIFTY 2:30AM: 23,091 (-1.86%) — sharp Monday June 9 gap-down signal as Friday Iran missile salvo prices in. Lebanon linkage: Iran FM Araghchi says war ends only when Lebanon ends. Hezbollah rejected US ceasefire. Oman terminal explosion. Saudi Aramco CEO Nasser: normalization not before 2027. Brent ~$93. RBI 5-pronged FII plan. Deal: mid-to-late June at earliest.",sev:2},
-  {d:100,l:"Jun 8", deaths:6900,brent:94, nifty:23179,rupee:95.36,tag:"DAY 100 CENTENARY. IRAN FIRED MISSILES AT ISRAEL overnight Jun 7-8 — all intercepted, no casualties. WTI +3.41% to $93.63 Monday. GIFT NIFTY: 23,179 (-273 pts, -1.17%) gap-down. KOSPI -9%, Nikkei -4.14%, Hang Seng -1.50%. LPG THIRD HIKE: ₹941.50 confirmed. US Fri: S&P -2.64%, Nasdaq -4.18%. Trump: urged Netanyahu not to retaliate + called Iran to resume talks. Worst Monday open of conflict. Nifty support 23,000-23,100.",sev:3},
-  {d:101,l:"Jun 9", deaths:6950,brent:94.25,nifty:23123,rupee:95.36,tag:"DAY 101 TUE. ISRAEL STRUCK MAHSHAHR PETROCHEMICAL COMPLEX — first energy strike on Iran since Apr 8 ceasefire. Iran-Israel APPEAR TO PAUSE (AP Jun 8 4:49PM). TRUMP: 'Both sides want immediate CEASEFIRE.' Iran willing to stop if Israel stops. Pakistan Naqvi special letter to Khamenei. Nifty Mon close: 23,123 (-1.04%). Sensex 73,524 (-0.97%) — steepest in 2 months. Brent Mon close $94.25. GIFT Nifty Tue: -20 pts. Most positive deal signal since Day 86.",sev:2},
-];
-
-const RADAR_FB = [
-  {axis:"Oil Shock",      w1:60,now:78,w4:50},
-  {axis:"Market Crash",  w1:45,now:68,w4:35},
-  {axis:"Nuclear Risk",  w1:20,now:92,w4:85},
-  {axis:"Hormuz Closure",w1:80,now:93,w4:55},
-  {axis:"Household",     w1:15,now:85,w4:55},
-  {axis:"Currency",      w1:40,now:65,w4:42},
-  {axis:"Social Unrest", w1:25,now:70,w4:52},
-  {axis:"Mil. Exposure", w1:35,now:90,w4:58},
-];
+const RADAR_FB = [];
 
 const NUKES_FB = [
   {name:"Bushehr ☢️",type:"Reactor",status:"ACTIVE WAR ZONE — IAEA WARNED",risk:88,
@@ -340,7 +282,7 @@ const HormuzTimeline = ({events}) => {
     {label:"CEASEFIRE",   color:C.green,  days:"Apr 7–18"},
     {label:"DUAL BLOCKADE",color:C.red,  days:"Apr 18–22"},
     {label:"STALEMATE",   color:C.amber,  days:"Apr 22–May"},
-    {label:"PAUSE+DEAL?",  color:C.green,  days:"Jun 8 pause signal"},
+    {label:"ESCALATION",   color:C.red,    days:"Jun 8–10 active"},
   ];
   return (
     <div>
@@ -406,21 +348,11 @@ export default function App() {
   };
 
   const iT        = intel?.ticker        ?? TICKER_FB;
-  const iDay      = intel?._day          ?? 101;
-  const iUpdated  = intel?._updated      ?? "June 9, 2026 — 9:30 AM IST";
+  const iDay      = intel?._day          ?? 0;
+  const iUpdated  = intel?._updated      ?? "Loading...";
   const iDeaths   = intel?.deaths        ?? "6,700+";
   const iDeathsSub= intel?.deathsSub     ?? "";
-  const iWC       = intel?.whatChanged   ?? {
-    label: 'WHAT CHANGED — JUNE 9, 9:30 AM IST (DAY 101)',
-    items: [
-      {color:'red',   bold:'US STRUCK QESHM ISLAND — Iran retaliated at Kuwait Airport. 1 INDIAN NATIONAL KILLED, 63 injured. Kuwait expelled 2 Iranian diplomats. Iran halted mediator contact.', text:'Washington Post, Al Jazeera, CBC, Euronews (June 3-4): The most intense exchange of fire since the April ceasefire. CENTCOM struck an Iranian military ground control station on Qeshm Island near Hormuz after Iran attacked a blockade-breaching tanker. Iran retaliated with 13 ballistic missiles and 17 drones at Kuwait and Bahrain. Kuwait Airport Terminal 1 was hit — 1 Indian national killed (confirmed MEA), 63 injured. Iran stopped communicating with ceasefire mediators. Kuwait expelled 2 Iranian diplomats.'},
-      {color:'red',   bold:'NIFTY 23,355 (-0.22%) AT 9:19AM THU. SENSEX 74,219 (-0.17%). IT, Realty, Private Bank lagging. Renewed US-Iran flare-up driving losses.', text:'Business Standard (live June 4, 9:30 AM IST): Nifty50 fell 52.65 points or 0.22% to 23,355.10 at 9:19AM. Sensex down 126.59 points or 0.17% to 74,219.58. Nifty MidCap and SmallCap also lower. IT, Realty, Private Bank lagging. Markets absorbing two signals: escalation (Qeshm/Kuwait) vs Trump optimism (deal over the weekend). Support: 23,200-23,300.'},
-      {color:'red',   bold:'BRENT $96.89 WEDNESDAY CLOSE — Third straight session of gains. US crude inventories: sixth consecutive weekly drawdown 6.8M barrels. Climbing toward $97-100.', text:'Trading Economics (June 3-4): Brent rose to $96.89 on June 3, up 0.93% — third consecutive session of gains. US crude inventories declined 6.8M barrels last week, the sixth consecutive weekly drawdown. WTI ~$95. For India at Brent $97: OMC losses Rs 12-15/L petrol (post-second hike), diesel Rs 28-32/L. Third hike timeline accelerated.'},
-      {color:'amber', bold:'HOUSE WAR POWERS RESOLUTION 215-208 — Historic first passage. 4 Republicans + all Democrats. Symbolic rebuke, heads to Senate.', text:'NPR, Washington Post (June 3): US House passed war powers resolution 215-208 — first ever since conflict began. Four Republicans (Massie, Fitzpatrick, Barrett, Davidson) joined all Democrats. Concurrent resolution — symbolic, does not require Trump signature. Signals bipartisan Congressional fatigue with 96-day conflict and growing pressure to end it.'},
-      {color:'amber', bold:'TRUMP: Deal "over the weekend." Iran "pretty close." BUT Iran halted mediators + US demands WRITTEN nuclear commitments vs Iran verbal assurances only.', text:'ABC News, Trading Economics (June 3): Trump expressed optimism. "If it happens, it could happen, like, over the weekend." But Iran stopped communicating with mediators following Qeshm strikes. US is now seeking written commitments from Iran on nuclear concessions — Iran had only provided verbal assurances. Khamenei adviser warned of "deluge of missiles." Gap between Trump optimism and Iran posture is the defining tension of Day 96.'},
-      {color:'red',   bold:'CEASEFIRE "INCREASINGLY TENUOUS" (CBC/WaPo). Iran halted mediators. Kuwait expelled Iranian diplomats. Hezbollah-Israel: Israeli strikes on Lebanon, 2 Israeli tanks destroyed.', text:'CBC News, Washington Post, Euronews (June 3-4): Multiple signals indicate ceasefire is at its most fragile point since April 7. Iran stopped communicating with mediators. Kuwait expelled 2 Iranian diplomats — diplomatic downgrade of a Gulf state. US struck Qeshm Island — Iran\'s Hormuz monitoring capability targeted. Hezbollah-Israel: Israeli strikes on southern Lebanon overnight, Hezbollah claims 2 Israeli tanks destroyed. Multi-front nature of conflict complicates any single ceasefire framework.'},
-    ]
-  };
+  const iWC       = intel?.whatChanged   ?? {label:'Loading intelligence…', items:[]};
   const iEcon     = intel?.econ          ?? null;
   const iTlLatest = intel?.tlLatest      ?? [];
   const iRadar    = intel?.radar         ?? RADAR_FB;
@@ -437,7 +369,7 @@ export default function App() {
   const iFeatured = intel?.featured      ?? FEATURED_FB;
   const iMilTop   = intel?.milTop        ?? [];
 
-  const fullTL = [...TL_BASE.filter(t=>!iTlLatest.some(lt=>lt.d===t.d)), ...iTlLatest]
+  const fullTL = [...(intel?.timeline ?? [])]
     .sort((a,b)=>a.d-b.d);
 
   const brentRaw  = live?.brent?.price     ?? 100;
@@ -452,14 +384,14 @@ export default function App() {
   const isBlockade = iPhase === "BLOCKADE";
   const isEscalation = iPhase === "ESCALATION";
 
-  const scenHeaders = iScenarios?.headers ?? ["Pre-war","Now (D101)","Deal this week","Israel strikes again","Full escalation"];
+  const scenHeaders = iScenarios?.headers ?? ["Pre-war","Current","Bull Case","Bear Case","Tail Risk"];
   const scenRows = [
-    {m:"Brent ($)",  vals: iScenarios?.brent  ?? [65,94.25,80,105,125]},
-    {m:"₹/USD",      vals: iScenarios?.rupee  ?? [91,95.36,91.0,100.0,106.0]},
+    {m:"Brent ($)",  vals: iScenarios?.brent  ?? [65,null,null,null,null]},
+    {m:"₹/USD",      vals: iScenarios?.rupee  ?? [91,null,null,null,null]},
     {m:"Deaths",     vals: iScenarios?.deaths ?? [0,"6,800+","7,500","11,000+","30,000+"]},
-    {m:"Sensex",     vals: iScenarios?.sensex ?? ["78,699","23,123","86,000+","60,000","42,000"]},
-    {m:"LPG",        vals: iScenarios?.lpg    ?? ["₹853","₹912+","₹853","₹1,200+","₹2,200+"]},
-    {m:"FII",        vals: iScenarios?.fii    ?? ["-","Outflows","$25B return","Structural out","$70B out"]},
+    {m:"Sensex",     vals: iScenarios?.sensex ?? ["78,699",null,null,null,null]},
+    {m:"LPG",        vals: iScenarios?.lpg    ?? ["₹853",null,null,null,null]},
+    {m:"FII",        vals: iScenarios?.fii    ?? ["-",null,null,null,null]},
   ];
 
   const filteredTL = logSearch.trim()
@@ -1149,12 +1081,12 @@ export default function App() {
             <div style={{background:`${C.amber}0c`,border:`1px solid ${C.amber}25`,
               borderRadius:8,padding:'12px 14px',marginTop:14,
               fontSize:12.5,color:C.sub,lineHeight:1.8,fontFamily:SERIF}}>
-              <strong style={{color:C.red}}>Day 101: pause signal — most positive deal window since Day 86.
-              Iran fired 7 ballistic missiles at Kuwait + Bahrain on June 5 Mahshahr petrochemical complex struck Jun 8 (first energy hit since Apr 8 ceasefire). Iran-Israel PAUSE. Trump: "Both sides want immediate CEASEFIRE." Iran willing to stop if Israel stops. Pakistan Naqvi special letter to Khamenei. Nifty Mon 23,123 (-1.04%). Brent $94.25 close.</strong>{' '}
+              <strong style={{color:C.red}}>Day 102: Apache downed, US struck back, Vance says deal 'very close.'
+              Iran fired 7 ballistic missiles at Kuwait + Bahrain on June 5 Apache AH-64 downed over Hormuz by Iranian Shahed drone. Both crew rescued (first US sea drone rescue). US launched retaliatory strikes 5PM ET Tue. Iran: "will leave no attack unanswered." Brent $94.15 Wed open. Nifty Tue 23,242 (+0.52%).</strong>{' '}
               1 Indian national killed at Kuwait Airport (June 3). MEA condemned the attack. US struck Qeshm Island. Iran halted mediator contact. Brent $96.89 — third straight gain. Nifty 23,355 (-0.22%).
               House war powers 215-208 — first-ever passage. Trump: deal 'over the weekend.' Ceasefire 'increasingly tenuous.'
               <br/><br/>
-              <strong style={{color:C.cyan}}>India must act now:</strong> MEA emergency protocol for Indian nationals across Kuwait + Bahrain. GIFT Nifty -20 pts Tuesday — cautious recovery possible. Nifty support 23,000-23,100 held. If Iran-Israel pause holds + deal closes: Brent falls to $80-85, Nifty surges 1,000-1,500 pts. PGSA applications urgent. LPG Rs941.50 third hike absorbed. Watch Netanyahu for next move.
+              <strong style={{color:C.cyan}}>India must act now:</strong> MEA emergency protocol for Indian nationals across Kuwait + Bahrain. Vance: "very close to deal — more wood to chop." Apache incident = Hormuz is active combat zone. PGSA applications: file today. Nifty 23,000-23,100 support. If deal closes: Brent to $80-85, Nifty surges 1,500+ pts. Fourth hike avoidable if Brent stays below $95.
             </div>
           </div>
         </S>
