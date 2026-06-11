@@ -1,11 +1,15 @@
 import { useState, useEffect, useRef } from "react";
 
 // ═══════════════════════════════════════════════════════════════════
-// INDIA RISK DASHBOARD — V15.0 — ARCHITECTURE: JSON-driven, no daily hardcoding
-// Changes: Removed all hardcoded news fallbacks (ticker, whatChanged,
-// scenario rows, radar, timeline). App now reads 100% from
-// war-intel.json. TL_BASE replaced by intel.timeline from JSON.
-// Daily updates: war-intel.json only. App.jsx: weekly UI changes.
+// INDIA RISK DASHBOARD — V16.0 — INDIA CASUALTY ALERT: Hormuz Exposure panel redesigned
+// Changes: India's Hormuz Exposure panel redesigned: was static since
+// launch (hardcoded "13 stranded", "Desh Garima", "Haji Ali SUNK
+// May 15", "35 vessels Iran claim"). Now shows: Indian vessels in
+// Gulf, Indian seafarers, CASUALTIES (new — first time war has
+// killed Indians via US blockade), and Navy Escort status. Added
+// red "casualty" stat box, conditionally shown when intel.hormuzStatus
+// .indianCasualties > 0. Pulls from war-intel.json fields:
+// indianCasualties, indianCasualtyDetail.
 // ═══════════════════════════════════════════════════════════════════
 
 const C = {
@@ -282,7 +286,7 @@ const HormuzTimeline = ({events}) => {
     {label:"CEASEFIRE",   color:C.green,  days:"Apr 7–18"},
     {label:"DUAL BLOCKADE",color:C.red,  days:"Apr 18–22"},
     {label:"STALEMATE",   color:C.amber,  days:"Apr 22–May"},
-    {label:"ESCALATION",   color:C.red,    days:"Jun 8–10 active"},
+    {label:"ESCALATION",   color:C.red,    days:"Jun 8–11 — India deaths"},
   ];
   return (
     <div>
@@ -647,15 +651,35 @@ export default function App() {
             </div>
           </div>
 
-          {/* India stats — consistent sizing */}
+          {/* India stats — consistent sizing, with casualty alert */}
+          {(iHormuz?.indianCasualties ?? 0) > 0 && (
+            <div style={{background:`${C.red}14`,borderRadius:10,padding:'12px 14px',
+              border:`1px solid ${C.red}50`,marginBottom:10,
+              animation:'pulse 2.5s infinite'}}>
+              <div style={{fontSize:9,color:C.red,fontWeight:700,letterSpacing:2.5,
+                fontFamily:MONO,marginBottom:6}}>🇮🇳 INDIAN CASUALTIES — BLOCKADE ENFORCEMENT</div>
+              <div style={{display:'flex',alignItems:'baseline',gap:10,marginBottom:6}}>
+                <div style={{fontSize:32,fontWeight:800,color:C.red,fontFamily:SYNE,lineHeight:1}}>
+                  {iHormuz.indianCasualties}
+                </div>
+                <div style={{fontSize:11,color:C.red,fontWeight:700,fontFamily:MONO}}>
+                  Indian sailors killed
+                </div>
+              </div>
+              <div style={{fontSize:10,color:C.sub,lineHeight:1.5}}>
+                {iHormuz?.indianCasualtyDetail || "Details pending."}
+              </div>
+            </div>
+          )}
+
           <div style={{background:C.amberDim,borderRadius:10,padding:'12px 14px',
             border:`1px solid ${C.amber}25`,marginBottom:10}}>
             <div style={{fontSize:9,color:C.amber,fontWeight:700,letterSpacing:2.5,
               fontFamily:MONO,marginBottom:10}}>🇮🇳 INDIA'S HORMUZ EXPOSURE</div>
             <div style={{display:'grid',gridTemplateColumns:'1fr 1fr 1fr',gap:8}}>
               {[
-                {l:"Ships in Gulf", v:iHormuz?.indianVesselsNear??8, sub:(iHormuz?.indianSeafarers??280)+" seafarers | 13 stranded"},
-                {l:"Crossed Safely",v:iHormuz?.indianTransited??0,  sub:"Desh Garima Apr 30. Haji Ali SUNK May 15. 35 vessels/24hr Iran claim (Sun)."},
+                {l:"Ships in Gulf", v:iHormuz?.indianVesselsNear??8, sub:(iHormuz?.indianSeafarers??280)+" seafarers on Indian-flagged vessels"},
+                {l:"Crossed Safely",v:iHormuz?.indianTransited??0,  sub:iHormuz?.totalShipsWaiting||"Status pending"},
                 {l:"Navy Escort",   v:"ACTIVE", sub:"Op Urja Suraksha", isText:true},
               ].map((s,i)=>(
                 <div key={i} style={{textAlign:'center'}}>
@@ -676,7 +700,7 @@ export default function App() {
             <HormuzTimeline events={iHEvents.length ? iHEvents : iHLatest}/>
             <div style={{fontSize:9,color:C.muted,marginTop:10,paddingTop:8,
               borderTop:`1px solid ${C.border}20`,fontFamily:MONO}}>
-              🇮🇳 Last transit: {iHormuz?.lastTransit||"Desh Garima (India) Mumbai unloading confirmed April 30 (Reuters)"}
+              🇮🇳 Latest: {iHormuz?.lastTransit||"Status pending"}
             </div>
           </div>
         </S>
@@ -726,12 +750,12 @@ export default function App() {
         <S id="economic" title="📉 Economic Impact on India" accent={C.orange}>
           {/* Key metrics row */}
           <div className="grid4" style={{display:'grid',gridTemplateColumns:'1fr 1fr',gap:8,marginBottom:14}}>
-            <Mc label="BSE Market Cap" value={iEcon?.wealth||"~₹445L Cr"} accent={C.orange}
-              sub="TRUMP: largely negotiated. IRAN: 35 vessels/24hr. Brent $100. CNN: traders test $94 Monday."/>
-            <Mc label="FII Flow" value={iEcon?.fpi||"Outflows"}
-              delta={iEcon?.fpiDelta||"Coal India, Oil & Gas attracting buying"} accent={C.red}
-              sub="WH counterproposal = next FII catalyst"/>
-            <Mc label="Sensex" value={iEcon?.sensex||"76,913"}
+            <Mc label="BSE Market Cap" value={iEcon?.wealth||"Loading..."} accent={C.orange}
+              sub={iEcon?.wealth||""}/>
+            <Mc label="FII Flow" value={iEcon?.fpi||"Loading..."}
+              delta={iEcon?.fpiDelta||""} accent={C.red}
+              sub={iEcon?.fpiDelta||""}/>
+            <Mc label="Sensex" value={iEcon?.sensex||"Loading..."}
               delta={iEcon?.sensexDelta||"▼ -583 (-0.75%)"} deltaColor={C.red}
               sub={iEcon?.sensexSub||"Apr 30 close. Intraday low -1,237 pts."} accent={C.red}/>
             <Mc label="India VIX" value={iEcon?.vix||"~24-27"}
@@ -1078,15 +1102,13 @@ export default function App() {
                 );
               })}
             </div>
-            <div style={{background:`${C.amber}0c`,border:`1px solid ${C.amber}25`,
+            <div style={{background:`${C.red}0c`,border:`1px solid ${C.red}30`,
               borderRadius:8,padding:'12px 14px',marginTop:14,
               fontSize:12.5,color:C.sub,lineHeight:1.8,fontFamily:SERIF}}>
-              <strong style={{color:C.red}}>Day 102: Apache downed, US struck back, Vance says deal 'very close.'
-              Iran fired 7 ballistic missiles at Kuwait + Bahrain on June 5 Apache AH-64 downed over Hormuz by Iranian Shahed drone. Both crew rescued (first US sea drone rescue). US launched retaliatory strikes 5PM ET Tue. Iran: "will leave no attack unanswered." Brent $94.15 Wed open. Nifty Tue 23,242 (+0.52%).</strong>{' '}
-              1 Indian national killed at Kuwait Airport (June 3). MEA condemned the attack. US struck Qeshm Island. Iran halted mediator contact. Brent $96.89 — third straight gain. Nifty 23,355 (-0.22%).
-              House war powers 215-208 — first-ever passage. Trump: deal 'over the weekend.' Ceasefire 'increasingly tenuous.'
+              <strong style={{color:C.red}}>Day 102 — India's darkest day of the war.</strong>{' '}
+              US Navy struck the tanker MT Settebello in the Gulf of Oman, killing 3 Indian sailors (Aditya Sharma, Shivanand Chaurashiya, Patnala Suresh) — the first deaths of the US blockade since it began April 13. A second vessel, MT Jalveer, was attacked the next day; all 20 Indians aboard were evacuated safely. MEA summoned the US Chargé d'Affaires and lodged a formal protest — against India's own strategic partner. Separately, the US launched a second night of strikes on Iran (Bandar Abbas, Sirik hit); Iran retaliated at Bahrain, Jordan and Kuwait. Trump called Iran's military "completely defeated" and warned Tehran will "pay the price." Nifty closed 23,215 (-0.12%); Brent eased to $91 intraday but is climbing toward $95 Thursday.
               <br/><br/>
-              <strong style={{color:C.cyan}}>India must act now:</strong> MEA emergency protocol for Indian nationals across Kuwait + Bahrain. Vance: "very close to deal — more wood to chop." Apache incident = Hormuz is active combat zone. PGSA applications: file today. Nifty 23,000-23,100 support. If deal closes: Brent to $80-85, Nifty surges 1,500+ pts. Fourth hike avoidable if Brent stays below $95.
+              <strong style={{color:C.cyan}}>India must act now:</strong> 562 Indian seafarers remain on 13 Indian-flagged vessels in the Gulf; 18,000+ Indian seafarers total in the region. India will raise the pattern of attacks at the G7 (June 15-17) — a Modi-Trump bilateral is likely. PGSA applications: file today. Nifty support 23,000-23,100. Brent $95 = OMC pressure intensifies, fourth hike risk rises.
             </div>
           </div>
         </S>
