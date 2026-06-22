@@ -1,15 +1,18 @@
 import { useState, useEffect, useRef } from "react";
 
 // ═══════════════════════════════════════════════════════════════════
-// INDIA RISK DASHBOARD — V16.0 — INDIA CASUALTY ALERT: Hormuz Exposure panel redesigned
-// Changes: India's Hormuz Exposure panel redesigned: was static since
-// launch (hardcoded "13 stranded", "Desh Garima", "Haji Ali SUNK
-// May 15", "35 vessels Iran claim"). Now shows: Indian vessels in
-// Gulf, Indian seafarers, CASUALTIES (new — first time war has
-// killed Indians via US blockade), and Navy Escort status. Added
-// red "casualty" stat box, conditionally shown when intel.hormuzStatus
-// .indianCasualties > 0. Pulls from war-intel.json fields:
-// indianCasualties, indianCasualtyDetail.
+// INDIA RISK DASHBOARD — V16.1 — HORMUZ RE-CLOSURE (Day 114, Jun 22 2026)
+// Changes: war-intel.json updated to Jun 22 10:00 AM IST. The Jun 19
+// "war over / Hormuz reopened" framing has reversed: Iran's military
+// (Khatam al-Anbiya) re-declared the Strait of Hormuz CLOSED on Jun 20,
+// <48h after the Islamabad MOU, citing a US "breach" of Article 1
+// (Israeli strikes in S. Lebanon). Closure is DISPUTED (US/CENTCOM +
+// Vance say open; oil still flowing). Switzerland talks suspended;
+// Brent bounced to ~$81.5. _phase set back to "BLOCKADE" so the status
+// box + header badge render the red alarm state; badge label updated to
+// "HORMUZ RE-CLOSED (CONTESTED)". radarScores re-elevated. Casualty
+// panel (V16.0) retained. No structural/logic changes beyond the badge
+// label string.
 // ═══════════════════════════════════════════════════════════════════
 
 const C = {
@@ -493,7 +496,7 @@ export default function App() {
               borderRadius:6,background:(isEscalation?C.red:isBlockade?C.orange:C.green)+'0c',
               fontWeight:700,fontFamily:MONO,
               animation:(isEscalation||isBlockade)?'pulse 1.8s infinite':undefined}}>
-              {isEscalation?"🔴 ESCALATION — QESHM/KUWAIT":isBlockade?"⚠ BLOCKADE ACTIVE":"● CEASEFIRE"}
+              {isEscalation?"🔴 ESCALATION — QESHM/KUWAIT":isBlockade?"⚠ HORMUZ RE-CLOSED (CONTESTED)":"● CEASEFIRE"}
             </div>
           </div>
         </div>
