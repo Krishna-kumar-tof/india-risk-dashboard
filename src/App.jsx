@@ -1,18 +1,21 @@
 import { useState, useEffect, useRef } from "react";
 
 // ═══════════════════════════════════════════════════════════════════
-// INDIA RISK DASHBOARD — V16.1 — HORMUZ RE-CLOSURE (Day 114, Jun 22 2026)
-// Changes: war-intel.json updated to Jun 22 10:00 AM IST. The Jun 19
-// "war over / Hormuz reopened" framing has reversed: Iran's military
-// (Khatam al-Anbiya) re-declared the Strait of Hormuz CLOSED on Jun 20,
-// <48h after the Islamabad MOU, citing a US "breach" of Article 1
-// (Israeli strikes in S. Lebanon). Closure is DISPUTED (US/CENTCOM +
-// Vance say open; oil still flowing). Switzerland talks suspended;
-// Brent bounced to ~$81.5. _phase set back to "BLOCKADE" so the status
-// box + header badge render the red alarm state; badge label updated to
-// "HORMUZ RE-CLOSED (CONTESTED)". radarScores re-elevated. Casualty
-// panel (V16.0) retained. No structural/logic changes beyond the badge
-// label string.
+// INDIA RISK DASHBOARD — V16.2 — CONTESTED DE-ESCALATION (Day 115, Jun 23 2026)
+// Changes: war-intel.json updated to Jun 23 8:00 AM IST. Picture shifts
+// from Jun 22 panic to "contested de-escalation": Hormuz stays Iran-
+// declared-closed, but CENTCOM says 55 ships transited Jun 20 (a record)
+// and tankers sailed Monday; the Switzerland talks RESUMED Sunday into a
+// 60-day roadmap + a US-Iran safe-passage "communication line"; Brent
+// FELL to ~$78; India equities closed Jun 22 UP (Sensex 77,094 / Nifty
+// 24,103). NEW non-war India human cost: a technical blast at Qatar's
+// Ras Laffan/Barzan facility killed 13 — all Indian & Pakistani nationals
+// (LNG exports unaffected). _phase kept "BLOCKADE" (red alarm) because the
+// strait is not cleanly/insurably open and the MOU is unratified; badge
+// label "HORMUZ RE-CLOSED (CONTESTED)" still fits. radarScores eased on
+// oil/markets but Hormuz/military stay elevated. Latest Day-115 timeline
+// entry set sev:2 (amber). No structural/logic changes.
+// V16.1 (Jun 22): Hormuz re-closure by Iran; _phase→BLOCKADE; badge relabel.
 // ═══════════════════════════════════════════════════════════════════
 
 const C = {
