@@ -1,20 +1,19 @@
 import { useState, useEffect, useRef } from "react";
 
 // ═══════════════════════════════════════════════════════════════════
-// INDIA RISK DASHBOARD — V16.2 — CONTESTED DE-ESCALATION (Day 115, Jun 23 2026)
-// Changes: war-intel.json updated to Jun 23 8:00 AM IST. Picture shifts
-// from Jun 22 panic to "contested de-escalation": Hormuz stays Iran-
-// declared-closed, but CENTCOM says 55 ships transited Jun 20 (a record)
-// and tankers sailed Monday; the Switzerland talks RESUMED Sunday into a
-// 60-day roadmap + a US-Iran safe-passage "communication line"; Brent
-// FELL to ~$78; India equities closed Jun 22 UP (Sensex 77,094 / Nifty
-// 24,103). NEW non-war India human cost: a technical blast at Qatar's
-// Ras Laffan/Barzan facility killed 13 — all Indian & Pakistani nationals
-// (LNG exports unaffected). _phase kept "BLOCKADE" (red alarm) because the
-// strait is not cleanly/insurably open and the MOU is unratified; badge
-// label "HORMUZ RE-CLOSED (CONTESTED)" still fits. radarScores eased on
-// oil/markets but Hormuz/military stay elevated. Latest Day-115 timeline
-// entry set sev:2 (amber). No structural/logic changes.
+// INDIA RISK DASHBOARD — V16.3 — RISK-OFF PM REVISION (Day 115, Jun 23 2026, 9PM)
+// Changes: war-intel.json revised to Jun 23 9:00 PM IST. The morning's
+// calm soured intraday: Indian equities sold off DESPITE cheaper oil —
+// Sensex -893.39 (-1.16%) to 76,200.68, Nifty ~-1.16% to ~23,824 — after
+// Trump threatened fresh strikes and Iran briefly walked away from the
+// Switzerland talks (IT/Reliance led the drop). BUT the deal firmed: a
+// Qatar/Pakistan-brokered 60-day roadmap, four working groups (Sanctions,
+// Nuclear, Reconstruction, Monitoring), and a US Treasury 60-day Iranian-
+// oil license. Brent eased to ~$77; Hormuz still Iran-declared-closed on
+// paper but tankers moving under the Jun 21 safe-passage line. Added a
+// "Jun 23 PM" timeline entry (sev:2). _phase stays "BLOCKADE"; badge label
+// unchanged. radarScores: oil eased, market-crash gauge up on the selloff.
+// V16.2 (Jun 23 8AM): contested de-escalation; oil down, markets up.
 // V16.1 (Jun 22): Hormuz re-closure by Iran; _phase→BLOCKADE; badge relabel.
 // ═══════════════════════════════════════════════════════════════════
 
