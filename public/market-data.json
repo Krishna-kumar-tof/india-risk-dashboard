@@ -1,6 +1,6 @@
 {
-  "_updated": "2026-06-27 — 02:41:27. IST",
-  "_utc": "2026-06-26T21:11:27.534Z",
+  "_updated": "2026-06-27 — 07:27:37. IST",
+  "_utc": "2026-06-27T01:57:37.051Z",
   "_source": "Yahoo Finance + ExchangeRate API",
   "_note": "Auto-updated via GitHub Action every 4 hours. War content updated manually.",
   "brent": {
@@ -19,8 +19,8 @@
     "changePct": 0.14
   },
   "rupee": {
-    "price": 94.39,
-    "change": 0,
-    "changePct": 0
+    "price": 94.3,
+    "change": -0.09,
+    "changePct": -0.09
   }
 }
