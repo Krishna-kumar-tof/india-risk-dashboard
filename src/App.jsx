@@ -1,20 +1,22 @@
 import { useState, useEffect, useRef } from "react";
 
 // ═══════════════════════════════════════════════════════════════════
-// INDIA RISK DASHBOARD — V16.3 — RISK-OFF PM REVISION (Day 115, Jun 23 2026, 9PM)
-// Changes: war-intel.json revised to Jun 23 9:00 PM IST. The morning's
-// calm soured intraday: Indian equities sold off DESPITE cheaper oil —
-// Sensex -893.39 (-1.16%) to 76,200.68, Nifty ~-1.16% to ~23,824 — after
-// Trump threatened fresh strikes and Iran briefly walked away from the
-// Switzerland talks (IT/Reliance led the drop). BUT the deal firmed: a
-// Qatar/Pakistan-brokered 60-day roadmap, four working groups (Sanctions,
-// Nuclear, Reconstruction, Monitoring), and a US Treasury 60-day Iranian-
-// oil license. Brent eased to ~$77; Hormuz still Iran-declared-closed on
-// paper but tankers moving under the Jun 21 safe-passage line. Added a
-// "Jun 23 PM" timeline entry (sev:2). _phase stays "BLOCKADE"; badge label
-// unchanged. radarScores: oil eased, market-crash gauge up on the selloff.
-// V16.2 (Jun 23 8AM): contested de-escalation; oil down, markets up.
-// V16.1 (Jun 22): Hormuz re-closure by Iran; _phase→BLOCKADE; badge relabel.
+// INDIA RISK DASHBOARD — V16.4 — RE-ESCALATION: US STRIKES IRAN (Day 118, Jun 26 2026, 9:15AM)
+// Changes: war-intel.json advanced to Jun 26 9:15 AM IST. Story flips from
+// "normalising" back to "escalating": after a strong de-escalation (Brent
+// collapsed to ~$72, a 4-month low; Hormuz transits surged to ~4.8M bpd;
+// US Treasury waived Iranian-oil sanctions thru Aug), Iran's Jun 25 drone
+// attack on the container ship Ever Lovely drew CALIBRATED US STRIKES on
+// Jun 26 (6 aircraft, 4 targets: missile/drone storage + coastal radar).
+// The ~2-week pause in US offensive ops ended; the Jun 17 ceasefire is
+// under immediate strain. Oil bounced to ~$74. India markets SHUT Jun 26
+// (Muharram); last close Jun 25 Sensex 77,100.47 (+0.14%); reopen Mon
+// Jun 29. _phase set to "ESCALATION". LOGIC EDIT: Hormuz STATUS box now
+// renders red for ESCALATION as well as BLOCKADE (was green for non-
+// blockade); escalation badge relabeled "ESCALATION — US STRIKES IRAN".
+// radarScores: Military Exposure spiked to 72. Added Days 116-118 timeline.
+// V16.3 (Jun 23 9PM): risk-off PM revision; roadmap firms, equities sold off.
+// V16.2 (Jun 23 8AM): contested de-escalation. V16.1 (Jun 22): Hormuz re-closure.
 // ═══════════════════════════════════════════════════════════════════
 
 const C = {
@@ -498,7 +500,7 @@ export default function App() {
               borderRadius:6,background:(isEscalation?C.red:isBlockade?C.orange:C.green)+'0c',
               fontWeight:700,fontFamily:MONO,
               animation:(isEscalation||isBlockade)?'pulse 1.8s infinite':undefined}}>
-              {isEscalation?"🔴 ESCALATION — QESHM/KUWAIT":isBlockade?"⚠ HORMUZ RE-CLOSED (CONTESTED)":"● CEASEFIRE"}
+              {isEscalation?"🔴 ESCALATION — US STRIKES IRAN":isBlockade?"⚠ HORMUZ RE-CLOSED (CONTESTED)":"● CEASEFIRE"}
             </div>
           </div>
         </div>
@@ -637,11 +639,11 @@ export default function App() {
 
           {/* Status + traffic — consistent font sizes */}
           <div style={{display:'grid',gridTemplateColumns:'1fr 1fr',gap:8,marginBottom:10}}>
-            <div style={{background:(isBlockade?C.red:C.green)+'10',borderRadius:10,
-              padding:12,textAlign:'center',border:`1px solid ${(isBlockade?C.red:C.green)}25`}}>
-              <div style={{fontSize:9,color:isBlockade?C.red:C.green,fontWeight:700,
+            <div style={{background:((isBlockade||isEscalation)?C.red:C.green)+'10',borderRadius:10,
+              padding:12,textAlign:'center',border:`1px solid ${((isBlockade||isEscalation)?C.red:C.green)}25`}}>
+              <div style={{fontSize:9,color:(isBlockade||isEscalation)?C.red:C.green,fontWeight:700,
                 letterSpacing:2,fontFamily:MONO,marginBottom:5}}>STATUS</div>
-              <div style={{fontSize:11.5,fontWeight:700,color:isBlockade?C.red:C.green,
+              <div style={{fontSize:11.5,fontWeight:700,color:(isBlockade||isEscalation)?C.red:C.green,
                 fontFamily:SYNE,lineHeight:1.3}}>{iHormuz?.status||"BLOCKADE ACTIVE"}</div>
             </div>
             <div style={{background:C.card,borderRadius:10,padding:12,border:`1px solid ${C.border}`}}>
