@@ -1,74 +1,78 @@
 {
-  "_updated": "June 23, 2026 — 9:00 PM IST",
-  "_day": 115,
-  "_phase": "BLOCKADE",
-  "_note": "Verified Jun 23 PM: Reuters (via HDFC Sky), Business Standard, CNBC, Al Jazeera, TradingEconomics, CENTCOM, Mehr/IRNA (Iranian state media, attributed). DAY 115 TUE 9:00PM IST — PM REVISION: THE MORNING'S CALM SOURED. Despite cheaper oil, Indian equities SOLD OFF on Jun 23 — the Sensex fell 893.39 pts (-1.16%) to 76,200.68 and the Nifty dropped ~279 pts (-1.16%) to ~23,824 — as President Trump threatened to resume strikes on Iran and Tehran briefly walked away from the Switzerland talks before returning, with IT and Reliance dragging the index. STRUCTURALLY, THOUGH, THE TALKS HELD: the first round at Burgenstock concluded with mediators Qatar and Pakistan announcing a joint 60-day roadmap toward a final deal; both sides confirmed the talks covered nuclear, Lebanon and the Strait; technical teams continue through the week under four formal working groups (Sanctions Termination, Nuclear Affairs, Iran Reconstruction & Economic Development, Monitoring & Implementation) plus a high-level oversight committee. The US Treasury issued a 60-day license authorising the production, sale and delivery of Iranian oil — including imports to the US, payable in dollars — a concrete sanctions-relief step. OIL kept easing: Brent ~$77 (WTI ~$74) as flows through Hormuz picked up. HORMUZ remains contested: Iran's weekend closure stands on paper, but a safe-passage communications mechanism is in place and tankers are moving. The Qatar Ras Laffan/Barzan blast (13 dead, all Indian and Pakistani nationals; non-war; LNG exports unaffected) remains the day's India human cost. Net: structural progress, but the market reminded everyone how fragile this is — risk-off can return on a single Trump post.",
+  "_updated": "June 26, 2026 — 9:15 AM IST",
+  "_day": 118,
+  "_phase": "ESCALATION",
+  "_note": "Verified Jun 26: CENTCOM, NPR, Al Jazeera, CNBC, Reuters/Kpler, Globalsecurity, Wikipedia (2026 Hormuz crisis), TradingEconomics, Yahoo Finance, The Tribune/ANI. DAY 118 FRI 9:15AM IST — RE-ESCALATION: US STRIKES IRAN. The roughly two-week pause in US offensive operations (since Trump cancelled a third strike round on Jun 11) has ENDED. SEQUENCE: (1) On Jun 25 an Iranian/IRGC one-way attack drone struck the Singapore-flagged container ship Ever Lovely as it exited the Strait of Hormuz along the US/Oman-backed southern corridor near the Omani coast; Trump said Iran fired four drones (three shot down), one hit the vessel's upper deck, no injuries and the ship sailed on. The attack made the International Maritime Organization PAUSE its plan to evacuate ~11,000 stranded seafarers, and Iran's Persian Gulf Strait Authority/IRGC reiterated that ships must use only Iran's northern route. (2) Early Jun 26, at Trump's direction, US Central Command struck Iran — six US aircraft hit four targets (Iranian missile and drone storage locations plus coastal radar sites along Iran's coast, around Sirik), calling Iran's drone attack 'unwarranted aggression' that violated the ceasefire and undermined freedom of navigation. US officials framed the strikes as calibrated — large enough to send a message on freedom of navigation, limited enough to avoid restarting the wider war. Trump warned of more; Iran vowed a 'harsh' response. The June 17 MOU/ceasefire is under immediate strain. CONTEXT — THIS INTERRUPTS A STRONG DE-ESCALATION: oil had collapsed to ~$72 (Brent, a four-month low near the ~$70 pre-war level), down >10% on the week, as Hormuz transits accelerated (Kpler: ~4.8M bpd, the most since Feb 28 though still below the 15M bpd pre-war; ~70 ships transited Wed, +105% day-on-day; 20+ long-stranded tankers carrying ~35M barrels exited; the Joint Maritime Information Center downgraded the Hormuz threat to 'moderate'; the US Treasury waived sanctions on Iranian oil sales through August). The strikes reversed crude, pushing Brent back up toward ~$74 in early trading. INDIA: equity markets are SHUT today (Jun 26) for Muharram; the last session (Thu Jun 25) closed marginally up — Sensex 77,100.47 (+0.14%), Nifty ~24,056 (+0.14%), with FIIs +Rs 384 Cr and DIIs +Rs 5,748 Cr — and reopens Monday Jun 29 to price the escalation and the oil bounce.",
   "ticker": [
-    "🔻 PM REVISION (Day 115, 9PM IST): the morning calm soured. Indian equities SOLD OFF despite cheaper oil — Sensex -893.39 (-1.16%) to 76,200.68, Nifty ~-279 (-1.16%) to ~23,824 — as Trump threatened to resume strikes on Iran and Tehran briefly walked away from the Switzerland talks before returning. IT + Reliance led the drop.",
-    "🕊️ BUT THE TALKS HELD: the first Burgenstock round concluded with mediators Qatar + Pakistan announcing a joint 60-day roadmap toward a final deal. Both sides confirmed the talks covered nuclear, Lebanon and the Strait; technical teams continue through the week with a high-level oversight committee.",
-    "🧩 FOUR WORKING GROUPS established to run the 60-day track: Sanctions Termination, Nuclear Affairs, Iran Reconstruction & Economic Development, and Monitoring & Implementation. This is more structure than the deal has had at any point — even as the politics stay volatile.",
-    "💵 US SANCTIONS STEP: the US Treasury issued a 60-day license authorising the production, sale and delivery of Iranian oil — including imports of Iranian crude to the US, payable in dollars. A concrete easing that should pull more barrels back to market if the strait stays open.",
-    "🛢️ OIL KEPT EASING: Brent slipped to ~$77 (WTI ~$74) as flows through Hormuz picked up and the market priced a faster-than-expected return of Gulf barrels. Sub-$80 crude is a clear positive for India's import bill, inflation and the rupee (~94.4) — even on a red equity day.",
-    "🚢 HORMUZ STILL CONTESTED: Iran's weekend closure stands on paper, but the Jun 21 safe-passage communications mechanism is in place and tankers are moving. CENTCOM: 'Iran does not control the Strait.' The gap between Iran's words and the water's reality is the whole story right now.",
-    "🔴 WHY THE SELLOFF, WITH OIL FALLING? Geopolitics, not energy: Trump's renewed strike threats + Iran walking away (briefly) revived the risk premium, and an IT-sector overhang (Accenture's flagged Middle East hit) dragged Infosys, TCS, HCLTech, Wipro and Tech Mahindra. Cheaper oil couldn't offset it today.",
-    "🔴 INDIA HUMAN COST (separate, NON-war): the Qatar Ras Laffan / Barzan blast (late Sun) killed 13 — all Indian and Pakistani nationals — and injured 66. Qatar's energy minister ruled out any hostile cause and said LNG exports and the port are unaffected (Barzan supplies domestic gas).",
-    "⚠️ STILL FRAGILE: Iran's MOU ratification is still awaited (vote expected this week); Netanyahu refuses to withdraw from S. Lebanon before a final deal — the trigger Iran cited to re-close; war-risk insurance stays ~8x pre-crisis. A failed vote or fresh Lebanon strikes re-tightens the strait.",
-    "📅 DAY 115 TUE 9PM IST: Net — structural progress (roadmap + four working groups + US oil license) sat under a risk-off tape (Sensex -1.16%). Base case: gradual normalisation and possible fuel relief if Lebanon holds and parliament ratifies. Downside: one Trump post or Israeli strike flips it back."
+    "🔴 RE-ESCALATION — US STRIKES IRAN (Jun 26): at Trump's direction, US Central Command hit four targets — Iranian missile and drone storage sites plus coastal radar along Iran's coast (six aircraft) — in retaliation for Iran's Jun 25 drone attack on the container ship Ever Lovely. The ~2-week pause in US offensive ops is over; the Jun 17 ceasefire is under immediate strain.",
+    "🚢 WHAT TRIGGERED IT: on Jun 25 an Iranian one-way attack drone struck the Singapore-flagged Ever Lovely as it exited Hormuz along the US/Oman-backed southern corridor near Oman. Trump said Iran fired four drones (three shot down); one hit the upper deck, no injuries, the ship sailed on. The IMO paused its plan to evacuate ~11,000 stranded seafarers.",
+    "⚔️ CENTCOM called Iran's drone attack 'unwarranted aggression' that violated the ceasefire and undermined freedom of navigation. US officials framed the strikes as calibrated — big enough to send a message, limited enough to avoid restarting the wider war. Trump warned of more; Iran vowed a 'harsh' response.",
+    "🛢️ OIL HAD COLLAPSED, NOW BOUNCING: Brent had fallen to ~$72 (a four-month low near the ~$70 pre-war level), down >10% on the week, as Hormuz transits surged. The strikes reversed it — crude ticked back toward ~$74 in early trading. WTI similar. The re-escalation has put a fresh risk premium back into oil.",
+    "📈 THE DE-ESCALATION THIS INTERRUPTS: Kpler — ~4.8M bpd now flowing through Hormuz (most since Feb 28, still below 15M pre-war); ~70 ships transited Wed (+105% d/d); 20+ long-stranded tankers (~35M barrels) exited; threat level cut to 'moderate'; US Treasury waived sanctions on Iranian oil through August. That progress is now in question.",
+    "🇮🇳 INDIA MARKETS SHUT TODAY (Jun 26, Muharram). Last session Thu Jun 25 closed marginally up — Sensex 77,100.47 (+0.14%), Nifty ~24,056 — after oil slid toward pre-war levels; FIIs +Rs 384 Cr, DIIs +Rs 5,748 Cr. Markets reopen Monday Jun 29 to price the US-Iran escalation and the oil bounce.",
+    "🧭 TWO COMPETING SEA-LANES: Iran insists vessels use its northern route (coordinated with Tehran); the US and Oman back a southern corridor through Omani waters with US naval oversight. The standard pre-war commercial lane stays closed due to mines. War-risk insurance is still very high (~0.7% of hull value vs 0.05% pre-war).",
+    "🕊️ DIPLOMACY STILL NOTIONALLY ALIVE: the 60-day roadmap, four working groups and a high-level committee from the Switzerland talks remain on paper, and the US-Iran safe-passage 'communication line' is meant to continue. But active strikes test whether any of it survives — watch for an Iranian response and whether transits hold.",
+    "🔴 INDIA HUMAN COST CARRYOVER (separate, non-war): the Jun 21 Qatar Ras Laffan/Barzan blast killed 13 — all Indian and Pakistani nationals — and injured 66 (technical accident; LNG exports unaffected). India's 18,000+ Gulf seafarers and 562 crew on 13 Indian-flagged vessels remain exposed as the evacuation plan is paused.",
+    "📅 DAY 118 FRI 9:15AM IST: The story flips from 'normalising' back to 'escalating.' Base case: a calibrated, limited exchange that diplomacy contains within days. Downside: an Iranian counter-strike on US/Gulf targets that re-tightens Hormuz and spikes oil. Watch Iran's response, Brent vs $75, and the Mon Jun 29 India reopen."
   ],
   "whatChanged": {
-    "label": "WHAT CHANGED — JUNE 23, 9:00 PM IST (DAY 115 PM) — RISK-OFF RETURNS: EQUITIES SELL OFF EVEN AS THE 60-DAY ROADMAP FIRMS UP",
+    "label": "WHAT CHANGED — JUNE 26, 9:15 AM IST (DAY 118) — RE-ESCALATION: US STRIKES IRAN AFTER A DRONE ATTACK ON A SHIP",
     "items": [
       {
         "color": "red",
-        "bold": "INDIAN EQUITIES SOLD OFF despite cheaper oil: Sensex -893.39 (-1.16%) to 76,200.68; Nifty ~-279 (-1.16%) to ~23,824. The trigger was geopolitical, not energy — Trump threatened to resume strikes and Iran briefly walked away from the Switzerland talks, while IT and Reliance dragged the benchmarks.",
-        "text": "Reuters (via HDFC Sky), Business Standard (Jun 23): after opening calm, Indian benchmarks turned sharply lower through the session, the Sensex closing down 893.39 points (-1.16%) at 76,200.68 and the Nifty falling a comparable ~1.16% to roughly 23,824. The driver was a revival of the geopolitical risk premium rather than oil: President Trump publicly threatened to resume military action against Iran and Tehran initially walked away from the Burgenstock table before returning, reviving doubts about the durability of the interim deal. An IT-sector overhang (Accenture's earlier flagged Middle East hit) weighed on Infosys, TCS, HCLTech, Wipro and Tech Mahindra, and weakness in Reliance added to the pressure. The session is a clean illustration that, for now, headlines on the talks can override the tailwind of falling crude."
+        "bold": "US STRIKES IRAN (Jun 26): at Trump's direction, CENTCOM hit four targets — Iranian missile and drone storage sites plus coastal radar along Iran's coast (six aircraft, around Sirik) — in retaliation for Iran's Jun 25 drone attack on the container ship Ever Lovely. The ~2-week pause in US offensive operations is over; the Jun 17 ceasefire is under immediate strain.",
+        "text": "CENTCOM, NPR, Al Jazeera, Globalsecurity (Jun 26): US Central Command said American aircraft struck Iranian missile and drone storage locations and coastal radar stations in response to an Iranian one-way attack drone that struck the cargo vessel Ever Lovely in the Strait of Hormuz the day before; six US aircraft struck four targets along the Iranian coastline. CENTCOM characterised Iran's drone attack on shipping as 'unwarranted aggression' that violated the ceasefire and undermined freedom of navigation. US officials framed the strikes as deliberately calibrated — designed to send a strong message on freedom of navigation and provide a 'course correction,' but limited enough to avoid restarting the wider conflict. The window ended the roughly two-week pause in US offensive operations that had held since Trump cancelled a threatened third strike round on the evening of Jun 11. Trump warned the action could be a precursor to more; Iran vowed a 'harsh' response."
       },
       {
-        "color": "green",
-        "bold": "BUT THE TALKS HELD AND FIRMED UP: the first Burgenstock round concluded with mediators Qatar and Pakistan announcing a joint 60-day roadmap; both sides confirmed talks covered nuclear, Lebanon and the Strait; technical teams continue through the week under FOUR working groups and a high-level oversight committee.",
-        "text": "CNBC, Al Jazeera (Jun 22-23): despite the tense start, the negotiations did not collapse. Mediators Qatar and Pakistan said US and Iranian officials agreed on a roadmap aimed at a final deal within 60 days and would continue technical negotiations through the week, overseen by a high-level committee. Reporting indicates four formal working groups were established to run the track — Sanctions Termination, Nuclear Affairs, Iran Reconstruction & Economic Development, and Monitoring & Implementation — and that both sides confirmed the agenda spans nuclear issues, Lebanon and the Strait of Hormuz. This is more institutional structure than the deal has had at any prior point, even as the day-to-day politics stay volatile."
-      },
-      {
-        "color": "green",
-        "bold": "US SANCTIONS RELIEF STEP: the US Treasury issued a 60-day license authorising the production, delivery and sale of Iranian oil — including the importation of Iranian crude to the US, payable in dollars. A concrete easing that should pull more barrels back to market if the strait stays open.",
-        "text": "CNBC (Jun 22): the US Treasury issued a 60-day general license that authorises the production, delivery and sale of Iranian oil and explicitly allows the importation of Iranian crude into the United States, with payment permitted in dollars. Coming alongside Vice President Vance's 'great progress' characterisation of the weekend talks, it is the most tangible sanctions-relief move yet and signals Washington is willing to let Iranian barrels flow commercially during the 60-day window — supportive for global supply and, indirectly, for India's import costs, provided Hormuz transit holds up."
+        "color": "red",
+        "bold": "THE TRIGGER — IRAN'S DRONE ATTACK ON THE EVER LOVELY (Jun 25): an Iranian one-way attack drone struck the Singapore-flagged container ship as it exited Hormuz along the US/Oman-backed southern corridor near Oman. Trump said Iran fired four drones (three shot down); one hit the upper deck, no injuries, the ship sailed on. The IMO paused its plan to evacuate ~11,000 stranded seafarers.",
+        "text": "Wikipedia (2026 Hormuz crisis), CBS, Gulf News (Jun 25): the Ever Lovely was attacked southeast of Dahit, Oman, while exiting the strait along the southern corridor that US forces had cleared of mines — the route Iran insists vessels must NOT use, demanding instead its own northern route hugging the Iranian coast. The vessel suffered damage to its bridge/upper deck but its main engine and navigation kept working and there were no injuries. Following the attack the International Maritime Organization paused its plan to evacuate roughly 11,000 stranded seafarers from the Persian Gulf, and Iran's Persian Gulf Strait Authority reiterated a warning to ships not to use undesignated routes. Several tankers reversed course or diverted toward Iran's northern route."
       },
       {
         "color": "amber",
-        "bold": "OIL EASED FURTHER, HORMUZ STILL CONTESTED: Brent slipped to ~$77 (WTI ~$74) as Gulf flows picked up. Iran's weekend closure stands on paper, but the Jun 21 safe-passage line is in place and tankers are moving; CENTCOM maintains 'Iran does not control the Strait.' War-risk insurance stays ~8x pre-crisis.",
-        "text": "TradingEconomics, CENTCOM (Jun 22-23): Brent eased to around $77 (WTI ~$74) — extending the post-deal slide — as tankers increasingly transited Hormuz with tracking signals on and the market priced a faster-than-expected return of Gulf barrels. The strait remains legally Iran-declared-closed, but the safe-passage communications mechanism agreed Jun 21 is functioning and CENTCOM continues to report active transit. The unresolved structural risks are unchanged: Iran's MOU ratification is still awaited (vote expected this week), Netanyahu is refusing to withdraw from southern Lebanon before a final deal (the trigger Iran cited to re-close), and war-risk insurance remains roughly 8x pre-crisis with several P&I clubs withdrawing cover."
+        "bold": "THIS INTERRUPTS A STRONG DE-ESCALATION: Brent had collapsed to ~$72 — a four-month low near the ~$70 pre-war level, down >10% on the week — as Hormuz transits accelerated. The strikes reversed crude back toward ~$74. Kpler: ~4.8M bpd now flowing (most since Feb 28); ~70 ships transited Wed (+105% d/d); the threat level was cut to 'moderate'; the US Treasury waived Iranian-oil sanctions through August.",
+        "text": "Reuters/Kpler, CNBC, TradingEconomics, Globalsecurity (Jun 24-26): before the escalation, normalisation was building fast — confirmed oil shipments through Hormuz had risen to ~4.8 million barrels/day since the deal (the highest since the Feb 28 attack, though still well below the ~15M bpd pre-war pace), about 70 ships transited on Wednesday (a 105% day-on-day jump per Kpler), at least 20 long-stranded tankers carrying ~35M barrels exited the Gulf, the Joint Maritime Information Center downgraded the Hormuz threat to 'moderate,' and the US Treasury waived sanctions on Iran's oil sales through August. That pulled Brent down to roughly $72, a four-month low. The Jun 25-26 strikes interrupted — but have not undone — that downtrend; crude bounced toward ~$74 in early trading while remaining far below the March wartime peak (when Dubai crude touched a record near $166)."
+      },
+      {
+        "color": "amber",
+        "bold": "INDIA MARKETS ARE SHUT TODAY (Jun 26, Muharram). The last session (Thu Jun 25) closed marginally up — Sensex 77,100.47 (+0.14%), Nifty ~24,056 — after oil slid toward pre-war levels; FIIs bought +Rs 384 Cr, DIIs +Rs 5,748 Cr. Markets reopen Monday Jun 29 to price the US-Iran escalation and the oil bounce.",
+        "text": "Yahoo Finance, TradingEconomics, Trendlyne (Jun 25): India's benchmarks had recovered through the week on cheaper oil, easing Hormuz traffic and India-US trade-deal optimism, with the Sensex pulling back from an intraday high of 77,803 to end marginally up at 77,100.47 ahead of the long weekend; the Nifty closed near 24,056. The exchanges are closed Friday Jun 26 for Muharram, so there is no live session to react to the overnight strikes — that re-pricing will come at Monday's reopen, when the offset between a renewed oil-risk premium and still-cheap crude (~$74) will set the tone. The separate, non-war Qatar Ras Laffan blast (13 dead, all Indian and Pakistani nationals; LNG exports unaffected) remains the recent India human cost."
       }
     ]
   },
   "deaths": "7,030+",
-  "deathsSub": "~3,580+ Iran, 2,670+ Lebanon, 99 Iraq, 27+ Israel, 19 US, 45+ Gulf, 3 India (MT Settebello). War toll steady at 7,030+ as the ceasefire holds into Day 115. SEPARATE, NON-WAR INDIA HUMAN COST: the Qatar Ras Laffan / Barzan blast (late Sun) killed 13 — all Indian and Pakistani nationals — and injured 66 (ruled a technical accident, not counted in the war toll). PM REVISION (Jun 23, 9PM): the morning calm soured — Indian equities sold off (Sensex -1.16% to 76,201) as Trump threatened fresh strikes and Iran briefly walked away from talks, even as the first Switzerland round produced a 60-day roadmap + four working groups and the US Treasury issued a 60-day Iranian-oil license. Brent eased to ~$77. Hormuz stays contested but tankers are moving.",
+  "deathsSub": "~3,580+ Iran, 2,670+ Lebanon, 99 Iraq, 27+ Israel, 19 US, 45+ Gulf, 3 India (MT Settebello). War toll at 7,030+; casualties from the Jun 26 US strikes (Iranian missile/drone storage + coastal radar) not yet reported. RE-ESCALATION: the ~2-week pause in US offensive ops ended Jun 26 when CENTCOM struck Iran in retaliation for Iran's Jun 25 drone attack on the container ship Ever Lovely; the Jun 17 ceasefire is under immediate strain. Oil had collapsed to ~$72 (4-month low) on surging Hormuz transits, then bounced toward ~$74 on the strikes. SEPARATE, NON-WAR: the Jun 21 Qatar Ras Laffan/Barzan blast killed 13 — all Indian and Pakistani nationals (not in the war toll). India markets shut Jun 26 (Muharram); last close Jun 25 Sensex 77,100.47 (+0.14%).",
   "econ": {
-    "sensex": "76,200.68 (Jun 23 close, -893.39 / -1.16%); Nifty ~23,824 (-1.16%)",
-    "sensexDelta": "Sharp risk-off Tue Jun 23: Sensex -893.39 (-1.16%) to 76,200.68, Nifty ~-279 (-1.16%) to ~23,824 — reversing Monday's rebound despite cheaper oil. Driver was geopolitical (Trump's renewed strike threats + Iran briefly walking away from the talks) plus an IT-sector overhang (Accenture Middle East hit) on Infosys/TCS/HCLTech/Wipro/Tech Mahindra and weakness in Reliance. Cheaper crude couldn't offset the headline risk today.",
-    "sensexSub": "Brent eased to ~$77 (WTI ~$74) as Gulf flows accelerated and the US Treasury issued a 60-day Iranian-oil license. Sub-$80 crude keeps the medium-term setup constructive for India (import bill, inflation, rupee ~94.4) — but near-term the tape trades on talks headlines, not barrels.",
-    "vix": "~14-16 (re-elevated intraday on Trump strike threats and the equity selloff)",
-    "vixDelta": "The -1.16% equity drop on renewed strike threats shows the risk premium snapping back even with oil falling. Counterweight: a firmer 60-day roadmap (four working groups), the US Iranian-oil license, and tankers moving through Hormuz. Volatility stays headline-driven until the ratification vote and Lebanon clear.",
-    "fpi": "FII appetite turned cautious on Jun 23's selloff; lower oil and a firmer roadmap remain structurally supportive, but flows track the talks' durability — Trump's threats and Iran's brief walkout are exactly the kind of noise that pauses buying.",
-    "fpiDelta": "Two-way: cheaper crude + a 60-day roadmap + US sanctions easing pull FIIs in; Trump strike threats, an awaited ratification vote and unresolved Lebanon push them out. Jun 23's risk-off tape shows the second set winning for now.",
-    "wealth": "BSE market cap dipped with Tue's selloff but the medium-term setup stays constructive on sub-$80 crude. Fuel-price relief (petrol/LPG) is plausible if the strait stays open and insurance eases, but not yet locked in. Qatar says LNG exports are unaffected by the Ras Laffan blast — no direct hit to India's gas supply.",
-    "analysis": "DAY 115, 9:00PM IST — PM REVISION. The morning's calm soured: Indian equities sold off on Jun 23 (Sensex -893.39 / -1.16% to 76,200.68; Nifty ~-1.16% to ~23,824) despite cheaper oil, after President Trump threatened to resume strikes on Iran and Tehran briefly walked away from the Switzerland talks; IT (Accenture overhang) and Reliance led the drop. BUT THE STRUCTURE FIRMED: the first Burgenstock round concluded with a Qatar/Pakistan-brokered 60-day roadmap and four working groups (Sanctions, Nuclear, Reconstruction, Monitoring), technical talks continue through the week, and the US Treasury issued a 60-day license for Iranian oil (including US imports, dollar-payable). OIL eased to ~$77 Brent (WTI ~$74) as Gulf flows accelerated through a still-contested Hormuz under the Jun 21 safe-passage line. The takeaway: real structural progress sitting under a jumpy, headline-driven tape. Base case: gradual normalisation and possible fuel relief if Lebanon holds and parliament ratifies. Downside: a failed vote or fresh Israeli strikes re-tighten the strait and reverse flows. Watch the ratification vote, Lebanon, and Brent vs $75."
+    "sensex": "77,100.47 (Jun 25 close, +0.14%); SHUT Jun 26 (Muharram); Nifty ~24,056",
+    "sensexDelta": "India's exchanges are closed Fri Jun 26 for Muharram, so there is no live session to react to the overnight US-Iran strikes. The last session (Thu Jun 25) closed marginally up — Sensex 77,100.47 (+0.14%) after an intraday high of 77,803, Nifty ~24,056 — as cheaper oil and de-escalation hopes supported sentiment ahead of the long weekend. The re-pricing of the escalation + oil bounce comes at Monday's reopen (Jun 29).",
+    "sensexSub": "Brent had collapsed to ~$72 (4-month low, near the ~$70 pre-war level) on surging Hormuz transits, then bounced toward ~$74 on the Jun 26 strikes. Still-cheap crude vs a renewed risk premium will set the Monday tone. USD/INR ~94.0; FIIs +Rs 384 Cr / DIIs +Rs 5,748 Cr on Jun 25.",
+    "vix": "~13 at Jun 25 close (war-low ~12.9 mid-week); set to spike at the Mon Jun 29 reopen on the strikes",
+    "vixDelta": "India VIX had fallen to a war-low (~12.9) as oil slid and Hormuz normalised. The Jun 26 US strikes on Iran and Iran's vow to respond will likely lift it sharply when markets reopen Monday. The counterweight is that crude is still cheap (~$74) and the strikes were framed as calibrated rather than war-restarting.",
+    "fpi": "FIIs were net buyers into Jun 25 (+Rs 384 Cr) on cheaper oil and India-US trade-deal optimism. The escalation injects fresh two-way risk; Monday's reopen will test whether flows stay constructive or turn defensive.",
+    "fpiDelta": "Pre-strike, lower crude + de-escalation + trade-deal hopes were pulling FIIs in. The US-Iran strikes are the kind of shock that pauses buying — but with oil still near pre-war levels, a calibrated, contained exchange could keep flows broadly intact. Watch Iran's response and Brent vs $75.",
+    "wealth": "BSE market cap was recovering toward ~Rs 500 trillion on cheaper oil before the holiday. The escalation reintroduces downside risk for the Monday reopen, but sub-$80 crude keeps the medium-term setup constructive and supports the case for eventual fuel-price relief. Qatar LNG exports unaffected by the Ras Laffan blast.",
+    "analysis": "DAY 118, 9:15AM IST — RE-ESCALATION: US STRIKES IRAN. The story has flipped from 'normalising' back to 'escalating.' After a strong week of de-escalation — Brent collapsing to ~$72 (a 4-month low) as Hormuz transits surged to ~4.8M bpd and the US Treasury waived Iranian-oil sanctions through August — the ceasefire cracked: Iran's Jun 25 drone attack on the container ship Ever Lovely drew calibrated US strikes on Jun 26 (missile/drone storage + coastal radar, six aircraft), ending the ~2-week pause in US offensive ops and putting the Jun 17 MOU under immediate strain. Oil bounced from its ~$72 low toward ~$74. India's exchanges are SHUT today for Muharram (last close Jun 25: Sensex 77,100.47 +0.14%, Nifty ~24,056), so the re-pricing waits for Monday Jun 29. Base case: a limited, contained exchange that diplomacy absorbs within days, leaving the broader de-escalation (and cheap oil) intact. Downside: an Iranian counter-strike on US/Gulf targets that re-tightens Hormuz and spikes crude. Watch Iran's response, Brent vs $75, and the Monday India reopen."
   },
   "hormuzStatus": {
-    "status": "CONTESTED — Iran-declared closed on paper; tankers moving under a safe-passage line",
+    "status": "ESCALATION — US strikes Iran (Jun 26) after a drone attack on a ship",
     "preWarFlow": "130-160 ships/day",
-    "currentFlow": "Improving under contest. Tankers increasingly transiting with tracking signals on; CENTCOM: 'Iran does not control the Strait.' Gulf flows at their fastest wartime pace. Iran's weekend closure stands on paper; war-risk insurance still ~8x pre-crisis.",
-    "reduction": "By Jun 23 evening the physical picture keeps improving even as Iran's closure stands on paper: tankers are moving under the Jun 21 safe-passage line, Saudi and Qatari barrels are returning, and Brent has slid to ~$77 on a faster-than-expected return of Gulf supply. The US Treasury's 60-day Iranian-oil license adds to that. But 'open for normal, insured, any-flag traffic' is not yet restored — insurance is ~8x pre-crisis — and a still-awaited Iranian ratification vote plus Israel's posture in Lebanon could swing it either way.",
+    "currentFlow": "Transits had surged pre-strike — ~4.8M bpd, ~70 ships Wed (+105% d/d), threat level cut to 'moderate' (Kpler). But Iran's Jun 25 drone attack on the Ever Lovely + the Jun 26 US strikes have reintroduced risk; some tankers reversed/diverted to Iran's northern route. Pre-war commercial lane still mined/closed; insurance ~0.7% of hull.",
+    "reduction": "A sharp reversal of momentum. Through Jun 24-25 Hormuz was normalising fast and Brent fell to ~$72 (a four-month low). Then Iran's drone attack on the Ever Lovely (Jun 25) and the US retaliatory strikes (Jun 26) put the Jun 17 ceasefire under immediate strain and pushed crude back toward ~$74. Flows have not stopped — but confidence has cracked again, the IMO has paused its 11,000-seafarer evacuation, and the contest between Iran's northern route and the US/Oman southern corridor is now being settled by drones and airstrikes rather than paperwork.",
     "indianVesselsNear": 13,
     "indianSeafarers": 562,
     "indianTransited": 1,
-    "totalShipsWaiting": "Stranded-vessel pressure easing as transits accelerate, but war-risk insurance still ~8x pre-crisis with several P&I clubs withdrawing cover. 562 Indian crew on 13 Indian-flagged vessels; 18,000+ Indian seafarers across the Gulf — repatriation should keep improving while the safe-passage line holds.",
-    "lastTransit": "Day 115 (Jun 23, 9PM IST): contested but flowing. Tankers moving under the Jun 21 safe-passage line; CENTCOM says Iran doesn't control the strait. Talks produced a 60-day roadmap + four working groups; US Treasury issued a 60-day Iranian-oil license. Brent ~$77. India equities fell -1.16% on Trump strike threats. Ratification vote still awaited.",
-    "indianNavyEscort": "Op Urja Suraksha continuing as transits accelerate under the Jun 21 US-Iran safe-passage line; India earlier confirmed three of its tankers (860,000+ MT) crossed Hormuz safely. MT Settebello diplomatic track continues. Repatriation of 18,000+ Indian seafarers should keep improving while the strait stays flowing and insurance gradually eases.",
-    "headline": "PM REVISION (Day 115, 9PM): the morning calm soured — India equities fell -1.16% (Sensex 76,201) on Trump strike threats and Iran briefly walking away from talks, even as Brent eased to ~$77. STRUCTURALLY POSITIVE THOUGH: the first Switzerland round produced a 60-day roadmap + four working groups, and the US Treasury issued a 60-day Iranian-oil license. Hormuz stays Iran-declared-closed on paper but tankers are moving under the Jun 21 safe-passage line. Still fragile: ratification vote awaited, Lebanon unresolved, insurance ~8x. Day 115.",
+    "totalShipsWaiting": "IMO PAUSED its plan to evacuate ~11,000 stranded seafarers after the Jun 25 Ever Lovely attack. 562 Indian crew on 13 Indian-flagged vessels; 18,000+ Indian seafarers across the Gulf remain exposed. 20+ long-stranded tankers (~35M barrels) had exited pre-strike (Kpler); further sailings now hinge on Iran's response.",
+    "lastTransit": "Day 118 (Jun 26, 9:15AM IST): RE-ESCALATION. US/CENTCOM struck Iran (missile/drone storage + coastal radar, 6 aircraft) in retaliation for Iran's Jun 25 drone attack on the Ever Lovely. Ceasefire under immediate strain; Trump warns of more, Iran vows a harsh response. Brent bounced from a ~$72 low toward ~$74. India markets shut (Muharram).",
+    "indianNavyEscort": "Op Urja Suraksha posture re-tightening after the Jun 25 ship attack and Jun 26 strikes; the IMO has paused the regional seafarer evacuation. India earlier confirmed three of its tankers (860,000+ MT) crossed Hormuz safely. MT Settebello diplomatic track continues. Repatriation of 18,000+ Indian seafarers is uncertain again pending Iran's response.",
+    "headline": "RE-ESCALATION (Day 118): US STRIKES IRAN on Jun 26 — six aircraft, four targets (missile/drone storage + coastal radar) — in retaliation for Iran's Jun 25 drone attack on the container ship Ever Lovely. The ~2-week pause in US offensive ops is over and the Jun 17 ceasefire is under immediate strain; Trump warns of more, Iran vows a harsh response. This interrupts a strong de-escalation: oil had collapsed to ~$72 (4-month low) on surging Hormuz transits, then bounced toward ~$74 on the strikes. India markets shut today (Muharram); reopen Mon Jun 29. Day 118.",
     "indianCasualties": 3,
     "indianCasualtyDetail": "MT Settebello (Palau-flagged): Aditya Sharma (deck cadet), Shivanand Chaurashiya (engine fitter), Patnala Suresh (chief engineer) — killed when US Navy fired precision munitions into engine room, June 9-10. 21 other Indians safely evacuated. MT Jalveer (June 11): all 20 Indians aboard safely evacuated after separate US Navy attack."
   },
   "hormuzEvents": [
+    {
+      "d": "Jun 24-26",
+      "e": "DAY 116-118 — DE-ESCALATION, THEN RE-ESCALATION: US STRIKES IRAN. Through Jun 24-25 the strait was normalising fast: Kpler put confirmed Hormuz oil flows at ~4.8M bpd (the most since the Feb 28 attack, still below the ~15M pre-war pace), ~70 ships transited on Wednesday (+105% day-on-day), 20+ long-stranded tankers carrying ~35M barrels exited the Gulf, the Joint Maritime Information Center downgraded the Hormuz threat to 'moderate,' and the US Treasury waived sanctions on Iranian oil sales through August — pulling Brent down to ~$72, a four-month low near the ~$70 pre-war level (down >10% on the week). THEN THE CEASEFIRE CRACKED: on Jun 25 an Iranian/IRGC one-way attack drone struck the Singapore-flagged container ship Ever Lovely as it exited Hormuz along the US/Oman-backed southern corridor near Oman — Trump said Iran fired four drones (three shot down), one hit the upper deck, no injuries, the ship sailed on — and the IMO paused its plan to evacuate ~11,000 stranded seafarers while Iran reiterated that ships must use only its northern route. Early Jun 26, at Trump's direction, US Central Command struck Iran: six aircraft hit four targets (Iranian missile and drone storage sites plus coastal radar along Iran's coast, around Sirik), calling Iran's drone attack 'unwarranted aggression' that violated the ceasefire and undermined freedom of navigation. US officials framed the strikes as calibrated — large enough to message on freedom of navigation, limited enough to avoid restarting the wider war — ending the ~2-week pause in US offensive ops that had held since Trump cancelled a third strike round on Jun 11. Trump warned of more; Iran vowed a 'harsh' response. OIL bounced from its ~$72 low toward ~$74 on the strikes but stayed far below the March wartime peak (Dubai crude record ~$166). INDIA: equity markets are shut Jun 26 for Muharram; the last session (Thu Jun 25) closed marginally up — Sensex 77,100.47 (+0.14%), Nifty ~24,056 — with FIIs +Rs 384 Cr and DIIs +Rs 5,748 Cr, and reopens Monday Jun 29 to price the escalation. West Asia War Day 118."
+    },
     {
       "d": "Jun 23 PM",
       "e": "DAY 115 PM — RISK-OFF RETURNS EVEN AS THE 60-DAY ROADMAP FIRMS UP. The morning's 'contested de-escalation' calm soured through the session: Indian equities sold off despite cheaper oil — the Sensex closed down 893.39 points (-1.16%) at 76,200.68 and the Nifty fell ~1.16% to ~23,824 — after President Trump threatened to resume strikes on Iran and Tehran briefly walked away from the Burgenstock talks before returning, with an IT-sector overhang (Accenture's flagged Middle East hit) dragging Infosys, TCS, HCLTech, Wipro and Tech Mahindra, and Reliance adding pressure. STRUCTURALLY, THOUGH, THE TALKS HELD: the first Switzerland round concluded with mediators Qatar and Pakistan announcing a joint 60-day roadmap toward a final deal; both sides confirmed the agenda covered nuclear, Lebanon and the Strait; technical teams continue through the week under four formal working groups (Sanctions Termination, Nuclear Affairs, Iran Reconstruction & Economic Development, Monitoring & Implementation) and a high-level oversight committee. SANCTIONS STEP: the US Treasury issued a 60-day license authorising the production, sale and delivery of Iranian oil, including imports of Iranian crude to the US payable in dollars. OIL eased further to ~$77 Brent (WTI ~$74) as tankers increasingly transited Hormuz with tracking on and the market priced a faster return of Gulf barrels; Saudi and Qatari crude is heading back to terminals. HORMUZ stays Iran-declared-closed on paper, but the Jun 21 safe-passage communications mechanism is functioning and CENTCOM maintains 'Iran does not control the Strait.' STILL FRAGILE: Iran's MOU ratification is still awaited (vote expected this week), Netanyahu refuses to withdraw from southern Lebanon before a final deal, and war-risk insurance remains ~8x pre-crisis with several P&I clubs withdrawing cover. The separate, non-war Qatar Ras Laffan/Barzan blast (13 dead, all Indian and Pakistani nationals; LNG exports unaffected) remains the day's India human cost. West Asia War Day 115."
@@ -924,8 +928,8 @@
     }
   ],
   "projNow": {
-    "brent": 77,
-    "rupee": 94.4,
+    "brent": 74,
+    "rupee": 94.0,
     "lpg": 912,
     "petrol": 103.54,
     "deaths": 7030
@@ -933,22 +937,22 @@
   "scenarios": {
     "headers": [
       "Pre-war",
-      "Now (D115 PM)",
-      "Lebanon holds + ratified → reopen",
-      "Prolonged standoff",
-      "Vote fails / Israel re-strikes → re-blockade"
+      "Now (D118)",
+      "Strikes contained → renormalise",
+      "Tit-for-tat standoff",
+      "Iran counter-strikes → re-blockade"
     ],
     "brent": [
       65,
-      77,
+      74,
       72,
-      95,
+      88,
       120
     ],
     "rupee": [
       91,
-      94.4,
-      92.0,
+      94.0,
+      92.5,
       95.5,
       103
     ],
@@ -956,12 +960,12 @@
       0,
       "7,030+",
       "7,050",
-      "9,000",
+      "8,500",
       "25,000+"
     ],
     "sensex": [
       "78,699",
-      "76,201",
+      "77,100",
       "90,000+",
       "73,000",
       "61,000"
@@ -975,7 +979,7 @@
     ],
     "fii": [
       "-",
-      "Cautious",
+      "Two-way",
       "$50B return",
       "Rs 10,000Cr out",
       "Rs 30,000Cr out"
@@ -1032,8 +1036,8 @@
     }
   ],
   "assessment": {
-    "headline": "DAY 115, 9:00PM IST — FRAGILITY REASSERTS: INDIAN EQUITIES SOLD OFF (SENSEX -893 / -1.16% TO 76,201; NIFTY ~23,824) DESPITE CHEAPER OIL (BRENT ~$77), AFTER TRUMP THREATENED FRESH STRIKES AND IRAN BRIEFLY WALKED AWAY FROM THE TALKS. STRUCTURALLY THE DEAL FIRMED: A QATAR/PAKISTAN-BROKERED 60-DAY ROADMAP, FOUR WORKING GROUPS, AND A US 60-DAY IRANIAN-OIL LICENSE. HORMUZ STAYS CONTESTED ON PAPER BUT TANKERS ARE MOVING.",
-    "body": "Tuesday 9:00 PM IST. Day 115. Structural progress under a jumpy tape — that's the whole day.\n\nTHE DAY SOURED\nAfter a calm open, Indian equities sold off hard:\nthe Sensex closed down 893 points (-1.16%) at 76,201,\nthe Nifty fell a comparable ~1.16% to around 23,824.\nThe trigger was geopolitics, not oil. Trump threatened to resume strikes,\nand Iran briefly walked away from the Switzerland table before returning.\nAn IT overhang (Accenture's Middle East hit) and Reliance weakness did the rest.\nCheaper crude simply could not offset the headline risk today.\n\nWHAT STILL HELD TOGETHER\nThe talks did not collapse. The first Burgenstock round concluded with\nmediators Qatar and Pakistan announcing a 60-day roadmap to a final deal.\nBoth sides confirmed the agenda covers nuclear, Lebanon and the Strait.\nFour working groups now run the track: Sanctions Termination, Nuclear Affairs,\nReconstruction, and Monitoring & Implementation, under a high-level committee.\nThis is more structure than the deal has ever had.\n\nTHE US SANCTIONS STEP\nThe US Treasury issued a 60-day license authorising the production,\nsale and delivery of Iranian oil — including imports to the US, paid in dollars.\nIt is the most tangible easing yet, and it should pull barrels back to market\nif the strait keeps flowing.\n\nHORMUZ — STILL CONTESTED\nIran's weekend closure stands on paper, but tankers are moving\nunder the Jun 21 safe-passage line; CENTCOM says Iran doesn't control the strait.\nBrent eased to ~$77 as Gulf flows hit their fastest wartime pace.\nStill unresolved: Iran's ratification vote (awaited this week),\nNetanyahu's refusal to leave southern Lebanon, and ~8x war-risk insurance.\n\nFOR INDIA\nThe medium-term setup stays constructive on sub-$80 crude —\ngood for the import bill, inflation and the rupee (~94.4).\nBut today proved the near term trades on talks headlines, not barrels.\nA petrol/LPG cut is plausible, not yet locked in.\nThe Qatar Ras Laffan blast — 13 dead, all Indian and Pakistani nationals —\nis the day's human cost, though Qatar says LNG exports are unaffected.\nBase case: gradual normalisation if Lebanon holds and parliament ratifies.\nDownside: one Trump post, or one Israeli strike in Lebanon, flips it back.\nWatch three things: the ratification vote, Lebanon, and Brent versus $75."
+    "headline": "DAY 118, 9:15AM IST — RE-ESCALATION: US STRIKES IRAN ON JUN 26 (SIX AIRCRAFT, FOUR TARGETS — MISSILE/DRONE STORAGE + COASTAL RADAR) IN RETALIATION FOR IRAN'S JUN 25 DRONE ATTACK ON THE CONTAINER SHIP EVER LOVELY. THE ~2-WEEK PAUSE IN US OFFENSIVE OPS IS OVER AND THE JUN 17 CEASEFIRE IS UNDER IMMEDIATE STRAIN. THIS INTERRUPTS A STRONG DE-ESCALATION — OIL HAD COLLAPSED TO ~$72 (4-MONTH LOW), NOW BOUNCED TO ~$74. INDIA MARKETS SHUT TODAY (MUHARRAM); REOPEN MON JUN 29.",
+    "body": "Friday 9:15 AM IST. Day 118. The de-escalation just hit a wall.\n\nWHAT HAPPENED\nOn Jun 25 an Iranian one-way attack drone struck the container ship\nEver Lovely as it left Hormuz along the US/Oman-backed southern corridor.\nTrump said Iran fired four drones; one hit the upper deck, no injuries.\nEarly Jun 26, at Trump's direction, US Central Command struck back:\nsix aircraft, four targets — Iranian missile and drone storage, coastal radar.\nThe ~2-week pause in US offensive ops, held since Jun 11, is over.\n\nHOW BIG IS THIS\nUS officials framed the strikes as deliberately calibrated —\nlarge enough to make a point on freedom of navigation,\nlimited enough to avoid restarting the wider war.\nCENTCOM called Iran's drone attack 'unwarranted aggression'\nthat violated the ceasefire. Trump warned of more; Iran vowed a harsh response.\nThe Jun 17 MOU is not dead — but it is under immediate strain.\n\nWHAT IT INTERRUPTS\nUntil Thursday this was a normalisation story. Hormuz transits had surged\nto ~4.8M bpd (Kpler), ~70 ships crossed Wednesday (+105% day-on-day),\nthe threat level was cut to 'moderate,' and the US Treasury waived\nIranian-oil sanctions through August. Brent fell to ~$72 — a four-month low,\nnear the ~$70 pre-war level. The strikes bounced it back toward ~$74.\n\nTHE SEA-LANE FIGHT\nThis is really a fight over which route ships use. Iran demands its\nnorthern corridor; the US and Oman back a southern lane near Oman.\nThe Ever Lovely was on the southern route when it was hit.\nThe pre-war commercial lane stays mined and closed; insurance is still ~0.7% of hull.\n\nFOR INDIA\nMarkets are shut today for Muharram, so there is no live reaction —\nthe last close (Jun 25) was Sensex 77,100, Nifty ~24,056, marginally up.\nThe re-pricing comes Monday Jun 29: cheap oil (~$74) versus a renewed risk premium.\nThe IMO has paused its 11,000-seafarer evacuation; 562 Indian crew remain\non 13 Indian-flagged vessels, with 18,000+ seafarers across the Gulf.\nBase case: a limited, contained exchange that diplomacy absorbs within days.\nDownside: an Iranian counter-strike on US/Gulf targets re-tightens the strait.\nWatch three things: Iran's response, Brent versus $75, and Monday's reopen."
   },
   "featured": [
     {
@@ -1068,14 +1072,14 @@
     }
   ],
   "radarScores": {
-    "Oil Shock": 36,
-    "Market Crash": 32,
-    "Nuclear Risk": 48,
-    "Hormuz Closure": 66,
-    "Household Impact": 32,
-    "Currency Crisis": 24,
-    "Social Unrest": 20,
-    "Military Exposure": 50
+    "Oil Shock": 45,
+    "Market Crash": 38,
+    "Nuclear Risk": 52,
+    "Hormuz Closure": 58,
+    "Household Impact": 34,
+    "Currency Crisis": 26,
+    "Social Unrest": 22,
+    "Military Exposure": 72
   },
   "timeline": [
     {
@@ -1387,6 +1391,36 @@
       "rupee": 94.4,
       "tag": "DAY 115 TUE 9PM IST — PM REVISION: risk-off returns. Indian equities sold off despite cheaper oil — Sensex -893.39 (-1.16%) to 76,200.68, Nifty ~-1.16% to ~23,824 — after Trump threatened to resume strikes and Iran briefly walked away from the Switzerland talks; IT (Accenture overhang) + Reliance led the drop. BUT structure firmed: first Burgenstock round concluded with a Qatar/Pakistan 60-day roadmap + four working groups (Sanctions, Nuclear, Reconstruction, Monitoring); US Treasury issued a 60-day Iranian-oil license (incl. US imports, dollar-payable). Brent eased to ~$77 (WTI ~$74) as Gulf flows accelerated. Hormuz still Iran-declared-closed on paper but tankers moving under the Jun 21 safe-passage line. Still fragile: ratification vote awaited, Lebanon unresolved, insurance ~8x.",
       "sev": 2
+    },
+    {
+      "d": 116,
+      "l": "Jun 24",
+      "deaths": 7030,
+      "brent": 75.0,
+      "nifty": 24022,
+      "rupee": 94.0,
+      "tag": "DAY 116 WED — DE-ESCALATION ACCELERATES. Hormuz transits surge: Kpler reports ~4.8M bpd flowing (most since Feb 28), ~70 ships transited Wed (+105% day-on-day), 20+ long-stranded tankers (~35M barrels) exit the Gulf; the Joint Maritime Information Center cuts the Hormuz threat to 'moderate' and the US Treasury waives Iranian-oil sanctions through August. India recovers: Sensex +790.54 (+1.04%) to 76,991.22, Nifty +197.55 to 24,021.65. Brent sliding toward ~$75.",
+      "sev": 1
+    },
+    {
+      "d": 117,
+      "l": "Jun 25",
+      "deaths": 7030,
+      "brent": 72.5,
+      "nifty": 24056,
+      "rupee": 94.0,
+      "tag": "DAY 117 THU — OIL HITS A 4-MONTH LOW, THEN A SHIP IS HIT. Brent falls to ~$72 (lowest since late Feb, near the ~$70 pre-war level, >10% down on the week) as Gulf flows accelerate. THEN an Iranian one-way attack drone strikes the Singapore-flagged container ship Ever Lovely as it exits Hormuz on the US/Oman southern corridor near Oman — Trump says Iran fired 4 drones (3 shot down), 1 hit the upper deck, no injuries. The IMO PAUSES its plan to evacuate ~11,000 stranded seafarers. India closes marginally up: Sensex 77,100.47 (+0.14%), Nifty ~24,056.",
+      "sev": 2
+    },
+    {
+      "d": 118,
+      "l": "Jun 26",
+      "deaths": 7030,
+      "brent": 74.0,
+      "nifty": 24056,
+      "rupee": 94.0,
+      "tag": "DAY 118 FRI 9:15AM IST — RE-ESCALATION: US STRIKES IRAN. At Trump's direction, CENTCOM hits four targets — Iranian missile and drone storage + coastal radar along Iran's coast (six aircraft, around Sirik) — in retaliation for the Jun 25 drone attack on the Ever Lovely, calling it 'unwarranted aggression' that violated the ceasefire. The ~2-week pause in US offensive ops ends; the Jun 17 MOU is under immediate strain. Trump warns of more; Iran vows a harsh response. Oil bounces from a ~$72 low toward ~$74. India markets SHUT for Muharram; reopen Mon Jun 29.",
+      "sev": 3
     }
   ]
 }
