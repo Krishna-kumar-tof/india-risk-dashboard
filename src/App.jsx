@@ -1,22 +1,23 @@
 import { useState, useEffect, useRef } from "react";
 
 // ═══════════════════════════════════════════════════════════════════
-// INDIA RISK DASHBOARD — V16.4 — RE-ESCALATION: US STRIKES IRAN (Day 118, Jun 26 2026, 9:15AM)
-// Changes: war-intel.json advanced to Jun 26 9:15 AM IST. Story flips from
-// "normalising" back to "escalating": after a strong de-escalation (Brent
-// collapsed to ~$72, a 4-month low; Hormuz transits surged to ~4.8M bpd;
-// US Treasury waived Iranian-oil sanctions thru Aug), Iran's Jun 25 drone
-// attack on the container ship Ever Lovely drew CALIBRATED US STRIKES on
-// Jun 26 (6 aircraft, 4 targets: missile/drone storage + coastal radar).
-// The ~2-week pause in US offensive ops ended; the Jun 17 ceasefire is
-// under immediate strain. Oil bounced to ~$74. India markets SHUT Jun 26
-// (Muharram); last close Jun 25 Sensex 77,100.47 (+0.14%); reopen Mon
-// Jun 29. _phase set to "ESCALATION". LOGIC EDIT: Hormuz STATUS box now
-// renders red for ESCALATION as well as BLOCKADE (was green for non-
-// blockade); escalation badge relabeled "ESCALATION — US STRIKES IRAN".
-// radarScores: Military Exposure spiked to 72. Added Days 116-118 timeline.
-// V16.3 (Jun 23 9PM): risk-off PM revision; roadmap firms, equities sold off.
-// V16.2 (Jun 23 8AM): contested de-escalation. V16.1 (Jun 22): Hormuz re-closure.
+// INDIA RISK DASHBOARD — V16.5 — IRAN STRIKES US GULF BASES (Day 120, Jun 28 2026, 8:45AM)
+// Changes: war-intel.json advanced to Jun 28 8:45 AM IST. Sharpest
+// escalation since the war's opening. Weekend sequence: Iran drone-hit the
+// Kiku tanker (Jun 27) → 2nd US strike wave on Iranian coastal military
+// sites (Sirik/Bandar-e Lengeh/Qeshm) → early Jun 28 Iran fired ballistic
+// missiles + drones at US bases in Kuwait (Ali Al Salem) and Bahrain (5th
+// Fleet HQ). US says all intercepted, no US injuries; Bahrain reported a
+// damaged residential building, no deaths; 1 Qatari killed by shrapnel.
+// Trump threatened to "complete the job"; Iran threatened a "complete
+// halt" to talks — BUT deconfliction + MoU talks stay active and CENTCOM
+// says transits continue. Oil frozen at ~$72 (Fri settle), set to gap up
+// Monday. India markets shut (weekend + Fri Muharram); last close Jun 25
+// Sensex 77,100.47; reopen Mon Jun 29. _phase stays "ESCALATION"; badge
+// relabeled "ESCALATION — IRAN HITS GULF BASES". radar Military Exposure 88,
+// Oil Shock 62. Added Days 119-120 timeline.
+// V16.4 (Jun 26): US strikes Iran (round 1); status box red for ESCALATION.
+// V16.3 (Jun 23 9PM): risk-off PM revision. V16.2/16.1 (Jun 23/22): de-escalation/re-closure.
 // ═══════════════════════════════════════════════════════════════════
 
 const C = {
@@ -500,7 +501,7 @@ export default function App() {
               borderRadius:6,background:(isEscalation?C.red:isBlockade?C.orange:C.green)+'0c',
               fontWeight:700,fontFamily:MONO,
               animation:(isEscalation||isBlockade)?'pulse 1.8s infinite':undefined}}>
-              {isEscalation?"🔴 ESCALATION — US STRIKES IRAN":isBlockade?"⚠ HORMUZ RE-CLOSED (CONTESTED)":"● CEASEFIRE"}
+              {isEscalation?"🔴 ESCALATION — IRAN HITS GULF BASES":isBlockade?"⚠ HORMUZ RE-CLOSED (CONTESTED)":"● CEASEFIRE"}
             </div>
           </div>
         </div>
