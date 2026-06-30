@@ -1,23 +1,21 @@
 import { useState, useEffect, useRef } from "react";
 
 // ═══════════════════════════════════════════════════════════════════
-// INDIA RISK DASHBOARD — V16.5 — IRAN STRIKES US GULF BASES (Day 120, Jun 28 2026, 8:45AM)
-// Changes: war-intel.json advanced to Jun 28 8:45 AM IST. Sharpest
-// escalation since the war's opening. Weekend sequence: Iran drone-hit the
-// Kiku tanker (Jun 27) → 2nd US strike wave on Iranian coastal military
-// sites (Sirik/Bandar-e Lengeh/Qeshm) → early Jun 28 Iran fired ballistic
-// missiles + drones at US bases in Kuwait (Ali Al Salem) and Bahrain (5th
-// Fleet HQ). US says all intercepted, no US injuries; Bahrain reported a
-// damaged residential building, no deaths; 1 Qatari killed by shrapnel.
-// Trump threatened to "complete the job"; Iran threatened a "complete
-// halt" to talks — BUT deconfliction + MoU talks stay active and CENTCOM
-// says transits continue. Oil frozen at ~$72 (Fri settle), set to gap up
-// Monday. India markets shut (weekend + Fri Muharram); last close Jun 25
-// Sensex 77,100.47; reopen Mon Jun 29. _phase stays "ESCALATION"; badge
-// relabeled "ESCALATION — IRAN HITS GULF BASES". radar Military Exposure 88,
-// Oil Shock 62. Added Days 119-120 timeline.
-// V16.4 (Jun 26): US strikes Iran (round 1); status box red for ESCALATION.
-// V16.3 (Jun 23 9PM): risk-off PM revision. V16.2/16.1 (Jun 23/22): de-escalation/re-closure.
+// INDIA RISK DASHBOARD — V16.6 — FRAGILE PAUSE; TALKS MOVE TO QATAR (Day 122, Jun 30 2026, 9AM)
+// Changes: war-intel.json advanced to Jun 30 9:00 AM IST. The weekend
+// escalation cooled: after Iran's Jun 28 strikes on US bases in Kuwait &
+// Bahrain (all intercepted), the US and Iran PAUSED strikes Jun 29 (AP),
+// and the Jun 30 round was shifted from Switzerland to QATAR and refocused
+// from Iran's nuclear programme onto the Strait of Hormuz (Axios). The
+// feared shock never came: Brent ~$73 (+0.8% Mon, after a 10.6% weekly
+// drop), Sensex closed FLAT ~77,097 Jun 29, rupee firmed ~94.5. Crux
+// unresolved: who governs/tolls Hormuz (Iran claims sole control; Oman/US
+// reject fees); deconfliction hotline still not operational. _phase kept
+// "ESCALATION" (visuals stay red — pause is <48h old & fragile) but badge
+// relabeled "FRAGILE PAUSE — TALKS IN QATAR". radar Military Exposure eased
+// 88→60, Oil Shock 62→38. Added Days 121-122 timeline.
+// V16.5 (Jun 28): Iran hit US Gulf bases. V16.4 (Jun 26): US strikes Iran.
+// V16.3/16.2/16.1 (Jun 23/22): risk-off / de-escalation / Hormuz re-closure.
 // ═══════════════════════════════════════════════════════════════════
 
 const C = {
@@ -501,7 +499,7 @@ export default function App() {
               borderRadius:6,background:(isEscalation?C.red:isBlockade?C.orange:C.green)+'0c',
               fontWeight:700,fontFamily:MONO,
               animation:(isEscalation||isBlockade)?'pulse 1.8s infinite':undefined}}>
-              {isEscalation?"🔴 ESCALATION — IRAN HITS GULF BASES":isBlockade?"⚠ HORMUZ RE-CLOSED (CONTESTED)":"● CEASEFIRE"}
+              {isEscalation?"🔴 FRAGILE PAUSE — TALKS IN QATAR":isBlockade?"⚠ HORMUZ RE-CLOSED (CONTESTED)":"● CEASEFIRE"}
             </div>
           </div>
         </div>
