@@ -1,74 +1,78 @@
 {
-  "_updated": "June 30, 2026 — 9:00 AM IST",
-  "_day": 122,
-  "_phase": "ESCALATION",
-  "_note": "Verified Jun 30: AP (via Britannica), RFE/RL, Axios, CNN, NPR, HDFC Sky, Goodreturns, TradingEconomics, Reuters. DAY 122 TUE 9:00AM IST — FRAGILE PAUSE; TALKS MOVE TO QATAR AND REFOCUS ON HORMUZ. After the weekend's sharpest escalation (Iran's Jun 28 missile/drone strikes on US bases in Kuwait and Bahrain, which the US said were all intercepted), the US and Iran PAUSED strikes on Mon Jun 29 — though they 'disagree over next steps on talks' (AP). Crucially, the next negotiating round (Jun 30), originally set for Switzerland to discuss Iran's NUCLEAR programme, was SHIFTED TO QATAR and REFOCUSED ONTO THE STRAIT OF HORMUZ (Axios) — an implicit admission that the strait, not the nuclear file, is now the crux. MARKETS STEADIED: the feared Monday spike never came because Iran's strikes were intercepted with no real damage — Brent rose only ~0.8% to ~$73 on Jun 29 (after a 10.6% drop the prior week) and has held near $73; India's Sensex reopened cautiously and closed essentially FLAT at ~77,097 on Jun 29, the rupee firmed (~94.5), and US stocks recovered. BUT THE PAUSE IS FRAGILE AND THE CORE DISPUTE IS UNRESOLVED: Iran (FM Araghchi, and Velayati on Jun 29) insists it alone governs Hormuz and wants to charge transit tolls; Oman and the US reject fees; a US-Navy-overseen body has WIDENED the Omani route for two-way traffic (challenging Iran's claimed control); and the US-Iran military 'hotline' to deconflict shipping was still not operational as of Jun 27. Israel-Lebanon signed a US-brokered framework (Jun 26) but Israel destroyed a Hezbollah tunnel and Hezbollah killed an Israeli soldier over the weekend, and Iran-linked cyberattacks on Israel have surged. INDIA: markets open Jun 30 (9:15 IST) with a cautiously positive bias on the pause, ~$73 crude and a firmer rupee — watching the Qatar talks. No Indian casualties reported from the weekend strikes.",
+  "_updated": "July 06, 2026 — 8:45 AM IST",
+  "_day": 128,
+  "_phase": "CEASEFIRE",
+  "_note": "Verified Jul 6: AP (via Britannica), CNN, CBS, Reuters/TradingEconomics, HDFC Sky, Goodreturns, 5paisa, Yahoo Finance, House of Commons Library, TankerTrackers/Kpler. DAY 128 MON 8:45AM IST — CEASEFIRE HOLDING; OIL BACK TO PRE-WAR LEVELS; TALKS GRIND ON IN DOHA. The June 29 pause has now HELD FOR A WEEK — no new US-Iran strikes since. DIPLOMACY continued in Doha: US envoys Steve Witkoff and Jared Kushner met Qatari mediators (Jul 1), but Iran declined a direct meeting with the US delegation, so the two sides held SEPARATE talks via Qatar and 'agreed to continue discussions' (AP, Jul 1); Trump said negotiations were 'progressing well.' Iran is set to receive $6bn of $12bn in frozen funds held in Qatar, a first Joint Hormuz Committee met in Muscat, and France and Oman agreed to help demine the strait. SHIPPING IS RECOVERING FAST: total flows through Hormuz are back above 10M bpd — Saudi exports ~90% of pre-war, the UAE fully restored (>3.9M bpd), Iraq tentatively recovering; ~32 vessels crossed in 24h around Jun 30 (pre-war ~110/day), and Iran has exported ~50M barrels since the blockade was lifted (TankerTrackers). OIL fell back to PRE-WAR LEVELS: Brent ~$72 (WTI settled below $70 for the first time since Feb 27), near where it sat before the war began on Feb 28. INDIA rallied: the Sensex closed Jul 3 at 77,763.91 (+0.34%), a ~2-month high and a third straight gain (Nifty ~24,250), on cooling crude, dovish-Fed hopes and an IT rally; markets reopen Jul 6 (9:15 IST) with GIFT Nifty pointing to a marginally SOFTER start but a low VIX. STILL FRAGILE / UNRESOLVED: the MoU makes the strait toll-free 'for 60 days only' (to ~mid-Aug) and Iran still wants 'services fees' afterward, which the US and Oman reject; the US and Iran have met face-to-face only once (Jun 21); shipping is still well below pre-war and insurance/GPS-spoofing risks persist; and Iran is holding funerals for slain Supreme Leader Ali Khamenei Jul 4-9. A holding truce and a real normalisation — but not yet a final peace.",
   "ticker": [
-    "🟠 FRAGILE PAUSE (Day 122): after the weekend's sharpest escalation, the US and Iran PAUSED strikes on Mon Jun 29 — though they 'disagree over next steps on talks' (AP). The acute military phase has cooled, but the pause is barely 24-48 hrs old and the core fight over who governs the Strait of Hormuz is unresolved.",
-    "🇶🇦 TALKS MOVE TO QATAR — AND TO HORMUZ: the Jun 30 negotiating round, originally set for Switzerland to discuss Iran's NUCLEAR programme, was shifted to Qatar and REFOCUSED ONTO THE STRAIT (Axios) — an implicit admission that the waterway, not the nuclear file, is now the crux of the whole MoU.",
-    "🛡️ WHY THE SHOCK WAS SMALL: Iran's Jun 28 missiles/drones on US bases in Kuwait and Bahrain were all intercepted (US), with no US injuries and only a damaged Bahrain building. So the feared Monday oil spike never came — Brent rose just ~0.8% to ~$73 (after a 10.6% drop the prior week) and US stocks recovered.",
-    "🇮🇳 INDIA STEADIED: the Sensex reopened cautiously Mon Jun 29 and closed essentially FLAT at ~77,097 (Nifty ~24,050); the rupee firmed to ~94.5 and crude held near $73. Markets open Jun 30 (9:15 IST) with a cautiously positive bias on the pause, soft oil and a stronger rupee — watching the Qatar talks.",
-    "🛢️ OIL CALM FOR NOW: Brent ~$73 (WTI ~$70) — near pre-war levels — as the intercepted strikes and the pause kept the risk premium contained. Sub-$75 crude is a clear positive for India's import bill, inflation and the rupee, and keeps the case for eventual fuel-price relief alive if the pause holds.",
-    "⚓ THE UNRESOLVED CRUX — WHO GOVERNS HORMUZ: Iran (Araghchi, Velayati) insists it alone manages the strait and wants to charge transit tolls; Oman and the US reject fees; a US-Navy-overseen body has WIDENED the Omani route for two-way traffic, challenging Iran's control. MoU Article 5 is the fault line the Qatar talks must bridge.",
-    "📞 DECONFLICTION GAP: the US-Iran military 'hotline' meant to coordinate vessel traffic and avoid incidents was still NOT operational as of Jun 27 — a big reason a single drone strike on a tanker could spiral into base strikes twice in a week. Standing it up is a key near-term de-escalation step.",
-    "🇱🇧 LEBANON STILL FRAGILE: Israel and Lebanon signed a US-brokered framework (Jun 26, a 'first step'), but over the weekend Israel destroyed a Hezbollah tunnel in the south and Hezbollah killed an Israeli soldier; Hezbollah won't disarm until Israel withdraws, and Israel won't withdraw until Hezbollah disarms. Iran-linked cyberattacks on Israel have surged.",
-    "🚢 SHIPPING: CENTCOM says commercial transits continue under US backing on the widened Omani route, but the IRGC's threats against ships and ~0.7%-of-hull war-risk insurance keep many owners cautious; the IMO's 11,000-seafarer evacuation stays paused. 562 Indian crew on 13 Indian-flagged vessels; 18,000+ Indian seafarers in the Gulf.",
-    "📅 DAY 122 TUE 9AM IST: A genuine de-escalation from the weekend — but a pause, not a peace. Base case: the Qatar round stabilises the strait and the MoU survives its 60-day clock. Downside: another tanker strike or a 'complete halt' to talks re-ignites the tit-for-tat. Watch the Qatar talks, the hotline, and Brent vs $75."
+    "🟢 CEASEFIRE HOLDING (Day 128): the Jun 29 pause has now held for a WEEK — no new US-Iran strikes. Hormuz flows are recovering fast (back above 10M bpd), oil has fallen to pre-war levels (~$72 Brent), and talks continue in Doha. The acute military phase of late June has genuinely cooled — though the truce is still an interim 60-day deal, not a final peace.",
+    "🛢️ OIL BACK TO PRE-WAR: Brent fluctuated around $72 in thin Friday trade and WTI settled below $70 for the first time since Feb 27 — near where crude sat before the war began. Saudi exports are ~90% of pre-war, the UAE is fully restored (>3.9M bpd), and total Hormuz flows are above 10M bpd. Sub-$72 crude is a clear tailwind for India.",
+    "🇮🇳 INDIA AT A 2-MONTH HIGH: the Sensex closed Jul 3 at 77,763.91 (+0.34%), a third straight gain and its highest since ~early May (Nifty ~24,250), helped by cooling crude, dovish-Fed hopes and an IT rally. Markets reopen Jul 6 with GIFT Nifty pointing to a marginally softer start, but a low India VIX signals stable sentiment.",
+    "🇶🇦 TALKS GRIND ON IN DOHA: US envoys Witkoff and Kushner met Qatari mediators (Jul 1), but Iran declined a direct US meeting — so the two sides held SEPARATE talks via Qatar and 'agreed to continue discussions.' Trump called it 'progressing well.' The US and Iran have still met face-to-face only once (Jun 21, Switzerland).",
+    "💵 SANCTIONS THAW: Iran is set to receive $6bn of the $12bn in its frozen funds held in Qatar, released 'according to the advancement of negotiations' — a concrete confidence-building step under the MoU, alongside the earlier US Treasury waiver on Iranian oil sales.",
+    "⚓ DEMINING + A HORMUZ COMMITTEE: a first Joint Hormuz Committee met in Muscat, and France and Oman agreed to collaborate on demining the strait — practical steps toward safer passage. Oman has delivered a proposal to the US and allies on the strait's future administration under MoU Article 5.",
+    "⚠️ THE UNRESOLVED CRUX — TOLLS: the MoU makes Hormuz toll-free 'for 60 days only' (to ~mid-Aug); Iran still wants to charge 'services fees' afterward and insists it alone governs the strait, which the US and Oman reject as contrary to an international waterway. This is the fault line the Doha/Muscat track must still bridge.",
+    "🚢 NORMALISATION IS PARTIAL: ~32 vessels crossed Hormuz in 24h around Jun 30 vs ~110/day pre-war, and major shipping lines remain cautious while insurance stays elevated and months of GPS spoofing continue. The IMO's stranded-seafarer issue eases as transits rise; 562 Indian crew on 13 Indian-flagged vessels, 18,000+ Indian seafarers in the Gulf.",
+    "🕯️ WILDCARD: Iran is holding funeral ceremonies Jul 4-9 across Iran and Iraq for slain Supreme Leader Ali Khamenei (killed Feb 28), a politically charged week that could shape Tehran's posture at the talks. Lebanon also stays fragile despite the Jun 26 Israel-Lebanon framework.",
+    "📅 DAY 128 MON 8:45AM IST: A holding truce and a real normalisation — oil at pre-war levels, flows recovering, markets at highs — but not a final peace. Base case: the Doha track converts the interim MoU into a lasting deal before the 60-day clock. Downside: the toll fight or a fresh incident re-ignites the strait. Watch Doha, the toll window, and Brent vs $70."
   ],
   "whatChanged": {
-    "label": "WHAT CHANGED — JUNE 30, 9:00 AM IST (DAY 122) — FRAGILE PAUSE; TALKS MOVE TO QATAR & REFOCUS ON HORMUZ",
+    "label": "WHAT CHANGED — JULY 6, 8:45 AM IST (DAY 128) — CEASEFIRE HOLDING; OIL BACK TO PRE-WAR; TALKS GRIND ON IN DOHA",
     "items": [
       {
         "color": "green",
-        "bold": "US AND IRAN PAUSED STRIKES (Mon Jun 29) — though they 'disagree over next steps on talks' (AP). The acute military phase that peaked with Iran's Jun 28 strikes on US bases in Kuwait and Bahrain has cooled, and US stocks recovered some of their losses.",
-        "text": "AP (via Britannica), Jun 29: after a weekend in which Iran hit US bases in Kuwait and Bahrain (all intercepted, per the US) and the US struck Iranian coastal military sites twice, the two sides paused their strikes on Monday, with US stocks rising to recover some of a rare losing week. The pause is a real de-escalation from the Day-120 peak — but AP framed it explicitly as the two sides still disagreeing over the next steps in negotiations, so it is a halt in fighting rather than a breakthrough. It comes barely a day after Iran's Revolutionary Guard had threatened a 'complete halt' to talks if US strikes continued."
-      },
-      {
-        "color": "amber",
-        "bold": "TALKS MOVED TO QATAR — AND REFOCUSED ONTO HORMUZ: the Jun 30 round, originally set for Switzerland to discuss Iran's NUCLEAR programme, was shifted to Qatar and refocused onto the Strait of Hormuz (Axios) — an implicit admission that the strait, not the nuclear file, is now the crux of the MoU.",
-        "text": "Axios/RFE-RL, Jun 29: the next negotiating session, which Secretary of State Rubio had suggested could be held Jun 29-30 in Switzerland to address Iran's nuclear programme, was relocated to Qatar after the weekend's escalation and reframed around the Strait of Hormuz. That re-sequencing matters: it concedes that the immediate war-and-peace question is who controls and secures the waterway, not the longer-horizon nuclear track. A previously agreed US-Iran military 'hotline' to coordinate vessel traffic and avoid incidents was still not operational as of Jun 27 — a gap that helped let single tanker strikes escalate into base strikes twice in a week."
+        "bold": "THE PAUSE HELD A FULL WEEK: no new US-Iran strikes since Jun 29. The acute military phase of late June (tanker strikes, US strikes, Iran hitting US Gulf bases) has cooled into a holding truce, and talks continued in Doha with both sides 'agreeing to continue discussions.'",
+        "text": "AP (via Britannica), CNN, CBS (Jul 1-3): after the Jun 29 halt, there were no further reported US-Iran strikes through the week. US special envoy Steve Witkoff and presidential adviser Jared Kushner travelled to Doha to meet Qatari mediators around Jul 1, but Iran declined a direct meeting with the US delegation, so Washington and Tehran held separate, mediated talks and agreed to continue; Trump said negotiations were 'progressing well.' As a confidence-building step, Iran is set to receive $6bn of the $12bn in its frozen funds held in Qatar, released as talks advance, and a first Joint Hormuz Committee met in Muscat while France and Oman agreed to help demine the strait. The US and Iran have still sat down together face-to-face only once, on Jun 21 in Switzerland."
       },
       {
         "color": "green",
-        "bold": "MARKETS STEADIED — THE FEARED SPIKE NEVER CAME: because Iran's strikes were intercepted with no real damage, Brent rose only ~0.8% to ~$73 on Jun 29 (after a 10.6% weekly drop) and held there; India's Sensex reopened cautiously and closed essentially FLAT at ~77,097 (Nifty ~24,050), the rupee firmed to ~94.5, and US stocks recovered.",
-        "text": "HDFC Sky, TradingEconomics, Goodreturns (Jun 29): the Monday reopen was muted rather than the gap-down many expected — the Sensex opened slightly lower (77,042 at 9:29am) and closed flat near 77,097, with pharma/healthcare (Dr Reddy's) offsetting weakness in IT, energy and defence. Brent climbed just ~0.8% to ~$73 (WTI ~$70) in Asian trade, still near pre-war levels after the prior week's 10.6% slide, as the intercepted strikes and the pause kept the risk premium contained. The rupee strengthened toward ~94.5 and analysts flagged soft crude and firm global cues as supportive — leaving India's import-cost and inflation outlook benign for now."
+        "bold": "OIL IS BACK TO PRE-WAR LEVELS AND HORMUZ FLOWS ARE RECOVERING FAST: Brent fell to ~$72 and WTI settled below $70 for the first time since Feb 27; total Hormuz flows are back above 10M bpd, with Saudi exports ~90% of pre-war and the UAE fully restored (>3.9M bpd).",
+        "text": "Reuters/TradingEconomics, CNN (Jun 30-Jul 3): commercial shipping through the strait continued to recover on progress in the US-Iran talks, pulling Brent back to around $72 — near where it traded before the war began on Feb 28 — while WTI settled below $70 for the first time since Feb 27. Saudi crude exports rebounded to about 90% of their pre-war baseline, the UAE restored exports to more than 3.9M bpd (partly via a pipeline that bypasses the chokepoint), and Iraq showed tentative recovery, lifting total flows through Hormuz above 10M bpd. Around 32 vessels crossed in a 24-hour window near Jun 30 (versus ~110/day pre-war), and Iran has exported roughly 50M barrels since the blockade was lifted (TankerTrackers) — so the recovery is real but still partial."
+      },
+      {
+        "color": "green",
+        "bold": "INDIA RALLIED TO A ~2-MONTH HIGH: the Sensex closed Jul 3 at 77,763.91 (+0.34%), a third straight gain and its highest since ~early May (Nifty ~24,250), on cooling crude, dovish-Fed hopes and an IT rally. Markets reopen Jul 6 with GIFT Nifty pointing to a marginally softer start but a low VIX.",
+        "text": "TradingEconomics, Goodreturns, 5paisa, Yahoo Finance (Jul 1-6): Indian benchmarks extended gains for a third straight session into Jul 3, the Sensex closing at 77,763.91 (+261.79, +0.34%) — its highest since around early May — as softer US jobs data lifted dovish-Fed expectations and powered an IT rally (HCLTech, Zensar), while cooling crude eased import-cost worries. For Jul 6, GIFT Nifty is indicating a marginally negative open with a low India VIX suggesting stable sentiment, and firm European cues offer support; persistent FII selling is a swing factor, with the rupee softer near ~95.1/USD despite cheaper oil."
       },
       {
         "color": "amber",
-        "bold": "THE CRUX IS STILL UNRESOLVED — WHO GOVERNS HORMUZ: Iran (Araghchi, Velayati) insists it alone manages the strait and wants transit tolls; Oman and the US reject fees; a US-Navy-overseen body has WIDENED the Omani route for two-way traffic, challenging Iran's claimed control. Lebanon stays fragile despite a Jun 26 framework.",
-        "text": "RFE/RL, NPR, AP (Jun 28-29): Iranian FM Araghchi said the strait remains 'under the total oversight and management of Iran' and warned that any 'new or separate arrangements' would only delay its reopening; senior figure Velayati pressed Iran's demand to collect tolls and urged Oman to agree, but Oman's foreign minister said Muscat does not accept Iran charging fees. The US-Navy-overseen Joint Maritime Information Center has widened the route near Oman for inbound and outbound traffic, a direct challenge to Iran's control and a new flashpoint the Qatar talks must manage. Separately, Israel and Lebanon signed a US-brokered framework on Jun 26 as a 'first step,' but Israel destroyed a Hezbollah tunnel and Hezbollah killed an Israeli soldier over the weekend, and Iran-linked cyberattacks on Israel have surged (~4,800 incidents this month vs ~1,600 a year ago)."
+        "bold": "STILL FRAGILE — THE TOLL FIGHT IS UNRESOLVED: the MoU makes Hormuz toll-free 'for 60 days only' (to ~mid-Aug), and Iran still wants 'services fees' afterward and insists it alone governs the strait — which the US and Oman reject. Shipping is well below pre-war, and Iran holds funerals for slain Supreme Leader Ali Khamenei Jul 4-9.",
+        "text": "CBS, House of Commons Library, CNN (Jun 30-Jul 3): the memorandum states the strait is toll-free for 60 days only after signing, after which Iran wants to levy 'services fees' — a demand the US calls incompatible with an international waterway and that Oman's foreign minister has rejected. Iranian FM Araghchi maintains the strait is 'under the total oversight and management of Iran.' Analysts caution normalisation will be partial and slow — one former US energy adviser said the market is 'not going back to Feb 27, where the straits were free and unfettered' — with major lines still cautious, insurance elevated and GPS spoofing persistent. Iran's week-long funeral ceremonies for Ali Khamenei (Jul 4-9) add a charged political backdrop, and the Israel-Lebanon track remains fragile despite the Jun 26 framework."
       }
     ]
   },
   "deaths": "7,030+",
-  "deathsSub": "~3,580+ Iran, 2,670+ Lebanon, 99 Iraq, 27+ Israel, 19 US, 46+ Gulf (incl. 1 Qatari killed Jun 28), 3 India (MT Settebello). War toll ~7,031+; no major new casualties as the US and Iran PAUSED strikes on Jun 29. FRAGILE PAUSE: after Iran's Jun 28 strikes on US bases in Kuwait and Bahrain (all intercepted, US), both sides halted military action Jun 29 though they disagree on next steps; the Jun 30 talks moved from Switzerland to Qatar and refocused from Iran's nuclear programme onto the Strait of Hormuz. Markets steadied — Brent ~$73, Sensex ~flat at 77,097, rupee firmer. But the core dispute (who governs/tolls the strait) is unresolved and the pause is days old. India: markets open Jun 30 with a cautiously positive bias; no Indian casualties reported.",
+  "deathsSub": "~3,580+ Iran, 2,670+ Lebanon, 99 Iraq, 27+ Israel, 19 US, 46+ Gulf, 3 India (MT Settebello). War toll ~7,031+; no new casualties as the Jun 29 pause has held for a week. CEASEFIRE HOLDING: no US-Iran strikes since Jun 29; talks continue in Doha (US and Iran meeting separately via Qatar, 'agreed to continue'); Iran set to receive $6bn of frozen funds; a Joint Hormuz Committee met in Muscat and France/Oman agreed to demine the strait. Hormuz flows are back above 10M bpd and oil has returned to pre-war levels (~$72 Brent, WTI <$70). India rallied to a ~2-month high (Sensex 77,764 on Jul 3). STILL FRAGILE: the toll-free window is 60 days only and Iran wants fees afterward; the funeral of slain Supreme Leader Ali Khamenei runs Jul 4-9. A holding truce, not yet a final peace.",
   "econ": {
-    "sensex": "~77,097 (Jun 29 close, ~flat); Nifty ~24,050; opens Jun 30 with a positive bias",
-    "sensexDelta": "India reopened Mon Jun 29 after the long weekend and the escalation, opening cautiously (Sensex 77,042 at 9:29am) and closing essentially FLAT at ~77,097 — a far calmer reaction than feared, because Iran's strikes on US bases were intercepted with no real damage. Pharma/healthcare (Dr Reddy's) led; IT, energy and defence lagged. Jun 30 opens with a cautiously positive bias on the strike pause, soft crude and a firmer rupee.",
-    "sensexSub": "Brent rose only ~0.8% to ~$73 on Jun 29 (after a 10.6% weekly drop) and held near $73 (WTI ~$70) — still near pre-war levels. The rupee firmed to ~94.5 and retail fuel held (petrol ~Rs 111, LPG ~Rs 942). Soft crude keeps India's import bill and inflation outlook benign as long as the pause holds.",
-    "vix": "~13-14 (eased back as strikes paused and oil held near $73)",
-    "vixDelta": "The intercepted strikes and the Jun 29 pause kept volatility contained — the feared Monday spike never materialised. Risk now hinges on the Qatar talks: a stabilising round caps VIX; a fresh tanker incident or a 'complete halt' to negotiations would lift it again.",
-    "fpi": "FII sentiment steadied with the pause and soft oil; flows track whether the Qatar round stabilises the strait. The calm Monday reopen (Sensex flat, rupee firmer) suggests no panic exit so far.",
-    "fpiDelta": "A holding pause + cheap crude + a firmer rupee are mildly FII-supportive; the swing factors are the Qatar talks and whether the deconfliction hotline finally stands up. A renewed tanker strike would reverse the calm quickly.",
-    "wealth": "BSE market cap held near its ~Rs 500 trillion area through the escalation, helped by the muted reaction and sub-$75 crude. The case for eventual petrol/LPG relief stays alive if the pause holds and the strait stabilises; a re-escalation would re-open the oil-import risk.",
-    "analysis": "DAY 122, 9:00AM IST — FRAGILE PAUSE; TALKS MOVE TO QATAR. The weekend's sharpest escalation has cooled: after Iran's Jun 28 strikes on US bases in Kuwait and Bahrain (all intercepted), the US and Iran PAUSED strikes Jun 29, and the Jun 30 round was shifted from Switzerland to Qatar and refocused from Iran's nuclear programme onto the Strait of Hormuz. Because the strikes did little damage, the feared oil/market shock never came: Brent rose just ~0.8% to ~$73, India's Sensex closed flat at ~77,097, and the rupee firmed to ~94.5. This is a genuine de-escalation — but a pause, not a peace. The crux the MoU left open (who administers and tolls Hormuz) is exactly what Qatar must now settle, with Iran, Oman and the US still at odds and the deconfliction hotline not yet running. FOR INDIA: soft crude, a firmer rupee and a calm reopen leave the near-term setup benign; the risk is a fresh tanker incident or a collapse of talks. Base case: the Qatar round stabilises the strait and the 60-day MoU survives. Downside: the tit-for-tat resumes and oil spikes. Watch the Qatar talks, the hotline, and Brent vs $75."
+    "sensex": "77,763.91 (Jul 3 close, +0.34%, ~2-month high); Nifty ~24,250; opens Jul 6 marginally soft",
+    "sensexDelta": "Indian equities extended gains for a THIRD straight session into Jul 3, the Sensex closing at 77,763.91 (+261.79, +0.34%) — its highest since ~early May — on cooling crude, dovish-Fed hopes after soft US jobs data, and an IT rally (HCLTech, Zensar). Jul 6 opens with GIFT Nifty pointing to a marginally softer start but a low VIX signalling stable sentiment; persistent FII selling is the swing factor.",
+    "sensexSub": "Brent ~$72 (WTI <$70), back at pre-war levels as Hormuz flows recover above 10M bpd — a clear tailwind for India's import bill and inflation. The rupee, though, softened to ~95.1/USD on FII outflows and dollar strength despite cheaper oil. Retail fuel steady (petrol ~Rs 111, LPG ~Rs 942).",
+    "vix": "~13-14 (low; stable sentiment as the truce holds and oil sits at pre-war levels)",
+    "vixDelta": "Volatility has drained out as the ceasefire held for a week and crude returned to pre-war levels; a low India VIX into Jul 6 signals stable sentiment. The residual risks are the unresolved toll fight, the Khamenei funeral week (Jul 4-9) and any fresh shipping incident — a collapse in the Doha track would lift VIX again.",
+    "fpi": "FIIs have been net sellers into early July (a key reason the rupee slipped to ~95.1), even as domestic sentiment and DII inflows kept the index at highs. Flows should turn more constructive if the Doha track converts the interim MoU into a lasting deal.",
+    "fpiDelta": "Cheaper crude, a holding truce and dovish-Fed hopes are supportive, but persistent FII selling and a softer rupee show flows are not yet fully back. The swing factors are the Doha talks, the 60-day toll window and global rate cues.",
+    "wealth": "Investor wealth jumped ~Rs 6+ lakh crore over the three-session rally into Jul 3, with BSE market cap pushing back toward record territory on pre-war crude and easing war risk. The case for petrol/LPG relief strengthens the longer the truce holds and flows normalise, though OMCs may bank margins first.",
+    "analysis": "DAY 128, 8:45AM IST — CEASEFIRE HOLDING; NORMALISATION UNDERWAY. A week without US-Iran strikes has turned the late-June crisis into a holding truce. Hormuz flows are back above 10M bpd (Saudi ~90% of pre-war, UAE fully restored), oil has returned to pre-war levels (Brent ~$72, WTI <$70), and India rallied to a ~2-month high (Sensex 77,764 on Jul 3). Diplomacy grinds on in Doha — the US and Iran meeting separately via Qatar and 'agreeing to continue' — with Iran set to receive $6bn in frozen funds and France/Oman moving to demine the strait. The catch: the MoU keeps Hormuz toll-free for 60 days only, and Iran still wants fees and sole oversight afterward, which the US and Oman reject; shipping is well below pre-war and the Khamenei funeral (Jul 4-9) is a charged backdrop. FOR INDIA the setup is benign — cheap crude, a low VIX, markets at highs — though a softer rupee (~95.1) on FII selling is the blemish. Base case: the Doha track converts the interim MoU into a lasting deal before the 60-day clock. Downside: the toll fight or a fresh incident re-ignites the strait. Watch Doha, the toll window, and Brent vs $70."
   },
   "hormuzStatus": {
-    "status": "FRAGILE PAUSE — strikes halted Jun 29; talks move to Qatar; who governs Hormuz unresolved",
+    "status": "CEASEFIRE HOLDING — no strikes since Jun 29; flows recovering (>10M bpd); toll dispute unresolved",
     "preWarFlow": "130-160 ships/day",
-    "currentFlow": "Commercial transits continue under US backing on the WIDENED Omani route (two-way), but Iran insists vessels use its northern route and still claims sole control + tolls. Strikes paused Jun 29; war-risk insurance ~0.7% of hull; IMO's 11,000-seafarer evacuation stays paused after two tanker drone-hits last week.",
-    "reduction": "A real de-escalation from the weekend, but not a resolution. After Iran's Jun 28 strikes on US bases in Kuwait and Bahrain (all intercepted) and two US strike waves, both sides paused Jun 29 and the Jun 30 talks moved to Qatar, refocused on the strait. Oil eased back to ~$73 and markets steadied. But the fundamental question the MoU's Article 5 leaves open — who administers and secures Hormuz, and whether Iran can charge tolls — is exactly what the Qatar round must now settle, and Iran, Oman and the US still disagree. The pause holds only as long as no fresh tanker incident re-ignites it.",
+    "currentFlow": "Recovering fast: total flows back above 10M bpd (Saudi ~90% of pre-war, UAE fully restored >3.9M bpd, Iraq tentative). ~32 vessels crossed in 24h near Jun 30 vs ~110/day pre-war. Iran has exported ~50M barrels since the blockade lifted. Still partial — lines cautious, insurance elevated, GPS spoofing ongoing.",
+    "reduction": "A week without strikes and a strong flow recovery have moved Hormuz from crisis toward (partial) normalisation. Oil is back to pre-war levels (~$72 Brent, WTI <$70), Saudi and UAE exports are near or at pre-war, and a Joint Hormuz Committee plus France/Oman demining are practical steps toward safe passage. The unresolved piece is governance and money: the MoU keeps the strait toll-free for 60 days only, and Iran still wants 'services fees' and sole oversight afterward, which the US and Oman reject. Until that is settled, the reopening stays conditional and reversible.",
     "indianVesselsNear": 13,
     "indianSeafarers": 562,
     "indianTransited": 1,
-    "totalShipsWaiting": "IMO's plan to evacuate ~11,000 stranded seafarers stays PAUSED after last week's tanker attacks (Ever Lovely, Kiku). 562 Indian crew on 13 Indian-flagged vessels; 18,000+ Indian seafarers across the Gulf. Transits continue on the widened Omani route, but owners stay cautious while insurance is ~0.7% of hull and the IRGC threatens ships.",
-    "lastTransit": "Day 122 (Jun 30, 9AM IST): fragile pause. US & Iran halted strikes Jun 29 (they disagree on next steps); the Jun 30 round moved to Qatar and refocused on Hormuz. Oil eased to ~$73; India steadied (Sensex ~flat 77,097, rupee ~94.5). Crux unresolved: Iran claims sole control + tolls; Oman/US reject fees; the deconfliction hotline isn't yet running.",
-    "indianNavyEscort": "Op Urja Suraksha continuing as the pause holds and transits run on the widened Omani route; the IMO evacuation stays paused. India earlier moved three of its tankers (860,000+ MT) through safely. Large Indian communities in Kuwait (~1M) and Bahrain are a diaspora watch item; no Indian casualties reported. MT Settebello track continues.",
-    "headline": "FRAGILE PAUSE (Day 122): the US and Iran HALTED strikes Jun 29 after the weekend's escalation (Iran's intercepted strikes on US bases in Kuwait & Bahrain), and the Jun 30 talks moved to Qatar — refocused from Iran's nuclear programme onto the Strait of Hormuz. Oil eased to ~$73, India steadied (Sensex ~flat 77,097, rupee ~94.5). But the crux — who governs and tolls the strait — is unresolved (Iran claims sole control; Oman/US reject fees) and the deconfliction hotline isn't yet operational. A pause, not a peace. Day 122.",
+    "totalShipsWaiting": "Stranded-vessel pressure easing as transits rise (~32 in a 24h window near Jun 30). 562 Indian crew on 13 Indian-flagged vessels; 18,000+ Indian seafarers across the Gulf. Major shipping lines remain cautious while war-risk insurance stays elevated and GPS spoofing persists, so the recovery toward the ~110/day pre-war norm is gradual.",
+    "lastTransit": "Day 128 (Jul 6, 8:45AM IST): ceasefire holding. No US-Iran strikes since Jun 29; Hormuz flows back above 10M bpd; Brent ~$72 (WTI <$70), near pre-war. Talks continue in Doha (US and Iran meeting separately via Qatar); Iran to get $6bn frozen funds; France/Oman to demine. Unresolved: the 60-day toll-free window and Iran's demand for fees.",
+    "indianNavyEscort": "Op Urja Suraksha easing as transits normalise and the truce holds; France and Oman are moving to demine the strait. India earlier moved three of its tankers (860,000+ MT) through safely. Repatriation of Indian seafarers should keep improving as flows rise, though lines stay cautious. MT Settebello diplomatic track continues.",
+    "headline": "CEASEFIRE HOLDING (Day 128): the Jun 29 pause has held a full week — no new US-Iran strikes. Hormuz flows are back above 10M bpd (Saudi ~90%, UAE fully restored) and oil has returned to pre-war levels (~$72 Brent, WTI <$70). Talks grind on in Doha (US and Iran meeting separately via Qatar, 'agreed to continue'); Iran is set to get $6bn in frozen funds and France/Oman will demine the strait. India rallied to a ~2-month high (Sensex 77,764 on Jul 3). STILL UNRESOLVED: the toll-free window is 60 days only and Iran wants fees afterward. A holding truce, not a final peace. Day 128.",
     "indianCasualties": 3,
     "indianCasualtyDetail": "MT Settebello (Palau-flagged): Aditya Sharma (deck cadet), Shivanand Chaurashiya (engine fitter), Patnala Suresh (chief engineer) — killed when US Navy fired precision munitions into engine room, June 9-10. 21 other Indians safely evacuated. MT Jalveer (June 11): all 20 Indians aboard safely evacuated after separate US Navy attack."
   },
   "hormuzEvents": [
+    {
+      "d": "Jul 1-6",
+      "e": "DAY 123-128 — CEASEFIRE HOLDS; OIL RETURNS TO PRE-WAR LEVELS; TALKS GRIND ON IN DOHA. The Jun 29 pause held for a full week with no new US-Iran strikes. Diplomacy moved to Qatar: US envoys Steve Witkoff and Jared Kushner met Qatari mediators around Jul 1, but Iran declined a direct meeting with the US delegation, so the two sides held SEPARATE, mediated talks and 'agreed to continue discussions' (AP); Trump said negotiations were 'progressing well.' As confidence-building steps, Iran is set to receive $6bn of the $12bn in its frozen funds held in Qatar, a first Joint Hormuz Committee met in Muscat, and France and Oman agreed to collaborate on demining the strait. SHIPPING RECOVERED STRONGLY: total flows through Hormuz climbed back above 10M bpd — Saudi exports ~90% of pre-war, the UAE fully restored (>3.9M bpd), Iraq tentatively recovering; ~32 vessels crossed in a 24h window near Jun 30 (vs ~110/day pre-war), and Iran has exported ~50M barrels since the blockade lifted (TankerTrackers). OIL fell back to PRE-WAR LEVELS: Brent ~$72 and WTI settled below $70 for the first time since Feb 27. INDIA rallied: the Sensex extended gains for a third straight session to close Jul 3 at 77,763.91 (+0.34%), a ~2-month high (Nifty ~24,250), on cooling crude, dovish-Fed hopes and an IT rally; the rupee softened to ~95.1/USD on FII selling. STILL UNRESOLVED: the MoU makes Hormuz toll-free for 60 days only (to ~mid-Aug) and Iran still wants 'services fees' and sole oversight afterward, which the US and Oman reject; shipping stays well below pre-war with elevated insurance and GPS spoofing; and Iran holds funerals for slain Supreme Leader Ali Khamenei Jul 4-9. A holding truce and a real normalisation — but not yet a final peace. West Asia War Day 128."
+    },
     {
       "d": "Jun 29-30",
       "e": "DAY 121-122 — FRAGILE PAUSE; TALKS MOVE TO QATAR AND REFOCUS ON HORMUZ. After the weekend's sharpest escalation — Iran's Jun 28 ballistic-missile and drone strikes on the US Ali Al Salem Air Base (Kuwait) and the US Fifth Fleet HQ in Bahrain, which the US said were all intercepted with no US injuries — the US and Iran PAUSED their strikes on Mon Jun 29, though AP noted they still 'disagree over next steps on talks.' US stocks recovered some of a losing week. CRUCIALLY, the next negotiating round (Jun 30), originally set for Switzerland to discuss Iran's NUCLEAR programme, was SHIFTED TO QATAR and REFOCUSED ONTO THE STRAIT OF HORMUZ (Axios) — an implicit admission that the strait, not the nuclear file, is the immediate crux. MARKETS STEADIED because the strikes were intercepted with no real damage: Brent rose only ~0.8% to ~$73 on Jun 29 (after a 10.6% weekly drop) and held there; India's Sensex reopened cautiously and closed essentially flat at ~77,097 (Nifty ~24,050), the rupee firmed to ~94.5. BUT THE CORE DISPUTE IS UNRESOLVED: Iran (FM Araghchi, and Velayati on Jun 29) insists it alone governs Hormuz and wants to charge transit tolls; Oman and the US reject fees; a US-Navy-overseen body has WIDENED the Omani route for two-way traffic, challenging Iran's control; and the US-Iran military 'hotline' to deconflict shipping was still not operational as of Jun 27. Lebanon stays fragile: Israel and Lebanon signed a US-brokered framework Jun 26, but Israel destroyed a Hezbollah tunnel and Hezbollah killed an Israeli soldier over the weekend, and Iran-linked cyberattacks on Israel have surged. INDIA: markets open Jun 30 with a cautiously positive bias on the pause, ~$73 crude and a firmer rupee — watching the Qatar talks; no Indian casualties reported. West Asia War Day 122."
@@ -936,8 +940,8 @@
     }
   ],
   "projNow": {
-    "brent": 73,
-    "rupee": 94.5,
+    "brent": 72,
+    "rupee": 95.1,
     "lpg": 912,
     "petrol": 103.54,
     "deaths": 7031
@@ -945,52 +949,52 @@
   "scenarios": {
     "headers": [
       "Pre-war",
-      "Now (D122)",
-      "Pause holds → Qatar deal",
-      "Pause breaks → tit-for-tat",
-      "Talks halt → re-blockade / wider war"
+      "Now (D128)",
+      "Final deal → full reopen",
+      "Toll standoff drags",
+      "Talks collapse → re-escalation"
     ],
     "brent": [
       65,
-      73,
-      70,
-      92,
-      130
+      72,
+      68,
+      82,
+      120
     ],
     "rupee": [
       91,
-      94.5,
-      92.5,
+      95.1,
+      93.0,
       96.0,
-      104
+      103
     ],
     "deaths": [
       0,
       "7,031+",
-      "7,050",
-      "9,000",
-      "30,000+"
+      "7,040",
+      "8,000",
+      "25,000+"
     ],
     "sensex": [
       "78,699",
-      "77,097",
+      "77,764",
       "90,000+",
-      "72,000",
-      "59,000"
+      "74,000",
+      "62,000"
     ],
     "lpg": [
       "Rs 853",
       "Rs 912",
       "Rs 853",
-      "Rs 960",
-      "Rs 1,700+"
+      "Rs 950",
+      "Rs 1,600+"
     ],
     "fii": [
       "-",
-      "Steadying",
+      "Selling",
       "$50B return",
-      "Rs 12,000Cr out",
-      "Rs 35,000Cr out"
+      "Rs 8,000Cr out",
+      "Rs 30,000Cr out"
     ]
   },
   "radar": [
@@ -1044,8 +1048,8 @@
     }
   ],
   "assessment": {
-    "headline": "DAY 122, 9:00AM IST — FRAGILE PAUSE: THE US AND IRAN HALTED STRIKES JUN 29 AFTER THE WEEKEND'S ESCALATION (IRAN'S INTERCEPTED STRIKES ON US BASES IN KUWAIT & BAHRAIN), AND THE JUN 30 TALKS MOVED FROM SWITZERLAND TO QATAR — REFOCUSED FROM IRAN'S NUCLEAR PROGRAMME ONTO THE STRAIT OF HORMUZ. THE FEARED SHOCK NEVER CAME: BRENT ~$73, SENSEX FLAT AT ~77,097, RUPEE FIRMER. BUT WHO GOVERNS/TOLLS THE STRAIT IS UNRESOLVED AND THE HOTLINE ISN'T RUNNING. A PAUSE, NOT A PEACE.",
-    "body": "Tuesday 9:00 AM IST. Day 122. The war stepped back from the brink — but only stepped back.\n\nTHE PAUSE\nAfter Iran struck US bases in Kuwait and Bahrain early Sunday,\nand the US struck Iranian coastal sites twice over the weekend,\nboth sides paused their fire on Monday Jun 29.\nAP framed it carefully: a halt, with the two still disagreeing on next steps.\nIt is real de-escalation — not a breakthrough.\n\nWHY THE SHOCK WAS SMALL\nIran's missiles and drones were intercepted; the damage was minimal.\nSo the oil spike everyone braced for never arrived.\nBrent rose just ~0.8% to ~$73 and held there — near pre-war levels.\nIndia's Sensex reopened cautiously and closed flat at ~77,097;\nthe rupee firmed to ~94.5 and US stocks recovered.\n\nTALKS MOVE TO QATAR — AND TO HORMUZ\nThe Jun 30 round, set for Switzerland to discuss Iran's nuclear programme,\nwas shifted to Qatar and refocused onto the Strait itself.\nThat re-sequencing is the tell: the immediate question is the waterway,\nnot the nuclear file. The strait is now the whole game.\n\nWHAT'S STILL UNRESOLVED\nIran insists it alone governs Hormuz and wants to charge tolls.\nOman and the US reject fees; a US-Navy body has widened the Omani route.\nThe military 'hotline' to deconflict shipping still isn't operational.\nThat gap is why one drone on a tanker spiralled into base strikes — twice.\n\nFOR INDIA\nSoft crude (~$73), a firmer rupee and a calm reopen keep the setup benign.\nThe case for eventual fuel-price relief is alive — if the pause holds.\nLarge Indian communities in Kuwait and Bahrain are a watch item;\nno Indian casualties have been reported.\nBase case: the Qatar round stabilises the strait and the 60-day MoU survives.\nDownside: a fresh tanker strike, or a halt to talks, re-ignites the tit-for-tat.\nWatch three things: the Qatar talks, the hotline, and Brent versus $75."
+    "headline": "DAY 128, 8:45AM IST — CEASEFIRE HOLDING: THE JUN 29 PAUSE HAS LASTED A FULL WEEK WITH NO NEW STRIKES, HORMUZ FLOWS ARE BACK ABOVE 10M BPD (SAUDI ~90%, UAE FULLY RESTORED), AND OIL HAS RETURNED TO PRE-WAR LEVELS (~$72 BRENT, WTI <$70). TALKS GRIND ON IN DOHA (US & IRAN MEETING SEPARATELY VIA QATAR); IRAN TO GET $6BN IN FROZEN FUNDS; FRANCE/OMAN TO DEMINE. INDIA HIT A ~2-MONTH HIGH (SENSEX 77,764). STILL UNRESOLVED: THE 60-DAY TOLL WINDOW. A HOLDING TRUCE, NOT A FINAL PEACE.",
+    "body": "Monday 8:45 AM IST. Day 128. A week of quiet has turned the crisis into a truce.\n\nTHE PAUSE HELD\nThere have been no new US-Iran strikes since the Jun 29 halt.\nThe late-June spiral — tanker strikes, US strikes, Iran hitting Gulf bases —\nhas cooled into a holding ceasefire, and the talks kept going.\n\nOIL BACK TO PRE-WAR\nBrent has fallen to ~$72 and WTI settled below $70 —\nthe first time since Feb 27, the day before the war began.\nHormuz flows are back above 10M bpd: Saudi exports near 90% of pre-war,\nthe UAE fully restored, Iraq tentatively recovering.\nIt is a real recovery — but still partial, still below the pre-war norm.\n\nTALKS GRIND ON IN DOHA\nUS envoys Witkoff and Kushner met Qatari mediators on Jul 1,\nbut Iran declined a direct meeting, so the two met separately\nand agreed to continue. Iran is set to receive $6bn in frozen funds,\na Joint Hormuz Committee met in Muscat, and France and Oman will demine.\n\nWHAT'S STILL UNRESOLVED\nThe MoU keeps the strait toll-free for 60 days only — to about mid-August.\nIran still wants 'services fees' and sole oversight afterward;\nthe US and Oman reject that for an international waterway.\nThe US and Iran have met face-to-face only once. This is not settled.\n\nFOR INDIA\nThe setup is benign: cheap crude (~$72), a low VIX,\nand equities at a two-month high (Sensex 77,764 on Jul 3).\nThe blemish is a softer rupee (~95.1) on persistent FII selling.\nCheaper oil keeps the case for eventual fuel-price relief alive.\nBase case: Doha converts the interim MoU into a lasting deal in time.\nDownside: the toll fight, or a fresh shipping incident, re-ignites the strait.\nWatch three things: the Doha talks, the 60-day toll window, and Brent vs $70."
   },
   "featured": [
     {
@@ -1080,14 +1084,14 @@
     }
   ],
   "radarScores": {
-    "Oil Shock": 38,
-    "Market Crash": 30,
-    "Nuclear Risk": 50,
-    "Hormuz Closure": 60,
-    "Household Impact": 32,
-    "Currency Crisis": 26,
-    "Social Unrest": 22,
-    "Military Exposure": 60
+    "Oil Shock": 25,
+    "Market Crash": 22,
+    "Nuclear Risk": 45,
+    "Hormuz Closure": 42,
+    "Household Impact": 26,
+    "Currency Crisis": 30,
+    "Social Unrest": 18,
+    "Military Exposure": 35
   },
   "timeline": [
     {
@@ -1469,6 +1473,36 @@
       "rupee": 94.5,
       "tag": "DAY 122 TUE 9AM IST — FRAGILE PAUSE; TALKS MOVE TO QATAR. The Jun 30 round, originally set for Switzerland on Iran's nuclear programme, is SHIFTED TO QATAR and REFOCUSED ONTO THE STRAIT OF HORMUZ (Axios) — conceding the strait is the crux. Oil holds ~$73; India opens with a cautiously positive bias on the pause + firmer rupee. Crux unresolved: Iran claims sole control + tolls; Oman/US reject fees; a US-Navy body widens the Omani route; the deconfliction hotline still isn't running. Lebanon fragile (framework signed Jun 26, but tunnel destroyed + a soldier killed). A pause, not a peace.",
       "sev": 2
+    },
+    {
+      "d": 123,
+      "l": "Jul 1",
+      "deaths": 7031,
+      "brent": 73.4,
+      "nifty": 24000,
+      "rupee": 94.9,
+      "tag": "DAY 123 WED — DOHA TALKS, SEPARATELY. US envoys Witkoff and Kushner meet Qatari mediators, but Iran declines a direct meeting with the US; the two sides hold separate, mediated talks and 'agree to continue.' Iran signals willingness to engage via Qatar. India rebounds (Nifty back toward 24,000) on the easing risk and a Wall Street rally; Brent ~$73.",
+      "sev": 1
+    },
+    {
+      "d": 125,
+      "l": "Jul 3",
+      "deaths": 7031,
+      "brent": 72.0,
+      "nifty": 24250,
+      "rupee": 95.1,
+      "tag": "DAY 125 FRI — OIL BACK TO PRE-WAR, INDIA AT A 2-MONTH HIGH. Brent ~$72 and WTI settle below $70 for the first time since Feb 27 as Hormuz flows climb above 10M bpd (Saudi ~90% of pre-war, UAE fully restored). The Sensex closes 77,763.91 (+0.34%), a third straight gain and its highest since ~early May (Nifty ~24,250); rupee softens to ~95.1 on FII selling. Iran set to get $6bn in frozen funds; France/Oman to demine.",
+      "sev": 1
+    },
+    {
+      "d": 128,
+      "l": "Jul 6",
+      "deaths": 7031,
+      "brent": 72.0,
+      "nifty": 24250,
+      "rupee": 95.1,
+      "tag": "DAY 128 MON 8:45AM IST — CEASEFIRE HOLDING (a full week without strikes). Hormuz flows recovering (>10M bpd), oil at pre-war levels (~$72 Brent), talks grinding on in Doha (US & Iran meeting separately via Qatar). India reopens with GIFT Nifty marginally soft but a low VIX after Jul 3's 2-month high. UNRESOLVED: the 60-day toll-free window and Iran's demand for fees; Khamenei funerals run Jul 4-9. A holding truce, not a final peace.",
+      "sev": 1
     }
   ]
 }
