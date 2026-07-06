@@ -1,21 +1,22 @@
 import { useState, useEffect, useRef } from "react";
 
 // ═══════════════════════════════════════════════════════════════════
-// INDIA RISK DASHBOARD — V16.6 — FRAGILE PAUSE; TALKS MOVE TO QATAR (Day 122, Jun 30 2026, 9AM)
-// Changes: war-intel.json advanced to Jun 30 9:00 AM IST. The weekend
-// escalation cooled: after Iran's Jun 28 strikes on US bases in Kuwait &
-// Bahrain (all intercepted), the US and Iran PAUSED strikes Jun 29 (AP),
-// and the Jun 30 round was shifted from Switzerland to QATAR and refocused
-// from Iran's nuclear programme onto the Strait of Hormuz (Axios). The
-// feared shock never came: Brent ~$73 (+0.8% Mon, after a 10.6% weekly
-// drop), Sensex closed FLAT ~77,097 Jun 29, rupee firmed ~94.5. Crux
-// unresolved: who governs/tolls Hormuz (Iran claims sole control; Oman/US
-// reject fees); deconfliction hotline still not operational. _phase kept
-// "ESCALATION" (visuals stay red — pause is <48h old & fragile) but badge
-// relabeled "FRAGILE PAUSE — TALKS IN QATAR". radar Military Exposure eased
-// 88→60, Oil Shock 62→38. Added Days 121-122 timeline.
-// V16.5 (Jun 28): Iran hit US Gulf bases. V16.4 (Jun 26): US strikes Iran.
-// V16.3/16.2/16.1 (Jun 23/22): risk-off / de-escalation / Hormuz re-closure.
+// INDIA RISK DASHBOARD — V16.7 — CEASEFIRE HOLDING; OIL AT PRE-WAR (Day 128, Jul 6 2026, 8:45AM)
+// Changes: war-intel.json advanced to Jul 6 8:45 AM IST. The Jun 29 pause
+// held a FULL WEEK — no new US-Iran strikes. Hormuz flows recovered above
+// 10M bpd (Saudi ~90%, UAE fully restored), oil returned to pre-war levels
+// (Brent ~$72, WTI <$70), and India rallied to a ~2-month high (Sensex
+// 77,764 on Jul 3, 3rd straight gain). Talks grind on in Doha (US & Iran
+// meeting SEPARATELY via Qatar, "agreed to continue"); Iran to get $6bn in
+// frozen funds; France/Oman to demine. Unresolved: MoU keeps strait toll-
+// free 60 days only; Iran wants fees after. Khamenei funerals Jul 4-9.
+// PHASE MOVED off red: _phase ESCALATION → "CEASEFIRE" (green visuals;
+// status box + badge now green). Badge relabeled "CEASEFIRE HOLDING — DOHA
+// TALKS". radarScores eased broadly (Oil Shock 25, Military Exposure 35,
+// Hormuz 42); Currency Crisis nudged to 30 (rupee ~95.1 on FII selling).
+// Added Days 123/125/128 timeline (sev:1, green).
+// V16.6 (Jun 30): fragile pause; talks to Qatar. V16.5 (Jun 28): Iran hit Gulf bases.
+// V16.4 (Jun 26): US strikes Iran. V16.1-16.3 (Jun 22-23): re-closure / de-escalation.
 // ═══════════════════════════════════════════════════════════════════
 
 const C = {
@@ -499,7 +500,7 @@ export default function App() {
               borderRadius:6,background:(isEscalation?C.red:isBlockade?C.orange:C.green)+'0c',
               fontWeight:700,fontFamily:MONO,
               animation:(isEscalation||isBlockade)?'pulse 1.8s infinite':undefined}}>
-              {isEscalation?"🔴 FRAGILE PAUSE — TALKS IN QATAR":isBlockade?"⚠ HORMUZ RE-CLOSED (CONTESTED)":"● CEASEFIRE"}
+              {isEscalation?"🔴 FRAGILE PAUSE — TALKS IN QATAR":isBlockade?"⚠ HORMUZ RE-CLOSED (CONTESTED)":"● CEASEFIRE HOLDING — DOHA TALKS"}
             </div>
           </div>
         </div>
