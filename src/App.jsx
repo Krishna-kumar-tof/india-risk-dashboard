@@ -1,22 +1,22 @@
 import { useState, useEffect, useRef } from "react";
 
 // ═══════════════════════════════════════════════════════════════════
-// INDIA RISK DASHBOARD — V16.7 — CEASEFIRE HOLDING; OIL AT PRE-WAR (Day 128, Jul 6 2026, 8:45AM)
-// Changes: war-intel.json advanced to Jul 6 8:45 AM IST. The Jun 29 pause
-// held a FULL WEEK — no new US-Iran strikes. Hormuz flows recovered above
-// 10M bpd (Saudi ~90%, UAE fully restored), oil returned to pre-war levels
-// (Brent ~$72, WTI <$70), and India rallied to a ~2-month high (Sensex
-// 77,764 on Jul 3, 3rd straight gain). Talks grind on in Doha (US & Iran
-// meeting SEPARATELY via Qatar, "agreed to continue"); Iran to get $6bn in
-// frozen funds; France/Oman to demine. Unresolved: MoU keeps strait toll-
-// free 60 days only; Iran wants fees after. Khamenei funerals Jul 4-9.
-// PHASE MOVED off red: _phase ESCALATION → "CEASEFIRE" (green visuals;
-// status box + badge now green). Badge relabeled "CEASEFIRE HOLDING — DOHA
-// TALKS". radarScores eased broadly (Oil Shock 25, Military Exposure 35,
-// Hormuz 42); Currency Crisis nudged to 30 (rupee ~95.1 on FII selling).
-// Added Days 123/125/128 timeline (sev:1, green).
-// V16.6 (Jun 30): fragile pause; talks to Qatar. V16.5 (Jun 28): Iran hit Gulf bases.
-// V16.4 (Jun 26): US strikes Iran. V16.1-16.3 (Jun 22-23): re-closure / de-escalation.
+// INDIA RISK DASHBOARD — V16.8 — RE-ESCALATION: TANKERS HIT, US STRIKES IRAN (Day 130, Jul 8 2026, 9:45AM)
+// Changes: war-intel.json advanced to Jul 8 9:45 AM IST. The Jul 6
+// ceasefire BROKE. Jul 7: Iran hit three tankers in Hormuz (Qatari LNG
+// Al-Rekayyat, Saudi supertanker Wedyan, + a drone-hit third vessel) on
+// the US/Oman southern route; the US Treasury revoked Iran's oil-sales
+// licence (GL X) and CENTCOM launched a "series of powerful strikes" on
+// Iranian air-defence/radar/anti-ship + IRGC-boat targets; JMIC raised the
+// Hormuz threat to "SEVERE" (first since Jun 15). Jul 8: Iran vows a
+// "crushing response," cites MoU Article 10 breach. Oil jumped to ~$76
+// Brent (WTI ~$72); India snapped a 4-day run (Sensex 78,180.7 Jul 7) and
+// gapped down ~300 pts (~77,900) Wed. Khamenei burial Jul 9. PHASE back to
+// "ESCALATION" (red); badge relabeled "ESCALATION — TANKERS HIT · US
+// STRIKES IRAN". radar re-elevated (Military Exposure 78, Hormuz 72, Oil
+// Shock 55). Added Days 129-130 timeline (sev:3).
+// V16.7 (Jul 6): CEASEFIRE holding, oil at pre-war. V16.6 (Jun 30): fragile pause.
+// V16.4-16.5 (Jun 26-28): US strikes Iran / Iran hit Gulf bases.
 // ═══════════════════════════════════════════════════════════════════
 
 const C = {
@@ -500,7 +500,7 @@ export default function App() {
               borderRadius:6,background:(isEscalation?C.red:isBlockade?C.orange:C.green)+'0c',
               fontWeight:700,fontFamily:MONO,
               animation:(isEscalation||isBlockade)?'pulse 1.8s infinite':undefined}}>
-              {isEscalation?"🔴 FRAGILE PAUSE — TALKS IN QATAR":isBlockade?"⚠ HORMUZ RE-CLOSED (CONTESTED)":"● CEASEFIRE HOLDING — DOHA TALKS"}
+              {isEscalation?"🔴 ESCALATION — TANKERS HIT · US STRIKES IRAN":isBlockade?"⚠ HORMUZ RE-CLOSED (CONTESTED)":"● CEASEFIRE HOLDING — DOHA TALKS"}
             </div>
           </div>
         </div>
