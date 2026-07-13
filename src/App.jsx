@@ -1,22 +1,24 @@
 import { useState, useEffect, useRef } from "react";
 
 // ═══════════════════════════════════════════════════════════════════
-// INDIA RISK DASHBOARD — V16.8 — RE-ESCALATION: TANKERS HIT, US STRIKES IRAN (Day 130, Jul 8 2026, 9:45AM)
-// Changes: war-intel.json advanced to Jul 8 9:45 AM IST. The Jul 6
-// ceasefire BROKE. Jul 7: Iran hit three tankers in Hormuz (Qatari LNG
-// Al-Rekayyat, Saudi supertanker Wedyan, + a drone-hit third vessel) on
-// the US/Oman southern route; the US Treasury revoked Iran's oil-sales
-// licence (GL X) and CENTCOM launched a "series of powerful strikes" on
-// Iranian air-defence/radar/anti-ship + IRGC-boat targets; JMIC raised the
-// Hormuz threat to "SEVERE" (first since Jun 15). Jul 8: Iran vows a
-// "crushing response," cites MoU Article 10 breach. Oil jumped to ~$76
-// Brent (WTI ~$72); India snapped a 4-day run (Sensex 78,180.7 Jul 7) and
-// gapped down ~300 pts (~77,900) Wed. Khamenei burial Jul 9. PHASE back to
-// "ESCALATION" (red); badge relabeled "ESCALATION — TANKERS HIT · US
-// STRIKES IRAN". radar re-elevated (Military Exposure 78, Hormuz 72, Oil
-// Shock 55). Added Days 129-130 timeline (sev:3).
-// V16.7 (Jul 6): CEASEFIRE holding, oil at pre-war. V16.6 (Jun 30): fragile pause.
-// V16.4-16.5 (Jun 26-28): US strikes Iran / Iran hit Gulf bases.
+// INDIA RISK DASHBOARD — V17.0 — EXECUTIVE RESTRUCTURE (Day 135, Jul 13 2026)
+// Structural update per project instructions (no redesign):
+// 1. NEW: Executive Snapshot (#overview) — Risk Level / Oil / Markets /
+//    Shipping / Military / India Impact answered on first screen.
+//    Derived from war-intel.json + market-data.json; optional override
+//    via intel.exec {level, phase, shipping, military, india} keys.
+// 2. REMOVED: Windy weather iframe (obsolete) → replaced with static
+//    Atmospheric Transport assessment card. Removed duplicate nuclear
+//    site mini-grid (sites already listed below).
+// 3. REMOVED: hardcoded Day 102 block in Assessment (stale, duplicated
+//    timeline). Removed top 4-metric grid (consolidated into Snapshot).
+// 4. NAV: emoji pills → clean text labels; added Overview + Sources.
+// 5. Featured Research moved below fold (near Sources).
+// 6. Hormuz phase track updated through Jul re-escalation; overridable
+//    via intel.hormuzPhases [{label,color,days}].
+// All war content continues to load from war-intel.json — daily updates
+// require JSON edits only, no code changes.
+// V16.8 (Jul 8): re-escalation, tankers hit. V16.7 (Jul 6): ceasefire.
 // ═══════════════════════════════════════════════════════════════════
 
 const C = {
@@ -88,15 +90,16 @@ const FEATURED_FB = [
 ];
 
 const NAV = [
-  {id:"hormuz",   l:"🚢 Hormuz"},
-  {id:"kitchen",  l:"🍳 Kitchen"},
-  {id:"economic", l:"📉 Economy"},
-  {id:"military", l:"⚔️ Military"},
-  {id:"nuclear",  l:"☢️ Nuclear"},
-  {id:"scenarios",l:"📈 Scenarios"},
-  {id:"radar",    l:"🎯 Radar"},
-  {id:"warlog",   l:"📋 Archive"},
-  {id:"assessment",l:"🔴 Verdict"},
+  {id:"overview",  l:"Overview"},
+  {id:"hormuz",    l:"Maritime"},
+  {id:"kitchen",   l:"Household"},
+  {id:"economic",  l:"Markets"},
+  {id:"military",  l:"Military"},
+  {id:"nuclear",   l:"Nuclear"},
+  {id:"scenarios", l:"Scenarios"},
+  {id:"warlog",    l:"Archive"},
+  {id:"assessment",l:"Assessment"},
+  {id:"sources",   l:"Sources"},
 ];
 
 // ─── Mini Line Chart ───────────────────────────────────────────────
@@ -240,61 +243,19 @@ const Mc = ({label, value, sub, delta, accent=C.amber, deltaColor, indiaImpact})
   </div>
 );
 
-// ─── WindyMap ─────────────────────────────────────────────────────
-const WindyMapWithPins = () => (
-  <>
-    <div style={{position:'relative',width:'100%',paddingBottom:'56%',height:0,
-      borderRadius:8,border:'1px solid #1e2a3d',background:'#07090f',overflow:'hidden'}}>
-      <iframe title="Live wind forecast — Iran to India at 500 hPa"
-        src="https://embed.windy.com/embed2.html?lat=30&lon=54&detailLat=32.5&detailLon=51.7&width=650&height=450&zoom=5&level=500h&overlay=wind&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=default&metricTemp=default&radarRange=-1"
-        style={{position:'absolute',top:0,left:0,width:'100%',height:'100%',border:0}} frameBorder="0"/>
-    </div>
-    <div style={{marginTop:10}}>
-      <div style={{fontSize:8.5,color:C.muted,fontFamily:MONO,fontWeight:700,letterSpacing:2,marginBottom:8,textTransform:'uppercase'}}>
-        Nuclear site locations — pan the live map above to find each site
-      </div>
-      <div style={{display:'grid',gridTemplateColumns:'1fr 1fr 1fr',gap:6}}>
-        {[
-          {id:'B',name:'Bushehr', risk:88,col:'#ef4444',type:'Reactor ☢️',   hint:'SW Iran · Gulf coast · near Kuwait City'},
-          {id:'N',name:'Natanz',  risk:90,col:'#ef4444',type:'Enrichment',   hint:'Central Iran · N of Isfahan'},
-          {id:'I',name:'Isfahan', risk:96,col:'#ef4444',type:'HEU Storage',  hint:'Central Iran · visible as "Isfahan"'},
-          {id:'A',name:'Arak',    risk:75,col:'#fb923c',type:'Heavy Water',   hint:'W-Central Iran · between Tehran & Isfahan'},
-          {id:'F',name:'Fordow',  risk:88,col:'#ef4444',type:'Underground',  hint:'N-Central Iran · near Qom'},
-          {id:'Y',name:'Yazd',    risk:40,col:'#f59e0b',type:'Mining',       hint:'E-Central Iran'},
-        ].map(s => (
-          <div key={s.id} style={{background:'#080c14',borderRadius:7,padding:'8px 10px',
-            border:`1px solid ${s.col}20`,display:'flex',flexDirection:'column',gap:3}}>
-            <div style={{display:'flex',alignItems:'center',gap:7}}>
-              <div style={{width:18,height:18,borderRadius:'50%',background:s.col,flexShrink:0,
-                display:'flex',alignItems:'center',justifyContent:'center',border:'1.5px solid rgba(255,255,255,0.15)'}}>
-                <span style={{fontSize:8,fontWeight:900,color:'#fff',fontFamily:MONO}}>{s.id}</span>
-              </div>
-              <div>
-                <span style={{fontSize:10,fontWeight:700,color:C.white,fontFamily:MONO}}>{s.name}</span>
-                <span style={{fontSize:8,color:s.col,fontFamily:MONO,marginLeft:5}}>{s.risk}/100</span>
-              </div>
-            </div>
-            <div style={{fontSize:8.5,color:C.muted,fontFamily:MONO,lineHeight:1.4}}>{s.type}</div>
-            <div style={{fontSize:7.5,color:C.border2,fontFamily:MONO,fontStyle:'italic'}}>{s.hint}</div>
-          </div>
-        ))}
-      </div>
-    </div>
-  </>
-);
-
 // ─── Horizontal Interactive Timeline ──────────────────────────────
-const HormuzTimeline = ({events}) => {
+const HormuzTimeline = ({events, phaseData}) => {
   const [active, setActive] = useState(null);
   if (!events || !events.length) return null;
-  const phases = [
-    {label:"FULL CLOSURE",color:C.red,   days:"Feb 28–Mar 10"},
-    {label:"PEAK SHOCK",  color:C.orange, days:"Mar 11–Apr 7"},
-    {label:"CEASEFIRE",   color:C.green,  days:"Apr 7–18"},
-    {label:"DUAL BLOCKADE",color:C.red,  days:"Apr 18–22"},
-    {label:"STALEMATE",   color:C.amber,  days:"Apr 22–May"},
-    {label:"ESCALATION",   color:C.red,    days:"Jun 8–11 — India deaths"},
-  ];
+  const phases = (phaseData?.length ? phaseData.map(p=>({...p, color:C[p.color]||p.color||C.amber})) : [
+    {label:"FULL CLOSURE", color:C.red,   days:"Feb 28–Mar 10"},
+    {label:"PEAK SHOCK",   color:C.orange,days:"Mar 11–Apr 7"},
+    {label:"CEASEFIRE",    color:C.green, days:"Apr 7–18"},
+    {label:"BLOCKADE",     color:C.red,   days:"Apr 18–Jun 7"},
+    {label:"ESCALATION",   color:C.red,   days:"Jun 8–16"},
+    {label:"60-DAY TALKS", color:C.amber, days:"Jun 17–Aug 16"},
+    {label:"RE-ESCALATION",color:C.red,   days:"Jul 7–9"},
+  ]);
   return (
     <div>
       {/* Phase track */}
@@ -379,6 +340,16 @@ export default function App() {
   const iScenarios= intel?.scenarios     ?? null;
   const iFeatured = intel?.featured      ?? FEATURED_FB;
   const iMilTop   = intel?.milTop        ?? [];
+
+  // ── Executive snapshot (derived from JSON; overridable via intel.exec) ──
+  const iExec    = intel?.exec ?? {};
+  const radarNow = k => (intel?.radar ?? []).find(r=>r.axis===k)?.now;
+  const riskAvg  = (intel?.radar?.length)
+    ? Math.round(intel.radar.reduce((s,r)=>s+(r.now||0),0)/intel.radar.length) : null;
+  const riskLevel = iExec.level ??
+    (riskAvg==null ? "—" : riskAvg>=75 ? "SEVERE" : riskAvg>=60 ? "HIGH" : riskAvg>=45 ? "ELEVATED" : "MODERATE");
+  const riskColor = riskLevel==="SEVERE" ? C.red : riskLevel==="HIGH" ? C.orange
+    : riskLevel==="ELEVATED" ? C.amber : C.green;
 
   const fullTL = [...(intel?.timeline ?? [])]
     .sort((a,b)=>a.d-b.d);
@@ -515,7 +486,7 @@ export default function App() {
             color:C.sub,fontFamily:SERIF,lineHeight:1.9,animation:'fadein 0.25s ease both'}}>
             <strong style={{color:C.white,fontFamily:SYNE}}>India's war tracker — not a global one.</strong>
             {' '}This dashboard focuses exclusively on what the Iran-Gulf War means for India's 1.4 billion people:
-            energy prices, food security, financial markets, nuclear exposure, and the 280+ Indian seafarers in the Gulf.
+            energy prices, food security, financial markets, nuclear exposure, and Indian seafarers in the Gulf.
             We track Hormuz because <strong style={{color:C.amber}}>85% of India's crude oil</strong> transits that
             39km chokepoint. Market data auto-syncs every 4 hours. War intelligence updated manually from 50+ verified sources.
           </div>
@@ -541,29 +512,29 @@ export default function App() {
 
       <div className="dash-pad" style={{padding:'20px 16px 72px'}}>
 
-        {/* ══ FEATURED — compact blinking strip ══ */}
-        <section style={{marginBottom:22}}>
-          <div style={{display:'flex',alignItems:'center',gap:8,marginBottom:8}}>
-            <div style={{width:6,height:6,borderRadius:'50%',background:C.amber,
-              animation:'pulse 1.8s infinite',flexShrink:0}}/>
-            <div style={{fontSize:8,fontWeight:700,color:C.amber,letterSpacing:3.5,
-              textTransform:'uppercase',fontFamily:MONO}}>Featured Research</div>
-            <div style={{height:1,flex:1,background:`linear-gradient(90deg,${C.amber}30,transparent)`}}/>
-          </div>
-          <div style={{display:'flex',flexDirection:'column',gap:5}}>
-            {(iFeatured.length ? iFeatured : FEATURED_FB).map((pub,i)=>(
-              <a key={i} href={pub.url} target="_blank" rel="noopener noreferrer"
-                style={{display:'flex',alignItems:'center',gap:10,background:C.card,
-                  border:`1px solid ${C.border}`,borderLeft:`2px solid ${pub.tagColor||C.amber}`,
-                  borderRadius:6,padding:'8px 12px',textDecoration:'none',transition:'all 0.15s'}}>
-                <span style={{fontSize:14,flexShrink:0}}>{pub.icon||'📄'}</span>
-                <div style={{flex:1,minWidth:0}}>
-                  <span style={{fontSize:11,fontWeight:700,color:C.white,fontFamily:SYNE}}>{pub.title}</span>
-                  <span style={{fontSize:9,color:C.muted,fontFamily:MONO,marginLeft:8}}>{pub.org}</span>
-                </div>
-                <span style={{fontSize:9,color:pub.tagColor||C.amber,fontFamily:MONO,fontWeight:700,flexShrink:0}}>Read →</span>
-              </a>
-            ))}
+        {/* ══ EXECUTIVE SNAPSHOT — 30-second situation read ══ */}
+        <section id="overview" style={{marginBottom:26,scrollMarginTop:58}}>
+          <div className="grid3" style={{display:'grid',gridTemplateColumns:'1fr 1fr',gap:8}}>
+            <Mc label="Risk Level" value={riskLevel} accent={riskColor}
+              delta={iExec.phase ?? iPhase} deltaColor={riskColor}
+              sub={`Composite ${riskAvg ?? "—"}/100 · Day ${iDay}`}/>
+            <Mc label="Oil — Brent" value={`$${brentRaw}`}
+              delta={(brentChg>0?"▲ +":"▼ ")+Math.abs(brentChg).toFixed(1)+"%"}
+              deltaColor={brentChg>0?C.red:C.green} accent={brentColor}
+              sub={iExec.oilNote ?? "85% of India's crude transits Hormuz"}/>
+            <Mc label="Markets — Nifty 50"
+              value={typeof niftyRaw==='number'?Math.round(niftyRaw).toLocaleString():niftyRaw}
+              delta={(niftyChg>=0?"▲ +":"▼ ")+Math.abs(niftyChg).toLocaleString()}
+              deltaColor={niftyColor} accent={niftyChg>=0?C.green:C.red}
+              sub={`Sensex ${typeof sensexRaw==='number'?sensexRaw.toLocaleString():sensexRaw} · auto-synced 4h`}/>
+            <Mc label="Shipping — Hormuz" value={iExec.shipping ?? "DISRUPTED"} accent={C.cyan}
+              sub={iExec.shippingSub ?? `Pre-war ${iHormuz?.preWarFlow||"130-160 ships/day"} · ${iHormuz?.indianSeafarers??"—"} Indian seafarers in Gulf`}/>
+            <Mc label="Military" value={iExec.military ?? `${radarNow('Mil. Exposure') ?? "—"}/100`} accent={C.red}
+              delta={`Exposure ${radarNow('Mil. Exposure') ?? "—"}/100`} deltaColor={C.red}
+              sub={iExec.militarySub ?? `War dead ${iDeaths}`}/>
+            <Mc label="India Impact" value={`₹${typeof rupeeRaw==='number'?rupeeRaw.toFixed(2):rupeeRaw}`} accent={C.orange}
+              delta="₹ / USD" deltaColor={C.orange}
+              sub={iExec.indiaSub ?? `Household pressure ${radarNow('Household') ?? "—"}/100 · was ₹91.49 pre-war`}/>
           </div>
         </section>
 
@@ -603,25 +574,8 @@ export default function App() {
             })}
           </div>
 
-        {/* ══ METRICS ══ */}
-        <div className="grid4" style={{display:'grid',gridTemplateColumns:'1fr 1fr',gap:8,marginBottom:26}}>
-          <Mc label="War Dead" value={iDeaths} sub={iDeathsSub} accent={C.red}
-            indiaImpact="280+ Indian seafarers in Gulf zone"/>
-          <Mc label="Brent Crude" value={`$${brentRaw}`}
-            delta={(brentChg>0?"▲ +":"▼ ")+Math.abs(brentChg).toFixed(1)+"%"}
-            deltaColor={brentChg>0?C.red:C.green} sub="was $65 pre-war" accent={brentColor}
-            indiaImpact="India imports 85%+ via Hormuz"/>
-          <Mc label="Nifty 50" value={typeof niftyRaw==='number'?Math.round(niftyRaw).toLocaleString():niftyRaw}
-            delta={(niftyChg>=0?"▲ +":"▼ ")+Math.abs(niftyChg).toLocaleString()}
-            deltaColor={niftyColor} sub="Apr 30 close" accent={niftyChg>=0?C.green:C.red}
-            indiaImpact={`Sensex ${typeof sensexRaw==='number'?sensexRaw.toLocaleString():sensexRaw}`}/>
-          <Mc label="₹ / USD" value={typeof rupeeRaw==='number'?rupeeRaw.toFixed(2):rupeeRaw}
-            delta="Fresh ATL" deltaColor={C.red} sub="was ₹91.49 pre-war" accent={C.orange}
-            indiaImpact="95.50. Deal = Rupee to Rs 93. Every ₹1 recovery = ₹4,000cr saving"/>
-        </div>
-
         {/* ══ HORMUZ ══ */}
-        <S id="hormuz" title="🚢 Hormuz — India's Energy Lifeline" accent={C.cyan}
+        <S id="hormuz" title="Maritime — Hormuz, India's Energy Lifeline" accent={C.cyan}
           sub="85% of India's crude oil transits this 39km chokepoint. What happens here lands at your pump.">
 
           {iHormuz?.headline && (
@@ -704,7 +658,7 @@ export default function App() {
           <div style={{background:C.card,borderRadius:10,padding:14,border:`1px solid ${C.border}`}}>
             <div style={{fontSize:9,fontWeight:700,color:C.cyan,letterSpacing:2.5,
               fontFamily:MONO,marginBottom:12}}>TIMELINE — CLICK TO EXPAND</div>
-            <HormuzTimeline events={iHEvents.length ? iHEvents : iHLatest}/>
+            <HormuzTimeline events={iHEvents.length ? iHEvents : iHLatest} phaseData={intel?.hormuzPhases}/>
             <div style={{fontSize:9,color:C.muted,marginTop:10,paddingTop:8,
               borderTop:`1px solid ${C.border}20`,fontFamily:MONO}}>
               🇮🇳 Latest: {iHormuz?.lastTransit||"Status pending"}
@@ -713,7 +667,7 @@ export default function App() {
         </S>
 
         {/* ══ KITCHEN TABLE — moved up ══ */}
-        <S id="kitchen" title="🍳 Your Kitchen Table" accent={C.amber}
+        <S id="kitchen" title="Household — Your Kitchen Table" accent={C.amber}
           sub="8+ weeks of war — what it costs Indian households today.">
           {(iKitchen.length ? iKitchen : [
             {item:"LPG Cylinder (14.2kg)",status:"orange",statusText:"Brent $108 — hike risk",pre:"₹853",now:"₹912.50",twoWeek:"₹912-960 if blockade holds",detail:"30+ days buffer. No dry-outs. Gulf fertiliser imports at $1M+/ship toll now commercially impossible."},
@@ -754,20 +708,16 @@ export default function App() {
         </S>
 
         {/* ══ ECONOMY ══ */}
-        <S id="economic" title="📉 Economic Impact on India" accent={C.orange}>
+        <S id="economic" title="Markets — Economic Impact on India" accent={C.orange}>
           {/* Key metrics row */}
           <div className="grid4" style={{display:'grid',gridTemplateColumns:'1fr 1fr',gap:8,marginBottom:14}}>
-            <Mc label="BSE Market Cap" value={iEcon?.wealth||"Loading..."} accent={C.orange}
-              sub={iEcon?.wealth||""}/>
-            <Mc label="FII Flow" value={iEcon?.fpi||"Loading..."}
-              delta={iEcon?.fpiDelta||""} accent={C.red}
-              sub={iEcon?.fpiDelta||""}/>
-            <Mc label="Sensex" value={iEcon?.sensex||"Loading..."}
-              delta={iEcon?.sensexDelta||"▼ -583 (-0.75%)"} deltaColor={C.red}
-              sub={iEcon?.sensexSub||"Apr 30 close. Intraday low -1,237 pts."} accent={C.red}/>
-            <Mc label="India VIX" value={iEcon?.vix||"~24-27"}
-              delta={iEcon?.vixDelta||"Brent $108 easing from $126"} accent={C.amber}
-              sub="Fear gauge — war-elevated"/>
+            <Mc label="BSE Market Cap" value={iEcon?.wealth||"—"} accent={C.orange}/>
+            <Mc label="FII Flow" value={iEcon?.fpi||"—"}
+              sub={iEcon?.fpiDelta||""} accent={C.red}/>
+            <Mc label="Sensex" value={iEcon?.sensex||"—"}
+              sub={iEcon?.sensexSub||""} accent={C.red}/>
+            <Mc label="India VIX" value={iEcon?.vix||"—"}
+              sub={iEcon?.vixDelta||"Fear gauge"} accent={C.amber}/>
           </div>
 
           {/* Charts */}
@@ -807,7 +757,7 @@ export default function App() {
         </S>
 
         {/* ══ MILITARY — crisp ══ */}
-        <S id="military" title="⚔️ Military & Strategic Updates" accent={C.red}>
+        <S id="military" title="Military & Strategic Updates" accent={C.red}>
           {(iMilitary.length ? iMilitary : iMilTop).map((m,i)=>{
             const mc = C[m.color] || C.amber;
             const isBreaking = m.lv === "BREAKING";
@@ -833,7 +783,7 @@ export default function App() {
         </S>
 
         {/* ══ NUCLEAR ══ */}
-        <S id="nuclear" title="☢️ Nuclear Exposure" accent={C.purple}>
+        <S id="nuclear" title="Nuclear Exposure" accent={C.purple}>
           <div style={{background:C.purpleDim,border:`1px solid ${C.purple}30`,
             borderLeft:`3px solid ${C.purple}`,borderRadius:10,padding:'13px 15px',marginBottom:14}}>
             <div style={{fontSize:9,fontWeight:700,color:C.purple,letterSpacing:2.5,
@@ -847,26 +797,15 @@ export default function App() {
             </div>
           </div>
 
-          <div style={{background:C.card,borderRadius:12,padding:12,
+          <div style={{background:C.card,borderRadius:12,padding:'13px 15px',
             marginBottom:14,border:`1px solid ${C.purple}25`}}>
-            <div style={{display:'flex',justifyContent:'space-between',
-              alignItems:'center',marginBottom:10,flexWrap:'wrap',gap:6}}>
-              <div>
-                <div style={{fontSize:10,fontWeight:700,color:C.purple,letterSpacing:2,fontFamily:MONO}}>
-                  🌬️ LIVE WIND — IRAN → INDIA (500 hPa)
-                </div>
-                <div style={{fontSize:10,color:C.muted,marginTop:2}}>Real-time atmospheric transport at ~5.5km altitude</div>
-              </div>
-              <Chip color={C.cyan} size={8}>● LIVE • windy.com</Chip>
-            </div>
-            <WindyMapWithPins/>
-            <div style={{background:C.amberDim,border:`1px solid ${C.amber}25`,
-              borderRadius:6,padding:'7px 10px',marginTop:10,
-              fontSize:10,color:C.sub,lineHeight:1.6,fontFamily:SERIF}}>
-              <strong style={{color:C.amber}}>⚠️ Note:</strong> Wind direction at 500 hPa only — for long-range
-              particulate transport. Does NOT show radiation levels or fallout.
-              For fallout modelling: <a href="https://www.ready.noaa.gov/HYSPLIT.php" target="_blank"
-              rel="noopener noreferrer" style={{color:C.cyan}}>NOAA HYSPLIT</a>.
+            <div style={{fontSize:9,fontWeight:700,color:C.purple,letterSpacing:2.5,
+              fontFamily:MONO,marginBottom:8}}>ATMOSPHERIC TRANSPORT — ASSESSMENT</div>
+            <div style={{fontSize:11.5,color:C.sub,lineHeight:1.75,fontFamily:SERIF}}>
+              <div style={{marginBottom:4}}>• <strong style={{color:C.text}}>Key insight:</strong> Prevailing westerlies at 500 hPa place NW India 4–7 days downwind of Iranian nuclear sites.</div>
+              <div style={{marginBottom:4}}>• <strong style={{color:C.text}}>Watchlist:</strong> Bushehr reactor integrity; Isfahan HEU tunnel complex; IAEA site access.</div>
+              <div>• <strong style={{color:C.text}}>Confidence:</strong> Analytical estimate — no radiological release confirmed to date. Fallout modelling: <a href="https://www.ready.noaa.gov/HYSPLIT.php" target="_blank"
+                rel="noopener noreferrer" style={{color:C.cyan}}>NOAA HYSPLIT</a>.</div>
             </div>
           </div>
 
@@ -942,7 +881,7 @@ export default function App() {
         </S>
 
         {/* ══ SCENARIOS ══ */}
-        <S id="scenarios" title="📈 Scenarios" accent={C.cyan}
+        <S id="scenarios" title="Scenarios" accent={C.cyan}
           sub="Three paths for the West Asia War. One matters most for India.">
           <div className="grid3" style={{display:'grid',gridTemplateColumns:'1fr',gap:10,marginBottom:14}}>
             {[
@@ -1009,7 +948,7 @@ export default function App() {
         </S>
 
         {/* ══ RADAR ══ */}
-        <S id="radar" title="🎯 Risk Radar" accent={C.amber}>
+        <S id="radar" title="Risk Radar" accent={C.amber}>
           <div style={{display:'grid',gridTemplateColumns:'1fr 1fr',gap:10}}>
             <div style={{background:C.card,borderRadius:10,padding:12,border:`1px solid ${C.border}`}}>
               <RadarSVG data={iRadar} day={iDay}/>
@@ -1034,7 +973,7 @@ export default function App() {
         </S>
 
         {/* ══ WAR LOG ══ */}
-        <S id="warlog" title="📋 War Log — All Days" accent={C.sub}>
+        <S id="warlog" title="Archive — War Log, All Days" accent={C.sub}>
           <div style={{background:C.card,borderRadius:10,padding:12,border:`1px solid ${C.border}`}}>
             <div style={{display:'flex',justifyContent:'space-between',
               alignItems:'center',marginBottom:10,flexWrap:'wrap',gap:8}}>
@@ -1082,7 +1021,7 @@ export default function App() {
         </S>
 
         {/* ══ STRATEGIC ASSESSMENT ══ */}
-        <S id="assessment" title="🔴 Strategic Assessment" accent={C.red}>
+        <S id="assessment" title="Strategic Assessment" accent={C.red}>
           <div style={{background:C.redDim,border:`1px solid ${C.red}20`,
             borderLeft:`3px solid ${C.red}`,borderRadius:12,padding:'18px 20px'}}>
             {iAssess?.headline && (
@@ -1109,19 +1048,35 @@ export default function App() {
                 );
               })}
             </div>
-            <div style={{background:`${C.red}0c`,border:`1px solid ${C.red}30`,
-              borderRadius:8,padding:'12px 14px',marginTop:14,
-              fontSize:12.5,color:C.sub,lineHeight:1.8,fontFamily:SERIF}}>
-              <strong style={{color:C.red}}>Day 102 — India's darkest day of the war.</strong>{' '}
-              US Navy struck the tanker MT Settebello in the Gulf of Oman, killing 3 Indian sailors (Aditya Sharma, Shivanand Chaurashiya, Patnala Suresh) — the first deaths of the US blockade since it began April 13. A second vessel, MT Jalveer, was attacked the next day; all 20 Indians aboard were evacuated safely. MEA summoned the US Chargé d'Affaires and lodged a formal protest — against India's own strategic partner. Separately, the US launched a second night of strikes on Iran (Bandar Abbas, Sirik hit); Iran retaliated at Bahrain, Jordan and Kuwait. Trump called Iran's military "completely defeated" and warned Tehran will "pay the price." Nifty closed 23,215 (-0.12%); Brent eased to $91 intraday but is climbing toward $95 Thursday.
-              <br/><br/>
-              <strong style={{color:C.cyan}}>India must act now:</strong> 562 Indian seafarers remain on 13 Indian-flagged vessels in the Gulf; 18,000+ Indian seafarers total in the region. India will raise the pattern of attacks at the G7 (June 15-17) — a Modi-Trump bilateral is likely. PGSA applications: file today. Nifty support 23,000-23,100. Brent $95 = OMC pressure intensifies, fourth hike risk rises.
-            </div>
           </div>
         </S>
 
+        {/* ══ FEATURED RESEARCH — relocated near sources ══ */}
+        <section style={{marginBottom:22}}>
+          <div style={{display:'flex',alignItems:'center',gap:8,marginBottom:8}}>
+            <div style={{fontSize:8,fontWeight:700,color:C.amber,letterSpacing:3.5,
+              textTransform:'uppercase',fontFamily:MONO}}>Featured Research</div>
+            <div style={{height:1,flex:1,background:`linear-gradient(90deg,${C.amber}30,transparent)`}}/>
+          </div>
+          <div style={{display:'flex',flexDirection:'column',gap:5}}>
+            {(iFeatured.length ? iFeatured : FEATURED_FB).map((pub,i)=>(
+              <a key={i} href={pub.url} target="_blank" rel="noopener noreferrer"
+                style={{display:'flex',alignItems:'center',gap:10,background:C.card,
+                  border:`1px solid ${C.border}`,borderLeft:`2px solid ${pub.tagColor||C.amber}`,
+                  borderRadius:6,padding:'8px 12px',textDecoration:'none',transition:'all 0.15s'}}>
+                <span style={{fontSize:14,flexShrink:0}}>{pub.icon||'📄'}</span>
+                <div style={{flex:1,minWidth:0}}>
+                  <span style={{fontSize:11,fontWeight:700,color:C.white,fontFamily:SYNE}}>{pub.title}</span>
+                  <span style={{fontSize:9,color:C.muted,fontFamily:MONO,marginLeft:8}}>{pub.org}</span>
+                </div>
+                <span style={{fontSize:9,color:pub.tagColor||C.amber,fontFamily:MONO,fontWeight:700,flexShrink:0}}>Read →</span>
+              </a>
+            ))}
+          </div>
+        </section>
+
         {/* ══ FOOTER ══ */}
-        <footer style={{paddingTop:20,borderTop:`1px solid ${C.border}`,marginTop:8}}>
+        <footer id="sources" style={{scrollMarginTop:58,paddingTop:20,borderTop:`1px solid ${C.border}`,marginTop:8}}>
           <div style={{fontSize:10,color:C.muted,lineHeight:1.9,fontFamily:SERIF}}>
             <strong style={{color:C.sub}}>Sources:</strong>{' '}
             Al Jazeera, CNN, CBS, NBC, ABC, AP, Reuters, Bloomberg, NPR, CNBC, Iran International,
