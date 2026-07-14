@@ -471,7 +471,7 @@ export default function App() {
               borderRadius:6,background:(isEscalation?C.red:isBlockade?C.orange:C.green)+'0c',
               fontWeight:700,fontFamily:MONO,
               animation:(isEscalation||isBlockade)?'pulse 1.8s infinite':undefined}}>
-              {isEscalation?"🔴 ESCALATION — TANKERS HIT · US STRIKES IRAN":isBlockade?"⚠ HORMUZ RE-CLOSED (CONTESTED)":"● CEASEFIRE HOLDING — DOHA TALKS"}
+              {intel?._phaseBadge ?? (isEscalation?"🔴 ESCALATION":isBlockade?"⚠ HORMUZ RE-CLOSED (CONTESTED)":"● CEASEFIRE HOLDING")}
             </div>
           </div>
         </div>
