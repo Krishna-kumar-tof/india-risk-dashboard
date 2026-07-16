@@ -225,11 +225,15 @@ const RadarSVG = ({data, day}) => {
 };
 
 const S = ({id, title, accent=C.amber, sub, children}) => (
-  <section id={id} style={{marginBottom:44, scrollMarginTop:58}}>
-    <div style={{marginBottom:16, paddingBottom:10, borderBottom:`1px solid ${C.border}`}}>
-      <h2 style={{margin:0, fontSize:11.5, fontWeight:700, color:accent,
-        letterSpacing:4, textTransform:'uppercase', fontFamily:MONO}}>{title}</h2>
-      {sub && <p style={{margin:'5px 0 0', fontSize:13, color:C.sub, fontFamily:SERIF, lineHeight:1.6}}>{sub}</p>}
+  <section id={id} style={{marginBottom:48, scrollMarginTop:58}}>
+    <div style={{marginBottom:18, paddingBottom:12, borderBottom:`1px solid ${C.border}`}}>
+      <div style={{display:'flex', alignItems:'center', gap:11}}>
+        <span style={{width:24, height:4, background:accent, borderRadius:2, flexShrink:0,
+          boxShadow:`0 0 12px ${accent}50`}}/>
+        <h2 style={{margin:0, fontSize:16, fontWeight:800, color:C.white,
+          letterSpacing:1.2, textTransform:'uppercase', fontFamily:SYNE}}>{title}</h2>
+      </div>
+      {sub && <p style={{margin:'7px 0 0 35px', fontSize:13, color:C.sub, fontFamily:SERIF, lineHeight:1.6}}>{sub}</p>}
     </div>
     {children}
   </section>
@@ -516,7 +520,7 @@ export default function App() {
   const [logSearch,   setLogSearch]   = useState('');
   const [aboutOpen,   setAboutOpen]   = useState(false);
   const [wcExpanded,  setWcExpanded]  = useState({});
-  const [briefOpen,   setBriefOpen]   = useState(false);
+  const [briefOpen,   setBriefOpen]   = useState(typeof window!=='undefined' && window.innerWidth>=768);
 
   useEffect(() => {
     fetch('./market-data.json?t='+Date.now())
@@ -633,8 +637,8 @@ export default function App() {
           .grid3  { grid-template-columns:1fr 1fr 1fr !important; }
           .grid4  { grid-template-columns:1fr 1fr 1fr 1fr !important; }
           .dash-pad { padding:28px 36px 80px !important; }
-          .hdr-inner { flex-direction:row !important; align-items:flex-start !important; }
-          .hdr-h1 { font-size:32px !important; }
+          .hdr-inner { flex-direction:row !important; align-items:flex-start !important; gap:36px !important; }
+          .hdr-h1 { font-size:38px !important; }
         }
         @media(max-width:767px){
           .grid2,.grid3,.grid4 { grid-template-columns:1fr 1fr !important; }
@@ -645,8 +649,8 @@ export default function App() {
       <div style={{background:`linear-gradient(90deg,#7f1d1d,${C.red},#b91c1c)`,
         padding:'7px 0',overflow:'hidden',width:'100%',position:'relative'}}>
         <div style={{display:'flex',width:'max-content',flexWrap:'nowrap',
-          animation:'ticker 150s linear infinite',
-          WebkitAnimation:'ticker 150s linear infinite',willChange:'transform'}}>
+          animation:'ticker 240s linear infinite',
+          WebkitAnimation:'ticker 240s linear infinite',willChange:'transform'}}>
           {[...iT,...iT,...iT].map((t,i) => (
             <span key={i} style={{fontSize:13,fontWeight:600,color:'#fff',
               letterSpacing:0.2,paddingRight:56,whiteSpace:'nowrap',flexShrink:0,
@@ -658,9 +662,9 @@ export default function App() {
       </div>
 
       {/* ══ HEADER ══ */}
-      <header style={{padding:'20px 20px 14px',borderBottom:`1px solid ${C.border}`,background:C.surface}}>
-        <div className="hdr-inner" style={{display:'flex',flexDirection:'column',gap:14}}>
-          <div style={{flex:1}}>
+      <header style={{padding:'24px 20px 16px',borderBottom:`1px solid ${C.border}`,background:C.surface}}>
+        <div className="hdr-inner" style={{display:'flex',flexDirection:'column',gap:18}}>
+          <div style={{flex:'1 1 420px',minWidth:260}}>
             <div style={{display:'flex',alignItems:'center',gap:10,marginBottom:10}}>
               <div style={{fontSize:10,fontWeight:700,color:C.muted,letterSpacing:5,
                 textTransform:'uppercase',fontFamily:MONO}}>India Risk Assessment</div>
@@ -675,32 +679,61 @@ export default function App() {
                 ))}
               </div>
             </div>
-            <h1 className="hdr-h1" style={{margin:0,fontSize:24,fontWeight:800,color:C.white,
-              fontFamily:SYNE,lineHeight:1.1,letterSpacing:-0.5}}>
-              How the West Asia War<br/>Is Hitting India
+            <h1 className="hdr-h1" style={{margin:"14px 0 0",fontSize:26,fontWeight:800,color:C.white,
+              fontFamily:SYNE,lineHeight:1.12,letterSpacing:-0.8}}>
+              How the West Asia War<br/>Is Hitting <span style={{color:C.amber}}>India</span>
             </h1>
             <div style={{marginTop:7,fontSize:12.5,color:C.sub,fontFamily:MONO}}>
               {iUpdated} &nbsp;•&nbsp; 50+ verified sources
             </div>
           </div>
-          <div style={{display:'flex',gap:8,alignItems:'flex-start',flexWrap:'wrap'}}>
-            <div style={{background:C.amber,color:C.bg,fontSize:17,fontWeight:800,
-              padding:'10px 20px',borderRadius:8,fontFamily:SYNE,letterSpacing:-0.3,
-              boxShadow:`0 4px 20px ${C.amber}40`}}>DAY {iDay}</div>
+          <div className="hdr-right" style={{display:'flex',flexDirection:'column',gap:10,
+            flex:'0 1 480px',minWidth:260}}>
+            <div style={{display:'flex',gap:8,alignItems:'center',flexWrap:'wrap'}}>
+              <div style={{background:C.amber,color:C.bg,fontSize:17,fontWeight:800,
+                padding:'10px 20px',borderRadius:8,fontFamily:SYNE,letterSpacing:-0.3,
+                boxShadow:`0 4px 20px ${C.amber}40`}}>DAY {iDay}</div>
+              <button className="btn-base" onClick={()=>shareCard(sharePayload)}
+                title="Download / share today's summary as an image"
+                style={{fontSize:10.5,color:C.cyan,background:C.cyanDim,
+                  border:`1px solid ${C.cyan}30`,borderRadius:6,padding:'8px 12px',
+                  fontWeight:700,fontFamily:MONO,letterSpacing:0.5,cursor:'pointer'}}>
+                📤 SHARE TODAY'S CARD
+              </button>
+            </div>
             <div style={{fontSize:10.5,color:isEscalation?C.red:isBlockade?C.orange:C.green,
-              padding:'5px 10px',border:`1px solid ${isEscalation?C.red:isBlockade?C.orange:C.green}40`,
+              padding:'6px 12px',border:`1px solid ${isEscalation?C.red:isBlockade?C.orange:C.green}40`,
               borderRadius:6,background:(isEscalation?C.red:isBlockade?C.orange:C.green)+'0c',
-              fontWeight:700,fontFamily:MONO,
+              fontWeight:700,fontFamily:MONO,lineHeight:1.5,
               animation:(isEscalation||isBlockade)?'pulse 1.8s infinite':undefined}}>
               {intel?._phaseBadge ?? (isEscalation?"🔴 ESCALATION":isBlockade?"⚠ HORMUZ RE-CLOSED (CONTESTED)":"● CEASEFIRE HOLDING")}
             </div>
-            <button className="btn-base" onClick={()=>shareCard(sharePayload)}
-              title="Download / share today's summary as an image"
-              style={{fontSize:10.5,color:C.cyan,background:C.cyanDim,
-                border:`1px solid ${C.cyan}30`,borderRadius:6,padding:'5px 10px',
-                fontWeight:700,fontFamily:MONO,letterSpacing:0.5,cursor:'pointer'}}>
-              📤 SHARE TODAY'S CARD
-            </button>
+            {/* 60-Second Brief — fills the header's right column */}
+            <div style={{background:C.card,border:`1px solid ${C.cyan}22`,
+              borderLeft:`3px solid ${C.cyan}`,borderRadius:10,overflow:'hidden'}}>
+              <button className="btn-base" onClick={()=>setBriefOpen(!briefOpen)}
+                style={{width:'100%',textAlign:'left',background:'transparent',
+                  padding:'10px 14px',display:'flex',alignItems:'center',gap:8,cursor:'pointer'}}>
+                <span style={{fontSize:10.5,fontWeight:700,color:C.cyan,letterSpacing:2.5,fontFamily:MONO}}>
+                  ⏱ THE 60-SECOND BRIEF
+                </span>
+                <span style={{fontSize:10.5,color:C.muted,fontFamily:MONO,marginLeft:'auto'}}>
+                  {briefOpen?'▲':'▼ plain language'}
+                </span>
+              </button>
+              {briefOpen && (
+                <div style={{padding:'0 14px 12px',animation:'fadein 0.2s ease both'}}>
+                  {iBrief.map((line,i)=>(
+                    <div key={i} style={{display:'flex',gap:9,alignItems:'flex-start',
+                      padding:'5px 0',borderBottom:i===iBrief.length-1?'none':`1px solid ${C.border}25`}}>
+                      <span style={{fontSize:11,fontWeight:800,color:C.cyan,fontFamily:MONO,
+                        flexShrink:0,minWidth:14,paddingTop:2}}>{i+1}.</span>
+                      <span style={{fontSize:12.5,color:C.text,lineHeight:1.65,fontFamily:SERIF}}>{line}</span>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
           </div>
         </div>
         <button className="btn-base" onClick={()=>setAboutOpen(!aboutOpen)}
@@ -715,8 +748,8 @@ export default function App() {
             <strong style={{color:C.white,fontFamily:SYNE}}>India's war tracker — not a global one.</strong>
             {' '}This dashboard focuses exclusively on what the Iran-Gulf War means for India's 1.4 billion people:
             energy prices, food security, financial markets, nuclear exposure, and Indian seafarers in the Gulf.
-            We track Hormuz because <strong style={{color:C.amber}}>85% of India's crude oil</strong> transits that
-            39km chokepoint. Market data auto-syncs every 4 hours. War intelligence updated manually from 50+ verified sources.
+            We track Hormuz because India imports <strong style={{color:C.amber}}>~85% of its crude</strong>, and before the war
+            <strong style={{color:C.amber}}> ~45% of those imports</strong> transited this 39km chokepoint (emergency rerouting has cut that to ~30%). Market data auto-syncs every 4 hours. War intelligence updated manually from 50+ verified sources.
           </div>
         )}
       </header>
@@ -749,14 +782,14 @@ export default function App() {
             <Mc label="Oil — Brent" value={`$${brentRaw}`}
               delta={(brentChg>0?"▲ +":"▼ ")+Math.abs(brentChg).toFixed(1)+"%"}
               deltaColor={brentChg>0?C.red:C.green} accent={brentColor}
-              sub={iExec.oilNote ?? "85% of India's crude transits Hormuz"}/>
+              sub={iExec.oilNote ?? "~45% of India's crude imports transited Hormuz pre-war; ~30% now after rerouting"}/>
             <Mc label="Markets — Nifty 50"
               value={typeof niftyRaw==='number'?Math.round(niftyRaw).toLocaleString():niftyRaw}
               delta={(niftyChg>=0?"▲ +":"▼ ")+Math.abs(niftyChg).toLocaleString()}
               deltaColor={niftyColor} accent={niftyChg>=0?C.green:C.red}
               sub={`Sensex ${typeof sensexRaw==='number'?sensexRaw.toLocaleString():sensexRaw} · auto-synced 4h`}/>
             <Mc label="Shipping — Hormuz" value={iExec.shipping ?? "DISRUPTED"} accent={C.cyan}
-              sub={iExec.shippingSub ?? `Pre-war ${iHormuz?.preWarFlow||"130-160 ships/day"} · ${iHormuz?.indianSeafarers??"—"} Indian seafarers in Gulf`}/>
+              sub={iExec.shippingSub ?? `Pre-war ${iHormuz?.preWarFlow||"~90-140 ships/day"} · ${iHormuz?.indianSeafarers??"—"} Indian seafarers in Gulf`}/>
             <Mc label="Military" value={iExec.military ?? `${radarNow('Mil. Exposure') ?? "—"}/100`} accent={C.red}
               delta={`Exposure ${radarNow('Mil. Exposure') ?? "—"}/100`} deltaColor={C.red}
               sub={iExec.militarySub ?? `War dead ${iDeaths}`}/>
@@ -765,36 +798,6 @@ export default function App() {
               sub={iExec.indiaSub ?? `Household pressure ${radarNow('Household') ?? "—"}/100 · was ₹91.49 pre-war`}/>
           </div>
         </section>
-
-        {/* ══ 60-SECOND BRIEF — plain language, no jargon ══ */}
-        <div style={{marginBottom:26}}>
-          <button className="btn-base" onClick={()=>setBriefOpen(!briefOpen)}
-            style={{width:'100%',textAlign:'left',background:briefOpen?C.card:C.cyanDim,
-              border:`1px solid ${C.cyan}30`,borderLeft:`3px solid ${C.cyan}`,
-              borderRadius:briefOpen?'10px 10px 0 0':10,padding:'11px 16px',
-              display:'flex',alignItems:'center',gap:10,cursor:'pointer'}}>
-            <span style={{fontSize:11.5,fontWeight:700,color:C.cyan,letterSpacing:3,fontFamily:MONO}}>
-              ⏱ THE 60-SECOND BRIEF
-            </span>
-            <span style={{fontSize:11.5,color:C.sub,fontFamily:SERIF,flex:1}}>
-              — today's situation in plain language, no jargon
-            </span>
-            <span style={{fontSize:10.5,color:C.muted,fontFamily:MONO}}>{briefOpen?'▲':'▼'}</span>
-          </button>
-          {briefOpen && (
-            <div style={{background:C.card,border:`1px solid ${C.border}`,borderTop:'none',
-              borderRadius:'0 0 10px 10px',padding:'14px 18px',animation:'fadein 0.2s ease both'}}>
-              {iBrief.map((line,i)=>(
-                <div key={i} style={{display:'flex',gap:10,alignItems:'flex-start',
-                  padding:'6px 0',borderBottom:i===iBrief.length-1?'none':`1px solid ${C.border}25`}}>
-                  <span style={{fontSize:12.5,fontWeight:800,color:C.cyan,fontFamily:MONO,
-                    flexShrink:0,minWidth:16}}>{i+1}.</span>
-                  <span style={{fontSize:13.5,color:C.text,lineHeight:1.7,fontFamily:SERIF}}>{line}</span>
-                </div>
-              ))}
-            </div>
-          )}
-        </div>
 
         {/* ══ WHAT CHANGED — expandable ══ */}
         <div style={{background:C.redDim,border:`1px solid ${C.red}22`,
@@ -834,7 +837,7 @@ export default function App() {
 
         {/* ══ HORMUZ ══ */}
         <S id="hormuz" title="Maritime — Hormuz, India's Energy Lifeline" accent={C.cyan}
-          sub="85% of India's crude oil transits this 39km chokepoint. What happens here lands at your pump.">
+          sub="~45% of India's crude imports transited this 39km chokepoint pre-war — emergency rerouting has cut that to ~30%. What happens here still lands at your pump.">
 
           {iHormuz?.headline && (
             <div style={{background:`linear-gradient(90deg,${C.red}18,${C.card})`,
@@ -865,7 +868,7 @@ export default function App() {
                 {iHormuz?.currentFlow||"Near-zero commercial transit"}
               </div>
               <div style={{fontSize:10.5,color:C.muted,marginTop:3}}>
-                Pre-war: {iHormuz?.preWarFlow||"130-160 ships/day"}
+                Pre-war: {iHormuz?.preWarFlow||"~90-140 ships/day"}
               </div>
             </div>
           </div>
@@ -897,7 +900,7 @@ export default function App() {
               fontFamily:MONO,marginBottom:10}}>🇮🇳 INDIA'S HORMUZ EXPOSURE</div>
             <div style={{display:'grid',gridTemplateColumns:'1fr 1fr 1fr',gap:8}}>
               {[
-                {l:"Ships in Gulf", v:iHormuz?.indianVesselsNear??8, sub:(iHormuz?.indianSeafarers??280)+" seafarers on Indian-flagged vessels"},
+                {l:"Ships in Gulf", v:iHormuz?.indianVesselsNear??7, sub:(iHormuz?.indianSeafarers??148)+" seafarers on Indian-flagged vessels"},
                 {l:"Crossed Safely",v:iHormuz?.indianTransited??0,  sub:iHormuz?.totalShipsWaiting||"Status pending"},
                 {l:"Navy Escort",   v:"ACTIVE", sub:"Op Urja Suraksha", isText:true},
               ].map((s,i)=>(
