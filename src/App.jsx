@@ -1,7 +1,26 @@
 import { useState, useEffect, useRef } from "react";
 
 // ═══════════════════════════════════════════════════════════════════
-// INDIA RISK DASHBOARD — V17.0 — EXECUTIVE RESTRUCTURE (Day 135, Jul 13 2026)
+// INDIA RISK DASHBOARD — V17.1 — CITIZEN FEATURES (Day 138, Jul 16 2026)
+// V17.1 changes:
+// A. REMOVED: Scenarios section, nav entry, and scenHeaders/scenRows/
+//    iScenarios dead code (scenarios key in JSON now unused).
+// B. NEW: 60-Second Brief — plain-language daily summary below the
+//    Executive Snapshot. Overridable via intel.brief (array of strings);
+//    falls back to auto-derived sentences from exec + live data.
+// C. NEW: Household budget calculator (end of #kitchen) — user enters
+//    monthly petrol/diesel/LPG usage, sees extra cost vs pre-war.
+//    Prices from intel.budget {petrolPre/Now, dieselPre/Now, lpgPre/Now}.
+// D. NEW: "Share Today's Card" button in header — generates a 1080x1080
+//    PNG (canvas, zero libraries) with Day/risk/Brent/Nifty/rupee/LPG +
+//    one-liner from intel.shareLine (fallback: assessment headline).
+//    Uses Web Share API on mobile, download elsewhere.
+// E. NEW: "War in Numbers" strip at top of Archive — Day 1 vs ~Day 100
+//    vs Today comparison, derived purely from intel.timeline.
+// Daily updates remain JSON-only: brief, shareLine, budget added to
+// war-intel.json.
+//
+// V17.0 — EXECUTIVE RESTRUCTURE (Day 135, Jul 13 2026)
 // Structural update per project instructions (no redesign):
 // 1. NEW: Executive Snapshot (#overview) — Risk Level / Oil / Markets /
 //    Shipping / Military / India Impact answered on first screen.
@@ -96,7 +115,6 @@ const NAV = [
   {id:"economic",  l:"Markets"},
   {id:"military",  l:"Military"},
   {id:"nuclear",   l:"Nuclear"},
-  {id:"scenarios", l:"Scenarios"},
   {id:"warlog",    l:"Archive"},
   {id:"assessment",l:"Assessment"},
   {id:"sources",   l:"Sources"},
@@ -134,7 +152,7 @@ const MiniLine = ({data, dataKey, color, h=110}) => {
         return (
           <g key={pct}>
             <line x1={pad.l} y1={y} x2={pad.l+iw} y2={y} stroke={C.border} strokeWidth="0.5" strokeDasharray="3 3"/>
-            <text x={pad.l-4} y={y+3} fill={C.muted} fontSize="7" textAnchor="end" fontFamily={MONO}>
+            <text x={pad.l-4} y={y+3} fill={C.muted} fontSize="8.5" textAnchor="end" fontFamily={MONO}>
               {typeof v==='number' && v>999 ? (v/1000).toFixed(1)+'k' : Math.round(v)}
             </text>
           </g>
@@ -145,10 +163,10 @@ const MiniLine = ({data, dataKey, color, h=110}) => {
       {pts.map((p, i) => (i===0 || i===pts.length-1 || i%step===0) && (
         <g key={i}>
           <circle cx={p.x} cy={p.y} r="3" fill={C.card} stroke={color} strokeWidth="1.5"/>
-          <text x={p.x} y={p.y - 7} fill={color} fontSize="8" textAnchor="middle" fontWeight="700" fontFamily={MONO} opacity="0.9">
+          <text x={p.x} y={p.y - 7} fill={color} fontSize="9.5" textAnchor="middle" fontWeight="700" fontFamily={MONO} opacity="0.9">
             {typeof p.v === 'number' && p.v > 999 ? (p.v/1000).toFixed(1)+'k' : p.v}
           </text>
-          <text x={p.x} y={h-2} fill={C.muted} fontSize="7.5" textAnchor="middle" fontFamily={MONO}
+          <text x={p.x} y={h-2} fill={C.muted} fontSize="9" textAnchor="middle" fontFamily={MONO}
             transform={pts.length>12 ? `rotate(-40,${p.x},${h-2})` : undefined}>
             {p.l}
           </text>
@@ -192,14 +210,14 @@ const RadarSVG = ({data, day}) => {
         const lp = pt(i, 128);
         return (
           <text key={i} x={lp.x.toFixed(1)} y={lp.y.toFixed(1)}
-            fill={C.sub} fontSize="8.5" textAnchor="middle" dominantBaseline="middle"
+            fill={C.sub} fontSize="10" textAnchor="middle" dominantBaseline="middle"
             fontWeight="600" fontFamily={MONO}>{d.axis}</text>
         );
       })}
       {[{l:'Week 1',c:C.green},{l:`Now (D${day})`,c:C.amber},{l:'Wk 12 Outlook',c:C.red}].map((lg,i)=>(
         <g key={i}>
           <rect x={8} y={H-30+i*10} width={10} height={3} fill={lg.c} rx="1"/>
-          <text x={22} y={H-26+i*10} fill={C.sub} fontSize="8" fontFamily={MONO}>{lg.l}</text>
+          <text x={22} y={H-26+i*10} fill={C.sub} fontSize="9.5" fontFamily={MONO}>{lg.l}</text>
         </g>
       ))}
     </svg>
@@ -209,15 +227,15 @@ const RadarSVG = ({data, day}) => {
 const S = ({id, title, accent=C.amber, sub, children}) => (
   <section id={id} style={{marginBottom:44, scrollMarginTop:58}}>
     <div style={{marginBottom:16, paddingBottom:10, borderBottom:`1px solid ${C.border}`}}>
-      <h2 style={{margin:0, fontSize:10, fontWeight:700, color:accent,
+      <h2 style={{margin:0, fontSize:11.5, fontWeight:700, color:accent,
         letterSpacing:4, textTransform:'uppercase', fontFamily:MONO}}>{title}</h2>
-      {sub && <p style={{margin:'5px 0 0', fontSize:11.5, color:C.sub, fontFamily:SERIF, lineHeight:1.5}}>{sub}</p>}
+      {sub && <p style={{margin:'5px 0 0', fontSize:13, color:C.sub, fontFamily:SERIF, lineHeight:1.6}}>{sub}</p>}
     </div>
     {children}
   </section>
 );
 
-const Chip = ({children, color=C.amber, size=9}) => (
+const Chip = ({children, color=C.amber, size=10.5}) => (
   <span style={{display:'inline-block', padding:'2px 8px', borderRadius:4,
     background:`${color}18`, border:`1px solid ${color}30`,
     color, fontSize:size, fontWeight:700, fontFamily:MONO, letterSpacing:0.8,
@@ -228,20 +246,212 @@ const Mc = ({label, value, sub, delta, accent=C.amber, deltaColor, indiaImpact})
   <div style={{background:C.card, borderRadius:10, padding:'14px 14px',
     border:`1px solid ${C.border}`, borderTop:`2px solid ${accent}`,
     display:'flex', flexDirection:'column', gap:3}}>
-    <div style={{fontSize:8.5, color:C.muted, letterSpacing:2.5, textTransform:'uppercase',
+    <div style={{fontSize:10, color:C.muted, letterSpacing:2.5, textTransform:'uppercase',
       fontWeight:700, fontFamily:MONO}}>{label}</div>
     <div style={{fontSize:24, fontWeight:700, color:accent, fontFamily:SYNE, lineHeight:1.1,
       letterSpacing:-0.5}}>{value}</div>
-    {delta && <div style={{fontSize:11, color:deltaColor||C.sub, fontWeight:600, fontFamily:MONO}}>{delta}</div>}
-    {sub && <div style={{fontSize:9.5, color:C.muted, lineHeight:1.4}}>{sub}</div>}
+    {delta && <div style={{fontSize:12.5, color:deltaColor||C.sub, fontWeight:600, fontFamily:MONO}}>{delta}</div>}
+    {sub && <div style={{fontSize:11, color:C.muted, lineHeight:1.55}}>{sub}</div>}
     {indiaImpact && (
       <div style={{marginTop:5, paddingTop:5, borderTop:`1px solid ${C.border}`,
-        fontSize:9, color:C.amber, fontWeight:600, fontFamily:MONO, letterSpacing:0.3}}>
+        fontSize:10.5, color:C.amber, fontWeight:600, fontFamily:MONO, letterSpacing:0.3}}>
         🇮🇳 {indiaImpact}
       </div>
     )}
   </div>
 );
+
+// ─── Household Budget Calculator (V17.1) ──────────────────────────
+// Prices read from intel.budget in war-intel.json; fallback below.
+// Daily update = edit the six numbers in JSON only.
+const BUDGET_FB = {petrolPre:94.72, petrolNow:103.54, dieselPre:87.62, dieselNow:90.03, lpgPre:853, lpgNow:912.5};
+const BudgetCalc = ({budget}) => {
+  const b = {...BUDGET_FB, ...(budget||{})};
+  const [petrol, setPetrol] = useState(40);
+  const [diesel, setDiesel] = useState(0);
+  const [lpg,    setLpg]    = useState(1);
+  const extra =
+    petrol*(b.petrolNow-b.petrolPre) +
+    diesel*(b.dieselNow-b.dieselPre) +
+    lpg*(b.lpgNow-b.lpgPre);
+  const fmt = n => "₹"+Math.round(n).toLocaleString('en-IN');
+  const rows = [
+    {label:"Petrol", unit:"litres", val:petrol, set:setPetrol, pre:b.petrolPre, now:b.petrolNow},
+    {label:"Diesel", unit:"litres", val:diesel, set:setDiesel, pre:b.dieselPre, now:b.dieselNow},
+    {label:"LPG Cylinder (14.2kg)", unit:"cylinders", val:lpg, set:setLpg, pre:b.lpgPre, now:b.lpgNow},
+  ];
+  return (
+    <div style={{background:C.card,borderRadius:10,padding:'14px 16px',marginTop:12,
+      border:`1px solid ${C.border}`,borderTop:`3px solid ${C.amber}`}}>
+      <div style={{fontSize:10.5,fontWeight:700,color:C.amber,letterSpacing:2.5,
+        fontFamily:MONO,marginBottom:4}}>YOUR MONTHLY WAR COST — CALCULATOR</div>
+      <div style={{fontSize:11.5,color:C.sub,fontFamily:SERIF,lineHeight:1.6,marginBottom:8}}>
+        Enter your household's monthly usage. Extra cost vs pre-war (Feb 27) prices, Delhi rates.
+      </div>
+      {rows.map((r,i)=>(
+        <div key={i} style={{display:'flex',alignItems:'center',gap:8,flexWrap:'wrap',
+          padding:'7px 0',borderBottom:`1px solid ${C.border}30`}}>
+          <div style={{flex:'1 1 130px',minWidth:120}}>
+            <div style={{fontSize:12.5,color:C.text,fontWeight:600,fontFamily:SYNE}}>{r.label}</div>
+            <div style={{fontSize:10,color:C.muted,fontFamily:MONO}}>₹{r.pre} → ₹{r.now} {r.unit}</div>
+          </div>
+          <input type="number" min="0" value={r.val}
+            onChange={e=>r.set(Math.max(0, Number(e.target.value)||0))}
+            style={{width:64,padding:'5px 8px',borderRadius:6,border:`1px solid ${C.border}`,
+              background:C.surface,color:C.amber,fontSize:13,fontFamily:MONO,
+              fontWeight:700,outline:'none',textAlign:'right'}}/>
+          <div style={{fontSize:10.5,color:C.muted,fontFamily:MONO,minWidth:70}}>{r.unit}/month</div>
+          <div style={{fontSize:13,color:C.orange,fontWeight:700,fontFamily:MONO,
+            minWidth:78,textAlign:'right'}}>+{fmt(r.val*(r.now-r.pre))}</div>
+        </div>
+      ))}
+      <div style={{display:'flex',justifyContent:'space-between',alignItems:'baseline',
+        flexWrap:'wrap',gap:8,marginTop:10}}>
+        <div>
+          <div style={{fontSize:10,color:C.muted,letterSpacing:2,fontFamily:MONO,fontWeight:700}}>EXTRA PER MONTH</div>
+          <div style={{fontSize:26,fontWeight:800,color:extra>0?C.red:C.green,fontFamily:SYNE,letterSpacing:-0.5}}>
+            {extra>0?"+":""}{fmt(extra)}</div>
+        </div>
+        <div style={{textAlign:'right'}}>
+          <div style={{fontSize:10,color:C.muted,letterSpacing:2,fontFamily:MONO,fontWeight:700}}>PER YEAR AT THESE RATES</div>
+          <div style={{fontSize:15,fontWeight:700,color:C.orange,fontFamily:MONO}}>
+            {extra>0?"+":""}{fmt(extra*12)}</div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+// ─── War in Numbers — Day 1 vs Day 100 vs Today (V17.1) ───────────
+// Pure derivation from intel.timeline. No new data required.
+const WarInNumbers = ({timeline}) => {
+  if (!timeline?.length) return null;
+  const tl = [...timeline].sort((a,b)=>a.d-b.d);
+  const d1 = tl[0];
+  const today = tl[tl.length-1];
+  const mid = tl.reduce((best,t)=>Math.abs(t.d-100)<Math.abs(best.d-100)?t:best, tl[0]);
+  if (mid.d===d1.d || mid.d===today.d) return null;
+  const pct = (a,b) => (a==null||b==null||!b) ? "" :
+    ` (${a>=b?"+":""}${Math.round((a/b-1)*100)}%)`;
+  const rows = [
+    {m:"Brent ($)", f:t=>t.brent!=null?"$"+t.brent:"—", chg:pct(today.brent,d1.brent), c:C.amber},
+    {m:"₹ / USD",   f:t=>t.rupee!=null?t.rupee.toFixed(2):"—", chg:pct(today.rupee,d1.rupee), c:C.orange},
+    {m:"Nifty 50",  f:t=>t.nifty!=null?t.nifty.toLocaleString():"—", chg:pct(today.nifty,d1.nifty), c:C.cyan},
+    {m:"War dead",  f:t=>t.deaths!=null?t.deaths.toLocaleString():"—", chg:"", c:C.red},
+  ];
+  const cols = [d1, mid, today];
+  return (
+    <div style={{background:C.card,borderRadius:10,padding:'12px 14px',marginBottom:12,
+      border:`1px solid ${C.border}`,overflowX:'auto'}}>
+      <div style={{fontSize:10.5,fontWeight:700,color:C.sub,letterSpacing:2.5,
+        fontFamily:MONO,marginBottom:8}}>THE WAR IN NUMBERS — THEN vs NOW</div>
+      <table style={{width:'100%',borderCollapse:'collapse',fontSize:11.5,fontFamily:MONO,minWidth:300}}>
+        <thead>
+          <tr style={{borderBottom:`1px solid ${C.border}`}}>
+            <th style={{padding:'4px 6px',textAlign:'left',color:C.muted,fontSize:10.5,fontWeight:700}}>Metric</th>
+            {cols.map((t,i)=>(
+              <th key={i} style={{padding:'4px 6px',textAlign:'right',fontSize:10.5,fontWeight:700,
+                color:i===2?C.amber:C.muted}}>
+                {i===2?`TODAY (D${t.d})`:`DAY ${t.d}`}<br/>
+                <span style={{fontWeight:400,fontSize:10}}>{t.l}</span>
+              </th>
+            ))}
+            <th style={{padding:'4px 6px',textAlign:'right',color:C.muted,fontSize:10.5,fontWeight:700}}>vs Day 1</th>
+          </tr>
+        </thead>
+        <tbody>
+          {rows.map((r,i)=>(
+            <tr key={i} style={{borderBottom:`1px solid ${C.border}20`}}>
+              <td style={{padding:'5px 6px',fontWeight:600,color:C.text,fontSize:11.5}}>{r.m}</td>
+              {cols.map((t,j)=>(
+                <td key={j} style={{padding:'5px 6px',textAlign:'right',
+                  color:j===2?r.c:C.sub,fontWeight:j===2?700:500}}>{r.f(t)}</td>
+              ))}
+              <td style={{padding:'5px 6px',textAlign:'right',color:r.c,fontWeight:700}}>{r.chg||"—"}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+};
+
+// ─── Shareable Daily Card — canvas PNG for WhatsApp/X (V17.1) ─────
+const wrapText = (ctx, text, x, y, maxW, lh, maxLines=3) => {
+  const words = (text||"").split(/\s+/); let line="", lines=0;
+  for (let i=0;i<words.length;i++){
+    const test = line ? line+" "+words[i] : words[i];
+    if (ctx.measureText(test).width > maxW && line){
+      if (lines===maxLines-1){ ctx.fillText(line.replace(/.{3}$/,"")+"…", x, y); return y; }
+      ctx.fillText(line, x, y); y+=lh; lines++; line=words[i];
+    } else line = test;
+  }
+  if (line) ctx.fillText(line, x, y);
+  return y;
+};
+
+const makeShareCard = ({day, level, levelColor, brent, brentChg, nifty, rupee, lpg, headline, updated}) => {
+  const cv = document.createElement('canvas');
+  cv.width = 1080; cv.height = 1080;
+  const x = cv.getContext('2d');
+  // background
+  x.fillStyle = "#080c14"; x.fillRect(0,0,1080,1080);
+  x.strokeStyle = "#1e2a3d"; x.lineWidth = 2; x.strokeRect(24,24,1032,1032);
+  x.fillStyle = "#f59e0b"; x.fillRect(24,24,1032,8);
+  // header
+  x.fillStyle = "#f59e0b"; x.font = "700 26px 'IBM Plex Mono', monospace";
+  x.fillText("WEST ASIA WAR — INDIA RISK TRACKER", 64, 110);
+  x.fillStyle = "#7a8ba8"; x.font = "400 22px 'IBM Plex Mono', monospace";
+  x.fillText(updated||"", 64, 148);
+  // day + risk
+  x.fillStyle = "#eef2fa"; x.font = "800 120px 'Syne', sans-serif";
+  x.fillText(`DAY ${day}`, 64, 290);
+  const lw = x.measureText(`DAY ${day}`).width;
+  x.fillStyle = levelColor; x.font = "800 44px 'Syne', sans-serif";
+  x.fillText(`RISK: ${level}`, 64, 356);
+  // divider
+  x.strokeStyle = "#1e2a3d"; x.beginPath(); x.moveTo(64,400); x.lineTo(1016,400); x.stroke();
+  // metric grid (2x2)
+  const cells = [
+    ["OIL — BRENT", `$${brent}`, brentChg, "#f59e0b"],
+    ["NIFTY 50", nifty, "", "#38bdf8"],
+    ["RUPEE / USD", `₹${rupee}`, "was ₹91.5 pre-war", "#fb923c"],
+    ["LPG 14.2KG", lpg, "was ₹853 pre-war", "#ef4444"],
+  ];
+  cells.forEach((cel,i)=>{
+    const cx = 64 + (i%2)*486, cy = 460 + Math.floor(i/2)*180;
+    x.fillStyle = "#121826"; x.fillRect(cx-14, cy-40, 458, 150);
+    x.fillStyle = cel[3]; x.fillRect(cx-14, cy-40, 6, 150);
+    x.fillStyle = "#7a8ba8"; x.font = "700 22px 'IBM Plex Mono', monospace";
+    x.fillText(cel[0], cx+14, cy);
+    x.fillStyle = cel[3]; x.font = "800 58px 'Syne', sans-serif";
+    x.fillText(String(cel[1]), cx+14, cy+62);
+    x.fillStyle = "#7a8ba8"; x.font = "400 20px 'IBM Plex Mono', monospace";
+    x.fillText(String(cel[2]||""), cx+14, cy+96);
+  });
+  // headline
+  x.fillStyle = "#c8d0e0"; x.font = "600 32px 'Source Serif 4', Georgia, serif";
+  wrapText(x, headline, 64, 890, 952, 44, 3);
+  // footer
+  x.fillStyle = "#f59e0b"; x.font = "700 24px 'IBM Plex Mono', monospace";
+  x.fillText("nithiyageo.github.io/india-risk-dashboard", 64, 1020);
+  return cv;
+};
+
+const shareCard = (payload) => {
+  const cv = makeShareCard(payload);
+  cv.toBlob(async blob => {
+    if (!blob) return;
+    const file = new File([blob], `india-risk-day${payload.day}.png`, {type:'image/png'});
+    if (navigator.canShare && navigator.canShare({files:[file]})) {
+      try { await navigator.share({files:[file], title:`West Asia War — Day ${payload.day}`}); return; }
+      catch(e){ /* user cancelled → fall through to download */ }
+    }
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob); a.download = file.name; a.click();
+    setTimeout(()=>URL.revokeObjectURL(a.href), 5000);
+  }, 'image/png');
+};
 
 // ─── Horizontal Interactive Timeline ──────────────────────────────
 const HormuzTimeline = ({events, phaseData}) => {
@@ -263,8 +473,8 @@ const HormuzTimeline = ({events, phaseData}) => {
         {phases.map((p,i)=>(
           <div key={i} style={{flex:1,minWidth:80,background:`${p.color}14`,
             border:`1px solid ${p.color}30`,borderRadius:6,padding:'6px 8px',textAlign:'center'}}>
-            <div style={{fontSize:7.5,fontWeight:800,color:p.color,fontFamily:MONO,letterSpacing:0.5}}>{p.label}</div>
-            <div style={{fontSize:7,color:C.muted,fontFamily:MONO,marginTop:2}}>{p.days}</div>
+            <div style={{fontSize:10,fontWeight:800,color:p.color,fontFamily:MONO,letterSpacing:0.5}}>{p.label}</div>
+            <div style={{fontSize:10,color:C.muted,fontFamily:MONO,marginTop:2}}>{p.days}</div>
           </div>
         ))}
       </div>
@@ -275,7 +485,7 @@ const HormuzTimeline = ({events, phaseData}) => {
           <div key={i} style={{display:'flex',gap:10,marginBottom:6,cursor:'pointer'}}
             onClick={()=>setActive(active===i?null:i)}>
             <div style={{flexShrink:0,width:48,textAlign:'right',paddingTop:3}}>
-              <span style={{fontSize:9,fontWeight:700,color:C.cyan,fontFamily:MONO}}>{e.d}</span>
+              <span style={{fontSize:10.5,fontWeight:700,color:C.cyan,fontFamily:MONO}}>{e.d}</span>
             </div>
             <div style={{flexShrink:0,width:10,display:'flex',alignItems:'flex-start',paddingTop:6}}>
               <div style={{width:8,height:8,borderRadius:'50%',background:active===i?C.cyan:C.border2,
@@ -284,10 +494,10 @@ const HormuzTimeline = ({events, phaseData}) => {
             <div style={{flex:1,background:active===i?C.raised:C.card,borderRadius:8,
               padding:'8px 12px',border:`1px solid ${active===i?C.cyan+'40':C.border}`,
               transition:'all 0.2s'}}>
-              <div style={{fontSize:11,color:active===i?C.white:C.sub,fontFamily:SERIF,lineHeight:1.5}}>
+              <div style={{fontSize:12.5,color:active===i?C.white:C.sub,fontFamily:SERIF,lineHeight:1.6}}>
                 {active===i ? e.e : e.e.split('.')[0] + (e.e.length > 60 ? '…' : '')}
               </div>
-              {active!==i && <div style={{fontSize:8.5,color:C.muted,fontFamily:MONO,marginTop:3}}>Click to expand ▼</div>}
+              {active!==i && <div style={{fontSize:10,color:C.muted,fontFamily:MONO,marginTop:3}}>Click to expand ▼</div>}
             </div>
           </div>
         ))}
@@ -306,6 +516,7 @@ export default function App() {
   const [logSearch,   setLogSearch]   = useState('');
   const [aboutOpen,   setAboutOpen]   = useState(false);
   const [wcExpanded,  setWcExpanded]  = useState({});
+  const [briefOpen,   setBriefOpen]   = useState(false);
 
   useEffect(() => {
     fetch('./market-data.json?t='+Date.now())
@@ -337,7 +548,6 @@ export default function App() {
   const iHormuz   = intel?.hormuzStatus  ?? null;
   const iHEvents  = intel?.hormuzEvents  ?? iHLatest;
   const iPhase    = intel?._phase        ?? "BLOCKADE";
-  const iScenarios= intel?.scenarios     ?? null;
   const iFeatured = intel?.featured      ?? FEATURED_FB;
   const iMilTop   = intel?.milTop        ?? [];
 
@@ -366,15 +576,26 @@ export default function App() {
   const isBlockade = iPhase === "BLOCKADE";
   const isEscalation = iPhase === "ESCALATION";
 
-  const scenHeaders = iScenarios?.headers ?? ["Pre-war","Current","Bull Case","Bear Case","Tail Risk"];
-  const scenRows = [
-    {m:"Brent ($)",  vals: iScenarios?.brent  ?? [65,null,null,null,null]},
-    {m:"₹/USD",      vals: iScenarios?.rupee  ?? [91,null,null,null,null]},
-    {m:"Deaths",     vals: iScenarios?.deaths ?? [0,"6,800+","7,500","11,000+","30,000+"]},
-    {m:"Sensex",     vals: iScenarios?.sensex ?? ["78,699",null,null,null,null]},
-    {m:"LPG",        vals: iScenarios?.lpg    ?? ["₹853",null,null,null,null]},
-    {m:"FII",        vals: iScenarios?.fii    ?? ["-",null,null,null,null]},
+  // ── 60-Second Brief (plain language; overridable via intel.brief array) ──
+  const lpgNow = intel?.budget?.lpgNow ?? 912.5;
+  const iBrief = intel?.brief ?? [
+    `Day ${iDay} of the West Asia war. Overall risk to India right now: ${riskLevel}.`,
+    `Oil: Brent crude is around $${brentRaw} a barrel — about ${Math.round((brentRaw/65-1)*100)}% higher than before the war. Most of India's imported oil passes through the Strait of Hormuz, which is currently disrupted.`,
+    `Your money: the rupee is at ₹${typeof rupeeRaw==='number'?rupeeRaw.toFixed(2):rupeeRaw} per dollar (₹91.5 pre-war), which makes imports costlier. Petrol has already been hiked; an LPG cylinder now costs ₹${lpgNow}.`,
+    `Markets: the Nifty is at ${typeof niftyRaw==='number'?Math.round(niftyRaw).toLocaleString():niftyRaw}. Volatile, but not crashing.`,
+    `Bottom line: no shortages in India today, but fuel and kitchen costs are rising. This page is updated daily — check the Household section for what it means for your budget.`,
   ];
+
+  // ── Shareable daily card payload ──
+  const sharePayload = {
+    day: iDay, level: riskLevel, levelColor: riskColor,
+    brent: brentRaw, brentChg: (brentChg>0?"▲ +":"▼ ")+Math.abs(brentChg).toFixed(1)+"% today",
+    nifty: typeof niftyRaw==='number'?Math.round(niftyRaw).toLocaleString():String(niftyRaw),
+    rupee: typeof rupeeRaw==='number'?rupeeRaw.toFixed(2):String(rupeeRaw),
+    lpg: "₹"+lpgNow,
+    headline: intel?.shareLine ?? (iAssess?.headline||"").split(/\.\s/)[0].slice(0,160) ?? "",
+    updated: iUpdated,
+  };
 
   const filteredTL = logSearch.trim()
     ? [...fullTL].reverse().filter(d =>
@@ -392,7 +613,7 @@ export default function App() {
   };
 
   return (
-    <div style={{minHeight:'100vh',background:C.bg,color:C.text,fontFamily:SERIF,fontSize:13.5,maxWidth:1100,margin:'0 auto'}}>
+    <div style={{minHeight:'100vh',background:C.bg,color:C.text,fontFamily:SERIF,fontSize:14,maxWidth:1100,margin:'0 auto'}}>
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=IBM+Plex+Mono:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,400&display=swap');
         @keyframes ticker { 0%{transform:translateX(0)} 100%{transform:translateX(-50%)} }
@@ -427,7 +648,7 @@ export default function App() {
           animation:'ticker 150s linear infinite',
           WebkitAnimation:'ticker 150s linear infinite',willChange:'transform'}}>
           {[...iT,...iT,...iT].map((t,i) => (
-            <span key={i} style={{fontSize:11.5,fontWeight:600,color:'#fff',
+            <span key={i} style={{fontSize:13,fontWeight:600,color:'#fff',
               letterSpacing:0.2,paddingRight:56,whiteSpace:'nowrap',flexShrink:0,
               display:'inline-block',fontFamily:MONO}}>
               {t}<span style={{paddingLeft:56,color:'#ffffff40'}}>◆</span>
@@ -441,14 +662,14 @@ export default function App() {
         <div className="hdr-inner" style={{display:'flex',flexDirection:'column',gap:14}}>
           <div style={{flex:1}}>
             <div style={{display:'flex',alignItems:'center',gap:10,marginBottom:10}}>
-              <div style={{fontSize:8,fontWeight:700,color:C.muted,letterSpacing:5,
+              <div style={{fontSize:10,fontWeight:700,color:C.muted,letterSpacing:5,
                 textTransform:'uppercase',fontFamily:MONO}}>India Risk Assessment</div>
               <div style={{height:1,flex:1,background:C.border}}/>
               <div style={{display:'flex',gap:5}}>
                 {[{l:'𝕏',p:'x'},{l:'in',p:'li'},{l:'wa',p:'wa'},{l:'📋',p:'copy'}].map((s,i)=>(
                   <button key={i} onClick={()=>share(s.p)} className="btn-base"
                     style={{padding:'3px 7px',borderRadius:4,border:`1px solid ${C.border}`,
-                      background:C.card,color:C.sub,fontSize:9,fontWeight:700,fontFamily:MONO}}>
+                      background:C.card,color:C.sub,fontSize:10.5,fontWeight:700,fontFamily:MONO}}>
                     {s.l}
                   </button>
                 ))}
@@ -458,7 +679,7 @@ export default function App() {
               fontFamily:SYNE,lineHeight:1.1,letterSpacing:-0.5}}>
               How the West Asia War<br/>Is Hitting India
             </h1>
-            <div style={{marginTop:7,fontSize:11,color:C.sub,fontFamily:MONO}}>
+            <div style={{marginTop:7,fontSize:12.5,color:C.sub,fontFamily:MONO}}>
               {iUpdated} &nbsp;•&nbsp; 50+ verified sources
             </div>
           </div>
@@ -466,23 +687,30 @@ export default function App() {
             <div style={{background:C.amber,color:C.bg,fontSize:17,fontWeight:800,
               padding:'10px 20px',borderRadius:8,fontFamily:SYNE,letterSpacing:-0.3,
               boxShadow:`0 4px 20px ${C.amber}40`}}>DAY {iDay}</div>
-            <div style={{fontSize:9,color:isEscalation?C.red:isBlockade?C.orange:C.green,
+            <div style={{fontSize:10.5,color:isEscalation?C.red:isBlockade?C.orange:C.green,
               padding:'5px 10px',border:`1px solid ${isEscalation?C.red:isBlockade?C.orange:C.green}40`,
               borderRadius:6,background:(isEscalation?C.red:isBlockade?C.orange:C.green)+'0c',
               fontWeight:700,fontFamily:MONO,
               animation:(isEscalation||isBlockade)?'pulse 1.8s infinite':undefined}}>
               {intel?._phaseBadge ?? (isEscalation?"🔴 ESCALATION":isBlockade?"⚠ HORMUZ RE-CLOSED (CONTESTED)":"● CEASEFIRE HOLDING")}
             </div>
+            <button className="btn-base" onClick={()=>shareCard(sharePayload)}
+              title="Download / share today's summary as an image"
+              style={{fontSize:10.5,color:C.cyan,background:C.cyanDim,
+                border:`1px solid ${C.cyan}30`,borderRadius:6,padding:'5px 10px',
+                fontWeight:700,fontFamily:MONO,letterSpacing:0.5,cursor:'pointer'}}>
+              📤 SHARE TODAY'S CARD
+            </button>
           </div>
         </div>
         <button className="btn-base" onClick={()=>setAboutOpen(!aboutOpen)}
-          style={{marginTop:12,fontSize:10,color:C.sub,fontFamily:MONO,
+          style={{marginTop:12,fontSize:11.5,color:C.sub,fontFamily:MONO,
             background:'none',padding:'4px 0',display:'flex',alignItems:'center',gap:5}}>
           {aboutOpen?"▲":"▼"} {aboutOpen?"Hide":"What is this tracker?"}
         </button>
         {aboutOpen && (
           <div style={{marginTop:10,padding:'14px 16px',background:C.card,
-            borderRadius:8,border:`1px solid ${C.border}`,fontSize:12.5,
+            borderRadius:8,border:`1px solid ${C.border}`,fontSize:13.5,
             color:C.sub,fontFamily:SERIF,lineHeight:1.9,animation:'fadein 0.25s ease both'}}>
             <strong style={{color:C.white,fontFamily:SYNE}}>India's war tracker — not a global one.</strong>
             {' '}This dashboard focuses exclusively on what the Iran-Gulf War means for India's 1.4 billion people:
@@ -502,7 +730,7 @@ export default function App() {
               style={{flex:'0 0 auto',padding:'5px 12px',
                 border:activeNav===n.id?`1px solid ${C.amber}60`:`1px solid ${C.border}`,
                 borderRadius:20,background:activeNav===n.id?C.amberDim:'transparent',
-                color:activeNav===n.id?C.amber:C.sub,fontSize:10.5,fontWeight:600,
+                color:activeNav===n.id?C.amber:C.sub,fontSize:11.5,fontWeight:600,
                 fontFamily:MONO,whiteSpace:'nowrap'}}>
               {n.l}
             </button>
@@ -538,10 +766,40 @@ export default function App() {
           </div>
         </section>
 
+        {/* ══ 60-SECOND BRIEF — plain language, no jargon ══ */}
+        <div style={{marginBottom:26}}>
+          <button className="btn-base" onClick={()=>setBriefOpen(!briefOpen)}
+            style={{width:'100%',textAlign:'left',background:briefOpen?C.card:C.cyanDim,
+              border:`1px solid ${C.cyan}30`,borderLeft:`3px solid ${C.cyan}`,
+              borderRadius:briefOpen?'10px 10px 0 0':10,padding:'11px 16px',
+              display:'flex',alignItems:'center',gap:10,cursor:'pointer'}}>
+            <span style={{fontSize:11.5,fontWeight:700,color:C.cyan,letterSpacing:3,fontFamily:MONO}}>
+              ⏱ THE 60-SECOND BRIEF
+            </span>
+            <span style={{fontSize:11.5,color:C.sub,fontFamily:SERIF,flex:1}}>
+              — today's situation in plain language, no jargon
+            </span>
+            <span style={{fontSize:10.5,color:C.muted,fontFamily:MONO}}>{briefOpen?'▲':'▼'}</span>
+          </button>
+          {briefOpen && (
+            <div style={{background:C.card,border:`1px solid ${C.border}`,borderTop:'none',
+              borderRadius:'0 0 10px 10px',padding:'14px 18px',animation:'fadein 0.2s ease both'}}>
+              {iBrief.map((line,i)=>(
+                <div key={i} style={{display:'flex',gap:10,alignItems:'flex-start',
+                  padding:'6px 0',borderBottom:i===iBrief.length-1?'none':`1px solid ${C.border}25`}}>
+                  <span style={{fontSize:12.5,fontWeight:800,color:C.cyan,fontFamily:MONO,
+                    flexShrink:0,minWidth:16}}>{i+1}.</span>
+                  <span style={{fontSize:13.5,color:C.text,lineHeight:1.7,fontFamily:SERIF}}>{line}</span>
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
+
         {/* ══ WHAT CHANGED — expandable ══ */}
         <div style={{background:C.redDim,border:`1px solid ${C.red}22`,
             borderLeft:`3px solid ${C.red}`,borderRadius:10,padding:'14px 16px',marginBottom:26}}>
-            <div style={{fontSize:9,fontWeight:700,color:C.red,letterSpacing:4,
+            <div style={{fontSize:10.5,fontWeight:700,color:C.red,letterSpacing:4,
               marginBottom:12,fontFamily:MONO}}>{iWC.label||"WHAT CHANGED"}</div>
             {(iWC.items||[]).map((item,i)=>{
               const col = C[item.color] || C.amber;
@@ -553,18 +811,18 @@ export default function App() {
                   <button className="btn-base wc-expand" onClick={()=>setWcExpanded(p=>({...p,[i]:!p[i]}))}
                     style={{width:'100%',textAlign:'left',background:'transparent',padding:'4px 0',
                       display:'flex',alignItems:'flex-start',gap:8}}>
-                    <span style={{color:col,fontWeight:900,flexShrink:0,fontSize:12,marginTop:1}}>▸</span>
+                    <span style={{color:col,fontWeight:900,flexShrink:0,fontSize:13,marginTop:1}}>▸</span>
                     <span style={{flex:1}}>
-                      <strong style={{fontSize:12.5,color:col,fontWeight:700,fontFamily:SYNE,lineHeight:1.4}}>
+                      <strong style={{fontSize:13.5,color:col,fontWeight:700,fontFamily:SYNE,lineHeight:1.55}}>
                         {item.bold}
                       </strong>
                     </span>
-                    <span style={{fontSize:9,color:C.muted,fontFamily:MONO,flexShrink:0,marginTop:3}}>
+                    <span style={{fontSize:10.5,color:C.muted,fontFamily:MONO,flexShrink:0,marginTop:3}}>
                       {isOpen?'▲':'▼'}
                     </span>
                   </button>
                   {isOpen && item.text && (
-                    <div style={{fontSize:11.5,color:C.sub,lineHeight:1.75,fontFamily:SERIF,
+                    <div style={{fontSize:13,color:C.sub,lineHeight:1.75,fontFamily:SERIF,
                       paddingLeft:20,paddingTop:6,animation:'fadein 0.2s ease both'}}>
                       {item.text.split('. ').slice(0,3).join('. ')+'...'}
                     </div>
@@ -585,7 +843,7 @@ export default function App() {
               display:'flex',alignItems:'flex-start',gap:10}}>
               <div style={{width:7,height:7,borderRadius:'50%',background:C.red,
                 animation:'pulse 1.5s infinite',flexShrink:0,marginTop:4}}/>
-              <div style={{fontSize:12,fontWeight:700,color:C.red,fontFamily:SYNE,lineHeight:1.4}}>
+              <div style={{fontSize:13,fontWeight:700,color:C.red,fontFamily:SYNE,lineHeight:1.55}}>
                 {iHormuz.headline}
               </div>
             </div>
@@ -595,18 +853,18 @@ export default function App() {
           <div style={{display:'grid',gridTemplateColumns:'1fr 1fr',gap:8,marginBottom:10}}>
             <div style={{background:((isBlockade||isEscalation)?C.red:C.green)+'10',borderRadius:10,
               padding:12,textAlign:'center',border:`1px solid ${((isBlockade||isEscalation)?C.red:C.green)}25`}}>
-              <div style={{fontSize:9,color:(isBlockade||isEscalation)?C.red:C.green,fontWeight:700,
+              <div style={{fontSize:10.5,color:(isBlockade||isEscalation)?C.red:C.green,fontWeight:700,
                 letterSpacing:2,fontFamily:MONO,marginBottom:5}}>STATUS</div>
-              <div style={{fontSize:11.5,fontWeight:700,color:(isBlockade||isEscalation)?C.red:C.green,
-                fontFamily:SYNE,lineHeight:1.3}}>{iHormuz?.status||"BLOCKADE ACTIVE"}</div>
+              <div style={{fontSize:13,fontWeight:700,color:(isBlockade||isEscalation)?C.red:C.green,
+                fontFamily:SYNE,lineHeight:1.45}}>{iHormuz?.status||"BLOCKADE ACTIVE"}</div>
             </div>
             <div style={{background:C.card,borderRadius:10,padding:12,border:`1px solid ${C.border}`}}>
-              <div style={{fontSize:9,color:C.muted,fontWeight:700,letterSpacing:2,
+              <div style={{fontSize:10.5,color:C.muted,fontWeight:700,letterSpacing:2,
                 fontFamily:MONO,marginBottom:5}}>SHIP TRAFFIC</div>
-              <div style={{fontSize:11.5,fontWeight:700,color:C.orange,fontFamily:MONO,lineHeight:1.3}}>
+              <div style={{fontSize:13,fontWeight:700,color:C.orange,fontFamily:MONO,lineHeight:1.45}}>
                 {iHormuz?.currentFlow||"Near-zero commercial transit"}
               </div>
-              <div style={{fontSize:9,color:C.muted,marginTop:3}}>
+              <div style={{fontSize:10.5,color:C.muted,marginTop:3}}>
                 Pre-war: {iHormuz?.preWarFlow||"130-160 ships/day"}
               </div>
             </div>
@@ -617,17 +875,17 @@ export default function App() {
             <div style={{background:`${C.red}14`,borderRadius:10,padding:'12px 14px',
               border:`1px solid ${C.red}50`,marginBottom:10,
               animation:'pulse 2.5s infinite'}}>
-              <div style={{fontSize:9,color:C.red,fontWeight:700,letterSpacing:2.5,
+              <div style={{fontSize:10.5,color:C.red,fontWeight:700,letterSpacing:2.5,
                 fontFamily:MONO,marginBottom:6}}>🇮🇳 INDIAN CASUALTIES — BLOCKADE ENFORCEMENT</div>
               <div style={{display:'flex',alignItems:'baseline',gap:10,marginBottom:6}}>
                 <div style={{fontSize:32,fontWeight:800,color:C.red,fontFamily:SYNE,lineHeight:1}}>
                   {iHormuz.indianCasualties}
                 </div>
-                <div style={{fontSize:11,color:C.red,fontWeight:700,fontFamily:MONO}}>
+                <div style={{fontSize:12.5,color:C.red,fontWeight:700,fontFamily:MONO}}>
                   Indian sailors killed
                 </div>
               </div>
-              <div style={{fontSize:10,color:C.sub,lineHeight:1.5}}>
+              <div style={{fontSize:11.5,color:C.sub,lineHeight:1.6}}>
                 {iHormuz?.indianCasualtyDetail || "Details pending."}
               </div>
             </div>
@@ -635,7 +893,7 @@ export default function App() {
 
           <div style={{background:C.amberDim,borderRadius:10,padding:'12px 14px',
             border:`1px solid ${C.amber}25`,marginBottom:10}}>
-            <div style={{fontSize:9,color:C.amber,fontWeight:700,letterSpacing:2.5,
+            <div style={{fontSize:10.5,color:C.amber,fontWeight:700,letterSpacing:2.5,
               fontFamily:MONO,marginBottom:10}}>🇮🇳 INDIA'S HORMUZ EXPOSURE</div>
             <div style={{display:'grid',gridTemplateColumns:'1fr 1fr 1fr',gap:8}}>
               {[
@@ -644,11 +902,11 @@ export default function App() {
                 {l:"Navy Escort",   v:"ACTIVE", sub:"Op Urja Suraksha", isText:true},
               ].map((s,i)=>(
                 <div key={i} style={{textAlign:'center'}}>
-                  <div style={{fontSize:9,color:C.amber,fontWeight:700,letterSpacing:1,
+                  <div style={{fontSize:10.5,color:C.amber,fontWeight:700,letterSpacing:1,
                     fontFamily:MONO,marginBottom:4}}>{s.l}</div>
-                  <div style={{fontSize:s.isText?13:22,fontWeight:700,color:C.amber,
+                  <div style={{fontSize:s.isText?14:22,fontWeight:700,color:C.amber,
                     fontFamily:SYNE,lineHeight:1}}>{s.v}</div>
-                  <div style={{fontSize:9,color:C.sub,marginTop:3,lineHeight:1.3}}>{s.sub}</div>
+                  <div style={{fontSize:10.5,color:C.sub,marginTop:3,lineHeight:1.45}}>{s.sub}</div>
                 </div>
               ))}
             </div>
@@ -656,10 +914,10 @@ export default function App() {
 
           {/* Interactive timeline */}
           <div style={{background:C.card,borderRadius:10,padding:14,border:`1px solid ${C.border}`}}>
-            <div style={{fontSize:9,fontWeight:700,color:C.cyan,letterSpacing:2.5,
+            <div style={{fontSize:10.5,fontWeight:700,color:C.cyan,letterSpacing:2.5,
               fontFamily:MONO,marginBottom:12}}>TIMELINE — CLICK TO EXPAND</div>
             <HormuzTimeline events={iHEvents.length ? iHEvents : iHLatest} phaseData={intel?.hormuzPhases}/>
-            <div style={{fontSize:9,color:C.muted,marginTop:10,paddingTop:8,
+            <div style={{fontSize:10.5,color:C.muted,marginTop:10,paddingTop:8,
               borderTop:`1px solid ${C.border}20`,fontFamily:MONO}}>
               🇮🇳 Latest: {iHormuz?.lastTransit||"Status pending"}
             </div>
@@ -684,20 +942,20 @@ export default function App() {
                   border:`1px solid ${C.border}`,transition:'all 0.15s'}}>
                 <div style={{display:'flex',justifyContent:'space-between',
                   alignItems:'flex-start',gap:8,flexWrap:'wrap',marginBottom:6}}>
-                  <span style={{fontSize:13,fontWeight:700,color:C.white,fontFamily:SYNE}}>
+                  <span style={{fontSize:14,fontWeight:700,color:C.white,fontFamily:SYNE}}>
                     {h.item}
                   </span>
-                  <span style={{fontSize:10,fontWeight:700,color:sCol,fontFamily:MONO,flexShrink:0}}>
+                  <span style={{fontSize:11.5,fontWeight:700,color:sCol,fontFamily:MONO,flexShrink:0}}>
                     {statusTxt}
                   </span>
                 </div>
-                <div style={{display:'flex',gap:16,fontSize:11,fontFamily:MONO,flexWrap:'wrap'}}>
+                <div style={{display:'flex',gap:16,fontSize:12.5,fontFamily:MONO,flexWrap:'wrap'}}>
                   <span style={{color:C.muted}}>Pre: <strong style={{color:C.sub}}>{h.pre}</strong></span>
                   <span style={{color:C.muted}}>Now: <strong style={{color:C.amber}}>{h.now}</strong></span>
                   <span style={{color:C.muted}}>2wk: <strong style={{color:(h.status||h.s)==='red'?C.red:C.green}}>{h.twoWeek||h.proj}</strong></span>
                 </div>
                 {(h.detail||h.note) && (
-                  <div style={{fontSize:11,color:C.sub,marginTop:7,lineHeight:1.65,
+                  <div style={{fontSize:12.5,color:C.sub,marginTop:7,lineHeight:1.7,
                     borderTop:`1px solid ${C.border}40`,paddingTop:7,fontFamily:SERIF}}>
                     {h.detail||h.note}
                   </div>
@@ -705,6 +963,7 @@ export default function App() {
               </div>
             );
           })}
+          <BudgetCalc budget={intel?.budget}/>
         </S>
 
         {/* ══ ECONOMY ══ */}
@@ -724,7 +983,7 @@ export default function App() {
           <div style={{background:C.card,borderRadius:10,padding:'14px 14px 10px',
             marginBottom:10,border:`1px solid ${C.border}`}}>
             <div style={{display:'flex',justifyContent:'space-between',alignItems:'center',marginBottom:10}}>
-              <div style={{fontSize:9,fontWeight:700,color:C.cyan,letterSpacing:2.5,fontFamily:MONO}}>
+              <div style={{fontSize:10.5,fontWeight:700,color:C.cyan,letterSpacing:2.5,fontFamily:MONO}}>
                 NIFTY 50 — ALL {fullTL.length} WAR DAYS
               </div>
               <Chip color={C.cyan} size={8}>LIVE</Chip>
@@ -735,10 +994,10 @@ export default function App() {
           <div style={{background:C.card,borderRadius:10,padding:'14px 14px 10px',
             marginBottom:10,border:`1px solid ${C.border}`}}>
             <div style={{display:'flex',justifyContent:'space-between',alignItems:'center',marginBottom:10}}>
-              <div style={{fontSize:9,fontWeight:700,color:C.orange,letterSpacing:2.5,fontFamily:MONO}}>
+              <div style={{fontSize:10.5,fontWeight:700,color:C.orange,letterSpacing:2.5,fontFamily:MONO}}>
                 BRENT CRUDE ($) — ALL WAR DAYS
               </div>
-              <span style={{fontSize:9,color:C.sub,fontFamily:MONO}}>Currently ~${brentRaw}</span>
+              <span style={{fontSize:10.5,color:C.sub,fontFamily:MONO}}>Currently ~${brentRaw}</span>
             </div>
             <MiniLine data={fullTL} dataKey="brent" color={C.orange} h={120}/>
           </div>
@@ -747,9 +1006,9 @@ export default function App() {
           {iEcon?.analysis && (
             <div style={{background:C.card,borderRadius:10,padding:'12px 14px',
               border:`1px solid ${C.border}`,borderLeft:`3px solid ${C.orange}`}}>
-              <div style={{fontSize:9,fontWeight:700,color:C.orange,letterSpacing:2.5,
+              <div style={{fontSize:10.5,fontWeight:700,color:C.orange,letterSpacing:2.5,
                 fontFamily:MONO,marginBottom:6}}>📊 MARKET ANALYSIS</div>
-              <div style={{fontSize:12,color:C.sub,lineHeight:1.7,fontFamily:SERIF}}>
+              <div style={{fontSize:13,color:C.sub,lineHeight:1.7,fontFamily:SERIF}}>
                 {iEcon.analysis.split('. ').slice(0,4).join('. ') + '.'}
               </div>
             </div>
@@ -769,12 +1028,12 @@ export default function App() {
                   padding:'12px 14px',marginBottom:7,transition:'all 0.15s'}}>
                 <div style={{display:'flex',justifyContent:'space-between',
                   alignItems:'flex-start',gap:8,flexWrap:'wrap',marginBottom:6}}>
-                  <span style={{fontSize:13,fontWeight:700,color:C.white,
-                    fontFamily:SYNE,flex:1,lineHeight:1.3}}>{m.t}</span>
+                  <span style={{fontSize:14,fontWeight:700,color:C.white,
+                    fontFamily:SYNE,flex:1,lineHeight:1.45}}>{m.t}</span>
                   <Chip color={isBreaking?C.red:C.sub} size={8}>{m.lv}</Chip>
                 </div>
                 {/* Show only first 2 sentences */}
-                <div style={{fontSize:11.5,color:C.sub,lineHeight:1.7,fontFamily:SERIF}}>
+                <div style={{fontSize:13,color:C.sub,lineHeight:1.7,fontFamily:SERIF}}>
                   {(m.d||'').split('. ').slice(0,2).join('. ') + (m.d?.split('. ').length > 2 ? '.' : '')}
                 </div>
               </div>
@@ -786,9 +1045,9 @@ export default function App() {
         <S id="nuclear" title="Nuclear Exposure" accent={C.purple}>
           <div style={{background:C.purpleDim,border:`1px solid ${C.purple}30`,
             borderLeft:`3px solid ${C.purple}`,borderRadius:10,padding:'13px 15px',marginBottom:14}}>
-            <div style={{fontSize:9,fontWeight:700,color:C.purple,letterSpacing:2.5,
+            <div style={{fontSize:10.5,fontWeight:700,color:C.purple,letterSpacing:2.5,
               fontFamily:MONO,marginBottom:7}}>🇮🇳 INDIA NUCLEAR RISK HEADLINE</div>
-            <div style={{fontSize:12,color:C.sub,lineHeight:1.75,fontFamily:SERIF}}>
+            <div style={{fontSize:13,color:C.sub,lineHeight:1.75,fontFamily:SERIF}}>
               <strong style={{color:C.purple}}>Bushehr — a working reactor — has been struck.</strong>{' '}
               IAEA: strikes 250ft from the operating reactor. Iran holds ~460kg of 60% enriched uranium
               — enough material for approximately 11 nuclear weapons (IAEA).
@@ -799,9 +1058,9 @@ export default function App() {
 
           <div style={{background:C.card,borderRadius:12,padding:'13px 15px',
             marginBottom:14,border:`1px solid ${C.purple}25`}}>
-            <div style={{fontSize:9,fontWeight:700,color:C.purple,letterSpacing:2.5,
+            <div style={{fontSize:10.5,fontWeight:700,color:C.purple,letterSpacing:2.5,
               fontFamily:MONO,marginBottom:8}}>ATMOSPHERIC TRANSPORT — ASSESSMENT</div>
-            <div style={{fontSize:11.5,color:C.sub,lineHeight:1.75,fontFamily:SERIF}}>
+            <div style={{fontSize:13,color:C.sub,lineHeight:1.75,fontFamily:SERIF}}>
               <div style={{marginBottom:4}}>• <strong style={{color:C.text}}>Key insight:</strong> Prevailing westerlies at 500 hPa place NW India 4–7 days downwind of Iranian nuclear sites.</div>
               <div style={{marginBottom:4}}>• <strong style={{color:C.text}}>Watchlist:</strong> Bushehr reactor integrity; Isfahan HEU tunnel complex; IAEA site access.</div>
               <div>• <strong style={{color:C.text}}>Confidence:</strong> Analytical estimate — no radiological release confirmed to date. Fallout modelling: <a href="https://www.ready.noaa.gov/HYSPLIT.php" target="_blank"
@@ -809,7 +1068,7 @@ export default function App() {
             </div>
           </div>
 
-          <div style={{fontSize:9,fontWeight:700,color:C.purple,marginBottom:8,
+          <div style={{fontSize:10.5,fontWeight:700,color:C.purple,marginBottom:8,
             letterSpacing:2.5,fontFamily:MONO}}>IRANIAN NUCLEAR SITES — STATUS</div>
           {iNukes.map((n,i)=>{
             const rCol = n.risk>85?C.red:n.risk>70?C.orange:C.amber;
@@ -819,21 +1078,21 @@ export default function App() {
                   marginBottom:5,cursor:'pointer',border:`1px solid ${rCol}18`,transition:'all 0.15s'}}>
                 <div style={{display:'flex',justifyContent:'space-between',alignItems:'center',gap:8,flexWrap:'wrap'}}>
                   <div style={{flex:1}}>
-                    <span style={{fontSize:13,fontWeight:700,color:rCol,fontFamily:SYNE}}>{n.name}</span>
-                    <span style={{fontSize:9,color:C.muted,marginLeft:8,fontFamily:MONO}}>{n.type}</span>
+                    <span style={{fontSize:14,fontWeight:700,color:rCol,fontFamily:SYNE}}>{n.name}</span>
+                    <span style={{fontSize:10.5,color:C.muted,marginLeft:8,fontFamily:MONO}}>{n.type}</span>
                   </div>
                   <Chip color={(n.status||'').match(/HIT|DAMAGED|STRUCK|WAR ZONE/)?C.red:C.orange} size={8}>
                     {n.status||n.st}
                   </Chip>
                 </div>
                 <Bar value={n.risk} color={rCol} h={4}/>
-                <div style={{fontSize:9,color:C.muted,marginTop:3,
+                <div style={{fontSize:10.5,color:C.muted,marginTop:3,
                   display:'flex',justifyContent:'space-between',fontFamily:MONO}}>
                   <span style={{color:rCol,fontWeight:700}}>{n.risk}/100 risk</span>
                   <span>{expNuke===i?"▲ collapse":"▼ expand"}</span>
                 </div>
                 {expNuke===i && (
-                  <div style={{fontSize:11.5,color:C.sub,marginTop:8,lineHeight:1.75,
+                  <div style={{fontSize:13,color:C.sub,marginTop:8,lineHeight:1.75,
                     borderTop:`1px solid ${C.border}`,paddingTop:8,fontFamily:SERIF,
                     animation:'fadein 0.2s ease both'}}>{n.info}</div>
                 )}
@@ -842,9 +1101,9 @@ export default function App() {
           })}
 
           <div style={{marginTop:20}}>
-            <div style={{fontSize:9,fontWeight:700,color:C.amber,letterSpacing:2.5,
+            <div style={{fontSize:10.5,fontWeight:700,color:C.amber,letterSpacing:2.5,
               fontFamily:MONO,marginBottom:5}}>🇮🇳 INDIAN CITY EXPOSURE</div>
-            <div style={{fontSize:11,color:C.sub,marginBottom:10,fontFamily:SERIF,lineHeight:1.5}}>
+            <div style={{fontSize:12.5,color:C.sub,marginBottom:10,fontFamily:SERIF,lineHeight:1.6}}>
               Composite risk: wind trajectory (nuclear) + sea proximity (oil shock) + nuclear facility distance.
             </div>
             <div className="grid2" style={{display:'grid',gridTemplateColumns:'1fr',gap:8}}>
@@ -856,94 +1115,27 @@ export default function App() {
                     <div style={{display:'flex',justifyContent:'space-between',
                       alignItems:'center',marginBottom:8}}>
                       <div>
-                        <span style={{fontSize:13.5,fontWeight:700,color:C.white,fontFamily:SYNE}}>{c.city}</span>
-                        <span style={{fontSize:10,color:C.muted,marginLeft:8,fontFamily:MONO}}>Pop: {c.pop}</span>
+                        <span style={{fontSize:14,fontWeight:700,color:C.white,fontFamily:SYNE}}>{c.city}</span>
+                        <span style={{fontSize:11.5,color:C.muted,marginLeft:8,fontFamily:MONO}}>Pop: {c.pop}</span>
                       </div>
                       <div>
                         <span style={{fontSize:22,fontWeight:800,color:totCol,fontFamily:SYNE}}>{c.tot}</span>
-                        <span style={{fontSize:10,color:C.muted}}>/100</span>
+                        <span style={{fontSize:11.5,color:C.muted}}>/100</span>
                       </div>
                     </div>
                     <div style={{display:'grid',gridTemplateColumns:'1fr 1fr 1fr',gap:6,marginBottom:8}}>
                       {[{l:"Wind",v:c.wind,cl:C.orange},{l:"Sea",v:c.sea,cl:C.cyan},{l:"Nuclear",v:c.nuke,cl:C.purple}].map((vv,j)=>(
                         <div key={j}>
-                          <div style={{fontSize:9,color:vv.cl,fontWeight:700,marginBottom:2,fontFamily:MONO}}>{vv.l}: {vv.v}/100</div>
+                          <div style={{fontSize:10.5,color:vv.cl,fontWeight:700,marginBottom:2,fontFamily:MONO}}>{vv.l}: {vv.v}/100</div>
                           <Bar value={vv.v} color={vv.cl} h={4}/>
                         </div>
                       ))}
                     </div>
-                    <div style={{fontSize:11.5,color:C.sub,lineHeight:1.65,fontFamily:SERIF}}>{c.info}</div>
+                    <div style={{fontSize:13,color:C.sub,lineHeight:1.7,fontFamily:SERIF}}>{c.info}</div>
                   </div>
                 );
               })}
             </div>
-          </div>
-        </S>
-
-        {/* ══ SCENARIOS ══ */}
-        <S id="scenarios" title="Scenarios" accent={C.cyan}
-          sub="Three paths for the West Asia War. One matters most for India.">
-          <div className="grid3" style={{display:'grid',gridTemplateColumns:'1fr',gap:10,marginBottom:14}}>
-            {[
-              {label:"🟢 NUCLEAR DEAL + HORMUZ REOPENS",prob:"~30%",color:C.green,
-               brent:"$78-85",sensex:"85,000+",rupee:"₹90-91",lpg:"₹853",
-               desc:"Iran accepts nuclear deal + Hormuz opens. Mine clearing takes 4-6 months. Brent normalises gradually."},
-              {label:"🟡 EXTENDED BLOCKADE + TOLL SYSTEM",prob:"~45%",color:C.amber,
-               brent:"$100-115",sensex:"72,000-77,000",rupee:"₹95-98",lpg:"₹960+",
-               desc:"Stalemate continues. Iran's Hormuz toll system formalised. India pays per-ship fees. Structural tightness through 2026."},
-              {label:"🔴 CENTCOM STRIKES RESUME",prob:"~25%",color:C.red,
-               brent:"$140-155",sensex:"52,000-60,000",rupee:"₹100-108",lpg:"₹1,800+",
-               desc:"'Short and powerful' strikes approved. Iran retaliates on US bases. Nuclear sites targeted. Full war escalation."},
-            ].map((sc,i)=>(
-              <div key={i} className="card-lift"
-                style={{background:C.card,borderRadius:12,padding:'14px 16px',
-                  border:`1px solid ${sc.color}30`,borderTop:`3px solid ${sc.color}`,
-                  transition:'all 0.18s'}}>
-                <div style={{display:'flex',justifyContent:'space-between',
-                  alignItems:'flex-start',marginBottom:8,flexWrap:'wrap',gap:6}}>
-                  <div style={{fontSize:12,fontWeight:700,color:sc.color,fontFamily:SYNE,lineHeight:1.2}}>{sc.label}</div>
-                  <div style={{padding:'3px 10px',borderRadius:20,background:`${sc.color}20`,
-                    color:sc.color,fontSize:10,fontWeight:700,fontFamily:MONO}}>{sc.prob}</div>
-                </div>
-                <div style={{fontSize:11,color:C.sub,fontFamily:SERIF,lineHeight:1.6,marginBottom:10}}>{sc.desc}</div>
-                <div style={{display:'grid',gridTemplateColumns:'1fr 1fr',gap:5}}>
-                  {[["Brent",sc.brent],["Sensex",sc.sensex],["Rupee",sc.rupee],["LPG",sc.lpg]].map(([k,v])=>(
-                    <div key={k} style={{background:C.surface,borderRadius:6,padding:'5px 8px'}}>
-                      <div style={{fontSize:8.5,color:C.muted,fontFamily:MONO,fontWeight:700}}>{k}</div>
-                      <div style={{fontSize:11,color:sc.color,fontWeight:700,fontFamily:MONO,marginTop:1}}>{v}</div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            ))}
-          </div>
-
-          <div style={{background:C.card,borderRadius:10,padding:12,overflowX:'auto',border:`1px solid ${C.border}`}}>
-            <div style={{fontSize:9,fontWeight:700,color:C.sub,letterSpacing:2.5,fontFamily:MONO,marginBottom:8}}>
-              FULL SCENARIO TABLE
-            </div>
-            <table style={{width:'100%',borderCollapse:'collapse',fontSize:10.5,minWidth:320,fontFamily:MONO}}>
-              <thead>
-                <tr style={{borderBottom:`1px solid ${C.border}`}}>
-                  <th style={{padding:'5px 6px',textAlign:'left',color:C.muted,fontWeight:700,fontSize:9}}>Metric</th>
-                  {scenHeaders.map((h,i)=>(
-                    <th key={i} style={{padding:'5px 4px',textAlign:'right',fontSize:9,
-                      color:i===0?C.green:i===1?C.amber:i===2?C.green:C.red,fontWeight:700}}>{h}</th>
-                  ))}
-                </tr>
-              </thead>
-              <tbody>
-                {scenRows.map((r,i)=>(
-                  <tr key={i} style={{borderBottom:`1px solid ${C.border}20`}}>
-                    <td style={{padding:'5px 6px',fontWeight:600,color:C.text,fontSize:10}}>{r.m}</td>
-                    {(r.vals||[]).map((v,j)=>(
-                      <td key={j} style={{padding:'5px 4px',textAlign:'right',
-                        color:j===0?C.green:j===1?C.amber:j===2?C.green:C.red,fontWeight:600}}>{v}</td>
-                    ))}
-                  </tr>
-                ))}
-              </tbody>
-            </table>
           </div>
         </S>
 
@@ -954,16 +1146,16 @@ export default function App() {
               <RadarSVG data={iRadar} day={iDay}/>
             </div>
             <div style={{background:C.card,borderRadius:10,padding:'12px 12px',border:`1px solid ${C.border}`}}>
-              <div style={{fontSize:9,fontWeight:700,color:C.amber,letterSpacing:2.5,
+              <div style={{fontSize:10.5,fontWeight:700,color:C.amber,letterSpacing:2.5,
                 fontFamily:MONO,marginBottom:10}}>CURRENT SCORES</div>
               {iRadar.map((r,i)=>(
                 <div key={i} style={{display:'flex',alignItems:'center',gap:8,
                   padding:'5px 0',borderBottom:`1px solid ${C.border}20`}}>
                   <div style={{flex:1,minWidth:0}}>
-                    <div style={{fontSize:9.5,color:C.sub,fontFamily:MONO,fontWeight:600,marginBottom:2}}>{r.axis}</div>
+                    <div style={{fontSize:11,color:C.sub,fontFamily:MONO,fontWeight:600,marginBottom:2}}>{r.axis}</div>
                     <Bar value={r.now} color={r.now>70?C.red:r.now>50?C.orange:C.amber} h={5}/>
                   </div>
-                  <span style={{fontSize:14,fontWeight:800,
+                  <span style={{fontSize:15,fontWeight:800,
                     color:r.now>70?C.red:r.now>50?C.orange:C.amber,
                     fontFamily:SYNE,flexShrink:0,minWidth:28,textAlign:'right'}}>{r.now}</span>
                 </div>
@@ -974,11 +1166,12 @@ export default function App() {
 
         {/* ══ WAR LOG ══ */}
         <S id="warlog" title="Archive — War Log, All Days" accent={C.sub}>
+          <WarInNumbers timeline={intel?.timeline}/>
           <div style={{background:C.card,borderRadius:10,padding:12,border:`1px solid ${C.border}`}}>
             <div style={{display:'flex',justifyContent:'space-between',
               alignItems:'center',marginBottom:10,flexWrap:'wrap',gap:8}}>
               <button className="btn-base" onClick={()=>setLogExpanded(!logExpanded)}
-                style={{fontSize:9,color:C.cyan,background:C.cyanDim,
+                style={{fontSize:10.5,color:C.cyan,background:C.cyanDim,
                   border:`1px solid ${C.cyan}30`,borderRadius:4,padding:'4px 12px',
                   fontWeight:700,fontFamily:MONO}}>
                 {logExpanded?"COLLAPSE ▲":"FULL ARCHIVE ▼"}
@@ -986,33 +1179,33 @@ export default function App() {
               <input placeholder="Search war log..."
                 value={logSearch} onChange={e=>setLogSearch(e.target.value)}
                 style={{padding:'5px 10px',borderRadius:6,border:`1px solid ${C.border}`,
-                  background:C.surface,color:C.text,fontSize:10.5,fontFamily:MONO,
+                  background:C.surface,color:C.text,fontSize:11.5,fontFamily:MONO,
                   outline:'none',minWidth:140,flex:1,maxWidth:220}}/>
             </div>
             {(logExpanded || logSearch ? filteredTL : filteredTL.slice(0,6)).map((d,i)=>(
               <div key={i} style={{padding:'7px 0',borderBottom:`1px solid ${C.border}18`,
                 display:'flex',gap:10,alignItems:'flex-start'}}>
                 <div style={{minWidth:42,flexShrink:0}}>
-                  <div style={{fontSize:10,fontWeight:800,
+                  <div style={{fontSize:11.5,fontWeight:800,
                     color:d.sev===3?C.red:d.sev===2?C.orange:C.green,fontFamily:MONO}}>D{d.d}</div>
-                  <div style={{fontSize:8.5,color:C.muted,fontFamily:MONO}}>{d.l}</div>
+                  <div style={{fontSize:10,color:C.muted,fontFamily:MONO}}>{d.l}</div>
                 </div>
                 <div style={{flex:1}}>
-                  <div style={{fontSize:11.5,color:C.sub,lineHeight:1.5,fontFamily:SERIF}}>{d.tag}</div>
+                  <div style={{fontSize:13,color:C.sub,lineHeight:1.6,fontFamily:SERIF}}>{d.tag}</div>
                   <div style={{display:'flex',gap:8,marginTop:3,flexWrap:'wrap'}}>
                     {[
                       {l:'Nifty',v:d.nifty?.toLocaleString(),c:d.nifty>24000?C.green:C.red},
                       {l:'Brent',v:'$'+d.brent,c:d.brent>100?C.red:C.amber},
                       {l:'₹',    v:d.rupee?.toFixed(2),c:C.orange},
                     ].map((m,j)=>(
-                      <span key={j} style={{fontSize:9,color:m.c,fontFamily:MONO,fontWeight:700}}>{m.l}: {m.v}</span>
+                      <span key={j} style={{fontSize:10.5,color:m.c,fontFamily:MONO,fontWeight:700}}>{m.l}: {m.v}</span>
                     ))}
                   </div>
                 </div>
               </div>
             ))}
             {!logExpanded && !logSearch && (
-              <div style={{fontSize:10,color:C.muted,textAlign:'center',
+              <div style={{fontSize:11.5,color:C.muted,textAlign:'center',
                 marginTop:8,padding:'6px 0',borderTop:`1px solid ${C.border}20`,fontFamily:MONO}}>
                 {fullTL.length - 6} more days — click FULL ARCHIVE or search above
               </div>
@@ -1025,13 +1218,13 @@ export default function App() {
           <div style={{background:C.redDim,border:`1px solid ${C.red}20`,
             borderLeft:`3px solid ${C.red}`,borderRadius:12,padding:'18px 20px'}}>
             {iAssess?.headline && (
-              <div style={{fontSize:15,fontWeight:800,color:C.red,lineHeight:1.5,
+              <div style={{fontSize:15,fontWeight:800,color:C.red,lineHeight:1.6,
                 marginBottom:16,paddingBottom:14,borderBottom:`1px solid ${C.red}18`,
                 fontFamily:SYNE}}>
                 {iAssess.headline}
               </div>
             )}
-            <div style={{fontSize:13,lineHeight:1.9,color:C.sub,fontFamily:SERIF}}>
+            <div style={{fontSize:14,lineHeight:1.9,color:C.sub,fontFamily:SERIF}}>
               {(iAssess?.body||"").split('\n').map((p,i)=>{
                 if (!p.trim()) return null;
                 const isHead   = /^[A-Z][A-Z\s\+\-\']+$/.test(p.trim()) && p.trim().length < 60;
@@ -1039,7 +1232,7 @@ export default function App() {
                 return (
                   <div key={i} style={{marginBottom:isHead?6:isBullet?4:10}}>
                     {isHead
-                      ? <div style={{fontSize:9,fontWeight:700,color:C.amber,
+                      ? <div style={{fontSize:10.5,fontWeight:700,color:C.amber,
                           letterSpacing:2.5,fontFamily:MONO,marginTop:14,marginBottom:5,
                           paddingTop:12,borderTop:`1px solid ${C.border}`}}>{p}</div>
                       : <span style={{color:isBullet?C.sub:C.text}}>{p}</span>
@@ -1054,7 +1247,7 @@ export default function App() {
         {/* ══ FEATURED RESEARCH — relocated near sources ══ */}
         <section style={{marginBottom:22}}>
           <div style={{display:'flex',alignItems:'center',gap:8,marginBottom:8}}>
-            <div style={{fontSize:8,fontWeight:700,color:C.amber,letterSpacing:3.5,
+            <div style={{fontSize:10,fontWeight:700,color:C.amber,letterSpacing:3.5,
               textTransform:'uppercase',fontFamily:MONO}}>Featured Research</div>
             <div style={{height:1,flex:1,background:`linear-gradient(90deg,${C.amber}30,transparent)`}}/>
           </div>
@@ -1064,12 +1257,12 @@ export default function App() {
                 style={{display:'flex',alignItems:'center',gap:10,background:C.card,
                   border:`1px solid ${C.border}`,borderLeft:`2px solid ${pub.tagColor||C.amber}`,
                   borderRadius:6,padding:'8px 12px',textDecoration:'none',transition:'all 0.15s'}}>
-                <span style={{fontSize:14,flexShrink:0}}>{pub.icon||'📄'}</span>
+                <span style={{fontSize:15,flexShrink:0}}>{pub.icon||'📄'}</span>
                 <div style={{flex:1,minWidth:0}}>
-                  <span style={{fontSize:11,fontWeight:700,color:C.white,fontFamily:SYNE}}>{pub.title}</span>
-                  <span style={{fontSize:9,color:C.muted,fontFamily:MONO,marginLeft:8}}>{pub.org}</span>
+                  <span style={{fontSize:12.5,fontWeight:700,color:C.white,fontFamily:SYNE}}>{pub.title}</span>
+                  <span style={{fontSize:10.5,color:C.muted,fontFamily:MONO,marginLeft:8}}>{pub.org}</span>
                 </div>
-                <span style={{fontSize:9,color:pub.tagColor||C.amber,fontFamily:MONO,fontWeight:700,flexShrink:0}}>Read →</span>
+                <span style={{fontSize:10.5,color:pub.tagColor||C.amber,fontFamily:MONO,fontWeight:700,flexShrink:0}}>Read →</span>
               </a>
             ))}
           </div>
@@ -1077,7 +1270,7 @@ export default function App() {
 
         {/* ══ FOOTER ══ */}
         <footer id="sources" style={{scrollMarginTop:58,paddingTop:20,borderTop:`1px solid ${C.border}`,marginTop:8}}>
-          <div style={{fontSize:10,color:C.muted,lineHeight:1.9,fontFamily:SERIF}}>
+          <div style={{fontSize:11.5,color:C.muted,lineHeight:1.9,fontFamily:SERIF}}>
             <strong style={{color:C.sub}}>Sources:</strong>{' '}
             Al Jazeera, CNN, CBS, NBC, ABC, AP, Reuters, Bloomberg, NPR, CNBC, Iran International,
             Times of Israel, ACLED, Atlantic Council, Amnesty Intl, Business Standard, BusinessToday,
@@ -1093,11 +1286,11 @@ export default function App() {
             Built with AI tools. Ongoing project. Not financial, safety, or evacuation advice.
           </div>
           <div style={{display:'flex',gap:8,marginTop:14,alignItems:'center',flexWrap:'wrap'}}>
-            <span style={{fontSize:10,color:C.muted,fontWeight:600,fontFamily:MONO}}>Share:</span>
+            <span style={{fontSize:11.5,color:C.muted,fontWeight:600,fontFamily:MONO}}>Share:</span>
             {[{l:'Share on X',p:'x'},{l:'Share on LinkedIn',p:'li'},{l:'Share on WhatsApp',p:'wa'},{l:'Copy Link',p:'copy'}].map((s,i)=>(
               <button key={i} className="btn-base" onClick={()=>share(s.p)}
                 style={{padding:'5px 12px',borderRadius:6,border:`1px solid ${C.border}`,
-                  background:C.card,color:C.sub,fontSize:10,fontWeight:700,fontFamily:MONO}}>
+                  background:C.card,color:C.sub,fontSize:11.5,fontWeight:700,fontFamily:MONO}}>
                 {s.l}
               </button>
             ))}
@@ -1106,7 +1299,7 @@ export default function App() {
             {NAV.map(n=>(
               <button key={n.id} className="btn-base" onClick={()=>go(n.id)}
                 style={{padding:'5px 11px',border:`1px solid ${C.border}`,borderRadius:16,
-                  background:'transparent',color:C.muted,fontSize:10,fontWeight:600,fontFamily:MONO}}>
+                  background:'transparent',color:C.muted,fontSize:11.5,fontWeight:600,fontFamily:MONO}}>
                 {n.l}
               </button>
             ))}
