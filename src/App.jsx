@@ -520,7 +520,6 @@ export default function App() {
   const [logSearch,   setLogSearch]   = useState('');
   const [aboutOpen,   setAboutOpen]   = useState(false);
   const [wcExpanded,  setWcExpanded]  = useState({});
-  const [briefOpen,   setBriefOpen]   = useState(typeof window!=='undefined' && window.innerWidth>=768);
 
   useEffect(() => {
     fetch('./market-data.json?t='+Date.now())
@@ -637,7 +636,9 @@ export default function App() {
           .grid3  { grid-template-columns:1fr 1fr 1fr !important; }
           .grid4  { grid-template-columns:1fr 1fr 1fr 1fr !important; }
           .dash-pad { padding:28px 36px 80px !important; }
-          .hdr-inner { flex-direction:row !important; align-items:flex-start !important; gap:36px !important; }
+          .hdr-inner { flex-direction:row !important; align-items:center !important; gap:36px !important; }
+          .hdr-left { flex:1 1 420px !important; min-width:260px; }
+          .hdr-right { flex:0 1 500px !important; min-width:300px; width:auto !important; }
           .hdr-h1 { font-size:38px !important; }
         }
         @media(max-width:767px){
@@ -664,7 +665,7 @@ export default function App() {
       {/* ══ HEADER ══ */}
       <header style={{padding:'24px 20px 16px',borderBottom:`1px solid ${C.border}`,background:C.surface}}>
         <div className="hdr-inner" style={{display:'flex',flexDirection:'column',gap:18}}>
-          <div style={{flex:'1 1 420px',minWidth:260}}>
+          <div className="hdr-left" style={{flex:'1 1 auto',minWidth:0}}>
             <div style={{display:'flex',alignItems:'center',gap:10,marginBottom:10}}>
               <div style={{fontSize:10,fontWeight:700,color:C.muted,letterSpacing:5,
                 textTransform:'uppercase',fontFamily:MONO}}>India Risk Assessment</div>
@@ -688,7 +689,7 @@ export default function App() {
             </div>
           </div>
           <div className="hdr-right" style={{display:'flex',flexDirection:'column',gap:10,
-            flex:'0 1 480px',minWidth:260}}>
+            flex:'0 1 auto',minWidth:0,width:'100%'}}>
             <div style={{display:'flex',gap:8,alignItems:'center',flexWrap:'wrap'}}>
               <div style={{background:C.amber,color:C.bg,fontSize:17,fontWeight:800,
                 padding:'10px 20px',borderRadius:8,fontFamily:SYNE,letterSpacing:-0.3,
@@ -711,18 +712,13 @@ export default function App() {
             {/* 60-Second Brief — fills the header's right column */}
             <div style={{background:C.card,border:`1px solid ${C.cyan}22`,
               borderLeft:`3px solid ${C.cyan}`,borderRadius:10,overflow:'hidden'}}>
-              <button className="btn-base" onClick={()=>setBriefOpen(!briefOpen)}
-                style={{width:'100%',textAlign:'left',background:'transparent',
-                  padding:'10px 14px',display:'flex',alignItems:'center',gap:8,cursor:'pointer'}}>
+              <div style={{padding:'10px 14px 0',display:'flex',alignItems:'center',gap:8}}>
                 <span style={{fontSize:10.5,fontWeight:700,color:C.cyan,letterSpacing:2.5,fontFamily:MONO}}>
                   ⏱ THE 60-SECOND BRIEF
                 </span>
-                <span style={{fontSize:10.5,color:C.muted,fontFamily:MONO,marginLeft:'auto'}}>
-                  {briefOpen?'▲':'▼ plain language'}
-                </span>
-              </button>
-              {briefOpen && (
-                <div style={{padding:'0 14px 12px',animation:'fadein 0.2s ease both'}}>
+                <span style={{fontSize:10.5,color:C.muted,fontFamily:MONO,marginLeft:'auto'}}>plain language</span>
+              </div>
+              <div style={{padding:'4px 14px 12px'}}>
                   {iBrief.map((line,i)=>(
                     <div key={i} style={{display:'flex',gap:9,alignItems:'flex-start',
                       padding:'5px 0',borderBottom:i===iBrief.length-1?'none':`1px solid ${C.border}25`}}>
@@ -731,8 +727,7 @@ export default function App() {
                       <span style={{fontSize:12.5,color:C.text,lineHeight:1.65,fontFamily:SERIF}}>{line}</span>
                     </div>
                   ))}
-                </div>
-              )}
+              </div>
             </div>
           </div>
         </div>
