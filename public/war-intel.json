@@ -1,61 +1,47 @@
 {
-  "_updated": "July 16, 2026 — 7:45 AM IST",
-  "_day": 138,
+  "_updated": "July 17, 2026 — 11:00 AM IST",
+  "_day": 139,
   "_phase": "ESCALATION",
   "_note": "Verified: NPR, CNN, CBS, Fox News, The Hill, Washington Times (Jul 15-16), CENTCOM statements, HDFC Sky, Business Standard (Jul 14-15 closes), TradingEconomics, Investing.com (Brent live Jul 16), Zee Business",
   "ticker": [
-    "🔴 DAY 138 THU 7:45 AM IST: US BLOCKADE ENFORCED — day 1 tally: 2 commercial vessels redirected, 1 non-compliant oil tanker DISABLED heading to Kharg Island (first since blockade resumed). 20+ US warships, hundreds of aircraft in theatre.",
-    "💥 STRIKE TEMPO UNPRECEDENTED: 4th consecutive night (7-hour wave, dozens of targets) PLUS unusual daytime waves Wed — 90-min attack on Greater Tunb Island; Bandar Abbas command centres, air defences, coastal surveillance hit. Iran: barracks strike killed 7+ troops; 30+ civilians dead, 260+ wounded (Iranian figures, unverified).",
-    "🇮🇷 IRAN THREATENS TOTAL ENERGY CUTOFF: IRGC — 'The export of oil and gas from the region will be either for everyone or for no one.' Houthi official: Bab el-Mandeb + Hormuz to close in 'operational alliance.' Iran struck US infrastructure in Kuwait, Bahrain, Jordan.",
-    "🛢️ BRENT ~$85.9 THIS MORNING (open $85.44, range $85.05-86.36) — third straight session of gains; settled $84.73 Wed. +15%+ above pre-war $70, still well below $120 wartime peak. WTI ~$80.",
-    "💱 RUPEE Rs 96.32 — NEAR RECORD LOW: crossed 96 Tuesday for the FIRST TIME SINCE MAY (-48p to 96.16), fell further Wed (-16p). Range eyed 95.80-96.50. Options market still pricing rupee downside.",
-    "📉 MARKETS RESILIENT: Wed close Sensex 77,185.43 (+0.17%), Nifty 24,078.50 (+0.11%) — financials countered oil; +565-pt opening rally pared. Tue: Sensex -561 (-0.72%), Nifty below 24,100. VIX ~13.1-13.3 (easing). CAUTIOUS OPEN signalled for Thursday.",
-    "📊 INDIA MACRO ALERT: JUNE WPI 9.87% (from 9.68%) — food and non-food spike; war transmission to wholesale prices confirmed. June trade deficit $30.43B (5-mo high). FII: -Rs 739.69 Cr Tue; renewed buying in financials Wed.",
-    "🕊️ OFF-RAMP SIGNALS: Trump DROPPED the 20% Hormuz toll — replaced with Gulf 'Trade and Investment Deals.' Iran RELEASED a wrongfully detained American ('gesture of Goodwill' — Trump). Vance rules out ground troops/regime change. Ghalibaf: door to diplomacy open; FM spox Baghaei: no talks planned.",
-    "⚠️ TRUMP WARNING: power plants and bridges could be targeted 'next week' unless Tehran returns to the table. Trump: US is 'guardian angel' of Hormuz — 'we control it.' UK moving to proscribe IRGC as terrorist org this week.",
-    "📅 MOU CLOCK: ~31 days to ~Aug 16 expiry (60 days from Jun 17 signing). Trump calls the MOU 'over' — Qatar and Pakistan remain lead mediators; indirect talks paused."
+    "🔴 DAY 139 FRI 11:00 AM IST: 6th consecutive night of US strikes concluded — command centres, missile sites; Bandar Abbas hit again. Iran declares Hormuz a 'RED LINE', vows to resist 'until the end'.",
+    "🇮🇳 DG SHIPPING ADVISORY: India asks shipping firms to AVOID DEPLOYING Indian seafarers via Hormuz after attacks on Mombasa B, Al Bahyah, GFS Galaxy, MT Wedyan, Al Rekayyat. Indian toll now 7+ (some reports cite 13 — tallies conflict).",
+    "🛢 BRENT ~$84.7 Fri AM (settled ~$84.9 Thu) — rally pauses as traders price in reduced physical flows; blockade risk premium holds. US refiner margins at record for 3rd session.",
+    "📈 RUPEE 96.28 (+14p Fri open) · SENSEX +450-550 pts to ~77,640 Fri AM, NIFTY ~24,190 — IT-led rally (TCS, Infosys, HCLTech) despite FPI sales of ₹4,200 cr Thu.",
+    "⚠ IRAN Thursday: missile/drone waves at US bases in Gulf — most intercepted, no confirmed damage. IRIB insists strait closed to ALL; 2 ships stopped with warning fire Wed. Shipping lines refusing even US-escorted transits.",
+    "🌐 UK moves to proscribe IRGC as terrorist org this week · US Treasury sanctions Shamkhani evasion network · Iran exported ~80M bbl during MoU window (OPEX)."
   ],
   "whatChanged": {
-    "label": "WHAT CHANGED — JULY 16, 7:45 AM IST (DAY 138) — BLOCKADE ENFORCED, TOLLS DROPPED",
+    "label": "WHAT CHANGED — JULY 17, 11:00 AM IST (DAY 139) — BLOCKADE DAY 3",
     "items": [
       {
         "color": "red",
-        "bold": "BLOCKADE LIVE FROM WED 1:30 AM IST — FIRST TANKER DISABLED",
-        "text": "CENTCOM's first-24-hour tally: two commercial vessels redirected and one non-compliant oil tanker disabled while heading to Kharg Island after ignoring repeated warnings. Over 20 US Navy warships and hundreds of aircraft are operating in the region. During the previous blockade (lifted mid-June), CENTCOM redirected 142 ships and disabled 9 over two months."
+        "bold": "IRAN DECLARES HORMUZ A 'RED LINE' — 6TH STRAIGHT NIGHT OF US STRIKES",
+        "text": "US completed a sixth consecutive night of strikes Thursday — command centres and missile sites, with Bandar Abbas (Iran's principal Hormuz port) hit again. Tehran vows to resist 'until the end'. Iranian missile/drone waves targeted US bases across the Gulf Thursday; most were intercepted, with no confirmed damage."
       },
       {
-        "color": "red",
-        "bold": "STRIKE TEMPO ESCALATES TO DAYTIME WAVES — QESHM, GREATER TUNB, BANDAR ABBAS HIT",
-        "text": "After a fourth consecutive night (a 7-hour wave on dozens of targets), US forces struck in daylight Wednesday — a 90-minute attack on Greater Tunb Island and a second wave on command centres, air defences, missile/drone sites and coastal surveillance including Bandar Abbas. Iranian officials: a barracks strike killed at least 7 troops; 30+ civilians killed and 260+ wounded in recent strikes (unverified)."
-      },
-      {
-        "color": "red",
-        "bold": "IRAN'S COUNTER-THREAT: ALL GULF ENERGY EXPORTS — 'FOR EVERYONE OR FOR NO ONE'",
-        "text": "The IRGC threatened to halt all energy exports from the region; a Houthi official said Bab el-Mandeb and Hormuz would close in an 'operational alliance' — a direct threat to India's western trade routes beyond Hormuz. Iran struck US military infrastructure in Kuwait, Bahrain and Jordan; explosions over Kuwait City twice in 30 minutes."
+        "color": "orange",
+        "bold": "INDIA HALTS SEAFARER DEPLOYMENT VIA HORMUZ — TOLL RISES TO 7+ (REPORTS UP TO 13)",
+        "text": "DG Shipping advised firms to avoid deploying Indian seafarers through the strait after attacks on Mombasa B, Al Bahyah, GFS Galaxy, MT Wedyan and Al Rekayyat. Reported Indian deaths have risen to at least 7 — three from a US missile early in the war, the latest from an Iranian strike; one MEA-linked report cites 13. Tallies conflict; treat as 7-13."
       },
       {
         "color": "amber",
-        "bold": "TOLLS U-TURN: TRUMP DROPS THE 20% HORMUZ FEE",
-        "text": "Citing 'highly productive conversations with Middle East leadership,' Trump replaced the planned 20% reimbursement fee with Gulf trade-and-investment pledges into the US. He declared the US the 'guardian angel' of the strait — 'we control it' — while Iran insists on its own fee-for-service arrangements."
+        "bold": "SHIPPING SHUNS EVEN ESCORTED TRANSITS — STRAIT NEAR STANDSTILL",
+        "text": "Lines are refusing US-military-guided passages after Iranian strikes on escorted vessels. IRIB says all ships in the area are stationary at anchorages; two ships attempting 'illegal' passage were stopped with warning fire Wednesday. Baseline context: 22 transits on Jul 9 vs 147 the day before the war (Kpler)."
       },
       {
-        "color": "amber",
-        "bold": "INDIA: RUPEE PAST 96 (FIRST SINCE MAY), WPI AT 9.87% — MARKETS STILL RESILIENT",
-        "text": "The rupee closed 96.16 Tuesday (-48p, past 96 for the first time since May) and 96.32 Wednesday. June WPI jumped to 9.87% on food and non-food prices — war transmission to wholesale inflation is now visible. Yet equities held: Wednesday's +565-pt opening rally (softer US inflation, financials buying) pared to a +130-pt Sensex close at 77,185.43; VIX eased ~3-4.5% to ~13.1."
-      },
-      {
-        "color": "green",
-        "bold": "OFF-RAMP SIGNALS: DETAINEE RELEASED, VANCE RULES OUT GROUND WAR",
-        "text": "Iran released an American wrongfully detained since December 2024 — Trump publicly thanked Tehran for the 'gesture of Goodwill.' Vance ruled out ground troops and regime change, defining US goals as keeping Hormuz open and oil flowing. Ghalibaf kept the diplomacy door open even as the foreign ministry said no talks are planned. ~31 days remain on the MOU clock."
+        "color": "cyan",
+        "bold": "MARKETS SHRUG: IT-LED RALLY FRIDAY, BRENT RALLY PAUSES",
+        "text": "Sensex up 450-550 pts (~77,640) and Nifty ~24,190 by mid-morning Friday on an IT rally and softer US inflation, despite ₹4,200 cr FPI selling Thursday. Brent eased to ~$84.7 as traders priced in reduced physical flows — the risk premium holds but is not spiking."
       }
     ]
   },
   "deaths": "7,190+",
-  "deathsSub": "~3,680+ Iran (incl. 7+ troops in barracks strike, 30+ civilians per Iranian govt in Jul 14-15 waves; 260+ wounded per Iran Health Ministry — unverified), 2,730+ Lebanon, 99 Iraq, 27+ Israel, 23 US, 50+ Gulf, 4 India (3 MT Settebello Jun 8 · 1 GFS Galaxy Jul 12 · Mombasa B hit Jul 14). Blockade enforced from Jul 15; strike tempo now includes daytime waves.",
+  "deathsSub": "~3,680+ Iran (incl. 7+ troops in barracks strike, 30+ civilians per Iranian govt in Jul 14-15 waves; 260+ wounded per Iran Health Ministry — unverified), 2,730+ Lebanon, 99 Iraq, 27+ Israel, 23 US, 50+ Gulf, 7+ India (reports up to 13 — tallies conflict; 3 killed by US missile early in war, latest by Iranian strike; vessels incl. MT Settebello Jun 8, GFS Galaxy Jul 12, Mombasa B Jul 14). Blockade day 3; strike tempo now includes daytime waves.",
   "econ": {
-    "sensex": "77,185.43",
-    "sensexDelta": "WED JUL 15 CLOSE: +130.49 pts (+0.17%), Nifty 24,078.50 (+0.11%) — opening rally of +565 pts (softer US inflation, Fed hopes, financials buying) pared as oil climbed and strikes continued. TUE JUL 14: Sensex -561.46 (-0.72%) to 77,054.94; Nifty -158.95 to 24,052.05 — only 11 Nifty stocks rose. THU JUL 16: cautious open signalled as war escalates.",
-    "sensexSub": "Brent ~$85.9 Thu AM (settled $84.73 Wed; 3rd straight gain; +15% vs pre-war). Rupee 96.32 — crossed 96 Tue, first since May; near-term range 95.80-96.50. VIX ~13.1-13.3 (easing -3 to -4.5%). PSU banks +1% Wed; IT -0.7% (IBM guidance); financials led. Nifty support 24,000; resistance 24,200.",
+    "sensex": "77,186.87",
+    "sensexDelta": "FRI JUL 17, 11 AM: Sensex +450-550 pts to ~77,640, Nifty ~24,190 — IT-led rally (TCS, Infosys, HCLTech, TechM) on softer US inflation; laggards Trent, Sun Pharma, IndiGo. THU JUL 16 CLOSE: Sensex flat at 77,186.87 (+1.44), Nifty 24,072.75 (-5.75, -0.02%) — realty, banks, financial services weighed; consumer durables +1.5%. FPIs sold ₹4,200 cr Thu.",
+    "sensexSub": "Brent ~$84.7 Fri AM (settled ~$84.9 Thu; +15% vs pre-war) — rally paused as traders price reduced physical flows. Rupee 96.28, +14p Fri open (Thu close ~96.42). Nifty support 24,000; resistance 24,150-24,200. US: Dow -0.20% Thu; June PPI unexpectedly fell.",
     "vix": "~13.1 — EASING",
     "vixDelta": "-4.51% to 13.14 Wed open, ~-3% at close — volatility compressing despite blockade. Tue: 13.75 (+3.53%). Well below wartime 24-27; markets treating this as a contained maritime campaign, not full war.",
     "fpi": "-Rs 739.69 Cr",
@@ -64,10 +50,10 @@
     "analysis": "Equities are absorbing the blockade far better than the April original — Wednesday closed green despite Brent at $85 and daytime strikes. The stress has migrated to the currency and wholesale prices: rupee past 96 (first since May) with options pricing further downside, and WPI at 9.87%. Watch: rupee 96.50 resistance, Brent $86.36 (this morning's high), Nifty 24,000 support, OMC under-recovery at $86 Brent, and whether FII financial-sector buying survives the oil tape."
   },
   "hormuzStatus": {
-    "status": "BLOCKADE ENFORCED (from Wed 1:30 AM IST): day 1 — 2 vessels redirected, 1 tanker DISABLED en route to Kharg Island. Tolls plan DROPPED — replaced with Gulf investment deals. Iran threatens to close ALL regional energy export routes; Houthis threaten Bab el-Mandeb.",
+    "status": "BLOCKADE DAY 3: US enforces port blockade on Iran; Iran declares the strait a 'red line' and insists it is closed to ALL shipping. 2 ships stopped with warning fire Wed. Commercial lines now refuse even US-escorted transits.",
     "preWarFlow": "~90-140 ships/day",
-    "currentFlow": "Blockade targets Iran-bound/Iran-origin shipping; CENTCOM says transit to/from non-Iranian ports is not impeded — but Iran is striking ships using the US-overseen Oman-side route (UAE tankers Jul 12, prior Cyprus ship). First 24h: 2 redirected, 1 disabled. Benchmark: previous blockade redirected 142 and disabled 9 over two months. Iran insists on its own fee-for-service 'arrangements'; Ghalibaf accuses the US of 'trying to weaken the Iranian arrangements through force.'",
-    "reduction": "Traffic risk premium repriced sharply: Brent ~$85.9 vs $70 pre-war ($111-120 wartime peak) — third consecutive session of gains. The contest is now formal: US 'guardian angel' control claim + port blockade vs Iran's fee-for-service model + threats to every regional export route incl. Bab el-Mandeb. Normalisation requires a negotiated Hormuz administration mechanism within the ~31-day MOU window.",
+    "currentFlow": "Near standstill. IRIB: all vessels stationary at anchorages, no movement toward the strait. Benchmark: 22 transits Jul 9 vs 147 the day before the war (Kpler). Day-1 blockade tally stands: 2 redirected, 1 tanker disabled en route to Kharg Island.",
+    "reduction": "Brent ~$84.7 Fri AM — 3-session rally paused as traders price in reduced physical flows rather than shortage. US refiner margins at record highs. Escalation risk: Trump threatens power plants and bridges 'next week' absent a deal; IRGC threatens ALL regional energy exports ('for everyone or for no one').",
     "indianVesselsNear": 7,
     "indianSeafarers": 148,
     "indianTransited": 1,
@@ -1042,8 +1028,8 @@
     }
   ],
   "assessment": {
-    "headline": "DAY 138, 7:45 AM THU JUL 16: BLOCKADE ENFORCED — FIRST TANKER DISABLED, 2 REDIRECTED. TRUMP DROPS 20% TOLL FOR GULF INVESTMENT DEALS. STRIKES GO DAYTIME (GREATER TUNB, BANDAR ABBAS). IRAN: GULF ENERGY 'FOR EVERYONE OR FOR NO ONE'; HOUTHIS THREATEN BAB EL-MANDEB. BRENT ~$86. RUPEE 96.32 — PAST 96, FIRST SINCE MAY. WPI 9.87%. OFF-RAMPS: DETAINEE FREED, VANCE RULES OUT GROUND WAR.",
-    "body": "Thursday 7:45 AM IST. Day 138. Blockade day 2.\n\nTHE 48-HOUR PICTURE\n• Jul 14 (Tue): Trump dropped the 20% Hormuz toll after Gulf objections — replaced with trade-and-investment pledges. Blockade resumed 4 PM ET (Wed 1:30 AM IST). A fourth consecutive night wave — 7 hours, dozens of targets. Iran struck a US air base in Jordan; Qeshm Island hit; Kuwait intercepted incoming twice in 30 minutes.\n• Jul 15 (Wed): Blockade day 1 — 2 vessels redirected, 1 non-compliant tanker disabled off Kharg Island. Strikes moved to daylight: Greater Tunb Island (90 minutes), then Bandar Abbas command centres and coastal defences. Iranian figures: 7+ troops killed in a barracks strike, 30+ civilians dead, 260+ wounded — unverified. The IRGC threatened all regional energy exports; a Houthi official threatened a coordinated Bab el-Mandeb closure.\n• Off-ramps stayed open: Iran released a detained American; Vance ruled out ground troops and regime change; Ghalibaf kept diplomacy alive even as the foreign ministry said no talks are planned.\n\nINDIA IMPACT\n• The transmission channel has shifted from equities to the currency and prices: rupee past 96 for the first time since May (96.16 Tue, 96.32 Wed; options pricing a test of 96.50), and June WPI at 9.87% — the war is now in wholesale inflation.\n• Equities are absorbing it: Wednesday closed green (+130 pts) despite $85 Brent and daytime strikes; VIX eased to ~13.1. FII sold Rs 739.69 Cr Tuesday, returned to financials Wednesday. Thursday: cautious open signalled.\n• Brent ~$85.9 — OMC under-recovery re-opening; a sustained $85+ plus a 96-handle rupee makes an August fuel revision increasingly likely.\n• The Bab el-Mandeb threat matters uniquely for India: it would hit Red Sea-Suez trade on top of Hormuz energy exposure — a two-chokepoint squeeze.\n\nASSESSMENT\n• The contest is now formalised: a US port blockade plus 'guardian angel' control claim versus Iran's fee-for-service model backed by attacks on non-compliant shipping. Neither side's theory of control is yet proven.\n• The tolls U-turn shows Gulf capitals retain leverage over Washington — and that the US wants regional buy-in, not unilateral rents. That is quietly deal-positive.\n• Detainee release + Vance's ground-war exclusion + Ghalibaf's open door = both sides preserving an exit while escalating. The MOU is damaged (Trump: 'over') but the ~Aug 16 window (~31 days) still frames behaviour.\n• Principal risk: an Iranian miscalculation at sea (another crewed tanker strike with mass casualties) or execution of the power-plant threat — either would jump the escalation ladder.\n\nWATCHLIST — NEXT 72 HOURS\n• Blockade enforcement incidents — any boarding, disabling with casualties, or Indian-flag vessel involvement.\n• Bab el-Mandeb: Houthi follow-through would reprice Indian shipping, insurance and Suez trade instantly.\n• Rupee 96.50; Brent $86.36 (Thursday morning high); Nifty 24,000 support; OMC hike signals.\n• Trump's power-plant/bridges deadline language; UK IRGC proscription vote; any Qatar/Pakistan mediation restart.\n\nCONFIDENCE\nMarket closes verified (HDFC Sky, Business Standard); Brent live per Investing.com/TradingEconomics. Blockade tallies per CENTCOM. Iranian casualty figures per Iranian officials — unverified. Analytical scores are estimates, not measurements."
+    "headline": "DAY 139, 11:00 AM FRI JUL 17: BLOCKADE DAY 3 — IRAN CALLS HORMUZ A 'RED LINE', US COMPLETES 6TH STRAIGHT NIGHT OF STRIKES (BANDAR ABBAS AGAIN). INDIA HALTS SEAFARER DEPLOYMENT VIA THE STRAIT; INDIAN TOLL 7+ (REPORTS UP TO 13). SHIPPING REFUSES EVEN ESCORTED TRANSITS. BRENT ~$84.7 — RALLY PAUSES. RUPEE 96.28. SENSEX +450-550 FRI AM, IT-LED.",
+    "body": "Friday 11:00 AM IST. Day 139. Blockade day 3.\n\nOVERNIGHT PICTURE\n• US completed a sixth consecutive night of strikes — command centres, missile sites; Bandar Abbas hit again.\n• Iran: Hormuz is a 'red line'; resistance 'until the end'. Missile/drone waves at US Gulf bases Thursday — most intercepted, no confirmed damage.\n• IRIB reiterates the strait is closed to all; two ships stopped with warning fire Wed. All vessels reported stationary at anchorages.\n\nINDIA ANGLE\n• DG Shipping: avoid deploying Indian seafarers via Hormuz — after attacks on Mombasa B, Al Bahyah, GFS Galaxy, MT Wedyan, Al Rekayyat.\n• Indian toll now at least 7 (3 by US missile early in the war; latest by Iranian strike). One MEA-linked report cites 13 — tallies conflict.\n• 7 Indian-flagged vessels (~148 seafarers) remain in the Gulf; not attempting exit before de-escalation.\n\nMARKETS\n• Brent settled ~$84.9 Thu, ~$84.7 Fri AM — traders pricing reduced physical flows, not shortage. Refiner margins at records.\n• Rupee 96.28 (+14p). Sensex +450-550 pts (~77,640) Fri mid-morning, Nifty ~24,190; IT led (TCS, Infosys, HCLTech) on softer US inflation. FPIs sold ₹4,200 cr Thu; Nifty resistance 24,150-24,200.\n\nWATCHLIST\n• Trump's 'really bad next week' threat — power plants, bridges — vs Qatar-Pakistan mediation restart.\n• IRGC 'for everyone or for no one' threat: any strike on Saudi/UAE export infrastructure would reprice oil violently.\n• UK vote to proscribe IRGC this week; US Treasury sanctions on Shamkhani network.\n• Domestic fuel: OMC under-recoveries mounting (₹74,781 cr Apr-Jun); next LPG/fuel revision window Aug 1."
   },
   "featured": [
     {
@@ -1427,17 +1413,27 @@
       "rupee": 96.32,
       "tag": "DAY 138 THU 7:45 AM IST. Brent ~$85.9 (range $85.05-86.36) — 3rd straight gain, +15% vs pre-war. Cautious open signalled for D-Street after Wed's resilient close. Rupee 96.32 near record low; 95.80-96.50 band eyed; options pricing downside. Strike tempo: daytime waves now routine; 5th night expected. Blockade enforcement continuing. Trump threat: power plants/bridges 'next week' without talks. ~31 days to ~Aug 16 MOU expiry. Watch today: Nifty 24,000 support, rupee 96.50, Brent $86.36 breakout, OMC/paint/aviation stocks, Bab el-Mandeb headlines.",
       "sev": 3
+    },
+    {
+      "d": 138,
+      "l": "Jul 16",
+      "deaths": 7190,
+      "brent": 84.93,
+      "nifty": 24073,
+      "rupee": 96.42,
+      "tag": "BLOCKADE DAY 2: 5th night wave + Iran hits US Gulf bases (mostly intercepted). IRGC: Gulf energy 'for everyone or for no one'. IRIB: strait closed to all; 2 ships stopped with warning fire. India: DG Shipping advises against deploying seafarers via Hormuz; attacked-vessel list grows (Mombasa B, Al Bahyah, GFS Galaxy, MT Wedyan, Al Rekayyat). Markets flat: Sensex 77,186.87 (+1.44), Nifty 24,072.75 (-5.75); FPIs sold ₹4,200 cr. Brent settled ~$84.9 — rally pauses.",
+      "sev": 3
     }
   ],
   "exec": {
     "level": "HIGH",
-    "phase": "BLOCKADE ENFORCED — DAY 2",
-    "oilNote": "~$85.9, 3rd straight gain (+15% vs pre-war) · settled $84.73 Wed",
-    "shipping": "1 TANKER DISABLED · 2 REDIRECTED",
-    "shippingSub": "Blockade live from Wed 1:30 AM IST; tolls dropped. Iran threatens ALL Gulf routes; Houthis threaten Bab el-Mandeb",
-    "military": "DAYTIME + NIGHT STRIKE WAVES",
-    "militarySub": "Greater Tunb, Bandar Abbas hit; Iran: 7+ troops, 30+ civilians dead (unverified). War dead 7,190+ incl. 4 Indians",
-    "indiaSub": "Rupee 96.32 — past 96, first since May · WPI 9.87% · Wed close green (+0.17%) · cautious open signalled"
+    "phase": "BLOCKADE ENFORCED — DAY 3",
+    "oilNote": "~$84.7 Fri AM — rally pauses (settled ~$84.9 Thu) · +15% vs pre-war",
+    "shipping": "STRAIT NEAR STANDSTILL",
+    "shippingSub": "Lines refuse even US-escorted transits · India halts seafarer deployment via Hormuz · Iran: strait closed to all",
+    "military": "6TH STRAIGHT NIGHT OF US STRIKES",
+    "militarySub": "Bandar Abbas hit again; Iran: Hormuz a 'red line'. Iranian waves at Gulf bases mostly intercepted. War dead 7,190+ incl. 7+ Indians (reports up to 13)",
+    "indiaSub": "Rupee 96.28 (+14p) · Sensex +450-550 pts Fri AM, IT-led · FPIs sold ₹4,200 cr Thu · WPI 9.87%"
   },
   "hormuzPhases": [
     {
@@ -1481,7 +1477,7 @@
       "days": "Jul 11–"
     }
   ],
-  "_phaseBadge": "🔴 BLOCKADE ENFORCED — TANKER DISABLED · IRAN THREATENS ALL GULF ENERGY EXPORTS",
+  "_phaseBadge": "🔴 BLOCKADE DAY 3 — IRAN CALLS HORMUZ A 'RED LINE' · INDIA HALTS SEAFARER DEPLOYMENT",
   "budget": {
     "petrolPre": 94.72,
     "petrolNow": 111.21,
@@ -1491,11 +1487,11 @@
     "lpgNow": 942.0
   },
   "brief": [
-    "Day 138 of the West Asia war. Overall risk to India right now: HIGH.",
-    "Oil: Brent crude is around $86 a barrel — about 23% higher than a year ago. The US has re-imposed its blockade of Iranian ports at Hormuz; one tanker was disabled and two redirected on day one. About 45% of India's crude imports used this strait before the war — emergency rerouting has cut that to roughly 30%.",
-    "Your money: the rupee has crossed ₹96 per dollar for the first time since May (it was ₹91.5 pre-war), making imports costlier. Petrol in Delhi is ₹111.21/L (₹94.72 pre-war); an LPG cylinder now costs ₹942.",
-    "Markets: the Nifty closed slightly up on Wednesday and a cautious open is expected. Volatile, but not crashing. Wholesale inflation is at 9.87%.",
-    "Bottom line: no shortages in India today — the government says supplies are secure and 7 Indian-flagged ships with ~148 seafarers remain safe in the Gulf — but fuel and kitchen costs are rising. Use the Household section below to calculate what this war costs your family each month."
+    "Day 139 of the West Asia war. Overall risk to India right now: HIGH.",
+    "Overnight: the US hit Iran for a sixth straight night, including Bandar Abbas — Iran's main port on the Strait of Hormuz. Iran calls the strait a 'red line' and says it is closed to all ships; commercial shipping has nearly stopped, with lines refusing even US-escorted passages.",
+    "For Indians: the government has told shipping companies not to send Indian seafarers through Hormuz after five merchant ships were attacked. At least 7 Indians have died in the war so far (some reports say up to 13). The 7 Indian-flagged ships in the Gulf, with ~148 crew, are staying put and are safe.",
+    "Your money: the rupee is at ₹96.28 per dollar (₹91.5 pre-war). Petrol in Delhi is ₹111.21/L and an LPG cylinder ₹942 — no change today, but oil companies' losses are mounting, so watch the August 1 revision. Oil itself has steadied near $85, not spiked.",
+    "Markets are calm: the Sensex rose 450-550 points on Friday morning, led by IT stocks. Bottom line — no shortages, prices stable today, but the war is escalating and next week is the one to watch."
   ],
-  "shareLine": "Blockade day 2: first tanker disabled, Brent near $86, rupee past 96 — and India's kitchen bills are climbing."
+  "shareLine": "Blockade day 3: Iran calls Hormuz a 'red line', India halts seafarer deployment, shipping at a standstill — yet Brent steadies near $85 and the Sensex rallies."
 }
