@@ -1,12 +1,12 @@
 {
-  "_updated": "2026-07-21 — 18:40:26. IST",
-  "_utc": "2026-07-21T13:10:26.562Z",
+  "_updated": "2026-07-21 — 22:34:28. IST",
+  "_utc": "2026-07-21T17:04:28.652Z",
   "_source": "Yahoo Finance + ExchangeRate API",
   "_note": "Auto-updated via GitHub Action every 4 hours. War content updated manually.",
   "brent": {
-    "price": 91.03,
-    "change": 1.81,
-    "changePct": 2.03
+    "price": 91.23,
+    "change": 2.01,
+    "changePct": 2.25
   },
   "nifty": {
     "price": 24187.7,
@@ -19,8 +19,8 @@
     "changePct": -0.31
   },
   "rupee": {
-    "price": 96.23,
-    "change": -0.2,
-    "changePct": -0.21
+    "price": 96.22,
+    "change": -0.21,
+    "changePct": -0.22
   }
 }
