@@ -1,47 +1,47 @@
 {
-  "_updated": "July 20, 2026 — 2:00 PM IST",
+  "_updated": "July 20, 2026 — 2:45 PM IST",
   "_day": 142,
   "_phase": "ESCALATION",
   "_note": "Verified: NPR, CNN, CBS, Fox News, The Hill, Washington Times (Jul 15-16), CENTCOM statements, HDFC Sky, Business Standard (Jul 14-15 closes), TradingEconomics, Investing.com (Brent live Jul 16), Zee Business",
   "ticker": [
-    "🔴 DAY 142 MON 2:00 PM IST: BRENT ABOVE $90 ($90.21, +3%) — first time in over a month — as US completes a NINTH consecutive night of strikes and Iran launches new missile/drone waves at shipping.",
-    "☢ NUCLEAR ESCALATION RISK: Iran accuses US of striking the under-construction DARKHOVIN nuclear plant; Deputy FM warns of 'appropriate' response. Rubio: MOU can't survive violations; 'Iran's economy is in shambles'.",
-    "🚢 UKMTO: vessel ON FIRE off Oman near Hormuz (Sun). Transits ~13/day vs ~110 pre-war (MarineTraffic); some ships using unapproved Omani-coast routes; GPS spoofing persists.",
-    "🇮🇳 MEA lodged 'strong protest' with Iran over the Jul 14 attacks that killed 2 Indian seafarers (30 Indians among 46 crew on Al Bahiyah/Mombasa B). EASA airspace advisory (Bahrain, Kuwait, Qatar, UAE) until Jul 29 — Gulf flight disruptions persist.",
-    "📉 MARKETS 2 PM: Sensex 77,784 (-367, -0.47%), Nifty 24,254 (-0.33%) — recovering from a 500-pt gap-down. Private banks worst (-2.3%); pharma, metals green. Rupee 96.40. Gold above $4,000/oz.",
-    "🇺🇸 US toll: 17 service members dead (AP); remains recovered near Iranian attack site in Jordan. Weekend: US-Iran struck each other's infrastructure; Iran hit a Kuwait desalination plant Fri; US expanded strikes to Iranian bridges."
+    "🔴 DAY 142 MON 2:45 PM IST: 3RD US SERVICE MEMBER killed since Friday (NPR). Iran DISABLED 2 oil tankers Monday attempting Hormuz transit without its permission; UK military reports a vessel burning off the Omani coast.",
+    "🛢 BRENT PARES SPIKE: touched above $91 intraday, now back near $88 as Iran's Foreign Ministry says it received new mediator proposals and talks 'could continue' — first de-escalation signal since Wednesday. Still ~35% above pre-war.",
+    "🚢 HORMUZ NEAR-STANDSTILL: just 9 vessels transited in the last 24 hours (MarineTraffic) — down from ~13/day Sun, ~110/day pre-war. Mediators float a 10-DAY CEASEFIRE; Washington downplays Trump accepting it.",
+    "🇰🇼🇯🇴 KUWAIT intercepted hostile missiles/drones Monday after 2 earlier Iranian attack waves; JORDAN downed 3 Iranian missiles. Iran claims strikes on US aircraft at Aqaba airport (Jordan) — unconfirmed.",
+    "🇮🇳 MARKETS CLOSED 3:30 PM: Sensex -443 (0.57%) to 77,708.52, Nifty -96 (0.39%) to 24,238.50 — clawed back from a -624 pt intraday low. PSU banks +2.78%; private banks -2.27% (worst). Midcap/smallcap positive; breadth 2,141 adv / 1,944 decl.",
+    "🇺🇸 US surging Gulf air assets — dozens of fuel tankers arriving in Israel. Dignified-transfer ceremony for fallen troops postponed from Tuesday. Parliament: Monsoon Session opened in disruption, Houses adjourned."
   ],
   "whatChanged": {
-    "label": "WHAT CHANGED — JULY 20, 2:00 PM IST (DAY 142) — CATCH-UP: JUL 17-20",
+    "label": "WHAT CHANGED — JULY 20, 2:45 PM IST (DAY 142) — SINCE THIS MORNING",
     "items": [
       {
         "color": "red",
-        "bold": "BRENT BREAKS $90 — WAR PREMIUM FINALLY REPRICES",
-        "text": "Brent crossed $90 ($90.21, +3%) Monday for the first time in over a month as the US entered a ninth straight night of strikes and reported a casualty. Gold holds above $4,000/oz. India's import bill risk rises materially above $90; OMC under-recoveries deepen ahead of the Aug 1 revision."
+        "bold": "3RD US TROOP DEATH IN 3 DAYS; IRAN DISABLES 2 TANKERS",
+        "text": "A third US service member was killed since Friday (NPR). Iran said Monday it disabled two oil tankers attempting to transit Hormuz without its permission; the UK military separately reported a vessel burning off the Omani coast, cause unconfirmed. Kuwait intercepted missiles/drones after two earlier Iranian attack waves Monday; Jordan downed three Iranian missiles."
       },
       {
-        "color": "red",
-        "bold": "NUCLEAR RED LINE: IRAN ALLEGES DARKHOVIN PLANT STRUCK",
-        "text": "Tehran accuses the US of hitting the under-construction Darkhovin nuclear power plant and warns of an 'appropriate' response. Rubio says the MOU cannot stay alive amid violations. A verified nuclear-site strike would be the war's most serious escalation to date."
+        "color": "green",
+        "bold": "FIRST DE-ESCALATION SIGNAL: BRENT PARES $91 SPIKE TO ~$88",
+        "text": "Brent briefly topped $91 intraday — the war's highest yet — before easing back to ~$88 after Iran's Foreign Ministry said it had received fresh mediator proposals and negotiations 'could continue' if in Iran's interest. Mediators have floated a 10-day ceasefire, though Washington is downplaying the odds Trump accepts it. First hint of de-escalation since Wednesday's strikes began."
       },
       {
         "color": "orange",
-        "bold": "WEEKEND: RED LINES CROSSED ON BOTH SIDES",
-        "text": "Sat-Sun: US and Iran exchanged strikes on infrastructure and military targets — US expanded to Iranian bridges (per Trump's threat), Iran hit a Kuwait desalination plant and launched new missile/drone waves at shipping. UKMTO reported a vessel on fire off Oman Sunday. 17 US service members now dead (AP)."
+        "bold": "HORMUZ TRAFFIC AT ITS LOWEST YET: 9 SHIPS IN 24 HOURS",
+        "text": "MarineTraffic recorded just 9 vessel transits in the last day — down from ~13 Sunday and a pre-war average near 110. GPS spoofing continues to distort ship positions across the region."
       },
       {
         "color": "cyan",
-        "bold": "INDIA: FORMAL PROTEST TO IRAN; MARKETS ABSORB THE $90 SHOCK",
-        "text": "MEA summoned Iran's senior diplomat over the Jul 14 attacks that killed 2 Indian seafarers. Monday: Sensex gapped down 500+ pts, recovered to -367 (77,784) by 2 PM; Nifty 24,254 (-0.33%). Private banks worst; pharma/metals green; midcaps positive. Rupee 96.40. FPI stance has turned positive since early July (Geojit) — a cushion."
+        "bold": "MARKETS CLOSE HAVING CLAWED BACK MOST OF THE MORNING'S LOSS",
+        "text": "Sensex closed -443 pts (0.57%) at 77,708.52, Nifty -96 pts (0.39%) at 24,238.50 — well off the day's low of -624 pts hit around 12:30 PM. PSU banks gained 2.78% even as private banks fell 2.27% (the session's worst performer). Broader market breadth stayed positive (2,141 advances vs 1,944 declines), and India VIX rose 2.1% to 13.43 — elevated but not panicked."
       }
     ]
   },
   "deaths": "7,190+",
-  "deathsSub": "~3,680+ Iran (Iran govt reports 30+ more killed 'in recent days' — unverified, not yet added to total), 2,730+ Lebanon, 99 Iraq, 27+ Israel, 17 US service members (AP Jul 19), 50+ Gulf, 7+ India (reports up to 13 — tallies conflict; 2 killed on Al Bahiyah/Mombasa B Jul 14, which carried 30 Indians among 46 crew; earlier deaths incl. MT Settebello Jun 8, GFS Galaxy Jul 12). Blockade day 6; 9 consecutive US strike nights.",
+  "deathsSub": "~3,680+ Iran (Iran govt reports 30+ more killed 'in recent days' — unverified), 2,730+ Lebanon, 99 Iraq, 27+ Israel, 3 US service members killed since Friday alone (17 cumulative per AP Jul 19 tally — reconcile pending), 50+ Gulf, 7+ India (reports up to 13 — tallies conflict). Blockade day 6; ceasefire effectively collapsed since last Wed per multiple outlets.",
   "econ": {
-    "sensex": "77,784.54",
-    "sensexDelta": "MON JUL 20, 2 PM: Sensex 77,784.54 (-367, -0.47%), Nifty 24,254.25 (-80, -0.33%) — recovering from a 500+ pt gap-down open triggered by Brent's $90 breach. Private banks worst (HDFC Bank, Axis weigh); pharma, metals, healthcare green; Nifty MidCap +0.27%. FRI JUL 17 CLOSE: sharp rebound — Sensex ~78,151, Nifty 24,334; bullish weekly candle, support held at 20-DMA.",
-    "sensexSub": "Brent $90.21 (+3%) — first $90+ in over a month; +38% vs pre-war $65. Gold above $4,000/oz (spot $4,014). Rupee 96.40 (opened -0.1% vs Fri close 96.28). FPI stance positive since early July (Geojit). Support 24,000/77,000; a Brent hold above $90 is the key downside trigger.",
+    "sensex": "77,708.52",
+    "sensexDelta": "MON JUL 20 CLOSE (3:30 PM): Sensex 77,708.52 (-443, -0.57%), Nifty 24,238.50 (-96, -0.39%) — clawed back from an intraday low of -624 pts (~12:30 PM) as Brent eased off its $91 spike. PSU banks +2.78%; private banks -2.27% (worst, HDFC Bank/Axis Bank/Maruti top losers). Midcap +0.6%, breadth positive (2,141 adv/1,944 decl). India VIX +2.1% to 13.43.",
+    "sensexSub": "Brent spiked to $91 intraday (war high) before easing to ~$88 on Iran's openness to mediated talks — first de-escalation signal since Wednesday. Still +35% vs pre-war $65. Rupee ~96.44-96.45. Support at Nifty 24,000/Sensex 77,000 held through the volatility.",
     "vix": "~13.1 — EASING",
     "vixDelta": "-4.51% to 13.14 Wed open, ~-3% at close — volatility compressing despite blockade. Tue: 13.75 (+3.53%). Well below wartime 24-27; markets treating this as a contained maritime campaign, not full war.",
     "fpi": "-Rs 739.69 Cr",
@@ -50,10 +50,10 @@
     "analysis": "Equities are absorbing the blockade far better than the April original — Wednesday closed green despite Brent at $85 and daytime strikes. The stress has migrated to the currency and wholesale prices: rupee past 96 (first since May) with options pricing further downside, and WPI at 9.87%. Watch: rupee 96.50 resistance, Brent $86.36 (this morning's high), Nifty 24,000 support, OMC under-recovery at $86 Brent, and whether FII financial-sector buying survives the oil tape."
   },
   "hormuzStatus": {
-    "status": "BLOCKADE DAY 6: US enforces port blockade; Iran launches fresh missile/drone waves at shipping (Sun night) and alleges a US strike on its Darkhovin nuclear plant. UKMTO: vessel on fire off Oman. Strait effectively closed to normal traffic.",
+    "status": "BLOCKADE DAY 6, AFTERNOON: Iran disabled 2 tankers attempting unauthorised transit Monday; a vessel is burning off the Omani coast per UK military (cause unconfirmed). Kuwait and Jordan intercepted fresh Iranian missiles/drones. First de-escalation signal: Iran's FM says it received new mediator proposals; a 10-day ceasefire has been floated.",
     "preWarFlow": "~90-140 ships/day",
-    "currentFlow": "~13 transits/day vs ~110 pre-war average (MarineTraffic) — a 90% collapse. Some vessels using Omani-coastline routings not approved by Tehran; GPS spoofing throws reported positions off by miles. US retail petrol +34% vs pre-war ($3.99/gal).",
-    "reduction": "Brent $90.21 Monday (+3%), first time above $90 in over a month; gold above $4,000/oz. Market now pricing prolonged disruption, not just risk premium. Watch: Iranian response to Darkhovin allegation; any strike on Saudi/UAE export infrastructure; Aug 1 Indian fuel/LPG revision.",
+    "currentFlow": "Just 9 vessel transits in the last 24 hours (MarineTraffic) — the lowest yet, down from ~13/day Sunday and ~110/day pre-war. GPS spoofing continues to distort ship positions region-wide.",
+    "reduction": "Brent touched $91 intraday (war high) before easing to ~$88 as diplomatic signals emerged — first pullback since Wednesday's escalation began. Still ~35% above the $65 pre-war baseline. Watch: whether the 10-day ceasefire mediators floated gains traction, or the 3rd US troop death in three days hardens Washington's position instead.",
     "indianVesselsNear": 7,
     "indianSeafarers": 148,
     "indianTransited": 1,
@@ -1028,8 +1028,8 @@
     }
   ],
   "assessment": {
-    "headline": "DAY 142, 2:00 PM MON JUL 20: BRENT TOPS $90 AS US COMPLETES 9TH STRAIGHT NIGHT OF STRIKES. IRAN ALLEGES DARKHOVIN NUCLEAR PLANT HIT — WARNS OF RESPONSE. WEEKEND SAW BRIDGES, A KUWAIT DESALINATION PLANT AND SHIPS STRUCK. VESSEL ON FIRE OFF OMAN. SENSEX RECOVERS FROM 500-PT GAP-DOWN TO -367; RUPEE 96.40. INDIA LODGES FORMAL PROTEST WITH IRAN OVER SEAFARER DEATHS.",
-    "body": "Monday 2:00 PM IST. Day 142. Blockade day 6.\n\nTHE 72-HOUR PICTURE (Jul 17-20)\n• Fri: Iranian strike damaged a Kuwait desalination plant. Indian markets rebounded (Sensex ~78,151, bullish weekly candle).\n• Sat: US and Iran exchanged infrastructure strikes — 'red lines' crossed on both sides; US expanded to Iranian bridges.\n• Sun: 9th consecutive US strike night began; Iran launched new missile/drone waves at shipping. UKMTO: vessel on fire off Oman. Iran accused the US of hitting the under-construction Darkhovin nuclear plant.\n• Mon: Brent $90.21 (+3%), first $90+ in a month. Gold above $4,000/oz.\n\nINDIA ANGLE\n• MEA summoned Iran's senior diplomat — 'strong protest' over Jul 14 attacks that killed 2 Indian seafarers (30 Indians among 46 crew). Toll 7+ (reports up to 13; tallies conflict).\n• Seafarer deployment via Hormuz remains halted; 7 Indian-flagged vessels (~148 crew) safe in the Gulf.\n• EASA advisory (until Jul 29) keeps Gulf airspace constrained — expect flight reroutes/delays to UAE, Qatar, Kuwait, Bahrain.\n\nMARKETS AT 2 PM\n• Sensex 77,784.54 (-367, -0.47%), recovering from a 500+ pt gap-down open (77,613). Nifty 24,254.25 (-0.33%); support held at the 20-DMA (~24,000/77,000).\n• Private banks worst (-2.3% at open; HDFC Bank, Axis weigh); pharma, metals, healthcare green; midcaps positive — the fall is contained, not systemic.\n• Rupee 96.40 (opened -0.1%). FPI stance positive since early July (Geojit) — a partial cushion.\n\nWATCHLIST\n• Iranian 'appropriate response' to the Darkhovin allegation — the nuclear dimension is now live.\n• Brent holding above $90: import-bill maths worsen; Aug 1 fuel/LPG revision now high-stakes for households.\n• Any strike on Saudi/UAE export terminals — the IRGC 'for everyone or for no one' threat remains standing.\n• Qatar-Pakistan mediation: Rubio signals talks possible but MOU near-dead while ships are being hit."
+    "headline": "DAY 142, 2:45 PM MON JUL 20: BRENT TOUCHED $91 (WAR HIGH), NOW EASING TO ~$88 AS IRAN SIGNALS OPENNESS TO MEDIATED TALKS — FIRST DE-ESCALATION SIGN SINCE WEDNESDAY. BUT A 3RD US TROOP HAS DIED IN 3 DAYS, IRAN DISABLED 2 TANKERS, AND HORMUZ TRAFFIC HIT ITS LOWEST YET AT JUST 9 SHIPS/24HRS. INDIAN MARKETS CLOSED DOWN BUT CLAWED BACK MOST OF A 624-POINT INTRADAY LOSS.",
+    "body": "Monday 2:45 PM IST. Day 142. Blockade day 6, afternoon update.\n\nSINCE THIS MORNING\n• Brent spiked above $91 intraday — a new war high — before easing to ~$88 after Iran's Foreign Ministry said it received fresh mediator proposals and that talks 'could continue' if serving Iran's interests. Mediators have floated a 10-day ceasefire; Washington is downplaying whether Trump accepts it.\n• Iran disabled two oil tankers Monday that attempted to transit Hormuz without its permission. The UK military separately reported a vessel burning off the Omani coast — cause not yet confirmed.\n• Kuwait intercepted hostile missiles/drones after two earlier Iranian attack waves Monday; Jordan downed three Iranian missiles. Iran claims (unconfirmed) it struck US aircraft at Jordan's Aqaba airport.\n• A third US service member has been killed since Friday. The dignified-transfer ceremony planned for Tuesday has been postponed. The US is surging air assets into the region — dozens of fuel tankers arriving in Israel.\n\nHORMUZ\n• Just 9 vessels transited in the last 24 hours (MarineTraffic) — the lowest figure of the war, down from ~13/day Sunday and a pre-war average near 110/day.\n\nMARKETS — CLOSED 3:30 PM\n• Sensex 77,708.52 (-443 pts, -0.57%); Nifty 24,238.50 (-96 pts, -0.39%) — both well off the day's low (Sensex -624 around 12:30 PM).\n• PSU banks +2.78%; private banks -2.27% (worst sector, HDFC Bank/Axis weighed). Midcap/smallcap positive; breadth stayed constructive at 2,141 advances vs 1,944 declines. India VIX +2.1% to 13.43 — elevated, not panicked.\n\nWATCHLIST\n• Whether the floated 10-day ceasefire gains real traction, or the third US troop death hardens Washington's posture instead — the next 24-48 hours likely decide which way oil moves next.\n• Q1 earnings season continues to compete with geopolitics for market attention this week.\n• Aug 1 domestic fuel/LPG revision remains the key India pocketbook date if Brent holds above $85."
   },
   "featured": [
     {
@@ -1447,13 +1447,13 @@
   ],
   "exec": {
     "level": "HIGH",
-    "phase": "BLOCKADE DAY 6 — BRENT ABOVE $90",
-    "oilNote": "$90.21 (+3%) — first close above $90 in a month · +38% vs pre-war",
-    "shipping": "~13 TRANSITS/DAY vs ~110 PRE-WAR",
-    "shippingSub": "Vessel on fire off Oman (UKMTO, Sun) · unapproved Omani-coast routings · GPS spoofing · India: seafarer deployment via Hormuz halted",
-    "military": "9TH STRAIGHT NIGHT OF US STRIKES",
-    "militarySub": "Iran alleges Darkhovin nuclear plant hit, warns of response. Bridges, desalination plant struck over weekend. 17 US service members dead (AP). War dead 7,190+ incl. 7+ Indians (reports up to 13)",
-    "indiaSub": "Rupee 96.40 · Sensex 77,784 (-0.47%) at 2 PM, off day's lows · Nifty 24,254 · Private banks worst; pharma green · WPI 9.87%"
+    "phase": "BLOCKADE DAY 6 — BRENT SPIKES TO $91, EASES TO ~$88",
+    "oilNote": "Touched $91 intraday (war high), now ~$88 on first de-escalation signal · still +35% vs pre-war",
+    "shipping": "9 SHIPS IN 24 HOURS — LOWEST YET",
+    "shippingSub": "vs ~110/day pre-war · Iran disabled 2 tankers Mon · vessel burning off Oman (UK military) · 10-day ceasefire floated by mediators",
+    "military": "3RD US TROOP DEATH IN 3 DAYS",
+    "militarySub": "Kuwait, Jordan intercept Iranian missiles/drones Mon. Iran claims Aqaba airport strikes (unconfirmed). War dead 7,190+ incl. 7+ Indians (reports up to 13)",
+    "indiaSub": "Sensex closed 77,708.52 (-0.57%), clawed back from -624 low · Nifty 24,238.50 · PSU banks +2.78%, private banks -2.27% · Rupee ~96.40"
   },
   "hormuzPhases": [
     {
@@ -1497,7 +1497,7 @@
       "days": "Jul 11–"
     }
   ],
-  "_phaseBadge": "🔴 BRENT TOPS $90 — 9TH NIGHT OF US STRIKES · IRAN ALLEGES NUCLEAR PLANT HIT",
+  "_phaseBadge": "🔴 3RD US TROOP DEATH IN 3 DAYS · IRAN DISABLES 2 TANKERS · BRENT PARES $91 SPIKE TO ~$88",
   "budget": {
     "petrolPre": 94.72,
     "petrolNow": 111.21,
@@ -1507,11 +1507,11 @@
     "lpgNow": 942.0
   },
   "brief": [
-    "Day 142 of the West Asia war. Overall risk to India right now: HIGH — and rising.",
-    "The big change: oil has broken above $90 a barrel for the first time in over a month (+38% vs pre-war), after the US completed a ninth straight night of strikes and Iran fired new missile waves at ships. Iran also claims the US hit one of its nuclear plants (under construction) and is threatening a response — a serious new escalation risk.",
-    "Over the weekend both sides struck infrastructure: the US hit Iranian bridges, Iran damaged a Kuwait desalination plant, and a ship was reported on fire off Oman. Only ~13 ships a day now cross Hormuz, versus ~110 before the war.",
-    "For Indians: two Indian seafarers were killed in the July 14 tanker attacks; India has lodged a formal protest with Iran. Petrol (₹111.21/L Delhi) and LPG (₹942) are unchanged today, but with oil above $90 the August 1 price revision is the date to watch. Gulf flights face delays until at least July 29 due to airspace closures.",
-    "Markets wobbled but did not crash: the Sensex opened 500+ points down and clawed back to -367 by 2 PM; the rupee is at ₹96.40. No shortages, no panic — but this is the most dangerous phase of the war so far."
+    "Day 142 of the West Asia war, 2:45 PM update. Overall risk to India right now: HIGH.",
+    "The big swing today: oil spiked to $91 a barrel — a new high for this war — then eased back to around $88 after Iran signalled it's open to more talks with mediators. That's the first hint of cooling since the fighting sharply worsened last Wednesday.",
+    "But the fighting itself got worse before that: a third American service member has died in three days, Iran disabled two oil tankers trying to cross the Hormuz strait without its permission, and a ship was reported burning off Oman. Only 9 ships crossed Hormuz in the last day — the lowest of the entire war, against roughly 110 a day before it started.",
+    "For Indians: no change to petrol (₹111.21/L) or LPG (₹942) today. The Sensex fell as much as 624 points this morning on the oil spike, but clawed back most of it to close down 443 points (77,708) as oil eased — a sign markets aren't panicking, just watching closely.",
+    "Bottom line: this is a fragile, fast-moving moment. Mediators have floated a 10-day ceasefire, but Washington isn't confident Trump will accept it. The next day or two likely decides whether oil keeps climbing or the war cools off."
   ],
-  "shareLine": "Brent breaks $90 as the US hits Iran for a 9th straight night and Tehran alleges a nuclear-plant strike — Sensex dips but holds, rupee at 96.40."
+  "shareLine": "Brent hit $91 — a new war high — then eased to $88 as Iran hints at talks. But a 3rd US soldier died in 3 days and Hormuz traffic just hit its lowest ever: 9 ships in 24 hours."
 }
