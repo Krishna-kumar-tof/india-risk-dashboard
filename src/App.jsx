@@ -636,10 +636,13 @@ export default function App() {
           .grid3  { grid-template-columns:1fr 1fr 1fr !important; }
           .grid4  { grid-template-columns:1fr 1fr 1fr 1fr !important; }
           .dash-pad { padding:28px 36px 80px !important; }
-          .hdr-inner { flex-direction:row !important; align-items:center !important; gap:36px !important; }
-          .hdr-left { flex:1 1 420px !important; min-width:260px; }
-          .hdr-right { flex:0 1 500px !important; min-width:300px; width:auto !important; }
-          .hdr-h1 { font-size:38px !important; }
+          .hdr-inner { flex-direction:row !important; align-items:center !important; justify-content:space-between; gap:28px !important; }
+          .hdr-left { flex:0 1 auto !important; min-width:0; }
+          .hdr-badges { flex:0 0 auto !important; justify-content:flex-end; }
+          .hdr-badges > div:last-child { flex:0 1 340px !important; }
+          .brief-grid { display:grid !important; grid-template-columns:1fr 1fr; column-gap:28px; }
+          .brief-grid > div { border-bottom:none !important; padding:6px 0 !important; }
+          .hdr-h1 { font-size:32px !important; }
         }
         @media(max-width:767px){
           .grid2,.grid3,.grid4 { grid-template-columns:1fr 1fr !important; }
@@ -663,72 +666,71 @@ export default function App() {
       </div>
 
       {/* ══ HEADER ══ */}
-      <header style={{padding:'24px 20px 16px',borderBottom:`1px solid ${C.border}`,background:C.surface}}>
-        <div className="hdr-inner" style={{display:'flex',flexDirection:'column',gap:18}}>
+      <header style={{padding:'22px 20px 16px',borderBottom:`1px solid ${C.border}`,background:C.surface}}>
+        <div style={{display:'flex',alignItems:'center',gap:10,marginBottom:14}}>
+          <div style={{fontSize:10,fontWeight:700,color:C.muted,letterSpacing:5,
+            textTransform:'uppercase',fontFamily:MONO}}>India Risk Assessment</div>
+          <div style={{height:1,flex:1,background:C.border}}/>
+          <div style={{display:'flex',gap:5}}>
+            {[{l:'𝕏',p:'x'},{l:'in',p:'li'},{l:'wa',p:'wa'},{l:'📋',p:'copy'}].map((s,i)=>(
+              <button key={i} onClick={()=>share(s.p)} className="btn-base"
+                style={{padding:'3px 7px',borderRadius:4,border:`1px solid ${C.border}`,
+                  background:C.card,color:C.sub,fontSize:10.5,fontWeight:700,fontFamily:MONO}}>
+                {s.l}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        <div className="hdr-inner" style={{display:'flex',flexDirection:'column',gap:16}}>
           <div className="hdr-left" style={{flex:'1 1 auto',minWidth:0}}>
-            <div style={{display:'flex',alignItems:'center',gap:10,marginBottom:10}}>
-              <div style={{fontSize:10,fontWeight:700,color:C.muted,letterSpacing:5,
-                textTransform:'uppercase',fontFamily:MONO}}>India Risk Assessment</div>
-              <div style={{height:1,flex:1,background:C.border}}/>
-              <div style={{display:'flex',gap:5}}>
-                {[{l:'𝕏',p:'x'},{l:'in',p:'li'},{l:'wa',p:'wa'},{l:'📋',p:'copy'}].map((s,i)=>(
-                  <button key={i} onClick={()=>share(s.p)} className="btn-base"
-                    style={{padding:'3px 7px',borderRadius:4,border:`1px solid ${C.border}`,
-                      background:C.card,color:C.sub,fontSize:10.5,fontWeight:700,fontFamily:MONO}}>
-                    {s.l}
-                  </button>
-                ))}
-              </div>
-            </div>
-            <h1 className="hdr-h1" style={{margin:"14px 0 0",fontSize:26,fontWeight:800,color:C.white,
-              fontFamily:SYNE,lineHeight:1.12,letterSpacing:-0.8}}>
-              How the West Asia War<br/>Is Hitting <span style={{color:C.amber}}>India</span>
+            <h1 className="hdr-h1" style={{margin:0,fontSize:24,fontWeight:800,color:C.white,
+              fontFamily:SYNE,lineHeight:1.14,letterSpacing:-0.7}}>
+              How the West Asia War Is Hitting <span style={{color:C.amber}}>India</span>
             </h1>
-            <div style={{marginTop:7,fontSize:12.5,color:C.sub,fontFamily:MONO}}>
+            <div style={{marginTop:8,fontSize:12.5,color:C.sub,fontFamily:MONO}}>
               {iUpdated} &nbsp;•&nbsp; 50+ verified sources
             </div>
           </div>
-          <div className="hdr-right" style={{display:'flex',flexDirection:'column',gap:10,
-            flex:'0 1 auto',minWidth:0,width:'100%'}}>
-            <div style={{display:'flex',gap:8,alignItems:'center',flexWrap:'wrap'}}>
-              <div style={{background:C.amber,color:C.bg,fontSize:17,fontWeight:800,
-                padding:'10px 20px',borderRadius:8,fontFamily:SYNE,letterSpacing:-0.3,
-                boxShadow:`0 4px 20px ${C.amber}40`}}>DAY {iDay}</div>
-              <button className="btn-base" onClick={()=>shareCard(sharePayload)}
-                title="Download / share today's summary as an image"
-                style={{fontSize:10.5,color:C.cyan,background:C.cyanDim,
-                  border:`1px solid ${C.cyan}30`,borderRadius:6,padding:'8px 12px',
-                  fontWeight:700,fontFamily:MONO,letterSpacing:0.5,cursor:'pointer'}}>
-                📤 SHARE TODAY'S CARD
-              </button>
-            </div>
+          <div className="hdr-badges" style={{display:'flex',gap:8,alignItems:'center',flexWrap:'wrap'}}>
+            <div style={{background:C.amber,color:C.bg,fontSize:16,fontWeight:800,
+              padding:'8px 16px',borderRadius:8,fontFamily:SYNE,letterSpacing:-0.3,
+              boxShadow:`0 4px 20px ${C.amber}40`,whiteSpace:'nowrap'}}>DAY {iDay}</div>
+            <button className="btn-base" onClick={()=>shareCard(sharePayload)}
+              title="Download / share today's summary as an image"
+              style={{fontSize:10.5,color:C.cyan,background:C.cyanDim,
+                border:`1px solid ${C.cyan}30`,borderRadius:6,padding:'8px 12px',
+                fontWeight:700,fontFamily:MONO,letterSpacing:0.5,cursor:'pointer',whiteSpace:'nowrap'}}>
+              📤 SHARE TODAY'S CARD
+            </button>
             <div style={{fontSize:10.5,color:isEscalation?C.red:isBlockade?C.orange:C.green,
               padding:'6px 12px',border:`1px solid ${isEscalation?C.red:isBlockade?C.orange:C.green}40`,
               borderRadius:6,background:(isEscalation?C.red:isBlockade?C.orange:C.green)+'0c',
-              fontWeight:700,fontFamily:MONO,lineHeight:1.5,
+              fontWeight:700,fontFamily:MONO,lineHeight:1.5,flex:'1 1 260px',minWidth:220,
               animation:(isEscalation||isBlockade)?'pulse 1.8s infinite':undefined}}>
               {intel?._phaseBadge ?? (isEscalation?"🔴 ESCALATION":isBlockade?"⚠ HORMUZ RE-CLOSED (CONTESTED)":"● CEASEFIRE HOLDING")}
             </div>
-            {/* 60-Second Brief — fills the header's right column */}
-            <div style={{background:C.card,border:`1px solid ${C.cyan}22`,
-              borderLeft:`3px solid ${C.cyan}`,borderRadius:10,overflow:'hidden'}}>
-              <div style={{padding:'10px 14px 0',display:'flex',alignItems:'center',gap:8}}>
-                <span style={{fontSize:10.5,fontWeight:700,color:C.cyan,letterSpacing:2.5,fontFamily:MONO}}>
-                  ⏱ THE 60-SECOND BRIEF
-                </span>
-                <span style={{fontSize:10.5,color:C.muted,fontFamily:MONO,marginLeft:'auto'}}>plain language</span>
-              </div>
-              <div style={{padding:'4px 14px 12px'}}>
-                  {iBrief.map((line,i)=>(
-                    <div key={i} style={{display:'flex',gap:9,alignItems:'flex-start',
-                      padding:'5px 0',borderBottom:i===iBrief.length-1?'none':`1px solid ${C.border}25`}}>
-                      <span style={{fontSize:11,fontWeight:800,color:C.cyan,fontFamily:MONO,
-                        flexShrink:0,minWidth:14,paddingTop:2}}>{i+1}.</span>
-                      <span style={{fontSize:12.5,color:C.text,lineHeight:1.65,fontFamily:SERIF}}>{line}</span>
-                    </div>
-                  ))}
-              </div>
-            </div>
+          </div>
+        </div>
+
+        {/* 60-Second Brief — full-width, no dead space either side */}
+        <div style={{marginTop:16,background:C.card,border:`1px solid ${C.cyan}22`,
+          borderLeft:`3px solid ${C.cyan}`,borderRadius:10,overflow:'hidden'}}>
+          <div style={{padding:'10px 14px 0',display:'flex',alignItems:'center',gap:8}}>
+            <span style={{fontSize:10.5,fontWeight:700,color:C.cyan,letterSpacing:2.5,fontFamily:MONO}}>
+              ⏱ THE 60-SECOND BRIEF
+            </span>
+            <span style={{fontSize:10.5,color:C.muted,fontFamily:MONO,marginLeft:'auto'}}>plain language</span>
+          </div>
+          <div className="brief-grid" style={{padding:'4px 14px 12px'}}>
+              {iBrief.map((line,i)=>(
+                <div key={i} style={{display:'flex',gap:9,alignItems:'flex-start',
+                  padding:'5px 0',borderBottom:i===iBrief.length-1?'none':`1px solid ${C.border}25`}}>
+                  <span style={{fontSize:11,fontWeight:800,color:C.cyan,fontFamily:MONO,
+                    flexShrink:0,minWidth:14,paddingTop:2}}>{i+1}.</span>
+                  <span style={{fontSize:12.5,color:C.text,lineHeight:1.65,fontFamily:SERIF}}>{line}</span>
+                </div>
+              ))}
           </div>
         </div>
         <button className="btn-base" onClick={()=>setAboutOpen(!aboutOpen)}
@@ -743,8 +745,8 @@ export default function App() {
             <strong style={{color:C.white,fontFamily:SYNE}}>India's war tracker — not a global one.</strong>
             {' '}This dashboard focuses exclusively on what the Iran-Gulf War means for India's 1.4 billion people:
             energy prices, food security, financial markets, nuclear exposure, and Indian seafarers in the Gulf.
-            We track Hormuz because India imports <strong style={{color:C.amber}}>~85% of its crude</strong>, and before the war
-            <strong style={{color:C.amber}}> ~45% of those imports</strong> transited this 39km chokepoint (emergency rerouting has cut that to ~30%). Market data auto-syncs every 4 hours. War intelligence updated manually from 50+ verified sources.
+            We track Hormuz because before the war, <strong style={{color:C.amber}}>40% of India's crude, 60% of its LNG, and 90% of its LPG</strong>
+            imports transited this 39km chokepoint. Emergency rerouting and a pivot toward Russian crude have since cut that exposure sharply. Market data auto-syncs every 4 hours. War intelligence updated manually from 50+ verified sources.
           </div>
         )}
       </header>
@@ -777,7 +779,7 @@ export default function App() {
             <Mc label="Oil — Brent" value={`$${brentRaw}`}
               delta={(brentChg>0?"▲ +":"▼ ")+Math.abs(brentChg).toFixed(1)+"%"}
               deltaColor={brentChg>0?C.red:C.green} accent={brentColor}
-              sub={iExec.oilNote ?? "~45% of India's crude imports transited Hormuz pre-war; ~30% now after rerouting"}/>
+              sub={iExec.oilNote ?? "Pre-war: 40% of crude, 60% of LNG, 90% of LPG imports via Hormuz — since diversified"}/>
             <Mc label="Markets — Nifty 50"
               value={typeof niftyRaw==='number'?Math.round(niftyRaw).toLocaleString():niftyRaw}
               delta={(niftyChg>=0?"▲ +":"▼ ")+Math.abs(niftyChg).toLocaleString()}
@@ -832,7 +834,7 @@ export default function App() {
 
         {/* ══ HORMUZ ══ */}
         <S id="hormuz" title="Maritime — Hormuz, India's Energy Lifeline" accent={C.cyan}
-          sub="~45% of India's crude imports transited this 39km chokepoint pre-war — emergency rerouting has cut that to ~30%. What happens here still lands at your pump.">
+          sub="Pre-war, this 39km chokepoint carried 40% of India's crude, 60% of its LNG, and 90% of its LPG imports. What happens here still lands at your pump.">
 
           {iHormuz?.headline && (
             <div style={{background:`linear-gradient(90deg,${C.red}18,${C.card})`,
