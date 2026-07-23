@@ -1,47 +1,47 @@
 {
-  "_updated": "July 20, 2026 — 2:45 PM IST",
-  "_day": 142,
+  "_updated": "July 23, 2026 — 8:00 AM IST",
+  "_day": 145,
   "_phase": "ESCALATION",
   "_note": "Verified: NPR, CNN, CBS, Fox News, The Hill, Washington Times (Jul 15-16), CENTCOM statements, HDFC Sky, Business Standard (Jul 14-15 closes), TradingEconomics, Investing.com (Brent live Jul 16), Zee Business",
   "ticker": [
-    "🔴 DAY 142 MON 2:45 PM IST: 3RD US SERVICE MEMBER killed since Friday (NPR). Iran DISABLED 2 oil tankers Monday attempting Hormuz transit without its permission; UK military reports a vessel burning off the Omani coast.",
-    "🛢 BRENT PARES SPIKE: touched above $91 intraday, now back near $88 as Iran's Foreign Ministry says it received new mediator proposals and talks 'could continue' — first de-escalation signal since Wednesday. Still ~35% above pre-war.",
-    "🚢 HORMUZ NEAR-STANDSTILL: just 9 vessels transited in the last 24 hours (MarineTraffic) — down from ~13/day Sun, ~110/day pre-war. Mediators float a 10-DAY CEASEFIRE; Washington downplays Trump accepting it.",
-    "🇰🇼🇯🇴 KUWAIT intercepted hostile missiles/drones Monday after 2 earlier Iranian attack waves; JORDAN downed 3 Iranian missiles. Iran claims strikes on US aircraft at Aqaba airport (Jordan) — unconfirmed.",
-    "🇮🇳 MARKETS CLOSED 3:30 PM: Sensex -443 (0.57%) to 77,708.52, Nifty -96 (0.39%) to 24,238.50 — clawed back from a -624 pt intraday low. PSU banks +2.78%; private banks -2.27% (worst). Midcap/smallcap positive; breadth 2,141 adv / 1,944 decl.",
-    "🇺🇸 US surging Gulf air assets — dozens of fuel tankers arriving in Israel. Dignified-transfer ceremony for fallen troops postponed from Tuesday. Parliament: Monsoon Session opened in disruption, Houses adjourned."
+    "🔴 DAY 145 THU 8:00 AM IST: BRENT $94.56 — 5-week high, 11th straight night of US strikes on Iran (Wed) targeted military facilities; Rubio says Iran failing to honor commitments, any deal must guarantee Hormuz navigation.",
+    "🚢 NEW FRONT: Yemen's Houthis declared a naval BLOCKADE ON SAUDI ARABIA (Jul 20) via the Bab al-Mandeb strait — 'an eye for an eye' for Saudi strikes on Yemen. Ships already turning back (Chinese VLCC Xin Long Yang); could cut 7% of global oil supply if it holds — Saudi routes 70% of exports via the Red Sea.",
+    "🇮🇳 CORRECTION: Indian seafarer deaths confirmed at 2 — Heramb Karmarkar (GFS Galaxy, Jul 12) and Rohan Kumar (Mombasa B/Al Bahiyah, Jul 14). Pre-war Hormuz dependency: 40% of crude, 60% of LNG, 90% of LPG imports. India pivoting more heavily to Russian crude, per analysts.",
+    "📉 3 STRAIGHT LOSING SESSIONS: Sensex fell Mon→Tue→Wed (77,709→77,470→76,755); Nifty broke below its rising trendline — Bajaj Broking calls it 'technically weak'. Axis Bank, HDFC Bank fell 5%+ Tue on Q1 earnings + capital-outflow pressure from a weaker rupee.",
+    "🛢 Attacks on the Caspian Pipeline Consortium terminal (Black Sea) added separate pressure on global energy markets Wed — compounding, not caused by, the Iran war. EIA reported a surprise 1.4M-barrel US crude stock build.",
+    "💹 THU 8 AM: Sensex 76,755.05 (-0.92%), Nifty 23,996.25 (-0.79%), Rupee 96.52, Gold 22K ₹13,430/gm, Petrol/Diesel/LPG unchanged (₹111.21 / ₹97.83 / ₹941.50). Cautious open expected; FIIs continue selling; Q1 earnings compete for attention."
   ],
   "whatChanged": {
-    "label": "WHAT CHANGED — JULY 20, 2:45 PM IST (DAY 142) — SINCE THIS MORNING",
+    "label": "WHAT CHANGED — JULY 23, 8:00 AM IST (DAY 145) — SINCE MON 2:45 PM",
     "items": [
       {
         "color": "red",
-        "bold": "3RD US TROOP DEATH IN 3 DAYS; IRAN DISABLES 2 TANKERS",
-        "text": "A third US service member was killed since Friday (NPR). Iran said Monday it disabled two oil tankers attempting to transit Hormuz without its permission; the UK military separately reported a vessel burning off the Omani coast, cause unconfirmed. Kuwait intercepted missiles/drones after two earlier Iranian attack waves Monday; Jordan downed three Iranian missiles."
+        "bold": "NEW FRONT: HOUTHIS BLOCKADE SAUDI ARABIA",
+        "text": "Yemen's Houthis declared a full naval embargo on Saudi Arabia Monday, blocking safe passage through the Bab al-Mandeb strait in retaliation for Saudi strikes on Yemen (including Sanaa airport). Ships are already turning back — a Chinese VLCC (Xin Long Yang) made a U-turn in the Red Sea. Iran had reportedly pressed the Houthis to close this route if the US kept hitting Iranian energy infrastructure. Saudi Arabia routes 70% of its oil exports through the Red Sea and had been using it as a workaround since Hormuz stalled — this closes that door too."
       },
       {
-        "color": "green",
-        "bold": "FIRST DE-ESCALATION SIGNAL: BRENT PARES $91 SPIKE TO ~$88",
-        "text": "Brent briefly topped $91 intraday — the war's highest yet — before easing back to ~$88 after Iran's Foreign Ministry said it had received fresh mediator proposals and negotiations 'could continue' if in Iran's interest. Mediators have floated a 10-day ceasefire, though Washington is downplaying the odds Trump accepts it. First hint of de-escalation since Wednesday's strikes began."
+        "color": "red",
+        "bold": "BRENT HITS A 5-WEEK HIGH — $94.56",
+        "text": "Oil surged again — $94.13 Wednesday (+3.4%, highest since June 8) on an 11th consecutive night of US strikes plus the Houthi blockade news, then $94.56 Thursday morning. Secretary of State Rubio said Iran has failed to honor prior commitments and any future deal must guarantee freedom of navigation through Hormuz. Separately, attacks on a Black Sea pipeline terminal added unrelated pressure to global energy markets."
       },
       {
         "color": "orange",
-        "bold": "HORMUZ TRAFFIC AT ITS LOWEST YET: 9 SHIPS IN 24 HOURS",
-        "text": "MarineTraffic recorded just 9 vessel transits in the last day — down from ~13 Sunday and a pre-war average near 110. GPS spoofing continues to distort ship positions across the region."
+        "bold": "THREE STRAIGHT LOSING SESSIONS — NIFTY TURNS 'TECHNICALLY WEAK'",
+        "text": "Sensex fell Monday (77,708.52) → Tuesday (77,470, -238 pts) → Wednesday (76,755, -0.92%) as oil kept climbing and FIIs kept selling. Axis Bank and HDFC Bank both fell more than 5% Tuesday on Q1 earnings and capital-outflow pressure tied to the weaker rupee. Bajaj Broking flagged a bearish technical pattern — Nifty has slipped below its rising trendline."
       },
       {
         "color": "cyan",
-        "bold": "MARKETS CLOSE HAVING CLAWED BACK MOST OF THE MORNING'S LOSS",
-        "text": "Sensex closed -443 pts (0.57%) at 77,708.52, Nifty -96 pts (0.39%) at 24,238.50 — well off the day's low of -624 pts hit around 12:30 PM. PSU banks gained 2.78% even as private banks fell 2.27% (the session's worst performer). Broader market breadth stayed positive (2,141 advances vs 1,944 declines), and India VIX rose 2.1% to 13.43 — elevated but not panicked."
+        "bold": "CORRECTED: INDIAN DEATH TOLL IS 2, NAMED AND CONFIRMED",
+        "text": "Earlier updates carried an unverified range of 7-13 Indian deaths. The confirmed, named toll is 2: Heramb Karmarkar, a marine engineer killed when the GFS Galaxy was hit off Oman (Jul 12), and Rohan Kumar, killed in the Jul 14 attacks on the Mombasa B and Al Bahiyah. Pre-war Hormuz dependency is also now sourced precisely: 40% of India's crude, 60% of LNG, and 90% of LPG imports passed through the strait before Feb 28. India is reportedly pivoting further toward Russian crude to compensate."
       }
     ]
   },
   "deaths": "7,190+",
-  "deathsSub": "~3,680+ Iran (Iran govt reports 30+ more killed 'in recent days' — unverified), 2,730+ Lebanon, 99 Iraq, 27+ Israel, 3 US service members killed since Friday alone (17 cumulative per AP Jul 19 tally — reconcile pending), 50+ Gulf, 7+ India (reports up to 13 — tallies conflict). Blockade day 6; ceasefire effectively collapsed since last Wed per multiple outlets.",
+  "deathsSub": "~3,680+ Iran (Iran govt reports 30+ more killed 'in recent days' — unverified), 2,730+ Lebanon, 99 Iraq, 27+ Israel, 3 US service members since Jul 17 (cumulative US toll ~17-20, sources vary — reconciliation pending), 50+ Gulf, 2 India CONFIRMED & NAMED: Heramb Karmarkar (GFS Galaxy, Jul 12) and Rohan Kumar (Mombasa B/Al Bahiyah, Jul 14) — corrects earlier unverified 7-13 range carried in prior updates. Blockade day 9; new Houthi-Saudi front opened Jul 20.",
   "econ": {
-    "sensex": "77,708.52",
-    "sensexDelta": "MON JUL 20 CLOSE (3:30 PM): Sensex 77,708.52 (-443, -0.57%), Nifty 24,238.50 (-96, -0.39%) — clawed back from an intraday low of -624 pts (~12:30 PM) as Brent eased off its $91 spike. PSU banks +2.78%; private banks -2.27% (worst, HDFC Bank/Axis Bank/Maruti top losers). Midcap +0.6%, breadth positive (2,141 adv/1,944 decl). India VIX +2.1% to 13.43.",
-    "sensexSub": "Brent spiked to $91 intraday (war high) before easing to ~$88 on Iran's openness to mediated talks — first de-escalation signal since Wednesday. Still +35% vs pre-war $65. Rupee ~96.44-96.45. Support at Nifty 24,000/Sensex 77,000 held through the volatility.",
+    "sensex": "76,755.05",
+    "sensexDelta": "WED JUL 22 CLOSE: Sensex 76,755.05 (-0.92%), Nifty 23,996.25 (-0.79%) — 3rd straight losing session as Brent hit a 5-week high. TUE JUL 21 CLOSE: Sensex 77,470 (-238, -0.31%), Nifty ~24,150 — Axis Bank, HDFC Bank fell 5%+ on Q1 earnings + capital outflows. MON JUL 20 CLOSE: Sensex 77,708.52 (-0.57%), Nifty 24,238.50. Nifty has slipped below its rising trendline — Bajaj Broking calls the setup 'technically weak'.",
+    "sensexSub": "Brent $94.56 Thu AM — 5-week high, +45% vs pre-war $65, driven by an 11th straight night of US-Iran strikes plus the new Houthi blockade on Saudi Arabia. Rupee 96.52. Gold (22K) ₹13,430/gm. Petrol/Diesel/LPG unchanged: ₹111.21 / ₹97.83 / ₹941.50. FIIs continue selling; Q1 earnings season competing for market attention.",
     "vix": "~13.1 — EASING",
     "vixDelta": "-4.51% to 13.14 Wed open, ~-3% at close — volatility compressing despite blockade. Tue: 13.75 (+3.53%). Well below wartime 24-27; markets treating this as a contained maritime campaign, not full war.",
     "fpi": "-Rs 739.69 Cr",
@@ -50,10 +50,10 @@
     "analysis": "Equities are absorbing the blockade far better than the April original — Wednesday closed green despite Brent at $85 and daytime strikes. The stress has migrated to the currency and wholesale prices: rupee past 96 (first since May) with options pricing further downside, and WPI at 9.87%. Watch: rupee 96.50 resistance, Brent $86.36 (this morning's high), Nifty 24,000 support, OMC under-recovery at $86 Brent, and whether FII financial-sector buying survives the oil tape."
   },
   "hormuzStatus": {
-    "status": "BLOCKADE DAY 6, AFTERNOON: Iran disabled 2 tankers attempting unauthorised transit Monday; a vessel is burning off the Omani coast per UK military (cause unconfirmed). Kuwait and Jordan intercepted fresh Iranian missiles/drones. First de-escalation signal: Iran's FM says it received new mediator proposals; a 10-day ceasefire has been floated.",
+    "status": "BLOCKADE DAY 9: 11th consecutive night of US strikes Wednesday. Iran attacked a tanker in Hormuz early Tuesday. Meanwhile Yemen's Houthis opened an entirely new front, declaring a naval blockade on Saudi Arabia via Bab al-Mandeb — Iran had reportedly pressed them to do so if US strikes on Iranian energy infrastructure continued.",
     "preWarFlow": "~90-140 ships/day",
-    "currentFlow": "Just 9 vessel transits in the last 24 hours (MarineTraffic) — the lowest yet, down from ~13/day Sunday and ~110/day pre-war. GPS spoofing continues to distort ship positions region-wide.",
-    "reduction": "Brent touched $91 intraday (war high) before easing to ~$88 as diplomatic signals emerged — first pullback since Wednesday's escalation began. Still ~35% above the $65 pre-war baseline. Watch: whether the 10-day ceasefire mediators floated gains traction, or the 3rd US troop death in three days hardens Washington's position instead.",
+    "currentFlow": "Hormuz remains near-standstill (single-digit-to-low-teens daily transits vs ~110 pre-war). The NEW Red Sea front is arguably more consequential for Saudi exports: ships are already turning back (a Chinese VLCC executed a U-turn Tuesday), and a sustained closure could remove ~7% of global oil supply — the alternate route Saudi Arabia had been relying on since Hormuz stalled.",
+    "reduction": "Brent $94.56 Thursday morning — a 5-week high, +45% vs the $65 pre-war baseline. Rubio: any US-Iran deal must guarantee freedom of navigation through Hormuz and curb Iran's nuclear/missile programs. Caspian Pipeline Consortium (Black Sea) attacks add separate, compounding pressure on global energy markets this week.",
     "indianVesselsNear": 7,
     "indianSeafarers": 148,
     "indianTransited": 1,
@@ -1028,8 +1028,8 @@
     }
   ],
   "assessment": {
-    "headline": "DAY 142, 2:45 PM MON JUL 20: BRENT TOUCHED $91 (WAR HIGH), NOW EASING TO ~$88 AS IRAN SIGNALS OPENNESS TO MEDIATED TALKS — FIRST DE-ESCALATION SIGN SINCE WEDNESDAY. BUT A 3RD US TROOP HAS DIED IN 3 DAYS, IRAN DISABLED 2 TANKERS, AND HORMUZ TRAFFIC HIT ITS LOWEST YET AT JUST 9 SHIPS/24HRS. INDIAN MARKETS CLOSED DOWN BUT CLAWED BACK MOST OF A 624-POINT INTRADAY LOSS.",
-    "body": "Monday 2:45 PM IST. Day 142. Blockade day 6, afternoon update.\n\nSINCE THIS MORNING\n• Brent spiked above $91 intraday — a new war high — before easing to ~$88 after Iran's Foreign Ministry said it received fresh mediator proposals and that talks 'could continue' if serving Iran's interests. Mediators have floated a 10-day ceasefire; Washington is downplaying whether Trump accepts it.\n• Iran disabled two oil tankers Monday that attempted to transit Hormuz without its permission. The UK military separately reported a vessel burning off the Omani coast — cause not yet confirmed.\n• Kuwait intercepted hostile missiles/drones after two earlier Iranian attack waves Monday; Jordan downed three Iranian missiles. Iran claims (unconfirmed) it struck US aircraft at Jordan's Aqaba airport.\n• A third US service member has been killed since Friday. The dignified-transfer ceremony planned for Tuesday has been postponed. The US is surging air assets into the region — dozens of fuel tankers arriving in Israel.\n\nHORMUZ\n• Just 9 vessels transited in the last 24 hours (MarineTraffic) — the lowest figure of the war, down from ~13/day Sunday and a pre-war average near 110/day.\n\nMARKETS — CLOSED 3:30 PM\n• Sensex 77,708.52 (-443 pts, -0.57%); Nifty 24,238.50 (-96 pts, -0.39%) — both well off the day's low (Sensex -624 around 12:30 PM).\n• PSU banks +2.78%; private banks -2.27% (worst sector, HDFC Bank/Axis weighed). Midcap/smallcap positive; breadth stayed constructive at 2,141 advances vs 1,944 declines. India VIX +2.1% to 13.43 — elevated, not panicked.\n\nWATCHLIST\n• Whether the floated 10-day ceasefire gains real traction, or the third US troop death hardens Washington's posture instead — the next 24-48 hours likely decide which way oil moves next.\n• Q1 earnings season continues to compete with geopolitics for market attention this week.\n• Aug 1 domestic fuel/LPG revision remains the key India pocketbook date if Brent holds above $85."
+    "headline": "DAY 145, 8:00 AM THU JUL 23: BRENT AT A 5-WEEK HIGH ($94.56) AS THE US COMPLETES AN 11TH STRAIGHT NIGHT OF STRIKES AND YEMEN'S HOUTHIS OPEN A NEW FRONT — BLOCKADING SAUDI ARABIA VIA BAB AL-MANDEB. INDIAN MARKETS HAVE FALLEN FOR 3 STRAIGHT SESSIONS; NIFTY IS NOW TECHNICALLY WEAK. INDIAN SEAFARER TOLL CORRECTED TO 2 CONFIRMED, NAMED DEATHS.",
+    "body": "Thursday 8:00 AM IST. Day 145. Blockade day 9 — and a second front has opened.\n\nTHE BIG DEVELOPMENT: HOUTHIS BLOCKADE SAUDI ARABIA\n• Yemen's Houthis declared Monday a full naval embargo on Saudi Arabia through the Bab al-Mandeb strait, calling it 'an eye for an eye' for Saudi strikes on Yemen (including an airport hit that delayed a Houthi delegation's return from Iran's Supreme Leader's funeral).\n• Ships are already turning back — a Chinese VLCC (Xin Long Yang) U-turned in the Red Sea Tuesday. Reuters reports closure risk could remove ~7% of global oil supply; Saudi Arabia routes 70% of its exports through the Red Sea, which had been its workaround since Hormuz stalled.\n• Iran reportedly pressed the Houthis to take this step if US strikes on Iranian energy infrastructure continued — this widens the war well beyond the Gulf.\n\nHORMUZ / MILITARY\n• 11th consecutive night of US strikes Wednesday on Iranian military facilities. Iran attacked a tanker in Hormuz early Tuesday.\n• Rubio: Washington remains open to a diplomatic solution but says Iran has failed to honor prior commitments; any deal must guarantee Hormuz navigation and curb Iran's nuclear and missile programs.\n• Trump (Truth Social, Monday): 'Every time Iran kills an American soldier they will pay for that killing many times over' — signals hardening US posture even as mediators float a 10-day ceasefire.\n\nOIL\n• Brent: $88 (Mon PM) → $91 intraday (Tue) → $94.13 (Wed, +3.4%, highest since Jun 8) → $94.56 (Thu AM) — a 5-week high, +45% vs pre-war. Caspian Pipeline Consortium (Black Sea) attacks added separate pressure this week. EIA reported a surprise 1.4M-barrel US crude stock build.\n\nINDIA\n• CORRECTION: earlier updates carried an unverified 7-13 range for Indian deaths. The confirmed, named toll is 2 — Heramb Karmarkar (GFS Galaxy, Jul 12) and Rohan Kumar (Mombasa B/Al Bahiyah, Jul 14).\n• Pre-war Hormuz dependency, precisely sourced: 40% of crude, 60% of LNG, 90% of LPG imports. India is reportedly pivoting further toward Russian crude to compensate.\n• Markets: 3 straight losing sessions — Sensex 77,708.52 (Mon) → 77,470 (Tue, -238) → 76,755.05 (Wed, -0.92%). Nifty broke below its rising trendline (Bajaj Broking: 'technically weak'). Axis Bank and HDFC Bank both fell over 5% Tuesday on Q1 earnings plus capital-outflow pressure from the weaker rupee (96.52).\n\nWATCHLIST\n• Whether the Houthi blockade actually holds — early signs (ships turning back) suggest yes.\n• The floated 10-day ceasefire vs. Trump's hardening rhetoric.\n• Aug 1 domestic fuel/LPG revision — now higher-stakes with Brent above $94."
   },
   "featured": [
     {
@@ -1443,17 +1443,47 @@
       "rupee": 96.28,
       "tag": "9TH STRAIGHT NIGHT of US strikes begins; Iran launches new missile/drone waves at shipping. UKMTO: vessel ON FIRE off Oman near Hormuz. Iran alleges US struck the under-construction DARKHOVIN nuclear plant — Deputy FM warns of 'appropriate' response. Rubio: MOU can't stay alive amid violations. 17 US service members dead (AP). Markets closed.",
       "sev": 3
+    },
+    {
+      "d": 142,
+      "l": "Jul 20",
+      "deaths": 7190,
+      "brent": 88.0,
+      "nifty": 24238.5,
+      "rupee": 96.44,
+      "tag": "Brent spiked to $91 intraday (war high) then eased to ~$88 as Iran's FM signalled openness to mediated talks — first de-escalation hint since Wed. 3rd US service member killed in 3 days; Iran disabled 2 tankers attempting unauthorised Hormuz transit; vessel burning off Oman (UK military). Sensex closed 77,708.52 (-0.57%), Nifty 24,238.50 (-0.39%) — clawed back from a -624pt intraday low.",
+      "sev": 3
+    },
+    {
+      "d": 143,
+      "l": "Jul 21",
+      "deaths": 7190,
+      "brent": 91.33,
+      "nifty": 24150,
+      "rupee": 96.48,
+      "tag": "Iran attacked a tanker in Hormuz early Tuesday. Mediators presented Washington and Tehran a 10-day ceasefire proposal; ING: 'large divisions remain'. Trump (Truth Social): Iran 'will pay many times over' for US troop deaths. Sensex closed 77,470 (-238, -0.31%), Nifty ~24,150 — Axis Bank, HDFC Bank fell 5%+ on Q1 earnings + rupee-driven capital outflows.",
+      "sev": 3
+    },
+    {
+      "d": 144,
+      "l": "Jul 22",
+      "deaths": 7190,
+      "brent": 94.13,
+      "nifty": 23996.25,
+      "rupee": 96.52,
+      "tag": "NEW FRONT: Houthis' Saudi blockade takes hold — ships turning back in the Red Sea (Chinese VLCC Xin Long Yang U-turns). 11th consecutive night of US strikes; Brent surged 3.4% to $94.13, highest since Jun 8. Rubio: Iran failing to honor commitments; deal must guarantee Hormuz navigation. Caspian Pipeline Consortium (Black Sea) also attacked — adds separate pressure. Sensex closed 76,755.05 (-0.92%), Nifty 23,996.25 (-0.79%) — 3rd straight losing session; Nifty below rising trendline.",
+      "sev": 4
     }
   ],
   "exec": {
     "level": "HIGH",
-    "phase": "BLOCKADE DAY 6 — BRENT SPIKES TO $91, EASES TO ~$88",
-    "oilNote": "Touched $91 intraday (war high), now ~$88 on first de-escalation signal · still +35% vs pre-war",
-    "shipping": "9 SHIPS IN 24 HOURS — LOWEST YET",
-    "shippingSub": "vs ~110/day pre-war · Iran disabled 2 tankers Mon · vessel burning off Oman (UK military) · 10-day ceasefire floated by mediators",
-    "military": "3RD US TROOP DEATH IN 3 DAYS",
-    "militarySub": "Kuwait, Jordan intercept Iranian missiles/drones Mon. Iran claims Aqaba airport strikes (unconfirmed). War dead 7,190+ incl. 7+ Indians (reports up to 13)",
-    "indiaSub": "Sensex closed 77,708.52 (-0.57%), clawed back from -624 low · Nifty 24,238.50 · PSU banks +2.78%, private banks -2.27% · Rupee ~96.40"
+    "phase": "BLOCKADE DAY 9 — NEW HOUTHI FRONT ON SAUDI ARABIA",
+    "oilNote": "$94.56 — 5-week high · 11th straight strike night · +45% vs pre-war $65",
+    "shipping": "HOUTHIS BLOCKADE SAUDI ARABIA (NEW)",
+    "shippingSub": "Bab al-Mandeb closure threat could cut 7% of global oil supply; Saudi routes 70% of exports via Red Sea. Hormuz still near-standstill.",
+    "military": "11TH STRAIGHT NIGHT OF US STRIKES",
+    "militarySub": "Rubio: Iran failing to honor commitments; any deal must guarantee Hormuz navigation. Trump (Truth Social): Iran 'will pay many times over' for US troop deaths. War dead 7,190+ incl. 2 confirmed Indians (named; corrected from earlier unverified 7-13 range)",
+    "indiaSub": "3 straight losing sessions: Sensex 76,755 (-0.92% Wed) · Nifty 23,996 · Rupee 96.52 · Axis/HDFC Bank -5%+ Tue on earnings + outflows"
   },
   "hormuzPhases": [
     {
@@ -1497,7 +1527,7 @@
       "days": "Jul 11–"
     }
   ],
-  "_phaseBadge": "🔴 3RD US TROOP DEATH IN 3 DAYS · IRAN DISABLES 2 TANKERS · BRENT PARES $91 SPIKE TO ~$88",
+  "_phaseBadge": "🔴 BRENT $94.56 (5-WK HIGH) · HOUTHIS BLOCKADE SAUDI ARABIA — NEW FRONT OPENS",
   "budget": {
     "petrolPre": 94.72,
     "petrolNow": 111.21,
@@ -1507,11 +1537,11 @@
     "lpgNow": 942.0
   },
   "brief": [
-    "Day 142 of the West Asia war, 2:45 PM update. Overall risk to India right now: HIGH.",
-    "The big swing today: oil spiked to $91 a barrel — a new high for this war — then eased back to around $88 after Iran signalled it's open to more talks with mediators. That's the first hint of cooling since the fighting sharply worsened last Wednesday.",
-    "But the fighting itself got worse before that: a third American service member has died in three days, Iran disabled two oil tankers trying to cross the Hormuz strait without its permission, and a ship was reported burning off Oman. Only 9 ships crossed Hormuz in the last day — the lowest of the entire war, against roughly 110 a day before it started.",
-    "For Indians: no change to petrol (₹111.21/L) or LPG (₹942) today. The Sensex fell as much as 624 points this morning on the oil spike, but clawed back most of it to close down 443 points (77,708) as oil eased — a sign markets aren't panicking, just watching closely.",
-    "Bottom line: this is a fragile, fast-moving moment. Mediators have floated a 10-day ceasefire, but Washington isn't confident Trump will accept it. The next day or two likely decides whether oil keeps climbing or the war cools off."
+    "Day 145 of the West Asia war, 8:00 AM update. Overall risk to India right now: HIGH.",
+    "The big new development: Yemen's Houthi rebels have blockaded Saudi Arabia's shipping lane through the Red Sea — a second front beyond the Hormuz strait. Ships are already turning back. If it holds, this could remove as much as 7% of the world's oil supply, on top of the Hormuz disruption.",
+    "Oil has jumped to a 5-week high of $94.56 a barrel, up 45% from before the war, as the US completed an 11th straight night of strikes on Iran and this new Red Sea risk emerged.",
+    "Correction for Indian readers: earlier updates on this tracker cited an unverified range of 7-13 Indian deaths. The confirmed, named toll is 2 — Heramb Karmarkar and Rohan Kumar, both merchant seafarers killed in July 14 attacks. India's pre-war Hormuz dependency is 40% of its crude, 60% of its LNG, and 90% of its LPG imports; the government is reportedly buying more Russian crude to make up the gap.",
+    "Your money: petrol (₹111.21/L), diesel and LPG (₹941.50) are unchanged today, but with oil above $94, watch the August 1 price revision closely. Markets have now fallen for three straight sessions — Sensex closed Wednesday at 76,755, down 0.92% — as the rupee weakened to 96.52. No shortages, no panic, but this is a genuinely more dangerous phase of the war."
   ],
-  "shareLine": "Brent hit $91 — a new war high — then eased to $88 as Iran hints at talks. But a 3rd US soldier died in 3 days and Hormuz traffic just hit its lowest ever: 9 ships in 24 hours."
+  "shareLine": "A new front just opened: Houthis blockade Saudi Arabia's Red Sea route as Brent hits a 5-week high of $94.56. Indian markets fall for a 3rd straight day."
 }
