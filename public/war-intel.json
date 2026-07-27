@@ -1,47 +1,47 @@
 {
-  "_updated": "July 24, 2026 — 10:15 AM IST",
-  "_day": 146,
-  "_phase": "ESCALATION",
+  "_updated": "July 27, 2026 — 1:45 PM IST",
+  "_day": 149,
+  "_phase": "FRAGILE LULL",
   "_note": "Verified: NPR, CNN, CBS, Fox News, The Hill, Washington Times (Jul 15-16), CENTCOM statements, HDFC Sky, Business Standard (Jul 14-15 closes), TradingEconomics, Investing.com (Brent live Jul 16), Zee Business",
   "ticker": [
-    "🔴 DAY 146 FRI 10:15 AM IST: BRENT crossed $100 Thursday (intraday high $102.01) for the first time in 2 months, still hovering ~$100 Friday — up 13%+ this week. Houthis claimed strikes on 2 SAUDI OIL TANKERS in the Bab al-Mandeb enforcing their blockade.",
-    "🇺🇸 TRUMP: threatens 'major military punishment' for further Red Sea shipping attacks; tells Axios he's considering a 'MASSIVE ATTACK' on Iran. 3rd US death named: Sgt. Angel Rampersad, 28, killed Jul 17 at Muwaffaq Salti Air Base, Jordan.",
-    "🌍 SUPPLY SHOCK STACKING: Kazakhstan SUSPENDED Caspian Pipeline Consortium exports after Black Sea drone attacks. INDIAN STATE REFINERS suspended Iraqi crude loadings over Hormuz shipping risk — first direct hit to India's own import operations, not just prices.",
-    "📉 4TH STRAIGHT LOSING SESSION: Nifty closed Thu below 24,000 for the first time since mid-June — 23,869 (-0.53%); Sensex 76,391 (-0.47%). Bajaj Broking: 'corrective trend', key support 23,750-23,800. Rupee ~96.6. Gift Nifty flat Fri AM — range-bound open expected.",
-    "🛢 OPEC+ reportedly considering raising Sept output quotas by ~188,000 bpd at its Aug 2 meeting — a possible supply-side offset, though unlikely to matter near-term.",
-    "🇮🇳 Petrol/diesel/LPG still unchanged (₹111.21/₹97.83/₹941.50) — but with Brent above $100, the Aug 1 OMC revision is now near-certain to move, not just a watch item."
+    "🟡 DAY 149 MON 1:45 PM IST: US and Iran have PAUSED direct strikes for 2 nights running (since Fri) — first quiet stretch since Jul 11's 13 consecutive strike nights. Mediators reportedly still talking; UN envoy Waltz says Trump giving talks 'some space'.",
+    "📉 BRENT TUMBLES ~6% to $85.82 intraday low Monday (from $91.68 Fri close, and down sharply from last week's $102 peak) — biggest relief move of the war so far, purely on the strike pause, not on any resolved dispute.",
+    "🇾🇪 BUT THE RED SEA FRONT STAYS HOT: Houthis fired missiles/drones at Saudi Aramco facilities in Yanbu and Jizan Saturday, retaliating for Saudi strikes on Hodeida. Houthi leadership: blockade continues until Saudi 'aggression' ends — 'otherwise it's all illusion and mirage'.",
+    "🇮🇳 MARKETS SNAP 5-DAY LOSING STREAK: Sensex +550pts to 76,609 (Mon open, from Fri's 76,059.77), Nifty +161 to 23,928 — best single-session move in weeks, purely on the oil relief. Friday was the worst week since early January (Sensex -2,091pts/-2.7%, Nifty -567pts/-2.33%).",
+    "🌐 Iran-Oman held talks on strait management (per Iranian FM) — but Hormuz TRAFFIC REMAINS UNCHANGED despite the diplomatic contact. US gasoline hit $4.11/gal (AAA) over the weekend, +38% since war began.",
+    "⚠ CAUTION: this is a pause, not a ceasefire — Hormuz is still effectively closed, the US naval blockade on Iran continues, and the Houthi-Saudi exchange shows the war's newest front is still escalating even while the original one goes quiet."
   ],
   "whatChanged": {
-    "label": "WHAT CHANGED — JULY 24, 10:15 AM IST (DAY 146) — SINCE THU 8:00 AM",
+    "label": "WHAT CHANGED — JULY 27, 1:45 PM IST (DAY 149) — SINCE FRI 10:15 AM",
     "items": [
       {
-        "color": "red",
-        "bold": "BRENT BREAKS $100 — HOUTHIS STRIKE SAUDI TANKERS DIRECTLY",
-        "text": "Oil surged past $100 a barrel Thursday for the first time in two months — up as much as 7% intraday to a $102.01 high — after Houthi militants claimed responsibility for striking two Saudi oil tankers in the Bab al-Mandeb Strait, enforcing the blockade they declared Monday. Brent is still hovering near $100 Friday morning, up more than 13% for the week alone and roughly 55% above the pre-war baseline."
+        "color": "green",
+        "bold": "US-IRAN STRIKES PAUSE — FIRST QUIET STRETCH SINCE JULY 11",
+        "text": "After 13 consecutive nights of US air strikes beginning July 11, both sides have gone quiet for two nights running since Friday. UN special envoy Mike Waltz said Trump is giving mediated talks 'some space'. This is the first real lull of the blockade era — but Hormuz itself remains effectively closed and the US naval blockade on Iranian ports continues; nothing has been resolved, only paused."
       },
       {
-        "color": "red",
-        "bold": "TRUMP THREATENS 'MASSIVE ATTACK' ON IRAN",
-        "text": "President Trump warned of 'major military punishment' for any further Red Sea shipping attacks and told Axios he is considering a 'massive attack' on Iran — a sharp rhetorical escalation. The third American service member killed in the war has now been named: Sgt. Angel Rampersad, 28, of Ozone Park, New York, killed July 17 in an attack at Muwaffaq Salti Air Base in Jordan."
+        "color": "green",
+        "bold": "OIL RELIEF RALLY: BRENT FALLS ~6% AS STRIKES PAUSE",
+        "text": "Brent tumbled from last week's $102 peak to an intraday low of $85.82 Monday (down from Friday's $91.68 close) — the sharpest single-session relief move of the war, driven purely by the strike pause rather than any resolved dispute. Indian markets rallied in response: Sensex +550pts, Nifty +161pts at the open, snapping a five-day, worst-week-since-January losing streak (Sensex -2,091pts/-2.7% for the week, Nifty -567pts/-2.33%)."
       },
       {
         "color": "orange",
-        "bold": "SUPPLY SHOCKS NOW STACKING ACROSS THREE CONTINENTS",
-        "text": "Beyond Hormuz and the Red Sea, Kazakhstan suspended crude exports through the Caspian Pipeline Consortium terminal after drone attacks on the Black Sea coast, and Indian state refiners have suspended Iraqi crude loadings because of Hormuz shipping risk — a direct operational hit to India's own import pipeline, not just a price effect. Russian fuel exports also remain constrained by ongoing Ukrainian drone strikes on refineries."
+        "bold": "BUT THE RED SEA FRONT IS STILL ACTIVE",
+        "text": "Even as the US-Iran exchange paused, Houthi forces fired missiles and drones at two Saudi Aramco facilities (Yanbu and Jizan) on Saturday, retaliating for Saudi airstrikes on the Yemeni city of Hodeida. Houthi leadership says the blockade on Saudi Arabia continues until Saudi 'aggression' ends. This front shows no sign of the same de-escalation seen at Hormuz."
       },
       {
         "color": "cyan",
-        "bold": "NIFTY BREAKS BELOW 24,000 — 4TH STRAIGHT LOSING SESSION",
-        "text": "Nifty closed Thursday at 23,869 (-0.53%), below the psychological 24,000 mark for the first time since mid-June; Sensex fell to 76,391 (-0.47%). Bajaj Broking Research flagged a 'high-wave candlestick' pattern with the index testing key support at 23,750-23,800. Gift Nifty was flat Friday morning, pointing to a range-bound, cautious open."
+        "bold": "DIPLOMATIC CONTACT, NO CHANGE ON THE GROUND",
+        "text": "Iran and Oman reportedly held talks on managing the strait, per Iran's Foreign Ministry — but Hormuz traffic remains unchanged despite the contact. US gasoline prices hit $4.11/gallon over the weekend (AAA), up 38% since the war began in February, showing the fuel-cost pass-through hasn't reversed even as crude eases."
       }
     ]
   },
   "deaths": "7,190+",
-  "deathsSub": "~3,680+ Iran (Iran govt reports 30+ more killed 'in recent days' — unverified), 2,730+ Lebanon, 99 Iraq, 27+ Israel, 3 US service members named/confirmed (incl. Sgt. Angel Rampersad, 28, killed Jul 17, Muwaffaq Salti Air Base, Jordan; cumulative broader US toll ~17-20 across sources — reconciliation pending), 50+ Gulf, 2 India CONFIRMED & NAMED: Heramb Karmarkar (GFS Galaxy, Jul 12) and Rohan Kumar (Mombasa B/Al Bahiyah, Jul 14). Blockade day 10; Red Sea front now live with direct tanker strikes, not just threats.",
+  "deathsSub": "~3,680+ Iran (Iran govt reports 30+ more killed 'in recent days' — unverified), 2,730+ Lebanon, 99 Iraq, 27+ Israel, 3 US service members named/confirmed (incl. Sgt. Angel Rampersad, 28, Jul 17, Jordan), 50+ Gulf, 2 India CONFIRMED & NAMED: Heramb Karmarkar (GFS Galaxy, Jul 12) and Rohan Kumar (Mombasa B/Al Bahiyah, Jul 14). US-Iran strikes paused since Jul 25; Houthi-Saudi front remains active.",
   "econ": {
-    "sensex": "76,391.00",
-    "sensexDelta": "THU JUL 23 CLOSE: Sensex 76,391 (-0.47%), Nifty 23,869 (-0.53%) — 4th straight losing session; Nifty closed below 24,000 for the first time since mid-June. Bajaj Broking: high-wave candlestick, corrective trend intact, key support 23,750-23,800 (50-DMA confluence); a close below risks a slide to 23,500. WED JUL 22 CLOSE: Sensex 76,755.05 (-0.92%), Nifty 23,996.25 (-0.79%). FRI JUL 24 AM: Gift Nifty flat at 23,873 — range-bound, cautious open expected; European markets traded lower overnight.",
-    "sensexSub": "Brent broke $100 Thursday (intraday high $102.01) — first time in 2 months — after Houthis struck 2 Saudi tankers enforcing their blockade; still ~$100 Friday AM, +13% this week, +55% vs pre-war. WTI ~$91. Rupee ~96.6. Gold (22K) ~₹13,430/gm. Petrol/Diesel/LPG unchanged: ₹111.21/₹97.83/₹941.50. FIIs continue selling; Q1 earnings competing for attention alongside the oil shock.",
+    "sensex": "76,609",
+    "sensexDelta": "MON JUL 27, MARKET OPEN: Sensex +549 (+0.72%) to 76,608.98, Nifty +161 (+0.68%) to 23,928.40 — snapping a 5-day losing streak on the oil relief rally. Nearly all Nifty50 stocks traded higher; IT, financials, media, FMCG led. FRI JUL 24 CLOSE: Sensex 76,059.77 (-331.62, -0.43%), Nifty 23,767.45 (-102.15, -0.43%) — 5th straight loss, worst week since early January (Sensex -2,091pts/-2.7%, Nifty -567pts/-2.33% for the week).",
+    "sensexSub": "Brent fell ~6% to an $85.82 intraday low Monday (Fri close $91.68) as US-Iran strikes paused for a 2nd night — down sharply from last week's $102 peak, still +32% vs pre-war $65. Rupee ~96.5. FIIs sold ₹3,893cr Fri; DIIs bought ₹5,454cr. Petrol/Diesel/LPG unchanged: ₹111.21/₹97.83/₹941.50 — Aug 1 revision still likely given Brent's fortnight above $85-100.",
     "vix": "~13.1 — EASING",
     "vixDelta": "-4.51% to 13.14 Wed open, ~-3% at close — volatility compressing despite blockade. Tue: 13.75 (+3.53%). Well below wartime 24-27; markets treating this as a contained maritime campaign, not full war.",
     "fpi": "-Rs 739.69 Cr",
@@ -50,10 +50,10 @@
     "analysis": "Equities are absorbing the blockade far better than the April original — Wednesday closed green despite Brent at $85 and daytime strikes. The stress has migrated to the currency and wholesale prices: rupee past 96 (first since May) with options pricing further downside, and WPI at 9.87%. Watch: rupee 96.50 resistance, Brent $86.36 (this morning's high), Nifty 24,000 support, OMC under-recovery at $86 Brent, and whether FII financial-sector buying survives the oil tape."
   },
   "hormuzStatus": {
-    "status": "Hormuz remains near-standstill, but the more urgent development is the Red Sea: Houthis claimed direct strikes on two Saudi oil tankers Thursday, actively enforcing the naval blockade on Saudi Arabia they declared Monday — moving from threat to execution.",
+    "status": "A fragile lull: US and Iran have not struck each other for two nights running, the first pause since 13 consecutive strike nights began July 11. Iran and Oman reportedly held talks on strait management. But this is a pause in hostilities, not a resolution — Hormuz remains effectively closed and the US naval blockade on Iranian ports continues unchanged.",
     "preWarFlow": "~90-140 ships/day",
-    "currentFlow": "Both of India's main energy corridors are now compromised: Hormuz transits remain near historic lows, and Indian state refiners have separately suspended Iraqi crude loadings due to Hormuz shipping risk — an operational, not just financial, disruption to India's supply chain.",
-    "reduction": "Brent broke $100 Thursday (high $102.01) for the first time in 2 months, still near $100 Friday, +13% this week alone. Trump has threatened 'major military punishment' for further Red Sea attacks and says he's considering a 'massive attack' on Iran. OPEC+ may raise Sept quotas by ~188,000 bpd (Aug 2 meeting) as a partial offset, but unlikely to matter near-term. Kazakhstan's CPC terminal suspension and constrained Russian refinery exports add further global tightness beyond the Iran war itself.",
+    "currentFlow": "Hormuz traffic remains unchanged despite the Iran-Oman diplomatic contact — no reopening yet. Separately, Bab al-Mandeb stays actively contested: Houthi forces struck two Saudi Aramco facilities (Yanbu, Jizan) Saturday, and Houthi leadership says the Saudi blockade continues until Riyadh's 'aggression' ends.",
+    "reduction": "Brent fell as much as 6% Monday to an $85.82 intraday low — down sharply from last week's $102 peak — purely on relief that direct US-Iran strikes have paused, not because any underlying dispute (Hormuz closure, the blockade, the Houthi front) has actually been resolved. US retail gasoline still hit a war-high $4.11/gallon over the weekend. Markets are pricing a de-escalation that hasn't yet been confirmed as durable.",
     "indianVesselsNear": 7,
     "indianSeafarers": 148,
     "indianTransited": 1,
@@ -1028,8 +1028,8 @@
     }
   ],
   "assessment": {
-    "headline": "DAY 146, 10:15 AM FRI JUL 24: BRENT TOPPED $100 THURSDAY — FIRST TIME IN 2 MONTHS — AFTER HOUTHIS STRUCK 2 SAUDI OIL TANKERS ENFORCING THEIR BLOCKADE. TRUMP THREATENS A 'MASSIVE ATTACK' ON IRAN. INDIAN REFINERS HAVE SUSPENDED IRAQI CRUDE LOADINGS OVER HORMUZ RISK. NIFTY CLOSED BELOW 24,000 FOR THE FIRST TIME SINCE MID-JUNE.",
-    "body": "Friday 10:15 AM IST. Day 146. Oil shock now compounding across three fronts.\n\nOIL: THE BIG STORY\n• Brent broke $100 a barrel Thursday for the first time since May — surging as much as 7% intraday to a $102.01 high — after Houthi militants claimed strikes on two Saudi oil tankers in the Bab al-Mandeb Strait, actively enforcing the blockade on Saudi Arabia they declared Monday. Still near $100 Friday morning, up 13%+ for the week, ~55% above the $65 pre-war baseline. WTI near $91.\n• Trump warned of 'major military punishment' for further Red Sea shipping attacks and told Axios he is considering a 'massive attack' on Iran — the sharpest rhetorical escalation since the blockade began.\n\nSUPPLY SHOCKS STACKING\n• Kazakhstan suspended Caspian Pipeline Consortium exports after Black Sea drone attacks.\n• Indian state refiners have suspended Iraqi crude loadings because of Hormuz shipping risk — this is now a direct operational disruption to India's own supply chain, not merely a price pass-through.\n• Russian fuel exports remain constrained by continuing Ukrainian drone strikes on refineries.\n• OPEC+ may raise September quotas by ~188,000 bpd at its Aug 2 meeting — a modest potential offset.\n\nMILITARY\n• The third American service member killed in the war is now named: Sgt. Angel Rampersad, 28, of Ozone Park, NY — killed July 17 at Muwaffaq Salti Air Base, Jordan.\n\nINDIA / MARKETS\n• Nifty closed Thursday at 23,869 (-0.53%), below 24,000 for the first time since mid-June; Sensex 76,391 (-0.47%) — a 4th consecutive losing session. Bajaj Broking flags a bearish 'high-wave candlestick' with key support at 23,750-23,800; a close below that could open a path to 23,500.\n• Gift Nifty was flat Friday morning — a range-bound, cautious open expected. Rupee ~96.6.\n• Petrol (₹111.21), diesel (₹97.83) and LPG (₹941.50) remain unchanged, but with Brent above $100 the August 1 OMC revision is now near-certain to move rather than merely a risk to watch.\n\nWATCHLIST\n• Whether Trump follows through on strike threats against Iran or the Houthis — either would likely push Brent further.\n• Whether the 23,750-23,800 Nifty support holds.\n• Any sign of the Aug 2 OPEC+ decision providing real relief."
+    "headline": "DAY 149, 1:45 PM MON JUL 27: US AND IRAN HAVE PAUSED DIRECT STRIKES FOR THE FIRST TIME SINCE JULY 11 — BRENT FELL ~6% TO $85.82 ON THE RELIEF, AND INDIAN MARKETS SNAPPED A FIVE-DAY LOSING STREAK. BUT HORMUZ REMAINS CLOSED, THE US BLOCKADE ON IRAN CONTINUES, AND THE HOUTHI-SAUDI RED SEA FRONT IS STILL ACTIVELY ESCALATING — THIS IS A LULL, NOT A DE-ESCALATION.",
+    "body": "Monday 1:45 PM IST. Day 149. The first real pause of the blockade era — but only a pause.\n\nTHE LULL\n• US and Iran have not struck each other directly for two nights running, since Friday — the first quiet stretch since 13 consecutive nights of US strikes began July 11.\n• UN special envoy Mike Waltz said Trump is giving mediated talks 'some space'. Iran and Oman reportedly held talks on managing the strait.\n• Important caveat: nothing has actually changed on the ground. Hormuz remains effectively closed, the US naval blockade on Iranian ports continues, and Hormuz traffic is unchanged despite the diplomatic contact.\n\nOIL AND MARKETS REACT SHARPLY\n• Brent fell as much as 6% Monday to an $85.82 intraday low (Friday close: $91.68) — down sharply from last week's $102 peak. This is a relief move on the strike pause, not a reaction to any resolved dispute.\n• Indian markets rallied hard: Sensex opened +550pts at 76,609, Nifty +161pts at 23,928 — snapping a five-day losing streak that had made last week the worst since early January (Sensex -2,091pts/-2.7%, Nifty -567pts/-2.33% for the week). Nifty IT, financials, media and FMCG led Monday's gains; nearly all Nifty50 constituents traded higher.\n\nBUT THE RED SEA FRONT IS STILL LIVE\n• Even as US-Iran went quiet, Houthi forces fired missiles and drones at two Saudi Aramco facilities in Yanbu and Jizan on Saturday, retaliating for Saudi airstrikes on the Yemeni city of Hodeida.\n• Houthi leadership says their blockade on Saudi Arabia continues until Saudi 'aggression' ends — 'otherwise it's all illusion and mirage'. This front shows no sign of following Hormuz into a lull.\n• US retail gasoline hit $4.11/gallon over the weekend (AAA) — up 38% since the war began — showing pump prices haven't reversed even as crude has eased.\n\nWATCHLIST\n• Whether the US-Iran pause holds into a third, fourth night, or whether this is simply a lull between strike waves as seen earlier in the war.\n• Whether the Houthi-Saudi exchange escalates further and drags oil back toward $100.\n• The Aug 1 domestic fuel/LPG revision — still likely given where Brent has spent most of the past two weeks, even after today's pullback.\n• Whether Iran-Oman contact on the strait produces any actual change in shipping activity, which so far it has not."
   },
   "featured": [
     {
@@ -1483,17 +1483,47 @@
       "rupee": 96.6,
       "tag": "11th night of US strikes' aftermath: Brent surged as much as 4.9% to above $95 (first time in ~6 weeks) as US officials downplayed new peace talks and 2 of the world's key oil routes faced disruption simultaneously (Hormuz + Bab al-Mandeb). Named: 3rd US death Sgt. Angel Rampersad (Jul 17, Jordan). 5 tankers changed course in the Red Sea after Houthi warnings to avoid Saudi ports. Markets: 4th straight losing session — Sensex 76,391 (-0.47%), Nifty 23,869 (-0.53%), first close below 24,000 since mid-June.",
       "sev": 4
+    },
+    {
+      "d": 146,
+      "l": "Jul 24",
+      "deaths": 7190,
+      "brent": 91.68,
+      "nifty": 23767.45,
+      "rupee": 96.57,
+      "tag": "5TH STRAIGHT LOSING SESSION — worst week since early January. Brent crossed $100 intraday (high $102.01) after Houthis struck 2 Saudi tankers; eased to close ~$91.68. Trump threatens 'major military punishment', considers 'massive attack' on Iran. Sensex closed 76,059.77 (-331.62, -0.43%), Nifty 23,767.45 (-102.15, -0.43%) — weekly loss Sensex -2,091pts/-2.7%, Nifty -567pts/-2.33%. FIIs sold ₹3,893cr; DIIs bought ₹5,454cr.",
+      "sev": 4
+    },
+    {
+      "d": 147,
+      "l": "Jul 25",
+      "deaths": 7190,
+      "brent": 91.68,
+      "nifty": 23767.45,
+      "rupee": 96.57,
+      "tag": "WEEKEND: Houthi forces fired missiles and drones at 2 Saudi Aramco facilities in Yanbu and Jizan, retaliating for Saudi airstrikes on Hodeida. Houthi Supreme Political Council: blockade continues until Saudi 'aggression' ends. No new US strikes on Iran reported — quiet for a first night since Jul 11's 13-night campaign began. Markets closed.",
+      "sev": 3
+    },
+    {
+      "d": 148,
+      "l": "Jul 26",
+      "deaths": 7190,
+      "brent": 91.68,
+      "nifty": 23767.45,
+      "rupee": 96.57,
+      "tag": "Second quiet night running — no US strikes on Iran since Friday. UN envoy Waltz: Trump giving mediated talks 'some space'. Iran-Oman talks reported on strait management, but Hormuz traffic unchanged. US gasoline hit $4.11/gal (AAA), +38% since war began. Markets closed.",
+      "sev": 3
     }
   ],
   "exec": {
     "level": "HIGH",
-    "phase": "OIL SHOCK — BRENT ABOVE $100, NEW RED SEA STRIKES",
-    "oilNote": "~$100 (5-day rally, 2-month high) — Houthis hit 2 Saudi tankers · +55% vs pre-war $65",
-    "shipping": "HOUTHIS STRIKE SAUDI TANKERS DIRECTLY",
-    "shippingSub": "Bab al-Mandeb blockade now enforced with attacks, not just threats. India's own refiners have suspended Iraqi crude loadings over Hormuz risk.",
-    "military": "TRUMP THREATENS 'MASSIVE ATTACK' ON IRAN",
-    "militarySub": "3rd US death named: Sgt. Angel Rampersad, 28 (Jul 17, Jordan). War dead 7,190+ incl. 2 confirmed, named Indians.",
-    "indiaSub": "Nifty below 24,000 (23,869, -0.53%) — 4th straight losing session · Sensex 76,391 · Rupee ~96.6 · Aug 1 fuel revision now near-certain"
+    "phase": "FRAGILE LULL — STRIKES PAUSED, RED SEA FRONT STILL LIVE",
+    "oilNote": "Fell ~6% to $85.82 intraday (from $102 peak last week) on the strike pause · still +32% vs pre-war",
+    "shipping": "HORMUZ TRAFFIC UNCHANGED DESPITE IRAN-OMAN TALKS",
+    "shippingSub": "Bab al-Mandeb still blockaded — Houthis struck 2 Saudi Aramco facilities Sat, retaliating for Saudi strikes on Hodeida",
+    "military": "US-IRAN STRIKES PAUSED 2 NIGHTS RUNNING",
+    "militarySub": "First lull since 13 consecutive strike nights began Jul 11. Waltz: Trump giving talks 'some space'. War dead 7,190+ incl. 2 confirmed, named Indians",
+    "indiaSub": "Markets snap 5-day losing streak: Sensex +550pts to 76,609, Nifty +161 to 23,928 (Mon open) · Rupee ~96.5 · Last week was worst since early Jan"
   },
   "hormuzPhases": [
     {
@@ -1537,7 +1567,7 @@
       "days": "Jul 11–"
     }
   ],
-  "_phaseBadge": "🔴 BRENT TOPS $100 — HOUTHIS STRIKE 2 SAUDI TANKERS · TRUMP THREATENS 'MASSIVE ATTACK' ON IRAN",
+  "_phaseBadge": "🟡 US-IRAN STRIKES PAUSE, BRENT FALLS 6% TO ~$86-93 · HOUTHI-SAUDI FRONT STILL LIVE",
   "budget": {
     "petrolPre": 94.72,
     "petrolNow": 111.21,
@@ -1547,11 +1577,11 @@
     "lpgNow": 942.0
   },
   "brief": [
-    "Day 146 of the West Asia war, 10:15 AM update. Overall risk to India right now: HIGH — this is now the most dangerous point of the war for oil markets.",
-    "The big story: oil crossed $100 a barrel on Thursday for the first time in two months, after Yemen's Houthi rebels claimed direct strikes on two Saudi oil tankers — actively enforcing the blockade they announced this week, not just threatening it. Oil is still near $100 this morning, up over 13% in a single week.",
-    "President Trump has warned of 'major military punishment' for further Red Sea attacks and says he's considering a 'massive attack' on Iran — sharply escalating the rhetoric. The third American soldier killed in this war has now been named: Sgt. Angel Rampersad, 28, from New York.",
-    "New and important for India: it's not just prices rising anymore. Indian state oil refiners have themselves suspended Iraqi crude shipments because of the risk in the Strait of Hormuz — a direct hit to India's supply chain, on top of the price shock. Kazakhstan and Russia are also facing separate export disruptions, so this is now a genuinely global supply squeeze, not only a Gulf story.",
-    "Your money: petrol, diesel and LPG prices are unchanged again today, but with oil above $100 the August 1 government price revision is now very likely to happen, not just a risk to watch. Markets have fallen for four straight days — the Nifty closed below 24,000 for the first time since mid-June. No panic, no shortages yet, but this is the sharpest escalation since the war restarted."
+    "Day 149 of the West Asia war, 1:45 PM update. Overall risk to India right now: HIGH, but easing for the moment.",
+    "The big change: the US and Iran have paused direct strikes on each other for two nights running — the first real quiet stretch since 13 consecutive nights of US attacks began on July 11. Oil reacted fast: Brent fell about 6% to under $86 a barrel on Monday, down sharply from last week's $102 peak.",
+    "Indian markets cheered the relief — the Sensex jumped over 500 points and the Nifty gained 160+ at the open, snapping five straight days of losses that had made last week the worst since early January.",
+    "But don't read this as the war ending. The Strait of Hormuz is still effectively closed and the US naval blockade on Iran continues unchanged. And a newer front is still hot: Houthi rebels in Yemen fired missiles and drones at two Saudi oil facilities over the weekend, and say their blockade on Saudi Arabia continues until Saudi strikes on Yemen stop.",
+    "Your money: petrol, diesel and LPG are unchanged again today, and even with oil's pullback, the August 1 government price revision is still likely given how high oil has been these past two weeks. Bottom line: a welcome pause, not a peace — one front has gone quiet while another stays active."
   ],
-  "shareLine": "Brent just broke $100 for the first time in 2 months as Houthis strike Saudi tankers directly and Trump threatens a 'massive attack' on Iran. Indian refiners have already suspended Iraqi crude loadings."
+  "shareLine": "US-Iran strikes just paused for the first time since July 11 — Brent fell 6%, Indian markets snapped a 5-day slide. But Hormuz is still closed and Houthis just hit Saudi oil facilities. A lull, not an end."
 }
