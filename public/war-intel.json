@@ -1,47 +1,47 @@
 {
-  "_updated": "July 29, 2026 — 10:00 PM IST",
-  "_day": 151,
-  "_phase": "ESCALATION — PAUSE OVER",
+  "_updated": "July 31, 2026 — 11:00 AM IST",
+  "_day": 153,
+  "_phase": "ESCALATION — WAR WIDENS TO EGYPT",
   "_note": "Verified: NPR, CNN, CBS, Fox News, The Hill, Washington Times (Jul 15-16), CENTCOM statements, HDFC Sky, Business Standard (Jul 14-15 closes), TradingEconomics, Investing.com (Brent live Jul 16), Zee Business",
   "ticker": [
-    "🔴 DAY 151 WED 10:00 PM IST: THE PAUSE IS OVER. US launched a 'heavy wave' of strikes on Iran late Wednesday — dozens of IRGC targets hit (command centres, maritime capabilities, missile/drone facilities, coastal defences) — retaliating for Tuesday night's Iranian missile attack on a US base in Jordan.",
-    "☠ Iran reports 3 CIVILIANS KILLED incl. a couple and their 2-year-old child in the new strikes. Kuwait: an Iranian strike hit a Chinese company building, killing 1 worker. This morning's 'thwarted attack' this dashboard reported was the spark — 5 missiles at Muwaffaq Salti Air Base, all intercepted, but it shattered the 5-day pause.",
-    "🗣 TRUMP (Wed): 'We're going to be hitting them very hard because it's our turn... They know it's coming. They're asking us not to do it.' Claims Iran called the missile launch 'a mistake' and asked the US not to retaliate — Iran has not confirmed this.",
-    "🌍 IRAQ FRONT WIDENS: US-Saudi strikes on Iran-backed militias (PMF) in Iraq killed 20+, including 6 Iranian pilgrims (PMF says); militias give Baghdad until Aug 7 to respond, threaten Saudi Arabia. Iran-allied militias separately launched drones at Saudi oil facilities in Riyadh and Eastern Province.",
-    "🛢 BRENT closed +7.9% at $90.74 (WTI +6.6% to $84.46) — erasing most of Monday-Tuesday's relief rally in a single session. TD Securities: 'markets jumped the gun on hopes of renewed peace.'",
-    "📈 MARKETS (closed before the news broke): Sensex +888.68 (+1.16%) to 77,654.60, Nifty +264.85 (+1.10%) to 24,250.20 — IT led. But Gift Nifty already down ~65pts pointing to a weak Thursday open once the resumed strikes are priced in."
+    "🔴 DAY 153 FRI 11:00 AM IST: THE WAR HAS WIDENED TO EGYPT — a drone hit 2 natural-gas vessels at Damietta Port on the Suez coast, the first time Egyptian infrastructure has been struck; if deliberate, a major expansion into Mediterranean energy infrastructure. Port says operations continue 'at full efficiency'.",
+    "☠ QESHM ISLAND STRIKE: Iranian state media (IRIB) reported 3 killed, 2 wounded when US missiles hit a residential home; 2 children rescued from rubble, search continuing for 3 more family members. Jordan shot down 5 Iranian missiles Wed night.",
+    "🗣 IRGC (Thu): vows to 'punish the aggressor today', warns nations aiding the US will get a 'harsh response', claims 'full control' of Hormuz — 'a stranger who has come from thousands of kilometres away will not be allowed to interfere'. Strait 'will remain closed as long as US threats continue'.",
+    "🇸🇦 Saudi Arabia is leading a proposed 14-NATION MARITIME COALITION to secure the Red Sea and Bab al-Mandeb. Saudi defense minister met Trump: MBS's assessment is Iran will keep using Iraqi militias and the Houthis for leverage; Riyadh wants de-escalation but will respond if attacked again (as it did Tue).",
+    "🛢 BRENT WHIPSAWED AGAIN: touched $93.31 intraday Thursday on the fresh strikes, then settled -1.88% at $89.03 as a Saudi-led maritime coalition proposal eased nerves. Oil is still up ~17% for the month of July alone.",
+    "📈 MARKETS RALLYING DESPITE THE WAR: Sensex opened +70pts to 77,998.66, Nifty +44pts to 24,361.45 Friday — set for a 4-month high monthly close above 24,000, on a global risk-on mood (Wall St +1-3%) and easing oil. FIIs bought ₹3,624cr for a 3rd straight session. Petrol/diesel/LPG unchanged (₹111.21/₹97.83/₹941.50)."
   ],
   "whatChanged": {
-    "label": "WHAT CHANGED — JULY 29, 10:00 PM IST (DAY 151) — THE LULL ENDED TONIGHT",
+    "label": "WHAT CHANGED — JULY 31, 11:00 AM IST (DAY 153) — SINCE WED 10:00 PM",
     "items": [
       {
         "color": "red",
-        "bold": "THE 5-DAY PAUSE IS OVER — US LAUNCHES A 'HEAVY WAVE' OF STRIKES",
-        "text": "Hours after this morning's update reported Iran's 'thwarted' missile attack on a US base in Jordan, that attack proved to be the spark that ended the ceasefire entirely. Trump vowed retaliation Wednesday afternoon — 'we're going to be hitting them very hard because it's our turn' — and CENTCOM launched a heavy wave of strikes that night, hitting dozens of IRGC targets: military command centres, maritime capabilities, missile and drone facilities, and coastal surveillance and defence sites."
+        "bold": "THE WAR REACHES EGYPT — FIRST STRIKE ON MEDITERRANEAN INFRASTRUCTURE",
+        "text": "A drone struck two natural-gas vessels at Damietta Port on Egypt's Suez coast — the first time Egyptian infrastructure has been hit in this war. Maritime risk-management firm Marisks said that if confirmed as deliberate, it represents a significant expansion of hostilities into Mediterranean energy infrastructure, well beyond the Gulf and Red Sea theatres. Egyptian port authorities said operations continue at full efficiency and affected vessels were moved outside the port."
       },
       {
         "color": "red",
-        "bold": "CIVILIAN CASUALTIES REPORTED — A COUPLE AND THEIR TODDLER",
-        "text": "Iranian media reported at least three civilians killed in the renewed strikes, including a couple and their two-year-old child. Separately, Kuwait's defence ministry said an Iranian strike hit a building belonging to a Chinese company, killing one worker and causing significant damage — collateral harm is now spreading to third countries."
+        "bold": "CIVILIAN TOLL RISES: QESHM ISLAND STRIKE KILLS 3",
+        "text": "Iranian state broadcaster IRIB reported search-and-rescue operations at a residential home in Qeshm Island's Chah Tangu neighbourhood after US strikes — three people killed, two wounded, with two children rescued from rubble and search continuing for three more family members. Jordan's air defences separately shot down five Iranian missiles Wednesday night aimed at US positions."
       },
       {
         "color": "orange",
-        "bold": "THE WAR WIDENS INTO IRAQ",
-        "text": "US and Saudi forces struck Iran-backed militias (the Popular Mobilization Forces) in Iraq, reportedly killing more than 20 people including six Iranian pilgrims, according to the PMF. The militia coalition has given Baghdad until August 7 to respond and threatened retaliation that could extend into Saudi Arabia. Iran-allied militias separately launched drones at Saudi oil facilities in Riyadh and the Eastern Province."
+        "bold": "IRGC: 'FULL CONTROL' OF HORMUZ, VOWS TO 'PUNISH THE AGGRESSOR'",
+        "text": "Iran's Revolutionary Guard said Thursday it would 'punish the aggressor today' and warned that countries assisting the US would receive a 'harsh response'. It reiterated it maintains full control of the Strait of Hormuz and that the strait will remain closed as long as US 'threats and interference' continue — hardening its negotiating position even as diplomatic channels with Oman stay open."
       },
       {
         "color": "cyan",
-        "bold": "OIL ERASES THE RELIEF RALLY; INDIAN MARKETS HADN'T PRICED IT IN AT CLOSE",
-        "text": "Brent closed up 7.9% at $90.74 (WTI +6.6% to $84.46) Wednesday — undoing most of Monday-Tuesday's sharp relief rally in a single session. Indian markets had already closed for the day (Sensex +888.68pts/1.16% to 77,654.60, Nifty +264.85pts/1.10% to 24,250.20) before the worst of the news broke; Gift Nifty futures were already down ~65 points heading into Thursday, signalling a weak open once markets catch up to tonight's escalation."
+        "bold": "MARKETS RALLY REGARDLESS — OIL EASES, A SAUDI COALITION PROPOSAL HELPS",
+        "text": "Despite the war's widening, Brent settled down 1.88% at $89.03 Thursday (after touching $93.31 intraday) as traders weighed a proposed 14-nation, Saudi-led maritime defence coalition to secure the Red Sea and Bab al-Mandeb. Indian markets are riding a global risk-on wave — Sensex and Nifty opened higher Friday, on track for their first monthly close above 24,000 in four months, aided by FIIs buying for a third straight session."
       }
     ]
   },
   "deaths": "7,190+",
-  "deathsSub": "~3,680+ Iran (+3 more civilians tonight incl. a couple and their 2-yr-old child), 2,730+ Lebanon, 99 Iraq (+20 PMF militia members incl. 6 Iranian pilgrims, per PMF, in tonight's US-Saudi strikes), 27+ Israel, 3 US service members named/confirmed (incl. Sgt. Angel Rampersad, 28, Jul 17, Jordan; Sgt. Michael Emmanuel Swinton, 30, Erbil Air Base, Iraq), 1 Chinese worker (Kuwait, tonight), 50+ Gulf, 2 India CONFIRMED & NAMED: Heramb Karmarkar (GFS Galaxy, Jul 12) and Rohan Kumar (Mombasa B/Al Bahiyah, Jul 14). The 5-day US-Iran pause ended Jul 29 — CENTCOM launched a 'heavy wave' of strikes after Iran's missile attack on a US base in Jordan; war has also widened into Iraq.",
+  "deathsSub": "~3,683+ Iran (+3 more civilians, Qeshm Island strike, incl. rescue of 2 children from rubble), 2,730+ Lebanon, 99 Iraq (+20 PMF militia members incl. 6 Iranian pilgrims, Jul 29 US-Saudi strikes), 27+ Israel, 3 US service members named/confirmed, 1 Chinese worker (Kuwait, Jul 29), 50+ Gulf, 2 India CONFIRMED & NAMED: Heramb Karmarkar (GFS Galaxy, Jul 12) and Rohan Kumar (Mombasa B/Al Bahiyah, Jul 14). War now spans 5 fronts: Hormuz, Iraq, Red Sea, Jordan, and Egypt (Damietta Port, first strike on Egyptian soil).",
   "econ": {
-    "sensex": "77,467.33",
-    "sensexDelta": "WED JUL 29 CLOSE (before tonight's escalation news broke): Sensex +888.68 (+1.16%) to 77,654.60, Nifty +264.85 (+1.10%) to 24,250.20 — broad-based buying across IT, metal, pharma, banking, FMCG ahead of the US Fed decision. Gift Nifty already down ~65pts heading into Thursday as the resumed US-Iran strikes broke after the Indian market close — expect a weak, cautious Thursday open. TUE JUL 28 CLOSE: Sensex 76,765.92 (-0.09%), Nifty 23,985.35 (-0.04%) — flat, weak breadth (1,539 adv/2,543 decl).",
-    "sensexSub": "Brent closed +7.9% at $90.74 (WTI +6.6% to $84.46) Wednesday — the 5-day US-Iran pause ended when CENTCOM launched a 'heavy wave' of strikes after an Iranian missile attack on a US base in Jordan. TD Securities: markets had 'jumped the gun on hopes of renewed peace.' Rupee ~95.9. Petrol/Diesel/LPG unchanged: ₹111.21/₹97.83/₹941.50 — Aug 1 revision odds rising again with Brent back near $91.",
+    "sensex": "77,998.66",
+    "sensexDelta": "FRI JUL 31, MARKET OPEN: Sensex +70.51 (+0.09%) to 77,998.66, Nifty +44.3 to 24,361.45 — on track for a 4-month-high monthly close above 24,000. THU JUL 30 CLOSE: Sensex 77,928.15, Nifty 24,317.15 — late-session recovery after a volatile day; Wall Street rallied 1-3% overnight (Nasdaq +3%). FIIs bought ₹3,623.51cr for a 3rd straight session (Jul 30); DIIs sold ₹1,864.03cr.",
+    "sensexSub": "Brent touched $93.31 intraday Thu before settling -1.9% at $89.03 — still +17% for July — as a proposed 14-nation Saudi-led maritime coalition for the Red Sea eased some nerves. Rupee ~95.9. Petrol/Diesel/LPG unchanged: ₹111.21/₹97.83/₹941.50 — Aug 1 revision decision due tomorrow with Brent averaging well above $85 all month.",
     "vix": "~13.1 — EASING",
     "vixDelta": "-4.51% to 13.14 Wed open, ~-3% at close — volatility compressing despite blockade. Tue: 13.75 (+3.53%). Well below wartime 24-27; markets treating this as a contained maritime campaign, not full war.",
     "fpi": "-Rs 739.69 Cr",
@@ -50,10 +50,10 @@
     "analysis": "Equities are absorbing the blockade far better than the April original — Wednesday closed green despite Brent at $85 and daytime strikes. The stress has migrated to the currency and wholesale prices: rupee past 96 (first since May) with options pricing further downside, and WPI at 9.87%. Watch: rupee 96.50 resistance, Brent $86.36 (this morning's high), Nifty 24,000 support, OMC under-recovery at $86 Brent, and whether FII financial-sector buying survives the oil tape."
   },
   "hormuzStatus": {
-    "status": "The five-day US-Iran pause that this dashboard covered as a 'fragile lull' this morning has now definitively ended. Trump ordered a 'heavy wave' of retaliatory strikes Wednesday night after Tuesday's Iranian missile attack on a US base in Jordan. Secretary of State Rubio says the US will keep striking Iran for as long as it keeps attacking Hormuz shipping — the strait dispute remains the core, unresolved issue behind the entire conflict.",
+    "status": "Iran's Revolutionary Guard hardened its position Thursday, claiming 'full control' of Hormuz and vowing the strait stays closed as long as US 'threats and interference' continue — even as diplomatic channels between Iran and Oman remain open. Meanwhile the war's geography keeps expanding: a drone hit two gas vessels at Egypt's Damietta Port, the first strike on Egyptian infrastructure in this conflict.",
     "preWarFlow": "~90-140 ships/day",
-    "currentFlow": "No confirmed change in Hormuz shipping activity from tonight's strikes specifically — traffic remains near a standstill as it has for weeks. The bigger overnight change is the war's geographic widening: Iraq (US-Saudi strikes on Iran-backed militias, 20+ dead) and continued Houthi threats against Saudi Arabia via the Red Sea are now live fronts alongside Hormuz itself.",
-    "reduction": "Brent closed up 7.9% Wednesday at $90.74, undoing most of this week's relief rally in a single session — TD Securities called out that 'markets jumped the gun on hopes of renewed peace, especially considering Iran's insistence on controlling the strait under any potential deal.' Expect continued high volatility; analysts flag two paths for further US escalation — a return to Hormuz-infrastructure targeting, or the bridges/power-plant campaign Trump has repeatedly threatened.",
+    "currentFlow": "No sign of Hormuz traffic improving. Saudi Arabia is now leading a proposed 14-nation maritime coalition to secure the Red Sea and Bab al-Mandeb, a direct response to the Houthi blockade and the growing pattern of attacks on shipping across the region.",
+    "reduction": "Brent touched $93.31 intraday Thursday on the fresh US-Iran exchange before settling down 1.9% at $89.03 as the proposed Saudi-led coalition offered some reassurance. Oil is still up roughly 17% for the month of July. Markets are showing signs of partially decoupling from the worst headlines — Indian equities are rallying toward a four-month monthly high even as the war's geographic footprint grows, reflecting a market that has priced in a 'wide but shallow' war rather than a full regional conflagration.",
     "indianVesselsNear": 7,
     "indianSeafarers": 148,
     "indianTransited": 1,
@@ -1028,8 +1028,8 @@
     }
   ],
   "assessment": {
-    "headline": "DAY 151, 10:00 PM WED JUL 29: THE 5-DAY US-IRAN PAUSE IS OVER. CENTCOM LAUNCHED A 'HEAVY WAVE' OF STRIKES ON IRAN WEDNESDAY NIGHT, HITTING DOZENS OF IRGC TARGETS, AFTER TUESDAY'S IRANIAN MISSILE ATTACK ON A US BASE IN JORDAN. AT LEAST 3 IRANIAN CIVILIANS AND 1 WORKER IN KUWAIT ARE DEAD. THE WAR HAS ALSO WIDENED INTO IRAQ, WHERE US-SAUDI STRIKES KILLED 20+ MILITIA MEMBERS. BRENT CLOSED UP 7.9% AT $90.74, ERASING MOST OF THIS WEEK'S RELIEF RALLY.",
-    "body": "Wednesday 10:00 PM IST. Day 151. The lull this dashboard reported at 9:41 AM has already ended.\n\nWHAT HAPPENED\n• This morning's update reported the US had 'thwarted' an Iranian ballistic-missile attack on a base in Jordan overnight — five missiles, all intercepted, no damage. That attack, not the tanker incidents, is what actually shattered the five-day pause.\n• Trump vowed retaliation Wednesday afternoon: 'We're going to be hitting them very hard because it's our turn... They know it's coming.' He claimed Iran called the missile launch a mistake and asked the US not to retaliate — Tehran has not confirmed this.\n• CENTCOM launched a 'heavy wave' of strikes Wednesday night, hitting dozens of IRGC targets: military command centres, maritime capabilities, missile and drone facilities, and coastal surveillance/defence sites.\n\nCASUALTIES\n• Iranian media report at least three civilians killed, including a couple and their two-year-old child.\n• Kuwait's defence ministry says a separate Iranian strike hit a Chinese company's building, killing one worker — collateral damage now touching third countries.\n\nTHE WAR WIDENS\n• US and Saudi forces struck Iran-backed militias (the Popular Mobilization Forces) in Iraq, reportedly killing 20+ people including six Iranian pilgrims (per the PMF). The militia coalition has given Baghdad until August 7 to respond and has threatened to extend retaliation into Saudi Arabia.\n• Iran-allied militias separately launched drones at Saudi oil facilities in Riyadh and the Eastern Province.\n\nOIL AND MARKETS\n• Brent closed up 7.9% at $90.74 Wednesday (WTI +6.6% to $84.46) — undoing most of this week's relief rally in a single session. TD Securities: markets had 'jumped the gun on hopes of renewed peace.'\n• Indian markets closed before the worst of tonight's news broke — Sensex +888.68pts (1.16%) to 77,654.60, Nifty +264.85pts (1.10%) to 24,250.20, IT-led. But Gift Nifty futures were already down ~65 points heading into Thursday, and a weak, cautious open should be expected once markets fully price in tonight's escalation.\n\nWATCHLIST\n• Whether the US escalates further toward Trump's long-threatened bridges/power-plant campaign, or reverts to Hormuz-infrastructure targeting (RANE Network's two scenarios).\n• How the Iraq PMF militias respond by their self-imposed Aug 7 deadline — a new flashpoint that could also touch Saudi Arabia.\n• Whether Iran's civilian casualties change the domestic political calculus in Tehran toward further retaliation or restraint.\n• Thursday's Indian market open and how sharply it reprices tonight's news; Q1 earnings (Bajaj Finance, Tata Steel, M&M, Sun Pharma, Maruti, Swiggy) still due but likely overshadowed."
+    "headline": "DAY 153, 11:00 AM FRI JUL 31: THE WAR HAS REACHED EGYPT — A DRONE HIT 2 GAS VESSELS AT DAMIETTA PORT, THE FIRST STRIKE ON EGYPTIAN INFRASTRUCTURE. IRAN'S IRGC VOWS TO 'PUNISH THE AGGRESSOR' AND CLAIMS FULL CONTROL OF HORMUZ. A US STRIKE ON QESHM ISLAND KILLED 3 CIVILIANS. YET OIL EASED TO $89.03 ON A PROPOSED SAUDI-LED MARITIME COALITION, AND INDIAN MARKETS ARE RALLYING TOWARD A 4-MONTH HIGH.",
+    "body": "Friday 11:00 AM IST. Day 153. The war keeps widening geographically even as markets find reasons for calm.\n\nTHE WAR'S NEW GEOGRAPHY\n• A drone struck two natural-gas vessels at Damietta Port on Egypt's Mediterranean coast — the first time Egyptian infrastructure has been hit. Marisks, a maritime risk firm, said a confirmed deliberate attack would mark a serious expansion beyond the Gulf and Red Sea into Mediterranean energy infrastructure. Egyptian authorities say the port remains fully operational.\n• This follows Wednesday's resumption of direct US-Iran strikes, the widening into Iraq (US-Saudi strikes on Iran-backed militias), and the ongoing Houthi blockade of Saudi Arabia — the conflict now spans five distinct fronts: Hormuz, Iraq, the Red Sea, Jordan, and now Egypt.\n\nCASUALTIES AND MILITARY\n• Iranian state media reported 3 killed and 2 wounded in a US strike on a residential home in Qeshm Island's Chah Tangu neighbourhood; 2 children were rescued from rubble, with search continuing for 3 more family members.\n• Jordan's air defences shot down 5 Iranian missiles Wednesday night. Iran's Revolutionary Guard vowed Thursday to 'punish the aggressor today' and warned nations assisting the US of a 'harsh response', while claiming full control of Hormuz.\n\nDIPLOMACY AND RESPONSE\n• Saudi Arabia is leading a proposed 14-nation maritime coalition to secure the Red Sea and Bab al-Mandeb. Its defense minister met Trump this week; Riyadh's assessment (per sources) is that Iran will keep using Iraqi militias and the Houthis to create leverage, and that Saudi Arabia wants de-escalation but will respond if attacked again, as it did Tuesday.\n\nOIL AND MARKETS — A NOTABLE DECOUPLING\n• Brent touched $93.31 intraday Thursday before settling down 1.9% at $89.03, as the proposed Saudi coalition eased some nerves; still up ~17% for July, its steepest monthly rise recently.\n• Indian markets are rallying regardless: Sensex opened at 77,998.66 (+70pts), Nifty at 24,361.45 (+44pts) Friday, on track for a four-month-high monthly close above 24,000 — helped by a global risk-on mood (Wall Street +1-3% Thursday) and FIIs buying for a third straight session (₹3,624cr Jul 30). This is a market pricing a 'wide but contained' war rather than a full regional conflagration — a read that could be tested quickly if the Egypt strike is confirmed as deliberate.\n\nWATCHLIST\n• Whether the Damietta incident is confirmed as a deliberate attack — this would be the most significant geographic escalation of the war to date.\n• Whether the proposed 14-nation Saudi maritime coalition materializes and actually improves Red Sea security.\n• Iran's threatened response to 'punish the aggressor' — what form it takes next.\n• The Aug 1 domestic fuel/LPG revision, now due tomorrow, with Brent averaging well above $85 through most of July."
   },
   "featured": [
     {
@@ -1543,17 +1543,27 @@
       "rupee": 95.9,
       "tag": "THE PAUSE ENDED: Iranian missiles hit a US base in Jordan overnight (5 intercepted, no damage) — Trump vowed retaliation ('our turn'); CENTCOM launched a 'heavy wave' of strikes hitting dozens of IRGC targets Wed night. Iran reports 3 civilians dead (couple + 2-yr-old); 1 Chinese worker killed in Kuwait strike. Iraq front widens: US-Saudi strikes on PMF militias kill 20+ incl. 6 Iranian pilgrims; militias threaten Saudi Arabia, give Baghdad to Aug 7. Brent closed +7.9% to $90.74. Markets (closed pre-news): Sensex +888.68 (+1.16%) to 77,654.60, Nifty +264.85 (+1.10%) to 24,250.20; Gift Nifty already -65pts for Thu.",
       "sev": 4
+    },
+    {
+      "d": 152,
+      "l": "Jul 30",
+      "deaths": 7199,
+      "brent": 89.03,
+      "nifty": 24317.15,
+      "rupee": 95.9,
+      "tag": "IRGC vows to 'punish the aggressor today', claims full control of Hormuz, warns aiding nations of 'harsh response'. IRNA: 3 killed, 2 wounded in US strike on Qeshm Island home; 2 children rescued from rubble. Jordan shot down 5 Iranian missiles. Egypt: drone hits 2 gas vessels at Damietta Port — first Egyptian infrastructure struck. Saudi proposes 14-nation Red Sea coalition; Saudi defense min meets Trump. Brent touched $93.31 intraday, settled -1.9% at $89.03. Markets recovered late session: Sensex 77,928.15, Nifty 24,317.15. Wall Street rallied 1-3% (Nasdaq +3%).",
+      "sev": 4
     }
   ],
   "exec": {
     "level": "HIGH",
-    "phase": "ESCALATION — 5-DAY PAUSE ENDED, HEAVY US STRIKES RESUMED",
-    "oilNote": "Closed +7.9% at $90.74 (WTI +6.6% to $84.46) — erased most of this week's relief rally in one session",
-    "shipping": "HORMUZ STILL NEAR-STANDSTILL; NO CHANGE FROM RESUMED STRIKES",
-    "shippingSub": "Rubio: US will keep striking Iran as long as it keeps attacking Hormuz shipping. Iraq front also active now.",
-    "military": "US LAUNCHES 'HEAVY WAVE' OF STRIKES — PAUSE OVER",
-    "militarySub": "Dozens of IRGC targets hit. 3 Iranian civilians dead (incl. a toddler); 1 Chinese worker dead in Kuwait. Iraq: 20+ dead in US-Saudi strikes on PMF militias. War dead 7,190+ incl. 2 confirmed, named Indians",
-    "indiaSub": "Markets closed BEFORE the news: Sensex +888.68 (+1.16%) to 77,654.60, Nifty +264.85 (+1.10%) to 24,250.20 — but Gift Nifty already down ~65pts for a weak Thursday open"
+    "phase": "ESCALATION — WAR WIDENS TO EGYPT, MARKETS DECOUPLE",
+    "oilNote": "Settled -1.9% at $89.03 (high $93.31 intraday) — a Saudi-led 14-nation maritime coalition proposal eased nerves. +17% for July.",
+    "shipping": "WAR HITS EGYPT'S SUEZ COAST — FIRST TIME",
+    "shippingSub": "Drone hit 2 gas vessels at Damietta Port; Saudi Arabia proposes 14-nation coalition to secure Red Sea/Bab al-Mandeb",
+    "military": "IRGC: 'FULL CONTROL' OF HORMUZ, VOWS RETALIATION",
+    "militarySub": "Qeshm Island strike: 3 civilians dead, 2 wounded. Jordan downed 5 Iranian missiles. War dead 7,190+ incl. 2 confirmed, named Indians",
+    "indiaSub": "Sensex +70pts to 77,998.66, Nifty +44pts to 24,361.45 (Fri open) — 4-month high monthly close in sight. FIIs buy 3rd straight session (₹3,624cr)"
   },
   "hormuzPhases": [
     {
@@ -1597,7 +1607,7 @@
       "days": "Jul 11–"
     }
   ],
-  "_phaseBadge": "🔴 THE LULL IS OVER: US LAUNCHES 'HEAVY WAVE' OF STRIKES · IRAQ FRONT WIDENS · 3 CIVILIANS DEAD",
+  "_phaseBadge": "🔴 WAR HITS EGYPT'S SUEZ COAST · IRGC VOWS 'PUNISH THE AGGRESSOR' · MARKETS RALLY ANYWAY ON OIL PULLBACK",
   "budget": {
     "petrolPre": 94.72,
     "petrolNow": 111.21,
@@ -1607,11 +1617,11 @@
     "lpgNow": 942.0
   },
   "brief": [
-    "Day 151 of the West Asia war, 10:00 PM update. Overall risk to India right now: HIGH — the brief calm this dashboard reported this morning has already ended.",
-    "Big reversal: the five-day pause between the US and Iran is over. Iran fired missiles at a US base in Jordan overnight (all intercepted, no one hurt) — but Trump vowed to hit back hard, and the US launched a heavy wave of strikes on Iran Wednesday night, hitting dozens of military targets.",
-    "This time there are real casualties: Iran says three civilians died, including a couple and their two-year-old child. A separate Iranian strike in Kuwait killed a worker at a Chinese company's building.",
-    "The war is also spreading: US and Saudi forces struck Iran-backed militia fighters in Iraq, killing over 20 people, and those militias are now threatening to strike back at Saudi Arabia too.",
-    "For India: oil jumped straight back up, undoing most of this week's price relief — Brent closed at $90.74. Indian markets actually had a good day, closing up sharply, but that was before tonight's news broke; futures already point to a weaker, more cautious opening tomorrow. Petrol, diesel and LPG are still unchanged for now. Bottom line: what looked like a fragile peace this morning is already back to open warfare tonight — a reminder of how quickly this conflict can turn."
+    "Day 153 of the West Asia war, 11:00 AM update. Overall risk to India right now: HIGH — the war just widened again.",
+    "Biggest new development: for the first time, this war has reached Egypt. A drone hit two gas ships at a port on Egypt's Mediterranean coast — expanding the conflict well beyond the Gulf and Red Sea into a completely new region.",
+    "Iran's Revolutionary Guard is hardening its stance, vowing to 'punish the aggressor' and claiming full control over the Strait of Hormuz. A US strike on an Iranian island killed three people, including in a strike on a family home — rescuers pulled two children from the rubble.",
+    "Despite all this, oil actually eased back a bit — settling at $89 a barrel — after Saudi Arabia proposed a 14-country coalition to protect Red Sea shipping. And Indian markets are doing well regardless, on track for their best month in four months, helped by foreign investors buying for a third straight day.",
+    "For India: petrol, diesel and LPG are still unchanged, but the government's monthly fuel-price review is due tomorrow (August 1), and oil has averaged well above $85 all month. Bottom line: the war is spreading geographically even as markets, for now, are choosing not to panic — a gap worth watching closely."
   ],
-  "shareLine": "The pause just ended. The US launched a 'heavy wave' of strikes on Iran tonight — 3 civilians dead, the war has spread into Iraq, and oil jumped back to $90.74. This morning's calm didn't last a day."
+  "shareLine": "The war just reached Egypt for the first time — a drone hit gas ships at a Suez-coast port. Yet oil eased to $89 and Indian markets are set for their best month in 4 months. A widening war, a market not yet worried."
 }
