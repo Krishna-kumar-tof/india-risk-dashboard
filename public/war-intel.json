@@ -1,47 +1,47 @@
 {
-  "_updated": "July 31, 2026 — 11:00 AM IST",
+  "_updated": "July 31, 2026 — 2:15 PM IST",
   "_day": 153,
-  "_phase": "ESCALATION — WAR WIDENS TO EGYPT",
+  "_phase": "ESCALATION — HORMUZ TIGHTENING, MORE STRIKES PLANNED",
   "_note": "Verified: NPR, CNN, CBS, Fox News, The Hill, Washington Times (Jul 15-16), CENTCOM statements, HDFC Sky, Business Standard (Jul 14-15 closes), TradingEconomics, Investing.com (Brent live Jul 16), Zee Business",
   "ticker": [
-    "🔴 DAY 153 FRI 11:00 AM IST: THE WAR HAS WIDENED TO EGYPT — a drone hit 2 natural-gas vessels at Damietta Port on the Suez coast, the first time Egyptian infrastructure has been struck; if deliberate, a major expansion into Mediterranean energy infrastructure. Port says operations continue 'at full efficiency'.",
-    "☠ QESHM ISLAND STRIKE: Iranian state media (IRIB) reported 3 killed, 2 wounded when US missiles hit a residential home; 2 children rescued from rubble, search continuing for 3 more family members. Jordan shot down 5 Iranian missiles Wed night.",
-    "🗣 IRGC (Thu): vows to 'punish the aggressor today', warns nations aiding the US will get a 'harsh response', claims 'full control' of Hormuz — 'a stranger who has come from thousands of kilometres away will not be allowed to interfere'. Strait 'will remain closed as long as US threats continue'.",
-    "🇸🇦 Saudi Arabia is leading a proposed 14-NATION MARITIME COALITION to secure the Red Sea and Bab al-Mandeb. Saudi defense minister met Trump: MBS's assessment is Iran will keep using Iraqi militias and the Houthis for leverage; Riyadh wants de-escalation but will respond if attacked again (as it did Tue).",
-    "🛢 BRENT WHIPSAWED AGAIN: touched $93.31 intraday Thursday on the fresh strikes, then settled -1.88% at $89.03 as a Saudi-led maritime coalition proposal eased nerves. Oil is still up ~17% for the month of July alone.",
-    "📈 MARKETS RALLYING DESPITE THE WAR: Sensex opened +70pts to 77,998.66, Nifty +44pts to 24,361.45 Friday — set for a 4-month high monthly close above 24,000, on a global risk-on mood (Wall St +1-3%) and easing oil. FIIs bought ₹3,624cr for a 3rd straight session. Petrol/diesel/LPG unchanged (₹111.21/₹97.83/₹941.50)."
+    "🔴 DAY 153 FRI 2:15 PM IST: IRAN TO TIGHTEN HORMUZ CLOSURE — Supreme National Security Council secretary Zolqadr says Tehran will tighten the strait's closure in response to the US naval blockade of Iranian ports. A tanker was hit by an 'unknown projectile' off Oman near the strait's mouth Friday (UKMTO); engine room damaged, no casualties, ship not under command.",
+    "🚢 Iran STOPPED 2 VESSELS attempting to exit Hormuz Friday — oil rose on the news. MarineTraffic: still only ~15 ships/24hrs through Hormuz vs ~120/day pre-war; Bab al-Mandeb transits also down ~20% since the Houthi pressure campaign began.",
+    "🇺🇸 US PLANNING FRESH STRIKES 'as soon as this weekend' per 2 officials — targets unclear, could be called off. Trump: 'losing faith' with Iran but won't rule out a deal — 'You never know [how many more strikes it'll take]... they're tough, I give them credit.'",
+    "🕊 SEPARATELY: Trump announced a Gaza breakthrough — Hamas has agreed to full disarmament under a Board of Peace deal mediated by Egypt, Qatar and Turkey. Iran, meanwhile, warned Cyprus and Bulgaria against letting the US use their bases for strikes — the threat list keeps growing.",
+    "🇸🇦 Saudi Arabia reportedly planning a HOUTHI OFFENSIVE alongside its proposed 14-nation maritime coalition — escalating the Red Sea front rather than just defending it. Iran's Hormuz body said transits 'can gradually return once stability and calm are restored' — a conditional, contradictory signal on the same day as the tightening threat.",
+    "📈 MARKETS: Sensex closed +110pts (+0.14%) at 78,039 — July's best month in 4, +1.9% for the month — led by Bajaj Finance (+8.3%), Bajaj Finserv, M&M; IT lagged (TCS -2.7%, Infosys -2.2%). Petrol/diesel/LPG unchanged — Aug 1 revision decision due tomorrow."
   ],
   "whatChanged": {
-    "label": "WHAT CHANGED — JULY 31, 11:00 AM IST (DAY 153) — SINCE WED 10:00 PM",
+    "label": "WHAT CHANGED — JULY 31, 2:15 PM IST (DAY 153) — SINCE 11:00 AM",
     "items": [
       {
         "color": "red",
-        "bold": "THE WAR REACHES EGYPT — FIRST STRIKE ON MEDITERRANEAN INFRASTRUCTURE",
-        "text": "A drone struck two natural-gas vessels at Damietta Port on Egypt's Suez coast — the first time Egyptian infrastructure has been hit in this war. Maritime risk-management firm Marisks said that if confirmed as deliberate, it represents a significant expansion of hostilities into Mediterranean energy infrastructure, well beyond the Gulf and Red Sea theatres. Egyptian port authorities said operations continue at full efficiency and affected vessels were moved outside the port."
-      },
-      {
-        "color": "red",
-        "bold": "CIVILIAN TOLL RISES: QESHM ISLAND STRIKE KILLS 3",
-        "text": "Iranian state broadcaster IRIB reported search-and-rescue operations at a residential home in Qeshm Island's Chah Tangu neighbourhood after US strikes — three people killed, two wounded, with two children rescued from rubble and search continuing for three more family members. Jordan's air defences separately shot down five Iranian missiles Wednesday night aimed at US positions."
+        "bold": "IRAN VOWS TO TIGHTEN, NOT EASE, THE HORMUZ CLOSURE",
+        "text": "Mohammad Bagher Zolqadr, secretary of Iran's Supreme National Security Council, said Tehran will tighten its declared closure of the Strait of Hormuz in direct response to the ongoing US naval blockade of Iranian ports. Iran separately stopped two vessels attempting to exit the strait Friday. This directly contradicts a same-day, more conciliatory signal from Iran's Hormuz oversight body, which said transits could 'gradually return once stability and calm are restored' — a genuinely mixed message from Tehran within the same news cycle."
       },
       {
         "color": "orange",
-        "bold": "IRGC: 'FULL CONTROL' OF HORMUZ, VOWS TO 'PUNISH THE AGGRESSOR'",
-        "text": "Iran's Revolutionary Guard said Thursday it would 'punish the aggressor today' and warned that countries assisting the US would receive a 'harsh response'. It reiterated it maintains full control of the Strait of Hormuz and that the strait will remain closed as long as US 'threats and interference' continue — hardening its negotiating position even as diplomatic channels with Oman stay open."
+        "bold": "A TANKER WAS HIT OFF OMAN, NEAR THE STRAIT'S MOUTH",
+        "text": "UKMTO reported a tanker struck by an unknown projectile about 20km northeast of Lima, Oman, on the southern approach to Hormuz — the engine room was damaged and the vessel left not under command, though no casualties were reported. No party has claimed responsibility."
+      },
+      {
+        "color": "red",
+        "bold": "THE US IS PLANNING MORE STRIKES — POSSIBLY THIS WEEKEND",
+        "text": "Two US officials told CNN the US is planning fresh strikes on Iran as soon as this weekend, though the scope and targets remain unclear and officials cautioned the plan could still be called off. Trump said at a Camp David cabinet meeting that he is 'losing faith' with Iran but has not ruled out a deal, telling reporters he doesn't know how many more strikes it will take: 'Most people would have given up by now... they haven't, so I give them credit for that. They're tough.'"
       },
       {
         "color": "cyan",
-        "bold": "MARKETS RALLY REGARDLESS — OIL EASES, A SAUDI COALITION PROPOSAL HELPS",
-        "text": "Despite the war's widening, Brent settled down 1.88% at $89.03 Thursday (after touching $93.31 intraday) as traders weighed a proposed 14-nation, Saudi-led maritime defence coalition to secure the Red Sea and Bab al-Mandeb. Indian markets are riding a global risk-on wave — Sensex and Nifty opened higher Friday, on track for their first monthly close above 24,000 in four months, aided by FIIs buying for a third straight session."
+        "bold": "A RARE BRIGHT SPOT ELSEWHERE: GAZA DISARMAMENT DEAL",
+        "text": "In a separate but concurrent development, Trump announced that Hamas has agreed to full disarmament under a deal brokered by his 'Board of Peace' with Egypt, Qatar and Turkey as mediators. It's a reminder the US is now managing two major Middle East files simultaneously — and that diplomatic bandwidth on the Iran track may be genuinely stretched."
       }
     ]
   },
   "deaths": "7,190+",
   "deathsSub": "~3,683+ Iran (+3 more civilians, Qeshm Island strike, incl. rescue of 2 children from rubble), 2,730+ Lebanon, 99 Iraq (+20 PMF militia members incl. 6 Iranian pilgrims, Jul 29 US-Saudi strikes), 27+ Israel, 3 US service members named/confirmed, 1 Chinese worker (Kuwait, Jul 29), 50+ Gulf, 2 India CONFIRMED & NAMED: Heramb Karmarkar (GFS Galaxy, Jul 12) and Rohan Kumar (Mombasa B/Al Bahiyah, Jul 14). War now spans 5 fronts: Hormuz, Iraq, Red Sea, Jordan, and Egypt (Damietta Port, first strike on Egyptian soil).",
   "econ": {
-    "sensex": "77,998.66",
-    "sensexDelta": "FRI JUL 31, MARKET OPEN: Sensex +70.51 (+0.09%) to 77,998.66, Nifty +44.3 to 24,361.45 — on track for a 4-month-high monthly close above 24,000. THU JUL 30 CLOSE: Sensex 77,928.15, Nifty 24,317.15 — late-session recovery after a volatile day; Wall Street rallied 1-3% overnight (Nasdaq +3%). FIIs bought ₹3,623.51cr for a 3rd straight session (Jul 30); DIIs sold ₹1,864.03cr.",
-    "sensexSub": "Brent touched $93.31 intraday Thu before settling -1.9% at $89.03 — still +17% for July — as a proposed 14-nation Saudi-led maritime coalition for the Red Sea eased some nerves. Rupee ~95.9. Petrol/Diesel/LPG unchanged: ₹111.21/₹97.83/₹941.50 — Aug 1 revision decision due tomorrow with Brent averaging well above $85 all month.",
+    "sensex": "78,039",
+    "sensexDelta": "FRI JUL 31 CLOSE: Sensex +110 (+0.14%) to 78,039, capping July's best month in 4 (+1.9% for the month) — led by Bajaj Finance (+8.32%), Bajaj Finserv (+6.37%), M&M (+3.30%); IT lagged on profit-booking (TCS -2.68%, Infosys -2.18%, Eternal -1.93%). Supported by continued FII inflows, easing crude, and a weaker US dollar.",
+    "sensexSub": "Oil rose Friday after Iran stopped 2 vessels exiting Hormuz, adding to the risk premium from Wednesday's Egypt drone attack. Rupee ~95.9. Petrol/Diesel/LPG unchanged: ₹111.21/₹97.83/₹941.50 — Aug 1 revision decision due tomorrow, with Brent having spent nearly the entire month of July above $85.",
     "vix": "~13.1 — EASING",
     "vixDelta": "-4.51% to 13.14 Wed open, ~-3% at close — volatility compressing despite blockade. Tue: 13.75 (+3.53%). Well below wartime 24-27; markets treating this as a contained maritime campaign, not full war.",
     "fpi": "-Rs 739.69 Cr",
@@ -50,10 +50,10 @@
     "analysis": "Equities are absorbing the blockade far better than the April original — Wednesday closed green despite Brent at $85 and daytime strikes. The stress has migrated to the currency and wholesale prices: rupee past 96 (first since May) with options pricing further downside, and WPI at 9.87%. Watch: rupee 96.50 resistance, Brent $86.36 (this morning's high), Nifty 24,000 support, OMC under-recovery at $86 Brent, and whether FII financial-sector buying survives the oil tape."
   },
   "hormuzStatus": {
-    "status": "Iran's Revolutionary Guard hardened its position Thursday, claiming 'full control' of Hormuz and vowing the strait stays closed as long as US 'threats and interference' continue — even as diplomatic channels between Iran and Oman remain open. Meanwhile the war's geography keeps expanding: a drone hit two gas vessels at Egypt's Damietta Port, the first strike on Egyptian infrastructure in this conflict.",
+    "status": "Iran sent contradictory signals Friday: its Supreme National Security Council vowed to tighten the strait's closure in response to the US naval blockade, and Iran stopped two vessels attempting to exit — yet the body that oversees Iran-approved Hormuz transits separately said passage could 'gradually return once stability and calm are restored'. A tanker was also hit by an unidentified projectile off Oman near the strait's southern approach; no casualties, no claim of responsibility yet.",
     "preWarFlow": "~90-140 ships/day",
-    "currentFlow": "No sign of Hormuz traffic improving. Saudi Arabia is now leading a proposed 14-nation maritime coalition to secure the Red Sea and Bab al-Mandeb, a direct response to the Houthi blockade and the growing pattern of attacks on shipping across the region.",
-    "reduction": "Brent touched $93.31 intraday Thursday on the fresh US-Iran exchange before settling down 1.9% at $89.03 as the proposed Saudi-led coalition offered some reassurance. Oil is still up roughly 17% for the month of July. Markets are showing signs of partially decoupling from the worst headlines — Indian equities are rallying toward a four-month monthly high even as the war's geographic footprint grows, reflecting a market that has priced in a 'wide but shallow' war rather than a full regional conflagration.",
+    "currentFlow": "MarineTraffic data shows roughly 15 commercial vessels crossing Hormuz per 24 hours — barely changed from the day before, and a fraction of the ~120/day pre-war average. Bab al-Mandeb traffic (48 vessels/24hrs) is down about a fifth since Houthi pressure began, though still functioning far better than Hormuz itself.",
+    "reduction": "Oil rose Friday on the news that Iran stopped two vessels exiting Hormuz, compounding the supply-risk premium already added by Wednesday's Egypt drone attack. The US is reportedly weighing fresh strikes as soon as this weekend, which — combined with Iran's tightening rhetoric — suggests the coming 48-72 hours could be pivotal one way or the other for the strait's status.",
     "indianVesselsNear": 7,
     "indianSeafarers": 148,
     "indianTransited": 1,
@@ -1028,8 +1028,8 @@
     }
   ],
   "assessment": {
-    "headline": "DAY 153, 11:00 AM FRI JUL 31: THE WAR HAS REACHED EGYPT — A DRONE HIT 2 GAS VESSELS AT DAMIETTA PORT, THE FIRST STRIKE ON EGYPTIAN INFRASTRUCTURE. IRAN'S IRGC VOWS TO 'PUNISH THE AGGRESSOR' AND CLAIMS FULL CONTROL OF HORMUZ. A US STRIKE ON QESHM ISLAND KILLED 3 CIVILIANS. YET OIL EASED TO $89.03 ON A PROPOSED SAUDI-LED MARITIME COALITION, AND INDIAN MARKETS ARE RALLYING TOWARD A 4-MONTH HIGH.",
-    "body": "Friday 11:00 AM IST. Day 153. The war keeps widening geographically even as markets find reasons for calm.\n\nTHE WAR'S NEW GEOGRAPHY\n• A drone struck two natural-gas vessels at Damietta Port on Egypt's Mediterranean coast — the first time Egyptian infrastructure has been hit. Marisks, a maritime risk firm, said a confirmed deliberate attack would mark a serious expansion beyond the Gulf and Red Sea into Mediterranean energy infrastructure. Egyptian authorities say the port remains fully operational.\n• This follows Wednesday's resumption of direct US-Iran strikes, the widening into Iraq (US-Saudi strikes on Iran-backed militias), and the ongoing Houthi blockade of Saudi Arabia — the conflict now spans five distinct fronts: Hormuz, Iraq, the Red Sea, Jordan, and now Egypt.\n\nCASUALTIES AND MILITARY\n• Iranian state media reported 3 killed and 2 wounded in a US strike on a residential home in Qeshm Island's Chah Tangu neighbourhood; 2 children were rescued from rubble, with search continuing for 3 more family members.\n• Jordan's air defences shot down 5 Iranian missiles Wednesday night. Iran's Revolutionary Guard vowed Thursday to 'punish the aggressor today' and warned nations assisting the US of a 'harsh response', while claiming full control of Hormuz.\n\nDIPLOMACY AND RESPONSE\n• Saudi Arabia is leading a proposed 14-nation maritime coalition to secure the Red Sea and Bab al-Mandeb. Its defense minister met Trump this week; Riyadh's assessment (per sources) is that Iran will keep using Iraqi militias and the Houthis to create leverage, and that Saudi Arabia wants de-escalation but will respond if attacked again, as it did Tuesday.\n\nOIL AND MARKETS — A NOTABLE DECOUPLING\n• Brent touched $93.31 intraday Thursday before settling down 1.9% at $89.03, as the proposed Saudi coalition eased some nerves; still up ~17% for July, its steepest monthly rise recently.\n• Indian markets are rallying regardless: Sensex opened at 77,998.66 (+70pts), Nifty at 24,361.45 (+44pts) Friday, on track for a four-month-high monthly close above 24,000 — helped by a global risk-on mood (Wall Street +1-3% Thursday) and FIIs buying for a third straight session (₹3,624cr Jul 30). This is a market pricing a 'wide but contained' war rather than a full regional conflagration — a read that could be tested quickly if the Egypt strike is confirmed as deliberate.\n\nWATCHLIST\n• Whether the Damietta incident is confirmed as a deliberate attack — this would be the most significant geographic escalation of the war to date.\n• Whether the proposed 14-nation Saudi maritime coalition materializes and actually improves Red Sea security.\n• Iran's threatened response to 'punish the aggressor' — what form it takes next.\n• The Aug 1 domestic fuel/LPG revision, now due tomorrow, with Brent averaging well above $85 through most of July."
+    "headline": "DAY 153, 2:15 PM FRI JUL 31: IRAN VOWS TO TIGHTEN THE HORMUZ CLOSURE (NOT EASE IT) IN RESPONSE TO THE US BLOCKADE, EVEN AS ITS OWN HORMUZ BODY SIGNALS TRANSITS COULD 'GRADUALLY RETURN'. A TANKER WAS HIT OFF OMAN. THE US IS PLANNING FRESH STRIKES AS SOON AS THIS WEEKEND. TRUMP SAYS HE'S 'LOSING FAITH' WITH IRAN BUT HASN'T RULED OUT A DEAL. INDIAN MARKETS CLOSED THEIR BEST MONTH IN 4, UP 1.9% FOR JULY, REGARDLESS.",
+    "body": "Friday 2:15 PM IST. Day 153. Iran is sending genuinely mixed signals on Hormuz within the same day.\n\nHORMUZ: TIGHTENING RHETORIC, CONDITIONAL OPENING SIGNAL\n• Iran's Supreme National Security Council secretary Mohammad Bagher Zolqadr said Tehran will tighten its declared closure of the strait in direct response to the ongoing US naval blockade of Iranian ports. Iran stopped two vessels attempting to exit the strait Friday.\n• Yet the Iranian body that oversees approved Hormuz transits separately said passage could 'gradually return once stability and calm are restored' — a genuinely contradictory signal from Tehran, possibly reflecting internal factional disagreement over strategy.\n• A tanker was hit by an unidentified projectile roughly 20km northeast of Lima, Oman, on the strait's southern approach — engine room damaged, no casualties, no claim of responsibility.\n• Traffic itself remains near-frozen: ~15 vessels/24hrs through Hormuz vs ~120/day pre-war.\n\nMILITARY: MORE STRIKES LIKELY THIS WEEKEND\n• Two US officials told CNN the US is planning fresh strikes on Iran as soon as this weekend — scope and targets unclear, and officials caution the plan could be called off.\n• At a Camp David cabinet meeting, Trump said he is 'losing faith' with Iran but has not ruled out a deal. Asked how many more strikes it would take to restore Hormuz security, he said: 'You never know... most people would have given up by now. They haven't, so I give them credit for that. They're tough.'\n• Iran warned Cyprus and Bulgaria against allowing the US to use their bases for strikes — expanding its list of countries it considers complicit.\n\nELSEWHERE: A GAZA BREAKTHROUGH\n• Trump separately announced Hamas has agreed to full disarmament under a deal brokered by his 'Board of Peace', with Egypt, Qatar and Turkey mediating — a reminder Washington's diplomatic attention is now split across two major regional files.\n\nINDIA / MARKETS\n• Sensex closed up 110 points (0.14%) at 78,039, capping July's best monthly performance in four months (+1.9%) — led by Bajaj Finance (+8.3%), Bajaj Finserv and M&M, with IT lagging (TCS -2.7%, Infosys -2.2%) on profit-booking after a strong month.\n• Petrol, diesel and LPG remain unchanged — the government's monthly fuel-price revision decision is due tomorrow, August 1, with Brent having spent virtually the entire month above $85.\n\nWATCHLIST\n• Whether the planned US weekend strikes go ahead, and at what scale.\n• Whether Iran's contradictory Hormuz signals resolve toward tightening or toward the conditional reopening its transit body floated.\n• Tomorrow's Aug 1 fuel/LPG price decision — the clearest, most direct India impact point in weeks."
   },
   "featured": [
     {
@@ -1557,13 +1557,13 @@
   ],
   "exec": {
     "level": "HIGH",
-    "phase": "ESCALATION — WAR WIDENS TO EGYPT, MARKETS DECOUPLE",
-    "oilNote": "Settled -1.9% at $89.03 (high $93.31 intraday) — a Saudi-led 14-nation maritime coalition proposal eased nerves. +17% for July.",
-    "shipping": "WAR HITS EGYPT'S SUEZ COAST — FIRST TIME",
-    "shippingSub": "Drone hit 2 gas vessels at Damietta Port; Saudi Arabia proposes 14-nation coalition to secure Red Sea/Bab al-Mandeb",
-    "military": "IRGC: 'FULL CONTROL' OF HORMUZ, VOWS RETALIATION",
-    "militarySub": "Qeshm Island strike: 3 civilians dead, 2 wounded. Jordan downed 5 Iranian missiles. War dead 7,190+ incl. 2 confirmed, named Indians",
-    "indiaSub": "Sensex +70pts to 77,998.66, Nifty +44pts to 24,361.45 (Fri open) — 4-month high monthly close in sight. FIIs buy 3rd straight session (₹3,624cr)"
+    "phase": "ESCALATION — IRAN TIGHTENS HORMUZ, US WEIGHS WEEKEND STRIKES",
+    "oilNote": "Rose Friday after Iran stopped 2 vessels exiting Hormuz; drone attack on Egypt's Damietta port added further supply-risk premium",
+    "shipping": "IRAN VOWS TO TIGHTEN CLOSURE; TANKER HIT OFF OMAN",
+    "shippingSub": "~15 ships/24hrs through Hormuz vs ~120 pre-war. Iran's own Hormuz body offers a conditional 'gradual return' — a mixed signal.",
+    "military": "US WEIGHING FRESH STRIKES AS SOON AS THIS WEEKEND",
+    "militarySub": "Trump: 'losing faith' with Iran, hasn't ruled out a deal. Iran warns Cyprus, Bulgaria against hosting US strikes. War dead 7,190+ incl. 2 confirmed, named Indians",
+    "indiaSub": "Sensex closed +110pts (+0.14%) to 78,039 — best month in 4 (+1.9% for July). Aug 1 fuel revision decision due tomorrow"
   },
   "hormuzPhases": [
     {
@@ -1607,7 +1607,7 @@
       "days": "Jul 11–"
     }
   ],
-  "_phaseBadge": "🔴 WAR HITS EGYPT'S SUEZ COAST · IRGC VOWS 'PUNISH THE AGGRESSOR' · MARKETS RALLY ANYWAY ON OIL PULLBACK",
+  "_phaseBadge": "🔴 IRAN VOWS TO TIGHTEN HORMUZ CLOSURE · TANKER HIT OFF OMAN · US WEIGHING WEEKEND STRIKES",
   "budget": {
     "petrolPre": 94.72,
     "petrolNow": 111.21,
@@ -1617,11 +1617,11 @@
     "lpgNow": 942.0
   },
   "brief": [
-    "Day 153 of the West Asia war, 11:00 AM update. Overall risk to India right now: HIGH — the war just widened again.",
-    "Biggest new development: for the first time, this war has reached Egypt. A drone hit two gas ships at a port on Egypt's Mediterranean coast — expanding the conflict well beyond the Gulf and Red Sea into a completely new region.",
-    "Iran's Revolutionary Guard is hardening its stance, vowing to 'punish the aggressor' and claiming full control over the Strait of Hormuz. A US strike on an Iranian island killed three people, including in a strike on a family home — rescuers pulled two children from the rubble.",
-    "Despite all this, oil actually eased back a bit — settling at $89 a barrel — after Saudi Arabia proposed a 14-country coalition to protect Red Sea shipping. And Indian markets are doing well regardless, on track for their best month in four months, helped by foreign investors buying for a third straight day.",
-    "For India: petrol, diesel and LPG are still unchanged, but the government's monthly fuel-price review is due tomorrow (August 1), and oil has averaged well above $85 all month. Bottom line: the war is spreading geographically even as markets, for now, are choosing not to panic — a gap worth watching closely."
+    "Day 153 of the West Asia war, 2:15 PM update. Overall risk to India right now: HIGH — Iran sent very mixed signals on Hormuz today.",
+    "Confusing but important: one part of Iran's government said it will TIGHTEN the Hormuz closure in response to the US naval blockade — and Iran stopped two ships trying to leave the strait today. But a different Iranian body, the one that actually oversees the strait, said shipping could gradually return once things calm down. Both statements came out the same day.",
+    "A tanker was also hit by an unknown projectile near Oman, close to the strait's entrance — no one was hurt, but it's another reminder the area remains dangerous.",
+    "The US is reportedly planning new strikes on Iran, possibly as soon as this weekend. Trump says he's 'losing faith' with Iran but hasn't given up on a deal either.",
+    "For India: markets actually closed July on a high note — the Sensex's best month in four months. Petrol, diesel and LPG are unchanged, but tomorrow (August 1) is the government's monthly fuel-price decision, and it comes after a month where oil barely dipped below $85. That's the number to watch next, not tonight's headlines."
   ],
-  "shareLine": "The war just reached Egypt for the first time — a drone hit gas ships at a Suez-coast port. Yet oil eased to $89 and Indian markets are set for their best month in 4 months. A widening war, a market not yet worried."
+  "shareLine": "Iran sent mixed signals today: one arm vows to tighten the Hormuz closure, another says shipping could gradually return. A tanker got hit near Oman regardless, and the US may strike again this weekend. Indian markets just had their best month in 4 anyway."
 }
