@@ -1,47 +1,47 @@
 {
-  "_updated": "August 3, 2026 — 8:45 AM IST",
-  "_day": 156,
-  "_phase": "TALKS RESUME — STRIKES CANCELED, CONDITIONAL",
+  "_updated": "August 4, 2026 — 11:15 AM IST",
+  "_day": 157,
+  "_phase": "TALKS CONTESTED — FRESH SHIP ATTACKS CONTINUE",
   "_note": "Verified: NPR, CNN, CBS, Fox News, The Hill, Washington Times (Jul 15-16), CENTCOM statements, HDFC Sky, Business Standard (Jul 14-15 closes), TradingEconomics, Investing.com (Brent live Jul 16), Zee Business",
   "ticker": [
-    "🟢 DAY 156 MON 8:45 AM IST: TRUMP CANCELED the planned weekend strikes on Iran — said Iran, Saudi Arabia, UAE and Qatar all asked him to hold off, citing progress on a deal. US-Iran NEGOTIATIONS RESUME TODAY (Monday afternoon US time / tonight IST).",
-    "🇸🇦 Saudi Crown Prince MBS personally called Trump urging de-escalation — Saudi state media confirms. NYT/Seoul Economic: practical constraints also mattered — concerns over depleting Patriot missile stockpiles, risk of the war going regional, and Gulf allies' exposure to Iranian retaliation.",
-    "📜 DEAL 'PERIMETERS' per Trump (Truth Social): 'Immediate, Complete, and Total OPENING of the Strait of Hormuz, and an end to Iran's nuclear threat.' Reported terms: Iran halts Iraqi-militia attacks on Gulf states/Jordan; US ends its naval blockade on Iran and allows Iran to resume oil exports. Israel is 'part of the commitment' to hold off. Conditional — 'subject to being able to rapidly make a DEAL.'",
-    "⛽ AUG 1 FUEL REVIEW LANDED SOFT: commercial LPG cylinders cut (Delhi -₹202, Kolkata -₹209 for 19kg) but domestic 14.2kg LPG, petrol and diesel held UNCHANGED despite Brent's 24% July surge — the strongest monthly oil gain since March. Modi govt approved 'Samudra Manthan' offshore exploration scheme (₹84,084 cr) to cut future Hormuz dependency.",
-    "📈 MARKETS: Gift Nifty +136pts to 24,589 — strong open expected on de-escalation hopes. Brent slipped ~5% on the news of canceled strikes, easing from Friday's ~$88 close (+24% for July).",
-    "⚠ CAUTION: Investing.com reports Iran has NOT formally agreed to reopen Hormuz yet — this is a negotiating framework and a strike pause, not a signed deal. Treat as a genuine opening, not a resolution."
+    "🟡 DAY 157 TUE 11:15 AM IST: CONTRADICTORY SIGNALS PERSIST — Trump says US-Iran talks are 'going on right now' and a Hormuz-reopening deal is 'imminent'; Iran's Foreign Ministry flatly denies any direct negotiations with the US, saying it's only discussing a 'temporary route' with Oman.",
+    "🚢 TWO MORE SHIPS HIT OVERNIGHT despite the talk of peace: a tanker caught fire off Oman Monday night (unknown projectile, no casualties); a cargo ship was struck by an unknown projectile near Al Khasab, Oman early Tuesday — investigation ongoing. Iranian media separately claims a strike on a US base in northern Kuwait (unconfirmed, video circulating on social media).",
+    "📜 THE CORE DISPUTE, PLAINLY: Washington says the collapsed June MOU required Iran to fully open Hormuz; Tehran says the same text explicitly preserved Iran's authority over shipping traffic. Iran's FM (Sun): the strait 'will in no way return to the status it was before February 28th.'",
+    "🇮🇶 Iraq front still live — Iran-backed militias carried out fresh drone attacks on US interests, including sites in the Kurdish region. Syria's interim president met Iraqi Kurdistan's leader in Damascus amid the heightened regional tensions.",
+    "🛢 OIL: Brent fell ~4.7% Monday to $83.82 on the strike-cancellation relief (still +16% for the trailing month), edged back up to ~$84.82 Tuesday morning as the overnight ship attacks tempered the optimism. Turkey-Iraq extended their oil pipeline deal 1yr; Kazakhstan resumed CPC loadings; OPEC+ approved another modest output hike.",
+    "📉 MARKETS: after Monday's ~800pt Sensex relief rally (closed 78,639.03, Nifty 24,774.30), Tuesday opened with a gap-down — Sensex +68pts to ~78,708, but Nifty actually fell 180pts to ~24,595 (below 24,600) as a new Closing Auction Session framework took effect alongside the overnight caution. IT, Realty, Cement lead the pullback."
   ],
   "whatChanged": {
-    "label": "WHAT CHANGED — AUGUST 3, 8:45 AM IST (DAY 156) — SINCE FRI 2:15 PM: THE BIGGEST DE-ESCALATION SIGNAL OF THE WAR",
+    "label": "WHAT CHANGED — AUGUST 4, 11:15 AM IST (DAY 157) — HOPE MEETS RESISTANCE",
     "items": [
       {
-        "color": "green",
-        "bold": "TRUMP CANCELS THE WEEKEND STRIKES — TALKS RESUME TODAY",
-        "text": "Late Saturday, Trump announced on Truth Social that Iran and 'other Middle Eastern countries' had asked the US to hold off on the strikes planned for the weekend, saying 'the perimeters of a deal has been agreed to.' He said he'd agreed to cancel the attack 'for the future benefit of the WORLD' — subject to a deal being rapidly finalized — and that Israel is part of the commitment to hold off. Sunday, Trump confirmed US-Iran negotiations resume today (Monday), telling reporters 'it begins tomorrow afternoon [US time]. We'll see.'"
+        "color": "orange",
+        "bold": "THE 'IMMINENT DEAL' STORY HAS TWO VERY DIFFERENT VERSIONS",
+        "text": "Trump told reporters Monday that US-Iran talks 'are going on right now,' warning Tehran this was a 'last chance' to sign a good deal and that a Hormuz-reopening agreement was imminent. Iran's Foreign Ministry directly contradicted this, saying there are currently no negotiations with the United States — only ongoing talks with Oman about a 'temporary' shipping route, not the strait's overall status. This is not a minor discrepancy; it goes to whether real bilateral diplomacy is happening at all."
       },
       {
-        "color": "green",
-        "bold": "SAUDI ARABIA'S MBS PERSONALLY DROVE THE DECISION",
-        "text": "Saudi state media confirmed Crown Prince Mohammed bin Salman called Trump directly to urge 'de-escalation and diplomacy' and 'prioritizing dialogue to reduce escalation.' A CNN military analyst noted Saudi Arabia is economically exposed — much of its oil and export trade depends on Hormuz reopening — giving Riyadh real leverage with Washington. Reports also point to practical US constraints behind the decision: concerns about depleting Patriot missile stockpiles, the risk of the war becoming a full regional conflagration, and Gulf allies' vulnerability to Iranian retaliation."
+        "color": "red",
+        "bold": "SHIPS ARE STILL BEING HIT — EVEN AS BOTH SIDES TALK PEACE",
+        "text": "A tanker caught fire off Oman Monday night after being struck by an unknown projectile (UKMTO); no casualties. Early Tuesday, a cargo ship reported being hit by an unknown projectile roughly 20 nautical miles northeast of Al Khasab, Oman — authorities are investigating. Iranian media separately claimed a strike on a US military base in northern Kuwait, with video circulating on social media, though this remains unconfirmed by CENTCOM or other Western sources."
       },
       {
         "color": "cyan",
-        "bold": "THE REPORTED DEAL FRAMEWORK",
-        "text": "Trump says any deal must include the 'Immediate, Complete, and Total Opening' of the Strait of Hormuz and 'an end to Iran's nuclear threat.' A regional official briefed on the mediation told CBS the proposal also calls for Iran to halt attacks by Iraqi militias on Gulf states and Jordan, in exchange for the US ending its naval blockade on Iran and allowing Tehran to resume oil exports under the terms of the earlier, collapsed ceasefire deal. Nothing is signed — Investing.com reports Iran has not yet formally agreed to reopen the strait."
+        "bold": "THE ACTUAL DISPUTE OVER THE JUNE MOU, STATED PLAINLY",
+        "text": "Reuters lays out the core disagreement clearly: Washington maintains the June memorandum of understanding required Iran to fully open the Strait of Hormuz, while Tehran says the same text explicitly preserved Iran's authority over shipping traffic through it. Iran's Foreign Minister said Sunday the strait 'will in no way return to the status it was before February 28th' — a hardline framing that sits uneasily next to Trump's 'imminent deal' claims."
       },
       {
-        "color": "orange",
-        "bold": "THE AUG 1 FUEL REVIEW: RELIEF FOR HOUSEHOLDS, FOR NOW",
-        "text": "Despite Brent's 24% surge in July — its strongest monthly gain since March — India's August 1 monthly review left domestic LPG, petrol and diesel unchanged; only commercial LPG cylinders were cut. Separately, the Modi government approved 'Samudra Manthan', a ₹84,084 crore national offshore exploration scheme aimed at reducing India's long-term dependence on Hormuz-transiting oil and gas."
+        "color": "cyan",
+        "bold": "MARKETS PULL BACK FROM MONDAY'S RELIEF RALLY",
+        "text": "After Monday's sharp rally (Sensex touched a morning high of 78,895, up ~800 points, before closing at 78,639.03; Nifty closed 24,774.30) on hopes the war was de-escalating, Tuesday opened far more cautiously — Sensex up modestly (~68pts) but Nifty actually down about 180 points below 24,600, coinciding with a new Closing Auction Session framework taking effect and overnight news of the fresh ship attacks. IT, Realty and Cement led the pullback."
       }
     ]
   },
   "deaths": "7,190+",
-  "deathsSub": "~3,683+ Iran, 2,730+ Lebanon, 99 Iraq, 27+ Israel, 3 US service members named/confirmed, 1 Chinese worker (Kuwait), 50+ Gulf, 2 India CONFIRMED & NAMED: Heramb Karmarkar (GFS Galaxy, Jul 12) and Rohan Kumar (Mombasa B/Al Bahiyah, Jul 14). Strikes paused since Trump's weekend cancellation; US-Iran negotiations resume Aug 3 — the first real de-escalation window since the war re-intensified in mid-July.",
+  "deathsSub": "~3,683+ Iran, 2,730+ Lebanon, 99 Iraq, 27+ Israel, 3 US service members named/confirmed, 1 Chinese worker (Kuwait), 50+ Gulf, 2 India CONFIRMED & NAMED: Heramb Karmarkar (GFS Galaxy, Jul 12) and Rohan Kumar (Mombasa B/Al Bahiyah, Jul 14). Direct US-Iran strikes remain paused since Aug 1, but ship attacks in Hormuz continue and the diplomatic status is contested — Iran denies direct talks with the US even as Trump calls a deal imminent.",
   "econ": {
-    "sensex": "24,589 (Gift Nifty, pre-open)",
-    "sensexDelta": "MON AUG 3, PRE-OPEN: Gift Nifty +136pts (+0.55%) to 24,589, signalling a strong open on hopes for a US-Iran de-escalation. FRI AUG 1 CLOSE: Sensex 78,094.64 (+0.21%), Nifty 24,383.60 (+0.27%) — capped July's best month in 4 (+1.9%). Gold (22K) ₹13,256/gm.",
-    "sensexSub": "Brent slipped ~5% Monday on news that Trump canceled planned weekend strikes, easing from Friday's ~$88 close (+24% for July — strongest monthly oil gain since March). Rupee ~95.4. Petrol/Diesel/domestic LPG held unchanged in the Aug 1 review (₹111.21/₹97.83/₹941.50); only commercial LPG cut. Modi govt approved ₹84,084cr 'Samudra Manthan' offshore exploration scheme to reduce future Hormuz dependency.",
+    "sensex": "78,707.73",
+    "sensexDelta": "TUE AUG 4, ~10:30 AM: Sensex +68.70 (+0.09%) to 78,707.73, Nifty -179.70 (-0.73%) to 24,594.60 (below 24,600) — a mixed, cautious open after Monday's sharp relief rally, coinciding with a new Closing Auction Session (CAS) framework taking effect. IT, Realty, Cement led declines; Adani Ports, Trent, Hindalco, Tata Steel among gainers. MON AUG 3 CLOSE: Sensex 78,639.03 (touched an ~800pt intraday high of 78,895.10), Nifty 24,774.30 — Bajaj Finance, Bajaj Finserv, ITC led the rally on the strike-cancellation relief.",
+    "sensexSub": "Brent fell 4.7% Monday to $83.82 (still +16% trailing month) on the strike-cancellation relief; edged up to ~$84.82 Tuesday morning as fresh overnight ship attacks near Hormuz tempered the optimism. Rupee ~95.4. Petrol/Diesel/domestic LPG unchanged: ₹111.21/₹97.83/₹941.50. Technical support for Nifty at 24,500, resistance near 24,900.",
     "vix": "~13.1 — EASING",
     "vixDelta": "-4.51% to 13.14 Wed open, ~-3% at close — volatility compressing despite blockade. Tue: 13.75 (+3.53%). Well below wartime 24-27; markets treating this as a contained maritime campaign, not full war.",
     "fpi": "-Rs 739.69 Cr",
@@ -50,10 +50,10 @@
     "analysis": "Equities are absorbing the blockade far better than the April original — Wednesday closed green despite Brent at $85 and daytime strikes. The stress has migrated to the currency and wholesale prices: rupee past 96 (first since May) with options pricing further downside, and WPI at 9.87%. Watch: rupee 96.50 resistance, Brent $86.36 (this morning's high), Nifty 24,000 support, OMC under-recovery at $86 Brent, and whether FII financial-sector buying survives the oil tape."
   },
   "hormuzStatus": {
-    "status": "The most significant de-escalation signal of the war: Trump canceled planned weekend strikes after Iran, Saudi Arabia, the UAE and Qatar all asked him to hold off, citing progress toward a deal. US-Iran negotiations resume today. Trump says any deal requires the 'immediate, complete, and total' reopening of Hormuz — but Iran has not yet formally agreed to this, and the current status remains a ceasefire-in-strikes plus a resumed negotiating track, not a resolved strait.",
+    "status": "The diplomatic picture fractured on close inspection: Trump insists direct US-Iran talks are underway and a deal is imminent, but Iran's Foreign Ministry denies any direct negotiations are happening, describing its only active talks as being with Oman over a 'temporary' shipping route — not a resolution of the strait's status. Meanwhile, actual attacks on shipping continued overnight, undercutting the sense that a real de-escalation is locked in.",
     "preWarFlow": "~90-140 ships/day",
-    "currentFlow": "No confirmed change in Hormuz shipping activity yet — this is a diplomatic and military pause, not yet a reopening. The reported deal framework would have Iran halt Iraqi-militia attacks on Gulf states and Jordan in exchange for the US ending its naval blockade and letting Iran resume oil exports, mirroring the terms of the earlier collapsed ceasefire.",
-    "reduction": "Brent slipped roughly 5% on the news of canceled strikes, pulling back from Friday's ~$88 close that had capped a 24% monthly surge — July's strongest oil gain since March. The market is treating this as a genuine, if fragile, de-escalation signal. Whether it holds depends on whether this weekend's diplomatic 'perimeters' become an actual signed agreement in the negotiations starting today.",
+    "currentFlow": "No confirmed reopening. A tanker caught fire off Oman Monday night; a cargo ship was hit near Al Khasab early Tuesday; both incidents remain under investigation with no claim of responsibility. Bloomberg has reported Iran and Oman are discussing reopening a 'middle passage' through Hormuz, but the route has reportedly been mined by Iran and would need clearing before regular use.",
+    "reduction": "Brent fell 4.7% Monday to $83.82 on the strike-cancellation relief, still up roughly 16% over the trailing month, before edging back up to ~$84.82 Tuesday morning as the fresh ship attacks tempered the optimism. Elsewhere, supply-side pressure is easing modestly on unrelated fronts: Turkey and Iraq extended their oil pipeline agreement by a year, Kazakhstan resumed Caspian Pipeline Consortium loadings, and OPEC+ approved another modest output increase.",
     "indianVesselsNear": 7,
     "indianSeafarers": 148,
     "indianTransited": 1,
@@ -1028,8 +1028,8 @@
     }
   ],
   "assessment": {
-    "headline": "DAY 156, 8:45 AM MON AUG 3: THE BIGGEST DE-ESCALATION MOMENT OF THE WAR. TRUMP CANCELED PLANNED WEEKEND STRIKES ON IRAN AFTER TEHRAN, SAUDI ARABIA, THE UAE AND QATAR ALL ASKED HIM TO HOLD OFF — CITING PROGRESS TOWARD A DEAL THAT WOULD FULLY REOPEN HORMUZ. US-IRAN NEGOTIATIONS RESUME TODAY. NOTHING IS SIGNED YET. BRENT SLIPPED ~5% ON THE NEWS; INDIAN MARKETS SET FOR A STRONG OPEN.",
-    "body": "Monday 8:45 AM IST. Day 156. The most hopeful 72 hours of this war so far.\n\nWHAT HAPPENED OVER THE WEEKEND\n• Saturday night, Trump announced on Truth Social that Iran and 'other Middle Eastern countries' asked the US to hold off on strikes planned for the weekend, citing 'the perimeters of a deal has been agreed to.' He said the US remains 'locked and loaded' but agreed to cancel the attack 'for the future benefit of the WORLD' — conditional on rapidly finalizing a deal. Israel is reportedly part of the commitment to hold off.\n• Sunday, Saudi state media confirmed Crown Prince Mohammed bin Salman called Trump directly to urge 'de-escalation and diplomacy.' A CNN analyst noted Saudi Arabia is economically exposed via Hormuz and carries real weight with Washington as a key Gulf ally.\n• Trump confirmed Sunday that US-Iran negotiations resume today: 'It begins this afternoon. We'll see.'\n\nTHE REPORTED DEAL FRAMEWORK\n• Trump's stated terms: 'Immediate, Complete, and Total Opening of the Strait of Hormuz, and an end to Iran's nuclear threat.'\n• A regional official briefed on mediation told CBS the proposal also includes Iran halting Iraqi-militia attacks on Gulf states and Jordan, in exchange for the US ending its naval blockade on Iran and allowing Tehran to resume oil exports — largely mirroring the terms of the ceasefire deal that collapsed weeks ago.\n• Important caveat: Investing.com reports Iran has not formally agreed to reopen the strait. This is a strike pause and a resumed negotiating track — not a signed agreement.\n\nWHY NOW? PRACTICAL FACTORS, NOT JUST DIPLOMACY\n• Reporting (NYT, Seoul Economic Daily) suggests the decision reflects real operational constraints as much as diplomatic breakthrough: concerns about depleting US Patriot missile stockpiles, the risk of the conflict spiraling into a full regional war, and the exposure of Gulf allies like Saudi Arabia to Iranian retaliation.\n\nINDIA — THE AUG 1 FUEL REVIEW LANDED SOFTLY\n• Despite Brent's 24% July surge (its strongest monthly gain since March), India's August 1 monthly fuel review left domestic LPG, petrol and diesel prices unchanged — only commercial LPG cylinders were cut (₹202 in Delhi, ₹209 in Kolkata for 19kg). The government appears to be absorbing costs via OMCs rather than passing them to households, at least for now.\n• The Modi government separately approved 'Samudra Manthan', a ₹84,084 crore national offshore exploration scheme explicitly aimed at reducing India's long-term dependence on oil and gas transiting Hormuz — a strategic, not just tactical, response to this war.\n\nMARKETS\n• Brent slipped roughly 5% on the strike-cancellation news, pulling back from Friday's ~$88 close. Gift Nifty is up 136 points to 24,589, pointing to a strong Monday open on the de-escalation hopes.\n\nWATCHLIST\n• Whether today's resumed talks produce an actual signed framework, or stall like the June MOU did.\n• Whether Iran formally commits to reopening Hormuz — the one concrete deliverable markets are watching for.\n• Whether the ceasefire-in-strikes holds through the negotiation, or breaks down as it did after the last pause."
+    "headline": "DAY 157, 11:15 AM TUE AUG 4: THE DIPLOMATIC PICTURE IS MORE FRAGILE THAN MONDAY'S HEADLINES SUGGESTED. TRUMP CALLS A HORMUZ DEAL 'IMMINENT' AND SAYS TALKS ARE UNDERWAY; IRAN'S FOREIGN MINISTRY DENIES ANY DIRECT US NEGOTIATIONS, SAYING IT'S ONLY DISCUSSING A TEMPORARY ROUTE WITH OMAN. TWO MORE SHIPS WERE HIT OVERNIGHT. INDIAN MARKETS OPENED MIXED AFTER MONDAY'S SHARP RELIEF RALLY.",
+    "body": "Tuesday 11:15 AM IST. Day 157. The gap between Monday's optimism and Tuesday's reality is the story.\n\nTWO VERSIONS OF THE SAME NEGOTIATION\n• Trump told reporters Monday that talks with Iran 'are going on right now,' calling it Tehran's 'last chance' to sign a deal and saying a Hormuz-reopening agreement was imminent. He said talks were happening at the request of Iran, Saudi Arabia, the UAE and Qatar.\n• Iran's Foreign Ministry directly contradicted this: no negotiations with the US are underway. Iran says it is talking only to Oman, and only about a 'temporary' route to keep some ships moving safely — not about reopening the strait as a whole.\n• The underlying dispute, per Reuters: Washington maintains the collapsed June MOU required Iran to fully open Hormuz; Tehran says the same text explicitly preserved its authority over shipping traffic. This textual disagreement is the crux of why 'imminent deal' claims and hardline Iranian statements can both be technically true.\n\nSHIPS ARE STILL GETTING HIT\n• A tanker caught fire off Oman Monday night (unknown projectile, no casualties). A cargo ship was struck near Al Khasab, Oman early Tuesday — under investigation. Iranian media claims (unconfirmed) a strike on a US base in northern Kuwait.\n• The Iraq front remains active too: Iran-backed militias carried out fresh drone attacks on US interests, including Kurdish-region sites.\n\nOIL AND MARKETS\n• Brent fell 4.7% Monday to $83.82 on the cancellation relief, edging back to ~$84.82 Tuesday morning as overnight attacks tempered sentiment. Elsewhere, supply pressure eased modestly: Turkey-Iraq extended their pipeline deal, Kazakhstan resumed CPC loadings, and OPEC+ approved another output increase.\n• Indian markets: Monday's rally was sharp — Sensex touched a ~800-point morning high before closing at 78,639.03, Nifty at 24,774.30. Tuesday opened far more cautiously: Sensex up only modestly (~68pts), but Nifty actually fell ~180pts below 24,600, alongside the debut of a new Closing Auction Session framework and overnight caution from the fresh ship attacks.\n\nWATCHLIST\n• Whether Iran and the US clarify — or continue to contradict — each other on whether direct talks are actually happening.\n• Whether the 'middle passage' reopening Iran and Oman are reportedly discussing gets any further, given it apparently needs demining first.\n• Whether further ship attacks derail the fragile calm entirely, as happened after the last pause in late July."
   },
   "featured": [
     {
@@ -1583,17 +1583,27 @@
       "rupee": 95.43,
       "tag": "WEEKEND — MAJOR DE-ESCALATION: Trump canceled planned strikes on Iran after Tehran, Saudi Arabia, UAE and Qatar all asked him to hold off, citing 'perimeters of a deal'. Saudi Crown Prince MBS personally called Trump urging de-escalation. Deal terms per Trump: 'Immediate, Complete, Total Opening' of Hormuz + end to Iran's nuclear threat; reported to also include Iran halting Iraqi-militia attacks on Gulf states/Jordan in exchange for the US ending its naval blockade. Trump confirms US-Iran talks resume Monday. Markets closed.",
       "sev": 2
+    },
+    {
+      "d": 156,
+      "l": "Aug 3",
+      "deaths": 7199,
+      "brent": 83.82,
+      "nifty": 24774.3,
+      "rupee": 95.4,
+      "tag": "Trump: US-Iran talks 'going on right now', deal to reopen Hormuz 'imminent', Tehran's 'last chance'. Iran's FM ministry denies direct US talks — says only negotiating a 'temporary route' with Oman; Iran's FM: strait 'will in no way return to status before Feb 28'. War Sec Hegseth confirms US was poised for massive strikes Sat night before Trump canceled. Iraq front active: Iran-backed militias drone-attack US interests incl. Kurdish sites. Brent fell 4.7% to $83.82 on relief. Markets: Sensex touched 800pt morning high, closed 78,639.03; Nifty closed 24,774.30 — sharp relief rally.",
+      "sev": 2
     }
   ],
   "exec": {
     "level": "MODERATE-HIGH",
-    "phase": "TALKS RESUME TODAY — STRIKES CANCELED, DEAL NOT YET SIGNED",
-    "oilNote": "Slipped ~5% on the strike cancellation, easing off Friday's ~$88 close (+24% for July, strongest monthly gain since March)",
-    "shipping": "NO CONFIRMED CHANGE YET — IRAN HASN'T FORMALLY AGREED TO REOPEN",
-    "shippingSub": "Trump's stated deal terms demand 'immediate, complete, total' reopening of Hormuz — but this is a negotiating position, not a signed agreement",
-    "military": "STRIKES CANCELED, US-IRAN TALKS RESUME TODAY",
-    "militarySub": "Saudi MBS personally lobbied Trump for de-escalation. Israel included in the hold-off commitment. War dead 7,190+ incl. 2 confirmed, named Indians",
-    "indiaSub": "Gift Nifty +136pts to 24,589 — strong open expected. Aug 1 fuel review: domestic LPG/petrol/diesel held steady despite July's 24% oil surge"
+    "phase": "TALKS CONTESTED — TRUMP SAYS 'IMMINENT', IRAN DENIES DIRECT TALKS",
+    "oilNote": "Fell 4.7% Mon to $83.82 on the relief, edged back to ~$84.82 Tue AM as overnight ship attacks tempered optimism",
+    "shipping": "2 MORE SHIPS HIT OVERNIGHT DESPITE THE 'PEACE TALK'",
+    "shippingSub": "Tanker fire off Oman (Mon night); cargo ship hit near Al Khasab (Tue AM). Core MOU dispute: US says Iran must open Hormuz; Iran says text preserved its authority.",
+    "military": "IRAQ FRONT STILL ACTIVE; KUWAIT BASE CLAIM UNCONFIRMED",
+    "militarySub": "Iran-backed militias drone-attacked US interests in Iraq incl. Kurdish sites. War dead 7,190+ incl. 2 confirmed, named Indians",
+    "indiaSub": "Sensex +68pts to ~78,708 (Tue AM) after Monday's ~800pt relief rally; Nifty actually fell ~180pts to ~24,595 — a cautious, mixed open"
   },
   "hormuzPhases": [
     {
@@ -1637,7 +1647,7 @@
       "days": "Jul 11–"
     }
   ],
-  "_phaseBadge": "🟢 TRUMP CANCELS WEEKEND STRIKES, US-IRAN TALKS RESUME TODAY — DEAL 'PERIMETERS' INCLUDE FULL HORMUZ REOPENING",
+  "_phaseBadge": "🟡 IRAN DENIES DIRECT US TALKS EVEN AS TRUMP CALLS DEAL 'IMMINENT' · TANKER, CARGO SHIP BOTH HIT OVERNIGHT",
   "budget": {
     "petrolPre": 94.72,
     "petrolNow": 111.21,
@@ -1647,11 +1657,11 @@
     "lpgNow": 942.0
   },
   "brief": [
-    "Day 156 of the West Asia war, 8:45 AM update. Overall risk to India right now: easing, cautiously — this is the most hopeful moment of the war so far.",
-    "Big news over the weekend: Trump called off planned strikes on Iran after Iran itself, plus Saudi Arabia, the UAE and Qatar, all asked him to hold off — saying the outline of a deal had been agreed. Saudi Arabia's crown prince personally called Trump to push for de-escalation. Talks between the US and Iran restart today.",
-    "The deal being discussed would fully reopen the Strait of Hormuz and end Iran's nuclear threat, in exchange for the US lifting its naval blockade on Iran. Nothing is signed yet, and Iran hasn't formally agreed to reopen the strait — so treat this as a real opening, not a done deal.",
-    "Good news for households: even though oil jumped 24% in July — its biggest monthly rise since March — India's August 1 price review left petrol, diesel and home LPG cylinders unchanged. Only commercial LPG got cheaper. The government also approved a big new domestic oil exploration plan to reduce reliance on the strait long-term.",
-    "Markets are cheering: oil eased about 5% this morning and Indian futures point to a strong open. Bottom line: after months of escalation, this is the first weekend where the story was genuinely about peace talks resuming rather than new strikes. Worth watching closely whether it holds."
+    "Day 157 of the West Asia war, 11:15 AM update. Overall risk to India right now: moderate-to-high, and genuinely uncertain — yesterday's optimism looks shakier this morning.",
+    "The confusing bit: Trump says US-Iran talks are happening right now and a deal to fully reopen the Strait of Hormuz is close. Iran's government says the opposite — no direct talks with the US at all, only discussions with Oman about a temporary, limited shipping route. Both statements can't fully be true at once.",
+    "And even while everyone talks peace, two more ships were hit overnight — a tanker caught fire off Oman, and a cargo ship was struck near the Omani coast early this morning. Nobody's claimed responsibility yet.",
+    "The core disagreement, in plain terms: the US says Iran promised in an earlier deal to fully open the strait; Iran says that same deal actually let it keep control over which ships pass. That gap is why 'a deal is imminent' and 'the strait stays closed' can both be said in the same 24 hours.",
+    "For India: markets rallied hard yesterday on hopes of peace, but pulled back this morning — Nifty actually fell despite Sensex holding small gains. Petrol, diesel and LPG remain unchanged. Bottom line: treat yesterday's relief rally as hope, not certainty — the actual situation on the ground hasn't caught up to the optimism yet."
   ],
-  "shareLine": "The biggest de-escalation yet: Trump canceled planned strikes on Iran this weekend after Tehran, Saudi Arabia, UAE and Qatar all asked him to. US-Iran talks resume today. Oil eased 5%, Indian markets set for a strong open. Nothing's signed — but it's the first hopeful weekend in months."
+  "shareLine": "Trump says a Hormuz deal is imminent. Iran says there are no direct talks at all. Meanwhile 2 more ships got hit overnight. Markets that rallied hard on Monday's peace hopes are already pulling back Tuesday."
 }
