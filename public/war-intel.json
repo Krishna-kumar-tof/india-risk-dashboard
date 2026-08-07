@@ -1,46 +1,47 @@
 {
-  "_updated": "August 5, 2026 — 11:00 AM IST",
-  "_day": 158,
-  "_phase": "TALKS ADVANCING — MAJOR IRANIAN CONCESSION REPORTED",
+  "_updated": "August 7, 2026 — 11:15 AM IST",
+  "_day": 160,
+  "_phase": "TALKS CONTINUE, BUT HORMUZ TENSIONS FLARE AGAIN",
   "_note": "Verified: NPR, CNN, CBS, Fox News, The Hill, Washington Times (Jul 15-16), CENTCOM statements, HDFC Sky, Business Standard (Jul 14-15 closes), TradingEconomics, Investing.com (Brent live Jul 16), Zee Business",
   "ticker": [
-    "🟢 DAY 158 WED 11:00 AM IST: REUTERS — sources say the proposed Iran-Oman deal would give Tehran control over ships ENTERING the Gulf through Hormuz, described as 'among the biggest concessions yet in the five-month-old war'. Iran's Deputy FM: talks with Oman have reached 'fundamental understandings', close to finalised — though key details remain unresolved.",
-    "⚠ IRAN ALSO WARNED Gulf states that any fresh US attack would trigger retaliation against REGIONAL ENERGY INFRASTRUCTURE — a deterrent signal alongside the diplomatic progress.",
-    "🛢 Crude extended its slide for a 2nd/3rd session as Trump held off on renewed strikes; WTI near $80.95 after an earlier 5%+ drop. Wall Street closed at records overnight (Nasdaq +2.59%, S&P +1.79%, Dow +1.71%) on the Middle East optimism; Nikkei surged 3.64%.",
-    "📈 MARKETS: Sensex holding gains through late morning (~78,785 at 9:30 AM, +356pts) while Nifty stayed roughly flat/slightly negative (24,610) — the Sensex-Nifty divergence persists for a third straight session. Broader Asia mixed: Nikkei/Hang Seng down, Australia/Pakistan up.",
-    "🇮🇳 Petrol/diesel/domestic LPG unchanged (₹111.21/₹97.83/₹941.50). RBI held rates this morning and flagged West Asia tensions as a watch risk (see prior update)."
+    "🟡 DAY 160 FRI 11:15 AM IST: OIL REVERSES COURSE — Brent topped $83 (from ~$79 midweek) after Iran's parliament reviewed a bill to BAR US and Israeli vessels from the Strait of Hormuz. Iran also finalizing its Oman shipping deal, but Tehran's deputy FM warns this 'would not necessarily mean a reopening' of the strait.",
+    "🇸🇦 SAUDI ARABIA BRACING for 'multiple coordinated attacks' by Iraqi militias working with Houthi rebels, a Saudi official told CNN — the Houthis separately claimed a 'large-scale' operation against Saudi troops and an attack on a Saudi oil tanker in the Gulf of Aden.",
+    "🏛 IRAN'S FM ARAGHCHI must answer parliament Friday about negotiation details — a sign of domestic political pressure over the Oman talks. Controlled explosions (likely demining) heard near Khormoj, Bushehr province.",
+    "💣 TRUMP: privately complained that reports of the Pentagon's dwindling munitions stockpile make the US look weak in negotiations (per senior officials) — even as he publicly claimed the US has 'massive amounts' of munitions.",
+    "📊 US CASUALTY COUNT (DCAS, official): 18 US troops killed, 687 wounded since the war began Feb 28 — including 4 dead and 270 wounded from renewed fighting since Jul 7.",
+    "📉 MARKETS: Sensex fell 439pts (-0.55%) to 78,516 at open, Nifty -97pts to 24,539 — reversing Thursday's gains as Brent's rise weighed; partly recovered by late morning (Sensex -388, Nifty -52). Bajaj Finance/Finserv separately hit by new RBI draft NBFC lending norms — a domestic, non-war factor."
   ],
   "whatChanged": {
-    "label": "WHAT CHANGED — AUGUST 5, 11:00 AM IST (DAY 158) — A REAL CONCESSION, NOT JUST TALK",
+    "label": "WHAT CHANGED — AUGUST 7, 11:15 AM IST (DAY 160) — HORMUZ TENSIONS FLARE AFTER MIDWEEK OPTIMISM",
     "items": [
       {
-        "color": "green",
-        "bold": "REUTERS: IRAN WOULD GET CONTROL OF GULF-ENTRY SHIPS — THE BIGGEST CONCESSION YET",
-        "text": "Sources told Reuters the proposed Iran-Oman deal would give Tehran control over ships entering the Gulf through the Strait of Hormuz — among the biggest concessions of the five-month-old war, though sources cautioned key details remain unresolved. This is a more concrete, sourced version of the 'service fee channel' reporting from yesterday, and suggests real movement toward an arrangement, even if it falls short of the 'total opening' Trump has publicly demanded."
-      },
-      {
-        "color": "cyan",
-        "bold": "IRAN'S DEPUTY FM: TALKS 'CLOSE TO BEING FINALISED'",
-        "text": "Iran's Deputy Foreign Minister said talks with Oman had reached fundamental understandings and were close to being finalised. This is a more optimistic framing than Monday's contradictions, though it applies specifically to the Iran-Oman channel, not a broader US-Iran agreement."
+        "color": "red",
+        "bold": "IRAN REVIEWS A BILL TO BAR US AND ISRAELI SHIPS FROM HORMUZ — OIL JUMPS",
+        "text": "After Brent fell as low as ~$79 midweek on de-escalation hopes, it reversed sharply — climbing over 3% Thursday to settle at $82.49, then topping $83 Friday — after Iran's parliament reviewed a proposed bill to bar US and Israeli vessels from the strait. This directly undercuts the optimism from Wednesday's Iran-Oman 'concession' reporting and is a reminder that Iran's negotiating and legislative tracks can move in opposite directions simultaneously."
       },
       {
         "color": "orange",
-        "bold": "IRAN WARNS GULF STATES OF RETALIATION AGAINST ENERGY INFRASTRUCTURE",
-        "text": "Even as diplomacy advances, Iran separately warned Gulf states that any fresh US attack would trigger retaliation against regional energy infrastructure — a reminder the underlying threat calculus hasn't disappeared, only the immediate strike risk has receded for now."
+        "bold": "SAUDI ARABIA BRACES FOR 'COORDINATED ATTACKS'",
+        "text": "A Saudi official told CNN the kingdom is bracing for multiple coordinated attacks by Iraqi militias working together with Iran-backed Houthi rebels — a significant escalation warning. The Houthis separately claimed a 'large-scale' military operation against Saudi troops and an attack on a Saudi oil tanker in the Gulf of Aden, near the Bab al-Mandeb strait."
       },
       {
         "color": "cyan",
-        "bold": "WALL STREET AND ASIA RALLIED OVERNIGHT ON THE OPTIMISM",
-        "text": "US markets closed at records overnight — Nasdaq +2.59%, S&P 500 +1.79%, Dow +1.71% — while Japan's Nikkei surged 3.64%, reflecting the broader global read that Middle East tensions are genuinely easing. Indian markets are participating more cautiously, with the Sensex-Nifty divergence continuing into a third session."
+        "bold": "THE OMAN DEAL IS REAL BUT DELIBERATELY LIMITED",
+        "text": "Iran's deputy foreign minister confirmed talks with Oman on a shipping framework are close to finalized — but explicitly warned this would not necessarily mean a reopening of the strait, through which roughly 20% of the world's oil and LNG trade passed before the war. Iran's Foreign Minister Araghchi must also answer parliament Friday about negotiation details, suggesting real domestic political scrutiny of how much Tehran is conceding."
+      },
+      {
+        "color": "cyan",
+        "bold": "TRUMP'S MUNITIONS STOCKPILE BECOMES A NEGOTIATING LIABILITY",
+        "text": "Senior US officials say Trump has privately complained that reports of the Pentagon's dwindling munitions stockpile make the US look weak at the negotiating table — even as he publicly insisted the US has 'massive amounts' of munitions. This is a notable admission that military-readiness constraints, not just diplomacy, are shaping US posture, consistent with earlier reporting on why strikes were paused in early August."
       }
     ]
   },
   "deaths": "7,190+",
-  "deathsSub": "~3,683+ Iran, 2,730+ Lebanon, 99 Iraq, 27+ Israel, 3 US service members named/confirmed, 1 Chinese worker (Kuwait), 50+ Gulf, 2 India CONFIRMED & NAMED: Heramb Karmarkar (GFS Galaxy, Jul 12) and Rohan Kumar (Mombasa B/Al Bahiyah, Jul 14). US-Iran direct strikes remain paused since Aug 1; Trump has threatened 'decapitation' if talks fail, but the US naval blockade — not new strikes — remains the active military pressure point.",
+  "deathsSub": "~3,683+ Iran, 2,730+ Lebanon, 99 Iraq, 27+ Israel, 18 US service members KILLED and 687 WOUNDED (official DCAS database, since Feb 28 — incl. 4 dead/270 wounded from renewed fighting since Jul 7), 1 Chinese worker (Kuwait), 50+ Gulf, 2 India CONFIRMED & NAMED: Heramb Karmarkar (GFS Galaxy, Jul 12) and Rohan Kumar (Mombasa B/Al Bahiyah, Jul 14). Note: this dashboard's earlier US toll estimates (17-20, various sources) are now superseded by the official Pentagon DCAS figure of 18 killed.",
   "econ": {
-    "sensex": "79,055.38 (open) → 78,785.34 (9:30 AM)",
-    "sensexDelta": "WED AUG 5, 9:30 AM: Sensex +356.39 (+0.45%) to 78,785.34, Nifty -4.60 (flat) to 24,610.30 — Sensex-Nifty divergence persists for a 3rd session. OPEN: Sensex +626.43 to 79,055.38, Nifty +54.30 to 24,669.20. Overnight: Wall Street closed at records (Nasdaq +2.59%, S&P +1.79%, Dow +1.71%); Nikkei +3.64%. RBI held rates, flagged West Asia tensions as a watch risk.",
-    "sensexSub": "WTI recovering to ~$80.95 after an earlier 5%+ drop; Brent extending its multi-day slide on hopes the Iran-Oman deal (giving Iran control of Gulf-entry ships) will hold. Rupee ~95.4. Petrol/Diesel/domestic LPG unchanged: ₹111.21/₹97.83/₹941.50.",
+    "sensex": "78,516.08 (open) → 78,567.16 (11 AM)",
+    "sensexDelta": "FRI AUG 7, OPEN: Sensex -438.68 (-0.55%) to 78,516.08, Nifty -97.10 to 24,538.90 — reversing Thursday's gains as Brent topped $83. BY 11:00 AM: Sensex -388 (-0.49%) to 78,567.16, Nifty -52.15 (-0.21%) to 24,583.85 — a partial recovery; Bajaj Finance/Bajaj Finserv led losses (-4%/-3%+) on new RBI draft NBFC lending norms, a domestic factor unrelated to the war. THU AUG 6 CLOSE: Sensex 78,954.76, Nifty 24,636 — rose on Reliance strength and Wed's crude relief. FIIs sold a modest ₹17.86cr Aug 5 (2nd straight day of light selling); DIIs bought ₹4,013.60cr.",
+    "sensexSub": "Brent reversed sharply this week: fell to ~$79 Tue-Wed, then jumped to $82.49 Thu (+3.8%) and above $83 Fri, after Iran's parliament reviewed a bill barring US/Israeli vessels from Hormuz. WTI ~$78. Rupee ~95.4. Petrol/Diesel/domestic LPG unchanged: ₹111.21/₹97.83/₹941.50. US July payrolls data due today — a separate market driver.",
     "vix": "~13.1 — EASING",
     "vixDelta": "-4.51% to 13.14 Wed open, ~-3% at close — volatility compressing despite blockade. Tue: 13.75 (+3.53%). Well below wartime 24-27; markets treating this as a contained maritime campaign, not full war.",
     "fpi": "-Rs 739.69 Cr",
@@ -49,10 +50,10 @@
     "analysis": "Equities are absorbing the blockade far better than the April original — Wednesday closed green despite Brent at $85 and daytime strikes. The stress has migrated to the currency and wholesale prices: rupee past 96 (first since May) with options pricing further downside, and WPI at 9.87%. Watch: rupee 96.50 resistance, Brent $86.36 (this morning's high), Nifty 24,000 support, OMC under-recovery at $86 Brent, and whether FII financial-sector buying survives the oil tape."
   },
   "hormuzStatus": {
-    "status": "The most concrete diplomatic development yet: Reuters sources say the Iran-Oman deal under discussion would give Iran control over ships entering the Gulf through Hormuz — described as among the biggest concessions of the war so far. Iran's Deputy Foreign Minister says talks have reached fundamental understandings and are close to being finalised, though key details remain unresolved. Iran has simultaneously warned Gulf states that any fresh US attack would trigger retaliation against regional energy infrastructure.",
+    "status": "A sharp reversal from mid-week optimism: Iran's parliament is reviewing a bill that would bar US and Israeli vessels from the Strait of Hormuz entirely, even as its deputy foreign minister confirms the separate Oman shipping-channel talks are close to finalized. Iran has been explicit that the Oman deal would not necessarily mean the strait reopens generally. Meanwhile Saudi Arabia is bracing for coordinated attacks by Iraqi militias and Houthi rebels, suggesting the regional risk picture is deteriorating even as the narrow US-Iran-Oman track advances.",
     "preWarFlow": "~90-140 ships/day",
-    "currentFlow": "Still no confirmed reopening or change in shipping activity. The reported arrangement — Iran controlling Gulf-entry vessels — would represent a managed, Iran-supervised system rather than a genuine free reopening, consistent with what Iranian negotiators have been signaling all week.",
-    "reduction": "Oil extended its decline as Trump held off on renewed strikes, with WTI recovering slightly to ~$80.95 after an earlier sharp drop. Global markets rallied hard overnight on the broader optimism — Wall Street closed at records, Japan's Nikkei surged over 3.6% — a strong signal that international markets increasingly believe a real de-escalation is underway, even if Indian markets are participating more cautiously.",
+    "currentFlow": "No confirmed reopening. The emerging picture is a narrow, managed Iran-Oman shipping arrangement layered on top of a broader, still-hostile legal and military posture — Iran simultaneously negotiating channel access and legislating to permanently exclude US/Israeli vessels.",
+    "reduction": "Brent has round-tripped hard this week: from a 3-session low near $79 Tuesday-Wednesday, up to $82.49 Thursday (+3.8%) and above $83 Friday morning, as the ship-barring bill news outweighed the earlier Oman-deal optimism. This volatility itself is the story — markets are struggling to price a war that keeps sending contradictory signals within the same 48-hour window.",
     "indianVesselsNear": 7,
     "indianSeafarers": 148,
     "indianTransited": 1,
@@ -1027,8 +1028,8 @@
     }
   ],
   "assessment": {
-    "headline": "DAY 158, 11:00 AM WED AUG 5: REUTERS SOURCES SAY THE PROPOSED IRAN-OMAN DEAL WOULD GIVE TEHRAN CONTROL OF SHIPS ENTERING THE GULF THROUGH HORMUZ — 'AMONG THE BIGGEST CONCESSIONS YET' IN THE WAR. IRAN'S DEPUTY FM SAYS TALKS ARE CLOSE TO FINALISED. WALL STREET CLOSED AT RECORDS OVERNIGHT ON THE OPTIMISM. INDIAN MARKETS ARE PARTICIPATING MORE CAUTIOUSLY, WITH THE SENSEX-NIFTY DIVERGENCE CONTINUING.",
-    "body": "Wednesday 11:00 AM IST. Day 158. The most concrete sign yet that something real may be taking shape.\n\nTHE REPORTED DEAL\n• Reuters sources say the Iran-Oman arrangement under discussion would give Tehran control over ships entering the Gulf through Hormuz — among the biggest concessions of the five-month war, though key details remain unresolved.\n• Iran's Deputy Foreign Minister says talks have reached 'fundamental understandings' and are close to being finalised.\n• This builds on yesterday's NYT reporting of a 'service fee' channel plan — Reuters' framing, sourced independently, suggests the broad shape of the arrangement is becoming clearer even if the fine print isn't settled.\n\nBUT THE THREAT CALCULUS HASN'T DISAPPEARED\n• Iran separately warned Gulf states that any fresh US attack would trigger retaliation against regional energy infrastructure — a reminder this is a negotiated pause, not a resolved conflict.\n\nGLOBAL MARKETS ARE BELIEVING IT\n• Wall Street closed at records overnight: Nasdaq +2.59%, S&P 500 +1.79%, Dow +1.71%. Japan's Nikkei surged 3.64%. This is a strong global signal of confidence in the de-escalation trajectory.\n• Indian markets are more cautious: Sensex is holding a solid gain (~+356pts, 78,785 as of 9:30 AM) while Nifty has stayed roughly flat to slightly negative (~24,610) — the Sensex-Nifty divergence that began Tuesday has now persisted for a third session, likely tied to the new Closing Auction Session mechanism and stock-specific moves rather than a genuine sentiment split.\n\nWATCHLIST\n• Whether the Iran-controls-entry-ships arrangement gets formalized, and whether Washington publicly accepts it as satisfying the MOU's Hormuz clause despite falling short of 'total opening'.\n• Whether Iran's Gulf-states retaliation warning is tested if talks stall again.\n• Whether the Sensex-Nifty divergence resolves as markets get used to the new Closing Auction Session framework."
+    "headline": "DAY 160, 11:15 AM FRI AUG 7: OIL REVERSED SHARPLY THIS WEEK — FROM A 3-SESSION LOW NEAR $79 TO ABOVE $83 — AFTER IRAN'S PARLIAMENT REVIEWED A BILL TO BAR US AND ISRAELI SHIPS FROM HORMUZ ENTIRELY, EVEN AS THE SEPARATE IRAN-OMAN SHIPPING DEAL NEARS COMPLETION. SAUDI ARABIA IS BRACING FOR COORDINATED ATTACKS BY IRAQI MILITIAS AND HOUTHI REBELS. INDIAN MARKETS OPENED SHARPLY LOWER, REVERSING THURSDAY'S GAINS.",
+    "body": "Friday 11:15 AM IST. Day 160. The week ends on a harder note than it started.\n\nOIL'S ROUND TRIP\n• Brent fell to a multi-session low near $79 by Tuesday-Wednesday on Iran-Oman deal optimism, then reversed sharply — up 3.8% Thursday to settle at $82.49, and above $83 Friday morning — after Iran's parliament reviewed a bill to bar US and Israeli vessels from Hormuz.\n• This is a reminder that Iran runs multiple, sometimes contradictory tracks simultaneously: a real, narrowing Oman shipping-channel negotiation alongside legislative moves that would harden the strait's closure to Western shipping specifically.\n\nTHE WAR'S RISK IS WIDENING, NOT JUST HORMUZ\n• A Saudi official told CNN the kingdom is bracing for multiple coordinated attacks by Iraqi militias working with Iran-backed Houthi rebels. The Houthis separately claimed a large-scale operation against Saudi troops and an attack on a Saudi tanker in the Gulf of Aden.\n• Iraq has begun implementing its own security plan in response.\n\nDIPLOMACY: REAL BUT DELIBERATELY LIMITED\n• Iran's deputy foreign minister confirmed the Oman shipping deal is close to finalized, but explicitly said it would not necessarily mean the strait reopens generally — Hormuz carried roughly 20% of world oil and LNG trade before the war.\n• Foreign Minister Araghchi must answer Iran's parliament Friday about negotiation details, suggesting real domestic scrutiny over how much ground Tehran is giving up.\n• Separately, senior US officials say Trump has privately complained that reports of the Pentagon's dwindling munitions stockpile make the US look weak in negotiations — even as he publicly claims 'massive amounts' of munitions remain. This corroborates earlier reporting that military readiness constraints, not just diplomacy, shaped the early-August strike pause.\n\nCASUALTIES\n• The Pentagon's official DCAS database records 18 US troops killed and 687 wounded since the war began February 28 — including 4 dead and 270 wounded in the renewed fighting since July 7.\n\nINDIA / MARKETS\n• Sensex opened down 438.68 points (-0.55%) to 78,516.08, Nifty down 97.1 to 24,538.90 — reversing Thursday's gains (Sensex had closed 78,954.76) as Brent's jump above $83 weighed on sentiment. By late morning, losses had eased somewhat (Sensex -388, Nifty -52).\n• A separate domestic factor is also weighing on markets: new RBI draft norms tightening rules on NBFC revolving credit products hit Bajaj Finance (-4%) and Bajaj Finserv (-3%+) specifically — not war-related, but adding to the day's negative mood.\n• IT stocks provided some cushion, with the BSE IT index up 441 points.\n\nWATCHLIST\n• Whether Iran's parliament actually passes the vessel-barring bill, and what that means for the Oman channel deal running in parallel.\n• Whether the Saudi 'coordinated attacks' warning materializes.\n• US July payrolls data, a purely domestic US economic release also due today and likely to move markets independent of the war."
   },
   "featured": [
     {
@@ -1602,17 +1603,37 @@
       "rupee": 95.4,
       "tag": "Trump's 24hr whiplash: called the Hormuz deal 'not very complex', said it could open 'literally by tomorrow' (AM) — then branded Iran 'unbelievably duplicitous' and threatened 'every last chance before decapitation' (PM) after Iran denied direct talks. Iranian negotiator Ajorlu: goal is a 1-3 month arrangement 'where Iran is dominant'. NYT: Iran-Oman plan has entry channel hugging Iran's coast + service fee, exit channel near Oman. CENTCOM: blockade has redirected 44 vessels, disabled 2, boarded 2. Qatar FM: interim proposal drafted, no direct US-Iran talks. Brent fell to $83.45. Markets: Sensex ~78,708 (+68pts), Nifty fell ~180pts to 24,594.60 — cautious, mixed session amid new Closing Auction Session framework.",
       "sev": 3
+    },
+    {
+      "d": 158,
+      "l": "Aug 5",
+      "deaths": 7199,
+      "brent": 80.0,
+      "nifty": 24610.3,
+      "rupee": 95.4,
+      "tag": "Reuters: proposed Iran-Oman deal would give Iran control of Gulf-entry ships — 'among biggest concessions yet'. Iran's Deputy FM: talks close to finalised. RBI held rates, flagged West Asia tensions as a policy risk. Wall Street closed at records overnight (Nasdaq +2.59%); Nikkei +3.64%. Brent fell to a multi-session low (~$79-80) on the optimism. Markets: Sensex opened +626 to 79,055, cooled through the day; Nifty roughly flat — Sensex-Nifty divergence persisted.",
+      "sev": 2
+    },
+    {
+      "d": 159,
+      "l": "Aug 6",
+      "deaths": 7199,
+      "brent": 82.49,
+      "nifty": 24636,
+      "rupee": 95.4,
+      "tag": "Trump says US has 'massive amounts' of munitions after reports of a low Pentagon stockpile; privately complained the reports make the US look weak (per officials). Iran finalizing Oman shipping deal but warns it 'would not necessarily mean' a full Hormuz reopening. Saudi Arabia bracing for 'multiple coordinated attacks' by Iraqi militias + Houthis; Houthis claim large-scale op against Saudi troops + tanker attack in Gulf of Aden. Brent rose 3.8% to settle $82.49 (WTI +2.8% to $77.29) as hopes for a deal competed with fresh Hormuz/Red Sea risk. Markets: Sensex closed 78,954.76, Nifty 24,636 — rose on Reliance strength + earlier easing crude.",
+      "sev": 3
     }
   ],
   "exec": {
-    "level": "MODERATE",
-    "phase": "TALKS ADVANCING — IRAN WOULD GAIN CONTROL OF GULF-ENTRY SHIPS",
-    "oilNote": "WTI ~$80.95 (recovering slightly after an earlier 5%+ drop); Brent extending its multi-day slide",
-    "shipping": "IRAN-OMAN DEAL: IRAN CONTROLS GULF-ENTRY SHIPS — BIGGEST CONCESSION YET",
-    "shippingSub": "Iran's Deputy FM: talks 'close to being finalised', key details still unresolved. Iran warns Gulf states of retaliation if US strikes resume.",
-    "military": "NO FRESH STRIKES; TRUMP'S 'DECAPITATION' THREAT STILL STANDS",
-    "militarySub": "US blockade remains active. War dead 7,190+ incl. 2 confirmed, named Indians",
-    "indiaSub": "Sensex holding +356pts (~78,785) through late morning; Nifty roughly flat (~24,610) — divergence persists for a 3rd session"
+    "level": "MODERATE-HIGH",
+    "phase": "HORMUZ TENSIONS FLARE — IRAN REVIEWS SHIP-BARRING BILL",
+    "oilNote": "Reversed course: fell to ~$79 midweek, jumped to $82.49 Thu (+3.8%), topped $83 Fri on the ship-barring bill news",
+    "shipping": "IRAN-OMAN DEAL NEAR DONE, BUT WON'T MEAN FULL REOPENING",
+    "shippingSub": "Iran reviewing a bill to bar US/Israeli vessels from Hormuz entirely — hardening even as the Oman channel talks conclude",
+    "military": "SAUDI BRACES FOR 'COORDINATED ATTACKS' BY IRAQI MILITIAS + HOUTHIS",
+    "militarySub": "US casualties (DCAS, official): 18 dead, 687 wounded since Feb 28. War dead 7,190+ incl. 2 confirmed, named Indians",
+    "indiaSub": "Sensex fell 439pts to 78,516 at open (partly recovered to -388 by late morning), Nifty -97pts to 24,539 — reversing Thursday's gains as oil jumped"
   },
   "hormuzPhases": [
     {
@@ -1656,7 +1677,7 @@
       "days": "Jul 11–"
     }
   ],
-  "_phaseBadge": "🟢 IRAN-OMAN DEAL WOULD GIVE IRAN CONTROL OF GULF-ENTRY SHIPS — 'BIGGEST CONCESSION YET' PER REUTERS SOURCES",
+  "_phaseBadge": "🟡 BRENT TOPS $83 AS IRAN REVIEWS BILL TO BAR US/ISRAELI SHIPS · SAUDI BRACES FOR 'COORDINATED ATTACKS'",
   "budget": {
     "petrolPre": 94.72,
     "petrolNow": 111.21,
@@ -1666,11 +1687,11 @@
     "lpgNow": 942.0
   },
   "brief": [
-    "Day 158 of the West Asia war, 11:00 AM update. Overall risk to India right now: moderate, and there's a genuinely concrete diplomatic development this hour.",
-    "The most solid sign yet of progress: Reuters reports the deal Iran and Oman are working on would let Iran control which ships enter the Gulf through the Strait of Hormuz — described as one of the biggest concessions of the entire war. Iran's deputy foreign minister says the talks are close to being finalized.",
-    "It's not a clean win for either side — Iran keeps meaningful control, not a full handover — and Iran separately warned Gulf countries that any new US attack would trigger retaliation against energy infrastructure. So this is progress with real limits, not peace.",
-    "Global markets are buying into the optimism strongly: Wall Street closed at record highs overnight, and Japan's stock market jumped nearly 4%. Indian markets are participating more cautiously — the Sensex is up solidly, but the Nifty has barely moved, an odd pattern that's now continued for three days running.",
-    "For India: fuel prices remain unchanged. Bottom line: this is the clearest evidence yet that real, if limited, progress is happening on Hormuz — worth taking more seriously than earlier this week's back-and-forth."
+    "Day 160 of the West Asia war, 11:15 AM update. Overall risk to India right now: moderate-to-high — this week's optimism has partly reversed.",
+    "Oil jumped back above $83 a barrel after falling to about $79 earlier in the week. The reason: Iran's parliament is reviewing a new bill that would permanently bar US and Israeli ships from the Strait of Hormuz — even while a separate, narrower deal with Oman to manage shipping is close to done. Iran's own officials say that Oman deal won't mean the strait actually reopens.",
+    "The war's risk is spreading again too: Saudi Arabia says it's bracing for coordinated attacks by Iraq-based militias working together with Yemen's Houthi rebels.",
+    "One honest correction: earlier updates on this tracker used rough estimates for US military deaths. The Pentagon's own official count is now available — 18 US troops killed and 687 wounded since the war began in February, including 4 killed since fighting resumed in July.",
+    "For India: markets opened lower this morning as oil rose, giving back some of Thursday's gains, though they've recovered a bit since. Petrol, diesel and LPG remain unchanged. Bottom line: don't get too comfortable with any single day's optimism in this war — this week alone showed how fast the mood can flip both ways."
   ],
-  "shareLine": "Reuters: the emerging Iran-Oman deal would give Iran control over ships entering the Gulf through Hormuz — 'among the biggest concessions yet' in this war. Wall Street closed at records on the news. Real progress, with real limits."
+  "shareLine": "Oil just reversed hard — from a weekly low near $79 back above $83 — after Iran's parliament reviewed a bill to permanently bar US and Israeli ships from Hormuz. Saudi Arabia is bracing for coordinated militia attacks. The optimism didn't last the week."
 }
