@@ -1,37 +1,37 @@
 {
-  "_updated": "August 5, 2026 — 10:00 AM IST",
+  "_updated": "August 5, 2026 — 11:00 AM IST",
   "_day": 158,
-  "_phase": "TALKS FRAGILE BUT OIL FALLING FAST",
+  "_phase": "TALKS ADVANCING — MAJOR IRANIAN CONCESSION REPORTED",
   "_note": "Verified: NPR, CNN, CBS, Fox News, The Hill, Washington Times (Jul 15-16), CENTCOM statements, HDFC Sky, Business Standard (Jul 14-15 closes), TradingEconomics, Investing.com (Brent live Jul 16), Zee Business",
   "ticker": [
-    "🟢 DAY 158 WED 10:00 AM IST: BRENT BROKE BELOW $80 this morning (~$78.32) for the first time in weeks — continuing its 3-session, 10%+ weekly slide on hopes the US-Iran standoff is easing, even as Trump's rhetoric stayed hostile overnight ('decapitation' threat).",
-    "📈 SENSEX OPENED +626pts (+0.8%) to 79,055.38, Nifty +54pts to 24,669.20 — the strongest opening in weeks, driven by the oil relief plus anticipation of the RBI's rate decision. Realty, Auto, PSU Banks and Oil & Gas led, up to 2%.",
-    "🏦 RBI HELD RATES, neutral stance maintained — Governor Malhotra cited stronger-than-expected Apr-Jun growth and services-sector buoyancy, but explicitly flagged RENEWED WEST ASIA TENSIONS, global market volatility, and El Nino farm-output risk as factors the MPC is watching closely — direct confirmation the war remains a live macro risk for India's central bank.",
-    "⚠ BUT THE RALLY IS ALREADY COOLING: by mid-morning Sensex gains had roughly halved to +356pts (78,785), and Nifty had turned slightly NEGATIVE (-4.6pts) — a repeat of Tuesday's unusual index divergence, where Sensex and Nifty diverge sharply intraday (likely tied to the new Closing Auction Session mechanism plus stock-specific earnings moves).",
-    "🇮🇳 Petrol/diesel/domestic LPG remain unchanged (₹111.21/₹97.83/₹941.50). Gold ~$4,127.74/oz — near record highs — as some investors hedge even amid the equity rally."
+    "🟢 DAY 158 WED 11:00 AM IST: REUTERS — sources say the proposed Iran-Oman deal would give Tehran control over ships ENTERING the Gulf through Hormuz, described as 'among the biggest concessions yet in the five-month-old war'. Iran's Deputy FM: talks with Oman have reached 'fundamental understandings', close to finalised — though key details remain unresolved.",
+    "⚠ IRAN ALSO WARNED Gulf states that any fresh US attack would trigger retaliation against REGIONAL ENERGY INFRASTRUCTURE — a deterrent signal alongside the diplomatic progress.",
+    "🛢 Crude extended its slide for a 2nd/3rd session as Trump held off on renewed strikes; WTI near $80.95 after an earlier 5%+ drop. Wall Street closed at records overnight (Nasdaq +2.59%, S&P +1.79%, Dow +1.71%) on the Middle East optimism; Nikkei surged 3.64%.",
+    "📈 MARKETS: Sensex holding gains through late morning (~78,785 at 9:30 AM, +356pts) while Nifty stayed roughly flat/slightly negative (24,610) — the Sensex-Nifty divergence persists for a third straight session. Broader Asia mixed: Nikkei/Hang Seng down, Australia/Pakistan up.",
+    "🇮🇳 Petrol/diesel/domestic LPG unchanged (₹111.21/₹97.83/₹941.50). RBI held rates this morning and flagged West Asia tensions as a watch risk (see prior update)."
   ],
   "whatChanged": {
-    "label": "WHAT CHANGED — AUGUST 5, 10:00 AM IST (DAY 158) — MARKETS OPEN, RBI DECIDES",
+    "label": "WHAT CHANGED — AUGUST 5, 11:00 AM IST (DAY 158) — A REAL CONCESSION, NOT JUST TALK",
     "items": [
       {
         "color": "green",
-        "bold": "BRENT BREAKS BELOW $80 FOR THE FIRST TIME IN WEEKS",
-        "text": "Oil extended its slide Wednesday morning, falling below $80 to around $78.32 — the third straight session of declines and now down more than 10% for the week. This is happening even as Trump's overnight rhetoric toward Iran hardened further, reinforcing that markets are pricing the underlying diplomatic and supply trajectory rather than day-to-day statements."
-      },
-      {
-        "color": "green",
-        "bold": "INDIAN MARKETS OPENED AT THEIR STRONGEST IN WEEKS",
-        "text": "Sensex opened up 626 points (0.8%) at 79,055.38 and Nifty gained 54 points to 24,669.20, with Realty, Auto, PSU Banking and Oil & Gas sectors up as much as 2% — a combination of the oil relief and pre-RBI-decision optimism."
+        "bold": "REUTERS: IRAN WOULD GET CONTROL OF GULF-ENTRY SHIPS — THE BIGGEST CONCESSION YET",
+        "text": "Sources told Reuters the proposed Iran-Oman deal would give Tehran control over ships entering the Gulf through the Strait of Hormuz — among the biggest concessions of the five-month-old war, though sources cautioned key details remain unresolved. This is a more concrete, sourced version of the 'service fee channel' reporting from yesterday, and suggests real movement toward an arrangement, even if it falls short of the 'total opening' Trump has publicly demanded."
       },
       {
         "color": "cyan",
-        "bold": "RBI HOLDS RATES — AND NAMES WEST ASIA AS A WATCH RISK",
-        "text": "Governor Sanjay Malhotra announced the MPC kept rates unchanged, citing April-June growth that came in better than expected and services-sector strength supporting urban consumption. Importantly, he explicitly flagged renewed West Asia tensions alongside global market volatility and El Nino-related farm risks as factors the committee will continue watching — direct, official confirmation that this war remains a live macroeconomic risk factor for India's central bank, not just a market-sentiment story."
+        "bold": "IRAN'S DEPUTY FM: TALKS 'CLOSE TO BEING FINALISED'",
+        "text": "Iran's Deputy Foreign Minister said talks with Oman had reached fundamental understandings and were close to being finalised. This is a more optimistic framing than Monday's contradictions, though it applies specifically to the Iran-Oman channel, not a broader US-Iran agreement."
       },
       {
         "color": "orange",
-        "bold": "THE RALLY IS ALREADY LOSING STEAM",
-        "text": "By mid-morning, Sensex's gains had roughly halved to +356 points (78,785) and Nifty had actually turned slightly negative (-4.6 points) — an echo of Tuesday's unusual Sensex-Nifty divergence. Part of this may reflect the new Closing Auction Session mechanism that took effect this week, and part is likely profit-taking after the sharp open; either way, it's a reminder the oil-driven optimism hasn't translated into a clean, sustained rally yet."
+        "bold": "IRAN WARNS GULF STATES OF RETALIATION AGAINST ENERGY INFRASTRUCTURE",
+        "text": "Even as diplomacy advances, Iran separately warned Gulf states that any fresh US attack would trigger retaliation against regional energy infrastructure — a reminder the underlying threat calculus hasn't disappeared, only the immediate strike risk has receded for now."
+      },
+      {
+        "color": "cyan",
+        "bold": "WALL STREET AND ASIA RALLIED OVERNIGHT ON THE OPTIMISM",
+        "text": "US markets closed at records overnight — Nasdaq +2.59%, S&P 500 +1.79%, Dow +1.71% — while Japan's Nikkei surged 3.64%, reflecting the broader global read that Middle East tensions are genuinely easing. Indian markets are participating more cautiously, with the Sensex-Nifty divergence continuing into a third session."
       }
     ]
   },
@@ -39,8 +39,8 @@
   "deathsSub": "~3,683+ Iran, 2,730+ Lebanon, 99 Iraq, 27+ Israel, 3 US service members named/confirmed, 1 Chinese worker (Kuwait), 50+ Gulf, 2 India CONFIRMED & NAMED: Heramb Karmarkar (GFS Galaxy, Jul 12) and Rohan Kumar (Mombasa B/Al Bahiyah, Jul 14). US-Iran direct strikes remain paused since Aug 1; Trump has threatened 'decapitation' if talks fail, but the US naval blockade — not new strikes — remains the active military pressure point.",
   "econ": {
     "sensex": "79,055.38 (open) → 78,785.34 (9:30 AM)",
-    "sensexDelta": "WED AUG 5, OPEN: Sensex +626.43 (+0.80%) to 79,055.38, Nifty +54.30 (+0.22%) to 24,669.20 — strongest open in weeks on the oil relief and RBI anticipation; Realty, Auto, PSU Bank, Oil & Gas up to 2%. BY 9:30 AM: Sensex cooled to +356.39 (78,785.34), Nifty turned -4.60 (24,610.30) — echoing Tuesday's Sensex-Nifty divergence. RBI MPC held the repo rate, neutral stance, citing strong Apr-Jun growth but flagging West Asia tensions as a watch risk.",
-    "sensexSub": "Brent broke below $80 to ~$78.32 Wednesday morning — 3rd straight losing session, >10% down for the week. Crude oil (WTI) ~$74.55. Gold ~$4,127.74/oz, near record highs. Rupee ~95.4. Petrol/Diesel/domestic LPG unchanged: ₹111.21/₹97.83/₹941.50.",
+    "sensexDelta": "WED AUG 5, 9:30 AM: Sensex +356.39 (+0.45%) to 78,785.34, Nifty -4.60 (flat) to 24,610.30 — Sensex-Nifty divergence persists for a 3rd session. OPEN: Sensex +626.43 to 79,055.38, Nifty +54.30 to 24,669.20. Overnight: Wall Street closed at records (Nasdaq +2.59%, S&P +1.79%, Dow +1.71%); Nikkei +3.64%. RBI held rates, flagged West Asia tensions as a watch risk.",
+    "sensexSub": "WTI recovering to ~$80.95 after an earlier 5%+ drop; Brent extending its multi-day slide on hopes the Iran-Oman deal (giving Iran control of Gulf-entry ships) will hold. Rupee ~95.4. Petrol/Diesel/domestic LPG unchanged: ₹111.21/₹97.83/₹941.50.",
     "vix": "~13.1 — EASING",
     "vixDelta": "-4.51% to 13.14 Wed open, ~-3% at close — volatility compressing despite blockade. Tue: 13.75 (+3.53%). Well below wartime 24-27; markets treating this as a contained maritime campaign, not full war.",
     "fpi": "-Rs 739.69 Cr",
@@ -49,10 +49,10 @@
     "analysis": "Equities are absorbing the blockade far better than the April original — Wednesday closed green despite Brent at $85 and daytime strikes. The stress has migrated to the currency and wholesale prices: rupee past 96 (first since May) with options pricing further downside, and WPI at 9.87%. Watch: rupee 96.50 resistance, Brent $86.36 (this morning's high), Nifty 24,000 support, OMC under-recovery at $86 Brent, and whether FII financial-sector buying survives the oil tape."
   },
   "hormuzStatus": {
-    "status": "Unchanged from earlier this morning: Trump's 'decapitation' threat stands, Iran maintains talks are Oman-only and aimed at a limited, Iran-controlled arrangement, and the US naval blockade remains fully active. The new development this hour is squarely on the economic side — oil's continued fall and India's central bank explicitly naming the war as a policy risk.",
+    "status": "The most concrete diplomatic development yet: Reuters sources say the Iran-Oman deal under discussion would give Iran control over ships entering the Gulf through Hormuz — described as among the biggest concessions of the war so far. Iran's Deputy Foreign Minister says talks have reached fundamental understandings and are close to being finalised, though key details remain unresolved. Iran has simultaneously warned Gulf states that any fresh US attack would trigger retaliation against regional energy infrastructure.",
     "preWarFlow": "~90-140 ships/day",
-    "currentFlow": "No confirmed change in Hormuz shipping activity. Markets continue to price in gradual de-escalation regardless — Brent's move below $80 is a purely sentiment-driven reaction to the broader diplomatic trajectory, not a confirmed reopening.",
-    "reduction": "Brent fell below $80 for the first time in weeks Wednesday morning, extending a three-session, 10%+ weekly decline. RBI Governor Malhotra's explicit mention of 'renewed West Asia tensions' as a factor the MPC is monitoring is a notable, official acknowledgment that this war is now a recognized input into India's monetary policy calculus, not just a market mood.",
+    "currentFlow": "Still no confirmed reopening or change in shipping activity. The reported arrangement — Iran controlling Gulf-entry vessels — would represent a managed, Iran-supervised system rather than a genuine free reopening, consistent with what Iranian negotiators have been signaling all week.",
+    "reduction": "Oil extended its decline as Trump held off on renewed strikes, with WTI recovering slightly to ~$80.95 after an earlier sharp drop. Global markets rallied hard overnight on the broader optimism — Wall Street closed at records, Japan's Nikkei surged over 3.6% — a strong signal that international markets increasingly believe a real de-escalation is underway, even if Indian markets are participating more cautiously.",
     "indianVesselsNear": 7,
     "indianSeafarers": 148,
     "indianTransited": 1,
@@ -1027,8 +1027,8 @@
     }
   ],
   "assessment": {
-    "headline": "DAY 158, 10:00 AM WED AUG 5: BRENT BROKE BELOW $80 THIS MORNING, ITS THIRD STRAIGHT SESSION OF DECLINES. INDIAN MARKETS OPENED AT THEIR STRONGEST IN WEEKS (SENSEX +626, NIFTY +54) BUT THE RALLY HAS ALREADY COOLED BY MID-MORNING. RBI HELD INTEREST RATES AND EXPLICITLY NAMED 'RENEWED WEST ASIA TENSIONS' AS A RISK THE COMMITTEE IS WATCHING — OFFICIAL CONFIRMATION THE WAR IS NOW A LIVE FACTOR IN INDIAN MONETARY POLICY.",
-    "body": "Wednesday 10:00 AM IST. Day 158. The market-and-policy angle takes over this hour.\n\nOIL BREAKS BELOW $80\n• Brent fell to around $78.32 Wednesday morning, its third consecutive losing session and more than 10% down for the week — the steepest sustained decline of the entire war. This continues despite, not because of, Trump's hardened overnight rhetoric toward Iran.\n\nINDIAN MARKETS: A STRONG OPEN THAT'S ALREADY FADING\n• Sensex opened up 626 points (0.8%) to 79,055.38, Nifty up 54 points to 24,669.20 — Realty, Auto, PSU Banking and Oil & Gas sectors leading, up to 2%.\n• By mid-morning, Sensex's gain had roughly halved to +356 points (78,785.34) and Nifty had actually slipped slightly negative (-4.6 points to 24,610.30) — echoing Tuesday's unusual Sensex-Nifty divergence, likely linked to the new Closing Auction Session mechanism and some profit-taking after the sharp open.\n\nRBI: HOLDS RATES, NAMES THE WAR AS A RISK\n• Governor Sanjay Malhotra announced the Monetary Policy Committee kept rates unchanged in a neutral stance, citing stronger-than-expected April-June growth and services-sector buoyancy supporting urban consumption.\n• Critically, he explicitly flagged 'renewed West Asia tensions' alongside global market volatility and El Nino-related farm-output risks as factors the MPC will keep watching — the clearest official signal yet that this war is a recognized macroeconomic risk for India, not just a market-sentiment talking point.\n\nWHAT HASN'T CHANGED\n• Trump's 'every last chance before decapitation' threat from Monday still stands, with no fresh strikes reported overnight. The US naval blockade on Iran remains fully active (44 vessels redirected, 2 disabled, 2 boarded). Iran continues to say its only negotiations are with Oman, aimed at a limited, Iran-controlled shipping arrangement rather than a full reopening.\n\nWATCHLIST\n• Whether Wednesday's rally-then-fade pattern repeats Thursday, or whether the oil relief translates into a more sustained move.\n• Whether the RBI's explicit war-risk flag shows up in future policy language if tensions escalate again.\n• Any concrete movement on the Iran-Oman 'service fee' channel proposal, which remains the most substantive Hormuz development on the table."
+    "headline": "DAY 158, 11:00 AM WED AUG 5: REUTERS SOURCES SAY THE PROPOSED IRAN-OMAN DEAL WOULD GIVE TEHRAN CONTROL OF SHIPS ENTERING THE GULF THROUGH HORMUZ — 'AMONG THE BIGGEST CONCESSIONS YET' IN THE WAR. IRAN'S DEPUTY FM SAYS TALKS ARE CLOSE TO FINALISED. WALL STREET CLOSED AT RECORDS OVERNIGHT ON THE OPTIMISM. INDIAN MARKETS ARE PARTICIPATING MORE CAUTIOUSLY, WITH THE SENSEX-NIFTY DIVERGENCE CONTINUING.",
+    "body": "Wednesday 11:00 AM IST. Day 158. The most concrete sign yet that something real may be taking shape.\n\nTHE REPORTED DEAL\n• Reuters sources say the Iran-Oman arrangement under discussion would give Tehran control over ships entering the Gulf through Hormuz — among the biggest concessions of the five-month war, though key details remain unresolved.\n• Iran's Deputy Foreign Minister says talks have reached 'fundamental understandings' and are close to being finalised.\n• This builds on yesterday's NYT reporting of a 'service fee' channel plan — Reuters' framing, sourced independently, suggests the broad shape of the arrangement is becoming clearer even if the fine print isn't settled.\n\nBUT THE THREAT CALCULUS HASN'T DISAPPEARED\n• Iran separately warned Gulf states that any fresh US attack would trigger retaliation against regional energy infrastructure — a reminder this is a negotiated pause, not a resolved conflict.\n\nGLOBAL MARKETS ARE BELIEVING IT\n• Wall Street closed at records overnight: Nasdaq +2.59%, S&P 500 +1.79%, Dow +1.71%. Japan's Nikkei surged 3.64%. This is a strong global signal of confidence in the de-escalation trajectory.\n• Indian markets are more cautious: Sensex is holding a solid gain (~+356pts, 78,785 as of 9:30 AM) while Nifty has stayed roughly flat to slightly negative (~24,610) — the Sensex-Nifty divergence that began Tuesday has now persisted for a third session, likely tied to the new Closing Auction Session mechanism and stock-specific moves rather than a genuine sentiment split.\n\nWATCHLIST\n• Whether the Iran-controls-entry-ships arrangement gets formalized, and whether Washington publicly accepts it as satisfying the MOU's Hormuz clause despite falling short of 'total opening'.\n• Whether Iran's Gulf-states retaliation warning is tested if talks stall again.\n• Whether the Sensex-Nifty divergence resolves as markets get used to the new Closing Auction Session framework."
   },
   "featured": [
     {
@@ -1606,13 +1606,13 @@
   ],
   "exec": {
     "level": "MODERATE",
-    "phase": "OIL BELOW $80, MARKETS OPEN STRONG THEN COOL, RBI FLAGS THE WAR AS A RISK",
-    "oilNote": "Broke below $80 (~$78.32) — 3rd straight losing session, >10% down for the week",
-    "shipping": "NO CHANGE — US BLOCKADE STILL ACTIVE (44 REDIRECTED, 2 DISABLED, 2 BOARDED)",
-    "shippingSub": "Iran-Oman 'service fee' channel plan still under discussion; Iran weighing European help clearing mines",
-    "military": "TRUMP: 'DECAPITATION' THREAT STANDS FROM OVERNIGHT",
-    "militarySub": "No fresh strikes reported. War dead 7,190+ incl. 2 confirmed, named Indians",
-    "indiaSub": "Sensex opened +626 to 79,055, cooled to +356 by mid-morning; Nifty turned slightly negative. RBI held rates, flagged West Asia as a watch risk"
+    "phase": "TALKS ADVANCING — IRAN WOULD GAIN CONTROL OF GULF-ENTRY SHIPS",
+    "oilNote": "WTI ~$80.95 (recovering slightly after an earlier 5%+ drop); Brent extending its multi-day slide",
+    "shipping": "IRAN-OMAN DEAL: IRAN CONTROLS GULF-ENTRY SHIPS — BIGGEST CONCESSION YET",
+    "shippingSub": "Iran's Deputy FM: talks 'close to being finalised', key details still unresolved. Iran warns Gulf states of retaliation if US strikes resume.",
+    "military": "NO FRESH STRIKES; TRUMP'S 'DECAPITATION' THREAT STILL STANDS",
+    "militarySub": "US blockade remains active. War dead 7,190+ incl. 2 confirmed, named Indians",
+    "indiaSub": "Sensex holding +356pts (~78,785) through late morning; Nifty roughly flat (~24,610) — divergence persists for a 3rd session"
   },
   "hormuzPhases": [
     {
@@ -1656,7 +1656,7 @@
       "days": "Jul 11–"
     }
   ],
-  "_phaseBadge": "🟢 BRENT BELOW $80 · SENSEX +626PTS AT OPEN · RBI HOLDS RATES, FLAGS WEST ASIA AS A WATCH RISK",
+  "_phaseBadge": "🟢 IRAN-OMAN DEAL WOULD GIVE IRAN CONTROL OF GULF-ENTRY SHIPS — 'BIGGEST CONCESSION YET' PER REUTERS SOURCES",
   "budget": {
     "petrolPre": 94.72,
     "petrolNow": 111.21,
@@ -1666,11 +1666,11 @@
     "lpgNow": 942.0
   },
   "brief": [
-    "Day 158 of the West Asia war, 10:00 AM update. Overall risk to India right now: moderate — the economic story is moving faster than the political one this morning.",
-    "Oil dropped below $80 a barrel for the first time in weeks — its third straight day of falling prices, down over 10% just this week — even though Trump's tone toward Iran got harsher overnight (he threatened 'decapitation' if no deal is reached).",
-    "Indian markets opened strongly on that oil relief — the Sensex jumped over 600 points — but the gains had already shrunk by mid-morning, and the Nifty actually dipped slightly. A similar odd pattern happened yesterday too, so it's worth watching whether this becomes a trend.",
-    "Important: India's central bank, the RBI, kept interest rates unchanged today and specifically named 'renewed West Asia tensions' as one of the risks it's watching closely, alongside global market swings and possible farm-output issues. That's the clearest official sign yet that this war is being treated as a real risk to India's economy, not just a headline.",
-    "For your wallet: petrol, diesel and LPG are still unchanged. Bottom line: oil is genuinely getting cheaper and that's good news, but this morning's market moves show it's not translating into pure confidence yet — there's still caution underneath the relief."
+    "Day 158 of the West Asia war, 11:00 AM update. Overall risk to India right now: moderate, and there's a genuinely concrete diplomatic development this hour.",
+    "The most solid sign yet of progress: Reuters reports the deal Iran and Oman are working on would let Iran control which ships enter the Gulf through the Strait of Hormuz — described as one of the biggest concessions of the entire war. Iran's deputy foreign minister says the talks are close to being finalized.",
+    "It's not a clean win for either side — Iran keeps meaningful control, not a full handover — and Iran separately warned Gulf countries that any new US attack would trigger retaliation against energy infrastructure. So this is progress with real limits, not peace.",
+    "Global markets are buying into the optimism strongly: Wall Street closed at record highs overnight, and Japan's stock market jumped nearly 4%. Indian markets are participating more cautiously — the Sensex is up solidly, but the Nifty has barely moved, an odd pattern that's now continued for three days running.",
+    "For India: fuel prices remain unchanged. Bottom line: this is the clearest evidence yet that real, if limited, progress is happening on Hormuz — worth taking more seriously than earlier this week's back-and-forth."
   ],
-  "shareLine": "Brent just broke below $80 for the first time in weeks. Indian markets opened up 600+ points on the relief — but the rally's already fading, and RBI just officially named the West Asia war as a risk it's watching."
+  "shareLine": "Reuters: the emerging Iran-Oman deal would give Iran control over ships entering the Gulf through Hormuz — 'among the biggest concessions yet' in this war. Wall Street closed at records on the news. Real progress, with real limits."
 }
