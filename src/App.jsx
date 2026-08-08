@@ -1,49 +1,47 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 
 // ═══════════════════════════════════════════════════════════════════
-// INDIA RISK DASHBOARD — V17.1 — CITIZEN FEATURES (Day 138, Jul 16 2026)
-// V17.1 changes:
-// A. REMOVED: Scenarios section, nav entry, and scenHeaders/scenRows/
-//    iScenarios dead code (scenarios key in JSON now unused).
-// B. NEW: 60-Second Brief — plain-language daily summary below the
-//    Executive Snapshot. Overridable via intel.brief (array of strings);
-//    falls back to auto-derived sentences from exec + live data.
-// C. NEW: Household budget calculator (end of #kitchen) — user enters
-//    monthly petrol/diesel/LPG usage, sees extra cost vs pre-war.
-//    Prices from intel.budget {petrolPre/Now, dieselPre/Now, lpgPre/Now}.
-// D. NEW: "Share Today's Card" button in header — generates a 1080x1080
-//    PNG (canvas, zero libraries) with Day/risk/Brent/Nifty/rupee/LPG +
-//    one-liner from intel.shareLine (fallback: assessment headline).
-//    Uses Web Share API on mobile, download elsewhere.
-// E. NEW: "War in Numbers" strip at top of Archive — Day 1 vs ~Day 100
-//    vs Today comparison, derived purely from intel.timeline.
-// Daily updates remain JSON-only: brief, shareLine, budget added to
-// war-intel.json.
+// INDIA RISK DASHBOARD — V18.0 — AUDIT & HARDENING (Aug 8 2026)
+// No redesign. Same layout, same components, same content model.
+// V18.0 changes:
+// 1. DATA INTEGRITY: day number is now derived from the war start date
+//    (intel._asOf + intel._start) instead of a hand-typed intel._day,
+//    which had drifted one day behind the calendar. Timeline day
+//    numbers renumbered from their own date labels in war-intel.json.
+// 2. DEAD CODE/DATA: removed unused iTlLatest and iDeathsSub bindings;
+//    removed stale hardcoded NUKES_FB / CITIES_FB / kitchen fallbacks
+//    (May-era prices that would have shown if a fetch failed). Content
+//    is now strictly JSON-driven with explicit empty states.
+//    war-intel.json: tlLatest, scenarios, projNow, radarScores dropped
+//    (~24KB, all unread by the app).
+// 3. BASELINES: pre-war reference values live in one place (PRE /
+//    intel.preWar) — the brief, share card and snapshot no longer
+//    each hardcode $65 / Rs 91.5 / Rs 853.
+// 4. ACCESSIBILITY: muted/sub text tokens raised to WCAG AA contrast
+//    (2.1:1 -> 4.9:1); expandable cards are keyboard operable; skip
+//    link; visible focus rings; aria-labels on icon-only buttons;
+//    prefers-reduced-motion honoured; ticker pauses on hover/focus.
+// 5. NAVIGATION: scroll-spy keeps the sticky nav in step with the
+//    section on screen; Risk Index section added to the nav (it was
+//    rendered but unreachable).
+// 6. HONESTY OF LABELS: charts read "N logged sessions - Day 1-X"
+//    instead of "ALL N WAR DAYS" (55 logged sessions, 160+ war days);
+//    freshness stamps for manual intel vs automated market data, with
+//    a stale badge when the brief is more than 36h old.
+// 7. RESILIENCE: sentence clamping no longer splits on "Rs." / "U.S.";
+//    fetch failures raise a banner instead of silently showing stale
+//    fallbacks; chart gradient ids are deterministic.
+// Daily update remains JSON-only: _asOf, _updated, ticker, brief,
+// whatChanged, exec, timeline entry, budget, shareLine.
 //
-// V17.0 — EXECUTIVE RESTRUCTURE (Day 135, Jul 13 2026)
-// Structural update per project instructions (no redesign):
-// 1. NEW: Executive Snapshot (#overview) — Risk Level / Oil / Markets /
-//    Shipping / Military / India Impact answered on first screen.
-//    Derived from war-intel.json + market-data.json; optional override
-//    via intel.exec {level, phase, shipping, military, india} keys.
-// 2. REMOVED: Windy weather iframe (obsolete) → replaced with static
-//    Atmospheric Transport assessment card. Removed duplicate nuclear
-//    site mini-grid (sites already listed below).
-// 3. REMOVED: hardcoded Day 102 block in Assessment (stale, duplicated
-//    timeline). Removed top 4-metric grid (consolidated into Snapshot).
-// 4. NAV: emoji pills → clean text labels; added Overview + Sources.
-// 5. Featured Research moved below fold (near Sources).
-// 6. Hormuz phase track updated through Jul re-escalation; overridable
-//    via intel.hormuzPhases [{label,color,days}].
-// All war content continues to load from war-intel.json — daily updates
-// require JSON edits only, no code changes.
-// V16.8 (Jul 8): re-escalation, tankers hit. V16.7 (Jul 6): ceasefire.
+// V17.1 (Jul 16): 60-second brief, budget calculator, share card,
+// war-in-numbers. V17.0 (Jul 13): executive snapshot, Windy removed.
 // ═══════════════════════════════════════════════════════════════════
 
 const C = {
   bg:"#080c14",surface:"#0e1420",card:"#121826",raised:"#18202e",
-  border:"#1e2a3d",border2:"#253047",text:"#c8d0e0",sub:"#7a8ba8",
-  muted:"#3d4f6a",white:"#eef2fa",
+  border:"#1e2a3d",border2:"#253047",text:"#c8d0e0",sub:"#93a4bf",
+  muted:"#7288a6",white:"#eef2fa",
   amber:"#f59e0b",amberDim:"#f59e0b14",amberMid:"#f59e0b30",
   red:"#ef4444",redDim:"#ef444414",
   green:"#10b981",greenDim:"#10b98112",
@@ -59,42 +57,33 @@ const SERIF= "'Source Serif 4','Georgia',serif";
 
 // ─── Fallbacks ────────────────────────────────────────────────────
 const TICKER_FB = [];
+const RADAR_FB  = [];
 
-// TL_BASE removed — timeline now read from intel.timeline in war-intel.json
+// War start — single source of truth for day numbering (V18.0).
+// Overridable via intel._start. Day 1 = first day of the war.
+const WAR_START = "2026-02-28";
+const dayOf = (iso, start=WAR_START) =>
+  Math.floor((Date.parse(iso+"T00:00:00Z") - Date.parse(start+"T00:00:00Z")) / 86400000) + 1;
 
-const RADAR_FB = [];
+// Pre-war baselines — overridable via intel.preWar. Used by the brief,
+// the share card and every "vs pre-war" comparison so no component
+// hardcodes a baseline of its own.
+const PRE_FB = {brent:65, rupee:91.49, nifty:22124, lpg:853, petrol:94.72, diesel:87.62};
 
-const NUKES_FB = [
-  {name:"Bushehr ☢️",type:"Reactor",status:"ACTIVE WAR ZONE — IAEA WARNED",risk:88,
-   info:"IAEA: strikes 250ft from operating reactor. Rosatom evacuated 200 staff minutes before plant was hit. Reactor operational. IAEA cannot access site."},
-  {name:"Natanz",type:"Enrichment + HEU",status:"75% DAMAGED — 6,000+ CENTRIFUGES DESTROYED",risk:90,
-   info:"Main enrichment 75% damaged. R&D 95% destroyed. Key sticking point in talks — Vance offered 20-yr moratorium, Iran said 3-5 yrs."},
-  {name:"Isfahan",type:"PRIMARY HEU STORAGE",status:"PRIMARY HEU LOCATION — 200kg+ HERE",risk:96,
-   info:"IAEA: majority of Iran's ~440kg of 60% HEU in deeply buried tunnel complex. US demanded retrieval; Iran agreed only to monitored down-blending."},
-  {name:"Fordow",type:"Underground Enrichment",status:"ONLY 30% DAMAGED — GREATEST PROLIFERATION RISK",risk:88,
-   info:"Built into mountain near Qom. Only 30% damaged despite GBU-57 MOPs. Core enrichment capability potentially intact. Greatest long-term proliferation risk of the war."},
-  {name:"Arak (IR-40)",type:"Heavy Water Reactor",status:"STRUCK — PLUTONIUM PATH CONCERN",risk:75,
-   info:"Heavy water reactor capable of producing weapons-grade plutonium. Struck in early war waves. Iran reconstituting missile bases — same pattern expected here."},
-];
+// Sentence clamp that does not break on abbreviations (Rs., U.S., Jul.)
+const clampSentences = (txt, n) => {
+  if (!txt) return "";
+  const parts = txt.match(/[^.!?]+(?:[.!?]+(?=\s+[A-Z0-9"\u201c]|$)|$)/g);
+  if (!parts || parts.length <= n) return txt.trim();
+  return parts.slice(0, n).join(" ").trim() + " \u2026";
+};
 
-const CITIES_FB = [
-  {city:"Delhi NCR", pop:"32M",wind:72,sea:15,nuke:55,tot:64,
-   info:"1,800km downwind from Iran. IAEA: ~1,000 lbs HEU. NO national iodine prophylaxis. TRUMP: deal largely negotiated. Brent $100. Deal = Brent $88-92, Rupee 93.00. Petrol Rs 103.54/L."},
-  {city:"Mumbai",    pop:"21M",wind:40,sea:78,nuke:42,tot:58,
-   info:"900km from Hormuz. Reliance Jamnagar refinery critical. Trump: largely negotiated. 35 vessels/24hr Iran claim. Sensex 75,415. Brent $100. Monday: Sensex +1,500-2,000 if deal confirmed. OMC stocks massive rally."},
-  {city:"Ahmedabad", pop:"8.5M",wind:65,sea:55,nuke:46,tot:57,
-   info:"Closest Indian metro to Iran. Jamnagar refinery nearby. Ceramic industry shutting down from gas shortage. Brent $108 still 60% above pre-war."},
-  {city:"Jaipur",    pop:"4M", wind:68,sea:10,nuke:44,tot:47,
-   info:"Rajasthan wind funnel. Kharif fertiliser at acute risk — 30% of global urea transits Hormuz. Gulf fertiliser at $1M+/ship toll = commercially impossible."},
-  {city:"Kochi",     pop:"2.1M",wind:25,sea:70,nuke:24,tot:44,
-   info:"Southern Naval Command + Op Urja Suraksha base. 280 Indian seafarers in Gulf zone. Fishing economy ₹4,000 cr exposed. Insurance 10x pre-war."},
-  {city:"Goa",       pop:"1.5M",wind:30,sea:72,nuke:22,tot:42,
-   info:"Konkan coast. Fishing economy ₹4,000 cr exposed. ATF surcharges active — aviation costs elevated. Tourism sector under pressure."},
-  {city:"Lucknow",   pop:"3.5M",wind:58,sea:5, nuke:39,tot:40,
-   info:"Indo-Gangetic plain. Most exposed to food inflation from fertiliser disruption. CNG vehicle users facing structural cost rise from Ras Laffan damage."},
-  {city:"Chennai",   pop:"11M", wind:20,sea:55,nuke:18,tot:36,
-   info:"East coast buffer. IT sector under war pressure — Nifty IT near 30-month lows. Port active for alternative routes. Auto sector (Maruti/Hyundai) under margin pressure."},
-];
+const Empty = ({label}) => (
+  <div style={{background:C.card,border:`1px dashed ${C.border2}`,borderRadius:10,
+    padding:'16px 14px',fontSize:12.5,color:C.sub,fontFamily:MONO,textAlign:'center'}}>
+    {label} unavailable — data feed not loaded. Try a refresh.
+  </div>
+);
 
 const FEATURED_FB = [
   {title:"The Strait of Hormuz and the New Logic of Chokepoint Control",date:"April 30, 2026",tag:"GEOSPATIAL",tagColor:C.cyan,
@@ -115,6 +104,7 @@ const NAV = [
   {id:"economic",  l:"Markets"},
   {id:"military",  l:"Military"},
   {id:"nuclear",   l:"Nuclear"},
+  {id:"radar",     l:"Risk Index"},
   {id:"warlog",    l:"Archive"},
   {id:"assessment",l:"Assessment"},
   {id:"sources",   l:"Sources"},
@@ -135,7 +125,7 @@ const MiniLine = ({data, dataKey, color, h=110}) => {
   }));
   const line = pts.map((p, i) => `${i===0?'M':'L'}${p.x.toFixed(1)},${p.y.toFixed(1)}`).join(' ');
   const area = pts.length ? line + ` L${pts[pts.length-1].x},${(pad.t+ih).toFixed(1)} L${pts[0].x},${(pad.t+ih).toFixed(1)} Z` : '';
-  const id = `g${dataKey}${Math.random().toString(36).slice(2,7)}`;
+  const id = `grad-${dataKey}`;
   const step = Math.ceil(filtered.length / 8);
   return (
     <svg viewBox={`0 0 ${W} ${h}`} style={{width:'100%',height:'auto',overflow:'visible',display:'block'}}>
@@ -394,7 +384,7 @@ const wrapText = (ctx, text, x, y, maxW, lh, maxLines=3) => {
   return y;
 };
 
-const makeShareCard = ({day, level, levelColor, brent, brentChg, nifty, rupee, lpg, headline, updated}) => {
+const makeShareCard = ({day, level, levelColor, brent, brentChg, nifty, rupee, lpg, rupeePre, lpgPre, headline, updated}) => {
   const cv = document.createElement('canvas');
   cv.width = 1080; cv.height = 1080;
   const x = cv.getContext('2d');
@@ -405,7 +395,7 @@ const makeShareCard = ({day, level, levelColor, brent, brentChg, nifty, rupee, l
   // header
   x.fillStyle = "#f59e0b"; x.font = "700 26px 'IBM Plex Mono', monospace";
   x.fillText("WEST ASIA WAR — INDIA RISK TRACKER", 64, 110);
-  x.fillStyle = "#7a8ba8"; x.font = "400 22px 'IBM Plex Mono', monospace";
+  x.fillStyle = "#93a4bf"; x.font = "400 22px 'IBM Plex Mono', monospace";
   x.fillText(updated||"", 64, 148);
   // day + risk
   x.fillStyle = "#eef2fa"; x.font = "800 120px 'Syne', sans-serif";
@@ -419,18 +409,18 @@ const makeShareCard = ({day, level, levelColor, brent, brentChg, nifty, rupee, l
   const cells = [
     ["OIL — BRENT", `$${brent}`, brentChg, "#f59e0b"],
     ["NIFTY 50", nifty, "", "#38bdf8"],
-    ["RUPEE / USD", `₹${rupee}`, "was ₹91.5 pre-war", "#fb923c"],
-    ["LPG 14.2KG", lpg, "was ₹853 pre-war", "#ef4444"],
+    ["RUPEE / USD", `₹${rupee}`, rupeePre ? `was ₹${rupeePre} pre-war` : "", "#fb923c"],
+    ["LPG 14.2KG", lpg, lpgPre ? `was ₹${lpgPre} pre-war` : "", "#ef4444"],
   ];
   cells.forEach((cel,i)=>{
     const cx = 64 + (i%2)*486, cy = 460 + Math.floor(i/2)*180;
     x.fillStyle = "#121826"; x.fillRect(cx-14, cy-40, 458, 150);
     x.fillStyle = cel[3]; x.fillRect(cx-14, cy-40, 6, 150);
-    x.fillStyle = "#7a8ba8"; x.font = "700 22px 'IBM Plex Mono', monospace";
+    x.fillStyle = "#93a4bf"; x.font = "700 22px 'IBM Plex Mono', monospace";
     x.fillText(cel[0], cx+14, cy);
     x.fillStyle = cel[3]; x.font = "800 58px 'Syne', sans-serif";
     x.fillText(String(cel[1]), cx+14, cy+62);
-    x.fillStyle = "#7a8ba8"; x.font = "400 20px 'IBM Plex Mono', monospace";
+    x.fillStyle = "#93a4bf"; x.font = "400 20px 'IBM Plex Mono', monospace";
     x.fillText(String(cel[2]||""), cx+14, cy+96);
   });
   // headline
@@ -485,9 +475,11 @@ const HormuzTimeline = ({events, phaseData}) => {
       {/* Clickable events */}
       <div style={{position:'relative'}}>
         <div style={{position:'absolute',left:48,top:0,bottom:0,width:1,background:C.border}}/>
-        {events.slice().reverse().map((e,i)=>(
-          <div key={i} style={{display:'flex',gap:10,marginBottom:6,cursor:'pointer'}}
-            onClick={()=>setActive(active===i?null:i)}>
+        {events.map((e,i)=>(
+          <div key={i} role="button" tabIndex={0} aria-expanded={active===i}
+            style={{display:'flex',gap:10,marginBottom:6,cursor:'pointer'}}
+            onClick={()=>setActive(active===i?null:i)}
+            onKeyDown={ev=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();setActive(active===i?null:i);}}}>
             <div style={{flexShrink:0,width:48,textAlign:'right',paddingTop:3}}>
               <span style={{fontSize:10.5,fontWeight:700,color:C.cyan,fontFamily:MONO}}>{e.d}</span>
             </div>
@@ -499,7 +491,7 @@ const HormuzTimeline = ({events, phaseData}) => {
               padding:'8px 12px',border:`1px solid ${active===i?C.cyan+'40':C.border}`,
               transition:'all 0.2s'}}>
               <div style={{fontSize:12.5,color:active===i?C.white:C.sub,fontFamily:SERIF,lineHeight:1.6}}>
-                {active===i ? e.e : e.e.split('.')[0] + (e.e.length > 60 ? '…' : '')}
+                {active===i ? e.e : clampSentences(e.e, 1)}
               </div>
               {active!==i && <div style={{fontSize:10,color:C.muted,fontFamily:MONO,marginTop:3}}>Click to expand ▼</div>}
             </div>
@@ -520,13 +512,28 @@ export default function App() {
   const [logSearch,   setLogSearch]   = useState('');
   const [aboutOpen,   setAboutOpen]   = useState(false);
   const [wcExpanded,  setWcExpanded]  = useState({});
+  const [loadErr,     setLoadErr]     = useState(false);
 
   useEffect(() => {
     fetch('./market-data.json?t='+Date.now())
-      .then(r=>r.ok?r.json():null).then(d=>d&&setLive(d)).catch(()=>{});
+      .then(r=>r.ok?r.json():null).then(d=>d&&setLive(d)).catch(()=>setLoadErr(true));
     fetch('./war-intel.json?t='+Date.now())
-      .then(r=>r.ok?r.json():null).then(d=>d&&setIntel(d)).catch(()=>{});
+      .then(r=>r.ok?r.json():null).then(d=>d?setIntel(d):setLoadErr(true))
+      .catch(()=>setLoadErr(true));
   }, []);
+
+  // Scroll-spy: keep the sticky nav in step with the section on screen.
+  useEffect(() => {
+    const els = NAV.map(n=>document.getElementById(n.id)).filter(Boolean);
+    if (!els.length || !('IntersectionObserver' in window)) return;
+    const io = new IntersectionObserver(entries => {
+      const vis = entries.filter(e=>e.isIntersecting)
+        .sort((a,b)=>a.boundingClientRect.top-b.boundingClientRect.top)[0];
+      if (vis) setActiveNav(vis.target.id);
+    }, {rootMargin:'-58px 0px -70% 0px', threshold:0});
+    els.forEach(el=>io.observe(el));
+    return () => io.disconnect();
+  }, [intel]);
 
   const go = id => {
     setActiveNav(id);
@@ -534,23 +541,25 @@ export default function App() {
   };
 
   const iT        = intel?.ticker        ?? TICKER_FB;
-  const iDay      = intel?._day          ?? 0;
+  // Day number is derived from the war start date so it can never drift
+  // out of step with the calendar; intel._day is honoured only as a fallback.
+  const iDay      = intel?._asOf ? dayOf(intel._asOf, intel?._start ?? WAR_START)
+                                 : (intel?._day ?? 0);
   const iUpdated  = intel?._updated      ?? "Loading...";
   const iDeaths   = intel?.deaths        ?? "6,700+";
-  const iDeathsSub= intel?.deathsSub     ?? "";
   const iWC       = intel?.whatChanged   ?? {label:'Loading intelligence…', items:[]};
   const iEcon     = intel?.econ          ?? null;
-  const iTlLatest = intel?.tlLatest      ?? [];
   const iRadar    = intel?.radar         ?? RADAR_FB;
   const iAssess   = intel?.assessment    ?? null;
   const iHLatest  = intel?.hormuzLatest  ?? [];
   const iKitchen  = intel?.kitchen       ?? [];
   const iMilitary = intel?.military      ?? [];
-  const iNukes    = intel?.nukes         ?? NUKES_FB;
-  const iCities   = intel?.cities        ?? CITIES_FB;
+  const iNukes    = intel?.nukes         ?? [];
+  const iCities   = intel?.cities        ?? [];
   const iHormuz   = intel?.hormuzStatus  ?? null;
   const iHEvents  = intel?.hormuzEvents  ?? iHLatest;
   const iPhase    = intel?._phase        ?? "BLOCKADE";
+  const PRE       = {...PRE_FB, ...(intel?.preWar||{})};
   const iFeatured = intel?.featured      ?? FEATURED_FB;
   const iMilTop   = intel?.milTop        ?? [];
 
@@ -559,8 +568,9 @@ export default function App() {
   const radarNow = k => (intel?.radar ?? []).find(r=>r.axis===k)?.now;
   const riskAvg  = (intel?.radar?.length)
     ? Math.round(intel.radar.reduce((s,r)=>s+(r.now||0),0)/intel.radar.length) : null;
-  const riskLevel = iExec.level ??
-    (riskAvg==null ? "—" : riskAvg>=75 ? "SEVERE" : riskAvg>=60 ? "HIGH" : riskAvg>=45 ? "ELEVATED" : "MODERATE");
+  const derivedLevel = riskAvg==null ? null
+    : riskAvg>=75 ? "SEVERE" : riskAvg>=60 ? "HIGH" : riskAvg>=45 ? "ELEVATED" : "MODERATE";
+  const riskLevel = iExec.level ?? derivedLevel ?? "—";
   const riskColor = riskLevel==="SEVERE" ? C.red : riskLevel==="HIGH" ? C.orange
     : riskLevel==="ELEVATED" ? C.amber : C.green;
 
@@ -583,8 +593,8 @@ export default function App() {
   const lpgNow = intel?.budget?.lpgNow ?? 912.5;
   const iBrief = intel?.brief ?? [
     `Day ${iDay} of the West Asia war. Overall risk to India right now: ${riskLevel}.`,
-    `Oil: Brent crude is around $${brentRaw} a barrel — about ${Math.round((brentRaw/65-1)*100)}% higher than before the war. Most of India's imported oil passes through the Strait of Hormuz, which is currently disrupted.`,
-    `Your money: the rupee is at ₹${typeof rupeeRaw==='number'?rupeeRaw.toFixed(2):rupeeRaw} per dollar (₹91.5 pre-war), which makes imports costlier. Petrol has already been hiked; an LPG cylinder now costs ₹${lpgNow}.`,
+    `Oil: Brent crude is around $${brentRaw} a barrel — about ${Math.round((brentRaw/PRE.brent-1)*100)}% higher than before the war. Most of India's imported oil passes through the Strait of Hormuz, which is currently disrupted.`,
+    `Your money: the rupee is at ₹${typeof rupeeRaw==='number'?rupeeRaw.toFixed(2):rupeeRaw} per dollar (₹${PRE.rupee} pre-war), which makes imports costlier. Petrol has already been hiked; an LPG cylinder now costs ₹${lpgNow}.`,
     `Markets: the Nifty is at ${typeof niftyRaw==='number'?Math.round(niftyRaw).toLocaleString():niftyRaw}. Volatile, but not crashing.`,
     `Bottom line: no shortages in India today, but fuel and kitchen costs are rising. This page is updated daily — check the Household section for what it means for your budget.`,
   ];
@@ -595,10 +605,16 @@ export default function App() {
     brent: brentRaw, brentChg: (brentChg>0?"▲ +":"▼ ")+Math.abs(brentChg).toFixed(1)+"% today",
     nifty: typeof niftyRaw==='number'?Math.round(niftyRaw).toLocaleString():String(niftyRaw),
     rupee: typeof rupeeRaw==='number'?rupeeRaw.toFixed(2):String(rupeeRaw),
-    lpg: "₹"+lpgNow,
+    lpg: "₹"+lpgNow, rupeePre: PRE.rupee, lpgPre: PRE.lpg,
     headline: intel?.shareLine ?? (iAssess?.headline||"").split(/\.\s/)[0].slice(0,160) ?? "",
     updated: iUpdated,
   };
+
+  // Freshness — the war brief is updated by hand, market data every 4h.
+  const asOfMs   = intel?._asOf ? Date.parse(intel._asOf+"T00:00:00+05:30") : null;
+  const hoursOld = asOfMs ? (Date.now()-asOfMs)/3600000 : null;
+  const isStale  = hoursOld != null && hoursOld > 36;
+  const liveStamp = live?._updated || null;
 
   const filteredTL = logSearch.trim()
     ? [...fullTL].reverse().filter(d =>
@@ -618,7 +634,7 @@ export default function App() {
   return (
     <div style={{minHeight:'100vh',background:C.bg,color:C.text,fontFamily:SERIF,fontSize:14,maxWidth:1100,margin:'0 auto'}}>
       <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=IBM+Plex+Mono:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,400&display=swap');
+        /* Fonts are preconnected + linked in index.html (faster first paint) */
         @keyframes ticker { 0%{transform:translateX(0)} 100%{transform:translateX(-50%)} }
         @keyframes pulse  { 0%,100%{opacity:1} 50%{opacity:0.35} }
         @keyframes fadein { from{opacity:0;transform:translateY(6px)} to{opacity:1;transform:none} }
@@ -647,12 +663,33 @@ export default function App() {
         @media(max-width:767px){
           .grid2,.grid3,.grid4 { grid-template-columns:1fr 1fr !important; }
         }
+        /* Keyboard focus must be visible on a dashboard this dense */
+        :focus-visible { outline:2px solid ${C.cyan}; outline-offset:2px; border-radius:4px; }
+        .skip-link { position:absolute; left:-9999px; top:0; z-index:200; }
+        .skip-link:focus { left:8px; top:8px; background:${C.card}; color:${C.white};
+          padding:8px 14px; border:1px solid ${C.cyan}; border-radius:6px; font-family:${MONO}; }
+        .ticker-wrap:hover .ticker-track, .ticker-wrap:focus-within .ticker-track { animation-play-state:paused; }
+        /* Respect the OS setting — this is a crisis page, not a showreel */
+        @media (prefers-reduced-motion: reduce) {
+          *, *::before, *::after {
+            animation-duration:0.001ms !important; animation-iteration-count:1 !important;
+            transition-duration:0.001ms !important; scroll-behavior:auto !important;
+          }
+          .ticker-track { animation:none !important; transform:none !important; }
+        }
+        @media print {
+          nav, .ticker-wrap, .btn-base { display:none !important; }
+          body { background:#fff !important; }
+        }
       `}</style>
 
+      <a href="#overview" className="skip-link">Skip to today's snapshot</a>
+
       {/* ══ TICKER ══ */}
-      <div style={{background:`linear-gradient(90deg,#7f1d1d,${C.red},#b91c1c)`,
+      <div className="ticker-wrap" aria-label="Latest headlines"
+        style={{background:`linear-gradient(90deg,#7f1d1d,${C.red},#b91c1c)`,
         padding:'7px 0',overflow:'hidden',width:'100%',position:'relative'}}>
-        <div style={{display:'flex',width:'max-content',flexWrap:'nowrap',
+        <div className="ticker-track" style={{display:'flex',width:'max-content',flexWrap:'nowrap',
           animation:'ticker 240s linear infinite',
           WebkitAnimation:'ticker 240s linear infinite',willChange:'transform'}}>
           {[...iT,...iT,...iT].map((t,i) => (
@@ -672,8 +709,10 @@ export default function App() {
             textTransform:'uppercase',fontFamily:MONO}}>India Risk Assessment</div>
           <div style={{height:1,flex:1,background:C.border}}/>
           <div style={{display:'flex',gap:5}}>
-            {[{l:'𝕏',p:'x'},{l:'in',p:'li'},{l:'wa',p:'wa'},{l:'📋',p:'copy'}].map((s,i)=>(
+            {[{l:'𝕏',p:'x',t:'Share on X'},{l:'in',p:'li',t:'Share on LinkedIn'},
+              {l:'wa',p:'wa',t:'Share on WhatsApp'},{l:'📋',p:'copy',t:'Copy link'}].map((s,i)=>(
               <button key={i} onClick={()=>share(s.p)} className="btn-base"
+                aria-label={s.t} title={s.t}
                 style={{padding:'3px 7px',borderRadius:4,border:`1px solid ${C.border}`,
                   background:C.card,color:C.sub,fontSize:10.5,fontWeight:700,fontFamily:MONO}}>
                 {s.l}
@@ -688,8 +727,16 @@ export default function App() {
               fontFamily:SYNE,lineHeight:1.14,letterSpacing:-0.7}}>
               How the West Asia War Is Hitting <span style={{color:C.amber}}>India</span>
             </h1>
-            <div style={{marginTop:8,fontSize:12.5,color:C.sub,fontFamily:MONO}}>
-              {iUpdated} &nbsp;•&nbsp; 50+ verified sources
+            <div style={{marginTop:8,fontSize:12.5,color:C.sub,fontFamily:MONO,
+              display:'flex',gap:8,alignItems:'center',flexWrap:'wrap'}}>
+              <span>Intel: {iUpdated}</span>
+              {liveStamp && <span style={{color:C.muted}}>· Markets: {liveStamp}</span>}
+              {isStale && (
+                <span style={{color:C.amber,border:`1px solid ${C.amber}40`,
+                  background:C.amberDim,borderRadius:4,padding:'1px 7px',fontWeight:700}}>
+                  BRIEF {Math.floor(hoursOld/24)}D OLD
+                </span>
+              )}
             </div>
           </div>
           <div className="hdr-badges" style={{display:'flex',gap:8,alignItems:'center',flexWrap:'wrap'}}>
@@ -751,6 +798,14 @@ export default function App() {
         )}
       </header>
 
+      {loadErr && (
+        <div role="alert" style={{background:C.redDim,borderTop:`1px solid ${C.red}40`,
+          borderBottom:`1px solid ${C.red}40`,padding:'8px 16px',fontSize:12,
+          color:C.red,fontFamily:MONO,textAlign:'center'}}>
+          Live data feed unreachable — figures below may be incomplete. Refresh to retry.
+        </div>
+      )}
+
       {/* ══ NAV ══ */}
       <nav style={{position:'sticky',top:0,zIndex:100,background:C.bg+'f2',
         backdropFilter:'blur(20px)',borderBottom:`1px solid ${C.border}`,padding:'7px 14px'}}>
@@ -775,7 +830,9 @@ export default function App() {
           <div className="grid3" style={{display:'grid',gridTemplateColumns:'1fr 1fr',gap:8}}>
             <Mc label="Risk Level" value={riskLevel} accent={riskColor}
               delta={iExec.phase ?? iPhase} deltaColor={riskColor}
-              sub={`Composite ${riskAvg ?? "—"}/100 · Day ${iDay}`}/>
+              sub={`Composite ${riskAvg ?? "—"}/100 · Day ${iDay}${
+                (iExec.level && derivedLevel && iExec.level !== derivedLevel)
+                  ? ` · index reads ${derivedLevel}` : ""}`}/>
             <Mc label="Oil — Brent" value={`$${brentRaw}`}
               delta={(brentChg>0?"▲ +":"▼ ")+Math.abs(brentChg).toFixed(1)+"%"}
               deltaColor={brentChg>0?C.red:C.green} accent={brentColor}
@@ -792,7 +849,7 @@ export default function App() {
               sub={iExec.militarySub ?? `War dead ${iDeaths}`}/>
             <Mc label="India Impact" value={`₹${typeof rupeeRaw==='number'?rupeeRaw.toFixed(2):rupeeRaw}`} accent={C.orange}
               delta="₹ / USD" deltaColor={C.orange}
-              sub={iExec.indiaSub ?? `Household pressure ${radarNow('Household') ?? "—"}/100 · was ₹91.49 pre-war`}/>
+              sub={iExec.indiaSub ?? `Household pressure ${radarNow('Household') ?? "—"}/100 · was ₹${PRE.rupee} pre-war`}/>
           </div>
         </section>
 
@@ -824,7 +881,7 @@ export default function App() {
                   {isOpen && item.text && (
                     <div style={{fontSize:13,color:C.sub,lineHeight:1.75,fontFamily:SERIF,
                       paddingLeft:20,paddingTop:6,animation:'fadein 0.2s ease both'}}>
-                      {item.text.split('. ').slice(0,3).join('. ')+'...'}
+                      {clampSentences(item.text, 3)}
                     </div>
                   )}
                 </div>
@@ -915,7 +972,7 @@ export default function App() {
           {/* Interactive timeline */}
           <div style={{background:C.card,borderRadius:10,padding:14,border:`1px solid ${C.border}`}}>
             <div style={{fontSize:10.5,fontWeight:700,color:C.cyan,letterSpacing:2.5,
-              fontFamily:MONO,marginBottom:12}}>TIMELINE — CLICK TO EXPAND</div>
+              fontFamily:MONO,marginBottom:12}}>TIMELINE — LATEST FIRST · CLICK TO EXPAND</div>
             <HormuzTimeline events={iHEvents.length ? iHEvents : iHLatest} phaseData={intel?.hormuzPhases}/>
             <div style={{fontSize:10.5,color:C.muted,marginTop:10,paddingTop:8,
               borderTop:`1px solid ${C.border}20`,fontFamily:MONO}}>
@@ -927,12 +984,7 @@ export default function App() {
         {/* ══ KITCHEN TABLE — moved up ══ */}
         <S id="kitchen" title="Household — Your Kitchen Table" accent={C.amber}
           sub="8+ weeks of war — what it costs Indian households today.">
-          {(iKitchen.length ? iKitchen : [
-            {item:"LPG Cylinder (14.2kg)",status:"orange",statusText:"Brent $108 — hike risk",pre:"₹853",now:"₹912.50",twoWeek:"₹912-960 if blockade holds",detail:"30+ days buffer. No dry-outs. Gulf fertiliser imports at $1M+/ship toll now commercially impossible."},
-            {item:"Petrol (Delhi)",status:"red",statusText:"HIKED TO Rs 103.54 — OMC LOSSES Rs 18/L. BRENT $100 — DEAL MAY EASE FURTHER",pre:"₹94.72/L",now:"₹103.54/L (HIKED May 13)",twoWeek:"Deal confirmed + Brent $88-92 = OMC losses eliminated on petrol. Possible price reversal.",detail:"OMC losses Rs 30,000 Cr/month. Modi Hyderabad speech May 10: use with great restraint. Hike before May 15. Every Rs 1/L = Rs 12,000 Cr annual consumer burden."},
-            {item:"Diesel (Delhi)",status:"yellow",statusText:"Trucking cost pressure",pre:"₹87.62/L",now:"₹87.67/L",twoWeek:"₹2-4/L hike risk",detail:"Every ₹1 diesel rise = ₹2,500 Cr annual trucking cost. Food and goods inflation building."},
-            {item:"Kharif Fertiliser",status:"red",statusText:"ACUTE RISK — June planting",pre:"Normal",now:"Emergency",twoWeek:"Shortfall if Hormuz closed through May",detail:"Gulf produces 30% of global urea. $1M+/ship Hormuz toll makes imports commercially impossible. June-August planting at risk."},
-          ]).map((h,i)=>{
+          {(iKitchen.length ? iKitchen : []).map((h,i)=>{
             const sCol = (h.status||h.s)==='red'?C.red:(h.status||h.s)==='orange'?C.orange:C.green;
             const statusTxt = h.statusText || h.chg || '';
             return (
@@ -963,6 +1015,7 @@ export default function App() {
               </div>
             );
           })}
+          {!iKitchen.length && <Empty label="Household price table"/>}
           <BudgetCalc budget={intel?.budget}/>
         </S>
 
@@ -984,7 +1037,7 @@ export default function App() {
             marginBottom:10,border:`1px solid ${C.border}`}}>
             <div style={{display:'flex',justifyContent:'space-between',alignItems:'center',marginBottom:10}}>
               <div style={{fontSize:10.5,fontWeight:700,color:C.cyan,letterSpacing:2.5,fontFamily:MONO}}>
-                NIFTY 50 — ALL {fullTL.length} WAR DAYS
+                NIFTY 50 — {fullTL.length} LOGGED SESSIONS · DAY 1–{iDay}
               </div>
               <Chip color={C.cyan} size={8}>LIVE</Chip>
             </div>
@@ -995,7 +1048,7 @@ export default function App() {
             marginBottom:10,border:`1px solid ${C.border}`}}>
             <div style={{display:'flex',justifyContent:'space-between',alignItems:'center',marginBottom:10}}>
               <div style={{fontSize:10.5,fontWeight:700,color:C.orange,letterSpacing:2.5,fontFamily:MONO}}>
-                BRENT CRUDE ($) — ALL WAR DAYS
+                BRENT CRUDE ($) — {fullTL.length} LOGGED SESSIONS · DAY 1–{iDay}
               </div>
               <span style={{fontSize:10.5,color:C.sub,fontFamily:MONO}}>Currently ~${brentRaw}</span>
             </div>
@@ -1009,7 +1062,7 @@ export default function App() {
               <div style={{fontSize:10.5,fontWeight:700,color:C.orange,letterSpacing:2.5,
                 fontFamily:MONO,marginBottom:6}}>📊 MARKET ANALYSIS</div>
               <div style={{fontSize:13,color:C.sub,lineHeight:1.7,fontFamily:SERIF}}>
-                {iEcon.analysis.split('. ').slice(0,4).join('. ') + '.'}
+                {clampSentences(iEcon.analysis, 4)}
               </div>
             </div>
           )}
@@ -1017,6 +1070,7 @@ export default function App() {
 
         {/* ══ MILITARY — crisp ══ */}
         <S id="military" title="Military & Strategic Updates" accent={C.red}>
+          {!iMilitary.length && !iMilTop.length && <Empty label="Military updates"/>}
           {(iMilitary.length ? iMilitary : iMilTop).map((m,i)=>{
             const mc = C[m.color] || C.amber;
             const isBreaking = m.lv === "BREAKING";
@@ -1034,7 +1088,7 @@ export default function App() {
                 </div>
                 {/* Show only first 2 sentences */}
                 <div style={{fontSize:13,color:C.sub,lineHeight:1.7,fontFamily:SERIF}}>
-                  {(m.d||'').split('. ').slice(0,2).join('. ') + (m.d?.split('. ').length > 2 ? '.' : '')}
+                  {clampSentences(m.d, 2)}
                 </div>
               </div>
             );
@@ -1070,10 +1124,13 @@ export default function App() {
 
           <div style={{fontSize:10.5,fontWeight:700,color:C.purple,marginBottom:8,
             letterSpacing:2.5,fontFamily:MONO}}>IRANIAN NUCLEAR SITES — STATUS</div>
+          {!iNukes.length && <Empty label="Nuclear site status"/>}
           {iNukes.map((n,i)=>{
             const rCol = n.risk>85?C.red:n.risk>70?C.orange:C.amber;
             return (
-              <div key={i} onClick={()=>setExpNuke(expNuke===i?null:i)}
+              <div key={i} role="button" tabIndex={0} aria-expanded={expNuke===i}
+                onClick={()=>setExpNuke(expNuke===i?null:i)}
+                onKeyDown={e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();setExpNuke(expNuke===i?null:i);}}}
                 style={{background:C.card,borderRadius:10,padding:'11px 13px',
                   marginBottom:5,cursor:'pointer',border:`1px solid ${rCol}18`,transition:'all 0.15s'}}>
                 <div style={{display:'flex',justifyContent:'space-between',alignItems:'center',gap:8,flexWrap:'wrap'}}>
@@ -1188,7 +1245,7 @@ export default function App() {
                 <div style={{minWidth:42,flexShrink:0}}>
                   <div style={{fontSize:11.5,fontWeight:800,
                     color:d.sev===3?C.red:d.sev===2?C.orange:C.green,fontFamily:MONO}}>D{d.d}</div>
-                  <div style={{fontSize:10,color:C.muted,fontFamily:MONO}}>{d.l}</div>
+                  <div style={{fontSize:10.5,color:C.sub,fontFamily:MONO}}>{d.l}</div>
                 </div>
                 <div style={{flex:1}}>
                   <div style={{fontSize:13,color:C.sub,lineHeight:1.6,fontFamily:SERIF}}>{d.tag}</div>
