@@ -57,7 +57,7 @@ async function main() {
   console.log('Fetching market data...');
   const now = new Date();
   const istTime = new Date(now.getTime() + 5.5 * 60 * 60 * 1000);
-  const timestamp = istTime.toISOString().replace('T', ' — ').substring(0, 22) + ' IST';
+  const timestamp = istTime.toISOString().replace('T', ' — ').substring(0, 19) + ' IST';
 
   // Load existing data as fallback
   let existing = {};
