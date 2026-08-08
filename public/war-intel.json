@@ -1,18 +1,28 @@
 {
-  "_updated": "August 7, 2026 — 11:15 AM IST",
-  "_day": 160,
-  "_phase": "TALKS CONTINUE, BUT HORMUZ TENSIONS FLARE AGAIN",
+  "_updated": "August 7, 2026 — market close (IST)",
+  "_asOf": "2026-08-07",
+  "_start": "2026-02-28",
+  "_day": 161,
+  "preWar": {
+    "brent": 65,
+    "rupee": 91.49,
+    "nifty": 22124,
+    "lpg": 853,
+    "petrol": 94.72,
+    "diesel": 87.62
+  },
+  "_phase": "TALKS CONTINUE; HORMUZ TERMS HARDEN",
   "_note": "Verified: NPR, CNN, CBS, Fox News, The Hill, Washington Times (Jul 15-16), CENTCOM statements, HDFC Sky, Business Standard (Jul 14-15 closes), TradingEconomics, Investing.com (Brent live Jul 16), Zee Business",
   "ticker": [
-    "🟡 DAY 160 FRI 11:15 AM IST: OIL REVERSES COURSE — Brent topped $83 (from ~$79 midweek) after Iran's parliament reviewed a bill to BAR US and Israeli vessels from the Strait of Hormuz. Iran also finalizing its Oman shipping deal, but Tehran's deputy FM warns this 'would not necessarily mean a reopening' of the strait.",
-    "🇸🇦 SAUDI ARABIA BRACING for 'multiple coordinated attacks' by Iraqi militias working with Houthi rebels, a Saudi official told CNN — the Houthis separately claimed a 'large-scale' operation against Saudi troops and an attack on a Saudi oil tanker in the Gulf of Aden.",
-    "🏛 IRAN'S FM ARAGHCHI must answer parliament Friday about negotiation details — a sign of domestic political pressure over the Oman talks. Controlled explosions (likely demining) heard near Khormoj, Bushehr province.",
-    "💣 TRUMP: privately complained that reports of the Pentagon's dwindling munitions stockpile make the US look weak in negotiations (per senior officials) — even as he publicly claimed the US has 'massive amounts' of munitions.",
-    "📊 US CASUALTY COUNT (DCAS, official): 18 US troops killed, 687 wounded since the war began Feb 28 — including 4 dead and 270 wounded from renewed fighting since Jul 7.",
-    "📉 MARKETS: Sensex fell 439pts (-0.55%) to 78,516 at open, Nifty -97pts to 24,539 — reversing Thursday's gains as Brent's rise weighed; partly recovered by late morning (Sensex -388, Nifty -52). Bajaj Finance/Finserv separately hit by new RBI draft NBFC lending norms — a domestic, non-war factor."
+    "🟡 DAY 161 FRI AUG 7 CLOSE: Brent settled $83.55 (+1.3%, +$1.06), WTI $78.18 — a round trip from a midweek low near $79 as Iran's parliament reviewed the Hormuz shipping bill.",
+    "⚓ HORMUZ BILL TERMS (reported): US and Israeli vessels barred; states deemed hostile to pay compensation before passage; violators fined 20% of cargo value; full reopening tied to the US lifting its maritime blockade — stricter than markets had priced.",
+    "🇸🇦 HOUTHIS claimed attacks on Saudi troop positions on Thursday, keeping regional escalation risk live alongside the Iran-Oman channel talks.",
+    "📉 INDIA CLOSE: Nifty 24,570.65 (-0.27%), Sensex 78,499.17 (-0.58%) — financials fell on RBI's draft NBFC norms; Nifty IT firmed. Both indices ended the week ~+1%, a second straight weekly gain.",
+    "💵 FII FLOWS: net purchases of about $1.3bn of Indian equities in August to date, after $2.1bn in July.",
+    "📊 US CASUALTIES (DCAS, official): 18 killed, 687 wounded since Feb 28 — including 4 killed since fighting resumed on Jul 7."
   ],
   "whatChanged": {
-    "label": "WHAT CHANGED — AUGUST 7, 11:15 AM IST (DAY 160) — HORMUZ TENSIONS FLARE AFTER MIDWEEK OPTIMISM",
+    "label": "WHAT CHANGED — FRIDAY AUGUST 7, MARKET CLOSE (DAY 161)",
     "items": [
       {
         "color": "red",
@@ -36,24 +46,23 @@
       }
     ]
   },
-  "deaths": "7,190+",
-  "deathsSub": "~3,683+ Iran, 2,730+ Lebanon, 99 Iraq, 27+ Israel, 18 US service members KILLED and 687 WOUNDED (official DCAS database, since Feb 28 — incl. 4 dead/270 wounded from renewed fighting since Jul 7), 1 Chinese worker (Kuwait), 50+ Gulf, 2 India CONFIRMED & NAMED: Heramb Karmarkar (GFS Galaxy, Jul 12) and Rohan Kumar (Mombasa B/Al Bahiyah, Jul 14). Note: this dashboard's earlier US toll estimates (17-20, various sources) are now superseded by the official Pentagon DCAS figure of 18 killed.",
+  "deaths": "7,199+",
   "econ": {
-    "sensex": "78,516.08 (open) → 78,567.16 (11 AM)",
-    "sensexDelta": "FRI AUG 7, OPEN: Sensex -438.68 (-0.55%) to 78,516.08, Nifty -97.10 to 24,538.90 — reversing Thursday's gains as Brent topped $83. BY 11:00 AM: Sensex -388 (-0.49%) to 78,567.16, Nifty -52.15 (-0.21%) to 24,583.85 — a partial recovery; Bajaj Finance/Bajaj Finserv led losses (-4%/-3%+) on new RBI draft NBFC lending norms, a domestic factor unrelated to the war. THU AUG 6 CLOSE: Sensex 78,954.76, Nifty 24,636 — rose on Reliance strength and Wed's crude relief. FIIs sold a modest ₹17.86cr Aug 5 (2nd straight day of light selling); DIIs bought ₹4,013.60cr.",
-    "sensexSub": "Brent reversed sharply this week: fell to ~$79 Tue-Wed, then jumped to $82.49 Thu (+3.8%) and above $83 Fri, after Iran's parliament reviewed a bill barring US/Israeli vessels from Hormuz. WTI ~$78. Rupee ~95.4. Petrol/Diesel/domestic LPG unchanged: ₹111.21/₹97.83/₹941.50. US July payrolls data due today — a separate market driver.",
+    "sensex": "78,499.17 (close, -0.58%)",
+    "sensexDelta": "FRI AUG 7 CLOSE: Sensex -455.59 (-0.58%) to 78,499.17; Nifty -0.27% to 24,570.65. Financials led the fall on RBI's draft NBFC lending norms — a domestic factor, not a war one — while Nifty IT firmed and cushioned the index. Both benchmarks still closed the week about 1% higher, a second consecutive weekly gain. THU AUG 6 CLOSE: Sensex 78,954.90, Nifty 24,611.94.",
+    "sensexSub": "Brent settled $83.55 (+1.3%) Friday after a midweek low near $79 — the swing factor is Hormuz terms, not supply. Rupee ~95.2. Pump prices unchanged: petrol ₹111.21, diesel ₹97.83, domestic LPG ₹942.",
     "vix": "~13.1 — EASING",
     "vixDelta": "-4.51% to 13.14 Wed open, ~-3% at close — volatility compressing despite blockade. Tue: 13.75 (+3.53%). Well below wartime 24-27; markets treating this as a contained maritime campaign, not full war.",
-    "fpi": "-Rs 739.69 Cr",
-    "fpiDelta": "FII net sell Tuesday Jul 14 (exchange data); renewed FII buying in financials Wednesday per dealers. DII absorption remains the structural support. Nifty futures in technical discount — short build-up flagged (Zee Business F&O data).",
+    "fpi": "+$1.3bn in August so far",
+    "fpiDelta": "Foreign investors net bought roughly $1.3bn of Indian equities in August to date, after $2.1bn in July — sustained inflows are the main support under this two-week rally.",
     "wealth": "BSE market cap ~Rs 485-490 trillion — resilient through the blockade week. WPI 9.87% June (from 9.68%) — war transmission to wholesale prices confirmed. Net direct tax +16.4% YTD to Rs 6.51L Cr (till Jul 13). RBI Aug MPC calculus now complicated by oil + rupee + WPI.",
     "analysis": "Equities are absorbing the blockade far better than the April original — Wednesday closed green despite Brent at $85 and daytime strikes. The stress has migrated to the currency and wholesale prices: rupee past 96 (first since May) with options pricing further downside, and WPI at 9.87%. Watch: rupee 96.50 resistance, Brent $86.36 (this morning's high), Nifty 24,000 support, OMC under-recovery at $86 Brent, and whether FII financial-sector buying survives the oil tape."
   },
   "hormuzStatus": {
     "status": "A sharp reversal from mid-week optimism: Iran's parliament is reviewing a bill that would bar US and Israeli vessels from the Strait of Hormuz entirely, even as its deputy foreign minister confirms the separate Oman shipping-channel talks are close to finalized. Iran has been explicit that the Oman deal would not necessarily mean the strait reopens generally. Meanwhile Saudi Arabia is bracing for coordinated attacks by Iraqi militias and Houthi rebels, suggesting the regional risk picture is deteriorating even as the narrow US-Iran-Oman track advances.",
     "preWarFlow": "~90-140 ships/day",
-    "currentFlow": "No confirmed reopening. The emerging picture is a narrow, managed Iran-Oman shipping arrangement layered on top of a broader, still-hostile legal and military posture — Iran simultaneously negotiating channel access and legislating to permanently exclude US/Israeli vessels.",
-    "reduction": "Brent has round-tripped hard this week: from a 3-session low near $79 Tuesday-Wednesday, up to $82.49 Thursday (+3.8%) and above $83 Friday morning, as the ship-barring bill news outweighed the earlier Oman-deal optimism. This volatility itself is the story — markets are struggling to price a war that keeps sending contradictory signals within the same 48-hour window.",
+    "currentFlow": "No reopening. A narrow, managed Iran-Oman channel is being negotiated on top of a still-hostile legal posture: the draft law would permanently exclude US and Israeli vessels and fine violators 20% of cargo value, with full reopening conditional on the US lifting its blockade.",
+    "reduction": "Brent round-tripped this week — a low near $79 Tuesday-Wednesday, +3%+ Thursday, settling $83.55 Friday. The volatility itself is the signal: the market is repricing the difference between a channel arrangement and an actual reopening.",
     "indianVesselsNear": 7,
     "indianSeafarers": 148,
     "indianTransited": 1,
@@ -65,6 +74,10 @@
     "indianCasualtyDetail": "4th Indian death of the war: a crew member aboard UAE tanker MOMBASA killed by an Iranian cruise missile in Omani territorial waters (UAE MoD, Jul 14). 8 injured incl. 6 Indians, 4 serious. Earlier: 3 Indian sailors killed on MT Settebello (Jun 8, US Navy strike)."
   },
   "hormuzEvents": [
+    {
+      "d": "Aug 5-7",
+      "e": "DAYS 159-161 — TERMS, NOT REOPENING. Iran's parliament reviewed the draft Hormuz shipping law: US and Israeli vessels barred outright; states deemed hostile required to pay compensation before transit; violators fined 20% of cargo value; and full reopening conditional on the US lifting its maritime blockade. Iran's deputy foreign minister said the Oman channel arrangement would not necessarily mean the strait reopens. Explosions were reported near Qeshm Island. Houthi forces claimed attacks on Saudi troop positions. Brent: ~$79 low Tue-Wed, +3%+ Thu, settled $83.55 Fri (+1.3%). INDIA: Nifty 24,570.65 (-0.27%), Sensex 78,499.17 (-0.58%) Friday; both up ~1% on the week."
+    },
     {
       "d": "Jul 14-16",
       "e": "DAYS 136-138 — BLOCKADE ENFORCED, TOLLS DROPPED. JUL 14 (TUE): Trump U-TURNED on the 20% Hormuz toll — replaced with Gulf 'Trade and Investment Deals' after Gulf leaders objected. Blockade resumed 4 PM ET (Wed 1:30 AM IST) — 20+ warships, hundreds of aircraft. 4th consecutive night of strikes: a 7-HOUR WAVE on dozens of targets (missile/drone sites, naval capabilities, coastal defence). Iran struck a US air base in JORDAN; projectiles hit QESHM ISLAND; Kuwait intercepted hostile targets twice in 30 minutes. INDIA: Sensex -561.46 (-0.72%) to 77,054.94; Nifty -158.95 to 24,052.05; RUPEE CROSSED 96 FOR THE FIRST TIME SINCE MAY (-48p to 96.16); FII -Rs 739.69 Cr; Brent settled +2% at a one-month high. JUL 15 (WED): BLOCKADE DAY 1 — CENTCOM redirected 2 commercial vessels and DISABLED a non-compliant oil tanker heading to Kharg Island (first since the blockade resumed). Unusual DAYTIME strikes: 90-minute attack on GREATER TUNB ISLAND; second wave on command centres, air defences and coastal surveillance incl. BANDAR ABBAS. Iranian officials: barracks strike (388th Mechanized Inf. Bde, Sistan-Baluchestan) killed 7+ troops; 30+ civilians dead, 260+ wounded in recent strikes (unverified). IRGC: regional oil and gas exports 'will be either for everyone or for no one' — threat to close all routes; HOUTHI official: Bab el-Mandeb + Hormuz to close in 'operational alliance.' Iran hit US infrastructure in Kuwait, Bahrain, Jordan. OFF-RAMPS: Iran RELEASED a wrongfully detained American (Trump: 'gesture of Goodwill'); VANCE ruled out ground troops/regime change (goals: keep Hormuz open, oil flowing); Ghalibaf kept diplomacy open; FM spox Baghaei: no talks planned. UK moving to proscribe the IRGC this week. Trump warning: power plants and bridges 'next week' unless Iran returns to the table. INDIA: Sensex +130.49 (+0.17%) to 77,185.43 — a +565-pt opening rally (softer US CPI, financials) pared by oil; Nifty 24,078.50; rupee -16p to 96.32; VIX eased to ~13.1; JUNE WPI 9.87% (from 9.68%) — war now visible in wholesale prices. Brent settled $84.73. JUL 16 (THU 7:45 AM IST): Brent ~$85.9 (range $85.05-86.36) — third straight gain. Cautious open signalled for D-Street. ~31 days on the MOU clock (~Aug 16). West Asia War Day 138."
@@ -158,7 +171,7 @@
     {
       "item": "Petrol (Delhi)",
       "status": "red",
-      "statusText": "Rs 111.21/L — OMC UNDER-RECOVERY AT BRENT $86",
+      "statusText": "₹111.21/L — UNDER-RECOVERY REOPENS AT BRENT $83+",
       "pre": "Rs 94.72/L",
       "now": "Rs 111.21/L (HIKED)",
       "twoWeek": "Under-recovery widening at Brent $86; next hike risk if $85+ sustains 2 weeks",
@@ -167,11 +180,11 @@
     {
       "item": "Diesel (Delhi)",
       "status": "red",
-      "statusText": "HIKED TO Rs 90.03 — TRUCKING COSTS RISING",
+      "statusText": "₹97.83/L — TRUCKING AND FOOD LOGISTICS COSTS RISING",
       "pre": "Rs 87.62/L",
       "now": "Rs 97.83/L (HIKED)",
       "twoWeek": "Watch Brent $85+ persistence — diesel hike would hit food logistics into festive season",
-      "detail": "Diesel at Rs 90.03 since May. June WPI at 9.87% already shows food and non-food price transmission; a diesel hike at Brent $86 would compound it. Every Rs 1/L = Rs 2,500 Cr annual trucking cost."
+      "detail": "Diesel at ₹97.83 after the July revision. June WPI at 9.87% already shows food and non-food transmission; sustained Brent above $85 would compound it. Every ₹1/L = ₹2,500 Cr annual trucking cost."
     },
     {
       "item": "Gold (22K, Delhi)",
@@ -185,7 +198,7 @@
     {
       "item": "LPG Cylinder (14.2kg)",
       "status": "orange",
-      "statusText": "Rs 912.50 — WATCH: BLOCKADE TIGHTENS GULF LPG SUPPLY",
+      "statusText": "₹942.00 — WATCH: HORMUZ TERMS TIGHTEN GULF LPG SUPPLY",
       "pre": "Rs 853",
       "now": "Rs 942.00",
       "twoWeek": "Commercial supply at ~70%; renewed Hormuz disruption is the key risk",
@@ -202,6 +215,12 @@
     }
   ],
   "military": [
+    {
+      "t": "AUG 6-7: HOUTHIS CLAIM ATTACKS ON SAUDI TROOP POSITIONS AS HORMUZ TERMS HARDEN",
+      "lv": "BREAKING",
+      "color": "red",
+      "d": "Houthi forces claimed attacks on Saudi troop positions on Thursday, and explosions were reported near Qeshm Island in the strait. The negotiating track and the military track are moving in opposite directions: the Iran-Oman channel arrangement is close to final while the draft law would permanently exclude US and Israeli shipping. Assessment: regional spillover risk to Saudi and Red Sea routes remains live regardless of progress on the narrow Hormuz channel."
+    },
     {
       "t": "JUL 15-16 BLOCKADE ENFORCED: First Tanker Disabled. Daytime Strikes on Greater Tunb + Bandar Abbas. Iran Threatens ALL Gulf Energy Exports; Houthis Threaten Bab el-Mandeb",
       "lv": "BREAKING",
@@ -349,634 +368,6 @@
     }
   ],
   "milTop": [],
-  "tlLatest": [
-    {
-      "d": 39,
-      "l": "Apr 7",
-      "deaths": 5400,
-      "brent": 95,
-      "nifty": 23100,
-      "rupee": 93.65,
-      "tag": "CEASEFIRE agreed. Sensex +2,946 (+3.95%). Brent -11% below $90. Hormuz partial reopen.",
-      "sev": 1
-    },
-    {
-      "d": 40,
-      "l": "Apr 8",
-      "deaths": 5400,
-      "brent": 96,
-      "nifty": 23900,
-      "rupee": 92.4,
-      "tag": "Ceasefire holding. Hormuz partial reopen. Best Sensex day since Feb 2021.",
-      "sev": 1
-    },
-    {
-      "d": 41,
-      "l": "Apr 9",
-      "deaths": 6100,
-      "brent": 96,
-      "nifty": 23760,
-      "rupee": 92.4,
-      "tag": "Sensex -932. Iran sea mines confirmed by Pentagon. TCS Q4 strong.",
-      "sev": 3
-    },
-    {
-      "d": 42,
-      "l": "Apr 10",
-      "deaths": 6300,
-      "brent": 96,
-      "nifty": 23800,
-      "rupee": 92.4,
-      "tag": "Lebanon PM to Washington. Iran adviser Kharazi died. US CPI 3.3%.",
-      "sev": 2
-    },
-    {
-      "d": 43,
-      "l": "Apr 11",
-      "deaths": 6350,
-      "brent": 96,
-      "nifty": 23800,
-      "rupee": 92.4,
-      "tag": "ISLAMABAD TALKS BEGIN. Ghalibaf+Araghchi vs Vance+Witkoff+Kushner. First US-Iran since 1979.",
-      "sev": 3
-    },
-    {
-      "d": 44,
-      "l": "Apr 12",
-      "deaths": 6350,
-      "brent": 102,
-      "nifty": 24050,
-      "rupee": 92.83,
-      "tag": "TALKS COLLAPSE. Nuclear dealbreaker — Vance 20yr vs Iran 3-5yr. Trump orders blockade.",
-      "sev": 3
-    },
-    {
-      "d": 45,
-      "l": "Apr 13",
-      "deaths": 6350,
-      "brent": 99,
-      "nifty": 23842,
-      "rupee": 93.33,
-      "tag": "BLOCKADE BEGINS. Sensex closed 76,847 (-702). 10,000+ US personnel. FII -₹1,983 Cr.",
-      "sev": 3
-    },
-    {
-      "d": 46,
-      "l": "Apr 14",
-      "deaths": 6450,
-      "brent": 98,
-      "nifty": 23842,
-      "rupee": 93.33,
-      "tag": "BSE/NSE CLOSED — Ambedkar Jayanti. CENTCOM: 'completely halted' Iran sea trade. Iran threatens Red Sea. Wall Street near all-time high.",
-      "sev": 2
-    },
-    {
-      "d": 47,
-      "l": "Apr 15",
-      "deaths": 6500,
-      "brent": 94,
-      "nifty": 24231,
-      "rupee": 93.15,
-      "tag": "SENSEX +1,263 to 78,111. Nifty +388 to 24,231. All 30 green. IndiGo +4%. Brent below $95. US intercepted 2 Iranian tankers. 'All ingredients of a deal' — US official.",
-      "sev": 1
-    },
-    {
-      "d": 48,
-      "l": "Apr 16",
-      "deaths": 6600,
-      "brent": 95,
-      "nifty": 24197,
-      "rupee": 93.15,
-      "tag": "Nuclear breakthrough: 440kg HEU options. Munir to Washington. Hegseth: choose wisely. Wipro buyback Rs 15,000 Cr. Sensex 77,989 faded from 78,730. Iran offers Oman-side passage.",
-      "sev": 2
-    },
-    {
-      "d": 49,
-      "l": "Apr 17",
-      "deaths": 6600,
-      "brent": 88,
-      "nifty": 24354,
-      "rupee": 92.8,
-      "tag": "HORMUZ DECLARED COMPLETELY OPEN by Iran FM Araghchi. Sensex +505 to 78,494. Dow Futures +500. US blockade of Iranian ports remains. House war powers failed 213-214. South Korea first crude via Red Sea. Ceasefire Apr 22.",
-      "sev": 1
-    },
-    {
-      "d": 50,
-      "l": "Apr 18",
-      "deaths": 6600,
-      "brent": 97,
-      "nifty": 24354,
-      "rupee": 93.5,
-      "tag": "HORMUZ RECLOSED. IRGC fired on Indian VLCC (2M bbl) despite clearance. India summoned Iran ambassador. Trump: got a little cute. Brent spiking. Ceasefire Apr 22. Second round talks uncertain.",
-      "sev": 3
-    },
-    {
-      "d": 51,
-      "l": "Apr 19",
-      "deaths": 6600,
-      "brent": 97,
-      "nifty": 24354,
-      "rupee": 93.7,
-      "tag": "US officials travelling to Pakistan — talks could resume Monday. Nuclear progress before Hormuz crisis (Axios). FACT: No Indian tanker crossing Apr 19 — VLCC fired on Apr 18 turned back. MEA Misri urged resume. Brent ~$97. Ceasefire Apr 22.",
-      "sev": 2
-    },
-    {
-      "d": 52,
-      "l": "Apr 20",
-      "deaths": 6600,
-      "brent": 96,
-      "nifty": 24365,
-      "rupee": 94.1,
-      "tag": "Sensex +27 (flat) to 78,520. Nifty +11 to 24,365. VIX +10.5% to 19.01. Trump extended ceasefire to Wednesday. Iran still refusing talks publicly. Islamabad lockdown — US C-17 landed. Brent ~$95-96. Wednesday = ceasefire expiry + Infosys.",
-      "sev": 2
-    },
-    {
-      "d": 53,
-      "l": "Apr 21",
-      "deaths": 6600,
-      "brent": 95,
-      "nifty": 24577,
-      "rupee": 94.0,
-      "tag": "CEASEFIRE EXTENDED INDEFINITELY. Vance trip cancelled. M/T Tifani seized Indian Ocean. Iran: extension means nothing, Hormuz route closed, no talks Wed. Brent briefly $101 then $95. Sensex +753 to 79,273. West Asia War Day 53.",
-      "sev": 2
-    },
-    {
-      "d": 54,
-      "l": "Apr 22",
-      "deaths": 6600,
-      "brent": 95,
-      "nifty": 24577,
-      "rupee": 94.0,
-      "tag": "Ceasefire indefinitely extended — holding. 12 vessels Hormuz/24hrs. Vance in Washington. Iran no delegation. Iran Air resumes domestic flights. New Supreme Leader Mojtaba Khamenei (IRGC-aligned). Infosys Q4 today. West Asia War stalemate phase.",
-      "sev": 1
-    },
-    {
-      "d": 55,
-      "l": "Apr 23",
-      "deaths": 6600,
-      "brent": 102,
-      "nifty": 24173,
-      "rupee": 94.8,
-      "tag": "Sensex -853 to 77,664. Nifty -206 to 24,173. Two-day -1,610 pts. Brent $101.91 Apr 22 close. INFOSYS Q4 BEAT: PAT +21% to Rs 8,501 Cr. FY27 guide 1.5-3.5%. US 50,000+ troops. 3-5 day deadline ~Apr 25-27. Lebanon ceasefire expires ~Apr 27. Dual deadline convergence. West Asia War Day 55.",
-      "sev": 3
-    },
-    {
-      "d": 56,
-      "l": "Apr 24",
-      "deaths": 6600,
-      "brent": 107,
-      "nifty": 23898,
-      "rupee": 95.2,
-      "tag": "SENSEX -983 to 76,681. NIFTY -275 to 23,898 (BELOW 24,000). Third loss. Three-day -2,592 pts. IT -5%. Infosys -7%. Brent $107.25. Bloomberg: Iran-Pakistan back-channel. Mojtaba incapacitated (NYT). Cochin Shipyard +7%. Worst week in months. West Asia War Day 56.",
-      "sev": 3
-    },
-    {
-      "d": 57,
-      "l": "Apr 25",
-      "deaths": 6600,
-      "brent": 104,
-      "nifty": 23898,
-      "rupee": 95.2,
-      "tag": "ARAGHCHI delivered Iran demands to Pakistan (Reuters). NO direct US-Iran meeting (Al Arabiya). Witkoff+Kushner arrive SUNDAY. Pakistan proposed multinational nuclear monitoring plan. Germany pre-deploying minesweepers. Trump: \"They are making an offer.\" Jones Act 90-day waiver. Brent $103-105. Lebanon 4 killed. Iran: firm response warning. West Asia War Day 57.",
-      "sev": 2
-    },
-    {
-      "d": 58,
-      "l": "Apr 26",
-      "deaths": 6600,
-      "brent": 101,
-      "nifty": 23898,
-      "rupee": 95.0,
-      "tag": "ARAGHCHI returned Islamabad Sunday night (IRNA/CNN). Met Oman Sultan Haitham (AFP). Iran wants Oman to back HORMUZ TOLL MECHANISM (AP). Called Qatar + Saudi FMs. Pakistan: contacts alive but fragile. Pezeshkian: no forced talks. Lebanon 2,496+ killed. Few Hormuz crossings. Brent $99-103. Heading Moscow. West Asia War Day 58.",
-      "sev": 2
-    },
-    {
-      "d": 59,
-      "l": "Apr 27",
-      "deaths": 6600,
-      "brent": 108,
-      "nifty": 24093,
-      "rupee": 95.1,
-      "tag": "IRAN PROPOSED: Hormuz reopening + war end, defer nuclear (AP). Sensex +639 to 77,303. Nifty +195 to 24,093. ARAGHCHI MET PUTIN (1.5hr, AFP). Putin received Mojtaba Khamenei message. Brent $108.36. UAE leaving OPEC. UN: global food emergency. West Asia War Day 59.",
-      "sev": 2
-    },
-    {
-      "d": 60,
-      "l": "Apr 28",
-      "deaths": 6600,
-      "brent": 111,
-      "nifty": 23996,
-      "rupee": 95.3,
-      "tag": "TRUMP NOT SATISFIED with Iran proposal (NYT). WSJ: WH counterproposal in days. Rubio: unacceptable. Brent $111.49 — 7th straight gain. Sensex -417 to 76,887. Nifty 23,996 (below 24k). UAE leaving OPEC Friday. US clearing mines. India OMC hike IMMINENT. West Asia War Day 60.",
-      "sev": 3
-    },
-    {
-      "d": 61,
-      "l": "Apr 29",
-      "deaths": 6600,
-      "brent": 112,
-      "nifty": 24092,
-      "rupee": 95.2,
-      "tag": "IDEMITSU MARU (Japan) passed Hormuz with Iran coordination — first since closure. 2M bbl Saudi crude. Toll unclear. 4 more ships Tuesday without incident. Iran banned steel exports. Tehran billboard: \"remains closed.\" GIFT Nifty +23.5 at 24,092. Brent $111.6. WH counterproposal awaited. Israel evacuating 16 Lebanon towns. West Asia War Day 61.",
-      "sev": 2
-    },
-    {
-      "d": 62,
-      "l": "Apr 30",
-      "deaths": 6700,
-      "brent": 126,
-      "nifty": 23998,
-      "rupee": 95.0,
-      "tag": "BRENT $126+ (four-year high, 80% above pre-war). CENTCOM briefing Trump on NEW MILITARY OPTIONS. US rejected Iran proposal + directed blockade intensification. Sensex -583 (76,913), intraday low -1,237. Nifty -180 (23,998), intraday low -380. RUPEE BREACHED Rs 95. Iran toll channel: north of Larak Island, $2M/ship. Top losers: Tata, Eternal, IndiGo, HUL. OMC hike Rs 12-18/L IMMINENT. West Asia War Day 62.",
-      "sev": 3
-    },
-    {
-      "d": 63,
-      "l": "May 1",
-      "deaths": 6700,
-      "brent": 114,
-      "nifty": 23998,
-      "rupee": 95.32,
-      "tag": "MOJTABA KHAMENEI: \"Americans belong at bottom of Gulf waters.\" Declared \"new chapter\" — Iran's \"new management\" of Hormuz is PERMANENT DOCTRINE. Nuclear + missile = national assets. IRGC Mousavi: \"long and painful strikes\" if US attacks. Guterres: Hormuz \"strangling global economy.\" IEA: \"biggest energy crisis in history.\" Rupee ATL 95.32. Goldman Sachs $90 Brent late 2026. India markets CLOSED Labour Day. West Asia War Day 63.",
-      "sev": 3
-    },
-    {
-      "d": 64,
-      "l": "May 2",
-      "deaths": 6700,
-      "brent": 108,
-      "nifty": 23998,
-      "rupee": 95.32,
-      "tag": "IRAN UPDATED PROPOSAL via Pakistan Friday (CNBC/Bloomberg) — Brent -2% to $108.17. Trump: \"not satisfied.\" TRUE WAR COST $50B (CBS/US officials) — double Pentagon's $25B. US GAS $4.39/gallon (AAA). TRUMP AI-GUN POST. CENTCOM \"short and powerful\" strikes plan ready. Goldman: Hormuz 4% of normal. UAE OPEC exit gradual. Murkowski AUMF May 11. Rupee ATL 95.32. India CLOSED. West Asia War Day 64.",
-      "sev": 2
-    },
-    {
-      "d": 65,
-      "l": "May 3",
-      "deaths": 6700,
-      "brent": 110,
-      "nifty": 23998,
-      "rupee": 95.32,
-      "tag": "IRAN SUBMITTED 14-POINT PROPOSAL (NPR/Tasnim): end war 30 days, US withdraw, reparations, new Hormuz mechanism. TRUMP TRUTH SOCIAL: \"can't imagine acceptable — NOT YET PAID BIG ENOUGH PRICE.\" Trump: \"we're sort of like pirates.\" Tehran: \"damning admission of piracy.\" US gasoline $4.45/gallon. Iran parliament formalising Hormuz law. Israel evacuating Lebanon towns north of Litani. US fast-tracked $8B arms. India Monday 9:15 AM. West Asia War Day 65.",
-      "sev": 2
-    },
-    {
-      "d": 66,
-      "l": "May 4",
-      "deaths": 6700,
-      "brent": 109,
-      "nifty": 24200,
-      "rupee": 94.88,
-      "tag": "PROJECT FREEDOM: 2 US-flagged vessels transited Hormuz — CENTCOM confirmed. Iran claimed missile strike — CENTCOM denied (\"propaganda and false\"). Ceasefire held. Sensex +903 to 77,816. Nifty +202 to 24,200. Brent $109. HUL +4.4%, Vedanta +7.9%, Kotak Q4 beat. Elections: DMK TN, Congress Kerala, WB ongoing. 39 vessels redirected total. West Asia War Day 66.",
-      "sev": 1
-    },
-    {
-      "d": 67,
-      "l": "May 5",
-      "deaths": 6700,
-      "brent": 110,
-      "nifty": 24119,
-      "rupee": 95.0,
-      "tag": "HEGSETH: \"Ceasefire NOT over.\" Caine: Iran attacks 10+ times — \"below threshold, grasping at straws.\" Fujairah fire — 3 Indians wounded. Modi condemned. Araghchi: talks \"making progress.\" Qalibaf: \"new equation.\" Brent $109.87 close (-4%). Sensex -0.3% ~77,018. BJP LANDSLIDE West Bengal.",
-      "sev": 2
-    },
-    {
-      "d": 68,
-      "l": "May 6",
-      "deaths": 6700,
-      "brent": 101,
-      "nifty": 24330,
-      "rupee": 94.0,
-      "tag": "Sensex +941 to 77,958. Nifty +298 to 24,330. BSE cap Rs 472.81L Cr. Brent -7.8% to $101.27. WTI $95.08 (-7%). WTI intraday $88 (-15%). ZERO ships crossed Hormuz. Trump: \"too soon\" to sign, threatens bombing \"at much higher level.\" Iran navy: new protocols, safe passage ensured. Vance-Witkoff-Kushner in Islamabad.",
-      "sev": 1
-    },
-    {
-      "d": 69,
-      "l": "May 7",
-      "deaths": 6700,
-      "brent": 99,
-      "nifty": 24335,
-      "rupee": 93.8,
-      "tag": "BRENT FELL BELOW $100 to $99.40 — FIRST TIME SINCE WAR BEGAN. Nifty flat below 24,350. Iran FM Baqaei: response to Pakistan mediators coming. Murkowski AUMF May 11. ING: 13 Mbpd disrupted, inventories declining rapidly. 23,000 seafarers 87 countries stranded. Vance-Witkoff-Kushner in Islamabad. West Asia War Day 69.",
-      "sev": 1
-    },
-    {
-      "d": 70,
-      "l": "May 8",
-      "deaths": 6700,
-      "brent": 101,
-      "nifty": 24231,
-      "rupee": 94.5,
-      "tag": "NASA SATELLITE: Fire signatures Hormuz separation zone — Omani lane ships hit, ZERO TRAFFIC (@prof_nithiya). Iran blocking Omani bypass for IRGC toll enforcement. IRGC vetting agency formalised. Pezeshkian-Khamenei 2-hour meeting. ARAGHCHI-WANG YI Beijing. US-Iran exchanged fire Thursday. Saudi Arabia refused Project Freedom. Brent $100.51 Fri close. Sensex -417 midday. Weekly Brent -7%. West Asia War Day 70.",
-      "sev": 3
-    },
-    {
-      "d": 71,
-      "l": "May 9",
-      "deaths": 6700,
-      "brent": 101,
-      "nifty": 24176,
-      "rupee": 94.5,
-      "tag": "Rubio expects Iran response \"today\" (Friday). Trump expecting letter from Iran \"tonight.\" Iran FM: \"grotesque absurdity.\" Iran fired missiles at UAE AGAIN (2nd day). US struck two Iranian tankers. US sanctioned Chinese companies over Iran links — days before Trump-Xi Beijing. Sensex -516 to 77,328. Nifty -151 to 24,176. SBI -6.6%. BSE cap -Rs 1.5T. Brent $101.29. Weekly Brent -6%. IEA: biggest energy security threat in history. West Asia War Day 71.",
-      "sev": 2
-    },
-    {
-      "d": 72,
-      "l": "May 10",
-      "deaths": 6700,
-      "brent": 101,
-      "nifty": 24176,
-      "rupee": 94.5,
-      "tag": "CNN satellite: smoke from Iranian ship after US fighter jet attack Saturday. Iran warns \"heavy assault.\" Iran Army: sanction-enforcing nations will face Hormuz problems. IRAN RESPONDED to US proposal Sunday morning — content TBC. Hassett: \"gusher of oil\" when Hormuz opens. Charles de Gaulle to Red Sea. Murkowski AUMF May 11. India reopens Monday. West Asia War Day 72.",
-      "sev": 2
-    },
-    {
-      "d": 73,
-      "l": "May 11",
-      "deaths": 6700,
-      "brent": 103,
-      "nifty": 23816,
-      "rupee": 94.91,
-      "tag": "SENSEX -1,312 (-1.70%) to 76,015 — BIGGEST SINGLE-DAY FALL SINCE MARCH 24. Nifty -360 to 23,815 — BELOW 24,000 for first time since April 24. Five reasons: Trump TOTALLY UNACCEPTABLE + Brent $105 intraday + Modi conservation + FII outflows + earnings. Consumer Durables -3.09%, PSU Bank -2.52%. Titan -6.54%, IndiGo -4.77%, SBI -3.84%. RBI intervened at 94.9650. Bloomberg: Rupee unlikely to recover soon. Murkowski AUMF blocked by Thune. West Asia War Day 73.",
-      "sev": 3
-    },
-    {
-      "d": 74,
-      "l": "May 12",
-      "deaths": 6700,
-      "brent": 102,
-      "nifty": 23816,
-      "rupee": 94.91,
-      "tag": "TRUMP: ceasefire \"massive life support.\" Iran nuclear concessions present — \"not enough.\" Aramco CEO: normalisation into 2027 if delayed weeks. US sanctioned 12 Chinese companies before Trump-Xi Beijing. ARAGHCHI at BRICS Delhi Thu-Fri = India diplomatic moment. Brent $100-103. US gas $4.52/gallon. India Tuesday cautious open. OMC hike before May 15 essential. West Asia War Day 74.",
-      "sev": 2
-    },
-    {
-      "d": 75,
-      "l": "May 13",
-      "deaths": 6700,
-      "brent": 108,
-      "nifty": 23412,
-      "rupee": 95.71,
-      "tag": "PETROL HIKED to Rs 103.54 (first above Rs 100 in most cities since 2022). Diesel Rs 90.03. Rupee ATL 95.71. Brent $107.52. TUESDAY: Sensex -1,456 to 74,559 (-1.92%). Nifty -1.62% to 23,379. Rs 1.1L Cr lost. Two-day crash -2,769 Sensex pts. Gold customs duty RAISED. IOC -27% in one month. Trump-Xi Beijing May 13-15. Araghchi BRICS Delhi Thu-Fri. West Asia War Day 75.",
-      "sev": 3
-    },
-    {
-      "d": 76,
-      "l": "May 14",
-      "deaths": 6700,
-      "brent": 105,
-      "nifty": 23379,
-      "rupee": 95.71,
-      "tag": "TRUMP ARRIVED IN BEIJING — Trump-Xi summit live today. Iran/Hormuz dominates agenda. Tim Cook, Elon Musk in delegation. Araghchi visited Beijing pre-Trump, now at BRICS Delhi for Jaishankar bilateral. US officials worried Xi holds cards. China ordered Iran sanctions non-compliance. Trump net approval lowest of two terms. Brent $104-107. Nifty ±500-1,000 pts on outcome. West Asia War Day 76.",
-      "sev": 2
-    },
-    {
-      "d": 77,
-      "l": "May 15",
-      "deaths": 6700,
-      "brent": 106,
-      "nifty": 23560,
-      "rupee": 95.71,
-      "tag": "TRUMP-XI SUMMIT: Hormuz must be open and demilitarized. Xi opposes toll charging. Xi to buy more US oil. Wall Street: \"nothing of real substance.\" FRIDAY: Iran seized vessel near UAE + Indian cargo ship SUNK off Oman. Trump: not patient. Three consecutive Sensex gains: +3,182 pts from 74,559 low to 75,741. Petrol Rs 103.54. Brent $104-107. West Asia War Day 77.",
-      "sev": 2
-    },
-    {
-      "d": 78,
-      "l": "May 16",
-      "deaths": 6700,
-      "brent": 106,
-      "nifty": 23560,
-      "rupee": 95.71,
-      "tag": "WEEKLY WRAP. Trump-Xi: Hormuz open + demilitarized, Xi opposes toll, Xi buys US oil. Wall Street: nothing of real substance. FRIDAY: Iran seized UAE vessel + Indian cargo ship sunk off Oman — defied Trump-Xi on Day 1. Sensex three-day recovery +1,182 pts from 74,559 low to 75,741. Still -1,587 below May 8 close. Petrol Rs 103.54. Brent $104-107. India markets closed Sat-Sun. Monday reopen. West Asia War Day 78.",
-      "sev": 2
-    },
-    {
-      "d": 79,
-      "l": "May 17",
-      "deaths": 6700,
-      "brent": 109,
-      "nifty": 23560,
-      "rupee": 95.71,
-      "tag": "IEA: oil market severely undersupplied until October even if fighting ends next month. Brent $109.26 (+3.35% May 15, +9.93% monthly). IRGC claimed 30 vessels crossed Hormuz — AIS verification pending. PGSA operational. HAJI ALI (Indian livestock carrier, 4,000 animals) sunk off Oman May 15. Cooper: 90% mines destroyed. India kharif fertiliser final window. Nifty IT 3-year low. West Asia War Day 79.",
-      "sev": 2
-    },
-    {
-      "d": 80,
-      "l": "May 18",
-      "deaths": 6700,
-      "brent": 110,
-      "nifty": 23641,
-      "rupee": 96.1,
-      "tag": "Sensex -161 to 75,237 (CONFIRMED — recovered from -855 intraday low on Trump strike cancellation). Nifty -46 to 23,641. Brent $110 Monday, touched $112. UAE Barakah nuclear plant drone attack — IAEA reactor switched to emergency diesel generators. Rupee 96+ fresh ATL. Trump emergency NSC Sunday: \"FAST or nothing left.\" West Asia War Day 80.",
-      "sev": 3
-    },
-    {
-      "d": 81,
-      "l": "May 19",
-      "deaths": 6700,
-      "brent": 110,
-      "nifty": 23650,
-      "rupee": 95.8,
-      "tag": "TRUMP NAMED GULF LEADERS — Qatar Emir Tamim, Saudi MBS, UAE MBZ asked him to delay strike. Sensex +77 to 75,315. Nifty +6 to 23,649. Brent ~$109.9 (-2%). WTI ~$102. 55 vessels Kpler confirmed Hormuz May 11-17. Iran: \"never accept nuclear commitments.\" ING: re-escalation risks increasing. Gold $4,600. IOC Q4 Wednesday. West Asia War Day 81.",
-      "sev": 2
-    },
-    {
-      "d": 82,
-      "l": "May 20",
-      "deaths": 6700,
-      "brent": 110,
-      "nifty": 23650,
-      "rupee": 95.8,
-      "tag": "WED MAY 20: Sensex opened -487 (74,713) → CLOSED HIGHER erasing losses (Zerodha Pulse). US Senate War Powers Resolution: 50-47 PROCEDURAL VOTE — four Republicans broke ranks. Brent $110.83 at open, dropped below $110 intraday (-5.6%). Trump: war will end \"very quickly.\" Also: strikes could come \"very quickly.\" IOC Q4 results confirmed OMC stress. ITC, Nykaa Q4 in focus. West Asia War Day 82.",
-      "sev": 2
-    },
-    {
-      "d": 83,
-      "l": "May 21",
-      "deaths": 6700,
-      "brent": 105,
-      "nifty": 23800,
-      "rupee": 95.8,
-      "tag": "THU MAY 21: Brent $105+ on US inventory draw + supply worries — recovered from Wednesday -5.6% tumble. Senate War Powers 50-47: CASSIDY (post-primary loss) + Murkowski + Collins + one other. AP confirmed May 19 7:24PM ET. Analysts: breakthrough unlikely without concessions. Nifty cautious 23,800-24,000. IOC Q4. Kharif fertiliser final window. West Asia War Day 83.",
-      "sev": 2
-    },
-    {
-      "d": 84,
-      "l": "May 22",
-      "deaths": 6700,
-      "brent": 104,
-      "nifty": 23719,
-      "rupee": 95.5,
-      "tag": "FRI MAY 22 CONFIRMED: Sensex +232 (+0.31%) to 75,415. Nifty +65 (+0.3%) to 23,719. WEEKLY: Sensex +0.2%, Nifty +0.3%. IT led. Rupee strengthened. RUBIO: US-Iran talks \"tentative signs of progress\" on uranium + Hormuz shipping. Iran uranium stays within country. Brent eased Friday. Axis Bank +2.68%, ICICI Bank +1.96% led. Week 12 closed: +0.2%/+0.3% despite extreme volatility. West Asia War Day 84.",
-      "sev": 1
-    },
-    {
-      "d": 85,
-      "l": "May 23",
-      "deaths": 6700,
-      "brent": 104,
-      "nifty": 23719,
-      "rupee": 95.5,
-      "tag": "SAT WEEKLY WRAP. Rubio: tentative progress on uranium + Hormuz. Iran uranium stays. Sensex +0.2%, Nifty +0.3% Week 12. IT led recovery. Rupee strengthened Friday. India markets closed Sat-Sun. Reopen Monday. Aramco mid-June deadline: 3 weeks. Kharif fertiliser critically overdue. Diesel hike imminent. West Asia War Day 85.",
-      "sev": 1
-    },
-    {
-      "d": 86,
-      "l": "May 24",
-      "deaths": 6700,
-      "brent": 100,
-      "nifty": 23719,
-      "rupee": 95.5,
-      "tag": "TRUMP: deal \"LARGELY NEGOTIATED\" — specific terms still unclear. RUBIO (New Delhi May 23): \"whether it's later today, tomorrow, in a couple days.\" Criteria: no nuclear weapon + Hormuz WITHOUT TOLLS + TURN OVER uranium. IRAN STATE MEDIA: 35 vessels transited Hormuz in past 24 hours. PGSA published \"controlled maritime zone\" graphic (May 20). Brent $100 Friday. CNN: traders may test $94 Monday. India Monday gap-up: Sensex +1,500-2,000 if deal confirmed. Most positive deal signal of 86-day war. West Asia War Day 86.",
-      "sev": 1
-    },
-    {
-      "d": 87,
-      "l": "May 25",
-      "deaths": 6700,
-      "brent": 97,
-      "nifty": 24032,
-      "rupee": 94.5,
-      "tag": "MON MAY 25 CONFIRMED: Sensex +1,073 (+1.42%) to 76,488.96. Nifty +312 (+1.32%) to 24,031.70 — ABOVE 24,000 FIRST TIME since war began. WASHINGTON POST (7:42AM EDT): US-Iran framework — 60-day ceasefire + Hormuz DE-MINED + REOPENED while final deal negotiated. Senior admin official confirmed. Brent -6% to $97. WTI -6% to $90. Rupee strengthened sharply. 15/16 sectors green. Nifty Bank +2%. Eicher, L&T, Bajaj Finance led. Both sides downplaying imminent signing (CNN). West Asia War Day 87.",
-      "sev": 1
-    },
-    {
-      "d": 88,
-      "l": "May 26",
-      "deaths": 6700,
-      "brent": 97,
-      "nifty": 24032,
-      "rupee": 94.5,
-      "tag": "TUE MAY 26 10:15AM: IRAN FM CONFIRMED MOU STRUCTURE — first phase before broader talks 30-60 days. Pakistan + Qatar + Witkoff mediator architecture (FT confirmed). WaPo framework: 60-day ceasefire + Hormuz de-mined + reopened. Both downplaying imminent signing. Brent $97. Sensex profit-taking after Monday +1,073 (76,488). Nifty holding 24,000. West Asia War Day 88.",
-      "sev": 1
-    },
-    {
-      "d": 89,
-      "l": "May 27",
-      "deaths": 6700,
-      "brent": 100,
-      "nifty": 23880,
-      "rupee": 95.2,
-      "tag": "WED MAY 27: US struck Hormozgan missile sites + boats laying mines Tuesday. Iran FM: gross ceasefire violation. Brent +3.6% to $99.58 (after Monday -7%). WTI $93.89. Tuesday: expiry-day selloff, Nifty below 24,000. GIFT Nifty -40.50 (23,872.50) Wednesday. Volatile session. MOU framework still valid — Iran gross violation declaration threatens signing. Pakistan + Qatar + Witkoff mediators still active. West Asia War Day 89.",
-      "sev": 2
-    },
-    {
-      "d": 90,
-      "l": "May 28",
-      "deaths": 6700,
-      "brent": 94,
-      "nifty": 23900,
-      "rupee": 94.8,
-      "tag": "THU MAY 28: 60-DAY MOU REACHED BY NEGOTIATORS — extend ceasefire + start nuclear talks. TRUMP MUST APPROVE. Iran state TV: Iran+Oman manage Hormuz. White House: \"complete fabrication.\" US-Iran exchanged fire Thursday AM. IRGC warning shots at 4 vessels (passing without coordination). Iran missiles toward Kuwait intercepted. Brent $93.71 Wednesday close (lowest since mid-March). Hochstein: \"Iranians control Hormuz for foreseeable future regardless of deal.\" India: binary on Trump sign-off. West Asia War Day 90.",
-      "sev": 1
-    },
-    {
-      "d": 91,
-      "l": "May 29",
-      "deaths": 6700,
-      "brent": 93,
-      "nifty": 23900,
-      "rupee": 94.5,
-      "tag": "FRI MAY 29 — LAST DAY OF MAY 2026. BRENT $92.56 — DOWN 19% IN MAY. WORST MONTHLY LOSS SINCE COVID PANDEMIC. Off 20% from 2026 peaks. TRUMP FOUR MOU CONDITIONS: nuclear never + Hormuz without tolls + remove mines + US destroys buried uranium. Trump HAS NOT SIGNED. UBS: crude loadings \"extremely low\" — no actual Hormuz improvement. US gas -14 cents one day (biggest drop since Great Recession 2008). India: Brent $92 = Rs 2.3L Cr annual saving vs April $126 peak. West Asia War Day 91.",
-      "sev": 1
-    },
-    {
-      "d": 92,
-      "l": "June 1",
-      "deaths": 6700,
-      "brent": 92,
-      "nifty": 23950,
-      "rupee": 94.5,
-      "tag": "MON JUNE 1 — WEEK 14. AXIOS EXCLUSIVE CONFIRMED: 60-day MOU — Hormuz NO TOLLS + Iran clears mines + US lifts port blockade + sanctions waivers + nuclear talks 60-day period. TRUMP REVIEWING — HAS NOT SIGNED. Camp David Cabinet meeting held Wednesday. Brent ~$92 (-20% from peaks). UBS: vessel traffic \"extremely low.\" Hochstein: Iranians control Hormuz regardless. India: Trump signature = Brent $80-85, Nifty +1,500-2,000. West Asia War Day 92.",
-      "sev": 1
-    },
-    {
-      "d": 93,
-      "l": "June 2",
-      "deaths": 6700,
-      "brent": 95,
-      "nifty": 23550,
-      "rupee": 94.5,
-      "tag": "TUE JUNE 2 11AM: BRENT $95 — rebounded from $91.89 Friday. Asian markets dipped as Iran talks FALTERED. Nifty below key MAs — Bollinger Bands widening, downside momentum intact. Trump edited MOU — uranium + Hormuz demands \"did not go down well\" in Tehran. MOU \"work in progress.\" Iran denied Thursday deal. US Defense Secretary: combat-ready. Gold, silver fell India. West Asia War Day 93.",
-      "sev": 2
-    }
-  ],
-  "hormuzLatest": [
-    {
-      "d": "June 2 AM",
-      "e": "DAY 93 TUE 7:30AM IST. TRUMP RECENTLY EDITED US-IRAN AGREEMENT — new demands on ENRICHED URANIUM + STRAIT OF HORMUZ + IRANIAN ASSET UNFREEZING \"DID NOT GO DOWN WELL IN TEHRAN\" (CBS News 17hr ago). MOU: \"still, at best, a work in progress.\" IRAN: vehemently denied tentative Thursday ceasefire extension deal. US DEFENSE SECRETARY (CNN 1 day ago): warned military READY TO RESUME COMBAT IN GULF if needed. BRENT FRIDAY MAY 29 CLOSE: $91.89. WTI: $87.86. US STOCKS FRIDAY: Dow +0.5% to 50,902. S&P500 +0.4% to 7,594. Nasdaq +0.5% to 27,062. HEZBOLLAH-ISRAEL: clashes INTENSIFYING in Lebanon despite April ceasefire — Israel advancing into southern Lebanon. India Tuesday 9:15 AM: cautious open expected. Trump demand editing + Iran denial = deal delayed weeks. Brent $91 stable = no major overnight shock. Nifty expected 23,600-23,900. West Asia War Day 93."
-    },
-    {
-      "d": "June 1 AM",
-      "e": "DAY 92 MON 9AM IST — JUNE 1 2026 — WEEK 14. AXIOS EXCLUSIVE DEAL DETAILS CONFIRMED: 60-day ceasefire extension. Hormuz open with NO TOLLS. Iran clears mines. US LIFTS BLOCKADE on Iranian ports. US issues SANCTIONS WAIVERS for Iran to sell oil freely. Nuclear negotiations held during 60-day period. TRUMP: reviewing latest version — HAS NOT SIGNED. Camp David Cabinet meeting Wednesday (confirmed by White House to CNBC). NBC News: Trump had not signed after US-Iran traded attacks. BRENT ~$92 — down 20% from 2026 peaks. Worst May since Covid pandemic. UBS: crude loadings \"EXTREMELY LOW\" — no actual Hormuz improvement. HOCHSTEIN: \"No matter what — Iranians will control Hormuz for foreseeable future. Doesn't even matter what the deal says.\" AXIOS SEQUENCING BRIDGE: Hormuz Phase 1 (no tolls + mines + blockade lifted) → nuclear Phase 2 (negotiations during 60 days). India June 1: GIFT Nifty direction critical. Trump signature = Brent $80-85, Nifty +1,500-2,000 pts, Rupee 91-92. West Asia War Day 92."
-    },
-    {
-      "d": "May 29 AM",
-      "e": "DAY 91 FRI 9:15AM IST — LAST DAY OF MAY 2026. BRENT $92.56 (6:35AM ET) — DOWN 19% IN MAY. WORST MONTHLY BRENT LOSS SINCE COVID-19 PANDEMIC. Off 20% from 2026 peaks. TRUMP'S FOUR MOU CONDITIONS (CNBC confirmed): (1) Iran never have nuclear weapon. (2) Immediately open Hormuz UNRESTRICTED + WITHOUT TOLLS. (3) REMOVE remaining mines. (4) Allow US to UNEARTH AND DESTROY enriched uranium buried under rubble. Trump HAS NOT SIGNED MOU. UBS (Thursday note): \"little evidence of short-term improvement in vessel traffic or energy flows.\" Crude loadings inside Gulf \"EXTREMELY LOW.\" US GAS PRICES: fell 14 CENTS since $4.56/gallon peak — biggest one-day drop since November 2008 Great Recession. IRAN: will only discuss nuclear clauses ONCE Phase 1 MOU cemented. BESSENT: declined to confirm deal details. Thursday: Iran ballistic missiles toward Kuwait intercepted. IRGC warning shots at 4 vessels. India: Brent $92 = Rs 2.3L Cr annual import bill saving vs April $126 peak. OMC near-breakeven on petrol. Month-end Friday. West Asia War Day 91."
-    },
-    {
-      "d": "May 28 AM",
-      "e": "DAY 90 THU 8:15AM IST. 60-DAY MOU REACHED BY NEGOTIATORS — extend ceasefire + start nuclear negotiations. TRUMP STILL HAS TO APPROVE. Axios confirmed. CNBC confirmed. IRAN STATE TV: Tehran agreed draft MOU — Hormuz to pre-war levels — BUT Iran AND OMAN manage traffic. WHITE HOUSE: \"COMPLETE FABRICATION.\" TRUMP: \"no nation will control shipping\" through Hormuz. US-IRAN EXCHANGED FIRE EARLY THURSDAY (CNN 16min ago): US struck Iranian drones + launch site near Hormuz. IRGC fired WARNING SHOTS at FOUR VESSELS near Hormuz (passing \"without prior coordination or authorization\"). IRAN launched BALLISTIC MISSILES TOWARD KUWAIT — intercepted by CENTCOM. IRGC targeted US AIR BASE at 4:50 AM local time. BRENT: $93.71 Wednesday close (-58 cents) — lowest since mid-March. Rebounding Thursday on fresh fighting. HOCHSTEIN: \"No matter what — Iranians will control Hormuz for foreseeable future. Doesn't even matter what the deal says.\" India Thursday: binary. Trump signs = Brent $85-88, Nifty +800-1,000. Trump rejects = Brent $100+, Nifty -300-400. West Asia War Day 90."
-    }
-  ],
-  "projNow": {
-    "brent": 85.9,
-    "rupee": 96.32,
-    "lpg": 912.5,
-    "petrol": 103.54,
-    "deaths": 7190
-  },
-  "scenarios": {
-    "headers": [
-      "Pre-war",
-      "Now (D138)",
-      "Deal by Aug 16",
-      "Extended blockade",
-      "Full escalation"
-    ],
-    "brent": [
-      65,
-      85.9,
-      76,
-      95,
-      120
-    ],
-    "rupee": [
-      91,
-      96.32,
-      93.5,
-      98,
-      104
-    ],
-    "deaths": [
-      0,
-      "7,190+",
-      "7,500",
-      "10,000",
-      "25,000+"
-    ],
-    "sensex": [
-      "78,699",
-      "77,185",
-      "84,000+",
-      "72,000",
-      "61,000"
-    ],
-    "lpg": [
-      "Rs 853",
-      "Rs 912.50",
-      "Rs 853",
-      "Rs 999",
-      "Rs 1,600+"
-    ],
-    "fii": [
-      "-",
-      "Mixed",
-      "$50B return",
-      "Rs 8,000Cr out",
-      "Rs 30,000Cr out"
-    ]
-  },
   "radar": [
     {
       "axis": "Oil Shock",
@@ -1028,7 +419,7 @@
     }
   ],
   "assessment": {
-    "headline": "DAY 160, 11:15 AM FRI AUG 7: OIL REVERSED SHARPLY THIS WEEK — FROM A 3-SESSION LOW NEAR $79 TO ABOVE $83 — AFTER IRAN'S PARLIAMENT REVIEWED A BILL TO BAR US AND ISRAELI SHIPS FROM HORMUZ ENTIRELY, EVEN AS THE SEPARATE IRAN-OMAN SHIPPING DEAL NEARS COMPLETION. SAUDI ARABIA IS BRACING FOR COORDINATED ATTACKS BY IRAQI MILITIAS AND HOUTHI REBELS. INDIAN MARKETS OPENED SHARPLY LOWER, REVERSING THURSDAY'S GAINS.",
+    "headline": "DAY 161, FRI AUG 7 CLOSE: BRENT SETTLED $83.55 (+1.3%) AFTER A ROUND TRIP FROM ~$79. IRAN'S DRAFT HORMUZ BILL IS STRICTER THAN MARKETS HAD PRICED — US AND ISRAELI VESSELS BARRED, A 20% CARGO-VALUE PENALTY FOR VIOLATORS, AND FULL REOPENING CONDITIONAL ON THE US LIFTING ITS MARITIME BLOCKADE. INDIAN EQUITIES CLOSED LOWER ON DOMESTIC FINANCIALS BUT HELD A SECOND STRAIGHT WEEKLY GAIN.",
     "body": "Friday 11:15 AM IST. Day 160. The week ends on a harder note than it started.\n\nOIL'S ROUND TRIP\n• Brent fell to a multi-session low near $79 by Tuesday-Wednesday on Iran-Oman deal optimism, then reversed sharply — up 3.8% Thursday to settle at $82.49, and above $83 Friday morning — after Iran's parliament reviewed a bill to bar US and Israeli vessels from Hormuz.\n• This is a reminder that Iran runs multiple, sometimes contradictory tracks simultaneously: a real, narrowing Oman shipping-channel negotiation alongside legislative moves that would harden the strait's closure to Western shipping specifically.\n\nTHE WAR'S RISK IS WIDENING, NOT JUST HORMUZ\n• A Saudi official told CNN the kingdom is bracing for multiple coordinated attacks by Iraqi militias working with Iran-backed Houthi rebels. The Houthis separately claimed a large-scale operation against Saudi troops and an attack on a Saudi tanker in the Gulf of Aden.\n• Iraq has begun implementing its own security plan in response.\n\nDIPLOMACY: REAL BUT DELIBERATELY LIMITED\n• Iran's deputy foreign minister confirmed the Oman shipping deal is close to finalized, but explicitly said it would not necessarily mean the strait reopens generally — Hormuz carried roughly 20% of world oil and LNG trade before the war.\n• Foreign Minister Araghchi must answer Iran's parliament Friday about negotiation details, suggesting real domestic scrutiny over how much ground Tehran is giving up.\n• Separately, senior US officials say Trump has privately complained that reports of the Pentagon's dwindling munitions stockpile make the US look weak in negotiations — even as he publicly claims 'massive amounts' of munitions remain. This corroborates earlier reporting that military readiness constraints, not just diplomacy, shaped the early-August strike pause.\n\nCASUALTIES\n• The Pentagon's official DCAS database records 18 US troops killed and 687 wounded since the war began February 28 — including 4 dead and 270 wounded in the renewed fighting since July 7.\n\nINDIA / MARKETS\n• Sensex opened down 438.68 points (-0.55%) to 78,516.08, Nifty down 97.1 to 24,538.90 — reversing Thursday's gains (Sensex had closed 78,954.76) as Brent's jump above $83 weighed on sentiment. By late morning, losses had eased somewhat (Sensex -388, Nifty -52).\n• A separate domestic factor is also weighing on markets: new RBI draft norms tightening rules on NBFC revolving credit products hit Bajaj Finance (-4%) and Bajaj Finserv (-3%+) specifically — not war-related, but adding to the day's negative mood.\n• IT stocks provided some cushion, with the BSE IT index up 441 points.\n\nWATCHLIST\n• Whether Iran's parliament actually passes the vessel-barring bill, and what that means for the Oman channel deal running in parallel.\n• Whether the Saudi 'coordinated attacks' warning materializes.\n• US July payrolls data, a purely domestic US economic release also due today and likely to move markets independent of the war."
   },
   "featured": [
@@ -1063,16 +454,6 @@
       "icon": "🌾"
     }
   ],
-  "radarScores": {
-    "Oil Shock": 74,
-    "Market Crash": 40,
-    "Nuclear Risk": 92,
-    "Hormuz Closure": 94,
-    "Household Impact": 75,
-    "Currency Crisis": 62,
-    "Social Unrest": 60,
-    "Military Exposure": 90
-  },
   "timeline": [
     {
       "d": 1,
@@ -1095,7 +476,7 @@
       "sev": 3
     },
     {
-      "d": 20,
+      "d": 21,
       "l": "Mar 20",
       "deaths": 2500,
       "brent": 108,
@@ -1105,7 +486,7 @@
       "sev": 2
     },
     {
-      "d": 38,
+      "d": 39,
       "l": "Apr 7",
       "deaths": 5000,
       "brent": 111,
@@ -1115,7 +496,7 @@
       "sev": 1
     },
     {
-      "d": 39,
+      "d": 40,
       "l": "Apr 8",
       "deaths": 5000,
       "brent": 92,
@@ -1125,7 +506,7 @@
       "sev": 1
     },
     {
-      "d": 53,
+      "d": 54,
       "l": "Apr 22",
       "deaths": 5800,
       "brent": 98,
@@ -1135,7 +516,7 @@
       "sev": 2
     },
     {
-      "d": 63,
+      "d": 64,
       "l": "May 2",
       "deaths": 6100,
       "brent": 105,
@@ -1165,7 +546,7 @@
       "sev": 1
     },
     {
-      "d": 93,
+      "d": 95,
       "l": "Jun 2",
       "deaths": 6700,
       "brent": 95,
@@ -1175,7 +556,7 @@
       "sev": 2
     },
     {
-      "d": 95,
+      "d": 96,
       "l": "Jun 3",
       "deaths": 6800,
       "brent": 97,
@@ -1185,7 +566,7 @@
       "sev": 3
     },
     {
-      "d": 96,
+      "d": 97,
       "l": "Jun 4",
       "deaths": 6800,
       "brent": 97,
@@ -1205,7 +586,7 @@
       "sev": 3
     },
     {
-      "d": 100,
+      "d": 101,
       "l": "Jun 8",
       "deaths": 6900,
       "brent": 94,
@@ -1215,7 +596,7 @@
       "sev": 3
     },
     {
-      "d": 101,
+      "d": 102,
       "l": "Jun 9",
       "deaths": 6950,
       "brent": 91.11,
@@ -1225,7 +606,7 @@
       "sev": 2
     },
     {
-      "d": 102,
+      "d": 103,
       "l": "Jun 10",
       "deaths": 7003,
       "brent": 95,
@@ -1235,7 +616,7 @@
       "sev": 3
     },
     {
-      "d": 104,
+      "d": 105,
       "l": "Jun 12",
       "deaths": 7030,
       "brent": 87,
@@ -1245,7 +626,7 @@
       "sev": 1
     },
     {
-      "d": 105,
+      "d": 106,
       "l": "Jun 13",
       "deaths": 7030,
       "brent": 87,
@@ -1255,7 +636,7 @@
       "sev": 1
     },
     {
-      "d": 106,
+      "d": 107,
       "l": "Jun 14",
       "deaths": 7030,
       "brent": 87,
@@ -1265,7 +646,7 @@
       "sev": 1
     },
     {
-      "d": 106,
+      "d": 107,
       "l": "Jun 14",
       "deaths": 7030,
       "brent": 87,
@@ -1275,7 +656,7 @@
       "sev": 1
     },
     {
-      "d": 107,
+      "d": 108,
       "l": "Jun 15",
       "deaths": 7030,
       "brent": 83.82,
@@ -1285,7 +666,7 @@
       "sev": 1
     },
     {
-      "d": 108,
+      "d": 109,
       "l": "Jun 16",
       "deaths": 7030,
       "brent": 83,
@@ -1295,7 +676,7 @@
       "sev": 1
     },
     {
-      "d": 109,
+      "d": 110,
       "l": "Jun 17",
       "deaths": 7030,
       "brent": 79,
@@ -1315,7 +696,7 @@
       "sev": 1
     },
     {
-      "d": 111,
+      "d": 112,
       "l": "Jun 19",
       "deaths": 7030,
       "brent": 78.92,
@@ -1325,7 +706,7 @@
       "sev": 1
     },
     {
-      "d": 111,
+      "d": 112,
       "l": "Jun 19 PM",
       "deaths": 7030,
       "brent": 78.31,
@@ -1335,7 +716,7 @@
       "sev": 1
     },
     {
-      "d": 114,
+      "d": 115,
       "l": "Jun 22",
       "deaths": 7050,
       "brent": 77,
@@ -1345,7 +726,7 @@
       "sev": 1
     },
     {
-      "d": 121,
+      "d": 122,
       "l": "Jun 29",
       "deaths": 7080,
       "brent": 73,
@@ -1355,7 +736,7 @@
       "sev": 2
     },
     {
-      "d": 131,
+      "d": 132,
       "l": "Jul 9",
       "deaths": 7140,
       "brent": 76,
@@ -1365,7 +746,7 @@
       "sev": 3
     },
     {
-      "d": 132,
+      "d": 133,
       "l": "Jul 10",
       "deaths": 7150,
       "brent": 76,
@@ -1375,7 +756,7 @@
       "sev": 1
     },
     {
-      "d": 135,
+      "d": 136,
       "l": "Jul 13",
       "deaths": 7150,
       "brent": 76.01,
@@ -1385,7 +766,7 @@
       "sev": 2
     },
     {
-      "d": 136,
+      "d": 137,
       "l": "Jul 14",
       "deaths": 7155,
       "brent": 84.7,
@@ -1395,7 +776,7 @@
       "sev": 3
     },
     {
-      "d": 137,
+      "d": 138,
       "l": "Jul 15",
       "deaths": 7190,
       "brent": 84.73,
@@ -1405,7 +786,7 @@
       "sev": 3
     },
     {
-      "d": 138,
+      "d": 139,
       "l": "Jul 16",
       "deaths": 7190,
       "brent": 84.93,
@@ -1415,7 +796,7 @@
       "sev": 3
     },
     {
-      "d": 139,
+      "d": 140,
       "l": "Jul 17",
       "deaths": 7190,
       "brent": 87.6,
@@ -1425,7 +806,7 @@
       "sev": 3
     },
     {
-      "d": 140,
+      "d": 141,
       "l": "Jul 18",
       "deaths": 7190,
       "brent": 87.6,
@@ -1435,7 +816,7 @@
       "sev": 3
     },
     {
-      "d": 141,
+      "d": 142,
       "l": "Jul 19",
       "deaths": 7190,
       "brent": 87.6,
@@ -1445,7 +826,7 @@
       "sev": 3
     },
     {
-      "d": 142,
+      "d": 143,
       "l": "Jul 20",
       "deaths": 7190,
       "brent": 88.0,
@@ -1455,7 +836,7 @@
       "sev": 3
     },
     {
-      "d": 143,
+      "d": 144,
       "l": "Jul 21",
       "deaths": 7190,
       "brent": 91.33,
@@ -1465,7 +846,7 @@
       "sev": 3
     },
     {
-      "d": 144,
+      "d": 145,
       "l": "Jul 22",
       "deaths": 7190,
       "brent": 94.13,
@@ -1475,7 +856,7 @@
       "sev": 4
     },
     {
-      "d": 145,
+      "d": 146,
       "l": "Jul 23",
       "deaths": 7190,
       "brent": 94.07,
@@ -1485,7 +866,7 @@
       "sev": 4
     },
     {
-      "d": 146,
+      "d": 147,
       "l": "Jul 24",
       "deaths": 7190,
       "brent": 91.68,
@@ -1495,7 +876,7 @@
       "sev": 4
     },
     {
-      "d": 147,
+      "d": 148,
       "l": "Jul 25",
       "deaths": 7190,
       "brent": 91.68,
@@ -1505,7 +886,7 @@
       "sev": 3
     },
     {
-      "d": 148,
+      "d": 149,
       "l": "Jul 26",
       "deaths": 7190,
       "brent": 91.68,
@@ -1515,7 +896,7 @@
       "sev": 3
     },
     {
-      "d": 149,
+      "d": 150,
       "l": "Jul 27",
       "deaths": 7190,
       "brent": 88.36,
@@ -1525,7 +906,7 @@
       "sev": 2
     },
     {
-      "d": 150,
+      "d": 151,
       "l": "Jul 28",
       "deaths": 7190,
       "brent": 84.09,
@@ -1535,7 +916,7 @@
       "sev": 2
     },
     {
-      "d": 151,
+      "d": 152,
       "l": "Jul 29",
       "deaths": 7196,
       "brent": 90.74,
@@ -1545,7 +926,7 @@
       "sev": 4
     },
     {
-      "d": 152,
+      "d": 153,
       "l": "Jul 30",
       "deaths": 7199,
       "brent": 89.03,
@@ -1555,7 +936,7 @@
       "sev": 4
     },
     {
-      "d": 153,
+      "d": 154,
       "l": "Jul 31",
       "deaths": 7199,
       "brent": 88.0,
@@ -1565,7 +946,7 @@
       "sev": 4
     },
     {
-      "d": 154,
+      "d": 155,
       "l": "Aug 1",
       "deaths": 7199,
       "brent": 87.97,
@@ -1575,7 +956,7 @@
       "sev": 3
     },
     {
-      "d": 155,
+      "d": 156,
       "l": "Aug 2",
       "deaths": 7199,
       "brent": 87.97,
@@ -1585,7 +966,7 @@
       "sev": 2
     },
     {
-      "d": 156,
+      "d": 157,
       "l": "Aug 3",
       "deaths": 7199,
       "brent": 83.82,
@@ -1595,7 +976,7 @@
       "sev": 2
     },
     {
-      "d": 157,
+      "d": 158,
       "l": "Aug 4",
       "deaths": 7199,
       "brent": 83.45,
@@ -1605,7 +986,7 @@
       "sev": 3
     },
     {
-      "d": 158,
+      "d": 159,
       "l": "Aug 5",
       "deaths": 7199,
       "brent": 80.0,
@@ -1615,7 +996,7 @@
       "sev": 2
     },
     {
-      "d": 159,
+      "d": 160,
       "l": "Aug 6",
       "deaths": 7199,
       "brent": 82.49,
@@ -1623,17 +1004,27 @@
       "rupee": 95.4,
       "tag": "Trump says US has 'massive amounts' of munitions after reports of a low Pentagon stockpile; privately complained the reports make the US look weak (per officials). Iran finalizing Oman shipping deal but warns it 'would not necessarily mean' a full Hormuz reopening. Saudi Arabia bracing for 'multiple coordinated attacks' by Iraqi militias + Houthis; Houthis claim large-scale op against Saudi troops + tanker attack in Gulf of Aden. Brent rose 3.8% to settle $82.49 (WTI +2.8% to $77.29) as hopes for a deal competed with fresh Hormuz/Red Sea risk. Markets: Sensex closed 78,954.76, Nifty 24,636 — rose on Reliance strength + earlier easing crude.",
       "sev": 3
+    },
+    {
+      "d": 161,
+      "l": "Aug 7",
+      "deaths": 7199,
+      "brent": 83.55,
+      "nifty": 24570.65,
+      "rupee": 95.2,
+      "tag": "Brent settled $83.55 (+1.3%, +$1.06) and WTI $78.18 as Iran's parliament reviewed the Hormuz shipping bill. Terms reported: US and Israeli vessels barred; states deemed hostile to pay compensation before passage; violators fined 20% of cargo value; full reopening conditional on the US lifting its maritime blockade — stricter than markets had priced. Houthis claimed attacks on Saudi troop positions. India: Nifty closed 24,570.65 (-0.27%), Sensex 78,499.17 (-0.58%) as financials fell on RBI's draft NBFC norms; Nifty IT firmed. Both indices still ended the week ~+1%, a second straight weekly gain, with FIIs net buyers of ~$1.3bn in August after $2.1bn in July.",
+      "sev": 3
     }
   ],
   "exec": {
     "level": "MODERATE-HIGH",
-    "phase": "HORMUZ TENSIONS FLARE — IRAN REVIEWS SHIP-BARRING BILL",
-    "oilNote": "Reversed course: fell to ~$79 midweek, jumped to $82.49 Thu (+3.8%), topped $83 Fri on the ship-barring bill news",
-    "shipping": "IRAN-OMAN DEAL NEAR DONE, BUT WON'T MEAN FULL REOPENING",
-    "shippingSub": "Iran reviewing a bill to bar US/Israeli vessels from Hormuz entirely — hardening even as the Oman channel talks conclude",
-    "military": "SAUDI BRACES FOR 'COORDINATED ATTACKS' BY IRAQI MILITIAS + HOUTHIS",
-    "militarySub": "US casualties (DCAS, official): 18 dead, 687 wounded since Feb 28. War dead 7,190+ incl. 2 confirmed, named Indians",
-    "indiaSub": "Sensex fell 439pts to 78,516 at open (partly recovered to -388 by late morning), Nifty -97pts to 24,539 — reversing Thursday's gains as oil jumped"
+    "phase": "HORMUZ TERMS HARDEN — SHIP-BARRING BILL UNDER REVIEW",
+    "oilNote": "Round trip: ~$79 midweek low, +3%+ Thursday, settled $83.55 Friday (+1.3%). Up ~28% on pre-war $65",
+    "shipping": "IRAN-OMAN CHANNEL NEAR DONE — BUT NOT A REOPENING",
+    "shippingSub": "Draft terms bar US/Israeli vessels, fine violators 20% of cargo value, and tie full reopening to the US lifting its maritime blockade",
+    "military": "HOUTHIS CLAIM ATTACKS ON SAUDI TROOP POSITIONS",
+    "militarySub": "US casualties (DCAS, official): 18 dead, 687 wounded since Feb 28. War dead 7,199+ incl. 2 confirmed, named Indians",
+    "indiaSub": "Nifty closed 24,570.65 (-0.27%), Sensex 78,499.17 (-0.58%) — financials dragged on RBI draft NBFC norms; week still ~+1%, 2nd straight weekly gain"
   },
   "hormuzPhases": [
     {
@@ -1677,7 +1068,7 @@
       "days": "Jul 11–"
     }
   ],
-  "_phaseBadge": "🟡 BRENT TOPS $83 AS IRAN REVIEWS BILL TO BAR US/ISRAELI SHIPS · SAUDI BRACES FOR 'COORDINATED ATTACKS'",
+  "_phaseBadge": "🟡 BRENT SETTLES $83.55 (+1.3%) AS IRAN'S HORMUZ BILL SETS 20% CARGO PENALTY · REOPENING TIED TO BLOCKADE BEING LIFTED",
   "budget": {
     "petrolPre": 94.72,
     "petrolNow": 111.21,
@@ -1687,11 +1078,11 @@
     "lpgNow": 942.0
   },
   "brief": [
-    "Day 160 of the West Asia war, 11:15 AM update. Overall risk to India right now: moderate-to-high — this week's optimism has partly reversed.",
-    "Oil jumped back above $83 a barrel after falling to about $79 earlier in the week. The reason: Iran's parliament is reviewing a new bill that would permanently bar US and Israeli ships from the Strait of Hormuz — even while a separate, narrower deal with Oman to manage shipping is close to done. Iran's own officials say that Oman deal won't mean the strait actually reopens.",
-    "The war's risk is spreading again too: Saudi Arabia says it's bracing for coordinated attacks by Iraq-based militias working together with Yemen's Houthi rebels.",
-    "One honest correction: earlier updates on this tracker used rough estimates for US military deaths. The Pentagon's own official count is now available — 18 US troops killed and 687 wounded since the war began in February, including 4 killed since fighting resumed in July.",
-    "For India: markets opened lower this morning as oil rose, giving back some of Thursday's gains, though they've recovered a bit since. Petrol, diesel and LPG remain unchanged. Bottom line: don't get too comfortable with any single day's optimism in this war — this week alone showed how fast the mood can flip both ways."
+    "Day 161 of the West Asia war — Friday's closing update. Overall risk to India: high, and this week showed how fast the mood can flip in both directions.",
+    "Oil: Brent finished at $83.55, up 1.3% on the day, after falling to about $79 midweek. The reason it turned is the fine print of Iran's proposed Hormuz shipping law: US and Israeli ships barred, countries deemed hostile made to pay compensation before passing, a fine worth 20% of a ship's cargo for violations, and no full reopening until the US lifts its naval blockade.",
+    "So the Iran-Oman channel deal being 'close' does not mean the strait reopens. Those are two different things, and markets spent this week learning the difference.",
+    "Markets: the Nifty closed at 24,570.65 and the Sensex at 78,499.17, both down slightly — but the fall was mostly domestic, with bank and finance stocks hit by new RBI draft lending rules. Both indices still ended the week about 1% higher, the second week of gains.",
+    "For your budget: petrol ₹111.21, diesel ₹97.83 and a domestic LPG cylinder ₹942 — all unchanged this week. Nothing is in short supply. The pressure is on price, not availability."
   ],
-  "shareLine": "Oil just reversed hard — from a weekly low near $79 back above $83 — after Iran's parliament reviewed a bill to permanently bar US and Israeli ships from Hormuz. Saudi Arabia is bracing for coordinated militia attacks. The optimism didn't last the week."
+  "shareLine": "Brent settled $83.55 after a round trip from $79 — Iran's draft Hormuz law is stricter than markets priced: US and Israeli ships barred, a 20% cargo-value fine, and no full reopening until the US blockade lifts."
 }
