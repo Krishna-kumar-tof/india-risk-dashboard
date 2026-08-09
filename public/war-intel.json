@@ -1,8 +1,8 @@
 {
-  "_updated": "August 7, 2026 — market close (IST)",
-  "_asOf": "2026-08-07",
+  "_updated": "August 9, 2026 — 9:00 AM IST",
+  "_asOf": "2026-08-09",
   "_start": "2026-02-28",
-  "_day": 161,
+  "_day": 163,
   "preWar": {
     "brent": 65,
     "rupee": 91.49,
@@ -11,69 +11,73 @@
     "petrol": 94.72,
     "diesel": 87.62
   },
-  "_phase": "TALKS CONTINUE; HORMUZ TERMS HARDEN",
+  "_phase": "OMAN FRAMEWORK DONE — REOPENING TIED TO US CONCESSIONS",
   "_note": "Verified: NPR, CNN, CBS, Fox News, The Hill, Washington Times (Jul 15-16), CENTCOM statements, HDFC Sky, Business Standard (Jul 14-15 closes), TradingEconomics, Investing.com (Brent live Jul 16), Zee Business",
   "ticker": [
-    "🟡 DAY 161 FRI AUG 7 CLOSE: Brent settled $83.55 (+1.3%, +$1.06), WTI $78.18 — a round trip from a midweek low near $79 as Iran's parliament reviewed the Hormuz shipping bill.",
-    "⚓ HORMUZ BILL TERMS (reported): US and Israeli vessels barred; states deemed hostile to pay compensation before passage; violators fined 20% of cargo value; full reopening tied to the US lifting its maritime blockade — stricter than markets had priced.",
-    "🇸🇦 HOUTHIS claimed attacks on Saudi troop positions on Thursday, keeping regional escalation risk live alongside the Iran-Oman channel talks.",
-    "📉 INDIA CLOSE: Nifty 24,570.65 (-0.27%), Sensex 78,499.17 (-0.58%) — financials fell on RBI's draft NBFC norms; Nifty IT firmed. Both indices ended the week ~+1%, a second straight weekly gain.",
-    "💵 FII FLOWS: net purchases of about $1.3bn of Indian equities in August to date, after $2.1bn in July.",
-    "📊 US CASUALTIES (DCAS, official): 18 killed, 687 wounded since Feb 28 — including 4 killed since fighting resumed on Jul 7."
+    "🟠 DAY 163 SUN AUG 9, 9:00 AM IST: Iran's Supreme National Security Council sets SIX CONDITIONS for reopening Hormuz — no further US threats, blockade lifted, all US military assets withdrawn from the region, sanctions lifted, assets unfrozen, war compensation paid.",
+    "🚢 IRAN TARGETED AN ADNOC-OWNED VESSEL inside the Strait of Hormuz on Saturday; the UAE blamed Iran. Oman has warned that continued attacks on shipping could derail the route arrangement.",
+    "🤝 IRAN-OMAN ROUTE COORDINATES AGREED. Araghchi: talks 'approaching the final stages' — but 'this is not a sign of the reopening of the Strait of Hormuz'. IRGC: reopening is 'completely independent' of the Oman track.",
+    "🇸🇦🇵🇰🇹🇷 MECCA JOINT DEFENCE AGREEMENT signed Friday — an armed attack on Saudi Arabia, Pakistan or Turkey is to be treated as an attack on all three. India's MEA: 'closely following' the development.",
+    "🇾🇪 YEMEN'S SAUDI-BACKED GOVERNMENT launched operations against the Houthis Saturday, after Houthi attacks on Saudi troop positions and a tanker in the Gulf of Aden.",
+    "📉 MARKETS CLOSED (WEEKEND). Friday close: Nifty 24,570.65 (-0.27%), Sensex 78,499.17 (-0.58%) — both ~+1% on the week. Brent settled $83.55 (+1.3% on the day, ~-7% on the week). Rupee ~95.20."
   ],
   "whatChanged": {
-    "label": "WHAT CHANGED — FRIDAY AUGUST 7, MARKET CLOSE (DAY 161)",
+    "label": "WHAT CHANGED — SUNDAY AUGUST 9, 9:00 AM IST (DAY 163)",
     "items": [
       {
         "color": "red",
-        "bold": "IRAN REVIEWS A BILL TO BAR US AND ISRAELI SHIPS FROM HORMUZ — OIL JUMPS",
-        "text": "After Brent fell as low as ~$79 midweek on de-escalation hopes, it reversed sharply — climbing over 3% Thursday to settle at $82.49, then topping $83 Friday — after Iran's parliament reviewed a proposed bill to bar US and Israeli vessels from the strait. This directly undercuts the optimism from Wednesday's Iran-Oman 'concession' reporting and is a reminder that Iran's negotiating and legislative tracks can move in opposite directions simultaneously."
+        "bold": "MECCA PACT: SAUDI ARABIA, PAKISTAN AND TURKEY SIGN A MUTUAL DEFENCE AGREEMENT",
+        "text": "An armed attack on any one of the three is now to be treated as an attack on all three. It builds on the September 2025 Saudi-Pakistan defence agreement and brings in a NATO member. India's MEA says it is 'closely following' the development. For this tracker the significance is structural rather than immediate: India's largest Gulf energy relationships now sit inside a security framework that includes Pakistan."
       },
       {
-        "color": "orange",
-        "bold": "SAUDI ARABIA BRACES FOR 'COORDINATED ATTACKS'",
-        "text": "A Saudi official told CNN the kingdom is bracing for multiple coordinated attacks by Iraqi militias working together with Iran-backed Houthi rebels — a significant escalation warning. The Houthis separately claimed a 'large-scale' military operation against Saudi troops and an attack on a Saudi oil tanker in the Gulf of Aden, near the Bab al-Mandeb strait."
+        "color": "red",
+        "bold": "IRAN SETS SIX CONDITIONS FOR REOPENING HORMUZ — AND STRIKES AN ADNOC VESSEL",
+        "text": "Tehran's Supreme National Security Council said the strait will not fully reopen until the US 'corrects its behaviour': no further threats, blockade lifted, all US military assets withdrawn from the region, sanctions lifted, assets unfrozen, war damages paid. Hours later Iran targeted a vessel owned by the Abu Dhabi National Oil Company inside the strait."
+      },
+      {
+        "color": "amber",
+        "bold": "THE OMAN FRAMEWORK IS DONE — BUT IT IS NOT A REOPENING",
+        "text": "Iran and Oman have agreed the coordinates of vessel routes and Araghchi called the talks near-final. He and an IRGC spokesman both stressed the reopening question is separate from the Oman track. Expect headlines this week to conflate the two; the tracker will not."
       },
       {
         "color": "cyan",
-        "bold": "THE OMAN DEAL IS REAL BUT DELIBERATELY LIMITED",
-        "text": "Iran's deputy foreign minister confirmed talks with Oman on a shipping framework are close to finalized — but explicitly warned this would not necessarily mean a reopening of the strait, through which roughly 20% of the world's oil and LNG trade passed before the war. Iran's Foreign Minister Araghchi must also answer parliament Friday about negotiation details, suggesting real domestic political scrutiny of how much Tehran is conceding."
-      },
-      {
-        "color": "cyan",
-        "bold": "TRUMP'S MUNITIONS STOCKPILE BECOMES A NEGOTIATING LIABILITY",
-        "text": "Senior US officials say Trump has privately complained that reports of the Pentagon's dwindling munitions stockpile make the US look weak at the negotiating table — even as he publicly insisted the US has 'massive amounts' of munitions. This is a notable admission that military-readiness constraints, not just diplomacy, are shaping US posture, consistent with earlier reporting on why strikes were paused in early August."
+        "bold": "MARKETS CLOSED — FRIDAY'S CLOSE STANDS UNTIL MONDAY",
+        "text": "Nifty 24,570.65 and Sensex 78,499.17, both around 1% higher on the week for a second straight weekly gain, supported by foreign inflows of about $1.3bn in August to date. Brent settled $83.55, up 1.3% on the day but down roughly 7% across the week."
       }
     ]
   },
   "deaths": "7,199+",
   "econ": {
-    "sensex": "78,499.17 (close, -0.58%)",
-    "sensexDelta": "FRI AUG 7 CLOSE: Sensex -455.59 (-0.58%) to 78,499.17; Nifty -0.27% to 24,570.65. Financials led the fall on RBI's draft NBFC lending norms — a domestic factor, not a war one — while Nifty IT firmed and cushioned the index. Both benchmarks still closed the week about 1% higher, a second consecutive weekly gain. THU AUG 6 CLOSE: Sensex 78,954.90, Nifty 24,611.94.",
-    "sensexSub": "Brent settled $83.55 (+1.3%) Friday after a midweek low near $79 — the swing factor is Hormuz terms, not supply. Rupee ~95.2. Pump prices unchanged: petrol ₹111.21, diesel ₹97.83, domestic LPG ₹942.",
+    "sensex": "78,499.17 (Fri close, -0.58%)",
+    "sensexDelta": "MARKETS CLOSED — WEEKEND. FRI AUG 7 CLOSE: Sensex -455.59 (-0.58%) to 78,499.17; Nifty -0.27% to 24,570.65, dragged by financials on RBI's draft NBFC lending norms — a domestic factor, not a war one — with Nifty IT cushioning. Both benchmarks closed the week roughly 1% higher, a second consecutive weekly gain. Next print: Monday's open, which will be the first read on Iran's six conditions and the Mecca defence pact.",
+    "sensexSub": "Brent settled $83.55 Friday (+1.3% on the day) but lost about 7% across the week — the swing factor remains Hormuz terms rather than supply. Rupee ~95.20. Pump prices unchanged: petrol ₹111.21, diesel ₹97.83, domestic LPG ₹942.",
     "vix": "~13.1 — EASING",
     "vixDelta": "-4.51% to 13.14 Wed open, ~-3% at close — volatility compressing despite blockade. Tue: 13.75 (+3.53%). Well below wartime 24-27; markets treating this as a contained maritime campaign, not full war.",
     "fpi": "+$1.3bn in August so far",
-    "fpiDelta": "Foreign investors net bought roughly $1.3bn of Indian equities in August to date, after $2.1bn in July — sustained inflows are the main support under this two-week rally.",
+    "fpiDelta": "Foreign investors net bought roughly $1.3bn of Indian equities in August to date, after $2.1bn in July — sustained inflows remain the main support under this two-week rally.",
     "wealth": "BSE market cap ~Rs 485-490 trillion — resilient through the blockade week. WPI 9.87% June (from 9.68%) — war transmission to wholesale prices confirmed. Net direct tax +16.4% YTD to Rs 6.51L Cr (till Jul 13). RBI Aug MPC calculus now complicated by oil + rupee + WPI.",
     "analysis": "Equities are absorbing the blockade far better than the April original — Wednesday closed green despite Brent at $85 and daytime strikes. The stress has migrated to the currency and wholesale prices: rupee past 96 (first since May) with options pricing further downside, and WPI at 9.87%. Watch: rupee 96.50 resistance, Brent $86.36 (this morning's high), Nifty 24,000 support, OMC under-recovery at $86 Brent, and whether FII financial-sector buying survives the oil tape."
   },
   "hormuzStatus": {
-    "status": "A sharp reversal from mid-week optimism: Iran's parliament is reviewing a bill that would bar US and Israeli vessels from the Strait of Hormuz entirely, even as its deputy foreign minister confirms the separate Oman shipping-channel talks are close to finalized. Iran has been explicit that the Oman deal would not necessarily mean the strait reopens generally. Meanwhile Saudi Arabia is bracing for coordinated attacks by Iraqi militias and Houthi rebels, suggesting the regional risk picture is deteriorating even as the narrow US-Iran-Oman track advances.",
+    "status": "Iran and Oman have agreed the coordinates of the routes vessels would take, and Foreign Minister Araghchi called the talks 'approaching the final stages' on Saturday. He immediately added that this is 'not a sign of the reopening of the Strait of Hormuz'. Iran's Supreme National Security Council went further, setting out six conditions for a full reopening: that the US never threaten Iran again, end the naval blockade, withdraw all military assets from the region, lift sanctions, unfreeze assets, and compensate Iran for war damage. An IRGC spokesman said the reopening question is 'completely independent' of the Oman negotiation. The distance between a managed transit corridor and an open strait is now explicit.",
     "preWarFlow": "~90-140 ships/day",
-    "currentFlow": "No reopening. A narrow, managed Iran-Oman channel is being negotiated on top of a still-hostile legal posture: the draft law would permanently exclude US and Israeli vessels and fine violators 20% of cargo value, with full reopening conditional on the US lifting its blockade.",
-    "reduction": "Brent round-tripped this week — a low near $79 Tuesday-Wednesday, +3%+ Thursday, settling $83.55 Friday. The volatility itself is the signal: the market is repricing the difference between a channel arrangement and an actual reopening.",
+    "currentFlow": "No reopening. Iran targeted a vessel owned by the Abu Dhabi National Oil Company inside the strait on Saturday — the UAE blamed Iran — while the Oman framework was being described as finalised. Oman has warned that continued attacks on shipping could derail the arrangement.",
+    "reduction": "Brent settled $83.55 Friday, up 1.3% on the day but down roughly 7% across the week. The market is pricing the Oman framework as real and the reopening as distant — two separate things that headlines keep merging.",
     "indianVesselsNear": 7,
     "indianSeafarers": 148,
     "indianTransited": 1,
     "totalShipsWaiting": "Significantly reduced from wartime peak of 20,000+. 3 Indian tankers safely crossed. But US oil licence revocation + Hormuz re-closure claims = uncertainty for remaining stranded vessels. India seafarer repatriation: mostly achieved for Indian-flagged vessels that transited. MT Settebello diplomatic track: ongoing.",
-    "lastTransit": "CENTCOM (first 24h of blockade): 2 commercial vessels redirected; 1 non-compliant oil tanker disabled approaching Kharg Island after ignored warnings. US daytime + night strikes continuing on coastal/anti-ship targets.",
+    "lastTransit": "Saturday: Iran struck an ADNOC-owned vessel in the strait. Iran-Oman route coordinates agreed; no general reopening announced.",
     "indianNavyEscort": "Op Urja Suraksha: transitioning given formal blockade lift. MT Settebello diplomatic track continues independent of the broader deal. India's 18,000+ seafarer repatriation should now accelerate given the 'immediate effect' confirmation from Pakistan's PM.",
-    "headline": "BLOCKADE ENFORCED — FIRST TANKER DISABLED. TRUMP DROPS 20% TOLL. IRAN: GULF ENERGY 'FOR EVERYONE OR FOR NO ONE.' BRENT ~$86. RUPEE PAST 96.",
+    "headline": "IRAN STRIKES AN ADNOC-OWNED VESSEL IN HORMUZ WHILE ITS OMAN ROUTE DEAL IS CALLED 'FINAL'. TEHRAN: THE STRAIT REOPENS ONLY IF WASHINGTON 'CORRECTS ITS BEHAVIOUR'.",
     "indianCasualties": 4,
     "indianCasualtyDetail": "4th Indian death of the war: a crew member aboard UAE tanker MOMBASA killed by an Iranian cruise missile in Omani territorial waters (UAE MoD, Jul 14). 8 injured incl. 6 Indians, 4 serious. Earlier: 3 Indian sailors killed on MT Settebello (Jun 8, US Navy strike)."
   },
   "hormuzEvents": [
+    {
+      "d": "Aug 8",
+      "e": "DAY 162 — ROUTES AGREED, STRAIT STILL SHUT. Iran and Oman agreed the coordinates of vessel routes through Hormuz and Araghchi called the talks 'approaching the final stages' — while cautioning it is 'not a sign of the reopening' and that reopening is subject to compensation for the US violation of the June memorandum. Iran's Supreme National Security Council secretary Zolghadr said the strait will never fully reopen until the US 'corrects its behaviour', listing six demands: no further threats, end the blockade, withdraw all regional military assets, lift sanctions, unfreeze assets, pay war compensation. An IRGC spokesman called the reopening 'completely independent' of the Oman track. Hours later Iran targeted an ADNOC-owned vessel inside the strait; the UAE blamed Iran. Oman warned that further attacks on shipping could derail the deal."
+    },
     {
       "d": "Aug 5-7",
       "e": "DAYS 159-161 — TERMS, NOT REOPENING. Iran's parliament reviewed the draft Hormuz shipping law: US and Israeli vessels barred outright; states deemed hostile required to pay compensation before transit; violators fined 20% of cargo value; and full reopening conditional on the US lifting its maritime blockade. Iran's deputy foreign minister said the Oman channel arrangement would not necessarily mean the strait reopens. Explosions were reported near Qeshm Island. Houthi forces claimed attacks on Saudi troop positions. Brent: ~$79 low Tue-Wed, +3%+ Thu, settled $83.55 Fri (+1.3%). INDIA: Nifty 24,570.65 (-0.27%), Sensex 78,499.17 (-0.58%) Friday; both up ~1% on the week."
@@ -216,34 +220,28 @@
   ],
   "military": [
     {
-      "t": "AUG 6-7: HOUTHIS CLAIM ATTACKS ON SAUDI TROOP POSITIONS AS HORMUZ TERMS HARDEN",
+      "t": "AUG 7-8 — MECCA JOINT DEFENCE AGREEMENT: SAUDI ARABIA, PAKISTAN AND TURKEY SIGN MUTUAL DEFENCE PACT",
       "lv": "BREAKING",
       "color": "red",
-      "d": "Houthi forces claimed attacks on Saudi troop positions on Thursday, and explosions were reported near Qeshm Island in the strait. The negotiating track and the military track are moving in opposite directions: the Iran-Oman channel arrangement is close to final while the draft law would permanently exclude US and Israeli shipping. Assessment: regional spillover risk to Saudi and Red Sea routes remains live regardless of progress on the narrow Hormuz channel."
+      "d": "Signed in Mecca by Crown Prince Mohammed bin Salman, President Erdogan and Prime Minister Shehbaz Sharif: an armed attack against any one of the three is to be treated as an attack against all three. It extends the September 2025 Saudi-Pakistan mutual defence agreement to include Turkey, and follows repeated missile and drone attacks on Gulf states during this war. India's MEA said New Delhi is 'closely following' the development. Assessment: this is the most consequential India-facing development of the war so far — it hands Pakistan a formal security guarantee from India's largest Gulf energy supplier and from a NATO member, and signals Riyadh diversifying away from sole reliance on the US security umbrella."
     },
     {
-      "t": "JUL 15-16 BLOCKADE ENFORCED: First Tanker Disabled. Daytime Strikes on Greater Tunb + Bandar Abbas. Iran Threatens ALL Gulf Energy Exports; Houthis Threaten Bab el-Mandeb",
+      "t": "AUG 8 — IRAN HITS ADNOC-OWNED VESSEL IN HORMUZ AS TEHRAN SETS SIX CONDITIONS FOR REOPENING",
       "lv": "BREAKING",
       "color": "red",
-      "d": "The US naval blockade went live Wed 1:30 AM IST: 2 vessels redirected and 1 non-compliant tanker disabled approaching Kharg Island in the first 24 hours, with 20+ warships and hundreds of aircraft deployed. Strikes escalated to daylight — a 90-minute attack on Greater Tunb Island and waves on Bandar Abbas command centres and coastal defences, after a fourth consecutive 7-hour night wave. Iranian officials report 7+ troops killed in a barracks strike, 30+ civilians dead and 260+ wounded (unverified). The IRGC threatened that regional oil and gas exports will be 'for everyone or for no one,' and a Houthi official threatened a coordinated Bab el-Mandeb closure — extending the risk beyond Hormuz to India's Red Sea trade lane."
+      "d": "Iran targeted a vessel owned by the Abu Dhabi National Oil Company inside the strait on Saturday, hours after its foreign minister described the Oman route talks as near-final. The UAE blamed Iran. Iran's Supreme National Security Council simultaneously published six conditions for a full reopening — no further US threats, an end to the blockade, withdrawal of all US military assets from the region, sanctions relief, unfrozen assets and war compensation. Assessment: the negotiating track and the coercion track are running in parallel by design."
     },
     {
-      "t": "OFF-RAMP TRACK: Trump Drops 20% Toll; Iran Frees Detained American; Vance Rules Out Ground War; UK to Proscribe IRGC",
-      "lv": "DEVELOPING",
+      "t": "AUG 8 — US JOINT CHIEFS CHAIRMAN PRIVATELY SEEKING AN 'OFF-RAMP', PER CNN SOURCES",
+      "lv": "REPORTED",
       "color": "amber",
-      "d": "Trump replaced the 20% Hormuz fee with Gulf trade-and-investment pledges after allied objections, while declaring the US the 'guardian angel' of the strait. Iran released an American detained since Dec 2024 — Trump publicly thanked Tehran. Vance ruled out ground troops and regime change on the Joe Rogan Experience, framing US goals as keeping Hormuz open and preventing Iranian state collapse. Ghalibaf says the diplomacy door stays open; the foreign ministry says no talks are planned. Trump warns power plants and bridges could be hit 'next week' without talks. ~31 days remain to the ~Aug 16 MOU expiry; Qatar and Pakistan remain lead mediators."
+      "d": "Sources told CNN the chairman of the Joint Chiefs of Staff has made clear internally that the US needs an exit from the conflict, because the available escalation options could backfire. Assessment: read alongside earlier reporting on depleted munitions stockpiles, this points to narrowing US military leverage — which is consistent with Tehran raising, rather than lowering, its price for the strait."
     },
     {
-      "t": "INDIA DAY 138: Rupee Past 96 (First Since May) at 96.32. WPI 9.87%. Markets Resilient — Wed Closed Green Despite $85 Brent. Cautious Open Signalled",
-      "lv": "DEVELOPING",
-      "color": "amber",
-      "d": "The war's India transmission has shifted to the currency and wholesale prices: the rupee broke 96 Tuesday (-48p) and closed 96.32 Wednesday, with options markets pricing further downside toward 96.50; June WPI jumped to 9.87% on food and non-food items. Equities remain resilient — Wednesday's +565-pt opening rally pared to a +130-pt close as financials countered oil; VIX eased to ~13.1. FII sold Rs 739.69 Cr Tuesday but returned to financials Wednesday. Watch: OMC under-recovery at Brent $86, Nifty 24,000 support, and the Bab el-Mandeb threat to India's Red Sea trade."
-    },
-    {
-      "t": "JUL 11-14 CEASEFIRE COLLAPSED: US Blockade + Hormuz Tolls Reimposed. 3 Consecutive Nights of Strikes. Iran Hits Bases in 5 Gulf States; Indian Sailor Killed on UAE Tanker",
-      "lv": "DEVELOPING",
-      "color": "red",
-      "d": "Iran fired on a commercial ship Jul 11 and declared Hormuz closed; the US answered with three consecutive nights of strikes on dozens of targets — air defences, coastal radar, IRGC boats — including the first combat use of one-way attack sea drones. Iran struck US bases across Qatar, Kuwait, Bahrain, Jordan and Oman, hit the UAE, and its cruise missiles struck UAE tankers Mombasa and Al Bahiyah in Omani waters, killing an Indian crew member (4th Indian death). Trump reinstated the naval blockade with tolls for Hormuz passage, effective Wed 1:30 AM IST, while telling radio host Hugh Hewitt a diplomatic deal remains possible."
+      "t": "AUG 8 — YEMEN'S SAUDI-BACKED GOVERNMENT LAUNCHES OPERATIONS AGAINST THE HOUTHIS",
+      "lv": "ACTIVE",
+      "color": "orange",
+      "d": "Yemeni government forces conducted retaliatory attacks on the Iran-aligned Houthis on Saturday, following the Houthi strikes on Saudi troop positions and a tanker in the Gulf of Aden reported earlier in the week. Assessment: the Bab el-Mandeb leg of India's westbound trade remains exposed independently of whatever is agreed at Hormuz."
     }
   ],
   "nukes": [
@@ -419,8 +417,8 @@
     }
   ],
   "assessment": {
-    "headline": "DAY 161, FRI AUG 7 CLOSE: BRENT SETTLED $83.55 (+1.3%) AFTER A ROUND TRIP FROM ~$79. IRAN'S DRAFT HORMUZ BILL IS STRICTER THAN MARKETS HAD PRICED — US AND ISRAELI VESSELS BARRED, A 20% CARGO-VALUE PENALTY FOR VIOLATORS, AND FULL REOPENING CONDITIONAL ON THE US LIFTING ITS MARITIME BLOCKADE. INDIAN EQUITIES CLOSED LOWER ON DOMESTIC FINANCIALS BUT HELD A SECOND STRAIGHT WEEKLY GAIN.",
-    "body": "Friday 11:15 AM IST. Day 160. The week ends on a harder note than it started.\n\nOIL'S ROUND TRIP\n• Brent fell to a multi-session low near $79 by Tuesday-Wednesday on Iran-Oman deal optimism, then reversed sharply — up 3.8% Thursday to settle at $82.49, and above $83 Friday morning — after Iran's parliament reviewed a bill to bar US and Israeli vessels from Hormuz.\n• This is a reminder that Iran runs multiple, sometimes contradictory tracks simultaneously: a real, narrowing Oman shipping-channel negotiation alongside legislative moves that would harden the strait's closure to Western shipping specifically.\n\nTHE WAR'S RISK IS WIDENING, NOT JUST HORMUZ\n• A Saudi official told CNN the kingdom is bracing for multiple coordinated attacks by Iraqi militias working with Iran-backed Houthi rebels. The Houthis separately claimed a large-scale operation against Saudi troops and an attack on a Saudi tanker in the Gulf of Aden.\n• Iraq has begun implementing its own security plan in response.\n\nDIPLOMACY: REAL BUT DELIBERATELY LIMITED\n• Iran's deputy foreign minister confirmed the Oman shipping deal is close to finalized, but explicitly said it would not necessarily mean the strait reopens generally — Hormuz carried roughly 20% of world oil and LNG trade before the war.\n• Foreign Minister Araghchi must answer Iran's parliament Friday about negotiation details, suggesting real domestic scrutiny over how much ground Tehran is giving up.\n• Separately, senior US officials say Trump has privately complained that reports of the Pentagon's dwindling munitions stockpile make the US look weak in negotiations — even as he publicly claims 'massive amounts' of munitions remain. This corroborates earlier reporting that military readiness constraints, not just diplomacy, shaped the early-August strike pause.\n\nCASUALTIES\n• The Pentagon's official DCAS database records 18 US troops killed and 687 wounded since the war began February 28 — including 4 dead and 270 wounded in the renewed fighting since July 7.\n\nINDIA / MARKETS\n• Sensex opened down 438.68 points (-0.55%) to 78,516.08, Nifty down 97.1 to 24,538.90 — reversing Thursday's gains (Sensex had closed 78,954.76) as Brent's jump above $83 weighed on sentiment. By late morning, losses had eased somewhat (Sensex -388, Nifty -52).\n• A separate domestic factor is also weighing on markets: new RBI draft norms tightening rules on NBFC revolving credit products hit Bajaj Finance (-4%) and Bajaj Finserv (-3%+) specifically — not war-related, but adding to the day's negative mood.\n• IT stocks provided some cushion, with the BSE IT index up 441 points.\n\nWATCHLIST\n• Whether Iran's parliament actually passes the vessel-barring bill, and what that means for the Oman channel deal running in parallel.\n• Whether the Saudi 'coordinated attacks' warning materializes.\n• US July payrolls data, a purely domestic US economic release also due today and likely to move markets independent of the war."
+    "headline": "DAY 163, SUN AUG 9: THE OMAN FRAMEWORK IS FINISHED AND THE STRAIT IS STILL SHUT. IRAN HAS PUT A PRICE ON REOPENING THAT WASHINGTON CANNOT PAY — SIX CONDITIONS INCLUDING FULL US WITHDRAWAL FROM THE REGION AND WAR COMPENSATION — WHILE STRIKING AN ADNOC-OWNED VESSEL INSIDE THE WATERWAY. SEPARATELY, THE MECCA JOINT DEFENCE AGREEMENT BETWEEN SAUDI ARABIA, PAKISTAN AND TURKEY IS THE MOST CONSEQUENTIAL INDIA-FACING DEVELOPMENT OF THE WAR TO DATE.",
+    "body": "Sunday 9:00 AM IST. Day 163. Two tracks moved this weekend, in opposite directions.\n\nTHE STRAIT\n• Iran and Oman have agreed the coordinates of vessel routes. Araghchi called the talks 'approaching the final stages'.\n• In the same breath he said this is 'not a sign of the reopening' and tied reopening to compensation for the US violation of the June memorandum.\n• Iran's Supreme National Security Council set six conditions: no further US threats, blockade ended, all US military assets withdrawn from the region, sanctions lifted, assets unfrozen, war damages paid.\n• An IRGC spokesman said reopening is 'completely independent' of the Oman negotiation, and framed the strait as geopolitical capacity rather than an economic passage.\n• Iran struck an ADNOC-owned vessel inside the strait on Saturday. Oman warned such attacks could derail the arrangement.\n\nASSESSMENT\n• A managed transit corridor and an open strait are different products. The first is close; the second is not on the table at any price the US would pay.\n• Expect the market to repeatedly mistake the first for the second. Each correction has been worth several dollars on Brent in both directions this past fortnight.\n• Confidence: high on the terms as reported; low on timing.\n\nTHE MECCA PACT — INDIA IMPACT\n• Saudi Arabia, Pakistan and Turkey signed a mutual defence agreement on Friday: an attack on one is an attack on all.\n• It extends the September 2025 Saudi-Pakistan agreement and adds a NATO member with the alliance's second-largest military.\n• India's MEA response was minimal — 'closely following'. That is the standard holding line, not a judgement.\n• Why it matters for this tracker: India's energy security in the Gulf has always rested on bilateral relationships being insulated from the India-Pakistan file. That insulation is now thinner.\n• Watchlist: whether Qatar joins; whether India's Gulf labour and remittance corridors are affected; the MEA's fuller statement.\n\nWHAT TO WATCH THIS WEEK\n• Monday's open — the first market read on both the six conditions and the Mecca pact.\n• Whether attacks on shipping continue while the Oman framework is signed.\n• Any Indian government statement on the Mecca agreement beyond the holding line.\n• Brent's range: $79 to $86 has contained the last fortnight; a sustained break above $85 revives the pump-price question."
   },
   "featured": [
     {
@@ -1014,17 +1012,27 @@
       "rupee": 95.2,
       "tag": "Brent settled $83.55 (+1.3%, +$1.06) and WTI $78.18 as Iran's parliament reviewed the Hormuz shipping bill. Terms reported: US and Israeli vessels barred; states deemed hostile to pay compensation before passage; violators fined 20% of cargo value; full reopening conditional on the US lifting its maritime blockade — stricter than markets had priced. Houthis claimed attacks on Saudi troop positions. India: Nifty closed 24,570.65 (-0.27%), Sensex 78,499.17 (-0.58%) as financials fell on RBI's draft NBFC norms; Nifty IT firmed. Both indices still ended the week ~+1%, a second straight weekly gain, with FIIs net buyers of ~$1.3bn in August after $2.1bn in July.",
       "sev": 3
+    },
+    {
+      "d": 162,
+      "l": "Aug 8",
+      "deaths": 7199,
+      "brent": 83.55,
+      "nifty": 24570.65,
+      "rupee": 95.2,
+      "tag": "WEEKEND — no market session; Friday's closes carried. Iran and Oman agreed vessel route coordinates and Araghchi called the talks near-final, while stressing this is 'not a sign of the reopening'. Iran's Supreme National Security Council set six conditions for a full reopening: no further US threats, blockade ended, all US military assets withdrawn from the region, sanctions lifted, assets unfrozen, war damages paid. Iran then targeted an ADNOC-owned vessel inside the strait; the UAE blamed Iran. Yemen's Saudi-backed government launched operations against the Houthis. CNN reported the US Joint Chiefs chairman is privately seeking an off-ramp. Saudi Arabia, Pakistan and Turkey's Mecca Joint Defence Agreement, signed Aug 7, drew a 'closely following' response from India's MEA.",
+      "sev": 3
     }
   ],
   "exec": {
-    "level": "MODERATE-HIGH",
-    "phase": "HORMUZ TERMS HARDEN — SHIP-BARRING BILL UNDER REVIEW",
-    "oilNote": "Round trip: ~$79 midweek low, +3%+ Thursday, settled $83.55 Friday (+1.3%). Up ~28% on pre-war $65",
-    "shipping": "IRAN-OMAN CHANNEL NEAR DONE — BUT NOT A REOPENING",
-    "shippingSub": "Draft terms bar US/Israeli vessels, fine violators 20% of cargo value, and tie full reopening to the US lifting its maritime blockade",
-    "military": "HOUTHIS CLAIM ATTACKS ON SAUDI TROOP POSITIONS",
-    "militarySub": "US casualties (DCAS, official): 18 dead, 687 wounded since Feb 28. War dead 7,199+ incl. 2 confirmed, named Indians",
-    "indiaSub": "Nifty closed 24,570.65 (-0.27%), Sensex 78,499.17 (-0.58%) — financials dragged on RBI draft NBFC norms; week still ~+1%, 2nd straight weekly gain"
+    "level": "HIGH",
+    "phase": "ROUTES AGREED, STRAIT STILL SHUT",
+    "oilNote": "Brent settled $83.55 Friday (+1.3%) but lost roughly 7% on the week. Markets closed — next print Monday",
+    "shipping": "FRAMEWORK FINALISED — NOT A REOPENING",
+    "shippingSub": "Iran and Oman have agreed vessel route coordinates, but Tehran ties full reopening to six US concessions. Iran struck an ADNOC-owned vessel Saturday",
+    "military": "MECCA PACT: SAUDI–PAKISTAN–TURKEY MUTUAL DEFENCE",
+    "militarySub": "Attack on one treated as attack on all. MEA: India 'closely following'. US casualties (DCAS): 18 dead, 687 wounded. War dead 7,199+",
+    "indiaSub": "Markets shut for the weekend. Friday close: Nifty 24,570.65, Sensex 78,499.17 — both ~+1% on the week, a second straight weekly gain"
   },
   "hormuzPhases": [
     {
@@ -1058,17 +1066,17 @@
       "days": "Jun 17–Aug 16"
     },
     {
-      "label": "RE-ESCALATION",
-      "color": "red",
-      "days": "Jul 7–9"
-    },
-    {
       "label": "BLOCKADE II",
       "color": "red",
-      "days": "Jul 11–"
+      "days": "Jul 11–Aug 4"
+    },
+    {
+      "label": "OMAN FRAMEWORK",
+      "color": "amber",
+      "days": "Aug 5–"
     }
   ],
-  "_phaseBadge": "🟡 BRENT SETTLES $83.55 (+1.3%) AS IRAN'S HORMUZ BILL SETS 20% CARGO PENALTY · REOPENING TIED TO BLOCKADE BEING LIFTED",
+  "_phaseBadge": "🟠 IRAN HITS ADNOC-OWNED VESSEL IN HORMUZ · TEHRAN SETS SIX CONDITIONS FOR REOPENING · SAUDI-PAKISTAN-TURKEY SIGN MECCA DEFENCE PACT",
   "budget": {
     "petrolPre": 94.72,
     "petrolNow": 111.21,
@@ -1078,11 +1086,11 @@
     "lpgNow": 942.0
   },
   "brief": [
-    "Day 161 of the West Asia war — Friday's closing update. Overall risk to India: high, and this week showed how fast the mood can flip in both directions.",
-    "Oil: Brent finished at $83.55, up 1.3% on the day, after falling to about $79 midweek. The reason it turned is the fine print of Iran's proposed Hormuz shipping law: US and Israeli ships barred, countries deemed hostile made to pay compensation before passing, a fine worth 20% of a ship's cargo for violations, and no full reopening until the US lifts its naval blockade.",
-    "So the Iran-Oman channel deal being 'close' does not mean the strait reopens. Those are two different things, and markets spent this week learning the difference.",
-    "Markets: the Nifty closed at 24,570.65 and the Sensex at 78,499.17, both down slightly — but the fall was mostly domestic, with bank and finance stocks hit by new RBI draft lending rules. Both indices still ended the week about 1% higher, the second week of gains.",
-    "For your budget: petrol ₹111.21, diesel ₹97.83 and a domestic LPG cylinder ₹942 — all unchanged this week. Nothing is in short supply. The pressure is on price, not availability."
+    "Day 163 of the West Asia war, Sunday morning update. Risk to India: high, and this weekend the risk shifted from prices to politics.",
+    "Hormuz: Iran and Oman have now agreed the exact routes ships would take through the strait — but Iran was blunt that this does not mean the strait is reopening. Tehran published six conditions for a full reopening: the US must stop threatening Iran, end its naval blockade, pull all its military out of the region, lift sanctions, release frozen money, and pay for war damage. None of that is close.",
+    "And on the same day it said the talks were nearly done, Iran attacked a ship owned by Abu Dhabi's national oil company inside the strait. So: a deal on paper, force on the water.",
+    "The bigger India story is elsewhere. Saudi Arabia, Pakistan and Turkey have signed a mutual defence pact in Mecca — an attack on one is an attack on all three. India's foreign ministry says it is 'closely following' it. This does not change your fuel bill, but it changes the map: Pakistan now has a formal security guarantee from India's biggest Gulf energy partner.",
+    "Your money: markets are shut for the weekend. Friday's close was Nifty 24,570.65 and Sensex 78,499.17, with both up about 1% on the week. Petrol ₹111.21, diesel ₹97.83 and an LPG cylinder ₹942 — unchanged. Nothing is in short supply; the pressure is still on price, not availability."
   ],
-  "shareLine": "Brent settled $83.55 after a round trip from $79 — Iran's draft Hormuz law is stricter than markets priced: US and Israeli ships barred, a 20% cargo-value fine, and no full reopening until the US blockade lifts."
+  "shareLine": "Iran and Oman agreed the shipping routes — then Iran listed six conditions for actually reopening Hormuz and struck an ADNOC vessel inside it. Meanwhile Saudi Arabia, Pakistan and Turkey signed a mutual defence pact India is watching closely."
 }
