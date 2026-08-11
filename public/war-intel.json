@@ -1,8 +1,8 @@
 {
-  "_updated": "August 10, 2026 — 8:15 AM IST (pre-open)",
-  "_asOf": "2026-08-10",
+  "_updated": "August 11, 2026 — 1:00 PM IST (mid-session)",
+  "_asOf": "2026-08-11",
   "_start": "2026-02-28",
-  "_day": 164,
+  "_day": 165,
   "preWar": {
     "brent": 65,
     "rupee": 91.49,
@@ -11,69 +11,73 @@
     "petrol": 94.72,
     "diesel": 87.62
   },
-  "_phase": "IRGC HARDLINER TAKES IRAN'S SECURITY CHAIR",
+  "_phase": "COMPENSATION DEADLOCK — BRENT BACK NEAR $88",
   "_note": "Verified: NPR, CNN, CBS, Fox News, The Hill, Washington Times (Jul 15-16), CENTCOM statements, HDFC Sky, Business Standard (Jul 14-15 closes), TradingEconomics, Investing.com (Brent live Jul 16), Zee Business",
   "ticker": [
-    "🟠 DAY 164 MON AUG 10, 8:15 AM IST: IRAN'S SECURITY CHAIR CHANGES HANDS — Mohsen Rezaee, who commanded the IRGC from 1981 to 1997, is named secretary of the Supreme National Security Council, replacing Zolghadr one day after the council set six conditions for reopening Hormuz.",
-    "👤 REZAEE is also now Supreme Leader Mojtaba Khamenei's representative on the council. He said earlier this month Iran will never allow an unauthorised route through the strait. Analysts read the move as IRGC consolidation over security decision-making.",
-    "🇺🇸 TRUMP TO AXIOS: the US is 'low-keying it' and 'only semi-negotiating' with Tehran, content to let economic pressure build — Iran is in 'very bad shape' with 'huge inflation'.",
-    "🚢 ADNOC REPORTS THREE VESSELS ATTACKED transiting Hormuz, one struck by a missile. Oman has warned continued attacks on shipping could derail the route arrangement.",
-    "🛢 OIL: Brent settled $83.55 Friday (~-7% on the week) and edged higher in Asian trade this morning as the reopening timetable slipped. Reporting suggests the US could lift its blockade once unrestricted commercial transit resumes — the reciprocal Tehran has not accepted.",
-    "📊 INDIA PRE-OPEN: GIFT Nifty ~24,655, broadly flat vs Friday's 24,570.65 close. Nikkei +1.5%, Kospi +0.7%. Petrol ₹111.21, diesel ₹97.83, LPG ₹942 — unchanged."
+    "🔴 DAY 165 TUE AUG 11, 1:00 PM IST: BRENT BACK NEAR $88 — crude rallied about 5% Monday to $87.69, a fourth straight up session, and held at a more-than-one-week high today as hopes of a US-Iran deal faded. That is ~35% above the pre-war $65.",
+    "⚖️ COMPENSATION DEADLOCK: Iran demands war reparations before reopening Hormuz; Trump has countered by demanding compensation from Iran for the USS Cole families and for those killed in Lebanon, Syria, Yemen and Gaza — and says it enters all future negotiations.",
+    "🚫 ARAGHCHI: Iran is NOT negotiating with the US — only exchanging messages through intermediaries — and will not resume until Washington compensates for violating the June memorandum. Tehran: a maritime blockade 'cannot be lifted through diplomacy'.",
+    "🇺🇸 TRUMP: 'We control the strait 100%' — calling the naval blockade a 'steel wall' and 'infallible', while conceding Iran 'can make trouble' and will 'on occasion drop a mine'. He extended the Jones Act waiver for energy cargoes by 90 days from Aug 17.",
+    "🇾🇪 RED SEA WIDENS: Houthi missiles and drones hit the government-held port of Mocha twice in 24 hours — seven killed, piers and warehouses damaged — with a claimed drone strike on Aramco's Jazan refinery.",
+    "📉 INDIA MID-SESSION: Nifty ~24,471 (-0.46%), Sensex ~78,178 (-0.46%), near the day's low; IndiGo, Bajaj Finance and Shriram Finance lead losses. Rupee 95.30. Petrol ₹111.21, diesel ₹97.83, LPG ₹942 — unchanged so far."
   ],
   "whatChanged": {
-    "label": "WHAT CHANGED — MONDAY AUGUST 10, 8:15 AM IST (DAY 164) — PRE-OPEN",
+    "label": "WHAT CHANGED — TUESDAY AUGUST 11, 1:00 PM IST (DAY 165) — MID-SESSION",
     "items": [
       {
         "color": "red",
-        "bold": "IRAN PUTS A FORMER IRGC COMMANDER-IN-CHIEF IN CHARGE OF ITS SECURITY COUNCIL",
-        "text": "Mohsen Rezaee replaces Mohammad Bagher Zolghadr as secretary of the Supreme National Security Council — one day after that council published six conditions for reopening Hormuz. Rezaee led the IRGC from 1981 to 1997 and has said Iran will never allow an unauthorised route through the strait. Supreme Leader Mojtaba Khamenei also made him his personal representative on the council. The negotiating counterparty just got harder."
-      },
-      {
-        "color": "amber",
-        "bold": "TRUMP: 'WE ARE ONLY SEMI-NEGOTIATING WITH THEM'",
-        "text": "The president told Axios the US is 'low-keying it' and willing to let economic pressure mount, calling Iran's position 'very bad shape'. With the Joint Chiefs chairman reportedly seeking an off-ramp, both capitals are signalling patience rather than urgency — which argues for a long plateau rather than a break in either direction."
+        "bold": "BRENT BACK NEAR $88 — UP ABOUT 5% IN A SINGLE SESSION",
+        "text": "Crude rallied roughly 5% on Monday to $87.69, a fourth consecutive up session, and steadied near $88 today at a more-than-one-week high. That is about 35% above the pre-war $65 and above the $85 level at which the OMC under-recovery and pump-price question reopens. Note this tracker's Monday assessment called a $80-86 plateau; crude broke the top of that range within a day."
       },
       {
         "color": "red",
-        "bold": "ADNOC NOW REPORTS THREE VESSELS ATTACKED IN THE STRAIT",
-        "text": "Up from the single missile strike confirmed on Saturday. Attacks on Gulf shipping are continuing even as the Iran-Oman route framework is described as finished. Oman has warned this could derail the arrangement."
+        "bold": "BOTH SIDES NOW DEMAND COMPENSATION BEFORE ANYTHING ELSE",
+        "text": "Iran wants war reparations as a condition for reopening Hormuz. Trump has responded by demanding compensation from Iran — the USS Cole families, and those killed in Lebanon, Syria, Yemen and Gaza — and says it goes into all future negotiations. Araghchi says Iran is not negotiating with the US at all, only passing messages through intermediaries. This is a symmetric deadlock, not a bargaining gap."
+      },
+      {
+        "color": "orange",
+        "bold": "THE WAR WIDENS INTO THE RED SEA: MOCHA HIT TWICE, JAZAN REFINERY TARGETED",
+        "text": "Houthi missiles and drones struck the Yemeni government-held port of Mocha twice in under 24 hours, killing seven and damaging piers and warehouses, with a claimed drone attack on Aramco's Jazan refinery. For India this is the second chokepoint — a Hormuz deal would not protect the Bab el-Mandeb leg."
       },
       {
         "color": "cyan",
-        "bold": "INDIA PRE-OPEN: FLAT START SIGNALLED, CRUDE THE CAP",
-        "text": "GIFT Nifty around 24,655, broadly flat against Friday's 24,570.65 close. Asia is firmer — Nikkei +1.5%, Kospi +0.7% — after Wall Street's gains last week on a soft US jobs report. Oil edged higher in Asian trade. Today is the first Indian market read on both the six conditions and the Mecca pact."
+        "bold": "INDIAN MARKETS GIVE BACK MONDAY'S GAINS",
+        "text": "At 11 AM the Nifty was down 0.46% at 24,470.90 and the Sensex down 0.46% at 78,177.87, near the day's low, with banks and financials weighing and IndiGo among the top losers on fuel costs. Monday had closed marginally higher — Sensex 78,542.44, Nifty 24,584 — before crude moved. The rupee closed at 95.30 Monday, down 13 paise."
       }
     ]
   },
   "deaths": "7,199+",
   "econ": {
-    "sensex": "78,499.17 (Fri close) · pre-open flat",
-    "sensexDelta": "MON AUG 10 PRE-OPEN: GIFT Nifty quoted around 24,655, broadly flat against Friday's Nifty close of 24,570.65, signalling a tepid start amid uncertainty over the Hormuz reopening. Asia firmer — Nikkei +1.46%, Kospi +0.65% — tracking Wall Street's gains last week (Dow +0.28%, S&P 500 +0.62%, Nasdaq +1.30%) after a soft US July jobs report. FRI AUG 7 CLOSE: Sensex -455.59 (-0.58%) to 78,499.17; Nifty -0.27% to 24,570.65, financials dragging on RBI's draft NBFC norms. Both indices ended last week about 1% higher, a second straight weekly gain.",
-    "sensexSub": "Brent settled $83.55 Friday, down roughly 7% on the week, and edged higher again in Asian trade this morning — crude remains the cap on any equity upside. Rupee ~95.20. Pump prices unchanged: petrol ₹111.21, diesel ₹97.83, domestic LPG ₹942.",
+    "sensex": "78,177.87 (-0.46%, 11 AM)",
+    "sensexDelta": "TUE AUG 11 MID-SESSION: Nifty -112.90 (-0.46%) at 24,470.90 and Sensex -362.57 (-0.46%) at 78,177.87 as of 11 AM, drifting to the day's low thereafter, with banks and financial services the main drag and hopes of a US-Iran deal fading. InterGlobe Aviation, Bajaj Finance and Shriram Finance led the Nifty losers; Nifty MidCap was flat and SmallCap slightly positive. MON AUG 10 CLOSE: Sensex +43.27 (+0.06%) at 78,542.44, Nifty at 24,584 — marginally higher on earnings, though the Nifty PSU Bank index fell 1.67%.",
+    "sensexSub": "Brent rallied about 5% Monday to $87.69 — a fourth straight up session — and held near $88 today, a more-than-one-week high, roughly 35% above the pre-war $65. Rupee closed at 95.30 Monday, down 13 paise from Friday's 95.17. Pump prices unchanged so far: petrol ₹111.21, diesel ₹97.83, domestic LPG ₹942.",
     "vix": "~13.1 — EASING",
     "vixDelta": "-4.51% to 13.14 Wed open, ~-3% at close — volatility compressing despite blockade. Tue: 13.75 (+3.53%). Well below wartime 24-27; markets treating this as a contained maritime campaign, not full war.",
     "fpi": "+$1.3bn in August so far",
-    "fpiDelta": "Foreign investors net bought roughly $1.3bn of Indian equities in August to date, after $2.1bn in July — sustained inflows remain the main support under this two-week rally.",
+    "fpiDelta": "Foreign investors net bought roughly $1.3bn of Indian equities in August to date after $2.1bn in July. These inflows are the main counterweight to crude — if they turn while Brent holds above $88, equities and the rupee lose both supports at once.",
     "wealth": "BSE market cap ~Rs 485-490 trillion — resilient through the blockade week. WPI 9.87% June (from 9.68%) — war transmission to wholesale prices confirmed. Net direct tax +16.4% YTD to Rs 6.51L Cr (till Jul 13). RBI Aug MPC calculus now complicated by oil + rupee + WPI.",
     "analysis": "Equities are absorbing the blockade far better than the April original — Wednesday closed green despite Brent at $85 and daytime strikes. The stress has migrated to the currency and wholesale prices: rupee past 96 (first since May) with options pricing further downside, and WPI at 9.87%. Watch: rupee 96.50 resistance, Brent $86.36 (this morning's high), Nifty 24,000 support, OMC under-recovery at $86 Brent, and whether FII financial-sector buying survives the oil tape."
   },
   "hormuzStatus": {
-    "status": "The Oman route framework is finished on paper — coordinates agreed, terms drafted — and further from delivery than at any point last week. Iran's six conditions for a full reopening stand: no further US threats, blockade ended, all US military assets withdrawn from the region, sanctions lifted, assets unfrozen, war damages paid. On Sunday President Pezeshkian replaced Mohammad Bagher Zolghadr — who issued those conditions — with Mohsen Rezaee, who commanded the IRGC from 1981 to 1997, with Supreme Leader Mojtaba Khamenei naming him his own representative on the council. Rezaee said earlier this month that Iran will never permit an unauthorised route through the strait. Analysts read the change as the IRGC consolidating control of security decision-making.",
+    "status": "The talks have not slowed — on Iran's account they are not happening. Foreign Minister Araghchi said Tehran is not engaged in negotiations with the United States at all, only an exchange of messages through intermediaries, and that there is no possibility of resuming talks until Washington compensates for its violations of the June memorandum. Foreign ministry spokesman Baghaei went further: a maritime blockade is not a diplomatic act and cannot be lifted through diplomacy alone. Deputy parliament speaker Ali Nikzad said the reopening has no military solution and that the US and Israel must accept the new regional order, with only the Iran-Oman route recognised. Against that, Trump told reporters the US controls the strait '100%', called the naval blockade a 'steel wall' and 'infallible', and conceded Iran 'can make trouble' and will 'on occasion drop a mine'.",
     "preWarFlow": "~90-140 ships/day",
-    "currentFlow": "No reopening. ADNOC has now reported attacks on three of its vessels transiting the strait, one struck by a missile. Against that, reporting suggests the US could lift its naval blockade once commercial shipping resumes without restrictions — which is the reciprocal move Tehran has not yet accepted.",
-    "reduction": "Brent settled $83.55 Friday, down about 7% across the week, and firmed again in Asian trade this morning. The market keeps trading the headline 'deal imminent' and then repricing when the conditions attached to it are read.",
+    "currentFlow": "No reopening, and now no negotiation either by Tehran's own description. Iran demands war reparations as a condition; Trump has responded by demanding compensation from Iran — for the USS Cole families, for those killed in Lebanon, Syria, Yemen and Gaza — and says he has instructed his representatives to put it into all future talks. Compensation is now a precondition on both sides simultaneously.",
+    "reduction": "Brent rallied roughly 5% on Monday to $87.69, a fourth consecutive up session, and steadied near $88 today at a more-than-one-week high. US Strategic Petroleum Reserve stocks have fallen below 300 million barrels, the lowest since 1983. Trump extended the Jones Act waiver for energy and fertiliser cargoes by 90 days from Aug 17 — Washington is planning for the closure to persist.",
     "indianVesselsNear": 7,
     "indianSeafarers": 148,
     "indianTransited": 1,
     "totalShipsWaiting": "Significantly reduced from wartime peak of 20,000+. 3 Indian tankers safely crossed. But US oil licence revocation + Hormuz re-closure claims = uncertainty for remaining stranded vessels. India seafarer repatriation: mostly achieved for Indian-flagged vessels that transited. MT Settebello diplomatic track: ongoing.",
-    "lastTransit": "ADNOC reports three vessels attacked in transit, one by missile. No general reopening; Iran-Oman route coordinates agreed but unimplemented.",
+    "lastTransit": "No general reopening. Iran recognises only the route agreed with Oman; ADNOC has reported three vessels attacked in transit.",
     "indianNavyEscort": "Op Urja Suraksha: transitioning given formal blockade lift. MT Settebello diplomatic track continues independent of the broader deal. India's 18,000+ seafarer repatriation should now accelerate given the 'immediate effect' confirmation from Pakistan's PM.",
-    "headline": "IRAN REPLACES ITS SECURITY COUNCIL SECRETARY WITH A FORMER IRGC COMMANDER-IN-CHIEF — ONE DAY AFTER THAT COUNCIL SET SIX CONDITIONS FOR REOPENING HORMUZ. ADNOC NOW REPORTS THREE VESSELS ATTACKED.",
+    "headline": "BOTH CAPITALS NOW DEMAND COMPENSATION BEFORE ANYTHING ELSE. TEHRAN SAYS THE BLOCKADE 'CANNOT BE LIFTED THROUGH DIPLOMACY'; TRUMP SAYS THE US CONTROLS THE STRAIT '100%'. BRENT IS BACK NEAR $88.",
     "indianCasualties": 4,
     "indianCasualtyDetail": "4th Indian death of the war: a crew member aboard UAE tanker MOMBASA killed by an Iranian cruise missile in Omani territorial waters (UAE MoD, Jul 14). 8 injured incl. 6 Indians, 4 serious. Earlier: 3 Indian sailors killed on MT Settebello (Jun 8, US Navy strike)."
   },
   "hormuzEvents": [
+    {
+      "d": "Aug 10-11",
+      "e": "DAYS 164-165 — THE COMPENSATION DEADLOCK. Araghchi said Iran is not negotiating with the US at all — only exchanging messages through intermediaries — and will not resume until Washington compensates for violating the June memorandum. Spokesman Baghaei said a maritime blockade 'is not a diplomatic action that we can lift through diplomacy'. Deputy speaker Nikzad said the reopening 'has no military solution' and that Washington and Israel must accept the new regional order, with only the Iran-Oman route valid. Trump countered Iran's reparations demand with his own — naming the USS Cole families and those killed in Lebanon, Syria, Yemen and Gaza — and said it would go into all future negotiations. He also told reporters 'we control the strait 100%', called the blockade a 'steel wall', and acknowledged Iran will 'on occasion drop a mine'. He extended the Jones Act waiver for energy cargoes by 90 days from Aug 17. Brent rallied ~5% Monday to $87.69 and held near $88 Tuesday."
+    },
     {
       "d": "Aug 9",
       "e": "DAY 163 — THE NEGOTIATOR'S CHAIR CHANGES HANDS. President Pezeshkian appointed Mohsen Rezaee secretary of the Supreme National Security Council, replacing Mohammad Bagher Zolghadr, who had issued Iran's six conditions for reopening Hormuz a day earlier and now becomes political adviser to Supreme Leader Mojtaba Khamenei. Khamenei separately named Rezaee his representative on the council. Rezaee, 71, commanded the IRGC from 1981 to 1997; he said earlier in August that Iran will never allow an unauthorised route through the strait. Trump told Axios the US is 'low-keying it' and 'only semi-negotiating', content to let economic pressure build. ADNOC reported attacks on three of its vessels transiting the strait. Pezeshkian described Iran's condition as 'neither war nor peace', naming economic hardship rather than military conflict as the country's central problem."
@@ -179,7 +183,7 @@
     {
       "item": "Petrol (Delhi)",
       "status": "red",
-      "statusText": "₹111.21/L — UNDER-RECOVERY REOPENS AT BRENT $83+",
+      "statusText": "₹111.21/L — UNDER-RECOVERY REOPENS WITH BRENT NEAR $88",
       "pre": "Rs 94.72/L",
       "now": "Rs 111.21/L (HIKED)",
       "twoWeek": "Under-recovery widening at Brent $86; next hike risk if $85+ sustains 2 weeks",
@@ -224,34 +228,34 @@
   ],
   "military": [
     {
-      "t": "AUG 9 — IRAN NAMES MOHSEN REZAEE, EX-IRGC COMMANDER-IN-CHIEF, TO ITS TOP SECURITY POST",
+      "t": "AUG 10 — HOUTHIS STRIKE RED SEA PORT OF MOCHA TWICE IN 24 HOURS; JAZAN REFINERY TARGETED",
       "lv": "BREAKING",
       "color": "red",
-      "d": "President Pezeshkian appointed Rezaee secretary of the Supreme National Security Council on Sunday, replacing Mohammad Bagher Zolghadr, who moves to political adviser to Supreme Leader Mojtaba Khamenei; Khamenei also named Rezaee his representative on the council, putting one man at the centre of security decision-making. Rezaee, 71, led the IRGC from 1981 to 1997 and has said Iran will never allow an unauthorised route through Hormuz. Assessment: the official who published the six reopening conditions has been replaced, one day later, by someone with a harder public line on the strait. Read as IRGC consolidation, this lowers the odds of the Oman framework converting into an actual reopening in the near term."
+      "d": "Ballistic missiles and drones hit the Yemeni government-held Red Sea port of Mocha late Sunday, the second attack there in under 24 hours. Government-allied forces reported at least seven killed — four troops and three civilians — and 15 civilians injured, with severe damage to port buildings, piers, commercial goods and food supplies. Mocha was renovated specifically to handle shipping that avoids Houthi-held Hodeidah. A Houthi spokesman separately claimed a drone attack on Saudi Aramco's Jazan refinery. Assessment: this is the conflict widening into the Bab el-Mandeb, the other chokepoint on India's westbound trade. A Hormuz arrangement would not insulate Indian cargo from this leg."
     },
     {
-      "t": "AUG 9 — TRUMP: US IS 'LOW-KEYING IT', 'ONLY SEMI-NEGOTIATING' WITH TEHRAN",
+      "t": "AUG 10 — TRUMP COUNTERS IRAN'S REPARATIONS DEMAND WITH ONE OF HIS OWN",
+      "lv": "BREAKING",
+      "color": "red",
+      "d": "After Tehran made compensation for war damage a condition for reopening Hormuz, the president demanded compensation from Iran — for the 17 US sailors killed in the 2000 USS Cole bombing, for 'thousands of others killed in combat', and for those killed in Lebanon, Syria, Yemen and Gaza — and said he has instructed his representatives to put it into all future negotiations. Assessment: compensation is now a stated precondition on both sides at once. That is a symmetric deadlock rather than a bargaining gap, and it is what the oil market repriced on Monday."
+    },
+    {
+      "t": "AUG 10 — IRAN'S SUPREME LEADER REPLACES SIX SENIOR COMMANDERS",
+      "lv": "ACTIVE",
+      "color": "orange",
+      "d": "Per Iranian state media, Mojtaba Khamenei made six new appointments across the army and the Revolutionary Guard, including Maj. Gen. Ahmad Vahidi as the Guard's chief commander and Maj. Gen. Ali Abdollahi as army chief of staff. This follows Mohsen Rezaee's appointment to the Supreme National Security Council on Sunday. Khamenei has not been seen in public since succeeding his father in February and was reportedly wounded in the same strike. Assessment: a wholesale reshuffle of the security leadership inside 48 hours, all in a hardline direction."
+    },
+    {
+      "t": "AUG 10 — TRUMP: 'WE CONTROL THE STRAIT 100%' — BUT IRAN 'CAN MAKE TROUBLE'",
       "lv": "REPORTED",
       "color": "amber",
-      "d": "Speaking to Axios on Sunday, the president said Washington is content to let economic pressure build, describing Iran as being in 'very bad shape' with high inflation and no money. This follows CNN reporting that the chairman of the Joint Chiefs has privately argued the US needs an off-ramp because escalation options could backfire. Assessment: both sides are now signalling willingness to wait. That points to a longer plateau rather than either a deal or an escalation in the next fortnight — and a longer plateau is itself the base case for India's fuel costs."
+      "d": "Speaking in the Oval Office, the president called the US naval blockade a 'steel wall' and 'infallible', described the strait situation as 'a little bit complex', and said Iran 'will, on occasion, drop a mine, and we find the mines'. He separately extended the Jones Act waiver for energy and fertiliser cargoes by 90 days from Aug 17. Assessment: the waiver extension is the more informative signal — Washington is provisioning for a closure that lasts into November."
     },
     {
       "t": "AUG 7-8 — MECCA JOINT DEFENCE AGREEMENT: SAUDI ARABIA, PAKISTAN AND TURKEY",
       "lv": "STRATEGIC",
       "color": "orange",
-      "d": "An armed attack against any one of the three is to be treated as an attack against all three, extending the September 2025 Saudi-Pakistan agreement to include a NATO member. India's MEA said New Delhi is 'closely following' the development. Assessment: still the most consequential India-facing development of this war — India's Gulf energy relationships now sit inside a security framework that includes Pakistan. Watch for whether Qatar joins, and for any fuller Indian statement beyond the holding line."
-    },
-    {
-      "t": "AUG 8-9 — ADNOC REPORTS THREE VESSELS ATTACKED IN HORMUZ AS IRAN SETS SIX CONDITIONS",
-      "lv": "ACTIVE",
-      "color": "red",
-      "d": "The Abu Dhabi National Oil Company says three of its vessels have been attacked while transiting the strait, one struck by a missile; the UAE blamed Iran. Iran's security council conditions for a full reopening remain: no further US threats, blockade ended, all US forces withdrawn from the region, sanctions lifted, assets unfrozen, war reparations paid. Assessment: coercion against Gulf shipping is continuing while the Oman paperwork is finalised — the two tracks are deliberately separate."
-    },
-    {
-      "t": "AUG 8 — YEMEN'S SAUDI-BACKED GOVERNMENT LAUNCHES OPERATIONS AGAINST THE HOUTHIS",
-      "lv": "ACTIVE",
-      "color": "orange",
-      "d": "Yemeni government forces attacked the Iran-aligned Houthis after Houthi strikes on Saudi troop positions and a tanker in the Gulf of Aden. Assessment: the Bab el-Mandeb leg of India's westbound trade stays exposed regardless of what is agreed at Hormuz."
+      "d": "An armed attack against any one of the three is to be treated as an attack against all three. India's MEA said New Delhi is 'closely following' it. Iran's foreign ministry welcomed the pact as evidence that regional states 'cannot rely' on US security guarantees. Assessment: still the most consequential India-facing development of this war — India's Gulf energy relationships now sit inside a security framework that includes Pakistan."
     }
   ],
   "nukes": [
@@ -427,8 +431,8 @@
     }
   ],
   "assessment": {
-    "headline": "DAY 164, MON AUG 10 PRE-OPEN: THE OMAN FRAMEWORK IS FINISHED AND THE REOPENING IS RECEDING. IRAN HAS HANDED ITS TOP SECURITY POST TO A FORMER IRGC COMMANDER-IN-CHIEF ONE DAY AFTER SETTING SIX CONDITIONS WASHINGTON CANNOT MEET, WHILE TRUMP SAYS THE US IS 'ONLY SEMI-NEGOTIATING'. BOTH SIDES ARE NOW PRICING PATIENCE — WHICH MAKES A LONG PLATEAU, NOT A BREAK, THE BASE CASE FOR INDIA'S FUEL COSTS.",
-    "body": "Monday 8:15 AM IST, pre-open. Day 164. The weekend moved the personnel, not the paperwork.\n\nTHE PERSONNEL CHANGE\n• Mohsen Rezaee, IRGC commander-in-chief from 1981 to 1997, is now secretary of the Supreme National Security Council, appointed by President Pezeshkian.\n• He replaces Mohammad Bagher Zolghadr, who issued the six reopening conditions on Saturday and becomes political adviser to Supreme Leader Mojtaba Khamenei.\n• Khamenei separately named Rezaee his own representative on the council — both roles in one person.\n• Rezaee said earlier this month Iran will never allow an unauthorised route through the strait.\n• Observers read the change as the IRGC consolidating control over security decision-making.\n\nTHE AMERICAN POSTURE\n• Trump told Axios the US is 'low-keying it' and 'only semi-negotiating', content to let economic pressure build.\n• This sits alongside reporting that the Joint Chiefs chairman privately wants an off-ramp because escalation options could backfire.\n• Reporting also suggests Washington could lift the naval blockade once unrestricted commercial transit resumes — the reciprocal Tehran has not accepted.\n\nASSESSMENT\n• Two capitals signalling patience at the same time is the signature of a plateau, not a turning point.\n• The Oman framework and an open strait remain different products. Nothing this weekend moved the second one closer; the personnel change moved it further away.\n• For India this argues against both the relief case (Brent back to the $70s on a reopening) and the shock case (a fresh closure spike) over the next fortnight. Plan for $80-86 Brent and a rupee near 95.\n• Confidence: high on the appointment and its signalling; moderate on the plateau call; low on timing of any reopening.\n\nINDIA WATCHLIST THIS WEEK\n• Today's session — the first read on the six conditions and the Mecca pact together.\n• Any fuller MEA statement on the Mecca Joint Defence Agreement beyond 'closely following'.\n• Whether ADNOC's tally of attacked vessels rises further, and what it does to Gulf war-risk premiums.\n• OMC under-recovery if Brent holds above $85 — the pump-price question returns at that level, not below it.\n• FII flows: about $1.3bn bought in August to date is what is holding this two-week rally up."
+    "headline": "DAY 165, TUE AUG 11 MID-SESSION: CRUDE HAS BROKEN OUT OF ITS FORTNIGHT RANGE — BRENT NEAR $88, UP ~5% IN A SESSION — BECAUSE THE NEGOTIATION HAS STOPPED, NOT SLOWED. IRAN SAYS IT IS NOT TALKING TO WASHINGTON AT ALL, AND BOTH CAPITALS NOW DEMAND COMPENSATION FIRST. THE WAR IS SIMULTANEOUSLY WIDENING INTO THE RED SEA. FOR INDIA THE PUMP-PRICE QUESTION IS BACK ON THE TABLE.",
+    "body": "Tuesday 1:00 PM IST, mid-session. Day 165.\n\nCORRECTION TO OUR OWN CALL\n• Monday's assessment on this page put the fortnight base case at $80-86 Brent. Crude closed above that range within a day, at $87.69, and has held near $88.\n• What we underweighted: a stalled negotiation is not the same as a patient one. Trump's 'semi-negotiating' line read as patience; Araghchi's follow-up made clear there is no negotiation to be patient about.\n\nTHE DEADLOCK\n• Araghchi: Iran is not negotiating with the US, only exchanging messages through intermediaries; no resumption until Washington compensates for violating the June memorandum.\n• Baghaei: a maritime blockade is not a diplomatic act and cannot be lifted through diplomacy alone.\n• Nikzad (deputy speaker): the reopening 'has no military solution'; Washington and Israel must accept the new regional order; only the Iran-Oman route is recognised.\n• Trump: countered Iran's reparations demand with his own, to be inserted into all future talks; separately claimed the US controls the strait '100%'.\n• Tell: the 90-day Jones Act waiver extension from Aug 17. Washington is provisioning for closure into November regardless of what it says publicly.\n\nSECOND FRONT\n• Mocha struck twice in under 24 hours — seven dead, piers and warehouses damaged. Aramco's Jazan refinery claimed as a drone target.\n• Mocha exists precisely to handle shipping that avoids Houthi-held Hodeidah. Degrading it narrows the alternatives on the Red Sea leg.\n• Implication for India: a Hormuz arrangement, if it ever lands, does not by itself restore westbound trade economics. Two chokepoints now need solving, not one.\n\nINDIA IMPACT\n• Brent near $88 is roughly 35% above pre-war. Above $85 the OMC under-recovery reopens and a pump revision becomes a political decision rather than an arithmetic one.\n• Aviation is the fastest transmission channel — IndiGo among today's worst performers as ATF tracks crude.\n• Rupee 95.30 and drifting; every dollar on Brent widens the trade deficit before it reaches the pump.\n• FII inflows (~$1.3bn in August to date) are the counterweight holding equities up. If crude stays above $88 and those flows turn, both supports go at once.\n\nWATCHLIST\n• Whether Brent holds $85+ through the week — that, not the headlines, decides the pump question.\n• Any OMC or ministry signal on fuel price revision.\n• Further Houthi strikes on Red Sea ports and Saudi energy infrastructure.\n• Whether Iran's reshuffled security leadership changes conduct in the strait, not just rhetoric.\n• Confidence: high on the deadlock and the price move; moderate on how long crude holds above $85."
   },
   "featured": [
     {
@@ -1019,7 +1023,7 @@
       "deaths": 7199,
       "brent": 83.55,
       "nifty": 24570.65,
-      "rupee": 95.2,
+      "rupee": 95.17,
       "tag": "Brent settled $83.55 (+1.3%, +$1.06) and WTI $78.18 as Iran's parliament reviewed the Hormuz shipping bill. Terms reported: US and Israeli vessels barred; states deemed hostile to pay compensation before passage; violators fined 20% of cargo value; full reopening conditional on the US lifting its maritime blockade — stricter than markets had priced. Houthis claimed attacks on Saudi troop positions. India: Nifty closed 24,570.65 (-0.27%), Sensex 78,499.17 (-0.58%) as financials fell on RBI's draft NBFC norms; Nifty IT firmed. Both indices still ended the week ~+1%, a second straight weekly gain, with FIIs net buyers of ~$1.3bn in August after $2.1bn in July.",
       "sev": 3
     },
@@ -1029,7 +1033,7 @@
       "deaths": 7199,
       "brent": 83.55,
       "nifty": 24570.65,
-      "rupee": 95.2,
+      "rupee": 95.17,
       "tag": "WEEKEND — no market session; Friday's closes carried. Iran and Oman agreed vessel route coordinates and Araghchi called the talks near-final, while stressing this is 'not a sign of the reopening'. Iran's Supreme National Security Council set six conditions for a full reopening: no further US threats, blockade ended, all US military assets withdrawn from the region, sanctions lifted, assets unfrozen, war damages paid. Iran then targeted an ADNOC-owned vessel inside the strait; the UAE blamed Iran. Yemen's Saudi-backed government launched operations against the Houthis. CNN reported the US Joint Chiefs chairman is privately seeking an off-ramp. Saudi Arabia, Pakistan and Turkey's Mecca Joint Defence Agreement, signed Aug 7, drew a 'closely following' response from India's MEA.",
       "sev": 3
     },
@@ -1039,20 +1043,30 @@
       "deaths": 7199,
       "brent": 83.55,
       "nifty": 24570.65,
-      "rupee": 95.2,
+      "rupee": 95.17,
       "tag": "WEEKEND — no market session; Friday's closes carried. Iran replaced the secretary of its Supreme National Security Council one day after that body set six conditions for reopening Hormuz: President Pezeshkian appointed Mohsen Rezaee, IRGC commander-in-chief from 1981 to 1997, with Supreme Leader Mojtaba Khamenei also naming him his representative on the council. Outgoing secretary Zolghadr became political adviser to the Supreme Leader. Trump told Axios the US is 'low-keying it' and 'only semi-negotiating', willing to let economic pressure build. ADNOC reported attacks on three of its vessels transiting the strait. Pezeshkian described Iran as being in a state of 'neither war nor peace', citing economic hardship as the central problem.",
       "sev": 3
+    },
+    {
+      "d": 164,
+      "l": "Aug 10",
+      "deaths": 7199,
+      "brent": 87.69,
+      "nifty": 24584.0,
+      "rupee": 95.3,
+      "tag": "Brent rallied about 5% to $87.69, a fourth consecutive up session, as hopes of a US-Iran agreement faded. Araghchi said Iran is not negotiating with the US at all, only exchanging messages via intermediaries; spokesman Baghaei said a maritime blockade cannot be lifted through diplomacy; deputy speaker Nikzad said the reopening has no military solution and only the Iran-Oman route is recognised. Trump countered Iran's reparations demand with his own, claimed the US controls the strait '100%', and extended the Jones Act waiver for energy cargoes by 90 days. Mojtaba Khamenei replaced six senior commanders including the IRGC chief. Houthis struck the Red Sea port of Mocha twice in 24 hours, killing seven, and claimed a drone attack on Aramco's Jazan refinery. US SPR fell below 300mn barrels, lowest since 1983. INDIA: Sensex +43.27 (+0.06%) at 78,542.44, Nifty 24,584; rupee -13 paise to 95.30.",
+      "sev": 4
     }
   ],
   "exec": {
     "level": "HIGH",
-    "phase": "TALKS COOLING — TEHRAN'S SECURITY CHAIR HARDENS",
-    "oilNote": "Brent settled $83.55 Friday, ~-7% on the week; firmer again in Asian trade this morning as the reopening timetable slips",
-    "shipping": "ROUTES AGREED — REOPENING RECEDING",
-    "shippingSub": "ADNOC now reports three of its vessels attacked transiting Hormuz. Iran's six conditions stand; the man who issued them has been replaced by a harder-line IRGC figure",
-    "military": "REZAEE (EX-IRGC CHIEF) TAKES IRAN'S TOP SECURITY POST",
-    "militarySub": "Commanded the IRGC 1981-97; also named the Supreme Leader's representative on the council. War dead 7,199+. US casualties (DCAS): 18 dead, 687 wounded",
-    "indiaSub": "Pre-open: GIFT Nifty ~24,655, broadly flat. Asia firmer — Nikkei +1.5%, Kospi +0.7%. Friday close: Nifty 24,570.65, Sensex 78,499.17"
+    "phase": "BOTH SIDES NOW DEMAND COMPENSATION FIRST",
+    "oilNote": "Brent rallied about 5% Monday to $87.69 — a fourth straight up session — and held near $88 today. Up ~35% on pre-war $65",
+    "shipping": "NEGOTIATION TRACK STALLS OUTRIGHT",
+    "shippingSub": "Araghchi says Iran is not negotiating with the US at all, only exchanging messages through intermediaries. Tehran: the blockade cannot be lifted through diplomacy",
+    "military": "HOUTHIS HIT MOCHA TWICE IN 24H; JAZAN REFINERY TARGETED",
+    "militarySub": "Seven killed at the Red Sea port. Iran's Supreme Leader also replaced six senior commanders. War dead 7,199+; US casualties (DCAS) 18 dead, 687 wounded",
+    "indiaSub": "Mid-session: Nifty ~24,471 (-0.46%), Sensex ~78,178 (-0.46%), near the day's low. IndiGo, Bajaj Finance, Shriram Finance lead losses. Rupee 95.30"
   },
   "hormuzPhases": [
     {
@@ -1096,7 +1110,7 @@
       "days": "Aug 5–"
     }
   ],
-  "_phaseBadge": "🟠 MOHSEN REZAEE — EX-IRGC CHIEF — NAMED IRAN'S SECURITY COUNCIL SECRETARY · TRUMP: US 'ONLY SEMI-NEGOTIATING' · ADNOC REPORTS THREE VESSELS ATTACKED IN HORMUZ",
+  "_phaseBadge": "🔴 BRENT +5% TO ~$88, A ONE-WEEK HIGH · TRUMP COUNTERS IRAN'S REPARATIONS DEMAND WITH ONE OF HIS OWN · IRAN: THE BLOCKADE 'CANNOT BE LIFTED THROUGH DIPLOMACY'",
   "budget": {
     "petrolPre": 94.72,
     "petrolNow": 111.21,
@@ -1106,11 +1120,11 @@
     "lpgNow": 942.0
   },
   "brief": [
-    "Day 164, Monday morning before the market opens. Risk to India: high, and the weekend made a near-term Hormuz reopening less likely, not more.",
-    "The big change is who Iran has put in charge. On Saturday its national security council listed six conditions for reopening the strait — the US must stop threatening Iran, end the naval blockade, withdraw all its forces from the region, lift sanctions, release frozen money and pay war damages. On Sunday the man who issued that list was moved aside and replaced by Mohsen Rezaee, who ran the Revolutionary Guards for sixteen years and has said Iran will never allow an unapproved route through the strait.",
-    "Washington is not rushing either. Trump said the US is 'only semi-negotiating' and is happy to let Iran's economy keep hurting. When both sides are content to wait, the likeliest outcome is not a deal and not a blow-up — it is this, for longer.",
-    "Meanwhile Abu Dhabi's national oil company now says three of its ships have been attacked in the strait. So the route paperwork is finished and the water is still dangerous.",
-    "For your money: markets open at 9:15 and the early signal is flat — GIFT Nifty around 24,655 against Friday's close of 24,570.65, with Asia firmer but oil capping the upside. Petrol ₹111.21, diesel ₹97.83 and an LPG cylinder ₹942, all unchanged. Nothing is short; the pressure stays on price."
+    "Day 165, Tuesday afternoon. Risk to India: high, and today the number that matters is the oil price.",
+    "Brent crude jumped about 5% on Monday to nearly $88 a barrel and has stayed there — the fourth day running that it has risen. It is now roughly 35% above where it was before the war. Above $85, the question of another petrol and diesel hike comes back onto the table.",
+    "Why it moved: the talks have not just slowed, they have stopped. Iran's foreign minister says his country is not negotiating with the United States at all — only passing messages through intermediaries — and will not restart until Washington pays compensation. Trump has responded by demanding compensation from Iran instead, for American sailors killed in 2000 and for deaths in Lebanon, Syria, Yemen and Gaza. When both sides make payment a precondition, nobody moves.",
+    "The fighting has also spread. Houthi missiles and drones hit the Yemeni port of Mocha twice in a day, killing seven and wrecking parts of the harbour, and claimed a drone attack on a Saudi refinery. That is the Red Sea route — the other narrow passage Indian cargo depends on.",
+    "For your money: Indian markets gave back Monday's small gains, with the Nifty and Sensex both down about half a percent by late morning, IndiGo among the worst hit because jet fuel tracks crude. The rupee is at 95.30. Petrol ₹111.21, diesel ₹97.83 and an LPG cylinder ₹942 are unchanged — for now. Nothing is in short supply; watch the price, not the pump queue."
   ],
-  "shareLine": "Iran replaced its security council chief with a former IRGC commander one day after that council set six conditions for reopening Hormuz — and Trump says the US is 'only semi-negotiating'. Both sides are settling in to wait."
+  "shareLine": "Brent is back near $88, up ~5% in a session. Iran says it is not negotiating with the US at all; both sides now demand compensation before anything else. And the Houthis hit the Red Sea port of Mocha twice in 24 hours."
 }
