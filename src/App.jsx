@@ -1,41 +1,32 @@
 import { useState, useEffect } from "react";
 
 // ═══════════════════════════════════════════════════════════════════
-// INDIA RISK DASHBOARD — V18.0 — AUDIT & HARDENING (Aug 8 2026)
-// No redesign. Same layout, same components, same content model.
-// V18.0 changes:
-// 1. DATA INTEGRITY: day number is now derived from the war start date
-//    (intel._asOf + intel._start) instead of a hand-typed intel._day,
-//    which had drifted one day behind the calendar. Timeline day
-//    numbers renumbered from their own date labels in war-intel.json.
-// 2. DEAD CODE/DATA: removed unused iTlLatest and iDeathsSub bindings;
-//    removed stale hardcoded NUKES_FB / CITIES_FB / kitchen fallbacks
-//    (May-era prices that would have shown if a fetch failed). Content
-//    is now strictly JSON-driven with explicit empty states.
-//    war-intel.json: tlLatest, scenarios, projNow, radarScores dropped
-//    (~24KB, all unread by the app).
-// 3. BASELINES: pre-war reference values live in one place (PRE /
-//    intel.preWar) — the brief, share card and snapshot no longer
-//    each hardcode $65 / Rs 91.5 / Rs 853.
-// 4. ACCESSIBILITY: muted/sub text tokens raised to WCAG AA contrast
-//    (2.1:1 -> 4.9:1); expandable cards are keyboard operable; skip
-//    link; visible focus rings; aria-labels on icon-only buttons;
-//    prefers-reduced-motion honoured; ticker pauses on hover/focus.
-// 5. NAVIGATION: scroll-spy keeps the sticky nav in step with the
-//    section on screen; Risk Index section added to the nav (it was
-//    rendered but unreachable).
-// 6. HONESTY OF LABELS: charts read "N logged sessions - Day 1-X"
-//    instead of "ALL N WAR DAYS" (55 logged sessions, 160+ war days);
-//    freshness stamps for manual intel vs automated market data, with
-//    a stale badge when the brief is more than 36h old.
-// 7. RESILIENCE: sentence clamping no longer splits on "Rs." / "U.S.";
-//    fetch failures raise a banner instead of silently showing stale
-//    fallbacks; chart gradient ids are deterministic.
-// Daily update remains JSON-only: _asOf, _updated, ticker, brief,
-// whatChanged, exec, timeline entry, budget, shareLine.
+// INDIA RISK DASHBOARD — V19.0
 //
-// V17.1 (Jul 16): 60-second brief, budget calculator, share card,
-// war-in-numbers. V17.0 (Jul 13): executive snapshot, Windy removed.
+// DATA MODEL — three files, merged at load in this order:
+//   war-reference.json  slow-moving context (kitchen basket, nuclear
+//                       sites, city exposure, phases, pre-war
+//                       baselines). Reviewed weekly.
+//   war-archive.json    append-only history (timeline, maritime
+//                       events). Written by scripts/roll-archive.mjs.
+//   war-intel.json      today's brief, and the only file edited by
+//                       hand each day.
+// Splitting these cut the hand-written daily payload by ~87%: the
+// archive no longer has to be re-emitted to change one sentence.
+// A single fat war-intel.json still renders correctly — the merge
+// treats every key as optional.
+//
+// LAYOUT CONTRACT — the reason this file used to break:
+//   Fields that land in a small slot (metric values, status chips)
+//   must be SHORT. Long prose belongs in the narrative fields, which
+//   render as paragraphs. `short()` clamps anything oversized so a bad
+//   update degrades instead of exploding, and scripts/validate-intel.mjs
+//   fails the build before it ships.
+//
+// V19.0: phase tone no longer defaults to "all clear" for an
+// unrecognised phase; severity 4 rows no longer render green; the
+// charts collapse intraday duplicates; the ticker and share line are
+// derived from whatChanged when absent.
 // ═══════════════════════════════════════════════════════════════════
 
 const C = {
@@ -56,7 +47,6 @@ const MONO = "'IBM Plex Mono','JetBrains Mono',monospace";
 const SERIF= "'Source Serif 4','Georgia',serif";
 
 // ─── Fallbacks ────────────────────────────────────────────────────
-const TICKER_FB = [];
 const RADAR_FB  = [];
 
 // War start — single source of truth for day numbering (V18.0).
@@ -64,6 +54,29 @@ const RADAR_FB  = [];
 const WAR_START = "2026-02-28";
 const dayOf = (iso, start=WAR_START) =>
   Math.floor((Date.parse(iso+"T00:00:00Z") - Date.parse(start+"T00:00:00Z")) / 86400000) + 1;
+
+// The war phase and the strait's operational state are different
+// things. An unknown phase must read as caution, never as all-clear —
+// the previous binary check turned the header green the day the phase
+// label changed to one it did not recognise.
+const PHASE_TONE = {
+  "FULL CLOSURE":"red", "PEAK SHOCK":"orange", "CEASEFIRE":"green",
+  "BLOCKADE":"red", "BLOCKADE II":"red", "ESCALATION":"red",
+  "RE-ESCALATION":"red", "TALKS":"amber", "60-DAY TALKS":"amber",
+  "OMAN FRAMEWORK":"amber", "TRUCE":"green",
+};
+const phaseTone = intel => {
+  const explicit = intel?._phaseTone;
+  if (explicit && C[explicit]) return C[explicit];
+  return C[PHASE_TONE[(intel?._phase ?? "").toUpperCase()] ?? "amber"];
+};
+
+// Guard for values that render in a fixed-size slot. Oversized copy is
+// a data error, but it must not blow the layout apart while it is live.
+const short = (v, max=42) => {
+  const s = v == null ? "" : String(v).trim();
+  return s.length <= max ? s : s.slice(0, max - 1).replace(/[\s,;:.—-]+$/,"") + "\u2026";
+};
 
 // Pre-war baselines — overridable via intel.preWar. Used by the brief,
 // the share card and every "vs pre-war" comparison so no component
@@ -76,6 +89,15 @@ const clampSentences = (txt, n) => {
   const parts = txt.match(/[^.!?]+(?:[.!?]+(?=\s+[A-Z0-9"\u201c]|$)|$)/g);
   if (!parts || parts.length <= n) return txt.trim();
   return parts.slice(0, n).join(" ").trim() + " \u2026";
+};
+
+// Absolute base path, so the data still loads when the site is opened
+// without a trailing slash (a relative "./" resolves one level up).
+const BASE = import.meta.env.BASE_URL || './';
+const loadJSON = async file => {
+  const res = await fetch(`${BASE}${file}?t=${Date.now()}`, {cache:'no-store'});
+  if (!res.ok) throw new Error(`${file}: HTTP ${res.status}`);
+  return res.json();
 };
 
 const Empty = ({label}) => (
@@ -126,7 +148,20 @@ const MiniLine = ({data, dataKey, color, h=110}) => {
   const line = pts.map((p, i) => `${i===0?'M':'L'}${p.x.toFixed(1)},${p.y.toFixed(1)}`).join(' ');
   const area = pts.length ? line + ` L${pts[pts.length-1].x},${(pad.t+ih).toFixed(1)} L${pts[0].x},${(pad.t+ih).toFixed(1)} Z` : '';
   const id = `grad-${dataKey}`;
-  const step = Math.ceil(filtered.length / 8);
+  // Label every point that clears a minimum spacing, always keeping the
+  // first and last. Evenly-spaced sampling used to collide at the right
+  // edge and print two figures on top of each other.
+  const MIN_GAP = 54;
+  const marks = [];
+  pts.forEach((p, i) => {
+    if (i === 0) { marks.push(i); return; }
+    const prevX = pts[marks[marks.length - 1]].x;
+    if (i === pts.length - 1) {
+      if (p.x - prevX < MIN_GAP && marks.length > 1) marks.pop();
+      marks.push(i);
+    } else if (p.x - prevX >= MIN_GAP) marks.push(i);
+  });
+  const marked = new Set(marks);
   return (
     <svg viewBox={`0 0 ${W} ${h}`} style={{width:'100%',height:'auto',overflow:'visible',display:'block'}}>
       <defs>
@@ -150,7 +185,7 @@ const MiniLine = ({data, dataKey, color, h=110}) => {
       })}
       {area && <path d={area} fill={`url(#${id})`}/>}
       <path d={line} fill="none" stroke={color} strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/>
-      {pts.map((p, i) => (i===0 || i===pts.length-1 || i%step===0) && (
+      {pts.map((p, i) => marked.has(i) && (
         <g key={i}>
           <circle cx={p.x} cy={p.y} r="3" fill={C.card} stroke={color} strokeWidth="1.5"/>
           <text x={p.x} y={p.y - 7} fill={color} fontSize="9.5" textAnchor="middle" fontWeight="700" fontFamily={MONO} opacity="0.9">
@@ -236,24 +271,32 @@ const Chip = ({children, color=C.amber, size=10.5}) => (
     textTransform:'uppercase', whiteSpace:'nowrap'}}>{children}</span>
 );
 
-const Mc = ({label, value, sub, delta, accent=C.amber, deltaColor, indiaImpact}) => (
-  <div style={{background:C.card, borderRadius:10, padding:'14px 14px',
-    border:`1px solid ${C.border}`, borderTop:`2px solid ${accent}`,
-    display:'flex', flexDirection:'column', gap:3}}>
-    <div style={{fontSize:10, color:C.muted, letterSpacing:2.5, textTransform:'uppercase',
-      fontWeight:700, fontFamily:MONO}}>{label}</div>
-    <div style={{fontSize:24, fontWeight:700, color:accent, fontFamily:SYNE, lineHeight:1.1,
-      letterSpacing:-0.5}}>{value}</div>
-    {delta && <div style={{fontSize:12.5, color:deltaColor||C.sub, fontWeight:600, fontFamily:MONO}}>{delta}</div>}
-    {sub && <div style={{fontSize:11, color:C.muted, lineHeight:1.55}}>{sub}</div>}
-    {indiaImpact && (
-      <div style={{marginTop:5, paddingTop:5, borderTop:`1px solid ${C.border}`,
-        fontSize:10.5, color:C.amber, fontWeight:600, fontFamily:MONO, letterSpacing:0.3}}>
-        🇮🇳 {indiaImpact}
-      </div>
-    )}
-  </div>
-);
+// Metric card. The headline value is sized to its own length so a
+// short number stays big and a phrase still fits the box.
+const Mc = ({label, value, sub, delta, accent=C.amber, deltaColor, indiaImpact}) => {
+  const v = value == null || value === "" ? "\u2014" : short(String(value), 64);
+  const vSize = v.length > 44 ? 13 : v.length > 30 ? 15 : v.length > 20 ? 18 : v.length > 13 ? 21 : 24;
+  return (
+    <div style={{background:C.card, borderRadius:10, padding:'14px 14px',
+      border:`1px solid ${C.border}`, borderTop:`2px solid ${accent}`,
+      display:'flex', flexDirection:'column', gap:3, minWidth:0}}>
+      <div style={{fontSize:10, color:C.muted, letterSpacing:2.5, textTransform:'uppercase',
+        fontWeight:700, fontFamily:MONO}}>{label}</div>
+      <div title={String(value ?? "")}
+        style={{fontSize:vSize, fontWeight:700, color:accent, fontFamily:SYNE,
+          lineHeight:1.2, letterSpacing:vSize>18?-0.5:0, overflowWrap:'anywhere'}}>{v}</div>
+      {delta && <div style={{fontSize:12.5, color:deltaColor||C.sub, fontWeight:600,
+        fontFamily:MONO, lineHeight:1.45, overflowWrap:'anywhere'}}>{short(delta, 72)}</div>}
+      {sub && <div style={{fontSize:11, color:C.muted, lineHeight:1.55}}>{sub}</div>}
+      {indiaImpact && (
+        <div style={{marginTop:5, paddingTop:5, borderTop:`1px solid ${C.border}`,
+          fontSize:10.5, color:C.amber, fontWeight:600, fontFamily:MONO, letterSpacing:0.3}}>
+          🇮🇳 {indiaImpact}
+        </div>
+      )}
+    </div>
+  );
+};
 
 // ─── Household Budget Calculator (V17.1) ──────────────────────────
 // Prices read from intel.budget in war-intel.json; fallback below.
@@ -346,7 +389,7 @@ const WarInNumbers = ({timeline}) => {
             {cols.map((t,i)=>(
               <th key={i} style={{padding:'4px 6px',textAlign:'right',fontSize:10.5,fontWeight:700,
                 color:i===2?C.amber:C.muted}}>
-                {i===2?`TODAY (D${t.d})`:`DAY ${t.d}`}<br/>
+                {i===2?`LATEST (D${t.d})`:`DAY ${t.d}`}<br/>
                 <span style={{fontWeight:400,fontSize:10}}>{t.l}</span>
               </th>
             ))}
@@ -515,11 +558,22 @@ export default function App() {
   const [loadErr,     setLoadErr]     = useState(false);
 
   useEffect(() => {
-    fetch('./market-data.json?t='+Date.now())
-      .then(r=>r.ok?r.json():null).then(d=>d&&setLive(d)).catch(()=>setLoadErr(true));
-    fetch('./war-intel.json?t='+Date.now())
-      .then(r=>r.ok?r.json():null).then(d=>d?setIntel(d):setLoadErr(true))
-      .catch(()=>setLoadErr(true));
+    let alive = true;
+    (async () => {
+      const [market, reference, archive, daily] = await Promise.all(
+        ['market-data.json','war-reference.json','war-archive.json','war-intel.json']
+          .map(f => loadJSON(f).catch(err => { console.warn(err.message); return null; }))
+      );
+      if (!alive) return;
+      if (market) setLive(market);
+      // Later files win. Every key is optional, so a single legacy
+      // war-intel.json carrying everything still renders.
+      if (daily || reference || archive) {
+        setIntel({...(reference ?? {}), ...(archive ?? {}), ...(daily ?? {})});
+      }
+      if (!daily || !market) setLoadErr(true);
+    })();
+    return () => { alive = false; };
   }, []);
 
   // Scroll-spy: keep the sticky nav in step with the section on screen.
@@ -540,13 +594,12 @@ export default function App() {
     document.getElementById(id)?.scrollIntoView({behavior:'smooth',block:'start'});
   };
 
-  const iT        = intel?.ticker        ?? TICKER_FB;
   // Day number is derived from the war start date so it can never drift
   // out of step with the calendar; intel._day is honoured only as a fallback.
   const iDay      = intel?._asOf ? dayOf(intel._asOf, intel?._start ?? WAR_START)
                                  : (intel?._day ?? 0);
   const iUpdated  = intel?._updated      ?? "Loading...";
-  const iDeaths   = intel?.deaths        ?? "6,700+";
+  const iDeaths   = intel?.deaths        ?? "\u2014";
   const iWC       = intel?.whatChanged   ?? {label:'Loading intelligence…', items:[]};
   const iEcon     = intel?.econ          ?? null;
   const iRadar    = intel?.radar         ?? RADAR_FB;
@@ -558,10 +611,31 @@ export default function App() {
   const iCities   = intel?.cities        ?? [];
   const iHormuz   = intel?.hormuzStatus  ?? null;
   const iHEvents  = intel?.hormuzEvents  ?? iHLatest;
-  const iPhase    = intel?._phase        ?? "BLOCKADE";
+  const iPhase    = intel?._phase        ?? "";
   const PRE       = {...PRE_FB, ...(intel?.preWar||{})};
   const iFeatured = intel?.featured      ?? FEATURED_FB;
   const iMilTop   = intel?.milTop        ?? [];
+
+  // The ticker restates the day's headlines, so derive it from them
+  // rather than asking for the same lines to be written twice.
+  const iT = intel?.ticker?.length
+    ? intel.ticker
+    : (iWC.items ?? []).map(it => it.bold).filter(Boolean);
+
+  const phaseCol  = phaseTone(intel);
+  const phaseCalm = phaseCol === C.green;
+
+  // Chips take the short state fields; anything long is prose. Files
+  // written before the split kept a short string in `status`, so fall
+  // back to that when it is genuinely short.
+  const isLong = v => String(v ?? "").length > 44;
+  const hormuzState = short(
+    iHormuz?.state ?? (isLong(iHormuz?.status) ? "SEE BRIEFING" : iHormuz?.status) ?? "STATUS PENDING", 40);
+  const hormuzTraffic = short(
+    iHormuz?.trafficState ?? (isLong(iHormuz?.currentFlow) ? "SEE BRIEFING" : iHormuz?.currentFlow) ?? "\u2014", 40);
+  const maritimeBriefing = [
+    iHormuz?.status, iHormuz?.currentFlow, iHormuz?.totalShipsWaiting, iHormuz?.indianNavyEscort,
+  ].filter(isLong);
 
   // ── Executive snapshot (derived from JSON; overridable via intel.exec) ──
   const iExec    = intel?.exec ?? {};
@@ -577,6 +651,13 @@ export default function App() {
   const fullTL = [...(intel?.timeline ?? [])]
     .sort((a,b)=>a.d-b.d);
 
+  // Some days carry a morning and an evening entry. The archive keeps
+  // both, but a line chart needs one point per day or the x-axis stops
+  // being monotonic and two markers land on the same tick.
+  const chartTL = Object.values(
+    fullTL.reduce((acc,t)=>{ acc[t.d]=t; return acc; }, {})
+  ).sort((a,b)=>a.d-b.d);
+
   const brentRaw  = live?.brent?.price     ?? 100;
   const brentChg  = live?.brent?.changePct ?? -4.50;
   const niftyRaw  = live?.nifty?.price     ?? 23719;
@@ -586,8 +667,6 @@ export default function App() {
 
   const brentColor = brentRaw > 110 ? C.red : brentRaw > 95 ? C.orange : C.amber;
   const niftyColor = niftyChg >= 0 ? C.green : C.red;
-  const isBlockade = iPhase === "BLOCKADE";
-  const isEscalation = iPhase === "ESCALATION";
 
   // ── 60-Second Brief (plain language; overridable via intel.brief array) ──
   const lpgNow = intel?.budget?.lpgNow ?? 912.5;
@@ -610,11 +689,14 @@ export default function App() {
     updated: iUpdated,
   };
 
-  // Freshness — the war brief is updated by hand, market data every 4h.
+  // Freshness — the war brief is written by hand, market data is fetched.
   const asOfMs   = intel?._asOf ? Date.parse(intel._asOf+"T00:00:00+05:30") : null;
   const hoursOld = asOfMs ? (Date.now()-asOfMs)/3600000 : null;
   const isStale  = hoursOld != null && hoursOld > 36;
   const liveStamp = live?._updated || null;
+  // A feed that quietly kept yesterday's number should say so.
+  const staleFeeds = Object.entries(live?._status ?? {})
+    .filter(([,v]) => v !== 'ok').map(([k]) => k);
 
   const filteredTL = logSearch.trim()
     ? [...fullTL].reverse().filter(d =>
@@ -737,6 +819,13 @@ export default function App() {
                   BRIEF {Math.floor(hoursOld/24)}D OLD
                 </span>
               )}
+              {staleFeeds.length > 0 && (
+                <span title={`Last refresh did not update: ${staleFeeds.join(', ')}`}
+                  style={{color:C.orange,border:`1px solid ${C.orange}40`,
+                  background:C.orangeDim,borderRadius:4,padding:'1px 7px',fontWeight:700}}>
+                  {staleFeeds.length} FEED{staleFeeds.length>1?'S':''} STALE
+                </span>
+              )}
             </div>
           </div>
           <div className="hdr-badges" style={{display:'flex',gap:8,alignItems:'center',flexWrap:'wrap'}}>
@@ -750,12 +839,11 @@ export default function App() {
                 fontWeight:700,fontFamily:MONO,letterSpacing:0.5,cursor:'pointer',whiteSpace:'nowrap'}}>
               📤 SHARE TODAY'S CARD
             </button>
-            <div style={{fontSize:10.5,color:isEscalation?C.red:isBlockade?C.orange:C.green,
-              padding:'6px 12px',border:`1px solid ${isEscalation?C.red:isBlockade?C.orange:C.green}40`,
-              borderRadius:6,background:(isEscalation?C.red:isBlockade?C.orange:C.green)+'0c',
-              fontWeight:700,fontFamily:MONO,lineHeight:1.5,flex:'1 1 260px',minWidth:220,
-              animation:(isEscalation||isBlockade)?'pulse 1.8s infinite':undefined}}>
-              {intel?._phaseBadge ?? (isEscalation?"🔴 ESCALATION":isBlockade?"⚠ HORMUZ RE-CLOSED (CONTESTED)":"● CEASEFIRE HOLDING")}
+            <div style={{fontSize:10.5,color:phaseCol,
+              padding:'6px 12px',border:`1px solid ${phaseCol}40`,
+              borderRadius:6,background:phaseCol+'0c',
+              fontWeight:700,fontFamily:MONO,lineHeight:1.5,flex:'1 1 260px',minWidth:220}}>
+              {intel?._phaseBadge ?? (iPhase ? `${phaseCalm?"●":"⚠"} ${iPhase}` : "\u2014")}
             </div>
           </div>
         </div>
@@ -793,7 +881,7 @@ export default function App() {
             {' '}This dashboard focuses exclusively on what the Iran-Gulf War means for India's 1.4 billion people:
             energy prices, food security, financial markets, nuclear exposure, and Indian seafarers in the Gulf.
             We track Hormuz because before the war, <strong style={{color:C.amber}}>40% of India's crude, 60% of its LNG, and 90% of its LPG</strong>
-            imports transited this 39km chokepoint. Emergency rerouting and a pivot toward Russian crude have since cut that exposure sharply. Market data auto-syncs every 4 hours. War intelligence updated manually from 50+ verified sources.
+            imports transited this 39km chokepoint. Emergency rerouting and a pivot toward Russian crude have since cut that exposure sharply. Market data is fetched automatically through the day. War intelligence is written by hand from 50+ verified sources.
           </div>
         )}
       </header>
@@ -841,7 +929,7 @@ export default function App() {
               value={typeof niftyRaw==='number'?Math.round(niftyRaw).toLocaleString():niftyRaw}
               delta={(niftyChg>=0?"▲ +":"▼ ")+Math.abs(niftyChg).toLocaleString()}
               deltaColor={niftyColor} accent={niftyChg>=0?C.green:C.red}
-              sub={`Sensex ${typeof sensexRaw==='number'?sensexRaw.toLocaleString():sensexRaw} · auto-synced 4h`}/>
+              sub={`Sensex ${typeof sensexRaw==='number'?sensexRaw.toLocaleString():sensexRaw} · auto-synced`}/>
             <Mc label="Shipping — Hormuz" value={iExec.shipping ?? "DISRUPTED"} accent={C.cyan}
               sub={iExec.shippingSub ?? `Pre-war ${iHormuz?.preWarFlow||"~90-140 ships/day"} · ${iHormuz?.indianSeafarers??"—"} Indian seafarers in Gulf`}/>
             <Mc label="Military" value={iExec.military ?? `${radarNow('Mil. Exposure') ?? "—"}/100`} accent={C.red}
@@ -906,26 +994,40 @@ export default function App() {
             </div>
           )}
 
-          {/* Status + traffic — consistent font sizes */}
+          {/* Two short state chips. The day's narrative is prose, below —
+              it used to be rendered here, centred and bold, at 700 chars. */}
           <div style={{display:'grid',gridTemplateColumns:'1fr 1fr',gap:8,marginBottom:10}}>
-            <div style={{background:((isBlockade||isEscalation)?C.red:C.green)+'10',borderRadius:10,
-              padding:12,textAlign:'center',border:`1px solid ${((isBlockade||isEscalation)?C.red:C.green)}25`}}>
-              <div style={{fontSize:10.5,color:(isBlockade||isEscalation)?C.red:C.green,fontWeight:700,
-                letterSpacing:2,fontFamily:MONO,marginBottom:5}}>STATUS</div>
-              <div style={{fontSize:13,fontWeight:700,color:(isBlockade||isEscalation)?C.red:C.green,
-                fontFamily:SYNE,lineHeight:1.45}}>{iHormuz?.status||"BLOCKADE ACTIVE"}</div>
+            <div style={{background:phaseCol+'10',borderRadius:10,
+              padding:12,textAlign:'center',border:`1px solid ${phaseCol}25`}}>
+              <div style={{fontSize:10.5,color:phaseCol,fontWeight:700,
+                letterSpacing:2,fontFamily:MONO,marginBottom:5}}>STRAIT STATUS</div>
+              <div style={{fontSize:14,fontWeight:700,color:phaseCol,
+                fontFamily:SYNE,lineHeight:1.45}}>{hormuzState}</div>
             </div>
-            <div style={{background:C.card,borderRadius:10,padding:12,border:`1px solid ${C.border}`}}>
+            <div style={{background:C.card,borderRadius:10,padding:12,textAlign:'center',
+              border:`1px solid ${C.border}`}}>
               <div style={{fontSize:10.5,color:C.muted,fontWeight:700,letterSpacing:2,
                 fontFamily:MONO,marginBottom:5}}>SHIP TRAFFIC</div>
-              <div style={{fontSize:13,fontWeight:700,color:C.orange,fontFamily:MONO,lineHeight:1.45}}>
-                {iHormuz?.currentFlow||"Near-zero commercial transit"}
+              <div style={{fontSize:14,fontWeight:700,color:C.orange,fontFamily:SYNE,lineHeight:1.45}}>
+                {hormuzTraffic}
               </div>
-              <div style={{fontSize:10.5,color:C.muted,marginTop:3}}>
-                Pre-war: {iHormuz?.preWarFlow||"~90-140 ships/day"}
+              <div style={{fontSize:10.5,color:C.muted,marginTop:4,fontFamily:MONO}}>
+                Pre-war: {iHormuz?.preWarFlow||"\u2014"}
               </div>
             </div>
           </div>
+
+          {maritimeBriefing.length > 0 && (
+            <div style={{background:C.card,borderRadius:10,padding:'12px 14px',marginBottom:10,
+              border:`1px solid ${C.border}`,borderLeft:`3px solid ${C.cyan}`}}>
+              <div style={{fontSize:10.5,fontWeight:700,color:C.cyan,letterSpacing:2.5,
+                fontFamily:MONO,marginBottom:7}}>MARITIME BRIEFING</div>
+              {maritimeBriefing.map((para,i)=>(
+                <p key={i} style={{margin:i?'9px 0 0':0,fontSize:13,color:C.sub,
+                  lineHeight:1.75,fontFamily:SERIF}}>{para}</p>
+              ))}
+            </div>
+          )}
 
           {/* India stats — consistent sizing, with casualty alert */}
           {(iHormuz?.indianCasualties ?? 0) > 0 && (
@@ -954,9 +1056,12 @@ export default function App() {
               fontFamily:MONO,marginBottom:10}}>🇮🇳 INDIA'S HORMUZ EXPOSURE</div>
             <div style={{display:'grid',gridTemplateColumns:'1fr 1fr 1fr',gap:8}}>
               {[
-                {l:"Ships in Gulf", v:iHormuz?.indianVesselsNear??7, sub:(iHormuz?.indianSeafarers??148)+" seafarers on Indian-flagged vessels"},
-                {l:"Crossed Safely",v:iHormuz?.indianTransited??0,  sub:iHormuz?.totalShipsWaiting||"Status pending"},
-                {l:"Navy Escort",   v:"ACTIVE", sub:"Op Urja Suraksha", isText:true},
+                {l:"Ships in Gulf", v:iHormuz?.indianVesselsNear??"\u2014",
+                 sub:(iHormuz?.indianSeafarers??"\u2014")+" seafarers on Indian-flagged vessels"},
+                {l:"Crossed Safely",v:iHormuz?.indianTransited??"\u2014",
+                 sub:short(iHormuz?.transitedNote ?? "See maritime briefing", 46)},
+                {l:"Navy Escort",   v:short(iHormuz?.navyEscort ?? "ACTIVE", 14),
+                 sub:"Op Urja Suraksha", isText:true},
               ].map((s,i)=>(
                 <div key={i} style={{textAlign:'center'}}>
                   <div style={{fontSize:10.5,color:C.amber,fontWeight:700,letterSpacing:1,
@@ -1037,22 +1142,22 @@ export default function App() {
             marginBottom:10,border:`1px solid ${C.border}`}}>
             <div style={{display:'flex',justifyContent:'space-between',alignItems:'center',marginBottom:10}}>
               <div style={{fontSize:10.5,fontWeight:700,color:C.cyan,letterSpacing:2.5,fontFamily:MONO}}>
-                NIFTY 50 — {fullTL.length} LOGGED SESSIONS · DAY 1–{iDay}
+                NIFTY 50 — {chartTL.length} LOGGED SESSIONS · DAY 1–{chartTL.at(-1)?.d ?? iDay}
               </div>
               <Chip color={C.cyan} size={8}>LIVE</Chip>
             </div>
-            <MiniLine data={fullTL} dataKey="nifty" color={C.cyan} h={120}/>
+            <MiniLine data={chartTL} dataKey="nifty" color={C.cyan} h={120}/>
           </div>
 
           <div style={{background:C.card,borderRadius:10,padding:'14px 14px 10px',
             marginBottom:10,border:`1px solid ${C.border}`}}>
             <div style={{display:'flex',justifyContent:'space-between',alignItems:'center',marginBottom:10}}>
               <div style={{fontSize:10.5,fontWeight:700,color:C.orange,letterSpacing:2.5,fontFamily:MONO}}>
-                BRENT CRUDE ($) — {fullTL.length} LOGGED SESSIONS · DAY 1–{iDay}
+                BRENT CRUDE ($) — {chartTL.length} LOGGED SESSIONS · DAY 1–{chartTL.at(-1)?.d ?? iDay}
               </div>
               <span style={{fontSize:10.5,color:C.sub,fontFamily:MONO}}>Currently ~${brentRaw}</span>
             </div>
-            <MiniLine data={fullTL} dataKey="brent" color={C.orange} h={120}/>
+            <MiniLine data={chartTL} dataKey="brent" color={C.orange} h={120}/>
           </div>
 
           {/* Market analysis — crisp */}
@@ -1198,6 +1303,8 @@ export default function App() {
 
         {/* ══ RADAR ══ */}
         <S id="radar" title="Risk Radar" accent={C.amber}>
+          {!iRadar.length && <Empty label="Risk index"/>}
+          {iRadar.length > 0 && (
           <div style={{display:'grid',gridTemplateColumns:'1fr 1fr',gap:10}}>
             <div style={{background:C.card,borderRadius:10,padding:12,border:`1px solid ${C.border}`}}>
               <RadarSVG data={iRadar} day={iDay}/>
@@ -1219,6 +1326,7 @@ export default function App() {
               ))}
             </div>
           </div>
+          )}
         </S>
 
         {/* ══ WAR LOG ══ */}
@@ -1244,7 +1352,7 @@ export default function App() {
                 display:'flex',gap:10,alignItems:'flex-start'}}>
                 <div style={{minWidth:42,flexShrink:0}}>
                   <div style={{fontSize:11.5,fontWeight:800,
-                    color:d.sev===3?C.red:d.sev===2?C.orange:C.green,fontFamily:MONO}}>D{d.d}</div>
+                    color:d.sev>=3?C.red:d.sev===2?C.orange:C.green,fontFamily:MONO}}>D{d.d}</div>
                   <div style={{fontSize:10.5,color:C.sub,fontFamily:MONO}}>{d.l}</div>
                 </div>
                 <div style={{flex:1}}>
@@ -1314,10 +1422,19 @@ export default function App() {
                 style={{display:'flex',alignItems:'center',gap:10,background:C.card,
                   border:`1px solid ${C.border}`,borderLeft:`2px solid ${pub.tagColor||C.amber}`,
                   borderRadius:6,padding:'8px 12px',textDecoration:'none',transition:'all 0.15s'}}>
-                <span style={{fontSize:15,flexShrink:0}}>{pub.icon||'📄'}</span>
+                <span style={{fontSize:15,flexShrink:0,alignSelf:'flex-start',marginTop:2}}>{pub.icon||'📄'}</span>
                 <div style={{flex:1,minWidth:0}}>
-                  <span style={{fontSize:12.5,fontWeight:700,color:C.white,fontFamily:SYNE}}>{pub.title}</span>
-                  <span style={{fontSize:10.5,color:C.muted,fontFamily:MONO,marginLeft:8}}>{pub.org}</span>
+                  <div>
+                    <span style={{fontSize:12.5,fontWeight:700,color:C.white,fontFamily:SYNE}}>{pub.title}</span>
+                    <span style={{fontSize:10.5,color:C.muted,fontFamily:MONO,marginLeft:8}}>
+                      {pub.org}{pub.date?` · ${pub.date}`:''}
+                    </span>
+                  </div>
+                  {pub.desc && (
+                    <div style={{fontSize:11.5,color:C.sub,fontFamily:SERIF,lineHeight:1.6,marginTop:3}}>
+                      {clampSentences(pub.desc, 1)}
+                    </div>
+                  )}
                 </div>
                 <span style={{fontSize:10.5,color:pub.tagColor||C.amber,fontFamily:MONO,fontWeight:700,flexShrink:0}}>Read →</span>
               </a>
