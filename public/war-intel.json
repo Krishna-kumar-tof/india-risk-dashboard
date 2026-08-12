@@ -77,6 +77,38 @@
     "wealthSub": "BSE market capitalisation held through the blockade week. WPI 9.87% in June (from 9.68%) — war transmission to wholesale prices confirmed. Net direct tax +16.4% YTD to ₹6.51 lakh crore (to Jul 13). The RBI August MPC calculus is now complicated by oil, the rupee and WPI together.",
     "analysis": "Equities are absorbing the blockade far better than the April original — Wednesday closed green despite Brent at $85 and daytime strikes. The stress has migrated to the currency and wholesale prices: rupee past 96 (first since May) with options pricing further downside, and WPI at 9.87%. Watch: rupee 96.50 resistance, Brent $86.36 (this morning's high), Nifty 24,000 support, OMC under-recovery at $86 Brent, and whether FII financial-sector buying survives the oil tape."
   },
+  "military": [
+    {
+      "t": "AUG 11 — US HELICOPTER DISABLES PANAMA-FLAGGED BLOCKADE RUNNER IN THE GULF OF OMAN",
+      "lv": "BREAKING",
+      "color": "red",
+      "d": "A US Navy MH-60 fired two Hellfire missiles into the engine room of the M/V Vela Nova, a Panama-flagged container vessel about 71 nautical miles off Pakistan, after its crew ignored warnings while attempting to run the American blockade of Iranian ports. The resulting fire was extinguished and no casualties were reported; the crew appeared to be transferring to another civilian vessel. CENTCOM's cumulative tally: 55 commercial vessels redirected, three disabled, two boarded, with over 15 warships including two carriers and an amphibious assault ship in the Arabian Sea. Assessment: kinetic enforcement against commercial shipping is now routine on both sides of the strait. For Indian crews and charterers on Gulf routes, the risk is no longer confined to Iranian action."
+    },
+    {
+      "t": "AUG 11 — PAKISTAN AND QATAR SAY AN ARRANGEMENT IS CLOSE; NAQVI IN TEHRAN",
+      "lv": "REPORTED",
+      "color": "amber",
+      "d": "Defence minister Khawaja Asif told Bloomberg the US and Iran are 'close to some sort of an arrangement', citing signals over the previous two to three days; Qatar's foreign ministry described the Iran-Oman talks as at an 'advanced stage'. Interior minister Mohsin Naqvi met Araghchi and President Pezeshkian in Tehran, reportedly carrying new proposals. Assessment: worth logging, not yet worth pricing. This is at least the fourth 'imminent deal' signal since June, each from a mediator rather than a principal, and each time the principals' public terms hardened in the same week. India's exposure here is doubled — Pakistan is the mediator whose diplomatic stock rises with every round."
+    },
+    {
+      "t": "AUG 11 — EIGHTH ROUND OF US SANCTIONS THIS YEAR; KHAMENEI ADVISER SAYS STRAIT STAYS SHUT",
+      "lv": "ACTIVE",
+      "color": "orange",
+      "d": "Washington imposed its eighth sanctions package on Iran in 2026. Foreign ministry spokesman Baqaei said Tehran will not buckle and that the measures only reduce the chance of a diplomatic resolution. Mohammad Mokhber, an adviser to Supreme Leader Mojtaba Khamenei, said the strait will stay closed until Iran's demands are met, invoking the Carter-era hostage crisis in a post aimed at Trump. Assessment: the pressure campaign and the mediation are running simultaneously, which is why crude keeps repricing in both directions within single sessions."
+    },
+    {
+      "t": "AUG 10-11 — RED SEA ATTACKS CONTINUE: FOUR KILLED IN SUSPECTED STRIKE",
+      "lv": "ACTIVE",
+      "color": "orange",
+      "d": "Yemen's transport ministry reported four killed in a suspected strike as Houthi attacks on government-held areas resumed Tuesday, following Sunday's twin strikes on the Red Sea port of Mocha that killed seven and damaged piers and warehouses, and a claimed drone attack on Aramco's Jazan refinery. Assessment: the Bab el-Mandeb leg of India's westbound trade continues to degrade independently of Hormuz. Any 'deal' that covers only the strait leaves this exposure intact."
+    },
+    {
+      "t": "AUG 10 — IRAN'S SUPREME LEADER REPLACES SIX SENIOR COMMANDERS",
+      "lv": "STRATEGIC",
+      "color": "orange",
+      "d": "Mojtaba Khamenei named Ali Abdollahi armed forces chief of staff, Ahmad Vahidi commander-in-chief of the IRGC and Ali Azmaei IRGC Navy commander, among six appointments — a day after Mohsen Rezaee took the Supreme National Security Council. Reporting frames Tehran as signalling readiness for 'prolonged confrontation'. Assessment: a full security leadership reset inside 48 hours, all hardline. This is not the personnel profile of a government about to concede the strait."
+    }
+  ],
   "radar": [
     {
       "axis": "Oil Shock",

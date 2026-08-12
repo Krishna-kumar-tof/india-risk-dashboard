@@ -110,6 +110,18 @@ if (intel) {
     });
   }
 
+  if (!Array.isArray(intel.military) || !intel.military.length) {
+    warn('war-intel.json: "military" is empty — that section will show an empty state');
+  } else {
+    intel.military.forEach((m, i) => {
+      if (!m.t) err(`war-intel.json: military[${i}].t (title) is required`);
+      if (!m.d) warn(`war-intel.json: military[${i}] has no body text`);
+      if (String(m.t ?? '').length > 130) {
+        warn(`war-intel.json: military[${i}].t is ${String(m.t).length} chars — titles read better under 130`);
+      }
+    });
+  }
+
   // The executive snapshot reads these axes by name.
   if (Array.isArray(intel.radar)) {
     for (const axis of ['Mil. Exposure', 'Household']) {

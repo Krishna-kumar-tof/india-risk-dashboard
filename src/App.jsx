@@ -932,9 +932,10 @@ export default function App() {
               sub={`Sensex ${typeof sensexRaw==='number'?sensexRaw.toLocaleString():sensexRaw} · auto-synced`}/>
             <Mc label="Shipping — Hormuz" value={iExec.shipping ?? "DISRUPTED"} accent={C.cyan}
               sub={iExec.shippingSub ?? `Pre-war ${iHormuz?.preWarFlow||"~90-140 ships/day"} · ${iHormuz?.indianSeafarers??"—"} Indian seafarers in Gulf`}/>
-            <Mc label="Military" value={iExec.military ?? `${radarNow('Mil. Exposure') ?? "—"}/100`} accent={C.red}
-              delta={`Exposure ${radarNow('Mil. Exposure') ?? "—"}/100`} deltaColor={C.red}
-              sub={iExec.militarySub ?? `War dead ${iDeaths}`}/>
+            <Mc label="Military — Exposure"
+              value={iExec.military ?? `${radarNow('Mil. Exposure') ?? "—"}/100`} accent={C.red}
+              delta={`War dead ${iDeaths}`} deltaColor={C.red}
+              sub={iExec.militarySub ?? ""}/>
             <Mc label="India Impact" value={`₹${typeof rupeeRaw==='number'?rupeeRaw.toFixed(2):rupeeRaw}`} accent={C.orange}
               delta="₹ / USD" deltaColor={C.orange}
               sub={iExec.indiaSub ?? `Household pressure ${radarNow('Household') ?? "—"}/100 · was ₹${PRE.rupee} pre-war`}/>
