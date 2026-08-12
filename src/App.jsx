@@ -1128,7 +1128,8 @@ export default function App() {
         <S id="economic" title="Markets — Economic Impact on India" accent={C.orange}>
           {/* Key metrics row */}
           <div className="grid4" style={{display:'grid',gridTemplateColumns:'1fr 1fr',gap:8,marginBottom:14}}>
-            <Mc label="BSE Market Cap" value={iEcon?.wealth||"—"} accent={C.orange}/>
+            <Mc label="BSE Market Cap" value={iEcon?.wealth||"—"}
+              sub={iEcon?.wealthSub||""} accent={C.orange}/>
             <Mc label="FII Flow" value={iEcon?.fpi||"—"}
               sub={iEcon?.fpiDelta||""} accent={C.red}/>
             <Mc label="Sensex" value={iEcon?.sensex||"—"}
