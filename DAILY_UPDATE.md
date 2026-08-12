@@ -45,8 +45,9 @@ in.
   "deaths": "0,000+",
   "shareLine": "1–2 sentences for the share card",
   "brief": [
-    "Five plain-language lines. No jargon, no tickers.",
-    "", "", "", ""
+    "Four plain-language points, under 240 chars each. No jargon.",
+    "Do not open with the day number or the risk level — both are already on screen.",
+    "", ""
   ],
   "whatChanged": {
     "label": "WHAT CHANGED — DAY N — WEEKDAY MONTH D",
@@ -142,6 +143,12 @@ a 700-character narrative once rendered inside a centred status chip.
 
 Everything else is prose and is rendered as paragraphs — write as much as the
 day deserves.
+
+One exception: `brief` is the 60-second brief, so it has to actually read in
+about a minute. Four points, under 240 characters each, under 1,100 characters
+in total. It sits in two balanced columns, so points of roughly equal length
+look best. Do not open it by restating the day number or the risk level — the
+header badge and the Risk Level card are directly above it.
 
 `npm run validate` checks all of it. So does CI, on every pull request and
 before every deploy, so a bad brief cannot reach the live site.
