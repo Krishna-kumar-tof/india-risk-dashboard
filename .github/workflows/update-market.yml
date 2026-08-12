@@ -2,11 +2,21 @@ name: Update Market Data
 
 on:
   schedule:
-    - cron: '0 */4 * * *'   # Every 4 hours UTC
+    # Indian market hours — 09:30, 11:30 and 13:30 IST.
+    - cron: '0 4,6,8 * * *'
+    # Just after the Indian close — 15:45 IST.
+    - cron: '15 10 * * *'
+    # Oil and forex through the rest of the day.
+    - cron: '0 1,13,17,21 * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
+
+# Never let two refreshes race for the same push.
+concurrency:
+  group: market-data
+  cancel-in-progress: false
 
 jobs:
   update-market-data:
@@ -15,35 +25,58 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
+          cache: npm
 
-      - name: Fetch market data and update JSON
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Fetch market data
         run: node scripts/fetch-market-data.mjs
 
-      - name: Configure git
+      # Logs the session to war-archive.json using the prices just
+      # fetched, so no figure is typed by hand twice.
+      - name: Roll the archive
+        run: node scripts/roll-archive.mjs
+
+      - name: Regenerate the share card
+        run: node scripts/make-share-card.mjs
+
+      # A bad number should not reach the site, but it also should not
+      # strand the refresh — report it and skip the push.
+      - name: Validate
+        id: validate
+        run: node scripts/validate-intel.mjs
+
+      - name: Commit and push if anything changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-
-      - name: Stash, pull, then restore
-        run: |
-          git stash
-          git pull origin main
-          git stash pop || true
-
-      - name: Commit and push if changed
-        run: |
-          git add public/market-data.json
+          git add public/market-data.json public/war-archive.json public/share-card.png
           if git diff --staged --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "chore: auto-update market data $(date -u '+%Y-%m-%d %H:%M UTC')"
-            git push origin main
+            echo "Nothing changed this run." >> "$GITHUB_STEP_SUMMARY"
+            exit 0
           fi
+          git commit -m "chore: auto-update market data $(date -u '+%Y-%m-%d %H:%M UTC')"
+          # Rebase onto anything pushed while this run was in flight.
+          for attempt in 1 2 3 4; do
+            git pull --rebase --autostash origin main && git push origin HEAD:main && exit 0
+            echo "push attempt $attempt failed, retrying in $((attempt * 5))s"
+            sleep $((attempt * 5))
+          done
+          echo "::error::Could not push the market refresh after 4 attempts."
+          exit 1
+
+      - name: Summary
+        if: always()
+        run: |
+          {
+            echo "### Market refresh"
+            echo '```json'
+            cat public/market-data.json
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"

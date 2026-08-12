@@ -6,7 +6,12 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "validate": "node scripts/validate-intel.mjs",
+    "market": "node scripts/fetch-market-data.mjs",
+    "roll": "node scripts/roll-archive.mjs",
+    "card": "node scripts/make-share-card.mjs",
+    "daily": "npm run market && npm run roll && npm run card && npm run validate"
   },
   "dependencies": {
     "react": "^18.3.1",
