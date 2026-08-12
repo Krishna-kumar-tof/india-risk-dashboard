@@ -1,2 +1,7 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
-body { margin: 0; padding: 0; background: #020810; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; padding: 0; background: #FFFFFF; color: #171413;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased; }
+h1, h2, h3 { font-weight: 400; margin: 0; text-wrap: balance; }
+p { text-wrap: pretty; }
