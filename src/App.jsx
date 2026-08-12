@@ -670,12 +670,13 @@ export default function App() {
 
   // ── 60-Second Brief (plain language; overridable via intel.brief array) ──
   const lpgNow = intel?.budget?.lpgNow ?? 912.5;
+  // The day number and the risk level already have their own badge and
+  // card, so the brief does not open by repeating them.
   const iBrief = intel?.brief ?? [
-    `Day ${iDay} of the West Asia war. Overall risk to India right now: ${riskLevel}.`,
-    `Oil: Brent crude is around $${brentRaw} a barrel — about ${Math.round((brentRaw/PRE.brent-1)*100)}% higher than before the war. Most of India's imported oil passes through the Strait of Hormuz, which is currently disrupted.`,
-    `Your money: the rupee is at ₹${typeof rupeeRaw==='number'?rupeeRaw.toFixed(2):rupeeRaw} per dollar (₹${PRE.rupee} pre-war), which makes imports costlier. Petrol has already been hiked; an LPG cylinder now costs ₹${lpgNow}.`,
-    `Markets: the Nifty is at ${typeof niftyRaw==='number'?Math.round(niftyRaw).toLocaleString():niftyRaw}. Volatile, but not crashing.`,
-    `Bottom line: no shortages in India today, but fuel and kitchen costs are rising. This page is updated daily — check the Household section for what it means for your budget.`,
+    `Brent is around $${brentRaw} a barrel, about ${Math.round((brentRaw/PRE.brent-1)*100)}% above pre-war. Most of India's imported oil moves through the Strait of Hormuz, which is disrupted.`,
+    `The rupee is at ₹${typeof rupeeRaw==='number'?rupeeRaw.toFixed(2):rupeeRaw} to the dollar, from ₹${PRE.rupee} pre-war, which makes every import costlier. An LPG cylinder now costs ₹${lpgNow}.`,
+    `The Nifty is at ${typeof niftyRaw==='number'?Math.round(niftyRaw).toLocaleString():niftyRaw} — volatile, not crashing.`,
+    `No shortages in India today, but fuel and kitchen costs are rising. The Household section has what it means for your budget.`,
   ];
 
   // ── Shareable daily card payload ──
@@ -725,6 +726,8 @@ export default function App() {
         ::-webkit-scrollbar-thumb { background:#253047; border-radius:4px; }
         a { color:${C.amber}; text-decoration:none; }
         a:hover { text-decoration:underline; }
+        .brief-item { display:flex; gap:9px; align-items:flex-start; padding:5px 0 7px;
+          break-inside:avoid; -webkit-column-break-inside:avoid; page-break-inside:avoid; }
         .nav-pill:hover { background:${C.amberDim} !important; color:${C.amber} !important; }
         .card-lift:hover { transform:translateY(-2px); box-shadow:0 6px 24px rgba(0,0,0,0.35); }
         .btn-base { border:none; cursor:pointer; font-family:inherit; transition:all 0.15s; }
@@ -738,8 +741,9 @@ export default function App() {
           .hdr-left { flex:0 1 auto !important; min-width:0; }
           .hdr-badges { flex:0 0 auto !important; justify-content:flex-end; }
           .hdr-badges > div:last-child { flex:0 1 340px !important; }
-          .brief-grid { display:grid !important; grid-template-columns:1fr 1fr; column-gap:28px; }
-          .brief-grid > div { border-bottom:none !important; padding:6px 0 !important; }
+          /* Columns, not grid rows. A grid row is as tall as its tallest
+             cell, so a one-line point left a hole beside a long one. */
+          .brief-grid { column-count:2; column-gap:30px; column-rule:1px solid ${C.border2}; }
           .hdr-h1 { font-size:32px !important; }
         }
         @media(max-width:767px){
@@ -857,13 +861,14 @@ export default function App() {
             </span>
             <span style={{fontSize:10.5,color:C.muted,fontFamily:MONO,marginLeft:'auto'}}>plain language</span>
           </div>
-          <div className="brief-grid" style={{padding:'4px 14px 12px'}}>
+          <div className="brief-grid" style={{padding:'2px 14px 12px'}}>
               {iBrief.map((line,i)=>(
-                <div key={i} style={{display:'flex',gap:9,alignItems:'flex-start',
-                  padding:'5px 0',borderBottom:i===iBrief.length-1?'none':`1px solid ${C.border}25`}}>
-                  <span style={{fontSize:11,fontWeight:800,color:C.cyan,fontFamily:MONO,
-                    flexShrink:0,minWidth:14,paddingTop:2}}>{i+1}.</span>
-                  <span style={{fontSize:12.5,color:C.text,lineHeight:1.65,fontFamily:SERIF}}>{line}</span>
+                <div key={i} className="brief-item">
+                  <span style={{fontSize:10,fontWeight:700,color:C.cyan,fontFamily:MONO,
+                    flexShrink:0,minWidth:16,paddingTop:3,letterSpacing:0.5}}>
+                    {String(i+1).padStart(2,"0")}
+                  </span>
+                  <span style={{fontSize:12.5,color:C.text,lineHeight:1.6,fontFamily:SERIF}}>{line}</span>
                 </div>
               ))}
           </div>

@@ -90,8 +90,25 @@ if (intel) {
     }
   }
 
-  if (Array.isArray(intel.brief) && (intel.brief.length < 3 || intel.brief.length > 7)) {
-    warn(`war-intel.json: brief has ${intel.brief.length} lines — 5 reads best`);
+  // It is called the 60-second brief. Reading is roughly 200 words a
+  // minute, so the whole thing has to stay near 1,100 characters, and no
+  // single point should run past a short paragraph.
+  if (Array.isArray(intel.brief)) {
+    if (intel.brief.length < 3 || intel.brief.length > 5) {
+      warn(`war-intel.json: brief has ${intel.brief.length} points — 4 reads best`);
+    }
+    intel.brief.forEach((line, i) => {
+      if (String(line).length > 240) {
+        warn(`war-intel.json: brief[${i}] is ${String(line).length} chars — keep each point under 240`);
+      }
+    });
+    const total = intel.brief.reduce((n, l) => n + String(l).length, 0);
+    if (total > 1100) {
+      warn(`war-intel.json: brief is ${total} chars — over a minute to read, trim toward 800`);
+    }
+    if (/^day\s+\d+/i.test(String(intel.brief[0] ?? ''))) {
+      warn('war-intel.json: brief opens by restating the day number, which the header badge already shows');
+    }
   }
 
   const items = intel.whatChanged?.items;
