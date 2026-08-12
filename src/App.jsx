@@ -508,7 +508,7 @@ const HormuzTimeline = ({events, phaseData}) => {
       {/* Phase track */}
       <div style={{display:'flex',gap:3,marginBottom:10,flexWrap:'wrap'}}>
         {phases.map((p,i)=>(
-          <div key={i} style={{flex:1,minWidth:80,background:`${p.color}14`,
+          <div key={i} style={{flex:'1 1 104px',minWidth:104,background:`${p.color}14`,
             border:`1px solid ${p.color}30`,borderRadius:6,padding:'6px 8px',textAlign:'center'}}>
             <div style={{fontSize:10,fontWeight:800,color:p.color,fontFamily:MONO,letterSpacing:0.5}}>{p.label}</div>
             <div style={{fontSize:10,color:C.muted,fontFamily:MONO,marginTop:2}}>{p.days}</div>
