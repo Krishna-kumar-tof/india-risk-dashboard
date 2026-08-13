@@ -1,8 +1,8 @@
 {
-  "_updated": "August 12, 2026 — 5:30 AM IST (pre-market)",
-  "_asOf": "2026-08-12",
+  "_updated": "August 13, 2026 — 9:51 PM IST (post-market)",
+  "_asOf": "2026-08-13",
   "_start": "2026-02-28",
-  "_day": 166,
+  "_day": 167,
   "preWar": {
     "brent": 65,
     "rupee": 91.49,
@@ -11,69 +11,79 @@
     "petrol": 94.72,
     "diesel": 87.62
   },
-  "_phase": "BRENT NEAR $90 — MEDIATORS SAY A DEAL IS CLOSE",
+  "_phase": "BRENT EASES OFF $90 AS THE IEA CUTS DEMAND — RIVAL CLAIMS OVER WHO CONTROLS HORMUZ",
   "_note": "Verified: NPR, CNN, CBS, Fox News, The Hill, Washington Times (Jul 15-16), CENTCOM statements, HDFC Sky, Business Standard (Jul 14-15 closes), TradingEconomics, Investing.com (Brent live Jul 16), Zee Business",
   "ticker": [
-    "🔴 DAY 166 WED AUG 12, 5:30 AM IST: BRENT SETTLED $89.86 (+$2.14, +2.44%), touching ~$90 — a fifth consecutive up session and the highest in over a week. That is ~38% above the pre-war $65, and a third session above the $85 pump-price trigger.",
-    "🚁 US NAVY MH-60 FIRED TWO HELLFIRE MISSILES into the engine room of the Panama-flagged M/V Vela Nova in the Gulf of Oman, ~71nm off Pakistan, after it ignored warnings running the blockade. Fire extinguished, no casualties reported.",
-    "⚓ CENTCOM TALLY: 55 commercial vessels redirected, 3 disabled, 2 boarded — with over 15 warships, two carriers and an amphibious assault ship in the Arabian Sea.",
-    "🤝 MEDIATORS: Pakistan's defence minister says the US and Iran are 'close to some sort of an arrangement'; Qatar calls Iran-Oman talks 'advanced'. Interior minister Naqvi met Araghchi and Pezeshkian in Tehran with new proposals. Fourth 'imminent' signal since June.",
-    "🚫 SAME DAY, OTHER DIRECTION: Washington imposed its 8th sanctions round of 2026; Khamenei adviser Mokhber said the strait stays closed until Iran's demands are met. Yemen reported four killed in a fresh suspected strike.",
-    "📉 INDIA CLOSE (TUE): Sensex 78,154.25 (-388.19, -0.49%), Nifty 24,471.70 (-112.10, -0.46%), rupee 95.44 (-14 paise), 10-yr yield 6.795%. Petrol ₹111.21, diesel ₹97.83, LPG ₹942 — still unchanged."
+    "BRENT EASES TO ~$87-88, DOWN 1-2%, SNAPPING A FIVE-SESSION RISE",
+    "IEA CUTS 2026 DEMAND FORECAST AGAIN — NOW SEES A 1.6 MB/D SLUMP",
+    "HORMUZ TRANSITS FALL TO EIGHT SHIPS A DAY, AGAINST ~130 PRE-WAR (KPLER)",
+    "TRUMP CLAIMS \"TOTAL CONTROL\" OF HORMUZ; IRAN SAYS IT REMAINS BLOCKED",
+    "NIFTY 24,395.85 (-0.16%), THIRD STRAIGHT FALL; SENSEX 78,079.96 (+0.15%)",
+    "RUPEE HOLDS NEAR 95.3 AS THE RBI SELLS DOLLARS THROUGH STATE BANKS",
+    "SIX KILLED ON A CARGO SHIP OFF YEMEN — FIRST HOUTHI SHIPPING DEATHS THIS ROUND"
   ],
   "whatChanged": {
-    "label": "WHAT CHANGED — WEDNESDAY AUGUST 12, 5:30 AM IST (DAY 166) — PRE-MARKET",
+    "label": "What changed — Thursday August 13, 9:51 PM IST (Day 167) — post-market",
     "items": [
       {
-        "color": "red",
-        "bold": "BRENT SETTLED $89.86, TOUCHING $90 — A FIFTH STRAIGHT SESSION HIGHER",
-        "text": "Up $2.14 or 2.44% on Tuesday, the highest in over a week and about 38% above the pre-war $65. Crude has now held above $85 for three sessions, which is the level at which the OMC under-recovery reopens and a pump revision becomes a live political question rather than an arithmetic one."
-      },
-      {
-        "color": "red",
-        "bold": "A US HELICOPTER PUT TWO HELLFIRE MISSILES INTO A CARGO SHIP'S ENGINE ROOM",
-        "text": "The Panama-flagged M/V Vela Nova was disabled in the Gulf of Oman about 71 nautical miles off Pakistan after ignoring warnings while running the US blockade. No casualties reported. CENTCOM's tally is now 55 vessels redirected, three disabled, two boarded. Kinetic risk to commercial shipping on Gulf routes is no longer only from the Iranian side."
+        "color": "green",
+        "bold": "Brent slipped to about $87-88, its first fall in six sessions",
+        "text": "Crude snapped a five-session advance, easing roughly 1-2% to the $87-88 range, with WTI near $82. The move followed lowered demand forecasts rather than any progress on the strait. US crude inventories also rose 17.4 million barrels last week, the biggest weekly build since early 2023."
       },
       {
         "color": "amber",
-        "bold": "MEDIATORS SAY A DEAL IS CLOSE — AGAIN",
-        "text": "Pakistan's defence minister says the US and Iran are near 'some sort of an arrangement'; Qatar calls the Iran-Oman talks 'advanced'; Pakistan's interior minister was in Tehran with new proposals. On the same day Washington imposed its eighth sanctions round of the year and a Khamenei adviser said the strait stays shut until Iran's terms are met. Log it, don't price it."
+        "bold": "The IEA cut its 2026 demand forecast again, and sharply",
+        "text": "The agency now expects global oil demand to fall by 1.6 million barrels a day this year, against the one million barrel slump it forecast in July, blaming the continuing closure of Hormuz and elevated fuel prices. It expects global supply to fall 4.3 million barrels a day on average in 2026 before recovering next year. OPEC separately trimmed its demand growth forecast to 580,000 barrels a day from 780,000."
+      },
+      {
+        "color": "red",
+        "bold": "Washington and Tehran each claimed control of the same waterway",
+        "text": "President Trump wrote that the United States has \"total control\" of the Strait of Hormuz and that the naval blockade is a \"wall of steel\". Iran's Persian Gulf Strait Authority replied that the strait remains blocked and will not reopen until Iran's conditions are accepted, and on Thursday the head of the Basij, Hossein Taeb, said the strait is under Iranian control and management. A senior Iranian source told Reuters there is no ceasefire to extend, because the June memorandum was violated within 48 hours."
+      },
+      {
+        "color": "orange",
+        "bold": "Traffic through the strait fell to a one-week low of eight ships",
+        "text": "Kpler data reported by Reuters put Tuesday's transits at eight vessels, below the 10-day average of about 12 and the lowest daily count since 5 August. About 130 ships a day crossed before the war began on 28 February. The rhetoric about control has not moved the only number that matters to importers."
       },
       {
         "color": "cyan",
-        "bold": "INDIA: SECOND STRAIGHT DECLINE, RUPEE AT A NEW LOW FOR THE WAR",
-        "text": "Sensex closed down 388.19 (-0.49%) at 78,154.25 and the Nifty down 112.10 (-0.46%) at 24,471.70, below 24,500. The rupee ended at 95.44, off 14 paise, and the 10-year bond yield rose to 6.795%. Pharma and IT held up; FMCG, realty and metals fell. India VIX actually eased to 11.79 — the market is treating this as a cost shock, not a panic."
+        "bold": "India: the Nifty fell a third day, the rupee held near 95.3",
+        "text": "The Nifty closed at 24,395.85, down 40 points or 0.16%, as metals, cement and IT weighed; the Sensex snapped a two-day decline to end at 78,079.96, up 114 points. The rupee stayed in a narrow band around ₹95.3, with traders reporting continued RBI dollar sales through state-run banks. July CPI rose to 4.45% from 4.38%."
       }
     ]
   },
   "deaths": "7,199+",
   "econ": {
-    "sensex": "78,154.25 (close, -0.49%)",
-    "sensexDelta": "TUE AUG 11 CLOSE: Sensex -388.19 (-0.49%) to 78,154.25; Nifty -112.10 (-0.46%) to 24,471.70, ending below 24,500 for a second straight decline. Bank Nifty -0.42% to 57,446.25. Crude was the headwind — Brent rose as much as 2.63% toward $90 — with FMCG, realty and metals under pressure while pharma and IT outperformed. Breadth was negative (2,033 up, 2,279 down) but broader indices held: BSE MidCap flat, SmallCap +0.24%. India VIX eased 3.73% to 11.79. The 10-year benchmark yield rose to 6.795% from 6.766%.",
-    "sensexSub": "Brent for October settled $89.86, up $2.14 or 2.44% — a fifth straight gain, the highest in over a week, roughly 38% above the pre-war $65 and a third session above the $85 under-recovery line. Rupee closed 95.44, down 14 paise and the weakest of the war. Pump prices still unchanged: petrol ₹111.21, diesel ₹97.83, domestic LPG ₹942.",
+    "sensex": "78,079.96 (close, +0.15%)",
+    "sensexDelta": "Thu Aug 13 close: +113.61 points",
+    "sensexSub": "The Sensex snapped a two-day losing streak while the Nifty fell for a third session to 24,395.85, down 40 points or 0.16%, with metals, cement and IT the drags. Volatile trade either side of 24,450.",
     "vix": "~13.1 — EASING",
     "vixDelta": "-4.51% to 13.14 Wed open, ~-3% at close — volatility compressing despite blockade. Tue: 13.75 (+3.53%). Well below wartime 24-27; markets treating this as a contained maritime campaign, not full war.",
     "fpi": "+$1.3bn in August so far",
     "fpiDelta": "Foreign investors net bought roughly $1.3bn of Indian equities in August to date after $2.1bn in July. These inflows are the main counterweight to crude — if they turn while Brent holds above $88, equities and the rupee lose both supports at once.",
     "wealth": "BSE market cap ~Rs 485-490 trillion — resilient through the blockade week. WPI 9.87% June (from 9.68%) — war transmission to wholesale prices confirmed. Net direct tax +16.4% YTD to Rs 6.51L Cr (till Jul 13). RBI Aug MPC calculus now complicated by oil + rupee + WPI.",
-    "analysis": "Equities are absorbing the blockade far better than the April original — Wednesday closed green despite Brent at $85 and daytime strikes. The stress has migrated to the currency and wholesale prices: rupee past 96 (first since May) with options pricing further downside, and WPI at 9.87%. Watch: rupee 96.50 resistance, Brent $86.36 (this morning's high), Nifty 24,000 support, OMC under-recovery at $86 Brent, and whether FII financial-sector buying survives the oil tape."
+    "analysis": "A rare session where the two benchmarks parted company: the Sensex closed up 114 points while the Nifty fell a third straight day, which says more about index composition than direction. The more useful development was in crude. Brent easing off $90 on the IEA's demand downgrade takes some pressure off the import bill and off the rupee, which held near ₹95.3 with the RBI selling dollars through state-run banks. But the relief is demand-driven, not supply-driven — the strait is no more open than it was on Tuesday, and a global demand contraction of 1.6 million barrels a day is not an unambiguously good thing for an economy that exports refined product. Watch whether Brent holds below $88 into next week: that, not the mediation, decides the next pump revision."
   },
   "hormuzStatus": {
-    "status": "Tuesday produced a genuine split. On the mediation track, Pakistan's defence minister Khawaja Asif told Bloomberg that Washington and Tehran are 'close to some sort of an arrangement' and that the signals of the past two or three days favour a deal; Qatar's foreign ministry said the Iran-Oman talks have reached an 'advanced stage'. Pakistan's interior minister Mohsin Naqvi was in Tehran meeting Araghchi and President Pezeshkian, reportedly carrying new proposals. On the principals' track, nothing softened: an adviser to Supreme Leader Mojtaba Khamenei, Mohammad Mokhber, said the strait stays closed until Iran's demands are met, and Washington imposed its eighth round of sanctions on Iran this year. Treat the mediator optimism as real but unconfirmed — Pakistan and Qatar have an interest in projecting momentum, and this is the fourth time since June that a deal has been called imminent.",
+    "status": "Two governments claimed the same waterway on the same day. President Trump said the United States has \"total control\" of the Strait of Hormuz and would \"keep it\", describing the naval blockade as a wall of steel. Iran's Persian Gulf Strait Authority responded that the strait remains blocked and will not reopen until Iran's conditions are accepted, and on Thursday the Basij commander Hossein Taeb said it is under Iranian control and management. Iran and Oman have agreed vessel-route coordinates, but Tehran maintains that full reopening depends on US compliance with the violated June memorandum.",
     "preWarFlow": "~90-140 ships/day",
-    "currentFlow": "No reopening, and enforcement is tightening on the other side of the ledger. A US Navy MH-60 fired two Hellfire missiles into the engine room of the Panama-flagged M/V Vela Nova in the Gulf of Oman, about 71 nautical miles off Pakistan, after it ignored warnings while running the blockade; the fire was put out and no casualties were reported. CENTCOM says it has now redirected 55 commercial vessels, disabled three and boarded two, with more than 15 warships including two carriers in the Arabian Sea.",
+    "currentFlow": "Eight transits on Tuesday, a one-week low",
     "reduction": "Brent settled $89.86 for October delivery, up $2.14 or 2.44% — a fifth consecutive rise and the highest in over a week, having touched roughly $90 intraday. That is about 38% above the pre-war $65. Crude has now spent three sessions above the $85 line at which India's under-recovery question reopens.",
     "indianVesselsNear": 7,
     "indianSeafarers": 148,
     "indianTransited": 1,
     "totalShipsWaiting": "Significantly reduced from wartime peak of 20,000+. 3 Indian tankers safely crossed. But US oil licence revocation + Hormuz re-closure claims = uncertainty for remaining stranded vessels. India seafarer repatriation: mostly achieved for Indian-flagged vessels that transited. MT Settebello diplomatic track: ongoing.",
-    "lastTransit": "No general reopening. US forces disabled the M/V Vela Nova running the blockade; Iran recognises only the route agreed with Oman.",
+    "lastTransit": "No general reopening. Transits fell to eight vessels on Tuesday, below the 10-day average of about 12 and the lowest since 5 August, according to Kpler data reported by Reuters.",
     "indianNavyEscort": "Op Urja Suraksha: transitioning given formal blockade lift. MT Settebello diplomatic track continues independent of the broader deal. India's 18,000+ seafarer repatriation should now accelerate given the 'immediate effect' confirmation from Pakistan's PM.",
     "headline": "TWO STORIES ON THE SAME DAY: THE MEDIATORS SAY AN ARRANGEMENT IS CLOSE, THE PRINCIPALS HARDENED THEIR TERMS, AND A US HELICOPTER PUT MISSILES INTO A SHIP'S ENGINE ROOM. BRENT SETTLED AT $89.86.",
     "indianCasualties": 4,
     "indianCasualtyDetail": "4th Indian death of the war: a crew member aboard UAE tanker MOMBASA killed by an Iranian cruise missile in Omani territorial waters (UAE MoD, Jul 14). 8 injured incl. 6 Indians, 4 serious. Earlier: 3 Indian sailors killed on MT Settebello (Jun 8, US Navy strike)."
   },
   "hormuzEvents": [
+    {
+      "d": "Aug 12-13",
+      "e": "DAY 166-167 — RIVAL CLAIMS OF CONTROL, TRAFFIC AT A ONE-WEEK LOW. President Trump wrote that the United States has \"total control\" of the Strait of Hormuz and that the naval blockade is being called a wall of steel. Iran's Persian Gulf Strait Authority replied that the strait remains blocked and will not reopen until Iran's conditions are accepted; on Thursday the Basij commander Hossein Taeb said the waterway is under Iranian control and management. Transits fell to eight vessels on Tuesday, the lowest since 5 August and below the 10-day average of about 12, against roughly 130 a day before the war. A senior Iranian source told Reuters there is no ceasefire to extend because Washington violated the June memorandum within 48 hours, and that mediators are discussing a US return to the interim agreement with no progress so far. Oil from the grounded tanker Caroline Bezengi, carrying about 800,000 barrels of Russian crude, now covers some 155 square miles and has reached the Omani mainland; separate slicks reached Iran's Qeshm island."
+    },
     {
       "d": "Aug 11",
       "e": "DAY 165 — MEDIATORS OPTIMISTIC, PRINCIPALS IMMOVABLE, MISSILES FIRED. Pakistan's defence minister Khawaja Asif said the US and Iran are 'close to some sort of an arrangement' and 'things are shaping up in favour of peace'; Qatar said the Iran-Oman talks are at an 'advanced stage'. Pakistani interior minister Mohsin Naqvi met Araghchi and Pezeshkian in Tehran, reportedly with new proposals. Simultaneously: a US Navy MH-60 fired two Hellfire missiles into the engine room of the Panama-flagged M/V Vela Nova in the Gulf of Oman after it ignored warnings running the blockade — CENTCOM's running tally is 55 vessels redirected, 3 disabled, 2 boarded. Washington imposed its eighth round of sanctions on Iran this year. Khamenei adviser Mohammad Mokhber said the strait stays closed until Iran's demands are met. Yemen's transport ministry reported four killed in a suspected strike as Red Sea attacks continued. Brent settled $89.86 (+2.44%). INDIA: Sensex 78,154.25 (-0.49%), Nifty 24,471.70 (-0.46%), rupee 95.44."
@@ -232,34 +242,40 @@
   ],
   "military": [
     {
-      "t": "AUG 11 — US HELICOPTER DISABLES PANAMA-FLAGGED BLOCKADE RUNNER IN THE GULF OF OMAN",
+      "t": "Aug 13 — Iran and the US both claim control of Hormuz",
       "lv": "BREAKING",
       "color": "red",
-      "d": "A US Navy MH-60 fired two Hellfire missiles into the engine room of the M/V Vela Nova, a Panama-flagged container vessel about 71 nautical miles off Pakistan, after its crew ignored warnings while attempting to run the American blockade of Iranian ports. The resulting fire was extinguished and no casualties were reported; the crew appeared to be transferring to another civilian vessel. CENTCOM's cumulative tally: 55 commercial vessels redirected, three disabled, two boarded, with over 15 warships including two carriers and an amphibious assault ship in the Arabian Sea. Assessment: kinetic enforcement against commercial shipping is now routine on both sides of the strait. For Indian crews and charterers on Gulf routes, the risk is no longer confined to Iranian action."
+      "d": "The head of Iran's Basij paramilitary force, Hossein Taeb, said on Thursday that the Strait of Hormuz is under Iranian control and management, according to Fars via Reuters. It followed President Trump's statement a day earlier that the United States has total control of the waterway and would keep it. Iran's Persian Gulf Strait Authority, which was set up to manage and charge for transit after the war began, said the strait remains blocked until Iran's conditions are accepted."
     },
     {
-      "t": "AUG 11 — PAKISTAN AND QATAR SAY AN ARRANGEMENT IS CLOSE; NAQVI IN TEHRAN",
+      "t": "Aug 13 — Tehran says there is no ceasefire to extend",
       "lv": "REPORTED",
+      "color": "orange",
+      "d": "A senior Iranian source told Reuters there had been no discussions about extending a ceasefire because no deal ever took effect: the United States violated the June memorandum within 48 hours and withdrew days later. Turkish and Pakistani reports had suggested the 60-day arrangement was being extended. Mediators are discussing a US return to the interim agreement, with no progress so far."
+    },
+    {
+      "t": "Aug 12 — The IEA cut its 2026 oil demand forecast again",
+      "lv": "ACTIVE",
       "color": "amber",
-      "d": "Defence minister Khawaja Asif told Bloomberg the US and Iran are 'close to some sort of an arrangement', citing signals over the previous two to three days; Qatar's foreign ministry described the Iran-Oman talks as at an 'advanced stage'. Interior minister Mohsin Naqvi met Araghchi and President Pezeshkian in Tehran, reportedly carrying new proposals. Assessment: worth logging, not yet worth pricing. This is at least the fourth 'imminent deal' signal since June, each from a mediator rather than a principal, and each time the principals' public terms hardened in the same week. India's exposure here is doubled — Pakistan is the mediator whose diplomatic stock rises with every round."
+      "d": "The International Energy Agency now expects global oil demand to fall by 1.6 million barrels a day this year, against a one million barrel slump forecast in July, citing the continuing closure of Hormuz and high fuel prices. Global supply rose 2.4 million barrels a day in July to 101.5 million, still 6.3 million below a year earlier. The agency expects supply to fall 4.3 million barrels a day on average across 2026."
     },
     {
-      "t": "AUG 11 — EIGHTH ROUND OF US SANCTIONS THIS YEAR; KHAMENEI ADVISER SAYS STRAIT STAYS SHUT",
+      "t": "Aug 11-12 — Six killed on a cargo ship off Yemen, a first for this round",
       "lv": "ACTIVE",
-      "color": "orange",
-      "d": "Washington imposed its eighth sanctions package on Iran in 2026. Foreign ministry spokesman Baqaei said Tehran will not buckle and that the measures only reduce the chance of a diplomatic resolution. Mohammad Mokhber, an adviser to Supreme Leader Mojtaba Khamenei, said the strait will stay closed until Iran's demands are met, invoking the Carter-era hostage crisis in a post aimed at Trump. Assessment: the pressure campaign and the mediation are running simultaneously, which is why crude keeps repricing in both directions within single sessions."
+      "color": "red",
+      "d": "Yemen's coast guard said six people aboard a vessel in the Bab el-Mandeb strait were killed by Houthi forces — the first known deaths from Houthi attacks on shipping since the latest fighting in Yemen began. The strikes came alongside attacks on the government-held Red Sea port of Mokha and on Saudi oil facilities. Assessment: the westbound leg of India's trade continues to degrade independently of Hormuz."
     },
     {
-      "t": "AUG 10-11 — RED SEA ATTACKS CONTINUE: FOUR KILLED IN SUSPECTED STRIKE",
-      "lv": "ACTIVE",
-      "color": "orange",
-      "d": "Yemen's transport ministry reported four killed in a suspected strike as Houthi attacks on government-held areas resumed Tuesday, following Sunday's twin strikes on the Red Sea port of Mocha that killed seven and damaged piers and warehouses, and a claimed drone attack on Aramco's Jazan refinery. Assessment: the Bab el-Mandeb leg of India's westbound trade continues to degrade independently of Hormuz. Any 'deal' that covers only the strait leaves this exposure intact."
-    },
-    {
-      "t": "AUG 10 — IRAN'S SUPREME LEADER REPLACES SIX SENIOR COMMANDERS",
+      "t": "Aug 12 — US forces to complete their Iraq withdrawal by 30 September",
       "lv": "STRATEGIC",
-      "color": "orange",
-      "d": "Mojtaba Khamenei named Ali Abdollahi armed forces chief of staff, Ahmad Vahidi commander-in-chief of the IRGC and Ali Azmaei IRGC Navy commander, among six appointments — a day after Mohsen Rezaee took the Supreme National Security Council. Reporting frames Tehran as signalling readiness for 'prolonged confrontation'. Assessment: a full security leadership reset inside 48 hours, all hardline. This is not the personnel profile of a government about to concede the strait."
+      "color": "purple",
+      "d": "Iraqi Prime Minister Ali al-Zaidi said after meeting CENTCOM commander Adm. Brad Cooper that 30 September is the fixed and final date for ending the coalition mission and completing the departure of its forces. A US official confirmed the timetable but declined to say how many troops remain or where they would be redeployed."
+    },
+    {
+      "t": "Aug 12 — Erdogan seeks to widen the Mecca defence pact",
+      "lv": "STRATEGIC",
+      "color": "purple",
+      "d": "The Turkish president said he hopes more states will join the trilateral defence agreement signed last week by Turkey, Saudi Arabia and Pakistan, which contains a clause treating an attack on one as an attack on all. Turkey expects Egypt to join. Assessment: a security architecture forming across India's western neighbourhood that includes Pakistan and excludes India."
     }
   ],
   "nukes": [
@@ -435,8 +451,8 @@
     }
   ],
   "assessment": {
-    "headline": "DAY 166, WED AUG 12 PRE-MARKET: BRENT SETTLED $89.86 AND HAS NOW HELD ABOVE $85 FOR THREE SESSIONS — THE LEVEL AT WHICH INDIA'S PUMP-PRICE QUESTION REOPENS. MEDIATORS CALL A DEAL CLOSE FOR THE FOURTH TIME SINCE JUNE WHILE WASHINGTON SANCTIONS TEHRAN AN EIGHTH TIME AND DISABLES A CARGO SHIP WITH HELLFIRE MISSILES. THE RUPEE AT 95.44 IS ITS WEAKEST OF THE WAR.",
-    "body": "Wednesday 5:30 AM IST, pre-market. Day 166.\n\nTHE PRICE\n• Brent settled $89.86 for October (+$2.14, +2.44%), a fifth consecutive rise, highest in over a week, ~$90 intraday.\n• Three sessions now above $85. Monday's $87.69 was not a spike; it was a level change.\n• ~38% above the pre-war $65. Our Aug 10 call of an $80-86 plateau has been wrong for two days running and is now retired.\n\nTWO TRACKS, ONE DAY\n• Mediation: Pakistan's Asif says an arrangement is close; Qatar calls Iran-Oman 'advanced'; Naqvi in Tehran with new proposals, meeting Araghchi and Pezeshkian.\n• Coercion: eighth US sanctions round of 2026; a US MH-60 disables the M/V Vela Nova with Hellfire missiles; CENTCOM tally reaches 55 redirected, 3 disabled, 2 boarded.\n• Rhetoric: Khamenei adviser Mokhber says the strait stays shut until Iran's demands are met.\n• Discipline on the mediator signal: this is the fourth 'imminent' since June, and every previous one came from a mediator, not a principal. Pakistan and Qatar both gain standing from projecting momentum. Log it, do not price it.\n\nINDIA IMPACT — THE PUMP QUESTION IS NOW LIVE\n• Above $85 the OMC under-recovery reopens. Three sessions above it makes a revision a decision rather than a forecast.\n• Rupee 95.44 is the weakest of the war. Currency and crude are compounding: the rupee cost of a barrel is rising faster than the dollar price.\n• 10-year yield at 6.795% and rising — the bond market is pricing the inflation pass-through before the pump does.\n• India VIX eased to 11.79 even as equities fell. Read that as a cost shock being absorbed, not a risk event being feared — which is also why a sudden reopening would hurt short positioning badly.\n• FII inflows (~$1.3bn in August) remain the counterweight. Crude above $88 plus an outflow week would remove both supports at once.\n\nWATCHLIST\n• Any OMC or petroleum ministry signal on a fuel revision — the single highest-impact India headline available this week.\n• Whether Brent holds $85+ through Friday.\n• Whether the mediator optimism produces a principal-level statement, or evaporates like the previous three.\n• Further attacks on Red Sea ports; the Bab el-Mandeb exposure is not covered by any Hormuz arrangement.\n• Confidence: high on the price level and the fiscal arithmetic; low on deal timing; deliberately sceptical on mediator optimism."
+    "headline": "The first genuinely good day for India in a week came from demand destruction rather than diplomacy — which is a poor foundation to build on.",
+    "body": "WHAT HAPPENED\nBrent eased to about $87-88 after five sessions of gains, and it fell for the right arithmetic and the wrong reason. The IEA cut its 2026 demand forecast for the second month running, now expecting global consumption to contract by 1.6 million barrels a day; OPEC trimmed its growth estimate in the same direction. Nothing changed at the strait. Eight ships crossed on Tuesday, the fewest in a week.\n\nWHY IT MATTERS FOR INDIA\nA dollar off Brent is worth roughly ₹8,000 crore a year on the import bill, and the rupee held near ₹95.3 rather than making another war low. That is real relief. But demand contraction on this scale is not costless for India: it compresses refining margins on the export side even as it eases the import side, and Reliance and the public refiners have been earning on the spread. Relief bought by a global slowdown is relief with a bill attached.\n\nTHE THING TO WATCH\nWhether Brent holds below $88 into next week. The under-recovery that has been building since crude crossed $85 does not unwind in two sessions, and the oil marketing companies will want a sustained move before the case for a pump revision weakens. The diplomacy is noise until transit counts move: eight ships a day is not a negotiation, whoever claims to own the water.\n\nWHAT WOULD CHANGE THIS ASSESSMENT\nTransits sustained in double digits for a week would be the first real evidence of reopening. In the other direction, a strike on a Gulf loading terminal, or the Red Sea escalation spreading to Saudi export infrastructure, would put the demand-side relief back on the shelf within a session."
   },
   "featured": [
     {
@@ -1070,17 +1086,27 @@
       "rupee": 95.44,
       "tag": "Brent settled $89.86 (+$2.14, +2.44%), a fifth straight rise and the highest in over a week, touching ~$90 intraday. A US Navy MH-60 fired two Hellfire missiles into the engine room of the Panama-flagged M/V Vela Nova in the Gulf of Oman after it ignored warnings running the blockade; CENTCOM's tally reached 55 vessels redirected, 3 disabled, 2 boarded. Washington imposed its eighth sanctions round of 2026. Pakistan's defence minister said the US and Iran are 'close to some sort of an arrangement' and Qatar called Iran-Oman talks 'advanced', with interior minister Naqvi meeting Araghchi and Pezeshkian in Tehran; a Khamenei adviser said the strait stays shut until Iran's demands are met. Yemen reported four killed in a suspected strike. INDIA: Sensex -388.19 (-0.49%) to 78,154.25, Nifty -112.10 (-0.46%) to 24,471.70, rupee 95.44 (weakest of the war), 10-yr yield 6.795%, India VIX -3.73% to 11.79.",
       "sev": 4
+    },
+    {
+      "d": 167,
+      "l": "Aug 13",
+      "deaths": 7199,
+      "brent": 87.92,
+      "nifty": 24395.85,
+      "rupee": 95.34,
+      "tag": "Brent eased to about $87-88, down 1-2% and snapping a five-session rise, after the IEA cut its 2026 demand forecast to a 1.6 million barrel-a-day contraction and OPEC trimmed its own growth estimate to 580,000 barrels a day. US crude inventories rose 17.4 million barrels, the largest weekly build since early 2023. Hormuz transits fell to a one-week low of eight vessels against about 130 a day pre-war. Trump claimed total US control of the strait; Iran's Persian Gulf Strait Authority said it remains blocked, and the Basij commander said it is under Iranian management. A senior Iranian source said there is no ceasefire to extend. INDIA: Sensex +113.61 (+0.15%) to 78,079.96, Nifty -40 (-0.16%) to 24,395.85 in a third straight decline, rupee steady near 95.3 on RBI dollar sales through state banks, July CPI 4.45%.",
+      "sev": 3
     }
   ],
   "exec": {
     "level": "HIGH",
-    "phase": "PUBLIC DEADLOCK, PRIVATE MEDIATION",
-    "oilNote": "Brent settled $89.86 (+$2.14, +2.44%), a fifth straight up session and the highest in over a week. Up ~38% on pre-war $65 — and past the $85 pump trigger",
-    "shipping": "MEDIATORS SAY CLOSE; PRINCIPALS SAY OTHERWISE",
-    "shippingSub": "Pakistan's defence minister: US and Iran near 'some sort of arrangement'. Qatar: Iran-Oman talks at an 'advanced stage'. Both principals hardened their public terms the same day",
-    "military": "US HELICOPTER DISABLES BLOCKADE RUNNER IN GULF OF OMAN",
-    "militarySub": "Hellfire missiles into the engine room of the M/V Vela Nova. CENTCOM: 55 vessels redirected, 3 disabled, 2 boarded. War dead 7,199+; US casualties 18 dead, 687 wounded",
-    "indiaSub": "Tue close: Sensex 78,154.25 (-0.49%), Nifty 24,471.70 (-0.46%), rupee 95.44 (-14 paise). Bond yield up to 6.795%. Pharma and IT held up; FMCG and metals fell"
+    "phase": "Crude eases on demand, not on peace",
+    "oilNote": "Brent about $87-88, down 1-2% on the day and off Tuesday's $90, after the IEA cut its 2026 demand forecast to a 1.6 million barrel-a-day contraction. Still roughly a third above the pre-war $65.",
+    "shipping": "RIVAL CLAIMS, EIGHT SHIPS",
+    "shippingSub": "Transits fell to a one-week low of eight vessels on Tuesday against about 130 a day pre-war. Washington claims total control of the strait; Tehran says it stays blocked until its conditions are met.",
+    "military": "NO CEASEFIRE TO EXTEND",
+    "militarySub": "A senior Iranian source told Reuters there is nothing to extend because the June memorandum was violated within 48 hours. US forces are due to complete their Iraq pullout by 30 September.",
+    "indiaSub": "Nifty down a third session, Sensex up, rupee steady near ₹95.3 on RBI dollar sales. Pump prices unchanged; cheaper crude eases the under-recovery without reversing it."
   },
   "hormuzPhases": [
     {
@@ -1124,7 +1150,7 @@
       "days": "Aug 5–"
     }
   ],
-  "_phaseBadge": "🔴 BRENT $89.86 (+2.4%), HIGHEST IN OVER A WEEK · US HELICOPTER DISABLES BLOCKADE RUNNER IN GULF OF OMAN · PAKISTAN AND QATAR SAY AN ARRANGEMENT IS CLOSE",
+  "_phaseBadge": "Brent eased to about $87–88, down 1–2%, snapping a five-session rise after the IEA cut its demand forecast again · Hormuz transits fell to eight ships a day against ~130 before the war · Washington and Tehran each claim control of the strait",
   "budget": {
     "petrolPre": 94.72,
     "petrolNow": 111.21,
@@ -1134,10 +1160,10 @@
     "lpgNow": 942.0
   },
   "brief": [
-    "Brent crude settled at $89.86 on Tuesday, touching $90 during the day — the fifth day running it has risen, and now about 38% above where it sat before the war. It has held above $85 for three sessions. That is the level at which oil companies start losing money on every litre they sell at current pump prices, which is when a petrol and diesel hike stops being an economic question and becomes a political one.",
-    "Two things happened at once yesterday. Pakistan and Qatar, who are mediating, both said a deal is close — Pakistan's interior minister was in Tehran with new proposals. But on the same day Washington imposed its eighth round of sanctions this year, an adviser to Iran's Supreme Leader said the strait stays shut, and a US Navy helicopter fired two missiles into the engine room of a cargo ship in the Gulf of Oman that was trying to run the blockade.",
-    "This is the fourth time since June that a deal has been called imminent, each time by a mediator rather than by Washington or Tehran. Worth noting, not worth banking on.",
-    "For your money: Indian markets fell for a second day, the Sensex down 388 points to 78,154 and the Nifty below 24,500. The rupee weakened to 95.44, its weakest of the war, which makes every barrel we import costlier in rupee terms even before the dollar price moves. Petrol ₹111.21, diesel ₹97.83 and an LPG cylinder ₹942 are still unchanged — that is the number to watch this week."
+    "Oil came off the boil. Brent eased to about $87-88 a barrel, down roughly 1-2% on the day and snapping a five-session climb that had taken it to $90 on Tuesday. The trigger was demand, not peace: the International Energy Agency cut its 2026 forecast again, and now expects global oil consumption to fall by 1.6 million barrels a day this year rather than one million. High prices are destroying demand faster than the war is destroying supply.",
+    "Nothing improved at the strait itself. Eight ships crossed Hormuz on Tuesday — a one-week low, against about 130 a day before the war. President Trump said the United States has \"total control\" of the waterway; Iran's Persian Gulf Strait Authority said it stays blocked until Iran's conditions are met, and the head of the Basij said on Thursday that the strait is under Iranian management. Both sides are claiming the same 39km of water.",
+    "For your money: Indian markets split. The Nifty fell a third straight session to 24,395.85, down 40 points, while the Sensex snapped a two-day losing run to close at 78,079.96. The rupee held near ₹95.3 to the dollar, with the RBI reported to be selling dollars through state-run banks to stop it sliding further. July retail inflation came in at 4.45%, still inside the RBI's band.",
+    "At the pump, nothing has changed — petrol is ₹111.21 a litre in Delhi, diesel ₹97.83 and a cylinder ₹942. Cheaper crude buys the oil marketing companies breathing room rather than you a price cut: a day or two below $88 does not undo the under-recovery built up above $85. Watch whether the easing holds into next week; that, not the diplomacy, is what decides the next revision."
   ],
-  "shareLine": "Brent settled $89.86, a fifth straight rise and ~38% above pre-war, while a US helicopter disabled a blockade runner in the Gulf of Oman. Pakistan and Qatar say a deal is close — the fourth such signal since June."
+  "shareLine": "Brent eased to about $87-88, its first fall in six sessions, after the IEA cut its 2026 demand forecast to a 1.6 million barrel-a-day contraction. Hormuz transits fell to eight ships as Washington and Tehran each claimed control of the strait."
 }
