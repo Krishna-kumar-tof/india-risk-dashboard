@@ -1,8 +1,8 @@
 {
-  "_updated": "August 13, 2026 — 9:51 PM IST (post-market)",
-  "_asOf": "2026-08-13",
+  "_updated": "August 14, 2026 — 7:40 AM IST (pre-market)",
+  "_asOf": "2026-08-14",
   "_start": "2026-02-28",
-  "_day": 167,
+  "_day": 168,
   "preWar": {
     "brent": 65,
     "rupee": 91.49,
@@ -11,44 +11,44 @@
     "petrol": 94.72,
     "diesel": 87.62
   },
-  "_phase": "BRENT EASES OFF $90 AS THE IEA CUTS DEMAND — RIVAL CLAIMS OVER WHO CONTROLS HORMUZ",
+  "_phase": "BRENT SETTLES $87.07 AFTER WASHINGTON SAYS HORMUZ FLOWS ARE FAR HIGHER THAN THE SHIP COUNT SUGGESTS",
   "_note": "Verified: NPR, CNN, CBS, Fox News, The Hill, Washington Times (Jul 15-16), CENTCOM statements, HDFC Sky, Business Standard (Jul 14-15 closes), TradingEconomics, Investing.com (Brent live Jul 16), Zee Business",
   "ticker": [
-    "BRENT EASES TO ~$87-88, DOWN 1-2%, SNAPPING A FIVE-SESSION RISE",
-    "IEA CUTS 2026 DEMAND FORECAST AGAIN — NOW SEES A 1.6 MB/D SLUMP",
-    "HORMUZ TRANSITS FALL TO EIGHT SHIPS A DAY, AGAINST ~130 PRE-WAR (KPLER)",
-    "TRUMP CLAIMS \"TOTAL CONTROL\" OF HORMUZ; IRAN SAYS IT REMAINS BLOCKED",
-    "NIFTY 24,395.85 (-0.16%), THIRD STRAIGHT FALL; SENSEX 78,079.96 (+0.15%)",
-    "RUPEE HOLDS NEAR 95.3 AS THE RBI SELLS DOLLARS THROUGH STATE BANKS",
-    "SIX KILLED ON A CARGO SHIP OFF YEMEN — FIRST HOUTHI SHIPPING DEATHS THIS ROUND"
+    "BRENT SETTLES $87.07 (-2%); WTI $81.25 (-2.4%) — STILL UP ~4% ON THE WEEK",
+    "US ENERGY SECRETARY: HORMUZ OIL EXPORTS NEAR 9 MILLION BARRELS A DAY",
+    "KPLER: 11 OF 14 TUESDAY TRANSITS USED THE IRANIAN-APPROVED ROUTE, NONE THE OLD CHANNEL",
+    "IEA: 8.3 MILLION BARRELS A DAY OF GULF PRODUCTION STILL SHUT IN",
+    "HOUTHIS CLAIM DRONE ATTACK ON SAUDI REFINERY AT JIZAN",
+    "INDIA THU CLOSE: SENSEX 78,079.96 (+0.15%), NIFTY 24,395.85 (-0.16%)",
+    "RUPEE HOLDS NEAR 95.3; JULY CPI 4.45%, STILL INSIDE THE RBI BAND"
   ],
   "whatChanged": {
-    "label": "What changed — Thursday August 13, 9:51 PM IST (Day 167) — post-market",
+    "label": "What changed — Friday August 14, 7:40 AM IST (Day 168) — pre-market",
     "items": [
       {
         "color": "green",
-        "bold": "Brent slipped to about $87-88, its first fall in six sessions",
-        "text": "Crude snapped a five-session advance, easing roughly 1-2% to the $87-88 range, with WTI near $82. The move followed lowered demand forecasts rather than any progress on the strait. US crude inventories also rose 17.4 million barrels last week, the biggest weekly build since early 2023."
+        "bold": "Brent settled at $87.07, a second straight fall",
+        "text": "Crude lost about 2% on Thursday, with WTI down 2.4% to $81.25. Prices are still up roughly 4% on the week, because no deal between Washington and Tehran to restore ship traffic has materialised. This is the first back-to-back decline since the run began."
       },
       {
         "color": "amber",
-        "bold": "The IEA cut its 2026 demand forecast again, and sharply",
-        "text": "The agency now expects global oil demand to fall by 1.6 million barrels a day this year, against the one million barrel slump it forecast in July, blaming the continuing closure of Hormuz and elevated fuel prices. It expects global supply to fall 4.3 million barrels a day on average in 2026 before recovering next year. OPEC separately trimmed its demand growth forecast to 580,000 barrels a day from 780,000."
-      },
-      {
-        "color": "red",
-        "bold": "Washington and Tehran each claimed control of the same waterway",
-        "text": "President Trump wrote that the United States has \"total control\" of the Strait of Hormuz and that the naval blockade is a \"wall of steel\". Iran's Persian Gulf Strait Authority replied that the strait remains blocked and will not reopen until Iran's conditions are accepted, and on Thursday the head of the Basij, Hossein Taeb, said the strait is under Iranian control and management. A senior Iranian source told Reuters there is no ceasefire to extend, because the June memorandum was violated within 48 hours."
-      },
-      {
-        "color": "orange",
-        "bold": "Traffic through the strait fell to a one-week low of eight ships",
-        "text": "Kpler data reported by Reuters put Tuesday's transits at eight vessels, below the 10-day average of about 12 and the lowest daily count since 5 August. About 130 ships a day crossed before the war began on 28 February. The rhetoric about control has not moved the only number that matters to importers."
+        "bold": "Washington says Hormuz flows are far higher than the ship count implies",
+        "text": "US Energy Secretary Chris Wright said oil exports through the strait have neared a seven-day average of nine million barrels a day, rising to about fifteen million from the Gulf as a whole when pipeline flows are included. Roughly twenty million barrels a day of oil and products moved through Hormuz before the war. The claim runs well ahead of independent estimates, and it was enough to move the market."
       },
       {
         "color": "cyan",
-        "bold": "India: the Nifty fell a third day, the rupee held near 95.3",
-        "text": "The Nifty closed at 24,395.85, down 40 points or 0.16%, as metals, cement and IT weighed; the Sensex snapped a two-day decline to end at 78,079.96, up 114 points. The rupee stayed in a narrow band around ₹95.3, with traders reporting continued RBI dollar sales through state-run banks. July CPI rose to 4.45% from 4.38%."
+        "bold": "The vessels that do cross are using Iran's route, not the old one",
+        "text": "Kpler recorded fourteen crossings on Tuesday, up from the weekend but far below the 120-130 a day seen before the war; other counts this week ran as low as eight. Eleven of the fourteen followed the Iranian-approved route and none used the traditional channel through the centre of the strait. Saudi Arabia and the UAE are reported to be seeking alternative export arrangements, with some vessels switching off transponders in transit."
+      },
+      {
+        "color": "red",
+        "bold": "Houthis claim a drone attack on a Saudi refinery at Jizan",
+        "text": "The group said on Thursday that it targeted a refinery in Saudi Arabia's Jizan region, following this week's attacks on vessels in the Gulf of Oman and the Red Sea and the six deaths aboard a cargo ship in the Bab el-Mandeb. Assessment: the westbound leg of India's trade continues to degrade on a separate track from Hormuz, and Saudi refining is now in the target set."
+      },
+      {
+        "color": "orange",
+        "bold": "The IEA put a number on how much Gulf supply is still offline",
+        "text": "In cutting its 2026 demand forecast by a further 510,000 barrels a day — to a 1.6 million barrel-a-day contraction — the agency said July supply was 6.3 million barrels a day below a year earlier, with 8.3 million barrels a day of Gulf production shut in. That is the structural reason a demand-led price fall does not amount to relief."
       }
     ]
   },
@@ -56,24 +56,24 @@
   "econ": {
     "sensex": "78,079.96 (close, +0.15%)",
     "sensexDelta": "Thu Aug 13 close: +113.61 points",
-    "sensexSub": "The Sensex snapped a two-day losing streak while the Nifty fell for a third session to 24,395.85, down 40 points or 0.16%, with metals, cement and IT the drags. Volatile trade either side of 24,450.",
+    "sensexSub": "The Sensex snapped a two-day losing streak, helped by falling crude and a steady earnings season, while the Nifty fell a third session to 24,395.85 as metals, cement and IT weighed. IndiGo, NTPC, BEL and L&T led the gainers.",
     "vix": "~13.1 — EASING",
     "vixDelta": "-4.51% to 13.14 Wed open, ~-3% at close — volatility compressing despite blockade. Tue: 13.75 (+3.53%). Well below wartime 24-27; markets treating this as a contained maritime campaign, not full war.",
     "fpi": "+$1.3bn in August so far",
     "fpiDelta": "Foreign investors net bought roughly $1.3bn of Indian equities in August to date after $2.1bn in July. These inflows are the main counterweight to crude — if they turn while Brent holds above $88, equities and the rupee lose both supports at once.",
     "wealth": "BSE market cap ~Rs 485-490 trillion — resilient through the blockade week. WPI 9.87% June (from 9.68%) — war transmission to wholesale prices confirmed. Net direct tax +16.4% YTD to Rs 6.51L Cr (till Jul 13). RBI Aug MPC calculus now complicated by oil + rupee + WPI.",
-    "analysis": "A rare session where the two benchmarks parted company: the Sensex closed up 114 points while the Nifty fell a third straight day, which says more about index composition than direction. The more useful development was in crude. Brent easing off $90 on the IEA's demand downgrade takes some pressure off the import bill and off the rupee, which held near ₹95.3 with the RBI selling dollars through state-run banks. But the relief is demand-driven, not supply-driven — the strait is no more open than it was on Tuesday, and a global demand contraction of 1.6 million barrels a day is not an unambiguously good thing for an economy that exports refined product. Watch whether Brent holds below $88 into next week: that, not the mediation, decides the next pump revision."
+    "analysis": "Two sessions of falling crude have done more for the Indian macro picture than a fortnight of mediation headlines. Brent at $87.07 trims the import bill and takes the immediate pressure off the rupee, which held near ₹95.3 with the RBI still selling dollars through state-run banks; July CPI at 4.45% leaves the central bank no reason to move. The caution is that both days of decline were demand-led — the IEA now sees global consumption contracting by 1.6 million barrels a day — and a demand contraction of that size is not an unmixed blessing for a country that exports refined product. The Energy Secretary's claim of nine million barrels a day through Hormuz, if it holds up, would be genuinely good news for Indian refiners; it is also well ahead of what the ship trackers can see. Treat it as a claim, not a data point, until Kpler and MarineTraffic agree with it."
   },
   "hormuzStatus": {
-    "status": "Two governments claimed the same waterway on the same day. President Trump said the United States has \"total control\" of the Strait of Hormuz and would \"keep it\", describing the naval blockade as a wall of steel. Iran's Persian Gulf Strait Authority responded that the strait remains blocked and will not reopen until Iran's conditions are accepted, and on Thursday the Basij commander Hossein Taeb said it is under Iranian control and management. Iran and Oman have agreed vessel-route coordinates, but Tehran maintains that full reopening depends on US compliance with the violated June memorandum.",
+    "status": "The strait is contested in both fact and description. President Trump says the United States has total control of the waterway; Iran's Persian Gulf Strait Authority says it remains blocked until Iran's conditions are accepted, and the Basij commander Hossein Taeb said on Thursday it is under Iranian management. US Energy Secretary Chris Wright now says oil exports through the strait are near nine million barrels a day on a seven-day average, against about twenty million before the war — a figure well above independent estimates. What the trackers can see is that the vessels which do cross are using the Iranian-approved route rather than the traditional channel.",
     "preWarFlow": "~90-140 ships/day",
-    "currentFlow": "Eight transits on Tuesday, a one-week low",
+    "currentFlow": "8-14 transits a day, on Iran's route",
     "reduction": "Brent settled $89.86 for October delivery, up $2.14 or 2.44% — a fifth consecutive rise and the highest in over a week, having touched roughly $90 intraday. That is about 38% above the pre-war $65. Crude has now spent three sessions above the $85 line at which India's under-recovery question reopens.",
     "indianVesselsNear": 7,
     "indianSeafarers": 148,
     "indianTransited": 1,
     "totalShipsWaiting": "Significantly reduced from wartime peak of 20,000+. 3 Indian tankers safely crossed. But US oil licence revocation + Hormuz re-closure claims = uncertainty for remaining stranded vessels. India seafarer repatriation: mostly achieved for Indian-flagged vessels that transited. MT Settebello diplomatic track: ongoing.",
-    "lastTransit": "No general reopening. Transits fell to eight vessels on Tuesday, below the 10-day average of about 12 and the lowest since 5 August, according to Kpler data reported by Reuters.",
+    "lastTransit": "No general reopening. Kpler counted fourteen crossings on Tuesday, up from the weekend but far short of the 120-130 a day before the war; eleven used the Iranian-approved route and none the traditional central channel. Some vessels are reported to be switching off transponders in transit.",
     "indianNavyEscort": "Op Urja Suraksha: transitioning given formal blockade lift. MT Settebello diplomatic track continues independent of the broader deal. India's 18,000+ seafarer repatriation should now accelerate given the 'immediate effect' confirmation from Pakistan's PM.",
     "headline": "TWO STORIES ON THE SAME DAY: THE MEDIATORS SAY AN ARRANGEMENT IS CLOSE, THE PRINCIPALS HARDENED THEIR TERMS, AND A US HELICOPTER PUT MISSILES INTO A SHIP'S ENGINE ROOM. BRENT SETTLED AT $89.86.",
     "indianCasualties": 4,
@@ -82,7 +82,7 @@
   "hormuzEvents": [
     {
       "d": "Aug 12-13",
-      "e": "DAY 166-167 — RIVAL CLAIMS OF CONTROL, TRAFFIC AT A ONE-WEEK LOW. President Trump wrote that the United States has \"total control\" of the Strait of Hormuz and that the naval blockade is being called a wall of steel. Iran's Persian Gulf Strait Authority replied that the strait remains blocked and will not reopen until Iran's conditions are accepted; on Thursday the Basij commander Hossein Taeb said the waterway is under Iranian control and management. Transits fell to eight vessels on Tuesday, the lowest since 5 August and below the 10-day average of about 12, against roughly 130 a day before the war. A senior Iranian source told Reuters there is no ceasefire to extend because Washington violated the June memorandum within 48 hours, and that mediators are discussing a US return to the interim agreement with no progress so far. Oil from the grounded tanker Caroline Bezengi, carrying about 800,000 barrels of Russian crude, now covers some 155 square miles and has reached the Omani mainland; separate slicks reached Iran's Qeshm island."
+      "e": "DAY 166-167 — RIVAL CLAIMS OF CONTROL, AND A DISPUTE OVER HOW MUCH OIL IS ACTUALLY MOVING. President Trump wrote that the United States has \"total control\" of the Strait of Hormuz and that the naval blockade is being called a wall of steel. Iran's Persian Gulf Strait Authority replied that the strait remains blocked and will not reopen until Iran's conditions are accepted; on Thursday the Basij commander Hossein Taeb said the waterway is under Iranian control and management. US Energy Secretary Chris Wright then said exports through the strait have neared a seven-day average of nine million barrels a day, about fifteen million from the Gulf including pipelines, against roughly twenty million before the war — a claim that sits well above independent estimates and knocked 2% off Brent. Kpler counted fourteen transits on Tuesday, up from the weekend but far below the pre-war 120-130; eleven took the Iranian-approved route and none the traditional channel, and Saudi and Emirati shippers are reported to be switching off transponders. A senior Iranian source told Reuters there is no ceasefire to extend, because Washington violated the June memorandum within 48 hours."
     },
     {
       "d": "Aug 11",
@@ -242,40 +242,40 @@
   ],
   "military": [
     {
-      "t": "Aug 13 — Iran and the US both claim control of Hormuz",
+      "t": "Aug 13 — Washington says nine million barrels a day are crossing Hormuz",
+      "lv": "BREAKING",
+      "color": "amber",
+      "d": "US Energy Secretary Chris Wright said oil exports through the strait have neared a seven-day average of nine million barrels a day, rising to about fifteen million from the Gulf as a whole once pipeline routes are counted, against roughly twenty million before the war. Brent fell 2% to settle at $87.07 on the claim. It is materially higher than independent tracking estimates, and Washington has an interest in the number being believed."
+    },
+    {
+      "t": "Aug 13 — Houthis claim a drone strike on a Saudi refinery at Jizan",
       "lv": "BREAKING",
       "color": "red",
-      "d": "The head of Iran's Basij paramilitary force, Hossein Taeb, said on Thursday that the Strait of Hormuz is under Iranian control and management, according to Fars via Reuters. It followed President Trump's statement a day earlier that the United States has total control of the waterway and would keep it. Iran's Persian Gulf Strait Authority, which was set up to manage and charge for transit after the war began, said the strait remains blocked until Iran's conditions are accepted."
+      "d": "The group said it targeted a refinery in Saudi Arabia's Jizan region with drones on Thursday, extending a week that already included attacks on vessels in the Gulf of Oman and the Red Sea and six deaths aboard a cargo ship in the Bab el-Mandeb. Assessment: Saudi refining and export infrastructure entering the target set is a more direct threat to Indian supply than the shipping attacks themselves."
+    },
+    {
+      "t": "Aug 13 — Most crossings are using Iran's route, not the old channel",
+      "lv": "REPORTED",
+      "color": "cyan",
+      "d": "Kpler recorded fourteen transits on Tuesday, a slight rise from the weekend but nowhere near pre-war levels; other counts this week ran as low as eight. Eleven of the fourteen followed the Iranian-approved route that the United States has warned ships against using, and none took the traditional route through the centre of the strait. Higher volumes, Kpler noted, have not translated into normalisation."
     },
     {
       "t": "Aug 13 — Tehran says there is no ceasefire to extend",
       "lv": "REPORTED",
       "color": "orange",
-      "d": "A senior Iranian source told Reuters there had been no discussions about extending a ceasefire because no deal ever took effect: the United States violated the June memorandum within 48 hours and withdrew days later. Turkish and Pakistani reports had suggested the 60-day arrangement was being extended. Mediators are discussing a US return to the interim agreement, with no progress so far."
+      "d": "A senior Iranian source told Reuters there had been no discussions about extending a ceasefire because no deal ever took effect: the United States violated the June memorandum within 48 hours and withdrew days later. Mediators are discussing a US return to the interim agreement, with no progress so far. Iran's Supreme National Security Council secretary Mohsen Rezaei has demanded the unfreezing of Iranian funds held overseas as a condition for reopening."
     },
     {
-      "t": "Aug 12 — The IEA cut its 2026 oil demand forecast again",
+      "t": "Aug 12 — The IEA cut its 2026 demand forecast by a further 510,000 barrels a day",
       "lv": "ACTIVE",
       "color": "amber",
-      "d": "The International Energy Agency now expects global oil demand to fall by 1.6 million barrels a day this year, against a one million barrel slump forecast in July, citing the continuing closure of Hormuz and high fuel prices. Global supply rose 2.4 million barrels a day in July to 101.5 million, still 6.3 million below a year earlier. The agency expects supply to fall 4.3 million barrels a day on average across 2026."
-    },
-    {
-      "t": "Aug 11-12 — Six killed on a cargo ship off Yemen, a first for this round",
-      "lv": "ACTIVE",
-      "color": "red",
-      "d": "Yemen's coast guard said six people aboard a vessel in the Bab el-Mandeb strait were killed by Houthi forces — the first known deaths from Houthi attacks on shipping since the latest fighting in Yemen began. The strikes came alongside attacks on the government-held Red Sea port of Mokha and on Saudi oil facilities. Assessment: the westbound leg of India's trade continues to degrade independently of Hormuz."
+      "d": "The agency now expects global oil demand to contract by 1.6 million barrels a day this year, citing the continuing closure and elevated fuel prices. July supply was 6.3 million barrels a day below a year earlier, with 8.3 million barrels a day of Gulf production shut in. OPEC separately trimmed its demand growth estimate to 580,000 barrels a day from 780,000."
     },
     {
       "t": "Aug 12 — US forces to complete their Iraq withdrawal by 30 September",
       "lv": "STRATEGIC",
       "color": "purple",
-      "d": "Iraqi Prime Minister Ali al-Zaidi said after meeting CENTCOM commander Adm. Brad Cooper that 30 September is the fixed and final date for ending the coalition mission and completing the departure of its forces. A US official confirmed the timetable but declined to say how many troops remain or where they would be redeployed."
-    },
-    {
-      "t": "Aug 12 — Erdogan seeks to widen the Mecca defence pact",
-      "lv": "STRATEGIC",
-      "color": "purple",
-      "d": "The Turkish president said he hopes more states will join the trilateral defence agreement signed last week by Turkey, Saudi Arabia and Pakistan, which contains a clause treating an attack on one as an attack on all. Turkey expects Egypt to join. Assessment: a security architecture forming across India's western neighbourhood that includes Pakistan and excludes India."
+      "d": "Iraqi Prime Minister Ali al-Zaidi said after meeting CENTCOM commander Adm. Brad Cooper that 30 September is the fixed and final date for ending the coalition mission. Separately, President Erdogan said he hopes more states will join the Mecca defence pact signed last week by Turkey, Saudi Arabia and Pakistan, which treats an attack on one as an attack on all."
     }
   ],
   "nukes": [
@@ -451,8 +451,8 @@
     }
   ],
   "assessment": {
-    "headline": "The first genuinely good day for India in a week came from demand destruction rather than diplomacy — which is a poor foundation to build on.",
-    "body": "WHAT HAPPENED\nBrent eased to about $87-88 after five sessions of gains, and it fell for the right arithmetic and the wrong reason. The IEA cut its 2026 demand forecast for the second month running, now expecting global consumption to contract by 1.6 million barrels a day; OPEC trimmed its growth estimate in the same direction. Nothing changed at the strait. Eight ships crossed on Tuesday, the fewest in a week.\n\nWHY IT MATTERS FOR INDIA\nA dollar off Brent is worth roughly ₹8,000 crore a year on the import bill, and the rupee held near ₹95.3 rather than making another war low. That is real relief. But demand contraction on this scale is not costless for India: it compresses refining margins on the export side even as it eases the import side, and Reliance and the public refiners have been earning on the spread. Relief bought by a global slowdown is relief with a bill attached.\n\nTHE THING TO WATCH\nWhether Brent holds below $88 into next week. The under-recovery that has been building since crude crossed $85 does not unwind in two sessions, and the oil marketing companies will want a sustained move before the case for a pump revision weakens. The diplomacy is noise until transit counts move: eight ships a day is not a negotiation, whoever claims to own the water.\n\nWHAT WOULD CHANGE THIS ASSESSMENT\nTransits sustained in double digits for a week would be the first real evidence of reopening. In the other direction, a strike on a Gulf loading terminal, or the Red Sea escalation spreading to Saudi export infrastructure, would put the demand-side relief back on the shelf within a session."
+    "headline": "Washington and the ship trackers now disagree about how much oil is crossing Hormuz — and for India that gap matters more than the question of who controls the water.",
+    "body": "WHAT HAPPENED\nBrent settled at $87.07, down 2% and falling for a second day, after US Energy Secretary Chris Wright said exports through the strait have neared nine million barrels a day on a seven-day average. Kpler counts eight to fourteen vessels a day against 120-130 before the war. Both cannot be straightforwardly true, and the reconciliation offered — transponders switched off, Iranian-approved routing — is itself the story.\n\nWHY IT MATTERS FOR INDIA\nIf Wright is right, physical availability is far better than the headline closure suggests, and the risk premium in the price is doing more damage to India than the blockade is. If the trackers are right, the flow is thinner than Washington claims and the price is not high enough. India's refiners are positioned differently under each reading. The one fact not in dispute is that the oil which does move is moving under Iranian permission, on Iranian-designated routes — which is the outcome Tehran said it wanted in June, arrived at without a deal.\n\nTHE THING TO WATCH\nWhether Kpler and MarineTraffic revise upward in the next week. A convergence toward the US figure would be the first genuine easing since July and would take the wind out of the $85 under-recovery argument. Continued divergence means the price is being set by a claim rather than by cargo.\n\nWHAT WOULD CHANGE THIS ASSESSMENT\nThe Jizan claim is the near-term risk. Houthi drones reaching Saudi refining, rather than Saudi shipping, would put a second producer's export capacity in question and reverse two days of relief in a single session. In the other direction, transits sustained in double digits on the traditional channel — not the Iranian route — would be the first evidence that the closure is actually ending."
   },
   "featured": [
     {
@@ -1091,22 +1091,22 @@
       "d": 167,
       "l": "Aug 13",
       "deaths": 7199,
-      "brent": 87.92,
+      "brent": 87.07,
       "nifty": 24395.85,
       "rupee": 95.34,
-      "tag": "Brent eased to about $87-88, down 1-2% and snapping a five-session rise, after the IEA cut its 2026 demand forecast to a 1.6 million barrel-a-day contraction and OPEC trimmed its own growth estimate to 580,000 barrels a day. US crude inventories rose 17.4 million barrels, the largest weekly build since early 2023. Hormuz transits fell to a one-week low of eight vessels against about 130 a day pre-war. Trump claimed total US control of the strait; Iran's Persian Gulf Strait Authority said it remains blocked, and the Basij commander said it is under Iranian management. A senior Iranian source said there is no ceasefire to extend. INDIA: Sensex +113.61 (+0.15%) to 78,079.96, Nifty -40 (-0.16%) to 24,395.85 in a third straight decline, rupee steady near 95.3 on RBI dollar sales through state banks, July CPI 4.45%.",
+      "tag": "Brent settled $87.07 (-2%) and WTI $81.25 (-2.4%), a second straight fall, after US Energy Secretary Chris Wright said oil exports through Hormuz have neared a seven-day average of nine million barrels a day — about fifteen million from the Gulf including pipelines, against roughly twenty million pre-war. Prices still ended the week up about 4%. The IEA cut its 2026 demand forecast by a further 510,000 bpd to a 1.6 million bpd contraction, with 8.3 million bpd of Gulf production shut in. Kpler counted fourteen transits on Tuesday, eleven of them on the Iranian-approved route and none on the traditional channel. The Houthis claimed a drone attack on a Saudi refinery at Jizan. INDIA: Sensex +113.61 (+0.15%) to 78,079.96 snapping a two-day fall, Nifty -40 (-0.16%) to 24,395.85 in a third straight decline, rupee steady near 95.3 on RBI dollar sales, July CPI 4.45%.",
       "sev": 3
     }
   ],
   "exec": {
     "level": "HIGH",
-    "phase": "Crude eases on demand, not on peace",
-    "oilNote": "Brent about $87-88, down 1-2% on the day and off Tuesday's $90, after the IEA cut its 2026 demand forecast to a 1.6 million barrel-a-day contraction. Still roughly a third above the pre-war $65.",
-    "shipping": "RIVAL CLAIMS, EIGHT SHIPS",
-    "shippingSub": "Transits fell to a one-week low of eight vessels on Tuesday against about 130 a day pre-war. Washington claims total control of the strait; Tehran says it stays blocked until its conditions are met.",
-    "military": "NO CEASEFIRE TO EXTEND",
-    "militarySub": "A senior Iranian source told Reuters there is nothing to extend because the June memorandum was violated within 48 hours. US forces are due to complete their Iraq pullout by 30 September.",
-    "indiaSub": "Nifty down a third session, Sensex up, rupee steady near ₹95.3 on RBI dollar sales. Pump prices unchanged; cheaper crude eases the under-recovery without reversing it."
+    "phase": "Two days of cheaper crude, no change at the strait",
+    "oilNote": "Brent settled $87.07, down 2%, after Washington said Hormuz oil exports are running near nine million barrels a day. Still up about 4% on the week and roughly a third above the pre-war $65.",
+    "shipping": "FLOWING ON TEHRAN'S ROUTE",
+    "shippingSub": "Kpler counts 8-14 transits a day against 120-130 pre-war, and eleven of Tuesday's fourteen used the Iranian-approved route with none on the traditional channel. Washington says volumes are far higher than the vessel count shows.",
+    "military": "JIZAN REFINERY TARGETED",
+    "militarySub": "The Houthis claim a drone attack on a Saudi refinery at Jizan, after six deaths aboard a cargo ship in the Bab el-Mandeb this week. US forces complete their Iraq pullout by 30 September.",
+    "indiaSub": "Sensex up, Nifty down a third session, rupee steady near ₹95.3 on RBI dollar sales. July CPI 4.45%. Pump prices unchanged; two days below $88 is not yet enough to shift them."
   },
   "hormuzPhases": [
     {
@@ -1150,7 +1150,7 @@
       "days": "Aug 5–"
     }
   ],
-  "_phaseBadge": "Brent eased to about $87–88, down 1–2%, snapping a five-session rise after the IEA cut its demand forecast again · Hormuz transits fell to eight ships a day against ~130 before the war · Washington and Tehran each claim control of the strait",
+  "_phaseBadge": "Brent settled $87.07, down 2%, after US Energy Secretary Chris Wright said oil exports through Hormuz are running near nine million barrels a day · Kpler counts only 8-14 vessels a day, with most using the Iranian-approved route · Houthis claim a drone attack on a Saudi refinery at Jizan",
   "budget": {
     "petrolPre": 94.72,
     "petrolNow": 111.21,
@@ -1160,10 +1160,10 @@
     "lpgNow": 942.0
   },
   "brief": [
-    "Oil came off the boil. Brent eased to about $87-88 a barrel, down roughly 1-2% on the day and snapping a five-session climb that had taken it to $90 on Tuesday. The trigger was demand, not peace: the International Energy Agency cut its 2026 forecast again, and now expects global oil consumption to fall by 1.6 million barrels a day this year rather than one million. High prices are destroying demand faster than the war is destroying supply.",
-    "Nothing improved at the strait itself. Eight ships crossed Hormuz on Tuesday — a one-week low, against about 130 a day before the war. President Trump said the United States has \"total control\" of the waterway; Iran's Persian Gulf Strait Authority said it stays blocked until Iran's conditions are met, and the head of the Basij said on Thursday that the strait is under Iranian management. Both sides are claiming the same 39km of water.",
-    "For your money: Indian markets split. The Nifty fell a third straight session to 24,395.85, down 40 points, while the Sensex snapped a two-day losing run to close at 78,079.96. The rupee held near ₹95.3 to the dollar, with the RBI reported to be selling dollars through state-run banks to stop it sliding further. July retail inflation came in at 4.45%, still inside the RBI's band.",
-    "At the pump, nothing has changed — petrol is ₹111.21 a litre in Delhi, diesel ₹97.83 and a cylinder ₹942. Cheaper crude buys the oil marketing companies breathing room rather than you a price cut: a day or two below $88 does not undo the under-recovery built up above $85. Watch whether the easing holds into next week; that, not the diplomacy, is what decides the next revision."
+    "Oil fell for a second day. Brent settled at $87.07, down about 2%, with WTI at $81.25. The trigger was a claim from US Energy Secretary Chris Wright that oil exports through the Strait of Hormuz are running near nine million barrels a day on a seven-day average, and about fifteen million including pipeline routes. Before the war the figure was around twenty million. Even so, Brent is up roughly 4% on the week and still about a third above the pre-war $65.",
+    "That claim is hard to square with the ship count, and the gap matters. Kpler tracked between eight and fourteen vessels a day this week against roughly 120-130 before the war. The detail worth noting: eleven of Tuesday's fourteen crossings used the Iranian-approved route and none used the traditional central channel, and some vessels are reported to be switching off transponders. Oil may be moving more than the trackers can see — but it is moving on Tehran's terms, not Washington's.",
+    "For your money: Thursday ended split. The Sensex closed up 114 points at 78,079.96 while the Nifty slipped a third straight session to 24,395.85. The rupee held near ₹95.3 with the RBI selling dollars through state-run banks, and July retail inflation came in at 4.45%, still inside the RBI's band. Two days of cheaper crude is the first sustained relief on the import bill in a fortnight.",
+    "At the pump, nothing has changed: petrol ₹111.21 a litre in Delhi, diesel ₹97.83, a cylinder ₹942. Two sessions below $88 does not undo the under-recovery built up above $85, so no revision is likely on this alone. The number to watch is whether Brent stays under $88 through next week. If it does, the case for an August hike weakens materially."
   ],
-  "shareLine": "Brent eased to about $87-88, its first fall in six sessions, after the IEA cut its 2026 demand forecast to a 1.6 million barrel-a-day contraction. Hormuz transits fell to eight ships as Washington and Tehran each claimed control of the strait."
+  "shareLine": "Brent settled $87.07, down 2%, after Washington said nine million barrels a day are crossing Hormuz — far above what ship trackers can see. Most vessels that do cross are using Iran's approved route, not the traditional channel."
 }
