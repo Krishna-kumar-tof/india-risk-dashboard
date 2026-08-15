@@ -1,8 +1,8 @@
 {
-  "_updated": "August 14, 2026 — 7:40 AM IST (pre-market)",
-  "_asOf": "2026-08-14",
+  "_updated": "August 15, 2026 — 10:00 AM IST (Independence Day, markets closed)",
+  "_asOf": "2026-08-15",
   "_start": "2026-02-28",
-  "_day": 168,
+  "_day": 169,
   "preWar": {
     "brent": 65,
     "rupee": 91.49,
@@ -11,61 +11,61 @@
     "petrol": 94.72,
     "diesel": 87.62
   },
-  "_phase": "BRENT SETTLES $87.07 AFTER WASHINGTON SAYS HORMUZ FLOWS ARE FAR HIGHER THAN THE SHIP COUNT SUGGESTS",
+  "_phase": "ENERGY SECURITY NAMED FROM THE RED FORT AS WASHINGTON THREATENS THE ECONOMIC ISOLATION OF IRAN",
   "_note": "Verified: NPR, CNN, CBS, Fox News, The Hill, Washington Times (Jul 15-16), CENTCOM statements, HDFC Sky, Business Standard (Jul 14-15 closes), TradingEconomics, Investing.com (Brent live Jul 16), Zee Business",
   "ticker": [
-    "BRENT SETTLES $87.07 (-2%); WTI $81.25 (-2.4%) — STILL UP ~4% ON THE WEEK",
-    "US ENERGY SECRETARY: HORMUZ OIL EXPORTS NEAR 9 MILLION BARRELS A DAY",
-    "KPLER: 11 OF 14 TUESDAY TRANSITS USED THE IRANIAN-APPROVED ROUTE, NONE THE OLD CHANNEL",
-    "IEA: 8.3 MILLION BARRELS A DAY OF GULF PRODUCTION STILL SHUT IN",
-    "HOUTHIS CLAIM DRONE ATTACK ON SAUDI REFINERY AT JIZAN",
-    "INDIA THU CLOSE: SENSEX 78,079.96 (+0.15%), NIFTY 24,395.85 (-0.16%)",
-    "RUPEE HOLDS NEAR 95.3; JULY CPI 4.45%, STILL INSIDE THE RBI BAND"
+    "INDEPENDENCE DAY: PM NAMES ENERGY SECURITY AND NUCLEAR POWER AS PRIORITIES",
+    "BRENT CLOSES $88.52 (+1.7%), UP MORE THAN 5% ON THE WEEK; WTI $82.40",
+    "BESSENT PROMISES MEASURES FOR IRAN'S \"ECONOMIC ISOLATION\" THAT \"HAVE NEVER BEEN SEEN\"",
+    "HEGSETH: THE NAVAL BLOCKADE CAN BE MAINTAINED INDEFINITELY BY ROTATING SHIPS",
+    "IEA WARNS OF THE WIDEST GLOBAL SUPPLY DEFICIT IN FIVE YEARS",
+    "IRAN AND OMAN STILL WITHOUT AN AGREEMENT ON REOPENING HORMUZ",
+    "FRI CLOSE: SENSEX 78,009.25 (-0.09%), NIFTY 24,366.00 (-0.12%) — MARKETS SHUT TODAY"
   ],
   "whatChanged": {
-    "label": "What changed — Friday August 14, 7:40 AM IST (Day 168) — pre-market",
+    "label": "What changed — Saturday August 15, 10:00 AM IST (Day 169) — Independence Day, markets closed",
     "items": [
       {
-        "color": "green",
-        "bold": "Brent settled at $87.07, a second straight fall",
-        "text": "Crude lost about 2% on Thursday, with WTI down 2.4% to $81.25. Prices are still up roughly 4% on the week, because no deal between Washington and Tehran to restore ship traffic has materialised. This is the first back-to-back decline since the run began."
-      },
-      {
-        "color": "amber",
-        "bold": "Washington says Hormuz flows are far higher than the ship count implies",
-        "text": "US Energy Secretary Chris Wright said oil exports through the strait have neared a seven-day average of nine million barrels a day, rising to about fifteen million from the Gulf as a whole when pipeline flows are included. Roughly twenty million barrels a day of oil and products moved through Hormuz before the war. The claim runs well ahead of independent estimates, and it was enough to move the market."
-      },
-      {
         "color": "cyan",
-        "bold": "The vessels that do cross are using Iran's route, not the old one",
-        "text": "Kpler recorded fourteen crossings on Tuesday, up from the weekend but far below the 120-130 a day seen before the war; other counts this week ran as low as eight. Eleven of the fourteen followed the Iranian-approved route and none used the traditional channel through the centre of the strait. Saudi Arabia and the UAE are reported to be seeking alternative export arrangements, with some vessels switching off transponders in transit."
+        "bold": "Energy security and nuclear power named from the Red Fort",
+        "text": "In his 80th Independence Day address the Prime Minister identified energy security and critical minerals as the two areas the government is focusing on for future energy and technology challenges, saying vast amounts of electricity will be needed for chips, artificial intelligence and data centres and that energy security is the need of the hour. He called for greater nuclear capacity, said India had turned \"no-go areas\" into \"go-ahead areas\", and framed self-reliance as the foundation of a developed India, unveiling seven \"Saptadhara\" reform streams. Assessment: the diagnosis matches the exposure this tracker measures. What was not addressed is the near-term gap — no quantity of new nuclear capacity changes the LPG cylinder price this winter."
       },
       {
         "color": "red",
-        "bold": "Houthis claim a drone attack on a Saudi refinery at Jizan",
-        "text": "The group said on Thursday that it targeted a refinery in Saudi Arabia's Jizan region, following this week's attacks on vessels in the Gulf of Oman and the Red Sea and the six deaths aboard a cargo ship in the Bab el-Mandeb. Assessment: the westbound leg of India's trade continues to degrade on a separate track from Hormuz, and Saudi refining is now in the target set."
+        "bold": "Washington promises economic measures against Iran that \"have never been seen\"",
+        "text": "Treasury Secretary Scott Bessent told Newsmax that Washington would pursue the \"economic isolation\" of Iran through measures that have never been seen before, with further announcements expected next week. It followed Defence Secretary Pete Hegseth's statement that the Navy can maintain the blockade of Iranian ports indefinitely by rotating ships. Taken together, this is a policy of open-ended pressure rather than a search for terms."
       },
       {
         "color": "orange",
-        "bold": "The IEA put a number on how much Gulf supply is still offline",
-        "text": "In cutting its 2026 demand forecast by a further 510,000 barrels a day — to a 1.6 million barrel-a-day contraction — the agency said July supply was 6.3 million barrels a day below a year earlier, with 8.3 million barrels a day of Gulf production shut in. That is the structural reason a demand-led price fall does not amount to relief."
+        "bold": "Brent closed at $88.52, up more than 5% on the week",
+        "text": "Crude reversed Thursday's 2% fall, with Brent gaining 1.7% to $88.52 and WTI 1.4% to $82.40. Both benchmarks ended the week more than 5% higher. The two-session decline that looked like relief on Thursday morning has been fully retraced, and the week's net move is upward."
+      },
+      {
+        "color": "amber",
+        "bold": "The IEA now forecasts the widest supply deficit in five years",
+        "text": "Having cut its demand outlook earlier in the week, the agency warned that renewed hostilities threaten to push the global oil market deeper into deficit, with supply expected to fall by 4.3 million barrels a day, or about 4%, across 2026 — the widest shortfall in five years. Iran and Oman have still not reached an agreement on reopening the strait despite earlier optimism, while US forces are expanding their capacity to escort vessels and some tankers continue to transit with transponders switched off."
+      },
+      {
+        "color": "red",
+        "bold": "India closed the week lower, with weak breadth and continued foreign selling",
+        "text": "The Sensex ended Friday at 78,009.25, down 70.71 points or 0.09%, and the Nifty at 24,366.00, down 29.85 points or 0.12%, both recovering from an early fall of more than 300 points. Market breadth was negative, with 2,244 stocks declining against 1,855 advancing, and the midcap and smallcap indices fell 0.53% and 0.69%. Only media and consumer durables closed higher. Apollo Hospitals, Bharti Airtel, Adani Enterprises and Adani Ports led the gainers; Tata Motors PV, Jio Finance, ONGC, Asian Paints and SBI the losers."
       }
     ]
   },
   "deaths": "7,199+",
   "econ": {
-    "sensex": "78,079.96 (close, +0.15%)",
-    "sensexDelta": "Thu Aug 13 close: +113.61 points",
-    "sensexSub": "The Sensex snapped a two-day losing streak, helped by falling crude and a steady earnings season, while the Nifty fell a third session to 24,395.85 as metals, cement and IT weighed. IndiGo, NTPC, BEL and L&T led the gainers.",
+    "sensex": "78,009.25 (close, -0.09%)",
+    "sensexDelta": "Fri Aug 14 close: -70.71 points",
+    "sensexSub": "Recovered from an early fall of more than 300 points to close 71 points lower. Breadth was weak — 2,244 decliners against 1,855 advancers — with midcaps down 0.53% and smallcaps 0.69%. Media and consumer durables were the only sectoral gainers.",
     "vix": "~13.1 — EASING",
     "vixDelta": "-4.51% to 13.14 Wed open, ~-3% at close — volatility compressing despite blockade. Tue: 13.75 (+3.53%). Well below wartime 24-27; markets treating this as a contained maritime campaign, not full war.",
     "fpi": "+$1.3bn in August so far",
     "fpiDelta": "Foreign investors net bought roughly $1.3bn of Indian equities in August to date after $2.1bn in July. These inflows are the main counterweight to crude — if they turn while Brent holds above $88, equities and the rupee lose both supports at once.",
     "wealth": "BSE market cap ~Rs 485-490 trillion — resilient through the blockade week. WPI 9.87% June (from 9.68%) — war transmission to wholesale prices confirmed. Net direct tax +16.4% YTD to Rs 6.51L Cr (till Jul 13). RBI Aug MPC calculus now complicated by oil + rupee + WPI.",
-    "analysis": "Two sessions of falling crude have done more for the Indian macro picture than a fortnight of mediation headlines. Brent at $87.07 trims the import bill and takes the immediate pressure off the rupee, which held near ₹95.3 with the RBI still selling dollars through state-run banks; July CPI at 4.45% leaves the central bank no reason to move. The caution is that both days of decline were demand-led — the IEA now sees global consumption contracting by 1.6 million barrels a day — and a demand contraction of that size is not an unmixed blessing for a country that exports refined product. The Energy Secretary's claim of nine million barrels a day through Hormuz, if it holds up, would be genuinely good news for Indian refiners; it is also well ahead of what the ship trackers can see. Treat it as a claim, not a data point, until Kpler and MarineTraffic agree with it."
+    "analysis": "The week ends with the market having absorbed a great deal of bad news without breaking: Brent up more than 5%, an open-ended blockade declared, and a promise of unprecedented economic measures against Iran next week, against which the Nifty gave up just 30 points on Friday and 106 points across the week. That resilience is real but it is not costless — it is being bought with weak breadth, midcap and smallcap underperformance, and steady foreign outflows offset by domestic institutional buying. The honest reading is that Indian equities are being held up by domestic flows while the underlying macro terms of trade deteriorate. Watch the rupee rather than the index when trading resumes on Monday: Brent at $88.52 with Bessent's announcements pending is the combination most likely to test the RBI's defended range."
   },
   "hormuzStatus": {
-    "status": "The strait is contested in both fact and description. President Trump says the United States has total control of the waterway; Iran's Persian Gulf Strait Authority says it remains blocked until Iran's conditions are accepted, and the Basij commander Hossein Taeb said on Thursday it is under Iranian management. US Energy Secretary Chris Wright now says oil exports through the strait are near nine million barrels a day on a seven-day average, against about twenty million before the war — a figure well above independent estimates. What the trackers can see is that the vessels which do cross are using the Iranian-approved route rather than the traditional channel.",
+    "status": "Iran and Oman have still not reached an agreement on reopening the strait, despite earlier optimism that a deal was close — and Washington has previously said it would lift its blockade of Iranian ports once they do. Instead the pressure is being tightened: the Defence Secretary says the naval blockade can be maintained indefinitely by rotating ships, and the Treasury Secretary has promised measures aimed at Iran's economic isolation that \"have never been seen\", with announcements expected next week. US forces are expanding their capacity to escort vessels through the strait. Crude does continue to leave the Gulf, with some tankers transiting with transponders switched off.",
     "preWarFlow": "~90-140 ships/day",
     "currentFlow": "8-14 transits a day, on Iran's route",
     "reduction": "Brent settled $89.86 for October delivery, up $2.14 or 2.44% — a fifth consecutive rise and the highest in over a week, having touched roughly $90 intraday. That is about 38% above the pre-war $65. Crude has now spent three sessions above the $85 line at which India's under-recovery question reopens.",
@@ -80,6 +80,14 @@
     "indianCasualtyDetail": "4th Indian death of the war: a crew member aboard UAE tanker MOMBASA killed by an Iranian cruise missile in Omani territorial waters (UAE MoD, Jul 14). 8 injured incl. 6 Indians, 4 serious. Earlier: 3 Indian sailors killed on MT Settebello (Jun 8, US Navy strike)."
   },
   "hormuzEvents": [
+    {
+      "d": "Aug 14-15",
+      "e": "DAY 168-169 — PRESSURE TIGHTENS, AND THE PRICE FOLLOWS. Treasury Secretary Scott Bessent told Newsmax that Washington would pursue the \"economic isolation\" of Iran with measures that \"have never been seen\", with further announcements expected next week, a day after Defence Secretary Pete Hegseth said the naval blockade of Iranian ports could be maintained indefinitely by rotating ships. Brent closed Friday at $88.52, up 1.7%, and more than 5% on the week; WTI settled at $82.40. The IEA warned that renewed hostilities threaten to push the market into its widest supply deficit in five years, with supply falling 4.3 million barrels a day across 2026. Iran and Oman have still not agreed terms for reopening the strait, which Washington has said would be the trigger for lifting its blockade. US forces are expanding their escort capacity, and some tankers continue to transit with transponders switched off. In India, the Prime Minister used his Independence Day address to name energy security, critical minerals and nuclear capacity as national priorities."
+    },
+    {
+      "d": "Aug 13-14",
+      "e": "DAY 167-168 — THE BLOCKADE BECOMES OPEN-ENDED. US Defence Secretary Pete Hegseth told reporters in Panama that the United States Navy can maintain its blockade of Iran indefinitely, because it will rotate ships in and out as it has been doing, and Treasury Secretary Scott Bessent said Washington plans to inflict further financial damage on Tehran. Ceasefire talks have floundered. Reports on Friday said the aircraft carrier USS George Washington has begun moving from the Pacific towards the Middle East, and CENTCOM denied claims about conditions aboard the Abraham Lincoln Carrier Strike Group after more than 260 days at sea. Vice President JD Vance set out Washington's objectives as stable energy prices for Americans, preventing an Iranian nuclear weapon and a stronger US position — a list that does not include reopening the strait for third-party trade. The blockade was lifted for a month in mid-June before being reimposed, cutting off Tehran's main source of hard currency."
+    },
     {
       "d": "Aug 12-13",
       "e": "DAY 166-167 — RIVAL CLAIMS OF CONTROL, AND A DISPUTE OVER HOW MUCH OIL IS ACTUALLY MOVING. President Trump wrote that the United States has \"total control\" of the Strait of Hormuz and that the naval blockade is being called a wall of steel. Iran's Persian Gulf Strait Authority replied that the strait remains blocked and will not reopen until Iran's conditions are accepted; on Thursday the Basij commander Hossein Taeb said the waterway is under Iranian control and management. US Energy Secretary Chris Wright then said exports through the strait have neared a seven-day average of nine million barrels a day, about fifteen million from the Gulf including pipelines, against roughly twenty million before the war — a claim that sits well above independent estimates and knocked 2% off Brent. Kpler counted fourteen transits on Tuesday, up from the weekend but far below the pre-war 120-130; eleven took the Iranian-approved route and none the traditional channel, and Saudi and Emirati shippers are reported to be switching off transponders. A senior Iranian source told Reuters there is no ceasefire to extend, because Washington violated the June memorandum within 48 hours."
@@ -242,6 +250,30 @@
   ],
   "military": [
     {
+      "t": "Aug 14 — Bessent promises measures for Iran's \"economic isolation\" that have never been seen",
+      "lv": "BREAKING",
+      "color": "red",
+      "d": "The Treasury Secretary told Newsmax that Washington would impose unprecedented economic measures while maintaining its naval blockade of Iranian ports, with further announcements expected next week. Brent rose 1.7% to close at $88.52 on the remarks, having fallen 2% the previous session. Assessment: with the blockade declared open-ended and financial pressure escalating, the near-term path for oil is set by Washington's announcements rather than by the mediation track."
+    },
+    {
+      "t": "Aug 15 — Energy security and nuclear power named in the Independence Day address",
+      "lv": "STRATEGIC",
+      "color": "cyan",
+      "d": "From the ramparts of the Red Fort, the Prime Minister identified energy security and critical minerals as priorities for meeting future energy and technology needs, called for greater nuclear capacity, and framed self-reliance as the foundation of a developed India by 2047. He unveiled seven \"Saptadhara\" reform streams. Assessment: the exposure is correctly named, but the instruments discussed are decade-scale while the pressure on households is monthly."
+    },
+    {
+      "t": "Aug 13-14 — Hegseth says the blockade can be maintained indefinitely",
+      "lv": "BREAKING",
+      "color": "red",
+      "d": "The Defence Secretary told reporters in Panama that the US Navy has the assets to sustain its blockade of Iran indefinitely by rotating ships in and out of the region. Treasury Secretary Scott Bessent said Washington would inflict further financial damage on Tehran. Months of strikes have damaged Iran's navy and leadership without breaking its grip on the strait, and Trump has so far resisted the most escalatory options — ground troops, seizing islands, striking desalination plants. Assessment: the operative question for India is no longer when this ends but what an indefinite $85-90 oil environment costs."
+    },
+    {
+      "t": "Aug 14 — USS George Washington reportedly moving towards the region",
+      "lv": "REPORTED",
+      "color": "orange",
+      "d": "Reports on Friday said the carrier, currently in the Pacific, has begun heading for the Middle East. CENTCOM posted on X denying claims circulating about the Abraham Lincoln Carrier Strike Group, stating that no service members aboard the carrier have died and that the sailor who fell overboard on 3 August was recovered safely, after more than 260 days at sea. Ship rotation is the mechanism that makes an indefinite blockade sustainable."
+    },
+    {
       "t": "Aug 13 — Washington says nine million barrels a day are crossing Hormuz",
       "lv": "BREAKING",
       "color": "amber",
@@ -252,30 +284,6 @@
       "lv": "BREAKING",
       "color": "red",
       "d": "The group said it targeted a refinery in Saudi Arabia's Jizan region with drones on Thursday, extending a week that already included attacks on vessels in the Gulf of Oman and the Red Sea and six deaths aboard a cargo ship in the Bab el-Mandeb. Assessment: Saudi refining and export infrastructure entering the target set is a more direct threat to Indian supply than the shipping attacks themselves."
-    },
-    {
-      "t": "Aug 13 — Most crossings are using Iran's route, not the old channel",
-      "lv": "REPORTED",
-      "color": "cyan",
-      "d": "Kpler recorded fourteen transits on Tuesday, a slight rise from the weekend but nowhere near pre-war levels; other counts this week ran as low as eight. Eleven of the fourteen followed the Iranian-approved route that the United States has warned ships against using, and none took the traditional route through the centre of the strait. Higher volumes, Kpler noted, have not translated into normalisation."
-    },
-    {
-      "t": "Aug 13 — Tehran says there is no ceasefire to extend",
-      "lv": "REPORTED",
-      "color": "orange",
-      "d": "A senior Iranian source told Reuters there had been no discussions about extending a ceasefire because no deal ever took effect: the United States violated the June memorandum within 48 hours and withdrew days later. Mediators are discussing a US return to the interim agreement, with no progress so far. Iran's Supreme National Security Council secretary Mohsen Rezaei has demanded the unfreezing of Iranian funds held overseas as a condition for reopening."
-    },
-    {
-      "t": "Aug 12 — The IEA cut its 2026 demand forecast by a further 510,000 barrels a day",
-      "lv": "ACTIVE",
-      "color": "amber",
-      "d": "The agency now expects global oil demand to contract by 1.6 million barrels a day this year, citing the continuing closure and elevated fuel prices. July supply was 6.3 million barrels a day below a year earlier, with 8.3 million barrels a day of Gulf production shut in. OPEC separately trimmed its demand growth estimate to 580,000 barrels a day from 780,000."
-    },
-    {
-      "t": "Aug 12 — US forces to complete their Iraq withdrawal by 30 September",
-      "lv": "STRATEGIC",
-      "color": "purple",
-      "d": "Iraqi Prime Minister Ali al-Zaidi said after meeting CENTCOM commander Adm. Brad Cooper that 30 September is the fixed and final date for ending the coalition mission. Separately, President Erdogan said he hopes more states will join the Mecca defence pact signed last week by Turkey, Saudi Arabia and Pakistan, which treats an attack on one as an attack on all."
     }
   ],
   "nukes": [
@@ -451,8 +459,8 @@
     }
   ],
   "assessment": {
-    "headline": "Washington and the ship trackers now disagree about how much oil is crossing Hormuz — and for India that gap matters more than the question of who controls the water.",
-    "body": "WHAT HAPPENED\nBrent settled at $87.07, down 2% and falling for a second day, after US Energy Secretary Chris Wright said exports through the strait have neared nine million barrels a day on a seven-day average. Kpler counts eight to fourteen vessels a day against 120-130 before the war. Both cannot be straightforwardly true, and the reconciliation offered — transponders switched off, Iranian-approved routing — is itself the story.\n\nWHY IT MATTERS FOR INDIA\nIf Wright is right, physical availability is far better than the headline closure suggests, and the risk premium in the price is doing more damage to India than the blockade is. If the trackers are right, the flow is thinner than Washington claims and the price is not high enough. India's refiners are positioned differently under each reading. The one fact not in dispute is that the oil which does move is moving under Iranian permission, on Iranian-designated routes — which is the outcome Tehran said it wanted in June, arrived at without a deal.\n\nTHE THING TO WATCH\nWhether Kpler and MarineTraffic revise upward in the next week. A convergence toward the US figure would be the first genuine easing since July and would take the wind out of the $85 under-recovery argument. Continued divergence means the price is being set by a claim rather than by cargo.\n\nWHAT WOULD CHANGE THIS ASSESSMENT\nThe Jizan claim is the near-term risk. Houthi drones reaching Saudi refining, rather than Saudi shipping, would put a second producer's export capacity in question and reverse two days of relief in a single session. In the other direction, transits sustained in double digits on the traditional channel — not the Iranian route — would be the first evidence that the closure is actually ending."
+    "headline": "On the eightieth Independence Day, the Red Fort named energy security as a national priority — while the week closed with oil up 5%, the blockade declared open-ended, and 90% of India's LPG still routed through a strait neither belligerent has agreed to reopen.",
+    "body": "WHAT HAPPENED\nThe Prime Minister used the 80th Independence Day address to name energy security and critical minerals as national priorities, call for more nuclear capacity, and restate self-reliance as the foundation of a developed India by 2047. On the same weekend, Brent closed the week above $88 and more than 5% higher, after Washington promised measures aimed at Iran's economic isolation that \"have never been seen\" and declared its naval blockade sustainable indefinitely.\n\nWHY IT MATTERS FOR INDIA\nThe diagnosis from the Red Fort is the correct one, and it is worth saying so plainly: a country that imports more than 85% of its crude and routes 90% of its LPG through a single contested chokepoint has an energy security problem before it has an energy transition problem. The difficulty is the mismatch of clocks. Nuclear capacity, critical mineral supply chains and domestic manufacturing are decade-scale instruments. The pressure they are meant to answer is arriving monthly, in the under-recovery accumulating at ₹111.21 petrol and in the subsidy carried on a ₹942 cylinder. Nothing announced this morning changes either number this winter.\n\nTHE THING TO WATCH\nBessent's announcements next week. An escalation of financial pressure without a corresponding military escalation is the scenario that keeps Brent in the high $80s indefinitely — high enough to force a pump revision eventually, not high enough to force a settlement. That is the worst of the available paths for Indian households, and on present evidence it is also the most likely.\n\nWHAT WOULD CHANGE THIS ASSESSMENT\nAn Iran-Oman agreement on commercial shipping remains the highest-value development available, because Washington has said it would lift the blockade in response. India's leverage runs through Muscat and Doha rather than Washington, and the Independence Day framing of self-reliance is not a substitute for that diplomacy in the months before any of it can be built."
   },
   "featured": [
     {
@@ -1096,17 +1104,27 @@
       "rupee": 95.34,
       "tag": "Brent settled $87.07 (-2%) and WTI $81.25 (-2.4%), a second straight fall, after US Energy Secretary Chris Wright said oil exports through Hormuz have neared a seven-day average of nine million barrels a day — about fifteen million from the Gulf including pipelines, against roughly twenty million pre-war. Prices still ended the week up about 4%. The IEA cut its 2026 demand forecast by a further 510,000 bpd to a 1.6 million bpd contraction, with 8.3 million bpd of Gulf production shut in. Kpler counted fourteen transits on Tuesday, eleven of them on the Iranian-approved route and none on the traditional channel. The Houthis claimed a drone attack on a Saudi refinery at Jizan. INDIA: Sensex +113.61 (+0.15%) to 78,079.96 snapping a two-day fall, Nifty -40 (-0.16%) to 24,395.85 in a third straight decline, rupee steady near 95.3 on RBI dollar sales, July CPI 4.45%.",
       "sev": 3
+    },
+    {
+      "d": 168,
+      "l": "Aug 14",
+      "deaths": 7199,
+      "brent": 88.52,
+      "nifty": 24366.0,
+      "rupee": 95.36,
+      "tag": "Brent closed $88.52 (+1.7%) and WTI $82.40 (+1.4%), reversing Thursday's fall and ending the week more than 5% higher, after Treasury Secretary Scott Bessent promised measures aimed at Iran's \"economic isolation\" that \"have never been seen\", with announcements expected next week. It followed Defence Secretary Pete Hegseth's statement that the naval blockade can be maintained indefinitely by rotating ships. The IEA warned of the widest global supply deficit in five years, with supply down 4.3 million bpd across 2026. Iran and Oman still have no agreement on reopening the strait. INDIA: Sensex -70.71 (-0.09%) to 78,009.25 and Nifty -29.85 (-0.12%) to 24,366.00, both recovering from an early fall of more than 300 points; breadth weak at 2,244 decliners to 1,855 advancers; midcaps -0.53%, smallcaps -0.69%; foreign selling continued.",
+      "sev": 3
     }
   ],
   "exec": {
     "level": "HIGH",
-    "phase": "Two days of cheaper crude, no change at the strait",
-    "oilNote": "Brent settled $87.07, down 2%, after Washington said Hormuz oil exports are running near nine million barrels a day. Still up about 4% on the week and roughly a third above the pre-war $65.",
-    "shipping": "FLOWING ON TEHRAN'S ROUTE",
-    "shippingSub": "Kpler counts 8-14 transits a day against 120-130 pre-war, and eleven of Tuesday's fourteen used the Iranian-approved route with none on the traditional channel. Washington says volumes are far higher than the vessel count shows.",
-    "military": "JIZAN REFINERY TARGETED",
-    "militarySub": "The Houthis claim a drone attack on a Saudi refinery at Jizan, after six deaths aboard a cargo ship in the Bab el-Mandeb this week. US forces complete their Iraq pullout by 30 September.",
-    "indiaSub": "Sensex up, Nifty down a third session, rupee steady near ₹95.3 on RBI dollar sales. July CPI 4.45%. Pump prices unchanged; two days below $88 is not yet enough to shift them."
+    "phase": "Independence Day — energy security named, pressure escalating",
+    "oilNote": "Brent closed Friday at $88.52, up 1.7% and more than 5% on the week, reversing the midweek fall. Roughly a third above the pre-war $65, with the IEA warning of the widest supply deficit in five years.",
+    "shipping": "STILL NO IRAN-OMAN DEAL",
+    "shippingSub": "Talks on reopening the strait remain without agreement despite earlier optimism. US forces are expanding their escort capacity; some tankers transit with transponders switched off. Kpler counts 8-14 crossings a day against 120-130 pre-war.",
+    "military": "ECONOMIC ISOLATION PROMISED",
+    "militarySub": "Bessent promises measures against Iran that \"have never been seen\", with announcements expected next week, after Hegseth said the blockade can run indefinitely. The USS George Washington is reportedly moving towards the region.",
+    "indiaSub": "Markets closed for Independence Day. Friday: Sensex 78,009.25 (-0.09%), Nifty 24,366.00 (-0.12%), weak breadth, continued foreign selling. Pump prices unchanged."
   },
   "hormuzPhases": [
     {
@@ -1150,7 +1168,7 @@
       "days": "Aug 5–"
     }
   ],
-  "_phaseBadge": "Brent settled $87.07, down 2%, after US Energy Secretary Chris Wright said oil exports through Hormuz are running near nine million barrels a day · Kpler counts only 8-14 vessels a day, with most using the Iranian-approved route · Houthis claim a drone attack on a Saudi refinery at Jizan",
+  "_phaseBadge": "Independence Day: the Prime Minister named energy security and nuclear power as priorities from the Red Fort · Brent closed Friday at $88.52, up 1.7%, and more than 5% on the week, after the Treasury Secretary promised measures aimed at Iran's \"economic isolation\" that \"have never been seen\" · Indian markets are shut today",
   "budget": {
     "petrolPre": 94.72,
     "petrolNow": 111.21,
@@ -1160,10 +1178,10 @@
     "lpgNow": 942.0
   },
   "brief": [
-    "Oil fell for a second day. Brent settled at $87.07, down about 2%, with WTI at $81.25. The trigger was a claim from US Energy Secretary Chris Wright that oil exports through the Strait of Hormuz are running near nine million barrels a day on a seven-day average, and about fifteen million including pipeline routes. Before the war the figure was around twenty million. Even so, Brent is up roughly 4% on the week and still about a third above the pre-war $65.",
-    "That claim is hard to square with the ship count, and the gap matters. Kpler tracked between eight and fourteen vessels a day this week against roughly 120-130 before the war. The detail worth noting: eleven of Tuesday's fourteen crossings used the Iranian-approved route and none used the traditional central channel, and some vessels are reported to be switching off transponders. Oil may be moving more than the trackers can see — but it is moving on Tehran's terms, not Washington's.",
-    "For your money: Thursday ended split. The Sensex closed up 114 points at 78,079.96 while the Nifty slipped a third straight session to 24,395.85. The rupee held near ₹95.3 with the RBI selling dollars through state-run banks, and July retail inflation came in at 4.45%, still inside the RBI's band. Two days of cheaper crude is the first sustained relief on the import bill in a fortnight.",
-    "At the pump, nothing has changed: petrol ₹111.21 a litre in Delhi, diesel ₹97.83, a cylinder ₹942. Two sessions below $88 does not undo the under-recovery built up above $85, so no revision is likely on this alone. The number to watch is whether Brent stays under $88 through next week. If it does, the case for an August hike weakens materially."
+    "Energy security was named from the Red Fort this morning. In his 80th Independence Day address the Prime Minister put energy security and critical minerals among the country's priorities, called for more nuclear power, and framed self-reliance as the foundation of a developed India. On day 169 of a war that has kept the Strait of Hormuz effectively shut, that is the right problem named out loud. The arithmetic behind it is the harder part: before the war roughly 40% of India's crude, 60% of its LNG and 90% of its LPG came through that strait.",
+    "Oil went the wrong way on Friday. Brent closed at $88.52, up 1.7%, and more than 5% on the week, reversing Thursday's fall. The trigger was Treasury Secretary Scott Bessent promising measures aimed at the \"economic isolation\" of Iran that \"have never been seen\", a day after the Defence Secretary said the naval blockade could be maintained indefinitely. Further announcements are expected next week. The IEA now warns of the widest global supply deficit in five years.",
+    "For your money: Indian markets are closed today for Independence Day. They ended Friday marginally lower — Sensex 78,009.25, down 71 points, and Nifty 24,366, down 30 — after recovering from a fall of more than 300 points earlier in the session. Breadth was weak, with more stocks falling than rising, and foreign investors kept selling. Consumer durables and media were the only sectors to close up.",
+    "At the pump, nothing has changed: petrol ₹111.21 a litre in Delhi, diesel ₹97.83, a cylinder ₹942. Brent back above $88 undoes the small relief of midweek and keeps the oil companies' under-recovery growing. With Washington signalling more economic pressure next week rather than a deal, the realistic question for the coming fortnight is not whether prices fall but how long a revision can be deferred."
   ],
-  "shareLine": "Brent settled $87.07, down 2%, after Washington said nine million barrels a day are crossing Hormuz — far above what ship trackers can see. Most vessels that do cross are using Iran's approved route, not the traditional channel."
+  "shareLine": "Independence Day, day 169: energy security named from the Red Fort as Brent ends the week above $88, up more than 5%, with Washington promising unprecedented economic measures against Iran and the blockade declared open-ended."
 }
