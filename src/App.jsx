@@ -158,14 +158,20 @@ const Bar = ({value, max=100, color=T.wine, h=4}) => (
 // Section band. Bands are the whole page skeleton: stacked, hairline-closed.
 const Band = ({id, deep, children, style}) => (
   <section id={id} className="band" style={{background:deep?T.deep:T.paper,
-    scrollMarginTop:56, ...style}}>
+    scrollMarginTop:64, ...style}}>
     <div className="wrap">{children}</div>
   </section>
 );
 
-const Head = ({eyebrow, title, em, lede, right}) => (
+// `n` numbers the section. On a page this long the index gives the reader
+// a sense of position that a scroll bar does not.
+const Head = ({n, eyebrow, title, em, lede, right}) => (
   <div style={{marginBottom:32}}>
-    {eyebrow && <Eyebrow style={{marginBottom:14}}>{eyebrow}</Eyebrow>}
+    {eyebrow && (
+      <Eyebrow style={{marginBottom:14}}>
+        {n && <span style={{color:T.wine, marginRight:10}}>{n}</span>}{eyebrow}
+      </Eyebrow>
+    )}
     <div style={{display:"flex", alignItems:"baseline", justifyContent:"space-between",
       gap:24, flexWrap:"wrap"}}>
       <h2 className="h2" style={{color:T.ink}}>
@@ -896,7 +902,7 @@ export default function App() {
 
       {/* ══ OVERVIEW — what changed, then the strip, then the brief ══ */}
       <Band id="overview">
-        <Head eyebrow={noEmoji(iWC.label || "What changed")} title="What changed" em="today"
+        <Head n="01" eyebrow={noEmoji(iWC.label || "What changed")} title="What changed" em="today"
           lede="The day's developments, newest first. Open an item for the reasoning behind it."/>
 
         {!(iWC.items||[]).length && <Empty label="Today's changes"/>}
@@ -1002,7 +1008,7 @@ export default function App() {
 
       {/* ══ MARITIME ══ */}
       <Band id="hormuz" deep>
-        <Head eyebrow="Maritime" title="Hormuz, India's energy" em="lifeline"
+        <Head n="02" eyebrow="Maritime" title="Hormuz, India's energy" em="lifeline"
           lede="A 39km chokepoint that carried 40% of India's crude, 60% of its LNG and 90% of its LPG before the war. What happens here still lands at the pump."/>
 
         {/* The narrative leads as prose. Sat in a two-up beside the traffic
@@ -1065,7 +1071,7 @@ export default function App() {
 
       {/* ══ HOUSEHOLD ══ */}
       <Band id="kitchen">
-        <Head eyebrow="Household" title="The kitchen" em="table"
+        <Head n="03" eyebrow="Household" title="The kitchen" em="table"
           lede="What the war costs an Indian household today, item by item, against pre-war prices."/>
         {!iKitchen.length && <Empty label="Household price table"/>}
         {iKitchen.length > 0 && (
@@ -1113,7 +1119,7 @@ export default function App() {
 
       {/* ══ MARKETS ══ */}
       <Band id="economic" deep>
-        <Head eyebrow="Markets" title="Economic impact on" em="India"
+        <Head n="04" eyebrow="Markets" title="Economic impact on" em="India"
           lede="Index levels, foreign flows and the two series that move the rest — crude and the rupee."/>
 
         <div className="ruled c4" style={{marginBottom:24}}>
@@ -1144,7 +1150,7 @@ export default function App() {
 
       {/* ══ MILITARY ══ */}
       <Band id="military">
-        <Head eyebrow="Military" title="Military and strategic" em="updates"
+        <Head n="05" eyebrow="Military" title="Military and strategic" em="updates"
           lede="Developments with a bearing on Indian shipping, energy routes or citizens in the region."/>
         {!iMilitary.length && !iMilTop.length && <Empty label="Military updates"/>}
         {(iMilitary.length || iMilTop.length) > 0 && (
@@ -1174,7 +1180,7 @@ export default function App() {
 
       {/* ══ NUCLEAR ══ */}
       <Band id="nuclear" deep>
-        <Head eyebrow="Nuclear" title="Nuclear" em="exposure"
+        <Head n="06" eyebrow="Nuclear" title="Nuclear" em="exposure"
           lede="Iranian site status and India's downwind position. Scores here are analytical estimates, not measurements."/>
 
         <div style={{borderLeft:`2px solid ${T.wine}`, paddingLeft:24, marginBottom:28, maxWidth:700}}>
@@ -1275,7 +1281,7 @@ export default function App() {
 
       {/* ══ RISK INDEX ══ */}
       <Band id="radar">
-        <Head eyebrow="Risk index" title="Where the risk" em="sits"
+        <Head n="07" eyebrow="Risk index" title="Where the risk" em="sits"
           lede="Six axes scored 0–100. Week 1 is the war's opening reading, the outlook is a twelve-week extrapolation rather than a forecast."/>
         {!iRadar.length && <Empty label="Risk index"/>}
         {iRadar.length > 0 && (
@@ -1320,7 +1326,7 @@ export default function App() {
 
       {/* ══ ARCHIVE ══ */}
       <Band id="warlog" deep>
-        <Head eyebrow="Archive" title="The war" em="log"
+        <Head n="08" eyebrow="Archive" title="The war" em="log"
           lede="Every logged session since Day 1, newest first."/>
         <WarInNumbers timeline={intel?.timeline}/>
 
@@ -1368,7 +1374,7 @@ export default function App() {
 
       {/* ══ ASSESSMENT ══ */}
       <Band id="assessment">
-        <Head eyebrow="Assessment" title="Strategic" em="assessment"
+        <Head n="09" eyebrow="Assessment" title="Strategic" em="assessment"
           lede="The tracker's reading of where this is going, and what would change it."/>
         {!iAssess && <Empty label="Strategic assessment"/>}
         {iAssess && (
