@@ -1,8 +1,8 @@
 {
-  "_updated": "August 15, 2026 — 10:00 AM IST (Independence Day, markets closed)",
-  "_asOf": "2026-08-15",
+  "_updated": "August 16, 2026 — 7:55 AM IST (Sunday, markets closed)",
+  "_asOf": "2026-08-16",
   "_start": "2026-02-28",
-  "_day": 169,
+  "_day": 170,
   "preWar": {
     "brent": 65,
     "rupee": 91.49,
@@ -11,44 +11,44 @@
     "petrol": 94.72,
     "diesel": 87.62
   },
-  "_phase": "ENERGY SECURITY NAMED FROM THE RED FORT AS WASHINGTON THREATENS THE ECONOMIC ISOLATION OF IRAN",
+  "_phase": "NO CRUDE SEEN CROSSING HORMUZ ON FRIDAY AS THREE ADNOC TANKERS ARE HIT IN 48 HOURS AND TRUMP TALKS OF ANNEXING THE STRAIT",
   "_note": "Verified: NPR, CNN, CBS, Fox News, The Hill, Washington Times (Jul 15-16), CENTCOM statements, HDFC Sky, Business Standard (Jul 14-15 closes), TradingEconomics, Investing.com (Brent live Jul 16), Zee Business",
   "ticker": [
-    "INDEPENDENCE DAY: PM NAMES ENERGY SECURITY AND NUCLEAR POWER AS PRIORITIES",
-    "BRENT CLOSES $88.52 (+1.7%), UP MORE THAN 5% ON THE WEEK; WTI $82.40",
-    "BESSENT PROMISES MEASURES FOR IRAN'S \"ECONOMIC ISOLATION\" THAT \"HAVE NEVER BEEN SEEN\"",
-    "HEGSETH: THE NAVAL BLOCKADE CAN BE MAINTAINED INDEFINITELY BY ROTATING SHIPS",
-    "IEA WARNS OF THE WIDEST GLOBAL SUPPLY DEFICIT IN FIVE YEARS",
-    "IRAN AND OMAN STILL WITHOUT AN AGREEMENT ON REOPENING HORMUZ",
-    "FRI CLOSE: SENSEX 78,009.25 (-0.09%), NIFTY 24,366.00 (-0.12%) — MARKETS SHUT TODAY"
+    "KPLER: NO CRUDE SHIPMENTS SEEN CROSSING HORMUZ ON FRIDAY — TRAFFIC NEAR A STANDSTILL",
+    "THREE ADNOC TANKERS ATTACKED IN 48 HOURS; BULK CARRIER HULL STRUCK SATURDAY",
+    "TRUMP: \"PRETTY SOON I'LL BE DECLARING THE HORMUZ STRAIT A TERRITORY OF THE UNITED STATES\"",
+    "TEHRAN: THE STRAIT \"CANNOT BE SEIZED BY TWEET, NOR BY AIRCRAFT CARRIER\"",
+    "GCC, QATAR, BAHRAIN AND EGYPT CONDEMN THE ATTACKS; DOHA DEMANDS UNCONDITIONAL REOPENING",
+    "BRENT CLOSED FRIDAY AT $88.52, UP MORE THAN 5% ON THE WEEK — MONDAY OPEN IS THE RISK",
+    "INDIAN MARKETS REOPEN MONDAY AFTER FRIDAY'S 78,009.25 SENSEX CLOSE"
   ],
   "whatChanged": {
-    "label": "What changed — Saturday August 15, 10:00 AM IST (Day 169) — Independence Day, markets closed",
+    "label": "What changed — Sunday August 16, 7:55 AM IST (Day 170) — weekend update, markets closed",
     "items": [
       {
-        "color": "cyan",
-        "bold": "Energy security and nuclear power named from the Red Fort",
-        "text": "In his 80th Independence Day address the Prime Minister identified energy security and critical minerals as the two areas the government is focusing on for future energy and technology challenges, saying vast amounts of electricity will be needed for chips, artificial intelligence and data centres and that energy security is the need of the hour. He called for greater nuclear capacity, said India had turned \"no-go areas\" into \"go-ahead areas\", and framed self-reliance as the foundation of a developed India, unveiling seven \"Saptadhara\" reform streams. Assessment: the diagnosis matches the exposure this tracker measures. What was not addressed is the near-term gap — no quantity of new nuclear capacity changes the LPG cylinder price this winter."
+        "color": "red",
+        "bold": "No crude at all was seen crossing Hormuz on Friday",
+        "text": "Vessel-tracking data from Kpler indicated traffic through the strait slowed dramatically on Friday, with only two non-oil vessels passing through and no crude shipments visible. Traffic had already sunk to near three-month lows. This is the most acute supply signal since the earliest weeks of the war, and it follows the attacks rather than any change in declared policy on either side."
       },
       {
         "color": "red",
-        "bold": "Washington promises economic measures against Iran that \"have never been seen\"",
-        "text": "Treasury Secretary Scott Bessent told Newsmax that Washington would pursue the \"economic isolation\" of Iran through measures that have never been seen before, with further announcements expected next week. It followed Defence Secretary Pete Hegseth's statement that the Navy can maintain the blockade of Iranian ports indefinitely by rotating ships. Taken together, this is a policy of open-ended pressure rather than a search for terms."
+        "bold": "Three ADNOC tankers attacked in 48 hours, and a bulk carrier on Saturday",
+        "text": "The UAE said Iran attacked two vessels affiliated with Abu Dhabi National Oil Company as they transited the strait on Thursday evening; ADNOC reported a third attacked on Friday evening. The UK Maritime Trade Operations reported two nearly identical drone strikes causing minor damage, and on Saturday said an unknown projectile struck the hull of a bulk carrier. The incidents follow three earlier attacks on ADNOC tankers days before. The temporary southern Omani corridor remains the highest-risk stretch."
       },
       {
         "color": "orange",
-        "bold": "Brent closed at $88.52, up more than 5% on the week",
-        "text": "Crude reversed Thursday's 2% fall, with Brent gaining 1.7% to $88.52 and WTI 1.4% to $82.40. Both benchmarks ended the week more than 5% higher. The two-session decline that looked like relief on Thursday morning has been fully retraced, and the week's net move is upward."
+        "bold": "Trump says he will declare the strait US territory; Tehran rejects it",
+        "text": "Speaking in Nassau County, New York, the President said: \"After we finish defeating Iran, which is being very badly defeated, pretty soon I'll be declaring the Hormuz Strait a territory of the United States.\" No legal basis or mechanism was offered. Iran's deputy foreign minister for legal and international affairs, Kazem Gharibabadi, replied that the strait cannot be seized by tweet, aircraft carrier, order or election speech, and that it \"has been Iranian, is Iranian, and will remain Iranian\". Trump separately said the USS Abraham Lincoln, deployed more than 260 days, is being replaced with a similar ship."
       },
       {
-        "color": "amber",
-        "bold": "The IEA now forecasts the widest supply deficit in five years",
-        "text": "Having cut its demand outlook earlier in the week, the agency warned that renewed hostilities threaten to push the global oil market deeper into deficit, with supply expected to fall by 4.3 million barrels a day, or about 4%, across 2026 — the widest shortfall in five years. Iran and Oman have still not reached an agreement on reopening the strait despite earlier optimism, while US forces are expanding their capacity to escort vessels and some tankers continue to transit with transponders switched off."
+        "color": "cyan",
+        "bold": "The Gulf states condemned the attacks — and Qatar demanded unconditional reopening",
+        "text": "The Gulf Cooperation Council called the assault a dangerous and unacceptable escalation and a direct threat to maritime navigation; Bahrain, Egypt and Qatar issued their own condemnations. Doha restated its \"firm rejection of using the Strait of Hormuz as leverage\" and demanded it be opened unconditionally. Assessment: that is the closest any party has come to articulating India's own interest, and Qatar is India's largest LNG supplier. The diplomatic track that matters most to Delhi runs through Doha and Muscat, not Washington."
       },
       {
-        "color": "red",
-        "bold": "India closed the week lower, with weak breadth and continued foreign selling",
-        "text": "The Sensex ended Friday at 78,009.25, down 70.71 points or 0.09%, and the Nifty at 24,366.00, down 29.85 points or 0.12%, both recovering from an early fall of more than 300 points. Market breadth was negative, with 2,244 stocks declining against 1,855 advancing, and the midcap and smallcap indices fell 0.53% and 0.69%. Only media and consumer durables closed higher. Apollo Hospitals, Bharti Airtel, Adani Enterprises and Adani Ports led the gainers; Tata Motors PV, Jio Finance, ONGC, Asian Paints and SBI the losers."
+        "color": "purple",
+        "bold": "The US is thinning its presence elsewhere to concentrate on Iran",
+        "text": "Reports on Saturday said Washington has pulled its last aircraft carrier out of Asia as the administration concentrates on Iran and the Western Hemisphere. Israel struck Hezbollah infrastructure in southern Lebanon on Saturday and killed a Radwan Force battalion commander, and Iran accused Qatar of capturing three of its pilots at the war's outset, a claim Doha strongly rejects. Further US economic measures against Iran are expected this week."
       }
     ]
   },
@@ -62,24 +62,28 @@
     "fpi": "+$1.3bn in August so far",
     "fpiDelta": "Foreign investors net bought roughly $1.3bn of Indian equities in August to date after $2.1bn in July. These inflows are the main counterweight to crude — if they turn while Brent holds above $88, equities and the rupee lose both supports at once.",
     "wealth": "BSE market cap ~Rs 485-490 trillion — resilient through the blockade week. WPI 9.87% June (from 9.68%) — war transmission to wholesale prices confirmed. Net direct tax +16.4% YTD to Rs 6.51L Cr (till Jul 13). RBI Aug MPC calculus now complicated by oil + rupee + WPI.",
-    "analysis": "The week ends with the market having absorbed a great deal of bad news without breaking: Brent up more than 5%, an open-ended blockade declared, and a promise of unprecedented economic measures against Iran next week, against which the Nifty gave up just 30 points on Friday and 106 points across the week. That resilience is real but it is not costless — it is being bought with weak breadth, midcap and smallcap underperformance, and steady foreign outflows offset by domestic institutional buying. The honest reading is that Indian equities are being held up by domestic flows while the underlying macro terms of trade deteriorate. Watch the rupee rather than the index when trading resumes on Monday: Brent at $88.52 with Bessent's announcements pending is the combination most likely to test the RBI's defended range."
+    "analysis": "Friday's close now looks like it was priced on incomplete information. Brent settled at $88.52 and Indian equities gave up only 71 points before the weekend, but the transit collapse — no crude at all seen crossing on Friday — and the third ADNOC attack in 48 hours came through when Western markets were closing or closed. Monday's open is therefore the first honest price. The mechanical risk for India runs in a familiar sequence: crude gaps up, the rupee tests the RBI's defended range around ₹95.5, oil marketing companies and paint, tyre and aviation stocks take the first hit, and upstream names outperform. The deeper question is whether the market prices a supply interruption rather than a supply premium. Those are different trades, and the second one has not been seriously tested since March."
   },
   "hormuzStatus": {
-    "status": "Iran and Oman have still not reached an agreement on reopening the strait, despite earlier optimism that a deal was close — and Washington has previously said it would lift its blockade of Iranian ports once they do. Instead the pressure is being tightened: the Defence Secretary says the naval blockade can be maintained indefinitely by rotating ships, and the Treasury Secretary has promised measures aimed at Iran's economic isolation that \"have never been seen\", with announcements expected next week. US forces are expanding their capacity to escort vessels through the strait. Crude does continue to leave the Gulf, with some tankers transiting with transponders switched off.",
+    "status": "The strait is closer to a full stop than at any point in months. Kpler tracking indicated that only two non-oil vessels crossed on Friday, with no crude shipments visible, after three tankers belonging to Abu Dhabi National Oil Company were attacked within 48 hours and the UK Maritime Trade Operations reported a projectile striking a bulk carrier on Saturday. The Gulf Cooperation Council, Qatar, Bahrain and Egypt have all condemned the attacks, with Doha demanding the strait be reopened unconditionally and rejecting its use as leverage. President Trump says he will declare the waterway United States territory once Iran is defeated; Iran's deputy foreign minister says it cannot be seized by tweet or aircraft carrier and will remain Iranian. Iran and Oman have still not agreed terms for reopening.",
     "preWarFlow": "~90-140 ships/day",
-    "currentFlow": "8-14 transits a day, on Iran's route",
+    "currentFlow": "Two non-oil vessels Friday, no crude seen",
     "reduction": "Brent settled $89.86 for October delivery, up $2.14 or 2.44% — a fifth consecutive rise and the highest in over a week, having touched roughly $90 intraday. That is about 38% above the pre-war $65. Crude has now spent three sessions above the $85 line at which India's under-recovery question reopens.",
     "indianVesselsNear": 7,
     "indianSeafarers": 148,
     "indianTransited": 1,
     "totalShipsWaiting": "Significantly reduced from wartime peak of 20,000+. 3 Indian tankers safely crossed. But US oil licence revocation + Hormuz re-closure claims = uncertainty for remaining stranded vessels. India seafarer repatriation: mostly achieved for Indian-flagged vessels that transited. MT Settebello diplomatic track: ongoing.",
-    "lastTransit": "No general reopening. Kpler counted fourteen crossings on Tuesday, up from the weekend but far short of the 120-130 a day before the war; eleven used the Iranian-approved route and none the traditional central channel. Some vessels are reported to be switching off transponders in transit.",
+    "lastTransit": "Kpler data reported on Friday showed traffic slowing dramatically, with two non-oil vessels crossing and no visible crude shipments, against roughly 120-130 ships a day before the war. The temporary southern Omani corridor is the highest-risk stretch.",
     "indianNavyEscort": "Op Urja Suraksha: transitioning given formal blockade lift. MT Settebello diplomatic track continues independent of the broader deal. India's 18,000+ seafarer repatriation should now accelerate given the 'immediate effect' confirmation from Pakistan's PM.",
     "headline": "TWO STORIES ON THE SAME DAY: THE MEDIATORS SAY AN ARRANGEMENT IS CLOSE, THE PRINCIPALS HARDENED THEIR TERMS, AND A US HELICOPTER PUT MISSILES INTO A SHIP'S ENGINE ROOM. BRENT SETTLED AT $89.86.",
     "indianCasualties": 4,
     "indianCasualtyDetail": "4th Indian death of the war: a crew member aboard UAE tanker MOMBASA killed by an Iranian cruise missile in Omani territorial waters (UAE MoD, Jul 14). 8 injured incl. 6 Indians, 4 serious. Earlier: 3 Indian sailors killed on MT Settebello (Jun 8, US Navy strike)."
   },
   "hormuzEvents": [
+    {
+      "d": "Aug 14-16",
+      "e": "DAY 168-170 — TRANSITS COLLAPSE TOWARDS ZERO AS TANKER ATTACKS MOUNT. The United Arab Emirates said Iran attacked two vessels affiliated with Abu Dhabi National Oil Company as they transited the strait on Thursday evening, and ADNOC reported a third attacked on Friday evening — the third incident involving its tankers in 48 hours, after three earlier attacks days before. The UK Maritime Trade Operations reported two nearly identical drone strikes causing minor damage and, on Saturday, an unknown projectile striking the hull of a bulk carrier. Kpler vessel-tracking data indicated traffic slowed dramatically on Friday, with only two non-oil vessels crossing and no crude shipments visible. President Trump said he would \"pretty soon\" declare the strait a territory of the United States once Iran is defeated, offering no legal mechanism; Iran's deputy foreign minister Kazem Gharibabadi replied that it cannot be seized by tweet, aircraft carrier, order or election speech and will remain Iranian. The Gulf Cooperation Council, Qatar, Bahrain and Egypt condemned the attacks, with Doha rejecting the use of the strait as leverage and demanding unconditional reopening. Iran and Oman have still not agreed terms."
+    },
     {
       "d": "Aug 14-15",
       "e": "DAY 168-169 — PRESSURE TIGHTENS, AND THE PRICE FOLLOWS. Treasury Secretary Scott Bessent told Newsmax that Washington would pursue the \"economic isolation\" of Iran with measures that \"have never been seen\", with further announcements expected next week, a day after Defence Secretary Pete Hegseth said the naval blockade of Iranian ports could be maintained indefinitely by rotating ships. Brent closed Friday at $88.52, up 1.7%, and more than 5% on the week; WTI settled at $82.40. The IEA warned that renewed hostilities threaten to push the market into its widest supply deficit in five years, with supply falling 4.3 million barrels a day across 2026. Iran and Oman have still not agreed terms for reopening the strait, which Washington has said would be the trigger for lifting its blockade. US forces are expanding their escort capacity, and some tankers continue to transit with transponders switched off. In India, the Prime Minister used his Independence Day address to name energy security, critical minerals and nuclear capacity as national priorities."
@@ -250,6 +254,18 @@
   ],
   "military": [
     {
+      "t": "Aug 14-16 — Three ADNOC tankers attacked in 48 hours, bulk carrier struck Saturday",
+      "lv": "BREAKING",
+      "color": "red",
+      "d": "The UAE said two ADNOC-affiliated vessels were attacked while transiting the strait on Thursday evening, and the company reported a third attacked on Friday evening. UKMTO described two nearly identical drone strikes causing minor damage, and on Saturday reported an unknown projectile striking a bulk carrier's hull. No casualties have been reported. UAE presidential adviser Anwar Gargash said repeated targeting would not deter Abu Dhabi from a policy built on deterrence, diplomacy and international law. Assessment: attacks on Gulf state tankers, rather than Western-linked shipping, widen the war's economic front."
+    },
+    {
+      "t": "Aug 14 — Trump says he will declare the Strait of Hormuz US territory",
+      "lv": "BREAKING",
+      "color": "orange",
+      "d": "Speaking at the David S. Mack Center in Nassau County, New York, the President said that after defeating Iran he would \"pretty soon\" be declaring the strait a territory of the United States, without setting out any legal authority for it. Iran's deputy foreign minister for legal and international affairs, Kazem Gharibabadi, responded that the waterway cannot be seized by tweet, aircraft carrier, order or election speech. Assessment: a claim of sovereignty over an international strait cuts against the freedom-of-navigation principle India has consistently defended, including in its own maritime disputes."
+    },
+    {
       "t": "Aug 14 — Bessent promises measures for Iran's \"economic isolation\" that have never been seen",
       "lv": "BREAKING",
       "color": "red",
@@ -272,18 +288,6 @@
       "lv": "REPORTED",
       "color": "orange",
       "d": "Reports on Friday said the carrier, currently in the Pacific, has begun heading for the Middle East. CENTCOM posted on X denying claims circulating about the Abraham Lincoln Carrier Strike Group, stating that no service members aboard the carrier have died and that the sailor who fell overboard on 3 August was recovered safely, after more than 260 days at sea. Ship rotation is the mechanism that makes an indefinite blockade sustainable."
-    },
-    {
-      "t": "Aug 13 — Washington says nine million barrels a day are crossing Hormuz",
-      "lv": "BREAKING",
-      "color": "amber",
-      "d": "US Energy Secretary Chris Wright said oil exports through the strait have neared a seven-day average of nine million barrels a day, rising to about fifteen million from the Gulf as a whole once pipeline routes are counted, against roughly twenty million before the war. Brent fell 2% to settle at $87.07 on the claim. It is materially higher than independent tracking estimates, and Washington has an interest in the number being believed."
-    },
-    {
-      "t": "Aug 13 — Houthis claim a drone strike on a Saudi refinery at Jizan",
-      "lv": "BREAKING",
-      "color": "red",
-      "d": "The group said it targeted a refinery in Saudi Arabia's Jizan region with drones on Thursday, extending a week that already included attacks on vessels in the Gulf of Oman and the Red Sea and six deaths aboard a cargo ship in the Bab el-Mandeb. Assessment: Saudi refining and export infrastructure entering the target set is a more direct threat to Indian supply than the shipping attacks themselves."
     }
   ],
   "nukes": [
@@ -459,8 +463,8 @@
     }
   ],
   "assessment": {
-    "headline": "On the eightieth Independence Day, the Red Fort named energy security as a national priority — while the week closed with oil up 5%, the blockade declared open-ended, and 90% of India's LPG still routed through a strait neither belligerent has agreed to reopen.",
-    "body": "WHAT HAPPENED\nThe Prime Minister used the 80th Independence Day address to name energy security and critical minerals as national priorities, call for more nuclear capacity, and restate self-reliance as the foundation of a developed India by 2047. On the same weekend, Brent closed the week above $88 and more than 5% higher, after Washington promised measures aimed at Iran's economic isolation that \"have never been seen\" and declared its naval blockade sustainable indefinitely.\n\nWHY IT MATTERS FOR INDIA\nThe diagnosis from the Red Fort is the correct one, and it is worth saying so plainly: a country that imports more than 85% of its crude and routes 90% of its LPG through a single contested chokepoint has an energy security problem before it has an energy transition problem. The difficulty is the mismatch of clocks. Nuclear capacity, critical mineral supply chains and domestic manufacturing are decade-scale instruments. The pressure they are meant to answer is arriving monthly, in the under-recovery accumulating at ₹111.21 petrol and in the subsidy carried on a ₹942 cylinder. Nothing announced this morning changes either number this winter.\n\nTHE THING TO WATCH\nBessent's announcements next week. An escalation of financial pressure without a corresponding military escalation is the scenario that keeps Brent in the high $80s indefinitely — high enough to force a pump revision eventually, not high enough to force a settlement. That is the worst of the available paths for Indian households, and on present evidence it is also the most likely.\n\nWHAT WOULD CHANGE THIS ASSESSMENT\nAn Iran-Oman agreement on commercial shipping remains the highest-value development available, because Washington has said it would lift the blockade in response. India's leverage runs through Muscat and Doha rather than Washington, and the Independence Day framing of self-reliance is not a substitute for that diplomacy in the months before any of it can be built."
+    "headline": "For the first time since the opening weeks of the war, the question facing India is not what oil costs but whether it arrives: no crude at all was seen crossing Hormuz on Friday.",
+    "body": "WHAT HAPPENED\nThree ADNOC tankers were attacked in 48 hours, a bulk carrier was struck on Saturday, and Kpler tracking showed only two non-oil vessels crossing the strait on Friday with no crude shipments visible. Alongside it, the President said he would declare the waterway US territory once Iran is defeated, and Tehran said it cannot be seized by tweet or aircraft carrier. Brent had already closed the week above $88.\n\nWHY IT MATTERS FOR INDIA\nA price shock and a supply interruption are different problems requiring different responses, and this weekend moved the risk from the first towards the second. India is better placed than it was in March — strategic reserves, a pivot towards Russian and American crude, and rerouted LPG contracts mean there is no shortage today. But 90% of pre-war LPG came through this strait, substitution has limits, and a week of near-zero crude transits would exhaust the comfortable options. The right posture now is contingency planning rather than alarm: nothing in the physical market has broken, and everything in it has tightened.\n\nTHE THING TO WATCH\nMonday's open, then Friday's transit count. Oil markets were closed when the worst of this news arrived, so the first honest price comes on Monday, and the rupee will carry it before equities do. After that, the number that matters is whether crude transits resume at all next week. Two consecutive days of zero crude movement would be unprecedented in this conflict.\n\nWHAT WOULD CHANGE THIS ASSESSMENT\nQatar's demand that the strait be reopened unconditionally, and its explicit rejection of its use as leverage, is the most India-aligned statement any party has made. Doha and Muscat are where India's leverage sits, and a Gulf-brokered arrangement remains the most plausible route to resumed transits. Against that, the annexation language from Washington makes a negotiated reopening harder, not easier, because it converts a shipping dispute into a sovereignty one."
   },
   "featured": [
     {
@@ -1117,14 +1121,14 @@
     }
   ],
   "exec": {
-    "level": "HIGH",
-    "phase": "Independence Day — energy security named, pressure escalating",
-    "oilNote": "Brent closed Friday at $88.52, up 1.7% and more than 5% on the week, reversing the midweek fall. Roughly a third above the pre-war $65, with the IEA warning of the widest supply deficit in five years.",
-    "shipping": "STILL NO IRAN-OMAN DEAL",
-    "shippingSub": "Talks on reopening the strait remain without agreement despite earlier optimism. US forces are expanding their escort capacity; some tankers transit with transponders switched off. Kpler counts 8-14 crossings a day against 120-130 pre-war.",
-    "military": "ECONOMIC ISOLATION PROMISED",
-    "militarySub": "Bessent promises measures against Iran that \"have never been seen\", with announcements expected next week, after Hegseth said the blockade can run indefinitely. The USS George Washington is reportedly moving towards the region.",
-    "indiaSub": "Markets closed for Independence Day. Friday: Sensex 78,009.25 (-0.09%), Nifty 24,366.00 (-0.12%), weak breadth, continued foreign selling. Pump prices unchanged."
+    "level": "SEVERE",
+    "phase": "Transits near zero — from price risk to availability risk",
+    "oilNote": "Brent settled Friday at $88.52, up more than 5% on the week, before the transit collapse and weekend attacks were fully known. Oil markets were shut when the news broke, so Monday's open is where it gets priced.",
+    "shipping": "NO CRUDE SEEN ON FRIDAY",
+    "shippingSub": "Kpler recorded only two non-oil vessels crossing on Friday and no visible crude shipments, against 120-130 ships a day pre-war. Three ADNOC tankers were attacked in 48 hours and a bulk carrier struck on Saturday.",
+    "military": "ANNEXATION TALK, ATTACKS RISING",
+    "militarySub": "Trump says he will declare the strait US territory once Iran is defeated; Tehran says it cannot be seized by tweet or carrier. The Abraham Lincoln is being relieved and the last US carrier has left Asia.",
+    "indiaSub": "Markets reopen Monday after Friday's 78,009.25 Sensex close. No shortage today — reserves and diversified sourcing hold — but a sustained zero-transit week turns this into an availability problem, not a price one."
   },
   "hormuzPhases": [
     {
@@ -1168,7 +1172,7 @@
       "days": "Aug 5–"
     }
   ],
-  "_phaseBadge": "Independence Day: the Prime Minister named energy security and nuclear power as priorities from the Red Fort · Brent closed Friday at $88.52, up 1.7%, and more than 5% on the week, after the Treasury Secretary promised measures aimed at Iran's \"economic isolation\" that \"have never been seen\" · Indian markets are shut today",
+  "_phaseBadge": "Kpler saw no crude shipments at all cross Hormuz on Friday, with just two non-oil vessels transiting · Three ADNOC tankers attacked in 48 hours, and a bulk carrier hit on Saturday · Trump says he will \"pretty soon\" declare the strait US territory; Tehran says it cannot be seized by tweet or aircraft carrier",
   "budget": {
     "petrolPre": 94.72,
     "petrolNow": 111.21,
@@ -1178,10 +1182,10 @@
     "lpgNow": 942.0
   },
   "brief": [
-    "Energy security was named from the Red Fort this morning. In his 80th Independence Day address the Prime Minister put energy security and critical minerals among the country's priorities, called for more nuclear power, and framed self-reliance as the foundation of a developed India. On day 169 of a war that has kept the Strait of Hormuz effectively shut, that is the right problem named out loud. The arithmetic behind it is the harder part: before the war roughly 40% of India's crude, 60% of its LNG and 90% of its LPG came through that strait.",
-    "Oil went the wrong way on Friday. Brent closed at $88.52, up 1.7%, and more than 5% on the week, reversing Thursday's fall. The trigger was Treasury Secretary Scott Bessent promising measures aimed at the \"economic isolation\" of Iran that \"have never been seen\", a day after the Defence Secretary said the naval blockade could be maintained indefinitely. Further announcements are expected next week. The IEA now warns of the widest global supply deficit in five years.",
-    "For your money: Indian markets are closed today for Independence Day. They ended Friday marginally lower — Sensex 78,009.25, down 71 points, and Nifty 24,366, down 30 — after recovering from a fall of more than 300 points earlier in the session. Breadth was weak, with more stocks falling than rising, and foreign investors kept selling. Consumer durables and media were the only sectors to close up.",
-    "At the pump, nothing has changed: petrol ₹111.21 a litre in Delhi, diesel ₹97.83, a cylinder ₹942. Brent back above $88 undoes the small relief of midweek and keeps the oil companies' under-recovery growing. With Washington signalling more economic pressure next week rather than a deal, the realistic question for the coming fortnight is not whether prices fall but how long a revision can be deferred."
+    "The most important number this weekend is zero. Vessel-tracking data from Kpler showed no crude shipments at all crossing the Strait of Hormuz on Friday, with only two non-oil vessels passing through. Traffic is at or near its lowest since the war began, after three tankers belonging to Abu Dhabi National Oil Company were attacked in 48 hours and a bulk carrier had its hull struck on Saturday. This is the tightest the chokepoint has been in months, and India takes a large share of its crude, LNG and LPG through it.",
+    "The rhetoric escalated alongside it. President Trump said on Friday that \"pretty soon I'll be declaring the Hormuz Strait a territory of the United States\" once Iran is defeated, without explaining what legal authority that would rest on. Iran's deputy foreign minister replied that the strait \"cannot be seized by tweet, nor by aircraft carrier, nor by issuing an order, nor by an election speech\". Washington is also preparing further economic measures against Tehran this week.",
+    "For your money: markets are shut today and reopen on Monday. They closed Friday at Sensex 78,009.25 and Nifty 24,366, with Brent settling at $88.52 after a weekly gain of more than 5%. Oil markets were closed when Friday's transit collapse and the weekend attacks came through, so Monday's open is where this gets priced. Expect the rupee and oil-sensitive stocks to carry it first.",
+    "At the pump, nothing has changed yet: petrol ₹111.21 a litre in Delhi, diesel ₹97.83, a cylinder ₹942. If crude transits stay near zero for more than a few days, the question stops being about price and starts being about physical availability — which is a different and more serious problem. India holds strategic reserves and has diversified towards Russian and US crude since March, so there is no shortage today. Watch the next fortnight, not the next session."
   ],
-  "shareLine": "Independence Day, day 169: energy security named from the Red Fort as Brent ends the week above $88, up more than 5%, with Washington promising unprecedented economic measures against Iran and the blockade declared open-ended."
+  "shareLine": "No crude at all was seen crossing the Strait of Hormuz on Friday, after three ADNOC tankers were attacked in 48 hours. For India this shifts the risk from what oil costs to whether it arrives."
 }
