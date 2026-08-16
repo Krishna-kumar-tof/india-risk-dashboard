@@ -158,24 +158,39 @@ const Bar = ({value, max=100, color=T.wine, h=4}) => (
 // Section band. Bands are the whole page skeleton: stacked, hairline-closed.
 const Band = ({id, deep, children, style}) => (
   <section id={id} className="band" style={{background:deep?T.deep:T.paper,
-    scrollMarginTop:56, ...style}}>
+    scrollMarginTop:64, ...style}}>
     <div className="wrap">{children}</div>
   </section>
 );
 
-const Head = ({eyebrow, title, em, lede, right}) => (
-  <div style={{marginBottom:24}}>
-    {eyebrow && <Eyebrow style={{marginBottom:10}}>{eyebrow}</Eyebrow>}
+// `n` numbers the section. On a page this long the index gives the reader
+// a sense of position that a scroll bar does not.
+const Head = ({n, eyebrow, title, em, lede, right}) => (
+  <div style={{marginBottom:32}}>
+    {eyebrow && (
+      <Eyebrow style={{marginBottom:14}}>
+        {n && <span style={{color:T.wine, marginRight:10}}>{n}</span>}{eyebrow}
+      </Eyebrow>
+    )}
     <div style={{display:"flex", alignItems:"baseline", justifyContent:"space-between",
       gap:24, flexWrap:"wrap"}}>
-      <h2 className="h2" style={{margin:0, fontWeight:400, color:T.ink,
-        letterSpacing:"-0.02em", lineHeight:1.1, textWrap:"balance"}}>
+      <h2 className="h2" style={{color:T.ink}}>
         {title}{em && <> <em style={{color:T.wine, fontStyle:"italic"}}>{em}</em></>}
       </h2>
       {right}
     </div>
-    {lede && <p style={{margin:"12px 0 0", fontSize:15, lineHeight:1.55,
-      color:T.ink70, maxWidth:760, textWrap:"pretty"}}>{lede}</p>}
+    {lede && <p className="prose" style={{margin:"14px 0 0", fontSize:16, lineHeight:1.6,
+      color:T.ink70}}>{lede}</p>}
+  </div>
+);
+
+// Masthead metadata cell — the same label/value pairing as Def, laid out
+// for a horizontal ruled strip rather than a stacked list.
+const MetaCell = ({label, value, note, tone}) => (
+  <div style={{padding:"16px 20px", display:"flex", flexDirection:"column", gap:5}}>
+    <Eyebrow style={{fontSize:10.5, letterSpacing:"0.12em"}}>{label}</Eyebrow>
+    <div style={{fontSize:14.5, lineHeight:1.5, color:tone ?? T.ink, textWrap:"pretty"}}>{value}</div>
+    {note && <div style={{fontFamily:MONO, fontSize:11, letterSpacing:"0.04em", color:C.red}}>{note}</div>}
   </div>
 );
 
@@ -698,15 +713,25 @@ export default function App() {
         a:hover { text-decoration:underline; }
 
         .wrap { max-width:1240px; margin:0 auto; padding:0 40px; }
-        .band { padding:48px 0; border-bottom:${HAIR}; }
-        @media(max-width:960px){ .wrap{ padding:0 24px; } }
-        @media(max-width:560px){ .wrap{ padding:0 18px; } .band{ padding:32px 0; } }
+        .band { padding:68px 0; border-bottom:${HAIR}; }
+        .band-lead { padding:64px 0 56px; }
+        @media(max-width:960px){ .wrap{ padding:0 24px; } .band{ padding:48px 0; } }
+        @media(max-width:560px){ .wrap{ padding:0 18px; } .band{ padding:34px 0; }
+          .band-lead{ padding:28px 0 32px; } }
 
-        .h1 { font-size:40px; font-weight:400; letter-spacing:-0.022em; line-height:1.08;
-              margin:0; text-wrap:balance; }
-        .h2 { font-size:28px; }
-        @media(max-width:960px){ .h1{ font-size:32px; } }
-        @media(max-width:560px){ .h1{ font-size:26px; } .h2{ font-size:22px; } }
+        /* The type scale is the institution's own, which the dashboard had
+           been undershooting: 68/42 against a 72/44 house scale. Fluid so
+           the display sizes stand down gracefully on a phone. */
+        .h1 { font-size:clamp(32px, 5.4vw, 68px); font-weight:400; letter-spacing:-0.032em;
+              line-height:0.99; margin:0; text-wrap:balance; }
+        .h2 { font-size:clamp(25px, 3.3vw, 42px); font-weight:400; letter-spacing:-0.026em;
+              line-height:1.06; margin:0; text-wrap:balance; }
+        .h3 { font-size:20px; font-weight:500; letter-spacing:-0.012em; line-height:1.3; margin:0; }
+
+        /* House measure. Prose sat at ~875px, well past the ~645px the
+           institution sets, which is what made the page read as a wall. */
+        .prose { max-width:660px; text-wrap:pretty; }
+        .prose-wide { max-width:780px; text-wrap:pretty; }
 
         /* Gapless ruled grid — hairlines drawn by the 1px gap showing through. */
         .ruled { display:grid; gap:1px; background:${T.ink20}; border:${HAIR}; }
@@ -721,8 +746,18 @@ export default function App() {
         .split { display:grid; grid-template-columns:7fr 5fr; gap:48px; align-items:start; }
         @media(max-width:960px){ .split{ grid-template-columns:1fr; gap:28px; } }
 
+        .lead-grid { display:grid; grid-template-columns:minmax(0,1fr) minmax(280px,360px);
+                     gap:56px; align-items:end; }
+        .lead-aside { padding-bottom:4px; }
+        @media(max-width:960px){ .lead-grid{ grid-template-columns:1fr; gap:28px; align-items:start; } }
+
         .brief-grid { display:grid; grid-template-columns:1fr 1fr; column-gap:48px; }
         @media(max-width:720px){ .brief-grid{ grid-template-columns:1fr; } }
+
+        .kt-cols { display:grid; grid-template-columns:150px 175px minmax(0,1fr);
+                   gap:28px; margin-bottom:12px; align-items:start; }
+        @media(max-width:720px){ .kt-cols{ grid-template-columns:1fr 1fr; gap:16px 20px; } }
+        @media(max-width:420px){ .kt-cols{ grid-template-columns:1fr; } }
 
         .rowlink:hover { background:${T.deep}; }
 
@@ -786,11 +821,15 @@ export default function App() {
         </div>
       )}
 
-      {/* ══ MASTHEAD ══ */}
-      <header className="band" style={{paddingTop:40}}>
+      {/* ══ MASTHEAD ══
+          The title runs at display scale across the full measure and the
+          metadata sits under it as a ruled strip. Held in a right-hand
+          column, the metadata was both cramped and shorter than the title
+          block, which left a void under the standing line. */}
+      <header className="band band-lead">
         <div className="wrap">
           <div style={{display:"flex", alignItems:"baseline", justifyContent:"space-between",
-            gap:20, flexWrap:"wrap", marginBottom:24}}>
+            gap:20, flexWrap:"wrap", marginBottom:28}}>
             <Eyebrow>Takshashila · India Risk Assessment</Eyebrow>
             <div style={{display:"flex", gap:8, flexWrap:"wrap"}}>
               {[{l:"X",p:"x"},{l:"LinkedIn",p:"li"},{l:"WhatsApp",p:"wa"},{l:"Copy Link",p:"copy"}].map((s,i)=>(
@@ -800,20 +839,20 @@ export default function App() {
             </div>
           </div>
 
-          <div className="split" style={{gap:40}}>
-            <div>
+          <div className="lead-grid">
+            <div style={{minWidth:0}}>
               <h1 className="h1">
                 How the West Asia War Is Hitting <em style={{color:T.wine, fontStyle:"italic"}}>India</em>
               </h1>
-              <p style={{margin:"16px 0 0", fontSize:20, fontWeight:300, lineHeight:1.45,
-                color:T.ink70, maxWidth:640, textWrap:"pretty"}}>
+              <p style={{margin:"22px 0 0", fontSize:20, fontWeight:300, lineHeight:1.5,
+                color:T.ink70, maxWidth:600, textWrap:"pretty"}}>
                 A daily reading of what the war does to India's oil, currency, markets,
                 shipping lanes and kitchen budgets. Market data syncs every four hours;
                 the war brief is written by hand from open sources.
               </p>
             </div>
-            <div>
-              <div style={{display:"flex", alignItems:"baseline", gap:14, flexWrap:"wrap", marginBottom:14}}>
+            <div className="lead-aside">
+              <div style={{display:"flex", alignItems:"center", gap:12, flexWrap:"wrap"}}>
                 <span style={{background:T.gold, color:T.ink, fontFamily:MONO, fontSize:12,
                   fontWeight:600, letterSpacing:"0.1em", padding:"10px 16px", whiteSpace:"nowrap"}}>
                   DAY {iDay}
@@ -821,24 +860,23 @@ export default function App() {
                 <button className="btn" onClick={()=>shareCard(sharePayload)}
                   title="Download today's summary as an image">Share today's card →</button>
               </div>
-              <div style={{borderTop:HAIR}}>
-                <Def label="Intel">{iUpdated}</Def>
-                {liveStamp && <Def label="Markets">{liveStamp}</Def>}
-                <Def label="Phase">{noEmoji(iExec.phase ?? iPhase)}</Def>
-                {isStale && (
-                  <Def label="Freshness">
-                    <span style={{color:C.red}}>Brief is {Math.floor(hoursOld/24)} day(s) old.</span>
-                  </Def>
-                )}
-              </div>
               {intel?._phaseBadge && (
-                <div style={{borderLeft:`2px solid ${T.wine}`, paddingLeft:20, marginTop:20}}>
-                  <div style={{fontSize:14, lineHeight:1.6, color:T.ink70, textWrap:"pretty"}}>
+                <div style={{borderLeft:`2px solid ${T.wine}`, paddingLeft:18, marginTop:22}}>
+                  <div style={{fontSize:14.5, lineHeight:1.65, color:T.ink70, textWrap:"pretty"}}>
                     {deshout(noEmoji(intel._phaseBadge))}
                   </div>
                 </div>
               )}
             </div>
+          </div>
+
+          {/* Standing metadata, as one ruled strip across the full width. */}
+          <div className="ruled c3" style={{marginTop:40}}>
+            <MetaCell label="Intel as of" value={iUpdated}/>
+            <MetaCell label="Markets as of" value={liveStamp ?? "—"}/>
+            <MetaCell label="Phase" value={noEmoji(iExec.phase ?? iPhase)}
+              tone={isStale ? C.red : undefined}
+              note={isStale ? `Brief is ${Math.floor(hoursOld/24)} day(s) old` : undefined}/>
           </div>
         </div>
       </header>
@@ -864,7 +902,7 @@ export default function App() {
 
       {/* ══ OVERVIEW — what changed, then the strip, then the brief ══ */}
       <Band id="overview">
-        <Head eyebrow={noEmoji(iWC.label || "What changed")} title="What changed" em="today"
+        <Head n="01" eyebrow={noEmoji(iWC.label || "What changed")} title="What changed" em="today"
           lede="The day's developments, newest first. Open an item for the reasoning behind it."/>
 
         {!(iWC.items||[]).length && <Empty label="Today's changes"/>}
@@ -953,7 +991,7 @@ export default function App() {
         </button>
         {aboutOpen && (
           <div style={{borderLeft:`2px solid ${T.wine}`, paddingLeft:24, marginTop:16,
-            maxWidth:820, animation:"fadein 0.2s ease both"}}>
+            maxWidth:660, animation:"fadein 0.2s ease both"}}>
             <p style={{margin:0, fontSize:15, lineHeight:1.65, color:T.ink70, textWrap:"pretty"}}>
               This is India's war tracker rather than a global one. It follows what the
               Iran-Gulf war means for energy prices, food security, financial markets,
@@ -970,25 +1008,17 @@ export default function App() {
 
       {/* ══ MARITIME ══ */}
       <Band id="hormuz" deep>
-        <Head eyebrow="Maritime" title="Hormuz, India's energy" em="lifeline"
+        <Head n="02" eyebrow="Maritime" title="Hormuz, India's energy" em="lifeline"
           lede="A 39km chokepoint that carried 40% of India's crude, 60% of its LNG and 90% of its LPG before the war. What happens here still lands at the pump."/>
 
-        <div className="ruled c2" style={{marginBottom:20, background:T.ink20}}>
-          <div style={{padding:"20px 22px"}}>
-            <Eyebrow style={{marginBottom:8}}>Status</Eyebrow>
-            <div style={{fontSize:14.5, lineHeight:1.6, color:T.ink70, textWrap:"pretty"}}>
-              {noEmoji(clampSentences(iHormuz?.status || "Status pending.", 3))}
-            </div>
-          </div>
-          <div style={{padding:"20px 22px"}}>
-            <Eyebrow style={{marginBottom:8}}>Ship traffic</Eyebrow>
-            <div style={{fontSize:16, fontWeight:500, color:T.ink, marginBottom:6}}>
-              {deshout(noEmoji(clampSentences(iHormuz?.currentFlow || "Near-zero commercial transit", 2)))}
-            </div>
-            <div style={{fontFamily:MONO, fontSize:10.5, letterSpacing:"0.06em", color:T.ink50, ...NUM}}>
-              PRE-WAR: {(iHormuz?.preWarFlow || "~90–140 SHIPS/DAY").toUpperCase()}
-            </div>
-          </div>
+        {/* The narrative leads as prose. Sat in a two-up beside the traffic
+            figure it forced both cells to the height of the longer one,
+            which left the right-hand cell mostly empty. */}
+        <div style={{borderLeft:`2px solid ${T.wine}`, paddingLeft:24, marginBottom:28}}>
+          <Eyebrow style={{marginBottom:8}}>Status</Eyebrow>
+          <p className="prose" style={{margin:0, fontSize:16, lineHeight:1.7, color:T.ink70}}>
+            {noEmoji(clampSentences(iHormuz?.status || "Status pending.", 3))}
+          </p>
         </div>
 
         {(iHormuz?.indianCasualties ?? 0) > 0 && (
@@ -1000,28 +1030,36 @@ export default function App() {
               </span>
               <span style={{fontSize:15, color:T.ink}}>Indian sailors killed</span>
             </div>
-            <div style={{fontSize:14, lineHeight:1.6, color:T.ink70}}>
+            <div className="prose" style={{fontSize:14, lineHeight:1.65, color:T.ink70}}>
               {noEmoji(iHormuz?.indianCasualtyDetail || "Details pending.")}
             </div>
           </div>
         )}
 
-        <Eyebrow style={{marginBottom:12}}>India's Hormuz exposure</Eyebrow>
-        <div className="ruled c3" style={{marginBottom:24}}>
+        <Eyebrow style={{marginBottom:12}}>Traffic and India's exposure</Eyebrow>
+        <div className="ruled c4" style={{marginBottom:28}}>
           {[
+            {l:"Ship traffic", v:deshout(noEmoji(clampSentences(iHormuz?.currentFlow || "Near-zero transit", 1))),
+             sub:`Pre-war ${iHormuz?.preWarFlow || "~90–140 ships/day"}`},
             {l:"Ships in Gulf", v:iHormuz?.indianVesselsNear ?? "—",
              sub:`${iHormuz?.indianSeafarers ?? "—"} seafarers on Indian-flagged vessels`},
             {l:"Crossed safely", v:iHormuz?.indianTransited ?? "—",
              sub:iHormuz?.totalShipsWaiting || "Status pending"},
             {l:"Navy escort", v:"Active", sub:"Operation Urja Suraksha"},
-          ].map((s,i)=>(
-            <div key={i} style={{padding:"20px 22px"}}>
-              <Eyebrow style={{marginBottom:8}}>{s.l}</Eyebrow>
-              <div style={{fontSize:30, fontWeight:400, letterSpacing:"-0.02em", lineHeight:1,
-                color:T.ink, marginBottom:8, ...NUM}}>{s.v}</div>
-              <div style={{fontSize:13, lineHeight:1.5, color:T.ink70}}>{clampSentences(noEmoji(s.sub), 2)}</div>
-            </div>
-          ))}
+          ].map((s,i)=>{
+            const str = String(s.v);
+            // Short values stay at figure scale; a phrase steps down so the
+            // row keeps a single baseline instead of one cell towering.
+            const size = str.length <= 8 ? 30 : str.length <= 22 ? 19 : 15.5;
+            return (
+              <div key={i} style={{padding:"20px 22px"}}>
+                <Eyebrow style={{marginBottom:8}}>{s.l}</Eyebrow>
+                <div style={{fontSize:size, fontWeight:size>20?400:500, letterSpacing:"-0.02em",
+                  lineHeight:size>20?1:1.35, color:T.ink, marginBottom:8, textWrap:"pretty", ...NUM}}>{s.v}</div>
+                <div style={{fontSize:13, lineHeight:1.5, color:T.ink70}}>{clampSentences(noEmoji(s.sub), 2)}</div>
+              </div>
+            );
+          })}
         </div>
 
         <Eyebrow style={{marginBottom:12}}>Timeline · latest first · select a row to expand</Eyebrow>
@@ -1033,7 +1071,7 @@ export default function App() {
 
       {/* ══ HOUSEHOLD ══ */}
       <Band id="kitchen">
-        <Head eyebrow="Household" title="The kitchen" em="table"
+        <Head n="03" eyebrow="Household" title="The kitchen" em="table"
           lede="What the war costs an Indian household today, item by item, against pre-war prices."/>
         {!iKitchen.length && <Empty label="Household price table"/>}
         {iKitchen.length > 0 && (
@@ -1053,17 +1091,21 @@ export default function App() {
                       {noEmoji(h.statusText || h.chg || "")}
                     </span>
                   </div>
-                  <div style={{display:"flex", gap:32, flexWrap:"wrap", marginBottom:10}}>
+                  {/* Fixed tracks, so pre-war, now and the outlook line up
+                      down the table. A flex row let each row set its own
+                      column positions from its own content width. */}
+                  <div className="kt-cols">
                     {[["Pre-war", h.pre], ["Now", h.now], ["Two weeks", h.twoWeek||h.proj]].map(([l,v],j)=>(
-                      <div key={j} style={{minWidth:120}}>
+                      <div key={j} style={{minWidth:0}}>
                         <div style={{fontFamily:MONO, fontSize:10, letterSpacing:"0.08em",
-                          textTransform:"uppercase", color:T.ink50, marginBottom:3}}>{l}</div>
-                        <div style={{fontSize:14, color:j===1?T.ink:T.ink70, ...NUM}}>{noEmoji(v)}</div>
+                          textTransform:"uppercase", color:T.ink50, marginBottom:4}}>{l}</div>
+                        <div style={{fontSize:14, lineHeight:1.5, color:j===1?T.ink:T.ink70,
+                          fontWeight:j===1?500:400, textWrap:"pretty", ...NUM}}>{noEmoji(v)}</div>
                       </div>
                     ))}
                   </div>
                   {(h.detail||h.note) && (
-                    <div style={{fontSize:14, lineHeight:1.6, color:T.ink70, maxWidth:900, textWrap:"pretty"}}>
+                    <div style={{fontSize:14, lineHeight:1.6, color:T.ink70, maxWidth:660, textWrap:"pretty"}}>
                       {noEmoji(h.detail||h.note)}
                     </div>
                   )}
@@ -1077,7 +1119,7 @@ export default function App() {
 
       {/* ══ MARKETS ══ */}
       <Band id="economic" deep>
-        <Head eyebrow="Markets" title="Economic impact on" em="India"
+        <Head n="04" eyebrow="Markets" title="Economic impact on" em="India"
           lede="Index levels, foreign flows and the two series that move the rest — crude and the rupee."/>
 
         <div className="ruled c4" style={{marginBottom:24}}>
@@ -1099,7 +1141,7 @@ export default function App() {
         {iEcon?.analysis && (
           <div style={{borderLeft:`2px solid ${T.wine}`, paddingLeft:24}}>
             <Eyebrow style={{marginBottom:8}}>Market analysis</Eyebrow>
-            <div style={{fontSize:15, lineHeight:1.65, color:T.ink70, maxWidth:900, textWrap:"pretty"}}>
+            <div style={{fontSize:15, lineHeight:1.65, color:T.ink70, maxWidth:660, textWrap:"pretty"}}>
               {noEmoji(clampSentences(iEcon.analysis, 4))}
             </div>
           </div>
@@ -1108,7 +1150,7 @@ export default function App() {
 
       {/* ══ MILITARY ══ */}
       <Band id="military">
-        <Head eyebrow="Military" title="Military and strategic" em="updates"
+        <Head n="05" eyebrow="Military" title="Military and strategic" em="updates"
           lede="Developments with a bearing on Indian shipping, energy routes or citizens in the region."/>
         {!iMilitary.length && !iMilTop.length && <Empty label="Military updates"/>}
         {(iMilitary.length || iMilTop.length) > 0 && (
@@ -1126,7 +1168,7 @@ export default function App() {
                       lineHeight:1.3, color:T.ink, textWrap:"balance"}}>{deshout(noEmoji(m.t))}</span>
                     {m.lv && <Chip color={m.lv==="BREAKING"?C.red:T.ink50}>{m.lv}</Chip>}
                   </div>
-                  <div style={{fontSize:14.5, lineHeight:1.6, color:T.ink70, maxWidth:900, textWrap:"pretty"}}>
+                  <div style={{fontSize:14.5, lineHeight:1.6, color:T.ink70, maxWidth:660, textWrap:"pretty"}}>
                     {noEmoji(clampSentences(m.d, 2))}
                   </div>
                 </div>
@@ -1138,10 +1180,10 @@ export default function App() {
 
       {/* ══ NUCLEAR ══ */}
       <Band id="nuclear" deep>
-        <Head eyebrow="Nuclear" title="Nuclear" em="exposure"
+        <Head n="06" eyebrow="Nuclear" title="Nuclear" em="exposure"
           lede="Iranian site status and India's downwind position. Scores here are analytical estimates, not measurements."/>
 
-        <div style={{borderLeft:`2px solid ${T.wine}`, paddingLeft:24, marginBottom:28, maxWidth:900}}>
+        <div style={{borderLeft:`2px solid ${T.wine}`, paddingLeft:24, marginBottom:28, maxWidth:700}}>
           <Eyebrow style={{marginBottom:8}}>India nuclear risk — headline</Eyebrow>
           <p style={{margin:0, fontSize:15, lineHeight:1.65, color:T.ink70, textWrap:"pretty"}}>
             Bushehr, a working reactor, has been struck: the IAEA reports strikes 250 feet
@@ -1153,7 +1195,7 @@ export default function App() {
         </div>
 
         <Eyebrow style={{marginBottom:10}}>Atmospheric transport — assessment</Eyebrow>
-        <div style={{borderTop:HAIR, marginBottom:28, maxWidth:900}}>
+        <div style={{borderTop:HAIR, marginBottom:28, maxWidth:760}}>
           <Def label="Key insight">Prevailing westerlies at 500 hPa place north-west India four to seven days downwind of Iranian nuclear sites.</Def>
           <Def label="Watchlist">Bushehr reactor integrity; the Isfahan HEU tunnel complex; IAEA site access.</Def>
           <Def label="Confidence">Analytical estimate. No radiological release has been confirmed to date. Fallout modelling: <a href="https://www.ready.noaa.gov/HYSPLIT.php" target="_blank" rel="noopener noreferrer" style={{whiteSpace:"nowrap"}}>NOAA HYSPLIT ↗</a></Def>
@@ -1187,7 +1229,7 @@ export default function App() {
                 </div>
                 {expNuke===i && (
                   <div style={{fontSize:14.5, lineHeight:1.65, color:T.ink70, marginTop:12,
-                    maxWidth:900, animation:"fadein 0.2s ease both", textWrap:"pretty"}}>
+                    maxWidth:660, animation:"fadein 0.2s ease both", textWrap:"pretty"}}>
                     {noEmoji(n.info)}
                   </div>
                 )}
@@ -1199,7 +1241,7 @@ export default function App() {
         {iCities.length > 0 && (
           <>
             <Eyebrow style={{marginBottom:8}}>Indian city exposure</Eyebrow>
-            <p style={{margin:"0 0 16px", fontSize:14, color:T.ink70, maxWidth:760}}>
+            <p style={{margin:"0 0 16px", fontSize:14, color:T.ink70, maxWidth:660}}>
               A composite of wind trajectory (nuclear), sea proximity (oil shock) and distance
               to nuclear facilities. Weights are the tracker's own; treat the ranking as
               indicative rather than measured.
@@ -1239,7 +1281,7 @@ export default function App() {
 
       {/* ══ RISK INDEX ══ */}
       <Band id="radar">
-        <Head eyebrow="Risk index" title="Where the risk" em="sits"
+        <Head n="07" eyebrow="Risk index" title="Where the risk" em="sits"
           lede="Six axes scored 0–100. Week 1 is the war's opening reading, the outlook is a twelve-week extrapolation rather than a forecast."/>
         {!iRadar.length && <Empty label="Risk index"/>}
         {iRadar.length > 0 && (
@@ -1284,7 +1326,7 @@ export default function App() {
 
       {/* ══ ARCHIVE ══ */}
       <Band id="warlog" deep>
-        <Head eyebrow="Archive" title="The war" em="log"
+        <Head n="08" eyebrow="Archive" title="The war" em="log"
           lede="Every logged session since Day 1, newest first."/>
         <WarInNumbers timeline={intel?.timeline}/>
 
@@ -1332,11 +1374,11 @@ export default function App() {
 
       {/* ══ ASSESSMENT ══ */}
       <Band id="assessment">
-        <Head eyebrow="Assessment" title="Strategic" em="assessment"
+        <Head n="09" eyebrow="Assessment" title="Strategic" em="assessment"
           lede="The tracker's reading of where this is going, and what would change it."/>
         {!iAssess && <Empty label="Strategic assessment"/>}
         {iAssess && (
-          <div style={{borderLeft:`2px solid ${T.wine}`, paddingLeft:28, maxWidth:900}}>
+          <div style={{borderLeft:`2px solid ${T.wine}`, paddingLeft:28, maxWidth:700}}>
             {iAssess.headline && (
               <div style={{fontSize:22, fontWeight:400, letterSpacing:"-0.01em", lineHeight:1.35,
                 color:T.ink, marginBottom:20, paddingBottom:18, borderBottom:HAIR, textWrap:"balance"}}>
