@@ -1,5 +1,5 @@
 {
-  "_updated": "August 17, 2026 — 9:00 AM IST (pre-open)",
+  "_updated": "August 17, 2026 — 2:50 PM IST (mid-session)",
   "_asOf": "2026-08-17",
   "_start": "2026-02-28",
   "_day": 171,
@@ -11,69 +11,69 @@
     "petrol": 94.72,
     "diesel": 87.62
   },
-  "_phase": "THE 60-DAY US-IRAN MEMORANDUM EXPIRES TODAY WITH NEITHER SIDE MOVING TO EXTEND IT",
+  "_phase": "THE MEMORANDUM EXPIRES WITH NO DEAL — AND NO SHIP AT ALL CROSSED HORMUZ ON SUNDAY",
   "_note": "Verified: NPR, CNN, CBS, Fox News, The Hill, Washington Times (Jul 15-16), CENTCOM statements, HDFC Sky, Business Standard (Jul 14-15 closes), TradingEconomics, Investing.com (Brent live Jul 16), Zee Business",
   "ticker": [
-    "THE 60-DAY US-IRAN MEMORANDUM EXPIRES TODAY WITH NO SIGN OF AN EXTENSION",
-    "ARAGHCHI: \"WE HAVE NOT YET MADE A DECISION TO RESTART NEGOTIATIONS WITH THE UNITED STATES\"",
-    "TEHRAN SAYS IT HAS AN OMAN ROUTE UNDERSTANDING — BUT TIES REOPENING TO LIFTING THE BLOCKADE",
-    "WEEKEND TRANSITS SLOWED FURTHER AFTER THE ADNOC TANKER ATTACKS (REUTERS)",
-    "UKMTO: 16 OF 18 PROJECTILE STRIKES SINCE JULY 6 ON THE SOUTHERN OMANI CORRIDOR",
-    "ERDOGAN: TURKEY AND IRAN BOTH WANT OIL MOVING THROUGH HORMUZ",
-    "BRENT SETTLED FRIDAY AT $88.52, UP MORE THAN 5% ON THE WEEK"
+    "KPLER: NO TRANSITS AT ALL TRACKED THROUGH HORMUZ ON SUNDAY",
+    "THE 60-DAY US-IRAN MEMORANDUM EXPIRES TODAY WITH NO DEAL AND NO REPLACEMENT",
+    "IRAN'S ARMY CHIEF OFFERS ~$30,000 BOUNTY FOR CAPTURING OR KILLING US PERSONNEL",
+    "ARAGHCHI: NO TALKS UNTIL WASHINGTON ENDS ITS VIOLATIONS AND COMPENSATES IRAN",
+    "BRENT STEADY NEAR $89 — INDIAN MARKETS PARE LOSSES AT MIDDAY",
+    "SENSEX 77,830 (-0.23%), NIFTY 24,340 (-0.11%) AT 2PM; INFOSYS, TCS, HCLTECH LEAD LOSERS",
+    "FIIs TURNED BUYERS ON AUG 14, PURCHASING RS 508 CRORE OF EQUITIES"
   ],
   "whatChanged": {
-    "label": "What changed — Monday August 17, 9:00 AM IST (Day 171) — pre-open",
+    "label": "What changed — Monday August 17, 2:50 PM IST (Day 171) — mid-session",
     "items": [
       {
         "color": "red",
-        "bold": "The 60-day US-Iran memorandum expires today, with no extension in sight",
-        "text": "The framework signed on 17 June — under which Iran was to clear mines from the strait and allow vessels to pass without charge for 60 days, reaffirm that it would not seek nuclear weapons and negotiate on enrichment — lapses on Monday. Both sides have accused the other of violating it for weeks, and there is little sign either wants to extend. Araghchi said on Telegram at the weekend that Iran has not yet decided whether to restart talks. Qatari and Pakistani mediators are still exchanging messages with Tehran."
+        "bold": "No ship at all was tracked crossing Hormuz on Sunday",
+        "text": "Kpler data reported by Reuters showed no transits whatsoever through the strait on Sunday, after traffic slowed through the weekend in the wake of the ADNOC tanker attacks. Friday had already seen no crude shipments and only two non-oil vessels. Against a pre-war baseline of roughly 120 to 130 ships a day, this is the most complete stoppage of the war so far."
       },
       {
-        "color": "amber",
-        "bold": "Iran says it has a route understanding with Oman — conditional on the blockade ending",
-        "text": "Araghchi confirmed Tehran is working on a separate agreement with Oman covering new shipping routes through the strait, but stressed it is only possible if a political solution is reached. Iran's position remains that as long as the US naval blockade continues, the conditions for reopening do not exist. Washington has said it would lift the blockade once Iran and Oman agree arrangements. Assessment: the sequencing, not the substance, is now the obstacle."
+        "color": "red",
+        "bold": "The 60-day memorandum expired with no deal and nothing to replace it",
+        "text": "Monday marked 60 days since Trump and President Pezeshkian signed the framework in talks hosted by Pakistan. Under it the US was to lift the naval blockade within 30 days and, on a final agreement, withdraw forces, lift sanctions, grant exemptions for Iranian oil exports, release frozen funds and prepare a reconstruction package worth at least $300 billion; Iran was to clear mines and ensure free passage for 60 days. Trump declared it over on 7 July. Araghchi now says negotiations cannot resume until Washington ends its violations and compensates Iran for them."
       },
       {
         "color": "orange",
-        "bold": "Weekend traffic slowed further after the tanker attacks",
-        "text": "Shipping data reported by Reuters on Sunday showed vessel traffic through the strait slowing over the weekend, following the ADNOC tanker attacks and the lack of progress in talks. UKMTO figures show the temporary southern Omani corridor accounting for 16 of the 18 projectile strikes reported since 6 July. Traffic had fallen to about 4% of pre-war levels the previous week before a slight improvement; product tankers are the most common vessel crossing, and no US-flagged ships were recorded."
+        "bold": "Iran's army chief offers a bounty for US personnel",
+        "text": "Major General Amir Hatami said at a ceremony in Tehran on Sunday that any Iranian who captured or killed a US service member would receive about 5 billion tomans, roughly $30,000, alongside fresh warnings about Iran's capabilities. The appointment of former IRGC chief Mohsen Rezaei to head the Supreme National Security Council points the same way: analysts read the reshuffle as Tehran believing it holds the stronger position, particularly on control of the strait."
       },
       {
         "color": "cyan",
-        "bold": "Ankara positions itself alongside Tehran on keeping oil moving",
-        "text": "In an interview with Al Jazeera, President Erdogan said both Turkey and Iran support keeping oil flowing through Hormuz, and expressed serious concern about continued Israeli attacks on Lebanon, where 11 people were killed on Sunday. Assessment: with Qatar demanding unconditional reopening and Turkey now saying the same, the regional consensus on restoring transit is broader than the US-Iran track suggests — and it is the track that serves India's interest most directly."
+        "bold": "Indian markets pared losses; foreign investors turned buyers on Friday",
+        "text": "The Sensex opened 116 points down at 77,892.92 and the Nifty at 24,343.45, before both recovered from the day's low on strength in realty, metal and auto; at 2pm the Sensex was at 77,830.03 (-0.23%) and the Nifty at 24,339.85 (-0.11%), with Infosys, TCS and HCLTech the top losers. Foreign institutional investors bought ₹508.12 crore of equities on 14 August and domestic institutions ₹356.40 crore — a reversal of the outflows of recent weeks. Asian markets were mixed, with the Hang Seng up 1.6% and Shanghai down 0.84%."
       },
       {
         "color": "purple",
-        "bold": "Washington presses partners to take sides, and trims elsewhere",
-        "text": "President Trump said on Sunday that he had instructed the Pentagon to substantially reduce joint military exercises with South Korea, criticising Seoul for refusing to participate in US actions against Iran. It follows the withdrawal of the last US aircraft carrier from Asia. Assessment: partners that decline to join are being made to feel a cost, which is the pressure environment India's own non-alignment on this war has to operate in."
+        "bold": "The parallel Gaza track continues, and Israel has rejected the deal",
+        "text": "Jared Kushner met Hamas leaders in Egypt on Sunday to discuss the latest US-backed peace agreement, which Prime Minister Netanyahu rejected last week. Israeli strikes killed 11 people in Lebanon on Sunday. Assessment: a settlement in Gaza has repeatedly been treated by Tehran as a precondition for broader de-escalation, so movement there is not unrelated to the strait."
       }
     ]
   },
   "deaths": "7,199+",
   "econ": {
-    "sensex": "78,009.25 (close, -0.09%)",
-    "sensexDelta": "Fri Aug 14 close: -70.71 points",
-    "sensexSub": "Recovered from an early fall of more than 300 points to close 71 points lower. Breadth was weak — 2,244 decliners against 1,855 advancers — with midcaps down 0.53% and smallcaps 0.69%. Media and consumer durables were the only sectoral gainers.",
+    "sensex": "77,830.03 (2pm, -0.23%)",
+    "sensexDelta": "Mon Aug 17, 2:00 PM: -179.22 points",
+    "sensexSub": "Opened 116 points lower at 77,892.92 and recovered from the day's low as realty, metal and auto advanced. Infosys, TCS and HCLTech were the top Nifty losers. Friday closed at 78,009.25.",
     "vix": "~13.1 — EASING",
     "vixDelta": "-4.51% to 13.14 Wed open, ~-3% at close — volatility compressing despite blockade. Tue: 13.75 (+3.53%). Well below wartime 24-27; markets treating this as a contained maritime campaign, not full war.",
     "fpi": "+$1.3bn in August so far",
-    "fpiDelta": "Foreign investors net bought roughly $1.3bn of Indian equities in August to date after $2.1bn in July. These inflows are the main counterweight to crude — if they turn while Brent holds above $88, equities and the rupee lose both supports at once.",
+    "fpiDelta": "FIIs bought ₹508.12 crore on Aug 14; DIIs ₹356.40 crore",
     "wealth": "BSE market cap ~Rs 485-490 trillion — resilient through the blockade week. WPI 9.87% June (from 9.68%) — war transmission to wholesale prices confirmed. Net direct tax +16.4% YTD to Rs 6.51L Cr (till Jul 13). RBI Aug MPC calculus now complicated by oil + rupee + WPI.",
-    "analysis": "This week opens with a dateline rather than a data point: the June memorandum lapses today, and the market has not had a clean session in which to price either that or the weekend collapse in transits. Friday's $88.52 Brent settle and the Nifty's 71-point give-up were both struck on incomplete information. The mechanical sequence to watch for India is unchanged — crude first, then the rupee against the RBI's defended range near ₹95.5, then oil marketing, paint, tyre and aviation names, with upstream outperforming. The more interesting question is whether an expiry with no replacement is read as escalation or as the removal of a fiction that stopped functioning in July. A case can be made for the second: the memorandum has been disputed since June 27 and effectively dead since last month, so its formal lapse changes little on the water. What would change things on the water is the Iran-Oman route understanding, and that remains hostage to the blockade being lifted first."
+    "analysis": "The striking thing about today is how little the market has moved against how much the news has hardened. The memorandum expired, no ship crossed the strait on Sunday, and Iran's army chief put a price on American servicemen — and the Nifty is down 26 points. Part of that is Brent sitting steady near $89 rather than spiking, which suggests the oil market had already priced an indefinite closure. Part of it is domestic: foreign investors bought ₹508 crore on Friday, their first meaningful buying in weeks, and domestic institutions added ₹356 crore. The read is that Indian equities have decoupled somewhat from the war headlines and are trading earnings and rates instead. That is sustainable only while the disruption stays financial. A zero-transit week that begins to affect physical availability of LPG or refinery feedstock would re-couple them quickly, and the rupee would move first."
   },
   "hormuzStatus": {
-    "status": "The 60-day memorandum of understanding signed by the United States and Iran on 17 June expires today, with neither side moving to extend it and both having accused the other of violating it since June 27. Iran's foreign minister Abbas Araghchi said at the weekend that Tehran has not yet decided whether to restart negotiations, while confirming work on a separate understanding with Oman covering new shipping routes — possible, he said, only alongside a political solution. Tehran's position is that while the US naval blockade continues, the conditions for reopening do not exist; Washington says it will lift the blockade once Iran and Oman agree arrangements. Vessel traffic slowed further over the weekend after three ADNOC tankers were attacked in 48 hours.",
+    "status": "The 60-day memorandum of understanding signed on 17 June by President Trump and President Pezeshkian expired today with no deal and no replacement. Under it the United States was to lift its naval blockade within 30 days and, on a final agreement, withdraw forces, lift sanctions, exempt Iranian oil exports, release frozen funds and prepare a reconstruction package worth at least $300 billion, while Iran was to clear mines and ensure free passage for 60 days. Trump declared it over on 7 July. Foreign Minister Araghchi now says talks cannot resume until Washington ends its violations and compensates Iran, and that an understanding with Oman does not by itself mean the strait reopens. Kpler tracked no transits at all on Sunday.",
     "preWarFlow": "~90-140 ships/day",
-    "currentFlow": "Slowing again after the weekend attacks",
+    "currentFlow": "No transits tracked on Sunday",
     "reduction": "Brent settled $89.86 for October delivery, up $2.14 or 2.44% — a fifth consecutive rise and the highest in over a week, having touched roughly $90 intraday. That is about 38% above the pre-war $65. Crude has now spent three sessions above the $85 line at which India's under-recovery question reopens.",
     "indianVesselsNear": 7,
     "indianSeafarers": 148,
     "indianTransited": 1,
     "totalShipsWaiting": "Significantly reduced from wartime peak of 20,000+. 3 Indian tankers safely crossed. But US oil licence revocation + Hormuz re-closure claims = uncertainty for remaining stranded vessels. India seafarer repatriation: mostly achieved for Indian-flagged vessels that transited. MT Settebello diplomatic track: ongoing.",
-    "lastTransit": "Shipping data reported by Reuters on Sunday showed traffic slowing over the weekend. The temporary southern Omani corridor accounts for 16 of the 18 projectile strikes recorded by UKMTO since 6 July, and traffic was about 4% of pre-war levels the previous week before a slight improvement. Product tankers are the most common vessel crossing; no US-flagged ships were recorded.",
+    "lastTransit": "Kpler data reported by Reuters recorded no vessel transits whatsoever through the strait on Sunday, following a weekend slowdown after the ADNOC tanker attacks. Friday saw two non-oil vessels and no crude shipments, against a pre-war average of 120-130 ships a day.",
     "indianNavyEscort": "Op Urja Suraksha: transitioning given formal blockade lift. MT Settebello diplomatic track continues independent of the broader deal. India's 18,000+ seafarer repatriation should now accelerate given the 'immediate effect' confirmation from Pakistan's PM.",
     "headline": "TWO STORIES ON THE SAME DAY: THE MEDIATORS SAY AN ARRANGEMENT IS CLOSE, THE PRINCIPALS HARDENED THEIR TERMS, AND A US HELICOPTER PUT MISSILES INTO A SHIP'S ENGINE ROOM. BRENT SETTLED AT $89.86.",
     "indianCasualties": 4,
@@ -82,7 +82,7 @@
   "hormuzEvents": [
     {
       "d": "Aug 16-17",
-      "e": "DAY 170-171 — THE MEMORANDUM LAPSES. The 60-day memorandum of understanding signed by the United States and Iran on 17 June expires on Monday, with little sign either side intends to extend it. Under the agreement Iran was to clear mines from the strait and allow commercial vessels to pass without charge for 60 days, reaffirm that it would not seek nuclear weapons, and negotiate on enrichment ahead of a final deal to be backed by the United Nations. Disputes began almost immediately over whether it was a ceasefire or a permanent settlement, and by 27 June Trump was describing Iranian strikes as a foolish violation while Tehran said US strikes breached Article 1. Foreign Minister Abbas Araghchi said on Telegram on Saturday that Iran has not yet made a decision to restart negotiations, adding that Tehran is working on a separate agreement with Oman on new shipping routes that is only possible if a political solution is reached. Qatari and Pakistani mediators continue to exchange messages. Vessel traffic slowed further over the weekend following the ADNOC tanker attacks."
+      "e": "DAY 170-171 — THE MEMORANDUM EXPIRES AND TRANSITS REACH ZERO. The 60-day memorandum of understanding signed on 17 June by Donald Trump and Masoud Pezeshkian, following high-level talks hosted by Pakistan, expired on Monday with no deal and no replacement. Under its terms the United States was to lift the naval blockade within 30 days and, on reaching a final agreement, withdraw its forces, lift sanctions, grant exemptions for Iranian oil exports, restore access to frozen funds and prepare a reconstruction and development package worth at least $300 billion; Iran was to clear the strait of mines and ensure free passage for 60 days. Both sides alleged violations within ten days, and Trump declared the agreement over on 7 July. Kpler tracking reported by Reuters recorded no transits whatsoever through the strait on Sunday. Iran's army chief, Major General Amir Hatami, announced a reward of about 5 billion tomans, roughly $30,000, for any Iranian who captures or kills a US service member. Foreign Minister Abbas Araghchi said negotiations cannot resume until Washington ends its violations and compensates Iran, and that the Oman understanding does not by itself reopen the waterway."
     },
     {
       "d": "Aug 14-16",
@@ -258,6 +258,18 @@
   ],
   "military": [
     {
+      "t": "Aug 17 — The 60-day memorandum expires with no deal and no replacement",
+      "lv": "BREAKING",
+      "color": "red",
+      "d": "Monday marked 60 days since the framework was signed in Pakistan-hosted talks. Under it the US was to lift its naval blockade within 30 days and, on a final deal, withdraw forces, lift sanctions, exempt Iranian oil exports, release frozen funds and prepare at least $300 billion in reconstruction; Iran was to clear mines and guarantee free passage. Trump declared it over on 7 July and strikes resumed, killing at least 50 people in what Tehran called civilian infrastructure. Araghchi says talks cannot resume without US compensation for violations."
+    },
+    {
+      "t": "Aug 16 — Iran's army chief offers a bounty for capturing or killing US personnel",
+      "lv": "BREAKING",
+      "color": "orange",
+      "d": "Major General Amir Hatami told a ceremony in Tehran that any Iranian who captured or killed a US service member would receive about 5 billion tomans, roughly $30,000, and issued fresh warnings about Iranian capabilities. The appointment of former IRGC commander Mohsen Rezaei to lead the Supreme National Security Council is read by analysts as evidence Tehran believes it holds the stronger hand, particularly over control of the strait."
+    },
+    {
       "t": "Aug 17 — The June memorandum expires with neither side extending it",
       "lv": "BREAKING",
       "color": "red",
@@ -280,18 +292,6 @@
       "lv": "BREAKING",
       "color": "orange",
       "d": "Speaking at the David S. Mack Center in Nassau County, New York, the President said that after defeating Iran he would \"pretty soon\" be declaring the strait a territory of the United States, without setting out any legal authority for it. Iran's deputy foreign minister for legal and international affairs, Kazem Gharibabadi, responded that the waterway cannot be seized by tweet, aircraft carrier, order or election speech. Assessment: a claim of sovereignty over an international strait cuts against the freedom-of-navigation principle India has consistently defended, including in its own maritime disputes."
-    },
-    {
-      "t": "Aug 14 — Bessent promises measures for Iran's \"economic isolation\" that have never been seen",
-      "lv": "BREAKING",
-      "color": "red",
-      "d": "The Treasury Secretary told Newsmax that Washington would impose unprecedented economic measures while maintaining its naval blockade of Iranian ports, with further announcements expected next week. Brent rose 1.7% to close at $88.52 on the remarks, having fallen 2% the previous session. Assessment: with the blockade declared open-ended and financial pressure escalating, the near-term path for oil is set by Washington's announcements rather than by the mediation track."
-    },
-    {
-      "t": "Aug 15 — Energy security and nuclear power named in the Independence Day address",
-      "lv": "STRATEGIC",
-      "color": "cyan",
-      "d": "From the ramparts of the Red Fort, the Prime Minister identified energy security and critical minerals as priorities for meeting future energy and technology needs, called for greater nuclear capacity, and framed self-reliance as the foundation of a developed India by 2047. He unveiled seven \"Saptadhara\" reform streams. Assessment: the exposure is correctly named, but the instruments discussed are decade-scale while the pressure on households is monthly."
     }
   ],
   "nukes": [
@@ -467,8 +467,8 @@
     }
   ],
   "assessment": {
-    "headline": "The June framework expires today with nothing to replace it — but the obstacle to reopening Hormuz is now sequencing rather than substance, and that is a more tractable problem than it sounds.",
-    "body": "WHAT HAPPENED\nThe 60-day US-Iran memorandum lapses on Monday with neither side extending it. Araghchi says Iran has not decided whether to restart talks, while confirming a separate understanding with Oman on shipping routes that Tehran says requires a political settlement to activate. Iran will not reopen while the blockade stands; Washington will not lift the blockade until Iran and Oman agree arrangements. Weekend traffic slowed further after three ADNOC tankers were attacked.\n\nWHY IT MATTERS FOR INDIA\nRead the two positions carefully and they are not incompatible — they are sequenced against each other. Both sides say they want the same end state; each insists the other move first. That is a problem mediators are well suited to solve, which is why Qatar and Pakistan passing messages matters more this week than anything said in Washington. For India the practical implication is that the expiry is less consequential than it reads. The memorandum has been functionally dead since July; what lapses today is a framework nobody was following. The live variable remains the Iran-Oman route understanding, and that is closer to done than it has been at any point in this war.\n\nTHE THING TO WATCH\nWhether anything replaces the memorandum this week, and whether transits recover from the weekend's lows. If the Iran-Oman arrangement is announced without a US blockade concession, it is theatre. If it arrives with even a partial, time-limited suspension of the blockade, it is the first genuine opening since June — and Brent would take the risk premium out faster than it put it in.\n\nWHAT WOULD CHANGE THIS ASSESSMENT\nA tanker sinking, or casualties among a crew, would end the mediation track for weeks. Sixteen of the eighteen projectile strikes since 6 July have hit the southern Omani corridor without a fatality, which has been fortunate rather than by design. On the other side, an announced suspension of the blockade paired with the Oman route deal would justify a full reassessment downward."
+    "headline": "The framework expired and no ship crossed Hormuz on Sunday — yet the Nifty is down twenty-six points, which tells you Indian markets have decoupled from this war in a way that holds only while the disruption stays financial.",
+    "body": "WHAT HAPPENED\nThe 60-day US-Iran memorandum expired today with nothing to replace it, and Kpler recorded no vessel transits at all through the Strait of Hormuz on Sunday. Araghchi says talks cannot resume until Washington compensates Iran for violating the framework; Iran's army chief has offered about $30,000 for the capture or killing of a US service member. Brent is steady near $89 and the Indian benchmarks are close to flat.\n\nWHY IT MATTERS FOR INDIA\nZero is a different kind of number. Eight ships a day is a degraded market; no ships is a stopped one, even for a single day. India is not short of fuel — strategic reserves, the pivot to Russian and American crude, and rerouted LPG contracts have absorbed five months of this — but the buffer was built for a thin flow, not an absent one. The market's calm today reflects an oil price that already assumes indefinite closure and domestic institutional buying that has offset foreign outflows; notably, foreign investors themselves turned buyers on Friday. That calm is rational while the disruption remains a price phenomenon. It would not survive the disruption becoming a physical one.\n\nTHE THING TO WATCH\nWhether Monday and Tuesday register any transits at all. One zero day after a weekend of attacks is explicable as shipowners waiting out the risk; three would indicate that the insurance and charter market has withdrawn from the route entirely, which is far harder to reverse than a political decision. Watch LPG import scheduling at Indian ports before watching the index.\n\nWHAT WOULD CHANGE THIS ASSESSMENT\nThe Iran-Oman route understanding remains drafted and unexecuted, and Washington has said lifting the blockade follows from it. That sequencing problem is solvable by mediators, and Qatar and Pakistan are still working. Against that, the bounty announcement and the elevation of Rezaei both point to a Tehran that thinks time favours it — which is the reading that would keep transits near zero."
   },
   "featured": [
     {
@@ -1126,13 +1126,13 @@
   ],
   "exec": {
     "level": "SEVERE",
-    "phase": "Memorandum expiry day — sequencing, not substance, is the obstacle",
-    "oilNote": "Brent settled Friday at $88.52, up more than 5% on the week, before the weekend attacks and transit collapse were fully priced. About a third above the pre-war $65.",
-    "shipping": "TRANSITS SLOWED FURTHER",
-    "shippingSub": "Reuters reported traffic slowing again over the weekend after the ADNOC attacks. The southern Omani corridor accounts for 16 of 18 projectile strikes since 6 July. Traffic was about 4% of pre-war levels the previous week.",
-    "military": "MEMORANDUM LAPSES TODAY",
-    "militarySub": "The June 17 framework expires with neither side extending. Araghchi says no decision has been made on restarting talks; Qatari and Pakistani mediators continue. Israel killed 11 in Lebanon on Sunday.",
-    "indiaSub": "Markets open after Friday's 78,009.25 Sensex close. No shortage today, but the expiry decides whether the next month resembles the last one or is materially worse."
+    "phase": "Memorandum expired, transits at zero",
+    "oilNote": "Brent steady near $89 after Friday's $88.52 settle and a weekly gain of more than 5%. Roughly a third above the pre-war $65, with the IEA forecasting the widest supply deficit in five years.",
+    "shipping": "ZERO TRANSITS ON SUNDAY",
+    "shippingSub": "Kpler tracked no vessels at all crossing the strait on Sunday, after Friday saw two non-oil ships and no crude. Pre-war traffic was 120-130 a day. The southern Omani corridor accounts for 16 of 18 projectile strikes since 6 July.",
+    "military": "MEMORANDUM EXPIRED, BOUNTY OFFERED",
+    "militarySub": "The June framework lapsed today with no replacement. Iran's army chief offered about $30,000 for the capture or killing of US personnel. Araghchi ties any resumption of talks to US compensation for violations.",
+    "indiaSub": "Sensex 77,830 (-0.23%) and Nifty 24,340 (-0.11%) at 2pm, both off the day's lows. FIIs bought ₹508 crore on Friday, reversing recent outflows. Pump prices unchanged."
   },
   "hormuzPhases": [
     {
@@ -1176,7 +1176,7 @@
       "days": "Aug 5–"
     }
   ],
-  "_phaseBadge": "The June 17 memorandum of understanding expires today, and Araghchi says Iran has \"not yet made a decision to restart negotiations\" · Tehran says it has an understanding with Oman on shipping routes but ties any reopening to the end of the US naval blockade · Weekend transits slowed further after the tanker attacks",
+  "_phaseBadge": "Kpler tracked no transits whatsoever through the Strait of Hormuz on Sunday · The 60-day US-Iran memorandum expires today with no replacement · Iran's army chief offers a bounty of about $30,000 for the capture or killing of US personnel · Indian markets pared losses; Brent steady near $89",
   "budget": {
     "petrolPre": 94.72,
     "petrolNow": 111.21,
@@ -1186,10 +1186,10 @@
     "lpgNow": 942.0
   },
   "brief": [
-    "A deadline lands today. The 60-day memorandum of understanding that the United States and Iran signed on 17 June — the framework under which Iran was to clear mines and let ships pass free of charge — expires this Monday, and neither side has moved to extend it. Iran's foreign minister Abbas Araghchi said at the weekend that Tehran has \"not yet made a decision to restart negotiations with the United States\". Mediators from Qatar and Pakistan are still passing messages.",
-    "There is one genuinely constructive thread. Araghchi says Iran has been working out a separate understanding with Oman on new shipping routes through the strait, covering the technical, legal, security and environmental terms. But Tehran ties any reopening to the end of the US naval blockade and says a route deal is only possible alongside a political settlement. Washington has said it would lift the blockade once Iran and Oman agree arrangements — so each side is waiting for the other to move first.",
-    "For your money: Indian markets open shortly after this update. They closed Friday at Sensex 78,009.25 and Nifty 24,366, and Brent settled at $88.52 after a weekly gain of more than 5%. Oil markets were shut through the worst of the weekend news — the tanker attacks and the collapse in transits — so this week's first sessions are where it gets priced. The rupee, last near ₹95.3, is the thing to watch rather than the index.",
-    "At the pump, nothing has changed: petrol ₹111.21 a litre in Delhi, diesel ₹97.83, a cylinder ₹942. India is not short of fuel today, and reserves plus Russian and American crude have absorbed five months of this. What today's expiry decides is whether the next month looks like the last one or materially worse — and, with it, how much longer a pump revision can be deferred."
+    "Two things landed together today. The 60-day memorandum of understanding signed by the United States and Iran on 17 June expired with no deal and nothing to replace it, and vessel-tracking firm Kpler recorded no transits at all through the Strait of Hormuz on Sunday. Not a reduced number — none. Before the war roughly 120 to 130 ships crossed daily, carrying about 40% of India's crude, 60% of its LNG and 90% of its LPG.",
+    "The diplomatic position hardened rather than softened. Foreign Minister Abbas Araghchi says talks cannot resume until Washington ends its violations of the memorandum and compensates Iran for them, and that an understanding with Oman on shipping routes does not by itself mean the strait reopens. Iran's army chief announced a reward of about $30,000 for the capture or killing of a US service member. Qatari and Pakistani mediators are still passing messages.",
+    "For your money: Indian markets took it calmly. At 2pm the Sensex was down 179 points at 77,830 and the Nifty down 26 at 24,340, both having pared losses from the day's low as realty, metal and auto stocks advanced; Infosys, TCS and HCLTech were the main drags. Brent is steady near $89. Notably, foreign investors turned buyers on Friday, purchasing ₹508 crore of Indian equities after weeks of selling.",
+    "At the pump, nothing has changed: petrol ₹111.21 a litre in Delhi, diesel ₹97.83, a cylinder ₹942. A single day of zero transits is not a supply emergency — India holds reserves, and Russian and American crude now covers much of the gap. But zero is a different category of number from eight, and if it repeats through this week the question moves from price to availability. That is the thing worth watching, not today's index level."
   ],
-  "shareLine": "Day 171: the 60-day US-Iran memorandum expires today with nothing to replace it. Iran says it has a route understanding with Oman but will not reopen Hormuz while the US blockade stands — each side waiting for the other to move first."
+  "shareLine": "The 60-day US-Iran memorandum expired today with no replacement, and no ship at all crossed the Strait of Hormuz on Sunday. For India, zero transits is a different category of problem from thin ones."
 }
