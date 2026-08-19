@@ -1,8 +1,8 @@
 {
-  "_updated": "August 18, 2026 — 12:10 PM IST (mid-session)",
-  "_asOf": "2026-08-18",
+  "_updated": "August 19, 2026 — 6:00 AM IST (pre-market)",
+  "_asOf": "2026-08-19",
   "_start": "2026-02-28",
-  "_day": 172,
+  "_day": 173,
   "preWar": {
     "brent": 65,
     "rupee": 91.49,
@@ -11,75 +11,79 @@
     "petrol": 94.72,
     "diesel": 87.62
   },
-  "_phase": "THE MEMORANDUM HAS LAPSED, TRANSITS HIT ZERO ON SUNDAY, AND TRUMP HAS THREATENED TO BOMB OMAN",
+  "_phase": "BRENT BREAKS $91 AS TRUMP POSTS A MAP CLAIMING HORMUZ AS US TERRITORY AND RULES OUT EXTENDING THE MEMORANDUM",
   "_note": "Verified: NPR, CNN, CBS, Fox News, The Hill, Washington Times (Jul 15-16), CENTCOM statements, HDFC Sky, Business Standard (Jul 14-15 closes), TradingEconomics, Investing.com (Brent live Jul 16), Zee Business",
   "ticker": [
-    "MEMORANDUM EXPIRED MONDAY WITH NO SUCCESSOR DEAL AND NO ROUTE RESTORED",
-    "KPLER: FIVE VESSELS CROSSED HORMUZ SATURDAY, NONE ON SUNDAY, VS 31 THE PRIOR WEEKEND",
-    "TRUMP THREATENS TO BOMB OMAN IF IT \"GETS IN THE WAY\" OF REOPENING THE STRAIT",
-    "TRUMP ON TRUTH SOCIAL: THE \"NUMBER ONE GOAL\" IS TO DENY IRAN A NUCLEAR WEAPON",
-    "AL ARABIYA REPORTS A CEASEFIRE EXTENSION; A SENIOR IRANIAN OFFICIAL DENIES ANY SUCH TALKS",
-    "SENSEX CLOSED MONDAY AT 77,728.16 (-281 PTS); NIFTY SETTLED BELOW 24,300",
-    "RUPEE WEAKENED TO ~95.67 FROM 95.42; BRENT NEAR $88-89"
+    "TRUMP POSTS A MAP LABELLING THE STRAIT OF HORMUZ AS \"NEW\" US TERRITORY",
+    "TRUMP REJECTS ANY MEMORANDUM EXTENSION AND SAYS NO TALKS ARE TAKING PLACE",
+    "BRENT BREAKS $91, WTI TOPS $85 — THE HIGHEST SINCE THE JULY BLOCKADE WEEK",
+    "IRAN SAYS IT HAS REACHED A SHIPPING-ROUTE AGREEMENT WITH OMAN",
+    "CENTCOM: 64 COMMERCIAL VESSELS REDIRECTED, 3 DISABLED, 2 BOARDED AS OF AUG 17",
+    "ONLY THREE SHIPS CROSSED HORMUZ ON SUNDAY; FIVE-DAY AVERAGE 12, VS ~130 PRE-WAR",
+    "SENSEX 77,235.46 (-493 PTS, THIRD STRAIGHT FALL); NIFTY 24,155; RUPEE 95.69"
   ],
   "whatChanged": {
-    "label": "What changed — Tuesday August 18, 12:10 PM IST (Day 172) — mid-session",
+    "label": "What changed — Wednesday August 19, 6:00 AM IST (Day 173) — pre-market",
     "items": [
       {
         "color": "red",
-        "bold": "Trump threatened to bomb Oman, the mediator the route talks depend on",
-        "text": "A Fox News correspondent reported that the President said the United States would bomb Oman if the country \"gets in the way\" of efforts to reopen the strait and end the war. Asked in the Oval Office on Monday whether he had run out of patience with Muscat, Trump said: \"No, I don't think they behaved very well, but we'd handle them very easily, just like we do other things.\" Assessment: Oman is the one channel through which a workable shipping arrangement has been taking shape, and it is where India's quiet diplomacy has been concentrated alongside Qatar. Threatening the mediator narrows the only open door."
+        "bold": "Brent broke $91 and the rupee hit ₹95.69 — the costliest combination of the war",
+        "text": "Crude climbed past $91 a barrel on Tuesday with WTI above $85, after Trump ruled out extending the memorandum and threatened Oman. Brent for October settlement was at $90.88 by the Indian close. The rupee weakened to ₹95.69 from ₹95.61. For India the two move together: a dollar price near its wartime highs multiplied by a currency at its wartime lows puts the rupee cost of imported crude at or near a record."
       },
       {
         "color": "red",
-        "bold": "Transits fell to zero on Sunday — the worst reading of the war",
-        "text": "Kpler recorded five commodity vessels crossing the Strait of Hormuz on Saturday and none on Sunday, compared with 31 the previous weekend and roughly 130 a day before the war. At least one ship entered using the Iranian route and a small tanker laden with Iranian fuel oil exited. Vessels transiting with transponders switched off are not captured in the count, so actual movement is somewhat higher."
+        "bold": "Trump posted a map labelling Hormuz as \"new\" US territory",
+        "text": "Following his statement last week that he would declare the strait American territory once Iran is defeated, the President posted a map marking it as new US territory. He also rejected any extension of the expired memorandum, said no talks were taking place, and indicated he would reinstate the blockade on Iranian shipping. US strikes on Iran resumed overnight. Iran's foreign ministry says Washington is squeezing Tehran for concessions and that Iran will not negotiate directly."
+      },
+      {
+        "color": "green",
+        "bold": "Iran says it has reached a shipping-route agreement with Oman",
+        "text": "Iran's foreign ministry spokesman said Tehran had reached an agreement with Oman on future shipping routes through the strait. A regional source told CNN that the two sides expect to reach a middle ground on managing the waterway within the next couple of days. Tehran continues to tie actual reopening to the lifting of the US naval blockade. Assessment: this is the single most valuable thread for India, and it has now survived two US threats against Muscat."
       },
       {
         "color": "orange",
-        "bold": "The memorandum expired with nothing to replace it",
-        "text": "Monday marked 60 days since the Islamabad-brokered agreement was signed at Versailles. Under it the US was to end the naval blockade within 30 days, withdraw forces after a final deal, lift sanctions, issue waivers for Iranian oil exports, release frozen funds and begin a reconstruction package of at least $300bn; Iran was to clear mines and allow free passage for 60 days and negotiate on enrichment. Trump declared it over within a month. A former US State Department Iran official called it \"doomed to fail\" and poorly drafted, saying it let Tehran read the text as conceding sovereignty over the strait."
-      },
-      {
-        "color": "amber",
-        "bold": "Conflicting reports on whether a ceasefire extension exists at all",
-        "text": "Al Arabiya reported on Monday afternoon that Washington and Tehran had agreed to extend the 60-day ceasefire. A senior Iranian official told reporters there are no talks about extending it, and Araghchi said at the weekend that no decision had been taken on restarting negotiations. Trump posted on Truth Social after the expiry that the \"number one Goal\" is preventing Iran from having a nuclear weapon — a narrower objective than reopening the waterway. Treat the extension report as unconfirmed."
+        "bold": "Traffic is still near a standstill, and enforcement is intensifying",
+        "text": "Kpler recorded three ships crossing on Sunday, with a five-day average of twelve against roughly 130 a day before the war; MarineTraffic logged at least three commercial vessels in the most recent 24 hours. CENTCOM said that as of 17 August it had redirected 64 commercial vessels, disabled three and boarded two to ensure compliance. GPS spoofing is a growing hazard, with navigation interference placing vessels' broadcast positions wrongly. Westbound trade is comparatively healthy — 37 ships transited Bab al-Mandeb in the same period."
       },
       {
         "color": "cyan",
-        "bold": "India: rupee at a fresh war low, IT leads the market down",
-        "text": "The Sensex closed Monday at 77,728.16, down 281.09 points or 0.36%, having opened at 77,720.29; the Nifty settled below 24,300. The Nifty IT index fell 1.75%, down 2.05% across two sessions, with Infosys off 2.83% and HCL Tech 2.32%. Tata Steel, Axis Bank and Reliance limited the fall, Reliance in focus on its tie-up with Rolls-Royce to develop an engine for India's fighter aircraft programme. Midcaps and smallcaps closed higher. The rupee weakened to about ₹95.67 from ₹95.42."
+        "bold": "Iran denies firing missiles at the UAE",
+        "text": "Iran's foreign ministry spokesman denied claims that Tehran had launched missiles at the United Arab Emirates, after Iranian projectiles struck UAE-linked vessels in the strait last week. The denial matters because a confirmed direct strike on Gulf state territory, rather than on its shipping, would widen the war to the Arabian peninsula and put India's nine million-strong Gulf diaspora and its remittance flows directly in scope."
       }
     ]
   },
   "deaths": "7,199+",
   "econ": {
-    "sensex": "77,728.16 (close, -0.36%)",
-    "sensexDelta": "Mon Aug 17 close: -281.09 points",
-    "sensexSub": "Opened at 77,720.29 and stayed under pressure through the morning before moderating. The Nifty settled below 24,300. Nifty IT fell 1.75%, down 2.05% over two sessions; midcaps rose 0.05% and smallcaps 0.36%.",
+    "sensex": "77,235.46 (close, -0.63%)",
+    "sensexDelta": "Tue Aug 18 close: -492.70 points",
+    "sensexSub": "A third consecutive losing session, opening gap-down at 77,418.97 and settling 493 points lower. The Nifty closed at 24,155, below the 24,200 level, amid weekly derivatives expiry. Monday's close of 24,287.65 had already been the lowest since 29 July.",
     "vix": "~13.1 — EASING",
     "vixDelta": "-4.51% to 13.14 Wed open, ~-3% at close — volatility compressing despite blockade. Tue: 13.75 (+3.53%). Well below wartime 24-27; markets treating this as a contained maritime campaign, not full war.",
     "fpi": "+$1.3bn in August so far",
     "fpiDelta": "FIIs bought ₹508.12 crore on Aug 14; DIIs ₹356.40 crore",
     "wealth": "BSE market cap ~Rs 485-490 trillion — resilient through the blockade week. WPI 9.87% June (from 9.68%) — war transmission to wholesale prices confirmed. Net direct tax +16.4% YTD to Rs 6.51L Cr (till Jul 13). RBI Aug MPC calculus now complicated by oil + rupee + WPI.",
-    "analysis": "Two things moved against India at once on Monday: crude near $89 and the rupee at about ₹95.67, a fresh low for the war, having closed Friday at ₹95.42. That combination is the one that matters, because a weaker rupee raises the landed cost of every barrel even when the dollar price is flat, and it feeds the oil marketing companies' under-recovery from both ends. The sectoral split was informative: IT down 1.75% on a stronger dollar and weak US tech commentary, while metals and select private banks held up and the broader market actually closed higher. That is not a market pricing an energy emergency; it is a market pricing a grinding, open-ended cost. The risk is that these are different regimes and the transition between them is not gradual. Sunday's zero-transit reading is the first datapoint in months that belongs to the other regime."
+    "analysis": "The market is now pricing the thing it had avoided pricing all month. Brent above $91 with the rupee at ₹95.69 is not a risk premium — it is a terms-of-trade shock arriving through two channels at once, and equities fell 493 points on Tuesday rather than shrugging as they had through most of August. The mechanism from here is well understood: imported inflation feeds into the September CPI print, the oil marketing companies' under-recovery becomes politically undeniable, and the subsidy arithmetic on LPG worsens at exactly the moment the festive season demand builds. Domestic institutional buying has cushioned five sessions of foreign selling, and that cushion is the variable to watch: it has held so far, but it is finite and it is not policy. The one genuine upside risk is the Iran-Oman route agreement — if it lands with any easing of the blockade, the premium above $85 comes out quickly."
   },
   "hormuzStatus": {
-    "status": "The 60-day memorandum expired on Monday with no successor agreement and no major commercial route restored. Talks are deadlocked over who manages the strait and over Iran's frozen funds, and there is no sign detailed nuclear negotiations have begun. All eyes are on the Iran-Oman track for a workable transit arrangement — which is why the President's threat to bomb Oman if it \"gets in the way\" matters well beyond the rhetoric. Iran maintains it will not reopen while the US naval blockade stands; Washington says it will lift the blockade once Iran and Oman agree arrangements.",
+    "status": "Two contradictory tracks are running at once. President Trump has posted a map labelling the Strait of Hormuz as new United States territory, rejected any extension of the expired memorandum, said no talks are taking place and signalled he would reinstate the blockade on Iranian shipping, with US strikes on Iran resuming overnight. Iran's foreign ministry, meanwhile, says it has reached an agreement with Oman on future shipping routes, and a regional source expects the two to settle a middle ground on managing the waterway within days — while maintaining that reopening depends on the blockade being lifted. CENTCOM reported that as of 17 August it had redirected 64 commercial vessels, disabled three and boarded two.",
     "preWarFlow": "~90-140 ships/day",
-    "currentFlow": "Five vessels Saturday, none on Sunday",
+    "currentFlow": "Three ships Sunday; five-day average 12",
     "reduction": "Brent settled $89.86 for October delivery, up $2.14 or 2.44% — a fifth consecutive rise and the highest in over a week, having touched roughly $90 intraday. That is about 38% above the pre-war $65. Crude has now spent three sessions above the $85 line at which India's under-recovery question reopens.",
     "indianVesselsNear": 7,
     "indianSeafarers": 148,
     "indianTransited": 1,
     "totalShipsWaiting": "Significantly reduced from wartime peak of 20,000+. 3 Indian tankers safely crossed. But US oil licence revocation + Hormuz re-closure claims = uncertainty for remaining stranded vessels. India seafarer repatriation: mostly achieved for Indian-flagged vessels that transited. MT Settebello diplomatic track: ongoing.",
-    "lastTransit": "Kpler recorded five commodity vessels crossing on Saturday and none on Sunday, against 31 the previous weekend and roughly 130 a day before the war. One ship entered on the Iranian route and a small tanker of Iranian fuel oil exited. Vessels running with transponders off are not counted.",
+    "lastTransit": "Kpler recorded three ships crossing on Sunday against roughly 130 a day before the war, with a five-day average of twelve. MarineTraffic logged at least three commercial vessels in the most recent 24 hours — two tankers inbound to the Gulf, one outbound. GPS spoofing is causing vessels' broadcast positions to appear in the wrong places.",
     "indianNavyEscort": "Op Urja Suraksha: transitioning given formal blockade lift. MT Settebello diplomatic track continues independent of the broader deal. India's 18,000+ seafarer repatriation should now accelerate given the 'immediate effect' confirmation from Pakistan's PM.",
     "headline": "TWO STORIES ON THE SAME DAY: THE MEDIATORS SAY AN ARRANGEMENT IS CLOSE, THE PRINCIPALS HARDENED THEIR TERMS, AND A US HELICOPTER PUT MISSILES INTO A SHIP'S ENGINE ROOM. BRENT SETTLED AT $89.86.",
     "indianCasualties": 4,
     "indianCasualtyDetail": "4th Indian death of the war: a crew member aboard UAE tanker MOMBASA killed by an Iranian cruise missile in Omani territorial waters (UAE MoD, Jul 14). 8 injured incl. 6 Indians, 4 serious. Earlier: 3 Indian sailors killed on MT Settebello (Jun 8, US Navy strike)."
   },
   "hormuzEvents": [
+    {
+      "d": "Aug 18-19",
+      "e": "DAY 172-173 — WASHINGTON CLAIMS THE WATERWAY, TEHRAN CLAIMS A DEAL WITH MUSCAT. President Trump posted a map labelling the Strait of Hormuz as \"new\" United States territory, following his statement last week that he would declare it American territory once Iran is defeated. He rejected any extension of the memorandum that expired on Monday, said no talks were taking place, and signalled that the blockade on Iranian shipping would be reinstated; US strikes on Iran resumed overnight. Iran's foreign ministry accused Washington of squeezing Tehran for concessions and reiterated that it will not negotiate directly with the United States, while stating that it had reached an agreement with Oman on future shipping routes through the strait. A regional source told CNN the two expect to reach a middle ground on managing the waterway within days. Brent broke $91 and WTI topped $85. CENTCOM said it had redirected 64 commercial vessels, disabled three and boarded two as of 17 August, and Iran denied claims that it had fired missiles at the United Arab Emirates."
+    },
     {
       "d": "Aug 17-18",
       "e": "DAY 171-172 — THE FRAMEWORK EXPIRES AND THE MEDIATOR IS THREATENED. The 60-day memorandum signed at Versailles on 17 June lapsed on Monday with no successor deal and without a single major commercial tanker route restored. Under its terms the United States was to end its naval blockade within 30 days, withdraw forces near Iran after a final deal, lift sanctions, issue waivers for Iranian oil exports, allow access to frozen funds and begin a reconstruction package of at least $300bn, while Iran was to clear mines and allow vessels to pass without charge for 60 days. Trump had declared it over within a month. Asked in the Oval Office whether he had run out of patience with Oman, the President said \"I don't think they behaved very well, but we'd handle them very easily\", after telling a Fox News correspondent the United States would bomb Oman if it got in the way of reopening the strait. Kpler recorded five commodity vessels crossing on Saturday and none on Sunday, against 31 the previous weekend. Al Arabiya reported a ceasefire extension had been agreed; a senior Iranian official denied any such talks."
@@ -262,6 +266,18 @@
   ],
   "military": [
     {
+      "t": "Aug 18 — Trump posts a map labelling Hormuz as \"new\" US territory",
+      "lv": "BREAKING",
+      "color": "red",
+      "d": "The President posted a map marking the Strait of Hormuz as new United States territory, a week after saying he would declare it American once Iran is defeated. He rejected any extension of the expired memorandum, said no talks were under way, and indicated the blockade on Iranian shipping would be reinstated. US strikes on Iran resumed overnight. Assessment: a sovereignty claim over an international strait is incompatible with the freedom-of-navigation principle India relies on, and it hardens Tehran's position at the moment the Oman track was converging."
+    },
+    {
+      "t": "Aug 18 — Iran says it has agreed shipping routes with Oman",
+      "lv": "REPORTED",
+      "color": "green",
+      "d": "Iran's foreign ministry spokesman said Tehran had reached an agreement with Oman on future shipping routes through the strait, and a regional source told CNN a middle ground on managing the waterway is expected within days. Tehran continues to tie reopening to the lifting of the US naval blockade. Assessment: the highest-value development available to India, and it has now survived two US threats to bomb the mediator."
+    },
+    {
       "t": "Aug 17 — Trump threatens to bomb Oman if it \"gets in the way\"",
       "lv": "BREAKING",
       "color": "red",
@@ -284,18 +300,6 @@
       "lv": "BREAKING",
       "color": "orange",
       "d": "Major General Amir Hatami told a ceremony in Tehran that any Iranian who captured or killed a US service member would receive about 5 billion tomans, roughly $30,000, and issued fresh warnings about Iranian capabilities. The appointment of former IRGC commander Mohsen Rezaei to lead the Supreme National Security Council is read by analysts as evidence Tehran believes it holds the stronger hand, particularly over control of the strait."
-    },
-    {
-      "t": "Aug 17 — The June memorandum expires with neither side extending it",
-      "lv": "BREAKING",
-      "color": "red",
-      "d": "The framework signed on 17 June lapses today. Iran was to clear mines and allow free passage for 60 days, reaffirm it would not seek nuclear weapons and negotiate on enrichment; the two sides have accused each other of violating it since late June and their versions of the text differed from the outset. Araghchi says no decision has been taken on restarting talks, while Qatari and Pakistani mediators keep channels open. Assessment: the agreement has been functionally dead since July, so the practical change today is the loss of the last agreed framework to return to."
-    },
-    {
-      "t": "Aug 16 — Erdogan says Turkey and Iran both want oil moving through Hormuz",
-      "lv": "REPORTED",
-      "color": "cyan",
-      "d": "In an Al Jazeera interview the Turkish president said both countries support keeping oil flowing through the strait, and voiced serious concern about continued Israeli attacks on Lebanon amid efforts to prevent wider escalation. Israeli strikes killed 11 people in Lebanon on Sunday. Assessment: Ankara joining Doha in pressing for transit widens the regional coalition whose objective matches India's."
     }
   ],
   "nukes": [
@@ -471,8 +475,8 @@
     }
   ],
   "assessment": {
-    "headline": "The framework has lapsed, Sunday saw no ships cross at all, and Washington has now threatened the one mediator through which a workable transit deal was taking shape.",
-    "body": "WHAT HAPPENED\nThe 60-day memorandum expired on Monday with no successor and no route restored. Kpler counted five vessels crossing on Saturday and none on Sunday. Trump threatened to bomb Oman if it obstructs US efforts, and narrowed Washington's stated goal to the nuclear file. Reports of a ceasefire extension are denied by Tehran. Brent sits near $88-89 and the rupee has weakened to about ₹95.67.\n\nWHY IT MATTERS FOR INDIA\nThe Oman threat is the development to take seriously, and it cuts directly against India's interest. Muscat has hosted the only negotiation in this war that was actually converging on something operational — agreed coordinates, a corridor, terms for security and environmental management. India has no seat at the US-Iran table and never has; its influence runs through Oman and Qatar, both of which have been pressing for exactly the outcome Delhi needs. Threatening one of them makes that channel less useful, not more. Meanwhile the rupee at a fresh war low compounds the oil price rather than offsetting it: a weaker currency raises the landed cost of every barrel even on a flat dollar price, and it widens the under-recovery from both ends at once.\n\nTHE THING TO WATCH\nWhether transits resume this week. A weekend of five-then-zero could be the attacks deterring shipping temporarily, or it could be the beginning of a genuine stop. The distinction will be clear within days, and it is the difference between an expensive quarter and a rationed one. Watch the rupee alongside it — ₹95.67 is where the RBI's defended range starts to be tested seriously.\n\nWHAT WOULD CHANGE THIS ASSESSMENT\nConfirmation of the Al Arabiya report, or an announced Iran-Oman corridor arrangement, would take the risk premium out quickly. In the other direction, any US action against Oman would remove the last functioning diplomatic channel and should be treated as a step change rather than an escalation of degree."
+    "headline": "Brent above $91 with the rupee at ₹95.69 is the combination that ends the argument about a fuel price revision — while the only route out, the Iran-Oman agreement, survives despite Washington claiming the strait as its own territory.",
+    "body": "WHAT HAPPENED\nBrent broke $91 and WTI topped $85 after Trump ruled out extending the expired memorandum, threatened Oman for a second time and posted a map labelling the strait as new US territory. He says no talks are taking place and the blockade will be reinstated; strikes on Iran resumed overnight. Iran says it has agreed shipping routes with Oman and a regional source expects a management framework within days. Indian equities fell a third session and the rupee hit ₹95.69.\n\nWHY IT MATTERS FOR INDIA\nUntil this week the war has cost India money without forcing a decision. That changes at $91 crude and a ₹95.69 rupee, because the two multiply: the rupee cost of a barrel is now at or near its wartime peak, and the oil marketing companies have been explicit that this is the zone they cannot absorb. A revision in the coming weeks should be treated as more likely than not, arriving into festive-season demand and a September CPI print that will already carry imported inflation. Households should plan for it rather than be surprised by it.\n\nTHE THING TO WATCH\nWhether the Iran-Oman agreement is announced in the next few days, and whether anything in it touches the blockade. Tehran ties reopening to the blockade being lifted; Washington has just claimed the waterway as its territory and says it will reinstate the blockade. Those positions have moved further apart at the moment the technical work converged. If the announcement comes with no blockade movement, the premium above $85 stays.\n\nWHAT WOULD CHANGE THIS ASSESSMENT\nA confirmed Iranian missile strike on UAE territory — as opposed to its shipping — would widen the war to the Arabian peninsula and put nine million Indians in the Gulf, and the remittances they send, directly in scope. Tehran denied it on Tuesday. That denial is load-bearing, and it is the single development this tracker would treat as a step change rather than an escalation of degree."
   },
   "featured": [
     {
@@ -1132,20 +1136,31 @@
       "l": "Aug 17",
       "deaths": 7199,
       "brent": 88.9,
-      "rupee": 95.67,
+      "rupee": 95.6,
       "tag": "The 60-day US-Iran memorandum expired with no successor deal and no commercial route restored. Trump threatened to bomb Oman if it \"gets in the way\" of reopening the strait, and narrowed Washington's stated objective to denying Iran a nuclear weapon. Kpler recorded five commodity vessels crossing on Saturday and none on Sunday, against 31 the previous weekend. Al Arabiya reported a ceasefire extension; a senior Iranian official denied any such talks. Brent held near $89 after gaining about 4.6% last week. INDIA: Sensex -281.09 (-0.36%) to 77,728.16 with the Nifty below 24,300; Nifty IT -1.75% led by Infosys -2.83% and HCL Tech -2.32%; midcaps +0.05% and smallcaps +0.36%; the rupee weakened to about 95.67 from 95.42, a fresh war low.",
+      "sev": 4,
+      "nifty": 24287.65
+    },
+    {
+      "d": 172,
+      "l": "Aug 18",
+      "deaths": 7199,
+      "brent": 90.88,
+      "nifty": 24155.0,
+      "rupee": 95.69,
+      "tag": "Brent broke $91 and WTI topped $85, the highest since the July blockade week, after Trump said he would not extend the expired memorandum and threatened military action against Oman for a second time. He later posted a map labelling the Strait of Hormuz as \"new\" US territory, said no talks were taking place and signalled the blockade would be reinstated; US strikes on Iran resumed overnight. Iran's foreign ministry said it had reached an agreement with Oman on future shipping routes, with a regional source expecting a middle ground within days. Kpler counted three ships crossing on Sunday, a five-day average of twelve against about 130 pre-war; CENTCOM has redirected 64 commercial vessels, disabled three and boarded two. INDIA: Sensex -492.70 (-0.63%) to 77,235.46, a third straight fall; Nifty settled at 24,155 below the 24,200 level on weekly expiry; the rupee weakened to 95.69 from 95.61, a fresh war low.",
       "sev": 4
     }
   ],
   "exec": {
     "level": "SEVERE",
-    "phase": "No framework, no transits, and a threat against the mediator",
-    "oilNote": "Brent near $88-89 after rising about 4.6% last week. The market has held below $100 for months on alternative Gulf export routes, weaker Chinese imports, higher US output and stockpile draws — buffers that are finite.",
-    "shipping": "ZERO TRANSITS ON SUNDAY",
-    "shippingSub": "Kpler counted five commodity vessels on Saturday and none on Sunday, against 31 the previous weekend and about 130 a day pre-war. Some vessels run with transponders off and go uncounted.",
-    "military": "OMAN THREATENED",
-    "militarySub": "Trump says the US would bomb Oman if it \"gets in the way\" of reopening the strait. The June memorandum expired Monday with no successor; reports of a ceasefire extension are denied by Tehran.",
-    "indiaSub": "Sensex closed Monday at 77,728.16 (-0.36%), Nifty below 24,300, IT down 1.75%. Rupee at a fresh war low near ₹95.67. Pump prices unchanged."
+    "phase": "Brent past $91 with the rupee at a war low",
+    "oilNote": "Brent broke $91 and WTI topped $85 on Tuesday, the highest since the July blockade week, after Trump ruled out extending the memorandum. About 40% above the pre-war $65.",
+    "shipping": "THREE SHIPS ON SUNDAY",
+    "shippingSub": "Five-day average of twelve transits against roughly 130 a day pre-war. CENTCOM has redirected 64 commercial vessels, disabled three and boarded two as of 17 August. GPS spoofing is falsifying broadcast positions.",
+    "military": "HORMUZ CLAIMED AS US TERRITORY",
+    "militarySub": "Trump posted a map labelling the strait as new US territory, rejected a memorandum extension, said no talks are under way and signalled the blockade would be reinstated. US strikes on Iran resumed overnight.",
+    "indiaSub": "Sensex 77,235.46 (-0.63%), a third straight fall; Nifty 24,155; rupee ₹95.69. Brent above $90 with a record-weak rupee makes a pump revision more likely than not."
   },
   "hormuzPhases": [
     {
@@ -1189,7 +1204,7 @@
       "days": "Aug 5–"
     }
   ],
-  "_phaseBadge": "The June 17 memorandum expired on Monday with no successor · Kpler recorded five commodity vessels crossing on Saturday and none at all on Sunday, against 31 the previous weekend · Trump said the US would bomb Oman if it \"gets in the way\" — the mediator India has been relying on",
+  "_phaseBadge": "Trump posted a map labelling the Strait of Hormuz as \"new\" US territory, rejected any extension of the memorandum and said no talks are taking place, with fresh US strikes on Iran overnight · Brent climbed past $91 and the rupee to ₹95.69 · Against that, Iran says it has reached a shipping-route agreement with Oman",
   "budget": {
     "petrolPre": 94.72,
     "petrolNow": 111.21,
@@ -1199,10 +1214,10 @@
     "lpgNow": 942.0
   },
   "brief": [
-    "The deadline passed and nothing replaced it. The 60-day memorandum the United States and Iran signed on 17 June expired on Monday with no successor agreement and not a single major commercial tanker route restored. Under that deal Washington was to end its naval blockade within 30 days, lift sanctions, release frozen Iranian funds and begin a $300bn reconstruction package; Iran was to clear mines and let ships pass free of charge. Almost none of it happened.",
-    "The shipping numbers are now the worst of the war. Kpler recorded five commodity vessels crossing the strait on Saturday and none at all on Sunday, against 31 the previous weekend and about 130 a day before the war. One ship entered on the Iranian route and a small tanker carrying Iranian fuel oil left. Some vessels run with transponders off and go uncounted, so the true figure is higher — but not by enough to change the picture.",
-    "The most worrying development for India is the threat to Oman. Asked whether he had lost patience with Muscat, President Trump said \"I don't think they behaved very well, but we'd handle them very easily\", after telling a Fox News correspondent the US would bomb Oman if it \"gets in the way\". Oman is the mediator through which the only functioning route negotiation runs, and one of the two capitals — with Doha — where India's own leverage sits.",
-    "For your money: the Sensex closed Monday at 77,728.16, down 281 points, with the Nifty settling below 24,300 and IT the worst sector, down 1.75%. The rupee weakened to about ₹95.67 from ₹95.42, a fresh low for the war. Brent is near $88-89. At the pump nothing has changed — petrol ₹111.21, diesel ₹97.83, a cylinder ₹942 — but a weaker rupee raises the cost of every barrel even when the dollar price does not move."
+    "Oil broke $91 and that is the number that reaches your household. Brent climbed past $91 a barrel on Tuesday and WTI topped $85, the highest since the July blockade week, after President Trump said he would not extend the expired memorandum and threatened military action against Oman. With the rupee at ₹95.69, the landed cost of crude in rupee terms is now near its highest of the war — which is the combination that forces a pump revision rather than merely arguing for one.",
+    "The rhetoric took a constitutional turn. Trump posted a map labelling the Strait of Hormuz as \"new\" United States territory, having said earlier he would declare it US territory once Iran is defeated. He said no talks are taking place and that he would reinstate the blockade of Iranian shipping, and US strikes on Iran resumed overnight. Tehran accuses Washington of squeezing Iran for concessions and says it will not speak to the US directly.",
+    "Pulling the other way: Iran's foreign ministry says it has reached an agreement with Oman on future shipping routes through the strait, and a regional source told CNN the two expect to settle a middle ground on managing the waterway within days. That is the only constructive thread in this update, and it survives despite Washington twice threatening to bomb the mediator. Traffic remains near a standstill — three ships crossed on Sunday, with a five-day average of twelve against roughly 130 before the war.",
+    "For your money: the Sensex fell 493 points on Tuesday to 77,235.46, a third straight loss, with the Nifty at 24,155 and the rupee at ₹95.69. Petrol is still ₹111.21 a litre in Delhi, diesel ₹97.83 and a cylinder ₹942 — but Brent above $90 with a record-weak rupee is precisely the scenario the oil marketing companies have said they cannot absorb. Treat a revision in the coming weeks as more likely than not, and plan household fuel spending accordingly."
   ],
-  "shareLine": "The US-Iran memorandum expired with nothing to replace it, no ships crossed Hormuz on Sunday, and Trump has threatened to bomb Oman — the mediator through which the only workable transit deal was taking shape."
+  "shareLine": "Brent broke $91 and the rupee hit ₹95.69 — the costliest combination of the war for India — as Trump posted a map claiming the Strait of Hormuz as US territory. Iran says it has agreed shipping routes with Oman."
 }
