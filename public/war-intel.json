@@ -1,8 +1,8 @@
 {
-  "_updated": "August 20, 2026 — 2:15 PM IST (mid-session)",
-  "_asOf": "2026-08-20",
+  "_updated": "August 21, 2026 — 9:00 AM IST (pre-market)",
+  "_asOf": "2026-08-21",
   "_start": "2026-02-28",
-  "_day": 174,
+  "_day": 175,
   "preWar": {
     "brent": 65,
     "rupee": 91.49,
@@ -11,75 +11,79 @@
     "petrol": 94.72,
     "diesel": 87.62
   },
-  "_phase": "TRUMP DECLARES AN \"ECONOMIC D-DAY\" ON IRAN AND THREATENS ANY COUNTRY THAT GIVES TEHRAN A LIFELINE",
+  "_phase": "TALKS ARE OVER, THE SANCTIONS ARE SWEEPING, AND BRENT IS BACK ABOVE $92",
   "_note": "Verified: NPR, CNN, CBS, Fox News, The Hill, Washington Times (Jul 15-16), CENTCOM statements, HDFC Sky, Business Standard (Jul 14-15 closes), TradingEconomics, Investing.com (Brent live Jul 16), Zee Business",
   "ticker": [
-    "TRUMP ANNOUNCES AN \"ECONOMIC D-DAY\" — ECONOMIC WARFARE AND ISOLATION ON AN UNPRECEDENTED SCALE",
-    "ANY COUNTRY PROVIDING IRAN A \"LIFELINE\" TO FACE \"TREMENDOUS ECONOMIC CONSEQUENCES\"",
-    "NAMED IN THE THREAT: SWAP LINES, CASH TRANSFERS, EXCHANGE HOUSES, SHIP REGISTRIES, FRONT COMPANIES",
-    "UAE SUSPENDS TRADE WITH IRAN AFTER COMING UNDER RENEWED MISSILE FIRE",
-    "BRENT NEAR $92, WTI ABOVE $85 — THE HIGHEST OF THE WAR SO FAR",
-    "SENSEX 76,909.68 (-326 PTS, FOURTH STRAIGHT FALL); NIFTY 24,078.30, A SEVENTH DECLINE",
-    "ASIA SOLD OFF HARD: NIKKEI -3.19%, KOSPI -6.16% — INDIA HELD UP BETTER AT -0.42%"
+    "BRENT NEAR $93 — UP ABOUT 5% SINCE MONDAY AND ~43% ABOVE THE PRE-WAR $65",
+    "TRUMP ANNOUNCES SWEEPING MEASURES CUTTING IRAN FROM BANKS, SHIPPING REGISTRIES, CASH TRANSFERS",
+    "60-DAY NEGOTIATING WINDOW EXPIRED MONDAY WITH NO DEAL; TRUMP SAYS NO TALKS UNDERWAY",
+    "TRUMP THREATENS TO BOMB OMAN IF IT \"GETS IN THE WAY\" OF US EFFORTS",
+    "UAE SUSPENDS FINANCIAL AND ECONOMIC TRANSACTIONS WITH IRAN AFTER MISSILE ACCUSATION",
+    "NIFTY'S SEVEN-SESSION LOSING RUN WAS THE LONGEST IN NEARLY A YEAR BEFORE THURSDAY'S BOUNCE",
+    "SENSEX 77,537.72 (+628 THU); RUPEE 95.57, UP 19 PAISE FROM A FRESH WAR LOW"
   ],
   "whatChanged": {
-    "label": "What changed — Thursday August 20, 2:15 PM IST (Day 174) — mid-session",
+    "label": "What changed — Friday August 21, 9:00 AM IST (Day 175) — pre-market, covering the week",
     "items": [
       {
         "color": "red",
-        "bold": "Trump announced an \"economic D-Day\" and threatened third countries",
-        "text": "In a social media post the President announced a crushing economic operation against Iran consisting of \"Economic Warfare and Isolation on an unprecedented scale\". He warned that any country allowing its financial institutions, businesses, airports or government entities to provide any type of lifeline to Iran \"will itself face TREMENDOUS Economic Consequences\", specifying oil smuggling, swap lines, cash transfers, exchange houses, ship registries and front companies, and calling on allies to stand with Washington. It ratchets up pressure already comprising oil sanctions and the naval blockade."
-      },
-      {
-        "color": "orange",
-        "bold": "India's exposure to secondary measures is real but unquantified",
-        "text": "No measures have been published and India has not been named. But the categories listed map onto real Indian interests: the Chabahar port investment, held under a US sanctions waiver since 2018; exchange houses handling remittances for the Gulf diaspora; and ship registries and shipping services. Iran has separately warned against any assistance or facilitation provided to the US military. Assessment: India's position of not choosing sides has been low-cost until now. Both belligerents are moving to make it expensive."
+        "bold": "Washington announced a sweeping economic package against Iran",
+        "text": "On Thursday the President announced measures aimed at cutting Tehran off from international financial and commercial channels, covering banks, businesses, shipping registries, cash transfers and smuggling networks, alongside fresh sanctions on Hezbollah. Crude rose 2.7% on the announcement. Vice President Vance said the strategy is to apply enough economic pressure to change Tehran's calculus, acknowledging that \"oil prices are elevated, which people see at the pump\"."
       },
       {
         "color": "red",
-        "bold": "The UAE has suspended trade with Iran after renewed missile fire",
-        "text": "Abu Dhabi suspended commercial ties with Tehran following further missile attacks, according to reporting on Wednesday. It follows the strikes on ADNOC tankers last week and Iran's denial that it fired missiles at UAE territory. Assessment: the UAE is India's third-largest trading partner and the principal re-export hub for the region. A formal Emirati-Iranian commercial rupture removes one of the last indirect channels through which goods still moved."
+        "bold": "The 60-day negotiating window expired on Monday with no agreement",
+        "text": "The negotiating period agreed in June ran out on 17 August. The President said Iran wants a deal but \"they're not going to make the kind of deal that I feel is necessary\", and by Tuesday said no talks were underway. Iran's parliament speaker and lead negotiator Mohammad Bagher Ghalibaf issued a list of demands in exchange for reopening the strait, including implementation of the terms Washington committed to in the expired memorandum. Trump has publicly stepped back from the diplomatic track."
+      },
+      {
+        "color": "orange",
+        "bold": "Trump threatened to bomb Oman over its shipping deal with Iran",
+        "text": "Iran's foreign ministry said it had reached an agreement with Oman on future shipping routes through the strait. Washington opposes parts of it, including joint Iranian and Omani management of the exit route, and the President threatened to bomb Oman if it \"gets in the way\" of US efforts. Assessment: Muscat is the mediation channel India has most relied on. A threat against the mediator narrows the route by which any reopening reaches Indian cargoes."
       },
       {
         "color": "amber",
-        "bold": "Brent near $92 as Asian equities sold off hard",
-        "text": "Brent traded around $91.75, up 0.72%, with WTI at $85.79 — the highest levels of the war. Asian markets fell sharply: the Nikkei 225 dropped 3.19% to 65,374, the KOSPI 6.16% to 6,471.17, Taiwan's benchmark 1.32% and the Jakarta Composite 0.86%. Indian equities were comparatively resilient, with the Sensex down 0.42% and IT outperforming."
+        "bold": "Brent climbed through the week to around $93",
+        "text": "Crude topped $91 on Tuesday, passed $92 on Wednesday and rose again on Thursday, its highest since late July. US crude inventories rose 4.4 million barrels last week but distillate stocks fell 1.5 million to their lowest in over a month. Gulf producers are still moving significant volumes through alternative routes and discreet shipments, and the spread between futures and physical cargoes has exceeded $5 for much of August."
       },
       {
         "color": "cyan",
-        "bold": "The Red Sea route is functioning better than Hormuz",
-        "text": "Kpler reported that Bab el-Mandeb crossings rose 6.7% to 254 transits, while dark transits — ships sailing with transponders off — fell from 40 to 16. That is a normalising picture on the westbound leg even as Hormuz stays shut, though the Houthis have said they will prevent Saudi Arabia using its Red Sea ports to move energy to Asian markets. France will expel two Iranian diplomats over an attack on French diplomats in Tehran last month."
+        "bold": "India: seven straight falls, then a bounce that came from Washington",
+        "text": "The Nifty declined for seven consecutive sessions to Wednesday, its longest losing run in nearly a year, closing at 24,078.30, while the Sensex fell to 76,909.68, its lowest since 28 July. Both rebounded on Thursday, the Sensex gaining 628.04 points to 77,537.72, after the US Treasury moved to calm bond markets. The rupee gained 19 paise to ₹95.57 having set fresh war lows earlier in the week. Foreign investors turned modest buyers on Wednesday at ₹408 crore against domestic institutions' ₹3,974 crore."
       }
     ]
   },
   "deaths": "7,199+",
   "econ": {
-    "sensex": "76,909.68 (close, -0.42%)",
-    "sensexDelta": "Wed Aug 19 close: -325.78 points",
-    "sensexSub": "A fourth consecutive losing session. The Nifty closed at 24,078.30, down 76.60 points, a seventh straight decline, after an intraday low of 24,025.65. Nifty IT outperformed and Nifty Chemical lagged; Max Healthcare, Coal India and Power Grid were the top Nifty50 losers. Midcaps fell 0.21% and smallcaps 0.51%.",
+    "sensex": "77,537.72 (close, +0.82%)",
+    "sensexDelta": "Thu Aug 20 close: +628.04 points",
+    "sensexSub": "Rebounded from four consecutive losses after the US Treasury announced steps to bring down borrowing rates. Wednesday had closed at 76,909.68, the lowest since 28 July, with the Nifty at 24,078.30 after seven straight declines.",
     "vix": "~13.1 — EASING",
     "vixDelta": "-4.51% to 13.14 Wed open, ~-3% at close — volatility compressing despite blockade. Tue: 13.75 (+3.53%). Well below wartime 24-27; markets treating this as a contained maritime campaign, not full war.",
     "fpi": "+$1.3bn in August so far",
     "fpiDelta": "FIIs bought ₹508.12 crore on Aug 14; DIIs ₹356.40 crore",
     "wealth": "BSE market cap ~Rs 485-490 trillion — resilient through the blockade week. WPI 9.87% June (from 9.68%) — war transmission to wholesale prices confirmed. Net direct tax +16.4% YTD to Rs 6.51L Cr (till Jul 13). RBI Aug MPC calculus now complicated by oil + rupee + WPI.",
-    "analysis": "The relative performance is the story. Indian equities fell 0.42% on a day the KOSPI lost 6.16% and the Nikkei 3.19% — an extraordinary divergence that reflects domestic institutional buying, a services-weighted index and, perversely, the fact that India has been absorbing this energy shock for six months while North Asia is repricing it now. That resilience should not be read as insulation. Two risks sit outside the equity market entirely: the rupee, which has made successive war lows and transmits crude into domestic inflation directly, and the secondary-sanctions threat, which is a policy risk rather than a price risk and therefore will not show up in any index until it is announced. If Indian entities are named in whatever the \"economic D-Day\" turns out to be, financials and shipping reprice in a session and the seven-day Nifty slide will look like the preamble rather than the event."
+    "analysis": "This was the week the market stopped pricing a settlement. The 60-day window expired without a deal, the President said no talks were underway, and Thursday brought a sanctions package aimed at severing Iran from the financial system entirely. The Nifty's seven-session losing run — the longest in nearly a year — was the honest reading of that. Thursday's bounce is worth being clear about: it came from the US Treasury calming bond markets, not from anything in the Gulf, and it arrived alongside crude rising another 2.7%. For India the two binding variables are now both adverse at once, Brent above $92 and the rupee near ₹95.6, which is precisely the combination the oil marketing companies cannot absorb for long. The futures-to-physical spread above $5 says the tightness is real rather than speculative. Watch the OMC stocks and the first fortnightly revision window: a pump hike is now a question of timing rather than of whether."
   },
   "hormuzStatus": {
-    "status": "The economic front has widened beyond the waterway. President Trump has announced a \"crushing economic operation\" against Iran and warned that any country whose financial institutions, businesses, airports or government entities provide Tehran with any lifeline will face tremendous economic consequences, naming oil smuggling, swap lines, cash transfers, exchange houses, ship registries and front companies. The United Arab Emirates has suspended trade with Iran after renewed missile fire. Officials say Trump threatened to bomb Oman because he is unhappy with the shipping-route deal Muscat has been working out with Tehran. Hormuz transits remain in single figures, while Bab el-Mandeb crossings rose 6.7% to 254 with dark transits falling from 40 to 16.",
+    "status": "The negotiating track has collapsed and the economic track has widened. The 60-day window agreed in June expired on 17 August with no agreement, and the President has said no talks are underway. Iran's foreign ministry says it has reached an arrangement with Oman on future shipping routes — ships entering through Iranian waters and exiting through Omani waters — which Tehran describes as a new security model rather than a reopening. Washington opposes joint Iranian-Omani management of the exit route and has threatened to bomb Oman if it obstructs US efforts. Iran's parliament speaker has issued a list of demands for reopening. Meanwhile Gulf producers continue to move significant volumes through alternative routes and discreet shipments, and Iraq has asked Tehran for special status for its own oil exports.",
     "preWarFlow": "~90-140 ships/day",
-    "currentFlow": "Three ships Sunday; five-day average 12",
+    "currentFlow": "Workaround routes, not normal transit",
     "reduction": "Brent settled $89.86 for October delivery, up $2.14 or 2.44% — a fifth consecutive rise and the highest in over a week, having touched roughly $90 intraday. That is about 38% above the pre-war $65. Crude has now spent three sessions above the $85 line at which India's under-recovery question reopens.",
     "indianVesselsNear": 7,
     "indianSeafarers": 148,
     "indianTransited": 1,
     "totalShipsWaiting": "Significantly reduced from wartime peak of 20,000+. 3 Indian tankers safely crossed. But US oil licence revocation + Hormuz re-closure claims = uncertainty for remaining stranded vessels. India seafarer repatriation: mostly achieved for Indian-flagged vessels that transited. MT Settebello diplomatic track: ongoing.",
-    "lastTransit": "Kpler recorded three ships crossing on Sunday against roughly 130 a day before the war, with a five-day average of twelve. MarineTraffic logged at least three commercial vessels in the most recent 24 hours — two tankers inbound to the Gulf, one outbound. GPS spoofing is causing vessels' broadcast positions to appear in the wrong places.",
+    "lastTransit": "No normal tanker traffic. Gulf producers are moving significant volumes through alternative routes and discreet shipments; the President says oil continues to flow through the waterway. Iran and Oman have agreed route coordinates, with ships entering via Iranian waters and exiting via Omani waters, though Washington objects to the arrangement.",
     "indianNavyEscort": "Op Urja Suraksha: transitioning given formal blockade lift. MT Settebello diplomatic track continues independent of the broader deal. India's 18,000+ seafarer repatriation should now accelerate given the 'immediate effect' confirmation from Pakistan's PM.",
     "headline": "TWO STORIES ON THE SAME DAY: THE MEDIATORS SAY AN ARRANGEMENT IS CLOSE, THE PRINCIPALS HARDENED THEIR TERMS, AND A US HELICOPTER PUT MISSILES INTO A SHIP'S ENGINE ROOM. BRENT SETTLED AT $89.86.",
     "indianCasualties": 4,
     "indianCasualtyDetail": "4th Indian death of the war: a crew member aboard UAE tanker MOMBASA killed by an Iranian cruise missile in Omani territorial waters (UAE MoD, Jul 14). 8 injured incl. 6 Indians, 4 serious. Earlier: 3 Indian sailors killed on MT Settebello (Jun 8, US Navy strike)."
   },
   "hormuzEvents": [
+    {
+      "d": "Aug 17-21",
+      "e": "DAY 171-175 — THE NEGOTIATING WINDOW EXPIRES AND THE ECONOMIC WAR WIDENS. The 60-day period agreed in June ran out on Monday 17 August with no agreement. Iran's foreign ministry said it had reached an arrangement with Oman on future shipping routes — vessels entering through Iranian waters and exiting through Omani waters, described by Tehran as a new security model rather than a reopening — and President Trump threatened to bomb Oman if it \"gets in the way\", objecting to joint Iranian-Omani management of the exit route. In the Oval Office he called making the strait a US territory \"a great idea\", saying \"we control it with the blockade\". On Tuesday he said no talks were underway; Iran's parliament speaker Mohammad Bagher Ghalibaf issued a list of demands for reopening. On Thursday Washington announced a sweeping package to cut Iran off from international banks, businesses, shipping registries, cash transfers and smuggling networks, alongside new sanctions on Hezbollah, and the UAE suspended financial and economic transactions with Iran after accusing Tehran of firing ballistic missiles at its territory. Brent rose through the week to around $93. Iraq has asked Iran to grant special status to its oil exports through the strait."
+    },
     {
       "d": "Aug 19-20",
       "e": "DAY 173-174 — ECONOMIC D-DAY. President Trump announced a \"crushing economic operation\" against Iran consisting of \"Economic Warfare and Isolation on an unprecedented scale\", warning that any country allowing its financial institutions, businesses, airports or government entities to provide any type of lifeline to Iran would itself face tremendous economic consequences. He specified oil smuggling, swap lines, cash transfers, exchange houses, ship registries and front companies, adding \"You know who you are\", and called on allies to help isolate and defeat Iran. The United Arab Emirates suspended trade with Iran after coming under renewed missile fire. US officials said Trump had threatened to bomb Oman because he was unhappy with the Strait of Hormuz deal Muscat was working out with Tehran. Brent traded near $92 and WTI above $85, the highest of the war. Kpler reported Bab el-Mandeb crossings up 6.7% to 254 transits with dark transits down from 40 to 16, while Hormuz traffic stayed in single figures. France announced it would expel two Iranian diplomats."
@@ -270,40 +274,40 @@
   ],
   "military": [
     {
-      "t": "Aug 19 — Trump declares an \"economic D-Day\" and threatens third countries",
+      "t": "Aug 20 — Trump announces a sweeping economic package targeting Iran",
       "lv": "BREAKING",
       "color": "red",
-      "d": "The President announced economic warfare and isolation against Iran on an unprecedented scale, warning that any country whose financial institutions, businesses, airports or government entities provide Tehran with a lifeline will face tremendous economic consequences. Oil smuggling, swap lines, cash transfers, exchange houses, ship registries and front companies were named. Assessment: this is the first measure of the war aimed at non-belligerents, and India's Chabahar investment, remittance corridors and shipping services all sit inside the named categories. No measures have been published and India has not been identified."
+      "d": "The measures aim to cut Tehran off from international financial and commercial channels, covering banks, businesses, shipping registries, cash transfers and smuggling networks, with separate new sanctions on Hezbollah. Crude rose 2.7% on the announcement to its highest since 24 July. Vice President Vance framed the objective as changing Iran's calculus on a deal and preventing any rebuilding of its nuclear capacity, while acknowledging that elevated oil prices are being felt at the pump."
     },
     {
-      "t": "Aug 19 — UAE suspends trade with Iran after renewed missile fire",
+      "t": "Aug 17 — The 60-day negotiating window expires with no deal",
       "lv": "BREAKING",
       "color": "red",
-      "d": "Abu Dhabi suspended commercial ties with Tehran following further missile attacks, after last week's strikes on ADNOC tankers and Iran's denial that it had fired on UAE territory. Assessment: the UAE is India's third-largest trading partner and the region's principal re-export hub. The rupture closes one of the last indirect commercial channels and raises the risk profile for the Indian business community in the Emirates."
+      "d": "The period agreed in June ended on Monday. The President said Iran wants a deal but not the kind he considers necessary, restating that the sole objective is preventing an Iranian nuclear weapon, and by Tuesday said no talks were taking place. Iran's parliament speaker Mohammad Bagher Ghalibaf issued a list of demands in exchange for reopening the strait, including that Washington implement the terms of the expired memorandum."
     },
     {
-      "t": "Aug 18 — Trump posts a map labelling Hormuz as \"new\" US territory",
-      "lv": "BREAKING",
-      "color": "red",
-      "d": "The President posted a map marking the Strait of Hormuz as new United States territory, a week after saying he would declare it American once Iran is defeated. He rejected any extension of the expired memorandum, said no talks were under way, and indicated the blockade on Iranian shipping would be reinstated. US strikes on Iran resumed overnight. Assessment: a sovereignty claim over an international strait is incompatible with the freedom-of-navigation principle India relies on, and it hardens Tehran's position at the moment the Oman track was converging."
-    },
-    {
-      "t": "Aug 18 — Iran says it has agreed shipping routes with Oman",
-      "lv": "REPORTED",
-      "color": "green",
-      "d": "Iran's foreign ministry spokesman said Tehran had reached an agreement with Oman on future shipping routes through the strait, and a regional source told CNN a middle ground on managing the waterway is expected within days. Tehran continues to tie reopening to the lifting of the US naval blockade. Assessment: the highest-value development available to India, and it has now survived two US threats to bomb the mediator."
-    },
-    {
-      "t": "Aug 17 — Trump threatens to bomb Oman if it \"gets in the way\"",
-      "lv": "BREAKING",
-      "color": "red",
-      "d": "A Fox News correspondent reported the President saying the United States would bomb Oman if the country obstructed efforts to reopen the strait and end the war. In the Oval Office on Monday, asked if he was out of patience with Muscat, Trump said: \"No, I don't think they behaved very well, but we'd handle them very easily, just like we do other things.\" Assessment: Oman has hosted the only substantive route negotiation of this war and is, with Qatar, where India's diplomatic leverage actually sits. A threat against the mediator raises the risk that the Iran-Oman corridor arrangement — the most plausible path to resumed transits — does not survive."
-    },
-    {
-      "t": "Aug 17 — The memorandum expires; Trump narrows the stated objective to the nuclear file",
+      "t": "Aug 17 — Trump threatens to bomb Oman over its shipping arrangement with Iran",
       "lv": "BREAKING",
       "color": "orange",
-      "d": "Posting on Truth Social after the expiry, the President said the \"number one Goal\" was to prevent Iran from having a nuclear weapon \"in any way, shape, or form\" — a narrower aim than reopening the waterway. Al Arabiya reported that Washington and Tehran had agreed to extend the ceasefire, but a senior Iranian official said there were no talks about an extension. A former acting director of the US State Department's Office of Iranian Affairs said the memorandum was \"doomed to fail\" because its drafting let Iran read it as conceding sovereignty over the strait."
+      "d": "Two regional officials said the administration told Muscat it opposes parts of the yet-to-be-announced deal, particularly joint Iranian and Omani management of the exit route out of the strait. The threat followed Iran's announcement that it had agreed future shipping routes with Oman. Assessment: Oman is the mediation channel through which any reopening most plausibly reaches Indian cargoes, and pressure on Muscat narrows that path."
+    },
+    {
+      "t": "Aug 20 — UAE suspends financial and economic transactions with Iran",
+      "lv": "ACTIVE",
+      "color": "orange",
+      "d": "Abu Dhabi announced the suspension after accusing Tehran of launching ballistic missiles at its territory, following the earlier attacks on ADNOC tankers in the strait. The UAE had detected a \"missile threat\" on 18 August. The move adds Gulf economic pressure to the US financial campaign and further isolates Iranian trade."
+    },
+    {
+      "t": "Aug 17 — Trump calls annexing the strait \"a great idea\"",
+      "lv": "REPORTED",
+      "color": "purple",
+      "d": "Speaking in the Oval Office, the President said: \"I like the idea of declaring it a territory. We have total control over the strait. Now, they can be a nuisance, they can put a mine in the water … but the blockade has been very effective.\" He added that the US is moving barrels of oil out of the strait, though normal tanker traffic has not resumed and prices rose on the day."
+    },
+    {
+      "t": "Aug 19-20 — Iraq seeks special status for its oil exports",
+      "lv": "STRATEGIC",
+      "color": "cyan",
+      "d": "Baghdad has asked Tehran to grant special status to Iraqi oil exports through the strait, saying its economy has been badly affected by the war and it needs to protect its economic interests. Assessment: a precedent worth watching. If Iran begins granting country-specific exemptions, the question becomes which relationships earn them — and India's standing with Tehran, built on years of Chabahar and energy engagement, becomes an asset rather than a liability."
     }
   ],
   "nukes": [
@@ -479,8 +483,8 @@
     }
   ],
   "assessment": {
-    "headline": "The economic war has been extended to non-belligerents, and India — with Chabahar, its Gulf remittance corridors and its shipping services — sits inside every category Washington named.",
-    "body": "WHAT HAPPENED\nTrump announced a \"crushing economic operation\" against Iran and warned that any country whose financial institutions, businesses, airports or government entities give Tehran a lifeline will face tremendous economic consequences, naming exchange houses, ship registries, swap lines and front companies. The UAE suspended trade with Iran. Brent reached about $92, the highest of the war. Indian equities fell a fourth session while Asian markets fell far harder.\n\nWHY IT MATTERS FOR INDIA\nEvery prior escalation in this war reached India through prices. This one could reach it through policy. Delhi holds a decade of investment in Chabahar, operated under a US sanctions waiver granted in 2018 precisely because Washington then judged Indian access to Afghanistan and Central Asia worth protecting; it runs exchange-house corridors carrying remittances for nine million Gulf workers; and Indian shipping sits across the registries named. None of this means India is a target. It means the drafting matters enormously, and that Indian diplomacy over the next fortnight has a concrete, narrow, urgent objective: securing carve-outs before measures are published rather than exemptions after. Iran's parallel warning against facilitating the US military closes the other side of the vice. Non-alignment has been cheap for six months. Both belligerents are now pricing it.\n\nTHE THING TO WATCH\nThe text of whatever is actually published, and specifically whether Chabahar's waiver survives. That is a binary, near-term, checkable outcome, and it is worth more to India than any movement in the Brent price this week. Watch also whether the UAE's trade suspension extends to third-country re-exports, which is where Indian traders would feel it first.\n\nWHAT WOULD CHANGE THIS ASSESSMENT\nPublication of measures with explicit humanitarian and third-country carve-outs would reduce this to a pricing story again. Conversely, any Indian entity named in the first tranche should be treated as a step change: it would move India from bystander to participant in an economic war it has spent six months staying out of."
+    "headline": "With the negotiating window expired, the mediator threatened and the sanctions widened to Iran's entire financial perimeter, the war has settled into a form that has no obvious exit — and India is paying for it at $93 crude and ₹95.6.",
+    "body": "WHAT HAPPENED\nThe 60-day negotiating period expired on Monday with no agreement. By Tuesday the President said no talks were underway. On Thursday Washington announced measures to cut Iran off from banks, shipping registries and cash transfers, and the UAE suspended financial dealings with Tehran. Iran and Oman agreed shipping route coordinates; Washington objected and threatened to bomb Oman. Brent climbed through the week to around $93.\n\nWHY IT MATTERS FOR INDIA\nTwo things changed this week and both cut against India. The first is that the price is now sustained rather than spiking: Brent has held above $91 all week, the rupee has been at war lows, and the futures-to-physical spread above $5 says the tightness is in cargoes, not sentiment. Diesel in Mumbai at ₹99.82 is the visible edge of that. The second is subtler and more serious. The threat against Oman puts pressure on the one channel through which a workable reopening was most likely to arrive, and Muscat is where India's own diplomacy has been concentrated. Washington is not opposed to the strait reopening; it is opposed to it reopening on terms that leave Iran with a say over who passes. India has no stake in that argument and every stake in the outcome.\n\nTHE THING TO WATCH\nThe next fortnightly pump revision. With Brent above $92 and the rupee near ₹95.6 across the whole averaging window, the arithmetic that has been deferred since July no longer defers. Watch also whether Iraq's request for special status is granted: if Tehran begins issuing country-specific exemptions, India's long engagement with Iran becomes a usable asset rather than a diplomatic awkwardness.\n\nWHAT WOULD CHANGE THIS ASSESSMENT\nAn Iran-Oman arrangement that Washington tolerates rather than opposes. That remains the only visible path to resumed commercial transit, and it now depends less on Tehran than on whether the US accepts an exit route it does not solely control. Against that, a strike on Oman — or Iranian retaliation against Emirati or Saudi energy infrastructure in response to the financial campaign — would take Brent past $100 and turn the pump question into an emergency."
   },
   "featured": [
     {
@@ -1163,17 +1167,37 @@
       "nifty": 24078.3,
       "tag": "Trump announced an \"economic D-Day\" against Iran — economic warfare and isolation on an unprecedented scale — warning that any country whose financial institutions, businesses, airports or government entities provide Tehran a lifeline will face tremendous economic consequences, naming oil smuggling, swap lines, cash transfers, exchange houses, ship registries and front companies. The UAE suspended trade with Iran after renewed missile fire. Officials said Trump had threatened to bomb Oman over its Hormuz deal with Tehran. Brent traded around $91.75 and WTI $85.79, the highest of the war. Bab el-Mandeb crossings rose 6.7% to 254 with dark transits down from 40 to 16. INDIA: Sensex -325.78 (-0.42%) to 76,909.68, a fourth straight fall; Nifty -76.60 (-0.32%) to 24,078.30, a seventh consecutive decline, low of 24,025.65; midcaps -0.21%, smallcaps -0.51%; IT outperformed. Asia fell hard — Nikkei -3.19%, KOSPI -6.16%.",
       "sev": 4
+    },
+    {
+      "d": 173,
+      "l": "Aug 19",
+      "deaths": 7199,
+      "brent": 92.0,
+      "nifty": 24078.3,
+      "rupee": 95.76,
+      "tag": "Brent climbed to around $92 after President Trump said no talks were taking place with Iran, following the expiry of the 60-day negotiating window on Monday and his threat to bomb Oman over its shipping arrangement with Tehran. INDIA: the Nifty closed at 24,078.30, a seventh consecutive decline and its longest losing run in nearly a year, down 2.1% over the stretch; the Sensex fell 327 points (-0.42%) to 76,909.68, its lowest since 28 July and a fourth straight loss. Power Grid, Bajaj Finance and ITC led the falls; HCL Tech, Eternal and Sun Pharma gained. FIIs bought ₹408 crore, DIIs ₹3,974 crore.",
+      "sev": 3
+    },
+    {
+      "d": 174,
+      "l": "Aug 20",
+      "deaths": 7199,
+      "brent": 93.01,
+      "nifty": 24270.0,
+      "rupee": 95.57,
+      "tag": "Brent rose to about $93 (+1.5%) and WTI 2.7% to around $86.7, the highest since 24 July, after Washington announced a sweeping package of economic measures cutting Iran off from banks, businesses, shipping registries, cash transfers and smuggling networks, with new sanctions on Hezbollah. The UAE suspended financial and economic transactions with Iran after accusing Tehran of firing ballistic missiles at its territory. EIA data showed US crude stocks up 4.4 million barrels but distillates down 1.5 million to a one-month low. INDIA: the Sensex rebounded 628.04 points (+0.82%) to 77,537.72 after the US Treasury moved to calm bond markets, and the rupee gained 19 paise to 95.57 after fresh war lows earlier in the week. NOTE: the Nifty close for this session is an estimate pending confirmation.",
+      "sev": 3
     }
   ],
   "exec": {
-    "level": "SEVERE",
-    "phase": "Economic warfare widens to third countries",
-    "oilNote": "Brent around $91.75 and WTI $85.79, the highest of the war and roughly 41% above the pre-war $65. Oil sanctions, the naval blockade and now threatened secondary measures are stacked on the same supply.",
-    "shipping": "UAE SUSPENDS IRAN TRADE",
-    "shippingSub": "Abu Dhabi has cut commercial ties with Tehran after renewed missile fire. Hormuz transits remain in single figures against roughly 130 a day pre-war, while Bab el-Mandeb crossings rose 6.7% to 254.",
-    "military": "ECONOMIC D-DAY DECLARED",
-    "militarySub": "Trump threatens tremendous economic consequences for any country whose banks, businesses, airports or government entities give Iran a lifeline, naming exchange houses and ship registries. Iran warns against facilitating the US military.",
-    "indiaSub": "Sensex 76,909.68 (-0.42%), a fourth straight fall; Nifty 24,078.30, a seventh decline. India held up far better than Asia. Secondary-sanction exposure is now a live question."
+    "level": "HIGH",
+    "phase": "Negotiation window closed, economic siege widened",
+    "oilNote": "Brent near $93, up through the week and about 43% above the pre-war $65. The gap between futures and physical cargoes has exceeded $5 for much of August, pointing to a tighter physical market than the screen suggests.",
+    "shipping": "FLOWING BY WORKAROUND",
+    "shippingSub": "Gulf producers continue moving volumes via alternative routes and discreet shipments rather than normal transit. Iran and Oman have agreed shipping routes; Washington opposes joint management of the exit and has threatened to bomb Oman.",
+    "military": "SWEEPING SANCTIONS, NO TALKS",
+    "militarySub": "The 60-day window expired Monday with no deal. Thursday's package targets banks, shipping registries and cash transfers, with new Hezbollah sanctions. The UAE has suspended financial and economic transactions with Iran.",
+    "indiaSub": "Nifty fell seven straight sessions before Thursday's bounce; Sensex 77,537.72. Rupee ₹95.57 after fresh war lows. Diesel in Mumbai at ₹99.82 — the ₹100 line is close."
   },
   "hormuzPhases": [
     {
@@ -1217,7 +1241,7 @@
       "days": "Aug 5–"
     }
   ],
-  "_phaseBadge": "Trump announced a \"crushing economic operation\" — economic warfare and isolation on an unprecedented scale — warning that any country whose financial institutions, businesses, airports or government entities give Iran \"any type of lifeline\" will face \"tremendous economic consequences\" · The UAE has suspended trade with Iran after renewed missile fire · Brent near $92",
+  "_phaseBadge": "The 60-day negotiating window expired on Monday with no deal · Trump announced a sweeping package cutting Iran off from banks, shipping registries and cash transfers, and threatened to bomb Oman over its shipping arrangement with Tehran · Brent near $93, the rupee at war lows around ₹95.6",
   "budget": {
     "petrolPre": 94.72,
     "petrolNow": 111.21,
@@ -1227,10 +1251,10 @@
     "lpgNow": 942.0
   },
   "brief": [
-    "Washington has widened the war to everyone else's balance sheet. President Trump announced what he called an \"economic D-Day\" — a crushing economic operation of \"economic warfare and isolation on an unprecedented scale\" — and warned that any country allowing its financial institutions, businesses, airports or government entities to give Iran \"any type of lifeline\" will face tremendous economic consequences. He listed oil smuggling, swap lines, cash transfers, exchange houses, ship registries and front companies, and added: \"You know who you are.\"",
-    "For India that is not a distant threat. Delhi has a decade of investment in Iran's Chabahar port, a large exchange-house corridor serving nine million Gulf workers, and shipping interests across registries the statement names. India has not been identified, and no measures have yet been published — but the categories are broad enough that Indian entities could be caught by drafting rather than by intent. Tehran, for its part, has warned against any assistance or facilitation given to the US military. India is now being squeezed from both directions at once.",
-    "The Gulf is also breaking apart commercially. The United Arab Emirates has suspended trade with Iran after coming under renewed missile fire — a significant step from India's third-largest trading partner and the re-export hub through which much regional commerce passes. Meanwhile Brent is near $92 and WTI above $85, the highest of the war, and only a handful of ships are crossing Hormuz against roughly 130 a day before it began.",
-    "For your money: the Sensex fell 326 points on Wednesday to 76,909.68, a fourth straight loss, and the Nifty closed at 24,078.30 — a seventh consecutive decline, with an intraday low of 24,025.65. Set that against Asia, where the Nikkei fell 3.19% and the KOSPI 6.16%, and Indian equities are holding up comparatively well. Pump prices are unchanged at ₹111.21 petrol, ₹97.83 diesel and ₹942 a cylinder, but Brent near $92 makes a revision harder to defer with every session."
+    "The diplomacy has run out. The 60-day negotiating window agreed in June expired on Monday with no agreement, and by Tuesday the President said no talks were underway at all. On Thursday Washington announced a sweeping economic package designed to cut Iran off from international banks, businesses, shipping registries, cash transfers and smuggling networks. Iran's parliament speaker has issued his own list of demands for reopening the strait. Neither list is close to the other.",
+    "Oil has gone up accordingly. Brent is near $93 after climbing through the week — above $91 on Tuesday, $92 on Wednesday, and higher again on Thursday after the sanctions announcement. That is roughly 43% above the pre-war $65 and the highest sustained level since the spring. One detail worth noting: the gap between futures and physical cargoes has widened beyond $5 for much of August, which suggests the real market is tighter than the screen price implies.",
+    "For your money: the Nifty fell for seven straight sessions to Wednesday, its longest losing run in nearly a year, before both indices rebounded on Thursday — the Sensex up 628 points to 77,537.72 — on news that the US Treasury would step in to calm bond markets. The rupee recovered 19 paise to ₹95.57 on Thursday after touching fresh war lows earlier in the week. The relief came from Washington's bond desk, not from the Gulf.",
+    "At the pump, prices are broadly holding but the edges are moving: diesel in Mumbai is now ₹99.82, within touching distance of ₹100, and small upward revisions have appeared in several cities. With Brent above $92 for a sustained stretch and the rupee near ₹95.6, the two variables that decide a revision are both pointing the same way. The under-recovery is no longer theoretical."
   ],
-  "shareLine": "Trump has declared an \"economic D-Day\" on Iran, threatening any country that gives Tehran a lifeline — naming exchange houses and ship registries. India's Chabahar port, Gulf remittance corridors and shipping all sit inside those categories."
+  "shareLine": "The 60-day negotiating window expired with no deal, Washington moved to cut Iran off from the global financial system, and Brent climbed to around $93. India is paying for a war with no visible exit at ₹95.6 to the dollar."
 }
