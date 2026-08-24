@@ -1,8 +1,8 @@
 {
-  "_updated": "August 23, 2026 — 10:50 AM IST (Sunday, markets closed)",
-  "_asOf": "2026-08-23",
+  "_updated": "August 24, 2026 — 3:00 PM IST (intraday)",
+  "_asOf": "2026-08-24",
   "_start": "2026-02-28",
-  "_day": 177,
+  "_day": 178,
   "preWar": {
     "brent": 65,
     "rupee": 91.49,
@@ -11,44 +11,44 @@
     "petrol": 94.72,
     "diesel": 87.62
   },
-  "_phase": "IRAN STARTS GRANTING SELECTIVE ACCESS AS TRAFFIC SHIFTS TO THE OMANI ROUTE AND WASHINGTON READIES \"ECONOMIC D-DAY\"",
+  "_phase": "SECONDARY SANCTIONS LAND TODAY AND OMAN'S FOREIGN MINISTER GOES TO TEHRAN TOMORROW",
   "_note": "Verified: NPR, CNN, CBS, Fox News, The Hill, Washington Times (Jul 15-16), CENTCOM statements, HDFC Sky, Business Standard (Jul 14-15 closes), TradingEconomics, Investing.com (Brent live Jul 16), Zee Business",
   "ticker": [
-    "IRAN ALLOWS IRAQI OIL TANKERS THROUGH HORMUZ — FIRST COUNTRY EXEMPTION OF THE WAR",
-    "OVER 80% OF LIQUIDS NOW TRANSIT THE UN-AUTHORISED OMANI CHANNEL, NOT IRAN'S ROUTE",
-    "SHIP NUMBERS AT 20% OF THE PRE-WAR AVERAGE (CNN ANALYSIS OF UKMTO DATA)",
-    "US MILITARY: 660 MILLION BARRELS ESCORTED THROUGH THE STRAIT SINCE EARLY MAY",
-    "TRUMP READIES \"ECONOMIC D-DAY\"; FULL SANCTIONS DETAIL DUE MONDAY",
-    "IRAN'S SECURITY CHIEF VOWS TO \"NEUTRALISE THE ECONOMIC WAR\"; TEHRAN \"WILL NOT SUBMIT\"",
-    "BRENT $93.40 AFTER A SECOND STRAIGHT WEEKLY GAIN OF ABOUT 5%; RUPEE ₹95.72"
+    "BESSENT DETAILS THE SANCTIONS TODAY — \"THE SINGLE GREATEST FINANCIAL OFFENSIVE EVER MARSHALLED\"",
+    "SECONDARY REACH: BUY THE OIL, MOVE THE MONEY OR CARRY THE CARGO AND THE US ENFORCES AGAINST YOU",
+    "OMANI FOREIGN MINISTER BADR ALBUSAIDI VISITS TEHRAN TUESDAY ON THE HORMUZ ARRANGEMENT",
+    "IRAN THREATENS TO DETAIN OR CONFISCATE VESSELS THAT BREACH ITS TRANSIT RULES",
+    "BEIJING REJECTS ECONOMIC PRESSURE AND CALLS FOR A DIPLOMATIC SOLUTION",
+    "BRENT EASES TO ABOUT $91 (-1.5%) AFTER LAST WEEK'S RUN TO A ONE-MONTH HIGH",
+    "PNGRB CLEARS ~1,800 KM OF LPG PIPELINES WORTH ABOUT $731 MILLION"
   ],
   "whatChanged": {
-    "label": "What changed — Sunday August 23, 10:50 AM IST (Day 177) — weekend update, markets closed",
+    "label": "What changed — Monday August 24, 3:00 PM IST (Day 178) — intraday, sanctions pending",
     "items": [
       {
-        "color": "green",
-        "bold": "Iran is letting Iraqi oil tankers through — the first exemption of the war",
-        "text": "Iranian state media reported that Tehran will allow Iraqi oil tankers to transit the strait, following Baghdad's request last week for special status on the grounds that its economy had been badly damaged by the war. It is the clearest instance yet of Iran granting selective access rather than blanket closure. Assessment: this is the development this tracker flagged as the one to watch. If exemptions are becoming an instrument, the question is which relationships earn them — and India's long engagement with Tehran, from Chabahar to pre-war crude purchases, becomes a usable asset."
+        "color": "red",
+        "bold": "The sanctions are explicitly secondary, and that is the part India must read",
+        "text": "Bessent told CNBC: \"We're going to them and saying: You're either with us or against us. If you insist on doing business with them — either transferring money, buying oil, doing seaborne ship transport — then the US Treasury and the US government, they will put its full might and force towards enforcing against you.\" He described the objective as collapsing the Iranian government and the campaign as the greatest coordinated economic isolation in history. In his Financial Times op-ed he wrote that \"at dawn begins an economic D-Day — the single greatest financial offensive ever marshalled against an adversary\". Detail was due at a news conference today."
       },
       {
         "color": "cyan",
-        "bold": "Traffic has shifted decisively onto the Omani route, away from Iran's",
-        "text": "More than 80% of liquids transiting over the past two weeks used the Omani channel, a UN-authorised shipping lane Iran does not control, in a reversal of the pattern seen earlier this month when most crossings followed the Iranian-approved route. The US military says it has helped tankers move more than 660 million barrels through the strait since early May. The evidence points to the US Navy gaining ground and Iran losing practical control, even as the closure formally holds."
-      },
-      {
-        "color": "red",
-        "bold": "Washington is preparing an \"Economic D-Day\" for Monday",
-        "text": "The President has trailed a sweeping escalation of economic pressure, with full details expected on Monday, following Thursday's package targeting banks, shipping registries and cash transfers. The Treasury Secretary has promised the toughest sanctions yet and is urging China to support them — the point on which the campaign will succeed or fail, given China takes the bulk of Iran's remaining exports."
+        "bold": "Oman's foreign minister goes to Tehran on Tuesday",
+        "text": "Sayyid Badr Albusaidi is scheduled to travel to Iran for bilateral talks continuing the discussion of the Hormuz transit arrangement. It comes days after President Trump said the United States would bomb Oman if it got in the way, and while Washington objects to joint Iranian-Omani management of the exit route. Assessment: this is the single most important scheduled event on the India-relevant calendar. Every plausible path to restored commercial transit runs through Muscat."
       },
       {
         "color": "orange",
-        "bold": "Tehran says it will not submit, and hints at halting oil",
-        "text": "Mohsen Rezaei, secretary of the Supreme National Security Council, vowed to \"neutralise the economic war\" and raised the prospect of halting oil flows. A close ally of the supreme leader said the President's rhetoric stems from desperation and that Iran \"will not submit\". Separately, President Pezeshkian said Tehran would prefer to conclude the war while it remains in a position of strength, describing the June memorandum as a victory for Iran — the most conciliatory signal from Tehran in weeks."
+        "bold": "Iran threatens to seize ships that breach its transit rules",
+        "text": "Tehran warned that vessels violating its rules in the strait could face penalties including detention or confiscation, hardening the position taken by its Persian Gulf Strait Authority. Iranian state media dismissed the coming sanctions as an \"implicit admission of the enemy's humiliating defeat\". Some oil companies have developed new methods to move tankers through undetected."
       },
       {
         "color": "amber",
-        "bold": "India: a flat week that was anything but calm",
-        "text": "The Sensex ended Friday at 77,540.83, up 3.11 points, and the Nifty at 24,252.00, up 20.15 points, with Nifty Metal and Private Bank outperforming while FMCG, auto and IT lagged. Thursday's 628-point rebound was not built on. The rupee weakened to ₹95.72 with the RBI continuing to intervene, and Brent closed at $93.40 after a one-month high of $94.71. Holding flat against a 5% weekly rise in crude is the market deferring a judgement, not making one."
+        "bold": "China rejects the pressure, which decides whether any of this works",
+        "text": "Beijing has rejected economic coercion and called for a diplomatic solution, having been told by Bessent that \"the Chinese get 50% of their energy from inside the Gulf, so it would do them a big service to get with the program\". China is the largest buyer of Iranian crude and the campaign succeeds or fails on its compliance. Supply concerns are also being reinforced by Ukrainian strikes on Russian refineries and ports."
+      },
+      {
+        "color": "green",
+        "bold": "India: markets steadied, and the regulator cleared 1,800km of LPG pipeline",
+        "text": "The Sensex opened 109 points higher at 77,650.09 and was near 77,671 by late morning, with the Nifty above 24,270, snapping the recent corrective run on firm global cues after a near-1% Dow rally and easing crude. IT and metals led. Separately the downstream regulator approved around 1,800km of LPG pipelines worth roughly $731 million — infrastructure that addresses the exposure this war exposed, on a timescale that does not help this winter."
       }
     ]
   },
@@ -56,18 +56,18 @@
   "econ": {
     "sensex": "77,540.83 (close, +0.01%)",
     "sensexDelta": "Fri Aug 21 close: +3.11 points",
-    "sensexSub": "A flat, rangebound Friday after Thursday's 628-point rebound, with the Nifty holding above 24,200 to close at 24,252.00. Nifty Metal and Private Bank outperformed; FMCG, auto and IT lagged. Maruti Suzuki, Infosys and Tech Mahindra led the falls; Power Grid, Nestle India and Kotak Mahindra Bank gained.",
+    "sensexSub": "Opened 109.26 points higher at 77,650.09 and held near 77,671 through the morning, snapping the recent corrective trend, with the Nifty above 24,270 after opening at 24,277.20. IT and metals led. Last week the Sensex fell 0.6% and the Nifty 0.5%.",
     "vix": "~13.1 — EASING",
     "vixDelta": "-4.51% to 13.14 Wed open, ~-3% at close — volatility compressing despite blockade. Tue: 13.75 (+3.53%). Well below wartime 24-27; markets treating this as a contained maritime campaign, not full war.",
     "fpi": "+$1.3bn in August so far",
     "fpiDelta": "FIIs bought ₹508.12 crore on Aug 14; DIIs ₹356.40 crore",
     "wealth": "BSE market cap ~Rs 485-490 trillion — resilient through the blockade week. WPI 9.87% June (from 9.68%) — war transmission to wholesale prices confirmed. Net direct tax +16.4% YTD to Rs 6.51L Cr (till Jul 13). RBI Aug MPC calculus now complicated by oil + rupee + WPI.",
-    "analysis": "A flat week in equities against a 5% rise in crude is not resilience — it is a market that has not decided which of two stories to price. The bullish one is real and new: Iran has begun granting country exemptions, more than 80% of liquid cargo has shifted onto the Omani route beyond Tehran's control, and the US Navy has escorted 660 million barrels through since May. The bearish one is that ship numbers are still at a fifth of pre-war levels, Brent has now gained about 5% for two consecutive weeks, and Monday brings an escalation of financial warfare whose main variable — Chinese cooperation — is outside anyone's ability to forecast. For India the practical consequence is unchanged and getting harder to defer: Brent above $90 across the whole averaging window with the rupee at ₹95.7 makes the next fortnightly revision an arithmetic problem rather than a political one. Watch the OMC counters on Monday."
+    "analysis": "Markets are treating the \"economic D-Day\" as a headline rather than a shock, and on the day that is defensible — crude eased about 1.5%, the indices steadied on a firm Dow and the rupee held. But the composition of the sanctions matters more than the reaction to the announcement, and the composition is now known in outline: Bessent has said in terms that entities transferring money, buying oil or providing seaborne transport will face US enforcement. That is a direct description of parts of India's refining, shipping and trade-finance chain if any counterparty touches Iranian cargo, and the exposure is not confined to firms that deal with Iran directly. Watch three things through the week: whether the published designations name non-Chinese entities, whether Indian banks quietly tighten counterparty screening, and what comes out of Muscat's visit to Tehran on Tuesday. The last of those is the only one that could lower the oil price."
   },
   "hormuzStatus": {
-    "status": "The closure is becoming selective rather than absolute. Iranian state media says Tehran will allow Iraqi oil tankers to transit, the first country-specific exemption of the war, after Baghdad requested special status. More than 80% of liquids moving through over the past fortnight have used the Omani channel — a UN-authorised lane Iran does not control — reversing the earlier pattern in which most vessels followed the Iranian-designated route, and the US military says it has escorted more than 660 million barrels through since early May. Ship numbers nonetheless remain at about 20% of the pre-war average. Iran and Oman continue to discuss arrangements while Washington objects to joint management of the exit route and has threatened to bomb Oman if it obstructs US efforts.",
+    "status": "Two tracks are running against each other this week. Washington is detailing sanctions designed to isolate Iran economically, with explicit enforcement against third parties that buy, finance or ship Iranian oil, while Tehran has warned that vessels breaching its transit rules face detention or confiscation and has dismissed the measures as evidence of American defeat. Against that, Oman's foreign minister Sayyid Badr Albusaidi travels to Tehran on Tuesday for bilateral talks continuing the discussion of the Hormuz arrangement — the negotiation Washington has objected to and threatened Muscat over. Traffic remains near 20% of the pre-war average, with more than 80% of liquids using the UN-authorised Omani channel, Iraqi tankers permitted through, and some operators moving cargo undetected.",
     "preWarFlow": "~90-140 ships/day",
-    "currentFlow": "20% of pre-war traffic, mostly via Oman",
+    "currentFlow": "~20% of pre-war; Oman talks Tuesday",
     "reduction": "Brent settled $89.86 for October delivery, up $2.14 or 2.44% — a fifth consecutive rise and the highest in over a week, having touched roughly $90 intraday. That is about 38% above the pre-war $65. Crude has now spent three sessions above the $85 line at which India's under-recovery question reopens.",
     "indianVesselsNear": 7,
     "indianSeafarers": 148,
@@ -81,8 +81,12 @@
   },
   "hormuzEvents": [
     {
+      "d": "Aug 23-24",
+      "e": "DAY 177-178 — THE FINANCIAL OFFENSIVE BEGINS AND MUSCAT RETURNS TO TEHRAN. Treasury Secretary Scott Bessent wrote in the Financial Times that \"at dawn begins an economic D-Day — the single greatest financial offensive ever marshalled against an adversary\", ahead of a Monday news conference detailing sanctions he told CNBC would be the toughest in history and would collapse the Iranian government. The measures are explicitly secondary: countries and companies that transfer money for Iran, buy its oil or carry it by sea face US enforcement, with Washington pressing China, the largest buyer of Iranian crude, to comply. Beijing rejected the pressure and called for a diplomatic solution. Iran warned that vessels violating its transit rules could be detained or confiscated, and state media dismissed the sanctions as an implicit admission of American defeat. Oman's foreign minister Sayyid Badr Albusaidi is scheduled to visit Tehran on Tuesday to continue talks on the Hormuz arrangement, days after President Trump threatened to bomb Oman if it obstructed US efforts. Brent eased to around $91."
+    },
+    {
       "d": "Aug 21-23",
-      "e": "DAY 175-177 — THE CLOSURE TURNS SELECTIVE. Iranian state media reported that Tehran will allow Iraqi oil tankers to pass through the strait, the clearest case yet of selective access being granted, after Baghdad asked for special status on the grounds that the war had badly damaged its economy. Analysis of UK maritime agency figures put ship numbers at about 20% of the pre-war average, but more than 80% of liquids transiting over the past two weeks used the Omani channel — a UN-authorised lane outside Iranian control — reversing the pattern of early August, and the US military said it had helped tankers move more than 660 million barrels through the strait since early May. President Trump repeated his threat against Oman in a Fox News interview, saying the US would bomb the country if it got in the way. Treasury Secretary Scott Bessent promised the toughest sanctions yet and urged China to support them, with the President trailing an \"Economic D-Day\" whose details are due on Monday. Mohsen Rezaei, secretary of the Supreme National Security Council, vowed to neutralise the economic war and raised the prospect of halting oil; President Pezeshkian said Iran would prefer to conclude the war while in a position of strength."
+      "e": "DAY 175-177 — SELECTIVE ACCESS OPENS AS TEHRAN THREATENS THIRD COUNTRIES. Reuters confirmed, citing Iranian state news agency IRNA, that Iran is allowing some Iraqi oil tankers through the strait — the first country-specific exemption of the war, granted after Baghdad requested special status. Analysis of UK maritime agency figures put ship numbers at about 20% of the pre-war average, with more than 80% of liquids over the past fortnight using the UN-authorised Omani channel rather than the Iranian-designated route, and the US military said it had escorted more than 660 million barrels since early May, some tankers running with transponders off. Reuters nonetheless described shipments as at a virtual standstill, with Tehran threatening to strike unauthorised tankers. Mohsen Rezaei, secretary of the Supreme National Security Council, declared that any country joining the US economic war would be considered an enemy and warned neighbours that cooperation would see their interests targeted, while raising the prospect of halting oil flows; Iran's foreign ministry called the sanctions a declaration of war on all nations. Treasury Secretary Scott Bessent wrote in the Financial Times that an economic D-Day was coming, ahead of a Monday news conference. President Pezeshkian said Iran cannot continue with war forever."
     },
     {
       "d": "Aug 17-21",
@@ -278,40 +282,40 @@
   ],
   "military": [
     {
-      "t": "Aug 22 — Iran grants Iraqi tankers passage through the strait",
-      "lv": "BREAKING",
-      "color": "green",
-      "d": "Iranian state media reported that Iraqi oil tankers will be allowed to transit, following Baghdad's request for special status. It is the first country-specific exemption of the war and establishes exemptions as an instrument of Iranian policy rather than an ad hoc concession. Assessment: the precedent matters more than the volume. India has standing with Tehran that few large importers can match, and a formal request through Muscat or directly is now a live option rather than a theoretical one."
-    },
-    {
-      "t": "Aug 22-23 — Trump trails an \"Economic D-Day\"; details due Monday",
+      "t": "Aug 24 — Bessent details the sanctions, built on secondary enforcement",
       "lv": "BREAKING",
       "color": "red",
-      "d": "Washington is preparing to ramp up sanctions further, with full details expected on Monday, after Thursday's package targeting banks, businesses, shipping registries, cash transfers and smuggling networks. The Treasury Secretary has promised the toughest measures yet and is urging China to support them. Chinese cooperation is the variable that determines whether the campaign bites, given China takes the bulk of Iran's remaining crude exports."
+      "d": "The Treasury Secretary set out the framing in a Financial Times op-ed — \"at dawn begins an economic D-Day\" — before a news conference. He told CNBC the campaign is the greatest coordinated economic isolation in history, that the objective is to collapse the Iranian government, and that any party transferring money for Iran, buying its oil or providing seaborne transport will face the full force of US enforcement. Assessment: this is the mechanism by which a war over a strait becomes a compliance problem for Indian refiners, shippers and banks, regardless of whether any Indian entity deals with Iran directly."
     },
     {
-      "t": "Aug 22 — Tehran vows to neutralise the economic war and will not submit",
-      "lv": "ACTIVE",
-      "color": "orange",
-      "d": "Mohsen Rezaei, secretary of the Supreme National Security Council, said Iran would neutralise the economic war and raised the prospect of halting oil flows. A close ally of the supreme leader said the President's rhetoric stems from desperation and that Iran will not submit. Against that, President Pezeshkian said Tehran would prefer to conclude the war while it remains in a position of strength, calling the June memorandum a victory for Iran."
-    },
-    {
-      "t": "Aug 21 — More than 80% of liquids now move on the Omani route",
-      "lv": "REPORTED",
+      "t": "Aug 24 — Omani foreign minister to visit Tehran on Tuesday",
+      "lv": "BREAKING",
       "color": "cyan",
-      "d": "Analysis of UK maritime agency data showed over 80% of liquid cargoes over the previous fortnight transiting via the UN-authorised Omani channel rather than the Iranian-designated route, a reversal of early August. The US military says it has escorted more than 660 million barrels through since early May. Ship numbers remain at about 20% of the pre-war average. The balance of practical control in the strait is shifting even though the closure formally holds."
+      "d": "Sayyid Badr Albusaidi is scheduled to travel to Iran for bilateral talks continuing discussions on the arrangement of the Strait of Hormuz, according to reports. The visit comes days after President Trump threatened to bomb Oman if it got in the way, and while Washington objects to joint Iranian-Omani management of the exit route. Assessment: the most consequential scheduled event of the week for India, and the only one on the calendar that could lower the oil price."
     },
     {
-      "t": "Aug 17-21 — Trump repeats the threat to bomb Oman",
+      "t": "Aug 22-23 — Iran declares any state joining the economic war an enemy",
+      "lv": "BREAKING",
+      "color": "red",
+      "d": "Mohsen Rezaei, head of the Supreme National Security Council, said on state television that any country participating in economic restrictions against Iran is considered an enemy, and on Sunday warned neighbours that cooperation with Washington would prompt Iran to target their interests. He also vowed to neutralise the economic war and raised the prospect of halting oil flows out of the strait. Assessment: the sanctions campaign is now a compliance problem for every large importer rather than a bilateral confrontation, and India is among the countries with most to lose from either answer."
+    },
+    {
+      "t": "Aug 23 — Bessent promises an \"economic D-Day\" ahead of Monday's announcement",
+      "lv": "BREAKING",
+      "color": "red",
+      "d": "The Treasury Secretary set out the framing in a Financial Times op-ed before a news conference at which he is expected to detail the pressure campaign, following the 20 August package targeting banks, shipping registries, cash transfers and smuggling networks. Washington is urging China to support the measures. Whether Chinese buyers are targeted directly is the detail that determines both the campaign's effect on Iran and its secondary reach into Indian refining and banking."
+    },
+    {
+      "t": "Aug 23 — Pezeshkian says Iran cannot continue with war forever",
+      "lv": "REPORTED",
+      "color": "amber",
+      "d": "The Iranian President said the country cannot sustain the conflict indefinitely, having argued on Friday that it should end because the world had accepted Iran had won, and earlier that Tehran would prefer to conclude while in a position of strength. It sits directly against Rezaei's threats and a supreme leader ally's insistence that Iran will not submit. The split inside the leadership is now open and is the most important variable for how this ends."
+    },
+    {
+      "t": "Aug 22 — Iran allows Iraqi oil tankers through the strait",
       "lv": "ACTIVE",
-      "color": "orange",
-      "d": "In a Fox News interview the President said the United States would bomb Oman if it \"gets in the way\" of US efforts, repeating a threat first made earlier in the week and echoed by officials in the form of possible sanctions. Muscat has historically been Washington's key interlocutor in the region and remains the channel through which any workable reopening most plausibly reaches Indian cargoes."
-    },
-    {
-      "t": "Aug 21 — US pump prices head for a record August",
-      "lv": "STRATEGIC",
-      "color": "purple",
-      "d": "American petrol prices are up nearly a dollar a gallon on a year ago, with motoring body AAA noting this August could be the highest on record for the month, and consumers cutting back. Assessment: the domestic political cost of elevated prices in the United States is now a variable in how long Washington sustains the campaign — and therefore a variable in India's import bill."
+      "color": "green",
+      "d": "Reuters confirmed, citing IRNA, that some Iraqi tankers are being permitted to transit after Baghdad requested special status on the grounds that the war had badly damaged its economy. It remains the first and only country-specific exemption of the war, and it has held through the week's escalation. The precedent, rather than the volume, is what matters for India."
     }
   ],
   "nukes": [
@@ -487,8 +491,8 @@
     }
   ],
   "assessment": {
-    "headline": "Iran has started granting country exemptions and most cargo has shifted onto the route Tehran does not control — the first structural improvement of the war, arriving in the same week that oil rose another 5%.",
-    "body": "WHAT HAPPENED\nTehran is allowing Iraqi oil tankers through the strait, the first country-specific exemption since February. More than 80% of liquid cargo over the past fortnight used the UN-authorised Omani channel rather than the Iranian-designated route, and the US Navy says it has escorted 660 million barrels through since May. Ship numbers remain at 20% of pre-war levels. Washington announces a further sanctions escalation on Monday.\n\nWHY IT MATTERS FOR INDIA\nTwo developments here are worth separating. The routing shift is the more consequential: if cargo moves reliably through Omani waters under US escort, the closure becomes a capacity constraint rather than a permission problem, and capacity constraints ease with time and convoy discipline. The exemption is the more immediately actionable. Iraq asked and received; the mechanism exists. India buys at scale, has kept its Tehran relationship intact through the war, and has a standing channel through Muscat. Whether Delhi should ask is a political judgement above this tracker's pay grade, but the option is now demonstrably real, and the cost of not asking is measured in the ₹99.82 diesel Mumbai is already paying.\n\nTHE THING TO WATCH\nMonday, on two fronts. The sanctions detail will show whether Washington is targeting Chinese buyers directly, which is the only route by which financial pressure actually reaches Iranian revenue — and the fastest route by which this war reaches Indian refiners through secondary exposure. And the OMC counters will show whether the market now expects a pump revision. Brent has held above $90 for the entire averaging window with the rupee at ₹95.7; that arithmetic does not defer much longer.\n\nWHAT WOULD CHANGE THIS ASSESSMENT\nRezaei's hint at halting oil flows is the tail risk. Iran retaliating against the financial campaign by attacking the Omani-route convoys — the thing that is currently working — would erase the structural improvement described above in a single week and put Brent through $100. Against that, additional country exemptions, or a US decision to tolerate the Iran-Oman arrangement it currently opposes, would be the first genuine off-ramp visible since June."
+    "headline": "Washington's sanctions are built to make every other country choose, and they arrive the day before Oman goes to Tehran to negotiate the reopening India needs — two tracks that cannot both succeed.",
+    "body": "WHAT HAPPENED\nTreasury Secretary Bessent is detailing sanctions he has described as the greatest coordinated economic isolation in history, aimed at collapsing the Iranian government, and enforced against third parties that buy, finance or ship Iranian oil. Iran threatens to detain or confiscate vessels breaching its transit rules. Oman's foreign minister travels to Tehran on Tuesday. Brent eased to about $91 and Indian indices steadied.\n\nWHY IT MATTERS FOR INDIA\nThe secondary architecture is the whole story. Bessent named the three activities that trigger enforcement — moving money, buying oil, carrying cargo by sea — and each describes a segment of Indian commercial activity. The exposure is not primarily about Indian purchases of Iranian crude, which have been minimal for years; it is about counterparty risk running through refiners, shipping registries, insurers and trade-finance banks whose chains touch cargo of uncertain origin. That is a compliance cost even where there is no violation, and it lands on an economy already carrying $91 crude and a rupee near ₹95.7. Meanwhile the thing India actually wants — commercial transit restored through the Omani channel — is being negotiated by a mediator Washington has threatened to bomb.\n\nTHE THING TO WATCH\nTuesday's Tehran talks, more than today's press conference. The sanctions detail tells you how hard Washington will squeeze; the Omani visit tells you whether there is a reopening to be had at all. Watch also whether the designations published this week name any non-Chinese entities, which is the first indicator of how wide the secondary net is actually cast, and whether Indian banks begin tightening counterparty screening without being asked. The second usually precedes the first.\n\nWHAT WOULD CHANGE THIS ASSESSMENT\nAn Omani-brokered transit framework that Washington tolerates would be the first genuine off-ramp of the war, and Tuesday is when its odds become readable. Against that, Iran acting on its seizure threat against a vessel on the Omani route — the corridor that is currently working — would collapse both tracks at once and put Brent back through $95 within a session."
   },
   "featured": [
     {
@@ -1206,13 +1210,13 @@
   ],
   "exec": {
     "level": "HIGH",
-    "phase": "Selective access opens as economic pressure peaks",
-    "oilNote": "Brent closed Friday at $93.40 after a one-month high of $94.71 — a second straight weekly gain of about 5%, and roughly 44% above the pre-war $65. WTI $86.30.",
-    "shipping": "EXEMPTIONS BEGIN, VOLUMES STILL 20%",
-    "shippingSub": "Iran is allowing Iraqi tankers through, the first country exemption of the war. Over 80% of liquids now use the UN-authorised Omani channel rather than Iran's route, but ship numbers remain at 20% of the pre-war average.",
-    "military": "ECONOMIC D-DAY DUE MONDAY",
-    "militarySub": "Full sanctions detail expected Monday, with Washington pressing China to support the toughest measures yet. Tehran vows to neutralise the economic war and will not submit, while Pezeshkian signals he would prefer to end the war from strength.",
-    "indiaSub": "Flat week — Sensex 77,540.83, Nifty 24,252 — against a 5% rise in crude. Rupee ₹95.72 with the RBI intervening. Both inputs to the next pump revision are now adverse."
+    "phase": "Secondary sanctions land; Muscat goes to Tehran tomorrow",
+    "oilNote": "Brent eased to about $91, down roughly 1.5%, trading between $90.30 and $92.07 after last week's run to a one-month high above $94. Still about 40% above the pre-war $65.",
+    "shipping": "SEIZURE THREAT, OMAN TALKS TUESDAY",
+    "shippingSub": "Iran threatens detention or confiscation of vessels breaching its transit rules. Oman's foreign minister visits Tehran on Tuesday to continue Hormuz talks. Traffic remains near 20% of pre-war, mostly on the Omani channel.",
+    "military": "ECONOMIC D-DAY, SECONDARY REACH",
+    "militarySub": "Bessent details the sanctions today, aimed at collapsing the Iranian government, with explicit enforcement against third countries that buy, finance or ship Iranian oil. Beijing rejects the pressure.",
+    "indiaSub": "Indices steadied — Sensex near 77,670, Nifty above 24,270 at midday. Regulator clears 1,800km of LPG pipelines. Any compliance decision now carries costs from both Washington and Tehran."
   },
   "hormuzPhases": [
     {
@@ -1256,7 +1260,7 @@
       "days": "Aug 5–"
     }
   ],
-  "_phaseBadge": "Iran is letting Iraqi oil tankers through the strait — the first country-specific exemption of the war · More than 80% of liquids now transit via the UN-authorised Omani channel rather than Iran's route · Traffic is at 20% of the pre-war average · Further US sanctions due Monday; Brent closed the week near $93.40",
+  "_phaseBadge": "Bessent details the sanctions today, having promised in the Financial Times that \"at dawn begins an economic D-Day\" · The measures are explicitly secondary: buy Iranian oil, move the money or carry the cargo and the US Treasury enforces against you · Oman's foreign minister visits Tehran on Tuesday · Brent eased to about $91",
   "budget": {
     "petrolPre": 94.72,
     "petrolNow": 111.21,
@@ -1266,10 +1270,10 @@
     "lpgNow": 942.0
   },
   "brief": [
-    "Something changed at the strait this week, and it favours India. Iran has begun allowing Iraqi oil tankers through — the first country-specific exemption of the war — after Baghdad asked for special status. At the same time more than 80% of liquid cargoes over the past fortnight have transited via the Omani channel, a UN-authorised route Iran does not control, rather than the Iranian-designated one. The US military says it has escorted 660 million barrels through since early May.",
-    "But the volumes are still small and the pressure is still rising. Ship numbers are running at about 20% of the pre-war average. Washington is preparing what the President has called an \"Economic D-Day\", with full details due on Monday, and the Treasury Secretary has promised the toughest sanctions yet while pressing China to support them. Iran's security chief has vowed to \"neutralise the economic war\" and a close ally of the supreme leader said Tehran \"will not submit\".",
-    "For your money: Brent closed Friday at $93.40 after touching a one-month high of $94.71, its second consecutive weekly gain of about 5%. Indian markets ended the week flat — Sensex 77,540.83, Nifty 24,252 — with financials offsetting weakness in IT, auto and FMCG. The rupee weakened to ₹95.72 with the RBI still intervening. Flat indices with crude up 5% is not calm; it is the market waiting.",
-    "At the pump, prices are holding but the maths is not. Two consecutive weekly gains have put Brent above $90 for the whole of the current averaging window, with the rupee near ₹95.7 for the same period. Both inputs to the fortnightly revision are now adverse and have been for long enough to matter. Diesel in Mumbai is already ₹99.82. Expect the question to be settled within weeks rather than months."
+    "The sanctions land today, and they are designed to reach India. Treasury Secretary Scott Bessent wrote in the Financial Times that \"at dawn begins an economic D-Day\", and told CNBC the measures are the toughest in history, aimed at collapsing the Iranian government. The mechanism is secondary enforcement: in his words, if you insist on doing business with Iran — transferring money, buying oil or carrying it by sea — the US Treasury will use its full force against you. He is detailing it at a news conference today.",
+    "There is a diplomatic counterweight tomorrow. Oman's foreign minister, Sayyid Badr Albusaidi, travels to Tehran on Tuesday to continue talks on the Hormuz arrangement. Muscat is the channel India has most relied on throughout this war, and it is going to Tehran in the same week Washington threatened to bomb it. Iran, meanwhile, is threatening to detain or confiscate vessels that breach its transit rules, and has dismissed the sanctions as proof of American defeat.",
+    "For your money: markets took it calmly. Brent eased to around $91, down about 1.5%, after last week's climb to a one-month high. Indian indices opened higher and held there — the Sensex around 77,670 and the Nifty above 24,270 by late morning, snapping the recent slide, with IT and metals leading. Both fell last week, the Sensex 0.6% and the Nifty 0.5%. Today's close is not yet in.",
+    "One piece of India news worth more than the day's index move: the petroleum regulator has cleared about 1,800km of new LPG pipelines, an investment of roughly $731 million. Given that 90% of India's LPG came through Hormuz before the war, domestic distribution capacity is exactly the sort of thing that matters after this war rather than during it. At the pump today, nothing has changed: petrol ₹111.21, diesel ₹97.83, a cylinder ₹942."
   ],
-  "shareLine": "Iran has begun granting country exemptions at Hormuz and most cargo has shifted onto the Omani route it does not control — the first structural improvement of the war, in a week when Brent still rose 5% to $93.40."
+  "shareLine": "Washington's \"economic D-Day\" sanctions are built to make every country choose between Iran and the US financial system. They arrive the day before Oman goes to Tehran to negotiate the Hormuz reopening India needs."
 }
