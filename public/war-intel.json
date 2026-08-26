@@ -1319,5 +1319,54 @@
     "The gap between the American and the Iranian-Omani accounts of Hormuz is the thing to watch, not the headline that mines are gone. Washington describes a unilateral clearance operation with air cover; Tehran describes a negotiated, temporary, commercial-only route that reverts to closed if its conditions aren't met, and Gharibabadi said as much on the record. An unidentified projectile disabled a tanker off Oman on Monday night — evidence that neither account yet describes a genuinely open strait.",
     "At the pump, nothing has changed: petrol ₹111.21 a litre in Delhi, diesel ₹97.83, a cylinder ₹942. A third session of Brent under $90 strengthens the case for the oil marketing companies to hold off on a hike, but the under-recovery accumulated since July hasn't gone away, and Iran's blacklisting of 45 ships this week for evading its own blockade is a reminder that the shipping picture is still being fought over, not settled."
   ],
-  "shareLine": "The US says it cleared Hormuz's mines; Iran and Oman say the strait isn't open. Brent fell for a third session anyway, to around $86.5, and India's rupee held ₹95.41 through a market holiday."
+  "shareLine": "The US says it cleared Hormuz's mines; Iran and Oman say the strait isn't open. Brent fell for a third session anyway, to around $86.5, and India's rupee held ₹95.41 through a market holiday.",
+  "author": {
+    "name": "Nithiyanandam Yogeswaran",
+    "twitter": "https://x.com/prof_nithiya",
+    "contact": "geospatial@takshashila.org.in"
+  },
+  "opeds": [
+    {
+      "date": "9 Mar 2026",
+      "org": "Takshashila Institution",
+      "title": "The Critical 96 Hours",
+      "type": "Analytical article — satellite-data availability and latency",
+      "url": null
+    },
+    {
+      "date": "30 Mar 2026",
+      "org": "Takshashila Institution",
+      "title": "Why Tracking Ships at Sea Is Not as Easy as It Seems",
+      "type": "Analytical / methodology article",
+      "url": null
+    },
+    {
+      "date": "30 Apr 2026",
+      "org": "Takshashila Geospatial Bulletin #15",
+      "title": "The Strait of Hormuz and the New Logic of Chokepoint Control",
+      "type": "Major long-form analytical article / bulletin",
+      "url": "https://geospatialbulletin.takshashila.org.in/p/15-the-strait-of-hormuz-and-the-new"
+    },
+    {
+      "date": "3 Aug 2026",
+      "org": "Takshashila Institution",
+      "title": "India's GEOINT Advantage in Warfare",
+      "type": "Broader GEOINT essay, relevant to the conflict but not exclusively West Asia",
+      "url": null
+    },
+    {
+      "date": "17 Aug 2026",
+      "org": "Takshashila Institution",
+      "title": "What Expired, and What Did Not",
+      "type": "West Asia / Hormuz analysis",
+      "url": null
+    },
+    {
+      "date": "18 Aug 2026",
+      "org": "Moneycontrol",
+      "title": "Hormuz Dilemma: It's neither fully open nor closed which is driving economic uncertainty",
+      "type": "Op-ed / opinion article",
+      "url": null
+    }
+  ]
 }
