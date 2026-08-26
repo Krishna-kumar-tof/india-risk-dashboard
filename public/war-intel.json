@@ -1,8 +1,8 @@
 {
-  "_updated": "August 25, 2026 — 7:40 PM IST (post-market)",
-  "_asOf": "2026-08-25",
+  "_updated": "August 26, 2026 — 9:00 AM IST (pre-market)",
+  "_asOf": "2026-08-26",
   "_start": "2026-02-28",
-  "_day": 179,
+  "_day": 180,
   "preWar": {
     "brent": 65,
     "rupee": 91.49,
@@ -11,75 +11,80 @@
     "petrol": 94.72,
     "diesel": 87.62
   },
-  "_phase": "CRUDE BREAKS BELOW $90 AS THE SANCTIONS DISAPPOINT — AND PAKISTAN'S ARMY CHIEF STUDIES A HORMUZ MAP IN TEHRAN",
-  "_note": "Verified: NPR, CNN, CBS, Fox News, The Hill, Washington Times (Jul 15-16), CENTCOM statements, HDFC Sky, Business Standard (Jul 14-15 closes), TradingEconomics, Investing.com (Brent live Jul 16), Zee Business",
+  "_phase": "HORMUZ MINES CLEARED, BRENT BELOW $87 — BUT TEHRAN SAYS THE STRAIT ISN'T OPEN",
+  "_note": "Verified: Reuters (via Yahoo, Al-Monitor, Bastille Post), Al Jazeera live blog (Aug 26), Axios, Jerusalem Post, Breitbart, Benzinga, TradingEconomics (Brent/WTI, Aug 26 pre-market), Upstox/Subkuz/IndiaIPO/Newsdrum (NSE data, Aug 25 close and Aug 26 open), UKMTO advisory 120-26, CBS News (Pacific Zircon)",
   "ticker": [
-    "BRENT FALLS BELOW $90 — DOWN OVER 3% TO ~$89.26, INTRADAY LOW $87.65",
-    "RUPEE GAINS 34 PAISE TO ₹95.41, ITS BEST SESSION IN WEEKS",
-    "SENSEX 77,529.94 (+160.83), NIFTY 24,260.05 (+41) AS SANCTIONS FALL SHORT OF EXPECTATIONS",
-    "OMANI FOREIGN MINISTER HOLDS HORMUZ TALKS IN TEHRAN",
-    "PAKISTAN ARMY CHIEF ASIM MUNIR REVIEWS A HORMUZ MAP WITH IRAN'S INTERIOR MINISTER",
-    "IRANIAN ASSEMBLY ADVANCES PLANS FOR HORMUZ SERVICE FEES",
-    "US OFFERS UP TO $10 MILLION FOR INFORMATION ON FIVE SENIOR IRGC COMMANDERS"
+    "US NAVY CLEARS ALL MINES FROM HORMUZ'S MAIN SHIPPING LANES, TRUMP SAYS — WARNS NEW MINE-LAYERS WILL BE DESTROYED",
+    "IRAN AND OMAN PROPOSE A TEMPORARY HORMUZ CORRIDOR; TEHRAN SAYS THE STRAIT ISN'T REOPENING",
+    "BRENT FALLS FOR A THIRD SESSION, DOWN OVER 2% TO ~$86.5",
+    "AN OIL TANKER DISABLED BY AN UNIDENTIFIED PROJECTILE OFF OMAN MONDAY NIGHT",
+    "INDIA'S CURRENCY AND DEBT MARKETS SHUT FOR EID-E-MILAD; RUPEE CARRIES OVER TUESDAY'S ₹95.41",
+    "SENSEX, NIFTY CLOSED HIGHER TUESDAY FOR A SECOND SESSION; GIFT NIFTY POINTS TO A HIGHER OPEN",
+    "IRAN BLACKLISTS 45 SHIPS OVER SHIP-TO-SHIP TRANSFERS EVADING THE BLOCKADE",
+    "TRUMP TELLS AL JAZEERA HE IS 'NOT IN A HURRY' ON TALKS WITH TEHRAN"
   ],
   "whatChanged": {
-    "label": "What changed — Tuesday August 25, 7:40 PM IST (Day 179) — post-market",
+    "label": "What changed — Wednesday August 26, 9:00 AM IST (Day 180) — pre-market",
     "items": [
       {
         "color": "green",
-        "bold": "Brent broke below $90 as the sanctions were judged a damp squib",
-        "text": "Crude fell more than 3%, with Brent futures touching an intraday low of $87.65 before settling around $89.26, as traders shrugged off the sanctions threat. The reasoning reported by Reuters is that economic pressure poses less risk to physical oil supply than military escalation would, and Bessent named no target countries and set no timeline. Asian equities slipped on a US tech selloff, but the energy complex read Monday as a deferral."
-      },
-      {
-        "color": "green",
-        "bold": "India: the rupee had its best session in weeks and both indices closed up",
-        "text": "The rupee strengthened 34 paise to ₹95.41 from ₹95.75 on Monday. The Sensex closed 160.83 points higher at 77,529.94 and the Nifty 41 points up at 24,260.05 on monthly expiry, with softer bond yields adding support. Healthcare and financials outperformed as investors moved to defensive and domestic-oriented sectors; metals, private banks and oil and gas lagged. Foreign investors bought ₹1,182 crore of equities on Monday against domestic institutions' ₹2,493 crore."
+        "bold": "The US says it has cleared Hormuz's mines; Brent fell for a third session",
+        "text": "Trump said the US Navy had removed or detonated every mine from the international waters of the strait's main shipping lanes and warned that any vessel laying new mines would be destroyed under a zero-tolerance policy. CENTCOM said more than 500 ships transited the southern lane in the past 30 days with roughly 2% struck. Brent extended its slide to a third consecutive session, down more than 2% to around $86.5 — about 33% above the pre-war $65."
       },
       {
         "color": "cyan",
-        "bold": "Oman's foreign minister held Hormuz talks in Tehran",
-        "text": "Sayyid Badr al-Busaidi travelled to Iran to continue discussions on the strait and other regional developments, days after President Trump threatened to bomb Oman if it obstructed US efforts. Iran and Oman have already agreed route coordinates — vessels entering through Iranian waters and exiting through Omani waters — but Tehran maintains that full reopening depends on US compliance with the June memorandum. No outcome had been announced by the time of writing."
-      },
-      {
-        "color": "orange",
-        "bold": "Pakistan's army chief was in Tehran, studying a map of the strait",
-        "text": "Field Marshal Asim Munir met Iranian officials and was photographed reviewing a map of the Strait of Hormuz with interior minister Eskandar Momeni. Security council secretary Mohsen Rezaei told him the United States \"must change its behaviour and take concrete steps toward fulfilling the conditions of the memorandum of understanding\". Assessment: coming after the Turkey-Saudi-Pakistan defence pact signed in Mecca this month, this is the second sign in a fortnight of a regional security architecture forming around the chokepoint India depends on, with Pakistan inside it and India outside."
+        "bold": "Iran and Oman propose a temporary corridor of their own — and Tehran says the strait still isn't open",
+        "text": "Oman's foreign minister Sayyid Badr al-Busaidi and Iran's Abbas Araghchi announced a phased framework: a temporary joint navigational corridor, inbound through Iranian waters and outbound through Iranian or Omani waters, commercial vessels only, alongside a joint mine-clearance project. A permanent route is to be negotiated within 30-60 days. Iran's deputy foreign minister Kazem Gharibabadi said the arrangement does not mean the strait is reopening."
       },
       {
         "color": "amber",
-        "bold": "Tehran moves to monetise the strait while warning of unrest at home",
-        "text": "Iran's assembly is advancing plans for Hormuz service fees, formalising the toll idea that has circulated since April. Ghalibaf said the United States is not in an economic position to restrict other countries' relations. But the national police chief, Brig Gen Ahmad-Reza Radan, warned that adversaries were seeking to exploit grievances over livelihoods, petrol, the economy and unemployment to trigger unrest across the country — a striking admission hours before the sanctions landed. Washington separately offered up to $10 million for information on five senior IRGC commanders."
+        "bold": "An oil tanker was disabled by an unidentified projectile off Oman",
+        "text": "UKMTO reported the strike hit the vessel's engine room about 9 nautical miles northeast of Ash Shishah late Monday, disabling it; the crew was reported safe and no one has claimed responsibility. It is a reminder that a mine-free strait, if verified, is not yet a safe one."
+      },
+      {
+        "color": "green",
+        "bold": "India: markets are half-open — currency shut for Eid-e-Milad, equities pointing higher",
+        "text": "The rupee carries over Tuesday's close of ₹95.41, its best session in weeks, as forex and debt trading are closed for the holiday. Equities remain open; GIFT Nifty was indicating a roughly 90-point higher start after the Sensex and Nifty closed higher on Tuesday for a second straight session, aided by falling crude. FIIs bought ₹1,593.53 crore on Tuesday, taking August's net buying to ₹27,186 crore."
+      },
+      {
+        "color": "orange",
+        "bold": "Iran blacklists 45 ships, and Trump says he isn't in a hurry",
+        "text": "Iran named 45 vessels it accuses of ship-to-ship transfers used to evade its own blockade of the strait. Trump told Al Jazeera that both economic and military pressure on Iran \"are effective\" and that the US is \"not in a hurry\" to reach a deal, while Iran's army spokesperson said Tehran has made significant progress rebuilding war-damaged infrastructure and received new military equipment."
       }
     ]
   },
   "deaths": "7,199+",
   "econ": {
-    "sensex": "77,529.94 (close, +0.21%)",
-    "sensexDelta": "Tue Aug 25 close: +160.83 points",
-    "sensexSub": "Closed higher on monthly expiry as crude and bond yields moderated after the sanctions fell short of expectations. Nifty Healthcare, Pharma, PSU Bank and Media gained; Metal, Private Bank, Realty and Oil and Gas fell. Adani Enterprises, Max Healthcare, IndiGo and Apollo Hospitals led; Cipla, Hindalco, ONGC and Coal India lagged.",
+    "sensex": "77,656.09 (Tue close, +0.37%) — GIFT Nifty +89 pts pre-open",
+    "sensexDelta": "Tue Aug 25 close: +286.98 points; GIFT Nifty indicating a ~90-point higher Wednesday open",
+    "sensexSub": "Tuesday's session closed higher for a second straight day as crude extended its retreat; ICICI Bank, SBI Life and HDFC Life led Nifty gainers. Cipla fell around 1% after the US FDA flagged seven observations at its Pithampur facility. FIIs bought ₹1,593.53 crore, DIIs ₹230.26 crore — FIIs are now net buyers of ₹27,186 crore for August.",
     "vix": "~13.1 — EASING",
-    "vixDelta": "-4.51% to 13.14 Wed open, ~-3% at close — volatility compressing despite blockade. Tue: 13.75 (+3.53%). Well below wartime 24-27; markets treating this as a contained maritime campaign, not full war.",
-    "fpi": "+$1.3bn in August so far",
-    "fpiDelta": "FIIs bought ₹508.12 crore on Aug 14; DIIs ₹356.40 crore",
-    "wealth": "BSE market cap ~Rs 485-490 trillion — resilient through the blockade week. WPI 9.87% June (from 9.68%) — war transmission to wholesale prices confirmed. Net direct tax +16.4% YTD to Rs 6.51L Cr (till Jul 13). RBI Aug MPC calculus now complicated by oil + rupee + WPI.",
-    "analysis": "This was the session the war worked in India's favour, and it is worth being precise about why. Nothing improved at the strait — traffic is still near a fifth of pre-war levels and the Oman talks produced no announced outcome. What changed is that markets concluded Washington had chosen financial pressure over military escalation, and financial pressure does not sink tankers. Brent fell over 3%, the rupee gained 34 paise to ₹95.41 and bond yields eased, which is the exact transmission chain this tracker has been describing in reverse for two months. The caution is that a relief rally built on an absence of escalation is only as durable as that absence: Bessent explicitly held the secondary sanctions in reserve, which means the same announcement can be made again with teeth. For the pump question, one session below $90 changes nothing; a fortnight below $90 with the rupee at ₹95.4 changes everything."
+    "vixDelta": "No fresh print pre-market. Tue: ~13.1, well below wartime 24-27 — markets treating this as a contained maritime campaign, not full war.",
+    "fpi": "+₹27,186 crore in August so far",
+    "fpiDelta": "FIIs bought ₹1,593.53 crore on Aug 25; DIIs ₹230.26 crore",
+    "wealth": "BSE market cap ~Rs 485-490 trillion — resilient through the blockade week. WPI 9.87% June (from 9.68%) — war transmission to wholesale prices confirmed. Net direct tax +16.4% YTD to Rs 6.51L Cr (till Jul 13). US 10-year yield eased to 4.634% Tuesday, easing the global backdrop for the rupee.",
+    "analysis": "Two claims arrived within hours of each other today, and only one of them was tested. The US says the mines are gone and it controls the strait's main shipping lane; Iran and Oman are negotiating a separate, conditional corridor that Tehran insists does not amount to reopening. Brent did not wait for the dispute to resolve — it fell for a third straight session, near $86.5, because traders are pricing the direction of travel rather than the legal status of the waterway. For India the read-through is the one this tracker has made before: crude down is currency up, and a rupee that held ₹95.41 through a holiday session is evidence the market believes the de-escalation, even where the two sides describing it don't agree on what happened. The caution is Gharibabadi's own framing — a provisional 30-to-60-day corridor, renegotiated on Iran's terms, is not the same as a return to pre-war transit, and Monday night's disabled tanker is proof the waterway is calmer, not calm."
   },
   "hormuzStatus": {
-    "status": "Diplomacy resumed in Tehran today even as Iran moved to institutionalise the closure. Oman's foreign minister Sayyid Badr al-Busaidi arrived for talks on the strait and other regional matters, days after Washington threatened to bomb Oman over the arrangement being negotiated; no outcome had been announced by the evening. Iran's assembly is advancing plans to charge service fees for transit, formalising the toll proposals that have circulated since April, and Tehran maintains the waterway will not return to its pre-war management. Pakistan's army chief Field Marshal Asim Munir was in Tehran the same day, reviewing a map of the strait with Iran's interior minister. Traffic remains near 20% of the pre-war average, with most liquids on the UN-authorised Omani channel and Iraqi tankers permitted through under the first country exemption of the war.",
+    "status": "The US and Iran-Oman are now telling two different stories about the same waterway. The US Navy says it has cleared both the inbound and outbound lanes of the main shipping corridor of mines, after months of underwater drone surveys and controlled detonation of more than 100 suspected devices; Trump warned on Truth Social that any vessel laying new mines would be destroyed and declared a strait-wide zero-tolerance policy. Hours later, Oman's foreign minister Sayyid Badr al-Busaidi and Iran's Abbas Araghchi announced a framework of their own: a temporary joint navigational corridor, entered through Iranian waters and exited through Iranian or Omani waters, commercial vessels only, no warships, provisional for 30-60 days while a permanent route is negotiated. Iran's deputy foreign minister Kazem Gharibabadi was explicit that this is not a reopening — the strait stays closed on Tehran's terms until the US meets its conditions. An oil tanker was disabled by an unidentified projectile off Oman's coast on Monday night, a reminder that both claims are aspirational until traffic actually resumes at scale.",
     "preWarFlow": "~90-140 ships/day",
-    "currentFlow": "~20% of pre-war; Oman talks Tuesday",
-    "reduction": "Brent settled $89.86 for October delivery, up $2.14 or 2.44% — a fifth consecutive rise and the highest in over a week, having touched roughly $90 intraday. That is about 38% above the pre-war $65. Crude has now spent three sessions above the $85 line at which India's under-recovery question reopens.",
+    "currentFlow": "~20% of pre-war; US says the southern lane now carries two-way traffic",
+    "reduction": "Brent extended its slide to a third consecutive session, trading near $86.5 in Wednesday's early hours — about 33% above the pre-war $65, and roughly $8 below last week's one-month high near $95.",
     "indianVesselsNear": 7,
     "indianSeafarers": 148,
     "indianTransited": 1,
-    "totalShipsWaiting": "Significantly reduced from wartime peak of 20,000+. 3 Indian tankers safely crossed. But US oil licence revocation + Hormuz re-closure claims = uncertainty for remaining stranded vessels. India seafarer repatriation: mostly achieved for Indian-flagged vessels that transited. MT Settebello diplomatic track: ongoing.",
-    "lastTransit": "Ship numbers are running at roughly 20% of the pre-war average, with more than 80% of liquid cargoes over the past two weeks using the UN-authorised Omani channel rather than the Iranian-designated route. Iran has begun allowing Iraqi oil tankers through.",
-    "indianNavyEscort": "Op Urja Suraksha: transitioning given formal blockade lift. MT Settebello diplomatic track continues independent of the broader deal. India's 18,000+ seafarer repatriation should now accelerate given the 'immediate effect' confirmation from Pakistan's PM.",
-    "headline": "TWO STORIES ON THE SAME DAY: THE MEDIATORS SAY AN ARRANGEMENT IS CLOSE, THE PRINCIPALS HARDENED THEIR TERMS, AND A US HELICOPTER PUT MISSILES INTO A SHIP'S ENGINE ROOM. BRENT SETTLED AT $89.86.",
+    "totalShipsWaiting": "Significantly reduced from the wartime peak of 20,000+. CENTCOM says over 500 ships transited the southern lane in the past 30 days with roughly 2% struck — the US mine-clearance claim, if it holds, would extend that to both lanes. India's stranded-vessel picture is unchanged pending confirmation that the Iran-Oman corridor is operational.",
+    "lastTransit": "Ship numbers remain near 20% of the pre-war average. The US says its own clearance of the Traffic Separation Scheme opens a second lane alongside the Omani channel that has carried most liquid cargo; Iran and Oman's own corridor proposal is commercial-only and still under negotiation.",
+    "indianNavyEscort": "Op Urja Suraksha: unchanged pending confirmation that either the US-cleared lane or the Iran-Oman corridor is operational for third-country shipping. MT Settebello diplomatic track continues independently.",
+    "headline": "THE US SAYS THE MINES ARE GONE. IRAN AND OMAN SAY THE STRAIT ISN'T OPEN. BOTH THINGS ARE TRUE AT ONCE, AND BRENT FELL FOR A THIRD SESSION ANYWAY.",
     "indianCasualties": 4,
-    "indianCasualtyDetail": "4th Indian death of the war: a crew member aboard UAE tanker MOMBASA killed by an Iranian cruise missile in Omani territorial waters (UAE MoD, Jul 14). 8 injured incl. 6 Indians, 4 serious. Earlier: 3 Indian sailors killed on MT Settebello (Jun 8, US Navy strike)."
+    "indianCasualtyDetail": "4th Indian death of the war: a crew member aboard UAE tanker MOMBASA killed by an Iranian cruise missile in Omani territorial waters (UAE MoD, Jul 14). 8 injured incl. 6 Indians, 4 serious. Earlier: 3 Indian sailors killed on MT Settebello (Jun 8, US Navy strike). No new Indian casualties reported."
   },
   "hormuzEvents": [
+    {
+      "d": "Aug 26",
+      "e": "DAY 180 — TWO CLAIMS, ONE STRAIT. Trump said on Truth Social that the US Navy had cleared or detonated all mines from the international waters of the Strait of Hormuz, covering both the inbound and outbound lanes of the main shipping corridor, and warned that any vessel laying new mines would be \"immediately and systematically destroyed\" under a zero-tolerance policy. CENTCOM said more than 500 ships had transited the southern lane in the past 30 days with roughly 2% struck. Hours later, Oman's foreign minister Sayyid Badr al-Busaidi and Iran's Abbas Araghchi announced a phased framework for a temporary joint navigational corridor — inbound through Iranian waters, outbound through Iranian or Omani waters, commercial vessels only, no warships — alongside a joint mine-clearance project, with a permanent route to be negotiated within 30-60 days. Iran's deputy foreign minister Kazem Gharibabadi said this does not amount to reopening the strait, which he said remains closed until Washington meets Tehran's conditions. Trump told Al Jazeera he was \"not in a hurry\" on talks with Iran and that both economic and military pressure \"are effective.\" Brent extended its slide to a third session, falling more than 2% to around $86.5. Iran separately blacklisted 45 ships accused of ship-to-ship transfers evading its own blockade. Indian markets were shut for currency and debt trading on account of Eid-e-Milad, though equities remained open; GIFT Nifty pointed to a higher start after Tuesday's gains."
+    },
     {
       "d": "Aug 25",
       "e": "DAY 179 — DIPLOMACY RESUMES AND THE PRICE FALLS. Oman's foreign minister Sayyid Badr al-Busaidi travelled to Tehran for talks on the Strait of Hormuz and other regional developments, days after President Trump threatened to bomb Oman if it obstructed US efforts; no outcome was announced. Pakistan's army chief, Field Marshal Asim Munir, was in Tehran the same day and was photographed reviewing a map of the strait with interior minister Eskandar Momeni, having been told by security council secretary Mohsen Rezaei that Washington must take concrete steps to fulfil the June memorandum. Iran's assembly advanced plans for Hormuz service fees. Brent fell more than 3% to around $89.26 with an intraday low of $87.65, as traders judged Monday's sanctions to pose less risk to oil supply than military escalation would. Iran's national police chief warned that adversaries were seeking to exploit grievances over livelihoods, petrol and unemployment to trigger unrest, and the US State Department offered up to $10 million for information on five senior IRGC commanders. Saudi shipping company Bahri said one of its tankers was involved in a security incident in the Red Sea after a claimed Houthi missile attack."
@@ -286,16 +291,28 @@
   ],
   "military": [
     {
+      "t": "Aug 26 — US Navy declares Hormuz's shipping lanes cleared of mines",
+      "lv": "BREAKING",
+      "color": "green",
+      "d": "Trump said on Truth Social that the US Navy had removed or detonated every mine from the international waters of the Strait of Hormuz, covering both lanes of the main shipping corridor, after months of underwater drone surveys and contractor-led clearance of more than 100 suspected devices. He warned that any vessel laying new mines would be \"immediately and systematically destroyed\" under a zero-tolerance policy, and said the US is also watching Iran's damaged nuclear sites via Space Force. CENTCOM said more than 500 ships had transited the southern lane in the past 30 days with roughly 2% struck."
+    },
+    {
+      "t": "Aug 25-26 — Iran and Oman propose a temporary corridor, but Tehran says the strait isn't open",
+      "lv": "BREAKING",
+      "color": "cyan",
+      "d": "Oman's foreign minister Sayyid Badr al-Busaidi and Iran's Abbas Araghchi announced a phased framework for a temporary joint navigational corridor: inbound through Iranian waters, outbound through Iranian or Omani waters, commercial vessels only, no warships, alongside a joint mine-clearance project. A permanent route is to be negotiated within 30-60 days. Iran's deputy foreign minister Kazem Gharibabadi said the understanding does not mean the strait is reopening, and that it will stay closed if Iran's conditions aren't met. Trump told Al Jazeera he is \"not in a hurry\" on talks with Tehran."
+    },
+    {
+      "t": "Aug 24-25 — An oil tanker was disabled by an unidentified projectile off Oman",
+      "lv": "ACTIVE",
+      "color": "amber",
+      "d": "UKMTO reported a projectile struck an oil tanker's engine room about 9 nautical miles northeast of Ash Shishah, Oman, late Monday, disabling the vessel; the crew was reported safe and no one has claimed responsibility. It was at least the third such strike near Oman's coast in recent weeks, underscoring that a mine-free strait is not the same as a safe one. Iran separately blacklisted 45 ships it accuses of ship-to-ship transfers used by Gulf producers to evade its blockade."
+    },
+    {
       "t": "Aug 25 — Pakistan's army chief reviews a Hormuz map in Tehran",
       "lv": "BREAKING",
       "color": "orange",
       "d": "Field Marshal Asim Munir met Iranian officials in Tehran and was photographed studying a map of the Strait of Hormuz alongside interior minister Eskandar Momeni. Security council secretary Mohsen Rezaei told him the United States must change its behaviour and take concrete steps toward fulfilling the June memorandum. Assessment: following the Turkey-Saudi-Pakistan defence pact signed in Mecca this month, this is the second indication in a fortnight of a regional security architecture forming around the chokepoint India depends on — one that includes Pakistan and does not include India."
-    },
-    {
-      "t": "Aug 25 — Omani foreign minister holds Hormuz talks in Tehran",
-      "lv": "BREAKING",
-      "color": "cyan",
-      "d": "Sayyid Badr al-Busaidi arrived in Iran to continue discussions on the strait and other regional developments. Iran and Oman have agreed route coordinates — entry through Iranian waters, exit through Omani — but Tehran maintains full reopening depends on US compliance with the June memorandum, and Washington objects to joint management of the exit and has threatened Muscat. No outcome had been announced by the evening."
     },
     {
       "t": "Aug 24-25 — Iran warns of domestic unrest as the US targets IRGC commanders",
@@ -308,18 +325,6 @@
       "lv": "BREAKING",
       "color": "red",
       "d": "Around 60 entities, individuals and vessels were designated for illicit procurement of nuclear and missile technology, cyber operations and oil smuggling, including a shadow-fleet network across the UAE, Hong Kong, China, Singapore, Switzerland and Europe. Secondary sanction categories were widened to digital assets, technology, gold, aviation and shipping. Bessent declined to name target countries or set a deadline, calling it a warning shot while the President telephones world leaders. Assessment: the category expansion, not the designation list, is what reaches India — gold and shipping are both sectors of substantial Indian volume."
-    },
-    {
-      "t": "Aug 25 — Omani foreign minister in Tehran today",
-      "lv": "BREAKING",
-      "color": "cyan",
-      "d": "Sayyid Badr Albusaidi travels to Iran for bilateral talks continuing discussions on the arrangement of the Strait of Hormuz, days after President Trump threatened to bomb Oman if it obstructed US efforts and while Washington objects to joint Iranian-Omani management of the exit route. Assessment: the only scheduled event this week capable of lowering the oil price, and the channel through which any reopening most plausibly reaches Indian cargoes."
-    },
-    {
-      "t": "Aug 24 — Rial hits a record low as Tehran promises a seismic response",
-      "lv": "ACTIVE",
-      "color": "orange",
-      "d": "Iran's currency fell to 2.02 million to the dollar on the open market, against an official rate near 1.5 million, as the sanctions announcement approached. Finance Minister Ali Madanizadeh said the government had a two-year plan, was fully prepared and would not respond purely defensively, accusing Washington of economic terrorism. Parliament speaker Ghalibaf conceded that military power would not sustain Iran if its people were hungry, while President Pezeshkian again urged ending the war from a position of strength."
     }
   ],
   "nukes": [
@@ -448,7 +453,7 @@
     {
       "axis": "Oil Shock",
       "w1": 60,
-      "now": 74,
+      "now": 66,
       "w4": 52
     },
     {
@@ -466,7 +471,7 @@
     {
       "axis": "Hormuz Closure",
       "w1": 80,
-      "now": 94,
+      "now": 80,
       "w4": 55
     },
     {
@@ -495,8 +500,8 @@
     }
   ],
   "assessment": {
-    "headline": "India got its first good session of the war today — cheaper crude, a stronger rupee — and it was bought by Washington choosing not to escalate, which is a thinner foundation than it looks.",
-    "body": "WHAT HAPPENED\nBrent fell more than 3% to around $89, below $90 for the first time in over a week, after markets concluded that Monday's sanctions were less than advertised. The rupee gained 34 paise to ₹95.41 and both Indian indices closed higher. Oman's foreign minister held Hormuz talks in Tehran, where Pakistan's army chief was also reviewing a map of the strait. Iran's assembly advanced plans for transit fees.\n\nWHY IT MATTERS FOR INDIA\nThe transmission chain worked in reverse today, and it is worth naming: crude down, rupee up, bond yields easier, equities higher. That is the same mechanism that has been grinding against India since February, running the other way for once. But nothing changed at the strait itself. Traffic is still near a fifth of pre-war levels, the Oman talks produced no announced outcome, and Bessent explicitly held the secondary sanctions in reserve — meaning the same announcement can be made again with teeth whenever Washington chooses. A rally built on the absence of escalation lasts exactly as long as that absence does.\n\nTHE THING TO WATCH\nWhether Brent holds under $90 for a fortnight. That, not any single session, is what would let the oil marketing companies work down the under-recovery accumulated since July and defer a pump revision that has looked inevitable for weeks. Watch also for any outcome from the Omani visit: a published transit framework would be the first structural improvement since the Iraqi exemption.\n\nWHAT WOULD CHANGE THIS ASSESSMENT\nThe Munir visit deserves more attention than it will get. Pakistan's army chief studying a Hormuz map in Tehran, weeks after signing a mutual-defence pact with Turkey and Saudi Arabia, points to a regional security arrangement taking shape around the waterway on which India's energy security depends — with Pakistan inside the conversation. India's own access runs through Muscat and Doha and through a bilateral relationship with Tehran that has survived the war. Whether that is enough leverage, or whether Delhi needs to be seeking a formal seat, is the strategic question this war has been posing since February and which today's cheaper barrel does nothing to answer."
+    "headline": "The US says the mines are gone from Hormuz and Iran says the strait still isn't open — both statements were true at 9am, and Brent fell for a third session regardless.",
+    "body": "WHAT HAPPENED\nThe US Navy told Trump it had cleared or detonated every mine in the international waters of the Strait of Hormuz's main shipping lanes, and Trump warned any new mine-layer would be destroyed. Hours later Oman and Iran announced their own framework: a temporary joint corridor, commercial vessels only, entered through Iranian waters and exited through Iranian or Omani waters, provisional for 30-60 days. Iran's deputy foreign minister said this is not a reopening. An oil tanker was disabled by an unidentified projectile off Oman on Monday night. Brent fell for a third straight session, near $86.5.\n\nWHY IT MATTERS FOR INDIA\nMarkets are treating the direction as real even though the legal status of the strait is contested. India's rupee closed Tuesday at ₹95.41 and both indices gained for a second session on the back of the crude decline; currency and debt markets are shut today for Eid-e-Milad, so that print carries over into Wednesday, and GIFT Nifty is pointing to a higher equity open. If the transmission chain holds — crude down, rupee up, yields easier — it is the same mechanism that has worked against India in reverse since February, running the right way for a third day running.\n\nTHE THING TO WATCH\nWhether the US and Iranian-Omani accounts of Hormuz converge into an actual increase in tanker traffic, or stay two separate claims about the same water. Gharibabadi's insistence that the strait remains closed on Iran's terms is the more consequential sentence in today's news than Trump's mine-clearance announcement, because it is Tehran, not Washington, that determines whether India's own vessels can transit at scale. A third session of Brent under $90 is the number that would let oil marketing companies hold the pump price line into the festive season — a fortnight of it would matter far more than one good week."
   },
   "featured": [
     {
@@ -1230,17 +1235,27 @@
       "rupee": 95.41,
       "tag": "Brent fell more than 3% to around $89.26, with an intraday low of $87.65, as traders judged Monday's \"Operation Economic Outcast\" sanctions to pose less risk to physical oil supply than military escalation would. Oman's foreign minister held Hormuz talks in Tehran, where Pakistan's army chief Field Marshal Asim Munir was also reviewing a map of the strait with Iran's interior minister. Iran's assembly advanced plans for transit service fees, and the US offered $10 million for information on five IRGC commanders. INDIA: the Sensex closed 160.83 points higher at 77,529.94 and the Nifty 41 points up at 24,260.05 on monthly expiry, with healthcare and financials leading; the rupee gained 34 paise to 95.41, its best session in weeks, as crude and bond yields eased.",
       "sev": 2
+    },
+    {
+      "d": 180,
+      "l": "Aug 26",
+      "deaths": 7199,
+      "brent": 86.5,
+      "nifty": 24335.0,
+      "rupee": 95.41,
+      "tag": "PRE-MARKET (9AM IST): Trump said the US Navy had cleared all mines from the Strait of Hormuz's main shipping lanes and warned new mine-layers would be destroyed; CENTCOM said over 500 ships transited the southern lane in the past 30 days with about 2% struck. Iran and Oman separately proposed a temporary joint corridor — commercial vessels only, provisional for 30-60 days — which Iran's deputy foreign minister said does not amount to reopening the strait. An unidentified projectile disabled an oil tanker off Oman on Monday night, and Iran blacklisted 45 ships used for ship-to-ship transfers evading its blockade. Trump told Al Jazeera he was \"not in a hurry\" on talks with Tehran. Brent extended its slide to a third session, down more than 2% to around $86.5. INDIA: currency and debt markets shut for Eid-e-Milad; equities open, GIFT Nifty pointing to a higher start after Tuesday's close of Sensex 77,656.09 (+286.98, +0.37%) and Nifty ~24,335 (+0.48%), the rupee at ₹95.41.",
+      "sev": 2
     }
   ],
   "exec": {
     "level": "HIGH",
-    "phase": "Crude below $90 as sanctions disappoint",
-    "oilNote": "Brent fell more than 3% to around $89.26, with an intraday low of $87.65, after markets judged the sanctions less threatening to supply than military escalation. First close below $90 in over a week.",
-    "shipping": "OMAN TALKS UNDER WAY IN TEHRAN",
-    "shippingSub": "Sayyid Badr al-Busaidi held Hormuz talks in Tehran; no outcome announced. Iran's assembly is advancing service fees for the strait. Traffic remains near 20% of pre-war, mostly on the Omani channel.",
-    "military": "PAKISTAN'S ARMY CHIEF IN TEHRAN",
-    "militarySub": "Field Marshal Asim Munir reviewed a Hormuz map with Iran's interior minister and was told Washington must honour the June memorandum. The US offered $10 million for information on five IRGC commanders.",
-    "indiaSub": "Rupee ₹95.41, up 34 paise — the best session in weeks. Sensex 77,529.94 (+161), Nifty 24,260.05 (+41). Pump prices unchanged; one session under $90 is not yet a trend."
+    "phase": "Hormuz mines cleared, but Tehran says the strait isn't open",
+    "oilNote": "Brent fell more than 2% to around $86.5 in early Wednesday trade, a third consecutive session of declines, after the US said it had cleared Hormuz's mines and Iran and Oman proposed a temporary corridor of their own.",
+    "shipping": "US CLEARS MINES, IRAN-OMAN PROPOSE A CORRIDOR",
+    "shippingSub": "Trump says the US Navy has cleared the main shipping lanes; Iran and Oman have their own temporary-corridor framework, which Tehran insists is not a reopening. An oil tanker was disabled by an unidentified projectile off Oman on Monday night.",
+    "military": "TRUMP: 'NOT IN A HURRY' ON TALKS WITH TEHRAN",
+    "militarySub": "Trump told Al Jazeera both economic and military pressure \"are effective.\" Iran blacklisted 45 ships used for ship-to-ship transfers evading the blockade, and its army says it has rebuilt war-damaged infrastructure and received new equipment.",
+    "indiaSub": "Markets shut for currency and debt trading (Eid-e-Milad); equities open, GIFT Nifty pointing higher after Tuesday's gains. Rupee last at ₹95.41. Pump prices unchanged."
   },
   "hormuzPhases": [
     {
@@ -1281,10 +1296,15 @@
     {
       "label": "OMAN FRAMEWORK",
       "color": "amber",
-      "days": "Aug 5–"
+      "days": "Aug 5-25"
+    },
+    {
+      "label": "MINES CLEARED / TEMP CORRIDOR",
+      "color": "cyan",
+      "days": "Aug 26-"
     }
   ],
-  "_phaseBadge": "Brent fell more than 3% to around $89, briefly touching $87.65, after markets read the sanctions as a damp squib · The rupee gained 34 paise to ₹95.41 and both indices closed higher · Oman's foreign minister held Hormuz talks in Tehran, where Pakistan's army chief was also reviewing a map of the strait",
+  "_phaseBadge": "The US Navy says it has cleared the strait's main shipping lanes of mines; Iran and Oman have proposed a temporary, conditional corridor of their own, which Tehran says is not a reopening · Brent extended its slide to a third session, near $86.5 · India's currency and debt markets are shut for Eid-e-Milad, but GIFT Nifty points to a higher equity open after Tuesday's gains",
   "budget": {
     "petrolPre": 94.72,
     "petrolNow": 111.21,
@@ -1294,10 +1314,10 @@
     "lpgNow": 942.0
   },
   "brief": [
-    "The first real relief in weeks, and it came from disappointment. Brent fell more than 3% to around $89 a barrel, touching $87.65 at one point, after traders concluded that Monday's sanctions were far less than advertised. The reasoning is straightforward: economic pressure on Iran threatens oil supply less than military escalation would, and Washington named no countries and set no deadlines. Crude is below $90 for the first time in over a week.",
-    "India felt it immediately. The rupee gained 34 paise to close at ₹95.41 against Monday's ₹95.75 — its best session in weeks — and both benchmarks closed higher, the Sensex up 161 points at 77,529.94 and the Nifty up 41 at 24,260.05, helped by softer bond yields on monthly expiry day. Healthcare and financials led. This is what a fall in crude does for an economy that imports more than 85% of its oil.",
-    "Two things happened in Tehran today that India should watch. Oman's foreign minister Sayyid Badr al-Busaidi arrived for talks on the Hormuz arrangement — the negotiation on which any reopening depends. And Pakistan's army chief, Field Marshal Asim Munir, was photographed reviewing a map of the Strait of Hormuz with Iran's interior minister, having been told by Iran's security chief that Washington must honour the June memorandum. Following the Turkey-Saudi-Pakistan defence pact, that is a regional security conversation India is not part of.",
-    "At the pump, nothing has changed: petrol ₹111.21 a litre in Delhi, diesel ₹97.83, a cylinder ₹942. One session below $90 does not undo weeks above it, and the under-recovery built up since July is still there. But if crude holds under $90 and the rupee holds near ₹95.4 for a fortnight, the case for a hike weakens for the first time since June. Iran's parliament, meanwhile, is advancing plans to charge service fees for using the strait."
+    "Two competing claims arrived within hours today, and the market believed the direction rather than either story in full. The US Navy says it has cleared the Strait of Hormuz's main shipping lanes of mines and warned any new mine-layer would be destroyed. Iran and Oman separately proposed a temporary, conditional corridor of their own, which Tehran's deputy foreign minister explicitly said is not a reopening. Brent fell for a third straight session anyway, down more than 2% to around $86.5.",
+    "India's markets are half-open today. Currency and debt trading are shut for Eid-e-Milad, so the rupee carries over Tuesday's close of ₹95.41 — its best session in weeks. Equities remain open, and GIFT Nifty points to a higher start after the Sensex and Nifty closed higher on Tuesday for a second straight session, helped by falling crude and easier bond yields. FIIs bought ₹1,593.53 crore on Tuesday, taking August net buying to ₹27,186 crore.",
+    "The gap between the American and the Iranian-Omani accounts of Hormuz is the thing to watch, not the headline that mines are gone. Washington describes a unilateral clearance operation with air cover; Tehran describes a negotiated, temporary, commercial-only route that reverts to closed if its conditions aren't met, and Gharibabadi said as much on the record. An unidentified projectile disabled a tanker off Oman on Monday night — evidence that neither account yet describes a genuinely open strait.",
+    "At the pump, nothing has changed: petrol ₹111.21 a litre in Delhi, diesel ₹97.83, a cylinder ₹942. A third session of Brent under $90 strengthens the case for the oil marketing companies to hold off on a hike, but the under-recovery accumulated since July hasn't gone away, and Iran's blacklisting of 45 ships this week for evading its own blockade is a reminder that the shipping picture is still being fought over, not settled."
   ],
-  "shareLine": "Brent fell below $90 and the rupee gained 34 paise to ₹95.41 — India's first good session of the war, bought by Washington choosing not to escalate. Meanwhile Pakistan's army chief was in Tehran studying a map of the Strait of Hormuz."
+  "shareLine": "The US says it cleared Hormuz's mines; Iran and Oman say the strait isn't open. Brent fell for a third session anyway, to around $86.5, and India's rupee held ₹95.41 through a market holiday."
 }
