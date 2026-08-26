@@ -620,6 +620,10 @@ export default function App() {
   const iPhase    = intel?._phase        ?? "BLOCKADE";
   const PRE       = {...PRE_FB, ...(intel?.preWar||{})};
   const iFeatured = intel?.featured      ?? [];
+  const iOpeds    = intel?.opeds         ?? [];
+  const iAuthor   = intel?.author        ?? null;
+  const citedOn   = new Date().toLocaleDateString("en-GB",
+    {day:"numeric", month:"long", year:"numeric"});
   const iMilTop   = intel?.milTop        ?? [];
 
   const iExec    = intel?.exec ?? {};
@@ -1390,6 +1394,46 @@ export default function App() {
         </Band>
       )}
 
+      {/* ══ RELATED OP-EDS & BLOGS — short writing, distinct from long-form research above ══ */}
+      {iOpeds.length > 0 && (
+        <Band deep>
+          <Head eyebrow="Short writing" title="Related op-eds" em="& blogs"
+            lede="Shorter pieces and opinion writing on the war, published alongside the tracker."/>
+          <div style={{borderTop:HAIR}}>
+            {iOpeds.map((w,i)=>{
+              const row = (
+                <>
+                  <span style={{fontFamily:MONO, fontSize:11, letterSpacing:"0.08em", color:T.wine}}>
+                    {code(i)}
+                  </span>
+                  <span>
+                    <span style={{display:"block", fontSize:16, fontWeight:500,
+                      letterSpacing:"-0.005em", color:T.ink, marginBottom:4, textWrap:"balance"}}>
+                      {noEmoji(w.title)}
+                    </span>
+                    <span style={{fontFamily:MONO, fontSize:10.5, letterSpacing:"0.08em",
+                      textTransform:"uppercase", color:T.ink50}}>
+                      {w.org}{w.date ? ` · ${w.date}` : ""}{w.type ? ` · ${w.type}` : ""}
+                    </span>
+                  </span>
+                  <span style={{fontFamily:MONO, fontSize:11, letterSpacing:"0.08em",
+                    color:w.url ? T.wine : T.ink50}}>
+                    {w.url ? "READ ↗" : "LINK PENDING"}
+                  </span>
+                </>
+              );
+              const rowStyle = {display:"grid", gridTemplateColumns:"40px 1fr auto", gap:16,
+                alignItems:"baseline", padding:"14px 8px", borderBottom:HAIR,
+                textDecoration:"none", transition:"background 0.15s ease"};
+              return w.url
+                ? <a key={i} href={w.url} target="_blank" rel="noopener noreferrer"
+                    className="rowlink" style={rowStyle}>{row}</a>
+                : <div key={i} style={{...rowStyle, cursor:"default"}}>{row}</div>;
+            })}
+          </div>
+        </Band>
+      )}
+
       {/* ══ FOOTER — wine ground ══ */}
       <footer id="sources" style={{background:T.wine, color:"rgba(255,255,255,0.85)",
         padding:"64px 0 48px", scrollMarginTop:56}}>
@@ -1402,8 +1446,8 @@ export default function App() {
               </div>
               <p style={{margin:"0 0 20px", fontSize:14, lineHeight:1.6,
                 color:"rgba(255,255,255,0.8)", maxWidth:520, textWrap:"pretty"}}>
-                Built and maintained by Y Nithiyanandam. Market data syncs automatically;
-                war intelligence is compiled by hand and should be read as assessment.
+                Built and maintained by {iAuthor?.name || "Nithiyanandam Yogeswaran"}. Market data syncs
+                automatically; war intelligence is compiled by hand and should be read as assessment.
               </p>
               <button className="btn" style={{background:T.gold, color:T.ink, fontWeight:600}}
                 onClick={()=>shareCard(sharePayload)}>Share today's card →</button>
@@ -1428,6 +1472,8 @@ export default function App() {
             {[
               {h:"Sources", t:"Al Jazeera, AP, Reuters, Bloomberg, CNN, CBS, NBC, ABC, NPR, CNBC, Iran International, Times of Israel, ACLED, Atlantic Council, Amnesty International, Business Standard, Business Today, Goodreturns, Trading Economics, IAEA, Human Rights Watch, CSIS, IEA, EIA, Kpler, MarineTraffic, MUFG, ORF, Ministry of External Affairs, Nomura, Elara, UBS, HSBC, Kotak, SBI Securities, Choice Broking."},
               {h:"Methodology", t:"Nuclear and contamination scores are analytical estimates, not confirmed measurements. Projections are trend extrapolations rather than forecasts. All timestamps are IST (UTC+5:30). Hormuz shipping figures draw on Kpler, MarineTraffic, Windward and news reporting. Market series come from Yahoo Finance and an exchange-rate API, synced every four hours."},
+              {h:"Citation", t:`${(iAuthor?.name||"Nithiyanandam Yogeswaran").split(" ").slice(-1)[0]}, ${(iAuthor?.name||"Nithiyanandam Yogeswaran").split(" ").slice(0,-1).join(" ")} (2026) West Asia War: India Risk Dashboard. Takshashila Institution. Available at: https://nithiyageo.github.io/india-risk-dashboard/ (Accessed: ${citedOn}).`},
+              {h:"Contact", t:`Queries and media enquiries: ${iAuthor?.contact || "geospatial@takshashila.org.in"}`},
               {h:"Disclaimer", t:"Built with AI tools; an ongoing project. Not financial, safety or evacuation advice."},
             ].map((s,i)=>(
               <div key={i} style={{display:"grid", gridTemplateColumns:"minmax(110px,150px) 1fr",
@@ -1449,6 +1495,14 @@ export default function App() {
                   border:"1px solid rgba(255,255,255,0.3)", background:"transparent",
                   color:"rgba(255,255,255,0.85)"}}>{s.l}</button>
             ))}
+          </div>
+
+          <div style={{marginTop:28, paddingTop:20, borderTop:"1px solid rgba(255,255,255,0.18)"}}>
+            <a href={iAuthor?.twitter || "https://x.com/prof_nithiya"} target="_blank"
+              rel="noopener noreferrer" style={{fontFamily:MONO, fontSize:11, letterSpacing:"0.1em",
+                textTransform:"uppercase", color:"rgba(255,255,255,0.55)", textDecoration:"none"}}>
+              Follow {(iAuthor?.name || "Nithiyanandam Yogeswaran").split(" ")[0]} on X ↗
+            </a>
           </div>
         </div>
       </footer>
