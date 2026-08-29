@@ -1,8 +1,8 @@
 {
-  "_updated": "August 27, 2026 — 6:40 AM IST (pre-market)",
-  "_asOf": "2026-08-27",
+  "_updated": "August 29, 2026 — 9:00 AM IST",
+  "_asOf": "2026-08-29",
   "_start": "2026-02-28",
-  "_day": 181,
+  "_day": 183,
   "preWar": {
     "brent": 65,
     "rupee": 91.49,
@@ -11,76 +11,80 @@
     "petrol": 94.72,
     "diesel": 87.62
   },
-  "_phase": "IRAN SAYS THE OMAN DEAL DOESN'T REOPEN HORMUZ — NETANYAHU CALLS TEHRAN 'SAVAGES'",
-  "_note": "Verified: Al Jazeera live blog (Aug 26), CNN live updates, CBS News live updates, Axios/Just Security Early Edition, The National, ABC News, Investing.com/TradingEconomics/Oilprice.com (Brent, Aug 27 pre-market), 5paisa/Zerodha/Business Standard/Tradingpedia (NSE data, Aug 26 close and Aug 27 pre-market), Chatham House commentary via CNN",
+  "_phase": "TRUMP: 'THAT SUCKER IS OPEN' — CENTCOM CONFIRMS HORMUZ MINES CLEARED, TANKERS FLOWING AT HALF PRE-WAR PACE",
+  "_note": "Verified: Axios (Trump interview, Aug 28), Times of Israel live blog (Aug 28), Dawn.com live blog, Al Jazeera 'War on Iran' series, Britannica 2026 Iran War tracker (AP wire, Aug 27), TradingEconomics (Brent, Aug 28), Fortune (oil price tracker), TradingEconomics India stock market (Sensex, Aug 28 close)",
   "ticker": [
-    "IRAN: OMAN DEAL WOULD CLOSE THE SOUTHERN HORMUZ LANE, NOT REOPEN THE STRAIT",
-    "NETANYAHU SAYS A DIPLOMATIC DEAL WITH IRAN IS 'NOT POSSIBLE,' CALLS ITS LEADERSHIP 'SAVAGES'",
-    "TRUMP TO AL JAZEERA: US 'ACHIEVING A VERY BIG VICTORY,' WAR WILL CONTINUE 'AS LONG AS NECESSARY'",
-    "RUBIO: NO NEW US STRIKES 'FOR THE TIME BEING' — FOCUS ON SANCTIONS, BUT RETALIATION NOT RULED OUT",
-    "BRENT HOLDS NEAR $85.5, A FOURTH SESSION OF DECLINES, AS EXPERTS DOUBT IRAN CAN ACTUALLY DEMINE HORMUZ",
-    "'BUSY DAY': 20 TANKER TRANSFERS MOVE OIL FROM GULF STATES EXCLUDING IRAN",
-    "SENSEX, NIFTY GAVE BACK MORNING GAINS TO CLOSE LOWER WEDNESDAY; GIFT NIFTY POINTS TO A FIRMER THURSDAY OPEN",
-    "RUPEE SET TO OPEN FIRMER THURSDAY AFTER WEDNESDAY'S CURRENCY-MARKET HOLIDAY"
+    "TRUMP TO AXIOS: 'THAT SUCKER IS OPEN' — ON THE STRAIT OF HORMUZ",
+    "CENTCOM CHIEF: HORMUZ'S RECOGNISED SEA ROUTES ARE FREE OF IRANIAN MINES, A 'MAJOR MILESTONE'",
+    "20-30 TANKERS TRANSITING HORMUZ NIGHTLY — ROUGHLY HALF THE PRE-WAR RATE; IRAN HITTING ~2% OF SHIPS",
+    "TRUMP: 'I DON'T WANT TO MEET, THEY DO' — SAYS IRAN IS 'BEGGING TO MAKE A DEAL'",
+    "IRAN'S MILITARY REACHES REVENUE-SHARING DEAL WITH OMAN OVER STRAIT, BUT TEHRAN SAYS NO GUARANTEE OF REOPENING",
+    "BRENT STEADIES NEAR $88 AS HORMUZ OPTIMISM OFFSETS NEW RUSSIA-UKRAINE ESCALATION RISK",
+    "US PATRIOT MISSILE STOCKS IN EUROPE 'BEYOND CRITICAL' AFTER SIX MONTHS OF IRAN WAR — AP",
+    "SENSEX GAINED 331 POINTS FRIDAY ON IT-LED RALLY; INDIAN MARKETS SHUT FOR THE WEEKEND"
   ],
   "whatChanged": {
-    "label": "What changed — Thursday August 27, 6:40 AM IST (Day 181) — pre-market",
+    "label": "What changed — Saturday August 29, 9:00 AM IST (Day 183)",
     "items": [
       {
+        "color": "green",
+        "bold": "Trump: 'that sucker is open' — CENTCOM confirms Hormuz's mines are cleared",
+        "text": "In a phone interview with Axios on Thursday, Trump said of the Strait of Hormuz: \"That sucker is open. The Iranian response is very mild. They don't want us to go back at them. That's the whole ball game.\" Hours earlier, CENTCOM chief Admiral Brad Cooper said in a video statement that internationally recognised sea routes in the strait are free of Iranian sea mines, calling it a \"major milestone.\""
+      },
+      {
+        "color": "green",
+        "bold": "Tanker traffic reaches roughly half the pre-war rate",
+        "text": "US officials tell Axios that 20 to 30 tankers are now transiting the strait every night, about half the pre-war average, with Iran hitting only around 2% of the ships that transited over the past month. Kpler shipping data logged seven commodity vessels transiting on Thursday, down from 17 the day before but around the 10-day average of 15 — traffic remains volatile but well above the near-zero readings of two weeks ago."
+      },
+      {
         "color": "orange",
-        "bold": "Iran: the Oman deal would close the southern lane, not reopen the strait",
-        "text": "Iran's deputy foreign minister Kazem Gharibabadi said the yet-to-be-finalised Oman framework would in fact see the closure of the southern route — the UN-authorised shipping channel along Oman's coast that Iran has long opposed — according to state-linked Press TV. The Omani statement announcing the framework had not mentioned the route's closure. In recent weeks, US officials and ship-tracking data have noted growing volumes of oil transiting via that southern lane."
-      },
-      {
-        "color": "red",
-        "bold": "Netanyahu: a diplomatic deal with Iran is 'not possible'",
-        "text": "Israeli Prime Minister Benjamin Netanyahu said he had told Trump a diplomatic deal with Iran is \"not possible,\" calling the Islamic Republic's leadership \"savages.\" Trump himself told Al Jazeera the US is \"achieving a very big victory\" as the war nears the six-month mark, but that it \"will continue for as long as necessary\" with no timetable to resume peace talks."
+        "bold": "Trump says he isn't interested in negotiating; Iran signs a narrower deal with Oman",
+        "text": "\"I don't want to meet, they do. In fact, they are begging to make a deal,\" Trump wrote on Truth Social Thursday, adding that the June 17 memorandum of understanding is no longer relevant given the US's stronger negotiating position. Separately, Iran's military said it had reached a revenue-sharing agreement with Oman over the strait, though Tehran stressed this does not guarantee an immediate, full reopening."
       },
       {
         "color": "green",
-        "bold": "Rubio: no new US strikes 'for the time being'",
-        "text": "Secretary of State Marco Rubio told foreign counterparts the US is not expected to launch new strikes on Iran for now, with the focus on economic sanctions instead — while making clear Washington won't rule out retaliation if Iran attacks first. Separately, Iranian official Mohebbi claimed the strait is under Iran's control and that US warships have moved 250 miles away; experts told CNN Iran's demining capability is limited, since its mine-warfare focus has been laying mines, not clearing them."
+        "bold": "Brent steadies near $88 as Hormuz optimism meets a new Russia-Ukraine risk",
+        "text": "Brent traded around $88 through Thursday and Friday, roughly flat on the week after rebounding from earlier lows near $85.5. Markets are now weighing improving Hormuz supply prospects against reports that Russia is preparing to intensify its war in Ukraine, with Ukrainian strikes on Russian refineries and ports threatening to constrain Russian energy exports."
       },
       {
         "color": "green",
-        "bold": "Brent holds near $85.5, a fourth session of declines",
-        "text": "Brent traded around $85.5 early Thursday, extending its multi-day slide; WTI held near $80. A 'busy day' saw 20 tanker transfers move oil out of Gulf states excluding Iran, per regional reporting — a sign more crude is moving around the blockage than through it."
-      },
-      {
-        "color": "green",
-        "bold": "India: Sensex and Nifty gave back Wednesday's gains; GIFT Nifty points to a firmer Thursday",
-        "text": "The Sensex closed Wednesday down 183 points (-0.24%) at 77,472.94 and the Nifty fell 127 points (-0.52%) to 24,207.75, erasing the morning's rally as India VIX eased 4.65% to 10.57. Currency and debt markets were shut for Eid-e-Milad; GIFT Nifty was indicating a firmer Thursday open near 24,408, and the rupee — last at ₹95.40 — is expected to open on a firmer footing as crude continues to soften."
+        "bold": "India: Sensex gains 331 points on an IT-led rally; markets shut for the weekend",
+        "text": "The Sensex rose 0.43% to close at 77,265 on Friday, led by TCS (+4.16%), Infosys (+2.90%) and Tech Mahindra (+3.12%), recovering from two down sessions even as the index ended the week 0.4% lower overall. Indian equity, currency and debt markets are closed for the weekend; trading resumes Monday, September 1."
       }
     ]
   },
   "deaths": "7,199+",
   "econ": {
-    "sensex": "77,472.94 (Wed close, -0.24%) — GIFT Nifty +0.05% pre-open near 24,408",
-    "sensexDelta": "Wed Aug 26 close: -183.15 points, erasing the morning's gains; GIFT Nifty pointing modestly higher for Thursday",
-    "sensexSub": "Wednesday opened higher on softer crude but faded through the session to close lower — the Nifty gave up 127 points (-0.52%) to 24,207.75 and the Sensex 183 points (-0.24%) to 77,472.94. India VIX eased 4.65% to 10.57, still well below wartime highs. Currency and debt markets were shut for Eid-e-Milad; equities traded as usual.",
-    "vix": "10.57 — EASING",
-    "vixDelta": "Down 4.65% Wednesday to 10.57, its lowest reading in weeks, despite the index turning lower intraday.",
-    "fpi": "+₹27,186 crore in August so far (as of Aug 25; Aug 26 flows not yet reported)",
-    "fpiDelta": "FIIs bought ₹1,593.50 crore and DIIs ₹230.30 crore on Aug 25, the most recent settled session",
-    "wealth": "BSE market cap ~Rs 485-490 trillion. US 10-year Treasury yield eased further Tuesday on softer crude. Global equity funds have now seen eleven consecutive weeks of inflows, per fund-flow data.",
-    "analysis": "The overnight news cut both ways, and so did the market. Iran's clarification that the Oman framework closes a lane rather than reopening one, and Netanyahu's declaration that diplomacy is off the table, are the kind of headlines that would normally support crude — yet Brent held near a multi-day low regardless, because the ship-to-ship transfer activity reported out of the Gulf suggests traders increasingly see supply finding its way around the dispute rather than through a resolution of it. India's own session told a similar story in miniature: Wednesday's rally on softer oil evaporated by the close, even as the underlying crude move that caused it held up. The rupee's holiday-delayed test comes Thursday — if it opens firmer as GIFT Nifty and the Brent move suggest, it will be the clearest sign yet that the market is pricing continued de-escalation on the ground, whatever the two sides are actually saying to each other about it."
+    "sensex": "77,265 (Fri close, +0.43%) — markets closed for the weekend",
+    "sensexDelta": "Fri Aug 28: +331 points, though the index still ended the week 0.4% lower overall",
+    "sensexSub": "Friday's rally was led by IT stocks ahead of Fed Chair Kevin Warsh's Jackson Hole keynote — TCS surged 4.16%, Infosys 2.90%, Tech Mahindra 3.12% and HCL Technologies 2.7%. ICICI Bank (-1.3%), UltraTech Cement (-1.2%) and Asian Paints (-1.1%) lagged. Markets are closed for the weekend and reopen Monday, September 1.",
+    "vix": "~10.6 — EASING",
+    "vixDelta": "Held near multi-week lows through Thursday and Friday as Hormuz headlines turned more constructive.",
+    "fpi": "+₹27,186 crore in August so far (as of Aug 25; subsequent daily flows not yet fully reported)",
+    "fpiDelta": "FIIs bought ₹1,593.50 crore and DIIs ₹230.30 crore on Aug 25, the most recent fully reported session",
+    "wealth": "BSE market cap recovering with the Friday rally. US Treasury yields rose Thursday ahead of the Jackson Hole symposium, a mild headwind for emerging-market currencies including the rupee. Global equity funds have now logged eleven consecutive weeks of inflows.",
+    "analysis": "This is the first update of the war where the American and Iranian accounts of Hormuz aren't actually in conflict — Iran isn't claiming the strait is closed, only that its narrower deal with Oman doesn't amount to a guarantee. That's a meaningfully smaller gap than the contradictions of the past week, and the tanker-traffic numbers back it: 20-30 ships a night, roughly half pre-war levels, is the most durable improvement since February. Brent's response was proportionate rather than euphoric — steadying near $88 rather than collapsing further — because a new escalation risk in the Russia-Ukraine war is pulling in the opposite direction on the same global benchmark. For India, the signal worth watching Monday is whether the rupee's implied strength from a calmer Hormuz outweighs the modest headwind from firmer US Treasury yields heading into the Jackson Hole speech."
   },
   "hormuzStatus": {
-    "status": "The contradictions multiplied overnight. Iran's deputy foreign minister Kazem Gharibabadi said the emerging Oman framework — the one floated Tuesday as a route to reopening — would in fact close the southern lane, the UN-authorised shipping channel along Oman's coast that Iran has long opposed and that has quietly carried a growing share of Gulf crude in recent weeks. Iranian official Mohebbi separately claimed the strait is under Iran's control with no enemy vessels present, while US officials maintain the US Navy has cleared the main lanes of mines. Experts told CNN that Iran's mine-warfare capability is built for laying mines, not clearing them, casting doubt on any Iranian role in demining. Meanwhile a 'busy day' reportedly saw 20 tanker transfers move oil out of Gulf states excluding Iran — evidence that shippers are routing around the dispute rather than waiting for it to resolve.",
+    "status": "For the first time since February, the US is describing the strait in the past tense of the crisis rather than the present. CENTCOM chief Admiral Brad Cooper confirmed the internationally recognised sea routes are free of Iranian mines, and Trump told Axios plainly: \"that sucker is open.\" US officials say Iran has lost much of its operational control, with the military now effectively overseeing most of the strait; only about 2% of ships that transited over the past month were hit. Iran's own military reached a narrower revenue-sharing arrangement with Oman, but Tehran was careful to say this does not guarantee full reopening. Trump, for his part, says he sees no need to negotiate further: \"they are begging to make a deal,\" he wrote, adding that June's memorandum of understanding is now obsolete given Washington's stronger hand. Traffic remains well below pre-war levels and volatile day to day, but the trajectory — 20-30 tankers a night, roughly half the pre-war rate — is the most sustained improvement of the war so far.",
     "preWarFlow": "~90-140 ships/day",
-    "currentFlow": "~20% of pre-war; growing ship-to-ship transfer activity bypassing Iranian waters entirely, per regional reporting of 20 tanker transfers in a single day",
-    "reduction": "Brent held near $85.5 early Thursday, a fourth consecutive session of declines — about 31% above the pre-war $65, and the lowest level of this de-escalation stretch so far.",
+    "currentFlow": "~45-50% of pre-war; 20-30 tankers transiting nightly per US officials, though daily vessel counts remain volatile (7 on Thursday vs 17 the day before, per Kpler)",
+    "reduction": "Brent steadied near $88 through Thursday and Friday — about 35% above the pre-war $65, roughly flat on the week as Hormuz optimism offset a new Russia-Ukraine escalation risk.",
     "indianVesselsNear": 7,
     "indianSeafarers": 148,
     "indianTransited": 1,
     "totalShipsWaiting": "Significantly reduced from the wartime peak of 20,000+. CENTCOM says over 500 ships transited the southern lane in the past 30 days with roughly 2% struck — the US mine-clearance claim, if it holds, would extend that to both lanes. India's stranded-vessel picture is unchanged pending confirmation that the Iran-Oman corridor is operational.",
     "lastTransit": "Ship numbers remain near 20% of the pre-war average. The US says its own clearance of the Traffic Separation Scheme opens a second lane alongside the Omani channel that has carried most liquid cargo; Iran and Oman's own corridor proposal is commercial-only and still under negotiation.",
     "indianNavyEscort": "Op Urja Suraksha: unchanged pending confirmation that either the US-cleared lane or the Iran-Oman corridor is operational for third-country shipping. MT Settebello diplomatic track continues independently.",
-    "headline": "IRAN SAYS THE OMAN DEAL CLOSES A LANE RATHER THAN OPENING ONE. NETANYAHU SAYS DIPLOMACY IS OFF THE TABLE. BRENT FELL ANYWAY.",
+    "headline": "\"THAT SUCKER IS OPEN,\" TRUMP SAYS. CENTCOM AGREES. TANKER TRAFFIC IS BACK TO ROUGHLY HALF ITS PRE-WAR RATE — THE MOST DURABLE IMPROVEMENT SINCE THE STRAIT CLOSED IN FEBRUARY.",
     "indianCasualties": 4,
     "indianCasualtyDetail": "4th Indian death of the war: a crew member aboard UAE tanker MOMBASA killed by an Iranian cruise missile in Omani territorial waters (UAE MoD, Jul 14). 8 injured incl. 6 Indians, 4 serious. Earlier: 3 Indian sailors killed on MT Settebello (Jun 8, US Navy strike). No new Indian casualties reported."
   },
   "hormuzEvents": [
+    {
+      "d": "Aug 28-29",
+      "e": "DAY 183 — THE US CALLS IT OPEN. CENTCOM chief Admiral Brad Cooper said in a video statement that internationally recognised sea routes in the Strait of Hormuz are free of Iranian sea mines, calling it a \"major milestone.\" Hours later Trump told Axios in a phone interview, \"that sucker is open. The Iranian response is very mild. They don't want us to go back at them. That's the whole ball game.\" US officials say 20 to 30 tankers are now transiting the strait nightly, roughly half the pre-war rate, with Iran striking only about 2% of ships that transited over the past month; Kpler shipping data logged seven commodity vessels transiting Thursday against a 10-day average of 15. Trump wrote on Truth Social that he isn't interested in negotiating further — \"I don't want to meet, they do... they are begging to make a deal\" — and that June's memorandum of understanding is no longer relevant. Iran's military separately reached a narrower revenue-sharing agreement with Oman over the strait, though Tehran stressed this does not guarantee full reopening. Brent steadied near $88, roughly flat on the week, as Hormuz optimism met a new risk from an escalating Russia-Ukraine war. India's Sensex rose 331 points (+0.43%) on an IT-led rally Friday to close at 77,265, even as the index ended the week 0.4% lower; Indian markets are closed for the weekend, with trading resuming Monday, September 1."
+    },
     {
       "d": "Aug 27",
       "e": "DAY 181 — THE OMAN DEAL, RECONSIDERED. Iran's deputy foreign minister Kazem Gharibabadi said the framework Tehran and Muscat outlined a day earlier would in fact see the closure of the southern shipping route — the UN-authorised lane along Oman's coast that Iran has long opposed — rather than reopening the strait, according to state-linked Press TV; Oman's own statement had not mentioned any closure. Israeli Prime Minister Benjamin Netanyahu said he told Trump a diplomatic deal with Iran is \"not possible,\" calling its leadership \"savages.\" Trump told Al Jazeera the US is \"achieving a very big victory\" and the war \"will continue for as long as necessary,\" with no timetable for talks to resume. Secretary of State Marco Rubio told counterparts the US is not planning new strikes \"for the time being,\" leaning on sanctions instead while keeping retaliation on the table. Iranian official Mohebbi claimed the strait is under Iran's control with US warships 250 miles away; CNN reported experts doubt Iran's ability to actually clear mines. Regional reporting described a \"busy day\" of 20 tanker transfers moving oil out of Gulf states excluding Iran. Brent held near $85.5, a fourth straight session of declines. India's Sensex and Nifty gave back Wednesday's morning gains to close lower, while GIFT Nifty pointed to a firmer Thursday open and the rupee was set to strengthen after Wednesday's currency-market holiday."
@@ -295,6 +299,24 @@
   ],
   "military": [
     {
+      "t": "Aug 28 — CENTCOM confirms Hormuz's sea routes are free of mines; Trump: 'that sucker is open'",
+      "lv": "BREAKING",
+      "color": "green",
+      "d": "CENTCOM chief Admiral Brad Cooper said in a video statement that internationally recognised sea routes in the Strait of Hormuz are free of Iranian sea mines, calling it a \"major milestone.\" Trump told Axios in a phone interview: \"that sucker is open. The Iranian response is very mild. They don't want us to go back at them. That's the whole ball game. The rest doesn't matter.\" US officials say Iran has lost much of its operational control over the strait, with the US military now effectively overseeing most of it."
+    },
+    {
+      "t": "Aug 28 — Tanker traffic reaches roughly half the pre-war rate",
+      "lv": "ACTIVE",
+      "color": "green",
+      "d": "US officials tell Axios that 20 to 30 tankers are transiting the strait every night, about half the pre-war average, with Iran hitting only around 2% of ships that transited over the past month. Kpler shipping data logged seven commodity vessels transiting Thursday — down from 17 the day before but around the 10-day average of 15, with the figures likely undercounting vessels running dark."
+    },
+    {
+      "t": "Aug 28 — Trump: not interested in negotiating; Iran-Oman reach a narrower deal",
+      "lv": "ACTIVE",
+      "color": "orange",
+      "d": "\"I don't want to meet, they do. In fact, they are begging to make a deal,\" Trump wrote on Truth Social, adding that June's memorandum of understanding is no longer relevant given the US's stronger negotiating position. Iran's military separately said it had reached a revenue-sharing agreement with Oman over the strait, while stressing this does not guarantee an immediate, full reopening. Iran's Supreme Leader Khamenei urged public unity and reliance on domestic production amid ongoing sanctions."
+    },
+    {
       "t": "Aug 27 — Iran: Oman deal closes the southern lane, doesn't reopen the strait",
       "lv": "BREAKING",
       "color": "orange",
@@ -307,28 +329,10 @@
       "d": "Israeli Prime Minister Benjamin Netanyahu said he told Trump a diplomatic deal with Iran is \"not possible,\" calling the Islamic Republic's leadership \"savages.\" Trump told Al Jazeera the US is \"achieving a very big victory\" as the war nears the six-month mark, but that it \"will continue for as long as necessary,\" with no timetable to resume peace talks."
     },
     {
-      "t": "Aug 26-27 — Rubio: no new US strikes 'for the time being'",
-      "lv": "ACTIVE",
-      "color": "green",
-      "d": "Secretary of State Marco Rubio told several foreign counterparts the US is not expected to launch new strikes against Iran for now, with the focus on economic sanctions instead, though he made clear Washington will not rule out retaliatory strikes if Iran attacks first. Separately, Iranian official Mohebbi claimed the strait is under Iran's control with no enemy vessels present and that US warships have moved 250 miles away; a Chatham House fellow told CNN Iran's mine-warfare capacity is built for laying mines, not clearing them."
-    },
-    {
       "t": "Aug 26 — US Navy declares Hormuz's shipping lanes cleared of mines",
       "lv": "BREAKING",
       "color": "green",
       "d": "Trump said on Truth Social that the US Navy had removed or detonated every mine from the international waters of the Strait of Hormuz, covering both lanes of the main shipping corridor, after months of underwater drone surveys and contractor-led clearance of more than 100 suspected devices. He warned that any vessel laying new mines would be \"immediately and systematically destroyed\" under a zero-tolerance policy, and said the US is also watching Iran's damaged nuclear sites via Space Force. CENTCOM said more than 500 ships had transited the southern lane in the past 30 days with roughly 2% struck."
-    },
-    {
-      "t": "Aug 25-26 — Iran and Oman propose a temporary corridor, but Tehran says the strait isn't open",
-      "lv": "BREAKING",
-      "color": "cyan",
-      "d": "Oman's foreign minister Sayyid Badr al-Busaidi and Iran's Abbas Araghchi announced a phased framework for a temporary joint navigational corridor: inbound through Iranian waters, outbound through Iranian or Omani waters, commercial vessels only, no warships, alongside a joint mine-clearance project. A permanent route is to be negotiated within 30-60 days. Iran's deputy foreign minister Kazem Gharibabadi said the understanding does not mean the strait is reopening, and that it will stay closed if Iran's conditions aren't met. Trump told Al Jazeera he is \"not in a hurry\" on talks with Tehran."
-    },
-    {
-      "t": "Aug 24-25 — An oil tanker was disabled by an unidentified projectile off Oman",
-      "lv": "ACTIVE",
-      "color": "amber",
-      "d": "UKMTO reported a projectile struck an oil tanker's engine room about 9 nautical miles northeast of Ash Shishah, Oman, late Monday, disabling the vessel; the crew was reported safe and no one has claimed responsibility. It was at least the third such strike near Oman's coast in recent weeks, underscoring that a mine-free strait is not the same as a safe one. Iran separately blacklisted 45 ships it accuses of ship-to-ship transfers used by Gulf producers to evade its blockade."
     }
   ],
   "nukes": [
@@ -457,7 +461,7 @@
     {
       "axis": "Oil Shock",
       "w1": 60,
-      "now": 63,
+      "now": 68,
       "w4": 52
     },
     {
@@ -475,7 +479,7 @@
     {
       "axis": "Hormuz Closure",
       "w1": 80,
-      "now": 84,
+      "now": 55,
       "w4": 55
     },
     {
@@ -504,8 +508,8 @@
     }
   ],
   "assessment": {
-    "headline": "Iran says the Oman deal closes a lane rather than reopening the strait, and Netanyahu says diplomacy is off the table — but Brent kept falling anyway, on evidence that shippers are routing around the dispute rather than waiting for it to resolve.",
-    "body": "WHAT HAPPENED\nIran's deputy foreign minister said the framework Tehran and Oman outlined a day earlier would in fact close the UN-authorised southern shipping lane, reversing the market's optimistic reading of Tuesday's news. Netanyahu told Trump a diplomatic deal with Iran is \"not possible\" and called its leadership \"savages.\" Trump said the war will continue \"as long as necessary,\" while Rubio said the US isn't planning new strikes for now, leaning on sanctions instead. Reports described a 'busy day' of 20 tanker transfers moving oil out of Gulf states excluding Iran. Brent held near $85.5, a fourth consecutive session of declines.\n\nWHY IT MATTERS FOR INDIA\nIndia's own session was a small-scale version of the same disconnect: Wednesday's rally on softer crude didn't survive the day, even though the underlying oil move held. Currency and debt markets were shut for Eid-e-Milad, so the real test is Thursday's rupee open — GIFT Nifty and continued softness in Brent both point to a firmer start. If that holds, it would be the market's clearest vote yet that de-escalation is real on the ground, independent of what Tehran, Washington and Jerusalem are actually saying to each other about it.\n\nTHE THING TO WATCH\nWhether ship-to-ship transfer activity — the reported 20 tanker moves in a single day — becomes the de facto route around Hormuz regardless of how the Iran-Oman framework resolves. That would decouple the oil market's read on the crisis from the diplomatic and military rhetoric entirely, which is arguably already happening: Brent fell through a day of harder words from both Tehran and Jerusalem. For India, a durable ship-to-ship workaround matters more than any single framework announcement, because it would mean crude flow — and the rupee's fortunes with it — no longer hinges on Iran's cooperation at all."
+    "headline": "For the first time since February, the US and Iranian accounts of Hormuz aren't actually contradicting each other — and tanker traffic has followed, reaching roughly half its pre-war rate.",
+    "body": "WHAT HAPPENED\nCENTCOM chief Admiral Brad Cooper confirmed the strait's internationally recognised sea routes are free of Iranian mines. Trump told Axios \"that sucker is open\" and said he's no longer interested in negotiating, calling Iran's position at the table \"begging.\" US officials report 20-30 tankers transiting nightly, about half the pre-war rate, with Iran hitting roughly 2% of ships over the past month. Iran's own military reached a narrower revenue-sharing deal with Oman, cautioning only that it isn't a guarantee of full reopening — a materially smaller objection than the flat denials of earlier in the week. Brent steadied near $88 as this news met a fresh escalation risk from Russia's war in Ukraine.\n\nWHY IT MATTERS FOR INDIA\nA durable, roughly-half-capacity Hormuz is a different economic fact than a contested, day-to-day one. India's markets registered the shift indirectly: Friday's Sensex rally was IT-led rather than energy-led, suggesting the market has priced in enough Hormuz stability that crude direction is no longer the dominant story it was a week ago. The open question into Monday is whether that holds against a firmer US Treasury yield backdrop heading into the Jackson Hole symposium, which typically pressures the rupee independent of the Gulf.\n\nTHE THING TO WATCH\nWhether 20-30 tankers a night is a floor or a temporary peak. The war is six months old, US Patriot missile stocks in Europe are reportedly \"beyond critical,\" and Trump's own posture — declining to negotiate further because he believes Iran is desperate — carries the risk of miscalculation if Tehran's actual position is less accommodating than Washington assumes. The durability of this Hormuz improvement, not any single day's headline, is what will determine whether India's markets can finally stop pricing a re-escalation premium into crude and the rupee."
   },
   "featured": [
     {
@@ -1259,17 +1263,27 @@
       "rupee": 95.4,
       "tag": "PRE-MARKET (6:40AM IST): Iran's deputy foreign minister said the Oman framework floated a day earlier would close the UN-authorised southern shipping lane rather than reopen the strait. Netanyahu said a diplomatic deal with Iran is \"not possible,\" calling its leadership \"savages\"; Trump told Al Jazeera the war will continue \"as long as necessary.\" Rubio said the US isn't planning new strikes for now, leaning on sanctions. Regional reporting described a 'busy day' of 20 tanker transfers moving oil out of Gulf states excluding Iran. Brent held near $85.5, a fourth consecutive session of declines. INDIA: Wednesday's Sensex (77,472.94, -183.15, -0.24%) and Nifty (24,207.75, -126.80, -0.52%) gave back the morning's gains to close lower even as India VIX eased to 10.57; currency and debt markets were shut for Eid-e-Milad. GIFT Nifty points to a firmer Thursday open near 24,408, and the rupee — last at ₹95.40 — is expected to open stronger.",
       "sev": 2
+    },
+    {
+      "d": 183,
+      "l": "Aug 29",
+      "deaths": 7199,
+      "brent": 88.0,
+      "nifty": 24311.84,
+      "rupee": 95.4,
+      "tag": "(9AM IST, WEEKEND): CENTCOM chief Admiral Brad Cooper confirmed the Strait of Hormuz's internationally recognised sea routes are free of Iranian mines, calling it a \"major milestone.\" Trump told Axios \"that sucker is open\" and said he isn't interested in negotiating further, calling Iran \"begging to make a deal\" and June's MOU obsolete. US officials report 20-30 tankers transiting the strait nightly, roughly half the pre-war rate, with Iran hitting about 2% of ships over the past month. Iran's military reached a narrower revenue-sharing deal with Oman but said this doesn't guarantee full reopening. Brent steadied near $88, roughly flat on the week, as Hormuz optimism met a new Russia-Ukraine escalation risk. AP reported US Patriot missile stocks in Europe are 'beyond critical' after six months of war. INDIA: Sensex rose 331 points (+0.43%) Friday on an IT-led rally to close at 77,265, even as the index ended the week 0.4% lower; markets are shut for the weekend, reopening Monday, September 1.",
+      "sev": 2
     }
   ],
   "exec": {
     "level": "HIGH",
-    "phase": "Iran says the Oman deal closes a lane, not reopens the strait; Netanyahu rules out diplomacy",
-    "oilNote": "Brent held near $85.5 early Thursday, a fourth consecutive session of declines, as reports of growing ship-to-ship transfer activity around the Gulf outweighed harder rhetoric from both Tehran and Jerusalem.",
-    "shipping": "IRAN: OMAN DEAL CLOSES A LANE, DOESN'T REOPEN THE STRAIT",
-    "shippingSub": "Gharibabadi says the framework announced a day earlier would shut the UN-authorised southern route Iran has long opposed. A reported 'busy day' saw 20 tanker transfers move oil out of Gulf states excluding Iran.",
-    "military": "NETANYAHU: DIPLOMATIC DEAL WITH IRAN 'NOT POSSIBLE'",
-    "militarySub": "Netanyahu calls Iran's leadership \"savages.\" Trump says the war will continue \"as long as necessary\"; Rubio says no new US strikes are planned for now, leaning on sanctions instead.",
-    "indiaSub": "Sensex and Nifty gave back Wednesday's morning gains to close lower; GIFT Nifty points to a firmer Thursday open. Rupee expected to strengthen after Wednesday's currency-market holiday."
+    "phase": "US declares Hormuz open; tanker traffic reaches roughly half pre-war levels",
+    "oilNote": "Brent steadied near $88 through Thursday and Friday, roughly flat on the week, as improving Hormuz supply prospects offset a new escalation risk from the Russia-Ukraine war.",
+    "shipping": "CENTCOM: HORMUZ'S SEA ROUTES ARE FREE OF MINES",
+    "shippingSub": "Trump says \"that sucker is open.\" US officials report 20-30 tankers transiting nightly, roughly half the pre-war rate, with Iran hitting only about 2% of ships over the past month.",
+    "military": "TRUMP: NOT INTERESTED IN NEGOTIATING FURTHER WITH IRAN",
+    "militarySub": "\"They are begging to make a deal,\" Trump says, calling June's MOU obsolete. Iran's military reached a narrower revenue-sharing deal with Oman but says it doesn't guarantee full reopening. US Patriot missile stocks in Europe are reportedly \"beyond critical\" after six months of war.",
+    "indiaSub": "Sensex gained 331 points Friday on an IT-led rally to 77,265, even as the week closed 0.4% lower. Markets shut for the weekend; trading resumes Monday, September 1."
   },
   "hormuzPhases": [
     {
@@ -1318,7 +1332,7 @@
       "days": "Aug 26-"
     }
   ],
-  "_phaseBadge": "Iran's deputy foreign minister said the emerging Oman framework would in fact close the UN-authorised southern shipping lane, not reopen the strait · Netanyahu said a diplomatic deal with Iran is \"not possible\" and called its leadership \"savages\" · Trump told Al Jazeera the war \"will continue for as long as necessary\" · Brent held near $85.5, a fourth session of declines, as Sensex and Nifty gave back their morning gains to close lower on Wednesday",
+  "_phaseBadge": "CENTCOM chief Admiral Brad Cooper confirmed the strait's internationally recognised sea routes are free of Iranian mines, calling it a \"major milestone\" · Trump told Axios \"that sucker is open\" and said he isn't interested in negotiating with Iran, who he says are \"begging to make a deal\" · 20-30 tankers a night are transiting, roughly half the pre-war rate, with Iran hitting only about 2% of ships · Brent steadied near $88 as Hormuz optimism offset a new Russia-Ukraine escalation risk · Indian markets closed for the weekend after Sensex gained 331 points Friday on an IT-led rally",
   "budget": {
     "petrolPre": 94.72,
     "petrolNow": 111.21,
@@ -1328,12 +1342,12 @@
     "lpgNow": 942.0
   },
   "brief": [
-    "Overnight brought two contradictions rather than one. Iran's deputy foreign minister said the Oman framework floated a day earlier would actually close the UN-authorised southern shipping lane, not reopen the strait — reversing the optimistic reading markets gave it on Tuesday. Separately, Netanyahu said a diplomatic deal with Iran is \"not possible\" and called its leadership \"savages,\" while Trump told Al Jazeera the war will continue \"as long as necessary.\" Brent held near $85.5 anyway, a fourth straight session of declines.",
-    "India's markets told a similar story of gains not holding. The Sensex and Nifty opened higher Wednesday on softer crude but faded through the session to close lower — down 0.24% and 0.52% respectively — even as India VIX eased to a multi-week low. Currency and debt markets were shut for Eid-e-Milad; GIFT Nifty is indicating a firmer Thursday open near 24,408, and the rupee, last at ₹95.40, is expected to open stronger as crude continues to soften.",
-    "The thing to watch is whether the market's read on Hormuz is right. Reports of a 'busy day' — 20 tanker transfers moving oil out of Gulf states excluding Iran — suggest shippers are routing around the dispute rather than waiting for either side's account of it to be resolved. Experts quoted by CNN doubt Iran's mine-warfare units, built for laying mines rather than clearing them, can meaningfully contribute to any demining effort, regardless of what the Oman framework eventually settles into.",
-    "Rubio's comment that the US isn't planning new strikes \"for the time being\" is the most operationally relevant line in an otherwise rhetorical day. It suggests Washington's near-term approach stays economic — sanctions and financial pressure — rather than military, even as Netanyahu closes the door on talks from the Israeli side. At the pump, nothing has changed: petrol ₹111.21 a litre in Delhi, diesel ₹97.83, a cylinder ₹942."
+    "The gap between what the US and Iran are saying about Hormuz has narrowed for the first time in this war. CENTCOM's chief confirmed the strait's recognised sea routes are free of mines, and Trump told Axios \"that sucker is open.\" US officials say 20-30 tankers are now transiting nightly — roughly half the pre-war rate — with Iran hitting only about 2% of ships. Iran isn't disputing that; its own objection is narrower, that a separate revenue-sharing deal it struck with Oman doesn't amount to a guaranteed, full reopening.",
+    "Trump says he isn't interested in negotiating further, calling June's memorandum of understanding obsolete and describing Iran as \"begging to make a deal.\" That posture, plus a new escalation in the Russia-Ukraine war — Putin says talks have yielded nothing and Russia is preparing to intensify the conflict — is what kept Brent from falling further. It steadied near $88 through Thursday and Friday, roughly flat on the week, a proportionate rather than euphoric response to improving Hormuz news.",
+    "India's markets closed the week on a strong note: the Sensex added 331 points Friday on an IT-led rally — TCS, Infosys and Tech Mahindra all up more than 2.9% — even though the index still finished the week 0.4% lower overall. Currency, debt and equity markets are shut for the weekend and reopen Monday, September 1, with US Treasury yields and Fed Chair Kevin Warsh's Jackson Hole keynote the next things worth watching for the rupee.",
+    "The AP's reporting that US Patriot missile stocks in Europe are 'beyond critical' after six months of war is a reminder that even good news on Hormuz doesn't erase the underlying cost of a war now half a year old. At the pump, nothing has changed: petrol ₹111.21 a litre in Delhi, diesel ₹97.83, a cylinder ₹942 — a steadier Brent near $88, rather than a falling one, reduces the odds of a near-term cut."
   ],
-  "shareLine": "Iran says the Oman deal closes a shipping lane rather than reopening the strait. Netanyahu says diplomacy is off the table. Brent fell for a fourth session anyway, and India's markets are watching whether the rupee opens firmer Thursday.",
+  "shareLine": "Trump says Hormuz is open, and CENTCOM agrees — tanker traffic is back to roughly half its pre-war rate, the most durable improvement since the strait closed in February. Brent held near $88 and India's Sensex closed the week with a 331-point rally.",
   "author": {
     "name": "Nithiyanandam Yogeswaran",
     "twitter": "https://x.com/prof_nithiya",
