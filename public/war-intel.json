@@ -1,5 +1,5 @@
 {
-  "_updated": "August 31, 2026 — 9:00 AM IST (pre-market)",
+  "_updated": "August 31, 2026 — 11:15 AM IST",
   "_asOf": "2026-08-31",
   "_start": "2026-02-28",
   "_day": 185,
@@ -11,58 +11,59 @@
     "petrol": 94.72,
     "diesel": 87.62
   },
-  "_phase": "CENTCOM FIRES BACK AT IRGC — 'IRAN DOES NOT CONTROL THE STRAIT'; MARKETS SHRUG, GIFT NIFTY FLAT",
-  "_note": "Verified: Fox News Digital live blog (Aug 29-30, citing CENTCOM and Tasnim News Agency), IMO (via Fox News Digital), Al Jazeera live blog (Aug 30), Investing.com/Kotak Neo/Bajaj Broking (GIFT Nifty, Aug 31 pre-market), TradingEconomics (Sensex, Aug 28 close)",
+  "_phase": "SENSEX FALLS 483 POINTS AS OIL RISES AND FED RATE FEARS BITE — CREA PUTS THE WAR'S COST TO INDIA AT $22BN",
+  "_note": "Verified: Business Standard live markets blog (11am IST, Aug 31), CREA analysis (via Business Standard, Free Press Journal, Tribune India, Aug 28), Goldman Sachs research (via TradingEconomics, Aug 28), Reuters shipping count (via Lapaasvoice/TradingEconomics), oilprice.com (Brent live), Fox News Digital (CENTCOM/IRGC), IMO",
   "ticker": [
-    "CENTCOM TO FOX NEWS: 'IRAN DOES NOT CONTROL THE STRAIT OF HORMUZ' — DIRECT REBUTTAL TO IRGC CLAIM",
-    "IMO: 6,000 SAILORS STILL STRANDED IN THE GULF; 19 SEAFARERS KILLED, 70+ SHIPPING ATTACKS SINCE FEBRUARY",
-    "GHARIBABADI (SAT): 'THE STRAIT OF HORMUZ REMAINS CLOSED' — ANY TRANSIT NEEDS IRANIAN COORDINATION",
-    "GIFT NIFTY COILED NEAR 24,300 AS MONDAY OPENS — MARKETS LARGELY SHRUG OFF THE WEEKEND'S RHETORIC",
-    "SENSEX CLOSED FRIDAY AT 77,265 (+331, +0.43%) ON AN IT-LED RALLY; WEEK STILL 0.4% LOWER OVERALL",
-    "NO FRESH BRENT PRINT SINCE FRIDAY'S ~$88 STEADY CLOSE; TODAY'S SESSION IS THE FIRST REAL TEST",
-    "SIX MONTHS INTO THE WAR, NEITHER SIDE HAS PRODUCED VERIFIABLE DATA TO SETTLE THE HORMUZ DISPUTE"
+    "SENSEX DOWN 483 PTS (-0.63%) TO 76,781, NIFTY DOWN 171 (-0.71%) TO 24,004 BY 11AM — OIL UP, FED RATE FEARS BITE",
+    "CREA: HORMUZ CRISIS HAS ADDED $22BN TO INDIA'S GROSS FOSSIL-FUEL IMPORT COSTS SINCE MARCH",
+    "CREA: INDIA'S NET CRUDE-OIL COST ALONE UP $20.5BN; TOTAL FUEL IMPACT ≈0.38% OF GDP, 1.4 DAYS' NATIONAL INCOME",
+    "GOLDMAN SACHS: GULF OIL EXPORTS RECOVER TO ~TWO-THIRDS OF PRE-WAR LEVELS, 15-16 MILLION BPD",
+    "REUTERS: JUST 10 VISIBLE COMMODITY-VESSEL TRANSITS THROUGH HORMUZ ON AUG 26 — BELOW THE 10-DAY AVERAGE",
+    "CREA: LPG IMPORT-PARITY COST UP ~29% SINCE THE WAR BEGAN, BEFORE SUBSIDIES AND RETAIL MARGINS",
+    "CENTCOM: 'IRAN DOES NOT CONTROL THE STRAIT'; IRAN: 'THE STRAIT REMAINS CLOSED' — STANDOFF CONTINUES",
+    "METAL, IT AND CEMENT STOCKS LEAD LOSSES; ONLY PRIVATE BANKS TRADE HIGHER IN EARLY DEALS"
   ],
   "whatChanged": {
-    "label": "What changed — Monday August 31, 9:00 AM IST (Day 185) — pre-market",
+    "label": "What changed — Monday August 31, 11:15 AM IST (Day 185)",
     "items": [
       {
         "color": "red",
-        "bold": "CENTCOM fires back: 'Iran does not control the Strait of Hormuz'",
-        "text": "Responding directly to the IRGC's weekend claim of \"complete and decisive\" control, US Central Command told Fox News Digital: \"Iran does not control the Strait of Hormuz. The strait is an international waterway that commercial vessels continue to transit with U.S. [Navy] support.\" Iran's Deputy Foreign Minister Kazem Gharibabadi countered on Saturday: \"The Strait of Hormuz remains closed, and any vessel passing through the strait does so in coordination with Iran.\""
+        "bold": "Sensex falls 483 points, Nifty 171 — the flat GIFT Nifty open didn't hold",
+        "text": "By 11am, the Sensex had fallen 483.27 points (-0.63%) to 76,781.24 and the Nifty 171.30 points (-0.71%) to 24,004.35, reversing the calm, coiled open GIFT Nifty indicated earlier. Business Standard attributed the fall to rising oil prices and concern about a US Fed rate hike. Hindalco, Infosys and Adani Enterprises led the losses; Nifty Metal, IT, Cement and Media underperformed while only private banks traded higher."
       },
       {
         "color": "orange",
-        "bold": "IMO: 6,000 sailors still stranded, 19 killed, 70+ attacks recorded since February",
-        "text": "The UN's International Maritime Organization said Friday that at least 6,000 sailors remain stranded aboard hundreds of ships in the Persian Gulf six months into the war, with 19 seafarers killed since the conflict began on February 28 and more than 70 attacks on international shipping recorded — the first verified, third-party data point in days that neither side has disputed."
+        "bold": "CREA: the Hormuz crisis has cost India $22bn in fossil-fuel imports since March",
+        "text": "An analysis by the Centre for Research on Energy and Clean Air found India incurred an estimated $22bn in gross additional fossil-fuel import costs between March and August 2026 — the second-most affected importer after China. Net of pricing effects, the cost across all fuels was $14.4bn, about 0.38% of GDP or 1.4 days of national income; crude oil alone accounted for a $20.5bn net additional cost. A standard 14.2kg LPG cylinder's import-parity cost rose roughly 29%, from about $6.28 to $8.1, before subsidies and retail margins."
       },
       {
         "color": "green",
-        "bold": "GIFT Nifty coiled near 24,300 as Monday's session opens",
-        "text": "Pre-market indicators show GIFT Nifty locked in a narrow 24,100-24,500 range with unusually low volatility, trading around 24,300-24,312 — essentially flat. That's the clearest signal yet that markets are treating the weekend's IRGC-CENTCOM rhetorical exchange as posturing rather than a fundamental shift, consistent with the pattern through this war of prices moving on verified throughput and price data rather than statements."
+        "bold": "Goldman Sachs: Gulf oil exports have recovered to roughly two-thirds of pre-war levels",
+        "text": "Goldman Sachs estimated total crude exports from the Persian Gulf have risen to 15-16 million barrels a day — still 7-8 million below pre-conflict levels, but well above March's trough of 5-6 million. It is the first independent, quantified data supporting the US case that Hormuz throughput has genuinely improved, distinct from either government's own claims."
       },
       {
-        "color": "green",
-        "bold": "India: Friday's rally confirmed, week still lower overall",
-        "text": "Friday's Sensex close is confirmed at 77,265 (+331 points, +0.43%), led by TCS, Infosys and Tech Mahindra, though the index still finished the week roughly 0.4% lower. Nifty closed an estimated 24,190, near its 50-day moving average, which technical analysts are watching as a pivot for Monday's session."
+        "color": "orange",
+        "bold": "Reuters: only 10 vessel transits through Hormuz on August 26 — below the 10-day average",
+        "text": "A Reuters ship-tracking count found just 10 visible commodity-vessel transits through the strait on August 26, below the roughly 15-vessel 10-day moving average — a reminder that even as aggregate export volumes recover, day-to-day transit traffic remains volatile and some distance from a genuine return to normal."
       }
     ]
   },
   "deaths": "7,199+",
   "econ": {
-    "sensex": "77,265 (Fri close, +0.43%) — GIFT Nifty flat near 24,300 pre-market",
-    "sensexDelta": "Fri Aug 28 close confirmed: +331 points; GIFT Nifty showing an unusually narrow, flat range Monday",
-    "sensexSub": "Friday's rally was led by IT stocks ahead of Fed Chair Kevin Warsh's Jackson Hole keynote — TCS surged 4.16%, Infosys 2.90%, Tech Mahindra 3.12% and HCL Technologies 2.7%. ICICI Bank (-1.3%), UltraTech Cement (-1.2%) and Asian Paints (-1.1%) lagged. Markets are closed for the weekend and reopen Monday, September 1.",
+    "sensex": "76,781.24 (as of 11am, -483.27, -0.63%)",
+    "sensexDelta": "Down 483 points by 11am, reversing Friday's 331-point gain, on rising oil and US rate-hike concerns",
+    "sensexSub": "Hindalco Industries, Infosys and Adani Enterprises led the Nifty50's losses as the index fell to 24,004.35 (-171.30, -0.71%) by 11am. Nifty Metal, IT, Cement and Media underperformed; Nifty Bank and Private Bank were the only sectoral gainers, with HDFC Bank up 2.5% after confirmation that CEO Sashidhar Jagdishan will not seek re-appointment. Broader markets fell further: Nifty MidCap -0.92%, SmallCap -1.03%.",
     "vix": "~10.6 — EASING",
     "vixDelta": "Held near multi-week lows through Thursday and Friday as Hormuz headlines turned more constructive.",
     "fpi": "+₹27,186 crore in August so far (as of Aug 25; subsequent daily flows not yet fully reported)",
     "fpiDelta": "FIIs bought ₹1,593.50 crore and DIIs ₹230.30 crore on Aug 25, the most recent fully reported session",
     "wealth": "BSE market cap recovering with the Friday rally. US Treasury yields rose Thursday ahead of the Jackson Hole symposium, a mild headwind for emerging-market currencies including the rupee. Global equity funds have now logged eleven consecutive weeks of inflows.",
-    "analysis": "Monday's open answers the question this tracker flagged Saturday: does rhetoric alone move markets without new data behind it? So far, no. GIFT Nifty is coiled in one of its tightest pre-market ranges of the war, which reads as traders having learned, over six months, to wait for verified throughput or price moves rather than repricing off statements from either side. CENTCOM's direct rebuttal to the IRGC — \"Iran does not control the Strait\" — is itself notable as the first time the US has engaged Iran's claim point-for-point rather than simply restating its own position, but it hasn't been accompanied by new tanker-count data either. The most durable number to emerge from the weekend isn't from either government: it's the IMO's count of 6,000 sailors still stranded and 19 killed, a humanitarian toll that sits underneath the dueling claims of control and doesn't move with the rhetoric at all. For India, a flat market open despite a war of words over the weekend is itself informative — it suggests the trajectory toward a calmer Hormuz that built through last week hasn't reversed, even if it hasn't advanced further either."
+    "analysis": "The flat GIFT Nifty open this morning turned out to be the calm before, not the answer. By 11am the Sensex was down nearly 500 points, and Business Standard's own reporting attributes it to rising oil prices and US rate-hike concerns — not directly to the CENTCOM-IRGC exchange, though the two are hard to fully separate given oil is the transmission mechanism between Hormuz rhetoric and Indian markets either way. What's more useful than the day's move is the data that surfaced alongside it: Goldman Sachs's estimate that Gulf exports have recovered to two-thirds of pre-war levels is real evidence behind the US position, while Reuters' count of just 10 vessels transiting on a single day is real evidence for caution about how even that recovery is distributed. And CREA's $22 billion figure finally puts a number on what this tracker has described in qualitative terms for six months: the Hormuz crisis has cost India about 0.38% of GDP so far, concentrated overwhelmingly in crude oil. That's the number to hold in mind next to today's 483-point Sensex move — a single day's volatility against a war that has already extracted a measurable, multi-billion-dollar toll."
   },
   "hormuzStatus": {
-    "status": "CENTCOM did not let the IRGC's weekend claim stand unanswered. Asked directly by Fox News Digital, US Central Command said: \"Iran does not control the Strait of Hormuz. The strait is an international waterway that commercial vessels continue to transit with U.S. [Navy] support.\" Iran's Gharibabadi held his position in reply: \"The Strait of Hormuz remains closed, and any vessel passing through the strait does so in coordination with Iran.\" Neither side has produced new shipping data to back its account since Friday. The one number both sides would have to reckon with, if either engaged with it, comes from the UN's International Maritime Organization: 6,000 sailors still stranded in the Gulf, 19 seafarers killed since February, and more than 70 attacks on shipping recorded — a humanitarian toll that exists regardless of whose account of \"control\" is correct. Markets, for their part, are not moving much: GIFT Nifty opened Monday coiled in a narrow range, suggesting traders are discounting the rhetoric as posturing.",
+    "status": "The rhetorical standoff between CENTCOM and Iran continues without resolution, but two independent, verified data points arrived Monday morning that neither government produced itself. Goldman Sachs estimates Gulf oil exports have recovered to roughly two-thirds of pre-war levels — 15-16 million barrels a day, up from a March trough of 5-6 million, though still 7-8 million below pre-conflict volumes. Reuters' own ship-tracking, meanwhile, counted just 10 visible commodity-vessel transits through the strait on August 26, below the 10-day moving average of about 15 — a sign that aggregate export recovery and day-to-day transit traffic are not telling quite the same story. CENTCOM maintains Iran does not control the strait; Iran's Gharibabadi maintains it remains closed on Iran's terms. The clearest number of the week, though, may be CREA's: the crisis has already added $22 billion to India's fossil-fuel import bill since March, $20.5 billion of that on crude oil alone.",
     "preWarFlow": "~90-140 ships/day",
-    "currentFlow": "Disputed: US says 20-30 tankers/night (~45-50% of pre-war); Iran says no vessel transits without its coordination and disputes claims of unrestricted passage",
+    "currentFlow": "~65% of pre-war by export volume (Goldman Sachs: 15-16m bpd from Gulf, vs a March trough of 5-6m); but only 10 vessel transits recorded through the strait on Aug 26, below the 15-vessel 10-day average — aggregate recovery and daily transit data diverge",
     "reduction": "Brent steadied near $88 through Thursday and Friday — about 35% above the pre-war $65, roughly flat on the week as Hormuz optimism offset a new Russia-Ukraine escalation risk.",
     "indianVesselsNear": 7,
     "indianSeafarers": 148,
@@ -70,14 +71,14 @@
     "totalShipsWaiting": "Significantly reduced from the wartime peak of 20,000+. CENTCOM says over 500 ships transited the southern lane in the past 30 days with roughly 2% struck — the US mine-clearance claim, if it holds, would extend that to both lanes. India's stranded-vessel picture is unchanged pending confirmation that the Iran-Oman corridor is operational.",
     "lastTransit": "Ship numbers remain near 20% of the pre-war average. The US says its own clearance of the Traffic Separation Scheme opens a second lane alongside the Omani channel that has carried most liquid cargo; Iran and Oman's own corridor proposal is commercial-only and still under negotiation.",
     "indianNavyEscort": "Op Urja Suraksha: unchanged pending confirmation that either the US-cleared lane or the Iran-Oman corridor is operational for third-country shipping. MT Settebello diplomatic track continues independently.",
-    "headline": "CENTCOM: 'IRAN DOES NOT CONTROL THE STRAIT.' IRAN: 'THE STRAIT REMAINS CLOSED.' THE UN SAYS 6,000 SAILORS ARE STILL STRANDED EITHER WAY, AND MARKETS AREN'T MOVING MUCH ON EITHER CLAIM.",
+    "headline": "GOLDMAN SAYS GULF EXPORTS ARE BACK TO TWO-THIRDS OF PRE-WAR LEVELS. REUTERS COUNTED JUST 10 SHIPS THROUGH THE STRAIT ON ONE RECENT DAY. CREA SAYS THE CRISIS HAS ALREADY COST INDIA $22 BILLION.",
     "indianCasualties": 4,
     "indianCasualtyDetail": "4th Indian death of the war: a crew member aboard UAE tanker MOMBASA killed by an Iranian cruise missile in Omani territorial waters (UAE MoD, Jul 14). 8 injured incl. 6 Indians, 4 serious. Earlier: 3 Indian sailors killed on MT Settebello (Jun 8, US Navy strike). No new Indian casualties reported."
   },
   "hormuzEvents": [
     {
       "d": "Aug 31",
-      "e": "DAY 185 — CENTCOM ANSWERS BACK. US Central Command directly rebutted the IRGC's weekend claim of \"complete and decisive\" control over Hormuz, telling Fox News Digital: \"Iran does not control the Strait of Hormuz. The strait is an international waterway that commercial vessels continue to transit with U.S. [Navy] support.\" Iran's Deputy Foreign Minister Kazem Gharibabadi held his ground in a Saturday statement: \"The Strait of Hormuz remains closed, and any vessel passing through the strait does so in coordination with Iran.\" The UN's International Maritime Organization offered the first verified, undisputed figures in days: 6,000 sailors remain stranded aboard hundreds of ships in the Gulf six months into the war, 19 seafarers have been killed since the conflict began on February 28, and more than 70 attacks on international shipping have been recorded. Neither the US nor Iran has produced fresh throughput data to support its competing claim since Friday. India's markets opened the week with GIFT Nifty coiled in a narrow 24,100-24,500 range, essentially flat, a sign that traders are treating the weekend's rhetorical exchange as posturing rather than a fundamental shift. Friday's confirmed close: Sensex 77,265 (+331, +0.43%), Nifty an estimated 24,190 — both still down roughly 0.4% for the week."
+      "e": "DAY 185 — THE MARKET REACTS AFTER ALL. Monday's calm, coiled pre-market open didn't hold: by 11am the Sensex had fallen 483 points (-0.63%) to 76,781 and the Nifty 171 points (-0.71%) to 24,004, as rising oil prices and concern about a US Federal Reserve rate hike dented risk sentiment — the first real market reaction since the weekend's CENTCOM-IRGC rhetorical exchange, even if the actual driver was more about oil direction and Fed policy than the Hormuz dispute itself. Two independent data points arrived to fill the information gap the rhetoric left behind. Goldman Sachs estimated Gulf oil exports have recovered to roughly two-thirds of pre-war levels — 15-16 million barrels a day, up from a March trough of 5-6 million but still 7-8 million below pre-conflict volumes. Reuters' own ship-tracking counted just 10 visible commodity-vessel transits through the strait on August 26, below the 10-day moving average of about 15. Separately, an analysis by the Centre for Research on Energy and Clean Air (CREA) found the Hormuz crisis has added an estimated $22 billion to India's gross fossil-fuel import costs between March and August — India was the second-most affected importer after China in gross terms, with a net additional cost of $14.4 billion across all fuels (about 0.38% of GDP) and $20.5 billion on crude oil alone. CREA also found the import-parity cost of a standard 14.2kg LPG cylinder rose roughly 29% since the war began. CENTCOM and Iran continue to dispute control of the strait without new claims from either side since Saturday."
     },
     {
       "d": "Aug 29-30",
@@ -510,8 +511,8 @@
     }
   ],
   "assessment": {
-    "headline": "CENTCOM tells Iran directly it does not control the Strait of Hormuz; Iran says the strait remains closed regardless. Markets, so far, are betting neither claim moves the needle without new data behind it.",
-    "body": "WHAT HAPPENED\nUS Central Command directly rebutted the IRGC's weekend assertion of \"complete and decisive\" control, telling Fox News Digital that Iran does not control the strait and that commercial vessels continue transiting with US Navy support. Iran's Gharibabadi repeated Tehran's position unchanged: the strait remains closed, any transit needs Iranian coordination. The UN's IMO added the most concrete figures of the weekend — 6,000 sailors stranded, 19 killed since February, 70+ shipping attacks recorded — numbers neither government has disputed and that exist independent of who actually controls the waterway.\n\nWHY IT MATTERS FOR INDIA\nGIFT Nifty's flat, coiled open Monday is itself the most useful signal in today's update. It suggests the market has priced this exchange as posturing rather than a reversal of last week's de-escalation, which is consistent with six months of pattern: prices move on verified throughput and attack data, not statements. That's a mild positive for India specifically, since it implies the rupee and crude aren't about to swing on rhetoric alone heading into the new trading week.\n\nTHE THING TO WATCH\nWhether either side produces actual data this week — new tanker counts from CENTCOM, or documented interdictions from Iran — that could break the current stalemate of competing claims. Until then, the IMO's humanitarian numbers are the only verified figures in the entire dispute, and they describe a war still extracting a real cost regardless of which side's account of \"control\" the market chooses to believe."
+    "headline": "Sensex fell 483 points as oil rose and Fed rate fears bit — and CREA put the first hard number on what this war has actually cost India: $22 billion in additional fossil-fuel imports since March.",
+    "body": "WHAT HAPPENED\nMonday's flat pre-market open didn't hold. By 11am the Sensex was down 483 points (-0.63%) to 76,781 and the Nifty 171 points (-0.71%) to 24,004, reversing Friday's IT-led rally as rising oil prices and concern about a US Fed rate hike weighed on sentiment. Separately, Goldman Sachs estimated Gulf oil exports have recovered to roughly two-thirds of pre-war levels, while Reuters counted only 10 vessel transits through Hormuz on a single recent day — evidence that aggregate recovery and day-to-day traffic are moving at different speeds. CREA's analysis put a number on the war's toll: $22 billion in gross additional fossil-fuel import costs for India since March, $20.5 billion of it on crude oil, with a net economy-wide impact of about 0.38% of GDP.\n\nWHY IT MATTERS FOR INDIA\nThis is the first time in six months of tracking this war that a concrete, independently produced number has captured its cumulative cost to India, rather than day-to-day market moves or rhetorical claims. $22 billion gross, $14.4 billion net, 0.38% of GDP — these are the figures that will matter more to India's fiscal and current-account position over the medium term than any single day's Sensex swing, including today's. The LPG import-parity increase of 29% is the clearest line from the war to household costs, even before subsidies are applied.\n\nTHE THING TO WATCH\nWhether today's market reaction is really about Hormuz at all, or primarily about the Fed. Business Standard's own reporting attributes the fall to both oil and rate-hike concerns together, and untangling the two matters for how durable the selloff is likely to be. If it's Fed-driven, it should fade once Jackson Hole-related uncertainty clears; if it's genuinely about Hormuz risk re-pricing, the CREA number suggests there's a lot more room for this war to cost India money before the crisis is actually resolved."
   },
   "featured": [
     {
@@ -1290,22 +1291,22 @@
       "d": 185,
       "l": "Aug 31",
       "deaths": 7199,
-      "brent": 88.0,
-      "nifty": 24300.0,
+      "brent": 89.5,
+      "nifty": 24004.35,
       "rupee": 95.4,
-      "tag": "(9AM IST, PRE-MARKET): CENTCOM directly rebutted the IRGC's weekend claim of decisive Hormuz control, telling Fox News Digital \"Iran does not control the Strait of Hormuz\" and that commercial vessels continue transiting with US Navy support. Iran's Gharibabadi held Tehran's line unchanged: \"the strait remains closed,\" any transit needs Iranian coordination. The UN's IMO offered the weekend's most concrete figures — 6,000 sailors stranded, 19 seafarers killed since February 28, 70+ shipping attacks recorded — undisputed by either side. Neither government has produced fresh throughput data since Friday. INDIA: GIFT Nifty opened Monday coiled in a narrow 24,100-24,500 range, essentially flat, suggesting markets are discounting the weekend's rhetoric as posturing. Friday's confirmed close: Sensex 77,265 (+331, +0.43%), Nifty an estimated 24,190 near its 50-day moving average — both still down roughly 0.4% for the week.",
+      "tag": "(11:15AM IST): Sensex fell 483.27 points (-0.63%) to 76,781.24 and Nifty fell 171.30 points (-0.71%) to 24,004.35 by 11am, reversing Friday's rally as rising oil prices and US Fed rate-hike concerns weighed on sentiment. Goldman Sachs estimated Gulf oil exports have recovered to roughly two-thirds of pre-war levels (15-16 million bpd, up from a March trough of 5-6 million); Reuters counted just 10 vessel transits through Hormuz on Aug 26, below the 10-day average of ~15. CREA estimated the Hormuz crisis has added $22bn to India's gross fossil-fuel import costs since March ($20.5bn on crude oil alone), a net economy-wide cost of $14.4bn (~0.38% of GDP), and pushed LPG import-parity costs up ~29%. CENTCOM and Iran continue to dispute control of the strait: CENTCOM says \"Iran does not control the Strait of Hormuz\"; Gharibabadi says it \"remains closed.\" The IMO separately reported 6,000 sailors stranded and 19 seafarer deaths since February.",
       "sev": 2
     }
   ],
   "exec": {
     "level": "HIGH",
-    "phase": "CENTCOM and IRGC trade direct rebuttals over Hormuz control; markets largely unmoved",
-    "oilNote": "No fresh Brent print since Friday's steady ~$88 close. Today's session is the first real test of whether the weekend's rhetorical exchange between the US and Iran moves the market at all.",
-    "shipping": "CENTCOM: 'IRAN DOES NOT CONTROL THE STRAIT OF HORMUZ'",
-    "shippingSub": "A direct rebuttal to the IRGC's weekend claim of decisive control. Gharibabadi holds Iran's position: the strait \"remains closed,\" any transit needs Iranian coordination. Neither side has produced new shipping data since Friday.",
-    "military": "IMO: 6,000 SAILORS STILL STRANDED, 19 KILLED SINCE FEBRUARY",
-    "militarySub": "The UN's maritime agency offers the war's most concrete, undisputed casualty figures six months in — 70+ recorded attacks on shipping, a toll that exists regardless of whose Hormuz claim is accurate.",
-    "indiaSub": "GIFT Nifty coiled flat near 24,300 as Monday opens, suggesting markets are discounting the weekend's rhetoric. Friday's Sensex close confirmed at 77,265 (+0.43%), still down ~0.4% for the week."
+    "phase": "Sensex falls 483 points as oil rises and Fed rate fears bite; CREA puts the war's India cost at $22bn",
+    "oilNote": "Rising oil prices were cited as a driver of Monday's equity selloff. Goldman Sachs estimates Gulf exports have recovered to ~two-thirds of pre-war levels; Reuters counted only 10 vessel transits through Hormuz on Aug 26, below the 10-day average.",
+    "shipping": "GOLDMAN: GULF EXPORTS AT ~65% OF PRE-WAR; REUTERS COUNTS JUST 10 TRANSITS ON AUG 26",
+    "shippingSub": "The first independent, quantified data since the CENTCOM-IRGC rhetorical exchange. Aggregate export recovery and single-day vessel counts tell somewhat different stories.",
+    "military": "CREA: HORMUZ CRISIS HAS COST INDIA $22BN IN FOSSIL-FUEL IMPORTS SINCE MARCH",
+    "militarySub": "Net cost across all fuels: $14.4bn, ~0.38% of GDP. Crude oil alone: $20.5bn net additional cost. LPG import-parity cost up ~29% since the war began, before subsidies.",
+    "indiaSub": "Sensex down 483 points (-0.63%) to 76,781 by 11am, Nifty down 171 (-0.71%) to 24,004, reversing Friday's rally on rising oil and US rate-hike concerns. Only private banks trade higher."
   },
   "hormuzPhases": [
     {
@@ -1354,7 +1355,7 @@
       "days": "Aug 26-"
     }
   ],
-  "_phaseBadge": "CENTCOM told Fox News Digital \"Iran does not control the Strait of Hormuz\" and that commercial vessels continue to transit with US Navy support, directly rebutting the IRGC's weekend claim · The UN's IMO says 6,000 sailors remain stranded in the Gulf and 19 seafarers have been killed since February, with 70+ recorded attacks on shipping · GIFT Nifty is coiled in a narrow range near 24,300 as Monday's session opens, signalling markets are largely discounting the rhetorical back-and-forth",
+  "_phaseBadge": "Sensex fell 483 points (-0.63%) and Nifty 171 points (-0.71%) by 11am, reversing Friday's rally as oil prices rose and traders priced in US rate-hike risk · CREA estimates the Hormuz crisis has added $22bn to India's gross fossil-fuel import costs since March, $20.5bn of it on crude alone · Goldman Sachs says Gulf oil exports have recovered to roughly two-thirds of pre-war levels, even as Reuters counted only 10 vessel transits through Hormuz on Aug 26, below the 10-day average · CENTCOM and Iran are still disputing who controls the strait",
   "budget": {
     "petrolPre": 94.72,
     "petrolNow": 111.21,
@@ -1364,12 +1365,12 @@
     "lpgNow": 942.0
   },
   "brief": [
-    "CENTCOM didn't let the IRGC's weekend claim of \"complete and decisive\" control over Hormuz stand unanswered. Asked directly by Fox News Digital, US Central Command said: \"Iran does not control the Strait of Hormuz. The strait is an international waterway that commercial vessels continue to transit with U.S. [Navy] support.\" Iran's Gharibabadi held his position in reply: \"The Strait of Hormuz remains closed, and any vessel passing through the strait does so in coordination with Iran.\"",
-    "The most concrete number to emerge from the weekend belongs to neither government. The UN's International Maritime Organization said 6,000 sailors remain stranded aboard hundreds of ships in the Gulf six months into the war, with 19 seafarers killed since February 28 and more than 70 attacks on shipping recorded — a humanitarian toll that sits underneath the dueling claims of control and doesn't move with the rhetoric.",
-    "Markets are answering the question this tracker raised Saturday: does rhetoric alone move prices without new data behind it? So far, no. GIFT Nifty opened Monday coiled in an unusually narrow range near 24,300, suggesting traders are treating the weekend's exchange as posturing rather than a fundamental shift — consistent with a pattern that's held since February, where verified throughput and price moves drive the market far more than statements do.",
-    "Friday's session is now confirmed: Sensex closed at 77,265, up 331 points on an IT-led rally, though the index still finished the week roughly 0.4% lower overall. At the pump, nothing has changed: petrol ₹111.21 a litre in Delhi, diesel ₹97.83, a cylinder ₹942 — Brent's steadying near $88 rather than falling further keeps a near-term cut unlikely."
+    "The calm, coiled market open this morning didn't last. By 11am the Sensex had fallen 483 points (-0.63%) to 76,781 and the Nifty 171 points (-0.71%) to 24,004, reversing Friday's rally as oil prices rose and traders priced in concern about a US Federal Reserve rate hike. Hindalco, Infosys and Adani Enterprises led the losses; only private banks traded higher, with HDFC Bank up 2.5% on unrelated leadership news.",
+    "Two independent data points arrived to fill the gap left by the weekend's CENTCOM-IRGC rhetorical exchange. Goldman Sachs estimates Gulf oil exports have recovered to roughly two-thirds of pre-war levels — 15-16 million barrels a day, up from a March trough of 5-6 million. Reuters' own ship-tracking, though, counted just 10 visible vessel transits through Hormuz on August 26, below the 10-day average of about 15 — aggregate recovery and day-to-day traffic aren't telling quite the same story.",
+    "The most consequential number of the day belongs to neither government nor either data provider. An analysis by the Centre for Research on Energy and Clean Air found the Hormuz crisis has added an estimated $22 billion to India's gross fossil-fuel import costs since March — $20.5 billion of that on crude oil alone, with a net economy-wide cost of $14.4 billion, about 0.38% of GDP or 1.4 days of national income. It is the first hard figure this tracker has had for what six months of qualitative reporting has described.",
+    "CREA also found the import-parity cost of a standard 14.2kg LPG cylinder has risen roughly 29% since the war began, before subsidies and retail margins are applied — a reminder that the gap between what India pays at the border and what households pay at the shop is doing real work to absorb this shock. At the pump, retail prices remain unchanged: petrol ₹111.21 a litre in Delhi, diesel ₹97.83, a cylinder ₹942."
   ],
-  "shareLine": "CENTCOM tells Iran directly: \"you do not control the Strait of Hormuz.\" Iran says it remains closed regardless. The UN says 6,000 sailors are stranded either way — and India's markets opened the week essentially flat, betting the rhetoric won't outlast the data.",
+  "shareLine": "Sensex fell 483 points as oil rose and Fed rate fears bit. Behind the day's move: Goldman says Gulf oil exports are back to two-thirds of pre-war levels, and CREA puts the Hormuz crisis's cost to India at $22 billion since March.",
   "author": {
     "name": "Nithiyanandam Yogeswaran",
     "twitter": "https://x.com/prof_nithiya",
