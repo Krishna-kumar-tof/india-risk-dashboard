@@ -1,8 +1,8 @@
 {
-  "_updated": "August 30, 2026 — 9:00 AM IST",
-  "_asOf": "2026-08-30",
+  "_updated": "August 31, 2026 — 9:00 AM IST (pre-market)",
+  "_asOf": "2026-08-31",
   "_start": "2026-02-28",
-  "_day": 184,
+  "_day": 185,
   "preWar": {
     "brent": 65,
     "rupee": 91.49,
@@ -11,62 +11,56 @@
     "petrol": 94.72,
     "diesel": 87.62
   },
-  "_phase": "IRGC CALLS TRUMP'S 'OPEN' CLAIM 'AN OUTRIGHT LIE' — ASSERTS 'COMPLETE AND DECISIVE' CONTROL OF HORMUZ",
-  "_note": "Verified: Al Jazeera live blog (Aug 30), Press TV (Aug 28-29), Mehr News Agency, Kashmir Observer/AFP wire, Aaj English, Yahoo News/WANA (Mohsen Rezaei), Washington Times",
+  "_phase": "CENTCOM FIRES BACK AT IRGC — 'IRAN DOES NOT CONTROL THE STRAIT'; MARKETS SHRUG, GIFT NIFTY FLAT",
+  "_note": "Verified: Fox News Digital live blog (Aug 29-30, citing CENTCOM and Tasnim News Agency), IMO (via Fox News Digital), Al Jazeera live blog (Aug 30), Investing.com/Kotak Neo/Bajaj Broking (GIFT Nifty, Aug 31 pre-market), TradingEconomics (Sensex, Aug 28 close)",
   "ticker": [
-    "IRGC NAVY: US CLAIM THAT HORMUZ IS OPEN IS 'AN OUTRIGHT LIE' TO CONTROL OIL PRICES",
-    "IRGC: STRAIT HAS 'COMPLETE AND DECISIVE' IRANIAN CONTROL, CLOSED TO ANY SHIP WITHOUT COORDINATION",
-    "GHARIBABADI: OMAN ARRANGEMENT HINGES ON US ACTION — IRAN 'IN NO HURRY' TO REOPEN OTHERWISE",
-    "FORMER IRGC COMMANDER REZAEI: STRAIT 'WILL NOT REOPEN' UNLESS US WITHDRAWS FROM THE GULF",
-    "KHAMENEI URGES MUSLIM NATIONS TO RECOGNISE THEIR 'TRUE ENEMY'",
-    "IRANIAN CABINET PLEDGES TO 'STAND FIRM' AGAINST US SANCTIONS AS WAR PASSES SIX-MONTH MARK",
-    "ISRAELI STRIKE WOUNDS SEVERAL IN CENTRAL GAZA; 'MASSIVE' EXPLOSION REPORTED IN SOUTHERN LEBANON",
-    "INDIAN MARKETS REMAIN CLOSED FOR THE WEEKEND; TRADING RESUMES MONDAY, SEPTEMBER 1"
+    "CENTCOM TO FOX NEWS: 'IRAN DOES NOT CONTROL THE STRAIT OF HORMUZ' — DIRECT REBUTTAL TO IRGC CLAIM",
+    "IMO: 6,000 SAILORS STILL STRANDED IN THE GULF; 19 SEAFARERS KILLED, 70+ SHIPPING ATTACKS SINCE FEBRUARY",
+    "GHARIBABADI (SAT): 'THE STRAIT OF HORMUZ REMAINS CLOSED' — ANY TRANSIT NEEDS IRANIAN COORDINATION",
+    "GIFT NIFTY COILED NEAR 24,300 AS MONDAY OPENS — MARKETS LARGELY SHRUG OFF THE WEEKEND'S RHETORIC",
+    "SENSEX CLOSED FRIDAY AT 77,265 (+331, +0.43%) ON AN IT-LED RALLY; WEEK STILL 0.4% LOWER OVERALL",
+    "NO FRESH BRENT PRINT SINCE FRIDAY'S ~$88 STEADY CLOSE; TODAY'S SESSION IS THE FIRST REAL TEST",
+    "SIX MONTHS INTO THE WAR, NEITHER SIDE HAS PRODUCED VERIFIABLE DATA TO SETTLE THE HORMUZ DISPUTE"
   ],
   "whatChanged": {
-    "label": "What changed — Sunday August 30, 9:00 AM IST (Day 184)",
+    "label": "What changed — Monday August 31, 9:00 AM IST (Day 185) — pre-market",
     "items": [
       {
         "color": "red",
-        "bold": "IRGC calls Trump's 'open' claim 'an outright lie'",
-        "text": "Two days after CENTCOM and Trump declared Hormuz's mines cleared and the strait open, Iran's Revolutionary Guard Navy issued a direct rebuttal: \"the control exercised by the Islamic Republic's forces over the strategic Strait of Hormuz is complete and decisive,\" it said, describing US claims as \"an outright lie\" meant \"solely to control oil prices and cover up their own defeats.\" The statement said the strait remains closed to any ship transiting without prior coordination with Iran."
+        "bold": "CENTCOM fires back: 'Iran does not control the Strait of Hormuz'",
+        "text": "Responding directly to the IRGC's weekend claim of \"complete and decisive\" control, US Central Command told Fox News Digital: \"Iran does not control the Strait of Hormuz. The strait is an international waterway that commercial vessels continue to transit with U.S. [Navy] support.\" Iran's Deputy Foreign Minister Kazem Gharibabadi countered on Saturday: \"The Strait of Hormuz remains closed, and any vessel passing through the strait does so in coordination with Iran.\""
       },
       {
         "color": "orange",
-        "bold": "Gharibabadi: the Oman arrangement depends entirely on US action",
-        "text": "Iran's deputy foreign minister said implementation of the temporary arrangement reached with Oman \"hinges on\" Washington fulfilling commitments it has suspended under the Islamabad memorandum. \"If they take no action, then naturally the Islamic Republic is in no hurry to reopen the Strait of Hormuz,\" he said, rejecting claims that any vessels have passed through without Iranian coordination."
-      },
-      {
-        "color": "red",
-        "bold": "Former IRGC commander: the strait 'will not reopen' unless the US leaves the Gulf",
-        "text": "Mohsen Rezaei, now on Iran's Expediency Discernment Council, said Gulf security \"should be managed by the countries of the region themselves\" and that normal conditions won't return while American forces remain — one of Tehran's most maximalist public positions yet on the strait's future."
-      },
-      {
-        "color": "orange",
-        "bold": "Khamenei calls on Muslim nations to recognise their 'true enemy'; Cabinet vows to stand firm",
-        "text": "In a written statement, Iran's Supreme Leader Mojtaba Khamenei urged Muslim heads of state to \"recognise their real enemy, understand its plans and confront it.\" Iran's Cabinet separately pledged to stand firm against US sanctions as the war passes its six-month mark. Israeli strikes wounded several people in central Gaza; a \"massive\" explosion was reported in southern Lebanon."
+        "bold": "IMO: 6,000 sailors still stranded, 19 killed, 70+ attacks recorded since February",
+        "text": "The UN's International Maritime Organization said Friday that at least 6,000 sailors remain stranded aboard hundreds of ships in the Persian Gulf six months into the war, with 19 seafarers killed since the conflict began on February 28 and more than 70 attacks on international shipping recorded — the first verified, third-party data point in days that neither side has disputed."
       },
       {
         "color": "green",
-        "bold": "India: markets remain closed for the weekend",
-        "text": "No fresh trading data since Friday's close — Sensex 77,265 (+0.43%), Nifty last verified at 24,207.75 with Friday's move estimated. Currency, debt and equity markets reopen Monday, September 1, when today's sharp rhetorical reversal on Hormuz will be the first real test of whether markets treat it as more than posturing."
+        "bold": "GIFT Nifty coiled near 24,300 as Monday's session opens",
+        "text": "Pre-market indicators show GIFT Nifty locked in a narrow 24,100-24,500 range with unusually low volatility, trading around 24,300-24,312 — essentially flat. That's the clearest signal yet that markets are treating the weekend's IRGC-CENTCOM rhetorical exchange as posturing rather than a fundamental shift, consistent with the pattern through this war of prices moving on verified throughput and price data rather than statements."
+      },
+      {
+        "color": "green",
+        "bold": "India: Friday's rally confirmed, week still lower overall",
+        "text": "Friday's Sensex close is confirmed at 77,265 (+331 points, +0.43%), led by TCS, Infosys and Tech Mahindra, though the index still finished the week roughly 0.4% lower. Nifty closed an estimated 24,190, near its 50-day moving average, which technical analysts are watching as a pivot for Monday's session."
       }
     ]
   },
   "deaths": "7,199+",
   "econ": {
-    "sensex": "77,265 (Fri close, +0.43%) — markets closed for the weekend",
-    "sensexDelta": "Fri Aug 28: +331 points, though the index still ended the week 0.4% lower overall",
+    "sensex": "77,265 (Fri close, +0.43%) — GIFT Nifty flat near 24,300 pre-market",
+    "sensexDelta": "Fri Aug 28 close confirmed: +331 points; GIFT Nifty showing an unusually narrow, flat range Monday",
     "sensexSub": "Friday's rally was led by IT stocks ahead of Fed Chair Kevin Warsh's Jackson Hole keynote — TCS surged 4.16%, Infosys 2.90%, Tech Mahindra 3.12% and HCL Technologies 2.7%. ICICI Bank (-1.3%), UltraTech Cement (-1.2%) and Asian Paints (-1.1%) lagged. Markets are closed for the weekend and reopen Monday, September 1.",
     "vix": "~10.6 — EASING",
     "vixDelta": "Held near multi-week lows through Thursday and Friday as Hormuz headlines turned more constructive.",
     "fpi": "+₹27,186 crore in August so far (as of Aug 25; subsequent daily flows not yet fully reported)",
     "fpiDelta": "FIIs bought ₹1,593.50 crore and DIIs ₹230.30 crore on Aug 25, the most recent fully reported session",
     "wealth": "BSE market cap recovering with the Friday rally. US Treasury yields rose Thursday ahead of the Jackson Hole symposium, a mild headwind for emerging-market currencies including the rupee. Global equity funds have now logged eleven consecutive weeks of inflows.",
-    "analysis": "The market got one clean, unambiguous day of good Hormuz news on Friday and a weekend of rebuttal immediately after. That sequencing matters: Friday's rally, and the steadying in Brent near $88, priced in CENTCOM's confirmation and Trump's declaration before Iran had a chance to respond in kind. The IRGC's statement — not a nuanced caveat but a flat denial, calling the American position a lie — is a different kind of pushback than Gharibabadi's earlier hedging about guarantees. Whether Monday's session treats this as posturing (the market's working assumption through most of this war, given oil didn't spike) or as a genuine reversion to contested control will be the first real signal of how durable Friday's optimism actually was. Nothing in the weekend's statements changes the underlying tanker-throughput numbers US officials cited Friday, which is the strongest reason to expect Monday's reaction is measured rather than sharp — but the rhetoric alone is pointed enough that a repricing isn't out of the question."
+    "analysis": "Monday's open answers the question this tracker flagged Saturday: does rhetoric alone move markets without new data behind it? So far, no. GIFT Nifty is coiled in one of its tightest pre-market ranges of the war, which reads as traders having learned, over six months, to wait for verified throughput or price moves rather than repricing off statements from either side. CENTCOM's direct rebuttal to the IRGC — \"Iran does not control the Strait\" — is itself notable as the first time the US has engaged Iran's claim point-for-point rather than simply restating its own position, but it hasn't been accompanied by new tanker-count data either. The most durable number to emerge from the weekend isn't from either government: it's the IMO's count of 6,000 sailors still stranded and 19 killed, a humanitarian toll that sits underneath the dueling claims of control and doesn't move with the rhetoric at all. For India, a flat market open despite a war of words over the weekend is itself informative — it suggests the trajectory toward a calmer Hormuz that built through last week hasn't reversed, even if it hasn't advanced further either."
   },
   "hormuzStatus": {
-    "status": "Friday's optimism didn't survive the weekend. Iran's Revolutionary Guard Navy issued a direct, unambiguous rebuttal of the American position: \"complete and decisive\" Iranian control, US claims of an open strait dismissed as \"an outright lie\" designed to manipulate oil prices and mask American setbacks. The statement said no vessel may transit without prior coordination with Iran, and that this holds until US \"aggression\" ends and its obligations under the Islamabad memorandum are met. Deputy Foreign Minister Gharibabadi went further on the substance: the Oman arrangement's implementation \"hinges on\" the US restoring commitments it has suspended, and absent that, Iran is \"in no hurry\" to reopen anything. Former IRGC commander Mohsen Rezaei staked out the most maximalist position yet — the strait \"will not reopen\" unless US forces leave the Gulf entirely. The contrast with CENTCOM's tanker-throughput claims from Friday could not be sharper, and neither side has produced verifiable third-party shipping data to settle which account is closer to reality.",
+    "status": "CENTCOM did not let the IRGC's weekend claim stand unanswered. Asked directly by Fox News Digital, US Central Command said: \"Iran does not control the Strait of Hormuz. The strait is an international waterway that commercial vessels continue to transit with U.S. [Navy] support.\" Iran's Gharibabadi held his position in reply: \"The Strait of Hormuz remains closed, and any vessel passing through the strait does so in coordination with Iran.\" Neither side has produced new shipping data to back its account since Friday. The one number both sides would have to reckon with, if either engaged with it, comes from the UN's International Maritime Organization: 6,000 sailors still stranded in the Gulf, 19 seafarers killed since February, and more than 70 attacks on shipping recorded — a humanitarian toll that exists regardless of whose account of \"control\" is correct. Markets, for their part, are not moving much: GIFT Nifty opened Monday coiled in a narrow range, suggesting traders are discounting the rhetoric as posturing.",
     "preWarFlow": "~90-140 ships/day",
     "currentFlow": "Disputed: US says 20-30 tankers/night (~45-50% of pre-war); Iran says no vessel transits without its coordination and disputes claims of unrestricted passage",
     "reduction": "Brent steadied near $88 through Thursday and Friday — about 35% above the pre-war $65, roughly flat on the week as Hormuz optimism offset a new Russia-Ukraine escalation risk.",
@@ -76,11 +70,15 @@
     "totalShipsWaiting": "Significantly reduced from the wartime peak of 20,000+. CENTCOM says over 500 ships transited the southern lane in the past 30 days with roughly 2% struck — the US mine-clearance claim, if it holds, would extend that to both lanes. India's stranded-vessel picture is unchanged pending confirmation that the Iran-Oman corridor is operational.",
     "lastTransit": "Ship numbers remain near 20% of the pre-war average. The US says its own clearance of the Traffic Separation Scheme opens a second lane alongside the Omani channel that has carried most liquid cargo; Iran and Oman's own corridor proposal is commercial-only and still under negotiation.",
     "indianNavyEscort": "Op Urja Suraksha: unchanged pending confirmation that either the US-cleared lane or the Iran-Oman corridor is operational for third-country shipping. MT Settebello diplomatic track continues independently.",
-    "headline": "THE IRGC CALLS THE US 'OPEN STRAIT' CLAIM A LIE. GHARIBABADI SAYS REOPENING HINGES ON WASHINGTON. A FORMER IRGC COMMANDER SAYS IT WON'T REOPEN AT ALL WHILE US FORCES REMAIN.",
+    "headline": "CENTCOM: 'IRAN DOES NOT CONTROL THE STRAIT.' IRAN: 'THE STRAIT REMAINS CLOSED.' THE UN SAYS 6,000 SAILORS ARE STILL STRANDED EITHER WAY, AND MARKETS AREN'T MOVING MUCH ON EITHER CLAIM.",
     "indianCasualties": 4,
     "indianCasualtyDetail": "4th Indian death of the war: a crew member aboard UAE tanker MOMBASA killed by an Iranian cruise missile in Omani territorial waters (UAE MoD, Jul 14). 8 injured incl. 6 Indians, 4 serious. Earlier: 3 Indian sailors killed on MT Settebello (Jun 8, US Navy strike). No new Indian casualties reported."
   },
   "hormuzEvents": [
+    {
+      "d": "Aug 31",
+      "e": "DAY 185 — CENTCOM ANSWERS BACK. US Central Command directly rebutted the IRGC's weekend claim of \"complete and decisive\" control over Hormuz, telling Fox News Digital: \"Iran does not control the Strait of Hormuz. The strait is an international waterway that commercial vessels continue to transit with U.S. [Navy] support.\" Iran's Deputy Foreign Minister Kazem Gharibabadi held his ground in a Saturday statement: \"The Strait of Hormuz remains closed, and any vessel passing through the strait does so in coordination with Iran.\" The UN's International Maritime Organization offered the first verified, undisputed figures in days: 6,000 sailors remain stranded aboard hundreds of ships in the Gulf six months into the war, 19 seafarers have been killed since the conflict began on February 28, and more than 70 attacks on international shipping have been recorded. Neither the US nor Iran has produced fresh throughput data to support its competing claim since Friday. India's markets opened the week with GIFT Nifty coiled in a narrow 24,100-24,500 range, essentially flat, a sign that traders are treating the weekend's rhetorical exchange as posturing rather than a fundamental shift. Friday's confirmed close: Sensex 77,265 (+331, +0.43%), Nifty an estimated 24,190 — both still down roughly 0.4% for the week."
+    },
     {
       "d": "Aug 29-30",
       "e": "DAY 184 — THE REBUTTAL. Two days after CENTCOM and Trump declared Hormuz's mines cleared and the strait effectively open, Iran's Revolutionary Guard Navy issued a direct, sharply worded rejection: \"the control exercised by the Islamic Republic's forces over the strategic Strait of Hormuz is complete and decisive,\" it said, calling US claims \"an outright lie\" intended \"solely to control oil prices and cover up their own defeats.\" The statement said the strait remains closed to any vessel transiting without prior coordination with Iran, a condition that holds until US \"aggression\" ends and outstanding obligations under the Islamabad memorandum are fulfilled. Deputy Foreign Minister Kazem Gharibabadi said separately that the temporary arrangement reached with Oman depends entirely on Washington restoring commitments it has suspended: \"if they take no action, then naturally the Islamic Republic is in no hurry to reopen the Strait of Hormuz.\" He also rejected reports that vessels had transited without Iranian coordination. Former IRGC commander Mohsen Rezaei took the hardest public line yet, saying the strait \"will not reopen\" unless American forces withdraw from the Gulf entirely. Iran's Supreme Leader Mojtaba Khamenei urged Muslim heads of state to \"recognise their real enemy,\" and Iran's Cabinet pledged to stand firm against US sanctions as the war passed its six-month mark. Israeli strikes wounded several in central Gaza; a \"massive\" explosion was reported in southern Lebanon. India's markets remain closed for the weekend, with Monday's reopening the first real test of how seriously markets take Tehran's rebuttal."
@@ -303,6 +301,24 @@
   ],
   "military": [
     {
+      "t": "Aug 30 — CENTCOM: 'Iran does not control the Strait of Hormuz'",
+      "lv": "BREAKING",
+      "color": "green",
+      "d": "Responding directly to the IRGC's weekend claim, US Central Command told Fox News Digital: \"Iran does not control the Strait of Hormuz. The strait is an international waterway that commercial vessels continue to transit with U.S. [Navy] support.\" It is the most direct, point-for-point rebuttal the US has issued of an Iranian control claim since the war began."
+    },
+    {
+      "t": "Aug 30 — Gharibabadi holds Iran's line: 'the strait remains closed'",
+      "lv": "ACTIVE",
+      "color": "orange",
+      "d": "Iran's Deputy Foreign Minister Kazem Gharibabadi reiterated in a statement Saturday: \"The Strait of Hormuz remains closed, and any vessel passing through the strait does so in coordination with Iran.\" Neither side has produced new shipping or throughput data since Friday to substantiate its account over the other's."
+    },
+    {
+      "t": "Aug 28-29 — IMO: 6,000 sailors stranded, 19 killed, 70+ shipping attacks since February",
+      "lv": "ACTIVE",
+      "color": "red",
+      "d": "The UN's International Maritime Organization said Friday that at least 6,000 sailors remain stranded aboard hundreds of ships in the Persian Gulf six months into the war. It recorded 19 seafarer deaths since the conflict began February 28 and more than 70 attacks on international shipping — the war's most concrete, third-party-verified humanitarian toll to date."
+    },
+    {
       "t": "Aug 29 — IRGC Navy: US 'open strait' claim is 'an outright lie'",
       "lv": "BREAKING",
       "color": "red",
@@ -319,24 +335,6 @@
       "lv": "ACTIVE",
       "color": "orange",
       "d": "Iran's Supreme Leader Mojtaba Khamenei, in a written statement, urged Muslim heads of state to \"recognise their real enemy, understand its plans and confront it.\" Iran's Cabinet pledged to stand firm against US sanctions as the war passed its six-month mark. Israeli strikes wounded several people in central Gaza; a \"massive\" explosion was reported in southern Lebanon."
-    },
-    {
-      "t": "Aug 28 — CENTCOM confirms Hormuz's sea routes are free of mines; Trump: 'that sucker is open'",
-      "lv": "BREAKING",
-      "color": "green",
-      "d": "CENTCOM chief Admiral Brad Cooper said in a video statement that internationally recognised sea routes in the Strait of Hormuz are free of Iranian sea mines, calling it a \"major milestone.\" Trump told Axios in a phone interview: \"that sucker is open. The Iranian response is very mild. They don't want us to go back at them. That's the whole ball game. The rest doesn't matter.\" US officials say Iran has lost much of its operational control over the strait, with the US military now effectively overseeing most of it."
-    },
-    {
-      "t": "Aug 28 — Tanker traffic reaches roughly half the pre-war rate",
-      "lv": "ACTIVE",
-      "color": "green",
-      "d": "US officials tell Axios that 20 to 30 tankers are transiting the strait every night, about half the pre-war average, with Iran hitting only around 2% of ships that transited over the past month. Kpler shipping data logged seven commodity vessels transiting Thursday — down from 17 the day before but around the 10-day average of 15, with the figures likely undercounting vessels running dark."
-    },
-    {
-      "t": "Aug 28 — Trump: not interested in negotiating; Iran-Oman reach a narrower deal",
-      "lv": "ACTIVE",
-      "color": "orange",
-      "d": "\"I don't want to meet, they do. In fact, they are begging to make a deal,\" Trump wrote on Truth Social, adding that June's memorandum of understanding is no longer relevant given the US's stronger negotiating position. Iran's military separately said it had reached a revenue-sharing agreement with Oman over the strait, while stressing this does not guarantee an immediate, full reopening. Iran's Supreme Leader Khamenei urged public unity and reliance on domestic production amid ongoing sanctions."
     }
   ],
   "nukes": [
@@ -512,8 +510,8 @@
     }
   ],
   "assessment": {
-    "headline": "Iran's Revolutionary Guard calls the US claim that Hormuz is open 'an outright lie' and asserts 'complete and decisive' control instead — the sharpest rebuttal of the war's more optimistic turn, delivered over a weekend with no markets open to react to it.",
-    "body": "WHAT HAPPENED\nTwo days after CENTCOM and Trump declared the strait's mines cleared and traffic flowing at roughly half the pre-war rate, Iran's IRGC Navy rejected the claim outright, saying its control of the strait is \"complete and decisive\" and that no vessel transits without its coordination. Deputy Foreign Minister Gharibabadi tied the Oman arrangement's implementation directly to US action, saying Iran is \"in no hurry\" to reopen anything otherwise. Former IRGC commander Mohsen Rezaei staked out the hardest position yet: no reopening while US forces remain in the Gulf at all.\n\nWHY IT MATTERS FOR INDIA\nThis is a rhetorical escalation without a data escalation — neither side has produced verifiable shipping numbers to contradict the other's account since Friday. That's meaningful for how India's markets are likely to treat it Monday: the pattern through this war has been that oil and the rupee move on verified throughput and price data more than on statements, and nothing concrete has changed since Friday's tanker counts. But the specific claim — that the US is lying, not merely overstating — is a harder rhetorical posture than Iran has taken in weeks, and markets that had begun to price in a calmer Hormuz now have a full trading day's gap to digest it before Monday's open.\n\nTHE THING TO WATCH\nWhether Monday's session moves on this at all. If Sensex, Nifty, the rupee and Brent open close to where Friday left them, it's a strong signal markets have learned to discount IRGC statements as posturing distinct from operational reality. If there's a real move — Brent up, rupee down — it would mark the first time in this de-escalation stretch that rhetoric alone, without a new attack or a new data point, moved the market. That would be a meaningful change in how fragile the recent calm actually is."
+    "headline": "CENTCOM tells Iran directly it does not control the Strait of Hormuz; Iran says the strait remains closed regardless. Markets, so far, are betting neither claim moves the needle without new data behind it.",
+    "body": "WHAT HAPPENED\nUS Central Command directly rebutted the IRGC's weekend assertion of \"complete and decisive\" control, telling Fox News Digital that Iran does not control the strait and that commercial vessels continue transiting with US Navy support. Iran's Gharibabadi repeated Tehran's position unchanged: the strait remains closed, any transit needs Iranian coordination. The UN's IMO added the most concrete figures of the weekend — 6,000 sailors stranded, 19 killed since February, 70+ shipping attacks recorded — numbers neither government has disputed and that exist independent of who actually controls the waterway.\n\nWHY IT MATTERS FOR INDIA\nGIFT Nifty's flat, coiled open Monday is itself the most useful signal in today's update. It suggests the market has priced this exchange as posturing rather than a reversal of last week's de-escalation, which is consistent with six months of pattern: prices move on verified throughput and attack data, not statements. That's a mild positive for India specifically, since it implies the rupee and crude aren't about to swing on rhetoric alone heading into the new trading week.\n\nTHE THING TO WATCH\nWhether either side produces actual data this week — new tanker counts from CENTCOM, or documented interdictions from Iran — that could break the current stalemate of competing claims. Until then, the IMO's humanitarian numbers are the only verified figures in the entire dispute, and they describe a war still extracting a real cost regardless of which side's account of \"control\" the market chooses to believe."
   },
   "featured": [
     {
@@ -1287,17 +1285,27 @@
       "rupee": 95.4,
       "tag": "(9AM IST, WEEKEND): Iran's Revolutionary Guard Navy rejected Friday's US and CENTCOM claims that Hormuz is open, calling them \"an outright lie\" and asserting \"complete and decisive\" Iranian control — no vessel transits without its coordination, the statement said, until US \"aggression\" ends and Islamabad memorandum obligations are met. Deputy FM Gharibabadi said the Oman arrangement's implementation hinges on US action, and Iran is \"in no hurry\" otherwise. Former IRGC commander Mohsen Rezaei said the strait \"will not reopen\" unless US forces leave the Gulf entirely. Khamenei urged Muslim nations to confront their \"true enemy\"; Iran's Cabinet vowed to stand firm on sanctions as the war passed six months. No new shipping data has emerged to verify either side's account since Friday. INDIA: markets remain closed for the weekend after Friday's 331-point Sensex rally; trading resumes Monday, September 1, the first session to price in Iran's rebuttal.",
       "sev": 2
+    },
+    {
+      "d": 185,
+      "l": "Aug 31",
+      "deaths": 7199,
+      "brent": 88.0,
+      "nifty": 24300.0,
+      "rupee": 95.4,
+      "tag": "(9AM IST, PRE-MARKET): CENTCOM directly rebutted the IRGC's weekend claim of decisive Hormuz control, telling Fox News Digital \"Iran does not control the Strait of Hormuz\" and that commercial vessels continue transiting with US Navy support. Iran's Gharibabadi held Tehran's line unchanged: \"the strait remains closed,\" any transit needs Iranian coordination. The UN's IMO offered the weekend's most concrete figures — 6,000 sailors stranded, 19 seafarers killed since February 28, 70+ shipping attacks recorded — undisputed by either side. Neither government has produced fresh throughput data since Friday. INDIA: GIFT Nifty opened Monday coiled in a narrow 24,100-24,500 range, essentially flat, suggesting markets are discounting the weekend's rhetoric as posturing. Friday's confirmed close: Sensex 77,265 (+331, +0.43%), Nifty an estimated 24,190 near its 50-day moving average — both still down roughly 0.4% for the week.",
+      "sev": 2
     }
   ],
   "exec": {
     "level": "HIGH",
-    "phase": "IRGC rejects the US 'open strait' claim as a lie, asserts decisive control",
-    "oilNote": "No fresh Brent print since Friday's ~$88 steady close; markets reopen Monday to weigh Iran's weekend rebuttal against the tanker-throughput data the US cited days earlier.",
-    "shipping": "IRGC: 'COMPLETE AND DECISIVE' CONTROL, US CLAIMS 'AN OUTRIGHT LIE'",
-    "shippingSub": "Iran's Revolutionary Guard Navy directly rejected Friday's US claims that Hormuz is open, saying no vessel transits without its coordination. Gharibabadi says the Oman arrangement hinges entirely on the US restoring suspended commitments.",
-    "military": "FORMER IRGC COMMANDER: STRAIT 'WILL NOT REOPEN' WHILE US FORCES REMAIN",
-    "militarySub": "Mohsen Rezaei stakes out the most maximalist Iranian position yet on the strait. Khamenei calls on Muslim nations to confront their \"true enemy\"; Iran's Cabinet vows to stand firm on sanctions as the war passes six months.",
-    "indiaSub": "Markets closed for the weekend after Friday's 331-point Sensex gain. Trading resumes Monday, September 1 — the first session to price in Iran's rebuttal of the US Hormuz claim."
+    "phase": "CENTCOM and IRGC trade direct rebuttals over Hormuz control; markets largely unmoved",
+    "oilNote": "No fresh Brent print since Friday's steady ~$88 close. Today's session is the first real test of whether the weekend's rhetorical exchange between the US and Iran moves the market at all.",
+    "shipping": "CENTCOM: 'IRAN DOES NOT CONTROL THE STRAIT OF HORMUZ'",
+    "shippingSub": "A direct rebuttal to the IRGC's weekend claim of decisive control. Gharibabadi holds Iran's position: the strait \"remains closed,\" any transit needs Iranian coordination. Neither side has produced new shipping data since Friday.",
+    "military": "IMO: 6,000 SAILORS STILL STRANDED, 19 KILLED SINCE FEBRUARY",
+    "militarySub": "The UN's maritime agency offers the war's most concrete, undisputed casualty figures six months in — 70+ recorded attacks on shipping, a toll that exists regardless of whose Hormuz claim is accurate.",
+    "indiaSub": "GIFT Nifty coiled flat near 24,300 as Monday opens, suggesting markets are discounting the weekend's rhetoric. Friday's Sensex close confirmed at 77,265 (+0.43%), still down ~0.4% for the week."
   },
   "hormuzPhases": [
     {
@@ -1346,7 +1354,7 @@
       "days": "Aug 26-"
     }
   ],
-  "_phaseBadge": "The IRGC Navy rejected US claims the strait is open, calling them a lie intended to control oil prices and cover up American setbacks · It says the strait stays closed to any vessel without prior Iranian coordination until US \"aggression\" ends · Gharibabadi says the Oman arrangement's implementation hinges on the US, and Iran is \"in no hurry\" without it · Khamenei urged Muslim nations to recognise their \"true enemy\" · Indian markets remain closed for the weekend, reopening Monday",
+  "_phaseBadge": "CENTCOM told Fox News Digital \"Iran does not control the Strait of Hormuz\" and that commercial vessels continue to transit with US Navy support, directly rebutting the IRGC's weekend claim · The UN's IMO says 6,000 sailors remain stranded in the Gulf and 19 seafarers have been killed since February, with 70+ recorded attacks on shipping · GIFT Nifty is coiled in a narrow range near 24,300 as Monday's session opens, signalling markets are largely discounting the rhetorical back-and-forth",
   "budget": {
     "petrolPre": 94.72,
     "petrolNow": 111.21,
@@ -1356,12 +1364,12 @@
     "lpgNow": 942.0
   },
   "brief": [
-    "Friday's optimism didn't survive the weekend. Iran's Revolutionary Guard Navy issued a sharp rebuttal of CENTCOM and Trump's claim that Hormuz's mines are cleared and the strait is effectively open, calling the American position \"an outright lie\" and asserting \"complete and decisive\" Iranian control. The statement said no vessel transits without prior coordination with Iran — a materially harder line than the narrower objections Tehran raised earlier in the week.",
-    "Deputy Foreign Minister Gharibabadi added specifics: implementation of the temporary arrangement with Oman \"hinges on\" the US restoring commitments it has suspended, and without that, Iran is \"in no hurry to reopen the Strait of Hormuz.\" Former IRGC commander Mohsen Rezaei went further still, saying the strait \"will not reopen\" unless American forces withdraw from the Gulf entirely — one of Tehran's most maximalist public positions of the war so far.",
-    "None of this comes with new shipping data to verify either side's account. The US tanker-throughput figures cited Friday — 20-30 ships nightly, roughly half the pre-war rate — haven't been contradicted with numbers, only with rhetoric. That's the reason to expect Monday's market reaction is measured rather than sharp, but the tone of Iran's statement is pointed enough that it's not guaranteed.",
-    "India's markets are closed for the weekend after Friday's 331-point Sensex rally; trading resumes Monday, September 1, the first session to price in this weekend's reversal. Khamenei separately urged Muslim nations to recognise their \"true enemy,\" and Israeli strikes continued in Gaza and Lebanon. At the pump, nothing has changed: petrol ₹111.21 a litre in Delhi, diesel ₹97.83, a cylinder ₹942."
+    "CENTCOM didn't let the IRGC's weekend claim of \"complete and decisive\" control over Hormuz stand unanswered. Asked directly by Fox News Digital, US Central Command said: \"Iran does not control the Strait of Hormuz. The strait is an international waterway that commercial vessels continue to transit with U.S. [Navy] support.\" Iran's Gharibabadi held his position in reply: \"The Strait of Hormuz remains closed, and any vessel passing through the strait does so in coordination with Iran.\"",
+    "The most concrete number to emerge from the weekend belongs to neither government. The UN's International Maritime Organization said 6,000 sailors remain stranded aboard hundreds of ships in the Gulf six months into the war, with 19 seafarers killed since February 28 and more than 70 attacks on shipping recorded — a humanitarian toll that sits underneath the dueling claims of control and doesn't move with the rhetoric.",
+    "Markets are answering the question this tracker raised Saturday: does rhetoric alone move prices without new data behind it? So far, no. GIFT Nifty opened Monday coiled in an unusually narrow range near 24,300, suggesting traders are treating the weekend's exchange as posturing rather than a fundamental shift — consistent with a pattern that's held since February, where verified throughput and price moves drive the market far more than statements do.",
+    "Friday's session is now confirmed: Sensex closed at 77,265, up 331 points on an IT-led rally, though the index still finished the week roughly 0.4% lower overall. At the pump, nothing has changed: petrol ₹111.21 a litre in Delhi, diesel ₹97.83, a cylinder ₹942 — Brent's steadying near $88 rather than falling further keeps a near-term cut unlikely."
   ],
-  "shareLine": "Iran's Revolutionary Guard calls the US claim that Hormuz is open 'an outright lie,' asserting 'complete and decisive' control instead. India's markets, closed for the weekend, get their first chance to price in the reversal on Monday.",
+  "shareLine": "CENTCOM tells Iran directly: \"you do not control the Strait of Hormuz.\" Iran says it remains closed regardless. The UN says 6,000 sailors are stranded either way — and India's markets opened the week essentially flat, betting the rhetoric won't outlast the data.",
   "author": {
     "name": "Nithiyanandam Yogeswaran",
     "twitter": "https://x.com/prof_nithiya",
