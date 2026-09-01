@@ -1,12 +1,12 @@
 {
-  "_updated": "2026-09-01 — 04:57: IST",
-  "_utc": "2026-08-31T23:27:59.978Z",
+  "_updated": "2026-09-01 — 07:49: IST",
+  "_utc": "2026-09-01T02:19:39.345Z",
   "_source": "Yahoo Finance + ExchangeRate API",
   "_note": "Auto-updated via GitHub Action every 4 hours. War content updated manually.",
   "brent": {
-    "price": 88.63,
-    "change": 0.26,
-    "changePct": 0.29
+    "price": 88.77,
+    "change": 0.4,
+    "changePct": 0.45
   },
   "nifty": {
     "price": 24080.4,
