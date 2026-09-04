@@ -1,8 +1,8 @@
 {
-  "_updated": "September 2, 2026 — 10:00 AM IST",
-  "_asOf": "2026-09-02",
+  "_updated": "September 4, 2026 — 10:00 AM IST",
+  "_asOf": "2026-09-04",
   "_start": "2026-02-28",
-  "_day": 187,
+  "_day": 189,
   "preWar": {
     "brent": 65,
     "rupee": 91.49,
@@ -11,63 +11,63 @@
     "petrol": 94.72,
     "diesel": 87.62
   },
-  "_phase": "CENTCOM COMPLETES A BROAD WAVE OF STRIKES ON IRAN — TEHRAN CLAIMS A WEDDING WAS HIT, VOWS THE 'OFFENSIVE WILL CONTINUE'",
-  "_note": "Verified: CENTCOM (via X/ANI/Al-Monitor/Business Standard), Iran's IRNA and Foreign Ministry spokesperson statements (unverified Iranian government claims, flagged as such), UKMTO, Investing.com/Korea Times/OilPrice.com/Bloomberg/ZeroHedge (Bessent G20 remarks), India TV/Business Standard/Kotak Neo (NSE data, Sept 2 pre-market)",
+  "_phase": "IRAN'S OWN RED CRESCENT REVISES WEDDING TOLL TO 4 DEAD; TEHRAN HITS KUWAIT AND BAHRAIN A SECOND AND THIRD NIGHT",
+  "_note": "Verified: Just Security Early Edition (Sept 3, citing Reuters/Axios/BBC/AP), CBS News live updates, AP via Britannica timeline, ABC News live updates (Vance briefing), India TV/GIFT Nifty pre-market data (Sept 4)",
   "ticker": [
-    "CENTCOM COMPLETES A BROAD WAVE OF STRIKES ON IRGC AIR DEFENCE, RADAR, MARITIME AND MINE-LAYING SITES",
-    "IRAN'S FOREIGN MINISTRY CLAIMS A WEDDING WAS HIT IN SIRIK, 50+ CASUALTIES — UNVERIFIED IRANIAN CLAIM",
-    "IRAN CLAIMS RETALIATORY STRIKES ON JORDAN'S PRINCE HASSAN AIR BASE AND BAHRAIN'S SHEIKH ISA BASE",
-    "IRGC WARNS ITS 'OFFENSIVE OPERATION WILL CONTINUE'; TRUMP WARNS IRAN WILL BE HIT 'HARDER' IF IT RETALIATES",
-    "BESSENT AT G20: STRAIT OF HORMUZ WILL BE A 'WORTHLESS PIECE OF WATER' WITHIN TWO YEARS AS PIPELINES BYPASS IT",
-    "BRENT ABOVE $92, DIESEL CRACK SPREADS BREACH $100, AS REFINERY DISRUPTIONS COMPOUND THE SUPPLY SQUEEZE",
-    "SENSEX OPENS DOWN 473 PTS, NIFTY BELOW 23,900, AS NIKKEI FALLS 2.9% AND KOSPI 3.1%",
-    "US 10-YEAR TREASURY YIELD HITS 4.81%, HIGHEST SINCE LATE 2023, ON RATE-HIKE FEARS",
-    "RUPEE OPENS AT A TWO-MONTH HIGH OF ₹94.91, ITS THIRD STRAIGHT SESSION OF GAINS, ON STRONG 7.8% GDP DATA"
+    "CORRECTION: IRAN'S RED CRESCENT REVISES WEDDING-STRIKE TOLL TO 4 DEAD, 60+ WOUNDED — DOWN FROM 'FIFTY-PLUS'",
+    "VANCE: 'EXTREMELY SKEPTICAL' OF IRAN'S WEDDING-STRIKE CLAIM, WON'T CALL THE CONFLICT A 'WAR'",
+    "SAUDI ARABIA CONFIRMS 2 FILIPINO SEAFARERS KILLED IN ATTACK ON ITS TANKER MV SIDR IN HORMUZ",
+    "IRAN STRIKES KUWAIT AND BAHRAIN WITH DRONES A SECOND NIGHT; KUWAIT CALLS IT 'BLATANT IRANIAN AGGRESSION'",
+    "IRAN CLAIMS FURTHER ATTACKS ON KUWAIT AND UAE A THIRD NIGHT; IRAN ITSELF REPORTS 7 IRGC/NAVY/BASIJ KILLED",
+    "IRAN BLACKLISTS 11 MORE SHIPS OVER HORMUZ, BRINGING THE TOTAL TO 56",
+    "REUTERS: TRUMP AIDES TRYING TO AVOID FURTHER ESCALATION BEFORE US MIDTERMS; MORE ACTION POSSIBLE AFTER",
+    "ENVOY WITKOFF MET UAE'S NATIONAL SECURITY ADVISER IN SARDINIA TO DISCUSS 'NEXT STEPS' ON IRAN",
+    "SENSEX SURGES 504 POINTS, GIFT NIFTY +133, AS WALL STREET BOND-YIELD PRESSURE EASES AND TECH RALLIES"
   ],
   "whatChanged": {
-    "label": "What changed — Wednesday September 2, 10:00 AM IST (Day 187)",
+    "label": "What changed — Friday September 4, 10:00 AM IST (Day 189)",
     "items": [
       {
-        "color": "red",
-        "bold": "CENTCOM completes a broad wave of strikes on Iran",
-        "text": "US Central Command said late Tuesday it had completed a wave of strikes against IRGC targets \"including air defense sites, radar systems, maritime assets and facilities, mine laying capabilities, and communications sites,\" following what it called recent attempted IRGC attacks on commercial shipping and American service members. Strikes were reported on Qeshm Island, Konarak and Chabahar. CENTCOM said more than 50,000 US personnel remain deployed across the region. Separately, CENTCOM said its blockade enforcement had redirected 84 commercial vessels, disabled 3, and boarded 2, as of September 1."
-      },
-      {
-        "color": "red",
-        "bold": "Iran claims a wedding was struck; foreign ministry vows a 'firm' response — unverified",
-        "text": "Iran's Foreign Ministry spokesperson Esmaeil Baqaei said American strikes hit a residential home in Kuhestak, Sirik, during a wedding celebration, claiming more than 50 people were killed or wounded. This is an Iranian government claim that has not been independently verified by CENTCOM or third-party sources; CENTCOM's own statement named target classes, not this specific site. Baqaei said Iran would respond to what he called \"savage crimes\" with firmness."
-      },
-      {
         "color": "orange",
-        "bold": "Iran claims retaliatory strikes on a Jordan air base and Bahrain — also unverified",
-        "text": "Iran's IRNA news agency claimed the IRGC Aerospace Force conducted a ballistic missile operation against Prince Hassan Air Base in Jordan, targeting drone hangars and claiming deaths among pilots and flight crew, and that Iranian forces struck radar and troop concentrations at Sheikh Isa base in Bahrain with drones. Neither claim has been independently confirmed by Jordanian, Bahraini or US sources. The IRGC separately warned its \"offensive operation will continue.\""
-      },
-      {
-        "color": "orange",
-        "bold": "Trump warns of a harder response; Bessent says Hormuz will be 'worthless' in two years",
-        "text": "Trump warned Iran would be hit \"harder\" if it retaliates further. At the G20 finance ministers' meeting, Treasury Secretary Scott Bessent said the Strait of Hormuz \"will be like a worthless piece of water\" within two years as Gulf oil shifts to land-based pipelines bypassing it — citing Saudi Arabia's roughly 7 million bpd East-West pipeline to the Red Sea as a model, though analysts note pipeline buildouts of that scale typically take years, not two."
+        "bold": "Correction: Iran's own Red Crescent revises the wedding-strike toll sharply down",
+        "text": "Iran's Red Crescent Society said shrapnel from a missile hit a home in Kuhestak, Sirik during a wedding, killing four people — two women and two children — and wounding more than 60. That's a significant downward revision from the Foreign Ministry spokesperson's earlier claim of 50+ killed or wounded. CENTCOM's Capt. Tim Hawkins said the military was \"looking into\" the reports without confirming a formal investigation. Vice President Vance said he was \"extremely skeptical\" of the claim, citing Iranian state media's unreliable record, and declined to characterise the overall conflict as a \"war.\""
       },
       {
         "color": "red",
-        "bold": "Markets fall sharply: Sensex opens down 473 points, Asian stocks tumble",
-        "text": "The Sensex opened down 472.96 points (-0.61%) at 76,471.32 and the Nifty fell 196.60 points to 23,859.20. Japan's Nikkei fell 2.9% and South Korea's Kospi 3.1%; Wall Street closed broadly lower overnight (Dow -0.79%, S&P 500 -0.71%, Nasdaq -1.03%) as the US 10-year Treasury yield hit 4.81%, its highest since late 2023, on rate-hike fears. Brent traded above $92, with diesel crack spreads breaching $100 amid refinery disruptions. One bright spot: the rupee opened at a two-month high of ₹94.91, its third straight session of gains, helped by India's strong 7.8% GDP print and returning FII/DII buying (₹1,143 crore and ₹1,847 crore respectively on Tuesday)."
+        "bold": "Confirmed: two Filipino seafarers killed on a Saudi tanker in Hormuz",
+        "text": "Saudi Arabia's national shipping company Bahri confirmed its vessel MV Sidr was attacked transiting the strait Monday night, killing two Filipino crew members. Iranian authorities separately claimed the same strike killed at least four and wounded dozens — a discrepancy between the confirmed Saudi/Filipino toll and the higher Iranian claim. Saudi Arabia condemned the attack and other Iranian strikes on Gulf states."
+      },
+      {
+        "color": "red",
+        "bold": "Iran strikes Kuwait and Bahrain for a second night, claims a third round on Kuwait and UAE",
+        "text": "Iran targeted US Gulf allies with drones for a second consecutive night; Kuwait's Ministry of Defense called it \"blatant Iranian aggression.\" Iran's army claimed further attacks Thursday on bases used by US forces in Kuwait and the UAE. Iran also disclosed its own military losses from the Sept 1-2 exchange: four IRGC Aerospace Force personnel, two navy members and one Basij militia member killed. Iran blacklisted 11 more ships, bringing its total Hormuz blacklist to 56 vessels."
+      },
+      {
+        "color": "green",
+        "bold": "Behind the scenes: Trump aides work to avoid further escalation before the midterms",
+        "text": "Reuters reported senior Trump aides are pushing to keep the war from escalating further ahead of the US midterm elections, with officials expected to consider ramping up military action afterward. Separately, Special Envoy Steve Witkoff met the UAE's national security adviser in Sardinia over the weekend to discuss next steps on Iran — a previously unannounced meeting first reported by Axios. Vance declined to give any timeline for the conflict's end, saying the US would rely on its own tools rather than depend on Iran \"behaving responsibly.\""
+      },
+      {
+        "color": "green",
+        "bold": "India: Sensex surges 504 points as global bond-yield pressure eases",
+        "text": "The Sensex rose 504 points and the Nifty moved back above 23,900 in early trade, Bajaj Finserv the top gainer. GIFT Nifty had signalled the rally in advance, up 133 points to 24,065.50 against Thursday's close of 23,932.50. Asian markets broadly rebounded as a rally on Wall Street — led by technology stocks, as the recent run-up in US bond yields eased further — improved the global risk backdrop."
       }
     ]
   },
   "deaths": "7,199+",
   "econ": {
-    "sensex": "76,471.32 at open (-472.96, -0.61%)",
-    "sensexDelta": "Opened down 473 points; Tuesday's close was 76,944.28 (-12.99, -0.02%)",
-    "sensexSub": "The Nifty opened at 23,859.20, down 196.60 points, with broader markets under similar pressure (BSE Smallcap -1.04%). Asian markets fell far more sharply than India's own open: Nikkei -2.9%, Kospi -3.1%. Wall Street closed broadly lower overnight on the CENTCOM strikes and rising bond yields. FIIs returned as net buyers on Tuesday (₹1,143.38 crore) after two sessions of selling; DIIs bought ₹1,846.94 crore.",
+    "sensex": "Sensex +504 pts in early trade, Nifty back above 23,900",
+    "sensexDelta": "GIFT Nifty had signalled the rally in advance, +133 pts to 24,065.50 vs Thursday's close of 23,932.50",
+    "sensexSub": "Bajaj Finserv led gainers as Asian markets broadly rebounded, tracking a tech-led Wall Street rally that eased the recent run-up in US bond yields. The improved global mood is helping India's markets recover from Wednesday's sharp CENTCOM-strike-driven selloff, even as the underlying military situation has not de-escalated — Iran struck Gulf states for a third consecutive night this week.",
     "vix": "Elevated — tracking the sharpest Asian equity selloff since the war's mid-year escalation",
     "vixDelta": "Held near multi-week lows through Thursday and Friday as Hormuz headlines turned more constructive.",
     "fpi": "+₹27,186 crore in August so far (as of Aug 25; subsequent daily flows not yet fully reported)",
     "fpiDelta": "FIIs bought ₹1,593.50 crore and DIIs ₹230.30 crore on Aug 25, the most recent fully reported session",
     "wealth": "BSE market cap recovering with the Friday rally. US Treasury yields rose Thursday ahead of the Jackson Hole symposium, a mild headwind for emerging-market currencies including the rupee. Global equity funds have now logged eleven consecutive weeks of inflows.",
-    "analysis": "The rupee is the number that doesn't fit today's story, and that's worth sitting with. Opening at a two-month high of ₹94.91 on the same morning the Sensex fell 473 points and Asian markets tumbled far harder, the rupee's strength is coming from India's own fundamentals — a strong 7.8% GDP print and returning foreign and domestic institutional buying — rather than from any read on Hormuz. That's a genuinely different pattern from earlier in this war, when a firmer Brent reliably meant a weaker rupee. It suggests India's currency has decoupled somewhat from the day-to-day war narrative, even as its equity market clearly hasn't. The equity selloff itself looks proportionate to the news: CENTCOM's strike wave was broader than Sunday's single Larak Island action, Iran's wedding-casualty claim (if verified) would mark a serious escalation in civilian harm, and both sides are now explicitly threatening to escalate further rather than de-escalate. Bessent's 'Hormuz worthless in two years' remarks read almost as a non-sequitur against that backdrop — a long-term structural claim doing nothing to address a war that is, as of this morning, actively intensifying."
+    "analysis": "Markets are rallying on a global bond-yield reprieve, not on any actual improvement in the Hormuz situation — worth being precise about that distinction. Iran struck Kuwait and Bahrain for a second night and claims a third round on Kuwait and the UAE; its own blacklist has grown to 56 ships. What's improved is the discovery, via Reuters, that Trump's own aides are trying to keep a lid on further escalation before the midterms — a political constraint operating alongside, and perhaps against, the military escalation of the past few days. The revised wedding-casualty figures from Iran's own Red Crescent are also worth sitting with: a government correcting its own initial claim downward, five-fold, without explanation, is not proof the strike didn't happen, but it is a reason for real caution about any single-day casualty figures from either side in this conflict. For India, today's market rally is real money moving on a real global catalyst — but it says more about the Fed and US tech earnings than about whether the war itself is actually cooling."
   },
   "hormuzStatus": {
-    "status": "This is the most serious military escalation this tracker has logged since the war's mid-year point. CENTCOM confirmed a broad wave of strikes against IRGC air defence, radar, maritime, mine-laying and communications targets across multiple Iranian sites, including Qeshm Island, Konarak and Chabahar. Iran's government claims the strikes hit a wedding celebration in Sirik, killing or wounding more than 50 people — a serious allegation from Iran's Foreign Ministry that has not been independently verified by CENTCOM or third-party sources, and which CENTCOM's own target list does not name. Iran separately claims retaliatory strikes on a Jordanian air base and Bahrain's Sheikh Isa base, also unconfirmed. The IRGC has warned its 'offensive operation will continue,' and Trump has warned Iran will be hit 'harder' if it retaliates further. Set against all of that, Treasury Secretary Bessent used a G20 platform to declare Hormuz strategically irrelevant within two years — a claim about the distant future that does nothing to address the war actively escalating in the present.",
+    "status": "The picture has become both clearer and murkier at once over the past two days. Clearer: Saudi Arabia confirmed two of its Filipino crew were killed when the tanker MV Sidr was attacked transiting Hormuz — real, verified casualties, independent of either government's claims. Murkier: Iran's own Red Crescent revised the Sirik wedding-strike toll down from the Foreign Ministry's initial '50+' claim to four dead and 60+ wounded, a correction that arrived without explanation for the discrepancy, and that Vance greeted with open skepticism about whether Iranian state media is a reliable narrator of this war at all. Iran has kept up pressure regardless — drone strikes on Kuwait and Bahrain two nights running, claimed further strikes on Kuwait and the UAE a third night, and 11 more ships added to its Hormuz blacklist. Behind the public escalation, Reuters reports Trump's own aides are trying to prevent things going further before the US midterms, with quiet diplomacy continuing through Special Envoy Witkoff's unannounced meeting with UAE officials in Sardinia. The gap between the public rhetoric and the private diplomatic track may be the most important story of the week.",
     "preWarFlow": "~90-140 ships/day",
     "currentFlow": "~65% of pre-war by export volume (Goldman Sachs: 15-16m bpd from Gulf, vs a March trough of 5-6m); but only 10 vessel transits recorded through the strait on Aug 26, below the 15-vessel 10-day average — aggregate recovery and daily transit data diverge",
     "reduction": "Brent rose more than 2% Sunday to $89.79 and extended gains into Tuesday's session toward $91 — a direct reversal of last week's multi-day decline, and about 40% above the pre-war $65.",
@@ -77,11 +77,15 @@
     "totalShipsWaiting": "Significantly reduced from the wartime peak of 20,000+. CENTCOM says over 500 ships transited the southern lane in the past 30 days with roughly 2% struck — the US mine-clearance claim, if it holds, would extend that to both lanes. India's stranded-vessel picture is unchanged pending confirmation that the Iran-Oman corridor is operational.",
     "lastTransit": "Ship numbers remain near 20% of the pre-war average. The US says its own clearance of the Traffic Separation Scheme opens a second lane alongside the Omani channel that has carried most liquid cargo; Iran and Oman's own corridor proposal is commercial-only and still under negotiation.",
     "indianNavyEscort": "Op Urja Suraksha: unchanged pending confirmation that either the US-cleared lane or the Iran-Oman corridor is operational for third-country shipping. MT Settebello diplomatic track continues independently.",
-    "headline": "THE MOST SERIOUS ESCALATION SINCE THE WAR'S MIDPOINT. CENTCOM HIT MULTIPLE IRANIAN SITES; IRAN CLAIMS A WEDDING WAS AMONG THEM. BOTH SIDES ARE NOW WARNING THE NEXT ROUND WILL BE WORSE.",
+    "headline": "IRAN'S OWN RED CRESCENT CUTS THE WEDDING-STRIKE TOLL FROM 'FIFTY-PLUS' TO FOUR. A SAUDI TANKER'S TWO DEAD SAILORS ARE CONFIRMED, INDEPENDENT OF EITHER SIDE'S CLAIMS. AND TRUMP'S OWN AIDES ARE QUIETLY TRYING TO STOP THIS GOING FURTHER BEFORE THE MIDTERMS.",
     "indianCasualties": 4,
     "indianCasualtyDetail": "4th Indian death of the war: a crew member aboard UAE tanker MOMBASA killed by an Iranian cruise missile in Omani territorial waters (UAE MoD, Jul 14). 8 injured incl. 6 Indians, 4 serious. Earlier: 3 Indian sailors killed on MT Settebello (Jun 8, US Navy strike). No new Indian casualties reported."
   },
   "hormuzEvents": [
+    {
+      "d": "Sep 3-4",
+      "e": "DAY 189 — A CORRECTION, A CONFIRMATION, AND A QUIET DIPLOMATIC TRACK. Iran's own Red Crescent Society revised the toll from the September 1 Sirik wedding strike sharply down: four people killed (two women, two children) and more than 60 wounded — a marked reduction from Foreign Ministry spokesperson Esmaeil Baqaei's earlier claim of 50+ casualties. CENTCOM's Capt. Tim Hawkins said the US military was \"looking into\" the reports without confirming a formal investigation. Vice President JD Vance told reporters he was \"extremely skeptical\" of the claim, citing Iranian state media's unreliable record through the conflict, and repeatedly declined to call the overall situation a \"war,\" saying the US would rely on its own tools rather than depend on Iran \"behaving responsibly.\" Separately, Saudi Arabia's national carrier Bahri confirmed two Filipino seafarers were killed when its tanker MV Sidr was struck transiting Hormuz on Monday night — independently verified casualties, distinct from either government's disputed claims. Iran struck Kuwait and Bahrain with drones for a second consecutive night; Kuwait's Ministry of Defense called it \"blatant Iranian aggression.\" Iran's army claimed a third night of attacks on bases used by US forces in Kuwait and the UAE, and disclosed its own losses from the September 1-2 exchange: four IRGC Aerospace Force personnel, two navy members, and one Basij militia member killed. Iran blacklisted 11 more ships, bringing its Hormuz blacklist to 56 vessels. Behind the public escalation, Reuters reported that senior Trump aides are working to prevent further escalation before the US midterm elections, with officials expected to weigh additional military action afterward; Special Envoy Steve Witkoff held a previously unannounced meeting with the UAE's national security adviser in Sardinia to discuss next steps, first reported by Axios. India's markets rallied sharply: the Sensex rose 504 points and the Nifty moved back above 23,900, as easing US bond-yield pressure and a tech-led Wall Street rally improved the global risk mood."
+    },
     {
       "d": "Sep 2",
       "e": "DAY 187 — THE MOST SERIOUS ESCALATION SINCE THE WAR'S MIDPOINT. US Central Command said late Tuesday it had completed a wave of strikes against IRGC targets \"including air defense sites, radar systems, maritime assets and facilities, mine laying capabilities, and communications sites,\" citing recent attempted IRGC attacks on shipping and American personnel. Iranian state media reported explosions on Qeshm Island, in Konarak and in Chabahar. Iran's Foreign Ministry spokesperson Esmaeil Baqaei claimed the strikes hit a residential home in Kuhestak, Sirik, during a wedding celebration, with more than 50 people killed or wounded — a serious allegation from the Iranian government that has not been independently verified; CENTCOM's own statement named target classes, not this site. Baqaei vowed a firm response to what he called \"savage crimes.\" Iran's IRNA separately claimed retaliatory strikes on Jordan's Prince Hassan Air Base and Bahrain's Sheikh Isa base, also unconfirmed by third parties. The IRGC warned its \"offensive operation will continue,\" and Trump warned Iran would be hit \"harder\" if it retaliates further. At the G20 finance ministers' meeting, Treasury Secretary Scott Bessent said the Strait of Hormuz will become a \"worthless piece of water\" within two years as Gulf oil shifts to land pipelines, a long-horizon claim that sits oddly alongside the day's active combat. Markets reacted sharply: the Sensex opened down 472.96 points (-0.61%) to 76,471.32 and the Nifty fell 196.60 points to 23,859.20, as Japan's Nikkei fell 2.9% and Korea's Kospi 3.1%, and the US 10-year Treasury yield hit 4.81%, its highest since late 2023. Brent traded above $92 with diesel crack spreads breaching $100. The rupee was the one bright spot, opening at a two-month high of ₹94.91 on strong 7.8% India GDP data and returning FII/DII buying."
@@ -316,16 +320,28 @@
   ],
   "military": [
     {
+      "t": "Sep 3 — Iran's Red Crescent revises wedding-strike toll to 4 dead, down from 'fifty-plus'",
+      "lv": "ACTIVE",
+      "color": "orange",
+      "d": "Iran's Red Crescent Society said shrapnel from a missile hit a home in Kuhestak, Sirik during a wedding, killing four people — two women and two children — and wounding more than 60, a sharp revision down from Foreign Ministry spokesperson Baqaei's earlier claim of 50+ casualties. CENTCOM said it was looking into the reports without confirming a formal investigation. Vance called himself 'extremely skeptical' of the claim, citing Iranian state media's unreliable record, and declined to call the conflict a 'war.'"
+    },
+    {
+      "t": "Sep 1-3 — Confirmed: two Filipino seafarers killed on Saudi tanker MV Sidr in Hormuz",
+      "lv": "ACTIVE",
+      "color": "red",
+      "d": "Saudi Arabia's national shipping company Bahri confirmed its tanker MV Sidr was attacked while transiting Hormuz on Monday night, killing two Filipino crew members — independently verified casualties, distinct from Iran's own, higher claim about the same incident. Saudi Arabia condemned the attack and other Iranian strikes on Gulf states."
+    },
+    {
+      "t": "Sep 2-3 — Iran strikes Kuwait, Bahrain across multiple nights; claims further UAE attacks",
+      "lv": "BREAKING",
+      "color": "red",
+      "d": "Iran targeted Kuwait and Bahrain with drones for a second consecutive night; Kuwait's Ministry of Defense called it 'blatant Iranian aggression.' Iran's army claimed a third night of attacks on bases used by US forces in Kuwait and the UAE, and disclosed its own losses from the Sept 1-2 exchange: 4 IRGC Aerospace Force, 2 navy and 1 Basij member killed. Iran blacklisted 11 more ships, bringing its Hormuz blacklist to 56 vessels."
+    },
+    {
       "t": "Sep 1 — CENTCOM completes a broad wave of strikes across Iran",
       "lv": "BREAKING",
       "color": "red",
       "d": "US Central Command said it completed strikes against IRGC targets \"including air defense sites, radar systems, maritime assets and facilities, mine laying capabilities, and communications sites,\" citing recent attempted IRGC attacks on shipping and US personnel. Iranian state media reported explosions on Qeshm Island, in Konarak and in Chabahar. CENTCOM said more than 50,000 US service members remain deployed across the region, and that blockade enforcement had redirected 84 commercial vessels, disabled 3, and boarded 2 as of September 1."
-    },
-    {
-      "t": "Sep 1-2 — Iran claims a wedding was hit; foreign ministry vows a firm response (unverified)",
-      "lv": "BREAKING",
-      "color": "red",
-      "d": "Iran's Foreign Ministry spokesperson Esmaeil Baqaei claimed US strikes hit a residential home in Kuhestak, Sirik, during a wedding celebration, with more than 50 people killed or wounded. This is an Iranian government claim not independently verified by CENTCOM or third-party sources; CENTCOM's own statement named target classes, not this site. Baqaei said Iran would respond to \"savage crimes\" with firmness, warning \"those who remain silent today will not be immune to its consequences tomorrow.\""
     },
     {
       "t": "Sep 1-2 — Iran claims retaliatory strikes on Jordan and Bahrain; both sides warn of escalation",
@@ -338,18 +354,6 @@
       "lv": "BREAKING",
       "color": "red",
       "d": "US forces struck two Iranian rocket launchers on Larak Island in the Strait of Hormuz on Sunday, breaking a month-long lull. US Central Command's Captain Tim Hawkins said the IRGC was observed preparing to launch rockets carrying sea mines into the waterway, an imminent threat — days after the US had declared the strait's shipping routes cleared of mines. Iranian state media reported explosions near Larak Island and confirmed casualties among Iranian forces and civilians; the IRGC called the strike \"a strategic and deadly mistake\" and vowed retaliation."
-    },
-    {
-      "t": "Aug 31 — Iran retaliates: missiles on Jordan, strike claim on UAE, drone shoot-down",
-      "lv": "BREAKING",
-      "color": "red",
-      "d": "Overnight into Monday, the IRGC said it struck two US air bases with ballistic missiles in Jordan, causing \"heavy damage\"; Jordan's army said it intercepted eight missiles without confirming their origin. Iran also claimed to have targeted US military personnel at Al Minhad airbase in the UAE, and said it shot down a US drone over the Strait of Hormuz. Some reports described a wider salvo also reaching Bahrain, Kuwait and Qatar, though this is less consistently corroborated than the core Jordan-UAE-drone account."
-    },
-    {
-      "t": "Aug 31 — Pezeshkian: 'not seeking war'; Iranian source calls it 'limited and contained'",
-      "lv": "ACTIVE",
-      "color": "orange",
-      "d": "Iranian President Masoud Pezeshkian, speaking en route to a Kyrgyzstan summit with Russia's Putin and China's Xi, said \"we are not seeking war, but we will deliver a decisive response to the aggressors.\" A senior Iranian source told Reuters the overnight hostilities remain \"a limited and contained confrontation.\" The exchange breaks Washington's declared shift, days earlier, toward economic pressure over military action."
     }
   ],
   "nukes": [
@@ -484,7 +488,7 @@
     {
       "axis": "Market Crash",
       "w1": 45,
-      "now": 55,
+      "now": 45,
       "w4": 30
     },
     {
@@ -514,7 +518,7 @@
     {
       "axis": "Social Unrest",
       "w1": 25,
-      "now": 65,
+      "now": 68,
       "w4": 42
     },
     {
@@ -525,8 +529,8 @@
     }
   ],
   "assessment": {
-    "headline": "CENTCOM's broadest strike wave in months, an unverified but serious Iranian civilian-casualty claim, and both sides now openly threatening harder escalation — this is the most severe single day this tracker has logged since the war's midpoint.",
-    "body": "WHAT HAPPENED\nUS Central Command completed a wave of strikes against IRGC air defence, radar, maritime, mine-laying and communications targets across multiple Iranian sites. Iran's government claims the strikes hit a wedding in Sirik, with 50+ casualties — an allegation that demands caution: it comes from Iran's Foreign Ministry, not an independent source, and CENTCOM's target list doesn't name this site. Iran claims its own retaliatory strikes on Jordan and Bahrain, also unconfirmed. Both the IRGC and Trump have signalled the next round will be harder, not calmer.\n\nWHY IT MATTERS FOR INDIA\nToday produced a genuine divergence worth tracking closely: Indian equities sold off in line with the news (Sensex -473 at open), but the rupee opened at a two-month high, moving on domestic strength (7.8% GDP, institutional buying) rather than the war. If that divergence holds through the session, it would be evidence that India's currency has partially decoupled from day-to-day Hormuz headlines — a meaningfully different pattern than earlier in the war, when a firmer Brent reliably meant a weaker rupee. Diesel crack spreads breaching $100 is the number to watch next: India runs a diesel-heavy economy, and refinery-margin stress transmits to fuel costs faster than crude price alone.\n\nTHE THING TO WATCH\nWhether Iran's wedding-casualty claim is corroborated by independent sources over the coming days. If verified, it would represent a serious escalation in civilian harm that could harden Iranian public and government resolve regardless of the military balance; if it turns out to be overstated or fabricated for propaganda purposes, that itself would be informative about how reliable Iranian government claims have been through this war. Either way, both sides' explicit threats of further escalation mean the next 48-72 hours matter more than usual — this looks like an inflection point, not a contained exchange."
+    "headline": "Iran's own Red Crescent has cut the wedding-strike toll from 'fifty-plus' to four, a Saudi tanker's two dead sailors are independently confirmed, and Reuters reports Trump's own aides are quietly trying to prevent further escalation before the midterms — even as Iran strikes three Gulf states in three nights.",
+    "body": "WHAT HAPPENED\nIran's Red Crescent revised the September 1 Sirik wedding-strike toll down to four dead and 60+ wounded, a sharp reduction from the Foreign Ministry's initial 50+ claim; Vance said he's \"extremely skeptical\" of it. Separately, Saudi Arabia confirmed two Filipino seafarers killed on its tanker MV Sidr — real, verified casualties. Iran struck Kuwait and Bahrain with drones two nights running and claims a third round on Kuwait and the UAE, while adding 11 ships to its blacklist. Reuters reports Trump's aides are working to avoid further escalation before the midterms, with Envoy Witkoff holding quiet UAE talks in Sardinia.\n\nWHY IT MATTERS FOR INDIA\nIndia's markets are rallying today, but on a global catalyst — easing US bond yields, a tech-led Wall Street rebound — not on any actual improvement in the Hormuz situation. That distinction matters: today's Sensex gain shouldn't be read as the market pricing in de-escalation. The revised wedding-toll figures are a reminder to treat single-day casualty claims from either side with real caution, while the confirmed Saudi tanker deaths are a reminder that verified harm is still accumulating regardless of the disputed claims.\n\nTHE THING TO WATCH\nWhether the political constraint Reuters reports — Trump aides wanting to avoid escalation before the midterms — actually holds against Iran's continued multi-night strikes on Gulf states. If the administration is genuinely trying to manage this down until after the elections, that's a real, if cynical, brake on the war's trajectory over the coming weeks. If Iran's strikes on Kuwait, Bahrain and the UAE continue or widen, that political calculus could break down faster than planned."
   },
   "featured": [
     {
@@ -1330,17 +1334,27 @@
       "rupee": 94.91,
       "tag": "(10AM IST): CENTCOM completed a broad wave of strikes against IRGC air defence, radar, maritime, mine-laying and communications sites across Iran — the widest single strike wave since the weekend's lull ended. Iran's Foreign Ministry claims a wedding in Sirik was hit, 50+ casualties — an unverified Iranian government claim CENTCOM's own statement does not corroborate. Iran claims retaliatory strikes on Jordan's Prince Hassan Air Base and Bahrain's Sheikh Isa base, also unconfirmed. IRGC warns its offensive will continue; Trump warns of a harder US response. Bessent tells the G20 that Hormuz will be 'worthless' within two years as pipelines bypass it. Brent traded above $92, diesel crack spreads breached $100. INDIA: Sensex opened -472.96 (-0.61%) to 76,471.32, Nifty -196.60 to 23,859.20, as Nikkei fell 2.9% and Kospi 3.1%, and US 10-year yields hit 4.81% (highest since late 2023). The rupee opened at a two-month high of ₹94.91 on strong 7.8% GDP data — a notable decoupling from the war-driven equity selloff.",
       "sev": 5
+    },
+    {
+      "d": 189,
+      "l": "Sep 4",
+      "deaths": 7199,
+      "brent": 92.0,
+      "nifty": 24065.5,
+      "rupee": 94.91,
+      "tag": "(10AM IST): Iran's Red Crescent revised the Sept 1 Sirik wedding-strike toll down to 4 dead (2 women, 2 children) and 60+ wounded, from the Foreign Ministry's earlier claim of 50+ casualties; Vance called himself 'extremely skeptical.' Saudi Arabia confirmed 2 Filipino seafarers killed on its tanker MV Sidr in Hormuz — independently verified. Iran struck Kuwait and Bahrain with drones for a second night, claimed a third round on Kuwait and the UAE, disclosed 7 of its own military dead from Sept 1-2, and blacklisted 11 more ships (56 total). Reuters: Trump aides are working to avoid further escalation before the US midterms; Envoy Witkoff held quiet UAE talks in Sardinia. INDIA: Sensex +504 points, Nifty back above 23,900, GIFT Nifty +133 to 24,065.50 — a rally driven by easing US bond yields and a tech-led Wall Street rebound, not local Hormuz improvement.",
+      "sev": 4
     }
   ],
   "exec": {
     "level": "SEVERE",
-    "phase": "CENTCOM completes a broad strike wave; Iran claims a wedding was hit; both sides warn of harder escalation",
-    "oilNote": "Brent traded above $92, with diesel crack spreads breaching $100 amid refinery disruptions — the sharpest oil move since the war's mid-year escalation.",
-    "shipping": "CENTCOM STRIKES AIR DEFENCE, RADAR, MARITIME AND MINE-LAYING SITES ACROSS IRAN",
-    "shippingSub": "The broadest single wave of US strikes since the weekend's lull ended. Iran claims retaliatory strikes on Jordan and Bahrain, unconfirmed by third parties; the IRGC warns its 'offensive operation will continue.'",
-    "military": "IRAN CLAIMS A WEDDING WAS STRUCK, 50+ CASUALTIES — UNVERIFIED",
-    "militarySub": "A serious, unconfirmed allegation from Iran's Foreign Ministry. Trump warns of a 'harder' US response if Iran retaliates further; Bessent says Hormuz will be economically 'worthless' within two years.",
-    "indiaSub": "Sensex opened down 473 points, Nifty below 23,900, as Asian markets fell sharply (Nikkei -2.9%, Kospi -3.1%). The rupee, notably, opened at a two-month high on strong GDP data — a rare decoupling from the war narrative."
+    "phase": "Iran's own Red Crescent revises the wedding toll down; Kuwait, Bahrain, UAE struck repeatedly; Sensex rallies on a global, not local, catalyst",
+    "oilNote": "Markets rallying on easing US bond yields rather than any Hormuz de-escalation. Iran struck Gulf states for a third consecutive night this week; the underlying military situation remains unresolved.",
+    "shipping": "IRAN STRIKES KUWAIT, BAHRAIN AND UAE ACROSS THREE CONSECUTIVE NIGHTS",
+    "shippingSub": "Iran blacklisted 11 more ships (56 total). A Saudi tanker's two Filipino crew deaths are independently confirmed by Bahri, distinct from the disputed Iranian government wedding-strike claim.",
+    "military": "RED CRESCENT REVISES WEDDING TOLL: 4 DEAD, DOWN FROM 'FIFTY-PLUS'",
+    "militarySub": "Vance calls himself 'extremely skeptical' of the claim. Reuters: Trump aides are working to avoid further escalation before the US midterms; Envoy Witkoff held quiet UAE talks in Sardinia.",
+    "indiaSub": "Sensex +504 points, Nifty back above 23,900, on a global bond-yield reprieve and tech-led Wall Street rally — not on any local Hormuz improvement."
   },
   "hormuzPhases": [
     {
@@ -1389,7 +1403,7 @@
       "days": "Aug 26-"
     }
   ],
-  "_phaseBadge": "CENTCOM struck IRGC air defence sites, radar, maritime assets, mine-laying capabilities and communications sites across Iran · Iran's foreign ministry claims a wedding celebration in Sirik was hit, with 50+ casualties — an Iranian government claim not yet independently verified · Iran claims retaliatory strikes on a Jordan air base and Bahrain's Sheikh Isa base · Trump warns Iran will be hit \"harder\" if it retaliates further; Bessent says Hormuz will be \"worthless\" within two years as pipelines bypass it · Sensex opened down over 470 points as Asian markets fell sharply and US 10-year yields hit their highest since late 2023",
+  "_phaseBadge": "Iran's Red Crescent revised the Sirik wedding-strike toll down to 4 killed and 60+ wounded, from the Foreign Ministry's earlier claim of 50+ casualties; Vance called himself \"extremely skeptical\" of the strike being deliberately targeted · Saudi Arabia confirmed 2 Filipino seafarers killed when its tanker MV Sidr was attacked in Hormuz · Iran struck Kuwait and Bahrain with drones for a second night, then claimed further attacks on Kuwait and the UAE a third night · Reuters: Trump aides are trying to avoid further escalation before the US midterms · Indian markets are rallying, Sensex +504 points, as Wall Street's bond-yield pressure eases",
   "budget": {
     "petrolPre": 94.72,
     "petrolNow": 111.21,
@@ -1399,12 +1413,12 @@
     "lpgNow": 942.0
   },
   "brief": [
-    "This is the most serious military escalation this tracker has logged since the war's mid-year point. CENTCOM confirmed a broad wave of strikes against IRGC air defence, radar, maritime, mine-laying and communications sites across Iran — far wider than Sunday's single Larak Island action. Iran's Foreign Ministry claims the strikes hit a wedding celebration in Sirik, killing or wounding more than 50 people — a serious allegation that has not been independently verified and that CENTCOM's own statement does not name as a target.",
-    "Iran separately claims retaliatory strikes on a Jordanian air base and Bahrain's Sheikh Isa base, also unconfirmed by third parties. The IRGC has warned its \"offensive operation will continue,\" and Trump has warned Iran will be hit \"harder\" if it retaliates further — both sides now explicitly signalling further escalation rather than de-escalation, a sharp reversal from last week's mine-clearance optimism.",
-    "Markets are pricing it: the Sensex opened down 473 points and the Nifty fell below 23,900, though Asian markets elsewhere fell far more sharply (Nikkei -2.9%, Kospi -3.1%). Brent traded above $92 with diesel crack spreads breaching $100. The US 10-year Treasury yield hit 4.81%, its highest since late 2023, compounding the risk-off move with rate-hike fears.",
-    "The rupee is the outlier worth noting: it opened at a two-month high of ₹94.91, its third straight session of gains, on the strength of India's own 7.8% GDP print and returning FII/DII buying — a genuine decoupling from the war narrative that's driving everything else today. At the pump, prices remain unchanged: petrol ₹111.21 a litre in Delhi, diesel ₹97.83, a cylinder ₹942."
+    "Iran's own Red Crescent Society has revised the toll from the September 1 Sirik wedding strike sharply down — four people killed, more than 60 wounded — from the Foreign Ministry's initial claim of 50+ casualties. CENTCOM says it's \"looking into\" the reports; Vice President Vance called himself \"extremely skeptical\" of the claim and declined to call the broader situation a \"war.\"",
+    "A separate, independently confirmed casualty count arrived this week: Saudi Arabia's Bahri confirmed two Filipino seafarers were killed when its tanker MV Sidr was attacked in Hormuz on Monday — real losses distinct from either government's disputed claims. Iran has kept up pressure regardless, striking Kuwait and Bahrain with drones two nights running and claiming a third round on Kuwait and the UAE, while adding 11 more ships to its Hormuz blacklist.",
+    "Behind the public escalation, Reuters reports senior Trump aides are trying to prevent things going further before the US midterm elections, with more military action possible afterward. Special Envoy Witkoff held a previously unannounced meeting with the UAE's national security adviser in Sardinia to discuss next steps — a quiet diplomatic track running in parallel with the public strikes.",
+    "India's markets are rallying — Sensex +504 points, Nifty back above 23,900 — but on a global catalyst (easing US bond yields, a tech-led Wall Street rally) rather than any actual Hormuz de-escalation. At the pump, prices remain unchanged: petrol ₹111.21 a litre in Delhi, diesel ₹97.83, a cylinder ₹942."
   ],
-  "shareLine": "CENTCOM's broadest strike wave since the war's mid-year point. Iran claims a wedding was hit. Both sides now warn the next round will be harder. Sensex opened down 473 points — but India's rupee hit a two-month high anyway, on its own economic strength.",
+  "shareLine": "Iran's own Red Crescent cuts the wedding-strike toll from 'fifty-plus' to four. A Saudi tanker's two dead sailors are independently confirmed. And Reuters reports Trump's own aides are quietly trying to stop this escalating further before the midterms — even as Iran strikes three Gulf states in three nights.",
   "author": {
     "name": "Nithiyanandam Yogeswaran",
     "twitter": "https://x.com/prof_nithiya",
