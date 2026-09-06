@@ -1,8 +1,8 @@
 {
-  "_updated": "September 4, 2026 — 10:00 AM IST",
-  "_asOf": "2026-09-04",
+  "_updated": "September 6, 2026 — 11:00 AM IST",
+  "_asOf": "2026-09-06",
   "_start": "2026-02-28",
-  "_day": 189,
+  "_day": 191,
   "preWar": {
     "brent": 65,
     "rupee": 91.49,
@@ -11,77 +11,81 @@
     "petrol": 94.72,
     "diesel": 87.62
   },
-  "_phase": "IRAN'S OWN RED CRESCENT REVISES WEDDING TOLL TO 4 DEAD; TEHRAN HITS KUWAIT AND BAHRAIN A SECOND AND THIRD NIGHT",
-  "_note": "Verified: Just Security Early Edition (Sept 3, citing Reuters/Axios/BBC/AP), CBS News live updates, AP via Britannica timeline, ABC News live updates (Vance briefing), India TV/GIFT Nifty pre-market data (Sept 4)",
+  "_phase": "IRAN FIRES ON TWO US WARSHIPS — CENTCOM SINKS ONE IRANIAN TANKER, DISABLES TWO MORE, IN 'TANKER FOR TANKER' RETALIATION",
+  "_note": "Verified: NBC News, UPI, ABC News live updates, CENTCOM statements (via X/RedState/Daily News Egypt), Axios (Sept 2, 'tanker for tanker' policy origin), Institute for the Study of War / Critical Threats Project Day 190 update, Times of Israel liveblog (Sept 5), Qatar MOFA statement via ISW-CTP",
   "ticker": [
-    "CORRECTION: IRAN'S RED CRESCENT REVISES WEDDING-STRIKE TOLL TO 4 DEAD, 60+ WOUNDED — DOWN FROM 'FIFTY-PLUS'",
-    "VANCE: 'EXTREMELY SKEPTICAL' OF IRAN'S WEDDING-STRIKE CLAIM, WON'T CALL THE CONFLICT A 'WAR'",
-    "SAUDI ARABIA CONFIRMS 2 FILIPINO SEAFARERS KILLED IN ATTACK ON ITS TANKER MV SIDR IN HORMUZ",
-    "IRAN STRIKES KUWAIT AND BAHRAIN WITH DRONES A SECOND NIGHT; KUWAIT CALLS IT 'BLATANT IRANIAN AGGRESSION'",
-    "IRAN CLAIMS FURTHER ATTACKS ON KUWAIT AND UAE A THIRD NIGHT; IRAN ITSELF REPORTS 7 IRGC/NAVY/BASIJ KILLED",
-    "IRAN BLACKLISTS 11 MORE SHIPS OVER HORMUZ, BRINGING THE TOTAL TO 56",
-    "REUTERS: TRUMP AIDES TRYING TO AVOID FURTHER ESCALATION BEFORE US MIDTERMS; MORE ACTION POSSIBLE AFTER",
-    "ENVOY WITKOFF MET UAE'S NATIONAL SECURITY ADVISER IN SARDINIA TO DISCUSS 'NEXT STEPS' ON IRAN",
-    "SENSEX SURGES 504 POINTS, GIFT NIFTY +133, AS WALL STREET BOND-YIELD PRESSURE EASES AND TECH RALLIES"
+    "IRAN FIRES BALLISTIC MISSILES AT A US AIRCRAFT CARRIER AND DESTROYER — BOTH EVADE, NO AMERICANS HURT",
+    "CENTCOM RETALIATES: SINKS TANKER M/T KYLO, DISABLES M/T DOWNY AND M/T STARK 1 — 'TANKER FOR TANKER' POLICY",
+    "ADM. COOPER: 'IF YOU SHOOT AT TWO OF OUR SHIPS, WE WILL TAKE OUT THREE OF YOURS'",
+    "DUBAI CRUDE JUMPS TO NEAR $100, HIGHEST SINCE MAY, AS INDIA AND CHINA REFINERS CHASE SPOT CARGOES",
+    "TRUMP CALLS THE WAR 'SMALL POTATOES,' SAYS US HAS 'ESSENTIALLY' TAKEN OVER IRAN",
+    "IRAN'S KHATAM AL-ANBIYA COMMAND THREATENS 'MORE SEVERE' ATTACKS ON US NAVY, WARNS OF 'EXPANSION'",
+    "ISW/CTP: IRAN HASN'T ACHIEVED HORMUZ CONTROL, MAY BE WAITING FOR A 'MORE ADVANTAGEOUS MOMENT' TO ESCALATE",
+    "QATAR ISSUES FIRST GULF REBUTTAL OF IRAN'S 'DEFENSIVE-ONLY' CLAIM, CITES DOCUMENTED STRIKES ON CIVILIANS",
+    "SOUTH KOREAN PROTESTERS RALLY AGAINST TRUMP'S CALL FOR ALLIES TO SEND WARSHIPS TO HORMUZ"
   ],
   "whatChanged": {
-    "label": "What changed — Friday September 4, 10:00 AM IST (Day 189)",
+    "label": "What changed — Sunday September 6, 11:00 AM IST (Day 191)",
     "items": [
       {
+        "color": "red",
+        "bold": "Iran fires on two US Navy warships; CENTCOM sinks and disables Iranian tankers in response",
+        "text": "The IRGC launched ballistic missiles at a US aircraft carrier and a guided-missile destroyer patrolling regional waters on Saturday; both evaded the attacks and no American personnel were harmed, though the targeting of a carrier is itself a notable provocation. CENTCOM retaliated under what officials call a 'tanker for tanker' policy approved by Trump: it permanently disabled the tankers M/T Downy (off Kharg Island) and M/T Stark 1 (near Jask), and completely destroyed the unladen M/T Kylo ('Noxen') in the Gulf of Oman after directing its crew to abandon ship. CENTCOM called the three vessels part of a 'multibillion-dollar shadow network' funding the IRGC. Adm. Brad Cooper: \"If you shoot at two of our ships, we will impose an even higher economic cost — taking out three of yours.\" This is among the most direct US strikes on Iran's oil fleet of the entire war; the policy first appeared September 1-2, when the US struck two Iranian government tankers for the first time."
+      },
+      {
+        "color": "red",
+        "bold": "Dubai crude jumps to near $100 — India and China refiners compete for spot cargoes",
+        "text": "Benchmark Dubai crude futures rose to roughly $100 a barrel, the highest since May, as the tanker strikes intensified supply-disruption fears. Price premiums for Oman and Murban crude jumped. Refiners in India and China — the world's largest oil importers — are intensifying spot-market purchases of Middle East crude, presenting more competitive bids for Arabian Gulf barrels and competing directly with buyers in South Korea and Japan."
+      },
+      {
         "color": "orange",
-        "bold": "Correction: Iran's own Red Crescent revises the wedding-strike toll sharply down",
-        "text": "Iran's Red Crescent Society said shrapnel from a missile hit a home in Kuhestak, Sirik during a wedding, killing four people — two women and two children — and wounding more than 60. That's a significant downward revision from the Foreign Ministry spokesperson's earlier claim of 50+ killed or wounded. CENTCOM's Capt. Tim Hawkins said the military was \"looking into\" the reports without confirming a formal investigation. Vice President Vance said he was \"extremely skeptical\" of the claim, citing Iranian state media's unreliable record, and declined to characterise the overall conflict as a \"war.\""
+        "bold": "Iran threatens 'more severe' attacks; Trump downplays the war as 'small potatoes'",
+        "text": "Iran's Khatam al-Anbiya central command warned that continued \"harassment of Iranian ships and the naval blockade\" would trigger strikes \"more severe than before,\" with a \"possibility of their expansion.\" Trump, by contrast, called the war \"small potatoes\" and \"not a big thing\" for the US, saying it has \"essentially\" taken over Iran. The gap between the two framings — Iran signalling escalation, Trump signalling indifference — is itself a risk factor."
       },
       {
-        "color": "red",
-        "bold": "Confirmed: two Filipino seafarers killed on a Saudi tanker in Hormuz",
-        "text": "Saudi Arabia's national shipping company Bahri confirmed its vessel MV Sidr was attacked transiting the strait Monday night, killing two Filipino crew members. Iranian authorities separately claimed the same strike killed at least four and wounded dozens — a discrepancy between the confirmed Saudi/Filipino toll and the higher Iranian claim. Saudi Arabia condemned the attack and other Iranian strikes on Gulf states."
-      },
-      {
-        "color": "red",
-        "bold": "Iran strikes Kuwait and Bahrain for a second night, claims a third round on Kuwait and UAE",
-        "text": "Iran targeted US Gulf allies with drones for a second consecutive night; Kuwait's Ministry of Defense called it \"blatant Iranian aggression.\" Iran's army claimed further attacks Thursday on bases used by US forces in Kuwait and the UAE. Iran also disclosed its own military losses from the Sept 1-2 exchange: four IRGC Aerospace Force personnel, two navy members and one Basij militia member killed. Iran blacklisted 11 more ships, bringing its total Hormuz blacklist to 56 vessels."
+        "color": "orange",
+        "bold": "ISW/CTP: Iran hasn't achieved its Hormuz goal, may be waiting to escalate",
+        "text": "The Institute for the Study of War's Critical Threats Project assessed that the IRGC faction \"controlling decision-making\" is dissatisfied with the war's trajectory and intent on using military force to change it; the New York Times reported that US intelligence assesses Iran \"may be considering a significant escalation.\" ISW noted Iran has not achieved recognised control over Hormuz, its March target of $200 oil hasn't been met (prices stayed below $100 since May, until this week), and Iran is struggling to target commercial vessels after strikes degraded its coastal radars — resorting to \"suboptimal methods\" like rockets to launch naval mines. ISW assessed Iran may be waiting for a more advantageous moment to drive oil prices up rather than having exhausted its options."
       },
       {
         "color": "green",
-        "bold": "Behind the scenes: Trump aides work to avoid further escalation before the midterms",
-        "text": "Reuters reported senior Trump aides are pushing to keep the war from escalating further ahead of the US midterm elections, with officials expected to consider ramping up military action afterward. Separately, Special Envoy Steve Witkoff met the UAE's national security adviser in Sardinia over the weekend to discuss next steps on Iran — a previously unannounced meeting first reported by Axios. Vance declined to give any timeline for the conflict's end, saying the US would rely on its own tools rather than depend on Iran \"behaving responsibly.\""
-      },
-      {
-        "color": "green",
-        "bold": "India: Sensex surges 504 points as global bond-yield pressure eases",
-        "text": "The Sensex rose 504 points and the Nifty moved back above 23,900 in early trade, Bajaj Finserv the top gainer. GIFT Nifty had signalled the rally in advance, up 133 points to 24,065.50 against Thursday's close of 23,932.50. Asian markets broadly rebounded as a rally on Wall Street — led by technology stocks, as the recent run-up in US bond yields eased further — improved the global risk backdrop."
+        "bold": "Qatar issues the first Gulf-state rebuttal of Iran's 'defensive-only' framing",
+        "text": "Qatar's Foreign Ministry spokesman Majed Al Ansari said Iran's claim that its strikes were purely defensive and aimed only at US bases doesn't match the record, citing UN-documented Iranian missile strikes on \"civilian, commercial and residential areas\" that injured 16 people, a further incident injuring three including a child, and an 18 March strike on Qatar's Ras Laffan facility. Qatar stressed it remains \"not party to the conflict\" and continues, with Pakistan and Oman, to mediate between Iran and the US."
       }
     ]
   },
   "deaths": "7,199+",
   "econ": {
-    "sensex": "Sensex +504 pts in early trade, Nifty back above 23,900",
-    "sensexDelta": "GIFT Nifty had signalled the rally in advance, +133 pts to 24,065.50 vs Thursday's close of 23,932.50",
-    "sensexSub": "Bajaj Finserv led gainers as Asian markets broadly rebounded, tracking a tech-led Wall Street rally that eased the recent run-up in US bond yields. The improved global mood is helping India's markets recover from Wednesday's sharp CENTCOM-strike-driven selloff, even as the underlying military situation has not de-escalated — Iran struck Gulf states for a third consecutive night this week.",
+    "sensex": "76,645.88 (Fri close, +493.02, +0.65%) — markets closed Sunday",
+    "sensexDelta": "Friday snapped a 4-day losing streak; Monday's open is the first test of the weekend's tanker-strike escalation",
+    "sensexSub": "Friday's close came before Saturday's tanker strikes: Nifty settled at 23,937.90 (+64.45, +0.27%). Metals, financials, private banking and oil & gas led Friday's gains (Tata Steel, Reliance, Bajaj Finance); IT lagged. With Dubai crude now near $100 following the weekend's escalation, Monday's open is the real test of whether Friday's Fed-driven optimism can coexist with a genuinely higher oil price.",
     "vix": "Elevated — tracking the sharpest Asian equity selloff since the war's mid-year escalation",
     "vixDelta": "Held near multi-week lows through Thursday and Friday as Hormuz headlines turned more constructive.",
     "fpi": "+₹27,186 crore in August so far (as of Aug 25; subsequent daily flows not yet fully reported)",
     "fpiDelta": "FIIs bought ₹1,593.50 crore and DIIs ₹230.30 crore on Aug 25, the most recent fully reported session",
     "wealth": "BSE market cap recovering with the Friday rally. US Treasury yields rose Thursday ahead of the Jackson Hole symposium, a mild headwind for emerging-market currencies including the rupee. Global equity funds have now logged eleven consecutive weeks of inflows.",
-    "analysis": "Markets are rallying on a global bond-yield reprieve, not on any actual improvement in the Hormuz situation — worth being precise about that distinction. Iran struck Kuwait and Bahrain for a second night and claims a third round on Kuwait and the UAE; its own blacklist has grown to 56 ships. What's improved is the discovery, via Reuters, that Trump's own aides are trying to keep a lid on further escalation before the midterms — a political constraint operating alongside, and perhaps against, the military escalation of the past few days. The revised wedding-casualty figures from Iran's own Red Crescent are also worth sitting with: a government correcting its own initial claim downward, five-fold, without explanation, is not proof the strike didn't happen, but it is a reason for real caution about any single-day casualty figures from either side in this conflict. For India, today's market rally is real money moving on a real global catalyst — but it says more about the Fed and US tech earnings than about whether the war itself is actually cooling."
+    "analysis": "Every market data point this tracker has for India predates Saturday's tanker strikes — Friday's rally was real, but it reflected a Fed story, not a Hormuz one, and the Hormuz story has since gotten considerably more serious. The US directly destroying an Iranian oil tanker for firing on its warships is a different order of escalation than mine claims and rhetorical exchanges; it's the kind of action that invites a response Iran has now explicitly threatened. Dubai crude's jump to near $100 is the market signal that matters most heading into Monday: India's refiners are reportedly already competing for spot cargoes at these levels, which means the cost is arriving in real time, not as a future risk. Whatever direction Monday's session takes, this is likely the point where markets stop treating the war as background noise and start pricing the tanker-for-tanker exchange directly."
   },
   "hormuzStatus": {
-    "status": "The picture has become both clearer and murkier at once over the past two days. Clearer: Saudi Arabia confirmed two of its Filipino crew were killed when the tanker MV Sidr was attacked transiting Hormuz — real, verified casualties, independent of either government's claims. Murkier: Iran's own Red Crescent revised the Sirik wedding-strike toll down from the Foreign Ministry's initial '50+' claim to four dead and 60+ wounded, a correction that arrived without explanation for the discrepancy, and that Vance greeted with open skepticism about whether Iranian state media is a reliable narrator of this war at all. Iran has kept up pressure regardless — drone strikes on Kuwait and Bahrain two nights running, claimed further strikes on Kuwait and the UAE a third night, and 11 more ships added to its Hormuz blacklist. Behind the public escalation, Reuters reports Trump's own aides are trying to prevent things going further before the US midterms, with quiet diplomacy continuing through Special Envoy Witkoff's unannounced meeting with UAE officials in Sardinia. The gap between the public rhetoric and the private diplomatic track may be the most important story of the week.",
+    "status": "Saturday produced the most direct US strike yet on Iran's actual oil infrastructure. After the IRGC fired ballistic missiles at a US aircraft carrier and destroyer — both evaded, no Americans hurt — CENTCOM retaliated under a 'tanker for tanker' policy Trump approved earlier this month: one tanker, M/T Kylo, completely destroyed; two more, M/T Downy and M/T Stark 1, permanently disabled. Adm. Cooper's message was explicit — a 3-for-2 economic cost multiplier for any future attack on US vessels. Iran's Khatam al-Anbiya command responded with a threat of 'more severe' attacks and possible 'expansion,' even as Trump called the whole war 'small potatoes.' The ISW/CTP assessment is the most useful frame for interpreting this: Iran hasn't achieved its core Hormuz objective, is struggling technically to target ships after radar losses, and may be biding its time for a more advantageous moment rather than lacking the will to escalate further. Dubai crude's jump to near $100 — a level not seen since May — is the market's own verdict on how seriously to take that risk.",
     "preWarFlow": "~90-140 ships/day",
     "currentFlow": "~65% of pre-war by export volume (Goldman Sachs: 15-16m bpd from Gulf, vs a March trough of 5-6m); but only 10 vessel transits recorded through the strait on Aug 26, below the 15-vessel 10-day average — aggregate recovery and daily transit data diverge",
-    "reduction": "Brent rose more than 2% Sunday to $89.79 and extended gains into Tuesday's session toward $91 — a direct reversal of last week's multi-day decline, and about 40% above the pre-war $65.",
+    "reduction": "Dubai crude jumped to near $100 a barrel, the highest since May, as India and China's refiners compete for spot cargoes amid the tanker-strike fallout — about 54% above the pre-war $65 baseline.",
     "indianVesselsNear": 7,
     "indianSeafarers": 148,
     "indianTransited": 1,
     "totalShipsWaiting": "Significantly reduced from the wartime peak of 20,000+. CENTCOM says over 500 ships transited the southern lane in the past 30 days with roughly 2% struck — the US mine-clearance claim, if it holds, would extend that to both lanes. India's stranded-vessel picture is unchanged pending confirmation that the Iran-Oman corridor is operational.",
     "lastTransit": "Ship numbers remain near 20% of the pre-war average. The US says its own clearance of the Traffic Separation Scheme opens a second lane alongside the Omani channel that has carried most liquid cargo; Iran and Oman's own corridor proposal is commercial-only and still under negotiation.",
     "indianNavyEscort": "Op Urja Suraksha: unchanged pending confirmation that either the US-cleared lane or the Iran-Oman corridor is operational for third-country shipping. MT Settebello diplomatic track continues independently.",
-    "headline": "IRAN'S OWN RED CRESCENT CUTS THE WEDDING-STRIKE TOLL FROM 'FIFTY-PLUS' TO FOUR. A SAUDI TANKER'S TWO DEAD SAILORS ARE CONFIRMED, INDEPENDENT OF EITHER SIDE'S CLAIMS. AND TRUMP'S OWN AIDES ARE QUIETLY TRYING TO STOP THIS GOING FURTHER BEFORE THE MIDTERMS.",
+    "headline": "THE US JUST SANK AN IRANIAN OIL TANKER FOR THE FIRST TIME OVER A DIRECT ATTACK ON ITS WARSHIPS. IRAN THREATENS 'MORE SEVERE' STRIKES. DUBAI CRUDE IS BACK NEAR $100 — A LEVEL NOT SEEN SINCE MAY.",
     "indianCasualties": 4,
     "indianCasualtyDetail": "4th Indian death of the war: a crew member aboard UAE tanker MOMBASA killed by an Iranian cruise missile in Omani territorial waters (UAE MoD, Jul 14). 8 injured incl. 6 Indians, 4 serious. Earlier: 3 Indian sailors killed on MT Settebello (Jun 8, US Navy strike). No new Indian casualties reported."
   },
   "hormuzEvents": [
+    {
+      "d": "Sep 5-6",
+      "e": "DAY 191 — THE US SINKS AN IRANIAN TANKER FOR THE FIRST TIME. The IRGC fired ballistic missiles at a US aircraft carrier and a guided-missile destroyer patrolling regional waters on Saturday; both evaded the attacks and no American personnel were harmed, though the targeting of a carrier itself is a notable provocation. CENTCOM retaliated under a 'tanker for tanker' policy Trump approved earlier in the month — first used September 1-2 against two Iranian government tankers, and now expanded further: US forces permanently disabled the crude carriers M/T Downy off Kharg Island and M/T Stark 1 near Jask, and completely destroyed the unladen M/T Kylo ('Noxen') in the Gulf of Oman, directing its crew to abandon ship before multiple strikes rendered it inoperable. CENTCOM described the three vessels as part of a 'multibillion-dollar shadow network' funding the IRGC. Adm. Brad Cooper: \"If you shoot at two of our ships, we will impose an even higher economic cost — taking out three of yours. We will not hesitate to defend American forces, and if necessary, destroy Iran's limited and exposed oil fleet.\" Iran's IRGC Navy separately claimed to have targeted three tankers on an 'unauthorized route' and three US-affiliated vessels elsewhere — an unconfirmed Iranian claim. Iran's Khatam al-Anbiya central command warned that continued 'harassment' and naval blockade would trigger attacks 'more severe than before' with a 'possibility of their expansion.' Trump, by contrast, called the war 'small potatoes' and 'not a big thing,' saying the US has 'essentially' taken over Iran. Dubai crude jumped to near $100 a barrel, the highest since May, as Indian and Chinese refiners intensified spot-market purchases of Middle East crude, competing directly with South Korean and Japanese buyers. The Institute for the Study of War's Critical Threats Project assessed Iran has not achieved its core Hormuz objective and may be waiting for a more advantageous moment to escalate further, consistent with a New York Times report that US intelligence assesses Iran 'may be considering a significant escalation.' Separately, Qatar's Foreign Ministry issued the first Gulf-state rebuttal of Iran's claim that its strikes are purely defensive, citing UN-documented Iranian strikes on civilian and commercial sites in Qatar; Doha stressed it remains 'not party to the conflict' and continues mediating with Pakistan and Oman. Indian markets are closed for the weekend; Friday's close was Sensex 76,645.88 (+493.02, +0.65%), Nifty 23,937.90 (+64.45, +0.27%), snapping a four-day losing streak on Fed rate relief even as Brent/Dubai crude rose toward its strongest weekly gain since mid-July."
+    },
     {
       "d": "Sep 3-4",
       "e": "DAY 189 — A CORRECTION, A CONFIRMATION, AND A QUIET DIPLOMATIC TRACK. Iran's own Red Crescent Society revised the toll from the September 1 Sirik wedding strike sharply down: four people killed (two women, two children) and more than 60 wounded — a marked reduction from Foreign Ministry spokesperson Esmaeil Baqaei's earlier claim of 50+ casualties. CENTCOM's Capt. Tim Hawkins said the US military was \"looking into\" the reports without confirming a formal investigation. Vice President JD Vance told reporters he was \"extremely skeptical\" of the claim, citing Iranian state media's unreliable record through the conflict, and repeatedly declined to call the overall situation a \"war,\" saying the US would rely on its own tools rather than depend on Iran \"behaving responsibly.\" Separately, Saudi Arabia's national carrier Bahri confirmed two Filipino seafarers were killed when its tanker MV Sidr was struck transiting Hormuz on Monday night — independently verified casualties, distinct from either government's disputed claims. Iran struck Kuwait and Bahrain with drones for a second consecutive night; Kuwait's Ministry of Defense called it \"blatant Iranian aggression.\" Iran's army claimed a third night of attacks on bases used by US forces in Kuwait and the UAE, and disclosed its own losses from the September 1-2 exchange: four IRGC Aerospace Force personnel, two navy members, and one Basij militia member killed. Iran blacklisted 11 more ships, bringing its Hormuz blacklist to 56 vessels. Behind the public escalation, Reuters reported that senior Trump aides are working to prevent further escalation before the US midterm elections, with officials expected to weigh additional military action afterward; Special Envoy Steve Witkoff held a previously unannounced meeting with the UAE's national security adviser in Sardinia to discuss next steps, first reported by Axios. India's markets rallied sharply: the Sensex rose 504 points and the Nifty moved back above 23,900, as easing US bond-yield pressure and a tech-led Wall Street rally improved the global risk mood."
@@ -320,22 +324,28 @@
   ],
   "military": [
     {
+      "t": "Sep 5 — Iran fires on US carrier and destroyer; CENTCOM sinks and disables Iranian tankers",
+      "lv": "BREAKING",
+      "color": "red",
+      "d": "The IRGC launched ballistic missiles at a US aircraft carrier and guided-missile destroyer; both evaded the attacks and no American personnel were harmed. CENTCOM retaliated under a 'tanker for tanker' policy Trump approved earlier this month: US forces permanently disabled the crude carriers M/T Downy (off Kharg Island) and M/T Stark 1 (near Jask), and completely destroyed the unladen M/T Kylo ('Noxen') in the Gulf of Oman after directing its crew to abandon ship. Adm. Brad Cooper: \"If you shoot at two of our ships, we will impose an even higher economic cost — taking out three of yours.\""
+    },
+    {
+      "t": "Sep 5-6 — Iran threatens 'more severe' attacks; Trump calls the war 'small potatoes'",
+      "lv": "ACTIVE",
+      "color": "orange",
+      "d": "Iran's Khatam al-Anbiya central command warned that continued naval blockade and 'harassment' would trigger strikes 'more severe than before' with a 'possibility of their expansion.' Trump called the war 'small potatoes' and 'not a big thing,' saying the US has 'essentially' taken over Iran. Iran's IRGC Navy separately claimed to have targeted three tankers on an 'unauthorized route' and three US-affiliated vessels, unconfirmed by third parties."
+    },
+    {
+      "t": "Sep 5 — ISW/CTP: Iran hasn't achieved its Hormuz goal, may be waiting to escalate",
+      "lv": "ACTIVE",
+      "color": "orange",
+      "d": "The Institute for the Study of War's Critical Threats Project assessed the IRGC faction controlling decision-making is dissatisfied with the war's trajectory and intent on using military force to change it, consistent with a New York Times report that US intelligence assesses Iran 'may be considering a significant escalation.' ISW noted Iran hasn't achieved recognised Hormuz control and is struggling technically to target vessels after radar losses, and may be waiting for a more advantageous moment to drive oil prices up. Qatar separately issued the first Gulf-state rebuttal of Iran's 'defensive-only' framing, citing UN-documented strikes on Qatari civilian sites."
+    },
+    {
       "t": "Sep 3 — Iran's Red Crescent revises wedding-strike toll to 4 dead, down from 'fifty-plus'",
       "lv": "ACTIVE",
       "color": "orange",
       "d": "Iran's Red Crescent Society said shrapnel from a missile hit a home in Kuhestak, Sirik during a wedding, killing four people — two women and two children — and wounding more than 60, a sharp revision down from Foreign Ministry spokesperson Baqaei's earlier claim of 50+ casualties. CENTCOM said it was looking into the reports without confirming a formal investigation. Vance called himself 'extremely skeptical' of the claim, citing Iranian state media's unreliable record, and declined to call the conflict a 'war.'"
-    },
-    {
-      "t": "Sep 1-3 — Confirmed: two Filipino seafarers killed on Saudi tanker MV Sidr in Hormuz",
-      "lv": "ACTIVE",
-      "color": "red",
-      "d": "Saudi Arabia's national shipping company Bahri confirmed its tanker MV Sidr was attacked while transiting Hormuz on Monday night, killing two Filipino crew members — independently verified casualties, distinct from Iran's own, higher claim about the same incident. Saudi Arabia condemned the attack and other Iranian strikes on Gulf states."
-    },
-    {
-      "t": "Sep 2-3 — Iran strikes Kuwait, Bahrain across multiple nights; claims further UAE attacks",
-      "lv": "BREAKING",
-      "color": "red",
-      "d": "Iran targeted Kuwait and Bahrain with drones for a second consecutive night; Kuwait's Ministry of Defense called it 'blatant Iranian aggression.' Iran's army claimed a third night of attacks on bases used by US forces in Kuwait and the UAE, and disclosed its own losses from the Sept 1-2 exchange: 4 IRGC Aerospace Force, 2 navy and 1 Basij member killed. Iran blacklisted 11 more ships, bringing its Hormuz blacklist to 56 vessels."
     },
     {
       "t": "Sep 1 — CENTCOM completes a broad wave of strikes across Iran",
@@ -348,12 +358,6 @@
       "lv": "ACTIVE",
       "color": "orange",
       "d": "Iran's IRNA claimed the IRGC struck Jordan's Prince Hassan Air Base, targeting drone hangars and claiming pilot deaths, and hit Bahrain's Sheikh Isa base with drones — neither confirmed by Jordanian, Bahraini or US sources. The IRGC warned its \"offensive operation will continue,\" and Trump warned Iran would be hit \"harder\" if it retaliates further. At the G20, Bessent said Hormuz will be economically \"worthless\" within two years as pipelines bypass it."
-    },
-    {
-      "t": "Aug 30 — US strikes Iranian rocket launchers on Larak Island, first action in a month",
-      "lv": "BREAKING",
-      "color": "red",
-      "d": "US forces struck two Iranian rocket launchers on Larak Island in the Strait of Hormuz on Sunday, breaking a month-long lull. US Central Command's Captain Tim Hawkins said the IRGC was observed preparing to launch rockets carrying sea mines into the waterway, an imminent threat — days after the US had declared the strait's shipping routes cleared of mines. Iranian state media reported explosions near Larak Island and confirmed casualties among Iranian forces and civilians; the IRGC called the strike \"a strategic and deadly mistake\" and vowed retaliation."
     }
   ],
   "nukes": [
@@ -482,7 +486,7 @@
     {
       "axis": "Oil Shock",
       "w1": 60,
-      "now": 80,
+      "now": 90,
       "w4": 52
     },
     {
@@ -500,7 +504,7 @@
     {
       "axis": "Hormuz Closure",
       "w1": 80,
-      "now": 83,
+      "now": 86,
       "w4": 55
     },
     {
@@ -524,13 +528,13 @@
     {
       "axis": "Mil. Exposure",
       "w1": 35,
-      "now": 96,
+      "now": 98,
       "w4": 58
     }
   ],
   "assessment": {
-    "headline": "Iran's own Red Crescent has cut the wedding-strike toll from 'fifty-plus' to four, a Saudi tanker's two dead sailors are independently confirmed, and Reuters reports Trump's own aides are quietly trying to prevent further escalation before the midterms — even as Iran strikes three Gulf states in three nights.",
-    "body": "WHAT HAPPENED\nIran's Red Crescent revised the September 1 Sirik wedding-strike toll down to four dead and 60+ wounded, a sharp reduction from the Foreign Ministry's initial 50+ claim; Vance said he's \"extremely skeptical\" of it. Separately, Saudi Arabia confirmed two Filipino seafarers killed on its tanker MV Sidr — real, verified casualties. Iran struck Kuwait and Bahrain with drones two nights running and claims a third round on Kuwait and the UAE, while adding 11 ships to its blacklist. Reuters reports Trump's aides are working to avoid further escalation before the midterms, with Envoy Witkoff holding quiet UAE talks in Sardinia.\n\nWHY IT MATTERS FOR INDIA\nIndia's markets are rallying today, but on a global catalyst — easing US bond yields, a tech-led Wall Street rebound — not on any actual improvement in the Hormuz situation. That distinction matters: today's Sensex gain shouldn't be read as the market pricing in de-escalation. The revised wedding-toll figures are a reminder to treat single-day casualty claims from either side with real caution, while the confirmed Saudi tanker deaths are a reminder that verified harm is still accumulating regardless of the disputed claims.\n\nTHE THING TO WATCH\nWhether the political constraint Reuters reports — Trump aides wanting to avoid escalation before the midterms — actually holds against Iran's continued multi-night strikes on Gulf states. If the administration is genuinely trying to manage this down until after the elections, that's a real, if cynical, brake on the war's trajectory over the coming weeks. If Iran's strikes on Kuwait, Bahrain and the UAE continue or widen, that political calculus could break down faster than planned."
+    "headline": "The US sank an Iranian oil tanker for the first time after Iran fired on a US aircraft carrier. Iran threatens 'more severe' attacks. Dubai crude is back near $100 — its highest since May — and India's markets haven't had a chance to react yet.",
+    "body": "WHAT HAPPENED\nThe IRGC fired ballistic missiles at a US aircraft carrier and destroyer; both evaded, no Americans hurt. CENTCOM retaliated under a 'tanker for tanker' policy, destroying the tanker M/T Kylo and disabling two more. Adm. Cooper warned of a 3-for-2 cost multiplier for future attacks. Iran's Khatam al-Anbiya command threatened 'more severe' strikes and possible 'expansion'; Trump called the war 'small potatoes.' ISW/CTP assesses Iran hasn't achieved its Hormuz goal and may be waiting for a better moment to escalate further — a materially different read than 'Iran is running out of options.'\n\nWHY IT MATTERS FOR INDIA\nDubai crude's jump to near $100 is not a future risk — Indian refiners are reportedly already competing for spot cargoes at these levels, meaning the cost is landing now. Every market data point this tracker has for India predates this weekend's escalation; Friday's rally reflected Fed relief, not Hormuz calm. Monday's session is the first genuine test of how India's markets price a US-Iran exchange that has moved from mines and rhetoric to actually sinking a tanker.\n\nTHE THING TO WATCH\nWhether Iran's 'more severe' threat is rhetoric consistent with six months of escalatory language, or the start of the 'significant escalation' US intelligence is reportedly watching for. ISW's read — that Iran may be waiting for a more advantageous moment rather than lacking capability — is the more concerning interpretation, because it implies the current lull in Iranian capability is tactical, not structural. If Iran's response to losing three tankers is measured, that supports the market's habitual discounting of Hormuz rhetoric; if it isn't, this weekend may be remembered as the moment the war's character genuinely changed."
   },
   "featured": [
     {
@@ -1339,22 +1343,32 @@
       "d": 189,
       "l": "Sep 4",
       "deaths": 7199,
-      "brent": 92.0,
-      "nifty": 24065.5,
+      "brent": 96.0,
+      "nifty": 23910.9,
       "rupee": 94.91,
-      "tag": "(10AM IST): Iran's Red Crescent revised the Sept 1 Sirik wedding-strike toll down to 4 dead (2 women, 2 children) and 60+ wounded, from the Foreign Ministry's earlier claim of 50+ casualties; Vance called himself 'extremely skeptical.' Saudi Arabia confirmed 2 Filipino seafarers killed on its tanker MV Sidr in Hormuz — independently verified. Iran struck Kuwait and Bahrain with drones for a second night, claimed a third round on Kuwait and the UAE, disclosed 7 of its own military dead from Sept 1-2, and blacklisted 11 more ships (56 total). Reuters: Trump aides are working to avoid further escalation before the US midterms; Envoy Witkoff held quiet UAE talks in Sardinia. INDIA: Sensex +504 points, Nifty back above 23,900, GIFT Nifty +133 to 24,065.50 — a rally driven by easing US bond yields and a tech-led Wall Street rebound, not local Hormuz improvement.",
+      "tag": "(10:45AM IST): Iran's Red Crescent revised the Sept 1 Sirik wedding-strike toll down to 4 dead (2 women, 2 children) and 60+ wounded, from the Foreign Ministry's earlier claim of 50+ casualties; Vance called himself 'extremely skeptical.' Saudi Arabia confirmed 2 Filipino seafarers killed on its tanker MV Sidr in Hormuz — independently verified. Iran struck Kuwait and Bahrain with drones for a second night, claimed a third round on Kuwait and the UAE, disclosed 7 of its own military dead from Sept 1-2, and blacklisted 11 more ships (56 total). Reuters: Trump aides are working to avoid further escalation before the US midterms; Envoy Witkoff held quiet UAE talks in Sardinia. INDIA: Sensex opened +504.16 (+0.66%) to 76,657.02, snapping a 4-day losing streak, Nifty +37.45 to 23,910.90 — on easing US rate-hike fears (Fed's Waller), not on any Hormuz improvement. Brent traded near $96, on track for its strongest weekly rise since mid-July.",
       "sev": 4
+    },
+    {
+      "d": 191,
+      "l": "Sep 6",
+      "deaths": 7199,
+      "brent": 100.0,
+      "nifty": 23937.9,
+      "rupee": 94.91,
+      "tag": "(11AM IST, WEEKEND): Iran fired ballistic missiles at a US aircraft carrier and destroyer; both evaded, no Americans hurt. CENTCOM retaliated under a 'tanker for tanker' policy: destroyed tanker M/T Kylo, permanently disabled M/T Downy and M/T Stark 1 — the most direct US strike on Iran's oil fleet of the war. Adm. Cooper warned of a 3-for-2 cost multiplier for future attacks. Iran's Khatam al-Anbiya command threatened 'more severe' attacks and possible expansion; Trump called the war 'small potatoes.' Dubai crude jumped to near $100, highest since May, as Indian and Chinese refiners compete for spot cargoes. ISW/CTP assesses Iran hasn't achieved its Hormuz goal and may be waiting for a better moment to escalate. Qatar issued the first Gulf rebuttal of Iran's 'defensive-only' claim. INDIA: markets closed for the weekend; Friday's close was Sensex 76,645.88 (+493.02, +0.65%), Nifty 23,937.90 (+64.45, +0.27%), snapping a 4-day losing streak on Fed relief, before this weekend's escalation.",
+      "sev": 5
     }
   ],
   "exec": {
     "level": "SEVERE",
-    "phase": "Iran's own Red Crescent revises the wedding toll down; Kuwait, Bahrain, UAE struck repeatedly; Sensex rallies on a global, not local, catalyst",
-    "oilNote": "Markets rallying on easing US bond yields rather than any Hormuz de-escalation. Iran struck Gulf states for a third consecutive night this week; the underlying military situation remains unresolved.",
-    "shipping": "IRAN STRIKES KUWAIT, BAHRAIN AND UAE ACROSS THREE CONSECUTIVE NIGHTS",
-    "shippingSub": "Iran blacklisted 11 more ships (56 total). A Saudi tanker's two Filipino crew deaths are independently confirmed by Bahri, distinct from the disputed Iranian government wedding-strike claim.",
-    "military": "RED CRESCENT REVISES WEDDING TOLL: 4 DEAD, DOWN FROM 'FIFTY-PLUS'",
-    "militarySub": "Vance calls himself 'extremely skeptical' of the claim. Reuters: Trump aides are working to avoid further escalation before the US midterms; Envoy Witkoff held quiet UAE talks in Sardinia.",
-    "indiaSub": "Sensex +504 points, Nifty back above 23,900, on a global bond-yield reprieve and tech-led Wall Street rally — not on any local Hormuz improvement."
+    "phase": "Iran fires on two US warships; CENTCOM sinks and disables Iranian tankers for the first time",
+    "oilNote": "Dubai crude jumped to near $100, highest since May, as India and China's refiners compete for spot cargoes. Markets are closed for the weekend; Monday is the first real test of this escalation.",
+    "shipping": "CENTCOM DESTROYS TANKER M/T KYLO, DISABLES TWO MORE — 'TANKER FOR TANKER' POLICY",
+    "shippingSub": "The most direct US strike on Iran's oil fleet of the war, in retaliation for Iran firing missiles at a US carrier and destroyer. Adm. Cooper: a 3-for-2 economic cost multiplier for any future attack.",
+    "military": "IRAN THREATENS 'MORE SEVERE' ATTACKS; ISW SAYS IRAN MAY BE WAITING TO ESCALATE FURTHER",
+    "militarySub": "Trump calls the war 'small potatoes.' ISW/CTP: Iran hasn't achieved its Hormuz goal and may be biding its time. Qatar issues the first Gulf rebuttal of Iran's 'defensive-only' claim.",
+    "indiaSub": "Markets closed for the weekend after Friday's 493-point Sensex rally. Monday's open is the first real test of the weekend's tanker-strike escalation and Dubai crude's jump toward $100."
   },
   "hormuzPhases": [
     {
@@ -1403,7 +1417,7 @@
       "days": "Aug 26-"
     }
   ],
-  "_phaseBadge": "Iran's Red Crescent revised the Sirik wedding-strike toll down to 4 killed and 60+ wounded, from the Foreign Ministry's earlier claim of 50+ casualties; Vance called himself \"extremely skeptical\" of the strike being deliberately targeted · Saudi Arabia confirmed 2 Filipino seafarers killed when its tanker MV Sidr was attacked in Hormuz · Iran struck Kuwait and Bahrain with drones for a second night, then claimed further attacks on Kuwait and the UAE a third night · Reuters: Trump aides are trying to avoid further escalation before the US midterms · Indian markets are rallying, Sensex +504 points, as Wall Street's bond-yield pressure eases",
+  "_phaseBadge": "Iran fired ballistic missiles at a US aircraft carrier and guided-missile destroyer; both evaded, no Americans hurt · CENTCOM retaliated by destroying the tanker M/T Kylo and permanently disabling M/T Downy and M/T Stark 1 — among the most direct US strikes on Iran's oil fleet of the entire war · Dubai crude jumped to near $100, highest since May, as Indian and Chinese refiners compete for spot cargoes · ISW/CTP assesses Iran hasn't achieved its core Hormuz goal and may be waiting for a more advantageous moment to escalate · Qatar issued the first Gulf-state rebuttal of Iran's 'defensive-only' framing, citing documented strikes on civilian sites",
   "budget": {
     "petrolPre": 94.72,
     "petrolNow": 111.21,
@@ -1413,12 +1427,12 @@
     "lpgNow": 942.0
   },
   "brief": [
-    "Iran's own Red Crescent Society has revised the toll from the September 1 Sirik wedding strike sharply down — four people killed, more than 60 wounded — from the Foreign Ministry's initial claim of 50+ casualties. CENTCOM says it's \"looking into\" the reports; Vice President Vance called himself \"extremely skeptical\" of the claim and declined to call the broader situation a \"war.\"",
-    "A separate, independently confirmed casualty count arrived this week: Saudi Arabia's Bahri confirmed two Filipino seafarers were killed when its tanker MV Sidr was attacked in Hormuz on Monday — real losses distinct from either government's disputed claims. Iran has kept up pressure regardless, striking Kuwait and Bahrain with drones two nights running and claiming a third round on Kuwait and the UAE, while adding 11 more ships to its Hormuz blacklist.",
-    "Behind the public escalation, Reuters reports senior Trump aides are trying to prevent things going further before the US midterm elections, with more military action possible afterward. Special Envoy Witkoff held a previously unannounced meeting with the UAE's national security adviser in Sardinia to discuss next steps — a quiet diplomatic track running in parallel with the public strikes.",
-    "India's markets are rallying — Sensex +504 points, Nifty back above 23,900 — but on a global catalyst (easing US bond yields, a tech-led Wall Street rally) rather than any actual Hormuz de-escalation. At the pump, prices remain unchanged: petrol ₹111.21 a litre in Delhi, diesel ₹97.83, a cylinder ₹942."
+    "Saturday marked the most direct US strike yet on Iran's actual oil infrastructure. After the IRGC fired ballistic missiles at a US aircraft carrier and destroyer — both evaded, no Americans hurt — CENTCOM retaliated under a 'tanker for tanker' policy Trump approved earlier this month: it destroyed the tanker M/T Kylo entirely and permanently disabled two more, M/T Downy and M/T Stark 1. Adm. Brad Cooper's warning was explicit: any future attack on US vessels would cost Iran three tankers for every two US ships targeted.",
+    "Iran's Khatam al-Anbiya command threatened 'more severe' attacks and possible 'expansion' in response, even as Trump dismissed the whole war as 'small potatoes.' The Institute for the Study of War's Critical Threats Project offers the most useful frame: Iran hasn't achieved its core goal of recognised Hormuz control, is struggling technically to target ships after losing coastal radar coverage, and may be waiting for a more advantageous moment to escalate rather than lacking the will to do so — consistent with a New York Times report that US intelligence assesses Iran 'may be considering a significant escalation.'",
+    "The market signal is already here: Dubai crude jumped to near $100 a barrel, its highest since May, as Indian and Chinese refiners compete directly with South Korean and Japanese buyers for spot cargoes. Separately, Qatar issued the first Gulf-state rebuttal of Iran's claim that its strikes are purely defensive, citing UN-documented Iranian strikes on Qatari civilian and commercial sites.",
+    "India's markets are closed for the weekend; Friday's close (Sensex +493, Nifty +64) came before Saturday's escalation and reflected Fed rate relief, not any Hormuz improvement. Monday's open is the first real test of whether markets treat this tanker-sinking as a genuine escalation or another episode to look past. At the pump, prices remain unchanged: petrol ₹111.21 a litre in Delhi, diesel ₹97.83, a cylinder ₹942."
   ],
-  "shareLine": "Iran's own Red Crescent cuts the wedding-strike toll from 'fifty-plus' to four. A Saudi tanker's two dead sailors are independently confirmed. And Reuters reports Trump's own aides are quietly trying to stop this escalating further before the midterms — even as Iran strikes three Gulf states in three nights.",
+  "shareLine": "The US just sank an Iranian oil tanker for the first time, after Iran fired on a US aircraft carrier. Iran threatens 'more severe' attacks. Dubai crude is back near $100 — its highest since May — and India's markets get their first chance to react on Monday.",
   "author": {
     "name": "Nithiyanandam Yogeswaran",
     "twitter": "https://x.com/prof_nithiya",
